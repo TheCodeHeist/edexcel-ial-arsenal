@@ -1,16 +1,17 @@
 <script lang="ts">
   /* Search + subject filter over every tool. Server-rendered with all tools showing, then hydrated (client:load). */
-  import { onMount, tick } from 'svelte';
+  import { tick } from 'svelte';
   import type { Tool } from '../data/tools';
   import { SUBJECTS } from '../data/subjects';
   import ToolCard from './ToolCard.svelte';
-  import { indicators } from '../scripts/ui';
+  import Seg from './ui/Seg.svelte';
+  import { enter } from '../lib/motion';
 
   let { tools }: { tools: Tool[] } = $props();
   let q = $state('');
   let subject = $state<'all' | Tool['subject']>('all');
   let grid: HTMLElement;
-  let seg: HTMLElement;
+  const options = [['all', 'All'] as const, ...SUBJECTS.map((s) => [s.id, s.short] as const)];
 
   const shown = $derived.by(() => {
     const words = q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -22,15 +23,7 @@
   });
 
   // Cards stagger in only when the list is redrawn by a filter change (design book §6).
-  async function redraw() {
-    await tick();
-    if (!grid) return;
-    grid.classList.remove('enter'); void grid.offsetWidth; grid.classList.add('enter');
-    clearTimeout((grid as any)._t); (grid as any)._t = setTimeout(() => grid.classList.remove('enter'), 1200);
-  }
-  function pick(s: typeof subject) { if (s === subject) return; subject = s; redraw(); }
-
-  onMount(() => indicators(seg.parentElement!));
+  async function redraw() { await tick(); enter(grid); }
 </script>
 
 <div class="section-h">
@@ -44,12 +37,7 @@
       <span class="sr-only">Search tools</span>
       <input type="search" placeholder="Search tools, topics, units…" bind:value={q} oninput={redraw} />
     </label>
-    <div class="seg" role="group" aria-label="Subject" bind:this={seg}>
-      <button type="button" aria-pressed={subject === 'all'} onclick={() => pick('all')}>All</button>
-      {#each SUBJECTS as s}
-        <button type="button" aria-pressed={subject === s.id} onclick={() => pick(s.id)}>{s.short}</button>
-      {/each}
-    </div>
+    <Seg label="Subject" {options} bind:value={subject} onchange={redraw} />
   </div>
 </div>
 
@@ -59,7 +47,7 @@
   {/each}
 </div>
 {#if shown.length === 0}
-  <div class="panel empty">
+  <div class="panel empty-state">
     <h3>Nothing matches yet</h3>
     <p>{subject === 'all' ? 'Try a different word, or clear the search.' : `No ${SUBJECTS.find((s) => s.id === subject)?.name} tool matches. More are on the way.`}</p>
   </div>

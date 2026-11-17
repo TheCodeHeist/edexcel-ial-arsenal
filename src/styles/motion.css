@@ -1,0 +1,75 @@
+/* Motion: subtle and calm (design book §6). Everything here is off under prefers-reduced-motion. */
+
+@keyframes rise{from{opacity:0;transform:translateY(10px) scale(.99)}to{opacity:1;transform:none}}
+@keyframes popin{from{opacity:0;transform:translateY(-6px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes fadeSwap{from{opacity:.25;transform:translateY(5px);filter:blur(2px)}to{opacity:1;transform:none;filter:none}}
+@keyframes viewIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+@keyframes okpulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 55%,transparent)}100%{box-shadow:0 0 0 10px transparent}}
+@keyframes shake{0%,100%{transform:none}20%{transform:translateX(-5px)}40%{transform:translateX(4px)}60%{transform:translateX(-3px)}80%{transform:translateX(2px)}}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes slidein{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+@keyframes labIn{from{opacity:0;scale:.85}to{opacity:1;scale:1}}
+@keyframes flash{from{background:var(--accent-soft)}to{background:transparent}}
+@keyframes wobble{0%,100%{transform:rotate(0)}30%{transform:rotate(-7deg)}65%{transform:rotate(5deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* first load: the header, status line and main blocks rise in (html.booting, ~1.5s) */
+.booting .top,.booting .statusbar{animation:rise .7s var(--ease-out) backwards}
+.booting .rise{animation:rise .75s var(--ease-out) backwards;animation-delay:calc(.08s + var(--i,0) * 60ms)}
+.booting .layout>.panel{animation:rise .75s var(--ease-out) backwards}
+.booting .layout>.panel:nth-child(1){animation-delay:.06s}
+.booting .layout>.panel:nth-child(2){animation-delay:.12s}
+.booting .layout>.panel:nth-child(3){animation-delay:.18s}
+
+/* switching views: one short crossfade, no blur, no re-staggering */
+.view-in{animation:viewIn .32s cubic-bezier(.25,.6,.3,1) backwards}
+.sb-l.view-in{animation-duration:.28s}
+
+/* lists stagger in only when redrawn by a filter change (.enter on the container, --i on each child) */
+.enter .card,.enter .at,.enter .rx,.enter .flow{animation:rise .5s var(--ease-out) backwards;animation-delay:calc(var(--i,0) * 28ms)}
+.enter .fbox{animation:rise .45s var(--ease-out) backwards;animation-delay:calc(var(--bi,0) * 40ms)}
+.fcanvas path.e{stroke-dasharray:1}
+.enter .fcanvas path.e{animation:draw .8s var(--ease-out) backwards;animation-delay:calc(.15s + var(--i,0) * 70ms)}
+.enter .elab{animation:labIn .45s var(--ease-out) backwards;animation-delay:calc(.45s + var(--i,0) * 70ms)}
+
+/* panels that swap content */
+.entry.fresh{animation:slidein .45s var(--ease-out),flash 1.2s ease}
+.swap{animation:fadeSwap .45s var(--ease-out)}
+.ask:not([hidden]){animation:popin .32s var(--spring)}
+.theme-pop{animation:popin .3s var(--spring);transform-origin:top right}
+.qz{animation:fadeSwap .35s var(--ease-out)}
+
+/* answer feedback: right pulses, wrong shakes */
+.opts button.right,.qz button.right,.idgrid button.right{animation:okpulse .7s ease-out}
+.opts button.wrong,.qz button.wrong,.idgrid button.wrong{animation:shake .42s ease}
+
+/* tactile controls: press = scale .96; hover lifts only where hovering exists */
+.btn,.fchip,.tp-row,.theme-btn,.seg button,.subtabs button,.card,.subject,.reagent,.bottle,.opts button,.qz button,.idgrid button,.fbox{
+  transition:transform .3s var(--spring),background-color .25s,border-color .25s,box-shadow .3s,color .25s,opacity .25s}
+.btn:active:not(:disabled),.fchip:active,.tp-row:active,.theme-btn:active,.seg button:active,.reagent:active:not(:disabled),.bottle:active,
+.opts button:active:not(:disabled),.qz button:active:not(:disabled),.idgrid button:active:not(:disabled){transform:scale(.96)}
+.card:active,.subject:active{transform:scale(.98)}
+@media (hover:hover){
+  .btn:hover:not(:disabled),.theme-btn:hover{transform:translateY(-1px)}
+  .reagent:hover:not(:disabled){transform:translateY(-2px);box-shadow:inset 0 1px 0 var(--hl),0 10px 22px -12px var(--shadow)}
+  .fbox:hover{transform:translateY(-2px);box-shadow:inset 0 1px 0 var(--hl),0 14px 28px -12px var(--shadow)}
+  .bottle:hover .flask{animation:wobble .6s ease}
+  .reagent:hover .dot{transform:scale(1.3)}
+  .theme-btn .dots i{transition:transform .35s var(--spring)}
+  .theme-btn:hover .dots i{transform:translateY(-2px)}
+  .theme-btn:hover .dots i:nth-child(2){transition-delay:.03s}
+  .theme-btn:hover .dots i:nth-child(3){transition-delay:.06s}
+  .theme-btn:hover .dots i:nth-child(4){transition-delay:.09s}
+}
+.dot{transition:transform .3s var(--spring)}
+
+/* page-to-page transitions on the hub (cross-document view transitions; other browsers just navigate) */
+::view-transition-group(tab-ind){animation-duration:.45s;animation-timing-function:var(--spring)}
+::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+.theming *{view-transition-name:none!important}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .aurora i{animation:none}
+  .fcanvas path.e{stroke-dasharray:none}
+}

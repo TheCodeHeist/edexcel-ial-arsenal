@@ -1,0 +1,48 @@
+/* Design tokens (design book §3, §4). Every colour on the site is one of these variables; never hard-code a hex in a
+   page or component, or the palette switcher breaks. The six palettes × light/dark are in palettes.css. */
+
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+@import "./palettes.css";
+
+:root{
+  /* first-paint default (Catppuccin Latte); the palette rules take over as soon as data-palette is set */
+  --bg:#eff1f5; --surf:#ffffff; --ink:#4c4f69; --muted:#6c6f85; --line:#ccd0da;
+  --accent:#1e66f5; --accent-ink:#ffffff;
+  --redox:#d20f39; --ligand:#8839ef; --acidbase:#40a02b; --amph:#df8e1d; --cond:#ea76cb;
+  --b1:#7287fd; --b2:#ea76cb; --b3:#179299;
+  --hl:rgba(255,255,255,.75); --shadow:rgba(76,79,105,.14); --sheen:rgba(255,255,255,.55);
+  --f-display:'PT Serif',Georgia,'Times New Roman',serif;
+  --f-body:'Geist',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
+  --r-xl:20px; --r-lg:15px; --r-md:11px; --r-sm:8px;
+  --spring:cubic-bezier(.34,1.45,.55,1); --ease-out:cubic-bezier(.2,.75,.2,1);
+  --ctl:44px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-palette]){
+    --bg:#1e1e2e; --surf:#313244; --ink:#cdd6f4; --muted:#a6adc8; --line:#45475a;
+    --accent:#89b4fa; --accent-ink:#1e1e2e;
+    --redox:#f38ba8; --ligand:#cba6f7; --acidbase:#a6e3a1; --amph:#f9e2af; --cond:#f5c2e7;
+    --b1:#cba6f7; --b2:#89b4fa; --b3:#f5c2e7;
+    --hl:rgba(255,255,255,.09); --shadow:rgba(0,0,0,.38); --sheen:rgba(255,255,255,.05); color-scheme:dark;
+  }
+}
+/* squircle radii where supported (pills stay fully round) */
+@supports (corner-shape: squircle){ :root{ --r-xl:30px; --r-lg:22px; --r-md:16px; --r-sm:12px; } }
+
+/* derived with color-mix, never stored per palette */
+:root, :root[data-mode]{
+  --panel:color-mix(in srgb, var(--surf) 58%, transparent);
+  --raised:color-mix(in srgb, var(--surf) 80%, transparent);
+  --solid:color-mix(in srgb, var(--surf) 92%, var(--bg));
+  --rim:color-mix(in srgb, var(--ink) 13%, transparent);
+  --accent-soft:color-mix(in srgb, var(--accent) 16%, transparent);
+  --good:var(--acidbase); --bad:var(--redox);
+  /* the white tile stays light in every theme so test-tube colours read true (§9) */
+  --tile:color-mix(in srgb, var(--accent) 5%, #f7f8fa); --tile-grid:color-mix(in srgb, var(--accent) 14%, #dde2e8); --tube-line:#7f8e97;
+  --tile-ink:#3a4950; --tile-muted:#6d7b82;
+  --hatch:repeating-linear-gradient(45deg,#c9d2d6 0 6px,#dbe2e5 6px 12px); --hatch-ink:#33424a;
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  :root{--panel:color-mix(in srgb,var(--surf) 94%,var(--bg))}
+}

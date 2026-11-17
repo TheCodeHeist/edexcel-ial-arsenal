@@ -32,7 +32,7 @@ const codes = `${s.units[0].code}–${s.units.at(-1)!.code}`;
         {tools.map((tool, i) => <div class="rise" style={`--i:${i}`}><ToolCard tool={tool} i={i} /></div>)}
       </div>
     ) : (
-      <div class="panel empty rise">
+      <div class="panel empty-state rise">
         <h3>Nothing here yet</h3>
         <p>{s.name} tools are being built. The unit map below shows what the site will cover.</p>
       </div>

@@ -35,7 +35,6 @@ export const TOOLS: Tool[] = [
     topics: ['Transition metals', 'Ligand exchange', 'Redox'],
     art: 'tube',
     href: '/chemistry/d-block-colour-bench/',
-    standalone: true,
     added: '2026-11-17',
   },
   {

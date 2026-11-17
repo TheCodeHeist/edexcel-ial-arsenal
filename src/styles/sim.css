@@ -1,0 +1,144 @@
+/* Simulation building blocks shared by every simulation: panels, the white tile, mini test tubes and swatches, the
+   lab notebook, reaction cards, flowcharts, the predict overlay and self-test (design book §4, §8, §9).
+   A simulation's own layout lives next to its components (src/sims/<name>/<name>.css). */
+
+@import "./tokens.css";
+@import "./base.css";
+@import "./controls.css";
+@import "./motion.css";
+
+body.sim{padding-bottom:40px}
+
+/* ===== Panels ===== */
+.ph{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 14px 6px}
+.ph h2{font:700 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0}
+.atlas-head{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;margin-bottom:14px}
+.atlas-head p{margin:0;color:var(--muted);max-width:62ch}
+.empty{color:var(--muted);padding:20px 0}
+
+/* ===== White tile, test tubes, swatches (the tile stays light in every theme) ===== */
+.tile{position:relative;border-radius:var(--r-md);overflow:hidden;border:1px solid var(--rim);box-shadow:inset 0 2px 8px rgba(0,0,0,.06);
+  background-color:var(--tile);background-image:linear-gradient(var(--tile-grid) 1px,transparent 1px),linear-gradient(90deg,var(--tile-grid) 1px,transparent 1px);
+  background-size:48px 48px;background-position:-1px -1px}
+.mini{width:24px;height:70px;border:1.5px solid var(--tube-line);border-top-width:0;border-radius:2px 2px 12px 12px;position:relative;overflow:hidden;background:linear-gradient(to top,var(--c) 0 64%,transparent 64%)}
+.mini i{position:absolute;left:0;right:0;bottom:0;height:24%;background:radial-gradient(circle,var(--p) 1.5px,transparent 1.9px) 0 0/4px 4px,linear-gradient(var(--p),var(--p));opacity:.95}
+.sw{width:18px;height:18px;border-radius:50%;flex:none;border:1px solid rgba(0,0,0,.2);background:var(--c)}
+.sw.ppt{background:radial-gradient(circle,var(--p) 1.6px,transparent 2px) 0 0/5px 5px,var(--c)}
+.look{display:flex;align-items:center;gap:8px;font-weight:700;margin:0 0 8px}
+/* the hatched "?" that hides an answer in self-test */
+.q{display:none;position:absolute;inset:6px;border-radius:6px;background:var(--hatch);color:var(--hatch-ink);font:800 22px/1 var(--f-display);place-items:center}
+
+/* ===== Lab notebook ===== */
+.log{list-style:none;margin:0;padding:0}
+.entry{padding:12px 16px;border-bottom:1px dashed var(--line)}
+.entry:last-child{border-bottom:0}
+.e-head{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:6px}
+.e-n{font:600 11px/1 var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.e-r{font-weight:700;font-size:14px}
+.e-r em{font-style:normal;font-weight:400;color:var(--muted)}
+.e-look{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:15px}
+.badge{font:600 10.5px/1 var(--f-mono);letter-spacing:.07em;text-transform:uppercase;padding:4px 7px;border-radius:999px;border:1px solid currentColor;margin-left:auto}
+.badge.redox{color:var(--redox)} .badge.ligand{color:var(--ligand)} .badge.acidbase{color:var(--acidbase)} .badge.amph{color:var(--amph)}
+.badge.cond{color:var(--cond)} .badge.accent{color:var(--accent)} .badge.none{color:var(--muted)}
+.eq{background:color-mix(in srgb,var(--ink) 6%,transparent);border-radius:var(--r-sm);padding:8px 10px;overflow-x:auto;white-space:nowrap;font:13.5px/1.5 var(--f-mono);margin-bottom:6px}
+.why{margin:0;font-size:13.5px;color:var(--muted);max-width:62ch}
+
+/* ===== Reaction cards (family colour on the left edge) ===== */
+.rxbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.rcount{font:600 12px/1 var(--f-mono);color:var(--muted);margin:0;font-variant-numeric:tabular-nums}
+.rxgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(460px,100%),1fr));gap:10px}
+.rx{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;padding:12px;min-width:0;position:relative;overflow:hidden}
+.rx::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3.5px;border-radius:0 4px 4px 0;background:var(--tc)}
+.rx.redox{--tc:var(--redox)} .rx.ligand{--tc:var(--ligand)} .rx.acidbase{--tc:var(--acidbase)} .rx.amph{--tc:var(--amph)} .rx.cond{--tc:var(--cond)} .rx.accent{--tc:var(--accent)}
+.rx-vis{display:flex;align-items:center;gap:6px;background:var(--tile);border-radius:var(--r-md);padding:8px 10px;align-self:start;position:relative}
+.rx-vis .slot{position:relative;display:grid;place-items:center}
+.rx-vis .slot .q{inset:-4px;font-size:20px}
+.rx-arrow{display:flex;flex-direction:column;align-items:center;gap:3px;font:700 10.5px/1.15 var(--f-mono);color:var(--tile-ink);text-align:center;width:58px}
+.rx-arrow svg{display:block}
+.rx-arrow small{font-weight:600;color:var(--tile-muted);font-size:9.5px}
+.rx-body{min-width:0;display:flex;flex-direction:column;gap:6px}
+.rx-top{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.rx-top .e-r{font-size:14.5px}
+.rx-looks{font-size:13.5px;margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px}
+.rx-looks .to{font-weight:700}
+.to-sw{display:inline-flex}
+.rx .eq{margin:0}
+.rx .why{font-size:13px}
+.rx-run{align-self:flex-start;margin-top:2px}
+@media (max-width:520px){ .rx{grid-template-columns:minmax(0,1fr)} .rx-vis{justify-self:start} }
+
+/* ===== Flowcharts ===== */
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 12px;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:26px;height:0;border-top:2.5px solid var(--lc);position:relative}
+.legend i::after{content:"";position:absolute;right:-1px;top:-5.5px;border:4px solid transparent;border-left:6px solid var(--lc)}
+.flows{display:flex;flex-direction:column;gap:14px}
+.flow{padding:14px 0 6px}
+.flow-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;padding:0 16px 4px}
+.flow-h h3{font:750 22px/1 var(--f-display);margin:0}
+.flow-tip{margin:0 16px 8px;font-size:13px;color:var(--muted);max-width:75ch}
+.flow-tip b{color:var(--ink)}
+.scroll-hint{display:none;margin:0 16px 8px;font:600 10.5px/1.2 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.flow.scrolls .scroll-hint{display:block}
+.flow-scroll{overflow-x:auto;padding:0 16px 8px;scrollbar-width:thin}
+.fsizer{position:relative;margin:0 auto}
+.fcanvas{position:absolute;left:0;top:0;transform-origin:0 0}
+.fcanvas svg{position:absolute;inset:0;overflow:visible}
+.fcanvas path.e{fill:none;stroke-width:2.2;transition:opacity .2s}
+.fbox{position:absolute;display:grid;grid-template-columns:30px minmax(0,1fr);gap:9px;align-items:center;background:var(--solid);border:1.5px solid var(--rim);border-radius:var(--r-md);
+  padding:6px 9px 6px 7px;text-align:left;box-shadow:inset 0 1px 0 var(--hl),0 8px 20px -10px var(--shadow)}
+.fbox .fsw{width:30px;height:48px;background:var(--tile);border-radius:6px;display:grid;place-items:center;position:relative}
+.fbox .mini{width:16px;height:40px;border-radius:2px 2px 8px 8px}
+.fbox .q{inset:0;font-size:16px;background:repeating-linear-gradient(45deg,#c9d2d6 0 5px,#dbe2e5 5px 10px)}
+.fbox .ff{font-weight:700;font-size:13px;line-height:1.2;overflow-wrap:normal}
+.fbox .fl{display:block;font-size:11.5px;line-height:1.2;color:var(--muted);margin-top:2px}
+.fbox .fo{position:absolute;top:-9px;right:8px;font:600 10.5px/1 var(--f-mono);background:var(--ink);color:var(--bg);padding:3px 6px;border-radius:999px;font-variant-numeric:tabular-nums}
+.elab{position:absolute;transform:translate(-50%,-50%);background:var(--solid);border:1.5px solid var(--tc);color:var(--ink);border-radius:var(--r-sm);padding:2px 6px;
+  font:600 11px/1.25 var(--f-mono);text-align:center;white-space:nowrap;transition:opacity .2s;pointer-events:none}
+.elab small{display:block;font-size:9.5px;color:var(--muted);font-weight:600}
+.dim{opacity:.12}
+@supports (corner-shape: squircle){ .fbox,.elab,.rx-vis{corner-shape:squircle} }
+
+/* ===== Predict overlay ===== */
+.ask{position:absolute;left:10px;right:10px;bottom:10px;padding:14px;background:linear-gradient(155deg,var(--sheen),transparent 42%),var(--raised)}
+.ask h4{margin:0 0 3px;font:700 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.ask p{margin:0 0 10px;font-size:15px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.opts button,.qz button,.idgrid button{border:1px solid var(--rim);background:var(--raised);box-shadow:inset 0 1px 0 var(--hl);border-radius:var(--r-md);cursor:pointer;font-weight:700}
+.opts button{padding:9px 10px;text-align:left;font-size:14px}
+.opts button:hover:not(:disabled),.qz button:hover:not(:disabled),.idgrid button:hover:not(:disabled){border-color:var(--accent)}
+.opts button.right,.qz button.right{border-color:var(--good);box-shadow:inset 0 0 0 1px var(--good);color:var(--good)}
+.opts button.wrong,.qz button.wrong{border-color:var(--bad);color:var(--bad);text-decoration:line-through}
+
+/* ===== Self-test (the view gets .quiz; answers hide until a card is answered) ===== */
+.qscore{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.qz{grid-column:1/-1;display:flex;flex-direction:column;gap:6px;border-top:1px dashed var(--line);padding-top:9px;margin-top:2px}
+.qz p{margin:0;font:600 11px/1.2 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.qz .qo{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.qz button{padding:7px 9px;text-align:left;font-size:13px;line-height:1.25;display:flex;gap:7px;align-items:center}
+.qz button .sw{width:14px;height:14px}
+.qz button:disabled{cursor:default}
+.qz .verdict{font:700 13px/1.3 var(--f-body);text-transform:none;letter-spacing:0}
+.qz .verdict.ok{color:var(--good)} .qz .verdict.no{color:var(--bad)}
+.qhint{font:600 11px/1.2 var(--f-mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase;display:none}
+.at.ok,.rx.ok{box-shadow:inset 0 0 0 1px var(--good)} .at.no,.rx.no{box-shadow:inset 0 0 0 1px var(--bad)}
+.quiz .at,.quiz .rx,.quiz .fbox{cursor:pointer}
+.quiz .at:not(.show):not(.asking) .qhint,.quiz .rx:not(.show):not(.asking) .qhint{display:block}
+.quiz .rx:not(.show) .slot.out .q,.quiz .fbox:not(.show) .q,.quiz .at:not(.show) .q{display:grid}
+.quiz .rx:not(.show) .rx-looks .to,.quiz .fbox:not(.show) .fl,.quiz .at:not(.show) .al{color:transparent;background:color-mix(in srgb,var(--ink) 8%,transparent);border-radius:4px}
+.quiz .rx:not(.show) .to-sw .sw{background:repeating-linear-gradient(45deg,#c9d2d6 0 3px,#dbe2e5 3px 6px)}
+.quiz .fbox:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:420px){ .qz .qo{grid-template-columns:1fr} }
+
+/* ===== Text selection: chrome is inert, chemistry is copyable (§8) ===== */
+.panel,.at,.rx,.fbox,.reagent,.bottle,.flow{-webkit-user-select:none;user-select:none}
+.eq,.why,.e-look,.sp-f,.sp-n,.dnote,.af,.al,.ff,.fl,.flow-tip,.rx-looks,.rx-top .e-r{-webkit-user-select:text;user-select:text}
+
+@media (max-width:760px){
+  .opts{grid-template-columns:1fr}
+  .rxgrid{grid-template-columns:minmax(0,1fr)}
+  .atlas-head{align-items:flex-start}
+  .flow-h,.flow-tip{padding-inline:14px} .flow-tip{margin-inline:0}
+  .flow-scroll{padding:0 10px 8px}
+}
+@media (max-width:560px){ .ask{padding:12px} .opts button{padding:8px 9px;font-size:13.5px} }

@@ -2,7 +2,7 @@
 /* Every hub page: head, background glow, top bar (title | theme pill | tabs), status line, footer.
    Standalone simulations in public/ have their own copy of this chrome. */
 import '../styles/global.css';
-import ThemePicker from '../components/ThemePicker.astro';
+import ThemePicker from '../components/ui/ThemePicker.svelte';
 import { SUBJECTS, type SubjectId } from '../data/subjects';
 
 export interface Stat { label: string; value: string | number }
@@ -51,7 +51,7 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
         <p class="eyebrow">Edexcel International A Level · Sciences</p>
         <h1><a href="/"><span class="d">E</span>dexcel IAL Arsenal</a></h1>
       </div>
-      <ThemePicker />
+      <ThemePicker client:load />
       <nav class="tabs" aria-label="Subjects">
         {tabs.map((t) => (
           <a href={t.href} aria-label={t.name} aria-current={tab === t.id ? 'page' : undefined}>
@@ -76,10 +76,7 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
     </footer>
   </div>
   <script>
-    import { initTheme, themePicker } from '../scripts/theme';
-    import { glint } from '../scripts/ui';
-    initTheme();
-    themePicker(document.getElementById('theme')!);
+    import { glint } from '../lib/motion';
     glint('.card,.subject,.panel');
   </script>
 </body>

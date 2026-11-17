@@ -1,0 +1,94 @@
+/* d-Block Colour Bench: the three-bay bench (stock shelf | test tube on the white tile with the reagent rack |
+   notebook) and the colour atlas. Shared pieces (notebook entries, reaction cards, flowcharts, self-test) are in
+   src/styles/sim.css. */
+
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr) minmax(320px,410px);gap:16px;align-items:start}
+
+/* shelf */
+.shelf-list{display:flex;flex-direction:column;gap:2px;padding:4px 8px 10px}
+.bottle{display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:center;text-align:left;padding:7px 8px;border-radius:var(--r-md);border:1px solid transparent;background:none;cursor:pointer}
+.bottle:hover{background:var(--accent-soft)}
+.bottle[aria-pressed="true"]{background:var(--raised);box-shadow:inset 0 1px 0 var(--hl),0 0 0 1.5px var(--accent)}
+.bottle .ion{font-weight:700;font-size:15px}
+.bottle .nm{display:block;font-size:12px;color:var(--muted);line-height:1.25}
+.flask{width:22px;height:28px;border:1.5px solid var(--tube-line);border-top-width:0;border-radius:3px 3px 11px 11px;background:linear-gradient(to top,var(--c) 0 64%,transparent 64%);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.35);justify-self:center}
+.unk{padding:6px 14px 14px;display:flex;flex-direction:column;gap:10px}
+.unk p{margin:0;color:var(--muted);font-size:13.5px}
+.unk p b{color:var(--ink)}
+.unk .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.idgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.idgrid button{padding:7px 6px;border-radius:var(--r-sm)}
+.idgrid button.wrong{border-color:var(--bad);color:var(--bad);opacity:.7}
+.idgrid button.right{border-color:var(--good);background:var(--good);color:var(--raised)}
+
+/* stage: test tube on the white tile */
+.stage{padding-bottom:14px}
+.stage-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px 10px}
+.label-chip{font:700 17px/1.2 var(--f-body);display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;min-width:0}
+.label-chip small{font:600 11px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.stage-tools{display:flex;gap:6px}
+.stage .tile{margin:0 14px;min-height:470px;display:flex;justify-content:center;align-items:flex-start}
+.tile canvas{display:block}
+.tile-note{position:absolute;left:12px;bottom:10px;right:12px;font:600 10.5px/1.3 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--tile-muted);pointer-events:none}
+.status{position:absolute;top:12px;left:12px;right:12px;display:flex;justify-content:center;pointer-events:none}
+.status span{background:rgba(21,32,39,.86);color:#f2f6f7;font:600 12px/1.2 var(--f-mono);padding:6px 10px;border-radius:999px;opacity:0;transition:opacity .25s}
+.status span.on{opacity:1}
+
+/* reagent rack */
+.rack{padding:14px 14px 0;display:flex;flex-direction:column;gap:12px}
+.rg h3{font:700 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 7px}
+.rg .items{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:7px}
+.reagent{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;border:1px solid var(--rim);background:var(--raised);box-shadow:inset 0 1px 0 var(--hl);
+  border-radius:var(--r-md);padding:8px 10px;cursor:pointer;position:relative}
+.reagent:hover:not(:disabled){border-color:var(--accent)}
+.reagent:disabled{opacity:.45;cursor:default}
+.reagent .rf{font-weight:700;font-size:14.5px;display:flex;align-items:center;gap:6px}
+.reagent .rs{font-size:12px;color:var(--muted)}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--rc);border:1px solid rgba(0,0,0,.25);flex:none}
+
+/* notebook: the species card */
+.nb{display:flex;flex-direction:column}
+.spcard{padding:6px 16px 14px;border-bottom:1px solid var(--line)}
+.sp-f{font:700 26px/1.15 var(--f-display);letter-spacing:-.01em;margin:4px 0 2px;overflow-wrap:anywhere}
+.sp-n{margin:0 0 10px;color:var(--muted);font-size:13.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.dline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.orbs{display:inline-flex}
+.orb{width:24px;height:24px;border:1.5px solid var(--ink);margin-left:-1.5px;display:grid;place-items:center;font:700 13px/1 var(--f-body);letter-spacing:-.15em}
+.orb:first-child{margin-left:0}
+.dnote{margin:0;font-size:13px;color:var(--muted)}
+
+/* colour atlas */
+.metal{margin-bottom:22px}
+.metal h3{font:750 22px/1 var(--f-display);margin:0 0 10px;display:flex;align-items:baseline;gap:10px}
+.metal h3 span{font:600 11px/1 var(--f-mono);letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;align-items:start}
+.at{display:grid;grid-template-columns:52px minmax(0,1fr);gap:12px;align-items:center;text-align:left;padding:10px;min-width:0;position:relative}
+.at .mt{background:var(--tile);border-radius:var(--r-sm);height:86px;display:grid;place-items:center;position:relative}
+.at .af{font-weight:700;font-size:14.5px;overflow-wrap:anywhere;display:block}
+.at .al{font-size:13px;margin:2px 0}
+.at .ah{font:600 10.5px/1.35 var(--f-mono);color:var(--muted);display:block}
+.at .qz .qo{grid-template-columns:1fr}
+
+@media (min-width:1081px){ .nb .log{max-height:640px;overflow:auto} }
+@media (max-width:1080px){
+  .layout{grid-template-columns:minmax(0,1fr) minmax(300px,380px)}
+  .shelf{grid-column:1/-1}
+  .shelf-list{flex-direction:row;overflow-x:auto;padding-bottom:12px}
+  .bottle{flex:none;min-width:150px}
+  .unk{flex-direction:row;flex-wrap:wrap;align-items:flex-start}
+  .unk>*{flex:1 1 240px}
+}
+@media (max-width:760px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .stage .tile{min-height:430px;margin:0 10px}
+  .rack{padding:12px 10px 0}
+  .stage-head{padding:12px 10px 10px}
+}
+@media (max-width:560px){
+  .rg .items{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .agrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .at{grid-template-columns:44px minmax(0,1fr);gap:9px;padding:9px}
+}
+@media (max-width:360px){ .agrid{grid-template-columns:minmax(0,1fr)} }

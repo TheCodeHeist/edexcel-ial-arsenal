@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && svelte-check --threshold warning && astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check && svelte-check --threshold warning"
   },
   "dependencies": {
     "@astrojs/svelte": "^9.1.6",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "svelte-check": "^4.7.8",
     "typescript": "^6.0.3"
   }
 }

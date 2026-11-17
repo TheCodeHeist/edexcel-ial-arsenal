@@ -1,0 +1,38 @@
+---
+/* Layout for a simulation page: head, the no-flash theme script, background glow and one Svelte app. The app
+   draws its own top bar (title | theme | mode tabs) and status line from src/components/ui/. */
+import '../styles/sim.css';
+
+interface Props { title: string; description: string }
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>{title} · Edexcel IAL Arsenal</title>
+  <meta name="description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script is:inline>
+    /* Before first paint: the saved palette + mode (same keys as src/lib/theme.ts), and the first-load rise-in. */
+    (function () {
+      var r = document.documentElement, g = function (k, d) { try { var v = localStorage.getItem('arsenal-' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } };
+      var m = g('mode', 'auto'); if (m !== 'light' && m !== 'dark') m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      r.setAttribute('data-palette', g('palette', 'catppuccin')); r.setAttribute('data-mode', m);
+      r.classList.add('booting'); setTimeout(function () { r.classList.remove('booting'); }, 1400);
+    })();
+  </script>
+</head>
+<body class="sim">
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap">
+    <slot />
+  </div>
+  <noscript><p style="text-align:center">This simulation needs JavaScript.</p></noscript>
+</body>
+</html>

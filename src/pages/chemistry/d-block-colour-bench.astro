@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/dblock/App.svelte';
+import '../../sims/dblock/dblock.css';
+---
+<Sim title="d-Block Colour Bench" description="Transition-metal ions, ligand exchange and colour changes on the white tile, for Edexcel IAL Chemistry.">
+  <App client:only="svelte" />
+</Sim>
