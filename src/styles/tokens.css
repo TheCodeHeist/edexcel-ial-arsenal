@@ -38,6 +38,9 @@
   --rim:color-mix(in srgb, var(--ink) 13%, transparent);
   --accent-soft:color-mix(in srgb, var(--accent) 16%, transparent);
   --good:var(--acidbase); --bad:var(--redox);
+  /* eight trace colours (oscilloscope channels, graph series), built from the palette's own hues so they follow the theme */
+  --ch1:var(--accent); --ch2:var(--redox); --ch3:var(--acidbase); --ch4:var(--amph);
+  --ch5:var(--ligand); --ch6:var(--cond); --ch7:color-mix(in srgb, var(--redox) 50%, var(--amph)); --ch8:color-mix(in srgb, var(--accent) 45%, var(--acidbase));
   /* the white tile stays light in every theme so test-tube colours read true (§9) */
   --tile:color-mix(in srgb, var(--accent) 5%, #f7f8fa); --tile-grid:color-mix(in srgb, var(--accent) 14%, #dde2e8); --tube-line:#7f8e97;
   --tile-ink:#3a4950; --tile-muted:#6d7b82;

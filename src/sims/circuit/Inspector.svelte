@@ -12,12 +12,14 @@
   import { si, num, ohms, meter } from './format';
 
   let { ed, sol, clock = null, pins = $bindable([]), onpin }: { ed: Editor; sol: Solution; clock?: Clock | null; pins?: string[]; onpin?: () => void } = $props();
-  function pin(id: string) { const on = !pins.includes(id); pins = on ? [...pins, id] : pins.filter((x) => x !== id); if (on) onpin?.(); }
+  /** Pin or unpin a channel ('<id>:v' or '<id>:i') on the oscilloscope; pinning opens it. */
+  function pin(k: string) { const on = !pins.includes(k); pins = on ? [...pins, k] : pins.filter((x) => x !== k); if (on) onpin?.(); }
 
   /* the trace: the selected part's p.d. and current over the oscilloscope's timebase (only while time runs) */
   const scope = $derived.by(() => {
     if (!clock || !part) return null;
-    const tr = clock.trace.filter((s) => s.w?.id === part.id).map((s) => ({ t: s.t, v: s.w!.v, i: s.w!.i }));
+    const kv = part.id + ':v', ki = part.id + ':i';
+    const tr = clock.trace.filter((s) => s.m[kv] !== undefined).map((s) => ({ t: s.t, v: s.m[kv], i: s.m[ki] }));
     if (tr.length < 2) return null;
     const t0 = Math.max(0, clock.t - clock.window), t1 = t0 + clock.window;
     const range = (xs: number[]): [number, number] => {
@@ -93,13 +95,23 @@
         <div class="ins-acts">
           <button class="btn" type="button" onclick={() => ed.rotate()} aria-label="Rotate 45° (R)">Rotate 45°</button>
           <button class="btn" type="button" onclick={() => ed.remove()} aria-label="Delete (Delete key)">Delete</button>
-          {#if part.kind === 'ammeter' || part.kind === 'voltmeter'}
-            <button class="btn" class:primary={pins.includes(part.id)} type="button" aria-pressed={pins.includes(part.id)} onclick={() => pin(part.id)}>{pins.includes(part.id) ? 'Pinned' : 'Pin to scope'}</button>
-          {/if}
+
         </div>
       </div>
     {/key}
     <p class="why ins-note">{K.note}</p>
+    <div class="pinrow" role="group" aria-label="Pin to the oscilloscope">
+      {#if part.kind === 'ammeter' || part.kind === 'voltmeter'}
+        {@const k = part.id + (part.kind === 'ammeter' ? ':i' : ':v')}
+        <button class="btn" class:primary={pins.includes(k)} type="button" aria-pressed={pins.includes(k)} onclick={() => pin(k)}>{pins.includes(k) ? 'Pinned to scope' : 'Pin to scope'}</button>
+      {:else}
+        {#each [['v', 'voltage'], ['i', 'current']] as const as [q, word] (q)}
+          {@const k = part.id + ':' + q}
+          <button class="btn" class:primary={pins.includes(k)} type="button" aria-pressed={pins.includes(k)} onclick={() => pin(k)}
+            title={pins.includes(k) ? `Unpin ${part.name}'s ${word}` : `Show ${part.name}'s ${word} on the oscilloscope`}>{pins.includes(k) ? `Pinned ${q.toUpperCase()}` : `Pin ${word}`}</button>
+        {/each}
+      {/if}
+    </div>
     {#if R.short}<p class="warn">Short circuit: the terminals are joined by a path with almost no resistance, so a very large current flows.</p>{/if}
 
     {#each K.controls as c (c.key)}
@@ -134,8 +146,8 @@
     {#if scope}
       <div class="scopes">
         <!-- a meter traces only what it measures: an ideal voltmeter carries no current, an ideal ammeter has no p.d. -->
-        {#if part.kind !== 'ammeter'}<Plot h={210} xr={scope.xr} yr={scope.v.yr} xLabel="t / s" yLabel="V / V" curve={scope.v.pts} trace label="p.d. of {part.name} against time" />{/if}
-        {#if part.kind !== 'voltmeter'}<Plot h={210} xr={scope.xr} yr={scope.i.yr} xLabel="t / s" yLabel="I / {scope.i.unit}" curve={scope.i.pts} trace label="current in {part.name} against time" />{/if}
+        {#if part.kind !== 'ammeter'}<Plot h={210} xr={scope.xr} yr={scope.v.yr} xLabel="t / s" yLabel="V / V" curve={scope.v.pts} trace probe label="p.d. of {part.name} against time" />{/if}
+        {#if part.kind !== 'voltmeter'}<Plot h={210} xr={scope.xr} yr={scope.i.yr} xLabel="t / s" yLabel="I / {scope.i.unit}" curve={scope.i.pts} trace probe label="current in {part.name} against time" />{/if}
       </div>
     {:else if clock && part}
       <p class="why">Press Play to trace {part.name}’s p.d. and current against time.</p>

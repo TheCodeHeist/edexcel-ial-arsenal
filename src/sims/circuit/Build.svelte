@@ -41,11 +41,17 @@
     ed.add(k, at); example = '';
     return true;
   }
+  // pins saved before channels had a quantity were bare meter ids: give them the meter's own quantity
+  $effect(() => {
+    if (!prefs.scopePins.some((k) => !k.includes(':'))) return;
+    prefs.scopePins = prefs.scopePins.map((k) => k.includes(':') ? k : k + (ed.c.parts.find((p) => p.id === k)?.kind === 'ammeter' ? ':i' : ':v'));
+  });
+
   function loadExample(ex: Example) {
     const d = ex.data();
     ed.load(d); example = ex.id;
     // an example that is about signals opens the oscilloscope with its probes pinned
-    if (ex.pins) { prefs.scope = true; prefs.scopePins = d.parts.filter((p) => ex.pins!.includes(p.name)).map((p) => p.id); }
+    if (ex.pins) { prefs.scope = true; prefs.scopePins = d.parts.filter((p) => ex.pins!.includes(p.name)).map((p) => p.id + (p.kind === 'ammeter' ? ':i' : ':v')); }
   }
 
   function key(e: KeyboardEvent) {
@@ -115,7 +121,7 @@
       </div>
     </div>
     {#if prefs.scope && clock}
-      <div class="osc-wrap"><div class="ph"><h2>Oscilloscope</h2><span class="score">{prefs.scopePins.filter((id) => ed.c.parts.some((p) => p.id === id)).length} pinned</span></div><Scope {clock} parts={ed.c.parts} bind:pins={prefs.scopePins} bind:layout={prefs.scopeLayout} /></div>
+      <div class="osc-wrap"><div class="ph"><h2>Oscilloscope</h2><span class="score">{prefs.scopePins.filter((k) => ed.c.parts.some((p) => p.id === k.split(':')[0])).length} pinned</span></div><Scope {clock} parts={ed.c.parts} bind:pins={prefs.scopePins} bind:layout={prefs.scopeLayout} /></div>
     {/if}
   </section>
 

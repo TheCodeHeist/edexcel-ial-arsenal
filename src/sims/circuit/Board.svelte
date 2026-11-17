@@ -52,21 +52,20 @@
     };
   });
 
-  const speed = (i: number) => Math.min(170, 18 + 46 * Math.log10(1 + Math.abs(i) / 1e-3)); // px per second
+  /* Moving charge is an impression, not a measurement: every piece of wire (and every part) keeps the same line of
+     dots, which only fades, reverses or changes between four speeds (trickle · slow · medium · fast). Nothing is
+     rebuilt frame by frame, so a varying current never makes the dots jump. */
+  const level = (i: number) => { const a = Math.abs(i); return a < 1e-6 || !isFinite(a) ? 0 : a < 1e-3 ? 1 : a < 0.03 ? 2 : a < 0.3 ? 3 : 4; };
   const dots = $derived.by(() => {
     if (flow === 'off') return [];
-    const out: { a: Pt; b: Pt; dur: number }[] = [];
-    const push = (a: Pt, b: Pt, i: number) => {
-      if (Math.abs(i) < 1e-6 || !isFinite(i)) return;
-      const fwd = (i > 0) === (flow === 'conv');
-      out.push({ a: fwd ? a : b, b: fwd ? b : a, dur: 22 / speed(i) });
-    };
-    for (const w of c.wires) for (const f of sol.flows[w.id] ?? []) push(f.a, f.b, f.i);
+    const out: { key: string; a: Pt; b: Pt; lv: number; rev: boolean }[] = [];
+    const push = (key: string, a: Pt, b: Pt, i: number) => out.push({ key, a, b, lv: level(i), rev: (i < 0) === (flow === 'conv') });
+    for (const w of c.wires) (sol.flows[w.id] ?? []).forEach((f, k) => push(`w${w.id}:${k}:${key(f.a)}`, f.a, f.b, f.i));
     for (const p of c.parts) {
       // no charge crosses a capacitor's gap, and a two-way switch's current shows on its wires
       const r = sol.parts[p.id]; if (!r || p.kind === 'pot' || p.kind === 'voltmeter' || p.kind === 'capacitor' || p.kind === 'switch2') continue;
       const [t0, t1] = terminals(p);
-      push(t0, t1, p.kind === 'cell' || p.kind === 'ac' ? -r.i : r.i);
+      push(`p${p.id}:${key(t0)}`, t0, t1, p.kind === 'cell' || p.kind === 'ac' ? -r.i : r.i);
     }
     return out;
   });
@@ -231,8 +230,8 @@
 
     <!-- moving charge -->
     <g class="flowdots" class:electron={flow === 'electron'} aria-hidden="true">
-      {#each dots as d, i (i + ':' + d.a + d.b)}
-        <line x1={d.a[0] * S} y1={d.a[1] * S} x2={d.b[0] * S} y2={d.b[1] * S} style:animation-duration="{d.dur.toFixed(3)}s" />
+      {#each dots as d (d.key)}
+        <line class="lv{d.lv}" class:rev={d.rev} x1={d.a[0] * S} y1={d.a[1] * S} x2={d.b[0] * S} y2={d.b[1] * S} />
       {/each}
     </g>
 
@@ -314,7 +313,10 @@
   .ring{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.6;stroke-dasharray:5 4}
   .focus .ring{stroke-dasharray:none;animation:ringpulse 1.6s ease-in-out infinite}
   @keyframes ringpulse{50%{fill:color-mix(in srgb,var(--accent) 28%,transparent)}}
-  .flowdots line{stroke:var(--accent);stroke-width:6.5;stroke-linecap:round;stroke-dasharray:0 22;animation:flowdash linear infinite;pointer-events:none}
+  .flowdots line{stroke:var(--accent);stroke-width:6.5;stroke-linecap:round;stroke-dasharray:0 22;animation:flowdash 1s linear infinite;pointer-events:none;transition:opacity .3s}
+  .flowdots .lv0{opacity:0;animation-play-state:paused}
+  .flowdots .lv1{animation-duration:2.4s;opacity:.55} .flowdots .lv2{animation-duration:1.3s} .flowdots .lv3{animation-duration:.75s} .flowdots .lv4{animation-duration:.42s}
+  .flowdots .rev{animation-direction:reverse}
   .flowdots.electron line{stroke:var(--cond)}
   @keyframes flowdash{to{stroke-dashoffset:-22}}
   .lbl{font:600 15px var(--f-mono);fill:var(--ink);dominant-baseline:central;pointer-events:none}

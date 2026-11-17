@@ -59,6 +59,8 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 ### Derived with `color-mix` (never stored per palette)
 `--panel` = 58% `--surf` · `--raised` = 80% · `--solid` = 92% `--surf` + `--bg` · `--rim` = 13% `--ink` · `--accent-soft` = 16% `--accent` · `--good` = `--acidbase` · `--bad` = `--redox`.
 
+**Trace colours** `--ch1`…`--ch8` for graph series and oscilloscope channels, in this order: `--accent`, `--redox`, `--acidbase`, `--amph`, `--ligand`, `--cond`, then two mixes (`--redox`+`--amph`, an orange; `--accent`+`--acidbase`, a teal). Always assign them in order, so the first channel is always the accent.
+
 ### Theme switching
 - Mode is **Auto / Light / Dark**. Auto follows the host page's `data-theme`, otherwise `prefers-color-scheme`.
 - Palette and mode are saved per browser (localStorage, keys `chem-palette`, `chem-mode`).
