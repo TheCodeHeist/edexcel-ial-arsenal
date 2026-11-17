@@ -49,8 +49,8 @@ HEADER_Y = 40       # nothing but furniture above this
 
 # '13\t In…', '13 In…', '1:\t A cube…', or the number alone on its line; see outline()
 Q_START = re.compile(r"^(\*?)(\d{1,2}):?(?:\t|\s+(?=[A-Z(*])|$)")
-PART = re.compile(r"^(\*?)\(([a-h])\)(?=\s)")            # '*(b)' is an extended-writing part
-SUBPART = re.compile(r"^\((i|ii|iii|iv|v|vi)\)(?=\s)")
+PART = re.compile(r"^(\*?)\(([a-h])\)(?=\s|$)")         # '*(b)' is an extended-writing part
+SUBPART = re.compile(r"^(\*?)\((i|ii|iii|iv|v|vi)\)(?=\s|$)")
 MARK = re.compile(r"^\((\d{1,2})\)$")
 TOTAL = re.compile(r"^\(Total for Question (\d{1,2}) = (\d{1,2}) marks?\)")
 DOTS = re.compile(r"^[.\s…]{20,}$")
@@ -92,40 +92,66 @@ class Node:
     end: Line | None = None         # questions only: the total line
 
 
-FRAME_X0, FRAME_Y0 = 35, 36                   # where an A4 paper's page frame sits
+STD_FRAME = pymupdf.Rect(35.0, 36.0, 560.3, 793.7)   # the page frame of a standard A4 paper (WPH14 June 2026)
 
 
-def page_offset(page):
-    """How far this page's content sits from the standard A4 position.
+class Frame:
+    """Maps one page's positions onto the standard A4 layout, and back.
 
-    Some PDFs keep the printer's bleed (e.g. 652 x 899 pt), shifting everything by ~28 pt. The page frame
-    (a rectangle around the printable area) shows where the content really is; failing that, assume the extra
-    size is split evenly. All positions in this module are standard ones: subtract the offset when reading a
-    page, add it back when cutting a crop."""
-    for d in page.get_drawings():
-        r = d["rect"]
-        if 500 < r.width < 540 and 700 < r.height < 780:
-            return r.x0 - FRAME_X0, r.y0 - FRAME_Y0
-    return (page.rect.width - 595.3) / 2, (page.rect.height - 841.9) / 2
+    Most papers put their page frame (a rectangle around the printable area) at STD_FRAME. Some PDFs keep the
+    printer's bleed (652 x 899 pt pages, everything ~28 pt further in); the first new-spec papers (January 2019)
+    use a smaller frame (479 x 692 at 58, 70). Mapping each page's own frame onto the standard one lets every
+    position threshold in this module stay written for one layout; crops are cut with the exact inverse."""
+
+    def __init__(self, rect):
+        self.r = rect
+        self.sx = STD_FRAME.width / rect.width
+        self.sy = STD_FRAME.height / rect.height
+
+    def to_std(self, x0, y0, x1, y1):
+        return (STD_FRAME.x0 + (x0 - self.r.x0) * self.sx, STD_FRAME.y0 + (y0 - self.r.y0) * self.sy,
+                STD_FRAME.x0 + (x1 - self.r.x0) * self.sx, STD_FRAME.y0 + (y1 - self.r.y0) * self.sy)
+
+    def from_std(self, x0, y0, x1, y1):
+        return pymupdf.Rect(self.r.x0 + (x0 - STD_FRAME.x0) / self.sx, self.r.y0 + (y0 - STD_FRAME.y0) / self.sy,
+                            self.r.x0 + (x1 - STD_FRAME.x0) / self.sx, self.r.y0 + (y1 - STD_FRAME.y0) / self.sy)
 
 
-def offsets(doc):
-    return [page_offset(page) for page in doc]
+def page_frame(page):
+    """The page's frame, or (no frame drawn) the standard one centred on the page."""
+    frames = [d["rect"] for d in page.get_drawings()
+              if 400 < d["rect"].width < 560 and 600 < d["rect"].height < 800]
+    if frames:
+        return Frame(max(frames, key=lambda r: r.width * r.height))
+    dx, dy = (page.rect.width - 595.3) / 2, (page.rect.height - 841.9) / 2
+    return Frame(STD_FRAME + (dx, dy, dx, dy))
+
+
+def frames(doc):
+    return [page_frame(page) for page in doc]
+
+
+def unshift(text):
+    """Undo the +29 shift of fonts with no character map (some 2019 papers): '$\x03VSKHUH' -> 'A sphere'.
+    Such spans always contain chr(3) (their space), which never occurs in real text."""
+    if "\x03" not in text:
+        return text
+    # An ordinary space or tab in such a span is a real one, not a shifted '=' (their space is chr(3)).
+    return "".join(chr(ord(c) + 29) if ord(c) < 94 and c not in " \t" else c for c in text)
 
 
 def read_lines(doc):
     """Every horizontal text line on every page, minus page furniture, in reading order."""
     lines = []
-    shift = offsets(doc)
+    fr = frames(doc)
     for pno, page in enumerate(doc):
-        dx, dy = shift[pno]
         for block in page.get_text("dict")["blocks"]:
             for l in block.get("lines", []):
                 if l["dir"] != (1.0, 0.0):          # the rotated 'DO NOT WRITE IN THIS AREA' margins
                     continue
-                text = "".join(s["text"] for s in l["spans"]).strip()
+                text = "".join(unshift(s["text"]) for s in l["spans"]).strip()
                 x0, y0, x1, y1 = l["bbox"]
-                x0, y0, x1, y1 = x0 - dx, y0 - dy, x1 - dx, y1 - dy
+                x0, y0, x1, y1 = fr[pno].to_std(x0, y0, x1, y1)
                 if not text or y0 > FOOTER_Y or y1 < HEADER_Y:
                     continue
                 lines.append(Line(pno, x0, y0, x1, y1, text))
@@ -134,29 +160,39 @@ def read_lines(doc):
 
 
 def outline(lines):
-    """Build the question tree from the labelled lines."""
+    """Build the question tree from the labelled lines.
+
+    A line can open with a chain of labels, each optional and each possibly starred (extended writing):
+    '15\t (a)\t (i)\t …', '(a)\t (i)\t …', '*(ii)\t …', or just '(a)' alone. They're read left to right."""
     questions, q, part = [], None, None
     for line in lines:
         t = line.text
+        rest, at_question = t.lstrip(), False
         # A question starts only with the next number in sequence, so a stray number at the left edge
         # (a table value, a page number) can't start one.
         if (m := Q_START.match(t)) and line.x0 < 52 and int(m[2]) == len(questions) + 1:
             q = Node(m[2], 0, line, extended=bool(m[1]))
             questions.append(q)
             part = None
-        elif q is None:
+            rest, at_question = t[m.end():].lstrip(), True
+        if q is None:
             continue                                  # cover page, instructions
-        elif line.x0 < 100 and (m := SUBPART.match(t.lstrip())) and part is not None \
-                and not (m[1] == "i" and part.label.endswith("(h)") and not part.children):
-            # roman sub-part; '(i)' straight after part (h) would be the letter i, i.e. the next part
-            part.children.append(Node(f"{part.label}({m[1]})", 2, line))
-        elif line.x0 < 100 and (m := PART.match(t.lstrip())):
-            part = Node(f"{q.label}({m[2]})", 1, line, extended=bool(m[1]))
-            q.children.append(part)
-            # '(a)\t (i)\t Determine…': the part's first sub-part starts on the same line
-            if sub := SUBPART.match(t.lstrip()[m.end():].lstrip()):
-                part.children.append(Node(f"{part.label}({sub[1]})", 2, line))
-        elif (m := MARK.match(t)) and line.x0 > 480:
+        if line.x0 < 100 or at_question:
+            # roman sub-part of the current part ('(i)' straight after part (h) is the letter i: a new part)
+            if not at_question and part is not None and (m := SUBPART.match(rest)) \
+                    and not (m[2] == "i" and part.label.endswith("(h)") and not part.children):
+                part.children.append(Node(f"{part.label}({m[2]})", 2, line, extended=bool(m[1])))
+                continue
+            if m := PART.match(rest):
+                part = Node(f"{q.label}({m[2]})", 1, line, extended=bool(m[1]))
+                q.children.append(part)
+                rest = rest[m.end():].lstrip()
+                if m := SUBPART.match(rest):          # '(a)\t (i)\t Determine…'
+                    part.children.append(Node(f"{part.label}({m[2]})", 2, line, extended=bool(m[1])))
+                continue
+            if at_question:
+                continue
+        if (m := MARK.match(t)) and line.x0 > 480:
             leaf = (part.children[-1] if part and part.children else part) or q
             leaf.marks += int(m[1])
             leaf.mark_lines.append(line)
@@ -185,11 +221,10 @@ def content_items(doc, lines):
         if ANSWER_LINE.search(l.text) or NOT_CONTENT.match(l.text) or TOTAL.match(l.text):
             continue
         items.append(Item(l.page, l.y0, l.y1, "text"))
-    shift = offsets(doc)
+    fr = frames(doc)
     for pno, page in enumerate(doc):
-        dx, dy = shift[pno]
         for d in page.get_drawings():
-            r = d["rect"] - (dx, dy, dx, dy)
+            r = pymupdf.Rect(fr[pno].to_std(*d["rect"]))
             if r.x1 < COL_X0 or r.x0 > COL_X1 or r.y1 < COL_Y0 or r.y0 > COL_Y1:
                 continue                                  # margins, crop marks
             if r.width > 500 and r.height > 700:
@@ -199,7 +234,7 @@ def content_items(doc, lines):
             items.append(Item(pno, max(r.y0, COL_Y0), min(r.y1, COL_Y1), "drawing"))
         for img in page.get_image_info():
             x0, y0, x1, y1 = img["bbox"]
-            x0, y0, x1, y1 = x0 - dx, y0 - dy, x1 - dx, y1 - dy
+            x0, y0, x1, y1 = fr[pno].to_std(x0, y0, x1, y1)
             if x1 < COL_X0 + 5 or x0 > COL_X1 - 5:
                 continue                                  # 'DO NOT WRITE' margin strips
             items.append(Item(pno, y0, y1, "image"))
@@ -297,13 +332,13 @@ def preview(doc, questions, out_dir):
     paths = []
     for page, boxes in sorted(marked.items()):
         pg = doc[page]
-        dx, dy = page_offset(pg)
+        frame = page_frame(pg)
         shape = pg.new_shape()
         for label, level, y0, y1 in boxes:
-            r = pymupdf.Rect(COL_X0 + dx, y0 + dy, COL_X1 + dx, y1 + dy)
+            r = frame.from_std(COL_X0, y0, COL_X1, y1)
             shape.draw_rect(r)
             shape.finish(color=colours[level], fill=colours[level], fill_opacity=0.08, width=1.2)
-            shape.insert_text((COL_X1 + dx - 70, y0 + dy + 10), label, fontsize=9, color=colours[level])
+            shape.insert_text((r.x1 - 70, r.y0 + 10), label, fontsize=9, color=colours[level])
         shape.commit()
         path = out_dir / f"p{page + 1:02}.png"
         pg.get_pixmap(dpi=60).save(path)
@@ -321,8 +356,7 @@ def render(doc, node, paper_dir, subject, paper_id, suffix=""):
     crops = []
     for i, (page, y0, y1) in enumerate(node.bands):
         name = slug(node.label, suffix) + (f"_{i + 1}" if len(node.bands) > 1 else "") + ".webp"
-        dx, dy = page_offset(doc[page])
-        clip = pymupdf.Rect(COL_X0 + dx, y0 + dy, COL_X1 + dx, y1 + dy)
+        clip = page_frame(doc[page]).from_std(COL_X0, y0, COL_X1, y1)
         pix = doc[page].get_pixmap(dpi=DPI, clip=clip, colorspace=pymupdf.csGRAY)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
         buf = io.BytesIO()
@@ -380,8 +414,12 @@ def export(doc, questions, lines, paper_id, subject="physics"):
         old.unlink()
     ms_doc = pymupdf.open(CACHE / f"{paper_id}_ms.pdf")
     ms_rows = markscheme.by_label(markscheme.split(ms_doc))
-    used = set()
-    unmatched = []
+    leaf_labels = [leaf.label for q in questions for leaf in leaves(q)]
+    match, missing, leftover, notes = markscheme.pair(leaf_labels, ms_rows)
+    unmatched = [f"{label}: no mark-scheme rows" for label in missing]
+    unmatched += [f"{label}: in the mark scheme but not found in the paper" for label in leftover]
+    for n in notes:
+        print("  note: " + n)
     qs = []
     for q in questions:
         stem = render(doc, q, crops_dir, subject, paper_id, "_stem") if q.children else []
@@ -390,11 +428,7 @@ def export(doc, questions, lines, paper_id, subject="physics"):
             intro = render(doc, part, crops_dir, subject, paper_id, "_intro") if part.children else []
             for leaf in (part.children or [part]):
                 text = text_of(leaf, lines)
-                rows = ms_rows.get(leaf.label, [])
-                if rows:
-                    used.add(leaf.label)
-                else:
-                    unmatched.append(f"{leaf.label}: no mark-scheme rows")
+                rows = ms_rows.get(match.get(leaf.label), [])
                 kind = guess_kind(q, leaf, text)
                 answer = markscheme.mcq_key(rows) if kind == "mcq" else None
                 if kind == "mcq" and not answer:
@@ -415,7 +449,6 @@ def export(doc, questions, lines, paper_id, subject="physics"):
                    "stem": stem, "parts": parts, "reviewed": False})
     paper = {"id": paper_id, "subject": subject, "questions": qs}
     (out / "paper.json").write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
-    unmatched += [f"{label}: in the mark scheme but not found in the paper" for label in ms_rows if label not in used]
     size = sum(f.stat().st_size for f in crops_dir.glob("*.webp"))
     return out, len(list(crops_dir.glob("*.webp"))), size, unmatched
 

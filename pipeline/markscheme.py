@@ -28,6 +28,8 @@ CACHE = Path(__file__).resolve().parent / "cache" / "pdf"
 # '13(b)(i)', '13 (b) (i)', '*15', and the bracketless '12ai', '14cii', '11a' some years use.
 # A letter (a–h) always comes before a roman numeral, so '12ai' is (a)(i), never part (ai).
 LABEL = re.compile(r"^\*?(\d{1,2})\s*(?:\(?([a-h])\)?)?\s*(?:\(?(i|ii|iii|iv|v|vi)\)?)?\*?$")
+# The same label with the start of its answer on the same line: '18(b)(iii) Shorter wire gives…'
+LABEL_LEAD = re.compile(r"^\*?(\d{1,2})\s*(?:\(([a-h])\))?\s*(?:\((i|ii|iii|iv|v|vi)\))?\*?(?=\s+\S)")
 TOTAL_ROW = re.compile(r"^Total for (question|section|paper)", re.I)
 HEADING_WORDS = re.compile(r"^(Question|Number|Question Number|Answer|Additional Guidance|Mark|Marks)$", re.I)
 MCQ_KEY = re.compile(r"(?:only correct|correct) answer is\s*\(?([A-D])\b")
@@ -122,29 +124,73 @@ def split(doc):
             elif any(TOTAL_ROW.match(t[2]) for t in row.texts):
                 row.kind = "total"
             else:
-                for t in firsts:
-                    if m := LABEL.match(t[2]):
+                for i, t in enumerate(firsts):
+                    text = t[2]
+                    # a label wrapped in its narrow cell: '15(b)' then '(ii)' on the next line
+                    if i + 1 < len(firsts) and re.fullmatch(r"\((?:[a-h]|i|ii|iii|iv|v|vi)\)", firsts[i + 1][2]):
+                        text += firsts[i + 1][2]
+                    if m := LABEL.match(text) or LABEL_LEAD.match(text):
                         row.label = norm(m)
                         break
             rows.append(row)
     return rows
 
 
+ROMAN = ["", "i", "ii", "iii", "iv", "v", "vi"]
+
+
+def order(label):
+    """'13(b)(ii)' -> (13, 2, 2): labels sort in the order they're printed."""
+    m = re.fullmatch(r"(\d+)(?:\(([a-h])\))?(?:\(([ivx]+)\))?", label)
+    return int(m[1]), (ord(m[2]) - 96) if m[2] else 0, ROMAN.index(m[3]) if m[3] else 0
+
+
 def by_label(rows):
     """{label: [Row, …]} — each label's own rows plus the unlabelled rows that follow it."""
-    out, current = {}, None
+    out, current, last = {}, None, (0, 0, 0)
     for row in rows:
         if row.kind == "header":
             continue                        # repeated on every page; a continuation keeps the current label
         if row.kind == "total":
             current = None
             continue
-        if row.label:
-            current = row.label
+        # Labels are printed in order: a real one comes after the last, and belongs to this question or the
+        # next. Anything else in the first column ('27', a '19' from a nuclear equation inside 19(a)(i), a
+        # value starting an answer line) is text in a continuing row.
+        if row.label and last < order(row.label) and order(row.label)[0] <= last[0] + 1:
+            current, last = row.label, order(row.label)
         if current is None:
             continue                        # before the first question: cover, notes
         out.setdefault(current, []).append(row)
     return out
+
+
+def related(a, b):
+    """True if one label is the other's parent or child: '20(a)' and '20(a)(i)', '15' and '15(a)'."""
+    return a != b and (b.startswith(a + "(") or a.startswith(b + "("))
+
+
+def pair(leaf_labels, labelled):
+    """Match the paper's leaves to mark-scheme labels.
+
+    Exact matches first. Then, because Pearson's mark schemes sometimes drop or add a level ('20(a)' for the
+    paper's 20(a)(i); '15(a)' for a question with no parts), an unmatched leaf may take an unmatched mark-scheme
+    label that is its parent or child — only when that is the one candidate, so nothing is guessed.
+    Returns ({leaf: ms label}, leaves with no rows, mark-scheme labels left over, notes)."""
+    match = {leaf: leaf for leaf in leaf_labels if leaf in labelled}
+    free = [m for m in labelled if m not in match.values()]
+    notes = []
+    for leaf in [l for l in leaf_labels if l not in match]:
+        cands = [m for m in free if related(leaf, m)]
+        if len(cands) == 1 and sum(related(l, cands[0]) for l in leaf_labels if l not in match) == 1:
+            match[leaf] = cands[0]
+            free.remove(cands[0])
+            notes.append(f"{leaf}: the mark scheme calls it {cands[0]}")
+    missing = [l for l in leaf_labels if l not in match]
+    # A leftover label that is a parent of matched leaves (a stem row like '4', a guidance table '1') is
+    # harmless: nothing needs it.
+    leftover = [m for m in free if not any(match.get(l) and l.startswith(m + "(") for l in leaf_labels)]
+    return match, missing, leftover, notes
 
 
 def mcq_key(rows):
