@@ -34,6 +34,11 @@ def survey(paper_id):
     leaves = [leaf.label for q in questions for leaf in S.leaves(q)]
     _, missing, leftover, notes = M.pair(leaves, labelled)
     problems += [f"{label}: no mark-scheme rows" for label in missing]
+    # every MCQ needs its answer key, or the paper can't be marked (segment.py --write refuses it)
+    match = M.pair(leaves, labelled)[0]
+    for q in questions:
+        if not q.children and q.total == 1 and match.get(q.label) and not M.mcq_key(labelled[match[q.label]]):
+            problems.append(f"{q.label}: MCQ with no answer key in its mark-scheme row")
     problems += [f"{label}: in the mark scheme but not found in the paper" for label in leftover]
     if not questions:
         problems.insert(0, "no questions found")

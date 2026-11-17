@@ -33,7 +33,10 @@ LABEL = re.compile(r"^\*?(\d{1,2})\s*(?:\(?([a-h])\)?)?\s*(?:\(?(i|ii|iii|iv|v|v
 LABEL_LEAD = re.compile(r"^\*?(\d{1,2})\s*(?:\(([a-h])\))?\s*(?:\((i|ii|iii|iv|v|vi)\))?\*?(?=\s+\S)")
 TOTAL_ROW = re.compile(r"^Total for (question|section|paper)", re.I)
 HEADING_WORDS = re.compile(r"^(Question|Number|Question Number|Answer|Additional Guidance|Mark|Marks)$", re.I)
-MCQ_KEY = re.compile(r"(?:only correct|correct) answer is\s*\(?([A-D])\b")
+# The wordings Pearson has used: 'The only correct answer is B', 'The only correct answer D because…',
+# 'D is the correct answer (as …)', 'B is the only correct answer'. 'A is not the correct answer' never matches.
+MCQ_KEY = re.compile(r"correct\s+answer\s+(?:is\s+)?\(?([A-D])\b"
+                     r"|\b([A-D])\s+is\s+the\s+(?:only\s+)?correct\s+answer")
 
 
 @dataclass
@@ -206,8 +209,10 @@ def mcq_key(rows):
     for row in rows:
         for _, _, text in row.texts:
             if m := MCQ_KEY.search(text):
-                return m[1]
-    return None
+                return m[1] or m[2]
+    # Some years print just the letter ('C', then '(1)'). Only trusted when it's the one bare letter in the row.
+    bare = {text for row in rows for _, _, text in row.texts if re.fullmatch(r"[A-D]", text)}
+    return bare.pop() if len(bare) == 1 else None
 
 
 def bands(rows):
