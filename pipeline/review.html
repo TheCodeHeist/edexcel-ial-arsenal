@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Past-paper review</title>
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --bg: #f6f5f2; --panel: #ffffff; --ink: #1d1c1a; --muted: #6b6862; --line: #e3e0da;
+    --accent: #3b5bdb; --ok: #2b8a3e; --ok-bg: #ebfbee; --flag: #c92a2a; --flag-bg: #fff5f5;
+    --ms-bg: #f3f0ff; --ms-line: #d0c4f7; --focus: #ffd43b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614; --panel: #1f1f1c; --ink: #ecebe7; --muted: #9c998f; --line: #34332e;
+      --accent: #748ffc; --ok: #69db7c; --ok-bg: #1b2e1f; --flag: #ff8787; --flag-bg: #2e1b1b;
+      --ms-bg: #24203a; --ms-line: #4c3f8a; --focus: #fab005;
+    }
+    img.crop { filter: invert(0.9) hue-rotate(180deg); }   /* white paper is harsh in the dark */
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, sans-serif;
+         display: grid; grid-template-columns: 290px 1fr; height: 100vh; }
+  aside { border-right: 1px solid var(--line); overflow-y: auto; background: var(--panel); }
+  aside header { position: sticky; top: 0; background: var(--panel); padding: 12px; border-bottom: 1px solid var(--line); }
+  aside h1 { font-size: 15px; margin: 0 0 8px; }
+  aside .filters { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+  .unit { padding: 10px 12px 4px; font-weight: 600; color: var(--muted); font-size: 12px; letter-spacing: .04em; }
+  .paper { display: block; padding: 6px 12px; cursor: pointer; border-left: 3px solid transparent; }
+  .paper:hover { background: var(--bg); }
+  .paper.active { border-left-color: var(--accent); background: var(--bg); }
+  .paper .row { display: flex; justify-content: space-between; gap: 6px; }
+  .bar { height: 4px; background: var(--line); border-radius: 2px; margin-top: 4px; overflow: hidden; display: flex; }
+  .bar i { display: block; background: var(--ok); } .bar b { display: block; background: var(--flag); }
+  .tag { font-size: 11px; color: var(--muted); }
+  .tag.flag { color: var(--flag); }
+  main { overflow-y: auto; padding: 0 24px 40vh; }
+  main > header { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 14px 0 10px;
+                  border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
+  main h2 { margin: 0; font-size: 18px; }
+  .keys { color: var(--muted); font-size: 12px; margin-left: auto; }
+  kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; font-size: 11px; background: var(--panel); }
+  a { color: var(--accent); }
+  .q { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin: 18px 0; max-width: 900px; }
+  .q.focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .q.ok { border-color: var(--ok); } .q.flagged { border-color: var(--flag); }
+  .qhead { display: flex; gap: 10px; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  .qhead strong { font-size: 15px; }
+  .status { margin-left: auto; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: var(--bg); color: var(--muted); }
+  .status.ok { background: var(--ok-bg); color: var(--ok); } .status.flagged { background: var(--flag-bg); color: var(--flag); }
+  .qbody { padding: 10px 14px; }
+  .crop-wrap { position: relative; margin: 2px 0; }
+  img.crop { display: block; max-width: 100%; height: auto; border-radius: 3px; }
+  /* bottom-left: blank on question crops (marks sit right) and on mark-scheme rows (the label column) */
+  .src { position: absolute; bottom: 2px; left: 4px; font-size: 11px; opacity: 0; background: var(--panel); padding: 0 3px; border-radius: 3px; }
+  .crop-wrap:hover .src { opacity: 1; }
+  .part { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 8px; }
+  .meta { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; font-size: 13px; margin-bottom: 6px; }
+  .meta .label { font-weight: 600; }
+  .meta select { font: inherit; }
+  .meta .changed { color: var(--accent); font-size: 12px; }
+  .intro { border-left: 3px solid var(--line); padding-left: 8px; }
+  .ms { background: var(--ms-bg); border: 1px solid var(--ms-line); border-radius: 6px; padding: 6px; margin-top: 6px; }
+  .ms > .cap { font-size: 11px; color: var(--muted); margin: 0 0 4px 2px; }
+  .ms img.crop { background: #fff; }
+  .actions { display: flex; gap: 8px; padding: 10px 14px; border-top: 1px solid var(--line); align-items: center; }
+  button { font: inherit; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+  button.ok { border-color: var(--ok); color: var(--ok); } button.flag { border-color: var(--flag); color: var(--flag); }
+  .note { font-size: 13px; color: var(--flag); }
+  .empty { color: var(--muted); padding: 40px 0; }
+  .credit { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<aside>
+  <header>
+    <h1>Past-paper review</h1>
+    <div class="filters">
+      <label><input type="checkbox" id="unfinished"> unfinished only</label>
+    </div>
+    <div class="tag" id="overall"></div>
+  </header>
+  <nav id="papers"></nav>
+</aside>
+<main>
+  <header>
+    <h2 id="title">Pick a paper</h2>
+    <span class="credit" id="credit"></span>
+    <span class="keys"><kbd>J</kbd>/<kbd>K</kbd> move · <kbd>R</kbd> looks right · <kbd>F</kbd> flag · <kbd>U</kbd> clear · <kbd>N</kbd> next paper</span>
+  </header>
+  <div id="questions"><p class="empty">Choose a paper on the left. Check each question against its mark scheme: are the crops complete and cut in the right places, the marks and labels right, the MCQ answer right?</p></div>
+</main>
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+let papers = [], current = null, focusIdx = 0;
+const KINDS = ['mcq', 'calc', 'short', 'extended'];
+const MONTHS = { '01': 'Jan', '06': 'Jun', '10': 'Oct' };
+
+function seriesName(p) {
+  const [y, m] = p.series.split('-');
+  return `${MONTHS[m] || m} ${y}${p.variant ? ' · ' + p.variant : ''}`;
+}
+
+async function api(path, body) {
+  const r = await fetch(path, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {});
+  if (!r.ok) throw new Error((await r.json()).error || r.statusText);
+  return r.json();
+}
+
+async function loadList() {
+  papers = await api('/api/papers');
+  renderList();
+}
+
+function renderList() {
+  const only = $('#unfinished').checked;
+  const nav = $('#papers'); nav.innerHTML = '';
+  let unit = null, done = 0, total = 0;
+  for (const p of papers) {
+    done += p.reviewed; total += p.questions;
+    if (only && p.reviewed === p.questions) continue;
+    if (p.unit !== unit) { unit = p.unit; nav.insertAdjacentHTML('beforeend', `<div class="unit">${unit}</div>`); }
+    const a = document.createElement('a');
+    a.className = 'paper' + (current && current.paper.id === p.id ? ' active' : '');
+    const okW = 100 * p.reviewed / p.questions, flW = 100 * p.flagged / p.questions;
+    a.innerHTML = `<div class="row"><span>${seriesName(p)}</span>
+        <span class="tag ${p.flagged ? 'flag' : ''}">${p.reviewed}/${p.questions}${p.flagged ? ' · ⚑' + p.flagged : ''}</span></div>
+      <div class="bar"><i style="width:${okW}%"></i><b style="width:${flW}%"></b></div>`;
+    a.onclick = () => openPaper(p.id);
+    nav.append(a);
+  }
+  $('#overall').textContent = `${done} of ${total} questions reviewed`;
+}
+
+async function openPaper(id) {
+  current = await api('/api/paper/' + id);
+  location.hash = id;
+  renderPaper();
+  renderList();
+  const first = current.paper.questions.findIndex(q => !verdictState(q));
+  setFocus(first === -1 ? 0 : first, true);
+}
+
+function verdictState(q) {
+  const v = q.verdict;
+  if (!v) return null;
+  return v.current ? v.status : 'stale';
+}
+
+function crop(c, kind) {
+  const file = `${current.paper.id}_${kind}.pdf#page=${c.region.page}`;
+  // Crops are 150 dpi; shown at 96 per inch they come out the size of the printed page.
+  const w = Math.round(c.w * 96 / 150), h = Math.round(c.h * 96 / 150);
+  return `<div class="crop-wrap" style="max-width:${w}px"><img class="crop" loading="lazy" src="/crops/${c.src}" width="${w}" height="${h}" alt="">
+    <a class="src" href="/pdf/${file}" target="_blank" title="open the source page">${kind.toUpperCase()} p${c.region.page}</a></div>`;
+}
+
+function renderPaper() {
+  const P = current.paper;
+  $('#title').textContent = `${P.unit} · ${seriesName(P)} · ${P.totalMarks} marks · ${P.durationMin ?? '?'} min`;
+  $('#credit').innerHTML = `QP via <a href="${P.source.qp.via.url}" target="_blank">${P.source.qp.via.name}</a>,
+    MS via <a href="${P.source.ms.via.url}" target="_blank">${P.source.ms.via.name}</a>`;
+  const box = $('#questions'); box.innerHTML = '';
+  P.questions.forEach((q, i) => box.append(renderQuestion(q, i)));
+}
+
+function renderQuestion(q, i) {
+  const el = document.createElement('section');
+  const state = verdictState(q);
+  el.className = 'q' + (state === 'ok' ? ' ok' : state === 'flagged' ? ' flagged' : '');
+  el.dataset.i = i;
+  const label = { ok: '✓ looks right', flagged: '⚑ flagged', stale: 'changed since review: check again' }[state] || 'not reviewed';
+  let html = `<div class="qhead"><strong>Question ${q.number}</strong><span class="tag">${q.marks} mark${q.marks === 1 ? '' : 's'} · ${q.parts.length} part${q.parts.length === 1 ? '' : 's'}</span>
+    <span class="status ${state === 'ok' ? 'ok' : state === 'flagged' ? 'flagged' : ''}">${label}</span></div><div class="qbody">`;
+  html += q.stem.map(c => crop(c, 'qp')).join('');
+  let lastIntro = null;
+  for (const p of q.parts) {
+    const fix = current.parts[p.label] || {};
+    html += `<div class="part"><div class="meta"><span class="label">${p.label}</span><span>${p.marks} mark${p.marks === 1 ? '' : 's'}</span>
+      <label>kind <select data-label="${p.label}" data-field="kind">${KINDS.map(k => `<option ${k === p.kind ? 'selected' : ''}>${k}</option>`).join('')}</select></label>`;
+    if (p.kind === 'mcq') {
+      html += `<label>answer <select data-label="${p.label}" data-field="answer">${['A', 'B', 'C', 'D'].map(a => `<option ${a === p.answer ? 'selected' : ''}>${a}</option>`).join('')}</select></label>`;
+      if (fix.answer) html += `<span class="changed">corrected (mark scheme read ${p.answerRead || '?'})</span>`;
+    }
+    if (fix.kind) html += `<span class="changed">kind corrected</span>`;
+    html += `</div>`;
+    const introKey = JSON.stringify(p.intro || []);
+    if (p.intro && p.intro.length && introKey !== lastIntro) html += `<div class="intro">${p.intro.map(c => crop(c, 'qp')).join('')}</div>`;
+    lastIntro = introKey;
+    html += p.qp.map(c => crop(c, 'qp')).join('');
+    html += `<div class="ms"><p class="cap">Mark scheme</p>${p.ms.length ? p.ms.map(c => crop(c, 'ms')).join('') : '<p class="note">no mark-scheme rows</p>'}</div></div>`;
+  }
+  html += `</div><div class="actions"><button class="ok" data-act="ok">✓ Looks right</button><button class="flag" data-act="flag">⚑ Flag…</button>
+    ${q.verdict ? '<button data-act="clear">Clear</button>' : ''}
+    ${q.verdict && q.verdict.note ? `<span class="note">${escapeHtml(q.verdict.note)}</span>` : ''}</div>`;
+  el.innerHTML = html;
+  el.addEventListener('click', e => {
+    const act = e.target.dataset && e.target.dataset.act;
+    setFocus(i);
+    if (act === 'ok') judge(i, 'ok'); else if (act === 'flag') flag(i); else if (act === 'clear') clear(i);
+  });
+  el.querySelectorAll('select').forEach(s => s.addEventListener('change', () => correct(s.dataset.label, s.dataset.field, s.value)));
+  return el;
+}
+
+function escapeHtml(s) { return s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+function setFocus(i, scroll = true) {
+  const qs = document.querySelectorAll('.q');
+  if (!qs.length) return;
+  focusIdx = Math.max(0, Math.min(i, qs.length - 1));
+  qs.forEach(q => q.classList.toggle('focus', +q.dataset.i === focusIdx));
+  if (scroll) qs[focusIdx].scrollIntoView({ block: 'start', behavior: 'smooth' });
+}
+
+async function change(body) {
+  current = await api('/api/paper/' + current.paper.id, body);
+  const keep = focusIdx;
+  renderPaper(); setFocus(keep, false);
+  const s = papers.find(p => p.id === current.paper.id);
+  s.reviewed = current.paper.questions.filter(q => q.reviewed).length;
+  s.flagged = current.paper.questions.filter(q => verdictState(q) === 'flagged').length;
+  renderList();
+}
+
+async function judge(i, status, note = '') {
+  await change({ action: 'judge', number: current.paper.questions[i].number, status, note });
+  const next = current.paper.questions.findIndex((q, j) => j > i && !verdictState(q));
+  setFocus(next === -1 ? i : next);
+}
+async function flag(i) {
+  const note = prompt('What is wrong with this question? (crop cut off, wrong mark-scheme rows, wrong marks…)');
+  if (note !== null) await judge(i, 'flagged', note.trim());
+}
+async function clear(i) { await change({ action: 'clear', number: current.paper.questions[i].number }); }
+async function correct(label, field, value) { await change({ action: 'part', label, [field]: value }); }
+
+function nextPaper() {
+  const i = papers.findIndex(p => current && p.id === current.paper.id);
+  const next = papers.find((p, j) => j > i && p.reviewed < p.questions) || papers.find(p => p.reviewed < p.questions);
+  if (next) openPaper(next.id);
+}
+
+document.addEventListener('keydown', e => {
+  if (!current || e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT' || e.ctrlKey || e.metaKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (k === 'j') setFocus(focusIdx + 1);
+  else if (k === 'k') setFocus(focusIdx - 1);
+  else if (k === 'r') judge(focusIdx, 'ok');
+  else if (k === 'f') flag(focusIdx);
+  else if (k === 'u') clear(focusIdx);
+  else if (k === 'n') nextPaper();
+  else return;
+  e.preventDefault();
+});
+$('#unfinished').onchange = renderList;
+
+loadList().then(() => { if (location.hash) openPaper(location.hash.slice(1)); });
+</script>
+</body>
+</html>

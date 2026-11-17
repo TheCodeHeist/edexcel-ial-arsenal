@@ -39,6 +39,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import markscheme  # noqa: E402
+import reviews  # noqa: E402
 
 pymupdf.TOOLS.mupdf_display_errors(False)
 
@@ -516,6 +517,9 @@ def write_registry(paper_id, doc, out_dir):
         "source": {"qp": source("qp"), "ms": source("ms")},
         "questions": seg["questions"],
     }
+    lapsed = reviews.apply(paper, reviews.load(entry["subject"], paper_id))
+    if lapsed:
+        print(f"  {lapsed} question review(s) no longer match the paper (it changed): they need reviewing again")
     path = ROOT / "registry" / entry["subject"] / "papers" / f"{paper_id}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")

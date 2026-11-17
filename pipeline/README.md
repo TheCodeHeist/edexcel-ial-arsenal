@@ -113,6 +113,21 @@ Crops go to [TheCodeHeist/edexcel-ial-arsenal-data](https://github.com/TheCodeHe
 cloned next to this repo, and are served from `https://thecodeheist.github.io/edexcel-ial-arsenal-data/`
 (`src/lib/papers/crops.ts`). Questions are written `reviewed: false` and stay off the site until checked.
 
+## Reviewing
+
+```sh
+pipeline/.venv/bin/python pipeline/review.py      # then open http://127.0.0.1:8765
+```
+
+Shows each question as the site will (stem, part intro, part) with its mark-scheme rows, and what the pipeline
+decided: labels, marks, kind, MCQ answer. Keys: `J`/`K` move, `R` looks right (and jump to the next unreviewed
+question), `F` flag with a note, `U` clear, `N` next unfinished paper. Kind and MCQ answer can be corrected from
+their dropdowns. Hover a crop for a link to its page in the source PDF.
+
+Verdicts and corrections are saved in `registry/<subject>/reviews/<id>.json` (`reviews.py`), separate from the
+generated registry files, and applied whenever those are written. Each verdict is tied to a fingerprint of the
+question's labels, marks, keys and crop regions: if re-segmenting changes the question, it comes back for review.
+
 ## Files
 
 - `registry/sources.json`: every PDF we read, with its URL and checksum.

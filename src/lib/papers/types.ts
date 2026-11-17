@@ -48,7 +48,9 @@ export interface Part {
   kind: PartKind;
   topics: TopicId[];
   tagStatus: TagStatus;
-  answer?: 'A' | 'B' | 'C' | 'D';   // mcq only, read from the mark scheme
+  answer?: 'A' | 'B' | 'C' | 'D';   // mcq only: read from the mark scheme, or a reviewer's correction
+  answerRead?: 'A' | 'B' | 'C' | 'D';  // what the pipeline read, kept so a correction is visible and undoable
+  kindGuessed?: PartKind;              // the pipeline's guess, likewise
   intro?: Crop[];       // its parent part's lead-in, e.g. 19(b)'s text and diagram, shown above 19(b)(i), (ii), (iii)
                         // (the same images for every sibling; they're stored once)
   qp: Crop[];           // the part as printed, answer space trimmed
