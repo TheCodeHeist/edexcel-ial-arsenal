@@ -5,15 +5,16 @@
 <script lang="ts">
   /* Predict: a generated circuit with its meters hidden and one question. Answer, then the meters come alive,
      the charge starts moving and the working is shown. */
+  import { untrack } from 'svelte';
   import Board, { type Flow } from './Board.svelte';
   import { solve } from './solve';
   import { newQuestion, type Question } from './predict';
 
-  let { score, flow, hidden: off = false }: { score: PScore; flow: Flow; hidden?: boolean } = $props();
+  let { score, flow, adv = false, hidden: off = false }: { score: PScore; flow: Flow; adv?: boolean; hidden?: boolean } = $props();
 
-  let q = $state<Question>(newQuestion());
+  let q = $state<Question>(untrack(() => newQuestion(adv)));
   let picked = $state<string | null>(null);
-  const sol = $derived(solve(q.c));
+  const sol = $derived(solve(q.c, q.vc ? { dt: 1e-9, vc: q.vc } : {}));
   const ok = $derived(picked === q.answer);
 
   function answer(o: string) {
@@ -22,7 +23,7 @@
     score.total++;
     if (o === q.answer) { score.right++; score.streak++; score.best = Math.max(score.best, score.streak); } else score.streak = 0;
   }
-  function next() { q = newQuestion(); picked = null; }
+  function next() { q = newQuestion(adv); picked = null; }
 </script>
 
 <main class="layout predict" hidden={off}>

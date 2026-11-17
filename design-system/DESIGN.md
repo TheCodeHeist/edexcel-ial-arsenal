@@ -142,6 +142,8 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Light is colour from the palette:** a lit lamp glows `--amph` in proportion to its power; an LED glows in its own hue token (red `--redox`, yellow `--amph`, green `--acidbase`, blue `--accent`).
 - **Meter readings** are dark mono pills beside the meter's name, 3 significant figures, amps below 0.1 A in mA. A hidden reading is an accent pill with “?”.
 - **Numbers** carry an SI prefix and 3 significant figures (`25.3 mA`, `2.20 kΩ`); component labels drop trailing zeros (`2.2 kΩ`, `6 V`).
+- **One syllabus switch** (“Units 2 & 3” / “+ Unit 4: capacitors”) under the status line gates every capacitor feature at once: the part, the clock, capacitor questions and the capacitor practical. It never hides parts already on the board.
+- **Time:** with a capacitor on the board a time bar appears (Play/Pause, ×0.1 · ×1 · ×10, the clock, Discharge all) on an `--accent-soft` strip. A charged capacitor's + plate tints `--redox` and its − plate `--accent`, with small + and − marks. The inspector shows a live V–t and I–t trace (solid `--accent`) over the last 10 s of real time.
 - **Graphs** put the axes through the origin, use crosses for readings, a dashed `--accent` line for the true curve and a `--redox` line of best fit. Axis labels are written `I / A`, `V / V`, as on an exam paper.
 
 ## 10 · Voice

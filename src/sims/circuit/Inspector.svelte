@@ -6,9 +6,29 @@
   import { KINDS, LAMPS, thermR, ldrR, type Control, type Part, type Props } from './parts';
   import type { Solution } from './solve';
   import type { Editor } from './editor.svelte';
+  import type { Clock } from './transient.svelte';
+  import Plot from './Plot.svelte';
+  import { niceMax } from './lab';
   import { si, num, ohms, meter } from './format';
 
-  let { ed, sol }: { ed: Editor; sol: Solution } = $props();
+  let { ed, sol, clock = null }: { ed: Editor; sol: Solution; clock?: Clock | null } = $props();
+
+  /* the scope: the selected part's p.d. and current over the last 10 s of real time (only while time runs) */
+  const scope = $derived.by(() => {
+    if (!clock || !part || clock.trace.length < 2) return null;
+    const tr = clock.trace, t0 = Math.max(0, clock.t - clock.window), t1 = t0 + clock.window;
+    const range = (xs: number[]): [number, number] => {
+      const lo = Math.min(0, ...xs), hi = Math.max(0, ...xs);
+      return [lo < 0 ? -niceMax(-lo) : 0, hi > 0 ? niceMax(hi) : lo < 0 ? 0 : 1];
+    };
+    const iv = tr.map((x) => x.i), mA = Math.max(...iv.map(Math.abs)) < 0.1;
+    const k = mA ? 1000 : 1;
+    return {
+      xr: [t0, t1] as [number, number],
+      v: { yr: range(tr.map((x) => x.v)), pts: tr.map((x) => [x.t, x.v] as [number, number]) },
+      i: { yr: range(iv.map((x) => x * k)), pts: tr.map((x) => [x.t, x.i * k] as [number, number]), unit: mA ? 'mA' : 'A' },
+    };
+  });
 
   const part = $derived(ed.part);
   const wire = $derived(ed.wire);
@@ -23,6 +43,7 @@
     if (c.key === 'wiper') return Math.round(v * 100) + '%';
     if (c.key === 'R' || c.key === 'r') return ohms(v);
     if (c.key === 'lux') return num(v, 2) + ' lx';
+    if (c.key === 'C') return si(v, 'F', 2);
     return num(v) + ' ' + c.unit;
   }
   function set(p: Part, k: keyof Props, v: Props[keyof Props]) { ed.setProp(p.id, k, v); }
@@ -37,6 +58,8 @@
       }
       case 'ammeter': return [['Reading', meter(R.reading ?? 0, 'A')], ['p.d. across it', '0 V (ideal)']];
       case 'voltmeter': return [['Reading', meter(R.reading ?? 0, 'V')], ['Current through it', '0 A (ideal)']];
+      case 'capacitor': return [['p.d.', si(clean(R.v), 'V')], ['Charge Q = CV', si(clean(R.q ?? 0), 'C')], ['Energy ½CV²', si(clean(R.energy ?? 0), 'J')], ['Current', si(clean(R.i), 'A')]];
+      case 'switch2': return [['Position', P.on ? 'A' : 'B'], ['Current', si(clean(R.i), 'A')]];
       case 'switch': return [['State', P.on ? 'Closed' : 'Open'], ['Current', si(clean(R.i), 'A')], ['p.d. across it', si(clean(R.v), 'V')]];
       default: {
         const out: [string, string][] = [['p.d.', si(clean(R.v), 'V')], ['Current', si(clean(R.i), 'A')], ['Power', si(clean(R.p), 'W')]];
@@ -82,7 +105,7 @@
           {/if}
         {:else if c.type === 'toggle'}
           <div class="ctl-l"><span>{c.label}</span></div>
-          <Seg label={c.label} options={[['on', 'Closed'], ['off', 'Open']]} value={part.p.on ? 'on' : 'off'} onchange={(v) => set(part, 'on', v === 'on')} />
+          <Seg label={c.label} options={part.kind === 'switch2' ? [['on', 'A'], ['off', 'B']] : [['on', 'Closed'], ['off', 'Open']]} value={part.p.on ? 'on' : 'off'} onchange={(v) => set(part, 'on', v === 'on')} />
         {:else if c.type === 'select' && c.options}
           <div class="ctl-l"><span>{c.label}</span></div>
           <div class="chiprow" role="group" aria-label={c.label}>
@@ -97,6 +120,14 @@
     <dl class="reads">
       {#each rows as [k, v] (k)}<div><dt>{k}</dt><dd>{v}</dd></div>{/each}
     </dl>
+    {#if scope}
+      <div class="scopes">
+        <Plot h={210} xr={scope.xr} yr={scope.v.yr} xLabel="t / s" yLabel="V / V" curve={scope.v.pts} trace label="p.d. of {part.name} against time" />
+        <Plot h={210} xr={scope.xr} yr={scope.i.yr} xLabel="t / s" yLabel="I / {scope.i.unit}" curve={scope.i.pts} trace label="current in {part.name} against time" />
+      </div>
+    {:else if clock && part}
+      <p class="why">Press Play to trace {part.name}’s p.d. and current against time.</p>
+    {/if}
   {:else if wire}
     <div class="ins-head swap">
       <div><div class="ins-name">Wire</div><p class="ins-kind">Connecting lead, zero resistance</p></div>

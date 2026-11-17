@@ -169,7 +169,7 @@ export class Editor {
     p.p[k] = v;
   }
   toggle(id: string) {
-    const p = this.c.parts.find((q) => q.id === id); if (!p || p.kind !== 'switch') return;
+    const p = this.c.parts.find((q) => q.id === id); if (!p || (p.kind !== 'switch' && p.kind !== 'switch2')) return;
     this.save(); p.p.on = !p.p.on;
   }
 

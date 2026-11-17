@@ -5,14 +5,15 @@
   import { BIN, KINDS, type Kind } from './parts';
   import { EXAMPLES, type Example } from './examples';
 
-  let { onadd, ondrop, onexample, current = '' }: {
+  let { adv = false, onadd, ondrop, onexample, current = '' }: {
+    adv?: boolean;
     onadd: (k: Kind) => void;
     ondrop: (k: Kind, x: number, y: number) => boolean;   // true if it landed on the board
     onexample: (ex: Example) => void;
     current?: string;
   } = $props();
 
-  const VB: Partial<Record<Kind, string>> = { pot: '-58 -22 116 66', ldr: '-56 -34 112 66' };
+  const VB: Partial<Record<Kind, string>> = { pot: '-58 -22 116 66', ldr: '-56 -34 112 66', switch2: '-62 -46 124 92' };
   let ghost = $state<{ k: Kind; x: number; y: number } | null>(null);
   let press: { k: Kind; x: number; y: number; id: number } | null = null;
   let suppress = false;
@@ -40,7 +41,7 @@
 <svelte:window onpointermove={move} onpointerup={up} onpointercancel={() => { press = null; ghost = null; }} />
 
 <div class="bin">
-  {#each BIN as g (g.g)}
+  {#each BIN.filter((g) => adv || !g.adv) as g (g.g)}
     <div class="bin-g">
       <h3>{g.g}</h3>
       <div class="bin-items">
@@ -57,7 +58,7 @@
 
 <div class="ph"><h2>Examples</h2></div>
 <div class="exlist">
-  {#each EXAMPLES as ex (ex.id)}
+  {#each EXAMPLES.filter((ex) => adv || !ex.adv) as ex (ex.id)}
     <button type="button" class="exbtn" aria-pressed={current === ex.id} onclick={() => onexample(ex)}>{ex.name}</button>
   {/each}
 </div>

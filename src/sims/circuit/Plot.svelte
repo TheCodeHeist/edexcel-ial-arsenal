@@ -1,13 +1,16 @@
 <script lang="ts">
   /* A small physics graph: axes through the origin when it is in range, tidy ticks, recorded points as crosses,
      an optional true curve, an optional best-fit line and a ringed “now” marker. */
-  let { xr, yr, xLabel, yLabel, points = [], curve = null, line = null, now = null, label }: {
+  let { xr, yr, xLabel, yLabel, points = [], curve = null, line = null, now = null, label, h = 360, trace = false }: {
     xr: [number, number]; yr: [number, number]; xLabel: string; yLabel: string;
     points?: { x: number; y: number }[]; curve?: [number, number][] | null; line?: { m: number; c: number } | null;
     now?: { x: number; y: number } | null; label: string;
+    h?: number;          // drawing height (width is always 520)
+    trace?: boolean;     // draw the curve as a solid live trace instead of the dashed “true curve”
   } = $props();
 
-  const W = 520, H = 360, ML = 54, MR = 18, MT = 18, MB = 42;
+  const W = 520, ML = 54, MR = 18, MT = 18, MB = 42;
+  const H = $derived(h);
   const sx = (x: number) => ML + ((x - xr[0]) / (xr[1] - xr[0])) * (W - ML - MR);
   const sy = (y: number) => H - MB - ((y - yr[0]) / (yr[1] - yr[0])) * (H - MT - MB);
   const inX = (x: number) => x >= xr[0] - 1e-9 && x <= xr[1] + 1e-9;
@@ -49,7 +52,7 @@
   <text class="al" x={W - MR} y={H - 8} text-anchor="end">{xLabel}</text>
   <text class="al" x={12} y={MT + 2} transform="rotate(-90 12 {MT + 2})" text-anchor="end">{yLabel}</text>
 
-  {#if path}<path class="curve" d={path} />{/if}
+  {#if path}<path class="curve" class:trace d={path} />{/if}
   {#if fitSeg}<line class="fit" x1={sx(fitSeg[0][0])} y1={sy(fitSeg[0][1])} x2={sx(fitSeg[1][0])} y2={sy(fitSeg[1][1])} />{/if}
   {#each points as p, i (i)}
     {#if inX(p.x) && inY(p.y)}<path class="pt" d="M{sx(p.x) - 5} {sy(p.y) - 5}l10 10m0 -10l-10 10" />{/if}
@@ -64,6 +67,7 @@
   .tk{font:500 11px var(--f-mono);fill:var(--muted);dominant-baseline:central;font-variant-numeric:tabular-nums}
   .al{font:700 12px var(--f-mono);fill:var(--ink);letter-spacing:.04em}
   .curve{fill:none;stroke:color-mix(in srgb,var(--accent) 45%,transparent);stroke-width:2.4;stroke-dasharray:7 6;stroke-linejoin:round}
+  .curve.trace{stroke:var(--accent);stroke-dasharray:none;stroke-width:2.6}
   .fit{stroke:var(--redox);stroke-width:2.2}
   .pt{stroke:var(--ink);stroke-width:2.2;stroke-linecap:round}
   .now{fill:var(--accent-soft);stroke:var(--accent);stroke-width:2.2;transition:cx .25s var(--ease-out),cy .25s var(--ease-out)}

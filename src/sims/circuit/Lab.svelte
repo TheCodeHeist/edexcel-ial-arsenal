@@ -5,6 +5,7 @@
            intercept and r from the gradient. Readings here carry small random errors, like real meters. */
   import Board, { type Flow } from './Board.svelte';
   import Plot from './Plot.svelte';
+  import CapLab from './CapLab.svelte';
   import SubTabs from '../../components/ui/SubTabs.svelte';
   import FilterRow from '../../components/ui/FilterRow.svelte';
   import CopyButton from '../../components/ui/CopyButton.svelte';
@@ -13,8 +14,8 @@
   import { meter, num, ohms, sig } from './format';
   import { pick, sleep } from '../../lib/util';
 
-  let { sub = $bindable('iv'), flow, hidden: off = false, onfit }: {
-    sub?: 'iv' | 'emf'; flow: Flow; hidden?: boolean; onfit?: (err: number) => void;
+  let { sub = $bindable('iv'), flow, adv = false, hidden: off = false, onfit, oncap }: {
+    sub?: 'iv' | 'emf' | 'cap'; flow: Flow; adv?: boolean; hidden?: boolean; onfit?: (err: number) => void; oncap?: () => void;
   } = $props();
 
   /* ---------- I–V characteristics ---------- */
@@ -72,7 +73,7 @@
 </script>
 
 <div class="labview" hidden={off}>
-  <SubTabs label="Experiment" options={[['iv', 'I–V characteristics'], ['emf', 'E.m.f. and internal resistance']]} bind:value={sub} />
+  <SubTabs label="Experiment" options={adv ? [['iv', 'I–V characteristics'], ['emf', 'E.m.f. and internal resistance'], ['cap', 'Capacitor']] : [['iv', 'I–V characteristics'], ['emf', 'E.m.f. and internal resistance']]} bind:value={sub} />
 
   {#if sub === 'iv'}
     {@const D = DUTS[dut]}
@@ -132,6 +133,8 @@
         {/key}
       </section>
     </main>
+  {:else if sub === 'cap'}
+    <CapLab {flow} hidden={off} {oncap} />
   {:else}
     <main class="layout lab">
       <section class="panel stage" aria-label="E.m.f. circuit">

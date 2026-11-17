@@ -4,7 +4,8 @@
      that must stay upright are counter-rotated here. bright (0–1) lights lamps and LEDs. */
   import { LEDS, type Kind, type Props, type Rot } from './parts';
 
-  let { kind, p, rot = 0, bright = 0, short = false }: { kind: Kind; p: Props; rot?: Rot; bright?: number; short?: boolean } = $props();
+  let { kind, p, rot = 0, bright = 0, short = false, level = 0 }: { kind: Kind; p: Props; rot?: Rot; bright?: number; short?: boolean; level?: number } = $props();
+  // level: a capacitor's p.d. as a fraction of 12 V, signed; the + plate tints red and the − plate blue
   const up = $derived(`rotate(${-rot * 90})`);
   const lead = (a: number) => `M-40 0H${-a}M${a} 0H40`;
 </script>
@@ -51,6 +52,23 @@
   <path class="ln" d="M-40 0H-16M16 0H40" />
   <circle class="ln dotc" cx="-16" cy="0" r="2.8" /><circle class="ln dotc" cx="16" cy="0" r="2.8" />
   <path class="ln lever" class:open={!p.on} d="M-16 0L15 -3" />
+{:else if kind === 'capacitor'}
+  {@const a = Math.min(1, Math.abs(level))}
+  <path class="ln" d="M-40 0H-6M6 0H40" />
+  <path class="ln plate2" d="M-6 -18V18" style:stroke={a > 0.01 ? `color-mix(in srgb,${level > 0 ? 'var(--redox)' : 'var(--accent)'} ${Math.round(a * 100)}%,var(--ink))` : undefined} />
+  <path class="ln plate2" d="M6 -18V18" style:stroke={a > 0.01 ? `color-mix(in srgb,${level > 0 ? 'var(--accent)' : 'var(--redox)'} ${Math.round(a * 100)}%,var(--ink))` : undefined} />
+  {#if a > 0.04}
+    <g class="qmarks" style:opacity={Math.min(1, 0.35 + a)}>
+      <path class="ln thin" d={level > 0 ? 'M-19 -22h7M-15.5 -25.5v7' : 'M-19 -22h7'} />
+      <path class="ln thin" d={level > 0 ? 'M12 -22h7' : 'M12 -22h7M15.5 -25.5v7'} />
+    </g>
+  {/if}
+{:else if kind === 'switch2'}
+  <path class="ln" d="M-40 0H-16M16 16H40V40M16 -16H40V-40" />
+  <circle class="ln dotc" cx="-16" cy="0" r="2.8" /><circle class="ln dotc" cx="16" cy="16" r="2.8" /><circle class="ln dotc" cx="16" cy="-16" r="2.8" />
+  <path class="ln lever2" class:b={!p.on} d="M-16 0H17" />
+  <text class="tlet" transform="translate(28 27) {up}">A</text>
+  <text class="tlet" transform="translate(28 -27) {up}">B</text>
 {:else if kind === 'ammeter' || kind === 'voltmeter'}
   <path class="ln" d={lead(15)} />
   <circle class="body" r="15" />
@@ -69,5 +87,9 @@
   .dotc{fill:var(--solid);stroke-width:1.8}
   .lever{transform-box:fill-box;transform-origin:0 100%;transition:transform .35s var(--spring)}
   .lever.open{transform:rotate(-30deg)}
+  .plate2{stroke-width:3.4;transition:stroke .3s}
+  .lever2{transform-box:fill-box;transform-origin:0 50%;transform:rotate(26.6deg);transition:transform .35s var(--spring)}
+  .lever2.b{transform:rotate(-26.6deg)}
+  .tlet{font:700 12px var(--f-mono);fill:var(--muted);text-anchor:middle;dominant-baseline:central;pointer-events:none}
   .mlet{font:700 18px var(--f-body);fill:var(--ink);text-anchor:middle;dominant-baseline:central;pointer-events:none}
 </style>

@@ -9,6 +9,11 @@
    4. Wire currents for the moving-charge animation: inside each net the wires form a small network; the currents
       the parts push into it are spread over its wires by solving that network with resistance ∝ wire length.
 
+   5. Capacitors (time-stepping): solve(c, { dt, vc }) advances time by dt from the capacitor p.d.s in vc using the
+      backward-Euler companion model (conductance C/dt in parallel with a current source C·v/dt), and returns the
+      new p.d.s in sol.vc. A tiny dt gives the circuit at this instant without moving time on. Without dt a capacitor
+      is an open circuit.
+
    Ideal meters and wires are modelled as tiny or huge resistances so the matrix is never singular: an ammeter is
    0.1 mΩ, a closed switch 0.1 mΩ, a cell's internal resistance is at least 0.1 mΩ, a voltmeter is 1 GΩ. */
 
@@ -25,7 +30,8 @@ const VT_L = 0.05;     // LED: n·kT/e
 type El =
   | { k: 'R'; a: number; b: number; R: number }
   | { k: 'E'; a: number; b: number; E: number; r: number }                  // a is +, b is −
-  | { k: 'N'; a: number; b: number; f: (v: number) => [number, number]; vt?: number; is?: number };
+  | { k: 'N'; a: number; b: number; f: (v: number) => [number, number]; vt?: number; is?: number }
+  | { k: 'C'; a: number; b: number; C: number };
 
 /** The I(V) of a filament lamp: R rises from a quarter of its hot value as the filament heats up. */
 export function lampIV(rating: keyof typeof LAMPS) {
@@ -50,6 +56,8 @@ export function elements(p: Part): El[] {
     case 'thermistor': return [{ k: 'R', a: 0, b: 1, R: thermR(P.T ?? 20) }];
     case 'ldr': return [{ k: 'R', a: 0, b: 1, R: ldrR(P.lux ?? 100) }];
     case 'switch': return P.on ? [{ k: 'R', a: 0, b: 1, R: TINY }] : [];
+    case 'switch2': return [{ k: 'R', a: 0, b: P.on ? 1 : 2, R: TINY }];
+    case 'capacitor': return [{ k: 'C', a: 0, b: 1, C: Math.max(P.C ?? 470e-6, 1e-12) }];
     case 'ammeter': return [{ k: 'R', a: 0, b: 1, R: TINY }];
     case 'voltmeter': return [{ k: 'R', a: 0, b: 1, R: HUGE }];
     case 'pot': {
@@ -71,6 +79,8 @@ export interface PartResult {
   reading?: number; // meters: what the display shows (magnitude)
   bright?: number;  // lamps and LEDs: 0–1
   short?: boolean;  // a cell whose terminals are effectively joined
+  q?: number;       // capacitor: charge (C)
+  energy?: number;  // capacitor: energy stored (J)
 }
 export interface WireFlow { a: Pt; b: Pt; i: number }   // current from a to b along one piece of wire
 export interface Solution {
@@ -80,7 +90,9 @@ export interface Solution {
   netOf: Record<string, number>;       // attachment point key → net index
   shorts: string[];                    // ids of short-circuited cells
   converged: boolean;
+  vc: Record<string, number>;          // capacitor p.d.s after this step, by part id
 }
+export interface SolveOpts { dt?: number; vc?: Record<string, number> }
 
 /* ---------- union-find ---------- */
 class DSU {
@@ -123,7 +135,8 @@ function pnjlim(vnew: number, vold: number, vt: number, is: number): number {
   return vnew;
 }
 
-export function solve(c: CircuitData): Solution {
+export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
+  const dt = opts.dt, vc0 = opts.vc ?? {};
   /* 1. netlist */
   const dsu = new DSU();
   const termPts = new Map<string, Pt[]>();
@@ -186,6 +199,7 @@ export function solve(c: CircuitData): Solution {
       const e = x.e;
       if (e.k === 'R') G(x.na, x.nb, 1 / e.R);
       else if (e.k === 'E') { G(x.na, x.nb, 1 / e.r); I(x.na, x.nb, e.E / e.r); }
+      else if (e.k === 'C') { if (dt) { const g = e.C / dt; G(x.na, x.nb, g); I(x.na, x.nb, g * (vc0[x.part.id] ?? 0)); } }
       else { const [i0, g] = e.f(vd[j]); G(x.na, x.nb, g); I(x.nb, x.na, i0 - g * vd[j]); }
     });
     const x = gauss(A, b);
@@ -207,6 +221,7 @@ export function solve(c: CircuitData): Solution {
   /* results per part */
   const parts: Record<string, PartResult> = {};
   const shorts: string[] = [];
+  const vc: Record<string, number> = {};
   for (const p of c.parts) {
     const nt = KINDS[p.kind].terms.length;
     parts[p.id] = { v: 0, i: 0, p: 0, out: new Array(nt).fill(0) };
@@ -216,6 +231,7 @@ export function solve(c: CircuitData): Solution {
     let i: number;
     if (e.k === 'R') i = v / e.R;
     else if (e.k === 'E') i = (v - e.E) / e.r;
+    else if (e.k === 'C') i = dt ? (e.C / dt) * (v - (vc0[x.part.id] ?? 0)) : 0;
     else i = e.f(hasNL ? vd[j] : v)[0];
     R.out[e.a] -= i; R.out[e.b] += i;
   });
@@ -241,6 +257,7 @@ export function solve(c: CircuitData): Solution {
         break;
       }
     }
+    if (p.kind === 'capacitor') { const C = p.p.C ?? 470e-6; R.q = C * R.v; R.energy = 0.5 * C * R.v * R.v; R.R = undefined; vc[p.id] = R.v; }
     if (p.kind === 'lamp') { const L = LAMPS[p.p.rating ?? '6V']; R.bright = Math.min(1, Math.max(0, R.p / (L.v * L.i))); }
     if (p.kind === 'led') R.bright = Math.min(1, Math.max(0, R.i / 0.015));
   }
@@ -279,5 +296,5 @@ export function solve(c: CircuitData): Solution {
 
   const nodeV: Record<string, number> = {};
   for (const p of attach) nodeV[key(p)] = V[netOf[key(p)]];
-  return { parts, flows, nodeV, netOf, shorts, converged };
+  return { parts, flows, nodeV, netOf, shorts, converged, vc };
 }

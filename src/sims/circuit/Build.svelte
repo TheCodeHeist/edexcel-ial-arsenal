@@ -9,10 +9,14 @@
   import type { Solution } from './solve';
   import type { Example } from './examples';
   import type { Kind } from './parts';
+  import type { Clock } from './transient.svelte';
+  import { num } from './format';
 
-  let { ed, sol, prefs, hidden: off = false, example = $bindable('') }: {
-    ed: Editor; sol: Solution; prefs: { flow: Flow; values: boolean; zoom: number; zoomPhone: number }; hidden?: boolean; example?: string;
+  let { ed, sol, prefs, clock = null, hidden: off = false, example = $bindable('') }: {
+    ed: Editor; sol: Solution; prefs: { flow: Flow; values: boolean; zoom: number; zoomPhone: number; adv: boolean };
+    clock?: Clock | null; hidden?: boolean; example?: string;
   } = $props();
+  const SPEEDS = [['0.1', '×0.1'], ['1', '×1'], ['10', '×10']] as const;
 
   const ZOOMS = [1, 1.5, 2, 2.5];
 
@@ -57,7 +61,7 @@
 <main class="layout build" hidden={off}>
   <section class="panel tray" aria-label="Parts bin">
     <div class="ph"><h2>Parts</h2></div>
-    <Tray onadd={(k) => { ed.add(k); example = ''; }} ondrop={drop} onexample={loadExample} current={example} />
+    <Tray adv={prefs.adv} onadd={(k) => { ed.add(k); example = ''; }} ondrop={drop} onexample={loadExample} current={example} />
   </section>
 
   <section class="panel stage" aria-label="Circuit board">
@@ -77,6 +81,14 @@
         <div class="bempty">Add parts from the bin, or load an example.</div>
       {/if}
     </div>
+    {#if clock}
+      <div class="timebar" role="group" aria-label="Time">
+        <button class="btn primary" type="button" onclick={() => (clock.playing = !clock.playing)}>{clock.playing ? 'Pause' : 'Play'}</button>
+        <Seg label="Speed" options={SPEEDS} value={String(clock.speed) as '0.1' | '1' | '10'} onchange={(v) => (clock.speed = Number(v))} />
+        <span class="clock">t = {clock.t < 100 ? clock.t.toFixed(1) : num(clock.t)} s</span>
+        <button class="btn" type="button" onclick={() => clock.reset()} title="Discharge every capacitor and set t back to 0">Discharge all</button>
+      </div>
+    {/if}
     <div class="board-foot">
       <Seg label="Moving charge" options={[['conv', 'Conventional current', 'Current'], ['electron', 'Electron flow', 'Electrons'], ['off', 'Off']]} bind:value={prefs.flow} />
       <div class="foot-r">
@@ -92,6 +104,6 @@
 
   <section class="panel inspector" aria-label="Inspector">
     <div class="ph"><h2>Inspector</h2></div>
-    <Inspector {ed} {sol} />
+    <Inspector {ed} {sol} {clock} />
   </section>
 </main>

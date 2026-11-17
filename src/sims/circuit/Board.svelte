@@ -14,7 +14,7 @@
   import { KINDS, LAMPS, LEDS, terminals, key, onSeg, same, type CircuitData, type Part, type Pt } from './parts';
   import type { Solution } from './solve';
   import { BW, BH, type Editor } from './editor.svelte';
-  import { meter, ohms, num } from './format';
+  import { meter, ohms, num, si } from './format';
 
   let { c, sol, ed = null, flow = 'conv', values = true, hide = [], mask = [], focus = null, zoom = 1, fit = false, label = 'Circuit diagram', onpick }: {
     c: CircuitData; sol: Solution; ed?: Editor | null; flow?: Flow; values?: boolean;
@@ -63,7 +63,8 @@
     };
     for (const w of c.wires) for (const f of sol.flows[w.id] ?? []) push(f.a, f.b, f.i);
     for (const p of c.parts) {
-      const r = sol.parts[p.id]; if (!r || p.kind === 'pot' || p.kind === 'voltmeter') continue;
+      // no charge crosses a capacitor's gap, and a two-way switch's current shows on its wires
+      const r = sol.parts[p.id]; if (!r || p.kind === 'pot' || p.kind === 'voltmeter' || p.kind === 'capacitor' || p.kind === 'switch2') continue;
       const [t0, t1] = terminals(p);
       push(t0, t1, p.kind === 'cell' ? -r.i : r.i);
     }
@@ -79,10 +80,13 @@
       case 'ldr': return `${num(P.lux ?? 0, 2)} lx`;
       case 'lamp': return LAMPS[P.rating ?? '6V'].label.split(',')[0];
       case 'led': return LEDS[P.colour ?? 'red'].label;
+      case 'capacitor': return si(P.C ?? 0, 'F', 2).replace(/\.0 /, ' ');
       default: return '';
     }
   }
-  const big = (p: Part) => (p.kind === 'ldr' ? 8 : p.kind === 'switch' || p.kind === 'led' ? 6 : 0);
+  const big = (p: Part) => (p.kind === 'ldr' ? 8 : p.kind === 'switch2' ? 16 : p.kind === 'switch' || p.kind === 'led' ? 6 : 0);
+  /** How far a part's body reaches across its axis (local y), for its grab area and selection ring. */
+  const ext = (k: Part['kind']): [number, number] => (k === 'pot' ? [-20, 42] : k === 'ldr' ? [-28, 28] : k === 'switch2' ? [-42, 42] : [-20, 20]);
   const ch = $derived(9.1 * ts); // width of one label character (15px JetBrains Mono, scaled)
   const isMeter = (p: Part) => p.kind === 'ammeter' || p.kind === 'voltmeter';
   const valueOf = (p: Part) => (mask.includes(p.id) ? '?' : values ? valueText(p) : '');
@@ -179,7 +183,7 @@
     drag = null;
     if (d.mode === 'part') {
       const moved = ed.endDrag();
-      if (!moved) { const p = c.parts.find((q) => q.id === d.id); if (p?.kind === 'switch') ed.toggle(p.id); }
+      if (!moved) { const p = c.parts.find((q) => q.id === d.id); if (p?.kind === 'switch' || p?.kind === 'switch2') ed.toggle(p.id); }
       return;
     }
     if (d.moved && !same(d.from, d.to)) ed.addWire(d.from, d.to, d.first ?? 'h');
@@ -240,12 +244,13 @@
     {#each c.parts as p (p.id)}
       {@const r = sol.parts[p.id]}
       {@const isSel = sel?.t === 'part' && sel.id === p.id}
+      {@const [et, eb] = ext(p.kind)}
       <g class="part k-{p.kind}" class:sel={isSel} class:focus={focus === p.id} class:pick={!ed && !!onpick}
         transform="translate({p.x * S} {p.y * S}) rotate({p.rot * 90})">
-        {#if isSel || focus === p.id}<rect class="ring" x="-47" y={p.kind === 'ldr' ? -32 : -25} width="94" height={p.kind === 'pot' ? 72 : p.kind === 'ldr' ? 64 : 50} rx="10" />{/if}
-        <Symbol kind={p.kind} p={p.p} rot={p.rot} bright={r?.bright ?? 0} short={r?.short ?? false} />
+        {#if isSel || focus === p.id}<rect class="ring" x="-47" y={et - 5} width="94" height={eb - et + 10} rx="10" />{/if}
+        <Symbol kind={p.kind} p={p.p} rot={p.rot} bright={r?.bright ?? 0} short={r?.short ?? false} level={p.kind === 'capacitor' ? (r?.v ?? 0) / 12 : 0} />
         <!-- svelte-ignore a11y_no_static_element_interactions -->
-        <rect class="grab" x="-38" y={p.kind === 'ldr' ? -28 : -20} width="76" height={p.kind === 'pot' ? 62 : p.kind === 'ldr' ? 56 : 40} onpointerdown={(e) => partDown(e, p)} />
+        <rect class="grab" x="-38" y={et} width="76" height={eb - et} onpointerdown={(e) => partDown(e, p)} />
       </g>
     {/each}
 
@@ -293,7 +298,7 @@
   .term:hover{fill:color-mix(in srgb,var(--accent) 22%,transparent);stroke:var(--accent);stroke-width:1.5}
   .grab{fill:transparent}
   .editable .grab{cursor:grab;touch-action:none}
-  .editable .k-switch .grab{cursor:pointer}
+  .editable .k-switch .grab,.editable .k-switch2 .grab{cursor:pointer}
   .pick .grab{cursor:pointer}
   .ring{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.6;stroke-dasharray:5 4}
   .focus .ring{stroke-dasharray:none;animation:ringpulse 1.6s ease-in-out infinite}

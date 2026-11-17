@@ -18,7 +18,13 @@ export function build(specs: Spec[], paths: Pt[][]): CircuitData {
   return { parts, wires };
 }
 
-export interface Example { id: string; name: string; note: string; data: () => CircuitData }
+export interface Example { id: string; name: string; note: string; data: () => CircuitData; adv?: boolean }
+
+/** The capacitor charge/discharge rig (also the I–V Lab's capacitor practical): A charges through R, B discharges through R. */
+export const rcRig = (C: number, R: number, on: boolean, cellName?: string, emf = 6) => build(
+  [['cell', 2, 7, 1, { emf }, cellName], ['switch2', 6, 4, 2, { on }], ['resistor', 9, 4, 0, { R }], ['ammeter', 11, 4], ['capacitor', 13, 7, 1, { C }], ['voltmeter', 16, 7, 1]],
+  [[[2, 6], [2, 3], [5, 3]], [[5, 5], [5, 10]], [[7, 4], [8, 4]], [[12, 4], [13, 4], [13, 6]], [[13, 8], [13, 10], [2, 10], [2, 8]], [[16, 6], [16, 5], [13, 5]], [[16, 8], [16, 9], [13, 9]]],
+);
 
 export const EXAMPLES: Example[] = [
   {
@@ -76,5 +82,10 @@ export const EXAMPLES: Example[] = [
       [['cell', 9, 10, 0, { emf: 6 }], ['switch', 5, 3, 0, { on: true }], ['resistor', 10, 3, 0, { R: 220 }], ['led', 15, 6, 1, { colour: 'red' }], ['ammeter', 15, 9, 1, {}]],
       [[[8, 10], [3, 10], [3, 3], [4, 3]], [[6, 3], [9, 3]], [[11, 3], [15, 3], [15, 5]], [[15, 7], [15, 8]], [[15, 10], [10, 10]]],
     ),
+  },
+  {
+    id: 'rc', name: 'Charging and discharging', adv: true,
+    note: 'Switch to A to charge the capacitor through R, then to B to discharge it. τ = RC = 4.7 s.',
+    data: () => rcRig(470e-6, 10000, true),
   },
 ];

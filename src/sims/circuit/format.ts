@@ -36,10 +36,11 @@ export function ohms(R: number): string {
   return num(R) + ' Ω';
 }
 
-/** A meter display: 3 significant figures, amps below 0.1 A shown in mA, like a real multimeter's auto-range. */
+/** A meter display: 3 significant figures, amps below 0.1 A shown in mA (below 0.1 mA in µA), like a real multimeter's auto-range. */
 export function meter(x: number, unit: 'A' | 'V'): string {
   const a = Math.abs(x) < 1e-6 ? 0 : Math.abs(x);
   if (a === 0) return '0.00 ' + unit;
+  if (unit === 'A' && a < 1e-4) return sig(a * 1e6) + ' µA';
   if (unit === 'A' && a < 0.1) return sig(a * 1000) + ' mA';
   return sig(a) + ' ' + unit;
 }

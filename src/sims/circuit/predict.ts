@@ -3,9 +3,9 @@
    internal resistance, adding parallel resistors like series ones, using the wrong resistor in a potential
    divider, and so on. Each question carries the working that the reveal shows. */
 
-import { build } from './examples';
+import { build, rcRig } from './examples';
 import { solve } from './solve';
-import { num } from './format';
+import { num, si, ohms } from './format';
 import { pick, shuffle } from '../../lib/util';
 import type { CircuitData, Kind } from './parts';
 
@@ -19,6 +19,7 @@ export interface Question {
   answer: string;
   working: string[];     // lines of working, plain text
   why: string;           // one sentence: the physics behind it
+  vc?: Record<string, number>;  // capacitor p.d.s the board shows (capacitor questions)
 }
 
 const EMF = [3, 4.5, 6, 9, 12];
@@ -31,12 +32,12 @@ const read = (c: CircuitData, name: string) => solve(c).parts[idOf(c, name)].rea
 const meters = (c: CircuitData) => c.parts.filter((p) => p.kind === 'ammeter' || p.kind === 'voltmeter').map((p) => p.id);
 
 /** Four distinct options: the answer plus wrong values (deduplicated, topped up with ×2 and ÷2 slips). */
-function options(ans: number, wrong: number[], u: string): { options: string[]; answer: string } {
-  const answer = f(ans, u);
+function options(ans: number, wrong: number[], u: string, fmt = f): { options: string[]; answer: string } {
+  const answer = fmt(ans, u);
   const set = new Set([answer]);
   for (const w of [...wrong, ans * 2, ans / 2, ans * 3, ans / 3]) {
     if (set.size >= 4) break;
-    if (isFinite(w) && w > 0) set.add(f(w, u));
+    if (isFinite(w) && w > 0) set.add(fmt(w, u));
   }
   return { options: shuffle([...set]), answer };
 }
@@ -182,11 +183,85 @@ function sensor(): Question {
   };
 }
 
+/* ---------- capacitors (Unit 4) ---------- */
+
+const CAPS = [100e-6, 220e-6, 470e-6, 1000e-6, 2200e-6];
+const RBIG = [1000, 2200, 4700, 10000, 22000];
+const fsi = (x: number, u: string) => si(x, u, 3);
+const sec = (x: number) => `${num(x)} s`;
+const capOf = (c: { parts: { kind: string; id: string }[] }) => c.parts.find((p) => p.kind === 'capacitor')!.id;
+const rcPick = () => {
+  const C = pick(CAPS), R = pick(RBIG.filter((r) => r * C >= 0.4 && r * C <= 60));
+  return { C, R, E: pick([3, 4.5, 6, 9, 12]) };
+};
+const rcTxt = (R: number, C: number) => `τ = RC = ${ohms(R)} × ${si(C, 'F', 2)} = ${num(R * C)} s`;
+
+function capStore(): Question {
+  const { C, R, E } = rcPick(), c = rcRig(C, R, true, undefined, E), id = capOf(c);
+  const Q = C * E;
+  if (Math.random() < 0.55) return {
+    type: 'cap', c, ask: id, hide: meters(c), vc: { [id]: E },
+    prompt: 'S1 has been at A for a long time. How much charge is stored on C1?',
+    ...options(Q, [Q / 2, C * E * E, C / E], 'C', fsi),
+    working: ['Fully charged: no current, so no p.d. across R and V = ε = ' + num(E) + ' V', `Q = CV = ${si(C, 'F', 2)} × ${num(E)} V = ${si(Q, 'C', 3)}`],
+    why: 'A capacitor charges until the p.d. across it equals the e.m.f.; then the current stops.',
+  };
+  const W = 0.5 * C * E * E;
+  return {
+    type: 'cap', c, ask: id, hide: meters(c), vc: { [id]: E },
+    prompt: 'S1 has been at A for a long time. How much energy is stored in C1?',
+    ...options(W, [C * E * E, 0.5 * C * E, Q], 'J', fsi),
+    working: [`V = ε = ${num(E)} V`, `W = ½CV² = ½ × ${si(C, 'F', 2)} × ${num(E)}² = ${si(W, 'J', 3)}`],
+    why: 'The energy stored is the area under the Q–V graph: ½QV = ½CV².',
+  };
+}
+
+function capTime(): Question {
+  const { C, R, E } = rcPick(), c = rcRig(C, R, false, undefined, E), id = capOf(c), tau = R * C;
+  const kind = pick(['tau', 'half', 'decay'] as const);
+  if (kind === 'tau') return {
+    type: 'cap', c, ask: id, hide: meters(c), vc: { [id]: E },
+    prompt: 'C1 is charged, then S1 is moved to B. What is the time constant of the discharge?',
+    ...options(tau, [tau * Math.LN2, 1 / tau, tau / 2], 's', (x) => sec(x)),
+    working: [rcTxt(R, C)],
+    why: 'In one time constant the p.d., charge and current all fall to 1/e (37%) of their starting values.',
+  };
+  if (kind === 'half') return {
+    type: 'cap', c, ask: id, hide: meters(c), vc: { [id]: E / 2 },
+    prompt: `C1 is charged to ${num(E)} V, then S1 is moved to B. How long until V1 reads ${num(E / 2)} V?`,
+    ...options(tau * Math.LN2, [tau, tau / 2, 2 * tau], 's', (x) => sec(x)),
+    working: [rcTxt(R, C), '½V₀ = V₀e^(−t/RC), so t = RC ln 2', `t = ${num(tau)} × 0.693 = ${num(tau * Math.LN2)} s`],
+    why: 'Exponential decay halves in the same time, RC ln 2, whatever the starting value.',
+  };
+  const t = Number((pick([0.5, 1, 2, 3]) * tau).toPrecision(2)), x = t / tau, V = E * Math.exp(-x);
+  return {
+    type: 'cap', c, ask: c.parts[5].id, hide: meters(c), vc: { [id]: V },
+    prompt: `C1 is charged to ${num(E)} V, then S1 is moved to B at t = 0. What does V1 read at t = ${num(t)} s?`,
+    ...options(V, [E * (1 - Math.exp(-x)), E * Math.pow(0.5, x), E * Math.exp(-x / 2)], 'V'),
+    working: [rcTxt(R, C), `V = V₀e^(−t/RC) = ${num(E)} × e^(−${num(t)}/${num(tau)}) = ${num(V)} V`],
+    why: 'On discharge V = V₀e^(−t/RC): it falls by the same fraction in every equal time interval.',
+  };
+}
+
+function capStart(): Question {
+  const { C, R, E } = rcPick(), c = rcRig(C, R, true, undefined, E), I0 = E / R;
+  return {
+    type: 'cap', c, ask: c.parts[3].id, hide: meters(c), vc: { [capOf(c)]: 0 },
+    prompt: 'C1 is uncharged. S1 is moved to A. What does A1 read at that instant?',
+    ...options(I0, [I0 / 2, I0 * Math.exp(-1), E * C], 'A', fsi),
+    working: ['An uncharged capacitor has no p.d. across it, so the whole e.m.f. is across R', `I₀ = ε / R = ${num(E)} / ${ohms(R)} = ${si(I0, 'A', 3)}`],
+    why: 'The charging current starts at its largest, ε/R, and falls as the capacitor’s p.d. rises.',
+  };
+}
+
 const TYPES = [series, parallel, emf, mixed, sensor];
+const CAP_TYPES = [capStore, capTime, capTime, capStart];
 let last = '';
-export function newQuestion(): Question {
+/** A new question; with adv (the Unit 4 switch) capacitor questions join the mix. */
+export function newQuestion(adv = false): Question {
+  const types = adv ? [...TYPES, ...CAP_TYPES] : TYPES;
   let q: Question;
-  do q = pick(TYPES)(); while (q.type === last && Math.random() < 0.85);
+  do q = pick(types)(); while (q.type === last && Math.random() < 0.85);
   last = q.type;
   return q;
 }

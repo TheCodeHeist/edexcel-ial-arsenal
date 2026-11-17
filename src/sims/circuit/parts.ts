@@ -5,7 +5,7 @@
    from that point in grid units, before rotation. rot turns the part clockwise in 90° steps (screen y points down). */
 
 export type Pt = [number, number];
-export type Kind = 'cell' | 'resistor' | 'varres' | 'lamp' | 'diode' | 'led' | 'thermistor' | 'ldr' | 'switch' | 'ammeter' | 'voltmeter' | 'pot';
+export type Kind = 'cell' | 'resistor' | 'varres' | 'lamp' | 'diode' | 'led' | 'thermistor' | 'ldr' | 'switch' | 'switch2' | 'ammeter' | 'voltmeter' | 'pot' | 'capacitor';
 export type Rot = 0 | 1 | 2 | 3;
 export type LedColour = 'red' | 'yellow' | 'green' | 'blue';
 export type LampRating = '2.5V' | '6V' | '12V';
@@ -17,7 +17,8 @@ export interface Props {
   wiper?: number;      // potentiometer: wiper position 0–1 from terminal 0
   T?: number;          // thermistor: temperature in °C
   lux?: number;        // LDR: light intensity in lux
-  on?: boolean;        // switch: closed?
+  on?: boolean;        // switch: closed? two-way switch: true = position A
+  C?: number;          // capacitor: capacitance in F
   rating?: LampRating; // filament lamp
   colour?: LedColour;  // LED
 }
@@ -107,6 +108,16 @@ export const KINDS: Record<Kind, KindInfo> = {
     controls: [{ key: 'on', label: 'Position', unit: '', type: 'toggle' }],
     note: 'Tap it on the board to open or close it.',
   },
+  switch2: {
+    label: 'Two-way switch', prefix: 'S', terms: [[-1, 0], [1, 1], [1, -1]], defaults: { on: true },
+    controls: [{ key: 'on', label: 'Position', unit: '', type: 'toggle' }],
+    note: 'Connects the left terminal to A or to B. Tap it on the board to flip it: the usual way to charge a capacitor, then discharge it.',
+  },
+  capacitor: {
+    label: 'Capacitor', prefix: 'C', terms: TWO, defaults: { C: 470e-6 },
+    controls: [{ key: 'C', label: 'Capacitance', unit: 'F', type: 'log', min: 1e-6, max: 1e-2 }],
+    note: 'Stores charge: Q = CV. Through a resistor it charges and discharges exponentially with time constant τ = RC.',
+  },
   ammeter: {
     label: 'Ammeter', prefix: 'A', terms: TWO, defaults: {},
     controls: [],
@@ -128,11 +139,12 @@ export const KINDS: Record<Kind, KindInfo> = {
 };
 
 /** Parts bin order and groups. */
-export const BIN: { g: string; kinds: Kind[] }[] = [
-  { g: 'Sources and switches', kinds: ['cell', 'switch'] },
+export const BIN: { g: string; kinds: Kind[]; adv?: boolean }[] = [
+  { g: 'Sources and switches', kinds: ['cell', 'switch', 'switch2'] },
   { g: 'Resistors', kinds: ['resistor', 'varres', 'pot', 'thermistor', 'ldr'] },
   { g: 'Lamps and diodes', kinds: ['lamp', 'diode', 'led'] },
   { g: 'Meters', kinds: ['ammeter', 'voltmeter'] },
+  { g: 'Capacitors · Unit 4', kinds: ['capacitor'], adv: true },
 ];
 
 /* ---------- geometry ---------- */
