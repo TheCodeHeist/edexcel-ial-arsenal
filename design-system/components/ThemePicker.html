@@ -1,0 +1,4 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../css/playground.css"><script src="../js/playground.js"></script><script>Playground.initTheme();addEventListener("storage",e=>{if(!e.key||!e.key.startsWith("chem-"))return;const g=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(x){return d}};Playground.setTheme({palette:g("chem-palette","catppuccin"),mode:g("chem-mode","auto")});});</script><meta charset="utf-8"><style>body{margin:0;padding:18px;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}</style></head><body>
+<div style="display:flex;justify-content:flex-end;padding-right:4px"><div id="theme"></div></div>
+<script>const p=Playground.themePicker(document.getElementById('theme'));p.open();Playground.indicators();</script>
+</body></html>

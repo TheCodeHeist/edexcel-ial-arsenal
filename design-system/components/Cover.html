@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../css/playground.css"><script src="../js/playground.js"></script><script>Playground.initTheme();addEventListener("storage",e=>{if(!e.key||!e.key.startsWith("chem-"))return;const g=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(x){return d}};Playground.setTheme({palette:g("chem-palette","catppuccin"),mode:g("chem-mode","auto")});});</script><style>body{margin:0;background:var(--bg)}</style></head><body><style>
+html,body{margin:0;background:var(--bg)}
+.cv{position:relative;width:960px;height:288px;overflow:hidden;background:var(--bg)}
+.cv svg{position:absolute;left:0;top:0}
+.acc{fill:var(--accent)} .rdx{fill:var(--redox)} .lig{fill:var(--ligand)} .acb{fill:var(--acidbase)} .amp{fill:var(--amph)} .cnd{fill:var(--cond)}
+.blk{rx:var(--r-lg)}
+.hex{fill:none;stroke:var(--bg);stroke-width:2.2} .ring{fill:none;stroke:var(--bg);stroke-width:1.6}
+.nm{position:absolute;left:40px;bottom:58px;margin:0;font:700 54px/.95 var(--f-display);color:var(--ink);letter-spacing:-.01em;white-space:nowrap}
+.nm i{color:var(--accent)}
+.tg{position:absolute;left:40px;bottom:30px;margin:0;font:400 14px/1.3 var(--f-body);color:var(--muted)}
+</style>
+<div class="cv">
+<svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+<!-- blocks: --accent 300×110, --redox 176×84, --ligand 150×110, --acidbase 120×64, --amph 100×96, --cond 64×52 (widths multiples of space-4…space-22; corners --r-lg)
+     arrangement: top band of unequal blocks bleeding off the top edge, staggered depths like a reaction-type legend strip
+     pattern: literal motif — benzene rings (hexagon + inner circle), the sigil at the heart of the simulations, cut out in --bg over the blocks
+     scales: gaps space-12/space-16, hexagon side 22px, ring r 13px, corners r-lg -->
+<rect class="acc blk" x="-20" y="-20" width="320" height="130"/>
+<rect class="rdx blk" x="312" y="-20" width="176" height="104"/>
+<rect class="lig blk" x="500" y="-20" width="150" height="130"/>
+<rect class="acb blk" x="662" y="-20" width="120" height="84"/>
+<rect class="amp blk" x="794" y="-20" width="100" height="116"/>
+<rect class="cnd blk" x="906" y="-20" width="74" height="72"/>
+<g transform="translate(212 52)"><path class="hex" d="M0 -22 L19 -11 L19 11 L0 22 L-19 11 L-19 -11Z"/><circle class="ring" r="12"/></g>
+<g transform="translate(400 40)"><path class="hex" d="M0 -22 L19 -11 L19 11 L0 22 L-19 11 L-19 -11Z"/><circle class="ring" r="12"/></g>
+<g transform="translate(575 60)"><path class="hex" d="M0 -22 L19 -11 L19 11 L0 22 L-19 11 L-19 -11Z"/><circle class="ring" r="12"/></g>
+<g transform="translate(844 54)"><path class="hex" d="M0 -22 L19 -11 L19 11 L0 22 L-19 11 L-19 -11Z"/><circle class="ring" r="12"/></g>
+</svg>
+<p class="nm"><i>E</i>dexcel IAL Visual Playground</p>
+<p class="tg">Liquid Glass, six palettes and calm motion for memorable science.</p>
+</div>
+<script>function fit(){const s=Math.min(1,innerWidth/960);const c=document.querySelector(".cv");c.style.transformOrigin="0 0";c.style.transform="scale("+s+")";document.body.style.height=288*s+"px";}fit();addEventListener("resize",fit);</script></body></html>

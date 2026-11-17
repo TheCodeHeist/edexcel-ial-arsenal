@@ -1,0 +1,64 @@
+---
+/* One page per subject: its tools, then the unit map showing which units have tools so far. */
+import Base from '../../layouts/Base.astro';
+import ToolCard from '../../components/ToolCard.svelte';
+import { SUBJECTS, type Subject } from '../../data/subjects';
+import { toolsFor, toolsForUnit } from '../../data/tools';
+
+export function getStaticPaths() {
+  return SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
+}
+const { s } = Astro.props as { s: Subject };
+const tools = toolsFor(s.id);
+const covered = s.units.filter((u) => toolsForUnit(u.code).length).length;
+const codes = `${s.units[0].code}–${s.units.at(-1)!.code}`;
+---
+<Base
+  title={s.name}
+  description={`Interactive tools for Edexcel IAL ${s.name} (${codes}). ${s.blurb}`}
+  tab={s.id}
+  status={{ label: s.name, hint: tools.length ? `${codes}. Pick a tool to open it.` : `${codes}. The first tools are on the way.` }}
+  stats={[{ label: 'Tools', value: tools.length }, { label: 'Units covered', value: `${covered}/${s.units.length}` }]}
+>
+  <section aria-labelledby="tools-h" style={`--hue:var(${s.hue})`}>
+    <div class="section-h">
+      <div>
+        <h2 id="tools-h"><span class="d">{s.name[0]}</span>{s.name.slice(1)} tools</h2>
+        <p>{s.blurb}</p>
+      </div>
+    </div>
+    {tools.length ? (
+      <div class="tools">
+        {tools.map((tool, i) => <div class="rise" style={`--i:${i}`}><ToolCard tool={tool} i={i} /></div>)}
+      </div>
+    ) : (
+      <div class="panel empty rise">
+        <h3>Nothing here yet</h3>
+        <p>{s.name} tools are being built. The unit map below shows what the site will cover.</p>
+      </div>
+    )}
+  </section>
+
+  <section class="section" aria-labelledby="units-h" style={`--hue:var(${s.hue})`}>
+    <div class="section-h">
+      <div><h2 id="units-h">Unit map</h2><p>Every {s.name} unit, and the tools that cover it.</p></div>
+    </div>
+    <div class="units">
+      {s.units.map((u, i) => { const ts = toolsForUnit(u.code); return (
+        <article class="unit glass rise" style={`--i:${i + 2}`}>
+          <span class="n">{u.n}</span>
+          <span class="code">{u.code}{u.practical && <em>Practical</em>}</span>
+          <h3>{u.title}</h3>
+          <div class="covered">
+            {ts.length ? ts.map((t) => <a class="chip" href={t.href}>{t.title}</a>) : <span class="none">No tools yet</span>}
+          </div>
+        </article>
+      ); })}
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* the card fills its rise wrapper */
+  .tools > .rise { display: grid; }
+</style>

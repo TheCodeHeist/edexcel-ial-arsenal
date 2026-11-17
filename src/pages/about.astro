@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { TOOLS } from '../data/tools';
+---
+<Base
+  title="About"
+  description="What Edexcel IAL Arsenal is, who it is for, and how it works."
+  status={{ label: 'About', hint: 'What this site is and how it works.' }}
+  stats={[{ label: 'Tools', value: TOOLS.length }]}
+>
+  <article class="panel prose rise">
+    <p class="eyebrow">About</p>
+    <h2>Study tools for Edexcel IAL sciences</h2>
+    <p>Edexcel IAL Arsenal is a growing set of free tools for students taking Pearson Edexcel International A Levels in Chemistry and Physics. Each one covers part of the specification you would otherwise have to memorise from a page: you run the reactions, test yourself and see what changes.</p>
+
+    <h3>What you'll find</h3>
+    <ul>
+      <li><b>Simulations</b>: virtual benches and labs where you try things and see the result.</li>
+      <li><b>Drills</b>: short self-tests with a running score.</li>
+      <li><b>References</b>: the facts you need, laid out so they're quick to check.</li>
+    </ul>
+
+    <h3>How it works</h3>
+    <p>Everything runs in your browser. There are no accounts. Your theme, scores and progress are saved on this device only.</p>
+    <p>Pick a palette from the theme button at the top. Your choice follows you into every tool.</p>
+
+    <h3>Accuracy</h3>
+    <p>Content follows the current Edexcel IAL specifications and spellings (sulfur, aluminium, colourless).</p>
+
+    <h3>Biology, and helping out</h3>
+    <p>There are no Biology tools yet, because nobody maintaining the site has taken Biology. If you have and would like to co-maintain it, you're welcome: the project is open source on <a href="https://github.com/TheCodeHeist/edexcel-ial-arsenal">GitHub</a>. Fixes and new tools for Chemistry and Physics are welcome too.</p>
+
+    <h3>Not affiliated</h3>
+    <p>This is an independent project. It is not produced, endorsed or checked by Pearson Edexcel. Use it alongside the official specification, past papers and mark schemes, not instead of them.</p>
+  </article>
+</Base>

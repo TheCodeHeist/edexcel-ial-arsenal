@@ -1,0 +1,86 @@
+---
+/* Every hub page: head, background glow, top bar (title | theme pill | tabs), status line, footer.
+   Standalone simulations in public/ have their own copy of this chrome. */
+import '../styles/global.css';
+import ThemePicker from '../components/ThemePicker.astro';
+import { SUBJECTS, type SubjectId } from '../data/subjects';
+
+export interface Stat { label: string; value: string | number }
+interface Props {
+  title?: string;           // page title; the site name is appended
+  description: string;
+  tab?: 'home' | SubjectId;
+  status: { label: string; hint: string };
+  stats?: Stat[];
+}
+const { title, description, tab, status, stats = [] } = Astro.props;
+const fullTitle = title ? `${title} · Edexcel IAL Arsenal` : 'Edexcel IAL Arsenal';
+const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECTS.map((s) => ({ id: s.id, name: s.name, short: s.short, href: `/${s.id}/` }))];
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script is:inline>
+    /* Before first paint: restore the saved palette + mode so the page never flashes the default theme.
+       Same keys as src/scripts/theme.ts and the simulations. */
+    (function () {
+      var r = document.documentElement, g = function (k, d) { try { var v = localStorage.getItem('arsenal-' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } };
+      var m = g('mode', 'auto'); if (m !== 'light' && m !== 'dark') m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      r.setAttribute('data-palette', g('palette', 'catppuccin')); r.setAttribute('data-mode', m);
+      /* the big rise-in plays on the first page of a visit only */
+      try { if (!sessionStorage.getItem('arsenal-booted')) { r.classList.add('booting'); sessionStorage.setItem('arsenal-booted', '1'); setTimeout(function () { r.classList.remove('booting'); }, 1600); } } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <p class="eyebrow">Edexcel International A Level · Sciences</p>
+        <h1><a href="/"><span class="d">E</span>dexcel IAL Arsenal</a></h1>
+      </div>
+      <ThemePicker />
+      <nav class="tabs" aria-label="Subjects">
+        {tabs.map((t) => (
+          <a href={t.href} aria-label={t.name} aria-current={tab === t.id ? 'page' : undefined}>
+            {tab === t.id && <span class="ind" aria-hidden="true"></span>}
+            <span class="lg">{t.name}</span><span class="sm">{t.short}</span>
+          </a>
+        ))}
+      </nav>
+    </header>
+    <div class="statusbar">
+      <p class="sb-l"><b>{status.label}</b> · {status.hint}</p>
+      <div class="sb-r">
+        {stats.map((s) => <span class="stat"><small>{s.label}</small><b>{s.value}</b></span>)}
+      </div>
+    </div>
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="foot">
+      <span>Edexcel IAL Arsenal · By students, for students. Open source, and not affiliated with Pearson Edexcel.</span>
+      <nav aria-label="Site"><a href="/about/">About</a><a href="https://github.com/TheCodeHeist/edexcel-ial-arsenal">GitHub</a></nav>
+    </footer>
+  </div>
+  <script>
+    import { initTheme, themePicker } from '../scripts/theme';
+    import { glint } from '../scripts/ui';
+    initTheme();
+    themePicker(document.getElementById('theme')!);
+    glint('.card,.subject,.panel');
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# logs and env
+npm-debug.log*
+pnpm-debug.log*
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# raw simulation exports before they are integrated (see README)
+/dump
+
+# stopgap copies of the dump simulations, local only until they are re-implemented
+/public/chemistry/

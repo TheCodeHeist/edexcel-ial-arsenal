@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import Art from '../components/Art.svelte';
+import ToolFinder from '../components/ToolFinder.svelte';
+import { SUBJECTS } from '../data/subjects';
+import { TOOLS, toolsFor } from '../data/tools';
+
+const motif = { chemistry: 'hex', physics: 'wave' } as const;
+const REPO = 'https://github.com/TheCodeHeist/edexcel-ial-arsenal';
+const allUnits = SUBJECTS.flatMap((s) => s.units);
+const covered = allUnits.filter((u) => TOOLS.some((t) => t.units.includes(u.code))).length;
+// The hero's first button goes to the subject with the most tools.
+const lead = [...SUBJECTS].sort((a, b) => toolsFor(b.id).length - toolsFor(a.id).length)[0];
+// subjects sit evenly around the outer orbit, the first at the top
+const ring = (i: number, r: number) => { const a = (i * 2 * Math.PI) / SUBJECTS.length - Math.PI / 2; return { x: Math.cos(a) * r, y: Math.sin(a) * r }; };
+---
+<Base
+  description="Interactive simulations, drills and references for Edexcel International A Level Chemistry and Physics. By students, for students."
+  tab="home"
+  status={{ label: 'Home', hint: 'Pick a subject, or search every tool below.' }}
+  stats={[{ label: 'Tools', value: TOOLS.length }, { label: 'Subjects', value: SUBJECTS.length }, { label: 'Units covered', value: `${covered}/${allUnits.length}` }]}
+>
+  <section class="panel hero rise" aria-labelledby="hero-h">
+    <div>
+      <p class="eyebrow">Chemistry · Physics</p>
+      <h2 id="hero-h">Revise by <span class="d">doing</span>, not rereading.</h2>
+      <p class="lede">Interactive simulations, drills and references built around the Edexcel IAL specifications. By students, for students, and free for everyone.</p>
+      <div class="ctas">
+        <a class="btn primary" href={`/${lead.id}/`}>Start with {lead.name}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </a>
+        <a class="btn" href="#all-tools">Browse every tool</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="-170 -170 340 340" fill="none" stroke-linecap="round">
+        <circle r="150" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="2 9" />
+        <g class="orbit r">
+          <circle r="104" stroke="var(--rim)" stroke-width="1.4" />
+          {['--redox', '--amph', '--cond', '--acidbase', '--ligand', '--accent'].map((c, i) => {
+            const a = (i * Math.PI) / 3; return <circle cx={Math.cos(a) * 104} cy={Math.sin(a) * 104} r="4.5" fill={`var(${c})`} />;
+          })}
+        </g>
+        <circle r="56" fill="var(--solid)" stroke="var(--rim)" stroke-width="1.4" />
+        <text y="20" text-anchor="middle" font-family="var(--f-display)" font-style="italic" font-weight="700" font-size="62" fill="var(--accent)">E</text>
+        <g class="orbit">
+          <circle r="150" stroke="transparent" />
+          {SUBJECTS.map((s, i) => { const p = ring(i, 150); return (
+            <g transform={`translate(${p.x} ${p.y})`}>
+              <circle r="34" fill="var(--solid)" stroke={`var(${s.hue})`} stroke-width="1.6" />
+              <g class="counter"><g transform="scale(.42) translate(-60 -60)"><Art name={motif[s.id]} size={120} /></g></g>
+            </g>
+          ); })}
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="subjects-h">
+    <div class="section-h"><div><h2 id="subjects-h">Subjects</h2><p>Six units each, from the 2018 specifications.</p></div></div>
+    <div class="subjects">
+      {SUBJECTS.map((s, i) => { const n = toolsFor(s.id).length; return (
+        <a class="subject glass rise" href={`/${s.id}/`} style={`--hue:var(${s.hue});--i:${i + 1}`}>
+          <span class="art"><Art name={motif[s.id]} size={60} /></span>
+          <h3>{s.name}</h3>
+          <p>{s.blurb}</p>
+          <span class="count"><b>{n}</b> {n === 1 ? 'tool' : 'tools'} · {s.units.length} units</span>
+        </a>
+      ); })}
+      <a class="subject glass wanted rise" href={REPO} style={`--hue:var(--acidbase);--i:${SUBJECTS.length + 1}`}>
+        <span class="art"><Art name="helix" size={60} /></span>
+        <h3>Biology?</h3>
+        <p>Not covered yet. Took Biology and want to co-maintain it? The project is open source.</p>
+        <span class="count">Contribute on GitHub →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section rise" style="--i:4" id="all-tools" aria-label="Every tool">
+    <ToolFinder client:load tools={TOOLS} />
+  </section>
+</Base>
+
+<style>
+  /* the subject motifs ride the outer orbit but stay upright */
+  .hero-art .counter { animation: spin 90s linear infinite reverse; transform-origin: 0 0; }
+</style>

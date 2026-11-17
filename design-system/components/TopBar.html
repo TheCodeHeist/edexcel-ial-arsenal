@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../css/playground.css"><script src="../js/playground.js"></script><script>Playground.initTheme();addEventListener("storage",e=>{if(!e.key||!e.key.startsWith("chem-"))return;const g=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(x){return d}};Playground.setTheme({palette:g("chem-palette","catppuccin"),mode:g("chem-mode","auto")});});</script><meta charset="utf-8"><style>body{margin:0;padding:18px;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}</style></head><body>
+<div class="wrap"><header class="top">
+  <div class="brand"><p class="eyebrow">Edexcel IAL Chemistry · Units 5 &amp; 6</p><h1><span class="d">C</span>arbon Alchemy</h1></div>
+  <div id="theme"></div>
+  <nav class="tabs" role="tablist" aria-label="Mode"><button role="tab" aria-selected="true">Lab</button><button role="tab" aria-selected="false"><span class="lg">Synthesis</span><span class="sm">Make</span></button><button role="tab" aria-selected="false"><span class="lg">Identify</span><span class="sm">Test</span></button><button role="tab" aria-selected="false">Codex</button></nav>
+</header></div>
+<script>Playground.themePicker(document.getElementById('theme'));Playground.indicators();
+document.querySelector('.tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-selected',x===b));});</script>
+</body></html>

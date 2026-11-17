@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edexcel IAL Visual Playground · component gallery</title>
+<link rel="stylesheet" href="css/playground.css"><script src="js/playground.js"></script>
+<style>.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(460px,100%),1fr));gap:16px}.gal .panel{overflow:hidden}.gal iframe{display:block;width:100%;height:300px;border:0;background:var(--bg)}.gal .ph a{color:var(--accent);font:600 12px var(--f-mono);text-decoration:none}</style>
+</head><body>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="wrap">
+<header class="top" style="grid-template-columns:minmax(0,1fr) auto;grid-template-areas:'brand theme'"><div class="brand"><p class="eyebrow">Design system · component gallery</p><h1><span class="d">E</span>dexcel IAL Visual Playground</h1></div><div id="theme"></div></header>
+<div class="statusbar"><p class="sb-l"><b>Gallery</b> · Every component, live. Open <code>starter/index.html</code> for a full page, and <code>DESIGN.md</code> for the rules.</p></div>
+<div class="gal" id="gal"></div></div>
+<script>
+const C=['Cover','TopBar','ThemePicker','Tabs','SegmentedControl','SubTabs','StatusLine','GlassPanel','Button','Chips','ReactionCard','Quiz','NotebookEntry','WhiteTile','BottomDrawer'];
+document.getElementById('gal').innerHTML=C.map(n=>`<section class="panel"><div class="ph"><h2>${n}</h2><a href="components/${n}.html">Open ↗</a></div><iframe src="components/${n}.html" loading="lazy" title="${n}"></iframe></section>`).join('');
+Playground.initTheme();Playground.themePicker(document.getElementById('theme'));Playground.glint('.panel,.tp-row');
+</script></body></html>

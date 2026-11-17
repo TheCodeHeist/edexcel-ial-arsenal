@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Edexcel IAL Visual Playground</title>
+<link rel="stylesheet" href="../css/playground.css">
+<script src="../js/playground.js"></script>
+<style>
+  /* Page-specific layout only: every colour, radius and font comes from the design system. */
+  .sims{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:16px}
+  .sim{position:relative;display:flex;flex-direction:column;gap:10px;padding:18px 18px 16px;text-decoration:none;color:var(--ink);
+    background:linear-gradient(155deg,var(--sheen),transparent 42%),var(--panel);border:1px solid var(--rim);border-radius:var(--r-xl);
+    -webkit-backdrop-filter:blur(22px) saturate(175%);backdrop-filter:blur(22px) saturate(175%);box-shadow:inset 0 1px 0 var(--hl),0 18px 40px -18px var(--shadow);
+    transition:transform .3s var(--spring),border-color .25s}
+  @media (hover:hover){ .sim:hover{transform:translateY(-3px);border-color:var(--accent)} }
+  .sim:active{transform:scale(.98)}
+  .sim .art{height:120px;border-radius:var(--r-lg);display:grid;place-items:center;background:color-mix(in srgb,var(--ink) 5%,transparent)}
+  .sim h3{margin:0;font:700 22px/1.15 var(--f-display)}
+  .sim p{margin:0;font-size:13.5px;color:var(--muted)}
+  .sim .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+  .soon{opacity:.6;pointer-events:none}
+  .about{max-width:68ch;padding:6px 18px 18px}
+  .about p{margin:0 0 10px}
+  @supports (corner-shape: squircle){ .sim,.sim .art{corner-shape:squircle} }
+</style>
+</head>
+<body>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <p class="eyebrow">Edexcel IAL · Chemistry &amp; Physics</p>
+      <h1><span class="d">E</span>dexcel IAL Visual Playground</h1>
+    </div>
+    <div id="theme"></div>
+    <nav class="tabs" role="tablist" aria-label="Section">
+      <button role="tab" data-tab="home">Home</button>
+      <button role="tab" data-tab="chemistry"><span class="lg">Chemistry</span><span class="sm">Chem</span></button>
+      <button role="tab" data-tab="physics"><span class="lg">Physics</span><span class="sm">Phys</span></button>
+      <button role="tab" data-tab="about">About</button>
+    </nav>
+  </header>
+  <div class="statusbar"><p class="sb-l" id="sbL"></p><div class="sb-r" id="stats"></div></div>
+
+  <!-- Views. Ids end in "View" so they never match a hash route. -->
+  <main class="view" id="homeView">
+    <div class="sims" id="allSims"></div>
+  </main>
+  <main class="view" id="chemistryView" hidden><div class="sims" id="chemSims"></div></main>
+  <main class="view" id="physicsView" hidden><div class="sims" id="physSims"></div></main>
+  <main class="view" id="aboutView" hidden>
+    <section class="panel"><div class="ph"><h2>About</h2></div><div class="about">
+      <p>Interactive simulations for the memorisation-heavy parts of Edexcel IAL Chemistry and Physics.</p>
+      <p>Every page shares one design system: Liquid Glass, six palettes in light and dark, and calm motion.</p>
+    </div></section>
+  </main>
+</div>
+<script>
+/* Edit this list: one entry per simulation. href = where the simulation lives. */
+const SIMS = [
+  { subject: 'chemistry', title: 'd-Block Colour Bench', blurb: 'Transition-metal ions, ligand exchange and colour changes on the white tile.', unit: 'Unit 5', href: '#', tags: ['Redox', 'Ligand exchange'] },
+  { subject: 'chemistry', title: 'Carbon Alchemy', blurb: 'Organic synthesis routes, identification tests and preparation, as a drag-and-drop alchemy game.', unit: 'Units 5 & 6', href: '#', tags: ['Synthesis', 'Tests'] },
+  { subject: 'physics', title: 'Coming soon', blurb: 'The next simulation goes here.', unit: '', href: '#', tags: [], soon: true },
+];
+const INFO = {
+  home: ['Home', 'Pick a simulation to start.'],
+  chemistry: ['Chemistry', 'Simulations for Edexcel IAL Chemistry.'],
+  physics: ['Physics', 'Simulations for Edexcel IAL Physics.'],
+  about: ['About', 'What this site is.'],
+};
+const FAM = ['--accent', '--redox', '--ligand', '--acidbase', '--amph', '--cond'];
+const hex = 'M0 -30 L26 -15 L26 15 L0 30 L-26 15 L-26 -15Z';
+const card = (s, i) => `<a class="sim${s.soon ? ' soon' : ''}" href="${s.href}">
+  <div class="art"><svg width="84" height="84" viewBox="-42 -42 84 84" aria-hidden="true"><path d="${hex}" fill="none" stroke="var(${FAM[i % FAM.length]})" stroke-width="3"/><circle r="16" fill="none" stroke="var(${FAM[(i + 2) % FAM.length]})" stroke-width="2.4"/></svg></div>
+  <h3>${s.title}</h3><p>${s.blurb}</p>
+  <div class="meta">${s.unit ? `<span class="chip">${s.unit}</span>` : ''}${s.tags.map(t => `<span class="chip">${t}</span>`).join('')}</div></a>`;
+document.getElementById('allSims').innerHTML = SIMS.map(card).join('');
+document.getElementById('chemSims').innerHTML = SIMS.filter(s => s.subject === 'chemistry').map(card).join('');
+document.getElementById('physSims').innerHTML = SIMS.filter(s => s.subject === 'physics').map(card).join('');
+
+Playground.initTheme();
+Playground.themePicker(document.getElementById('theme'));
+Playground.boot();
+Playground.glint('.sim,.panel,.tp-row');
+
+let tab = '';
+function setTab(t) {
+  if (!INFO[t]) t = 'home';
+  if (t === tab) return;
+  tab = t;
+  document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === t));
+  Object.keys(INFO).forEach(k => { document.getElementById(k + 'View').hidden = k !== t; });
+  Playground.fadeIn(document.getElementById(t + 'View'));
+  const sb = document.getElementById('sbL'); sb.innerHTML = `<b>${INFO[t][0]}</b> · ${INFO[t][1]}`; Playground.fadeIn(sb);
+  const live = SIMS.filter(s => !s.soon);
+  document.getElementById('stats').innerHTML = `<span class="stat"><small>Simulations</small><b>${live.length}</b></span><span class="stat"><small>Chemistry</small><b>${live.filter(s => s.subject === 'chemistry').length}</b></span><span class="stat"><small>Physics</small><b>${live.filter(s => s.subject === 'physics').length}</b></span>`;
+  if (location.hash.slice(1) !== t) history.replaceState(null, '', '#' + t);
+}
+document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => setTab(b.dataset.tab));
+addEventListener('hashchange', () => setTab(location.hash.slice(1)));
+setTab(location.hash.slice(1) || 'home');
+Playground.indicators();
+</script>
+</body>
+</html>

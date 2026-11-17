@@ -1,0 +1,6 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../css/playground.css"><script src="../js/playground.js"></script><script>Playground.initTheme();addEventListener("storage",e=>{if(!e.key||!e.key.startsWith("chem-"))return;const g=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(x){return d}};Playground.setTheme({palette:g("chem-palette","catppuccin"),mode:g("chem-mode","auto")});});</script><meta charset="utf-8"><style>body{margin:0;padding:18px;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}</style></head><body>
+<div class="aurora" aria-hidden="true" style="position:absolute"><i></i><i></i><i></i></div>
+<section class="panel" style="position:relative;max-width:520px"><div class="ph"><h2>Lab notebook</h2><span class="score">3 runs</span></div>
+<p style="margin:0;padding:6px 16px 16px;color:var(--muted);font-size:13.5px">Every reaction you run is written up here: equation, type and conditions. Glass picks up the colour of the glow behind it.</p></section>
+<script>Playground.glint('.panel');</script>
+</body></html>

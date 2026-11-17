@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Not found"
+  description="This page doesn't exist."
+  status={{ label: 'Not found', hint: 'This page has moved or never existed.' }}
+>
+  <section class="panel empty rise">
+    <p class="eyebrow">404</p>
+    <h3>No such page</h3>
+    <p>Go back to the home page to find every tool.</p>
+    <p style="margin-top:16px"><a class="btn primary" href="/">Home</a></p>
+  </section>
+</Base>
