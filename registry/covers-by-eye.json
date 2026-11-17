@@ -1,0 +1,47 @@
+{
+  "$comment": "Covers read by a person because the PDF has no usable text (old scans). Keyed by the file's sha256, so a replaced file is never trusted on an old reading. verify.py uses these instead of reading the cover.",
+  "covers": {
+    "71d58eba29fd85444d512db4799ed21062eb75391a76087430c8ecd15a0ba6bf": {
+      "code": "WPH01",
+      "variant": "",
+      "series": "2019-06",
+      "kind": "qp",
+      "note": "read by eye, filed as WPH01_2019_06_qp"
+    },
+    "fe4506d620b3b6e13d74f3d0bf2593b440f3c1ff2e323232d22fe903c2ba267f": {
+      "code": "WPH05",
+      "variant": "",
+      "series": "2019-06",
+      "kind": "qp",
+      "note": "read by eye, filed as WPH05_2019_06_qp"
+    },
+    "8f5e217a663f5391976e9cd8f5161c877b37e29a275d2f413ea550d5e4d6f36e": {
+      "code": "WPH06",
+      "variant": "",
+      "series": "2014-06",
+      "kind": "qp",
+      "note": "read by eye, filed as WPH06_2014_06_qp"
+    },
+    "a0515862237ffef564e63bd403b08ebb0e10622315ee1044bb37480323a85731": {
+      "code": "WPH06",
+      "variant": "",
+      "series": "2019-06",
+      "kind": "qp",
+      "note": "read by eye, filed as WPH06_2019_06_qp"
+    },
+    "e56ff5d835e591ef8478cec476ed7fdbdc4b509a765cbd91daa8b701ad3cbb3e": {
+      "code": "WPH05",
+      "variant": "",
+      "series": "2019-06",
+      "kind": "qp",
+      "note": "read by eye, filed as WPH15_2019_06_qp"
+    },
+    "cb66784b4b7a5e26e160d5c9bc0442ff7f3b3c62748e2e752387bb4dbf84fe76": {
+      "code": "WPH06",
+      "variant": "",
+      "series": "2019-06",
+      "kind": "qp",
+      "note": "read by eye, filed as WPH16_2019_06_qp"
+    }
+  }
+}

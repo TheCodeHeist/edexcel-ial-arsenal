@@ -5,13 +5,14 @@ machine; the site never touches a PDF. Papers remain Pearson Edexcel's and are c
 link to the original on every question.
 
 ```
-registry/sources.json ─► fetch ─► segment ─► pair MS ─► tag ─► review ─► registry/<subject>/papers/*.json
-     (links)            (cache)   (crops)    (rows)   (Gemini)  (you)        + crops in the data repo
+registry/sources.json ─► fetch ─► verify ─► segment ─► pair MS ─► tag ─► review ─► registry/<subject>/papers/*.json
+     (links)            (cache)  (covers)   (crops)    (rows)   (Gemini)  (you)        + crops in the data repo
 ```
 
 | Stage    | Script       | Status |
 |----------|--------------|--------|
 | fetch    | `fetch.py`   | done   |
+| verify   | `verify.py`  | done   |
 | segment  | –            | next   |
 | pair MS  | –            |        |
 | tag      | –            | Gemini Flash sub-agents via T3 (`antigravity` provider) |
@@ -73,6 +74,26 @@ PDFs land in `pipeline/cache/pdf/` (git-ignored). The first download records eac
 manifest; later runs flag any source whose file has changed.
 
 Paper ids are `<UNIT>_<YEAR>_<MONTH>`, e.g. `WPH14_2026_06`.
+
+## Checking the files are what they claim
+
+Sites sometimes put the wrong PDF behind a link. After fetching, run
+
+```sh
+pipeline/.venv/bin/python pipeline/verify.py
+```
+
+It reads each PDF's cover (paper code such as `WPH14/01A`, the exam date or mark-scheme season, QP or MS)
+and compares it with the manifest. Each file gets a `check` (`ok` / `mismatch` / `unreadable`). Then it repairs
+what it can:
+
+- **mirror swap:** a wrong file is replaced by a mirror whose cover agrees.
+- **refile:** a file whose cover names another paper moves there, or is dropped if that paper has its own copy.
+- **aliases:** June 2020 papers (cancelled, then sat in October 2020) are merged into October 2020.
+- wrong links go to `rejected` in sources.json, so imports never bring them back.
+
+Old scans with no text are read by a person and recorded in `registry/covers-by-eye.json`, keyed by checksum.
+`--no-fix` reports without changing anything.
 
 ## Files
 

@@ -26,6 +26,11 @@ MONTHS.update({m[:3]: i for m, i in list(MONTHS.items())})
 MONTHS["Sept"] = 9
 KINDS = {"QP": "qp", "MS": "ms", "ER": "er"}
 
+# Series that are really another series. June 2020 was cancelled (COVID); its papers, already printed with May
+# 2020 dates, were sat in October 2020 instead, and the mark schemes say October. Sites file them under either
+# name, so both map to one paper.
+SERIES_ALIASES = {"2020-06": "2020-10"}
+
 NAME = re.compile(
     r"IAL_(?P<subj>[A-Z]+)_(?P<year>\d{4})_(?P<month>[A-Za-z]+)_U(?P<unit>\d)(?P<variant>[A-Z]?)_(?P<kind>QP|MS|ER)", re.I)
 
@@ -42,13 +47,20 @@ def paper_info(subject_name, year, month_name, unit_digit, variant="", prefix=No
     subject, current = subj
     unit = f"{prefix or current}{unit_digit}"
     variant = variant.upper()
+    series = f"{year}-{month:02d}"
+    series = SERIES_ALIASES.get(series, series)
     return {
-        "id": f"{unit}_{year}_{month:02d}" + (f"_{variant}" if variant else ""),
+        "id": paper_id(unit, series, variant),
         "subject": subject,
         "unit": unit,
-        "series": f"{year}-{month:02d}",
+        "series": series,
         **({"variant": variant} if variant else {}),
     }
+
+
+def paper_id(unit, series, variant=""):
+    """'WPH14', '2026-06', 'A' -> 'WPH14_2026_06_A'."""
+    return f"{unit}_{series.replace('-', '_')}" + (f"_{variant}" if variant else "")
 
 
 def parse(url):
@@ -88,6 +100,7 @@ def import_links(links):
     known = set(papers)
     added, mirrored, unread, suspects = set(), set(), [], []
     providers = sources.get("providers", {})
+    rejected = {r["url"] for r in sources.get("rejected", [])}   # links verify.py found to be the wrong file
     unknown_hosts = set()
 
     def file_entry(url):
@@ -98,6 +111,8 @@ def import_links(links):
 
     for link in links:
         url, label = link["url"], link.get("label")
+        if url in rejected:
+            continue
         by_name = parse(url)
         if label:
             info = paper_info(label["subject"], label["year"], label["month"], label["unit"], label["variant"],
