@@ -20,3 +20,8 @@ pnpm-debug.log*
 # raw simulation exports before they are integrated (see README)
 /dump
 
+
+# past-paper pipeline: downloaded PDFs and Python env stay local
+/pipeline/cache
+/pipeline/.venv
+__pycache__/

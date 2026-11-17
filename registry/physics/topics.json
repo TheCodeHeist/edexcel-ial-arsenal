@@ -1,0 +1,80 @@
+{
+  "$comment": "IAL Physics (2018 spec, Issue 3) topic list. Spec points are numbered once across all six units, so a tag is just the point number as a string (\"106\"). `short` is the chip label in the UI; `text` is the spec statement with equations written in plain text. Units 1, 2 and 5 still to be transcribed; units 3 and 6 are practical-skills papers and get their own skill tags later.",
+  "subject": "physics",
+  "spec": "phys-spec-2018-iss3",
+  "units": [
+    { "code": "WPH11", "title": "Mechanics and Materials", "groups": [] },
+    { "code": "WPH12", "title": "Waves and Electricity", "groups": [] },
+    { "code": "WPH13", "title": "Practical Skills in Physics I", "groups": [] },
+    {
+      "code": "WPH14",
+      "title": "Further Mechanics, Fields and Particles",
+      "groups": [
+        {
+          "id": "4.3",
+          "title": "Further Mechanics",
+          "points": [
+            { "id": "81", "short": "Impulse", "text": "Understand how to use the equation impulse = FΔt = Δp (Newton's second law of motion)." },
+            { "id": "82", "short": "CP9: force and change of momentum", "text": "CORE PRACTICAL 9: Investigate the relationship between the force exerted on an object and its change of momentum.", "core": 9 },
+            { "id": "83", "short": "Momentum in 2D", "text": "Understand how to apply conservation of linear momentum to problems in two dimensions." },
+            { "id": "84", "short": "CP10: collisions with ICT", "text": "CORE PRACTICAL 10: Use ICT to analyse collisions between small spheres, e.g. ball bearings on a table top.", "core": 10 },
+            { "id": "85", "short": "Elastic vs inelastic", "text": "Understand how to determine whether a collision is elastic or inelastic." },
+            { "id": "86", "short": "Ek = p²/2m", "text": "Be able to derive and use the equation Ek = p²/2m for the kinetic energy of a non-relativistic particle." },
+            { "id": "87", "short": "Radians", "text": "Be able to express angular displacement in radians and in degrees, and convert between these units." },
+            { "id": "88", "short": "Angular velocity", "text": "Understand what is meant by angular velocity and be able to use the equations v = ωr and T = 2π/ω." },
+            { "id": "89", "short": "Centripetal acceleration", "text": "Be able to use vector diagrams to derive the equations for centripetal acceleration a = v²/r = rω² and understand how to use these equations." },
+            { "id": "90", "short": "Centripetal force needed", "text": "Understand that a resultant force (centripetal force) is required to produce and maintain circular motion." },
+            { "id": "91", "short": "F = mv²/r", "text": "Be able to use the equations for centripetal force F = ma = mv²/r = mrω²." }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Electric and Magnetic Fields",
+          "points": [
+            { "id": "92", "short": "Electric field", "text": "Understand that an electric field (force field) is defined as a region where a charged particle experiences a force." },
+            { "id": "93", "short": "E = F/Q", "text": "Understand that electric field strength is defined as E = F/Q and be able to use this equation." },
+            { "id": "94", "short": "Coulomb's law", "text": "Be able to use the equation F = Q₁Q₂/(4πε₀r²) for the force between two charges." },
+            { "id": "95", "short": "Point-charge field", "text": "Be able to use the equation E = Q/(4πε₀r²) for the electric field due to a point charge." },
+            { "id": "96", "short": "Field and potential", "text": "Know and understand the relation between electric field and electric potential." },
+            { "id": "97", "short": "E = V/d", "text": "Be able to use the equation E = V/d for an electric field between parallel plates." },
+            { "id": "98", "short": "Radial potential", "text": "Be able to use V = Q/(4πε₀r) for a radial field." },
+            { "id": "99", "short": "Field lines, equipotentials", "text": "Be able to draw and interpret diagrams using field lines and equipotentials to describe radial and uniform electric fields." },
+            { "id": "100", "short": "C = Q/V", "text": "Understand that capacitance is defined as C = Q/V and be able to use this equation." },
+            { "id": "101", "short": "Capacitor energy", "text": "Be able to use the equation W = ½QV for the energy stored by a capacitor, derive it from the area under a graph of potential difference against charge stored, and derive and use W = ½CV² and W = ½Q²/C." },
+            { "id": "102", "short": "Charge/discharge, RC", "text": "Be able to draw and interpret charge and discharge curves for resistor capacitor circuits and understand the significance of the time constant RC." },
+            { "id": "103", "short": "CP11: capacitor p.d.", "text": "CORE PRACTICAL 11: Use an oscilloscope or data logger to display and analyse the potential difference (p.d.) across a capacitor as it charges and discharges through a resistor.", "core": 11 },
+            { "id": "104", "short": "Exponential discharge", "text": "Be able to use Q = Q₀e^(−t/RC) and derive and use the related equations I = I₀e^(−t/RC) and V = V₀e^(−t/RC), and the log forms ln Q = ln Q₀ − t/RC, ln I = ln I₀ − t/RC and ln V = ln V₀ − t/RC." },
+            { "id": "105", "short": "B, flux, flux linkage", "text": "Understand and use the terms magnetic flux density B, flux φ and flux linkage Nφ." },
+            { "id": "106", "short": "F = Bqv sinθ", "text": "Be able to use the equation F = Bqv sinθ and apply Fleming's left-hand rule to charged particles moving in a magnetic field." },
+            { "id": "107", "short": "F = BIl sinθ", "text": "Be able to use the equation F = BIl sinθ and apply Fleming's left-hand rule to current carrying conductors in a magnetic field." },
+            { "id": "108", "short": "Induction: magnet and coil", "text": "Understand the factors affecting the e.m.f. induced in a coil when there is relative motion between the coil and a permanent magnet." },
+            { "id": "109", "short": "Induction: linked coils", "text": "Understand the factors affecting the e.m.f. induced in a coil when there is a change of current in another coil linked with this coil." },
+            { "id": "110", "short": "Faraday and Lenz", "text": "Understand how to use Faraday's law to determine the magnitude of an induced e.m.f. and be able to use the equation that combines Faraday's and Lenz's laws, ℰ = −d(Nφ)/dt." }
+          ]
+        },
+        {
+          "id": "4.5",
+          "title": "Nuclear and Particle Physics",
+          "points": [
+            { "id": "111", "short": "Nucleon and proton number", "text": "Understand what is meant by nucleon number (mass number) and proton number (atomic number)." },
+            { "id": "112", "short": "Alpha scattering", "text": "Understand how large-angle alpha particle scattering gives evidence for a nuclear model of the atom and how our understanding of atomic structure has changed over time." },
+            { "id": "113", "short": "Thermionic emission", "text": "Understand that electrons are released in the process of thermionic emission and how they can be accelerated by electric and magnetic fields." },
+            { "id": "114", "short": "Accelerators and detectors", "text": "Understand the role of electric and magnetic fields in particle accelerators (linac and cyclotron) and detectors (general principles of ionisation and deflection only)." },
+            { "id": "115", "short": "r = p/BQ", "text": "Be able to derive and use the equation r = p/BQ for a charged particle in a magnetic field." },
+            { "id": "116", "short": "Conservation, particle tracks", "text": "Be able to apply conservation of charge, energy and momentum to interactions between particles and interpret particle tracks." },
+            { "id": "117", "short": "Why high energies", "text": "Understand why high energies are required to investigate the structure of nucleons." },
+            { "id": "118", "short": "ΔE = c²Δm", "text": "Be able to use the equation ΔE = c²Δm in situations involving the creation and annihilation of matter and antimatter particles." },
+            { "id": "119", "short": "MeV, GeV/c² units", "text": "Be able to use MeV and GeV (energy) and MeV/c², GeV/c² (mass) and convert between these and SI units." },
+            { "id": "120", "short": "Relativistic lifetime", "text": "Understand situations in which the relativistic increase in particle lifetime is significant (use of relativistic equations not required)." },
+            { "id": "121", "short": "Quark-lepton model", "text": "Know that in the standard quark-lepton model particles can be classified as baryons (three quarks, e.g. neutrons and protons), mesons (a quark and an antiquark, e.g. pions), leptons (fundamental, e.g. electrons and neutrinos) and photons, and that the symmetry of the model predicted the top quark." },
+            { "id": "122", "short": "Antiparticles", "text": "Know that every particle has a corresponding antiparticle and be able to use the properties of a particle to deduce the properties of its antiparticle and vice versa." },
+            { "id": "123", "short": "Charge, baryon, lepton number", "text": "Understand how to use laws of conservation of charge, baryon number and lepton number to determine whether a particle interaction is possible." },
+            { "id": "124", "short": "Particle equations", "text": "Be able to write and interpret particle equations given the relevant particle symbols." }
+          ]
+        }
+      ]
+    },
+    { "code": "WPH15", "title": "Thermodynamics, Radiation, Oscillations and Cosmology", "groups": [] },
+    { "code": "WPH16", "title": "Practical Skills in Physics II", "groups": [] }
+  ]
+}
