@@ -13,7 +13,8 @@ registry/sources.json ─► fetch ─► verify ─► segment ─► pair MS �
 |----------|--------------|--------|
 | fetch    | `fetch.py`   | done   |
 | verify   | `verify.py`  | done   |
-| segment  | –            | next   |
+| segment  | `segment.py` + `markscheme.py` | done on WPH14 June 2026; other layouts next |
+| publish  | `publish.py` | done: crops to the data repo, served by GitHub Pages |
 | pair MS  | –            |        |
 | tag      | –            | Gemini Flash sub-agents via T3 (`antigravity` provider) |
 | review   | –            | local-only page in the site |
@@ -94,6 +95,19 @@ what it can:
 
 Old scans with no text are read by a person and recorded in `registry/covers-by-eye.json`, keyed by checksum.
 `--no-fix` reports without changing anything.
+
+## Segmenting and publishing a paper
+
+```sh
+pipeline/.venv/bin/python pipeline/segment.py WPH14_2026_06 --preview   # overlays to check by eye
+pipeline/.venv/bin/python pipeline/segment.py WPH14_2026_06 --write     # crops + registry/<subject>/papers/<id>.json
+pipeline/.venv/bin/python pipeline/publish.py WPH14_2026_06             # crops to the data repo
+```
+
+`--write` refuses while any marks don't add up or any label is missing from the paper or the mark scheme.
+Crops go to [TheCodeHeist/edexcel-ial-arsenal-data](https://github.com/TheCodeHeist/edexcel-ial-arsenal-data),
+cloned next to this repo, and are served from `https://thecodeheist.github.io/edexcel-ial-arsenal-data/`
+(`src/lib/papers/crops.ts`). Questions are written `reviewed: false` and stay off the site until checked.
 
 ## Files
 
