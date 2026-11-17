@@ -35,10 +35,13 @@
   /* the data logger: readings at exact multiples of the interval after the switch moved */
   let t0 = 0, next = 0, prev = { t: 0, v: 0 };
   let logging = $state(false);
+  // the continuous trace since the switch last moved (its own buffer: the clock's scope only keeps the last 10 s)
+  let buf: [number, number][] = [];
+  let curve = $state.raw<[number, number][]>([]);
   function flip(p: 'A' | 'B') {
     if (p === pos && phase !== 'idle') return;
     pos = p; phase = p === 'A' ? 'charge' : 'discharge';
-    t0 = clock.t; next = 0; prev = { t: clock.t, v }; reads = []; logging = true;
+    t0 = clock.t; next = 0; prev = { t: clock.t, v }; reads = []; logging = true; buf = [[0, v]]; curve = buf.slice();
     if (p === 'A') view = 'v';
     clock.playing = true;
   }
@@ -54,6 +57,9 @@
         if (reads.length >= 40 || (phase === 'discharge' ? last < 0.01 * E : last > 0.99 * E)) logging = false;
       }
     }
+    // trace until one interval after the last reading, a point every 1/20 of the logging interval
+    const r = t - t0, lastT = buf.length ? buf[buf.length - 1][0] : -Infinity;
+    if (phase !== 'idle' && (logging || r <= (reads[reads.length - 1]?.x ?? 0) + every) && r - lastT >= every / 20) buf.push([r, vn]);
     prev = { t, v: vn };
   }
 
@@ -62,19 +68,20 @@
     let raf = 0, last = performance.now();
     const loop = (now: number) => {
       clock.tick($state.snapshot(c), (now - last) / 1000, capId, onStep);
+      if (buf.length !== curve.length) curve = buf.slice();
       last = now; raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(raf);
   });
 
-  function newCap() { C = pick(CS.filter((x) => x !== C)); clock.reset(); reads = []; phase = 'idle'; logging = false; pos = 'B'; revealed = false; view = 'v'; }
-  function setR(r: number) { R = r; reads = []; phase = 'idle'; logging = false; }
+  function newCap() { C = pick(CS.filter((x) => x !== C)); clock.reset(); reads = []; buf = []; curve = []; phase = 'idle'; logging = false; pos = 'B'; revealed = false; view = 'v'; }
+  function setR(r: number) { R = r; reads = []; buf = []; curve = []; phase = 'idle'; logging = false; }
 
   const rel = $derived(phase === 'idle' ? 0 : clock.t - t0);
   // while logging the axis grows with time; afterwards it fits the readings
   const xMax = $derived(niceMax(Math.max(5, logging ? rel : 0, ...reads.map((p) => p.x))));
-  const live = $derived(clock.trace.filter((s) => s.t >= t0 && s.t - t0 <= xMax && phase !== 'idle').map((s) => [s.t - t0, s.v] as [number, number]));
+  const live = $derived(phase === 'idle' ? [] : curve.filter(([x]) => x <= xMax));
   const lnPts = $derived(reads.filter((p) => p.y > 0.03).map((p) => ({ x: p.x, y: Math.log(p.y) })));
   const line = $derived(view === 'ln' && lnPts.length >= 3 ? fit(lnPts) : null);
   const lnRange = $derived.by((): [number, number] => {
