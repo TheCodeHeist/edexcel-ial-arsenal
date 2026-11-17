@@ -22,12 +22,12 @@ pnpm preview    # serve dist/
 |---|---|
 | `src/data/` | Tools, subjects/units, palettes. **`tools.ts` lists every tool**; cards, subject pages, unit maps and stats read from it |
 | `src/styles/` | The design system as CSS: `tokens` → `base` → `controls` → `motion`, then `hub.css` (hub pages) or `sim.css` (simulation building blocks) |
-| `src/lib/` | Shared TypeScript: `theme` (palette engine), `motion` (sliding indicators, crossfades, staggers, glint), `chem` (formula formatting), `util`, `persist.svelte` (scores saved to the browser) |
-| `src/components/ui/` | Shared Svelte components: `SimHeader`, `StatusLine`, `ThemePicker`, `Seg`, `SubTabs`, `FilterRow`, `QuizBox`, `Flowchart` |
+| `src/lib/` | Shared TypeScript: `theme` (palette engine), `motion` (sliding indicators, crossfades, staggers, glint), `chem` (formula formatting), `molecule` (SMILES → SVG), `util`, `persist.svelte` (scores saved to the browser) |
+| `src/components/ui/` | Shared Svelte components: `SimHeader`, `StatusLine`, `ThemePicker`, `Seg`, `SubTabs`, `FilterRow`, `SearchInput`, `QuizBox`, `CopyButton`, `Flowchart`, `BottomDrawer` |
 | `src/components/` | Hub components: `ToolCard`, `ToolFinder`, `Art` |
 | `src/layouts/` | `Base.astro` (hub pages), `Sim.astro` (simulation pages) |
 | `src/sims/<name>/` | One folder per simulation: `data.ts` (chemistry data, pure), state (`*.svelte.ts`), Svelte views, its own CSS |
-| `src/pages/` | Routes: `/`, `/[subject]/`, `/about/`, `/chemistry/d-block-colour-bench/` … |
+| `src/pages/` | Routes: `/`, `/[subject]/`, `/about/`, `/chemistry/d-block-colour-bench/`, `/chemistry/carbon-alchemy/` |
 | `design-system/` | The original design-system export and brand book (`DESIGN.md`) |
 
 ## Adding a simulation

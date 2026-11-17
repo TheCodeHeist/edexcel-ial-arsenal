@@ -5,6 +5,7 @@
   import { SUBJECTS } from '../data/subjects';
   import ToolCard from './ToolCard.svelte';
   import Seg from './ui/Seg.svelte';
+  import SearchInput from './ui/SearchInput.svelte';
   import { enter } from '../lib/motion';
 
   let { tools }: { tools: Tool[] } = $props();
@@ -32,11 +33,7 @@
     <p>{shown.length} of {tools.length} {tools.length === 1 ? 'tool' : 'tools'}{q ? ` matching “${q}”` : ''}</p>
   </div>
   <div class="finder">
-    <label class="search">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
-      <span class="sr-only">Search tools</span>
-      <input type="search" placeholder="Search tools, topics, units…" bind:value={q} oninput={redraw} />
-    </label>
+    <SearchInput bind:value={q} placeholder="Search tools, topics, units…" label="Search tools" oninput={redraw} />
     <Seg label="Subject" {options} bind:value={subject} onchange={redraw} />
   </div>
 </div>

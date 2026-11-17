@@ -67,6 +67,27 @@
 .subtabs.has-ind button[aria-selected="true"]{border-bottom-color:transparent}
 .ind.no-anim{transition:none}
 
+/* ===== Search field (SearchInput.svelte) ===== */
+.search{display:flex;align-items:center;gap:8px;height:var(--ctl);border-radius:999px;padding:0 14px;min-width:0}
+.search svg{width:16px;height:16px;color:var(--muted);flex:none}
+.search input{border:0;background:none;outline:none;width:100%;font-size:14px;min-width:0;-webkit-user-select:text;user-select:text}
+.search input::placeholder{color:var(--muted)}
+.search:focus-within{border-color:var(--accent)}
+.search.sm{height:36px;padding:0 12px;gap:7px;background:var(--raised);box-shadow:inset 0 1px 0 var(--hl);-webkit-backdrop-filter:none;backdrop-filter:none}
+.search.sm svg{width:14px;height:14px}
+.search.sm input{font-size:13.5px}
+
+/* short labels in segmented controls on phones */
+.seg .sm{display:none}
+@media (max-width:480px){ .seg .lg{display:none} .seg .sm{display:inline} }
+
+/* ===== Copy button (CopyButton.svelte) ===== */
+.cpy{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--rim);background:var(--raised);box-shadow:inset 0 1px 0 var(--hl);border-radius:999px;padding:3px 9px 3px 7px;cursor:pointer;
+  font:600 10.5px/1.2 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);transition:transform .3s var(--spring),color .2s,border-color .2s}
+.cpy:hover{color:var(--ink);border-color:var(--accent)} .cpy:active{transform:scale(.94)}
+.cpy.done{color:var(--good);border-color:var(--good)}
+.cpy svg{flex:none}
+
 /* ===== Filter chips ===== */
 .filters{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
 .frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}

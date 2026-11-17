@@ -24,10 +24,6 @@
 
 /* stage: test tube on the white tile */
 .stage{padding-bottom:14px}
-.stage-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px 10px}
-.label-chip{font:700 17px/1.2 var(--f-body);display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;min-width:0}
-.label-chip small{font:600 11px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.stage-tools{display:flex;gap:6px}
 .stage .tile{margin:0 14px;min-height:470px;display:flex;justify-content:center;align-items:flex-start}
 .tile canvas{display:block}
 .tile-note{position:absolute;left:12px;bottom:10px;right:12px;font:600 10.5px/1.3 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--tile-muted);pointer-events:none}
@@ -84,7 +80,6 @@
   .layout{grid-template-columns:minmax(0,1fr)}
   .stage .tile{min-height:430px;margin:0 10px}
   .rack{padding:12px 10px 0}
-  .stage-head{padding:12px 10px 10px}
 }
 @media (max-width:560px){
   .rg .items{grid-template-columns:repeat(2,minmax(0,1fr))}

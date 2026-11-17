@@ -19,7 +19,7 @@
   import type { Snippet } from 'svelte';
   import { onMount } from 'svelte';
 
-  let { title, tip, nodes, edges, size, narrowSize, shape = 'curve', box, boxClass, boxLabel, onbox, cls = '' }: {
+  let { title, tip, nodes, edges, size, narrowSize, shape = 'curve', box, boxClass, boxLabel, onbox, labelClass, onlabel, cls = '' }: {
     title: string; tip?: string;
     nodes: Record<string, readonly [number, number]>;
     edges: FlowEdge[];
@@ -27,6 +27,8 @@
     shape?: 'curve' | 'straight';
     box: Snippet<[string]>;
     boxClass?: (id: string) => string; boxLabel?: (id: string) => string; onbox?: (id: string) => void;
+    /** arrow labels: an extra class, and a tap handler (makes them buttons, e.g. to reveal a hidden reagent) */
+    labelClass?: (i: number) => string; onlabel?: (i: number) => void;
     cls?: string;
   } = $props();
 
@@ -113,9 +115,14 @@
           </div>
         {/each}
         {#each drawn as p, i}
-          <div class="elab" class:dim={p.e.dim} style:--tc={p.e.color} style:--i={Math.min(i, 20)} style:left="{p.lx.toFixed(1)}px" style:top="{p.ly.toFixed(1)}px" title={p.e.title}>
-            {@html p.e.label}{#if p.e.sub}<small>{@html p.e.sub}</small>{/if}
-          </div>
+          {#snippet text()}{@html p.e.label}{#if p.e.sub}<small>{@html p.e.sub}</small>{/if}{/snippet}
+          {#if onlabel}
+            <button type="button" class="elab tap {labelClass?.(i) ?? ''}" class:dim={p.e.dim} style:--tc={p.e.color} style:--i={Math.min(i, 20)}
+              style:left="{p.lx.toFixed(1)}px" style:top="{p.ly.toFixed(1)}px" title={p.e.title} onclick={() => onlabel(i)}>{@render text()}</button>
+          {:else}
+            <div class="elab {labelClass?.(i) ?? ''}" class:dim={p.e.dim} style:--tc={p.e.color} style:--i={Math.min(i, 20)}
+              style:left="{p.lx.toFixed(1)}px" style:top="{p.ly.toFixed(1)}px" title={p.e.title}>{@render text()}</div>
+          {/if}
         {/each}
       </div>
     </div>

@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/carbon/App.svelte';
+import '../../sims/carbon/carbon.css';
+---
+<Sim title="Carbon Alchemy" description="Organic synthesis routes, identification tests and reactions as a drag-and-drop alchemy game, for Edexcel IAL Chemistry.">
+  <App client:only="svelte" />
+</Sim>

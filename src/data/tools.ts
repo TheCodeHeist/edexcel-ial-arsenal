@@ -2,10 +2,7 @@ import type { SubjectId } from './subjects';
 
 /* Every tool on the site: one entry each. The cards, subject pages, unit map and stats all read from this list.
 
-   href:
-   - a standalone HTML simulation lives in public/<subject>/<slug>/index.html → href '/<subject>/<slug>/'
-   - a tool built as an Astro page lives in src/pages/<subject>/<slug>.astro → same href pattern
-   standalone: true for plain-HTML pages in public/ (they carry their own header and theme picker). */
+   href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
 export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex';
@@ -20,7 +17,6 @@ export interface Tool {
   topics: string[];
   art: ToolArt;
   href: string;
-  standalone?: boolean;
   added: string;          // ISO date
 }
 
@@ -47,7 +43,6 @@ export const TOOLS: Tool[] = [
     topics: ['Organic synthesis', 'Identification tests', 'Mechanisms'],
     art: 'sigil',
     href: '/chemistry/carbon-alchemy/',
-    standalone: true,
     added: '2026-11-17',
   },
 ];
