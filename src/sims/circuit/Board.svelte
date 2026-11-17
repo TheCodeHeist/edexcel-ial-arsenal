@@ -54,7 +54,7 @@
 
   /* Current arrows: an impression of the current, not a measurement. Every piece of wire carries one arrowhead at its
      middle (two on long runs) pointing the way the current flows: conventional current, or electron flow the other
-     way. Its opacity shows the size (trickle · small · medium · large); below 1 µA it fades out. Nothing moves, so
+     way. Any real current shows clearly; larger currents are a little bolder. Below 1 µA (no real current) it fades out. Nothing moves, so
      it costs nothing while time runs. */
   const level = (i: number) => { const a = Math.abs(i); return a < 1e-6 || !isFinite(a) ? 0 : a < 1e-3 ? 1 : a < 0.03 ? 2 : a < 0.3 ? 3 : 4; };
   const arrows = $derived.by(() => {
@@ -318,7 +318,7 @@
   @keyframes ringpulse{50%{fill:color-mix(in srgb,var(--accent) 28%,transparent)}}
   .arrows path{fill:var(--accent);stroke:var(--solid);stroke-width:2;stroke-linejoin:round;pointer-events:none;transition:opacity .25s}
   .arrows.electron path{fill:var(--cond)}
-  .arrows .lv0{opacity:0} .arrows .lv1{opacity:.35} .arrows .lv2{opacity:.6} .arrows .lv3{opacity:.85} .arrows .lv4{opacity:1}
+  .arrows .lv0{opacity:0} .arrows .lv1{opacity:.75} .arrows .lv2{opacity:.85} .arrows .lv3{opacity:.95} .arrows .lv4{opacity:1}
   .lbl{font:600 15px var(--f-mono);fill:var(--ink);dominant-baseline:central;pointer-events:none}
   .lbl .val{fill:var(--muted);font-weight:500}
   .readout rect{fill:var(--ink)}

@@ -35,7 +35,7 @@
     <div class="board-box">
       <Board fit c={q.c} {sol} flow={picked ? flow : 'off'} hide={picked ? [] : q.hide} focus={q.ask} label="Question circuit" />
     </div>
-    <p class="board-note">Meters are ideal: ammeters have no resistance, voltmeters infinite resistance.{q.c.parts.some((p) => p.kind === 'cell' && (p.p.r ?? 0) > 0) ? ' The cell’s internal resistance is shown as r.' : ''}</p>
+    <p class="board-note">{picked ? '' : 'Current arrows appear once you answer. '}Meters are ideal: ammeters have no resistance, voltmeters infinite resistance.{q.c.parts.some((p) => p.kind === 'cell' && (p.p.r ?? 0) > 0) ? ' The cell’s internal resistance is shown as r.' : ''}</p>
   </section>
 
   <section class="panel qpanel" aria-label="Question">
