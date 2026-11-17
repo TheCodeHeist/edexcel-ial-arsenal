@@ -4,7 +4,7 @@
 </script>
 
 <script lang="ts">
-  /* The circuit board: a dotted grid with wires, symbols, labels, meter readouts and moving charge.
+  /* The circuit board: a dotted grid with wires, symbols, labels, meter readouts and current arrows.
      With an editor (Build) it is fully editable:
        drag a part to move it (its wires follow) · tap a switch to open or close it
        drag from a terminal, a wire or (mouse) any grid point to draw a wire; it bends once to make an L
@@ -52,21 +52,24 @@
     };
   });
 
-  /* Moving charge is an impression, not a measurement: every piece of wire (and every part) keeps the same line of
-     dots, which only fades, reverses or changes between four speeds (trickle · slow · medium · fast). Nothing is
-     rebuilt frame by frame, so a varying current never makes the dots jump. */
+  /* Current arrows: an impression of the current, not a measurement. Every piece of wire carries one arrowhead at its
+     middle (two on long runs) pointing the way the current flows: conventional current, or electron flow the other
+     way. Its opacity shows the size (trickle · small · medium · large); below 1 µA it fades out. Nothing moves, so
+     it costs nothing while time runs. */
   const level = (i: number) => { const a = Math.abs(i); return a < 1e-6 || !isFinite(a) ? 0 : a < 1e-3 ? 1 : a < 0.03 ? 2 : a < 0.3 ? 3 : 4; };
-  const dots = $derived.by(() => {
+  const arrows = $derived.by(() => {
     if (flow === 'off') return [];
-    const out: { key: string; a: Pt; b: Pt; lv: number; rev: boolean }[] = [];
-    const push = (key: string, a: Pt, b: Pt, i: number) => out.push({ key, a, b, lv: level(i), rev: (i < 0) === (flow === 'conv') });
-    for (const w of c.wires) (sol.flows[w.id] ?? []).forEach((f, k) => push(`w${w.id}:${k}:${key(f.a)}`, f.a, f.b, f.i));
-    for (const p of c.parts) {
-      // no charge crosses a capacitor's gap, and a two-way switch's current shows on its wires
-      const r = sol.parts[p.id]; if (!r || p.kind === 'pot' || p.kind === 'voltmeter' || p.kind === 'capacitor' || p.kind === 'switch2') continue;
-      const [t0, t1] = terminals(p);
-      push(`p${p.id}:${key(t0)}`, t0, t1, p.kind === 'cell' || p.kind === 'ac' ? -r.i : r.i);
-    }
+    const out: { key: string; x: number; y: number; deg: number; lv: number }[] = [];
+    for (const w of c.wires) (sol.flows[w.id] ?? []).forEach((f, k) => {
+      const dx = f.b[0] - f.a[0], dy = f.b[1] - f.a[1], len = Math.hypot(dx, dy);
+      const fwd = (f.i >= 0) === (flow === 'conv');
+      const deg = (Math.atan2(dy, dx) * 180) / Math.PI + (fwd ? 0 : 180);
+      const n = len >= 6 ? 2 : 1;
+      for (let j = 1; j <= n; j++) {
+        const u = j / (n + 1);
+        out.push({ key: `${w.id}:${k}:${j}`, x: (f.a[0] + dx * u) * S, y: (f.a[1] + dy * u) * S, deg, lv: level(f.i) });
+      }
+    });
     return out;
   });
 
@@ -228,14 +231,14 @@
     {/each}
     {#if draft}<polyline class="wire draft" points={draft} />{/if}
 
-    <!-- moving charge -->
-    <g class="flowdots" class:electron={flow === 'electron'} aria-hidden="true">
-      {#each dots as d (d.key)}
-        <line class="lv{d.lv}" class:rev={d.rev} x1={d.a[0] * S} y1={d.a[1] * S} x2={d.b[0] * S} y2={d.b[1] * S} />
+    <!-- current arrows -->
+    <g class="arrows" class:electron={flow === 'electron'} aria-hidden="true">
+      {#each arrows as r (r.key)}
+        <path class="lv{r.lv}" transform="translate({r.x.toFixed(1)} {r.y.toFixed(1)}) rotate({r.deg.toFixed(0)})" d="M-11 -10L10 0L-11 10L-5.5 0Z" />
       {/each}
     </g>
 
-    <!-- wire hit areas (above the dots so a wire can be grabbed anywhere) -->
+    <!-- wire hit areas (above the arrows so a wire can be grabbed anywhere) -->
     {#if ed}
       {#each c.wires as w (w.id)}
         <!-- svelte-ignore a11y_no_static_element_interactions -->
@@ -313,17 +316,13 @@
   .ring{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.6;stroke-dasharray:5 4}
   .focus .ring{stroke-dasharray:none;animation:ringpulse 1.6s ease-in-out infinite}
   @keyframes ringpulse{50%{fill:color-mix(in srgb,var(--accent) 28%,transparent)}}
-  .flowdots line{stroke:var(--accent);stroke-width:6.5;stroke-linecap:round;stroke-dasharray:0 22;animation:flowdash 1s linear infinite;pointer-events:none;transition:opacity .3s}
-  .flowdots .lv0{opacity:0;animation-play-state:paused}
-  .flowdots .lv1{animation-duration:2.4s;opacity:.55} .flowdots .lv2{animation-duration:1.3s} .flowdots .lv3{animation-duration:.75s} .flowdots .lv4{animation-duration:.42s}
-  .flowdots .rev{animation-direction:reverse}
-  .flowdots.electron line{stroke:var(--cond)}
-  @keyframes flowdash{to{stroke-dashoffset:-22}}
+  .arrows path{fill:var(--accent);stroke:var(--solid);stroke-width:2;stroke-linejoin:round;pointer-events:none;transition:opacity .25s}
+  .arrows.electron path{fill:var(--cond)}
+  .arrows .lv0{opacity:0} .arrows .lv1{opacity:.35} .arrows .lv2{opacity:.6} .arrows .lv3{opacity:.85} .arrows .lv4{opacity:1}
   .lbl{font:600 15px var(--f-mono);fill:var(--ink);dominant-baseline:central;pointer-events:none}
   .lbl .val{fill:var(--muted);font-weight:500}
   .readout rect{fill:var(--ink)}
   .readout text{font:700 15px var(--f-mono);fill:var(--bg);text-anchor:middle;dominant-baseline:central;font-variant-numeric:tabular-nums}
   .readout.ask rect{fill:var(--accent)}
   .readout.ask text{fill:var(--accent-ink)}
-  @media (prefers-reduced-motion: reduce){ .flowdots line{stroke-dasharray:0 22} }
 </style>

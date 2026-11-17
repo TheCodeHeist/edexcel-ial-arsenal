@@ -109,7 +109,7 @@
       </div>
     {/if}
     <div class="board-foot">
-      <Seg label="Moving charge" options={[['conv', 'Conventional current', 'Current'], ['electron', 'Electron flow', 'Electrons'], ['off', 'Off']]} bind:value={prefs.flow} />
+      <Seg label="Current arrows" options={[['conv', 'Conventional current', 'Current'], ['electron', 'Electron flow', 'Electrons'], ['off', 'Off']]} bind:value={prefs.flow} />
       <div class="foot-r">
         <button class="btn" class:primary={prefs.scope} type="button" aria-pressed={prefs.scope} onclick={() => (prefs.scope = !prefs.scope)}>Oscilloscope</button>
         <button class="btn" type="button" aria-pressed={prefs.values} onclick={() => (prefs.values = !prefs.values)}>{prefs.values ? 'Hide values' : 'Show values'}</button>
