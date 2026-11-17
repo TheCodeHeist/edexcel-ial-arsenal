@@ -7,7 +7,7 @@ Work in progress, built one step at a time on WPH14 June 2026:
   2. find questions, parts, sub-parts, marks and totals; check the marks add up <- done
   3. work out each node's region on each page (text + diagrams, minus answer space)  <- done
   4. render crops and an overlay preview to check by eye                         <- done
-  5. pair each leaf with its mark-scheme rows
+  5. pair each leaf with its mark-scheme rows (markscheme.py)                     <- done
   6. write the registry file (src/lib/papers/types.ts)
 
 Usage:  segment.py WPH14_2026_06 --preview   overlay of every region, one PNG per page
@@ -33,6 +33,9 @@ from pathlib import Path
 
 import pymupdf
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import markscheme  # noqa: E402
 
 pymupdf.TOOLS.mupdf_display_errors(False)
 
@@ -293,6 +296,24 @@ def render(doc, node, paper_dir, subject, paper_id, suffix=""):
     return crops
 
 
+def render_ms(ms_doc, label, rows, paper_dir, subject, paper_id):
+    """Cut a part's mark-scheme rows (one band per page, full table width) as WebP crops."""
+    crops = []
+    bands = markscheme.bands(rows)
+    for i, (page, x0, y0, x1, y1) in enumerate(bands):
+        name = slug(label, "_ms") + (f"_{i + 1}" if len(bands) > 1 else "") + ".webp"
+        clip = pymupdf.Rect(x0 - 1, y0 - 1, x1 + 1, y1 + 1)
+        pix = ms_doc[page].get_pixmap(dpi=DPI, clip=clip, colorspace=pymupdf.csGRAY)
+        img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
+        buf = io.BytesIO()
+        img.save(buf, "WEBP", quality=QUALITY, method=6)
+        (paper_dir / name).write_bytes(buf.getvalue())
+        crops.append({"src": f"{subject}/{paper_id}/{name}", "w": pix.width, "h": pix.height,
+                      "region": {"page": page + 1, "x0": round(clip.x0, 1), "y0": round(clip.y0, 1),
+                                 "x1": round(clip.x1, 1), "y1": round(clip.y1, 1)}})
+    return crops
+
+
 def text_of(node, lines):
     """The node's printed words, for search and tagging (never shown: maths comes out mangled)."""
     out = []
@@ -319,6 +340,10 @@ def export(doc, questions, lines, paper_id, subject="physics"):
     crops_dir.mkdir(parents=True, exist_ok=True)
     for old in crops_dir.glob("*.webp"):
         old.unlink()
+    ms_doc = pymupdf.open(CACHE / f"{paper_id}_ms.pdf")
+    ms_rows = markscheme.by_label(markscheme.split(ms_doc))
+    used = set()
+    unmatched = []
     qs = []
     for q in questions:
         stem = render(doc, q, crops_dir, subject, paper_id, "_stem") if q.children else []
@@ -327,23 +352,34 @@ def export(doc, questions, lines, paper_id, subject="physics"):
             intro = render(doc, part, crops_dir, subject, paper_id, "_intro") if part.children else []
             for leaf in (part.children or [part]):
                 text = text_of(leaf, lines)
+                rows = ms_rows.get(leaf.label, [])
+                if rows:
+                    used.add(leaf.label)
+                else:
+                    unmatched.append(f"{leaf.label}: no mark-scheme rows")
+                kind = guess_kind(q, leaf, text)
+                answer = markscheme.mcq_key(rows) if kind == "mcq" else None
+                if kind == "mcq" and not answer:
+                    unmatched.append(f"{leaf.label}: MCQ without 'The only correct answer is …' in its MS row")
                 parts.append({
                     "label": leaf.label,
                     "marks": leaf.marks or (q.total if leaf is q else 0),
-                    "kind": guess_kind(q, leaf, text),
+                    "kind": kind,
+                    **({"answer": answer} if answer else {}),
                     "topics": [],
                     "tagStatus": "none",
                     **({"intro": intro} if intro else {}),
                     "qp": render(doc, leaf, crops_dir, subject, paper_id),
-                    "ms": [],
+                    "ms": render_ms(ms_doc, leaf.label, rows, crops_dir, subject, paper_id),
                     "text": text,
                 })
         qs.append({"id": f"{paper_id}_q{q.label}", "number": int(q.label), "marks": q.total,
                    "stem": stem, "parts": parts, "reviewed": False})
     paper = {"id": paper_id, "subject": subject, "questions": qs}
     (out / "paper.json").write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
+    unmatched += [f"{label}: in the mark scheme but not found in the paper" for label in ms_rows if label not in used]
     size = sum(f.stat().st_size for f in crops_dir.glob("*.webp"))
-    return out, len(list(crops_dir.glob("*.webp"))), size
+    return out, len(list(crops_dir.glob("*.webp"))), size, unmatched
 
 
 def main():
@@ -362,8 +398,10 @@ def main():
         paths = preview(pymupdf.open(CACHE / f"{paper_id}_qp.pdf"), questions, out)
         print(f"preview: {len(paths)} pages in {out}")
     if "--render" in sys.argv:
-        out, n, size = export(doc, questions, lines, paper_id)
+        out, n, size, unmatched = export(doc, questions, lines, paper_id)
         print(f"render: {n} crops, {size / 1024:.0f} KB, in {out}")
+        for u in unmatched:
+            print("  !! " + u)
 
 
 if __name__ == "__main__":
