@@ -1,0 +1,902 @@
+{
+ "id": "WPH16_2024_06",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2024-06",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June%202024/IAL_PHYSICS_2024_June_U6_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June%202024/IAL_PHYSICS_2024_June_U6_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2024_06_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_06/q1_stem.webp",
+     "w": 1090,
+     "h": 623,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 379.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q1_a.webp",
+       "w": 1090,
+       "h": 105,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 390.2,
+        "x1": 559.0,
+        "y1": 439.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q1_a_ms.webp",
+       "w": 997,
+       "h": 174,
+       "region": {
+        "page": 4,
+        "x0": 63.1,
+        "y0": 117.0,
+        "x1": 541.2,
+        "y1": 200.0
+       }
+      }
+     ],
+     "text": "(a) State two safety precautions the student should take when connecting and using the circuit. (2)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q1_b.webp",
+       "w": 1090,
+       "h": 899,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 488.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q1_b_ms.webp",
+       "w": 997,
+       "h": 293,
+       "region": {
+        "page": 4,
+        "x0": 63.1,
+        "y0": 198.0,
+        "x1": 541.2,
+        "y1": 338.0
+       }
+      }
+     ],
+     "text": "(b) The student used the switch in position 1 to charge the capacitor. The student changed the switch to position 2 to discharge the capacitor through the motor. As the capacitor discharged, the motor raised a small mass m through a height h, as shown. motor connected in circuit string stand m bench h The student used a metre rule to measure h. Describe an accurate method to determine a single value of h using a metre rule. You may include additional apparatus. (3)"
+    },
+    {
+     "label": "1(c)(i)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_intro.webp",
+       "w": 1090,
+       "h": 165,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 136.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 150.0,
+        "x1": 559.0,
+        "y1": 185.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_i_ms.webp",
+       "w": 997,
+       "h": 188,
+       "region": {
+        "page": 4,
+        "x0": 63.1,
+        "y0": 336.0,
+        "x1": 541.2,
+        "y1": 426.0
+       }
+      }
+     ],
+     "text": "(i) Calculate the mean value of h. (1)"
+    },
+    {
+     "label": "1(c)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_intro.webp",
+       "w": 1090,
+       "h": 165,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 136.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 272.5,
+        "x1": 559.0,
+        "y1": 308.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_ii_ms.webp",
+       "w": 997,
+       "h": 349,
+       "region": {
+        "page": 4,
+        "x0": 63.1,
+        "y0": 424.0,
+        "x1": 541.2,
+        "y1": 591.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the percentage uncertainty in the mean value of h. (2)"
+    },
+    {
+     "label": "1(c)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_intro.webp",
+       "w": 1090,
+       "h": 165,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 136.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_iii.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 423.2,
+        "x1": 559.0,
+        "y1": 510.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q1_c_iii_ms.webp",
+       "w": 997,
+       "h": 365,
+       "region": {
+        "page": 4,
+        "x0": 63.1,
+        "y0": 589.0,
+        "x1": 541.2,
+        "y1": 764.0
+       }
+      }
+     ],
+     "text": "(iii) Determine the efficiency of the electric motor. maximum potential difference across capacitor = 6 V capacitance of capacitor = 4700 μF m = 20 g (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2024_06_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_06/q2_stem.webp",
+     "w": 1090,
+     "h": 840,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 459.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 462.4,
+        "x1": 559.0,
+        "y1": 497.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q2_a_ms.webp",
+       "w": 994,
+       "h": 272,
+       "region": {
+        "page": 5,
+        "x0": 68.7,
+        "y0": 117.0,
+        "x1": 545.3,
+        "y1": 247.0
+       }
+      }
+     ],
+     "text": "(a) Show that the formula gives the unit for η as N s m –2. (2)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q2_b.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 154.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q2_b_ms.webp",
+       "w": 994,
+       "h": 451,
+       "region": {
+        "page": 5,
+        "x0": 68.7,
+        "y0": 245.0,
+        "x1": 545.3,
+        "y1": 461.0
+       }
+      }
+     ],
+     "text": "(b) The student used a metre rule to measure L and a stopwatch to measure t. He adjusted the water tap to give a constant flow of water. Describe a method to determine an accurate value for η. Your method should use a suitable graph. (6)"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q2_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 551.6,
+        "x1": 559.0,
+        "y1": 625.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q2_c_ms.webp",
+       "w": 994,
+       "h": 134,
+       "region": {
+        "page": 5,
+        "x0": 68.7,
+        "y0": 459.0,
+        "x1": 545.3,
+        "y1": 523.0
+       }
+      }
+     ],
+     "text": "(c) The mass balance can be connected to a data logger. The data logger records the mass shown on the balance. Give two reasons why using a data logger would improve this investigation. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2024_06_q3",
+   "number": 3,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_06/q3_stem.webp",
+     "w": 1090,
+     "h": 468,
+     "region": {
+      "page": 9,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 281.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q3_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 284.0,
+        "x1": 559.0,
+        "y1": 357.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q3_a_ms.webp",
+       "w": 994,
+       "h": 228,
+       "region": {
+        "page": 6,
+        "x0": 61.7,
+        "y0": 117.0,
+        "x1": 538.2,
+        "y1": 226.0
+       }
+      }
+     ],
+     "text": "(a) The student used a stopwatch to determine the time period T of the rotational oscillations. Describe how the student should determine an accurate value for T. (3)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 196,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 529.0,
+        "x1": 559.0,
+        "y1": 623.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 625.8,
+        "x1": 559.0,
+        "y1": 675.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_i_ms.webp",
+       "w": 994,
+       "h": 407,
+       "region": {
+        "page": 6,
+        "x0": 61.7,
+        "y0": 224.0,
+        "x1": 538.2,
+        "y1": 419.0
+       }
+      }
+     ],
+     "text": "(i) Explain how a graph of log T against log M can be used to determine the value of b. (2)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 196,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 529.0,
+        "x1": 559.0,
+        "y1": 623.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_ii.webp",
+       "w": 1090,
+       "h": 672,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 379.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_ii_ms.webp",
+       "w": 994,
+       "h": 712,
+       "region": {
+        "page": 6,
+        "x0": 61.7,
+        "y0": 417.0,
+        "x1": 538.2,
+        "y1": 758.0
+       }
+      }
+     ],
+     "text": "(ii) The student varied M and determined the corresponding values of T. She recorded the following data. M / kg T / s 0.200 1.46 0.300 1.86 0.400 2.14 0.500 2.36 0.600 2.63 0.700 2.88 Plot a graph of log T against log M on the grid opposite. Use the additional columns for your processed data. (6)"
+    },
+    {
+     "label": "3(b)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 196,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 529.0,
+        "x1": 559.0,
+        "y1": 623.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_iii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 382.1,
+        "x1": 559.0,
+        "y1": 417.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_iii_ms.webp",
+       "w": 994,
+       "h": 355,
+       "region": {
+        "page": 7,
+        "x0": 61.7,
+        "y0": 619.0,
+        "x1": 538.2,
+        "y1": 789.0
+       }
+      }
+     ],
+     "text": "(iii) Determine the gradient of the graph. (3)"
+    },
+    {
+     "label": "3(b)(iv)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 196,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 529.0,
+        "x1": 559.0,
+        "y1": 623.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_iv_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 560.9,
+        "x1": 559.0,
+        "y1": 596.3
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_06/q3_b_iv_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q3_b_iv_ms.webp",
+       "w": 994,
+       "h": 524,
+       "region": {
+        "page": 8,
+        "x0": 61.7,
+        "y0": 80.0,
+        "x1": 538.2,
+        "y1": 331.0
+       }
+      }
+     ],
+     "text": "(iv) Determine the value of a. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2024_06_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_06/q4_stem.webp",
+     "w": 1090,
+     "h": 421,
+     "region": {
+      "page": 12,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 258.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q4_a_i.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 262.1,
+        "x1": 559.0,
+        "y1": 335.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q4_a_i_ms.webp",
+       "w": 994,
+       "h": 407,
+       "region": {
+        "page": 9,
+        "x0": 61.7,
+        "y0": 136.0,
+        "x1": 538.2,
+        "y1": 331.0
+       }
+      }
+     ],
+     "text": "(a) (i) The student used a micrometer screw gauge to measure the thickness t of the plastic protractor. Explain one technique she should use when measuring t. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q4_a_ii.webp",
+       "w": 1090,
+       "h": 203,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 450.8,
+        "x1": 559.0,
+        "y1": 548.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q4_a_ii_ms.webp",
+       "w": 994,
+       "h": 290,
+       "region": {
+        "page": 9,
+        "x0": 61.7,
+        "y0": 329.0,
+        "x1": 538.2,
+        "y1": 468.0
+       }
+      }
+     ],
+     "text": "(ii) The student determined a value of t as 1.41 mm. Explain why a micrometer screw gauge is an appropriate instrument for this measurement. Your answer should include a calculation. (2)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 625,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 356.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q4_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 359.5,
+        "x1": 559.0,
+        "y1": 394.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q4_b_i_ms.webp",
+       "w": 994,
+       "h": 660,
+       "region": {
+        "page": 9,
+        "x0": 61.7,
+        "y0": 466.0,
+        "x1": 538.2,
+        "y1": 782.0
+       }
+      }
+     ],
+     "text": "(i) Show that V is about 6.2 cm 3. (2)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 625,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 356.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q4_b_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 482.0,
+        "x1": 559.0,
+        "y1": 517.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q4_b_ii_ms.webp",
+       "w": 994,
+       "h": 1403,
+       "region": {
+        "page": 10,
+        "x0": 61.7,
+        "y0": 80.0,
+        "x1": 538.2,
+        "y1": 753.0
+       }
+      }
+     ],
+     "text": "3. (ii) Show that the uncertainty in V is about 0.2 cm (4)"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_06/q4_c.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 192.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_06/q4_c_ms.webp",
+       "w": 994,
+       "h": 593,
+       "region": {
+        "page": 11,
+        "x0": 61.7,
+        "y0": 80.0,
+        "x1": 538.2,
+        "y1": 364.0
+       }
+      }
+     ],
+     "text": "–3 with a percentage (c) The student determined the density of the plastic as 1.04 g cm uncertainty of 3%. –3. The accepted value of the density of Perspex is 1.18 g cm Explain whether the student’s measurements suggest that the protractor could be made of Perspex. Your answer should include a calculation. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

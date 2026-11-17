@@ -1,0 +1,942 @@
+{
+ "id": "WPH16_2025_01",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2025-01",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202025/IAL_PHYSICS_2025_Jan_U6_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202025/IAL_PHYSICS_2025_Jan_U6_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2025_01_q1",
+   "number": 1,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_01/q1_stem.webp",
+     "w": 1090,
+     "h": 478,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 310.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q1_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 320.4,
+        "x1": 559.0,
+        "y1": 379.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q1_a_ms.webp",
+       "w": 994,
+       "h": 878,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 87.0,
+        "x1": 539.7,
+        "y1": 508.0
+       }
+      }
+     ],
+     "text": "(a) The student used the immersion heater to heat the water in the beaker. Identify one health and safety issue and how it should be dealt with. (2)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q1_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 495.0,
+        "x1": 559.0,
+        "y1": 554.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q1_b_ms.webp",
+       "w": 994,
+       "h": 551,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 506.0,
+        "x1": 539.7,
+        "y1": 770.0
+       }
+      }
+     ],
+     "text": "(b) The student determined the temperature θ of the fixed volume of air. Describe an accurate method to determine a single value of θ. (3)"
+    },
+    {
+     "label": "1(c)(i)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_intro.webp",
+       "w": 1090,
+       "h": 214,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 159.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 166.9,
+        "x1": 559.0,
+        "y1": 202.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_i_ms.webp",
+       "w": 994,
+       "h": 228,
+       "region": {
+        "page": 7,
+        "x0": 63.1,
+        "y0": 50.0,
+        "x1": 539.7,
+        "y1": 159.0
+       }
+      }
+     ],
+     "text": "(i) Determine the mean value of θ. (1)"
+    },
+    {
+     "label": "1(c)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_intro.webp",
+       "w": 1090,
+       "h": 214,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 159.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 293.6,
+        "x1": 559.0,
+        "y1": 329.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_ii_ms.webp",
+       "w": 994,
+       "h": 421,
+       "region": {
+        "page": 7,
+        "x0": 63.1,
+        "y0": 157.0,
+        "x1": 539.7,
+        "y1": 359.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the percentage uncertainty in the mean value of θ. (2)"
+    },
+    {
+     "label": "1(c)(iii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_intro.webp",
+       "w": 1090,
+       "h": 214,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 159.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_iii.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 448.5,
+        "x1": 559.0,
+        "y1": 531.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q1_c_iii_ms.webp",
+       "w": 994,
+       "h": 443,
+       "region": {
+        "page": 7,
+        "x0": 63.1,
+        "y0": 357.0,
+        "x1": 539.7,
+        "y1": 569.0
+       }
+      }
+     ],
+     "text": "(iii) The diameter of the flask was 15 cm. Determine the number of air molecules in the flask. You may assume the volume of air is spherical. (4)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2025_01_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_01/q2_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q2_a.webp",
+       "w": 1090,
+       "h": 724,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 95.2,
+        "x1": 559.0,
+        "y1": 442.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q2_a_ms.webp",
+       "w": 1009,
+       "h": 582,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 87.0,
+        "x1": 539.6,
+        "y1": 366.0
+       }
+      }
+     ],
+     "text": "(a) Complete the circuit diagram for the circuit the student could use in this investigation. (2)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q2_b.webp",
+       "w": 1090,
+       "h": 372,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 235.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q2_b_ms.webp",
+       "w": 1009,
+       "h": 370,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 364.0,
+        "x1": 539.6,
+        "y1": 541.0
+       }
+      }
+     ],
+     "text": "(b) The student placed a light sensor a distance from the filament bulb. The light sensor measured X, the light received, in lux, from the filament bulb. She predicted that the relationship between P and X is given by P = k X 4 where k is a constant. Devise a method to test this prediction. You should include the use of a suitable graph. (6)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2025_01_q3",
+   "number": 3,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_01/q3_stem.webp",
+     "w": 1090,
+     "h": 698,
+     "region": {
+      "page": 7,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 391.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 393.9,
+        "x1": 559.0,
+        "y1": 429.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q3_a_ms.webp",
+       "w": 997,
+       "h": 334,
+       "region": {
+        "page": 9,
+        "x0": 61.6,
+        "y0": 87.0,
+        "x1": 539.6,
+        "y1": 247.0
+       }
+      }
+     ],
+     "text": "(a) Give two reasons why it would not be appropriate to record A to the nearest mm. (2)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 168,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 137.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 138.0,
+        "x1": 559.0,
+        "y1": 173.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_i_ms.webp",
+       "w": 997,
+       "h": 413,
+       "region": {
+        "page": 9,
+        "x0": 61.6,
+        "y0": 245.0,
+        "x1": 539.6,
+        "y1": 443.0
+       }
+      }
+     ],
+     "text": "(i) Explain how a graph of ln A against n can be used to determine the value of λ. (2)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 168,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 137.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_ii.webp",
+       "w": 1090,
+       "h": 643,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 288.7,
+        "x1": 559.0,
+        "y1": 597.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_ii_ms.webp",
+       "w": 997,
+       "h": 680,
+       "region": {
+        "page": 9,
+        "x0": 61.6,
+        "y0": 441.0,
+        "x1": 539.6,
+        "y1": 767.0
+       }
+      }
+     ],
+     "text": "(ii) The student recorded the following results. n A / cm 5 8.5 10 7.0 15 5.5 20 5.0 25 4.0 30 3.5 Plot a graph of ln A against n on the grid opposite. Use the additional column for your processed data. (5)"
+    },
+    {
+     "label": "3(b)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 168,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 137.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_iii_1.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 599.5,
+        "x1": 559.0,
+        "y1": 634.9
+       }
+      },
+      {
+       "src": "physics/WPH16_2025_01/q3_b_iii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_iii_ms.webp",
+       "w": 997,
+       "h": 281,
+       "region": {
+        "page": 10,
+        "x0": 61.6,
+        "y0": 491.0,
+        "x1": 539.6,
+        "y1": 625.0
+       }
+      }
+     ],
+     "text": "(iii) Determine the value of λ from the graph. (3)"
+    },
+    {
+     "label": "3(b)(iv)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 168,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 137.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_iv.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_iv_ms.webp",
+       "w": 997,
+       "h": 345,
+       "region": {
+        "page": 10,
+        "x0": 61.6,
+        "y0": 623.0,
+        "x1": 539.6,
+        "y1": 788.0
+       }
+      }
+     ],
+     "text": "(iv) Determine the value of A0 from the graph. (3)"
+    },
+    {
+     "label": "3(b)(v)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 168,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 137.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_v.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 268.4,
+        "x1": 559.0,
+        "y1": 317.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q3_b_v_ms.webp",
+       "w": 997,
+       "h": 849,
+       "region": {
+        "page": 11,
+        "x0": 61.6,
+        "y0": 50.0,
+        "x1": 539.6,
+        "y1": 457.0
+       }
+      }
+     ],
+     "text": "(v) Explain why the value of A0 determined from the graph may not be the true value of A0. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2025_01_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_01/q4_stem.webp",
+     "w": 1090,
+     "h": 401,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 248.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q4_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 257.3,
+        "x1": 559.0,
+        "y1": 340.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q4_a_ms.webp",
+       "w": 997,
+       "h": 344,
+       "region": {
+        "page": 12,
+        "x0": 61.6,
+        "y0": 87.0,
+        "x1": 539.6,
+        "y1": 252.0
+       }
+      }
+     ],
+     "text": "(a) The student used a metre rule to measure the heights h1 and h2 . She calculated the difference in height ∆h as 21 mm ± 1 mm. Explain why it was appropriate to record the uncertainty in ∆h as 1 mm. (3)"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q4_b.webp",
+       "w": 1090,
+       "h": 313,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 477.0,
+        "x1": 559.0,
+        "y1": 626.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q4_b_ms.webp",
+       "w": 997,
+       "h": 174,
+       "region": {
+        "page": 12,
+        "x0": 61.6,
+        "y0": 250.0,
+        "x1": 539.6,
+        "y1": 333.0
+       }
+      }
+     ],
+     "text": "(b) The student placed a small glass sphere at marker 1. She released the sphere and used a stopwatch to measure the time t taken for the sphere to reach marker 2. She repeated this several times. The student moved marker 2 to the lower end of the ramp and repeated the procedure. Discuss how moving marker 2 to the lower end of the ramp could affect the percentage uncertainty in t. (3)"
+    },
+    {
+     "label": "4(c)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_intro.webp",
+       "w": 1090,
+       "h": 314,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 207.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 210.6,
+        "x1": 559.0,
+        "y1": 246.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_i_ms.webp",
+       "w": 997,
+       "h": 332,
+       "region": {
+        "page": 12,
+        "x0": 61.6,
+        "y0": 331.0,
+        "x1": 539.6,
+        "y1": 490.0
+       }
+      }
+     ],
+     "text": "(i) Determine the student’s value of g. (2)"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_intro.webp",
+       "w": 1090,
+       "h": 314,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 207.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 365.4,
+        "x1": 559.0,
+        "y1": 400.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_ii_ms_1.webp",
+       "w": 997,
+       "h": 657,
+       "region": {
+        "page": 12,
+        "x0": 61.6,
+        "y0": 488.0,
+        "x1": 539.6,
+        "y1": 803.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2025_01/q4_c_ii_ms_2.webp",
+       "w": 997,
+       "h": 505,
+       "region": {
+        "page": 13,
+        "x0": 61.6,
+        "y0": 50.0,
+        "x1": 539.6,
+        "y1": 292.0
+       }
+      }
+     ],
+     "text": "(ii) Show that the percentage uncertainty in the student’s value of g is about 7%. (3)"
+    },
+    {
+     "label": "4(c)(iii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_intro.webp",
+       "w": 1090,
+       "h": 314,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 207.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_iii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 576.6,
+        "x1": 559.0,
+        "y1": 612.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_01/q4_c_iii_ms.webp",
+       "w": 997,
+       "h": 880,
+       "region": {
+        "page": 13,
+        "x0": 61.6,
+        "y0": 290.0,
+        "x1": 539.6,
+        "y1": 712.0
+       }
+      }
+     ],
+     "text": "(iii) Deduce whether the student’s value of g is accurate. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

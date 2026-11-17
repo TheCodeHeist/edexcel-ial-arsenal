@@ -1,0 +1,900 @@
+{
+ "id": "WPH13_2021_10",
+ "subject": "physics",
+ "unit": "WPH13",
+ "series": "2021-10",
+ "totalMarks": 50,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202021/IAL_PHYSICS_2021_Oct_U3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202021/IAL_PHYSICS_2021_Oct_U3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH13_2021_10_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH13_2021_10/q1_stem.webp",
+     "w": 1090,
+     "h": 543,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 78.8,
+      "x1": 559.0,
+      "y1": 339.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q1_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 339.9,
+        "x1": 559.0,
+        "y1": 389.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q1_a_ms.webp",
+       "w": 1049,
+       "h": 132,
+       "region": {
+        "page": 7,
+        "x0": 47.4,
+        "y0": 117.0,
+        "x1": 550.5,
+        "y1": 180.0
+       }
+      }
+     ],
+     "text": "(a) Describe how the student was able to vary the temperature θ of the thermistor for this investigation. (2)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q1_b.webp",
+       "w": 1090,
+       "h": 429,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 502.6,
+        "x1": 559.0,
+        "y1": 708.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q1_b_ms.webp",
+       "w": 1049,
+       "h": 287,
+       "region": {
+        "page": 7,
+        "x0": 47.4,
+        "y0": 178.0,
+        "x1": 550.5,
+        "y1": 315.0
+       }
+      }
+     ],
+     "text": "(b) The photograph shows the steady reading of V on the voltmeter when the thermistor was at room temperature. (Source: PAL) Calculate the percentage uncertainty in the value of V shown. (2)"
+    },
+    {
+     "label": "1(c)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q1_c_intro.webp",
+       "w": 1090,
+       "h": 766,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 424.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q1_c_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 431.8,
+        "x1": 559.0,
+        "y1": 467.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q1_c_i_ms.webp",
+       "w": 1049,
+       "h": 194,
+       "region": {
+        "page": 7,
+        "x0": 47.4,
+        "y0": 313.0,
+        "x1": 550.5,
+        "y1": 406.0
+       }
+      }
+     ],
+     "text": "(i) Estimate the value of V for a temperature of 0 °C. (2)"
+    },
+    {
+     "label": "1(c)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q1_c_intro.webp",
+       "w": 1090,
+       "h": 766,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 424.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q1_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 498.0,
+        "x1": 559.0,
+        "y1": 533.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q1_c_ii_ms.webp",
+       "w": 1049,
+       "h": 849,
+       "region": {
+        "page": 7,
+        "x0": 47.4,
+        "y0": 404.0,
+        "x1": 550.5,
+        "y1": 811.0
+       }
+      }
+     ],
+     "text": "(ii) Calculate the resistance of the thermistor at a temperature of 0 °C. (3)"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q1_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q1_d_ms.webp",
+       "w": 1049,
+       "h": 286,
+       "region": {
+        "page": 8,
+        "x0": 47.4,
+        "y0": 87.0,
+        "x1": 550.5,
+        "y1": 224.0
+       }
+      }
+     ],
+     "text": "(d) The student suggested that V is inversely proportional to temperature measured in kelvin. Determine whether she is correct. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2021_10_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH13_2021_10/q2_stem.webp",
+     "w": 1090,
+     "h": 537,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 314.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q2_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 316.8,
+        "x1": 559.0,
+        "y1": 376.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q2_a_ms.webp",
+       "w": 1054,
+       "h": 226,
+       "region": {
+        "page": 9,
+        "x0": 47.4,
+        "y0": 101.0,
+        "x1": 552.6,
+        "y1": 209.0
+       }
+      }
+     ],
+     "text": "(a) As d varied, the intensity of the microwaves detected by the receiver varied. Explain why. (3)"
+    },
+    {
+     "label": "2(b)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q2_b_intro.webp",
+       "w": 1090,
+       "h": 273,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 188.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q2_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 195.3,
+        "x1": 559.0,
+        "y1": 230.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q2_b_i_ms.webp",
+       "w": 1054,
+       "h": 286,
+       "region": {
+        "page": 9,
+        "x0": 47.4,
+        "y0": 207.0,
+        "x1": 552.6,
+        "y1": 344.0
+       }
+      }
+     ],
+     "text": "(i) Determine the wavelength of the microwaves being transmitted. (3)"
+    },
+    {
+     "label": "2(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q2_b_intro.webp",
+       "w": 1090,
+       "h": 273,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 188.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q2_b_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 402.3,
+        "x1": 559.0,
+        "y1": 437.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q2_b_ii_ms.webp",
+       "w": 1054,
+       "h": 320,
+       "region": {
+        "page": 9,
+        "x0": 47.4,
+        "y0": 342.0,
+        "x1": 552.6,
+        "y1": 495.0
+       }
+      }
+     ],
+     "text": "(ii) Calculate the frequency of the microwaves being transmitted. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2021_10_q3",
+   "number": 3,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "physics/WPH13_2021_10/q3_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 8,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q3_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 95.2,
+        "x1": 559.0,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q3_a_ms.webp",
+       "w": 1057,
+       "h": 226,
+       "region": {
+        "page": 10,
+        "x0": 47.4,
+        "y0": 101.0,
+        "x1": 554.0,
+        "y1": 209.0
+       }
+      }
+     ],
+     "text": "(a) Describe a method to determine the maximum force the nylon fishing line can withstand before breaking. (4)"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q3_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 372.5,
+        "x1": 559.0,
+        "y1": 408.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q3_b_ms.webp",
+       "w": 1057,
+       "h": 286,
+       "region": {
+        "page": 10,
+        "x0": 47.4,
+        "y0": 207.0,
+        "x1": 554.0,
+        "y1": 344.0
+       }
+      }
+     ],
+     "text": "(b) Identify one safety issue with this investigation and how it may be dealt with. (2)"
+    },
+    {
+     "label": "3(c)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q3_c_intro.webp",
+       "w": 1090,
+       "h": 135,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 121.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q3_c_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 127.6,
+        "x1": 559.0,
+        "y1": 177.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q3_c_i_ms.webp",
+       "w": 1057,
+       "h": 320,
+       "region": {
+        "page": 10,
+        "x0": 47.4,
+        "y0": 342.0,
+        "x1": 554.0,
+        "y1": 495.0
+       }
+      }
+     ],
+     "text": "(i) Calculate the percentage uncertainty in the mean diameter of the nylon fishing line. (3)"
+    },
+    {
+     "label": "3(c)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q3_c_intro.webp",
+       "w": 1090,
+       "h": 135,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 121.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q3_c_ii.webp",
+       "w": 1090,
+       "h": 501,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 297.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q3_c_ii_ms.webp",
+       "w": 1057,
+       "h": 630,
+       "region": {
+        "page": 10,
+        "x0": 47.4,
+        "y0": 493.0,
+        "x1": 554.0,
+        "y1": 795.0
+       }
+      }
+     ],
+     "text": "(ii) The student read an article that suggested nylon fishing line can absorb water. The article suggested that the ultimate tensile stress of nylon decreases by 10 % after absorbing water. She repeated her experiment, using new samples of fishing line before and after they absorbed water. Sample Maximum force / N Diameter / mm Before 65.8 0.45 After 57.8 0.46 Evaluate whether her results support the suggestion in the article. (5)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2021_10_q4",
+   "number": 4,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH13_2021_10/q4_stem.webp",
+     "w": 1090,
+     "h": 488,
+     "region": {
+      "page": 12,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 290.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 489,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 293.4,
+        "x1": 559.0,
+        "y1": 528.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q4_a_i.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 535.2,
+        "x1": 559.0,
+        "y1": 570.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q4_a_i_ms.webp",
+       "w": 1056,
+       "h": 164,
+       "region": {
+        "page": 11,
+        "x0": 47.4,
+        "y0": 116.0,
+        "x1": 553.6,
+        "y1": 194.0
+       }
+      }
+     ],
+     "text": "(i) Criticise these results. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2021_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 489,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 293.4,
+        "x1": 559.0,
+        "y1": 528.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q4_a_ii_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 657.8,
+        "x1": 559.0,
+        "y1": 693.2
+       }
+      },
+      {
+       "src": "physics/WPH13_2021_10/q4_a_ii_2.webp",
+       "w": 1090,
+       "h": 1317,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 98.2,
+        "x1": 559.0,
+        "y1": 729.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q4_a_ii_ms.webp",
+       "w": 1056,
+       "h": 700,
+       "region": {
+        "page": 11,
+        "x0": 47.4,
+        "y0": 192.0,
+        "x1": 553.6,
+        "y1": 528.0
+       }
+      }
+     ],
+     "text": "(ii) Plot a graph of r on the y-axis and h on the x-axis. (5)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q4_b_i.webp",
+       "w": 1090,
+       "h": 127,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 117.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q4_b_i_ms.webp",
+       "w": 1056,
+       "h": 105,
+       "region": {
+        "page": 11,
+        "x0": 47.4,
+        "y0": 526.0,
+        "x1": 553.6,
+        "y1": 576.0
+       }
+      }
+     ],
+     "text": "(b) (i) Show that the velocity u of the cube immediately before the collision is given by u = 2 gh (2)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q4_b_ii.webp",
+       "w": 1090,
+       "h": 236,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 233.1,
+        "x1": 559.0,
+        "y1": 345.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q4_b_ii_ms.webp",
+       "w": 1056,
+       "h": 220,
+       "region": {
+        "page": 11,
+        "x0": 47.4,
+        "y0": 574.0,
+        "x1": 553.6,
+        "y1": 679.0
+       }
+      }
+     ],
+     "text": "(ii) The coefficient of restitution e is given by the equation v e = u where v is the velocity of the cube immediately after the collision. Explain why the gradient of the graph is e2. (3)"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q4_c.webp",
+       "w": 1090,
+       "h": 219,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 517.2,
+        "x1": 559.0,
+        "y1": 621.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q4_c_ms_1.webp",
+       "w": 1056,
+       "h": 261,
+       "region": {
+        "page": 11,
+        "x0": 47.4,
+        "y0": 677.0,
+        "x1": 553.6,
+        "y1": 802.0
+       }
+      },
+      {
+       "src": "physics/WPH13_2021_10/q4_c_ms_2.webp",
+       "w": 1056,
+       "h": 70,
+       "region": {
+        "page": 12,
+        "x0": 47.4,
+        "y0": 71.0,
+        "x1": 553.6,
+        "y1": 104.0
+       }
+      }
+     ],
+     "text": "(c) The student researched the range of values for the coefficients of restitution e of different metals. stainless steel 0.63 < e < 0.93 cast iron 0.3 < e < 0.6 Determine which of these metals the cube could be made from. (3)"
+    },
+    {
+     "label": "4(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2021_10/q4_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 106.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2021_10/q4_d_ms.webp",
+       "w": 1056,
+       "h": 224,
+       "region": {
+        "page": 12,
+        "x0": 47.4,
+        "y0": 102.0,
+        "x1": 553.6,
+        "y1": 209.0
+       }
+      }
+     ],
+     "text": "(d) Explain how friction between the cube and the surface of the ramp would affect the value obtained for e. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

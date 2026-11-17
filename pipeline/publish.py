@@ -16,6 +16,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -68,7 +69,16 @@ def main():
         return
     git("commit", "-q", "-m", f"Publish crops: {', '.join(done)}\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>")
     if "--no-push" not in sys.argv:
-        git("push", "-q")
+        # Large pushes over HTTPS sometimes drop (it happened twice in the first bulk publish); retry.
+        for attempt in range(3):
+            try:
+                git("push", "-q")
+                break
+            except subprocess.CalledProcessError:
+                if attempt == 2:
+                    raise
+                print("push failed; retrying")
+                time.sleep(10)
         print(f"pushed. e.g. {PAGES}/{next(DATA.glob('*/' + done[0])).relative_to(DATA)}/")
 
 

@@ -1,0 +1,970 @@
+{
+ "id": "WPH13_2019_10",
+ "subject": "physics",
+ "unit": "WPH13",
+ "series": "2019-10",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202019/IAL_PHYSICS_2019_Oct_U3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202019/IAL_PHYSICS_2019_Oct_U3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH13_2019_10_q1",
+   "number": 1,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "physics/WPH13_2019_10/q1_stem.webp",
+     "w": 1091,
+     "h": 372,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 87.0,
+      "x1": 558.9,
+      "y1": 265.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q1_a.webp",
+       "w": 1091,
+       "h": 68,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 270.9,
+        "x1": 558.9,
+        "y1": 303.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q1_a_ms.webp",
+       "w": 1064,
+       "h": 86,
+       "region": {
+        "page": 6,
+        "x0": 56.1,
+        "y0": 90.0,
+        "x1": 566.3,
+        "y1": 131.0
+       }
+      }
+     ],
+     "text": "(a) State one source of uncertainty in the values of t measured by the students. (1)"
+    },
+    {
+     "label": "1(b)(i)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_intro.webp",
+       "w": 1091,
+       "h": 256,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 369.4,
+        "x1": 558.9,
+        "y1": 491.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_i.webp",
+       "w": 1091,
+       "h": 68,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 497.3,
+        "x1": 558.9,
+        "y1": 529.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_i_ms.webp",
+       "w": 1064,
+       "h": 489,
+       "region": {
+        "page": 6,
+        "x0": 56.1,
+        "y0": 129.0,
+        "x1": 566.3,
+        "y1": 363.0
+       }
+      }
+     ],
+     "text": "(i) Explain why both of these suggestions are reasonable. (4)"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_intro.webp",
+       "w": 1091,
+       "h": 256,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 369.4,
+        "x1": 558.9,
+        "y1": 491.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_ii.webp",
+       "w": 1091,
+       "h": 68,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 59.0,
+        "x1": 558.9,
+        "y1": 91.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_ii_ms.webp",
+       "w": 1064,
+       "h": 167,
+       "region": {
+        "page": 6,
+        "x0": 56.1,
+        "y0": 361.0,
+        "x1": 566.3,
+        "y1": 441.0
+       }
+      }
+     ],
+     "text": "(ii) Calculate the mean value for t. (2)"
+    },
+    {
+     "label": "1(b)(iii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_intro.webp",
+       "w": 1091,
+       "h": 256,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 369.4,
+        "x1": 558.9,
+        "y1": 491.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_iii.webp",
+       "w": 1091,
+       "h": 68,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 213.9,
+        "x1": 558.9,
+        "y1": 246.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_iii_ms.webp",
+       "w": 1064,
+       "h": 245,
+       "region": {
+        "page": 6,
+        "x0": 56.1,
+        "y0": 439.0,
+        "x1": 566.3,
+        "y1": 556.0
+       }
+      }
+     ],
+     "text": "(iii) Calculate the percentage uncertainty in t. (2)"
+    },
+    {
+     "label": "1(b)(iv)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_intro.webp",
+       "w": 1091,
+       "h": 256,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 369.4,
+        "x1": 558.9,
+        "y1": 491.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_iv.webp",
+       "w": 1091,
+       "h": 118,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 368.8,
+        "x1": 558.9,
+        "y1": 425.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q1_b_iv_ms.webp",
+       "w": 1064,
+       "h": 332,
+       "region": {
+        "page": 6,
+        "x0": 56.1,
+        "y0": 554.0,
+        "x1": 566.3,
+        "y1": 713.0
+       }
+      }
+     ],
+     "text": "(iv) The speed of sound in air is 330 m sí\u0014. Calculate the maximum value of s from the students’ values. (4)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2019_10_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "physics/WPH13_2019_10/q2_stem.webp",
+     "w": 1091,
+     "h": 534,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 59.0,
+      "x1": 558.9,
+      "y1": 314.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q2_a.webp",
+       "w": 1091,
+       "h": 68,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 320.3,
+        "x1": 558.9,
+        "y1": 352.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q2_a_ms.webp",
+       "w": 1064,
+       "h": 201,
+       "region": {
+        "page": 7,
+        "x0": 56.1,
+        "y0": 102.0,
+        "x1": 566.3,
+        "y1": 198.0
+       }
+      }
+     ],
+     "text": "(a) Describe an experimental method to determine the value of ș at which d is a maximum. (4)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q2_b.webp",
+       "w": 1091,
+       "h": 168,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 59.0,
+        "x1": 558.9,
+        "y1": 139.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q2_b_ms.webp",
+       "w": 1064,
+       "h": 224,
+       "region": {
+        "page": 7,
+        "x0": 56.1,
+        "y0": 196.0,
+        "x1": 566.3,
+        "y1": 303.0
+       }
+      }
+     ],
+     "text": "(b) The equation predicts that when ș is 45°, d is a maximum. From the student’s measurements, d was a maximum when ș was less than 45°. Suggest two reasons why. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2019_10_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "physics/WPH13_2019_10/q3_stem.webp",
+     "w": 1091,
+     "h": 40,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 59.0,
+      "x1": 558.9,
+      "y1": 77.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q3_a.webp",
+       "w": 1091,
+       "h": 148,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 83.0,
+        "x1": 558.9,
+        "y1": 153.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q3_a_ms.webp",
+       "w": 1059,
+       "h": 195,
+       "region": {
+        "page": 8,
+        "x0": 56.1,
+        "y0": 102.0,
+        "x1": 563.8,
+        "y1": 195.0
+       }
+      }
+     ],
+     "text": "(a) The rod appeared to have a uniform diameter. Explain how the student could confirm that the rod had a uniform diameter, by suspending it from a thread. (2)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q3_b_intro_1.webp",
+       "w": 1091,
+       "h": 604,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 275.9,
+        "x1": 558.9,
+        "y1": 565.0
+       }
+      },
+      {
+       "src": "physics/WPH13_2019_10/q3_b_intro_2.webp",
+       "w": 1091,
+       "h": 707,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 56.0,
+        "x1": 558.9,
+        "y1": 394.9
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q3_b_i.webp",
+       "w": 1091,
+       "h": 68,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 403.4,
+        "x1": 558.9,
+        "y1": 435.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q3_b_i_ms.webp",
+       "w": 1059,
+       "h": 830,
+       "region": {
+        "page": 8,
+        "x0": 56.1,
+        "y0": 193.0,
+        "x1": 563.8,
+        "y1": 591.0
+       }
+      }
+     ],
+     "text": "(i) Determine the value of V when x is 30 cm. (1)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q3_b_intro_1.webp",
+       "w": 1091,
+       "h": 604,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 275.9,
+        "x1": 558.9,
+        "y1": 565.0
+       }
+      },
+      {
+       "src": "physics/WPH13_2019_10/q3_b_intro_2.webp",
+       "w": 1091,
+       "h": 707,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 56.0,
+        "x1": 558.9,
+        "y1": 394.9
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q3_b_ii.webp",
+       "w": 1091,
+       "h": 169,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 59.0,
+        "x1": 558.9,
+        "y1": 139.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q3_b_ii_ms.webp",
+       "w": 1059,
+       "h": 255,
+       "region": {
+        "page": 8,
+        "x0": 56.1,
+        "y0": 589.0,
+        "x1": 563.8,
+        "y1": 711.0
+       }
+      }
+     ],
+     "text": "(ii) The student measured the resistance of the full length of the rod using an ohmmeter. The resistance was 70 mȍ. Determine the terminal p.d. of the cell. (2)"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q3_c.webp",
+       "w": 1091,
+       "h": 148,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 318.2,
+        "x1": 558.9,
+        "y1": 388.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q3_c_ms.webp",
+       "w": 1059,
+       "h": 90,
+       "region": {
+        "page": 8,
+        "x0": 56.1,
+        "y0": 709.0,
+        "x1": 563.8,
+        "y1": 752.0
+       }
+      }
+     ],
+     "text": "(c) The student measured only three values of V and x. Explain why taking further readings could improve the accuracy of his value for the terminal p.d. of the cell. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2019_10_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "physics/WPH13_2019_10/q4_stem.webp",
+     "w": 1091,
+     "h": 1186,
+     "region": {
+      "page": 10,
+      "x0": 36.0,
+      "y0": 59.0,
+      "x1": 558.9,
+      "y1": 627.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q4_a.webp",
+       "w": 1091,
+       "h": 64,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.0,
+        "x1": 558.9,
+        "y1": 89.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q4_a_ms.webp",
+       "w": 1064,
+       "h": 259,
+       "region": {
+        "page": 9,
+        "x0": 56.1,
+        "y0": 128.0,
+        "x1": 566.3,
+        "y1": 252.0
+       }
+      }
+     ],
+     "text": "(a) Determine whether these results support the statement that k is a constant. (3)"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q4_b.webp",
+       "w": 1091,
+       "h": 64,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 369.2,
+        "x1": 558.9,
+        "y1": 399.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q4_b_ms.webp",
+       "w": 1064,
+       "h": 170,
+       "region": {
+        "page": 9,
+        "x0": 56.1,
+        "y0": 250.0,
+        "x1": 566.3,
+        "y1": 331.0
+       }
+      }
+     ],
+     "text": "(b) Explain why the polarimeter light source should have a low power. (3)"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q4_c.webp",
+       "w": 1091,
+       "h": 62,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 571.4,
+        "x1": 558.9,
+        "y1": 600.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q4_c_ms.webp",
+       "w": 1064,
+       "h": 218,
+       "region": {
+        "page": 9,
+        "x0": 56.1,
+        "y0": 329.0,
+        "x1": 566.3,
+        "y1": 433.0
+       }
+      }
+     ],
+     "text": "(c) Describe a graphical method the student could have used to determine k. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2019_10_q5",
+   "number": 5,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "physics/WPH13_2019_10/q5_stem.webp",
+     "w": 1091,
+     "h": 759,
+     "region": {
+      "page": 13,
+      "x0": 36.0,
+      "y0": 59.0,
+      "x1": 558.9,
+      "y1": 422.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q5_a.webp",
+       "w": 1091,
+       "h": 148,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 435.3,
+        "x1": 558.9,
+        "y1": 505.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q5_a_ms.webp",
+       "w": 1064,
+       "h": 170,
+       "region": {
+        "page": 10,
+        "x0": 56.1,
+        "y0": 102.0,
+        "x1": 566.3,
+        "y1": 183.0
+       }
+      }
+     ],
+     "text": "(a) The metal surface in this apparatus can be used to determine the Planck constant with visible light. Other metals require higher photon energies. Explain an advantage of using this apparatus. (2)"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q5_b.webp",
+       "w": 1091,
+       "h": 148,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 59.0,
+        "x1": 558.9,
+        "y1": 129.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q5_b_ms.webp",
+       "w": 1064,
+       "h": 248,
+       "region": {
+        "page": 10,
+        "x0": 56.1,
+        "y0": 181.0,
+        "x1": 566.3,
+        "y1": 300.0
+       }
+      }
+     ],
+     "text": "(b) The potential difference applied to the circuit does work on the electrons emitted from the metal surface. Calculate the work done on an emitted electron by a potential difference of 1.58 V. (2)"
+    },
+    {
+     "label": "5(c)(i)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q5_c_intro.webp",
+       "w": 1091,
+       "h": 559,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 308.2,
+        "x1": 558.9,
+        "y1": 576.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q5_c_i_1.webp",
+       "w": 1091,
+       "h": 123,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 588.8,
+        "x1": 558.9,
+        "y1": 647.3
+       }
+      },
+      {
+       "src": "physics/WPH13_2019_10/q5_c_i_2.webp",
+       "w": 1091,
+       "h": 1317,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 59.2,
+        "x1": 558.9,
+        "y1": 690.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q5_c_i_ms.webp",
+       "w": 1064,
+       "h": 510,
+       "region": {
+        "page": 10,
+        "x0": 56.1,
+        "y0": 298.0,
+        "x1": 566.3,
+        "y1": 542.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of V on the y-axis against 1 λ on the x-axis, on the grid provided. Use the blank column of the table for your processed data. (6)"
+    },
+    {
+     "label": "5(c)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2019_10/q5_c_intro.webp",
+       "w": 1091,
+       "h": 559,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 308.2,
+        "x1": 558.9,
+        "y1": 576.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q5_c_ii.webp",
+       "w": 1091,
+       "h": 168,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 59.0,
+        "x1": 558.9,
+        "y1": 138.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q5_c_ii_ms.webp",
+       "w": 1064,
+       "h": 267,
+       "region": {
+        "page": 10,
+        "x0": 56.1,
+        "y0": 540.0,
+        "x1": 566.3,
+        "y1": 668.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the Planck constant using your graph and the equation h = gradient × e c (3)"
+    },
+    {
+     "label": "5(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2019_10/q5_d.webp",
+       "w": 1091,
+       "h": 98,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 402.2,
+        "x1": 558.9,
+        "y1": 448.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2019_10/q5_d_ms.webp",
+       "w": 1064,
+       "h": 199,
+       "region": {
+        "page": 10,
+        "x0": 56.1,
+        "y0": 666.0,
+        "x1": 566.3,
+        "y1": 761.0
+       }
+      }
+     ],
+     "text": "(d) Suggest two modifications that would improve the accuracy of the value of the Planck constant determined from this experiment. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

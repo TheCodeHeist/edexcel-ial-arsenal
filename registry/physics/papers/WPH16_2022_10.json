@@ -1,0 +1,838 @@
+{
+ "id": "WPH16_2022_10",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2022-10",
+ "totalMarks": 50,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202022/IAL_PHYSICS_2022_Oct_U6_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202022/IAL_PHYSICS_2022_Oct_U6_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2022_10_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "physics/WPH16_2022_10/q1_stem.webp",
+     "w": 1090,
+     "h": 528,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 85.0,
+      "x1": 559.0,
+      "y1": 337.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 355.1,
+        "x1": 559.0,
+        "y1": 390.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q1_a_ms.webp",
+       "w": 1056,
+       "h": 553,
+       "region": {
+        "page": 6,
+        "x0": 41.8,
+        "y0": 76.0,
+        "x1": 548.4,
+        "y1": 341.0
+       }
+      }
+     ],
+     "text": "(a) Describe one safety issue and how it should be dealt with. (2)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q1_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 509.9,
+        "x1": 559.0,
+        "y1": 593.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q1_b_ms.webp",
+       "w": 1056,
+       "h": 451,
+       "region": {
+        "page": 6,
+        "x0": 41.8,
+        "y0": 339.0,
+        "x1": 548.4,
+        "y1": 555.0
+       }
+      }
+     ],
+     "text": "(b) The distance r between the two coils varied between 2 cm and 10 cm. Explain why using Vernier calipers would be better than a metre rule to measure r. You should include calculations in your answer. (3)"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q1_c.webp",
+       "w": 1090,
+       "h": 581,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 336.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q1_c_ms.webp",
+       "w": 1056,
+       "h": 240,
+       "region": {
+        "page": 6,
+        "x0": 41.8,
+        "y0": 553.0,
+        "x1": 548.4,
+        "y1": 668.0
+       }
+      }
+     ],
+     "text": "(c) When the a.c. power supply was switched on, an e.m.f. E was induced across coil B. The variation in E is shown on the oscilloscope screen below. one division The y‑scale was set to 100 mV per division. Describe how an accurate maximum value for E can be determined from the oscilloscope screen. (3)"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q1_d.webp",
+       "w": 1090,
+       "h": 377,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 237.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q1_d_ms.webp",
+       "w": 1056,
+       "h": 253,
+       "region": {
+        "page": 6,
+        "x0": 41.8,
+        "y0": 666.0,
+        "x1": 548.4,
+        "y1": 787.0
+       }
+      }
+     ],
+     "text": "(d) The student measured values of r with Vernier calipers and determined corresponding maximum values of E. The student’s values are shown in the table. r / cm 2 4 6 8 E / V 320 40 11.9 5 Criticise the recording of this data. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2022_10_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH16_2022_10/q2_stem.webp",
+     "w": 1090,
+     "h": 688,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 386.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 393.1,
+        "x1": 559.0,
+        "y1": 428.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q2_a_ms.webp",
+       "w": 1056,
+       "h": 324,
+       "region": {
+        "page": 7,
+        "x0": 41.8,
+        "y0": 86.0,
+        "x1": 548.4,
+        "y1": 241.0
+       }
+      }
+     ],
+     "text": "(a) Explain why a graph of ln V against t should be used to test this relationship. (2)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q2_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q2_b_ms.webp",
+       "w": 1056,
+       "h": 524,
+       "region": {
+        "page": 7,
+        "x0": 41.8,
+        "y0": 239.0,
+        "x1": 548.4,
+        "y1": 490.0
+       }
+      }
+     ],
+     "text": "(b) A student investigates the relationship between V and t. Describe how the student could obtain an accurate set of values for V and t to test this relationship. (4)"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 362.8,
+        "x1": 559.0,
+        "y1": 398.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q2_c_ms.webp",
+       "w": 1056,
+       "h": 434,
+       "region": {
+        "page": 7,
+        "x0": 41.8,
+        "y0": 488.0,
+        "x1": 548.4,
+        "y1": 696.0
+       }
+      }
+     ],
+     "text": "(c) Explain a source of uncertainty in this investigation. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2022_10_q3",
+   "number": 3,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "physics/WPH16_2022_10/q3_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 8,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 116.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)(i)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_intro.webp",
+       "w": 1090,
+       "h": 520,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 123.4,
+        "x1": 559.0,
+        "y1": 372.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_i.webp",
+       "w": 1090,
+       "h": 120,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 382.8,
+        "x1": 559.0,
+        "y1": 439.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_i_ms.webp",
+       "w": 1053,
+       "h": 385,
+       "region": {
+        "page": 8,
+        "x0": 41.8,
+        "y0": 59.0,
+        "x1": 547.1,
+        "y1": 243.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of log P against 1 T on the grid opposite. Use the additional columns for your processed data. (6)"
+    },
+    {
+     "label": "3(a)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_intro.webp",
+       "w": 1090,
+       "h": 520,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 123.4,
+        "x1": 559.0,
+        "y1": 372.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_ii_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 446.6,
+        "x1": 559.0,
+        "y1": 482.1
+       }
+      },
+      {
+       "src": "physics/WPH16_2022_10/q3_a_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_ii_ms.webp",
+       "w": 1053,
+       "h": 321,
+       "region": {
+        "page": 8,
+        "x0": 41.8,
+        "y0": 241.0,
+        "x1": 547.1,
+        "y1": 395.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the gradient of the graph. (3)"
+    },
+    {
+     "label": "3(a)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_intro.webp",
+       "w": 1090,
+       "h": 520,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 123.4,
+        "x1": 559.0,
+        "y1": 372.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_iii.webp",
+       "w": 1090,
+       "h": 304,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 60.1,
+        "x1": 559.0,
+        "y1": 205.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q3_a_iii_ms.webp",
+       "w": 1053,
+       "h": 343,
+       "region": {
+        "page": 8,
+        "x0": 41.8,
+        "y0": 393.0,
+        "x1": 547.1,
+        "y1": 557.0
+       }
+      }
+     ],
+     "text": "(iii) The gradient of the graph of log P against 1 T is given by X gradient = – 2 30 . k where X is a constant with unit joules, and k is the Boltzmann constant. Determine the value of X in joules. (3)"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q3_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 353.5,
+        "x1": 559.0,
+        "y1": 426.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q3_b_ms.webp",
+       "w": 1053,
+       "h": 430,
+       "region": {
+        "page": 8,
+        "x0": 41.8,
+        "y0": 555.0,
+        "x1": 547.1,
+        "y1": 761.0
+       }
+      }
+     ],
+     "text": "(b) Liquids boil when the saturated vapour pressure is equal to atmospheric pressure. Determine the boiling point of the liquid in °C when the atmospheric pressure is 100 kPa. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2022_10_q4",
+   "number": 4,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH16_2022_10/q4_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 102.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 109.4,
+        "x1": 559.0,
+        "y1": 144.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q4_a_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 151.5,
+        "x1": 559.0,
+        "y1": 187.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q4_a_i_ms.webp",
+       "w": 1056,
+       "h": 356,
+       "region": {
+        "page": 10,
+        "x0": 41.8,
+        "y0": 59.0,
+        "x1": 548.4,
+        "y1": 229.0
+       }
+      }
+     ],
+     "text": "(i) Explain one measuring technique he should use. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 109.4,
+        "x1": 559.0,
+        "y1": 144.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q4_a_ii.webp",
+       "w": 1090,
+       "h": 239,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 306.4,
+        "x1": 559.0,
+        "y1": 420.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q4_a_ii_ms.webp",
+       "w": 1056,
+       "h": 516,
+       "region": {
+        "page": 10,
+        "x0": 41.8,
+        "y0": 227.0,
+        "x1": 548.4,
+        "y1": 474.0
+       }
+      }
+     ],
+     "text": "(ii) The student recorded the following measurements. dX / mm 0.31 0.32 0.31 0.33 0.30 Determine the mean value of dX and its uncertainty in mm. (3)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q4_b_intro.webp",
+       "w": 1090,
+       "h": 699,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 392.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q4_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 399.0,
+        "x1": 559.0,
+        "y1": 434.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q4_b_i_ms.webp",
+       "w": 1056,
+       "h": 365,
+       "region": {
+        "page": 10,
+        "x0": 41.8,
+        "y0": 472.0,
+        "x1": 548.4,
+        "y1": 647.0
+       }
+      }
+     ],
+     "text": "(i) Show that the resistivity ρ of the metal is about 5 × 10–7 Ω m. (3)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2022_10/q4_b_intro.webp",
+       "w": 1090,
+       "h": 699,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 392.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q4_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 582.2,
+        "x1": 559.0,
+        "y1": 617.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q4_b_ii_ms.webp",
+       "w": 1056,
+       "h": 1182,
+       "region": {
+        "page": 11,
+        "x0": 41.8,
+        "y0": 21.0,
+        "x1": 548.4,
+        "y1": 588.0
+       }
+      }
+     ],
+     "text": "(ii) Show that the percentage uncertainty in ρ is about 9%. (3)"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q4_c.webp",
+       "w": 1090,
+       "h": 604,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 346.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q4_c_ms.webp",
+       "w": 1056,
+       "h": 455,
+       "region": {
+        "page": 11,
+        "x0": 41.8,
+        "y0": 586.0,
+        "x1": 548.4,
+        "y1": 804.0
+       }
+      }
+     ],
+     "text": "(c) The student measured the resistances R1 and R2 of different lengths of wire Y using an ohmmeter. Each resistance was measured once. The student’s values are given in the table. Length / cm Resistance / Ω R1 40.0 4.5 R2 90.0 10.2 He calculated the resistance RL for one metre of wire using the formula RL = 2 × (R2 – R1) Show that the percentage uncertainty in RL is about 2%. RL = 11.4 Ω (3)"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2022_10/q4_d.webp",
+       "w": 1090,
+       "h": 565,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 328.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2022_10/q4_d_ms.webp",
+       "w": 1056,
+       "h": 901,
+       "region": {
+        "page": 12,
+        "x0": 41.8,
+        "y0": 21.0,
+        "x1": 548.4,
+        "y1": 453.0
+       }
+      }
+     ],
+     "text": "(d) The student wanted to confirm that the metal of the wire is constantan. The student compared his calculated values of ρ and RL to published values for constantan. The values are shown in the table below. ρ / 10–7 Ω m RL / Ω Calculated 4.6 ± 9% 11.4 ± 2% Published 4.9 11.2 Comment on how well the student's calculated values confirm that the metal of the wire is constant. You must include calculations in your answer. (3)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

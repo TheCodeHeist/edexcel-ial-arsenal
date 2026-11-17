@@ -1,0 +1,972 @@
+{
+ "id": "WPH16_2023_01",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2023-01",
+ "totalMarks": 50,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan 2023/PHYSICS_2023_Jan_U6_QP_1778069218873.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan 2023/PHYSICS_2023_Jan_U6_MS_1778069217983.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2023_01_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_01/q1_stem.webp",
+     "w": 1090,
+     "h": 513,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 326.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 329.5,
+        "x1": 559.0,
+        "y1": 364.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q1_a_ms.webp",
+       "w": 937,
+       "h": 165,
+       "region": {
+        "page": 7,
+        "x0": 90.1,
+        "y0": 62.0,
+        "x1": 539.2,
+        "y1": 141.0
+       }
+      }
+     ],
+     "text": "(a) Identify one safety issue and how it may be dealt with. (2)"
+    },
+    {
+     "label": "1(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 434,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 265.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 275.0,
+        "x1": 559.0,
+        "y1": 310.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_i_ms.webp",
+       "w": 937,
+       "h": 449,
+       "region": {
+        "page": 7,
+        "x0": 90.1,
+        "y0": 139.0,
+        "x1": 539.2,
+        "y1": 354.0
+       }
+      }
+     ],
+     "text": "(i) Criticise the recording of the results. (2)"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 434,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 265.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 425.7,
+        "x1": 559.0,
+        "y1": 461.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_ii_ms.webp",
+       "w": 937,
+       "h": 224,
+       "region": {
+        "page": 7,
+        "x0": 90.1,
+        "y0": 352.0,
+        "x1": 539.2,
+        "y1": 459.0
+       }
+      }
+     ],
+     "text": "(ii) State one variable that should be controlled for this experiment. (1)"
+    },
+    {
+     "label": "1(b)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 434,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 265.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_iii.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 491.8,
+        "x1": 559.0,
+        "y1": 593.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q1_b_iii_ms.webp",
+       "w": 937,
+       "h": 426,
+       "region": {
+        "page": 7,
+        "x0": 90.1,
+        "y0": 457.0,
+        "x1": 539.2,
+        "y1": 661.0
+       }
+      }
+     ],
+     "text": "(iii) Show that the temperature of the Bunsen burner flame is about 1500 °C above the initial temperature of the water. mass of screw = 4.11 g specific heat capacity of steel = 420 J kg–1 K–1 specific heat capacity of water = 4180 J kg–1 K–1 (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2023_01_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_01/q2_stem.webp",
+     "w": 1090,
+     "h": 661,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 373.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q2_a_intro.webp",
+       "w": 1090,
+       "h": 45,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 376.6,
+        "x1": 559.0,
+        "y1": 397.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q2_a_i.webp",
+       "w": 1090,
+       "h": 189,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 400.6,
+        "x1": 559.0,
+        "y1": 490.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q2_a_i_ms.webp",
+       "w": 937,
+       "h": 432,
+       "region": {
+        "page": 8,
+        "x0": 90.1,
+        "y0": 62.0,
+        "x1": 539.2,
+        "y1": 269.0
+       }
+      }
+     ],
+     "text": "(i) Show that the relationship between the period of rotation T and mass M can be written as T 2 = 4π2 mx Mg (2)"
+    },
+    {
+     "label": "2(a)(ii)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q2_a_intro.webp",
+       "w": 1090,
+       "h": 45,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 376.6,
+        "x1": 559.0,
+        "y1": 397.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q2_a_ii.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q2_a_ii_ms.webp",
+       "w": 937,
+       "h": 476,
+       "region": {
+        "page": 8,
+        "x0": 90.1,
+        "y0": 267.0,
+        "x1": 539.2,
+        "y1": 495.0
+       }
+      }
+     ],
+     "text": "(ii) The student used a stopwatch to determine T for different values of M. Devise a plan to test the validity of the relationship between T 2 and M. The method should use a suitable graph. (6)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q2_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 537.6,
+        "x1": 559.0,
+        "y1": 611.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q2_b_ms.webp",
+       "w": 937,
+       "h": 188,
+       "region": {
+        "page": 8,
+        "x0": 90.1,
+        "y0": 493.0,
+        "x1": 539.2,
+        "y1": 583.0
+       }
+      }
+     ],
+     "text": "(b) The student suggested that using a video recording of the motion would improve the determination of T. Comment on this suggestion. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2023_01_q3",
+   "number": 3,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_01/q3_stem.webp",
+     "w": 1090,
+     "h": 583,
+     "region": {
+      "page": 7,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 336.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q3_a.webp",
+       "w": 1090,
+       "h": 282,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 339.1,
+        "x1": 559.0,
+        "y1": 474.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q3_a_ms.webp",
+       "w": 937,
+       "h": 305,
+       "region": {
+        "page": 9,
+        "x0": 83.4,
+        "y0": 62.0,
+        "x1": 532.6,
+        "y1": 208.0
+       }
+      }
+     ],
+     "text": "(a) The relationship between the maximum displacement angle θ and number of oscillations n is given by θ = θ0e–λn where θ0 is the initial displacement angle and λ is a constant. Explain why a graph of ln θ against n could be used to determine a value for λ. (2)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 540,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 316.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 330.1,
+        "x1": 559.0,
+        "y1": 379.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_i_ms.webp",
+       "w": 937,
+       "h": 226,
+       "region": {
+        "page": 9,
+        "x0": 83.4,
+        "y0": 206.0,
+        "x1": 532.6,
+        "y1": 314.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of ln θ against n on the grid opposite. Use the additional column for your processed data. (5)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 540,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 316.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 382.1,
+        "x1": 559.0,
+        "y1": 417.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_ii_ms.webp",
+       "w": 937,
+       "h": 344,
+       "region": {
+        "page": 9,
+        "x0": 83.4,
+        "y0": 312.0,
+        "x1": 532.6,
+        "y1": 477.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the value of λ from the graph. (3)"
+    },
+    {
+     "label": "3(b)(iii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 540,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 316.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_iii_1.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 560.9,
+        "x1": 559.0,
+        "y1": 620.3
+       }
+      },
+      {
+       "src": "physics/WPH16_2023_01/q3_b_iii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q3_b_iii_ms.webp",
+       "w": 937,
+       "h": 495,
+       "region": {
+        "page": 9,
+        "x0": 83.4,
+        "y0": 475.0,
+        "x1": 532.6,
+        "y1": 712.0
+       }
+      }
+     ],
+     "text": "(iii) The student claimed that the initial displacement angle was greater than 180 °. Deduce whether this claim is correct. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2023_01_q4",
+   "number": 4,
+   "marks": 19,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_01/q4_stem.webp",
+     "w": 1090,
+     "h": 314,
+     "region": {
+      "page": 10,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 207.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q4_a_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 217.9,
+        "x1": 559.0,
+        "y1": 253.1
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_a_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 255.9,
+        "x1": 559.0,
+        "y1": 305.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_a_i_ms.webp",
+       "w": 961,
+       "h": 299,
+       "region": {
+        "page": 11,
+        "x0": 83.4,
+        "y0": 62.0,
+        "x1": 544.0,
+        "y1": 205.0
+       }
+      }
+     ],
+     "text": "(i) Explain one technique she should use to reduce the uncertainty in the measurement of d. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q4_a_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 217.9,
+        "x1": 559.0,
+        "y1": 253.1
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_a_ii.webp",
+       "w": 1090,
+       "h": 239,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 420.6,
+        "x1": 559.0,
+        "y1": 534.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_a_ii_ms.webp",
+       "w": 961,
+       "h": 351,
+       "region": {
+        "page": 11,
+        "x0": 83.4,
+        "y0": 203.0,
+        "x1": 544.0,
+        "y1": 371.0
+       }
+      }
+     ],
+     "text": "(ii) She recorded the following measurements. d / mm 8.53 8.56 8.55 8.53 Determine the mean value of d and its uncertainty in mm. (3)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q4_b_intro.webp",
+       "w": 1090,
+       "h": 393,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 245.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_b_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 246.5,
+        "x1": 559.0,
+        "y1": 305.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_b_i_ms.webp",
+       "w": 961,
+       "h": 791,
+       "region": {
+        "page": 11,
+        "x0": 83.4,
+        "y0": 369.0,
+        "x1": 544.0,
+        "y1": 748.0
+       }
+      }
+     ],
+     "text": "(i) Show that the uncertainty in d 2 is about 1 mm2. d = 10.70 mm ± 0.06 mm (3)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q4_b_intro.webp",
+       "w": 1090,
+       "h": 393,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 245.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_b_ii.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 477.5,
+        "x1": 559.0,
+        "y1": 536.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_b_ii_ms.webp",
+       "w": 961,
+       "h": 1057,
+       "region": {
+        "page": 12,
+        "x0": 83.4,
+        "y0": 38.0,
+        "x1": 544.0,
+        "y1": 545.0
+       }
+      }
+     ],
+     "text": "(ii) Show that the percentage uncertainty in A is about 0.4 %. s2 = 881 mm2 ± 2 mm2 (4)"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_c_ms.webp",
+       "w": 961,
+       "h": 165,
+       "region": {
+        "page": 12,
+        "x0": 83.4,
+        "y0": 543.0,
+        "x1": 544.0,
+        "y1": 622.0
+       }
+      }
+     ],
+     "text": "(c) The student measured the total mass m10 of 10 identical metal rings as 63 g. Explain why measuring the total mass of 10 metal rings is better than measuring the mass of one metal ring. (2)"
+    },
+    {
+     "label": "4(d)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q4_d_intro.webp",
+       "w": 1090,
+       "h": 50,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 245.9,
+        "x1": 559.0,
+        "y1": 269.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_d_i.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 269.8,
+        "x1": 559.0,
+        "y1": 357.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_d_i_ms.webp",
+       "w": 961,
+       "h": 287,
+       "region": {
+        "page": 12,
+        "x0": 83.4,
+        "y0": 620.0,
+        "x1": 544.0,
+        "y1": 757.0
+       }
+      }
+     ],
+     "text": "(i) Determine the mean density ρ, in g cm–3, of the metal the ring is made from. m10 = 63.0 g ± 0.5 g x10 = 14.03 mm ± 0.04 mm A = 602 mm2 ± 0.4 % (2)"
+    },
+    {
+     "label": "4(d)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_01/q4_d_intro.webp",
+       "w": 1090,
+       "h": 50,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 245.9,
+        "x1": 559.0,
+        "y1": 269.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_01/q4_d_ii.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 472.5,
+        "x1": 559.0,
+        "y1": 531.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_01/q4_d_ii_ms.webp",
+       "w": 961,
+       "h": 1376,
+       "region": {
+        "page": 13,
+        "x0": 83.4,
+        "y0": 38.0,
+        "x1": 544.0,
+        "y1": 698.0
+       }
+      }
+     ],
+     "text": "(ii) The density of stainless steel ranges from 7.48 g cm–3 to 7.95 g cm–3. Deduce whether the metal rings could be made from stainless steel. (3)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

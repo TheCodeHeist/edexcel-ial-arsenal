@@ -1,0 +1,996 @@
+{
+ "id": "WPH13_2022_01",
+ "subject": "physics",
+ "unit": "WPH13",
+ "series": "2022-01",
+ "totalMarks": 50,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202022/IAL_PHYSICS_2022_Jan_U3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202022/IAL_PHYSICS_2022_Jan_U3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH13_2022_01_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH13_2022_01/q1_stem.webp",
+     "w": 1090,
+     "h": 446,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 294.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q1_a.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 305.6,
+        "x1": 559.0,
+        "y1": 393.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q1_a_ms.webp",
+       "w": 1023,
+       "h": 107,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 60.0,
+        "x1": 555.8,
+        "y1": 111.0
+       }
+      }
+     ],
+     "text": "(a) The light gate was connected to a data logger. The data logger recorded the time taken for the card to pass through the light gate. Describe how the student could determine the velocity v of the trolley as it passed through the light gate. (2)"
+    },
+    {
+     "label": "1(b)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 164.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 178.4,
+        "x1": 559.0,
+        "y1": 213.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_i_ms.webp",
+       "w": 1023,
+       "h": 259,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 109.0,
+        "x1": 555.8,
+        "y1": 233.0
+       }
+      }
+     ],
+     "text": "(i) Calculate the mean value for v and the percentage uncertainty in v. (3)"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 164.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_ii.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 385.4,
+        "x1": 559.0,
+        "y1": 468.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_ii_ms.webp",
+       "w": 1023,
+       "h": 257,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 231.0,
+        "x1": 555.8,
+        "y1": 354.0
+       }
+      }
+     ],
+     "text": "(ii) The student measured the distance s that the trolley travelled on the ramp. Determine the acceleration of the trolley on the ramp. s = 1.50 m (2)"
+    },
+    {
+     "label": "1(b)(iii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 164.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_iii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 584.0,
+        "x1": 559.0,
+        "y1": 657.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q1_b_iii_ms.webp",
+       "w": 1023,
+       "h": 42,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 352.0,
+        "x1": 555.8,
+        "y1": 372.0
+       }
+      }
+     ],
+     "text": "(iii) A second student carried out the same experiment and determined a similar value for the acceleration of the trolley on the ramp. State why this does not show that the results are reproducible. (1)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2022_01_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "physics/WPH13_2022_01/q2_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q2_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 95.2,
+        "x1": 559.0,
+        "y1": 168.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q2_a_ms.webp",
+       "w": 1023,
+       "h": 109,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 436.0,
+        "x1": 555.8,
+        "y1": 488.0
+       }
+      }
+     ],
+     "text": "(a) The student built a circuit to vary the power of the bulb. The student used an ammeter and voltmeter to determine the power of the bulb. Draw a circuit diagram that the student could have used. (2)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q2_b.webp",
+       "w": 1090,
+       "h": 262,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 413.5,
+        "x1": 559.0,
+        "y1": 538.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q2_b_ms.webp",
+       "w": 1023,
+       "h": 161,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 486.0,
+        "x1": 555.8,
+        "y1": 563.0
+       }
+      }
+     ],
+     "text": "(b) The student shone the light from the bulb onto a light dependent resistor (LDR). The student measured the resistance of the LDR using an ohmmeter. The student plotted a graph of the resistance of the LDR against the power of the bulb. Describe how the student could have obtained the set of data required to plot the graph. Your description should include how to ensure that the data is accurate. (4)"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q2_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q2_c_ms.webp",
+       "w": 1023,
+       "h": 57,
+       "region": {
+        "page": 4,
+        "x0": 64.9,
+        "y0": 561.0,
+        "x1": 555.8,
+        "y1": 588.0
+       }
+      }
+     ],
+     "text": "(c) The LDR is connected to the ohmmeter using two connecting wires. The ohmmeter reading includes the resistance of the two connecting wires. State why the student does not need to correct this reading. (1)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2022_01_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH13_2022_01/q3_stem.webp",
+     "w": 1090,
+     "h": 991,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 532.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 542.8,
+        "x1": 559.0,
+        "y1": 578.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q3_a_ms.webp",
+       "w": 1031,
+       "h": 157,
+       "region": {
+        "page": 5,
+        "x0": 64.9,
+        "y0": 72.0,
+        "x1": 559.2,
+        "y1": 147.0
+       }
+      }
+     ],
+     "text": "(a) Describe how the student could determine θ using a metre rule. (2)"
+    },
+    {
+     "label": "3(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q3_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q3_b_ms.webp",
+       "w": 1031,
+       "h": 155,
+       "region": {
+        "page": 5,
+        "x0": 64.9,
+        "y0": 145.0,
+        "x1": 559.2,
+        "y1": 219.0
+       }
+      }
+     ],
+     "text": "(b) Describe how the student could check that the bracket was horizontal. (1)"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q3_c.webp",
+       "w": 1090,
+       "h": 829,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 179.7,
+        "x1": 559.0,
+        "y1": 577.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q3_c_ms.webp",
+       "w": 1031,
+       "h": 111,
+       "region": {
+        "page": 5,
+        "x0": 64.9,
+        "y0": 217.0,
+        "x1": 559.2,
+        "y1": 270.0
+       }
+      }
+     ],
+     "text": "(c) The student adjusted the position of the mass and measured x. For each value of x the student made corresponding measurements of F using a force meter. The results are shown in the table. x / cm Mean F / N 5 2 10 2.6 15 3.3 20 4.4 25 5.3 30 6.2 35 7 40 8.1 45 8.8 Criticise the recording of these results. (3)"
+    },
+    {
+     "label": "3(d)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q3_d_intro.webp",
+       "w": 1090,
+       "h": 760,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 421.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q3_d_i.webp",
+       "w": 1090,
+       "h": 380,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 424.5,
+        "x1": 559.0,
+        "y1": 606.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q3_d_i_ms.webp",
+       "w": 1031,
+       "h": 245,
+       "region": {
+        "page": 5,
+        "x0": 64.9,
+        "y0": 268.0,
+        "x1": 559.2,
+        "y1": 385.0
+       }
+      }
+     ],
+     "text": "(i) The relationship between F and x is mgx W F = + l θ θ sin 2sin where l is the length of the bracket m is the mass hung from the bracket. Determine a value for W using the graph. θ = 42° (3)"
+    },
+    {
+     "label": "3(d)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q3_d_intro.webp",
+       "w": 1090,
+       "h": 760,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 421.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q3_d_ii.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q3_d_ii_ms.webp",
+       "w": 1031,
+       "h": 245,
+       "region": {
+        "page": 5,
+        "x0": 64.9,
+        "y0": 383.0,
+        "x1": 559.2,
+        "y1": 500.0
+       }
+      }
+     ],
+     "text": "(ii) The value of g obtained from the graph is 9.64 m s–2. The student concluded that the value of g obtained is accurate. Evaluate the student’s conclusion. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2022_01_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "physics/WPH13_2022_01/q4_stem.webp",
+     "w": 1090,
+     "h": 609,
+     "region": {
+      "page": 10,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 348.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q4_a_intro.webp",
+       "w": 1090,
+       "h": 663,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 355.7,
+        "x1": 559.0,
+        "y1": 673.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q4_a_i_1.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 676.0,
+        "x1": 559.0,
+        "y1": 725.4
+       }
+      },
+      {
+       "src": "physics/WPH13_2022_01/q4_a_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q4_a_i_ms.webp",
+       "w": 1020,
+       "h": 734,
+       "region": {
+        "page": 6,
+        "x0": 64.9,
+        "y0": 60.0,
+        "x1": 554.0,
+        "y1": 412.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of R on the y-axis against 1 / w on the x-axis. Use the additional column of the table for your processed data. (6)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q4_a_intro.webp",
+       "w": 1090,
+       "h": 663,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 355.7,
+        "x1": 559.0,
+        "y1": 673.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q4_a_ii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q4_a_ii_ms.webp",
+       "w": 1020,
+       "h": 184,
+       "region": {
+        "page": 6,
+        "x0": 64.9,
+        "y0": 446.0,
+        "x1": 554.0,
+        "y1": 534.0
+       }
+      }
+     ],
+     "text": "(ii) Determine t using data from the graph. ρ = 4.0 × 103 Ω m L = 10.0 cm (3)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q4_b_intro.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 302.2,
+        "x1": 559.0,
+        "y1": 351.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q4_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 354.2,
+        "x1": 559.0,
+        "y1": 389.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q4_b_i_ms.webp",
+       "w": 1020,
+       "h": 180,
+       "region": {
+        "page": 6,
+        "x0": 64.9,
+        "y0": 532.0,
+        "x1": 554.0,
+        "y1": 618.0
+       }
+      }
+     ],
+     "text": "(i) Explain why this method gives a value for t with low uncertainty. (2)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2022_01/q4_b_intro.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 302.2,
+        "x1": 559.0,
+        "y1": 351.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q4_b_ii.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 561.2,
+        "x1": 559.0,
+        "y1": 648.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q4_b_ii_ms.webp",
+       "w": 1020,
+       "h": 232,
+       "region": {
+        "page": 6,
+        "x0": 64.9,
+        "y0": 616.0,
+        "x1": 554.0,
+        "y1": 727.0
+       }
+      }
+     ],
+     "text": "(ii) The value of t obtained using this method was 0.80 mm with an uncertainty of 2%. Deduce whether this value is consistent with the value of t obtained from the graph. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2022_01_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH13_2022_01/q5_stem.webp",
+     "w": 1090,
+     "h": 1005,
+     "region": {
+      "page": 13,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 539.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q5_a_i.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 116.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q5_a_i_ms.webp",
+       "w": 1020,
+       "h": 288,
+       "region": {
+        "page": 7,
+        "x0": 64.9,
+        "y0": 72.0,
+        "x1": 554.0,
+        "y1": 210.0
+       }
+      }
+     ],
+     "text": "(a) (i) Determine the speed of sound in air. distance between microphones = 1.25 m (4)"
+    },
+    {
+     "label": "5(a)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q5_a_ii.webp",
+       "w": 1090,
+       "h": 370,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 316.4,
+        "x1": 559.0,
+        "y1": 493.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q5_a_ii_ms.webp",
+       "w": 1020,
+       "h": 436,
+       "region": {
+        "page": 7,
+        "x0": 64.9,
+        "y0": 208.0,
+        "x1": 554.0,
+        "y1": 417.0
+       }
+      }
+     ],
+     "text": "(ii) The student then attached the microphones to the piece of wood so they detected the sound passing along the wood. The distance between the microphones was 1.25 m. The student adjusted the dial on the oscilloscope to 20 μs per division to display the traces from the microphones. A teacher commented that this was not the correct setting. Justify the teacher’s comment. The piece of wood is made of oak. The speed of sound in oak is approximately 4000 m s–1. (3)"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q5_b.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q5_b_ms.webp",
+       "w": 1020,
+       "h": 107,
+       "region": {
+        "page": 7,
+        "x0": 64.9,
+        "y0": 415.0,
+        "x1": 554.0,
+        "y1": 466.0
+       }
+      }
+     ],
+     "text": "(b) The student tried the same experiment using a rubber hammer. The rubber hammer compressed as it hit the wood making a sound that lasted for a longer time. Explain the effect that using the rubber hammer had on the accuracy of the time determined. (2)"
+    },
+    {
+     "label": "5(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2022_01/q5_c.webp",
+       "w": 1090,
+       "h": 383,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 259.9,
+        "x1": 559.0,
+        "y1": 443.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2022_01/q5_c_ms.webp",
+       "w": 1020,
+       "h": 232,
+       "region": {
+        "page": 7,
+        "x0": 64.9,
+        "y0": 464.0,
+        "x1": 554.0,
+        "y1": 575.0
+       }
+      }
+     ],
+     "text": "(c) The student was given the following equation and data to find a value for the speed of sound in oak. E v = ρ Young modulus E of oak = 11.2 GPa ± 0.5 GPa Density ρ of oak = 650 kg m–3 with an uncertainty of 3% Assess which of these values was the more significant source of uncertainty in the value of the speed of sound. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

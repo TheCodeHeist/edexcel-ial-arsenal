@@ -1,0 +1,958 @@
+{
+ "id": "WPH16_2025_06",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2025-06",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June%202025/IAL_PHYSICS_2025_June_U6_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June%202025/IAL_PHYSICS_2025_June_U6_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2025_06_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_06/q1_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 102.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q1_a_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 105.0,
+        "x1": 559.0,
+        "y1": 140.1
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q1_a_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 142.9,
+        "x1": 559.0,
+        "y1": 192.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q1_a_i_ms.webp",
+       "w": 1525,
+       "h": 328,
+       "region": {
+        "page": 6,
+        "x0": 56.6,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 232.0
+       }
+      }
+     ],
+     "text": "(i) Describe two safety precautions the student should take when using electrolytic capacitors in a circuit. (2)"
+    },
+    {
+     "label": "1(a)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q1_a_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 105.0,
+        "x1": 559.0,
+        "y1": 140.1
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q1_a_ii.webp",
+       "w": 1090,
+       "h": 752,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 307.6,
+        "x1": 559.0,
+        "y1": 668.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q1_a_ii_ms.webp",
+       "w": 1525,
+       "h": 669,
+       "region": {
+        "page": 6,
+        "x0": 56.6,
+        "y0": 230.0,
+        "x1": 788.1,
+        "y1": 551.0
+       }
+      }
+     ],
+     "text": "(ii) The student moved the switch to position A to charge the 680 µF electrolytic capacitor. She moved the switch to position B to connect the capacitor to another capacitor X. She measured the potential difference across the 680 µF electrolytic capacitor when the switch was in position A and in position B. Complete the diagram to show the circuit the student used. (2) A B 6.0 V 680 μF"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q1_b.webp",
+       "w": 1090,
+       "h": 1129,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 598.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q1_b_ms.webp",
+       "w": 1525,
+       "h": 380,
+       "region": {
+        "page": 7,
+        "x0": 56.6,
+        "y0": 50.0,
+        "x1": 788.1,
+        "y1": 232.0
+       }
+      }
+     ],
+     "text": "(b) The student charged the 680 µF capacitor to different potential differences, V1. For each value of potential difference V1, she connected the 680 µF capacitor to capacitor X. The final value of the potential difference across the 680 µF capacitor was V2. She recorded the corresponding values of V1 and V2 and plotted the graph below. 1.20 1.00 0.80 V2 / V 0.60 0.40 0.20 0.00 0.00 1.00 2.00 3.00 4.00 5.00 6.00 7.00 V1 / V Criticise the student’s graph. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2025_06_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_06/q2_stem.webp",
+     "w": 1090,
+     "h": 551,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 320.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q2_a.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 327.6,
+        "x1": 559.0,
+        "y1": 425.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q2_a_ms.webp",
+       "w": 1525,
+       "h": 994,
+       "region": {
+        "page": 8,
+        "x0": 56.6,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 552.0
+       }
+      }
+     ],
+     "text": "(a) The student used temperatures ranging from 0 °C to 100 °C. Devise a method the student could use to estimate a value for absolute zero. Your method should include any additional apparatus and the use of a suitable graph. (6)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q2_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q2_b_ms.webp",
+       "w": 1525,
+       "h": 374,
+       "region": {
+        "page": 9,
+        "x0": 56.6,
+        "y0": 50.0,
+        "x1": 788.1,
+        "y1": 229.0
+       }
+      }
+     ],
+     "text": "(b) The student suggested that using a data logger with a temperature probe and a pressure sensor would improve the investigation. Explain how using a data logger could improve the accuracy of the measurements. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2025_06_q3",
+   "number": 3,
+   "marks": 18,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_06/q3_stem.webp",
+     "w": 1090,
+     "h": 575,
+     "region": {
+      "page": 7,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 332.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q3_a.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 335.1,
+        "x1": 559.0,
+        "y1": 446.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q3_a_ms.webp",
+       "w": 1525,
+       "h": 307,
+       "region": {
+        "page": 10,
+        "x0": 56.6,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 222.0
+       }
+      }
+     ],
+     "text": "(a) The student used a micrometer screw gauge to measure the thickness of one glass slide. She recorded a single measurement as 1.21 mm. Explain why a micrometer screw gauge was an appropriate instrument to use for this measurement. Your answer should include a calculation. (2)"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q3_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 561.7,
+        "x1": 559.0,
+        "y1": 635.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q3_b_ms.webp",
+       "w": 1525,
+       "h": 697,
+       "region": {
+        "page": 10,
+        "x0": 56.6,
+        "y0": 220.0,
+        "x1": 788.1,
+        "y1": 554.0
+       }
+      }
+     ],
+     "text": "(b) For each value of w the student recorded the potential difference V across the solar cell. Explain one variable she should control in this investigation. (2)"
+    },
+    {
+     "label": "3(c)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_intro.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 135.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 138.0,
+        "x1": 559.0,
+        "y1": 173.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_i_ms.webp",
+       "w": 1525,
+       "h": 382,
+       "region": {
+        "page": 11,
+        "x0": 56.6,
+        "y0": 50.0,
+        "x1": 788.1,
+        "y1": 233.0
+       }
+      }
+     ],
+     "text": "(i) Explain how a graph of ln V against w could be used to determine a value for B. (2)"
+    },
+    {
+     "label": "3(c)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_intro.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 135.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_ii.webp",
+       "w": 1090,
+       "h": 672,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 288.7,
+        "x1": 559.0,
+        "y1": 611.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_ii_ms.webp",
+       "w": 1525,
+       "h": 672,
+       "region": {
+        "page": 11,
+        "x0": 56.6,
+        "y0": 231.0,
+        "x1": 788.1,
+        "y1": 553.0
+       }
+      }
+     ],
+     "text": "(ii) The student recorded the following results. w / mm V / mV 1.21 381 2.46 375 4.88 366 6.10 361 8.55 352 10.97 344 Plot a graph of ln V against w on the grid opposite. Use the additional column to record your processed data. You should keep the values of V in mV. (5)"
+    },
+    {
+     "label": "3(c)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_intro.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 135.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_iii_1.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 613.5,
+        "x1": 559.0,
+        "y1": 648.9
+       }
+      },
+      {
+       "src": "physics/WPH16_2025_06/q3_c_iii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_iii_ms.webp",
+       "w": 1525,
+       "h": 280,
+       "region": {
+        "page": 12,
+        "x0": 56.6,
+        "y0": 50.0,
+        "x1": 788.1,
+        "y1": 184.0
+       }
+      }
+     ],
+     "text": "(iii) Determine the gradient of the graph. (3)"
+    },
+    {
+     "label": "3(c)(iv)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_intro.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 135.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_iv.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q3_c_iv_ms.webp",
+       "w": 1525,
+       "h": 484,
+       "region": {
+        "page": 12,
+        "x0": 56.6,
+        "y0": 182.0,
+        "x1": 788.1,
+        "y1": 414.0
+       }
+      }
+     ],
+     "text": "(iv) The mean thickness of each glass slide was 1.22 mm. Determine the minimum number of glass slides needed to reduce V to 75% of the initial value. (4)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2025_06_q4",
+   "number": 4,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "physics/WPH16_2025_06/q4_stem.webp",
+     "w": 1090,
+     "h": 419,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 257.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_intro.webp",
+       "w": 1090,
+       "h": 182,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 268.5,
+        "x1": 559.0,
+        "y1": 355.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 358.5,
+        "x1": 559.0,
+        "y1": 393.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_i_ms.webp",
+       "w": 1525,
+       "h": 276,
+       "region": {
+        "page": 14,
+        "x0": 56.6,
+        "y0": 88.0,
+        "x1": 788.1,
+        "y1": 220.0
+       }
+      }
+     ],
+     "text": "(i) Explain why timing multiple oscillations improves the measurement of T. (3)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_intro.webp",
+       "w": 1090,
+       "h": 182,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 268.5,
+        "x1": 559.0,
+        "y1": 355.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 565.5,
+        "x1": 559.0,
+        "y1": 600.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_ii_ms.webp",
+       "w": 1525,
+       "h": 192,
+       "region": {
+        "page": 14,
+        "x0": 56.6,
+        "y0": 218.0,
+        "x1": 788.1,
+        "y1": 310.0
+       }
+      }
+     ],
+     "text": "(ii) Describe two techniques the student should use when timing oscillations. (2)"
+    },
+    {
+     "label": "4(a)(iii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_intro.webp",
+       "w": 1090,
+       "h": 182,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 268.5,
+        "x1": 559.0,
+        "y1": 355.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_iii.webp",
+       "w": 1090,
+       "h": 239,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 171.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_iii_ms.webp",
+       "w": 1525,
+       "h": 180,
+       "region": {
+        "page": 14,
+        "x0": 56.6,
+        "y0": 308.0,
+        "x1": 788.1,
+        "y1": 394.0
+       }
+      }
+     ],
+     "text": "(iii) The student recorded the following results. 10T / s 6.88 6.93 6.84 6.96 Calculate the mean value of T. (2)"
+    },
+    {
+     "label": "4(a)(iv)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_intro.webp",
+       "w": 1090,
+       "h": 182,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 268.5,
+        "x1": 559.0,
+        "y1": 355.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_iv.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 258.5,
+        "x1": 559.0,
+        "y1": 294.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_a_iv_ms.webp",
+       "w": 1525,
+       "h": 266,
+       "region": {
+        "page": 14,
+        "x0": 56.6,
+        "y0": 392.0,
+        "x1": 788.1,
+        "y1": 519.0
+       }
+      }
+     ],
+     "text": "(iv) Determine the percentage uncertainty in the mean value of T. (2)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 317,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 413.4,
+        "x1": 559.0,
+        "y1": 565.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 568.2,
+        "x1": 559.0,
+        "y1": 627.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_i_ms.webp",
+       "w": 1525,
+       "h": 407,
+       "region": {
+        "page": 15,
+        "x0": 56.6,
+        "y0": 50.0,
+        "x1": 788.1,
+        "y1": 245.0
+       }
+      }
+     ],
+     "text": "(i) The student used vernier calipers to measure d. Explain one technique he should use to determine an accurate value for d. (2)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 317,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 413.4,
+        "x1": 559.0,
+        "y1": 565.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_ii.webp",
+       "w": 1090,
+       "h": 171,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 63.5,
+        "x1": 559.0,
+        "y1": 145.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_ii_ms.webp",
+       "w": 1525,
+       "h": 640,
+       "region": {
+        "page": 15,
+        "x0": 56.6,
+        "y0": 243.0,
+        "x1": 788.1,
+        "y1": 550.0
+       }
+      }
+     ],
+     "text": "2 (ii) Show that the percentage uncertainty in the term D is about 2%. 2 2 d D = 59.4 mm ± 0.2 mm d = 13.9 mm ± 0.1 mm (3)"
+    },
+    {
+     "label": "4(b)(iii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 317,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 413.4,
+        "x1": 559.0,
+        "y1": 565.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_iii.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 345.0,
+        "x1": 559.0,
+        "y1": 466.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2025_06/q4_b_iii_ms.webp",
+       "w": 1525,
+       "h": 467,
+       "region": {
+        "page": 16,
+        "x0": 56.6,
+        "y0": 50.0,
+        "x1": 788.1,
+        "y1": 274.0
+       }
+      }
+     ],
+     "text": "(iii) The student determined the value of the constant N experimentally and estimated its percentage uncertainty. He determined the value of v as 0.276 with a percentage uncertainty of 6%. The value of v for steel is 0.265 Deduce whether this spring was made from steel. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

@@ -1,0 +1,906 @@
+{
+ "id": "WPH16_2026_06",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2026-06",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June 2026/IAL_PHYSICS_2026_June_U6_QP_1787503225898.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June 2026/IAL_PHYSICS_2026_June_U6_MS_1787503225085.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2026_06_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH16_2026_06/q1_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 102.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)(i)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q1_a_intro.webp",
+       "w": 1090,
+       "h": 494,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 105.0,
+        "x1": 559.0,
+        "y1": 341.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q1_a_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 348.1,
+        "x1": 559.0,
+        "y1": 383.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q1_a_i_ms.webp",
+       "w": 1525,
+       "h": 88,
+       "region": {
+        "page": 6,
+        "x0": 56.5,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 117.0
+       }
+      }
+     ],
+     "text": "(i) State the resolution of this measuring cylinder. (1)"
+    },
+    {
+     "label": "1(a)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q1_a_intro.webp",
+       "w": 1090,
+       "h": 494,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 105.0,
+        "x1": 559.0,
+        "y1": 341.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q1_a_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 414.3,
+        "x1": 559.0,
+        "y1": 449.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q1_a_ii_ms.webp",
+       "w": 1525,
+       "h": 218,
+       "region": {
+        "page": 6,
+        "x0": 56.5,
+        "y0": 115.0,
+        "x1": 788.1,
+        "y1": 219.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the percentage uncertainty in the measured volume of the water. (2)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q1_b_1.webp",
+       "w": 1090,
+       "h": 438,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 565.0,
+        "x1": 559.0,
+        "y1": 774.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2026_06/q1_b_2.webp",
+       "w": 1090,
+       "h": 836,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 54.2,
+        "x1": 559.0,
+        "y1": 454.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q1_b_ms.webp",
+       "w": 1525,
+       "h": 290,
+       "region": {
+        "page": 6,
+        "x0": 56.5,
+        "y0": 217.0,
+        "x1": 788.1,
+        "y1": 356.0
+       }
+      }
+     ],
+     "text": "(b) The student used the apparatus shown. Not to scale loudspeaker stand oscilloscope plastic signal generator bottle 00100 air microphone The student switched on the signal generator so that the loudspeaker made a quiet sound. The microphone detected the sound wave inside the plastic bottle. The student adjusted the signal generator to vary the frequency of the sound. As the frequency varied, the amplitude of the signal produced by the microphone increased. The amplitude reached a maximum value at a particular frequency, as shown on the oscilloscope screen. oscilloscope screen signal one division The horizontal scale was set to 2.0 ms per division. Show that the frequency of the signal is about 200 Hz. (4)"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q1_c.webp",
+       "w": 1090,
+       "h": 742,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 412.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q1_c_ms.webp",
+       "w": 1525,
+       "h": 330,
+       "region": {
+        "page": 6,
+        "x0": 56.5,
+        "y0": 354.0,
+        "x1": 788.1,
+        "y1": 512.0
+       }
+      }
+     ],
+     "text": "(c) The student changed the volume V of air in the bottle by adding water to the bottle. The student adjusted the signal generator until the signal from the microphone had a maximum amplitude. She determined the frequency f of the signal. The student determined f at different values of V and recorded the following results. V / cm3 f / Hz 425 260 375 277 330 296 The relationship between f and V is f = kV −0.5 where k is a constant. The student plotted a graph of f against V −0.5 and used the gradient to determine a value for k. Explain why the student’s results may not give an accurate value for k. (4)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2026_06_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH16_2026_06/q2_stem.webp",
+     "w": 1090,
+     "h": 394,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 245.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 248.3,
+        "x1": 559.0,
+        "y1": 283.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q2_a_ms.webp",
+       "w": 1525,
+       "h": 303,
+       "region": {
+        "page": 7,
+        "x0": 56.5,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 220.0
+       }
+      }
+     ],
+     "text": "(a) Describe two safety precautions the student should take when using a beta source. (2)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q2_b.webp",
+       "w": 1090,
+       "h": 315,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 207.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q2_b_ms.webp",
+       "w": 1525,
+       "h": 661,
+       "region": {
+        "page": 7,
+        "x0": 56.5,
+        "y0": 218.0,
+        "x1": 788.1,
+        "y1": 535.0
+       }
+      }
+     ],
+     "text": "(b) The student predicted that the count rate C would vary with d as a C = 2 d where a is a constant. Devise a plan the student could use to test his prediction. You should include the use of a suitable graph. (6)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2026_06_q3",
+   "number": 3,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "physics/WPH16_2026_06/q3_stem.webp",
+     "w": 1090,
+     "h": 834,
+     "region": {
+      "page": 9,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 456.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q3_a.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 459.6,
+        "x1": 559.0,
+        "y1": 557.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q3_a_ms.webp",
+       "w": 1525,
+       "h": 390,
+       "region": {
+        "page": 8,
+        "x0": 56.5,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 262.0
+       }
+      }
+     ],
+     "text": "(a) The student filled the glass tube with more than 50 cm3 of glycerol. The student then opened the tap. She started a stopwatch when the volume of glycerol reached the 50 cm3 mark. State one advantage of filling the glass tube with more than 50 cm3 of glycerol. (1)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_i.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 129.1,
+        "x1": 559.0,
+        "y1": 164.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_i_ms.webp",
+       "w": 1525,
+       "h": 507,
+       "region": {
+        "page": 8,
+        "x0": 56.5,
+        "y0": 260.0,
+        "x1": 788.1,
+        "y1": 503.0
+       }
+      }
+     ],
+     "text": "(i) Explain how a graph of ln V against t can be used to determine a value for b. (2)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_ii.webp",
+       "w": 1090,
+       "h": 582,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 279.8,
+        "x1": 559.0,
+        "y1": 558.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_ii_ms.webp",
+       "w": 1525,
+       "h": 409,
+       "region": {
+        "page": 9,
+        "x0": 56.5,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 271.0
+       }
+      }
+     ],
+     "text": "(ii) The student recorded the following results. V / cm3 t / s 45.0 8.65 35.0 21.73 25.0 38.91 15.0 67.85 5.0 129.11 Plot a graph of ln V against t on the grid opposite. Use the additional column to record your processed data. You should keep the values of V in cm3. (5)"
+    },
+    {
+     "label": "3(b)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_iii_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 560.8,
+        "x1": 559.0,
+        "y1": 596.2
+       }
+      },
+      {
+       "src": "physics/WPH16_2026_06/q3_b_iii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_iii_ms.webp",
+       "w": 1525,
+       "h": 222,
+       "region": {
+        "page": 9,
+        "x0": 56.5,
+        "y0": 269.0,
+        "x1": 788.1,
+        "y1": 375.0
+       }
+      }
+     ],
+     "text": "(iii) Determine the value of b from the graph. (3)"
+    },
+    {
+     "label": "3(b)(iv)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_iv.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q3_b_iv_ms.webp",
+       "w": 1525,
+       "h": 301,
+       "region": {
+        "page": 9,
+        "x0": 56.5,
+        "y0": 373.0,
+        "x1": 788.1,
+        "y1": 517.0
+       }
+      }
+     ],
+     "text": "(iv) Explain how using glycerol at a higher temperature would affect the graph. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2026_06_q4",
+   "number": 4,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH16_2026_06/q4_stem.webp",
+     "w": 1090,
+     "h": 178,
+     "region": {
+      "page": 14,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 141.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q4_a.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 148.2,
+        "x1": 559.0,
+        "y1": 245.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q4_a_ms.webp",
+       "w": 1525,
+       "h": 195,
+       "region": {
+        "page": 11,
+        "x0": 56.5,
+        "y0": 88.0,
+        "x1": 788.1,
+        "y1": 181.0
+       }
+      }
+     ],
+     "text": "(a) The student used a micrometer screw gauge to measure t at different places along the metre rule. He did not overtighten the micrometer when taking readings. The student calculated a mean value for t. Explain one other technique to improve accuracy when using the micrometer. (2)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 471,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 282.8
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q4_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 285.6,
+        "x1": 559.0,
+        "y1": 321.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q4_b_i_ms.webp",
+       "w": 1525,
+       "h": 406,
+       "region": {
+        "page": 11,
+        "x0": 56.5,
+        "y0": 179.0,
+        "x1": 788.1,
+        "y1": 373.0
+       }
+      }
+     ],
+     "text": "(i) Describe a method to determine an accurate value for y using another metre rule. (3)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q4_b_intro.webp",
+       "w": 1090,
+       "h": 471,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 282.8
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q4_b_ii.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 492.6,
+        "x1": 559.0,
+        "y1": 552.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q4_b_ii_ms.webp",
+       "w": 1525,
+       "h": 381,
+       "region": {
+        "page": 11,
+        "x0": 56.5,
+        "y0": 371.0,
+        "x1": 788.1,
+        "y1": 553.0
+       }
+      }
+     ],
+     "text": "(ii) The student recorded that y was 85 mm ± 1 mm. Explain why it was appropriate to record an uncertainty of 1 mm for y. (3)"
+    },
+    {
+     "label": "4(c)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_intro.webp",
+       "w": 1090,
+       "h": 492,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 293.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_i.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 295.6,
+        "x1": 559.0,
+        "y1": 331.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_i_ms.webp",
+       "w": 1525,
+       "h": 203,
+       "region": {
+        "page": 12,
+        "x0": 56.5,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 172.0
+       }
+      }
+     ],
+     "text": "(i) Show that E is about 1.6 × 1010 Pa. (3)"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_intro.webp",
+       "w": 1090,
+       "h": 492,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 293.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 502.8,
+        "x1": 559.0,
+        "y1": 538.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_ii_ms.webp",
+       "w": 1525,
+       "h": 792,
+       "region": {
+        "page": 12,
+        "x0": 56.5,
+        "y0": 170.0,
+        "x1": 788.1,
+        "y1": 550.0
+       }
+      }
+     ],
+     "text": "(ii) Show that the percentage uncertainty in E is about 3%. (4)"
+    },
+    {
+     "label": "4(c)(iii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_intro.webp",
+       "w": 1090,
+       "h": 492,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 293.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_iii.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 59.4,
+        "x1": 559.0,
+        "y1": 119.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2026_06/q4_c_iii_ms.webp",
+       "w": 1525,
+       "h": 569,
+       "region": {
+        "page": 13,
+        "x0": 56.5,
+        "y0": 75.0,
+        "x1": 788.1,
+        "y1": 348.0
+       }
+      }
+     ],
+     "text": "(iii) The value of E for oak wood is 1.23 × 1010 Pa. Deduce whether the wooden metre rule could be made from oak. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

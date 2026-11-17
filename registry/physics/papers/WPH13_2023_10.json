@@ -1,0 +1,902 @@
+{
+ "id": "WPH13_2023_10",
+ "subject": "physics",
+ "unit": "WPH13",
+ "series": "2023-10",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202023/IAL_PHYSICS_2023_Oct_U3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Oct%202023/IAL_PHYSICS_2023_Oct_U3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH13_2023_10_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH13_2023_10/q1_stem.webp",
+     "w": 1090,
+     "h": 749,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 439.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 449.6,
+        "x1": 559.0,
+        "y1": 485.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q1_a_ms.webp",
+       "w": 1055,
+       "h": 145,
+       "region": {
+        "page": 4,
+        "x0": 47.4,
+        "y0": 82.0,
+        "x1": 553.4,
+        "y1": 151.0
+       }
+      }
+     ],
+     "text": "(a) Identify a suitable measuring instrument for these measurements. (1)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q1_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 515.7,
+        "x1": 559.0,
+        "y1": 589.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q1_b_ms.webp",
+       "w": 1055,
+       "h": 170,
+       "region": {
+        "page": 4,
+        "x0": 47.4,
+        "y0": 149.0,
+        "x1": 553.4,
+        "y1": 230.0
+       }
+      }
+     ],
+     "text": "(b) The student noticed that the uncertainty in the mean width is larger than the uncertainties in the mean length and the mean height. Suggest why the uncertainty in the mean width is larger. (1)"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q1_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q1_c_ms.webp",
+       "w": 1055,
+       "h": 221,
+       "region": {
+        "page": 4,
+        "x0": 47.4,
+        "y0": 228.0,
+        "x1": 553.4,
+        "y1": 334.0
+       }
+      }
+     ],
+     "text": "(c) Determine the percentage uncertainty in the mean length. (2)"
+    },
+    {
+     "label": "1(d)(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q1_d_intro.webp",
+       "w": 1090,
+       "h": 45,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 207.9,
+        "x1": 559.0,
+        "y1": 229.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q1_d_i.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 231.8,
+        "x1": 559.0,
+        "y1": 267.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q1_d_i_ms.webp",
+       "w": 1055,
+       "h": 309,
+       "region": {
+        "page": 4,
+        "x0": 47.4,
+        "y0": 332.0,
+        "x1": 553.4,
+        "y1": 480.0
+       }
+      }
+     ],
+     "text": "(i) Show that the density of the metal is about 8800 kg m –3. (4)"
+    },
+    {
+     "label": "1(d)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q1_d_intro.webp",
+       "w": 1090,
+       "h": 45,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 207.9,
+        "x1": 559.0,
+        "y1": 229.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q1_d_ii.webp",
+       "w": 1090,
+       "h": 527,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 310.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q1_d_ii_ms.webp",
+       "w": 1055,
+       "h": 601,
+       "region": {
+        "page": 4,
+        "x0": 47.4,
+        "y0": 478.0,
+        "x1": 553.4,
+        "y1": 766.0
+       }
+      }
+     ],
+     "text": "(ii) The student is told the cube is made from copper, bronze or brass. The table shows the densities of these metals. –3 Metal Density / kg m copper 8940 bronze 8620 brass 8520 She estimates the percentage uncertainty in the value of the density of the cube to be 2%. Deduce which metal the cube is made from. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2023_10_q2",
+   "number": 2,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH13_2023_10/q2_stem.webp",
+     "w": 1090,
+     "h": 580,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 334.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 337.6,
+        "x1": 559.0,
+        "y1": 373.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q2_a_ms.webp",
+       "w": 1055,
+       "h": 305,
+       "region": {
+        "page": 5,
+        "x0": 47.4,
+        "y0": 69.0,
+        "x1": 553.4,
+        "y1": 215.0
+       }
+      }
+     ],
+     "text": "(a) Describe how the student could determine accurate values of x and R. (4)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q2_b.webp",
+       "w": 1090,
+       "h": 762,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 422.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q2_b_ms.webp",
+       "w": 1055,
+       "h": 168,
+       "region": {
+        "page": 5,
+        "x0": 47.4,
+        "y0": 213.0,
+        "x1": 553.4,
+        "y1": 293.0
+       }
+      }
+     ],
+     "text": "(b) The student measured values of x and corresponding values of R and plotted a graph of his measurements. 2.00 1.50 R / mΩ 1.00 0.50 0.00 0.00 0.05 0.10 0.15 0.20 0.25 0.30 x / m State why the line of best fit does not pass through the origin. (1)"
+    },
+    {
+     "label": "2(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q2_c.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 165.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q2_c_ms.webp",
+       "w": 1055,
+       "h": 663,
+       "region": {
+        "page": 5,
+        "x0": 47.4,
+        "y0": 291.0,
+        "x1": 553.4,
+        "y1": 609.0
+       }
+      }
+     ],
+     "text": "(c) The total length l of copper in the circuit is given by l = 2x + 0.050 m The copper rods have a diameter of 3.0 mm. Determine the resistivity of the copper. (4)"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q2_d.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 392.9,
+        "x1": 559.0,
+        "y1": 504.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q2_d_ms.webp",
+       "w": 1055,
+       "h": 195,
+       "region": {
+        "page": 5,
+        "x0": 47.4,
+        "y0": 607.0,
+        "x1": 553.4,
+        "y1": 700.0
+       }
+      }
+     ],
+     "text": "(d) The safety system of the railway estimates the position of a train on the track using a resistance measurement. The rails become worn with continual use, so their cross-sectional area decreases. Explain how the decrease in cross-sectional area affects the estimate of the position of a train. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2023_10_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "physics/WPH13_2023_10/q3_stem.webp",
+     "w": 1090,
+     "h": 531,
+     "region": {
+      "page": 8,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 311.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q3_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 314.2,
+        "x1": 559.0,
+        "y1": 373.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q3_a_ms.webp",
+       "w": 1055,
+       "h": 278,
+       "region": {
+        "page": 6,
+        "x0": 47.4,
+        "y0": 69.0,
+        "x1": 553.4,
+        "y1": 202.0
+       }
+      }
+     ],
+     "text": "(a) The student had a metre rule and a stopwatch. Describe how the student could determine accurate values for d and v. (4)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 129.5,
+        "x1": 559.0,
+        "y1": 165.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_i_ms.webp",
+       "w": 1055,
+       "h": 355,
+       "region": {
+        "page": 6,
+        "x0": 47.4,
+        "y0": 200.0,
+        "x1": 553.4,
+        "y1": 370.0
+       }
+      }
+     ],
+     "text": "(i) Describe how the student could use a graph to determine a value of k. (2)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_ii.webp",
+       "w": 1090,
+       "h": 449,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 280.2,
+        "x1": 559.0,
+        "y1": 495.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_ii_ms.webp",
+       "w": 1055,
+       "h": 199,
+       "region": {
+        "page": 6,
+        "x0": 47.4,
+        "y0": 368.0,
+        "x1": 553.4,
+        "y1": 463.0
+       }
+      }
+     ],
+     "text": "(ii) She determined the speed v of the wave for three depths d of water. She calculated the value of k for each depth. –1 –2 d / mm v / m s k / m s 7.5 0.265 9.36 11 0.331 9.9 15 0.385 9.88 Criticise the recording of these results. (1)"
+    },
+    {
+     "label": "3(b)(iii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_intro.webp",
+       "w": 1090,
+       "h": 145,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 126.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_iii.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q3_b_iii_ms.webp",
+       "w": 1055,
+       "h": 355,
+       "region": {
+        "page": 6,
+        "x0": 47.4,
+        "y0": 461.0,
+        "x1": 553.4,
+        "y1": 631.0
+       }
+      }
+     ],
+     "text": "(iii) The student suggested that the value of k should be equal to the gravitational field strength. Discuss whether it is likely that k is the gravitational field strength. Your answer should include calculations. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2023_10_q4",
+   "number": 4,
+   "marks": 18,
+   "stem": [
+    {
+     "src": "physics/WPH13_2023_10/q4_stem.webp",
+     "w": 1090,
+     "h": 927,
+     "region": {
+      "page": 12,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 501.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 423,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 504.0,
+        "x1": 559.0,
+        "y1": 706.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_i_1.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 716.1,
+        "x1": 559.0,
+        "y1": 775.5
+       }
+      },
+      {
+       "src": "physics/WPH13_2023_10/q4_a_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_i_ms.webp",
+       "w": 1056,
+       "h": 1241,
+       "region": {
+        "page": 7,
+        "x0": 47.4,
+        "y0": 69.0,
+        "x1": 553.7,
+        "y1": 664.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of Emax on the y-axis against 1/λ on the x-axis on the grid opposite. Use the additional column of the table for your processed data. (6)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 423,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 504.0,
+        "x1": 559.0,
+        "y1": 706.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_ii.webp",
+       "w": 1090,
+       "h": 270,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 186.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_ii_ms.webp",
+       "w": 1056,
+       "h": 126,
+       "region": {
+        "page": 8,
+        "x0": 47.4,
+        "y0": 44.0,
+        "x1": 553.7,
+        "y1": 104.0
+       }
+      }
+     ],
+     "text": "(ii) The relationship between the maximum kinetic energy Emax of the emitted electrons and the wavelength λ of the incident photons is given by the equation hc λ = ϕ + Emax Show that the Planck constant h is equal to gradient of graph c (2)"
+    },
+    {
+     "label": "4(a)(iii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 423,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 504.0,
+        "x1": 559.0,
+        "y1": 706.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_iii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 301.9,
+        "x1": 559.0,
+        "y1": 337.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_iii_ms.webp",
+       "w": 1056,
+       "h": 253,
+       "region": {
+        "page": 8,
+        "x0": 47.4,
+        "y0": 102.0,
+        "x1": 553.7,
+        "y1": 223.0
+       }
+      }
+     ],
+     "text": "(iii) Determine a value of h. (4)"
+    },
+    {
+     "label": "4(a)(iv)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_intro.webp",
+       "w": 1090,
+       "h": 423,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 504.0,
+        "x1": 559.0,
+        "y1": 706.2
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_iv.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 508.9,
+        "x1": 559.0,
+        "y1": 558.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q4_a_iv_ms.webp",
+       "w": 1056,
+       "h": 332,
+       "region": {
+        "page": 8,
+        "x0": 47.4,
+        "y0": 221.0,
+        "x1": 553.7,
+        "y1": 380.0
+       }
+      }
+     ],
+     "text": "(iv) Calculate the percentage difference between h and the accepted value for the Planck constant. (2)"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2023_10/q4_b.webp",
+       "w": 1090,
+       "h": 508,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 300.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2023_10/q4_b_ms.webp",
+       "w": 1056,
+       "h": 916,
+       "region": {
+        "page": 9,
+        "x0": 47.4,
+        "y0": 44.0,
+        "x1": 553.7,
+        "y1": 483.0
+       }
+      }
+     ],
+     "text": "(b) The student’s investigation involves a small random error and a large systematic error. For each of these, suggest a source of the error and a realistic modification to the procedure which would reduce it. (4) Random error: Systematic error:"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

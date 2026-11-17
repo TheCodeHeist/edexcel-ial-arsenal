@@ -1,0 +1,988 @@
+{
+ "id": "WPH13_2025_01",
+ "subject": "physics",
+ "unit": "WPH13",
+ "series": "2025-01",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan 2025/PHYSICS_2025_Jan_U3_QP_1777808216733.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan 2025/PHYSICS_2025_Jan_U3_MS_1777808214968.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH13_2025_01_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "physics/WPH13_2025_01/q1_stem.webp",
+     "w": 1090,
+     "h": 611,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 80.8,
+      "x1": 559.0,
+      "y1": 373.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q1_a.webp",
+       "w": 1090,
+       "h": 544,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 376.5,
+        "x1": 559.0,
+        "y1": 637.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q1_a_ms.webp",
+       "w": 1016,
+       "h": 192,
+       "region": {
+        "page": 5,
+        "x0": 56.0,
+        "y0": 88.0,
+        "x1": 542.9,
+        "y1": 180.0
+       }
+      }
+     ],
+     "text": "(a) The student measured the length l of the toy car using digital calipers. Determine the percentage uncertainty in the measurement of l. (2)"
+    },
+    {
+     "label": "1(b)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 214,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 159.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q1_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 166.9,
+        "x1": 559.0,
+        "y1": 202.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q1_b_i_ms.webp",
+       "w": 1016,
+       "h": 245,
+       "region": {
+        "page": 5,
+        "x0": 56.0,
+        "y0": 178.0,
+        "x1": 542.9,
+        "y1": 295.0
+       }
+      }
+     ],
+     "text": "(i) Determine the mean value of t. (2)"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q1_b_intro.webp",
+       "w": 1090,
+       "h": 214,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 159.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q1_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 321.8,
+        "x1": 559.0,
+        "y1": 357.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q1_b_ii_ms.webp",
+       "w": 1016,
+       "h": 349,
+       "region": {
+        "page": 5,
+        "x0": 56.0,
+        "y0": 293.0,
+        "x1": 542.9,
+        "y1": 460.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the percentage uncertainty in the mean value of t. (2)"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q1_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 476.7,
+        "x1": 559.0,
+        "y1": 526.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q1_c_ms.webp",
+       "w": 1016,
+       "h": 217,
+       "region": {
+        "page": 5,
+        "x0": 56.0,
+        "y0": 458.0,
+        "x1": 542.9,
+        "y1": 562.0
+       }
+      }
+     ],
+     "text": "(c) Describe a method the student could use to determine the acceleration a of the toy car. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2025_01_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "physics/WPH13_2025_01/q2_stem.webp",
+     "w": 1090,
+     "h": 648,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 367.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)(i)",
+     "marks": 4,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q2_a_i.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 378.0,
+        "x1": 559.0,
+        "y1": 451.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q2_a_i_ms.webp",
+       "w": 1016,
+       "h": 272,
+       "region": {
+        "page": 6,
+        "x0": 56.0,
+        "y0": 75.0,
+        "x1": 542.9,
+        "y1": 205.0
+       }
+      }
+     ],
+     "text": "(a) (i) Describe a method the student could use to determine an accurate value for the maximum force a beam can support. You should include the use of any additional apparatus needed. (4)"
+    },
+    {
+     "label": "2(a)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q2_a_ii.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 106.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q2_a_ii_ms.webp",
+       "w": 1016,
+       "h": 612,
+       "region": {
+        "page": 6,
+        "x0": 56.0,
+        "y0": 203.0,
+        "x1": 542.9,
+        "y1": 496.0
+       }
+      }
+     ],
+     "text": "(ii) Identify a health and safety issue with your method and how the issue may be dealt with. (2)"
+    },
+    {
+     "label": "2(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q2_b_intro.webp",
+       "w": 1090,
+       "h": 401,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 193.7,
+        "x1": 559.0,
+        "y1": 385.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q2_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 392.8,
+        "x1": 559.0,
+        "y1": 428.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q2_b_i_ms.webp",
+       "w": 1016,
+       "h": 86,
+       "region": {
+        "page": 6,
+        "x0": 56.0,
+        "y0": 494.0,
+        "x1": 542.9,
+        "y1": 535.0
+       }
+      }
+     ],
+     "text": "(i) Criticise the recording of these results. (2)"
+    },
+    {
+     "label": "2(b)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q2_b_intro.webp",
+       "w": 1090,
+       "h": 401,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 193.7,
+        "x1": 559.0,
+        "y1": 385.6
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q2_b_ii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 543.5,
+        "x1": 559.0,
+        "y1": 616.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q2_b_ii_ms.webp",
+       "w": 1016,
+       "h": 295,
+       "region": {
+        "page": 6,
+        "x0": 56.0,
+        "y0": 533.0,
+        "x1": 542.9,
+        "y1": 674.0
+       }
+      }
+     ],
+     "text": "(ii) The student concluded that the increase in maximum force was proportional to the mass of fibre in the beam. Explain how the student could justify his conclusion. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2025_01_q3",
+   "number": 3,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH13_2025_01/q3_stem.webp",
+     "w": 1090,
+     "h": 883,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 480.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)(i)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q3_a_intro.webp",
+       "w": 1090,
+       "h": 45,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 491.4,
+        "x1": 559.0,
+        "y1": 512.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_a_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 515.3,
+        "x1": 559.0,
+        "y1": 564.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_a_i_ms.webp",
+       "w": 1016,
+       "h": 115,
+       "region": {
+        "page": 7,
+        "x0": 56.0,
+        "y0": 75.0,
+        "x1": 542.9,
+        "y1": 130.0
+       }
+      }
+     ],
+     "text": "(i) Suggest what the student should do to control the background light during the investigation. (1)"
+    },
+    {
+     "label": "3(a)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q3_a_intro.webp",
+       "w": 1090,
+       "h": 45,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 491.4,
+        "x1": 559.0,
+        "y1": 512.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_a_ii.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 623.5,
+        "x1": 559.0,
+        "y1": 659.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_a_ii_ms.webp",
+       "w": 1016,
+       "h": 141,
+       "region": {
+        "page": 7,
+        "x0": 56.0,
+        "y0": 128.0,
+        "x1": 542.9,
+        "y1": 195.0
+       }
+      }
+     ],
+     "text": "(ii) Suggest two other variables the student should control during this investigation. (2)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 895,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 486.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 493.6,
+        "x1": 559.0,
+        "y1": 529.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_b_i_ms.webp",
+       "w": 1016,
+       "h": 401,
+       "region": {
+        "page": 7,
+        "x0": 56.0,
+        "y0": 193.0,
+        "x1": 542.9,
+        "y1": 385.0
+       }
+      }
+     ],
+     "text": "(i) Calculate the missing values for Pout and % efficiency. (4)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q3_b_intro.webp",
+       "w": 1090,
+       "h": 895,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 486.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_b_ii.webp",
+       "w": 1090,
+       "h": 880,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 479.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_b_ii_ms.webp",
+       "w": 1016,
+       "h": 728,
+       "region": {
+        "page": 7,
+        "x0": 56.0,
+        "y0": 383.0,
+        "x1": 542.9,
+        "y1": 732.0
+       }
+      }
+     ],
+     "text": "(ii) The student plotted a graph of % efficiency against θ. 30 29 28 % efficiency 27 26 25 30 40 50 60 70 80 θ / Determine the maximum % efficiency of the arrangement and the corresponding angle θmax. (3)"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 538.0,
+        "x1": 559.0,
+        "y1": 587.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_c_ms.webp",
+       "w": 1016,
+       "h": 244,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 75.0,
+        "x1": 542.9,
+        "y1": 192.0
+       }
+      }
+     ],
+     "text": "(c) Explain how the student could collect more data to increase the accuracy in her values of maximum % efficiency and θmax. (3)"
+    },
+    {
+     "label": "3(d)(i)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q3_d_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_d_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 95.2,
+        "x1": 559.0,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_d_i_ms.webp",
+       "w": 1016,
+       "h": 85,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 190.0,
+        "x1": 542.9,
+        "y1": 230.0
+       }
+      }
+     ],
+     "text": "(i) State the direction in which light should be incident on the solar panel for maximum output power. (1)"
+    },
+    {
+     "label": "3(d)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2025_01/q3_d_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q3_d_ii.webp",
+       "w": 1090,
+       "h": 577,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 203.5,
+        "x1": 559.0,
+        "y1": 479.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q3_d_ii_ms.webp",
+       "w": 1016,
+       "h": 269,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 228.0,
+        "x1": 542.9,
+        "y1": 357.0
+       }
+      }
+     ],
+     "text": "(ii) The solar panels at a solar power station are mounted on motorised stands. (Source: © Daryna Andriianova/Shutterstock) Explain how this could increase the energy generated during a day. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2025_01_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "physics/WPH13_2025_01/q4_stem.webp",
+     "w": 1090,
+     "h": 1324,
+     "region": {
+      "page": 10,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 691.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q4_a_i.webp",
+       "w": 1090,
+       "h": 122,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 693.4,
+        "x1": 559.0,
+        "y1": 751.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q4_a_i_ms.webp",
+       "w": 1016,
+       "h": 361,
+       "region": {
+        "page": 9,
+        "x0": 56.0,
+        "y0": 75.0,
+        "x1": 542.9,
+        "y1": 248.0
+       }
+      }
+     ],
+     "text": "(a) (i) Complete the table with corresponding values of sin θ. Use the additional column to record your processed data. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q4_a_ii_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 752.4,
+        "x1": 559.0,
+        "y1": 787.8
+       }
+      },
+      {
+       "src": "physics/WPH13_2025_01/q4_a_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q4_a_ii_ms.webp",
+       "w": 1016,
+       "h": 840,
+       "region": {
+        "page": 9,
+        "x0": 56.0,
+        "y0": 255.0,
+        "x1": 542.9,
+        "y1": 658.0
+       }
+      }
+     ],
+     "text": "(ii) Plot a graph of f on the y-axis against sin θ on the x-axis on the grid opposite. (5)"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q4_b.webp",
+       "w": 1090,
+       "h": 281,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 191.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q4_b_ms.webp",
+       "w": 1016,
+       "h": 159,
+       "region": {
+        "page": 9,
+        "x0": 56.0,
+        "y0": 660.0,
+        "x1": 542.9,
+        "y1": 736.0
+       }
+      }
+     ],
+     "text": "(b) The student derived the following formula O v λ θ sin f where λ is the wavelength of the laser light and v is the speed of sound in the liquid. Explain how a graph of f against sin θ can be used to determine v. (2)"
+    },
+    {
+     "label": "4(c)(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q4_c_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 307.2,
+        "x1": 559.0,
+        "y1": 366.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q4_c_i_ms.webp",
+       "w": 1016,
+       "h": 405,
+       "region": {
+        "page": 10,
+        "x0": 56.0,
+        "y0": 75.0,
+        "x1": 542.9,
+        "y1": 269.0
+       }
+      }
+     ],
+     "text": "(c) (i) Determine the value of v using your graph. λ = 650 nm (3)"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2025_01/q4_c_ii.webp",
+       "w": 1090,
+       "h": 530,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 311.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2025_01/q4_c_ii_ms.webp",
+       "w": 1016,
+       "h": 511,
+       "region": {
+        "page": 10,
+        "x0": 56.0,
+        "y0": 267.0,
+        "x1": 542.9,
+        "y1": 512.0
+       }
+      }
+     ],
+     "text": "(ii) The student is told that the liquid is either petroleum, castor oil or glycerol. The table shows the speed of sound v in these liquids. Liquid v / m s –1 petroleum 1330 castor oil 1474 glycerol 1904 The student estimated the percentage uncertainty in the value of v, determined from the graph, to be 5%. Deduce which liquid was in the container. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

@@ -1,0 +1,957 @@
+{
+ "id": "WPH13_2026_01_A",
+ "subject": "physics",
+ "unit": "WPH13",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202026/IAL_PHYSICS_2026_Jan_U3A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202026/IAL_PHYSICS_2026_Jan_U3A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH13_2026_01_A_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH13_2026_01_A/q1_stem.webp",
+     "w": 1090,
+     "h": 662,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 69.5,
+      "x1": 559.0,
+      "y1": 386.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_a_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 389.5,
+        "x1": 559.0,
+        "y1": 438.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_a_i_ms.webp",
+       "w": 1559,
+       "h": 245,
+       "region": {
+        "page": 5,
+        "x0": 48.8,
+        "y0": 80.0,
+        "x1": 796.6,
+        "y1": 197.0
+       }
+      }
+     ],
+     "text": "(a) (i) Explain why the wavelength of the microwaves is equal to twice the distance between the burn marks. (2)"
+    },
+    {
+     "label": "1(a)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_a_ii.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 455.6,
+        "x1": 559.0,
+        "y1": 515.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_a_ii_ms.webp",
+       "w": 1559,
+       "h": 163,
+       "region": {
+        "page": 5,
+        "x0": 48.8,
+        "y0": 195.0,
+        "x1": 796.6,
+        "y1": 273.0
+       }
+      }
+     ],
+     "text": "(ii) The manufacturer states that the frequency of the microwaves is 2450 MHz. Calculate the speed of the microwaves. (3)"
+    },
+    {
+     "label": "1(b)(i)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_b_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 531.7,
+        "x1": 559.0,
+        "y1": 591.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_b_i_ms.webp",
+       "w": 1559,
+       "h": 59,
+       "region": {
+        "page": 5,
+        "x0": 48.8,
+        "y0": 271.0,
+        "x1": 796.6,
+        "y1": 299.0
+       }
+      }
+     ],
+     "text": "(b) (i) The student uses a 30 cm ruler to measure the distance between burn marks. State the resolution of a 30 cm ruler. (1)"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_b_ii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 607.9,
+        "x1": 559.0,
+        "y1": 681.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q1_b_ii_ms.webp",
+       "w": 1559,
+       "h": 164,
+       "region": {
+        "page": 5,
+        "x0": 48.8,
+        "y0": 297.0,
+        "x1": 796.6,
+        "y1": 375.0
+       }
+      }
+     ],
+     "text": "(ii) The student states that the uncertainty in their measurement of the distance is half the resolution of the 30 cm ruler. Assess the validity of the student’s statement. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2026_01_A_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "physics/WPH13_2026_01_A/q2_stem.webp",
+     "w": 1090,
+     "h": 803,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 45.7,
+      "x1": 559.0,
+      "y1": 430.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 438.0,
+        "x1": 559.0,
+        "y1": 473.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_a_ms.webp",
+       "w": 1557,
+       "h": 59,
+       "region": {
+        "page": 6,
+        "x0": 48.8,
+        "y0": 75.0,
+        "x1": 795.4,
+        "y1": 103.0
+       }
+      }
+     ],
+     "text": "(a) Add a line of best fit to the graph in the answer book. (1)"
+    },
+    {
+     "label": "2(b)(i)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_b_i.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 490.1,
+        "x1": 559.0,
+        "y1": 525.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_b_i_ms.webp",
+       "w": 1557,
+       "h": 61,
+       "region": {
+        "page": 6,
+        "x0": 48.8,
+        "y0": 101.0,
+        "x1": 795.4,
+        "y1": 130.0
+       }
+      }
+     ],
+     "text": "(b) (i) Give the value of the p.d. at which the LED starts to conduct. (1)"
+    },
+    {
+     "label": "2(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_b_ii.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 542.3,
+        "x1": 559.0,
+        "y1": 591.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_b_ii_ms.webp",
+       "w": 1557,
+       "h": 116,
+       "region": {
+        "page": 6,
+        "x0": 48.8,
+        "y0": 128.0,
+        "x1": 795.4,
+        "y1": 183.0
+       }
+      }
+     ],
+     "text": "(ii) Calculate the minimum energy that must be transferred to an electron in the LED for light to be emitted. (2)"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_c.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 608.4,
+        "x1": 559.0,
+        "y1": 715.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_c_ms.webp",
+       "w": 1557,
+       "h": 280,
+       "region": {
+        "page": 6,
+        "x0": 48.8,
+        "y0": 181.0,
+        "x1": 795.4,
+        "y1": 315.0
+       }
+      }
+     ],
+     "text": "(c) Light is emitted when the electron releases energy as a photon. The student tested a second LED that emitted light of wavelength 625 nm. From her results she determined the minimum electron energy to be 3.1 × 10−19 J. Calculate the value of the Planck constant from this data. (3)"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 45.9,
+        "x1": 559.0,
+        "y1": 105.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_d_ms.webp",
+       "w": 1557,
+       "h": 269,
+       "region": {
+        "page": 6,
+        "x0": 48.8,
+        "y0": 313.0,
+        "x1": 795.4,
+        "y1": 442.0
+       }
+      }
+     ],
+     "text": "(d) The LED does not produce monochromatic light. Explain how this would affect the value of the Planck constant calculated. (3)"
+    },
+    {
+     "label": "2(e)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_e.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 122.0,
+        "x1": 559.0,
+        "y1": 209.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q2_e_ms.webp",
+       "w": 1557,
+       "h": 166,
+       "region": {
+        "page": 6,
+        "x0": 48.8,
+        "y0": 440.0,
+        "x1": 795.4,
+        "y1": 519.0
+       }
+      }
+     ],
+     "text": "(e) The accuracy of the value of the Planck constant calculated depends on the minimum p.d. determined from the graph. Explain how the student could reduce the uncertainty in her value of the minimum p.d. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2026_01_A_q3",
+   "number": 3,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "physics/WPH13_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 494,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 45.7,
+      "x1": 559.0,
+      "y1": 282.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_a_intro.webp",
+       "w": 1090,
+       "h": 293,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 285.3,
+        "x1": 559.0,
+        "y1": 425.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_a_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 432.3,
+        "x1": 559.0,
+        "y1": 467.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_a_i_ms.webp",
+       "w": 1555,
+       "h": 217,
+       "region": {
+        "page": 7,
+        "x0": 48.8,
+        "y0": 75.0,
+        "x1": 794.6,
+        "y1": 179.0
+       }
+      }
+     ],
+     "text": "(i) Determine an accurate value for the length of the card. (2)"
+    },
+    {
+     "label": "3(a)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_a_intro.webp",
+       "w": 1090,
+       "h": 293,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 285.3,
+        "x1": 559.0,
+        "y1": 425.4
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_a_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 484.4,
+        "x1": 559.0,
+        "y1": 519.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_a_ii_ms.webp",
+       "w": 1555,
+       "h": 718,
+       "region": {
+        "page": 7,
+        "x0": 48.8,
+        "y0": 177.0,
+        "x1": 794.6,
+        "y1": 521.0
+       }
+      }
+     ],
+     "text": "(ii) Calculate the percentage uncertainty in your value. (2)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_b_intro.webp",
+       "w": 1090,
+       "h": 375,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 45.9,
+        "x1": 559.0,
+        "y1": 225.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 228.5,
+        "x1": 559.0,
+        "y1": 263.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_b_i_ms.webp",
+       "w": 1555,
+       "h": 165,
+       "region": {
+        "page": 8,
+        "x0": 48.8,
+        "y0": 75.0,
+        "x1": 794.6,
+        "y1": 154.0
+       }
+      }
+     ],
+     "text": "(i) Calculate the values missing from the table. (4)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_b_intro.webp",
+       "w": 1090,
+       "h": 375,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 45.9,
+        "x1": 559.0,
+        "y1": 225.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_b_ii.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 280.6,
+        "x1": 559.0,
+        "y1": 330.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_b_ii_ms.webp",
+       "w": 1555,
+       "h": 174,
+       "region": {
+        "page": 8,
+        "x0": 48.8,
+        "y0": 152.0,
+        "x1": 794.6,
+        "y1": 235.0
+       }
+      }
+     ],
+     "text": "(ii) Determine whether the student’s values show that momentum was conserved in this collision. (2)"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_c.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 346.8,
+        "x1": 559.0,
+        "y1": 458.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_c_ms.webp",
+       "w": 1555,
+       "h": 243,
+       "region": {
+        "page": 8,
+        "x0": 48.8,
+        "y0": 233.0,
+        "x1": 794.6,
+        "y1": 349.0
+       }
+      }
+     ],
+     "text": "(c) In the experiment, the student applied a small force with her hand to start glider A moving. The student repeated the experiment and calculated the mean values of the time taken to pass through each light gate. Discuss how this affected the uncertainty in the calculated values of momentum. (3)"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_d.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 474.9,
+        "x1": 559.0,
+        "y1": 562.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q3_d_ms.webp",
+       "w": 1555,
+       "h": 164,
+       "region": {
+        "page": 8,
+        "x0": 48.8,
+        "y0": 347.0,
+        "x1": 794.6,
+        "y1": 425.0
+       }
+      }
+     ],
+     "text": "(d) Another student used a stopwatch to measure the time taken for the gliders to travel a known distance. Explain the advantage of using light gates and a data logger, instead of using a stopwatch. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH13_2026_01_A_q4",
+   "number": 4,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "physics/WPH13_2026_01_A/q4_stem.webp",
+     "w": 1090,
+     "h": 488,
+     "region": {
+      "page": 7,
+      "x0": 36.0,
+      "y0": 45.7,
+      "x1": 559.0,
+      "y1": 279.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_a_intro.webp",
+       "w": 1090,
+       "h": 481,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 282.5,
+        "x1": 559.0,
+        "y1": 512.9
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_a_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 515.9,
+        "x1": 559.0,
+        "y1": 551.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_a_i_ms.webp",
+       "w": 1558,
+       "h": 217,
+       "region": {
+        "page": 9,
+        "x0": 54.4,
+        "y0": 75.0,
+        "x1": 801.6,
+        "y1": 179.0
+       }
+      }
+     ],
+     "text": "(i) Criticise these results. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 5,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_a_intro.webp",
+       "w": 1090,
+       "h": 481,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 282.5,
+        "x1": 559.0,
+        "y1": 512.9
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_a_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 568.0,
+        "x1": 559.0,
+        "y1": 603.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_a_ii_ms.webp",
+       "w": 1558,
+       "h": 739,
+       "region": {
+        "page": 9,
+        "x0": 54.4,
+        "y0": 177.0,
+        "x1": 801.6,
+        "y1": 531.0
+       }
+      }
+     ],
+     "text": "(ii) Plot a graph of r on the y-axis and h on the x-axis in the answer book. (5)"
+    },
+    {
+     "label": "4(b)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_b_i.webp",
+       "w": 1090,
+       "h": 146,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 45.9,
+        "x1": 559.0,
+        "y1": 115.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_b_i_ms.webp",
+       "w": 1558,
+       "h": 119,
+       "region": {
+        "page": 10,
+        "x0": 54.4,
+        "y0": 75.0,
+        "x1": 801.6,
+        "y1": 132.0
+       }
+      }
+     ],
+     "text": "(b) (i) Show that the velocity u of the cube immediately before the collision is given by u = 2gh (2)"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_b_ii.webp",
+       "w": 1090,
+       "h": 266,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 117.8,
+        "x1": 559.0,
+        "y1": 245.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_b_ii_ms.webp",
+       "w": 1558,
+       "h": 245,
+       "region": {
+        "page": 10,
+        "x0": 54.4,
+        "y0": 130.0,
+        "x1": 801.6,
+        "y1": 247.0
+       }
+      }
+     ],
+     "text": "(ii) The coefficient of restitution e is given by the equation e = v u where v is the velocity of the cube immediately after the collision. Explain why the gradient of the graph is e 2. (3)"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_c.webp",
+       "w": 1090,
+       "h": 269,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 261.9,
+        "x1": 559.0,
+        "y1": 390.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH13_2026_01_A/q4_c_ms.webp",
+       "w": 1558,
+       "h": 190,
+       "region": {
+        "page": 10,
+        "x0": 54.4,
+        "y0": 245.0,
+        "x1": 801.6,
+        "y1": 336.0
+       }
+      }
+     ],
+     "text": "(c) The student researched the range of values for the coefficients of restitution e of different metals. stainless steel 0.63 < e < 0.93 cast iron 0.3 < e < 0.6 Determine which of these metals the cube could be made from. (3)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

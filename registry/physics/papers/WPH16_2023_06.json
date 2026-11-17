@@ -1,0 +1,880 @@
+{
+ "id": "WPH16_2023_06",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2023-06",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June%202023/IAL_PHYSICS_2023_June_U6_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/June 2023/PHYSICS_2023_June_U6_MS_1777810734475.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2023_06_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_06/q1_stem.webp",
+     "w": 1090,
+     "h": 368,
+     "region": {
+      "page": 2,
+      "x0": 36.0,
+      "y0": 85.0,
+      "x1": 559.0,
+      "y1": 261.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q1_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36.0,
+        "y0": 275.7,
+        "x1": 559.0,
+        "y1": 325.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q1_a_ms.webp",
+       "w": 994,
+       "h": 495,
+       "region": {
+        "page": 6,
+        "x0": 68.7,
+        "y0": 100.0,
+        "x1": 545.3,
+        "y1": 337.0
+       }
+      }
+     ],
+     "text": "(a) Describe a simple method to determine the volume flow rate of the water moving out of the tube. (3)"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q1_b.webp",
+       "w": 1090,
+       "h": 1128,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 598.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q1_b_ms.webp",
+       "w": 994,
+       "h": 449,
+       "region": {
+        "page": 6,
+        "x0": 68.7,
+        "y0": 335.0,
+        "x1": 545.3,
+        "y1": 550.0
+       }
+      }
+     ],
+     "text": "(b) A student connected the tube to the water flow device shown below. A magnet is attached to the paddle wheel. magnet coil paddle wheel water from tube As water flowed through the device the paddle wheel rotated, making the magnet move past the coil. The student connected the coil to an oscilloscope. A series of pulses was displayed on the oscilloscope screen as shown. one division pulse oscilloscope screen The horizontal axis represents time. The time scale was set to 50 ms per division. Calculate the frequency f of the pulses. (3)"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q1_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 106.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q1_c_ms.webp",
+       "w": 994,
+       "h": 174,
+       "region": {
+        "page": 6,
+        "x0": 68.7,
+        "y0": 548.0,
+        "x1": 545.3,
+        "y1": 631.0
+       }
+      }
+     ],
+     "text": "(c) Describe how the student could investigate how f varies with the volume flow rate of the water. (3)"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q1_d.webp",
+       "w": 1090,
+       "h": 341,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 282.4,
+        "x1": 559.0,
+        "y1": 445.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q1_d_ms.webp",
+       "w": 994,
+       "h": 228,
+       "region": {
+        "page": 6,
+        "x0": 68.7,
+        "y0": 629.0,
+        "x1": 545.3,
+        "y1": 738.0
+       }
+      }
+     ],
+     "text": "(d) The student disconnected the water tank and oscilloscope from the water flow device. The student placed the water flow device in a river to monitor the flow of the river water overnight. He connected the coil of the water flow device to a data logger. The data logger recorded the frequency of the pulses. Give two reasons why a data logger is an appropriate piece of equipment to use for this task. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2023_06_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_06/q2_stem.webp",
+     "w": 1090,
+     "h": 279,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 190.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 207.0,
+        "x1": 559.0,
+        "y1": 242.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q2_a_ms.webp",
+       "w": 994,
+       "h": 330,
+       "region": {
+        "page": 7,
+        "x0": 68.7,
+        "y0": 87.0,
+        "x1": 545.3,
+        "y1": 245.0
+       }
+      }
+     ],
+     "text": "(a) State two safety precautions for this investigation. (2)"
+    },
+    {
+     "label": "2(b)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q2_b_intro.webp",
+       "w": 1090,
+       "h": 297,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 362.1,
+        "x1": 559.0,
+        "y1": 504.1
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q2_b_i.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 511.1,
+        "x1": 559.0,
+        "y1": 560.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q2_b_i_ms.webp",
+       "w": 994,
+       "h": 492,
+       "region": {
+        "page": 7,
+        "x0": 68.7,
+        "y0": 243.0,
+        "x1": 545.3,
+        "y1": 479.0
+       }
+      }
+     ],
+     "text": "(i) Explain why a graph of ln C against x could be used to test the validity of this relationship. (2)"
+    },
+    {
+     "label": "2(b)(ii)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q2_b_intro.webp",
+       "w": 1090,
+       "h": 297,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 362.1,
+        "x1": 559.0,
+        "y1": 504.1
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q2_b_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q2_b_ii_ms.webp",
+       "w": 994,
+       "h": 472,
+       "region": {
+        "page": 7,
+        "x0": 68.7,
+        "y0": 477.0,
+        "x1": 545.3,
+        "y1": 703.0
+       }
+      }
+     ],
+     "text": "(ii) Devise a plan to obtain the data required to test the validity of this relationship. (6)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2023_06_q3",
+   "number": 3,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_06/q3_stem.webp",
+     "w": 1090,
+     "h": 435,
+     "region": {
+      "page": 7,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 265.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q3_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 280.3,
+        "x1": 559.0,
+        "y1": 339.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q3_a_ms.webp",
+       "w": 994,
+       "h": 422,
+       "region": {
+        "page": 8,
+        "x0": 61.7,
+        "y0": 87.0,
+        "x1": 538.2,
+        "y1": 289.0
+       }
+      }
+     ],
+     "text": "(a) Describe an accurate method to determine a single value of d using a 15 cm ruler. You should include any additional apparatus. (3)"
+    },
+    {
+     "label": "3(b)(i)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 569,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 330.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_i_1.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 348.3,
+        "x1": 559.0,
+        "y1": 407.7
+       }
+      },
+      {
+       "src": "physics/WPH16_2023_06/q3_b_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_i_ms.webp",
+       "w": 994,
+       "h": 791,
+       "region": {
+        "page": 8,
+        "x0": 61.7,
+        "y0": 287.0,
+        "x1": 538.2,
+        "y1": 666.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of log d against log L on the grid opposite. Use the additional columns for your processed data. (6)"
+    },
+    {
+     "label": "3(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 569,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 330.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_ii_ms.webp",
+       "w": 994,
+       "h": 303,
+       "region": {
+        "page": 10,
+        "x0": 61.7,
+        "y0": 63.0,
+        "x1": 538.2,
+        "y1": 208.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the gradient of the graph. (3)"
+    },
+    {
+     "label": "3(b)(iii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_intro.webp",
+       "w": 1090,
+       "h": 569,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 330.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_iii.webp",
+       "w": 1090,
+       "h": 316,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 292.4,
+        "x1": 559.0,
+        "y1": 443.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q3_b_iii_ms.webp",
+       "w": 994,
+       "h": 603,
+       "region": {
+        "page": 10,
+        "x0": 61.7,
+        "y0": 206.0,
+        "x1": 538.2,
+        "y1": 495.0
+       }
+      }
+     ],
+     "text": "(iii) It is suggested that for a given load, the relationship between d and L is of the form d = k L r where r and k are constants. Determine the value k from the graph and hence write the mathematical relationship between d and L. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2023_06_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "physics/WPH16_2023_06/q4_stem.webp",
+     "w": 1090,
+     "h": 401,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 249.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q4_a_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 251.8,
+        "x1": 559.0,
+        "y1": 287.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q4_a_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 289.6,
+        "x1": 559.0,
+        "y1": 325.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q4_a_i_ms.webp",
+       "w": 1001,
+       "h": 343,
+       "region": {
+        "page": 11,
+        "x0": 61.7,
+        "y0": 113.0,
+        "x1": 541.8,
+        "y1": 277.0
+       }
+      }
+     ],
+     "text": "(i) Describe two other techniques she should use to determine T. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q4_a_intro.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 251.8,
+        "x1": 559.0,
+        "y1": 287.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q4_a_ii.webp",
+       "w": 1090,
+       "h": 239,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 444.7,
+        "x1": 559.0,
+        "y1": 558.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q4_a_ii_ms.webp",
+       "w": 1001,
+       "h": 489,
+       "region": {
+        "page": 11,
+        "x0": 61.7,
+        "y0": 275.0,
+        "x1": 541.8,
+        "y1": 509.0
+       }
+      }
+     ],
+     "text": "(ii) She recorded the following measurements. 5T / s 3.43 3.36 3.28 3.49 Calculate the mean value of T and its uncertainty in seconds. (3)"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q4_b_ms.webp",
+       "w": 1001,
+       "h": 551,
+       "region": {
+        "page": 11,
+        "x0": 61.7,
+        "y0": 507.0,
+        "x1": 541.8,
+        "y1": 771.0
+       }
+      }
+     ],
+     "text": "(b) The student estimated that the diameter of the test tube was approximately 2 cm. Explain why vernier calipers are a suitable instrument to measure the diameter. Your answer should include a calculation. (2)"
+    },
+    {
+     "label": "4(c)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_intro.webp",
+       "w": 1090,
+       "h": 368,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 288.4,
+        "x1": 559.0,
+        "y1": 464.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_i.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_i_ms.webp",
+       "w": 1001,
+       "h": 303,
+       "region": {
+        "page": 12,
+        "x0": 61.7,
+        "y0": 50.0,
+        "x1": 541.8,
+        "y1": 195.0
+       }
+      }
+     ],
+     "text": "–3. (i) Show that ρ is about 1200 kg m D = 2.38 cm ± 0.01 cm T = 0.61 s ± 0.01 s m = 48.95 g (2)"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_intro.webp",
+       "w": 1090,
+       "h": 368,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 288.4,
+        "x1": 559.0,
+        "y1": 464.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 264.1,
+        "x1": 559.0,
+        "y1": 299.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_ii_ms.webp",
+       "w": 1001,
+       "h": 1069,
+       "region": {
+        "page": 12,
+        "x0": 61.7,
+        "y0": 193.0,
+        "x1": 541.8,
+        "y1": 706.0
+       }
+      }
+     ],
+     "text": "(ii) Show that the percentage uncertainty in ρ is about 4%. (3)"
+    },
+    {
+     "label": "4(c)(iii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_intro.webp",
+       "w": 1090,
+       "h": 368,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 288.4,
+        "x1": 559.0,
+        "y1": 464.5
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_iii.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 475.3,
+        "x1": 559.0,
+        "y1": 534.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2023_06/q4_c_iii_ms.webp",
+       "w": 994,
+       "h": 1407,
+       "region": {
+        "page": 13,
+        "x0": 61.7,
+        "y0": 50.0,
+        "x1": 538.2,
+        "y1": 725.0
+       }
+      }
+     ],
+     "text": "–3. (iii) The density of glycerol is 1260 kg m Deduce whether the liquid could be glycerol. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}

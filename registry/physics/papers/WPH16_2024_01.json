@@ -1,0 +1,962 @@
+{
+ "id": "WPH16_2024_01",
+ "subject": "physics",
+ "unit": "WPH16",
+ "series": "2024-01",
+ "totalMarks": 50,
+ "durationMin": 80,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202024/IAL_PHYSICS_2024_Jan_U6_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Physics/Jan%202024/IAL_PHYSICS_2024_Jan_U6_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WPH16_2024_01_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_01/q1_stem.webp",
+     "w": 1090,
+     "h": 335,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 85.0,
+      "x1": 559.0,
+      "y1": 245.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q1_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 256.6,
+        "x1": 559.0,
+        "y1": 330.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q1_a_ms.webp",
+       "w": 1006,
+       "h": 201,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 87.0,
+        "x1": 545.3,
+        "y1": 183.0
+       }
+      }
+     ],
+     "text": "(a) The student gave the mass a small vertical displacement and released it. She used a stopwatch to determine the time period T of the oscillations. Describe how the student should determine an accurate value for T. (3)"
+    },
+    {
+     "label": "1(b)(i)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_intro_1.webp",
+       "w": 1090,
+       "h": 440,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 505.8,
+        "x1": 559.0,
+        "y1": 716.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_01/q1_b_intro_2.webp",
+       "w": 1090,
+       "h": 927,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 54.2,
+        "x1": 559.0,
+        "y1": 498.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_i.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 515.4,
+        "x1": 559.0,
+        "y1": 550.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_i_ms.webp",
+       "w": 1006,
+       "h": 96,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 181.0,
+        "x1": 545.3,
+        "y1": 227.0
+       }
+      }
+     ],
+     "text": "(i) Determine the value of f0 from the graph. (1)"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_intro_1.webp",
+       "w": 1090,
+       "h": 440,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 505.8,
+        "x1": 559.0,
+        "y1": 716.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_01/q1_b_intro_2.webp",
+       "w": 1090,
+       "h": 927,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 54.2,
+        "x1": 559.0,
+        "y1": 498.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_ii.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 116.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_ii_ms.webp",
+       "w": 1006,
+       "h": 418,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 225.0,
+        "x1": 545.3,
+        "y1": 425.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the value of the mass. –1 k = 30 N m (3)"
+    },
+    {
+     "label": "1(b)(iii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_intro_1.webp",
+       "w": 1090,
+       "h": 440,
+       "region": {
+        "page": 3,
+        "x0": 36.0,
+        "y0": 505.8,
+        "x1": 559.0,
+        "y1": 716.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_01/q1_b_intro_2.webp",
+       "w": 1090,
+       "h": 927,
+       "region": {
+        "page": 4,
+        "x0": 36.0,
+        "y0": 54.2,
+        "x1": 559.0,
+        "y1": 498.3
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_iii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36.0,
+        "y0": 334.7,
+        "x1": 559.0,
+        "y1": 370.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q1_b_iii_ms.webp",
+       "w": 1006,
+       "h": 226,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 423.0,
+        "x1": 545.3,
+        "y1": 531.0
+       }
+      }
+     ],
+     "text": "(iii) Explain why your value of f0 may not be accurate. (2)"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q1_c.webp",
+       "w": 1090,
+       "h": 740,
+       "region": {
+        "page": 6,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 412.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q1_c_ms.webp",
+       "w": 1006,
+       "h": 161,
+       "region": {
+        "page": 6,
+        "x0": 63.1,
+        "y0": 529.0,
+        "x1": 545.3,
+        "y1": 606.0
+       }
+      }
+     ],
+     "text": "(c) The student suggested that a motion sensor and data logger, arranged as shown, would improve the experiment. stand vibration generator signal spring generator bench mass motion sensor data logger Explain how using a motion sensor and data logger would improve the experiment. (2)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2024_01_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_01/q2_stem.webp",
+     "w": 1090,
+     "h": 399,
+     "region": {
+      "page": 8,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 247.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q2_a.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 262.1,
+        "x1": 559.0,
+        "y1": 345.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q2_a_ms.webp",
+       "w": 1006,
+       "h": 642,
+       "region": {
+        "page": 7,
+        "x0": 63.1,
+        "y0": 87.0,
+        "x1": 545.3,
+        "y1": 395.0
+       }
+      }
+     ],
+     "text": "(a) The student used the hot plate to heat the water until it boiled. He moved the glass beaker onto the heatproof mat to allow the water to cool. Identify one safety issue and how it may be dealt with. (2)"
+    },
+    {
+     "label": "2(b)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q2_b.webp",
+       "w": 1090,
+       "h": 323,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 211.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q2_b_ms.webp",
+       "w": 1006,
+       "h": 595,
+       "region": {
+        "page": 7,
+        "x0": 63.1,
+        "y0": 393.0,
+        "x1": 545.3,
+        "y1": 678.0
+       }
+      }
+     ],
+     "text": "(b) The student suggested that the relationship between the temperature θ of the water and time t is θ = θ0e –bt where θ0 is the initial temperature of the water and b is a constant. Devise a method to investigate the validity of this relationship. Your method should use a suitable graph. (6)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2024_01_q3",
+   "number": 3,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_01/q3_stem.webp",
+     "w": 1090,
+     "h": 491,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 292.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q3_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 307.4,
+        "x1": 559.0,
+        "y1": 366.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q3_a_ms.webp",
+       "w": 1009,
+       "h": 486,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 87.0,
+        "x1": 539.7,
+        "y1": 320.0
+       }
+      }
+     ],
+     "text": "(a) Describe an accurate method to measure a single value of x using a 30 cm ruler. You should include any additional apparatus. (3)"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q3_b.webp",
+       "w": 1090,
+       "h": 243,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 542.6,
+        "x1": 559.0,
+        "y1": 658.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q3_b_ms.webp",
+       "w": 1009,
+       "h": 486,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 318.0,
+        "x1": 539.7,
+        "y1": 551.0
+       }
+      }
+     ],
+     "text": "(b) The student predicted that the relationship between F and x was of the form p F = kx where k and p are constants. Explain how a graph of log F against log x can be used to determine the value of p. (2)"
+    },
+    {
+     "label": "3(c)(i)",
+     "marks": 6,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_intro.webp",
+       "w": 1090,
+       "h": 519,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 306.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 324.3,
+        "x1": 559.0,
+        "y1": 383.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_i_ms_1.webp",
+       "w": 1009,
+       "h": 524,
+       "region": {
+        "page": 8,
+        "x0": 56.0,
+        "y0": 549.0,
+        "x1": 539.7,
+        "y1": 800.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_01/q3_c_i_ms_2.webp",
+       "w": 1009,
+       "h": 426,
+       "region": {
+        "page": 9,
+        "x0": 56.0,
+        "y0": 69.0,
+        "x1": 539.7,
+        "y1": 273.0
+       }
+      }
+     ],
+     "text": "(i) Plot a graph of log F against log x on the grid opposite. Use the additional columns for your processed data. (6)"
+    },
+    {
+     "label": "3(c)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_intro.webp",
+       "w": 1090,
+       "h": 519,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 306.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_ii_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 390.5,
+        "x1": 559.0,
+        "y1": 425.9
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_01/q3_c_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_ii_ms.webp",
+       "w": 1009,
+       "h": 317,
+       "region": {
+        "page": 10,
+        "x0": 56.0,
+        "y0": 50.0,
+        "x1": 539.7,
+        "y1": 202.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the gradient of the graph. (3)"
+    },
+    {
+     "label": "3(c)(iii)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_intro.webp",
+       "w": 1090,
+       "h": 519,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 306.0
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_iii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q3_c_iii_ms.webp",
+       "w": 1009,
+       "h": 372,
+       "region": {
+        "page": 10,
+        "x0": 56.0,
+        "y0": 200.0,
+        "x1": 539.7,
+        "y1": 378.0
+       }
+      }
+     ],
+     "text": "(iii) The student suggested that the relationship between F and x is an inverse square relationship. Explain whether the graph supports this suggestion. (3)"
+    }
+   ],
+   "reviewed": false
+  },
+  {
+   "id": "WPH16_2024_01_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "physics/WPH16_2024_01/q4_stem.webp",
+     "w": 1090,
+     "h": 450,
+     "region": {
+      "page": 15,
+      "x0": 36.0,
+      "y0": 57.0,
+      "x1": 559.0,
+      "y1": 272.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)(i)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q4_a_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 288.9,
+        "x1": 559.0,
+        "y1": 348.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q4_a_i_ms.webp",
+       "w": 1009,
+       "h": 524,
+       "region": {
+        "page": 11,
+        "x0": 56.0,
+        "y0": 87.0,
+        "x1": 539.7,
+        "y1": 338.0
+       }
+      }
+     ],
+     "text": "(a) (i) The student used vernier calipers to measure the diameter d. Explain one technique she should use to measure d. (2)"
+    },
+    {
+     "label": "4(a)(ii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q4_a_ii.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 467.7,
+        "x1": 559.0,
+        "y1": 579.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q4_a_ii_ms.webp",
+       "w": 1009,
+       "h": 953,
+       "region": {
+        "page": 11,
+        "x0": 56.0,
+        "y0": 336.0,
+        "x1": 539.7,
+        "y1": 793.0
+       }
+      }
+     ],
+     "text": "(ii) The student estimated that the thickness t of the centre of the lens was approximately 5 mm. Explain the most appropriate instrument the student should use for a single measurement of t. Your answer should include a calculation. (2)"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q4_b.webp",
+       "w": 1090,
+       "h": 1033,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 552.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q4_b_ms.webp",
+       "w": 1009,
+       "h": 1151,
+       "region": {
+        "page": 12,
+        "x0": 56.0,
+        "y0": 50.0,
+        "x1": 539.7,
+        "y1": 602.0
+       }
+      }
+     ],
+     "text": "(b) The student placed the circular convex lens in a holder. She set up the apparatus, as shown. screen filament bulb u v circular convex lens wire mesh holder The student moved the position of the holder until the lens formed a sharp image of the wire mesh on the screen. She measured the distances u and v with a metre rule. The student determined the focal length f of the lens using the formula uv f O u 1 v Show that the uncertainty in f is about 0.2 cm. u = 29.6 cm ± 0.1 cm v = 19.2 cm ± 0.1 cm f = 11.6 cm (4)"
+    },
+    {
+     "label": "4(c)(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_intro.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 192.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_i.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 199.7,
+        "x1": 559.0,
+        "y1": 235.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_i_ms.webp",
+       "w": 1009,
+       "h": 405,
+       "region": {
+        "page": 12,
+        "x0": 56.0,
+        "y0": 600.0,
+        "x1": 539.7,
+        "y1": 794.0
+       }
+      }
+     ],
+     "text": "(i) Determine the value of n. (2)"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_intro.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 192.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 382.7,
+        "x1": 559.0,
+        "y1": 418.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_ii_ms.webp",
+       "w": 1009,
+       "h": 928,
+       "region": {
+        "page": 13,
+        "x0": 56.0,
+        "y0": 50.0,
+        "x1": 539.7,
+        "y1": 495.0
+       }
+      }
+     ],
+     "text": "(ii) Determine the percentage uncertainty in n. (2)"
+    },
+    {
+     "label": "4(c)(iii)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "intro": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_intro.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 57.2,
+        "x1": 559.0,
+        "y1": 192.7
+       }
+      }
+     ],
+     "qp": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_iii.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 17,
+        "x0": 36.0,
+        "y0": 565.8,
+        "x1": 559.0,
+        "y1": 625.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "physics/WPH16_2024_01/q4_c_iii_ms_1.webp",
+       "w": 1009,
+       "h": 628,
+       "region": {
+        "page": 13,
+        "x0": 56.0,
+        "y0": 493.0,
+        "x1": 539.7,
+        "y1": 794.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_01/q4_c_iii_ms_2.webp",
+       "w": 1009,
+       "h": 461,
+       "region": {
+        "page": 14,
+        "x0": 56.0,
+        "y0": 50.0,
+        "x1": 539.7,
+        "y1": 271.0
+       }
+      }
+     ],
+     "text": "(iii) The refractive index of crown glass is 1.52 Deduce whether the lens could be made of crown glass. (2)"
+    }
+   ],
+   "reviewed": false
+  }
+ ]
+}
