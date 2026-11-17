@@ -23,7 +23,9 @@ export interface Region {
   y1: number;
 }
 
-/** One rendered image cut from a PDF, ready to show. A part that crosses a page break has several. */
+/** One rendered image cut from a PDF, ready to show: the printed column (x 36–559 pt) of one page between two
+    heights, greyscale WebP at 150 dpi. A part that crosses a page break has several, shown one under another.
+    Display order for a part: its question's stem, then its intro (if any), then the part itself. */
 export interface Crop {
   src: string;          // path in the data repo, e.g. 'physics/WPH14_2026_06/q13b.webp'
   w: number;            // pixel size, so the page can reserve space before the image loads
@@ -47,6 +49,8 @@ export interface Part {
   topics: TopicId[];
   tagStatus: TagStatus;
   answer?: 'A' | 'B' | 'C' | 'D';   // mcq only, read from the mark scheme
+  intro?: Crop[];       // its parent part's lead-in, e.g. 19(b)'s text and diagram, shown above 19(b)(i), (ii), (iii)
+                        // (the same images for every sibling; they're stored once)
   qp: Crop[];           // the part as printed, answer space trimmed
   ms: Crop[];           // its mark-scheme rows
   text?: string;        // extracted text, for search and tagging only (equations come out mangled, never shown)

@@ -6,7 +6,12 @@ Work in progress, built one step at a time on WPH14 June 2026:
   1. read every line of text with its position, and drop page furniture       <- done
   2. find questions, parts, sub-parts, marks and totals; check the marks add up <- done
   3. work out each node's region on each page (text + diagrams, minus answer space)  <- done
-  4. render crops and an overlay preview to check by eye                         <- preview done
+  4. render crops and an overlay preview to check by eye                         <- done
+  5. pair each leaf with its mark-scheme rows
+  6. write the registry file (src/lib/papers/types.ts)
+
+Usage:  segment.py WPH14_2026_06 --preview   overlay of every region, one PNG per page
+        segment.py WPH14_2026_06 --render    crops (WebP) + paper.json in pipeline/cache/segments/<id>/
 
 Layout of a current-spec IAL Physics paper (PDF points, A4 = 595 x 842; see README for how it was measured):
     question number   x ~ 36-50    '13\\t In the Proton…'   ('*15' for an extended-writing question)
@@ -19,12 +24,15 @@ Layout of a current-spec IAL Physics paper (PDF points, A4 = 595 x 842; see READ
     furniture                      rotated 'DO NOT WRITE IN THIS AREA', barcode and page number at y > 795
 """
 
+import io
+import json
 import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
 import pymupdf
+from PIL import Image
 
 pymupdf.TOOLS.mupdf_display_errors(False)
 
@@ -46,6 +54,11 @@ NOT_CONTENT = re.compile(r"^(BLANK PAGE|SECTION [AB]|Answer ALL questions|TOTAL 
 COL_X0, COL_X1 = 36, 559
 COL_Y0, COL_Y1 = 37, 793
 PAD = 4                                       # breathing room around a crop, in points
+
+# Crops: greyscale WebP at 150 dpi, quality 70. Tested on the 20(b) graph: grid and scale stay readable on a
+# high-density screen, about 25 KB for a third of a page. The papers have no colour.
+DPI, QUALITY = 150, 70
+CALC = re.compile(r"\b(Calculate|Determine|Show that|Estimate|Find)\b")
 
 
 @dataclass
@@ -258,6 +271,81 @@ def preview(doc, questions, out_dir):
     return paths
 
 
+def slug(label, suffix=""):
+    """'13(b)(i)' -> 'q13_b_i'; the file name of a node's crop."""
+    return "q" + "_".join(re.findall(r"[0-9]+|[a-z]+", label)) + suffix
+
+
+def render(doc, node, paper_dir, subject, paper_id, suffix=""):
+    """Cut node.bands out of the pages as WebP files and return their Crop records (see types.ts)."""
+    crops = []
+    for i, (page, y0, y1) in enumerate(node.bands):
+        name = slug(node.label, suffix) + (f"_{i + 1}" if len(node.bands) > 1 else "") + ".webp"
+        clip = pymupdf.Rect(COL_X0, y0, COL_X1, y1)
+        pix = doc[page].get_pixmap(dpi=DPI, clip=clip, colorspace=pymupdf.csGRAY)
+        img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
+        buf = io.BytesIO()
+        img.save(buf, "WEBP", quality=QUALITY, method=6)
+        (paper_dir / name).write_bytes(buf.getvalue())
+        crops.append({"src": f"{subject}/{paper_id}/{name}", "w": pix.width, "h": pix.height,
+                      "region": {"page": page + 1, "x0": COL_X0, "y0": round(y0, 1),
+                                 "x1": COL_X1, "y1": round(y1, 1)}})
+    return crops
+
+
+def text_of(node, lines):
+    """The node's printed words, for search and tagging (never shown: maths comes out mangled)."""
+    out = []
+    for page, y0, y1 in node.bands:
+        out += [l.text for l in lines if l.page == page and y0 <= (l.y0 + l.y1) / 2 <= y1
+                and not ANSWER_LINE.search(l.text)]
+    return " ".join(" ".join(out).split())
+
+
+def guess_kind(q, leaf, text):
+    """A first guess at the part's kind; the review step can correct it."""
+    if q.extended and leaf is q:
+        return "extended"
+    if leaf is q and q.total == 1 and not q.children:
+        return "mcq"
+    return "calc" if CALC.search(text) else "short"
+
+
+def export(doc, questions, lines, paper_id, subject="physics"):
+    """Render every crop and write paper.json: the registry record minus what later steps add
+    (mark-scheme crops, MCQ answers, topics)."""
+    out = CACHE.parent / "segments" / paper_id
+    crops_dir = out / "crops"
+    crops_dir.mkdir(parents=True, exist_ok=True)
+    for old in crops_dir.glob("*.webp"):
+        old.unlink()
+    qs = []
+    for q in questions:
+        stem = render(doc, q, crops_dir, subject, paper_id, "_stem") if q.children else []
+        parts = []
+        for part in (q.children or [q]):
+            intro = render(doc, part, crops_dir, subject, paper_id, "_intro") if part.children else []
+            for leaf in (part.children or [part]):
+                text = text_of(leaf, lines)
+                parts.append({
+                    "label": leaf.label,
+                    "marks": leaf.marks or (q.total if leaf is q else 0),
+                    "kind": guess_kind(q, leaf, text),
+                    "topics": [],
+                    "tagStatus": "none",
+                    **({"intro": intro} if intro else {}),
+                    "qp": render(doc, leaf, crops_dir, subject, paper_id),
+                    "ms": [],
+                    "text": text,
+                })
+        qs.append({"id": f"{paper_id}_q{q.label}", "number": int(q.label), "marks": q.total,
+                   "stem": stem, "parts": parts, "reviewed": False})
+    paper = {"id": paper_id, "subject": subject, "questions": qs}
+    (out / "paper.json").write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
+    size = sum(f.stat().st_size for f in crops_dir.glob("*.webp"))
+    return out, len(list(crops_dir.glob("*.webp"))), size
+
+
 def main():
     paper_id = sys.argv[1] if len(sys.argv) > 1 else "WPH14_2026_06"
     doc = pymupdf.open(CACHE / f"{paper_id}_qp.pdf")
@@ -273,6 +361,9 @@ def main():
         out = CACHE.parent / "segments" / paper_id / "preview"
         paths = preview(pymupdf.open(CACHE / f"{paper_id}_qp.pdf"), questions, out)
         print(f"preview: {len(paths)} pages in {out}")
+    if "--render" in sys.argv:
+        out, n, size = export(doc, questions, lines, paper_id)
+        print(f"render: {n} crops, {size / 1024:.0f} KB, in {out}")
 
 
 if __name__ == "__main__":
