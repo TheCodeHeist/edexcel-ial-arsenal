@@ -52,7 +52,7 @@ Q_START = re.compile(r"^(\*?)(\d{1,2}):?(?:\t|\s+(?=[A-Z(*])|$)")
 PART = re.compile(r"^(\*?)\(([a-h])\)(?=\s|$)")         # '*(b)' is an extended-writing part
 SUBPART = re.compile(r"^(\*?)\((i|ii|iii|iv|v|vi)\)(?=\s|$)")
 MARK = re.compile(r"^\((\d{1,2})\)$")
-TOTAL = re.compile(r"^\(Total for Question (\d{1,2}) = (\d{1,2}) marks?\)")
+TOTAL = re.compile(r"^\(Total for Question \*?(\d{1,2}) = (\d{1,2}) marks?\)")   # '*15' in some A papers
 DOTS = re.compile(r"^[.\s…]{20,}$")
 ANSWER_LINE = re.compile(r"\.{10,}")          # dotted answer space, incl. 'speed = ..........'
 NOT_CONTENT = re.compile(r"^(BLANK PAGE|SECTION [AB]|Answer ALL questions|TOTAL FOR (SECTION|PAPER))", re.I)
@@ -140,11 +140,30 @@ def unshift(text):
     return "".join(chr(ord(c) + 29) if ord(c) < 94 and c not in " \t" else c for c in text)
 
 
+def question_pages(doc):
+    """How many pages belong to the question paper itself.
+
+    Some papers (the 2025–26 'A' papers) come as one PDF holding the question paper and then a separate
+    Answer Book, with its own cover, repeating every label and total beside the answer spaces. Only the
+    question paper is read: it stops at a cover page (a 'Paper reference' box) that comes after a question's
+    total. (A cover *before* any question is the real cover behind a stapled-on clarification notice.)"""
+    seen_total = False
+    for pno in range(doc.page_count):
+        text = doc[pno].get_text()
+        if seen_total and re.search(r"Paper\s+reference", text, re.I):
+            return pno
+        seen_total = seen_total or "Total for Question" in text
+    return doc.page_count
+
+
 def read_lines(doc):
     """Every horizontal text line on every page, minus page furniture, in reading order."""
     lines = []
     fr = frames(doc)
+    last = question_pages(doc)
     for pno, page in enumerate(doc):
+        if pno >= last:
+            break
         for block in page.get_text("dict")["blocks"]:
             for l in block.get("lines", []):
                 if l["dir"] != (1.0, 0.0):          # the rotated 'DO NOT WRITE IN THIS AREA' margins
@@ -175,6 +194,10 @@ def outline(lines):
             questions.append(q)
             part = None
             rest, at_question = t[m.end():].lstrip(), True
+        elif m and q is not None and line.x0 < 52 and m[2] == q.label and PART.match(t[m.end():].lstrip()):
+            # Some papers (2026 'A' papers) print the full label on every line: '13\t (a)\t (ii)\t …'.
+            # The repeated question number is skipped; the labels after it are read as usual.
+            rest = t[m.end():].lstrip()
         if q is None:
             continue                                  # cover page, instructions
         if line.x0 < 100 or at_question:
@@ -184,8 +207,10 @@ def outline(lines):
                 part.children.append(Node(f"{part.label}({m[2]})", 2, line, extended=bool(m[1])))
                 continue
             if m := PART.match(rest):
-                part = Node(f"{q.label}({m[2]})", 1, line, extended=bool(m[1]))
-                q.children.append(part)
+                label = f"{q.label}({m[2]})"
+                if part is None or part.label != label:   # a repeated '(a)' before '(ii)' is the same part
+                    part = Node(label, 1, line, extended=bool(m[1]))
+                    q.children.append(part)
                 rest = rest[m.end():].lstrip()
                 if m := SUBPART.match(rest):          # '(a)\t (i)\t Determine…'
                     part.children.append(Node(f"{part.label}({m[2]})", 2, line, extended=bool(m[1])))
@@ -413,7 +438,7 @@ def export(doc, questions, lines, paper_id, subject="physics"):
     for old in crops_dir.glob("*.webp"):
         old.unlink()
     ms_doc = pymupdf.open(CACHE / f"{paper_id}_ms.pdf")
-    ms_rows = markscheme.by_label(markscheme.split(ms_doc))
+    ms_rows = markscheme.by_label(markscheme.split(ms_doc, paper_id))
     leaf_labels = [leaf.label for q in questions for leaf in leaves(q)]
     match, missing, leftover, notes = markscheme.pair(leaf_labels, ms_rows)
     unmatched = [f"{label}: no mark-scheme rows" for label in missing]

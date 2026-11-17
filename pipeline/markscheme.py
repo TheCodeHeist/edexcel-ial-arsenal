@@ -24,6 +24,7 @@ import pymupdf
 pymupdf.TOOLS.mupdf_display_errors(False)
 
 CACHE = Path(__file__).resolve().parent / "cache" / "pdf"
+FIXES = Path(__file__).resolve().parent.parent / "registry" / "label-fixes.json"
 
 # '13(b)(i)', '13 (b) (i)', '*15', and the bracketless '12ai', '14cii', '11a' some years use.
 # A letter (a–h) always comes before a roman numeral, so '12ai' is (a)(i), never part (ai).
@@ -99,8 +100,12 @@ def page_texts(page):
     return out
 
 
-def split(doc):
-    """Every table row on every page, labelled, in reading order."""
+def split(doc, paper_id=None):
+    """Every table row on every page, labelled, in reading order.
+
+    `paper_id` picks up that paper's hand-checked label corrections from registry/label-fixes.json."""
+    import json
+    fixes = json.loads(FIXES.read_text()).get(paper_id, {}) if paper_id and FIXES.exists() else {}
     rows = []
     for pno, page in enumerate(doc):
         ys, left, right = rules(page)
@@ -125,7 +130,10 @@ def split(doc):
                 row.kind = "total"
             else:
                 for i, t in enumerate(firsts):
-                    text = t[2]
+                    if t[2] in fixes:                       # a misprint checked by a person
+                        row.label = fixes[t[2]]
+                        break
+                    text = re.sub(r"\(\s*([a-z]+)\s*\)", r"(\1)", t[2])   # '17(b)( i)' -> '17(b)(i)'
                     # a label wrapped in its narrow cell: '15(b)' then '(ii)' on the next line
                     if i + 1 < len(firsts) and re.fullmatch(r"\((?:[a-h]|i|ii|iii|iv|v|vi)\)", firsts[i + 1][2]):
                         text += firsts[i + 1][2]
@@ -239,7 +247,7 @@ def preview(doc, labelled, out_dir):
 def main():
     paper_id = sys.argv[1] if len(sys.argv) > 1 else "WPH14_2026_06"
     doc = pymupdf.open(CACHE / f"{paper_id}_ms.pdf")
-    labelled = by_label(split(doc))
+    labelled = by_label(split(doc, paper_id))
     for label, rows in labelled.items():
         key = mcq_key(rows)
         pages = sorted({r.page + 1 for r in rows})
