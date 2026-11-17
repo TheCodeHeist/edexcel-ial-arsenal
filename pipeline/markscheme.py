@@ -25,7 +25,9 @@ pymupdf.TOOLS.mupdf_display_errors(False)
 
 CACHE = Path(__file__).resolve().parent / "cache" / "pdf"
 
-LABEL = re.compile(r"^\*?(\d{1,2}(?:\s*\([a-h]\))?(?:\s*\((?:i|ii|iii|iv|v|vi)\))?)\*?$")
+# '13(b)(i)', '13 (b) (i)', '*15', and the bracketless '12ai', '14cii', '11a' some years use.
+# A letter (a–h) always comes before a roman numeral, so '12ai' is (a)(i), never part (ai).
+LABEL = re.compile(r"^\*?(\d{1,2})\s*(?:\(?([a-h])\)?)?\s*(?:\(?(i|ii|iii|iv|v|vi)\)?)?\*?$")
 TOTAL_ROW = re.compile(r"^Total for (question|section|paper)", re.I)
 HEADING_WORDS = re.compile(r"^(Question|Number|Question Number|Answer|Additional Guidance|Mark|Marks)$", re.I)
 MCQ_KEY = re.compile(r"(?:only correct|correct) answer is\s*\(?([A-D])\b")
@@ -43,9 +45,9 @@ class Row:
     kind: str = "body"            # 'header' | 'total' | 'body'
 
 
-def norm(label):
-    """'*15' -> '15', '13 (b) (i)' -> '13(b)(i)'."""
-    return re.sub(r"[\s*]", "", label)
+def norm(m):
+    """A LABEL match -> the standard form: '*15' -> '15', '13 (b) (i)' and '13bi' -> '13(b)(i)'."""
+    return m[1] + (f"({m[2]})" if m[2] else "") + (f"({m[3]})" if m[3] else "")
 
 
 def rules(page):
@@ -122,7 +124,7 @@ def split(doc):
             else:
                 for t in firsts:
                     if m := LABEL.match(t[2]):
-                        row.label = norm(m[1])
+                        row.label = norm(m)
                         break
             rows.append(row)
     return rows

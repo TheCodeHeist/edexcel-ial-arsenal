@@ -17,6 +17,8 @@ Usage:  segment.py WPH14_2026_06 --preview   overlay of every region, one PNG pe
 Layout of a current-spec IAL Physics paper (PDF points, A4 = 595 x 842; see README for how it was measured):
     question number   x ~ 36-50    '13\\t In the Proton…'   ('*15' for an extended-writing question)
     part label        x ~ 55-66    '(a)\\t …'
+    part, extended    x ~ 42       '*(b)\\t …' (marked on structure, like a '*' question)
+    part + sub-part                '(a)\\t (i)\\t …' both start on one line
     sub-part label    x ~ 70-85    '(i)\\t …', '(ii)\\t …'; sometimes tab-indented from the part column,
                                    '\\t (iii)\\t …' at x ~ 61, so the level comes from the label, not x'
     mark              x > 480      '(2)', at the end of a leaf's prompt; its answer space comes after
@@ -45,9 +47,10 @@ CACHE = Path(__file__).resolve().parent / "cache" / "pdf"
 FOOTER_Y = 795      # barcode, page number, 'Turn over' all sit below this
 HEADER_Y = 40       # nothing but furniture above this
 
-Q_START = re.compile(r"^(\*?)(\d{1,2})\t")
-PART = re.compile(r"^\(([a-h])\)\t")
-SUBPART = re.compile(r"^\((i|ii|iii|iv|v|vi)\)\t")
+# '13\t In…', '13 In…', '1:\t A cube…', or the number alone on its line; see outline()
+Q_START = re.compile(r"^(\*?)(\d{1,2}):?(?:\t|\s+(?=[A-Z(*])|$)")
+PART = re.compile(r"^(\*?)\(([a-h])\)(?=\s)")            # '*(b)' is an extended-writing part
+SUBPART = re.compile(r"^\((i|ii|iii|iv|v|vi)\)(?=\s)")
 MARK = re.compile(r"^\((\d{1,2})\)$")
 TOTAL = re.compile(r"^\(Total for Question (\d{1,2}) = (\d{1,2}) marks?\)")
 DOTS = re.compile(r"^[.\s…]{20,}$")
@@ -89,16 +92,40 @@ class Node:
     end: Line | None = None         # questions only: the total line
 
 
+FRAME_X0, FRAME_Y0 = 35, 36                   # where an A4 paper's page frame sits
+
+
+def page_offset(page):
+    """How far this page's content sits from the standard A4 position.
+
+    Some PDFs keep the printer's bleed (e.g. 652 x 899 pt), shifting everything by ~28 pt. The page frame
+    (a rectangle around the printable area) shows where the content really is; failing that, assume the extra
+    size is split evenly. All positions in this module are standard ones: subtract the offset when reading a
+    page, add it back when cutting a crop."""
+    for d in page.get_drawings():
+        r = d["rect"]
+        if 500 < r.width < 540 and 700 < r.height < 780:
+            return r.x0 - FRAME_X0, r.y0 - FRAME_Y0
+    return (page.rect.width - 595.3) / 2, (page.rect.height - 841.9) / 2
+
+
+def offsets(doc):
+    return [page_offset(page) for page in doc]
+
+
 def read_lines(doc):
     """Every horizontal text line on every page, minus page furniture, in reading order."""
     lines = []
+    shift = offsets(doc)
     for pno, page in enumerate(doc):
+        dx, dy = shift[pno]
         for block in page.get_text("dict")["blocks"]:
             for l in block.get("lines", []):
                 if l["dir"] != (1.0, 0.0):          # the rotated 'DO NOT WRITE IN THIS AREA' margins
                     continue
                 text = "".join(s["text"] for s in l["spans"]).strip()
                 x0, y0, x1, y1 = l["bbox"]
+                x0, y0, x1, y1 = x0 - dx, y0 - dy, x1 - dx, y1 - dy
                 if not text or y0 > FOOTER_Y or y1 < HEADER_Y:
                     continue
                 lines.append(Line(pno, x0, y0, x1, y1, text))
@@ -111,7 +138,9 @@ def outline(lines):
     questions, q, part = [], None, None
     for line in lines:
         t = line.text
-        if (m := Q_START.match(t)) and line.x0 < 52:
+        # A question starts only with the next number in sequence, so a stray number at the left edge
+        # (a table value, a page number) can't start one.
+        if (m := Q_START.match(t)) and line.x0 < 52 and int(m[2]) == len(questions) + 1:
             q = Node(m[2], 0, line, extended=bool(m[1]))
             questions.append(q)
             part = None
@@ -122,8 +151,11 @@ def outline(lines):
             # roman sub-part; '(i)' straight after part (h) would be the letter i, i.e. the next part
             part.children.append(Node(f"{part.label}({m[1]})", 2, line))
         elif line.x0 < 100 and (m := PART.match(t.lstrip())):
-            part = Node(f"{q.label}({m[1]})", 1, line)
+            part = Node(f"{q.label}({m[2]})", 1, line, extended=bool(m[1]))
             q.children.append(part)
+            # '(a)\t (i)\t Determine…': the part's first sub-part starts on the same line
+            if sub := SUBPART.match(t.lstrip()[m.end():].lstrip()):
+                part.children.append(Node(f"{part.label}({sub[1]})", 2, line))
         elif (m := MARK.match(t)) and line.x0 > 480:
             leaf = (part.children[-1] if part and part.children else part) or q
             leaf.marks += int(m[1])
@@ -153,9 +185,11 @@ def content_items(doc, lines):
         if ANSWER_LINE.search(l.text) or NOT_CONTENT.match(l.text) or TOTAL.match(l.text):
             continue
         items.append(Item(l.page, l.y0, l.y1, "text"))
+    shift = offsets(doc)
     for pno, page in enumerate(doc):
+        dx, dy = shift[pno]
         for d in page.get_drawings():
-            r = d["rect"]
+            r = d["rect"] - (dx, dy, dx, dy)
             if r.x1 < COL_X0 or r.x0 > COL_X1 or r.y1 < COL_Y0 or r.y0 > COL_Y1:
                 continue                                  # margins, crop marks
             if r.width > 500 and r.height > 700:
@@ -165,6 +199,7 @@ def content_items(doc, lines):
             items.append(Item(pno, max(r.y0, COL_Y0), min(r.y1, COL_Y1), "drawing"))
         for img in page.get_image_info():
             x0, y0, x1, y1 = img["bbox"]
+            x0, y0, x1, y1 = x0 - dx, y0 - dy, x1 - dx, y1 - dy
             if x1 < COL_X0 + 5 or x0 > COL_X1 - 5:
                 continue                                  # 'DO NOT WRITE' margin strips
             items.append(Item(pno, y0, y1, "image"))
@@ -262,12 +297,13 @@ def preview(doc, questions, out_dir):
     paths = []
     for page, boxes in sorted(marked.items()):
         pg = doc[page]
+        dx, dy = page_offset(pg)
         shape = pg.new_shape()
         for label, level, y0, y1 in boxes:
-            r = pymupdf.Rect(COL_X0, y0, COL_X1, y1)
+            r = pymupdf.Rect(COL_X0 + dx, y0 + dy, COL_X1 + dx, y1 + dy)
             shape.draw_rect(r)
             shape.finish(color=colours[level], fill=colours[level], fill_opacity=0.08, width=1.2)
-            shape.insert_text((COL_X1 - 70, y0 + 10), label, fontsize=9, color=colours[level])
+            shape.insert_text((COL_X1 + dx - 70, y0 + dy + 10), label, fontsize=9, color=colours[level])
         shape.commit()
         path = out_dir / f"p{page + 1:02}.png"
         pg.get_pixmap(dpi=60).save(path)
@@ -285,15 +321,16 @@ def render(doc, node, paper_dir, subject, paper_id, suffix=""):
     crops = []
     for i, (page, y0, y1) in enumerate(node.bands):
         name = slug(node.label, suffix) + (f"_{i + 1}" if len(node.bands) > 1 else "") + ".webp"
-        clip = pymupdf.Rect(COL_X0, y0, COL_X1, y1)
+        dx, dy = page_offset(doc[page])
+        clip = pymupdf.Rect(COL_X0 + dx, y0 + dy, COL_X1 + dx, y1 + dy)
         pix = doc[page].get_pixmap(dpi=DPI, clip=clip, colorspace=pymupdf.csGRAY)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
         buf = io.BytesIO()
         img.save(buf, "WEBP", quality=QUALITY, method=6)
         (paper_dir / name).write_bytes(buf.getvalue())
         crops.append({"src": f"{subject}/{paper_id}/{name}", "w": pix.width, "h": pix.height,
-                      "region": {"page": page + 1, "x0": COL_X0, "y0": round(y0, 1),
-                                 "x1": COL_X1, "y1": round(y1, 1)}})
+                      "region": {"page": page + 1, "x0": round(clip.x0, 1), "y0": round(clip.y0, 1),
+                                 "x1": round(clip.x1, 1), "y1": round(clip.y1, 1)}})
     return crops
 
 
@@ -326,7 +363,7 @@ def text_of(node, lines):
 
 def guess_kind(q, leaf, text):
     """A first guess at the part's kind; the review step can correct it."""
-    if q.extended and leaf is q:
+    if leaf.extended or (q.extended and leaf is q):
         return "extended"
     if leaf is q and q.total == 1 and not q.children:
         return "mcq"
