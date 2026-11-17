@@ -84,6 +84,7 @@ export interface Paper {
   subject: 'physics' | 'chemistry';
   unit: string;         // 'WPH14'
   series: string;       // '2026-06'
+  variant?: string;     // 'A': Pearson's second paper for another time zone (WPH14/01A)
   totalMarks: number;
   durationMin: number;
   source: { qp: SourceFile; ms: SourceFile };   // the copyright holder is always Pearson; `via` is who shared the file

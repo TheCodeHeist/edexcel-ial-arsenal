@@ -8,10 +8,11 @@ Work in progress, built one step at a time on WPH14 June 2026:
   3. work out each node's region on each page (text + diagrams, minus answer space)  <- done
   4. render crops and an overlay preview to check by eye                         <- done
   5. pair each leaf with its mark-scheme rows (markscheme.py)                     <- done
-  6. write the registry file (src/lib/papers/types.ts)
+  6. write the registry file (src/lib/papers/types.ts)                            <- done (--write)
 
 Usage:  segment.py WPH14_2026_06 --preview   overlay of every region, one PNG per page
         segment.py WPH14_2026_06 --render    crops (WebP) + paper.json in pipeline/cache/segments/<id>/
+        segment.py WPH14_2026_06 --write     also registry/<subject>/papers/<id>.json (implies --render)
 
 Layout of a current-spec IAL Physics paper (PDF points, A4 = 595 x 842; see README for how it was measured):
     question number   x ~ 36-50    '13\\t In the Proton…'   ('*15' for an extended-writing question)
@@ -382,6 +383,50 @@ def export(doc, questions, lines, paper_id, subject="physics"):
     return out, len(list(crops_dir.glob("*.webp"))), size, unmatched
 
 
+ROOT = Path(__file__).resolve().parent.parent
+DURATION = re.compile(r"Time:\s*(?:(\d)\s*hours?)?\s*(?:(\d{1,2})\s*minutes?)?", re.I)
+
+
+def duration_min(doc):
+    """Exam length from the cover, e.g. '(Time: 1 hour 45 minutes)' -> 105."""
+    text = " ".join(doc[0].get_text().split())
+    m = DURATION.search(text)
+    if not m or not (m[1] or m[2]):
+        return None
+    return int(m[1] or 0) * 60 + int(m[2] or 0)
+
+
+def write_registry(paper_id, doc, out_dir):
+    """registry/<subject>/papers/<id>.json: paper.json plus what the manifest knows (unit, series, sources
+    with their providers' credit). Questions start unreviewed, so nothing reaches the site before a person
+    has checked it."""
+    sources = json.loads((ROOT / "registry" / "sources.json").read_text())
+    entry = next(p for p in sources["papers"] if p["id"] == paper_id)
+    providers = sources["providers"]
+
+    def source(kind):
+        f = entry[kind]
+        prov = providers[f["via"]]
+        return {"url": f["url"], "via": {"name": prov["name"], "url": prov["url"], "credit": prov["credit"]}}
+
+    seg = json.loads((out_dir / "paper.json").read_text())
+    paper = {
+        "id": paper_id,
+        "subject": entry["subject"],
+        "unit": entry["unit"],
+        "series": entry["series"],
+        **({"variant": entry["variant"]} if entry.get("variant") else {}),
+        "totalMarks": sum(q["marks"] for q in seg["questions"]),
+        "durationMin": duration_min(doc),
+        "source": {"qp": source("qp"), "ms": source("ms")},
+        "questions": seg["questions"],
+    }
+    path = ROOT / "registry" / entry["subject"] / "papers" / f"{paper_id}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
+    return path
+
+
 def main():
     paper_id = sys.argv[1] if len(sys.argv) > 1 else "WPH14_2026_06"
     doc = pymupdf.open(CACHE / f"{paper_id}_qp.pdf")
@@ -397,11 +442,16 @@ def main():
         out = CACHE.parent / "segments" / paper_id / "preview"
         paths = preview(pymupdf.open(CACHE / f"{paper_id}_qp.pdf"), questions, out)
         print(f"preview: {len(paths)} pages in {out}")
-    if "--render" in sys.argv:
+    if "--render" in sys.argv or "--write" in sys.argv:
         out, n, size, unmatched = export(doc, questions, lines, paper_id)
         print(f"render: {n} crops, {size / 1024:.0f} KB, in {out}")
         for u in unmatched:
             print("  !! " + u)
+        if "--write" in sys.argv:
+            if problems or unmatched:
+                print("not writing the registry file: fix the problems above first")
+            else:
+                print(f"registry: {write_registry(paper_id, doc, out).relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
