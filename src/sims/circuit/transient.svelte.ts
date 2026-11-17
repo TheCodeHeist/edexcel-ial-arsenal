@@ -16,7 +16,7 @@ export const hasCaps = (c: CircuitData) => c.parts.some((p) => p.kind === 'capac
 export const hasAC = (c: CircuitData) => c.parts.some((p) => p.kind === 'ac');
 
 /** Below these the solver's answer is rounding noise (its ideal meters and wires are not exactly ideal): record 0. */
-const NOISE_V = 1e-6, NOISE_I = 1e-9;
+const NOISE_V = 1e-6, NOISE_I = 1e-7;
 const qv = (v: number) => (Math.abs(v) < NOISE_V ? 0 : v), qi = (i: number) => (Math.abs(i) < NOISE_I ? 0 : i);
 
 export interface Sample { t: number; m: Record<string, number>; w?: { id: string; v: number; i: number } }

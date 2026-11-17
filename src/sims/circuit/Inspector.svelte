@@ -24,12 +24,12 @@
       const lo = Math.min(0, ...xs), hi = Math.max(0, ...xs);
       return [lo < 0 ? -niceMax(-lo) : 0, hi > 0 ? niceMax(hi) : lo < 0 ? 0 : 1];
     };
-    const iv = tr.map((x) => x.i), mA = Math.max(...iv.map(Math.abs)) < 0.1;
-    const k = mA ? 1000 : 1;
+    const iv = tr.map((x) => x.i), peak = Math.max(...iv.map(Math.abs));
+    const [k, unit] = peak > 0 && peak < 1e-4 ? [1e6, 'µA'] : peak < 0.1 ? [1000, 'mA'] : [1, 'A'];
     return {
       xr: [t0, t1] as [number, number],
       v: { yr: range(tr.map((x) => x.v)), pts: tr.map((x) => [x.t, x.v] as [number, number]) },
-      i: { yr: range(iv.map((x) => x * k)), pts: tr.map((x) => [x.t, x.i * k] as [number, number]), unit: mA ? 'mA' : 'A' },
+      i: { yr: range(iv.map((x) => x * k)), pts: tr.map((x) => [x.t, x.i * k] as [number, number]), unit },
     };
   });
 
@@ -133,8 +133,9 @@
     </dl>
     {#if scope}
       <div class="scopes">
-        <Plot h={210} xr={scope.xr} yr={scope.v.yr} xLabel="t / s" yLabel="V / V" curve={scope.v.pts} trace label="p.d. of {part.name} against time" />
-        <Plot h={210} xr={scope.xr} yr={scope.i.yr} xLabel="t / s" yLabel="I / {scope.i.unit}" curve={scope.i.pts} trace label="current in {part.name} against time" />
+        <!-- a meter traces only what it measures: an ideal voltmeter carries no current, an ideal ammeter has no p.d. -->
+        {#if part.kind !== 'ammeter'}<Plot h={210} xr={scope.xr} yr={scope.v.yr} xLabel="t / s" yLabel="V / V" curve={scope.v.pts} trace label="p.d. of {part.name} against time" />{/if}
+        {#if part.kind !== 'voltmeter'}<Plot h={210} xr={scope.xr} yr={scope.i.yr} xLabel="t / s" yLabel="I / {scope.i.unit}" curve={scope.i.pts} trace label="current in {part.name} against time" />{/if}
       </div>
     {:else if clock && part}
       <p class="why">Press Play to trace {part.name}’s p.d. and current against time.</p>

@@ -254,8 +254,9 @@ export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
       case 'thermistor': R.R = thermR(p.p.T ?? 20); break;
       case 'ldr': R.R = ldrR(p.p.lux ?? 100); break;
       case 'lamp': case 'diode': case 'led': R.R = Math.abs(R.i) > 1e-9 ? R.v / R.i : Infinity; break;
-      case 'ammeter': R.reading = Math.abs(R.i); break;
-      case 'voltmeter': R.reading = Math.abs(R.v); break;
+      case 'ammeter': R.reading = Math.abs(R.i); R.v = 0; R.p = 0; break;
+      // ideal meters: the model's 1 GΩ (or 0.1 mΩ) is only there to keep the maths solvable, so report the ideal
+      case 'voltmeter': R.reading = Math.abs(R.v); R.i = 0; R.p = 0; break;
       case 'cell': {
         const E = p.p.emf ?? 0;
         R.short = E > 0.05 && Math.abs(R.i) > 0.5 && Math.abs(R.v) < 0.02 * E;

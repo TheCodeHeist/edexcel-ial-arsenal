@@ -28,7 +28,7 @@
     for (let v = Math.ceil(a / step - 1e-6) * step; v <= b + step * 1e-6 && out.length < 40; v += step) out.push(Math.abs(v) < step * 1e-6 ? 0 : v);
     return out;
   }
-  const fmt = (v: number) => String(Number(v.toPrecision(3)));
+  const fmt = (v: number) => { const a = Math.abs(v); return a !== 0 && (a < 1e-3 || a >= 1e5) ? v.toExponential(1).replace('e', '×10^') : String(Number(v.toPrecision(3))); };
   const ox = $derived(inX(0) ? sx(0) : sx(xr[0]));
   const oy = $derived(inY(0) ? sy(0) : sy(yr[0]));
   const toPath = (pts: [number, number][]) => pts.filter(([x, y]) => inX(x) && inY(y)).map(([x, y], i) => `${i ? 'L' : 'M'}${sx(x).toFixed(1)} ${sy(y).toFixed(1)}`).join('');

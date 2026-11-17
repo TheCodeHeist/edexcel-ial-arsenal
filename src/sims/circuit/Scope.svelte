@@ -29,14 +29,14 @@
     const series = ch.map((p) => ({ color: colorOf(p.id), pts: tr.filter((s) => s.m[p.id] !== undefined).map((s) => [s.t, s.m[p.id]] as [number, number]) }));
     const all = series.flatMap((s) => s.pts.map(([, y]) => y));
     const peak = Math.max(1e-9, ...all.map(Math.abs));
-    const mA = amm && peak < 0.1, k = mA ? 1000 : 1;
+    const [k, u] = !amm ? [1, ''] : peak > 1e-9 && peak < 1e-4 ? [1e6, 'µA'] : peak < 0.1 ? [1000, 'mA'] : [1, 'A'];
     const lo = Math.min(0, ...all) * k, hi = Math.max(0, ...all) * k;
     const top = hi > 1e-9 ? niceMax(hi * 1.05) : 0, bot = lo < -1e-9 ? niceMax(-lo * 1.05) : 0;
     return {
       xr: [t0, t0 + clock.window] as [number, number],
       yr: [-(bot || (top ? 0 : 1)), top || (bot ? 0 : 1)] as [number, number],
       series: series.map((s) => ({ ...s, pts: s.pts.map(([x, y]) => [x, y * k] as [number, number]) })),
-      y: amm ? `I / ${mA ? 'mA' : 'A'}` : 'V / V',
+      y: amm ? `I / ${u}` : 'V / V',
     };
   }
   const screens = $derived.by(() => {
