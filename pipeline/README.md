@@ -104,6 +104,10 @@ pipeline/.venv/bin/python pipeline/segment.py WPH14_2026_06 --write     # crops 
 pipeline/.venv/bin/python pipeline/publish.py WPH14_2026_06             # crops to the data repo
 ```
 
+`pipeline/survey.py` runs the same checks over every paper without rendering. Run it after any change to the
+segmenter: as of November 2026 it reports 136/137 current-spec papers clean (the one left is WPH16 June 2021, a
+scan) and 53/90 old-spec ones (old spec not tuned for yet).
+
 `--write` refuses while any marks don't add up or any label is missing from the paper or the mark scheme.
 Crops go to [TheCodeHeist/edexcel-ial-arsenal-data](https://github.com/TheCodeHeist/edexcel-ial-arsenal-data),
 cloned next to this repo, and are served from `https://thecodeheist.github.io/edexcel-ial-arsenal-data/`
