@@ -47,10 +47,12 @@ export function diodeIV(is: number, vt: number) {
 }
 export const ledIs = (vf: number) => 0.01 / Math.exp(vf / VT_L);
 
-export function elements(p: Part): El[] {
+/** The elements of a part; t (seconds) sets an a.c. supply's instantaneous e.m.f. */
+export function elements(p: Part, t = 0): El[] {
   const P = p.p;
   switch (p.kind) {
     case 'cell': return [{ k: 'E', a: 0, b: 1, E: P.emf ?? 0, r: Math.max(P.r ?? 0, TINY) }];
+    case 'ac': return [{ k: 'E', a: 0, b: 1, E: acEmf(P, t), r: TINY }];
     case 'resistor': return [{ k: 'R', a: 0, b: 1, R: Math.max(P.R ?? 10, TINY) }];
     case 'varres': return [{ k: 'R', a: 0, b: 1, R: Math.max(P.R ?? 0, TINY) }];
     case 'thermistor': return [{ k: 'R', a: 0, b: 1, R: thermR(P.T ?? 20) }];
@@ -92,7 +94,8 @@ export interface Solution {
   converged: boolean;
   vc: Record<string, number>;          // capacitor p.d.s after this step, by part id
 }
-export interface SolveOpts { dt?: number; vc?: Record<string, number> }
+export interface SolveOpts { dt?: number; vc?: Record<string, number>; t?: number }
+export const acEmf = (P: { emf?: number; freq?: number }, t: number) => (P.emf ?? 0) * Math.sin(2 * Math.PI * (P.freq ?? 1) * t);
 
 /* ---------- union-find ---------- */
 class DSU {
@@ -136,7 +139,7 @@ function pnjlim(vnew: number, vold: number, vt: number, is: number): number {
 }
 
 export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
-  const dt = opts.dt, vc0 = opts.vc ?? {};
+  const dt = opts.dt, vc0 = opts.vc ?? {}, time = opts.t ?? 0;
   /* 1. netlist */
   const dsu = new DSU();
   const termPts = new Map<string, Pt[]>();
@@ -165,7 +168,7 @@ export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
 
   /* 2. elements */
   const els: { part: Part; e: El; na: number; nb: number }[] = [];
-  for (const p of c.parts) for (const e of elements(p)) els.push({ part: p, e, na: tnet(p.id, e.a), nb: tnet(p.id, e.b) });
+  for (const p of c.parts) for (const e of elements(p, time)) els.push({ part: p, e, na: tnet(p.id, e.a), nb: tnet(p.id, e.b) });
 
   // islands (nets joined by elements) and a reference net in each: a cell's − terminal if there is one
   const isl = new DSU();
@@ -239,8 +242,9 @@ export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
     const R = parts[p.id], ts = termPts.get(p.id)!;
     const Va = V[netOf[key(ts[0])]], Vb = V[netOf[key(ts[1])]];
     R.v = Va - Vb;
-    R.i = p.kind === 'cell' ? R.out[0] : -R.out[0];
-    R.p = p.kind === 'cell' ? (p.p.emf ?? 0) * R.i - R.i * R.i * Math.max(p.p.r ?? 0, 0) : R.v * R.i;
+    const src = p.kind === 'cell' || p.kind === 'ac';
+    R.i = src ? R.out[0] : -R.out[0];
+    R.p = p.kind === 'cell' ? (p.p.emf ?? 0) * R.i - R.i * R.i * Math.max(p.p.r ?? 0, 0) : p.kind === 'ac' ? acEmf(p.p, time) * R.i : R.v * R.i;
     if (p.kind === 'pot') R.p = -R.out.reduce((s, o, t) => s + o * V[netOf[key(ts[t])]], 0);
     switch (p.kind) {
       case 'resistor': case 'varres': R.R = Math.max(p.p.R ?? 0, 0); break;

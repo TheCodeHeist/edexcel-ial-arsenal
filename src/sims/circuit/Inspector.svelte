@@ -11,12 +11,15 @@
   import { niceMax } from './lab';
   import { si, num, ohms, meter } from './format';
 
-  let { ed, sol, clock = null }: { ed: Editor; sol: Solution; clock?: Clock | null } = $props();
+  let { ed, sol, clock = null, pins = $bindable([]), onpin }: { ed: Editor; sol: Solution; clock?: Clock | null; pins?: string[]; onpin?: () => void } = $props();
+  function pin(id: string) { const on = !pins.includes(id); pins = on ? [...pins, id] : pins.filter((x) => x !== id); if (on) onpin?.(); }
 
-  /* the scope: the selected part's p.d. and current over the last 10 s of real time (only while time runs) */
+  /* the trace: the selected part's p.d. and current over the oscilloscope's timebase (only while time runs) */
   const scope = $derived.by(() => {
-    if (!clock || !part || clock.trace.length < 2) return null;
-    const tr = clock.trace, t0 = Math.max(0, clock.t - clock.window), t1 = t0 + clock.window;
+    if (!clock || !part) return null;
+    const tr = clock.trace.filter((s) => s.w?.id === part.id).map((s) => ({ t: s.t, v: s.w!.v, i: s.w!.i }));
+    if (tr.length < 2) return null;
+    const t0 = Math.max(0, clock.t - clock.window), t1 = t0 + clock.window;
     const range = (xs: number[]): [number, number] => {
       const lo = Math.min(0, ...xs), hi = Math.max(0, ...xs);
       return [lo < 0 ? -niceMax(-lo) : 0, hi > 0 ? niceMax(hi) : lo < 0 ? 0 : 1];
@@ -44,6 +47,7 @@
     if (c.key === 'R' || c.key === 'r') return ohms(v);
     if (c.key === 'lux') return num(v, 2) + ' lx';
     if (c.key === 'C') return si(v, 'F', 2);
+    if (c.key === 'freq') return num(v, 2) + ' Hz';
     return num(v) + ' ' + c.unit;
   }
   function set(p: Part, k: keyof Props, v: Props[keyof Props]) { ed.setProp(p.id, k, v); }
@@ -59,6 +63,10 @@
       case 'ammeter': return [['Reading', meter(R.reading ?? 0, 'A')], ['p.d. across it', '0 V (ideal)']];
       case 'voltmeter': return [['Reading', meter(R.reading ?? 0, 'V')], ['Current through it', '0 A (ideal)']];
       case 'capacitor': return [['p.d.', si(clean(R.v), 'V')], ['Charge Q = CV', si(clean(R.q ?? 0), 'C')], ['Energy ½CV²', si(clean(R.energy ?? 0), 'J')], ['Current', si(clean(R.i), 'A')]];
+      case 'ac': {
+        const V0 = P.emf ?? 0, f = P.freq ?? 1;
+        return [['e.m.f. now', si(clean(R.v), 'V')], ['Current now', si(clean(R.i), 'A')], ['Peak V₀', si(V0, 'V')], ['r.m.s. V₀/√2', si(V0 / Math.SQRT2, 'V')], ['Frequency', si(f, 'Hz')], ['Period 1/f', si(1 / f, 's')]];
+      }
       case 'switch2': return [['Position', P.on ? 'A' : 'B'], ['Current', si(clean(R.i), 'A')]];
       case 'switch': return [['State', P.on ? 'Closed' : 'Open'], ['Current', si(clean(R.i), 'A')], ['p.d. across it', si(clean(R.v), 'V')]];
       default: {
@@ -83,8 +91,11 @@
       <div class="ins-head swap">
         <div><div class="ins-name">{part.name}</div><p class="ins-kind">{K.label}{part.kind === 'lamp' ? ` · ${LAMPS[part.p.rating ?? '6V'].label}` : ''}</p></div>
         <div class="ins-acts">
-          <button class="btn" type="button" onclick={() => ed.rotate()} aria-label="Rotate (R)">Rotate</button>
+          <button class="btn" type="button" onclick={() => ed.rotate()} aria-label="Rotate 45° (R)">Rotate 45°</button>
           <button class="btn" type="button" onclick={() => ed.remove()} aria-label="Delete (Delete key)">Delete</button>
+          {#if part.kind === 'ammeter' || part.kind === 'voltmeter'}
+            <button class="btn" class:primary={pins.includes(part.id)} type="button" aria-pressed={pins.includes(part.id)} onclick={() => pin(part.id)}>{pins.includes(part.id) ? 'Pinned' : 'Pin to scope'}</button>
+          {/if}
         </div>
       </div>
     {/key}

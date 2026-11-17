@@ -144,6 +144,8 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Numbers** carry an SI prefix and 3 significant figures (`25.3 mA`, `2.20 kΩ`); component labels drop trailing zeros (`2.2 kΩ`, `6 V`).
 - **One syllabus switch** (“Units 2 & 3” / “+ Unit 4: capacitors”) under the status line gates every capacitor feature at once: the part, the clock, capacitor questions and the capacitor practical. It never hides parts already on the board.
 - **Time:** with a capacitor on the board a time bar appears (Play/Pause, ×0.1 · ×1 · ×10, the clock, Discharge all) on an `--accent-soft` strip. A charged capacitor's + plate tints `--redox` and its − plate `--accent`, with small + and − marks. The inspector shows a live V–t and I–t trace (solid `--accent`) over the last 10 s of real time.
+- **Oscilloscope:** every ammeter and voltmeter is a probe. Pinned probes show below the board on one time axis, Overlay (a voltage screen and a current screen) or Stacked (one lane each); channel colours run `--accent`, `--redox`, `--acidbase`, `--amph`, `--ligand`, `--cond`. Traces are signed, so meters carry a small muted + at their + terminal.
+- **Angles:** parts turn in 45° steps (R) and wires run along the grid or at exactly 45°. A 45° part's terminals sit one grid step across and one down, so its leads are drawn √2 longer and its label sits beside it on the right.
 - **Graphs** put the axes through the origin, use crosses for readings, a dashed `--accent` line for the true curve and a `--redox` line of best fit. Axis labels are written `I / A`, `V / V`, as on an exam paper.
 
 ## 10 · Voice

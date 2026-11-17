@@ -11,9 +11,9 @@
        tap a wire or part to select it.
      Without one (Predict, I–V Lab) it only displays; onpick reports a tap on a part. */
   import Symbol from './Symbol.svelte';
-  import { KINDS, LAMPS, LEDS, terminals, key, onSeg, same, type CircuitData, type Part, type Pt } from './parts';
+  import { KINDS, LAMPS, LEDS, terminals, angleOf, key, onSeg, same, type CircuitData, type Part, type Pt } from './parts';
   import type { Solution } from './solve';
-  import { BW, BH, type Editor } from './editor.svelte';
+  import { BW, BH, wirePath, type Editor } from './editor.svelte';
   import { meter, ohms, num, si } from './format';
 
   let { c, sol, ed = null, flow = 'conv', values = true, hide = [], mask = [], focus = null, zoom = 1, fit = false, label = 'Circuit diagram', onpick }: {
@@ -66,7 +66,7 @@
       // no charge crosses a capacitor's gap, and a two-way switch's current shows on its wires
       const r = sol.parts[p.id]; if (!r || p.kind === 'pot' || p.kind === 'voltmeter' || p.kind === 'capacitor' || p.kind === 'switch2') continue;
       const [t0, t1] = terminals(p);
-      push(t0, t1, p.kind === 'cell' ? -r.i : r.i);
+      push(t0, t1, p.kind === 'cell' || p.kind === 'ac' ? -r.i : r.i);
     }
     return out;
   });
@@ -81,6 +81,7 @@
       case 'lamp': return LAMPS[P.rating ?? '6V'].label.split(',')[0];
       case 'led': return LEDS[P.colour ?? 'red'].label;
       case 'capacitor': return si(P.C ?? 0, 'F', 2).replace(/\.0 /, ' ');
+      case 'ac': return `${num(P.emf ?? 0)} V, ${num(P.freq ?? 1, 2)} Hz`;
       default: return '';
     }
   }
@@ -92,7 +93,13 @@
   const valueOf = (p: Part) => (mask.includes(p.id) ? '?' : values ? valueText(p) : '');
   const readText = (p: Part) => (hide.includes(p.id) ? '?' : meter(sol.parts[p.id]?.reading ?? 0, p.kind === 'ammeter' ? 'A' : 'V'));
   const readW = (p: Part) => (hide.includes(p.id) ? 36 * ts : readText(p).length * ch + 20 * ts);
+  /** A diagonal part's label goes beside it, on the side away from its axis that faces right. */
+  function diagOff(p: Part) {
+    const a = (angleOf(p) * Math.PI) / 180, px = Math.sin(a), py = -Math.cos(a);
+    return px > 0 ? [px, py] : [-px, -py];
+  }
   function labelAt(p: Part) {
+    if (p.diag) { const [ux, uy] = diagOff(p); return { x: p.x * S + ux * 30 + 4, y: p.y * S + uy * 30, anchor: 'start' }; }
     if (p.rot % 2 === 0) return { x: p.x * S, y: p.y * S - 20 - 9 * ts - big(p), anchor: 'middle' };
     const right = fit || p.x < BW - 3; // a fitted board grows to fit, so labels can always go right
     return { x: p.x * S + (right ? 1 : -1) * (25 + big(p)), y: p.y * S, anchor: right ? 'start' : 'end' };
@@ -100,9 +107,9 @@
   /** A meter's reading sits beside its name: stacked above a horizontal meter, after the name for a vertical one. */
   function readoutAt(p: Part, w: number) {
     const L = labelAt(p);
-    if (p.rot % 2 === 0) return { x: p.x * S, y: L.y - 25 * ts - 6 };
-    const right = L.anchor === 'start', off = 25 + p.name.length * ch + 10 + w / 2;
-    return { x: p.x * S + (right ? off : -off), y: p.y * S };
+    if (!p.diag && p.rot % 2 === 0) return { x: p.x * S, y: L.y - 25 * ts - 6 };
+    const right = L.anchor === 'start', off = p.name.length * ch + 10 + w / 2;
+    return { x: L.x + (right ? off : -off), y: L.y };
   }
 
   /** The viewBox: the whole board, or (fit) just the circuit with its labels and readouts. */
@@ -112,8 +119,8 @@
     const inc = (x: number, y: number) => { x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x); y1 = Math.max(y1, y); };
     for (const w of c.wires) { inc(w.a[0] * S, w.a[1] * S); inc(w.b[0] * S, w.b[1] * S); }
     for (const p of c.parts) {
-      const h = p.rot % 2 === 0;
-      inc(p.x * S - (h ? 44 : 30), p.y * S - (h ? 30 : 44)); inc(p.x * S + (h ? 44 : 30), p.y * S + (h ? 30 : 44));
+      const h = p.rot % 2 === 0, rx = p.diag ? 44 : h ? 44 : 30, ry = p.diag ? 44 : h ? 30 : 44;
+      inc(p.x * S - rx, p.y * S - ry); inc(p.x * S + rx, p.y * S + ry);
       const L = labelAt(p), v = valueOf(p), tw = (p.name.length + (v ? v.length + 1 : 0)) * ch;
       if (L.anchor === 'middle') { inc(L.x - tw / 2, L.y - 12 * ts); inc(L.x + tw / 2, L.y + 12 * ts); }
       else inc(L.x + (L.anchor === 'start' ? tw : -tw), L.y);
@@ -195,8 +202,7 @@
   const draft = $derived.by(() => {
     const d = drag; if (!d || d.mode !== 'wire' || !d.moved) return null;
     const { from: a, to: b } = d;
-    const pts: Pt[] = a[0] === b[0] || a[1] === b[1] ? [a, b] : [a, (d.first ?? 'h') === 'h' ? [b[0], a[1]] : [a[0], b[1]], b];
-    return pts.map((p) => `${p[0] * S},${p[1] * S}`).join(' ');
+    return wirePath(a, b, d.first ?? 'h').map((p) => `${p[0] * S},${p[1] * S}`).join(' ');
   });
 
   // tapping the empty board on a touch screen clears the selection (a mouse press there starts a wire instead)
@@ -246,9 +252,13 @@
       {@const isSel = sel?.t === 'part' && sel.id === p.id}
       {@const [et, eb] = ext(p.kind)}
       <g class="part k-{p.kind}" class:sel={isSel} class:focus={focus === p.id} class:pick={!ed && !!onpick}
-        transform="translate({p.x * S} {p.y * S}) rotate({p.rot * 90})">
+        transform="translate({p.x * S} {p.y * S}) rotate({angleOf(p)})">
         {#if isSel || focus === p.id}<rect class="ring" x="-47" y={et - 5} width="94" height={eb - et + 10} rx="10" />{/if}
-        <Symbol kind={p.kind} p={p.p} rot={p.rot} bright={r?.bright ?? 0} short={r?.short ?? false} level={p.kind === 'capacitor' ? (r?.v ?? 0) / 12 : 0} />
+        {#if p.diag}
+          <!-- a 45° part's terminals are √2 further out: lengthen its leads to reach them -->
+          {#each KINDS[p.kind].terms as [tx, ty], ti (ti)}<path class="lead" d="M{tx * S} {ty * S}L{tx * S * Math.SQRT2} {ty * S * Math.SQRT2}" />{/each}
+        {/if}
+        <Symbol kind={p.kind} p={p.p} angle={angleOf(p)} bright={r?.bright ?? 0} short={r?.short ?? false} level={p.kind === 'capacitor' ? (r?.v ?? 0) / 12 : 0} />
         <!-- svelte-ignore a11y_no_static_element_interactions -->
         <rect class="grab" x="-38" y={et} width="76" height={eb - et} onpointerdown={(e) => partDown(e, p)} />
       </g>
@@ -293,6 +303,7 @@
   .wire.draft{stroke:var(--accent);stroke-dasharray:7 8;stroke-width:3;stroke-linejoin:round}
   .hit{stroke:transparent;stroke-width:18;stroke-linecap:round;cursor:pointer;touch-action:none}
   .junction{fill:var(--ink)}
+  .lead{stroke:var(--ink);stroke-width:2.8;stroke-linecap:round;fill:none}
   .loose{fill:var(--solid);stroke:var(--bad);stroke-width:2}
   .term{fill:transparent;cursor:crosshair;touch-action:none}
   .term:hover{fill:color-mix(in srgb,var(--accent) 22%,transparent);stroke:var(--accent);stroke-width:1.5}

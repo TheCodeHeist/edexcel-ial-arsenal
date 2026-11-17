@@ -2,11 +2,11 @@
   /* One circuit symbol, drawn the way the Edexcel specification draws it, in a local frame: the part's axis runs
      along x and its terminals sit at x = ±40 (one grid unit is 40). The caller rotates the group; text and glows
      that must stay upright are counter-rotated here. bright (0–1) lights lamps and LEDs. */
-  import { LEDS, type Kind, type Props, type Rot } from './parts';
+  import { LEDS, type Kind, type Props } from './parts';
 
-  let { kind, p, rot = 0, bright = 0, short = false, level = 0 }: { kind: Kind; p: Props; rot?: Rot; bright?: number; short?: boolean; level?: number } = $props();
+  let { kind, p, angle = 0, bright = 0, short = false, level = 0 }: { kind: Kind; p: Props; angle?: number; bright?: number; short?: boolean; level?: number } = $props();
   // level: a capacitor's p.d. as a fraction of 12 V, signed; the + plate tints red and the − plate blue
-  const up = $derived(`rotate(${-rot * 90})`);
+  const up = $derived(`rotate(${-angle})`);
   const lead = (a: number) => `M-40 0H${-a}M${a} 0H40`;
 </script>
 
@@ -69,8 +69,13 @@
   <path class="ln lever2" class:b={!p.on} d="M-16 0H17" />
   <text class="tlet" transform="translate(28 27) {up}">A</text>
   <text class="tlet" transform="translate(28 -27) {up}">B</text>
+{:else if kind === 'ac'}
+  <path class="ln" d={lead(16)} />
+  <circle class="body" r="16" />
+  <path class="ln thin" d="M-10 0C-7 -11 -3 -11 0 0S7 11 10 0" />
 {:else if kind === 'ammeter' || kind === 'voltmeter'}
   <path class="ln" d={lead(15)} />
+  <path class="ln thin pol" d="M-28 -13h6M-25 -16v6" />
   <circle class="body" r="15" />
   <text class="mlet" transform={up}>{kind === 'ammeter' ? 'A' : 'V'}</text>
 {/if}
@@ -91,5 +96,6 @@
   .lever2{transform-box:fill-box;transform-origin:0 50%;transform:rotate(26.6deg);transition:transform .35s var(--spring)}
   .lever2.b{transform:rotate(-26.6deg)}
   .tlet{font:700 12px var(--f-mono);fill:var(--muted);text-anchor:middle;dominant-baseline:central;pointer-events:none}
+  .pol{stroke:var(--muted);stroke-width:1.6}
   .mlet{font:700 18px var(--f-body);fill:var(--ink);text-anchor:middle;dominant-baseline:central;pointer-events:none}
 </style>

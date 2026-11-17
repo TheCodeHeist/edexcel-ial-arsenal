@@ -14,26 +14,27 @@
   import { Editor } from './editor.svelte';
   import { EXAMPLES } from './examples';
   import { solve } from './solve';
-  import { Clock, hasCaps } from './transient.svelte';
+  import { Clock, hasCaps, hasAC } from './transient.svelte';
   import Seg from '../../components/ui/Seg.svelte';
   import type { CircuitData } from './parts';
 
   type Mode = 'build' | 'predict' | 'lab';
 
   const board = persisted<CircuitData & { example: string }>('circuit-board', { ...EXAMPLES[0].data(), example: EXAMPLES[0].id });
-  const prefs = persisted<{ flow: Flow; values: boolean; zoom: number; zoomPhone: number; adv: boolean }>('circuit-prefs', { flow: 'conv', values: true, zoom: 1, zoomPhone: 2, adv: false });
+  const prefs = persisted<{ flow: Flow; values: boolean; zoom: number; zoomPhone: number; adv: boolean; scope: boolean; scopePins: string[]; scopeLayout: 'overlay' | 'stack' }>('circuit-prefs', { flow: 'conv', values: true, zoom: 1, zoomPhone: 2, adv: false, scope: false, scopePins: [], scopeLayout: 'overlay' });
   const score = persisted<PScore & { cells: number; caps: number }>('circuit-score', { right: 0, total: 0, streak: 0, best: 0, cells: 0, caps: 0 });
   score.streak = 0; // a streak never carries over between visits
 
   const ed = new Editor(board);
   const clock = new Clock();
-  const timed = $derived(hasCaps(board));
+  // time runs with a capacitor or an a.c. supply on the board, or while the oscilloscope is open
+  const timed = $derived(hasCaps(board) || hasAC(board) || prefs.scope);
   const sol = $derived(timed && clock.sol ? clock.sol : solve(board));
 
   let mode = $state<Mode>('build');
   let sub = $state<'iv' | 'emf' | 'cap'>('iv');
 
-  // with a capacitor on the board, time runs: one solve per animation frame (plus substeps) while Build is open
+  // while time runs: one solve per animation frame (plus substeps) while Build is open
   $effect(() => {
     if (!timed || mode !== 'build') return;
     let raf = 0, last = performance.now();

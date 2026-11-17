@@ -5,13 +5,14 @@
    from that point in grid units, before rotation. rot turns the part clockwise in 90° steps (screen y points down). */
 
 export type Pt = [number, number];
-export type Kind = 'cell' | 'resistor' | 'varres' | 'lamp' | 'diode' | 'led' | 'thermistor' | 'ldr' | 'switch' | 'switch2' | 'ammeter' | 'voltmeter' | 'pot' | 'capacitor';
+export type Kind = 'cell' | 'resistor' | 'varres' | 'lamp' | 'diode' | 'led' | 'thermistor' | 'ldr' | 'switch' | 'switch2' | 'ammeter' | 'voltmeter' | 'pot' | 'capacitor' | 'ac';
 export type Rot = 0 | 1 | 2 | 3;
 export type LedColour = 'red' | 'yellow' | 'green' | 'blue';
 export type LampRating = '2.5V' | '6V' | '12V';
 
 export interface Props {
-  emf?: number;        // cell: e.m.f. in V
+  emf?: number;        // cell: e.m.f. in V; a.c. supply: peak e.m.f.
+  freq?: number;       // a.c. supply: frequency in Hz
   r?: number;          // cell: internal resistance in Ω
   R?: number;          // resistor, variable resistor, potentiometer (end to end): resistance in Ω
   wiper?: number;      // potentiometer: wiper position 0–1 from terminal 0
@@ -23,7 +24,8 @@ export interface Props {
   colour?: LedColour;  // LED
 }
 
-export interface Part { id: string; kind: Kind; name: string; x: number; y: number; rot: Rot; p: Props }
+/** rot turns the part in 90° steps; diag adds 45° more, so a part can sit at any multiple of 45°. */
+export interface Part { id: string; kind: Kind; name: string; x: number; y: number; rot: Rot; diag?: boolean; p: Props }
 export interface Wire { id: string; a: Pt; b: Pt }
 export interface CircuitData { parts: Part[]; wires: Wire[] }
 
@@ -60,6 +62,14 @@ export const LEDS: Record<LedColour, { vf: number; glow: string; label: string }
 };
 
 export const KINDS: Record<Kind, KindInfo> = {
+  ac: {
+    label: 'A.C. supply', prefix: 'AC', terms: TWO, defaults: { emf: 6, freq: 1 },
+    controls: [
+      { key: 'emf', label: 'Peak e.m.f.', unit: 'V', type: 'range', min: 0, max: 12, step: 0.1 },
+      { key: 'freq', label: 'Frequency', unit: 'Hz', type: 'log', min: 0.1, max: 20 },
+    ],
+    note: 'An alternating supply: e.m.f. = V₀ sin 2πft. Slow enough to watch; the r.m.s. value is V₀ / √2.',
+  },
   cell: {
     label: 'Cell', prefix: 'E', terms: TWO, defaults: { emf: 6, r: 0 },
     controls: [
@@ -140,7 +150,7 @@ export const KINDS: Record<Kind, KindInfo> = {
 
 /** Parts bin order and groups. */
 export const BIN: { g: string; kinds: Kind[]; adv?: boolean }[] = [
-  { g: 'Sources and switches', kinds: ['cell', 'switch', 'switch2'] },
+  { g: 'Sources and switches', kinds: ['cell', 'ac', 'switch', 'switch2'] },
   { g: 'Resistors', kinds: ['resistor', 'varres', 'pot', 'thermistor', 'ldr'] },
   { g: 'Lamps and diodes', kinds: ['lamp', 'diode', 'led'] },
   { g: 'Meters', kinds: ['ammeter', 'voltmeter'] },
@@ -153,7 +163,13 @@ export const rotate = ([x, y]: Pt, r: Rot): Pt => {
   for (let i = 0; i < r; i++) [x, y] = [-y, x];
   return [x + 0, y + 0]; // +0 turns -0 into 0 so keys match
 };
-export const terminals = (p: Part): Pt[] => KINDS[p.kind].terms.map((t) => { const [dx, dy] = rotate(t, p.rot); return [p.x + dx, p.y + dy]; });
+/** A 45° turn that keeps grid points on grid points: (1, 0) → (1, 1), (0, 1) → (−1, 1). Lengths grow by √2. */
+export const tilt = ([x, y]: Pt): Pt => [x - y + 0, x + y + 0];
+export const angleOf = (p: Part) => p.rot * 90 + (p.diag ? 45 : 0);
+export const terminals = (p: Part): Pt[] => KINDS[p.kind].terms.map((t) => {
+  const r = rotate(t, p.rot), [dx, dy] = p.diag ? tilt(r) : r;
+  return [p.x + dx, p.y + dy];
+});
 export const key = ([x, y]: Pt) => x + ',' + y;
 export const same = (a: Pt, b: Pt) => a[0] === b[0] && a[1] === b[1];
 

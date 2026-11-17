@@ -3,7 +3,8 @@
 
    Two helpful rules keep circuits tidy:
    - dropping a part onto a wire inserts it: the piece of wire between its terminals is cut out;
-   - when a moved part leaves a wire diagonal, the wire is redrawn as an L with its last leg along the part. */
+   - when a moved part leaves a wire at an odd angle, the wire is redrawn as an L (exact 45° wires stay straight).
+   Parts turn in 45° steps; wires run along the grid or at exactly 45°. */
 
 import { KINDS, terminals, same, onSeg, key, type CircuitData, type Kind, type Part, type Wire, type Pt, type Rot, type Props } from './parts';
 
@@ -49,6 +50,12 @@ export function cutUnder(c: CircuitData, p: Part) {
     if (!same(far, w.b)) out.push({ id: nextId({ parts: c.parts, wires: [...c.wires, ...out] }, 'w'), a: [...far] as Pt, b: w.b });
   }
   c.wires = out;
+}
+
+export function wirePath(a: Pt, b: Pt, first: 'h' | 'v'): Pt[] {
+  const dx = b[0] - a[0], dy = b[1] - a[1];
+  if (!dx || !dy || Math.abs(dx) === Math.abs(dy)) return [a, b];
+  return [a, first === 'h' ? [b[0], a[1]] : [a[0], b[1]], b];
 }
 
 export class Editor {
@@ -140,11 +147,11 @@ export class Editor {
     const p = this.c.parts.find((q) => q.id === d.id);
     if (p) {
       // straighten diagonal wires into an L whose last leg runs along the part
-      const along = p.rot % 2 === 0;
+      const along = !p.diag && p.rot % 2 === 0;
       for (const e of d.ends) {
         const w = this.c.wires.find((q) => q.id === e.w.id); if (!w) continue;
         const m = w[e.end], f = e.fixed;
-        if (m[0] === f[0] || m[1] === f[1]) continue;
+        if (m[0] === f[0] || m[1] === f[1] || Math.abs(m[0] - f[0]) === Math.abs(m[1] - f[1])) continue;
         const corner: Pt = along ? [f[0], m[1]] : [m[0], f[1]];
         w.a = [...f] as Pt; w.b = corner;
         this.c.wires.push({ id: nextId(this.c, 'w'), a: corner, b: [...m] as Pt });
@@ -156,10 +163,12 @@ export class Editor {
   }
   get dragging() { return this.drag !== null; }
 
+  /** Turn a part 45° clockwise. */
   rotate(id = this.sel?.t === 'part' ? this.sel.id : '') {
     const p = this.c.parts.find((q) => q.id === id); if (!p) return;
     this.save();
-    p.rot = ((p.rot + 1) % 4) as Rot;
+    if (!p.diag) p.diag = true;
+    else { p.diag = false; p.rot = ((p.rot + 1) % 4) as Rot; }
     cutUnder(this.c, p); tidy(this.c);
   }
 
@@ -174,12 +183,13 @@ export class Editor {
   }
 
   /* ---------- wires ---------- */
-  /** Draw from a to b: straight if they line up, otherwise an L that leaves a along the given axis. */
+  /** Draw from a to b: straight if they line up (along the grid or at exactly 45°), otherwise an L that leaves a
+      along the given axis. */
   addWire(a: Pt, b: Pt, first: 'h' | 'v') {
     a = clampPt(a); b = clampPt(b);
     if (same(a, b)) return;
     this.save();
-    const pts: Pt[] = a[0] === b[0] || a[1] === b[1] ? [a, b] : [a, first === 'h' ? [b[0], a[1]] : [a[0], b[1]], b];
+    const pts = wirePath(a, b, first);
     for (let i = 1; i < pts.length; i++) this.c.wires.push({ id: nextId(this.c, 'w'), a: [...pts[i - 1]] as Pt, b: [...pts[i]] as Pt });
     tidy(this.c);
     this.sel = null;

@@ -11,9 +11,10 @@
   import type { Kind } from './parts';
   import type { Clock } from './transient.svelte';
   import { num } from './format';
+  import Scope from './Scope.svelte';
 
   let { ed, sol, prefs, clock = null, hidden: off = false, example = $bindable('') }: {
-    ed: Editor; sol: Solution; prefs: { flow: Flow; values: boolean; zoom: number; zoomPhone: number; adv: boolean };
+    ed: Editor; sol: Solution; prefs: { flow: Flow; values: boolean; zoom: number; zoomPhone: number; adv: boolean; scope: boolean; scopePins: string[]; scopeLayout: 'overlay' | 'stack' };
     clock?: Clock | null; hidden?: boolean; example?: string;
   } = $props();
   const SPEEDS = [['0.1', '×0.1'], ['1', '×1'], ['10', '×10']] as const;
@@ -40,7 +41,12 @@
     ed.add(k, at); example = '';
     return true;
   }
-  function loadExample(ex: Example) { ed.load(ex.data()); example = ex.id; }
+  function loadExample(ex: Example) {
+    const d = ex.data();
+    ed.load(d); example = ex.id;
+    // an example that is about signals opens the oscilloscope with its probes pinned
+    if (ex.pins) { prefs.scope = true; prefs.scopePins = d.parts.filter((p) => ex.pins!.includes(p.name)).map((p) => p.id); }
+  }
 
   function key(e: KeyboardEvent) {
     if (off) return;
@@ -92,6 +98,7 @@
     <div class="board-foot">
       <Seg label="Moving charge" options={[['conv', 'Conventional current', 'Current'], ['electron', 'Electron flow', 'Electrons'], ['off', 'Off']]} bind:value={prefs.flow} />
       <div class="foot-r">
+        <button class="btn" class:primary={prefs.scope} type="button" aria-pressed={prefs.scope} onclick={() => (prefs.scope = !prefs.scope)}>Oscilloscope</button>
         <button class="btn" type="button" aria-pressed={prefs.values} onclick={() => (prefs.values = !prefs.values)}>{prefs.values ? 'Hide values' : 'Show values'}</button>
         <div class="zoom" role="group" aria-label="Zoom">
           <button class="btn" type="button" aria-label="Zoom out" disabled={zoom <= ZOOMS[0]} onclick={() => step(-1)}>−</button>
@@ -100,10 +107,13 @@
         </div>
       </div>
     </div>
+    {#if prefs.scope && clock}
+      <div class="osc-wrap"><div class="ph"><h2>Oscilloscope</h2><span class="score">{prefs.scopePins.filter((id) => ed.c.parts.some((p) => p.id === id)).length} pinned</span></div><Scope {clock} parts={ed.c.parts} bind:pins={prefs.scopePins} bind:layout={prefs.scopeLayout} /></div>
+    {/if}
   </section>
 
   <section class="panel inspector" aria-label="Inspector">
     <div class="ph"><h2>Inspector</h2></div>
-    <Inspector {ed} {sol} {clock} />
+    <Inspector {ed} {sol} {clock} bind:pins={prefs.scopePins} onpin={() => (prefs.scope = true)} />
   </section>
 </main>

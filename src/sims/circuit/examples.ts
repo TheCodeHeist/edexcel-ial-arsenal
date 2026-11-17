@@ -3,22 +3,22 @@
 
 import { KINDS, type CircuitData, type Kind, type Part, type Pt, type Rot, type Props } from './parts';
 
-export type Spec = [kind: Kind, x: number, y: number, rot?: Rot, p?: Props, name?: string];
+export type Spec = [kind: Kind, x: number, y: number, rot?: Rot, p?: Props, name?: string, diag?: boolean];
 
 /** Parts (auto-named R1, R2 … unless a name is given) and wire paths (each a list of corner points). */
 export function build(specs: Spec[], paths: Pt[][]): CircuitData {
   const parts: Part[] = [], count: Record<string, number> = {};
-  specs.forEach(([kind, x, y, rot = 0, p = {}, name], i) => {
+  specs.forEach(([kind, x, y, rot = 0, p = {}, name, diag], i) => {
     const pre = KINDS[kind].prefix;
     count[pre] = (count[pre] ?? 0) + 1;
-    parts.push({ id: 'p' + (i + 1), kind, name: name ?? pre + count[pre], x, y, rot, p: { ...KINDS[kind].defaults, ...p } });
+    parts.push({ id: 'p' + (i + 1), kind, name: name ?? pre + count[pre], x, y, rot, ...(diag ? { diag } : {}), p: { ...KINDS[kind].defaults, ...p } });
   });
   const wires = paths.flatMap((pts) => pts.slice(1).map((b, i) => ({ a: [...pts[i]] as Pt, b: [...b] as Pt })))
     .map((w, i) => ({ id: 'w' + (i + 1), ...w }));
   return { parts, wires };
 }
 
-export interface Example { id: string; name: string; note: string; data: () => CircuitData; adv?: boolean }
+export interface Example { id: string; name: string; note: string; data: () => CircuitData; adv?: boolean; pins?: string[] }
 
 /** The capacitor charge/discharge rig (also the I–V Lab's capacitor practical): A charges through R, B discharges through R. */
 export const rcRig = (C: number, R: number, on: boolean, cellName?: string, emf = 6) => build(
@@ -81,6 +81,18 @@ export const EXAMPLES: Example[] = [
     data: () => build(
       [['cell', 9, 10, 0, { emf: 6 }], ['switch', 5, 3, 0, { on: true }], ['resistor', 10, 3, 0, { R: 220 }], ['led', 15, 6, 1, { colour: 'red' }], ['ammeter', 15, 9, 1, {}]],
       [[[8, 10], [3, 10], [3, 3], [4, 3]], [[6, 3], [9, 3]], [[11, 3], [15, 3], [15, 5]], [[15, 7], [15, 8]], [[15, 10], [10, 10]]],
+    ),
+  },
+  {
+    id: 'bridge', name: 'Bridge rectifier', pins: ['A1', 'A2'],
+    note: 'Four diodes turn a.c. into d.c.: the supply current (A1) alternates, but the current in the load (A2) always flows the same way.',
+    data: () => build(
+      [['ac', 2, 5, 1, { emf: 6, freq: 1 }], ['ammeter', 6, 1],
+        ['diode', 7, 4, 3, {}, 'D1', true], ['diode', 7, 6, 0, {}, 'D2', true], ['diode', 13, 4, 0, {}, 'D3', true], ['diode', 13, 6, 3, {}, 'D4', true],
+        ['ammeter', 9, 5, 2], ['resistor', 11, 5, 0, { R: 100 }]],
+      [[[2, 4], [2, 1], [5, 1]], [[7, 1], [10, 1]], [[2, 6], [2, 9], [10, 9]],
+        [[8, 3], [10, 1]], [[8, 7], [10, 9]], [[10, 1], [12, 3]], [[10, 9], [12, 7]],
+        [[6, 5], [8, 5]], [[12, 5], [14, 5]]],
     ),
   },
   {

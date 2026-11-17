@@ -1,12 +1,13 @@
 <script lang="ts">
   /* A small physics graph: axes through the origin when it is in range, tidy ticks, recorded points as crosses,
      an optional true curve, an optional best-fit line and a ringed “now” marker. */
-  let { xr, yr, xLabel, yLabel, points = [], curve = null, line = null, now = null, label, h = 360, trace = false }: {
+  let { xr, yr, xLabel, yLabel, points = [], curve = null, line = null, now = null, label, h = 360, trace = false, series = [] }: {
     xr: [number, number]; yr: [number, number]; xLabel: string; yLabel: string;
     points?: { x: number; y: number }[]; curve?: [number, number][] | null; line?: { m: number; c: number } | null;
     now?: { x: number; y: number } | null; label: string;
     h?: number;          // drawing height (width is always 520)
     trace?: boolean;     // draw the curve as a solid live trace instead of the dashed “true curve”
+    series?: { color: string; pts: [number, number][] }[];   // extra solid traces, each in its own colour (oscilloscope)
   } = $props();
 
   const W = 520, ML = 54, MR = 18, MT = 18, MB = 42;
@@ -26,7 +27,8 @@
   const fmt = (v: number) => String(Number(v.toPrecision(3)));
   const ox = $derived(inX(0) ? sx(0) : sx(xr[0]));
   const oy = $derived(inY(0) ? sy(0) : sy(yr[0]));
-  const path = $derived(curve ? curve.filter(([x, y]) => inX(x) && inY(y)).map(([x, y], i) => `${i ? 'L' : 'M'}${sx(x).toFixed(1)} ${sy(y).toFixed(1)}`).join('') : '');
+  const toPath = (pts: [number, number][]) => pts.filter(([x, y]) => inX(x) && inY(y)).map(([x, y], i) => `${i ? 'L' : 'M'}${sx(x).toFixed(1)} ${sy(y).toFixed(1)}`).join('');
+  const path = $derived(curve ? toPath(curve) : '');
   const fitSeg = $derived.by(() => {
     if (!line) return null;
     // clip y = m x + c to the plot box
@@ -53,6 +55,7 @@
   <text class="al" x={12} y={MT + 2} transform="rotate(-90 12 {MT + 2})" text-anchor="end">{yLabel}</text>
 
   {#if path}<path class="curve" class:trace d={path} />{/if}
+  {#each series as s, i (i)}<path class="curve trace" style:stroke={s.color} d={toPath(s.pts)} />{/each}
   {#if fitSeg}<line class="fit" x1={sx(fitSeg[0][0])} y1={sy(fitSeg[0][1])} x2={sx(fitSeg[1][0])} y2={sy(fitSeg[1][1])} />{/if}
   {#each points as p, i (i)}
     {#if inX(p.x) && inY(p.y)}<path class="pt" d="M{sx(p.x) - 5} {sy(p.y) - 5}l10 10m0 -10l-10 10" />{/if}
