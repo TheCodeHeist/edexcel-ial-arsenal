@@ -15,6 +15,10 @@ import type { CircuitData } from './parts';
 export const hasCaps = (c: CircuitData) => c.parts.some((p) => p.kind === 'capacitor');
 export const hasAC = (c: CircuitData) => c.parts.some((p) => p.kind === 'ac');
 
+/** Below these the solver's answer is rounding noise (its ideal meters and wires are not exactly ideal): record 0. */
+const NOISE_V = 1e-6, NOISE_I = 1e-9;
+const qv = (v: number) => (Math.abs(v) < NOISE_V ? 0 : v), qi = (i: number) => (Math.abs(i) < NOISE_I ? 0 : i);
+
 export interface Sample { t: number; m: Record<string, number>; w?: { id: string; v: number; i: number } }
 
 export class Clock {
@@ -62,9 +66,9 @@ export class Clock {
     const last = this.buf[this.buf.length - 1];
     if (last && t - last.t < this.window / 1000) return;
     const m: Record<string, number> = {};
-    for (const [id, amm] of meters) { const r = s.parts[id]; if (r) m[id] = amm ? r.i : r.v; }
+    for (const [id, amm] of meters) { const r = s.parts[id]; if (r) m[id] = amm ? qi(r.i) : qv(r.v); }
     const r = watch ? s.parts[watch] : undefined;
-    this.buf.push({ t, m, w: r && watch ? { id: watch, v: r.v, i: r.i } : undefined });
+    this.buf.push({ t, m, w: r && watch ? { id: watch, v: qv(r.v), i: qi(r.i) } : undefined });
   }
 
   reset() { this.vc = {}; this.t = 0; this.buf = []; this.trace = []; }

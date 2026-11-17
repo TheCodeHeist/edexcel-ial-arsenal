@@ -15,8 +15,9 @@
   const ok = $derived(isFinite(xr[0]) && isFinite(xr[1]) && xr[1] > xr[0] && isFinite(yr[0]) && isFinite(yr[1]) && yr[1] > yr[0]);
   const sx = (x: number) => ML + ((x - xr[0]) / (xr[1] - xr[0])) * (W - ML - MR);
   const sy = (y: number) => H - MB - ((y - yr[0]) / (yr[1] - yr[0])) * (H - MT - MB);
-  const inX = (x: number) => x >= xr[0] - 1e-9 && x <= xr[1] + 1e-9;
-  const inY = (y: number) => y >= yr[0] - 1e-9 && y <= yr[1] + 1e-9;
+  // tolerances scale with the axis, so a tiny range (or a huge one) behaves the same as an ordinary one
+  const inX = (x: number) => { const e = (xr[1] - xr[0]) * 1e-6; return x >= xr[0] - e && x <= xr[1] + e; };
+  const inY = (y: number) => { const e = (yr[1] - yr[0]) * 1e-6; return y >= yr[0] - e && y <= yr[1] + e; };
 
   function ticks([a, b]: [number, number]) {
     // an empty or invalid range would make the loop below run for ever: no ticks instead
@@ -24,7 +25,7 @@
     const raw = (b - a) / 6, p = Math.pow(10, Math.floor(Math.log10(raw)));
     const step = ([1, 2, 2.5, 5, 10].find((k) => k * p >= raw) ?? 10) * p;
     const out: number[] = [];
-    for (let v = Math.ceil(a / step - 1e-9) * step; v <= b + 1e-9 && out.length < 40; v += step) out.push(Math.abs(v) < step * 1e-6 ? 0 : v);
+    for (let v = Math.ceil(a / step - 1e-6) * step; v <= b + step * 1e-6 && out.length < 40; v += step) out.push(Math.abs(v) < step * 1e-6 ? 0 : v);
     return out;
   }
   const fmt = (v: number) => String(Number(v.toPrecision(3)));
