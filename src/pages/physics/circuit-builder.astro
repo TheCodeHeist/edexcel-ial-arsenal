@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/circuit/App.svelte';
+import '../../sims/circuit/circuit.css';
+---
+<Sim title="Circuit Builder" description="Build d.c. circuits, predict meter readings and plot I–V characteristics, for Edexcel IAL Physics.">
+  <App client:only="svelte" />
+</Sim>

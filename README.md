@@ -27,7 +27,7 @@ pnpm preview    # serve dist/
 | `src/components/` | Hub components: `ToolCard`, `ToolFinder`, `Art` |
 | `src/layouts/` | `Base.astro` (hub pages), `Sim.astro` (simulation pages) |
 | `src/sims/<name>/` | One folder per simulation: `data.ts` (chemistry data, pure), state (`*.svelte.ts`), Svelte views, its own CSS |
-| `src/pages/` | Routes: `/`, `/[subject]/`, `/about/`, `/chemistry/d-block-colour-bench/`, `/chemistry/carbon-alchemy/` |
+| `src/pages/` | Routes: `/`, `/[subject]/`, `/about/`, `/chemistry/d-block-colour-bench/`, `/chemistry/carbon-alchemy/`, `/physics/circuit-builder/` |
 | `design-system/` | The original design-system export and brand book (`DESIGN.md`) |
 
 ## Adding a simulation

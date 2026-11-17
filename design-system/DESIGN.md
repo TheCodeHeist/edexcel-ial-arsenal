@@ -134,6 +134,16 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **No reaction:** the slots shake, a grey puff rises, and a toast explains why.
 - **Identification tubes** sit on the white tile with animated colour changes, precipitates, silver mirror, bubbles, fumes and litmus strips.
 
+## 9b · Physics rules (Circuit Builder)
+
+- **Circuit symbols follow the Edexcel specification**: resistor as a rectangle, cell with a long (+) and short thick (−) plate, lamp as a circle with a cross, meters as circles with A / V, diode as a filled triangle and bar, thermistor and LDR as the resistor with their marks. Thin 2.8-unit strokes in `--ink`, bodies filled with `--solid` so moving charge passes *behind* them.
+- **The board is a dotted grid**, not the white tile: wires and symbols in `--ink`, junctions as solid dots, unconnected terminals as `--bad` rings. Display-only boards (Predict, Lab) crop to the circuit; on phones their labels are drawn 1.75× larger.
+- **Moving charge** is a line of dots along every wire and through every part: `--accent` for conventional current, `--cond` for electron flow (switchable, or off). Speed grows with the logarithm of the current. It stops under reduced motion.
+- **Light is colour from the palette:** a lit lamp glows `--amph` in proportion to its power; an LED glows in its own hue token (red `--redox`, yellow `--amph`, green `--acidbase`, blue `--accent`).
+- **Meter readings** are dark mono pills beside the meter's name, 3 significant figures, amps below 0.1 A in mA. A hidden reading is an accent pill with “?”.
+- **Numbers** carry an SI prefix and 3 significant figures (`25.3 mA`, `2.20 kΩ`); component labels drop trailing zeros (`2.2 kΩ`, `6 V`).
+- **Graphs** put the axes through the origin, use crosses for readings, a dashed `--accent` line for the true curve and a `--redox` line of best fit. Axis labels are written `I / A`, `V / V`, as on an exam paper.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.

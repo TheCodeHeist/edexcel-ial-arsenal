@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit';
 
 export interface Tool {
   slug: string;
@@ -43,6 +43,18 @@ export const TOOLS: Tool[] = [
     topics: ['Organic synthesis', 'Identification tests', 'Mechanisms'],
     art: 'sigil',
     href: '/chemistry/carbon-alchemy/',
+    added: '2026-11-17',
+  },
+  {
+    slug: 'circuit-builder',
+    subject: 'physics',
+    title: 'Circuit Builder',
+    blurb: 'Wire up cells, resistors, lamps, diodes, sensors and meters on a live board and watch the charge flow. Predict meter readings and plot I–V characteristics.',
+    kind: 'Simulation',
+    units: ['WPH12', 'WPH13'],
+    topics: ['Electric circuits', 'Potential dividers', 'E.m.f. and internal resistance', 'I–V characteristics'],
+    art: 'circuit',
+    href: '/physics/circuit-builder/',
     added: '2026-11-17',
   },
 ];

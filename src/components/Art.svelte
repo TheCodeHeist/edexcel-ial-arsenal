@@ -42,6 +42,18 @@
     {/each}
     <path d="M0 -54 C30 -42 30 -18 0 -6 S-30 30 0 42 S20 54 14 58" stroke="var(--acidbase)" stroke-width="2.8" />
     <path d="M0 -54 C-30 -42 -30 -18 0 -6 S30 30 0 42 S-20 54 -14 58" stroke="var(--accent)" stroke-width="2.8" />
+  {:else if name === 'circuit'}
+    <!-- a cell, a glowing lamp and a resistor in a loop, with charge moving round -->
+    <circle cx="30" cy="-34" r="20" fill="var(--amph)" fill-opacity=".22" stroke="none" />
+    <path d="M-44 -34 H18 M42 -34 H44 V36 H12 M-12 36 H-44 V-34" stroke="var(--ink)" stroke-opacity=".6" stroke-width="2.4" />
+    <circle cx="30" cy="-34" r="12" stroke="var(--ink)" stroke-opacity=".75" stroke-width="2.4" fill="color-mix(in srgb, var(--amph) 70%, var(--surf))" />
+    <path d="M21.5 -42.5 L38.5 -25.5 M21.5 -25.5 L38.5 -42.5" stroke="var(--ink)" stroke-opacity=".75" stroke-width="2" />
+    <rect x="-34" y="-41" width="30" height="14" rx="1.5" stroke="var(--accent)" stroke-width="2.6" fill="var(--solid)" />
+    <path d="M-4 22 V50 M4 29 V43" stroke="var(--accent)" stroke-width="2.6" />
+    <path d="M-12 36 H-4 M4 36 H12" stroke="var(--ink)" stroke-opacity=".6" stroke-width="2.4" />
+    {#each [[-44, 2], [44, -2], [-24, 36], [28, 36]] as [x, y]}
+      <circle cx={x} cy={y} r="3.4" fill="var(--redox)" />
+    {/each}
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />
