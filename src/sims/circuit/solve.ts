@@ -94,7 +94,8 @@ export interface Solution {
   converged: boolean;
   vc: Record<string, number>;          // capacitor p.d.s after this step, by part id
 }
-export interface SolveOpts { dt?: number; vc?: Record<string, number>; t?: number }
+/** lite: skip what only the display needs (wire currents, potentials at points), for the clock's inner time steps. */
+export interface SolveOpts { dt?: number; vc?: Record<string, number>; t?: number; lite?: boolean }
 export const acEmf = (P: { emf?: number; freq?: number }, t: number) => (P.emf ?? 0) * Math.sin(2 * Math.PI * (P.freq ?? 1) * t);
 
 /* ---------- union-find ---------- */
@@ -207,7 +208,8 @@ export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
     });
     const x = gauss(A, b);
     V = new Float64Array(N);
-    for (let i = 0; i < N; i++) if (row[i] >= 0) V[i] = x[row[i]];
+    // a numerical blow-up (it should not happen) must never reach the screen as NaN
+    for (let i = 0; i < N; i++) if (row[i] >= 0) V[i] = isFinite(x[row[i]]) ? Math.max(-1e6, Math.min(1e6, x[row[i]])) : 0;
     if (!hasNL) { converged = true; break; }
     let done = it > 0;
     els.forEach((x, j) => {
@@ -266,6 +268,10 @@ export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
     if (p.kind === 'led') R.bright = Math.min(1, Math.max(0, R.i / 0.015));
   }
 
+  const flows: Record<string, WireFlow[]> = {};
+  for (const w of c.wires) flows[w.id] = [];
+  if (opts.lite) return { parts, flows, nodeV: {}, netOf, shorts, converged, vc };
+
   /* 4. wire currents, net by net */
   const inj = new Map<string, number>();
   for (const p of c.parts) termPts.get(p.id)!.forEach((t, i) => inj.set(key(t), (inj.get(key(t)) ?? 0) + parts[p.id].out[i]));
@@ -277,8 +283,6 @@ export function solve(c: CircuitData, opts: SolveOpts = {}): Solution {
       if (len > 0) edges.push({ w: w.id, a, b, len, net: netOf[key(a)] });
     }
   }
-  const flows: Record<string, WireFlow[]> = {};
-  for (const w of c.wires) flows[w.id] = [];
   const byNet = new Map<number, typeof edges>();
   for (const e of edges) { if (!byNet.has(e.net)) byNet.set(e.net, []); byNet.get(e.net)!.push(e); }
   for (const es of byNet.values()) {

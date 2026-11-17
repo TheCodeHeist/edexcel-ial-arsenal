@@ -25,6 +25,10 @@
 .timebar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 14px 0;padding:8px 10px;border-radius:var(--r-md);background:var(--accent-soft)}
 .timebar .btn.primary{min-width:68px;justify-content:center}
 .clock{font:700 14px/1 var(--f-mono);font-variant-numeric:tabular-nums;min-width:10ch;margin-right:auto}
+.clock em{font:600 10.5px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;font-style:normal;color:var(--muted);margin-left:10px}
+.playbtn{min-width:96px;justify-content:center}
+.playbtn svg{width:14px;height:14px}
+.insp-err{margin:0 16px 10px}
 .scope{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin:-4px 0 14px}
 .scope>span{font:600 10.5px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .scopes{display:flex;flex-direction:column;gap:4px}
@@ -44,6 +48,13 @@
 .osc-screens.stack{grid-template-columns:minmax(0,1fr);gap:2px}
 .osc-screen{position:relative;min-width:0}
 .osc-t{position:absolute;left:60px;top:2px;font:700 11px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--cc,var(--muted))}
+
+/* While time runs the board redraws every frame, and a frosted panel has to be re-blurred whenever anything inside
+   it changes. So a Build view with a clock swaps its glass for solid fills, and the live regions get their own layers. */
+.layout.build.timed>.panel,.layout.build.timed .seg{-webkit-backdrop-filter:none;backdrop-filter:none}
+.layout.build.timed>.panel{background:linear-gradient(155deg,var(--sheen),transparent 42%),var(--solid)}
+.layout.build.timed .seg{background:var(--raised)}
+.layout.build.timed .board-box,.layout.build.timed .osc-wrap{contain:paint;isolation:isolate}
 
 /* parts bin */
 .bin{display:flex;flex-direction:column;gap:12px;padding:4px 10px 12px}

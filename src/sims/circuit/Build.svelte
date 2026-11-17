@@ -13,9 +13,9 @@
   import { num } from './format';
   import Scope from './Scope.svelte';
 
-  let { ed, sol, prefs, clock = null, hidden: off = false, example = $bindable('') }: {
+  let { ed, sol, prefs, clock = null, holding = $bindable(false), error = '', hidden: off = false, example = $bindable('') }: {
     ed: Editor; sol: Solution; prefs: { flow: Flow; values: boolean; zoom: number; zoomPhone: number; adv: boolean; scope: boolean; scopePins: string[]; scopeLayout: 'overlay' | 'stack' };
-    clock?: Clock | null; hidden?: boolean; example?: string;
+    clock?: Clock | null; holding?: boolean; error?: string; hidden?: boolean; example?: string;
   } = $props();
   const SPEEDS = [['0.1', '×0.1'], ['1', '×1'], ['10', '×10']] as const;
 
@@ -59,12 +59,14 @@
     else if ((e.key === 'Delete' || e.key === 'Backspace') && ed.sel) { e.preventDefault(); ed.remove(); }
     else if (e.key.toLowerCase() === 'r' && ed.sel?.t === 'part') { e.preventDefault(); ed.rotate(); }
     else if (e.key === 'Escape') ed.select(null);
+    else if (e.key === ' ' && clock) { e.preventDefault(); clock.playing = !clock.playing; }
   }
 </script>
 
-<svelte:window onkeydown={key} />
+<!-- pressing anywhere on the board or inspector holds the clock until the press ends -->
+<svelte:window onkeydown={key} onpointerup={() => (holding = false)} onpointercancel={() => (holding = false)} onblur={() => (holding = false)} />
 
-<main class="layout build" hidden={off}>
+<main class="layout build" class:timed={!!clock} hidden={off}>
   <section class="panel tray" aria-label="Parts bin">
     <div class="ph"><h2>Parts</h2></div>
     <Tray adv={prefs.adv} onadd={(k) => { ed.add(k); example = ''; }} ondrop={drop} onexample={loadExample} current={example} />
@@ -74,12 +76,18 @@
     <div class="stage-head">
       <div class="label-chip"><small>Board</small><span>{ed.c.parts.length} {ed.c.parts.length === 1 ? 'part' : 'parts'}</span></div>
       <div class="stage-tools">
+        {#if clock}
+          <button class="btn primary playbtn" type="button" onclick={() => (clock.playing = !clock.playing)} title="Play or pause time (Space)">
+            {#if clock.playing}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="3" stroke-linecap="round" /></svg>Pause
+            {:else}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z" fill="currentColor" /></svg>Play{/if}
+          </button>
+        {/if}
         <button class="btn" type="button" disabled={!ed.canUndo} onclick={() => ed.undo()} title="Undo (Ctrl+Z)">Undo</button>
         <button class="btn" type="button" disabled={!ed.canRedo} onclick={() => ed.redo()} title="Redo (Ctrl+Shift+Z)">Redo</button>
         <button class="btn" type="button" disabled={!ed.c.parts.length && !ed.c.wires.length} onclick={() => { ed.clear(); example = ''; }}>Clear</button>
       </div>
     </div>
-    <div class="board-box">
+    <div class="board-box" onpointerdowncapture={() => { if (clock) holding = true; }} role="presentation">
       <Board bind:this={board} c={ed.c} {sol} {ed} flow={prefs.flow} values={prefs.values} {zoom} label="Circuit board: {ed.c.parts.map((p) => p.name).join(', ') || 'empty'}" />
       {#if shortNames.length}
         <div class="bwarn" role="alert">Short circuit across {shortNames.join(', ')}</div>
@@ -89,9 +97,8 @@
     </div>
     {#if clock}
       <div class="timebar" role="group" aria-label="Time">
-        <button class="btn primary" type="button" onclick={() => (clock.playing = !clock.playing)}>{clock.playing ? 'Pause' : 'Play'}</button>
         <Seg label="Speed" options={SPEEDS} value={String(clock.speed) as '0.1' | '1' | '10'} onchange={(v) => (clock.speed = Number(v))} />
-        <span class="clock">t = {clock.t < 100 ? clock.t.toFixed(1) : num(clock.t)} s</span>
+        <span class="clock">t = {clock.t < 100 ? clock.t.toFixed(1) : num(clock.t)} s{#if !clock.playing}<em>paused</em>{:else if holding}<em>held while you edit</em>{/if}</span>
         <button class="btn" type="button" onclick={() => clock.reset()} title="Discharge every capacitor and set t back to 0">Discharge all</button>
       </div>
     {/if}
@@ -114,6 +121,10 @@
 
   <section class="panel inspector" aria-label="Inspector">
     <div class="ph"><h2>Inspector</h2></div>
+    {#if error}<p class="warn insp-err">{error}</p>{/if}
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <div onpointerdown={(e) => { if (clock && (e.target as Element).closest('input,.seg,.fchip')) holding = true; }}>
     <Inspector {ed} {sol} {clock} bind:pins={prefs.scopePins} onpin={() => (prefs.scope = true)} />
+    </div>
   </section>
 </main>

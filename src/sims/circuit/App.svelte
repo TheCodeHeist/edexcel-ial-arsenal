@@ -29,22 +29,35 @@
   const clock = new Clock();
   // time runs with a capacitor or an a.c. supply on the board, or while the oscilloscope is open
   const timed = $derived(hasCaps(board) || hasAC(board) || prefs.scope);
-  const sol = $derived(timed && clock.sol ? clock.sol : solve(board));
+  // while the board or inspector is being used the clock holds (Build sets this), as it does when paused
+  let holding = $state(false);
+  const frozen = $derived(!clock.playing || holding);
+  let tickError = $state('');
+  // frozen: solve once per edit at the current instant; running: the animation loop provides each frame's solution
+  const still = $derived(timed && frozen ? clock.still(board) : null);
+  const sol = $derived(timed ? (still ?? clock.sol ?? clock.still(board)) : solve(board));
 
   let mode = $state<Mode>('build');
   let sub = $state<'iv' | 'emf' | 'cap'>('iv');
 
-  // while time runs: one solve per animation frame (plus substeps) while Build is open
+  // while time runs: one solve per animation frame (plus substeps) while Build is open and nothing holds it
   $effect(() => {
-    if (!timed || mode !== 'build') return;
+    if (!timed || mode !== 'build' || frozen) return;
     let raf = 0, last = performance.now();
     const loop = (now: number) => {
-      clock.tick($state.snapshot(board) as CircuitData, (now - last) / 1000, ed.sel?.t === 'part' ? ed.sel.id : null);
+      try {
+        clock.tick($state.snapshot(board) as CircuitData, (now - last) / 1000, ed.sel?.t === 'part' ? ed.sel.id : null);
+      } catch (e) {
+        // never let a bad step take the page down: stop time and say so
+        console.error(e); clock.playing = false; tickError = 'The simulation hit a problem and was paused. Undo the last change, or press Play to try again.';
+        return;
+      }
       last = now; raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(raf);
   });
+  $effect(() => { if (clock.playing) tickError = ''; });
   // switching Unit 4 off leaves nothing pointing at the capacitor practical
   $effect(() => { if (!prefs.adv && sub === 'cap') sub = 'iv'; });
   const views: Record<Mode, HTMLElement | undefined> = $state({ build: undefined, predict: undefined, lab: undefined });
@@ -96,6 +109,6 @@
   <Seg label="Syllabus" options={[['core', 'Units 2 & 3'], ['adv', '+ Unit 4: capacitors', '+ Capacitors']]} value={prefs.adv ? 'adv' : 'core'} onchange={(v) => (prefs.adv = v === 'adv')} />
 </div>
 
-<div bind:this={views.build}><Build {ed} {sol} {prefs} clock={timed ? clock : null} bind:example={board.example} hidden={mode !== 'build'} /></div>
+<div bind:this={views.build}><Build {ed} {sol} {prefs} clock={timed ? clock : null} bind:holding error={tickError} bind:example={board.example} hidden={mode !== 'build'} /></div>
 <div bind:this={views.predict}><Predict {score} flow={prefs.flow} adv={prefs.adv} hidden={mode !== 'predict'} /></div>
 <div bind:this={views.lab}><Lab bind:sub flow={prefs.flow} adv={prefs.adv} hidden={mode !== 'lab'} onfit={() => score.cells++} oncap={() => score.caps++} /></div>

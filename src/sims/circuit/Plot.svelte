@@ -12,16 +12,19 @@
 
   const W = 520, ML = 54, MR = 18, MT = 18, MB = 42;
   const H = $derived(h);
+  const ok = $derived(isFinite(xr[0]) && isFinite(xr[1]) && xr[1] > xr[0] && isFinite(yr[0]) && isFinite(yr[1]) && yr[1] > yr[0]);
   const sx = (x: number) => ML + ((x - xr[0]) / (xr[1] - xr[0])) * (W - ML - MR);
   const sy = (y: number) => H - MB - ((y - yr[0]) / (yr[1] - yr[0])) * (H - MT - MB);
   const inX = (x: number) => x >= xr[0] - 1e-9 && x <= xr[1] + 1e-9;
   const inY = (y: number) => y >= yr[0] - 1e-9 && y <= yr[1] + 1e-9;
 
   function ticks([a, b]: [number, number]) {
+    // an empty or invalid range would make the loop below run for ever: no ticks instead
+    if (!isFinite(a) || !isFinite(b) || b - a <= 0) return [];
     const raw = (b - a) / 6, p = Math.pow(10, Math.floor(Math.log10(raw)));
     const step = ([1, 2, 2.5, 5, 10].find((k) => k * p >= raw) ?? 10) * p;
     const out: number[] = [];
-    for (let v = Math.ceil(a / step - 1e-9) * step; v <= b + 1e-9; v += step) out.push(Math.abs(v) < step * 1e-6 ? 0 : v);
+    for (let v = Math.ceil(a / step - 1e-9) * step; v <= b + 1e-9 && out.length < 40; v += step) out.push(Math.abs(v) < step * 1e-6 ? 0 : v);
     return out;
   }
   const fmt = (v: number) => String(Number(v.toPrecision(3)));
@@ -41,6 +44,7 @@
 </script>
 
 <svg class="plot" viewBox="0 0 {W} {H}" role="img" aria-label={label}>
+{#if ok}
   {#each ticks(xr) as t (t)}
     <line class="gl" x1={sx(t)} x2={sx(t)} y1={MT} y2={H - MB} />
     <text class="tk" x={sx(t)} y={Math.min(H - MB, oy) + 16} text-anchor="middle">{t === 0 && inY(0) && inX(0) ? '' : fmt(t)}</text>
@@ -61,6 +65,7 @@
     {#if inX(p.x) && inY(p.y)}<path class="pt" d="M{sx(p.x) - 5} {sy(p.y) - 5}l10 10m0 -10l-10 10" />{/if}
   {/each}
   {#if now && inX(now.x) && inY(now.y)}<circle class="now" cx={sx(now.x)} cy={sy(now.y)} r="7" />{/if}
+{/if}
 </svg>
 
 <style>
