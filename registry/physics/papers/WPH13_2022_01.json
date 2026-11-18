@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) The light gate was connected to a data logger. The data logger recorded the time taken for the card to pass through the light gate. Describe how the student could determine the velocity v of the trolley as it passed through the light gate. (2)"
+     "text": "(a) The light gate was connected to a data logger. The data logger recorded the time taken for the card to pass through the light gate. Describe how the student could determine the velocity v of the trolley as it passed through the light gate. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
@@ -127,7 +128,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean value for v and the percentage uncertainty in v. (3)"
+     "text": "(i) Calculate the mean value for v and the percentage uncertainty in v. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(ii)",
@@ -177,7 +179,8 @@
        }
       }
      ],
-     "text": "(ii) The student measured the distance s that the trolley travelled on the ramp. Determine the acceleration of the trolley on the ramp. s = 1.50 m (2)"
+     "text": "(ii) The student measured the distance s that the trolley travelled on the ramp. Determine the acceleration of the trolley on the ramp. s = 1.50 m (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(iii)",
@@ -227,10 +230,11 @@
        }
       }
      ],
-     "text": "(iii) A second student carried out the same experiment and determined a similar value for the acceleration of the trolley on the ramp. State why this does not show that the results are reproducible. (1)"
+     "text": "(iii) A second student carried out the same experiment and determined a similar value for the acceleration of the trolley on the ramp. State why this does not show that the results are reproducible. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_01_q2",
@@ -254,7 +258,7 @@
     {
      "label": "2(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -285,7 +289,8 @@
        }
       }
      ],
-     "text": "(a) The student built a circuit to vary the power of the bulb. The student used an ammeter and voltmeter to determine the power of the bulb. Draw a circuit diagram that the student could have used. (2)"
+     "text": "(a) The student built a circuit to vary the power of the bulb. The student used an ammeter and voltmeter to determine the power of the bulb. Draw a circuit diagram that the student could have used. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -321,7 +326,8 @@
        }
       }
      ],
-     "text": "(b) The student shone the light from the bulb onto a light dependent resistor (LDR). The student measured the resistance of the LDR using an ohmmeter. The student plotted a graph of the resistance of the LDR against the power of the bulb. Describe how the student could have obtained the set of data required to plot the graph. Your description should include how to ensure that the data is accurate. (4)"
+     "text": "(b) The student shone the light from the bulb onto a light dependent resistor (LDR). The student measured the resistance of the LDR using an ohmmeter. The student plotted a graph of the resistance of the LDR against the power of the bulb. Describe how the student could have obtained the set of data required to plot the graph. Your description should include how to ensure that the data is accurate. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -357,10 +363,11 @@
        }
       }
      ],
-     "text": "(c) The LDR is connected to the ohmmeter using two connecting wires. The ohmmeter reading includes the resistance of the two connecting wires. State why the student does not need to correct this reading. (1)"
+     "text": "(c) The LDR is connected to the ohmmeter using two connecting wires. The ohmmeter reading includes the resistance of the two connecting wires. State why the student does not need to correct this reading. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_01_q3",
@@ -415,7 +422,8 @@
        }
       }
      ],
-     "text": "(a) Describe how the student could determine θ using a metre rule. (2)"
+     "text": "(a) Describe how the student could determine θ using a metre rule. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -451,7 +459,8 @@
        }
       }
      ],
-     "text": "(b) Describe how the student could check that the bracket was horizontal. (1)"
+     "text": "(b) Describe how the student could check that the bracket was horizontal. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -487,7 +496,8 @@
        }
       }
      ],
-     "text": "(c) The student adjusted the position of the mass and measured x. For each value of x the student made corresponding measurements of F using a force meter. The results are shown in the table. x / cm Mean F / N 5 2 10 2.6 15 3.3 20 4.4 25 5.3 30 6.2 35 7 40 8.1 45 8.8 Criticise the recording of these results. (3)"
+     "text": "(c) The student adjusted the position of the mass and measured x. For each value of x the student made corresponding measurements of F using a force meter. The results are shown in the table. x / cm Mean F / N 5 2 10 2.6 15 3.3 20 4.4 25 5.3 30 6.2 35 7 40 8.1 45 8.8 Criticise the recording of these results. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)(i)",
@@ -537,12 +547,13 @@
        }
       }
      ],
-     "text": "(i) The relationship between F and x is mgx W F = + l θ θ sin 2sin where l is the length of the bracket m is the mass hung from the bracket. Determine a value for W using the graph. θ = 42° (3)"
+     "text": "(i) The relationship between F and x is mgx W F = + l θ θ sin 2sin where l is the length of the bracket m is the mass hung from the bracket. Determine a value for W using the graph. θ = 42° (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(d)(ii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -587,10 +598,11 @@
        }
       }
      ],
-     "text": "(ii) The value of g obtained from the graph is 9.64 m s–2. The student concluded that the value of g obtained is accurate. Evaluate the student’s conclusion. (2)"
+     "text": "(ii) The value of g obtained from the graph is 9.64 m s–2. The student concluded that the value of g obtained is accurate. Evaluate the student’s conclusion. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_01_q4",
@@ -614,7 +626,7 @@
     {
      "label": "4(a)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -671,7 +683,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of R on the y-axis against 1 / w on the x-axis. Use the additional column of the table for your processed data. (6)"
+     "text": "(i) Plot a graph of R on the y-axis against 1 / w on the x-axis. Use the additional column of the table for your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -721,7 +734,8 @@
        }
       }
      ],
-     "text": "(ii) Determine t using data from the graph. ρ = 4.0 × 103 Ω m L = 10.0 cm (3)"
+     "text": "(ii) Determine t using data from the graph. ρ = 4.0 × 103 Ω m L = 10.0 cm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -771,12 +785,13 @@
        }
       }
      ],
-     "text": "(i) Explain why this method gives a value for t with low uncertainty. (2)"
+     "text": "(i) Explain why this method gives a value for t with low uncertainty. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -821,10 +836,14 @@
        }
       }
      ],
-     "text": "(ii) The value of t obtained using this method was 0.80 mm with an uncertainty of 2%. Deduce whether this value is consistent with the value of t obtained from the graph. (2)"
+     "text": "(ii) The value of t obtained using this method was 0.80 mm with an uncertainty of 2%. Deduce whether this value is consistent with the value of t obtained from the graph. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "4(a)(i): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2022_01_q5",
@@ -879,12 +898,13 @@
        }
       }
      ],
-     "text": "(a) (i) Determine the speed of sound in air. distance between microphones = 1.25 m (4)"
+     "text": "(a) (i) Determine the speed of sound in air. distance between microphones = 1.25 m (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "5(a)(ii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -915,7 +935,8 @@
        }
       }
      ],
-     "text": "(ii) The student then attached the microphones to the piece of wood so they detected the sound passing along the wood. The distance between the microphones was 1.25 m. The student adjusted the dial on the oscilloscope to 20 μs per division to display the traces from the microphones. A teacher commented that this was not the correct setting. Justify the teacher’s comment. The piece of wood is made of oak. The speed of sound in oak is approximately 4000 m s–1. (3)"
+     "text": "(ii) The student then attached the microphones to the piece of wood so they detected the sound passing along the wood. The distance between the microphones was 1.25 m. The student adjusted the dial on the oscilloscope to 20 μs per division to display the traces from the microphones. A teacher commented that this was not the correct setting. Justify the teacher’s comment. The piece of wood is made of oak. The speed of sound in oak is approximately 4000 m s–1. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(b)",
@@ -951,12 +972,13 @@
        }
       }
      ],
-     "text": "(b) The student tried the same experiment using a rubber hammer. The rubber hammer compressed as it hit the wood making a sound that lasted for a longer time. Explain the effect that using the rubber hammer had on the accuracy of the time determined. (2)"
+     "text": "(b) The student tried the same experiment using a rubber hammer. The rubber hammer compressed as it hit the wood making a sound that lasted for a longer time. Explain the effect that using the rubber hammer had on the accuracy of the time determined. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(c)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -987,10 +1009,11 @@
        }
       }
      ],
-     "text": "(c) The student was given the following equation and data to find a value for the speed of sound in oak. E v = ρ Young modulus E of oak = 11.2 GPa ± 0.5 GPa Density ρ of oak = 650 kg m–3 with an uncertainty of 3% Assess which of these values was the more significant source of uncertainty in the value of the speed of sound. (2)"
+     "text": "(c) The student was given the following equation and data to find a value for the speed of sound in oak. E v = ρ Young modulus E of oak = 11.2 GPa ± 0.5 GPa Density ρ of oak = 650 kg m–3 with an uncertainty of 3% Assess which of these values was the more significant source of uncertainty in the value of the speed of sound. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

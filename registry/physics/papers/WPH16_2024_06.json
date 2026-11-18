@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) State two safety precautions the student should take when connecting and using the circuit. (2)"
+     "text": "(a) State two safety precautions the student should take when connecting and using the circuit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The student used the switch in position 1 to charge the capacitor. The student changed the switch to position 2 to discharge the capacitor through the motor. As the capacitor discharged, the motor raised a small mass m through a height h, as shown. motor connected in circuit string stand m bench h The student used a metre rule to measure h. Describe an accurate method to determine a single value of h using a metre rule. You may include additional apparatus. (3)"
+     "text": "(b) The student used the switch in position 1 to charge the capacitor. The student changed the switch to position 2 to discharge the capacitor through the motor. As the capacitor discharged, the motor raised a small mass m through a height h, as shown. motor connected in circuit string stand m bench h The student used a metre rule to measure h. Describe an accurate method to determine a single value of h using a metre rule. You may include additional apparatus. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean value of h. (1)"
+     "text": "(i) Calculate the mean value of h. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(ii)",
@@ -213,7 +216,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of h. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of h. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(iii)",
@@ -263,10 +267,11 @@
        }
       }
      ],
-     "text": "(iii) Determine the efficiency of the electric motor. maximum potential difference across capacitor = 6 V capacitance of capacitor = 4700 μF m = 20 g (3)"
+     "text": "(iii) Determine the efficiency of the electric motor. maximum potential difference across capacitor = 6 V capacitance of capacitor = 4700 μF m = 20 g (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2024_06_q2",
@@ -321,12 +326,13 @@
        }
       }
      ],
-     "text": "(a) Show that the formula gives the unit for η as N s m –2. (2)"
+     "text": "(a) Show that the formula gives the unit for η as N s m –2. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -357,7 +363,8 @@
        }
       }
      ],
-     "text": "(b) The student used a metre rule to measure L and a stopwatch to measure t. He adjusted the water tap to give a constant flow of water. Describe a method to determine an accurate value for η. Your method should use a suitable graph. (6)"
+     "text": "(b) The student used a metre rule to measure L and a stopwatch to measure t. He adjusted the water tap to give a constant flow of water. Describe a method to determine an accurate value for η. Your method should use a suitable graph. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -393,10 +400,11 @@
        }
       }
      ],
-     "text": "(c) The mass balance can be connected to a data logger. The data logger records the mass shown on the balance. Give two reasons why using a data logger would improve this investigation. (2)"
+     "text": "(c) The mass balance can be connected to a data logger. The data logger records the mass shown on the balance. Give two reasons why using a data logger would improve this investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2024_06_q3",
@@ -451,7 +459,8 @@
        }
       }
      ],
-     "text": "(a) The student used a stopwatch to determine the time period T of the rotational oscillations. Describe how the student should determine an accurate value for T. (3)"
+     "text": "(a) The student used a stopwatch to determine the time period T of the rotational oscillations. Describe how the student should determine an accurate value for T. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -501,7 +510,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of log T against log M can be used to determine the value of b. (2)"
+     "text": "(i) Explain how a graph of log T against log M can be used to determine the value of b. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -525,7 +535,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2024_06/q3_b_ii.webp",
+       "src": "physics/WPH16_2024_06/q3_b_ii_1.webp",
        "w": 1090,
        "h": 672,
        "region": {
@@ -534,6 +544,18 @@
         "y0": 57.2,
         "x1": 559.0,
         "y1": 379.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2024_06/q3_b_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -551,7 +573,8 @@
        }
       }
      ],
-     "text": "(ii) The student varied M and determined the corresponding values of T. She recorded the following data. M / kg T / s 0.200 1.46 0.300 1.86 0.400 2.14 0.500 2.36 0.600 2.63 0.700 2.88 Plot a graph of log T against log M on the grid opposite. Use the additional columns for your processed data. (6)"
+     "text": "(ii) The student varied M and determined the corresponding values of T. She recorded the following data. M / kg T / s 0.200 1.46 0.300 1.86 0.400 2.14 0.500 2.36 0.600 2.63 0.700 2.88 Plot a graph of log T against log M on the grid opposite. Use the additional columns for your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(iii)",
@@ -601,7 +624,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the gradient of the graph. (3)"
+     "text": "(iii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
@@ -625,7 +649,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2024_06/q3_b_iv_1.webp",
+       "src": "physics/WPH16_2024_06/q3_b_iv.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -634,18 +658,6 @@
         "y0": 560.9,
         "x1": 559.0,
         "y1": 596.3
-       }
-      },
-      {
-       "src": "physics/WPH16_2024_06/q3_b_iv_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 11,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -663,10 +675,14 @@
        }
       }
      ],
-     "text": "(iv) Determine the value of a. (3)"
+     "text": "(iv) Determine the value of a. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(ii): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2024_06_q4",
@@ -721,7 +737,8 @@
        }
       }
      ],
-     "text": "(a) (i) The student used a micrometer screw gauge to measure the thickness t of the plastic protractor. Explain one technique she should use when measuring t. (2)"
+     "text": "(a) (i) The student used a micrometer screw gauge to measure the thickness t of the plastic protractor. Explain one technique she should use when measuring t. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -757,7 +774,8 @@
        }
       }
      ],
-     "text": "(ii) The student determined a value of t as 1.41 mm. Explain why a micrometer screw gauge is an appropriate instrument for this measurement. Your answer should include a calculation. (2)"
+     "text": "(ii) The student determined a value of t as 1.41 mm. Explain why a micrometer screw gauge is an appropriate instrument for this measurement. Your answer should include a calculation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -807,7 +825,8 @@
        }
       }
      ],
-     "text": "(i) Show that V is about 6.2 cm 3. (2)"
+     "text": "(i) Show that V is about 6.2 cm 3. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -857,7 +876,8 @@
        }
       }
      ],
-     "text": "3. (ii) Show that the uncertainty in V is about 0.2 cm (4)"
+     "text": "3. (ii) Show that the uncertainty in V is about 0.2 cm (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
@@ -893,10 +913,15 @@
        }
       }
      ],
-     "text": "–3 with a percentage (c) The student determined the density of the plastic as 1.04 g cm uncertainty of 3%. –3. The accepted value of the density of Perspex is 1.18 g cm Explain whether the student’s measurements suggest that the protractor could be made of Perspex. Your answer should include a calculation. (2)"
+     "text": "–3 with a percentage (c) The student determined the density of the plastic as 1.04 g cm uncertainty of 3%. –3. The accepted value of the density of Perspex is 1.18 g cm Explain whether the student’s measurements suggest that the protractor could be made of Perspex. Your answer should include a calculation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "4(b)(ii): text doesn't start at its label",
+    "4(c): text doesn't start at its label"
+   ]
   }
  ]
 }

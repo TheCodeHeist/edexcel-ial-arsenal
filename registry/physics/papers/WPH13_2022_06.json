@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Determine the average volume of one of the coins. (4)"
+     "text": "(a) Determine the average volume of one of the coins. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The mass of the 20 coins shown is 196 g. Determine the average density of the coins. (2)"
+     "text": "(b) The mass of the 20 coins shown is 196 g. Determine the average density of the coins. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -149,7 +151,8 @@
        }
       }
      ],
-     "text": "(c) Determine whether the coins could be made from brass. density of brass = 8550 kg m–3 ± 2% (2)"
+     "text": "(c) Determine whether the coins could be made from brass. density of brass = 8550 kg m–3 ± 2% (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(d)",
@@ -185,10 +188,11 @@
        }
       }
      ],
-     "text": "(d) The surfaces of the coins are uneven, which introduces a systematic error. Describe an alternative method the student could have used to determine the average volume of one of the coins, which would avoid this error. Your description should include details of how any measuring equipment is used. (4)"
+     "text": "(d) The surfaces of the coins are uneven, which introduces a systematic error. Describe an alternative method the student could have used to determine the average volume of one of the coins, which would avoid this error. Your description should include details of how any measuring equipment is used. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_06_q2",
@@ -243,7 +247,8 @@
        }
       }
      ],
-     "text": "(a) When the measured value of θ1 is 35°, the measured value of θ2 is 62°. Calculate the percentage uncertainty in each of these values. (3)"
+     "text": "(a) When the measured value of θ1 is 35°, the measured value of θ2 is 62°. Calculate the percentage uncertainty in each of these values. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(i)",
@@ -293,7 +298,8 @@
        }
       }
      ],
-     "text": "(i) Explain why the gradient of this graph can be used to determine the refractive index of the transparent material. (3)"
+     "text": "(i) Explain why the gradient of this graph can be used to determine the refractive index of the transparent material. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(ii)",
@@ -343,7 +349,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the refractive index of the transparent material. (2)"
+     "text": "(ii) Determine the refractive index of the transparent material. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
@@ -379,10 +386,11 @@
        }
       }
      ],
-     "text": "(c) The line of best fit on the graph does not pass through the origin. Describe a possible cause for this error, and how the student could reduce the effect of this error. (2)"
+     "text": "(c) The line of best fit on the graph does not pass through the origin. Describe a possible cause for this error, and how the student could reduce the effect of this error. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_06_q3",
@@ -406,7 +414,7 @@
     {
      "label": "3(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -437,7 +445,8 @@
        }
       }
      ],
-     "text": "(a) The student determined R using a circuit that included an ammeter and a voltmeter. Draw a circuit the student could have used. (2)"
+     "text": "(a) The student determined R using a circuit that included an ammeter and a voltmeter. Draw a circuit the student could have used. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -473,12 +482,13 @@
        }
       }
      ],
-     "text": "(b) She varied I by varying the distance d between the LDR and a filament bulb. Describe a method the student could have used to obtain accurate values for R and d. (3)"
+     "text": "(b) She varied I by varying the distance d between the LDR and a filament bulb. Describe a method the student could have used to obtain accurate values for R and d. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -509,7 +519,8 @@
        }
       }
      ],
-     "text": "(c) Sketch the relationship between I and d on the axes below. (2) I d"
+     "text": "(c) Sketch the relationship between I and d on the axes below. (2) I d",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)",
@@ -545,7 +556,8 @@
        }
       }
      ],
-     "text": "(d) The student calculated the intensity of light incident on the LDR at each value of d. The output power of the filament lamp was 9.0 W. Calculate the intensity of the light incident on the LDR when d is 20 cm. (3)"
+     "text": "(d) The student calculated the intensity of light incident on the LDR at each value of d. The output power of the filament lamp was 9.0 W. Calculate the intensity of the light incident on the LDR when d is 20 cm. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(e)(i)",
@@ -581,7 +593,8 @@
        }
       }
      ],
-     "text": "(e) (i) Identify one control variable in this investigation. (1)"
+     "text": "(e) (i) Identify one control variable in this investigation. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(e)(ii)",
@@ -617,10 +630,14 @@
        }
       }
      ],
-     "text": "(ii) State how this variable can be controlled. (1)"
+     "text": "(ii) State how this variable can be controlled. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(c): text after the marks"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2022_06_q4",
@@ -675,7 +692,8 @@
        }
       }
      ],
-     "text": "(a) For each value of H, the student released the sphere from the same position on the track. Explain why this ensured the sphere always reached the end of the track with the same horizontal speed. (3)"
+     "text": "(a) For each value of H, the student released the sphere from the same position on the track. Explain why this ensured the sphere always reached the end of the track with the same horizontal speed. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -711,12 +729,13 @@
        }
       }
      ],
-     "text": "(b) The student derived the following equation for the relationship between D and H 2 2 v 2 D = g H where v is the horizontal velocity of the sphere at the end of the track. She recorded her results in a table. H / m D / m 0.2 0.38 0.35 0.53 0.5 0.63 0.75 0.76 1 0.89 1.2 0.96 Criticise the recording of these results. (2)"
+     "text": "(b) The student derived the following equation for the relationship between D and H 2 2 v 2 D = g H where v is the horizontal velocity of the sphere at the end of the track. She recorded her results in a table. H / m D / m 0.2 0.38 0.35 0.53 0.5 0.63 0.75 0.76 1 0.89 1.2 0.96 Criticise the recording of these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -747,7 +766,8 @@
        }
       }
      ],
-     "text": "(c) (i) Plot a graph of D2 on the y‑axis against H on the x‑axis. Use the additional column of the table for your processed data. (6)"
+     "text": "(c) (i) Plot a graph of D2 on the y‑axis against H on the x‑axis. Use the additional column of the table for your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(ii)",
@@ -783,7 +803,8 @@
        }
       }
      ],
-     "text": "(ii) The gradient of the graph is equal to 2 2 v g Determine the value of v using your graph. (3)"
+     "text": "(ii) The gradient of the graph is equal to 2 2 v g Determine the value of v using your graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iii)",
@@ -819,10 +840,11 @@
        }
       }
      ],
-     "text": "(iii) The student used a light gate and data logger to measure v. The measured value was 1.98 m s–1. Comment on the value of v determined using your graph. (2)"
+     "text": "(iii) The student used a light gate and data logger to measure v. The measured value was 1.98 m s–1. Comment on the value of v determined using your graph. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

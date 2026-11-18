@@ -92,7 +92,8 @@
        }
       }
      ],
-     "text": "(i) Describe a method to accurately determine the thickness of one sheet of paper. (4)"
+     "text": "(i) Describe a method to accurately determine the thickness of one sheet of paper. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -142,7 +143,8 @@
        }
       }
      ],
-     "text": "(ii) The students measure the height as 60.00 mm Determine the percentage uncertainty in their measurement of the height. (2)"
+     "text": "(ii) The students measure the height as 60.00 mm Determine the percentage uncertainty in their measurement of the height. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(i)",
@@ -192,7 +194,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean values of width and length. (3)"
+     "text": "(i) Determine the mean values of width and length. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(ii)",
@@ -242,7 +245,8 @@
        }
       }
      ],
-     "text": "(ii) The students measured the mass of the packet of paper with a balance as 2.070 kg –3 Determine the density of the paper in gcm (2)"
+     "text": "(ii) The students measured the mass of the packet of paper with a balance as 2.070 kg –3 Determine the density of the paper in gcm (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(iii)",
@@ -292,10 +296,14 @@
        }
       }
      ],
-     "text": "(iii) Identify a potential source of systematic error in the measurement of the mass. (1)"
+     "text": "(iii) Identify a potential source of systematic error in the measurement of the mass. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "1(a)(i): mark scheme pairing by fallback (the mark scheme calls it 1(a))"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2025_10_A_q2",
@@ -364,7 +372,8 @@
        }
       }
      ],
-     "text": "(i) State a reason for connecting both loudspeakers to the same signal generator. (1)"
+     "text": "(i) State a reason for connecting both loudspeakers to the same signal generator. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(a)(ii)",
@@ -414,7 +423,8 @@
        }
       }
      ],
-     "text": "(ii) Identify a health and safety issue for the student and how it may be dealt with. (2)"
+     "text": "(ii) Identify a health and safety issue for the student and how it may be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -464,7 +474,8 @@
        }
       }
      ],
-     "text": "(i) Determine an accurate value for the separation w of the maxima. (3)"
+     "text": "(i) Determine an accurate value for the separation w of the maxima. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(ii)",
@@ -514,7 +525,8 @@
        }
       }
      ],
-     "text": "(ii) The relationship between w and the wavelength λ of the sound waves is given by λD w O s where D is the perpendicular distance between the loudspeakers and the line AB, and s is the separation of the loudspeakers. Determine the value of λ. D = 4.0 m s = 110 cm (2)"
+     "text": "(ii) The relationship between w and the wavelength λ of the sound waves is given by λD w O s where D is the perpendicular distance between the loudspeakers and the line AB, and s is the separation of the loudspeakers. Determine the value of λ. D = 4.0 m s = 110 cm (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)(i)",
@@ -564,7 +576,8 @@
        }
       }
      ],
-     "text": "(i) To determine an accurate value for the speed of sound, the student would need to use other apparatus. Explain what other apparatus the student would need. (2)"
+     "text": "(i) To determine an accurate value for the speed of sound, the student would need to use other apparatus. Explain what other apparatus the student would need. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)(ii)",
@@ -614,10 +627,11 @@
        }
       }
      ],
-     "text": "(ii) On a humid day, the speed of sound in air increases. Explain how an increase in the speed of sound would affect the value of w for this investigation. (2)"
+     "text": "(ii) On a humid day, the speed of sound in air increases. Explain how an increase in the speed of sound would affect the value of w for this investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_10_A_q3",
@@ -641,7 +655,7 @@
     {
      "label": "3(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -672,7 +686,8 @@
        }
       }
      ],
-     "text": "(a) The motor was connected in a circuit including a battery and a switch. The student connected additional components to determine the power of the motor. Complete the circuit diagram in the answer book for the circuit the student should use. M motor (2)"
+     "text": "(a) The motor was connected in a circuit including a battery and a switch. The student connected additional components to determine the power of the motor. Complete the circuit diagram in the answer book for the circuit the student should use. M motor (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -722,7 +737,8 @@
        }
       }
      ],
-     "text": "(i) Describe how she should measure a single value of the height gained as accurately as possible. You should include the use of any additional apparatus needed. (4)"
+     "text": "(i) Describe how she should measure a single value of the height gained as accurately as possible. You should include the use of any additional apparatus needed. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -772,7 +788,8 @@
        }
       }
      ],
-     "text": "(ii) Explain why repeat measurements are appropriate for this measurement. (2)"
+     "text": "(ii) Explain why repeat measurements are appropriate for this measurement. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -808,10 +825,11 @@
        }
       }
      ],
-     "text": "(c) Explain how the measurements made by the student should be used to determine the efficiency of the motor as it lifts the mass. (3)"
+     "text": "(c) Explain how the measurements made by the student should be used to determine the efficiency of the motor as it lifts the mass. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_10_A_q4",
@@ -866,7 +884,8 @@
        }
       }
      ],
-     "text": "(a) Explain why a graph of Va against 1/λ should give a straight line. (3)"
+     "text": "(a) Explain why a graph of Va against 1/λ should give a straight line. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -916,12 +935,13 @@
        }
       }
      ],
-     "text": "(i) Complete the table in the answer book with the corresponding values of 1/λ. (2)"
+     "text": "(i) Complete the table in the answer book with the corresponding values of 1/λ. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -978,7 +998,8 @@
        }
       }
      ],
-     "text": "(ii) Plot a graph of Va on the y‑axis against 1/λ on the x‑axis. (5)"
+     "text": "(ii) Plot a graph of Va on the y‑axis against 1/λ on the x‑axis. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(iii)",
@@ -1028,12 +1049,13 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of the Planck constant given by the student’s data. (3)"
+     "text": "(iii) Determine the value of the Planck constant given by the student’s data. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iv)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1078,10 +1100,11 @@
        }
       }
      ],
-     "text": "(iv) The student states that the value for the Planck constant obtained from the graph is accurate. Evaluate the student’s statement. (2)"
+     "text": "(iv) The student states that the value for the Planck constant obtained from the graph is accurate. Evaluate the student’s statement. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

@@ -65,10 +65,12 @@
        }
       }
      ],
-     "text": "1 An engine is used to remove water from a mine. The engine transfers energy to the water at a rate of 180 kW and wastes energy at a rate of 60 kW. Which of the following expressions gives the efficiency of the engine? A 180 240 60 B 240 60 C 180 D 180 300"
+     "text": "1 An engine is used to remove water from a mine. The engine transfers energy to the water at a rate of 180 kW and wastes energy at a rate of 60 kW. Which of the following expressions gives the efficiency of the engine? A 180 240 60 B 240 60 C 180 D 180 300",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q2",
@@ -111,10 +113,12 @@
        }
       }
      ],
-     "text": "2 The graph shows how the velocity of an object varies with time. Velocity Time Which of the following describes the motion of the object? A constant acceleration B constant displacement C decreasing acceleration D decreasing displacement"
+     "text": "2 The graph shows how the velocity of an object varies with time. Velocity Time Which of the following describes the motion of the object? A constant acceleration B constant displacement C decreasing acceleration D decreasing displacement",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q3",
@@ -157,10 +161,12 @@
        }
       }
      ],
-     "text": "3 An object is moving through a fluid. Which row of the table states the conditions which must be met for Stokes’ law to apply? Size of object Shape of object Type of flow A any any turbulent B any spherical turbulent C small spherical laminar D small any laminar"
+     "text": "3 An object is moving through a fluid. Which row of the table states the conditions which must be met for Stokes’ law to apply? Size of object Shape of object Type of flow A any any turbulent B any spherical turbulent C small spherical laminar D small any laminar",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q4",
@@ -203,16 +209,31 @@
        }
       }
      ],
-     "text": "4 Which of the following expressions gives a vector quantity? A density × volume B force × distance moved in direction of force C mass × velocity D power × time"
+     "text": "4 Which of the following expressions gives a vector quantity? A density × volume B force × distance moved in direction of force C mass × velocity D power × time",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q5",
    "number": 5,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH11_2024_06/q5_lead.webp",
+     "w": 1090,
+     "h": 588,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 338.5
+     }
+    }
+   ],
    "parts": [
     {
      "label": "5",
@@ -249,16 +270,31 @@
        }
       }
      ],
-     "text": "5 Which of the following expressions gives the stiffness of the spring? A q − p R q B R C R q R D q − p"
+     "text": "5 Which of the following expressions gives the stiffness of the spring? A q − p R q B R C R q R D q − p",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2024_06_q6",
    "number": 6,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH11_2024_06/q6_lead.webp",
+     "w": 1090,
+     "h": 588,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 338.5
+     }
+    }
+   ],
    "parts": [
     {
      "label": "6",
@@ -295,10 +331,12 @@
        }
       }
      ],
-     "text": "6 Which of the following expressions gives the work done stretching the spring from its original length p to length q? p × R A 2 . / q 3 p R B 2 . / q 1 p R C 2 . / D q 3 p R"
+     "text": "6 Which of the following expressions gives the work done stretching the spring from its original length p to length q? p × R A 2 . / q 3 p R B 2 . / q 1 p R C 2 . / D q 3 p R",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2024_06_q7",
@@ -341,10 +379,12 @@
        }
       }
      ],
-     "text": "7 Which of the following describes the centre of gravity of an object? A the point where the mass of the object is located B the point where the mass of the object is concentrated C the point where the weight of the object is located D the point where the weight of the object may be considered to act"
+     "text": "7 Which of the following describes the centre of gravity of an object? A the point where the mass of the object is located B the point where the mass of the object is concentrated C the point where the weight of the object is located D the point where the weight of the object may be considered to act",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q8",
@@ -387,10 +427,12 @@
        }
       }
      ],
-     "text": "8 A student is determining the acceleration of free-fall, g. The student uses a stopwatch to measure the time taken for a ball bearing to fall a measured distance. –2. The student calculates a value of g that is greater than 9.81 m s Which of the following could be an explanation for the student’s result? A The ball bearing is moving downwards when the student starts the stopwatch. B The ball bearing is moving upwards when the student starts the stopwatch. C The student starts the stopwatch before the ball bearing is dropped. D The student stops the stopwatch after the ball bearing lands."
+     "text": "8 A student is determining the acceleration of free-fall, g. The student uses a stopwatch to measure the time taken for a ball bearing to fall a measured distance. –2. The student calculates a value of g that is greater than 9.81 m s Which of the following could be an explanation for the student’s result? A The ball bearing is moving downwards when the student starts the stopwatch. B The ball bearing is moving upwards when the student starts the stopwatch. C The student starts the stopwatch before the ball bearing is dropped. D The student stops the stopwatch after the ball bearing lands.",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q9",
@@ -433,10 +475,12 @@
        }
       }
      ],
-     "text": "9 A student attached one end of a wire to a support. The student added masses to the other end of the wire, as shown. The student measured the corresponding extension for each added mass. support wire masses The wire broke when the extension was small. The student replaced the wire with a second wire made of the same material. The second wire had a larger extension before breaking. Which of the following produced this result? A The second wire had a greater diameter. B The second wire had a longer length. C The second wire had a smaller diameter. D The second wire had a shorter length."
+     "text": "9 A student attached one end of a wire to a support. The student added masses to the other end of the wire, as shown. The student measured the corresponding extension for each added mass. support wire masses The wire broke when the extension was small. The student replaced the wire with a second wire made of the same material. The second wire had a larger extension before breaking. Which of the following produced this result? A The second wire had a greater diameter. B The second wire had a longer length. C The second wire had a smaller diameter. D The second wire had a shorter length.",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q10",
@@ -479,10 +523,12 @@
        }
       }
      ],
-     "text": "10 A ship has a mass of 1.2 × 10 7 kg and has an acceleration of 0.03 m s –2. 5 N. The force produced by the ship’s engine is 8.0 × 10 Which of the following expressions gives the magnitude of the drag force, in N, on the ship? A 8.0 × 10 5 – (0.03 × 1.2 × 10 7 ) B 8.0 × 10 5 + (0.03 × 1.2 × 10 7 ) C 8.0 × 10 5 ÷ (0.03 × 1.2 × 10 7 ) D 8.0 × 10 5 × (0.03 × 1.2 × 10 7 )"
+     "text": "10 A ship has a mass of 1.2 × 10 7 kg and has an acceleration of 0.03 m s –2. 5 N. The force produced by the ship’s engine is 8.0 × 10 Which of the following expressions gives the magnitude of the drag force, in N, on the ship? A 8.0 × 10 5 – (0.03 × 1.2 × 10 7 ) B 8.0 × 10 5 + (0.03 × 1.2 × 10 7 ) C 8.0 × 10 5 ÷ (0.03 × 1.2 × 10 7 ) D 8.0 × 10 5 × (0.03 × 1.2 × 10 7 )",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q11",
@@ -537,7 +583,8 @@
        }
       }
      ],
-     "text": "(a) Show that the gravitational potential energy gained by the train is about 400 MJ. mass of train = 1.7 × 10 6 kg (2)"
+     "text": "(a) Show that the gravitational potential energy gained by the train is about 400 MJ. mass of train = 1.7 × 10 6 kg (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "11(b)",
@@ -573,10 +620,11 @@
        }
       }
      ],
-     "text": "(b) The train’s engine has an output power of 20 MW. The train takes a time of 35 s to move through the vertical height of 25 m. Calculate the work done by the engine against resistive forces. (3)"
+     "text": "(b) The train’s engine has an output power of 20 MW. The train takes a time of 35 s to move through the vertical height of 25 m. Calculate the work done by the engine against resistive forces. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q12",
@@ -643,7 +691,8 @@
        }
       }
      ],
-     "text": "(a) Calculate the weight of the block of ice. 3 kg m –3 density of seawater = 1.03 × 10 (3)"
+     "text": "(a) Calculate the weight of the block of ice. 3 kg m –3 density of seawater = 1.03 × 10 (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "12(b)",
@@ -679,10 +728,11 @@
        }
       }
      ],
-     "text": "(b) An identical block of ice floats in water of a lower density than the seawater in (a). A larger volume of this block is below the surface of the water. Explain why. (2)"
+     "text": "(b) An identical block of ice floats in water of a lower density than the seawater in (a). A larger volume of this block is below the surface of the water. Explain why. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q13",
@@ -737,12 +787,13 @@
        }
       }
      ],
-     "text": "(a) Show that car A and car B are side by side after a time of about 1.1 s. (3)"
+     "text": "(a) Show that car A and car B are side by side after a time of about 1.1 s. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -773,10 +824,11 @@
        }
       }
      ],
-     "text": "(b) At the instant shown, car A is 100 m from the finish line. Deduce whether car A reaches the finish line before car B. (3)"
+     "text": "(b) At the instant shown, car A is 100 m from the finish line. Deduce whether car A reaches the finish line before car B. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q14",
@@ -831,12 +883,13 @@
        }
       }
      ],
-     "text": "(a) State why the grain of sand reaches terminal velocity. (1)"
+     "text": "(a) State why the grain of sand reaches terminal velocity. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -867,7 +920,8 @@
        }
       }
      ],
-     "text": "(b) A spherical grain of sand has a weight of 4.3 × 10 –5 N. The grain of sand displaces water with a weight of 1.5 × 10 –5 N. The terminal velocity of the grain of sand as it falls through the water is about 0.050 m s –1. Deduce whether Stokes’ law applies to the grain of sand as it falls at terminal velocity. viscosity of water = 1.2 × 10 –3 Pa s diameter of grain of sand = 1.5 × 10 –3 m (3)"
+     "text": "(b) A spherical grain of sand has a weight of 4.3 × 10 –5 N. The grain of sand displaces water with a weight of 1.5 × 10 –5 N. The terminal velocity of the grain of sand as it falls through the water is about 0.050 m s –1. Deduce whether Stokes’ law applies to the grain of sand as it falls at terminal velocity. viscosity of water = 1.2 × 10 –3 Pa s diameter of grain of sand = 1.5 × 10 –3 m (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(c)",
@@ -903,10 +957,11 @@
        }
       }
      ],
-     "text": "(c) Explain how the temperature of the water affects the terminal velocity of a grain of sand if Stokes’ law does apply. (2)"
+     "text": "(c) Explain how the temperature of the water affects the terminal velocity of a grain of sand if Stokes’ law does apply. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q15",
@@ -961,7 +1016,8 @@
        }
       }
      ],
-     "text": "(a) Show that the velocity of ball A immediately after the collision is about 0.05 m s –1. (3)"
+     "text": "(a) Show that the velocity of ball A immediately after the collision is about 0.05 m s –1. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "15(b)",
@@ -997,7 +1053,8 @@
        }
       }
      ],
-     "text": "(b) Before the collision, the kinetic energy of ball A is 4.5 × 10 –2 J, and the kinetic energy of ball B is zero. Determine the decrease in total kinetic energy during the collision. (2)"
+     "text": "(b) Before the collision, the kinetic energy of ball A is 4.5 × 10 –2 J, and the kinetic energy of ball B is zero. Determine the decrease in total kinetic energy during the collision. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "15(c)",
@@ -1033,10 +1090,11 @@
        }
       }
      ],
-     "text": "(c) During the collision there is a resultant force on ball B from ball A. Explain, in terms of Newton’s laws, why ball A decelerates during the collision. (2)"
+     "text": "(c) During the collision there is a resultant force on ball B from ball A. Explain, in terms of Newton’s laws, why ball A decelerates during the collision. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q16",
@@ -1091,7 +1149,8 @@
        }
       }
      ],
-     "text": "*(a) The student clamped one end of a copper wire to the bench. The wire passed over a pulley and masses were added to the other end of the wire. A metre rule was fixed to the bench and a marker fixed to the wire, as shown. copper wire clamp marker metre rule pulley masses bench The student measured the diameter of the copper wire. Describe the other measurements that need to be made using this apparatus and how they will be used to determine the Young modulus of copper. You should define the meanings of any symbols you use. (6)"
+     "text": "*(a) The student clamped one end of a copper wire to the bench. The wire passed over a pulley and masses were added to the other end of the wire. A metre rule was fixed to the bench and a marker fixed to the wire, as shown. copper wire clamp marker metre rule pulley masses bench The student measured the diameter of the copper wire. Describe the other measurements that need to be made using this apparatus and how they will be used to determine the Young modulus of copper. You should define the meanings of any symbols you use. (6)",
+     "kindGuessed": "extended"
     },
     {
      "label": "16(b)",
@@ -1127,10 +1186,11 @@
        }
       }
      ],
-     "text": "(b) Another student attaches a weight of 5.0 N to a copper wire of diameter 0.56 mm. Calculate the extension of the wire. length of wire = 2.5 m 11 Pa Young modulus of copper = 1.1 × 10 (4)"
+     "text": "(b) Another student attaches a weight of 5.0 N to a copper wire of diameter 0.56 mm. Calculate the extension of the wire. length of wire = 2.5 m 11 Pa Young modulus of copper = 1.1 × 10 (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q17",
@@ -1185,7 +1245,8 @@
        }
       }
      ],
-     "text": "(a) Show that the vertical component of the stone’s initial velocity is about 5 m s –1 and that the horizontal component is about 4 m s –1. (2)"
+     "text": "(a) Show that the vertical component of the stone’s initial velocity is about 5 m s –1 and that the horizontal component is about 4 m s –1. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(b)",
@@ -1221,12 +1282,13 @@
        }
       }
      ],
-     "text": "(b) Show that the greatest height above the surface of the water reached by the stone is about 3 m. (3)"
+     "text": "(b) Show that the greatest height above the surface of the water reached by the stone is about 3 m. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(c)",
      "marks": 4,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1257,10 +1319,11 @@
        }
       }
      ],
-     "text": "(c) The inside of the tyre is 0.8 m in diameter and is 3.9 m from the side of the water, as shown. Not to scale 6.3 m s–1 55 child 1.25 m tyre 0.8 m surface of water 3.9 m Deduce whether the stone thrown by the child lands inside the tyre. (4)"
+     "text": "(c) The inside of the tyre is 0.8 m in diameter and is 3.9 m from the side of the water, as shown. Not to scale 6.3 m s–1 55 child 1.25 m tyre 0.8 m surface of water 3.9 m Deduce whether the stone thrown by the child lands inside the tyre. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q18",
@@ -1315,7 +1378,8 @@
        }
       }
      ],
-     "text": "(a) Calculate the magnitudes of the forces P and Q. You should take moments about point X. 5 N force from lorry = 4.2 × 10 5 N weight of bridge = 9.8 × 10 (5)"
+     "text": "(a) Calculate the magnitudes of the forces P and Q. You should take moments about point X. 5 N force from lorry = 4.2 × 10 5 N weight of bridge = 9.8 × 10 (5)",
+     "kindGuessed": "calc"
     },
     {
      "label": "18(b)",
@@ -1351,10 +1415,11 @@
        }
       }
      ],
-     "text": "(b) Explain why force Q increases as the lorry moves across the bridge. (5)"
+     "text": "(b) Explain why force Q increases as the lorry moves across the bridge. (5)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2024_06_q19",
@@ -1378,7 +1443,7 @@
     {
      "label": "19(a)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1409,12 +1474,13 @@
        }
       }
      ],
-     "text": "(a) In the position shown, the person is accelerating. Complete the free-body force diagram below to show the three forces acting on the person in this position. (3)"
+     "text": "(a) In the position shown, the person is accelerating. Complete the free-body force diagram below to show the three forces acting on the person in this position. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "19(b)(i)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1459,12 +1525,13 @@
        }
       }
      ],
-     "text": "(i) Show, by calculation, that the force on the wheel from the cable is about 740 N. (2)"
+     "text": "(i) Show, by calculation, that the force on the wheel from the cable is about 740 N. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "19(b)(ii)",
      "marks": 4,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1509,7 +1576,8 @@
        }
       }
      ],
-     "text": "(ii) There is a force on the wheel from the wire of 800 N. The angle between the force from the cable and the 800 N force from the wire is 150°. Determine the magnitude of the resultant force on the wheel using a scaled vector diagram. You should ignore the weight of the wheel. (4)"
+     "text": "(ii) There is a force on the wheel from the wire of 800 N. The angle between the force from the cable and the 800 N force from the wire is 150°. Determine the magnitude of the resultant force on the wheel using a scaled vector diagram. You should ignore the weight of the wheel. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "19(c)",
@@ -1545,10 +1613,11 @@
        }
       }
      ],
-     "text": "(c) People take turns at moving along the zip-line from the high point to the low point. The people are initially at rest at the high point. Explain why the speeds of people with different masses are always about the same when they reach the low point. (3)"
+     "text": "(c) People take turns at moving along the zip-line from the high point to the low point. The people are initially at rest at the high point. Explain why the speeds of people with different masses are always about the same when they reach the low point. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

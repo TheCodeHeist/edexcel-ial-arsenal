@@ -1,0 +1,86 @@
+---
+/* Past papers for one subject: each unit as a year-by-series grid, every cell a link to that paper. */
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/papers.css';
+import { SUBJECTS, type Subject } from '../../../data/subjects';
+import { papersFor, papersForUnit, isPublished, paperSlug } from '../../../lib/papers/registry';
+
+export function getStaticPaths() {
+  return SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
+}
+const { s } = Astro.props as { s: Subject };
+const all = papersFor(s.id);
+const questions = all.reduce((n, p) => n + p.questions.filter(isPublished).length, 0);
+const SERIES = [['01', 'Jan'], ['06', 'Jun'], ['10', 'Oct']];
+
+function grid(unit: string) {
+  const papers = papersForUnit(s.id, unit);
+  const years = [...new Set(papers.map((p) => p.series.slice(0, 4)))].sort().reverse();
+  return years.map((y) => ({ year: y, cells: SERIES.map(([m]) => papers.filter((p) => p.series === `${y}-${m}`)) }));
+}
+---
+<Base
+  title={`${s.name} past papers`}
+  description={`Edexcel IAL ${s.name} past papers by unit and series, question by question, with mark schemes.`}
+  tab={s.id}
+  status={{ label: `${s.name} past papers`, hint: all.length ? 'Pick a unit and a series to open the paper.' : 'Papers are on the way.' }}
+  stats={[{ label: 'Papers', value: all.length }, { label: 'Questions', value: questions }]}
+>
+  <section style={`--hue:var(${s.hue})`}>
+    <div class="section-h">
+      <div>
+        <h2><span class="d">P</span>ast papers</h2>
+        <p>Every {s.name} paper since the current specification began, split into questions with their mark schemes.</p>
+      </div>
+      <a class="btn" href={`/${s.id}/`}>{s.name} tools</a>
+    </div>
+
+    <p class="credit-note panel">
+      The papers and mark schemes are © Pearson Education Ltd. We show them question by question for revision and
+      link to the originals on every paper. They were collected and shared for free by{' '}
+      <a href="https://www.paperlords.org/ial">PaperLords</a> and{' '}
+      <a href="https://www.physicsandmathstutor.com/">Physics &amp; Maths Tutor</a>: thank you.
+    </p>
+
+    {all.length === 0 ? (
+      <div class="panel empty-state rise">
+        <h3>No {s.name} papers yet</h3>
+        <p>Physics came first. {s.name} papers will appear here once they've been split into questions and checked.</p>
+      </div>
+    ) : (
+      <div class="paper-units">
+        {s.units.map((u, i) => { const rows = grid(u.code); return rows.length > 0 && (
+          <article class="glass paper-unit rise" style={`--i:${i}`}>
+            <header>
+              <span class="n">{u.n}</span>
+              <div>
+                <span class="code">{u.code}{u.practical && <em>Practical</em>}</span>
+                <h3>{u.title}</h3>
+              </div>
+            </header>
+            <table class="series-grid">
+              <thead><tr><th scope="col"><span class="sr-only">Year</span></th>{SERIES.map(([, name]) => <th scope="col">{name}</th>)}</tr></thead>
+              <tbody>
+                {rows.map((r) => (
+                  <tr>
+                    <th scope="row">{r.year}</th>
+                    {r.cells.map((ps) => (
+                      <td>
+                        {ps.map((p) => (
+                          <a class={`chip paper-link${p.variant ? ' variant' : ''}`} href={`/${s.id}/papers/${paperSlug(p)}/`}
+                             title={p.variant ? `Paper ${p.variant}: Pearson's second paper of this series, for another time zone` : undefined}>
+                            Paper{p.variant ? ` ${p.variant}` : ''}<span class="sr-only"> {u.code} {r.year}</span>
+                          </a>
+                        ))}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </article>
+        ); })}
+      </div>
+    )}
+  </section>
+</Base>

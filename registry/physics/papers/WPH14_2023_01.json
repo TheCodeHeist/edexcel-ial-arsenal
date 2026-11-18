@@ -65,10 +65,12 @@
        }
       }
      ],
-     "text": "1 The table shows the charges on up quarks and down quarks. Quark Charge / e + 2 u 3 – 1 d 3 Which row of the table shows the quark structure of protons and neutrons? Proton Neutron A ddd uuu B ddu uud C duu ddu D uuu ddd"
+     "text": "1 The table shows the charges on up quarks and down quarks. Quark Charge / e + 2 u 3 – 1 d 3 Which row of the table shows the quark structure of protons and neutrons? Proton Neutron A ddd uuu B ddu uud C duu ddu D uuu ddd",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q2",
@@ -87,13 +89,13 @@
       {
        "src": "physics/WPH14_2023_01/q2.webp",
        "w": 1090,
-       "h": 488,
+       "h": 496,
        "region": {
         "page": 2,
         "x0": 36.0,
         "y0": 521.9,
         "x1": 559.0,
-        "y1": 755.9
+        "y1": 759.8
        }
       }
      ],
@@ -111,10 +113,12 @@
        }
       }
      ],
-     "text": "2 A laboratory centrifuge rotates at 1500 revolutions per minute. Which of the following expressions gives the angular velocity in radians per second? 1500 A 60 × 2π 60 B 1500 × 2π C 60 × 2π 1500 D 1500 × 2π 60"
+     "text": "2 A laboratory centrifuge rotates at 1500 revolutions per minute. Which of the following expressions gives the angular velocity in radians per second? 1500 A 60 × 2π 60 B 1500 × 2π C 60 × 2π 1500 D 1500 × 2π 60",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2023_01_q3",
@@ -157,10 +161,15 @@
        }
       }
      ],
-     "text": "233 3 A nucleus of element X emits an alpha particle to produce the nucleus 91Y. Which of the following is the correct nucleon structure of element X? A 95 protons and 235 neutrons B 93 protons and 144 neutrons C 93 protons and 237 neutrons D 89 protons and 138 neutrons"
+     "text": "233 3 A nucleus of element X emits an alpha particle to produce the nucleus 91Y. Which of the following is the correct nucleon structure of element X? A 95 protons and 235 neutrons B 93 protons and 144 neutrons C 93 protons and 237 neutrons D 89 protons and 138 neutrons",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "3: text doesn't start at its label"
+   ]
   },
   {
    "id": "WPH14_2023_01_q4",
@@ -203,10 +212,12 @@
        }
       }
      ],
-     "text": "4 The diagram shows the track of a charged particle in a magnetic field. The magnetic field is directed into the page. X Y Which of the following particles could create this track? A a muon travelling from X to Y B a positron travelling from Y to X C a π + travelling from X to Y D an electron travelling from Y to X"
+     "text": "4 The diagram shows the track of a charged particle in a magnetic field. The magnetic field is directed into the page. X Y Which of the following particles could create this track? A a muon travelling from X to Y B a positron travelling from Y to X C a π + travelling from X to Y D an electron travelling from Y to X",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q5",
@@ -249,10 +260,12 @@
        }
       }
      ],
-     "text": "5 Which of the following statements is not a valid conclusion from alpha particle scattering experiments? A Most of the atom is empty space. B Most of the mass of the atom is concentrated in the nucleus. C The nucleus contains all of the charge of the atom. D The radius of the nucleus is very small compared to the radius of the atom."
+     "text": "5 Which of the following statements is not a valid conclusion from alpha particle scattering experiments? A Most of the atom is empty space. B Most of the mass of the atom is concentrated in the nucleus. C The nucleus contains all of the charge of the atom. D The radius of the nucleus is very small compared to the radius of the atom.",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q6",
@@ -295,10 +308,12 @@
        }
       }
      ],
-     "text": "6 Point charges of equal magnitude are placed close together, as shown. – + Which of the following diagrams shows the electric field around the charges? – – + + A B – + C D A B C D"
+     "text": "6 Point charges of equal magnitude are placed close together, as shown. – + Which of the following diagrams shows the electric field around the charges? – – + + A B – + C D A B C D",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q7",
@@ -341,10 +356,12 @@
        }
       }
      ],
-     "text": "7 Which of the following statements is true for a cyclotron? A A cyclotron can be used to accelerate neutrons. B A cyclotron uses a magnetic field to increase the speed of particles. C A cyclotron uses an alternating potential difference at a constant frequency. D A cyclotron uses an electric field to keep particles moving in a circular path."
+     "text": "7 Which of the following statements is true for a cyclotron? A A cyclotron can be used to accelerate neutrons. B A cyclotron uses a magnetic field to increase the speed of particles. C A cyclotron uses an alternating potential difference at a constant frequency. D A cyclotron uses an electric field to keep particles moving in a circular path.",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q8",
@@ -387,10 +404,12 @@
        }
       }
      ],
-     "text": "8 A non-relativistic particle of mass m has momentum p and kinetic energy Ek . A second non-relativistic particle of mass m 2 has momentum 2p. Which of the following expressions gives the kinetic energy of the second particle? Ek A 2 B Ek C 2Ek D 8Ek"
+     "text": "8 A non-relativistic particle of mass m has momentum p and kinetic energy Ek . A second non-relativistic particle of mass m 2 has momentum 2p. Which of the following expressions gives the kinetic energy of the second particle? Ek A 2 B Ek C 2Ek D 8Ek",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q9",
@@ -409,13 +428,13 @@
       {
        "src": "physics/WPH14_2023_01/q9.webp",
        "w": 1090,
-       "h": 455,
+       "h": 463,
        "region": {
         "page": 5,
         "x0": 36.0,
         "y0": 273.9,
         "x1": 559.0,
-        "y1": 491.9
+        "y1": 495.8
        }
       }
      ],
@@ -433,10 +452,12 @@
        }
       }
      ],
-     "text": "9 A ball travelling at speed u towards a wall collides with the wall at right angles. The ball bounces off the wall at speed v in the opposite direction. The time for the collision is t. Which of the following expressions gives the average force on the wall during the collision? m u ( + v ) A t m u ( + v ) B 2 t m u ( − v ) C t m u ( − v ) D 2 t"
+     "text": "9 A ball travelling at speed u towards a wall collides with the wall at right angles. The ball bounces off the wall at speed v in the opposite direction. The time for the collision is t. Which of the following expressions gives the average force on the wall during the collision? m u ( + v ) A t m u ( + v ) B 2 t m u ( − v ) C t m u ( − v ) D 2 t",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2023_01_q10",
@@ -479,10 +500,12 @@
        }
       }
      ],
-     "text": "10 A proton is accelerated by a uniform electric field. After time t the speed of the proton has increased by Δv. 4 A helium nucleus 2He is accelerated by the same electric field. After what time will the helium nucleus achieve the same change in speed? A 4t B 2t t C 2 t D 4"
+     "text": "10 A proton is accelerated by a uniform electric field. After time t the speed of the proton has increased by Δv. 4 A helium nucleus 2He is accelerated by the same electric field. After what time will the helium nucleus achieve the same change in speed? A 4t B 2t t C 2 t D 4",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q11",
@@ -537,7 +560,8 @@
        }
       }
      ],
-     "text": "(a) State one difference between a positron and an electron. (1)"
+     "text": "(a) State one difference between a positron and an electron. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "11(b)",
@@ -573,10 +597,11 @@
        }
       }
      ],
-     "text": "(b) Explain whether the following decay would be possible. You should consider conservation of charge and lepton number. – → e – + νe + ν – μ μ (3)"
+     "text": "(b) Explain whether the following decay would be possible. You should consider conservation of charge and lepton number. – → e – + νe + ν – μ μ (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q12",
@@ -600,7 +625,7 @@
     {
      "label": "12(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -631,7 +656,8 @@
        }
       }
      ],
-     "text": "(a) Add lines to the diagram to show equipotentials at intervals of equal potential difference. (2)"
+     "text": "(a) Add lines to the diagram to show equipotentials at intervals of equal potential difference. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "12(b)",
@@ -667,7 +693,8 @@
        }
       }
      ],
-     "text": "(b) A charge of –4.5 nC is placed 4.0 cm from X. Calculate the magnitude of the force acting on this charge due to the charge at X. charge at X = +7.0 nC (2)"
+     "text": "(b) A charge of –4.5 nC is placed 4.0 cm from X. Calculate the magnitude of the force acting on this charge due to the charge at X. charge at X = +7.0 nC (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "12(c)",
@@ -703,10 +730,11 @@
        }
       }
      ],
-     "text": "(c) The –4.5 nC charge is moved from a distance of 4.0 cm from X to a distance of 9.0 cm from X. Calculate the work done on the –4.5 nC charge. (3)"
+     "text": "(c) The –4.5 nC charge is moved from a distance of 4.0 cm from X to a distance of 9.0 cm from X. Calculate the work done on the –4.5 nC charge. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q13",
@@ -775,7 +803,8 @@
        }
       }
      ],
-     "text": "(i) Show that the radius of the circular path is about 800 m. mass of aeroplane = 1200 kg −1 speed of aeroplane = 54 m s (5)"
+     "text": "(i) Show that the radius of the circular path is about 800 m. mass of aeroplane = 1200 kg −1 speed of aeroplane = 54 m s (5)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(a)(ii)",
@@ -825,7 +854,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the time taken by the plane to move through 90° of the circular path. −1 speed of aeroplane = 54 m s (2)"
+     "text": "(ii) Determine the time taken by the plane to move through 90° of the circular path. −1 speed of aeroplane = 54 m s (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)",
@@ -861,10 +891,11 @@
        }
       }
      ],
-     "text": "(b) The wings of the aeroplane are now levelled, as shown below. The speed and the magnitude of the lift force remain the same. Explain what will happen to the vertical motion of the aeroplane. (2)"
+     "text": "(b) The wings of the aeroplane are now levelled, as shown below. The speed and the magnitude of the lift force remain the same. Explain what will happen to the vertical motion of the aeroplane. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q14",
@@ -919,12 +950,13 @@
        }
       }
      ],
-     "text": "(a) State the principle of conservation of momentum. (2)"
+     "text": "(a) State the principle of conservation of momentum. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(i)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -969,12 +1001,13 @@
        }
       }
      ],
-     "text": "(i) Deduce whether the values show an elastic collision. (3)"
+     "text": "(i) Deduce whether the values show an elastic collision. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1019,10 +1052,11 @@
        }
       }
      ],
-     "text": "(ii) Deduce whether the values show the conservation of momentum. (5)"
+     "text": "(ii) Deduce whether the values show the conservation of momentum. (5)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q15",
@@ -1089,7 +1123,8 @@
        }
       }
      ],
-     "text": "*(a) When the student moved the wire quickly downwards between the magnets, the reading on the balance changed. Explain how the reading on the balance changed. (6)"
+     "text": "*(a) When the student moved the wire quickly downwards between the magnets, the reading on the balance changed. Explain how the reading on the balance changed. (6)",
+     "kindGuessed": "extended"
     },
     {
      "label": "15(b)",
@@ -1125,10 +1160,11 @@
        }
       }
      ],
-     "text": "(b) A voltmeter was connected across the ends of a second wire. The student moved this wire vertically downwards between the magnets at a constant speed. A potential difference (p.d.) was observed on the voltmeter while the wire was moving. Calculate the maximum p.d. that could have been measured. length of each magnet = 34 mm height of each magnet = 20 mm magnetic flux density between magnets = 0.35 T −1 vertical speed of wire = 2.2 m s (5)"
+     "text": "(b) A voltmeter was connected across the ends of a second wire. The student moved this wire vertically downwards between the magnets at a constant speed. A potential difference (p.d.) was observed on the voltmeter while the wire was moving. Calculate the maximum p.d. that could have been measured. length of each magnet = 34 mm height of each magnet = 20 mm magnetic flux density between magnets = 0.35 T −1 vertical speed of wire = 2.2 m s (5)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q16",
@@ -1183,7 +1219,8 @@
        }
       }
      ],
-     "text": "(a) Give two reasons why the circuit did not operate as intended. (2)"
+     "text": "(a) Give two reasons why the circuit did not operate as intended. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(b)(i)",
@@ -1233,7 +1270,8 @@
        }
       }
      ],
-     "text": "(i) Determine the resistance in the circuit when the switch was at position Y. (3)"
+     "text": "(i) Determine the resistance in the circuit when the switch was at position Y. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(b)(ii)",
@@ -1283,7 +1321,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the average current in the circuit between t = 0 s and t = 30 s. (4)"
+     "text": "(ii) Determine the average current in the circuit between t = 0 s and t = 30 s. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(b)(iii)",
@@ -1333,10 +1372,11 @@
        }
       }
      ],
-     "text": "(iii) Calculate the energy dissipated by the current in the circuit between t = 0 s and t = 30 s. (3)"
+     "text": "(iii) Calculate the energy dissipated by the current in the circuit between t = 0 s and t = 30 s. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q17",
@@ -1392,7 +1432,8 @@
        }
       }
      ],
-     "text": "(i) The plates are separated by a distance d. Show that the speed v of the electrons is given by v = V Bd (3)"
+     "text": "(i) The plates are separated by a distance d. Show that the speed v of the electrons is given by v = V Bd (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(a)(ii)",
@@ -1442,7 +1483,8 @@
        }
       }
      ],
-     "text": "(ii) An experiment was carried out using similar apparatus. 7 m s −1 . Show that v was about 3 × 10 d = 1.5 cm −4 T B = 5.5 × 10 V = 231 V (2)"
+     "text": "(ii) An experiment was carried out using similar apparatus. 7 m s −1 . Show that v was about 3 × 10 d = 1.5 cm −4 T B = 5.5 × 10 V = 231 V (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(a)(iii)",
@@ -1492,7 +1534,8 @@
        }
       }
      ],
-     "text": "(iii) When the electric field between the plates is switched off the electrons move in a circular path of radius 39 cm, due to the magnetic field. The accepted value for the charge per unit mass of an electron is 1.8 × 10 11 C kg −1. Deduce whether the charge per unit mass of an electron calculated using data from this experiment is consistent with the accepted value. B = 5.5 × 10 −4 T (3)"
+     "text": "(iii) When the electric field between the plates is switched off the electrons move in a circular path of radius 39 cm, due to the magnetic field. The accepted value for the charge per unit mass of an electron is 1.8 × 10 11 C kg −1. Deduce whether the charge per unit mass of an electron calculated using data from this experiment is consistent with the accepted value. B = 5.5 × 10 −4 T (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(b)",
@@ -1528,10 +1571,11 @@
        }
       }
      ],
-     "text": "(b) In 1927 J J Thomson’s son directed beams of electrons at thin films of metal. The photograph shows one of the patterns observed. Explain how this pattern changed scientists’ understanding about the nature of electrons. (3)"
+     "text": "(b) In 1927 J J Thomson’s son directed beams of electrons at thin films of metal. The photograph shows one of the patterns observed. Explain how this pattern changed scientists’ understanding about the nature of electrons. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2023_01_q18",
@@ -1586,7 +1630,8 @@
        }
       }
      ],
-     "text": "(a) (i) Explain why the existence of a sixth quark was predicted. (3)"
+     "text": "(a) (i) Explain why the existence of a sixth quark was predicted. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(a)(ii)",
@@ -1622,7 +1667,8 @@
        }
       }
      ],
-     "text": "(ii) A short time after formation, most quarks combine to make particles known as hadrons. There are two categories of hadron. Name the two categories of hadron. (1)"
+     "text": "(ii) A short time after formation, most quarks combine to make particles known as hadrons. There are two categories of hadron. Name the two categories of hadron. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)(i)",
@@ -1672,7 +1718,8 @@
        }
       }
      ],
-     "text": "(i) Explain the advantage of colliding beams of particles. (4)"
+     "text": "(i) Explain the advantage of colliding beams of particles. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)(ii)",
@@ -1722,12 +1769,13 @@
        }
       }
      ],
-     "text": "(ii) In the collider experiment, the protons and anti-protons each had total energy 900 GeV. Calculate the maximum kinetic energy, in joules, of a top quark produced in this experiment. rest energy of top quark = 173 GeV (3)"
+     "text": "(ii) In the collider experiment, the protons and anti-protons each had total energy 900 GeV. Calculate the maximum kinetic energy, in joules, of a top quark produced in this experiment. rest energy of top quark = 173 GeV (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "18(b)(iii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1772,7 +1820,8 @@
        }
       }
      ],
-     "text": "(iii) Deduce whether a top quark with kinetic energy 1.2 × 10 −7 J is travelling at a relativistic speed. rest mass of top quark = 173 GeV/c 2 (3)"
+     "text": "(iii) Deduce whether a top quark with kinetic energy 1.2 × 10 −7 J is travelling at a relativistic speed. rest mass of top quark = 173 GeV/c 2 (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(c)",
@@ -1808,10 +1857,14 @@
        }
       }
      ],
-     "text": "−23 s. The top quark does not (c) Most types of quark form hadrons on a timescale of 10 −25 s. form hadrons because its lifetime is only 10 A student suggests that, if the top quarks travelled at relativistic speeds, it could be possible for them to form hadrons. Assess this suggestion. (2)"
+     "text": "−23 s. The top quark does not (c) Most types of quark form hadrons on a timescale of 10 −25 s. form hadrons because its lifetime is only 10 A student suggests that, if the top quarks travelled at relativistic speeds, it could be possible for them to form hadrons. Assess this suggestion. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "18(c): text doesn't start at its label"
+   ]
   }
  ]
 }

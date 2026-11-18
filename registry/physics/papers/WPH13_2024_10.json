@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) The student recorded a single measurement of d as 12.7 mm. Determine the percentage uncertainty in this measurement. (2)"
+     "text": "(i) The student recorded a single measurement of d as 12.7 mm. Determine the percentage uncertainty in this measurement. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) The student repeated the measurements of d at different orientations and calculated the mean. Explain another technique she should use to determine an accurate value for d. (2)"
+     "text": "(ii) The student repeated the measurements of d at different orientations and calculated the mean. Explain another technique she should use to determine an accurate value for d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(iii)",
@@ -191,7 +193,8 @@
        }
       }
      ],
-     "text": "(iii) Describe how the student should determine a value for the density of steel. (3)"
+     "text": "(iii) Describe how the student should determine a value for the density of steel. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -227,12 +230,13 @@
        }
       }
      ],
-     "text": "(b) The student placed the steel sphere in a transparent tube filled with the liquid. She arranged the transparent tube as shown. Not to scale rubber bung transparent tube rubber band liquid rubber band stand steel sphere sealed end bench The student used a stopwatch to measure the time for the steel sphere to travel between the rubber bands. Describe how she should ensure that the steel sphere is travelling at terminal velocity between the rubber bands. You should include any additional apparatus required. (4)"
+     "text": "(b) The student placed the steel sphere in a transparent tube filled with the liquid. She arranged the transparent tube as shown. Not to scale rubber bung transparent tube rubber band liquid rubber band stand steel sphere sealed end bench The student used a stopwatch to measure the time for the steel sphere to travel between the rubber bands. Describe how she should ensure that the steel sphere is travelling at terminal velocity between the rubber bands. You should include any additional apparatus required. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -263,10 +267,11 @@
        }
       }
      ],
-     "text": "(c) The student determined the viscosity of the liquid as 0.72 Pa s with a percentage uncertainty of 6%. The viscosity of castor oil is 0.65 Pa s. Deduce whether the liquid could be castor oil. (2)"
+     "text": "(c) The student determined the viscosity of the liquid as 0.72 Pa s with a percentage uncertainty of 6%. The viscosity of castor oil is 0.65 Pa s. Deduce whether the liquid could be castor oil. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2024_10_q2",
@@ -290,7 +295,7 @@
     {
      "label": "2(a)(i)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -321,7 +326,8 @@
        }
       }
      ],
-     "text": "(a) (i) Complete the diagram to show the circuit the student should use for this investigation. (2) X Y R sealed box"
+     "text": "(a) (i) Complete the diagram to show the circuit the student should use for this investigation. (2) X Y R sealed box",
+     "kindGuessed": "short"
     },
     {
      "label": "2(a)(ii)",
@@ -357,12 +363,13 @@
        }
       }
      ],
-     "text": "(ii) The student was told that the sealed box contained a diode. Explain why the resistor R is needed in the circuit. (3)"
+     "text": "(ii) The student was told that the sealed box contained a diode. Explain why the resistor R is needed in the circuit. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(a)(iii)",
      "marks": 4,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -393,7 +400,8 @@
        }
       }
      ],
-     "text": "(iii) The student had a choice of resistors to use for the resistor R, as shown in the table. Resistor A B C D Resistance / Ω 18 18 33 33 Maximum power / W 0.5 2.0 0.5 2.0 The student was told that, when the potential difference across the sealed box is 0.7 V, the current must not exceed 200 mA. Deduce which of the resistors he should choose. (4)"
+     "text": "(iii) The student had a choice of resistors to use for the resistor R, as shown in the table. Resistor A B C D Resistance / Ω 18 18 33 33 Maximum power / W 0.5 2.0 0.5 2.0 The student was told that, when the potential difference across the sealed box is 0.7 V, the current must not exceed 200 mA. Deduce which of the resistors he should choose. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -429,10 +437,14 @@
        }
       }
      ],
-     "text": "(b) The student plotted the graph below. Current / mA 200 150 100 50 0 Potential difference / V 0 –1 –5 –4 –3 –2 1 2 3 4 5 –50 –100 –150 –200 The sealed box contained a diode and a resistor. The diode and resistor were either connected in series or connected in parallel, as shown below. Series Parallel Explain whether the diode and resistor were connected in series or in parallel. (2)"
+     "text": "(b) The student plotted the graph below. Current / mA 200 150 100 50 0 Potential difference / V 0 –1 –5 –4 –3 –2 1 2 3 4 5 –50 –100 –150 –200 The sealed box contained a diode and a resistor. The diode and resistor were either connected in series or connected in parallel, as shown below. Series Parallel Explain whether the diode and resistor were connected in series or in parallel. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "2(a)(i): text after the marks"
+   ]
   },
   {
    "id": "WPH13_2024_10_q3",
@@ -487,7 +499,8 @@
        }
       }
      ],
-     "text": "(a) The student filled the tall beaker with water. He used a metre rule to measure the depth h1 of the water. Describe an accurate method to determine a single value of h1. (3)"
+     "text": "(a) The student filled the tall beaker with water. He used a metre rule to measure the depth h1 of the water. Describe an accurate method to determine a single value of h1. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -523,7 +536,8 @@
        }
       }
      ],
-     "text": "(b) The student placed a steel nail at the bottom of the beaker. He viewed the search pin and the image of the steel nail from above while adjusting the height of the search pin. When the search pin appeared to be in line with the image of the steel nail from all angles, he measured the value of h2. The student varied h1 by adding more water and repeated the process. He recorded the following data. h1 / cm h2 / cm 20.7 15 40 28.5 49.6 37.3 58 451 Criticise the recording of the data. (3)"
+     "text": "(b) The student placed a steel nail at the bottom of the beaker. He viewed the search pin and the image of the steel nail from above while adjusting the height of the search pin. When the search pin appeared to be in line with the image of the steel nail from all angles, he measured the value of h2. The student varied h1 by adding more water and repeated the process. He recorded the following data. h1 / cm h2 / cm 20.7 15 40 28.5 49.6 37.3 58 451 Criticise the recording of the data. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(i)",
@@ -573,7 +587,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean value of n. (2)"
+     "text": "(i) Determine the mean value of n. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(ii)",
@@ -623,10 +638,11 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of n. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of n. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2024_10_q4",
@@ -681,7 +697,8 @@
        }
       }
      ],
-     "text": "(a) Explain how a graph of K against L can be used to determine the value of MR. (2)"
+     "text": "(a) Explain how a graph of K against L can be used to determine the value of MR. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -705,7 +722,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH13_2024_10/q4_b_i.webp",
+       "src": "physics/WPH13_2024_10/q4_b_i_1.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -714,6 +731,18 @@
         "y0": 392.0,
         "x1": 559.0,
         "y1": 427.5
+       }
+      },
+      {
+       "src": "physics/WPH13_2024_10/q4_b_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -731,7 +760,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of K on the y-axis against L on the x-axis on the grid opposite. (5)"
+     "text": "(i) Plot a graph of K on the y-axis against L on the x-axis on the grid opposite. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -755,7 +785,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH13_2024_10/q4_b_ii_1.webp",
+       "src": "physics/WPH13_2024_10/q4_b_ii.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -764,18 +794,6 @@
         "y0": 430.0,
         "x1": 559.0,
         "y1": 465.4
-       }
-      },
-      {
-       "src": "physics/WPH13_2024_10/q4_b_ii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 13,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -793,7 +811,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the gradient of the graph. (3)"
+     "text": "(ii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iii)",
@@ -843,7 +862,8 @@
        }
       }
      ],
-     "text": "(iii) Determine a value for MB. MA = 0.400 kg (2)"
+     "text": "(iii) Determine a value for MB. MA = 0.400 kg (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iv)",
@@ -893,10 +913,14 @@
        }
       }
      ],
-     "text": "(iv) Determine a value for MR. (4)"
+     "text": "(iv) Determine a value for MR. (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "4(b)(i): runs across pages"
+   ]
   }
  ]
 }

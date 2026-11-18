@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) Describe two variables she should control when repeating the procedure. (2)"
+     "text": "(i) Describe two variables she should control when repeating the procedure. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) Explain what she should do with the vernier calipers before taking the measurement. (2)"
+     "text": "(ii) Explain what she should do with the vernier calipers before taking the measurement. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -177,7 +179,8 @@
        }
       }
      ],
-     "text": "(b) The student investigated how adding different masses of modelling clay to the top of the plastic cup affected d. She used a balance to measure the mass of pieces of modelling clay. For each mass, she repeated the measurement of d to determine a mean value of d. The student recorded the following data to plot a graph of the mean d against mass. Mass of modelling clay / g Mean d / cm 16.1 3 18.3 2.67 18.9 2.6 Criticise the recording of the data. (3)"
+     "text": "(b) The student investigated how adding different masses of modelling clay to the top of the plastic cup affected d. She used a balance to measure the mass of pieces of modelling clay. For each mass, she repeated the measurement of d to determine a mean value of d. The student recorded the following data to plot a graph of the mean d against mass. Mass of modelling clay / g Mean d / cm 16.1 3 18.3 2.67 18.9 2.6 Criticise the recording of the data. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
@@ -213,10 +216,11 @@
        }
       }
      ],
-     "text": "(c) Another student completed the same investigation and plotted the following graph. 20.0 15.0 Mean d / cm 10.0 5.0 0.0 0 5 10 15 20 Mass / g The student suggested that there is an inverse relationship between the mean d and the mass added to the plastic cup. Explain how the student should check if the relationship is inversely proportional. (2)"
+     "text": "(c) Another student completed the same investigation and plotted the following graph. 20.0 15.0 Mean d / cm 10.0 5.0 0.0 0 5 10 15 20 Mass / g The student suggested that there is an inverse relationship between the mean d and the mass added to the plastic cup. Explain how the student should check if the relationship is inversely proportional. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_01_q2",
@@ -285,7 +289,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean value of time. (2)"
+     "text": "(i) Calculate the mean value of time. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(a)(ii)",
@@ -335,7 +340,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of time. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of time. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(a)(iii)",
@@ -385,7 +391,8 @@
        }
       }
      ],
-     "text": "(iii) Explain a source of error in these measurements of time. (2)"
+     "text": "(iii) Explain a source of error in these measurements of time. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -435,7 +442,8 @@
        }
       }
      ],
-     "text": "(i) Determine the time between the loud sound and the echo. (3)"
+     "text": "(i) Determine the time between the loud sound and the echo. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(ii)",
@@ -485,7 +493,8 @@
        }
       }
      ],
-     "text": "(ii) State the resolution, in ms, of the horizontal scale on the oscilloscope. (1)"
+     "text": "(ii) State the resolution, in ms, of the horizontal scale on the oscilloscope. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(iii)",
@@ -535,7 +544,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the percentage uncertainty in the time between the loud sound and the echo. (2)"
+     "text": "(iii) Determine the percentage uncertainty in the time between the loud sound and the echo. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(iv)",
@@ -585,7 +595,8 @@
        }
       }
      ],
-     "text": "ms− (iv) The speed of sound in air is 330 1 . Determine the distance s to the building, using the value of time determined from the oscilloscope. (2)"
+     "text": "ms− (iv) The speed of sound in air is 330 1 . Determine the distance s to the building, using the value of time determined from the oscilloscope. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
@@ -621,10 +632,14 @@
        }
       }
      ],
-     "text": "(c) Large distances, such as the distance s to the building, can be measured using a laser distance meter. A laser distance meter uses the pulse-echo technique with pulses of laser light. State two advantages of using laser light instead of sound to determine this distance. (2)"
+     "text": "(c) Large distances, such as the distance s to the building, can be measured using a laser distance meter. A laser distance meter uses the pulse-echo technique with pulses of laser light. State two advantages of using laser light instead of sound to determine this distance. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "2(b)(iv): text doesn't start at its label"
+   ]
   },
   {
    "id": "WPH13_2026_01_q3",
@@ -648,7 +663,7 @@
     {
      "label": "3(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -679,7 +694,8 @@
        }
       }
      ],
-     "text": "(a) The student determined the electrical power input to the electric motor. Complete the circuit diagram to show the circuit the student should use. (2) M"
+     "text": "(a) The student determined the electrical power input to the electric motor. Complete the circuit diagram to show the circuit the student should use. (2) M",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -729,7 +745,8 @@
        }
       }
      ],
-     "text": "(i) Identify a health and safety issue and how it may be dealt with. (2)"
+     "text": "(i) Identify a health and safety issue and how it may be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -791,7 +808,8 @@
        }
       }
      ],
-     "text": "(ii) The student used a metre rule to measure l. Describe an accurate method to determine a single value of l using a metre rule. You may include additional apparatus. (3)"
+     "text": "(ii) The student used a metre rule to measure l. Describe an accurate method to determine a single value of l using a metre rule. You may include additional apparatus. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -827,7 +845,8 @@
        }
       }
      ],
-     "text": "(c) The student switched off the motor and returned the 1 kg mass to the floor. The student then switched on the motor and immediately started a stopwatch. He stopped the stopwatch when the mass had moved through a height l. He recorded the time t on the stopwatch. He repeated this for different values of l. The student plotted a graph of l on the y-axis against t on the x-axis. The student stated that the efficiency of the motor can be determined from the graph using the formula mg efficiency O gradient IV where m is the mass, I is the current through the motor and V is the potential difference across the motor. Explain whether the student’s statement is correct. (4)"
+     "text": "(c) The student switched off the motor and returned the 1 kg mass to the floor. The student then switched on the motor and immediately started a stopwatch. He stopped the stopwatch when the mass had moved through a height l. He recorded the time t on the stopwatch. He repeated this for different values of l. The student plotted a graph of l on the y-axis against t on the x-axis. The student stated that the efficiency of the motor can be determined from the graph using the formula mg efficiency O gradient IV where m is the mass, I is the current through the motor and V is the potential difference across the motor. Explain whether the student’s statement is correct. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)",
@@ -863,10 +882,14 @@
        }
       }
      ],
-     "text": "(d) The student used a distance sensor connected to a data logger to determine l and t. Explain why using the sensor and data logger would improve the investigation. (2)"
+     "text": "(d) The student used a distance sensor connected to a data logger to determine l and t. Explain why using the sensor and data logger would improve the investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "3(a): text after the marks"
+   ]
   },
   {
    "id": "WPH13_2026_01_q4",
@@ -895,7 +918,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "physics/WPH13_2026_01/q4_a.webp",
+       "src": "physics/WPH13_2026_01/q4_a_1.webp",
        "w": 1090,
        "h": 90,
        "region": {
@@ -904,6 +927,18 @@
         "y0": 386.5,
         "x1": 559.0,
         "y1": 429.2
+       }
+      },
+      {
+       "src": "physics/WPH13_2026_01/q4_a_2.webp",
+       "w": 1090,
+       "h": 1438,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 58.6,
+        "x1": 559.0,
+        "y1": 748.4
        }
       }
      ],
@@ -921,7 +956,8 @@
        }
       }
      ],
-     "text": "(a) Plot a graph of λ on the y-axis against 1 on the x-axis on the grid opposite. v (5)"
+     "text": "(a) Plot a graph of λ on the y-axis against 1 on the x-axis on the grid opposite. v (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -931,7 +967,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "physics/WPH13_2026_01/q4_b_1.webp",
+       "src": "physics/WPH13_2026_01/q4_b.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -940,18 +976,6 @@
         "y0": 431.7,
         "x1": 559.0,
         "y1": 467.2
-       }
-      },
-      {
-       "src": "physics/WPH13_2026_01/q4_b_2.webp",
-       "w": 1090,
-       "h": 1438,
-       "region": {
-        "page": 13,
-        "x0": 36.0,
-        "y0": 58.6,
-        "x1": 559.0,
-        "y1": 748.4
        }
       }
      ],
@@ -969,7 +993,8 @@
        }
       }
      ],
-     "text": "(b) Determine the gradient of the graph. (3)"
+     "text": "(b) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
@@ -1005,7 +1030,8 @@
        }
       }
      ],
-     "text": "(c) Determine the value of h from the gradient of the graph. (2) 2 − 1"
+     "text": "(c) Determine the value of h from the gradient of the graph. (2) 2 − 1",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
@@ -1053,10 +1079,15 @@
        }
       }
      ],
-     "text": "(d) A student determined the value of h as 6 54 10 34 3 kg m s with an estimated 2 3 1 . percentage uncertainty of 3%. Determine whether this value of h is consistent with the quoted value of h. (2)"
+     "text": "(d) A student determined the value of h as 6 54 10 34 3 kg m s with an estimated 2 3 1 . percentage uncertainty of 3%. Determine whether this value of h is consistent with the quoted value of h. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "4(a): runs across pages",
+    "4(c): text after the marks"
+   ]
   }
  ]
 }

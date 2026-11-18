@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) The student varied the temperature of the diode from room temperature to 100 °C using the apparatus shown. wires connected to circuit thermometer beaker diode water hotplate Identify one health and safety issue and how it should be dealt with. (2)"
+     "text": "(a) The student varied the temperature of the diode from room temperature to 100 °C using the apparatus shown. wires connected to circuit thermometer beaker diode water hotplate Identify one health and safety issue and how it should be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The student connected the diode in the circuit shown. 6 V A 100 Ω 1 kΩ V He used the ammeter to measure the current as he varied the temperature of the diode. Explain why the student was correct to include a variable resistor in the circuit. (2)"
+     "text": "(b) The student connected the diode in the circuit shown. 6 V A 100 Ω 1 kΩ V He used the ammeter to measure the current as he varied the temperature of the diode. Explain why the student was correct to include a variable resistor in the circuit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) Explain whether the unit for current in the table is correct for this data. You should include a suitable calculation. (3)"
+     "text": "(i) Explain whether the unit for current in the table is correct for this data. You should include a suitable calculation. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(ii)",
@@ -213,10 +216,11 @@
        }
       }
      ],
-     "text": "(ii) Give two reasons why this data cannot be used to test the student’s prediction. (2)"
+     "text": "(ii) Give two reasons why this data cannot be used to test the student’s prediction. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2024_10_q2",
@@ -285,7 +289,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean value of the period T. (2)"
+     "text": "(i) Determine the mean value of the period T. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(a)(ii)",
@@ -335,7 +340,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of T. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of T. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(a)(iii)",
@@ -385,12 +391,13 @@
        }
       }
      ],
-     "text": "(iii) The student measured the time for multiple oscillations and calculated the mean. Describe three other techniques she should use to obtain an accurate value for T. (3)"
+     "text": "(iii) The student measured the time for multiple oscillations and calculated the mean. Describe three other techniques she should use to obtain an accurate value for T. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -433,10 +440,14 @@
        }
       }
      ],
-     "text": "(b) The student modified the apparatus to investigate damped oscillations of the mass‑spring system. She placed a circular piece of card between the masses to act as a damper, as shown. circular piece of card The amplitude A of the damped oscillations varies with the number n of oscillations as A = A0e –λn where A0 is the initial amplitude and λ is a constant. Devise a method to determine the time taken for A to decrease to half its initial value. Your method should include the use of a suitable graph. (6)"
+     "text": "(b) The student modified the apparatus to investigate damped oscillations of the mass‑spring system. She placed a circular piece of card between the masses to act as a damper, as shown. circular piece of card The amplitude A of the damped oscillations varies with the number n of oscillations as A = A0e –λn where A0 is the initial amplitude and λ is a constant. Devise a method to determine the time taken for A to decrease to half its initial value. Your method should include the use of a suitable graph. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "2(b): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2024_10_q3",
@@ -491,12 +502,13 @@
        }
       }
      ],
-     "text": "(a) Explain how a graph of log L against log M can be used to determine the M value of r. (2)"
+     "text": "(a) Explain how a graph of log L against log M can be used to determine the M value of r. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -565,7 +577,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log L against log M on the grid opposite. M Use the additional columns for your processed data. Do not convert the values of L from 10 35 W to W. (6)"
+     "text": "(i) Plot a graph of log L against log M on the grid opposite. M Use the additional columns for your processed data. Do not convert the values of L from 10 35 W to W. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -615,7 +628,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the value of r from the graph. (3)"
+     "text": "(ii) Determine the value of r from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -665,7 +679,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of L from the graph. (3)"
+     "text": "(iii) Determine the value of L from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
@@ -715,10 +730,14 @@
        }
       }
      ],
-     "text": "(iv) A particular main sequence star has a mass of 33 M. Determine the luminosity L of this star. (2)"
+     "text": "(iv) A particular main sequence star has a mass of 33 M. Determine the luminosity L of this star. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(b)(i): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2024_10_q4",
@@ -773,7 +792,8 @@
        }
       }
      ],
-     "text": "(a) The student used digital calipers to measure a. Explain one technique she should use to measure a. (2)"
+     "text": "(a) The student used digital calipers to measure a. Explain one technique she should use to measure a. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -823,7 +843,8 @@
        }
       }
      ],
-     "text": "(i) The student increased D and measured 20 T several times again. Explain how increasing D affects the percentage uncertainty in the measurement of 20 T. (3)"
+     "text": "(i) The student increased D and measured 20 T several times again. Explain how increasing D affects the percentage uncertainty in the measurement of 20 T. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -873,7 +894,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following data. M = 400 g D = 0.800 m ± 0.001 m a = 25.02 mm ± 0.05 mm b = 6.17 mm ± 0.02 mm T = 0.62 s ± 0.01 s Show that E is about 14 GPa. (2)"
+     "text": "(ii) The student recorded the following data. M = 400 g D = 0.800 m ± 0.001 m a = 25.02 mm ± 0.05 mm b = 6.17 mm ± 0.02 mm T = 0.62 s ± 0.01 s Show that E is about 14 GPa. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iii)",
@@ -923,7 +945,8 @@
        }
       }
      ],
-     "text": "(iii) Show that the percentage uncertainty in E is about 5%. (3)"
+     "text": "(iii) Show that the percentage uncertainty in E is about 5%. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iv)",
@@ -973,10 +996,11 @@
        }
       }
      ],
-     "text": "(iv) The value of E for beech wood is 11.9 GPa. Deduce whether the metre rule could be made from beech wood. (2)"
+     "text": "(iv) The value of E for beech wood is 11.9 GPa. Deduce whether the metre rule could be made from beech wood. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

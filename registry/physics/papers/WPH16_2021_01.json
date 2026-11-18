@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Describe how the time period of the oscillations should be measured to make the readings as accurate as possible. (3)"
+     "text": "(a) Describe how the time period of the oscillations should be measured to make the readings as accurate as possible. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) Describe how a single measure of D should be made accurately. (2)"
+     "text": "(b) Describe how a single measure of D should be made accurately. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
@@ -149,10 +151,11 @@
        }
       }
      ],
-     "text": "(c) A student determined the time period T for different values of the distance D. She obtained the following results. D / m 0.235 0.335 0.445 T / s 0.78 0.94 1.09 She predicts that for these oscillations T µ D Show that her results are consistent with this prediction. (3)"
+     "text": "(c) A student determined the time period T for different values of the distance D. She obtained the following results. D / m 0.235 0.335 0.445 T / s 0.78 0.94 1.09 She predicts that for these oscillations T µ D Show that her results are consistent with this prediction. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2021_01_q2",
@@ -176,7 +179,7 @@
     {
      "label": "2(a)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -207,7 +210,8 @@
        }
       }
      ],
-     "text": "(a) Draw an appropriate circuit diagram for this investigation. (3)"
+     "text": "(a) Draw an appropriate circuit diagram for this investigation. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -243,12 +247,13 @@
        }
       }
      ],
-     "text": "(b) State one safety precaution the student should take. (1)"
+     "text": "(b) State one safety precaution the student should take. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -291,7 +296,8 @@
        }
       }
      ],
-     "text": "(c) The student had a stopwatch. Describe how the student should determine an accurate value for the total capacitance of the capacitors. (6)"
+     "text": "(c) The student had a stopwatch. Describe how the student should determine an accurate value for the total capacitance of the capacitors. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(d)",
@@ -327,10 +333,11 @@
        }
       }
      ],
-     "text": "(d) The student repeated the investigation but used a data logger instead of a stopwatch and an ammeter. Suggest why using a data logger would improve this investigation. (2)"
+     "text": "(d) The student repeated the investigation but used a data logger instead of a stopwatch and an ammeter. Suggest why using a data logger would improve this investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2021_01_q3",
@@ -385,7 +392,8 @@
        }
       }
      ],
-     "text": "(a) Explain why a graph of log r against log A can be used to determine a value for n. (2)"
+     "text": "(a) Explain why a graph of log r against log A can be used to determine a value for n. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -409,7 +417,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2021_01/q3_b_i.webp",
+       "src": "physics/WPH16_2021_01/q3_b_i_1.webp",
        "w": 1090,
        "h": 133,
        "region": {
@@ -418,6 +426,18 @@
         "y0": 594.1,
         "x1": 559.0,
         "y1": 657.6
+       }
+      },
+      {
+       "src": "physics/WPH16_2021_01/q3_b_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -435,12 +455,13 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log r against log A on the grid. Use the additional columns in the table to record your processed data. You should not convert the values of r to metres. (6)"
+     "text": "(i) Plot a graph of log r against log A on the grid. Use the additional columns in the table to record your processed data. You should not convert the values of r to metres. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -459,7 +480,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2021_01/q3_b_ii_1.webp",
+       "src": "physics/WPH16_2021_01/q3_b_ii.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -468,18 +489,6 @@
         "y0": 660.1,
         "x1": 559.0,
         "y1": 695.5
-       }
-      },
-      {
-       "src": "physics/WPH16_2021_01/q3_b_ii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 7,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -497,7 +506,8 @@
        }
       }
      ],
-     "text": "(ii) Use your graph to determine the value of n. (2)"
+     "text": "(ii) Use your graph to determine the value of n. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(iii)",
@@ -571,10 +581,14 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of r0 and hence state the mathematical relationship between r and A. (3)"
+     "text": "(iii) Determine the value of r0 and hence state the mathematical relationship between r and A. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2021_01_q4",
@@ -629,7 +643,8 @@
        }
       }
      ],
-     "text": "(a) The students need to make measurements to determine the volume of the transparent material. The external diameter of the container is approximately 10 cm. Student A suggests measuring the external diameter with a metre rule. Student B suggests placing a piece of string around the circumference of the container and then measuring this length of string with a metre rule. Explain which of these measurements would have the least percentage uncertainty. (2)"
+     "text": "(a) The students need to make measurements to determine the volume of the transparent material. The external diameter of the container is approximately 10 cm. Student A suggests measuring the external diameter with a metre rule. Student B suggests placing a piece of string around the circumference of the container and then measuring this length of string with a metre rule. Explain which of these measurements would have the least percentage uncertainty. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -679,7 +694,8 @@
        }
       }
      ],
-     "text": "(i) Explain two techniques that could be used to make sure this measurement is as accurate as possible. (2)"
+     "text": "(i) Explain two techniques that could be used to make sure this measurement is as accurate as possible. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -729,7 +745,8 @@
        }
       }
      ],
-     "text": "(ii) The following measurements were obtained. t / mm 2.15 2.06 2.13 2.08 2.10 Calculate the mean value of t in mm and its uncertainty. . (2)"
+     "text": "(ii) The following measurements were obtained. t / mm 2.15 2.06 2.13 2.08 2.10 Calculate the mean value of t in mm and its uncertainty. . (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(i)",
@@ -779,7 +796,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the value of C in cm. x = 25.8 cm ± 0.2 cm (2)"
+     "text": "(i) Calculate the value of C in cm. x = 25.8 cm ± 0.2 cm (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -829,7 +847,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the uncertainty in C is approximately 0.2 cm. (1)"
+     "text": "(ii) Show that the uncertainty in C is approximately 0.2 cm. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
@@ -865,12 +884,13 @@
        }
       }
      ],
-     "text": "(d) The volume V of the transparent material is given by C L – Vi 2 V = 4π where L is the length of the container and Vi is the internal volume of the container. Determine the value of V in cm3 and its uncertainty. L = 19.90 cm ± 0.05 cm Vi = 810 cm3 ± 5 cm3 (4)"
+     "text": "(d) The volume V of the transparent material is given by C L – Vi 2 V = 4π where L is the length of the container and Vi is the internal volume of the container. Determine the value of V in cm3 and its uncertainty. L = 19.90 cm ± 0.05 cm Vi = 810 cm3 ± 5 cm3 (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(e)",
      "marks": 4,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -913,10 +933,11 @@
        }
       }
      ],
-     "text": "(e) The table shows the densities of some common materials used to manufacture this type of container. Only borosilicate is safe to heat directly with a Bunsen burner. Material Soda glass Borosilicate Perspex ρ / g cm–3 2.52 2.23 1.18 The mass of the container was measured as 463 g ± 1 g. Deduce whether the container is safe to heat directly with a Bunsen burner. (4)"
+     "text": "(e) The table shows the densities of some common materials used to manufacture this type of container. Only borosilicate is safe to heat directly with a Bunsen burner. Material Soda glass Borosilicate Perspex ρ / g cm–3 2.52 2.23 1.18 The mass of the container was measured as 463 g ± 1 g. Deduce whether the container is safe to heat directly with a Bunsen burner. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

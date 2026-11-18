@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) Determine an accurate value for the length of the card. (2)"
+     "text": "(i) Determine an accurate value for the length of the card. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the percentage uncertainty in your value. (2)"
+     "text": "(ii) Calculate the percentage uncertainty in your value. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(i)",
@@ -191,7 +193,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the values missing from the table. (4) –1 –1"
+     "text": "(i) Calculate the values missing from the table. (4) –1 –1",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(ii)",
@@ -241,7 +244,8 @@
        }
       }
      ],
-     "text": "(ii) Determine whether the student’s values show that momentum was conserved in this collision. (2)"
+     "text": "(ii) Determine whether the student’s values show that momentum was conserved in this collision. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -277,7 +281,8 @@
        }
       }
      ],
-     "text": "(c) In the experiment, the student applied a small force with her hand to start glider A moving. The student repeated the experiment and calculated the mean values of the time taken to pass through each light gate. Discuss how this affected the uncertainty in the calculated values of momentum. (3)"
+     "text": "(c) In the experiment, the student applied a small force with her hand to start glider A moving. The student repeated the experiment and calculated the mean values of the time taken to pass through each light gate. Discuss how this affected the uncertainty in the calculated values of momentum. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(d)",
@@ -313,10 +318,14 @@
        }
       }
      ],
-     "text": "(d) Another student used a stopwatch to measure the time taken for the gliders to travel a known distance. Explain the advantage of using light gates and a data logger, instead of using a stopwatch. (2)"
+     "text": "(d) Another student used a stopwatch to measure the time taken for the gliders to travel a known distance. Explain the advantage of using light gates and a data logger, instead of using a stopwatch. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "1(b)(i): text after the marks"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2022_10_q2",
@@ -371,7 +380,8 @@
        }
       }
      ],
-     "text": "(a) When salt dissolves in water, the salt breaks down into ions. The salt ions are charge carriers. The student predicted that the resistivity of the salt solution would decrease as m increased. Justify her prediction. (3)"
+     "text": "(a) When salt dissolves in water, the salt breaks down into ions. The salt ions are charge carriers. The student predicted that the resistivity of the salt solution would decrease as m increased. Justify her prediction. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -421,7 +431,8 @@
        }
       }
      ],
-     "text": "(i) The student wrote the following conclusion. The resistivity of the salt solution is inversely proportional to the mass of salt dissolved in the sample. Explain how the graph supports the student’s conclusion. (3)"
+     "text": "(i) The student wrote the following conclusion. The resistivity of the salt solution is inversely proportional to the mass of salt dissolved in the sample. Explain how the graph supports the student’s conclusion. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(ii)",
@@ -471,10 +482,11 @@
        }
       }
      ],
-     "text": "(ii) Give two reasons why the graph may not support the student’s conclusion. (2)"
+     "text": "(ii) Give two reasons why the graph may not support the student’s conclusion. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_10_q3",
@@ -529,7 +541,8 @@
        }
       }
      ],
-     "text": "(a) (i) Describe a method to measure u and v. (3)"
+     "text": "(a) (i) Describe a method to measure u and v. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(a)(ii)",
@@ -565,7 +578,8 @@
        }
       }
      ],
-     "text": "(ii) Identify a possible source of uncertainty in the measurement of u, and how it can be dealt with. (2)"
+     "text": "(ii) Identify a possible source of uncertainty in the measurement of u, and how it can be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -615,7 +629,8 @@
        }
       }
      ],
-     "text": "(i) For a lens, P can be calculated using P = 1 u + 1 v Calculate the value missing from the table. (2)"
+     "text": "(i) For a lens, P can be calculated using P = 1 u + 1 v Calculate the value missing from the table. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(ii)",
@@ -665,10 +680,11 @@
        }
       }
      ],
-     "text": "(ii) When surrounded by air, the power of a lens this shape can be calculated using the equation n − n 1   P = lens air  n r air where r is the radius of the curve that forms the lens nair is the refractive index of air nlens is the refractive index of the liquid. Determine the value of nlens when r = 0.070 m. (3)"
+     "text": "(ii) When surrounded by air, the power of a lens this shape can be calculated using the equation n − n 1   P = lens air  n r air where r is the radius of the curve that forms the lens nair is the refractive index of air nlens is the refractive index of the liquid. Determine the value of nlens when r = 0.070 m. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2022_10_q4",
@@ -735,12 +751,13 @@
        }
       }
      ],
-     "text": "(a) Criticise the recording of these results. (2)"
+     "text": "(a) Criticise the recording of these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -783,7 +800,8 @@
        }
       }
      ],
-     "text": "(b) Using the grid opposite, plot a graph of d on the y-axis against F on the x-axis. (5)"
+     "text": "(b) Using the grid opposite, plot a graph of d on the y-axis against F on the x-axis. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -819,7 +837,8 @@
        }
       }
      ],
-     "text": "(c) (i) The ‘bending modulus’ E of the plastic beam can be calculated using the equation l F 3 E = 4 wh d 3 l 3 Show that the gradient of the graph is equal to 4 wh E 3 (2)"
+     "text": "(c) (i) The ‘bending modulus’ E of the plastic beam can be calculated using the equation l F 3 E = 4 wh d 3 l 3 Show that the gradient of the graph is equal to 4 wh E 3 (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -855,7 +874,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the gradient of your graph. (2)"
+     "text": "(ii) Determine the gradient of your graph. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iii)",
@@ -891,7 +911,8 @@
        }
       }
      ],
-     "text": "(iii) The student recorded the following measurements for the plastic beam. l / cm 30 w / mm 20 h / mm 10 Determine E, in GPa, for the plastic beam. (2)"
+     "text": "(iii) The student recorded the following measurements for the plastic beam. l / cm 30 w / mm 20 h / mm 10 Determine E, in GPa, for the plastic beam. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
@@ -927,7 +948,8 @@
        }
       }
      ],
-     "text": "(d) The student’s teacher suggested that using a plastic beam with a smaller value of h would improve the measurement of d. Justify the teacher’s statement. (2)"
+     "text": "(d) The student’s teacher suggested that using a plastic beam with a smaller value of h would improve the measurement of d. Justify the teacher’s statement. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(e)",
@@ -963,10 +985,14 @@
        }
       }
      ],
-     "text": "(e) The student suggested repeating the investigation using a glass rod instead of a plastic beam. Explain a safety issue that would be caused by using a glass rod. (2)"
+     "text": "(e) The student suggested repeating the investigation using a glass rod instead of a plastic beam. Explain a safety issue that would be caused by using a glass rod. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "4(b): runs across pages"
+   ],
+   "check": "human"
   }
  ]
 }

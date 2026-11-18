@@ -89,6 +89,15 @@ def apply(paper, reviews, ai=None):
             read = ai["questions"].get(str(q["number"]), {})
             ai_kind = read.get("kinds", {}).get(p["label"]) if read.get("fingerprint") == fingerprint(q) else None
             p["kind"] = fix.get("kind", ai_kind or p["kindGuessed"])
+            # topics: a person's, else the AI reader's suggestion (tags don't depend on how the crops are cut,
+            # so a reading of an earlier cut still counts)
+            ai_topics = read.get("topics", {}).get(p["label"])
+            if "topics" in fix:
+                p["topics"], p["tagStatus"] = fix["topics"], "reviewed"
+            elif ai_topics:
+                p["topics"], p["tagStatus"] = ai_topics, "suggested"
+            else:
+                p["topics"], p["tagStatus"] = [], "none"
             if "answerRead" in p or "answer" in fix:
                 p["answer"] = fix.get("answer", p.get("answerRead"))
             if p.get("answer") is None:

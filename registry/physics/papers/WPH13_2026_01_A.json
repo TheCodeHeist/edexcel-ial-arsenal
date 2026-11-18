@@ -78,7 +78,8 @@
        }
       }
      ],
-     "text": "(a) (i) Explain why the wavelength of the microwaves is equal to twice the distance between the burn marks. (2)"
+     "text": "(a) (i) Explain why the wavelength of the microwaves is equal to twice the distance between the burn marks. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -114,7 +115,8 @@
        }
       }
      ],
-     "text": "(ii) The manufacturer states that the frequency of the microwaves is 2450 MHz. Calculate the speed of the microwaves. (3)"
+     "text": "(ii) The manufacturer states that the frequency of the microwaves is 2450 MHz. Calculate the speed of the microwaves. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(i)",
@@ -150,7 +152,8 @@
        }
       }
      ],
-     "text": "(b) (i) The student uses a 30 cm ruler to measure the distance between burn marks. State the resolution of a 30 cm ruler. (1)"
+     "text": "(b) (i) The student uses a 30 cm ruler to measure the distance between burn marks. State the resolution of a 30 cm ruler. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
@@ -186,10 +189,11 @@
        }
       }
      ],
-     "text": "(ii) The student states that the uncertainty in their measurement of the distance is half the resolution of the 30 cm ruler. Assess the validity of the student’s statement. (2)"
+     "text": "(ii) The student states that the uncertainty in their measurement of the distance is half the resolution of the 30 cm ruler. Assess the validity of the student’s statement. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_01_A_q2",
@@ -213,7 +217,7 @@
     {
      "label": "2(a)",
      "marks": 1,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -244,7 +248,8 @@
        }
       }
      ],
-     "text": "(a) Add a line of best fit to the graph in the answer book. (1)"
+     "text": "(a) Add a line of best fit to the graph in the answer book. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -280,7 +285,8 @@
        }
       }
      ],
-     "text": "(b) (i) Give the value of the p.d. at which the LED starts to conduct. (1)"
+     "text": "(b) (i) Give the value of the p.d. at which the LED starts to conduct. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(ii)",
@@ -316,7 +322,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the minimum energy that must be transferred to an electron in the LED for light to be emitted. (2)"
+     "text": "(ii) Calculate the minimum energy that must be transferred to an electron in the LED for light to be emitted. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
@@ -352,7 +359,8 @@
        }
       }
      ],
-     "text": "(c) Light is emitted when the electron releases energy as a photon. The student tested a second LED that emitted light of wavelength 625 nm. From her results she determined the minimum electron energy to be 3.1 × 10−19 J. Calculate the value of the Planck constant from this data. (3)"
+     "text": "(c) Light is emitted when the electron releases energy as a photon. The student tested a second LED that emitted light of wavelength 625 nm. From her results she determined the minimum electron energy to be 3.1 × 10−19 J. Calculate the value of the Planck constant from this data. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(d)",
@@ -388,7 +396,8 @@
        }
       }
      ],
-     "text": "(d) The LED does not produce monochromatic light. Explain how this would affect the value of the Planck constant calculated. (3)"
+     "text": "(d) The LED does not produce monochromatic light. Explain how this would affect the value of the Planck constant calculated. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(e)",
@@ -424,10 +433,11 @@
        }
       }
      ],
-     "text": "(e) The accuracy of the value of the Planck constant calculated depends on the minimum p.d. determined from the graph. Explain how the student could reduce the uncertainty in her value of the minimum p.d. (2)"
+     "text": "(e) The accuracy of the value of the Planck constant calculated depends on the minimum p.d. determined from the graph. Explain how the student could reduce the uncertainty in her value of the minimum p.d. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_01_A_q3",
@@ -496,7 +506,8 @@
        }
       }
      ],
-     "text": "(i) Determine an accurate value for the length of the card. (2)"
+     "text": "(i) Determine an accurate value for the length of the card. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(a)(ii)",
@@ -546,7 +557,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the percentage uncertainty in your value. (2)"
+     "text": "(ii) Calculate the percentage uncertainty in your value. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(i)",
@@ -596,7 +608,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the values missing from the table. (4)"
+     "text": "(i) Calculate the values missing from the table. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(ii)",
@@ -646,7 +659,8 @@
        }
       }
      ],
-     "text": "(ii) Determine whether the student’s values show that momentum was conserved in this collision. (2)"
+     "text": "(ii) Determine whether the student’s values show that momentum was conserved in this collision. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)",
@@ -682,7 +696,8 @@
        }
       }
      ],
-     "text": "(c) In the experiment, the student applied a small force with her hand to start glider A moving. The student repeated the experiment and calculated the mean values of the time taken to pass through each light gate. Discuss how this affected the uncertainty in the calculated values of momentum. (3)"
+     "text": "(c) In the experiment, the student applied a small force with her hand to start glider A moving. The student repeated the experiment and calculated the mean values of the time taken to pass through each light gate. Discuss how this affected the uncertainty in the calculated values of momentum. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)",
@@ -718,10 +733,11 @@
        }
       }
      ],
-     "text": "(d) Another student used a stopwatch to measure the time taken for the gliders to travel a known distance. Explain the advantage of using light gates and a data logger, instead of using a stopwatch. (2)"
+     "text": "(d) Another student used a stopwatch to measure the time taken for the gliders to travel a known distance. Explain the advantage of using light gates and a data logger, instead of using a stopwatch. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_01_A_q4",
@@ -790,12 +806,13 @@
        }
       }
      ],
-     "text": "(i) Criticise these results. (2)"
+     "text": "(i) Criticise these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -840,7 +857,8 @@
        }
       }
      ],
-     "text": "(ii) Plot a graph of r on the y-axis and h on the x-axis in the answer book. (5)"
+     "text": "(ii) Plot a graph of r on the y-axis and h on the x-axis in the answer book. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -876,7 +894,8 @@
        }
       }
      ],
-     "text": "(b) (i) Show that the velocity u of the cube immediately before the collision is given by u = 2gh (2)"
+     "text": "(b) (i) Show that the velocity u of the cube immediately before the collision is given by u = 2gh (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -912,7 +931,8 @@
        }
       }
      ],
-     "text": "(ii) The coefficient of restitution e is given by the equation e = v u where v is the velocity of the cube immediately after the collision. Explain why the gradient of the graph is e 2. (3)"
+     "text": "(ii) The coefficient of restitution e is given by the equation e = v u where v is the velocity of the cube immediately after the collision. Explain why the gradient of the graph is e 2. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)",
@@ -948,10 +968,11 @@
        }
       }
      ],
-     "text": "(c) The student researched the range of values for the coefficients of restitution e of different metals. stainless steel 0.63 < e < 0.93 cast iron 0.3 < e < 0.6 Determine which of these metals the cube could be made from. (3)"
+     "text": "(c) The student researched the range of values for the coefficients of restitution e of different metals. stainless steel 0.63 < e < 0.93 cast iron 0.3 < e < 0.6 Determine which of these metals the cube could be made from. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

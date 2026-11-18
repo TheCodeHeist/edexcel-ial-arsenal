@@ -128,7 +128,7 @@ def record(paper_id, number, raw):
         said = json.loads(raw)
     except json.JSONDecodeError as e:
         sys.exit(f"not JSON: {e}")
-    kinds, concerns = said.get("kinds", {}), said.get("concerns", [])
+    kinds, concerns, topics = said.get("kinds", {}), said.get("concerns", []), said.get("topics", {})
     labels = [p["label"] for p in q["parts"]]
     errors = [f"unknown part {k}" for k in kinds if k not in labels]
     errors += [f"no kind for {label}" for label in labels if label not in kinds]
@@ -138,6 +138,15 @@ def record(paper_id, number, raw):
             errors.append(f"{p['label']}: kind must be one of {sorted(KINDS)}")
         elif k is not None and (k == "mcq") != was_mcq:
             errors.append(f"{p['label']}: {'is' if was_mcq else 'is not'} an MCQ; keep it {'mcq' if was_mcq else 'non-mcq'}")
+    allowed = {p["id"] for _, _, p in topic_list(paper["subject"], paper["unit"])}
+    errors += [f"unknown part {k} in topics" for k in topics if k not in labels]
+    errors += [f"no topics for {label}" for label in labels if not topics.get(label)]
+    for label, ids in topics.items():
+        if not isinstance(ids, list) or not all(isinstance(i, str) for i in ids):
+            errors.append(f"{label}: topics must be a list of tag ids as strings, e.g. [\"86\"]")
+        else:
+            errors += [f"{label}: {i} is not a tag for {paper['unit']} (see the TOPIC TAGS list from todo)"
+                       for i in ids if i not in allowed]
     if not isinstance(concerns, list) or not all(isinstance(c, str) and c.strip() for c in concerns):
         errors.append("concerns must be a list of non-empty strings ([] if all is well)")
     if errors:
@@ -149,24 +158,57 @@ def record(paper_id, number, raw):
         fcntl.flock(lock, fcntl.LOCK_EX)
         ai = reviews.load_ai(paper["subject"], paper_id)
         ai["questions"][str(q["number"])] = {
-            "fingerprint": reviews.fingerprint(q), "kinds": kinds, "concerns": [c.strip() for c in concerns],
+            "fingerprint": reviews.fingerprint(q), "kinds": kinds, "topics": topics,
+            "concerns": [c.strip() for c in concerns],
             "at": date.today().isoformat()}
         f.write_text(json.dumps(ai, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
     print(f"recorded {paper_id} q{q['number']}: " + ("; ".join(concerns) if concerns else "no concerns"))
 
 
+# Which tags a unit's questions may carry: its own content statements; practical papers add their skill bullets
+# and the content of the theory units they draw on. Synoptic questions may reach back to earlier units.
+DRAWS_ON = {"WPH11": ["WPH11"], "WPH12": ["WPH12", "WPH11"], "WPH13": ["WPH13", "WPH11", "WPH12"],
+            "WPH14": ["WPH14", "WPH11", "WPH12"], "WPH15": ["WPH15", "WPH14", "WPH11", "WPH12"],
+            "WPH16": ["WPH16", "WPH14", "WPH15", "WPH11", "WPH12"]}
+
+
+def topic_list(subject, unit):
+    """[(unit code, group, point)] a question of this unit may be tagged with, its own unit first."""
+    t = json.loads((ROOT / "registry" / subject / "topics.json").read_text())
+    by = {u["code"]: u for u in t["units"]}
+    return [(code, g, p) for code in DRAWS_ON.get(unit, [unit]) if code in by
+            for g in by[code]["groups"] for p in g["points"]]
+
+
+def print_topics(subject, unit):
+    print(f"TOPIC TAGS for {unit} questions (id: label). Own unit first; earlier units only for synoptic parts.")
+    last = None
+    for code, g, p in topic_list(subject, unit):
+        if (code, g["id"]) != last:
+            print(f"\n  [{code} {g['id']} {g['title']}]")
+            last = (code, g["id"])
+        print(f"    {p['id']}: {p['short']}")
+    print()
+
+
 def todo(prefix="WPH1", limit=None):
-    """Questions with no current AI reading, clean ones first (those are the ones only the AI will check)."""
+    """Questions still to read: no reading of the question as it is cut now, or no topic tags yet. Clean ones
+    first (those are the ones only the AI will check)."""
     rows = []
     for f in sorted((ROOT / "registry").glob(f"*/papers/{prefix}*.json")):
         paper = json.loads(f.read_text())
         ai = reviews.load_ai(paper["subject"], paper["id"])["questions"]
         for q in paper["questions"]:
-            done = ai.get(str(q["number"]), {}).get("fingerprint") == reviews.fingerprint(q)
+            read = ai.get(str(q["number"]), {})
+            done = (read.get("fingerprint") == reviews.fingerprint(q)          # read as it is cut now
+                    and all(read.get("topics", {}).get(p["label"]) for p in q["parts"]))   # and tagged
             if not done:
                 rows.append((bool(q.get("risks")), paper["id"], q["number"]))
     rows.sort(key=lambda r: r[0])
     print(KIND_GUIDE + "\n")
+    units = {pid[:5] for _, pid, _ in rows}
+    if len(units) == 1:
+        print_topics("physics", units.pop())
     print(f"{len(rows)} to read")
     for risky, pid, n in rows[:limit]:
         print(f"{pid} {n}" + ("   (risky: a person will look too)" if risky else ""))

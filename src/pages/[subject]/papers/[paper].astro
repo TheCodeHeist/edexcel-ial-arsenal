@@ -1,0 +1,107 @@
+---
+/* One past paper, question by question: the question as printed, its mark scheme behind a toggle, and the
+   credit for where the paper came from. Questions not yet checked are listed with a link to the original. */
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/papers.css';
+import { SUBJECTS } from '../../../data/subjects';
+import type { Crop, Paper, Question } from '../../../lib/papers/types';
+import { cropUrl } from '../../../lib/papers/crops';
+import { papersFor, papersForUnit, isPublished, seriesName, paperSlug, topicIndex, safeUrl } from '../../../lib/papers/registry';
+
+export function getStaticPaths() {
+  return SUBJECTS.flatMap((s) => papersFor(s.id).map((p) => ({ params: { subject: s.id, paper: paperSlug(p) }, props: { p } })));
+}
+const { p } = Astro.props as { p: Paper };
+const s = SUBJECTS.find((x) => x.id === p.subject)!;
+const unit = s.units.find((u) => u.code === p.unit);
+const topics = topicIndex(p.subject);
+const shown = p.questions.filter(isPublished).length;
+
+const siblings = papersForUnit(p.subject, p.unit);
+const at = siblings.findIndex((x) => x.id === p.id);
+const prev = siblings[at - 1], next = siblings[at + 1];
+const href = (x: Paper) => `/${s.id}/papers/${paperSlug(x)}/`;
+
+/* Crops are 150 dpi; at 96 px per inch they come out the size of the printed page. */
+const size = (c: Crop) => ({ width: Math.round((c.w * 96) / 150), height: Math.round((c.h * 96) / 150) });
+const firstPage = (q: Question) => (q.stem[0] ?? q.parts[0]?.qp[0])?.region.page;
+const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringify(a ?? []) === JSON.stringify(b ?? []);
+---
+<Base
+  title={`${p.unit} ${seriesName(p)}`}
+  description={`Edexcel IAL ${s.name} ${p.unit} (${unit?.title}), ${seriesName(p)}: every question with its mark scheme.`}
+  tab={s.id}
+  status={{ label: `${p.unit} · ${seriesName(p)}`, hint: unit?.title ?? '' }}
+  stats={[{ label: 'Marks', value: p.totalMarks }, { label: 'Time', value: `${p.durationMin} min` }, { label: 'Questions', value: p.questions.length }]}
+>
+  <nav class="paper-nav" aria-label="Papers">
+    <a class="btn" href={`/${s.id}/papers/`}>All {s.name} papers</a>
+    <span class="spacer"></span>
+    {prev && <a class="btn" href={href(prev)} rel="prev">← {seriesName(prev, true)}</a>}
+    {next && <a class="btn" href={href(next)} rel="next">{seriesName(next, true)} →</a>}
+  </nav>
+
+  <header class="panel paper-head rise">
+    <p class="eyebrow">{p.unit} · {unit?.title}</p>
+    <h2>{seriesName(p)}{p.variant && <span class="variant-note"> · Pearson's second paper of this series, for another time zone</span>}</h2>
+    <p class="credit">
+      Questions and mark schemes © Pearson Education Ltd. Question paper shared by{' '}
+      <a href={p.source.qp.via.url}>{p.source.qp.via.name}</a>{p.source.ms.via.name !== p.source.qp.via.name
+        ? <> and mark scheme by <a href={p.source.ms.via.url}>{p.source.ms.via.name}</a></> : ', with its mark scheme'}. {p.source.qp.via.credit}
+    </p>
+    <div class="originals">
+      <a class="btn" href={safeUrl(p.source.qp.url)}>Original question paper (PDF)</a>
+      <a class="btn" href={safeUrl(p.source.ms.url)}>Original mark scheme (PDF)</a>
+    </div>
+    {shown < p.questions.length && (
+      <p class="pending-note">{p.questions.length - shown} of {p.questions.length} questions are still being checked; use the original paper for those.</p>
+    )}
+  </header>
+
+  <ol class="questions">
+    {p.questions.map((q) => (
+      <li class="qcard panel" id={`q${q.number}`}>
+        <div class="qhead">
+          <h3><a href={`#q${q.number}`}>Question {q.number}</a></h3>
+          <span class="marks">{q.marks} mark{q.marks === 1 ? '' : 's'}</span>
+        </div>
+        {isPublished(q) ? (
+          <>
+            {q.stem.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt="" />)}
+            {q.parts.map((part, i) => (
+              <div class="part">
+                {part.intro && part.intro.length > 0 && !sameIntro(part.intro, q.parts[i - 1]?.intro) &&
+                  part.intro.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt="" />)}
+                {part.qp.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Question ${part.label}`} />)}
+                {part.topics.length > 0 && (
+                  <div class="topics">
+                    {part.topics.map((t) => topics.get(t)).filter(Boolean).map((t) => <span class="chip" title={t!.text}>{t!.short}</span>)}
+                  </div>
+                )}
+              </div>
+            ))}
+            <details class="ms">
+              <summary>Mark scheme{q.parts.length > 1 ? ` (${q.parts.length} parts)` : ''}</summary>
+              {q.parts.map((part) => (
+                <div class="ms-part">
+                  {part.kind === 'mcq' && part.answer && <p class="answer">Answer: <b>{part.answer}</b></p>}
+                  {part.ms.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Mark scheme for ${part.label}`} />)}
+                </div>
+              ))}
+            </details>
+          </>
+        ) : (
+          <p class="pending">This question is still being checked. It's on page {firstPage(q)} of the
+            <a href={`${safeUrl(p.source.qp.url)}#page=${firstPage(q)}`}>original paper</a>.</p>
+        )}
+      </li>
+    ))}
+  </ol>
+
+  <nav class="paper-nav bottom" aria-label="Papers">
+    <a class="btn" href={`/${s.id}/papers/`}>All {s.name} papers</a>
+    <span class="spacer"></span>
+    {prev && <a class="btn" href={href(prev)} rel="prev">← {seriesName(prev, true)}</a>}
+    {next && <a class="btn" href={href(next)} rel="next">{seriesName(next, true)} →</a>}
+  </nav>
+</Base>

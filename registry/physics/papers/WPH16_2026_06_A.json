@@ -92,7 +92,8 @@
        }
       }
      ],
-     "text": "1 (a) (i) Describe a method to determine an accurate value for this single measurement of h. (3)"
+     "text": "1 (a) (i) Describe a method to determine an accurate value for this single measurement of h. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -142,7 +143,8 @@
        }
       }
      ],
-     "text": "1 (a) (ii) The student recorded that h was 368 mm ± 1 mm. Explain why it was appropriate to record an uncertainty of 1 mm for h. (3)"
+     "text": "1 (a) (ii) The student recorded that h was 368 mm ± 1 mm. Explain why it was appropriate to record an uncertainty of 1 mm for h. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -178,10 +180,11 @@
        }
       }
      ],
-     "text": "1 (b) The student recorded the voltmeter reading V. He changed the height h and recorded the corresponding value of V. He recorded the following results. h / mm V / mV 368 137 302 203 259 277 The student predicted that the relationship between V and h is k V = 2 h where k is a constant. The student plotted a graph of V against 1 h 2 Explain why the student’s results may not be used to test the student’s prediction. You do not need to do any calculations. (4)"
+     "text": "1 (b) The student recorded the voltmeter reading V. He changed the height h and recorded the corresponding value of V. He recorded the following results. h / mm V / mV 368 137 302 203 259 277 The student predicted that the relationship between V and h is k V = 2 h where k is a constant. The student plotted a graph of V against 1 h 2 Explain why the student’s results may not be used to test the student’s prediction. You do not need to do any calculations. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_06_A_q2",
@@ -236,12 +239,13 @@
        }
       }
      ],
-     "text": "2 (a) The student switched on the signal generator. The oscilloscope screen displayed the output from the signal generator, as shown below. oscilloscope output screen one division The horizontal scale was set to 0.5 ms per division. Show that the frequency of the output from the signal generator is about 700 Hz. You may add to the diagram in the Answer Book. (4)"
+     "text": "2 (a) The student switched on the signal generator. The oscilloscope screen displayed the output from the signal generator, as shown below. oscilloscope output screen one division The horizontal scale was set to 0.5 ms per division. Show that the frequency of the output from the signal generator is about 700 Hz. You may add to the diagram in the Answer Book. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -272,10 +276,11 @@
        }
       }
      ],
-     "text": "2 (b) The student connected the signal generator to a coil, a capacitor with known capacitance C and a resistor, as shown. The signal generator is still connected to the oscilloscope. signal generator and oscilloscope A coil The student increased the frequency of the output from the signal generator. The reading on the ammeter increased to a maximum value then decreased. When the reading on the ammeter is at a maximum, the frequency of the output from the signal generator is f. The relationship between f and C is X 2 = f C where X is a constant. Devise a plan the student could use to determine the value of X. You should include the use of a suitable graph. (6)"
+     "text": "2 (b) The student connected the signal generator to a coil, a capacitor with known capacitance C and a resistor, as shown. The signal generator is still connected to the oscilloscope. signal generator and oscilloscope A coil The student increased the frequency of the output from the signal generator. The reading on the ammeter increased to a maximum value then decreased. When the reading on the ammeter is at a maximum, the frequency of the output from the signal generator is f. The relationship between f and C is X 2 = f C where X is a constant. Devise a plan the student could use to determine the value of X. You should include the use of a suitable graph. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_06_A_q3",
@@ -330,7 +335,8 @@
        }
       }
      ],
-     "text": "3 (a) Describe two safety precautions the student should take when doing this investigation. (2)"
+     "text": "3 (a) Describe two safety precautions the student should take when doing this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -366,7 +372,8 @@
        }
       }
      ],
-     "text": "3 (b) The ratemeter displayed the count rate of radiation detected by the G-M tube. The student started a stopwatch and recorded the count rate every 30 s. Describe what the student should do to obtain the count rate from the radioactive source. (2)"
+     "text": "3 (b) The ratemeter displayed the count rate of radiation detected by the G-M tube. The student started a stopwatch and recorded the count rate every 30 s. Describe what the student should do to obtain the count rate from the radioactive source. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(i)",
@@ -416,12 +423,13 @@
        }
       }
      ],
-     "text": "3 (c) (i) Explain how a graph of ln C against t can be used to determine a value for λ. (2)"
+     "text": "3 (c) (i) Explain how a graph of ln C against t can be used to determine a value for λ. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -478,7 +486,8 @@
        }
       }
      ],
-     "text": "3 (c) (ii) The student recorded the following results. t / s C / s–1 0 118 30 89 60 66 90 49 120 39 Plot a graph of ln C against t on the grid in the Answer Book. Use the table in the Answer Book to record your processed data. (5)"
+     "text": "3 (c) (ii) The student recorded the following results. t / s C / s–1 0 118 30 89 60 66 90 49 120 39 Plot a graph of ln C against t on the grid in the Answer Book. Use the table in the Answer Book to record your processed data. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(iii)",
@@ -528,7 +537,8 @@
        }
       }
      ],
-     "text": "3 (c) (iii) Determine the value of λ from the graph. (3)"
+     "text": "3 (c) (iii) Determine the value of λ from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(iv)",
@@ -578,10 +588,11 @@
        }
       }
      ],
-     "text": "3 (c) (iv) Explain how using a radioactive source with a shorter half-life affects the graph. (3)"
+     "text": "3 (c) (iv) Explain how using a radioactive source with a shorter half-life affects the graph. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_06_A_q4",
@@ -650,7 +661,8 @@
        }
       }
      ],
-     "text": "4 (a) (i) Determine the percentage uncertainty in this reading. (2)"
+     "text": "4 (a) (i) Determine the percentage uncertainty in this reading. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(a)(ii)",
@@ -700,7 +712,8 @@
        }
       }
      ],
-     "text": "4 (a) (ii) The student checked and corrected for zero error before taking the reading. Explain one other technique the student should use to reduce the error in d. (2)"
+     "text": "4 (a) (ii) The student checked and corrected for zero error before taking the reading. Explain one other technique the student should use to reduce the error in d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -762,7 +775,8 @@
        }
       }
      ],
-     "text": "4 (b) (i) Show that G is about 8 × 1010 Pa. (3)"
+     "text": "4 (b) (i) Show that G is about 8 × 1010 Pa. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -836,7 +850,8 @@
        }
       }
      ],
-     "text": "4 (b) (ii) Show that the percentage uncertainty in G is about 9%. (4)"
+     "text": "4 (b) (ii) Show that the percentage uncertainty in G is about 9%. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iii)",
@@ -898,10 +913,11 @@
        }
       }
      ],
-     "text": "4 (b) (iii) The value of G for carbon steel is 7.70 × 1010 Pa. Deduce whether the metal rod could be made from carbon steel. (2)"
+     "text": "4 (b) (iii) The value of G for carbon steel is 7.70 × 1010 Pa. Deduce whether the metal rod could be made from carbon steel. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

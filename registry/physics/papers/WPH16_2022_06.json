@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) State the resolution of the thermometer in °C. (1)"
+     "text": "(i) State the resolution of the thermometer in °C. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) The student heated the liquid. He started a stopwatch and recorded the temperature of the liquid. He recorded the time at fixed intervals of temperature, as the temperature increased. Explain why this method was better than starting a stopwatch and recording the temperature at fixed intervals of time. (2)"
+     "text": "(ii) The student heated the liquid. He started a stopwatch and recorded the temperature of the liquid. He recorded the time at fixed intervals of temperature, as the temperature increased. Explain why this method was better than starting a stopwatch and recording the temperature at fixed intervals of time. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
@@ -191,12 +193,13 @@
        }
       }
      ],
-     "text": "(i) State another control variable that would allow him to compare the specific heat capacities for the two liquids. (1)"
+     "text": "(i) State another control variable that would allow him to compare the specific heat capacities for the two liquids. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -241,7 +244,8 @@
        }
       }
      ],
-     "text": "(ii) The student plotted a graph of temperature against time for the first liquid, as shown. 40 35 30 25 Temperature 20 / °C 15 10 5 0 0 10 20 30 40 Time / s Sketch on the graph the line for a liquid with a greater specific heat capacity. (2)"
+     "text": "(ii) The student plotted a graph of temperature against time for the first liquid, as shown. 40 35 30 25 Temperature 20 / °C 15 10 5 0 0 10 20 30 40 Time / s Sketch on the graph the line for a liquid with a greater specific heat capacity. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
@@ -277,10 +281,11 @@
        }
       }
      ],
-     "text": "(c) Another student performed the investigation using a temperature probe connected to a data logger. Give two reasons why this would improve the investigation. (2)"
+     "text": "(c) Another student performed the investigation using a temperature probe connected to a data logger. Give two reasons why this would improve the investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2022_06_q2",
@@ -304,7 +309,7 @@
     {
      "label": "2(a)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -347,7 +352,8 @@
        }
       }
      ],
-     "text": "(a) The time taken for the amplitude of one pendulum to change from zero to a maximum and back to zero again is P. It is suggested that the relationship between P and the vertical distance L between the metal rod and the rubber band is P = a Lb where a and b are constants. Devise a plan to test the validity of this relationship using a graphical method. (6)"
+     "text": "(a) The time taken for the amplitude of one pendulum to change from zero to a maximum and back to zero again is P. It is suggested that the relationship between P and the vertical distance L between the metal rod and the rubber band is P = a Lb where a and b are constants. Devise a plan to test the validity of this relationship using a graphical method. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -383,10 +389,14 @@
        }
       }
      ],
-     "text": "(b) A student recorded the motion of the pendulums using a video camera. Suggest how this may improve the measurement of P. (2)"
+     "text": "(b) A student recorded the motion of the pendulums using a video camera. Suggest how this may improve the measurement of P. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "2(a): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2022_06_q3",
@@ -441,12 +451,13 @@
        }
       }
      ],
-     "text": "(a) The relationship between the atomic number Z and the frequency f of the most intense spectral line is given by Z = k f n where k and n are constants. Explain why a graph of log Z against log f would give a straight line. (2)"
+     "text": "(a) The relationship between the atomic number Z and the frequency f of the most intense spectral line is given by Z = k f n where k and n are constants. Explain why a graph of log Z against log f would give a straight line. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -503,7 +514,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log Z against log f on the grid opposite. Use the additional columns for your processed data. You should not convert the values of f from 1015 Hz to Hz. (6). (6)"
+     "text": "(i) Plot a graph of log Z against log f on the grid opposite. Use the additional columns for your processed data. You should not convert the values of f from 1015 Hz to Hz. (6). (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -553,7 +565,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the value of n. (3)"
+     "text": "(ii) Determine the value of n. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -603,7 +616,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of k using your graph. (3)"
+     "text": "(iii) Determine the value of k using your graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)",
@@ -639,10 +653,14 @@
        }
       }
      ],
-     "text": "(c) A scientist named Henry Moseley suggested that Z µ f 0.5 Explain whether the graph supports this suggestion. (2)"
+     "text": "(c) A scientist named Henry Moseley suggested that Z µ f 0.5 Explain whether the graph supports this suggestion. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(b)(i): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2022_06_q4",
@@ -711,7 +729,8 @@
        }
       }
      ],
-     "text": "(i) She made one measurement in cm using Vernier calipers and one measurement in mm using digital calipers. The photographs show the measurements. Explain why the digital calipers would be a better choice of instrument for this measurement. You should include calculations in your answer. (4)"
+     "text": "(i) She made one measurement in cm using Vernier calipers and one measurement in mm using digital calipers. The photographs show the measurements. Explain why the digital calipers would be a better choice of instrument for this measurement. You should include calculations in your answer. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -761,7 +780,8 @@
        }
       }
      ],
-     "text": "(ii) The student determined a more accurate value for d. Explain one technique she could have used. (2)"
+     "text": "(ii) The student determined a more accurate value for d. Explain one technique she could have used. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(iii)",
@@ -811,7 +831,8 @@
        }
       }
      ],
-     "text": "(iii) The student recorded the following measurements. d / mm 6.57 6.58 6.54 6.52 Determine the mean value of d and its uncertainty in mm. (3)"
+     "text": "(iii) The student recorded the following measurements. d / mm 6.57 6.58 6.54 6.52 Determine the mean value of d and its uncertainty in mm. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
@@ -847,7 +868,8 @@
        }
       }
      ],
-     "text": "(b) The student was given a different size metal nut. She measured the distances shown. d s She calculated the shaded area A of the metal using the formula 2 s2 – π 3 4d 2 A = s = 16.83 mm ± 0.02 mm d = 8.55 mm ± 0.04 mm A = 1.88 cm2 Show that the uncertainty in A is about 0.01 cm2. (4)"
+     "text": "(b) The student was given a different size metal nut. She measured the distances shown. d s She calculated the shaded area A of the metal using the formula 2 s2 – π 3 4d 2 A = s = 16.83 mm ± 0.02 mm d = 8.55 mm ± 0.04 mm A = 1.88 cm2 Show that the uncertainty in A is about 0.01 cm2. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(i)",
@@ -897,12 +919,13 @@
        }
       }
      ],
-     "text": "(i) Determine the density ρ of the metal from which the nut is made. (2)"
+     "text": "(i) Determine the density ρ of the metal from which the nut is made. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -947,10 +970,11 @@
        }
       }
      ],
-     "text": "(ii) The density of steel ranges from 7.85 g cm–3 to 8.03 g cm–3. Deduce whether the metal nut could be made from steel. (3)"
+     "text": "(ii) The density of steel ranges from 7.85 g cm–3 to 8.03 g cm–3. Deduce whether the metal nut could be made from steel. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

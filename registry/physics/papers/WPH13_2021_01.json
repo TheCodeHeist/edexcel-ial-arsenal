@@ -77,12 +77,13 @@
        }
       }
      ],
-     "text": "(a) The air track is a long metal tube with holes along its length. Air from a blower enters the tube and escapes through the holes, minimising friction between the glider and the track. The student released the slotted masses and the glider accelerated along the track. Describe how he could determine the acceleration of the glider. You may add to the diagram. (5)"
+     "text": "(a) The air track is a long metal tube with holes along its length. Air from a blower enters the tube and escapes through the holes, minimising friction between the glider and the track. The student released the slotted masses and the glider accelerated along the track. Describe how he could determine the acceleration of the glider. You may add to the diagram. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -127,7 +128,8 @@
        }
       }
      ],
-     "text": "(i) Plot the remaining points and add a line of best fit. (2)"
+     "text": "(i) Plot the remaining points and add a line of best fit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
@@ -177,7 +179,8 @@
        }
       }
      ],
-     "text": "(ii) The student concludes that these results do not show that the acceleration of the glider is directly proportional to the force. Comment on the student’s conclusion. (1)"
+     "text": "(ii) The student concludes that these results do not show that the acceleration of the glider is directly proportional to the force. Comment on the student’s conclusion. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
@@ -213,10 +216,11 @@
        }
       }
      ],
-     "text": "(c) The teacher explained that for the resultant force to be directly proportional to acceleration, the total mass of the system must be kept constant. Describe how the student could keep the total mass of the system constant during the investigation. (1)"
+     "text": "(c) The teacher explained that for the resultant force to be directly proportional to acceleration, the total mass of the system must be kept constant. Describe how the student could keep the total mass of the system constant during the investigation. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2021_01_q2",
@@ -240,7 +244,7 @@
     {
      "label": "2(a)(i)",
      "marks": 1,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -271,7 +275,8 @@
        }
       }
      ],
-     "text": "(a) (i) Complete the diagram to show the critical angle. (1)"
+     "text": "(a) (i) Complete the diagram to show the critical angle. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(a)(ii)",
@@ -307,7 +312,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the refractive index of the transparent material, using measurements from the diagram. (2)"
+     "text": "(ii) Determine the refractive index of the transparent material, using measurements from the diagram. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
@@ -343,12 +349,13 @@
        }
       }
      ],
-     "text": "(b) The student repeated the process for a second semicircular block of a different transparent material. Her measured value for C was 41 ± 0.5° Calculate the range of possible values of the refractive index. (2)"
+     "text": "(b) The student repeated the process for a second semicircular block of a different transparent material. Her measured value for C was 41 ± 0.5° Calculate the range of possible values of the refractive index. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -379,7 +386,8 @@
        }
       }
      ],
-     "text": "(c) The student had a rectangular block of transparent material. She made measurements as shown. transparent material incident ray 64° 36° Deduce whether this block is made of the same material as the block in (b). . (3)"
+     "text": "(c) The student had a rectangular block of transparent material. She made measurements as shown. transparent material incident ray 64° 36° Deduce whether this block is made of the same material as the block in (b). . (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(d)",
@@ -415,7 +423,8 @@
        }
       }
      ],
-     "text": "(d) The student used rays of white light. Explain why using monochromatic light would increase the validity of the conclusion made in (c). (3)"
+     "text": "(d) The student used rays of white light. Explain why using monochromatic light would increase the validity of the conclusion made in (c). (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(e)",
@@ -451,10 +460,11 @@
        }
       }
      ],
-     "text": "(e) The photograph shows a spectrometer. This can be used to measure angles when investigating refraction. collimator transparent material telescope Vernier scale Light emerges from the collimator in a narrow parallel beam. A Vernier scale allows the angles to be measured with a resolution of 0.1˚ Using a spectrometer reduces the uncertainty in the value of the refractive index of the material compared with using a ray box and a protractor. Justify this statement. (3)"
+     "text": "(e) The photograph shows a spectrometer. This can be used to measure angles when investigating refraction. collimator transparent material telescope Vernier scale Light emerges from the collimator in a narrow parallel beam. A Vernier scale allows the angles to be measured with a resolution of 0.1˚ Using a spectrometer reduces the uncertainty in the value of the refractive index of the material compared with using a ray box and a protractor. Justify this statement. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2021_01_q3",
@@ -509,7 +519,8 @@
        }
       }
      ],
-     "text": "(a) Describe a method he could have used to take the measurements. Your answer should include a diagram. (5)"
+     "text": "(a) Describe a method he could have used to take the measurements. Your answer should include a diagram. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -557,10 +568,14 @@
        }
       }
      ],
-     "text": "(b) The student measured the extension as he was loading and unloading the rubber band. The graph shows his results. 10.0 9.0 8.0 7.0 loading 6.0 unloading 5.0 4.0 3.0 2.0 1.0 0.0 0 0.05 0.10 0.15 0.20 0.25 0.30 0.35 Extension / m Estimate the energy transferred to the internal energy store of the rubber band during loading and unloading. (3)"
+     "text": "(b) The student measured the extension as he was loading and unloading the rubber band. The graph shows his results. 10.0 9.0 8.0 7.0 loading 6.0 unloading 5.0 4.0 3.0 2.0 1.0 0.0 0 0.05 0.10 0.15 0.20 0.25 0.30 0.35 Extension / m Estimate the energy transferred to the internal energy store of the rubber band during loading and unloading. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(b): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2021_01_q4",
@@ -615,7 +630,8 @@
        }
       }
      ],
-     "text": "(a) Calculate the percentage uncertainty in the measurement of the potential difference. (1)"
+     "text": "(a) Calculate the percentage uncertainty in the measurement of the potential difference. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
@@ -651,10 +667,11 @@
        }
       }
      ],
-     "text": "(b) The student could use a digital multimeter. OFF V~ 1000 750 V 200 200 20 µ 200 A 2000 2000 µ m 200 20 m m 200 m 2000 k 10 A 200 Ω 20 k 2000 200 10A DC Va mA 750V AC 1000V DC 200mA MAX COM digital multimeter Discuss the advantages of choosing the digital multimeter to measure the potential difference. (3)"
+     "text": "(b) The student could use a digital multimeter. OFF V~ 1000 750 V 200 200 20 µ 200 A 2000 2000 µ m 200 20 m m 200 m 2000 k 10 A 200 Ω 20 k 2000 200 10A DC Va mA 750V AC 1000V DC 200mA MAX COM digital multimeter Discuss the advantages of choosing the digital multimeter to measure the potential difference. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2021_01_q5",
@@ -709,12 +726,13 @@
        }
       }
      ],
-     "text": "(a) Criticise these results. (2)"
+     "text": "(a) Criticise these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(b)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -745,7 +763,8 @@
        }
       }
      ],
-     "text": "(b) Plot a graph of resistance on the y-axis against temperature on the x-axis. (5)"
+     "text": "(b) Plot a graph of resistance on the y-axis against temperature on the x-axis. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(c)",
@@ -781,7 +800,8 @@
        }
       }
      ],
-     "text": "(c) The relationship between the temperature T and the resistance R of the copper wire is given by R = αR0T + R0 where R0 is the resistance of the wire at 0 °C and α is the temperature coefficient of resistance. Determine R0 and α. (6)"
+     "text": "(c) The relationship between the temperature T and the resistance R of the copper wire is given by R = αR0T + R0 where R0 is the resistance of the wire at 0 °C and α is the temperature coefficient of resistance. Determine R0 and α. (6)",
+     "kindGuessed": "calc"
     },
     {
      "label": "5(d)",
@@ -817,10 +837,11 @@
        }
       }
      ],
-     "text": "(d) Explain one modification to this investigation that would improve the accuracy of the values of R0 and α determined in (c). (2)"
+     "text": "(d) Explain one modification to this investigation that would improve the accuracy of the values of R0 and α determined in (c). (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

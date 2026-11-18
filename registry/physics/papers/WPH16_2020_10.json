@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) The air track provides a cushion of air which reduces friction between the gliders and the track. Describe how the student would show that the air track is horizontal before starting the investigation. (1)"
+     "text": "(a) The air track provides a cushion of air which reduces friction between the gliders and the track. Describe how the student would show that the air track is horizontal before starting the investigation. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The student pushed glider A. The first light gate recorded the time t1 for the card on glider A to pass through it. The gliders collided and stuck together. The second light gate recorded the time t2 for the card on glider A to pass through it. The student recorded t1 and t2 for three separate collisions. t1 / s 0.34 0.21 0.28 t2 / s 0.70 0.39 0.55 The masses of the gliders were identical. If momentum is conserved then t2 = 2t1. Show that momentum was conserved in this investigation. (3)"
+     "text": "(b) The student pushed glider A. The first light gate recorded the time t1 for the card on glider A to pass through it. The gliders collided and stuck together. The second light gate recorded the time t2 for the card on glider A to pass through it. The student recorded t1 and t2 for three separate collisions. t1 / s 0.34 0.21 0.28 t2 / s 0.70 0.39 0.55 The masses of the gliders were identical. If momentum is conserved then t2 = 2t1. Show that momentum was conserved in this investigation. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -149,10 +151,11 @@
        }
       }
      ],
-     "text": "(c) Another student suggested that using a piece of card twice as long would improve the investigation. Assess this suggestion. (3)"
+     "text": "(c) Another student suggested that using a piece of card twice as long would improve the investigation. Assess this suggestion. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human"
   },
   {
    "id": "WPH16_2020_10_q2",
@@ -163,7 +166,7 @@
     {
      "label": "2",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -194,10 +197,14 @@
        }
       }
      ],
-     "text": "2 A student wrote the following plan to investigate the distance travelled by alpha particles in air. Place the Geiger-Müller tube in front of the source. Measure the distance d from the source to the tube. Measure the count. Change d and take more readings. Devise a more detailed plan for this investigation."
+     "text": "2 A student wrote the following plan to investigate the distance travelled by alpha particles in air. Place the Geiger-Müller tube in front of the source. Measure the distance d from the source to the tube. Measure the count. Change d and take more readings. Devise a more detailed plan for this investigation.",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "2: text after the marks"
+   ]
   },
   {
    "id": "WPH16_2020_10_q3",
@@ -252,7 +259,8 @@
        }
       }
      ],
-     "text": "(a) Describe how the time period of these oscillations should be measured to make the readings as accurate as possible. (3)"
+     "text": "(a) Describe how the time period of these oscillations should be measured to make the readings as accurate as possible. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -302,7 +310,8 @@
        }
       }
      ],
-     "text": "(i) State an additional component required in the circuit that would allow this relationship to be investigated. (1)"
+     "text": "(i) State an additional component required in the circuit that would allow this relationship to be investigated. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -352,7 +361,8 @@
        }
       }
      ],
-     "text": "(ii) Explain why plotting a graph of log T against log I would test the validity of this relationship. (2)"
+     "text": "(ii) Explain why plotting a graph of log T against log I would test the validity of this relationship. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(i)",
@@ -376,7 +386,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2020_10/q3_c_i.webp",
+       "src": "physics/WPH16_2020_10/q3_c_i_1.webp",
        "w": 1090,
        "h": 103,
        "region": {
@@ -385,6 +395,18 @@
         "y0": 297.6,
         "x1": 559.0,
         "y1": 347.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2020_10/q3_c_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -402,12 +424,13 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log T against log I on the grid opposite. Use the additional columns in the table to record your processed data. (6)"
+     "text": "(i) Plot a graph of log T against log I on the grid opposite. Use the additional columns in the table to record your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(ii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -426,7 +449,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2020_10/q3_c_ii_1.webp",
+       "src": "physics/WPH16_2020_10/q3_c_ii.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -435,18 +458,6 @@
         "y0": 349.6,
         "x1": 559.0,
         "y1": 385.0
-       }
-      },
-      {
-       "src": "physics/WPH16_2020_10/q3_c_ii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -464,7 +475,8 @@
        }
       }
      ],
-     "text": "(ii) Use your graph to determine a value for n. (3)"
+     "text": "(ii) Use your graph to determine a value for n. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(iii)",
@@ -538,10 +550,14 @@
        }
       }
      ],
-     "text": "(iii) After plotting the graph, the student modified his prediction. He suggested that the relationship between T and I is T = kI n where k is a constant. Justify this suggestion. (4)"
+     "text": "(iii) After plotting the graph, the student modified his prediction. He suggested that the relationship between T and I is T = kI n where k is a constant. Justify this suggestion. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(c)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2020_10_q4",
@@ -596,7 +612,8 @@
        }
       }
      ],
-     "text": "(a) (i) State the most appropriate measuring instrument for the student to use to measure the width a and the length b of the slot. (1)"
+     "text": "(a) (i) State the most appropriate measuring instrument for the student to use to measure the width a and the length b of the slot. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -632,7 +649,8 @@
        }
       }
      ],
-     "text": "(ii) Explain one technique she should use when measuring a and b. (2)"
+     "text": "(ii) Explain one technique she should use when measuring a and b. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(iii)",
@@ -668,7 +686,8 @@
        }
       }
      ],
-     "text": "(iii) Calculate the area of the slot and its uncertainty in cm2. Assume the slot is rectangular. a = 0.47 ± 0.01 cm b = 2.19 ± 0.005 cm (3)"
+     "text": "(iii) Calculate the area of the slot and its uncertainty in cm2. Assume the slot is rectangular. a = 0.47 ± 0.01 cm b = 2.19 ± 0.005 cm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -718,7 +737,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the shaded area of the slotted mass in cm2. (2)"
+     "text": "(i) Calculate the shaded area of the slotted mass in cm2. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -768,7 +788,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the uncertainty in the value of the shaded area. (3)"
+     "text": "(ii) Calculate the uncertainty in the value of the shaded area. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(i)",
@@ -818,7 +839,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the density ρ of the metal in g cm−3. Assume the value of mass is 100 g with negligible uncertainty. (2)"
+     "text": "(i) Calculate the density ρ of the metal in g cm−3. Assume the value of mass is 100 g with negligible uncertainty. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -868,7 +890,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the percentage uncertainty in the value of ρ. (3)"
+     "text": "(ii) Calculate the percentage uncertainty in the value of ρ. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
@@ -904,10 +927,11 @@
        }
       }
      ],
-     "text": "(d) The student thinks that the slotted mass is made from brass, which has a density of 8.5 g cm−3. Determine whether the slotted mass could be made of brass. (2)"
+     "text": "(d) The student thinks that the slotted mass is made from brass, which has a density of 8.5 g cm−3. Determine whether the slotted mass could be made of brass. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

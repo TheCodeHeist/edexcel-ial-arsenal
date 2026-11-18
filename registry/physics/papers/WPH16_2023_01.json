@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Identify one safety issue and how it may be dealt with. (2)"
+     "text": "(a) Identify one safety issue and how it may be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
@@ -127,7 +128,8 @@
        }
       }
      ],
-     "text": "(i) Criticise the recording of the results. (2)"
+     "text": "(i) Criticise the recording of the results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
@@ -177,7 +179,8 @@
        }
       }
      ],
-     "text": "(ii) State one variable that should be controlled for this experiment. (1)"
+     "text": "(ii) State one variable that should be controlled for this experiment. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(iii)",
@@ -227,10 +230,11 @@
        }
       }
      ],
-     "text": "(iii) Show that the temperature of the Bunsen burner flame is about 1500 °C above the initial temperature of the water. mass of screw = 4.11 g specific heat capacity of steel = 420 J kg–1 K–1 specific heat capacity of water = 4180 J kg–1 K–1 (3)"
+     "text": "(iii) Show that the temperature of the Bunsen burner flame is about 1500 °C above the initial temperature of the water. mass of screw = 4.11 g specific heat capacity of steel = 420 J kg–1 K–1 specific heat capacity of water = 4180 J kg–1 K–1 (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2023_01_q2",
@@ -299,12 +303,13 @@
        }
       }
      ],
-     "text": "(i) Show that the relationship between the period of rotation T and mass M can be written as T 2 = 4π2 mx Mg (2)"
+     "text": "(i) Show that the relationship between the period of rotation T and mass M can be written as T 2 = 4π2 mx Mg (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(a)(ii)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -349,7 +354,8 @@
        }
       }
      ],
-     "text": "(ii) The student used a stopwatch to determine T for different values of M. Devise a plan to test the validity of the relationship between T 2 and M. The method should use a suitable graph. (6)"
+     "text": "(ii) The student used a stopwatch to determine T for different values of M. Devise a plan to test the validity of the relationship between T 2 and M. The method should use a suitable graph. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -385,10 +391,11 @@
        }
       }
      ],
-     "text": "(b) The student suggested that using a video recording of the motion would improve the determination of T. Comment on this suggestion. (2)"
+     "text": "(b) The student suggested that using a video recording of the motion would improve the determination of T. Comment on this suggestion. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2023_01_q3",
@@ -443,7 +450,8 @@
        }
       }
      ],
-     "text": "(a) The relationship between the maximum displacement angle θ and number of oscillations n is given by θ = θ0e–λn where θ0 is the initial displacement angle and λ is a constant. Explain why a graph of ln θ against n could be used to determine a value for λ. (2)"
+     "text": "(a) The relationship between the maximum displacement angle θ and number of oscillations n is given by θ = θ0e–λn where θ0 is the initial displacement angle and λ is a constant. Explain why a graph of ln θ against n could be used to determine a value for λ. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -467,7 +475,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2023_01/q3_b_i.webp",
+       "src": "physics/WPH16_2023_01/q3_b_i_1.webp",
        "w": 1090,
        "h": 104,
        "region": {
@@ -476,6 +484,18 @@
         "y0": 330.1,
         "x1": 559.0,
         "y1": 379.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2023_01/q3_b_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -493,7 +513,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of ln θ against n on the grid opposite. Use the additional column for your processed data. (5)"
+     "text": "(i) Plot a graph of ln θ against n on the grid opposite. Use the additional column for your processed data. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -543,12 +564,13 @@
        }
       }
      ],
-     "text": "(ii) Determine the value of λ from the graph. (3)"
+     "text": "(ii) Determine the value of λ from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -567,7 +589,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2023_01/q3_b_iii_1.webp",
+       "src": "physics/WPH16_2023_01/q3_b_iii.webp",
        "w": 1090,
        "h": 125,
        "region": {
@@ -576,18 +598,6 @@
         "y0": 560.9,
         "x1": 559.0,
         "y1": 620.3
-       }
-      },
-      {
-       "src": "physics/WPH16_2023_01/q3_b_iii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -605,10 +615,14 @@
        }
       }
      ],
-     "text": "(iii) The student claimed that the initial displacement angle was greater than 180 °. Deduce whether this claim is correct. (3)"
+     "text": "(iii) The student claimed that the initial displacement angle was greater than 180 °. Deduce whether this claim is correct. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2023_01_q4",
@@ -677,7 +691,8 @@
        }
       }
      ],
-     "text": "(i) Explain one technique she should use to reduce the uncertainty in the measurement of d. (2)"
+     "text": "(i) Explain one technique she should use to reduce the uncertainty in the measurement of d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -727,7 +742,8 @@
        }
       }
      ],
-     "text": "(ii) She recorded the following measurements. d / mm 8.53 8.56 8.55 8.53 Determine the mean value of d and its uncertainty in mm. (3)"
+     "text": "(ii) She recorded the following measurements. d / mm 8.53 8.56 8.55 8.53 Determine the mean value of d and its uncertainty in mm. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -777,7 +793,8 @@
        }
       }
      ],
-     "text": "(i) Show that the uncertainty in d 2 is about 1 mm2. d = 10.70 mm ± 0.06 mm (3)"
+     "text": "(i) Show that the uncertainty in d 2 is about 1 mm2. d = 10.70 mm ± 0.06 mm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -827,7 +844,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in A is about 0.4 %. s2 = 881 mm2 ± 2 mm2 (4)"
+     "text": "(ii) Show that the percentage uncertainty in A is about 0.4 %. s2 = 881 mm2 ± 2 mm2 (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
@@ -863,7 +881,8 @@
        }
       }
      ],
-     "text": "(c) The student measured the total mass m10 of 10 identical metal rings as 63 g. Explain why measuring the total mass of 10 metal rings is better than measuring the mass of one metal ring. (2)"
+     "text": "(c) The student measured the total mass m10 of 10 identical metal rings as 63 g. Explain why measuring the total mass of 10 metal rings is better than measuring the mass of one metal ring. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(d)(i)",
@@ -913,12 +932,13 @@
        }
       }
      ],
-     "text": "(i) Determine the mean density ρ, in g cm–3, of the metal the ring is made from. m10 = 63.0 g ± 0.5 g x10 = 14.03 mm ± 0.04 mm A = 602 mm2 ± 0.4 % (2)"
+     "text": "(i) Determine the mean density ρ, in g cm–3, of the metal the ring is made from. m10 = 63.0 g ± 0.5 g x10 = 14.03 mm ± 0.04 mm A = 602 mm2 ± 0.4 % (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)(ii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -963,10 +983,11 @@
        }
       }
      ],
-     "text": "(ii) The density of stainless steel ranges from 7.48 g cm–3 to 7.95 g cm–3. Deduce whether the metal rings could be made from stainless steel. (3)"
+     "text": "(ii) The density of stainless steel ranges from 7.48 g cm–3 to 7.95 g cm–3. Deduce whether the metal rings could be made from stainless steel. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

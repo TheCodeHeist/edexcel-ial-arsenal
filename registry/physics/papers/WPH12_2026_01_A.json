@@ -66,10 +66,12 @@
        }
       }
      ],
-     "text": "1 Which of the following units is equivalent to the volt? A J s–1 B W s–1 C J C–1 D W C–1"
+     "text": "1 Which of the following units is equivalent to the volt? A J s–1 B W s–1 C J C–1 D W C–1",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q2",
@@ -112,10 +114,12 @@
        }
       }
      ],
-     "text": "2 The diagram shows five energy levels in an atom. 5 4 3 2 1 Electromagnetic radiation is incident on the atom. Which transition would be caused by the absorption of the lowest frequency of radiation? A 1 to 5 B 1 to 2 C 4 to 5 D 5 to 4"
+     "text": "2 The diagram shows five energy levels in an atom. 5 4 3 2 1 Electromagnetic radiation is incident on the atom. Which transition would be caused by the absorption of the lowest frequency of radiation? A 1 to 5 B 1 to 2 C 4 to 5 D 5 to 4",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q3",
@@ -158,10 +162,12 @@
        }
       }
      ],
-     "text": "3 Which of the following graphs shows how current I varies with potential difference V for a negative temperature coefficient thermistor? I A V I B V I C V I D V"
+     "text": "3 Which of the following graphs shows how current I varies with potential difference V for a negative temperature coefficient thermistor? I A V I B V I C V I D V",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q4",
@@ -216,10 +222,12 @@
        }
       }
      ],
-     "text": "4 The de Broglie wavelength for a moving electron is 5.47 × 10–10 m Which of the following expressions gives the speed of the electron in ms–1? . / 6 63 . 10 3 34 A . /. / 3 31 3 10 9 11 . 10 5 47 . 10 . / 3 34 6 63 . 10 B . /. / 3 19 3 10 1 60 . 10 5 47 . 10 . /. / 9 11 . 10 3 31 5 47 . 10 3 10 C 3 34 6 63 . 10 . /. / 3 19 3 10 1 60 . 10 5 47 . 10 D . / 3 34 6 63 . 10"
+     "text": "4 The de Broglie wavelength for a moving electron is 5.47 × 10–10 m Which of the following expressions gives the speed of the electron in ms–1? . / 6 63 . 10 3 34 A . /. / 3 31 3 10 9 11 . 10 5 47 . 10 . / 3 34 6 63 . 10 B . /. / 3 19 3 10 1 60 . 10 5 47 . 10 . /. / 9 11 . 10 3 31 5 47 . 10 3 10 C 3 34 6 63 . 10 . /. / 3 19 3 10 1 60 . 10 5 47 . 10 D . / 3 34 6 63 . 10",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q5",
@@ -262,16 +270,31 @@
        }
       }
      ],
-     "text": "5 As temperature increases, the resistance of a negative temperature coefficient thermistor changes. Which of the following describes the reason for this change? A Collisions between electrons and ions occur less frequently. B More conduction electrons are released. C The ions in the thermistor vibrate less. D The ions in the thermistor vibrate more."
+     "text": "5 As temperature increases, the resistance of a negative temperature coefficient thermistor changes. Which of the following describes the reason for this change? A Collisions between electrons and ions occur less frequently. B More conduction electrons are released. C The ions in the thermistor vibrate less. D The ions in the thermistor vibrate more.",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q6",
    "number": 6,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH12_2026_01_A/q6_lead.webp",
+     "w": 1090,
+     "h": 427,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 45.5,
+      "x1": 559.0,
+      "y1": 249.8
+     }
+    }
+   ],
    "parts": [
     {
      "label": "6",
@@ -308,16 +331,31 @@
        }
       }
      ],
-     "text": "6 Corresponding values of potential difference V and current I were taken after adjusting the variable resistor. A graph of V on the y-axis and I on the x-axis was plotted. Which of the following is correct? A The area underneath the graph is the total energy dissipated in the cell. B The gradient of the graph is r. C The graph shows that V and I are directly proportional. D The y-intercept of the graph is ε."
+     "text": "6 Corresponding values of potential difference V and current I were taken after adjusting the variable resistor. A graph of V on the y-axis and I on the x-axis was plotted. Which of the following is correct? A The area underneath the graph is the total energy dissipated in the cell. B The gradient of the graph is r. C The graph shows that V and I are directly proportional. D The y-intercept of the graph is ε.",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH12_2026_01_A_q7",
    "number": 7,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH12_2026_01_A/q7_lead.webp",
+     "w": 1090,
+     "h": 427,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 45.5,
+      "x1": 559.0,
+      "y1": 249.8
+     }
+    }
+   ],
    "parts": [
     {
      "label": "7",
@@ -366,10 +404,12 @@
        }
       }
      ],
-     "text": "7 The resistance of the variable resistor is R. Which of the following gives the current in the cell? ε A R ε B r ε C ( R 1 r ) ε D ( R 3 r )"
+     "text": "7 The resistance of the variable resistor is R. Which of the following gives the current in the cell? ε A R ε B r ε C ( R 1 r ) ε D ( R 3 r )",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH12_2026_01_A_q8",
@@ -412,10 +452,12 @@
        }
       }
      ],
-     "text": "8 Which of the following statements is correct for plane polarised light? A The oscillations are in a single plane, including the direction of energy transfer. B \u0007The oscillations are in a single plane, which is perpendicular to the direction of energy transfer. C \u0007The oscillations are in many planes, which are perpendicular to the direction of energy transfer. D The oscillations are in many planes, which include the direction of energy transfer."
+     "text": "8 Which of the following statements is correct for plane polarised light? A The oscillations are in a single plane, including the direction of energy transfer. B \u0007The oscillations are in a single plane, which is perpendicular to the direction of energy transfer. C \u0007The oscillations are in many planes, which are perpendicular to the direction of energy transfer. D The oscillations are in many planes, which include the direction of energy transfer.",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q9",
@@ -458,10 +500,12 @@
        }
       }
      ],
-     "text": "9 The diagram shows a uniform wire XY across which a potential difference V0 is applied. V0 Z X Y V Which of the following correctly shows the output potential difference across XZ? V = XZ A XY V0 V = XZ B ZY V0 V = ZY C XY V0 V = XY D XZ V0"
+     "text": "9 The diagram shows a uniform wire XY across which a potential difference V0 is applied. V0 Z X Y V Which of the following correctly shows the output potential difference across XZ? V = XZ A XY V0 V = XZ B ZY V0 V = ZY C XY V0 V = XY D XZ V0",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q10",
@@ -516,10 +560,12 @@
        }
       }
      ],
-     "text": "10 The diagram below shows a standing wave on a string. X Y A standing wave is created when two progressive waves travelling in opposite directions combine. Which of the following correctly indicates the phase difference between the progressive waves at X and the phase difference between the progressive waves at Y? Phase difference between Phase difference between progressive waves at X progressive waves at Y A π π B π 2π C 2π π D 2π 2π"
+     "text": "10 The diagram below shows a standing wave on a string. X Y A standing wave is created when two progressive waves travelling in opposite directions combine. Which of the following correctly indicates the phase difference between the progressive waves at X and the phase difference between the progressive waves at Y? Phase difference between Phase difference between progressive waves at X progressive waves at Y A π π B π 2π C 2π π D 2π 2π",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q11",
@@ -574,7 +620,8 @@
        }
       }
      ],
-     "text": "(a) The radiation used has a frequency of 12.6 Ghz. Calculate the wavelength of the radiation. (2)"
+     "text": "(a) The radiation used has a frequency of 12.6 Ghz. Calculate the wavelength of the radiation. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "11(b)",
@@ -610,10 +657,11 @@
        }
       }
      ],
-     "text": "(b) The intensity of the radiation incident on the reflector is 4.8 × 10–13 W m–2. Calculate the power of the incident radiation. area of satellite dish = 0.27 m2 (2)"
+     "text": "(b) The intensity of the radiation incident on the reflector is 4.8 × 10–13 W m–2. Calculate the power of the incident radiation. area of satellite dish = 0.27 m2 (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q12",
@@ -668,7 +716,8 @@
        }
       }
      ],
-     "text": "(a) The resistance of the strip between ends A and B is 55 kΩ resistivity of this pencil lead = 3.5 × 10–5 Ωm Show that the cross-sectional area of the strip of pencil lead is about 1 × 10–11 m2 (2)"
+     "text": "(a) The resistance of the strip between ends A and B is 55 kΩ resistivity of this pencil lead = 3.5 × 10–5 Ωm Show that the cross-sectional area of the strip of pencil lead is about 1 × 10–11 m2 (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "12(b)",
@@ -716,7 +765,8 @@
        }
       }
      ],
-     "text": "(b) The pencil lead is made of a mixture of graphite and clay. The pencil has 50% graphite and 50% clay. charge carrier density n for pure graphite is 3.5 × 1024 m–3 Calculate the drift velocity for the charge carriers in the pencil lead when a potential difference of 6.0 V is applied across the strip from A to B. Assume the clay contributes no charge carriers. (4)"
+     "text": "(b) The pencil lead is made of a mixture of graphite and clay. The pencil has 50% graphite and 50% clay. charge carrier density n for pure graphite is 3.5 × 1024 m–3 Calculate the drift velocity for the charge carriers in the pencil lead when a potential difference of 6.0 V is applied across the strip from A to B. Assume the clay contributes no charge carriers. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "12(c)",
@@ -752,10 +802,11 @@
        }
       }
      ],
-     "text": "(c) Pencil leads are made with a hardness from 9H (very hard) to 9B (very soft). Hard pencil leads have a higher proportion of clay. Explain how the resistance of the strip would be affected if it were drawn with a softer pencil. (2)"
+     "text": "(c) Pencil leads are made with a hardness from 9H (very hard) to 9B (very soft). Hard pencil leads have a higher proportion of clay. Explain how the resistance of the strip would be affected if it were drawn with a softer pencil. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q13",
@@ -810,12 +861,13 @@
        }
       }
      ],
-     "text": "(a) Explain why there is a returning pulse from crack B. (3)"
+     "text": "(a) Explain why there is a returning pulse from crack B. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "13(b)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -858,7 +910,8 @@
        }
       }
      ],
-     "text": "(b) One pulse returns 1.4 × 10–5 s after being emitted by the transducer. Deduce whether the pulse has returned from crack A, crack B or crack C. You should take measurements from the diagram. speed of ultrasound in metal = 5900 ms–1 (3)"
+     "text": "(b) One pulse returns 1.4 × 10–5 s after being emitted by the transducer. Deduce whether the pulse has returned from crack A, crack B or crack C. You should take measurements from the diagram. speed of ultrasound in metal = 5900 ms–1 (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "13(c)",
@@ -894,10 +947,11 @@
        }
       }
      ],
-     "text": "(c) Explain why ultrasound used to detect cracks in metal beams usually has frequencies of MHz rather than kHz. (2)"
+     "text": "(c) Explain why ultrasound used to detect cracks in metal beams usually has frequencies of MHz rather than kHz. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q14",
@@ -952,7 +1006,8 @@
        }
       }
      ],
-     "text": "(a) Determine the minimum potential difference for which the headlight will emit light. (3)"
+     "text": "(a) Determine the minimum potential difference for which the headlight will emit light. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(b)(i)",
@@ -1014,7 +1069,8 @@
        }
       }
      ],
-     "text": "(i) Explain the advantages of connecting the headlights in parallel with the battery rather than in series. (3)"
+     "text": "(i) Explain the advantages of connecting the headlights in parallel with the battery rather than in series. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(ii)",
@@ -1064,10 +1120,11 @@
        }
       }
      ],
-     "text": "(ii) A student writes the following statement. When connected to the 12.0 V battery, the combined resistance of two headlights in parallel is one quarter of the combined resistance of two headlights in series. Deduce whether the student is correct. Your answer should include calculations using data from the graph. (3)"
+     "text": "(ii) A student writes the following statement. When connected to the 12.0 V battery, the combined resistance of two headlights in parallel is one quarter of the combined resistance of two headlights in series. Deduce whether the student is correct. Your answer should include calculations using data from the graph. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q15",
@@ -1122,12 +1179,13 @@
        }
       }
      ],
-     "text": "(a) State what is meant by a transverse wave. (1)"
+     "text": "(a) State what is meant by a transverse wave. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1170,12 +1228,13 @@
        }
       }
      ],
-     "text": "(b) The string is initially made to vibrate at its lowest frequency but the string can also be made to vibrate at higher frequencies. Add to the diagram in the answer book, to show the first stationary wave on the string when it is vibrating at a higher frequency. You should label any nodes and antinodes. (3)"
+     "text": "(b) The string is initially made to vibrate at its lowest frequency but the string can also be made to vibrate at higher frequencies. Add to the diagram in the answer book, to show the first stationary wave on the string when it is vibrating at a higher frequency. You should label any nodes and antinodes. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(c)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1206,10 +1265,11 @@
        }
       }
      ],
-     "text": "(c) For one string, the tension in the string is 41 N and the wave travels at a speed of 141 m s–1. This string breaks and needs replacing with a new string. The table shows the mass of four new strings, A, B, C and D. Each new string has a length of 1.5 m String Mass of string / g A 1.5 B 3.1 C 4.4 D 6.3 The new string is cut to the same length as the broken string, and is placed under the same tension. Deduce which new string, A, B, C or D, should be used to replace the broken string. (3)"
+     "text": "(c) For one string, the tension in the string is 41 N and the wave travels at a speed of 141 m s–1. This string breaks and needs replacing with a new string. The table shows the mass of four new strings, A, B, C and D. Each new string has a length of 1.5 m String Mass of string / g A 1.5 B 3.1 C 4.4 D 6.3 The new string is cut to the same length as the broken string, and is placed under the same tension. Deduce which new string, A, B, C or D, should be used to replace the broken string. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q16",
@@ -1276,7 +1336,8 @@
        }
       }
      ],
-     "text": "(a) A student carries out an experiment to determine the refractive index of rinse aid. The photograph shows a ray of light passing through a rectangular container of rinse aid. Determine the refractive index of the rinse aid. You may ignore any effect from the container. (3)"
+     "text": "(a) A student carries out an experiment to determine the refractive index of rinse aid. The photograph shows a ray of light passing through a rectangular container of rinse aid. Determine the refractive index of the rinse aid. You may ignore any effect from the container. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(b)",
@@ -1324,7 +1385,8 @@
        }
       }
      ],
-     "text": "(b) The rinse aid is stored in a small reservoir in the dishwasher with an optical dipstick to indicate the level of the liquid. The dipstick is a clear plastic cylinder with a pointed end that dips into the liquid. Show that the critical angle for light in the plastic, when surrounded by rinse aid, is about 60°. speed of light in rinse aid = 2.22 × 108 ms–1 speed of light in plastic = 2.00 × 108 ms–1 (3)"
+     "text": "(b) The rinse aid is stored in a small reservoir in the dishwasher with an optical dipstick to indicate the level of the liquid. The dipstick is a clear plastic cylinder with a pointed end that dips into the liquid. Show that the critical angle for light in the plastic, when surrounded by rinse aid, is about 60°. speed of light in rinse aid = 2.22 × 108 ms–1 speed of light in plastic = 2.00 × 108 ms–1 (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(c)",
@@ -1360,10 +1422,11 @@
        }
       }
      ],
-     "text": "(c) The images below show the difference between the appearance, from above, of the dipstick when the reservoir is empty and when it is full. Appearance from above when empty Appearance from above when full When the reservoir is empty, the dipstick is surrounded by air. It appears light because light from the surroundings is reflected back to the viewer. When the reservoir is full, the dipstick is surrounded by rinse aid and appears dark. The diagrams below show side views of the dipstick. plastic plastic air rinse aid Complete the diagrams to show the paths of light when the rinse aid level is low and when it is high. critical angle for plastic surrounded by air = 42° (4)"
+     "text": "(c) The images below show the difference between the appearance, from above, of the dipstick when the reservoir is empty and when it is full. Appearance from above when empty Appearance from above when full When the reservoir is empty, the dipstick is surrounded by air. It appears light because light from the surroundings is reflected back to the viewer. When the reservoir is full, the dipstick is surrounded by rinse aid and appears dark. The diagrams below show side views of the dipstick. plastic plastic air rinse aid Complete the diagrams to show the paths of light when the rinse aid level is low and when it is high. critical angle for plastic surrounded by air = 42° (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q17",
@@ -1381,13 +1444,13 @@
       {
        "src": "physics/WPH12_2026_01_A/q17.webp",
        "w": 1090,
-       "h": 240,
+       "h": 248,
        "region": {
         "page": 18,
         "x0": 36.0,
         "y0": 45.7,
         "x1": 559.0,
-        "y1": 160.4
+        "y1": 164.2
        }
       }
      ],
@@ -1405,10 +1468,14 @@
        }
       }
      ],
-     "text": "*17 The list of data, formulae and relationships for this paper states the following: Einstein’s photoelectric equation hf = o/ + 1 2 mv2 max Describe the photoelectric effect, including an explanation of each of the terms, hf, o/ and 1 2 mv2 max , in the equation."
+     "text": "*17 The list of data, formulae and relationships for this paper states the following: Einstein’s photoelectric equation hf = o/ + 1 2 mv2 max Describe the photoelectric effect, including an explanation of each of the terms, hf, o/ and 1 2 mv2 max , in the equation.",
+     "kindGuessed": "extended"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "17: text after the marks"
+   ]
   },
   {
    "id": "WPH12_2026_01_A_q18",
@@ -1475,7 +1542,8 @@
        }
       }
      ],
-     "text": "(a) Explain why the sound follows the path shown in diagram B. Your answer should refer to refraction and diagram A. (5)"
+     "text": "(a) Explain why the sound follows the path shown in diagram B. Your answer should refer to refraction and diagram A. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)",
@@ -1511,7 +1579,8 @@
        }
       }
      ],
-     "text": "(b) Sound that travels in a straight line from the source to point P takes longer to arrive than sound that travels along the path shown in diagram B. Suggest why. (2)"
+     "text": "(b) Sound that travels in a straight line from the source to point P takes longer to arrive than sound that travels along the path shown in diagram B. Suggest why. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(c)",
@@ -1547,10 +1616,11 @@
        }
       }
      ],
-     "text": "(c) Suggest two factors that might cause the speed of sound to vary with the depth of the sea. (2)"
+     "text": "(c) Suggest two factors that might cause the speed of sound to vary with the depth of the sea. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2026_01_A_q19",
@@ -1605,7 +1675,8 @@
        }
       }
      ],
-     "text": "(a) The diagram below shows the position of the central dot at O. The next bright dot appears at position X. The diffraction grating has 450 lines per mm. X 0.500 m O laser 1.690 m diffraction grating screen Determine the wavelength of the light from the laser. (4)"
+     "text": "(a) The diagram below shows the position of the central dot at O. The next bright dot appears at position X. The diffraction grating has 450 lines per mm. X 0.500 m O laser 1.690 m diffraction grating screen Determine the wavelength of the light from the laser. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "19(b)",
@@ -1653,7 +1724,8 @@
        }
       }
      ],
-     "text": "(b) Explain why a series of bright dots is seen on the screen. (3)"
+     "text": "(b) Explain why a series of bright dots is seen on the screen. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "19(c)",
@@ -1689,10 +1761,11 @@
        }
       }
      ],
-     "text": "(c) The laser is replaced by a source producing a parallel beam of bright white light. Suggest what would not be observed on the screen. (2)"
+     "text": "(c) The laser is replaced by a source producing a parallel beam of bright white light. Suggest what would not be observed on the screen. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

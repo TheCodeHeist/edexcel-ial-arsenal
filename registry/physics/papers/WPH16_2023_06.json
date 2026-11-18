@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Describe a simple method to determine the volume flow rate of the water moving out of the tube. (3)"
+     "text": "(a) Describe a simple method to determine the volume flow rate of the water moving out of the tube. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) A student connected the tube to the water flow device shown below. A magnet is attached to the paddle wheel. magnet coil paddle wheel water from tube As water flowed through the device the paddle wheel rotated, making the magnet move past the coil. The student connected the coil to an oscilloscope. A series of pulses was displayed on the oscilloscope screen as shown. one division pulse oscilloscope screen The horizontal axis represents time. The time scale was set to 50 ms per division. Calculate the frequency f of the pulses. (3)"
+     "text": "(b) A student connected the tube to the water flow device shown below. A magnet is attached to the paddle wheel. magnet coil paddle wheel water from tube As water flowed through the device the paddle wheel rotated, making the magnet move past the coil. The student connected the coil to an oscilloscope. A series of pulses was displayed on the oscilloscope screen as shown. one division pulse oscilloscope screen The horizontal axis represents time. The time scale was set to 50 ms per division. Calculate the frequency f of the pulses. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -149,7 +151,8 @@
        }
       }
      ],
-     "text": "(c) Describe how the student could investigate how f varies with the volume flow rate of the water. (3)"
+     "text": "(c) Describe how the student could investigate how f varies with the volume flow rate of the water. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(d)",
@@ -185,10 +188,11 @@
        }
       }
      ],
-     "text": "(d) The student disconnected the water tank and oscilloscope from the water flow device. The student placed the water flow device in a river to monitor the flow of the river water overnight. He connected the coil of the water flow device to a data logger. The data logger recorded the frequency of the pulses. Give two reasons why a data logger is an appropriate piece of equipment to use for this task. (2)"
+     "text": "(d) The student disconnected the water tank and oscilloscope from the water flow device. The student placed the water flow device in a river to monitor the flow of the river water overnight. He connected the coil of the water flow device to a data logger. The data logger recorded the frequency of the pulses. Give two reasons why a data logger is an appropriate piece of equipment to use for this task. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2023_06_q2",
@@ -243,7 +247,8 @@
        }
       }
      ],
-     "text": "(a) State two safety precautions for this investigation. (2)"
+     "text": "(a) State two safety precautions for this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -293,12 +298,13 @@
        }
       }
      ],
-     "text": "(i) Explain why a graph of ln C against x could be used to test the validity of this relationship. (2)"
+     "text": "(i) Explain why a graph of ln C against x could be used to test the validity of this relationship. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(ii)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -343,10 +349,11 @@
        }
       }
      ],
-     "text": "(ii) Devise a plan to obtain the data required to test the validity of this relationship. (6)"
+     "text": "(ii) Devise a plan to obtain the data required to test the validity of this relationship. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2023_06_q3",
@@ -401,12 +408,13 @@
        }
       }
      ],
-     "text": "(a) Describe an accurate method to determine a single value of d using a 15 cm ruler. You should include any additional apparatus. (3)"
+     "text": "(a) Describe an accurate method to determine a single value of d using a 15 cm ruler. You should include any additional apparatus. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -463,7 +471,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log d against log L on the grid opposite. Use the additional columns for your processed data. (6)"
+     "text": "(i) Plot a graph of log d against log L on the grid opposite. Use the additional columns for your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -513,7 +522,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the gradient of the graph. (3)"
+     "text": "(ii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -563,10 +573,14 @@
        }
       }
      ],
-     "text": "(iii) It is suggested that for a given load, the relationship between d and L is of the form d = k L r where r and k are constants. Determine the value k from the graph and hence write the mathematical relationship between d and L. (3)"
+     "text": "(iii) It is suggested that for a given load, the relationship between d and L is of the form d = k L r where r and k are constants. Determine the value k from the graph and hence write the mathematical relationship between d and L. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(b)(i): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2023_06_q4",
@@ -635,7 +649,8 @@
        }
       }
      ],
-     "text": "(i) Describe two other techniques she should use to determine T. (2)"
+     "text": "(i) Describe two other techniques she should use to determine T. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -685,7 +700,8 @@
        }
       }
      ],
-     "text": "(ii) She recorded the following measurements. 5T / s 3.43 3.36 3.28 3.49 Calculate the mean value of T and its uncertainty in seconds. (3)"
+     "text": "(ii) She recorded the following measurements. 5T / s 3.43 3.36 3.28 3.49 Calculate the mean value of T and its uncertainty in seconds. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
@@ -721,7 +737,8 @@
        }
       }
      ],
-     "text": "(b) The student estimated that the diameter of the test tube was approximately 2 cm. Explain why vernier calipers are a suitable instrument to measure the diameter. Your answer should include a calculation. (2)"
+     "text": "(b) The student estimated that the diameter of the test tube was approximately 2 cm. Explain why vernier calipers are a suitable instrument to measure the diameter. Your answer should include a calculation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -771,7 +788,8 @@
        }
       }
      ],
-     "text": "–3. (i) Show that ρ is about 1200 kg m D = 2.38 cm ± 0.01 cm T = 0.61 s ± 0.01 s m = 48.95 g (2)"
+     "text": "–3. (i) Show that ρ is about 1200 kg m D = 2.38 cm ± 0.01 cm T = 0.61 s ± 0.01 s m = 48.95 g (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -821,12 +839,13 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in ρ is about 4%. (3)"
+     "text": "(ii) Show that the percentage uncertainty in ρ is about 4%. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -871,10 +890,15 @@
        }
       }
      ],
-     "text": "–3. (iii) The density of glycerol is 1260 kg m Deduce whether the liquid could be glycerol. (2)"
+     "text": "–3. (iii) The density of glycerol is 1260 kg m Deduce whether the liquid could be glycerol. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "4(c)(i): text doesn't start at its label",
+    "4(c)(iii): text doesn't start at its label"
+   ],
+   "check": "human"
   }
  ]
 }

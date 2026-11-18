@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Describe one safety issue and how it should be dealt with. (2)"
+     "text": "(a) Describe one safety issue and how it should be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The distance r between the two coils varied between 2 cm and 10 cm. Explain why using Vernier calipers would be better than a metre rule to measure r. You should include calculations in your answer. (3)"
+     "text": "(b) The distance r between the two coils varied between 2 cm and 10 cm. Explain why using Vernier calipers would be better than a metre rule to measure r. You should include calculations in your answer. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
@@ -149,7 +151,8 @@
        }
       }
      ],
-     "text": "(c) When the a.c. power supply was switched on, an e.m.f. E was induced across coil B. The variation in E is shown on the oscilloscope screen below. one division The y‑scale was set to 100 mV per division. Describe how an accurate maximum value for E can be determined from the oscilloscope screen. (3)"
+     "text": "(c) When the a.c. power supply was switched on, an e.m.f. E was induced across coil B. The variation in E is shown on the oscilloscope screen below. one division The y‑scale was set to 100 mV per division. Describe how an accurate maximum value for E can be determined from the oscilloscope screen. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(d)",
@@ -185,10 +188,11 @@
        }
       }
      ],
-     "text": "(d) The student measured values of r with Vernier calipers and determined corresponding maximum values of E. The student’s values are shown in the table. r / cm 2 4 6 8 E / V 320 40 11.9 5 Criticise the recording of this data. (2)"
+     "text": "(d) The student measured values of r with Vernier calipers and determined corresponding maximum values of E. The student’s values are shown in the table. r / cm 2 4 6 8 E / V 320 40 11.9 5 Criticise the recording of this data. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2022_10_q2",
@@ -243,7 +247,8 @@
        }
       }
      ],
-     "text": "(a) Explain why a graph of ln V against t should be used to test this relationship. (2)"
+     "text": "(a) Explain why a graph of ln V against t should be used to test this relationship. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -279,7 +284,8 @@
        }
       }
      ],
-     "text": "(b) A student investigates the relationship between V and t. Describe how the student could obtain an accurate set of values for V and t to test this relationship. (4)"
+     "text": "(b) A student investigates the relationship between V and t. Describe how the student could obtain an accurate set of values for V and t to test this relationship. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -315,10 +321,11 @@
        }
       }
      ],
-     "text": "(c) Explain a source of uncertainty in this investigation. (2)"
+     "text": "(c) Explain a source of uncertainty in this investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2022_10_q3",
@@ -361,7 +368,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2022_10/q3_a_i.webp",
+       "src": "physics/WPH16_2022_10/q3_a_i_1.webp",
        "w": 1090,
        "h": 120,
        "region": {
@@ -370,6 +377,18 @@
         "y0": 382.8,
         "x1": 559.0,
         "y1": 439.9
+       }
+      },
+      {
+       "src": "physics/WPH16_2022_10/q3_a_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -387,7 +406,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log P against 1 T on the grid opposite. Use the additional columns for your processed data. (6)"
+     "text": "(i) Plot a graph of log P against 1 T on the grid opposite. Use the additional columns for your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(a)(ii)",
@@ -411,7 +431,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2022_10/q3_a_ii_1.webp",
+       "src": "physics/WPH16_2022_10/q3_a_ii.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -420,18 +440,6 @@
         "y0": 446.6,
         "x1": 559.0,
         "y1": 482.1
-       }
-      },
-      {
-       "src": "physics/WPH16_2022_10/q3_a_ii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -449,7 +457,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the gradient of the graph. (3)"
+     "text": "(ii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(a)(iii)",
@@ -499,7 +508,8 @@
        }
       }
      ],
-     "text": "(iii) The gradient of the graph of log P against 1 T is given by X gradient = – 2 30 . k where X is a constant with unit joules, and k is the Boltzmann constant. Determine the value of X in joules. (3)"
+     "text": "(iii) The gradient of the graph of log P against 1 T is given by X gradient = – 2 30 . k where X is a constant with unit joules, and k is the Boltzmann constant. Determine the value of X in joules. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)",
@@ -535,10 +545,14 @@
        }
       }
      ],
-     "text": "(b) Liquids boil when the saturated vapour pressure is equal to atmospheric pressure. Determine the boiling point of the liquid in °C when the atmospheric pressure is 100 kPa. (3)"
+     "text": "(b) Liquids boil when the saturated vapour pressure is equal to atmospheric pressure. Determine the boiling point of the liquid in °C when the atmospheric pressure is 100 kPa. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(a)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2022_10_q4",
@@ -607,7 +621,8 @@
        }
       }
      ],
-     "text": "(i) Explain one measuring technique he should use. (2)"
+     "text": "(i) Explain one measuring technique he should use. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -657,7 +672,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following measurements. dX / mm 0.31 0.32 0.31 0.33 0.30 Determine the mean value of dX and its uncertainty in mm. (3)"
+     "text": "(ii) The student recorded the following measurements. dX / mm 0.31 0.32 0.31 0.33 0.30 Determine the mean value of dX and its uncertainty in mm. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -707,7 +723,8 @@
        }
       }
      ],
-     "text": "(i) Show that the resistivity ρ of the metal is about 5 × 10–7 Ω m. (3)"
+     "text": "(i) Show that the resistivity ρ of the metal is about 5 × 10–7 Ω m. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -757,7 +774,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in ρ is about 9%. (3)"
+     "text": "(ii) Show that the percentage uncertainty in ρ is about 9%. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
@@ -793,7 +811,8 @@
        }
       }
      ],
-     "text": "(c) The student measured the resistances R1 and R2 of different lengths of wire Y using an ohmmeter. Each resistance was measured once. The student’s values are given in the table. Length / cm Resistance / Ω R1 40.0 4.5 R2 90.0 10.2 He calculated the resistance RL for one metre of wire using the formula RL = 2 × (R2 – R1) Show that the percentage uncertainty in RL is about 2%. RL = 11.4 Ω (3)"
+     "text": "(c) The student measured the resistances R1 and R2 of different lengths of wire Y using an ohmmeter. Each resistance was measured once. The student’s values are given in the table. Length / cm Resistance / Ω R1 40.0 4.5 R2 90.0 10.2 He calculated the resistance RL for one metre of wire using the formula RL = 2 × (R2 – R1) Show that the percentage uncertainty in RL is about 2%. RL = 11.4 Ω (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
@@ -829,10 +848,11 @@
        }
       }
      ],
-     "text": "(d) The student wanted to confirm that the metal of the wire is constantan. The student compared his calculated values of ρ and RL to published values for constantan. The values are shown in the table below. ρ / 10–7 Ω m RL / Ω Calculated 4.6 ± 9% 11.4 ± 2% Published 4.9 11.2 Comment on how well the student's calculated values confirm that the metal of the wire is constant. You must include calculations in your answer. (3)"
+     "text": "(d) The student wanted to confirm that the metal of the wire is constantan. The student compared his calculated values of ρ and RL to published values for constantan. The values are shown in the table below. ρ / 10–7 Ω m RL / Ω Calculated 4.6 ± 9% 11.4 ± 2% Published 4.9 11.2 Comment on how well the student's calculated values confirm that the metal of the wire is constant. You must include calculations in your answer. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

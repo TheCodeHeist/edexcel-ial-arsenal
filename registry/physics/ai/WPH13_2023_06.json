@@ -1,0 +1,57 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "1509afec7d98",
+   "kinds": {
+    "1(a)(i)": "short",
+    "1(a)(ii)": "calc",
+    "1(a)(iii)": "short",
+    "1(b)": "short"
+   }
+  },
+  "2": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "aa77d8d43d14",
+   "kinds": {
+    "2(a)(i)": "short",
+    "2(a)(ii)": "short",
+    "2(b)(i)": "draw",
+    "2(b)(ii)": "short",
+    "2(c)": "short"
+   }
+  },
+  "3": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "09ef40eae913",
+   "kinds": {
+    "3(a)(i)": "short",
+    "3(a)(ii)": "short",
+    "3(b)(i)": "calc",
+    "3(b)(ii)": "calc",
+    "3(b)(iii)": "short",
+    "3(c)(i)": "calc",
+    "3(c)(ii)": "short"
+   }
+  },
+  "4": {
+   "at": "2026-11-18",
+   "concerns": [
+    "4(c)(i): the fraction 1/Δx is cut at the top edge, missing its numerator 1"
+   ],
+   "fingerprint": "bd035cfebc60",
+   "kinds": {
+    "4(a)": "short",
+    "4(b)(i)": "short",
+    "4(b)(ii)": "short",
+    "4(c)(i)": "short",
+    "4(c)(ii)": "draw",
+    "4(c)(iii)": "calc",
+    "4(c)(iv)": "calc"
+   }
+  }
+ }
+}

@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) State the resolution of the balance. (1)"
+     "text": "(i) State the resolution of the balance. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in this reading. (2)"
+     "text": "(ii) Determine the percentage uncertainty in this reading. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(i)",
@@ -191,7 +193,8 @@
        }
       }
      ],
-     "text": "(i) Explain one technique he should use to determine accurate values for these lengths. (2)"
+     "text": "(i) Explain one technique he should use to determine accurate values for these lengths. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
@@ -241,7 +244,8 @@
        }
       }
      ],
-     "text": "(ii) The student checked that the angle between the side of length a and the side of length b was a right angle. He did not have a set square or an instrument to measure the angle directly. Describe how he could use one other measurement and a calculation to check this angle. (2)"
+     "text": "(ii) The student checked that the angle between the side of length a and the side of length b was a right angle. He did not have a set square or an instrument to measure the angle directly. Describe how he could use one other measurement and a calculation to check this angle. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(iii)",
@@ -291,12 +295,13 @@
        }
       }
      ],
-     "text": "–3, of the metal. (iii) Determine the density, in g cm a = 25.3 mm b = 24.9 mm c = 49.6 mm mass of prism = 135 g (3) −3"
+     "text": "–3, of the metal. (iii) Determine the density, in g cm a = 25.3 mm b = 24.9 mm c = 49.6 mm mass of prism = 135 g (3) −3",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(iv)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -341,10 +346,15 @@
        }
       }
      ],
-     "text": "(iv) The percentage uncertainty in this calculated value of the density of the metal is 0.9%. –3. The accepted value for the density of copper is 8.94 g cm Deduce whether the prism could be made of copper. (2)"
+     "text": "(iv) The percentage uncertainty in this calculated value of the density of the metal is 0.9%. –3. The accepted value for the density of copper is 8.94 g cm Deduce whether the prism could be made of copper. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "1(b)(iii): text after the marks",
+    "1(b)(iii): text doesn't start at its label"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2025_06_q2",
@@ -399,7 +409,8 @@
        }
       }
      ],
-     "text": "(a) The student marked the track at the rest position of the sphere. The student then marked the track at the start position of the sphere. She used a metre rule to measure the horizontal distance d between the two marks on the track. Describe an accurate method to measure a single value of d. (3)"
+     "text": "(a) The student marked the track at the rest position of the sphere. The student then marked the track at the start position of the sphere. She used a metre rule to measure the horizontal distance d between the two marks on the track. Describe an accurate method to measure a single value of d. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -449,7 +460,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean value of t. (2)"
+     "text": "(i) Determine the mean value of t. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(ii)",
@@ -499,7 +511,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of t. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of t. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
@@ -535,7 +548,8 @@
        }
       }
      ],
-     "text": "(c) The student investigated how varying the distance d affected the mean time t. She recorded the following data. d / cm Mean t / s 12 3.6 14.5 5.12 17 82 19.5 12.66 The student used the data to plot a graph. Criticise the data recorded by the student. (3)"
+     "text": "(c) The student investigated how varying the distance d affected the mean time t. She recorded the following data. d / cm Mean t / s 12 3.6 14.5 5.12 17 82 19.5 12.66 The student used the data to plot a graph. Criticise the data recorded by the student. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(d)",
@@ -571,10 +585,11 @@
        }
       }
      ],
-     "text": "(d) The student suggested using a video camera to record the motion of the sphere. Explain how using a video recording could improve the measurement of t. (2)"
+     "text": "(d) The student suggested using a video camera to record the motion of the sphere. Explain how using a video recording could improve the measurement of t. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_06_q3",
@@ -643,7 +658,8 @@
        }
       }
      ],
-     "text": "(i) Explain why starting from the maximum resistance is safer than starting from the minimum resistance. (2)"
+     "text": "(i) Explain why starting from the maximum resistance is safer than starting from the minimum resistance. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(a)(ii)",
@@ -693,7 +709,8 @@
        }
       }
      ],
-     "text": "(ii) Explain whether repeat readings are appropriate for this investigation. (2)"
+     "text": "(ii) Explain whether repeat readings are appropriate for this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -743,7 +760,8 @@
        }
       }
      ],
-     "text": "(i) Determine the internal resistance of the power supply. (1)"
+     "text": "(i) Determine the internal resistance of the power supply. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(ii)",
@@ -793,7 +811,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the output potential difference of the power supply when the power output is a maximum. (2)"
+     "text": "(ii) Determine the output potential difference of the power supply when the power output is a maximum. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)",
@@ -829,10 +848,11 @@
        }
       }
      ],
-     "text": "(c) When the power output is at its maximum value, the overall efficiency is 50%. Radio transmitters are used to transmit radio waves over a large area. The aerial connected to the radio transmitter has an equivalent resistance equal to the internal resistance of the transmitter. Suggest one advantage and one disadvantage of making the resistances equal for a radio transmitter. (2)"
+     "text": "(c) When the power output is at its maximum value, the overall efficiency is 50%. Radio transmitters are used to transmit radio waves over a large area. The aerial connected to the radio transmitter has an equivalent resistance equal to the internal resistance of the transmitter. Suggest one advantage and one disadvantage of making the resistances equal for a radio transmitter. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_06_q4",
@@ -887,7 +907,8 @@
        }
       }
      ],
-     "text": "(a) The student used the metre rule to determine the distance L between the level of the water and the top of the transparent cylinder. Explain how to reduce a source of uncertainty in the measurement of L. (2)"
+     "text": "(a) The student used the metre rule to determine the distance L between the level of the water and the top of the transparent cylinder. Explain how to reduce a source of uncertainty in the measurement of L. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -923,7 +944,8 @@
        }
       }
      ],
-     "text": "(b) The student connected the loudspeaker to a signal generator. She set the frequency f of the signal generator to its lowest value. The student gradually increased f until a standing wave was produced in the transparent cylinder. The sound from the cylinder was loudest at this value of f. Explain a technique the student could use to determine, as accurately as possible, when a standing wave is produced in the cylinder. (2)"
+     "text": "(b) The student connected the loudspeaker to a signal generator. She set the frequency f of the signal generator to its lowest value. The student gradually increased f until a standing wave was produced in the transparent cylinder. The sound from the cylinder was loudest at this value of f. Explain a technique the student could use to determine, as accurately as possible, when a standing wave is produced in the cylinder. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -973,12 +995,13 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of f against n can be used to determine the value of v. (2)"
+     "text": "(i) Explain how a graph of f against n can be used to determine the value of v. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1035,7 +1058,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following data. n f / Hz 1 128 2 445 3 741 4 1020 5 1312 6 1608 Plot a graph of f on the y-axis against n on the x-axis on the grid opposite. (5)"
+     "text": "(ii) The student recorded the following data. n f / Hz 1 128 2 445 3 741 4 1020 5 1312 6 1608 Plot a graph of f on the y-axis against n on the x-axis on the grid opposite. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(iii)",
@@ -1085,7 +1109,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of v from the graph. L = 0.595 m (4)"
+     "text": "(iii) Determine the value of v from the graph. L = 0.595 m (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iv)",
@@ -1135,10 +1160,14 @@
        }
       }
      ],
-     "text": "(iv) The student suggested that the magnitude of k is half the magnitude of the gradient. Determine whether the student’s suggestion could be correct. (2)"
+     "text": "(iv) The student suggested that the magnitude of k is half the magnitude of the gradient. Determine whether the student’s suggestion could be correct. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "4(c)(ii): runs across pages"
+   ],
+   "check": "human"
   }
  ]
 }

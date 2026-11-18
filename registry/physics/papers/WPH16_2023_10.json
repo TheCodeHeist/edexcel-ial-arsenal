@@ -77,12 +77,13 @@
        }
       }
      ],
-     "text": "(a) Describe one safety issue and how it should be dealt with. (2)"
+     "text": "(a) Describe one safety issue and how it should be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) Complete the circuit diagram for this investigation. (2) copper wire"
+     "text": "(b) Complete the circuit diagram for this investigation. (2) copper wire",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)",
@@ -161,10 +163,15 @@
        }
       }
      ],
-     "text": "(c) The student plotted a graph of his readings as shown. 1.2 1.0 0.8 m / g 0.6 0.4 0.2 0.0 0 1 2 3 4 5 6 I / A The relationship between m and I is given by O \u001b BL m I \u001a\u0019 g where B is the magnetic flux density between the magnets L is the length of the copper wire between the magnets. The student concludes that his readings support the relationship. Explain why the student’s conclusion may not be correct. Your answer should refer to the readings taken by the student. (4)"
+     "text": "(c) The student plotted a graph of his readings as shown. 1.2 1.0 0.8 m / g 0.6 0.4 0.2 0.0 0 1 2 3 4 5 6 I / A The relationship between m and I is given by O \u001b BL m I \u001a\u0019 g where B is the magnetic flux density between the magnets L is the length of the copper wire between the magnets. The student concludes that his readings support the relationship. Explain why the student’s conclusion may not be correct. Your answer should refer to the readings taken by the student. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "1(b): text after the marks",
+    "1(c): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2023_10_q2",
@@ -219,12 +226,13 @@
        }
       }
      ],
-     "text": "(a) Show that the relationship between T and h can be written as 2 2 H h 4π 4π 2 T O 3 g g (2)"
+     "text": "(a) Show that the relationship between T and h can be written as 2 2 H h 4π 4π 2 T O 3 g g (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -255,7 +263,8 @@
        }
       }
      ],
-     "text": "(b) The student used a stopwatch to determine T. Describe a method, using the pendulum, to obtain a value for H. Your method should use a suitable graph. (6)"
+     "text": "(b) The student used a stopwatch to determine T. Describe a method, using the pendulum, to obtain a value for H. Your method should use a suitable graph. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -291,10 +300,11 @@
        }
       }
      ],
-     "text": "(c) Explain how a video recording may improve the method. (2)"
+     "text": "(c) Explain how a video recording may improve the method. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2023_10_q3",
@@ -349,7 +359,8 @@
        }
       }
      ],
-     "text": "(a) Explain why a graph of ln P against h can be used to determine a value for b. (2)"
+     "text": "(a) Explain why a graph of ln P against h can be used to determine a value for b. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -373,7 +384,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2023_10/q3_b_i.webp",
+       "src": "physics/WPH16_2023_10/q3_b_i_1.webp",
        "w": 1090,
        "h": 125,
        "region": {
@@ -382,6 +393,18 @@
         "y0": 537.6,
         "x1": 559.0,
         "y1": 597.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2023_10/q3_b_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -399,7 +422,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of ln P against h on the grid opposite. Use the additional column for your processed data. (5)"
+     "text": "(i) Plot a graph of ln P against h on the grid opposite. Use the additional column for your processed data. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -423,7 +447,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2023_10/q3_b_ii_1.webp",
+       "src": "physics/WPH16_2023_10/q3_b_ii.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -432,18 +456,6 @@
         "y0": 599.5,
         "x1": 559.0,
         "y1": 634.9
-       }
-      },
-      {
-       "src": "physics/WPH16_2023_10/q3_b_ii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -461,7 +473,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the gradient of the graph. (3)"
+     "text": "(ii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -511,7 +524,8 @@
        }
       }
      ],
-     "text": "(iii) The gradient of the graph is given by gradient = −Mg kT where M = mass of one air molecule k = Boltzmann constant T = 288 K Determine a value for M. (3)"
+     "text": "(iii) The gradient of the graph is given by gradient = −Mg kT where M = mass of one air molecule k = Boltzmann constant T = 288 K Determine a value for M. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
@@ -561,10 +575,14 @@
        }
       }
      ],
-     "text": "(iv) The lowest point on dry land is 414 m below sea level. Determine the value of P for this point. (3)"
+     "text": "(iv) The lowest point on dry land is 414 m below sea level. Determine the value of P for this point. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2023_10_q4",
@@ -633,7 +651,8 @@
        }
       }
      ],
-     "text": "(i) Explain one technique she should use to measure t. (2)"
+     "text": "(i) Explain one technique she should use to measure t. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -683,7 +702,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following measurements. t / mm 1.02 1.06 1.05 1.01 Calculate the mean value of t in mm. (1)"
+     "text": "(ii) The student recorded the following measurements. t / mm 1.02 1.06 1.05 1.01 Calculate the mean value of t in mm. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(a)(iii)",
@@ -733,7 +753,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the percentage uncertainty in t. (2)"
+     "text": "(iii) Determine the percentage uncertainty in t. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(a)(iv)",
@@ -783,7 +804,8 @@
        }
       }
      ],
-     "text": "(iv) Folding the rubber band and measuring the total thickness of four layers would reduce the percentage uncertainty in t. Explain the effect of folding the rubber band on the percentage uncertainty in t. (2)"
+     "text": "(iv) Folding the rubber band and measuring the total thickness of four layers would reduce the percentage uncertainty in t. Explain the effect of folding the rubber band on the percentage uncertainty in t. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(v)",
@@ -833,7 +855,8 @@
        }
       }
      ],
-     "text": "(v) The student used a metre rule to measure the length x and used the micrometer screw gauge to measure the width w of the rubber band. She determined the volume of the rubber band using the formula V = 2xwt Suggest two reasons why the calculated volume may not be accurate. (2)"
+     "text": "(v) The student used a metre rule to measure the length x and used the micrometer screw gauge to measure the width w of the rubber band. She determined the volume of the rubber band using the formula V = 2xwt Suggest two reasons why the calculated volume may not be accurate. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -883,7 +906,8 @@
        }
       }
      ],
-     "text": "(i) Show that the uncertainty in D 2 is about 0.07 cm 2. D = 3.45 cm ± 0.01 cm (2)"
+     "text": "(i) Show that the uncertainty in D 2 is about 0.07 cm 2. D = 3.45 cm ± 0.01 cm (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -933,12 +957,13 @@
        }
       }
      ],
-     "text": "(ii) Show that the uncertainty in A is about 0.05 cm 2. d 2 = 9.36 cm 2 ± 0.06 cm 2 Dd = 10.56 cm 2 ± 0.07 cm 2 (2)"
+     "text": "(ii) Show that the uncertainty in A is about 0.05 cm 2. d 2 = 9.36 cm 2 ± 0.06 cm 2 Dd = 10.56 cm 2 ± 0.07 cm 2 (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -969,10 +994,11 @@
        }
       }
      ],
-     "text": "(c) The student determined the density of the rubber band and the density of the rubber bung. She also determined the corresponding percentage uncertainty in each value, as shown. Rubber band Rubber bung Density / g cm –3 1.15 1.52 Percentage uncertainty 4.3 1.2 Deduce whether the rubber band and the rubber bung could be made of the same type of rubber. (3)"
+     "text": "(c) The student determined the density of the rubber band and the density of the rubber bung. She also determined the corresponding percentage uncertainty in each value, as shown. Rubber band Rubber bung Density / g cm –3 1.15 1.52 Percentage uncertainty 4.3 1.2 Deduce whether the rubber band and the rubber bung could be made of the same type of rubber. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

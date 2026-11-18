@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) Identify two health and safety issues and how they should be dealt with. (4)"
+     "text": "(i) Identify two health and safety issues and how they should be dealt with. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) Describe a method the student could use which would not include a force meter. You should include the use of additional apparatus. (2)"
+     "text": "(ii) Describe a method the student could use which would not include a force meter. You should include the use of additional apparatus. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -177,10 +179,11 @@
        }
       }
      ],
-     "text": "(b) The student investigated how the breaking force of the rubber bands changed at low temperature. The student placed five identical rubber bands in a freezer at –10 °C. The student removed one rubber band from the freezer and determined the breaking force. He repeated this for the other rubber bands. Explain why it is appropriate to repeat the measurements. (2)"
+     "text": "(b) The student investigated how the breaking force of the rubber bands changed at low temperature. The student placed five identical rubber bands in a freezer at –10 °C. The student removed one rubber band from the freezer and determined the breaking force. He repeated this for the other rubber bands. Explain why it is appropriate to repeat the measurements. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2024_06_q2",
@@ -235,7 +238,8 @@
        }
       }
      ],
-     "text": "(a) (i) State one control variable for this investigation. (1)"
+     "text": "(a) (i) State one control variable for this investigation. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(a)(ii)",
@@ -271,7 +275,8 @@
        }
       }
      ],
-     "text": "(ii) Explain why it is necessary to control this variable. (2)"
+     "text": "(ii) Explain why it is necessary to control this variable. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -307,7 +312,8 @@
        }
       }
      ],
-     "text": "(b) The student recorded the following data to plot a graph of θ against x. θ / ° x / cm 10 35.8 20.5 592 31 61 Criticise the recording of the data. (3)"
+     "text": "(b) The student recorded the following data to plot a graph of θ against x. θ / ° x / cm 10 35.8 20.5 592 31 61 Criticise the recording of the data. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -343,10 +349,11 @@
        }
       }
      ],
-     "text": "(c) The student wrote a laboratory report about her investigation. She reported that the most significant source of error was being unable to judge the exact point where the ball landed. This was because the ball moved too quickly. Explain one modification she could make to the apparatus to reduce this error. You should include additional apparatus. (2)"
+     "text": "(c) The student wrote a laboratory report about her investigation. She reported that the most significant source of error was being unable to judge the exact point where the ball landed. This was because the ball moved too quickly. Explain one modification she could make to the apparatus to reduce this error. You should include additional apparatus. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2024_06_q3",
@@ -401,7 +408,8 @@
        }
       }
      ],
-     "text": "(a) The student added water to the transparent tube to change the length s of the air column. Describe a method to determine a single value of s as accurately as possible, using a metre rule. Your method may include additional apparatus. (3)"
+     "text": "(a) The student added water to the transparent tube to change the length s of the air column. Describe a method to determine a single value of s as accurately as possible, using a metre rule. Your method may include additional apparatus. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -437,7 +445,8 @@
        }
       }
      ],
-     "text": "(b) The ultrasonic transducer emitted pulses of ultrasound. The emitted pulses were reflected at the water surface and then detected when they returned to the ultrasonic transducer. The student connected an oscilloscope to the transducer, to determine the time between an emitted pulse and the reflected pulse. The oscilloscope screen is shown below. reflected pulse emitted pulse oscilloscope screen one division The horizontal axis represents time. The time scale was set to 0.5 ms per division. Show that, for this example, the speed v of ultrasound in air was about 330 m s –1. length of air column s = 49.7 cm (4)"
+     "text": "(b) The ultrasonic transducer emitted pulses of ultrasound. The emitted pulses were reflected at the water surface and then detected when they returned to the ultrasonic transducer. The student connected an oscilloscope to the transducer, to determine the time between an emitted pulse and the reflected pulse. The oscilloscope screen is shown below. reflected pulse emitted pulse oscilloscope screen one division The horizontal axis represents time. The time scale was set to 0.5 ms per division. Show that, for this example, the speed v of ultrasound in air was about 330 m s –1. length of air column s = 49.7 cm (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(i)",
@@ -487,7 +496,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean value of v. (2)"
+     "text": "(i) Determine the mean value of v. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(ii)",
@@ -537,12 +547,13 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of v. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of v. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(d)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -573,10 +584,11 @@
        }
       }
      ],
-     "text": "(d) The student modified the apparatus to determine the speed of sound in water. He determined the speed of sound in water to be 1444 m s –1 with a 4% uncertainty. The accepted value for the speed of sound in water is 1481 m s –1. Deduce whether the student’s value for the speed of sound in water is consistent with the accepted value. Your answer should include a calculation. (2)"
+     "text": "(d) The student modified the apparatus to determine the speed of sound in water. He determined the speed of sound in water to be 1444 m s –1 with a 4% uncertainty. The accepted value for the speed of sound in water is 1481 m s –1. Deduce whether the student’s value for the speed of sound in water is consistent with the accepted value. Your answer should include a calculation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2024_06_q4",
@@ -645,7 +657,8 @@
        }
       }
      ],
-     "text": "(i) The student recorded a single measurement of d as 0.27 mm. Determine the percentage uncertainty in this measurement. (2)"
+     "text": "(i) The student recorded a single measurement of d as 0.27 mm. Determine the percentage uncertainty in this measurement. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(a)(ii)",
@@ -695,7 +708,8 @@
        }
       }
      ],
-     "text": "(ii) The student repeated the measurement of d at different positions and orientations and calculated the mean. Explain another technique she should use to determine an accurate value for d. (2)"
+     "text": "(ii) The student repeated the measurement of d at different positions and orientations and calculated the mean. Explain another technique she should use to determine an accurate value for d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -731,7 +745,8 @@
        }
       }
      ],
-     "text": "(b) The student formed the wire into a loop. She used the circuit below to determine the resistance between two points, X and Y, on the loop. fixed resistor A V loop of metal wire movable contact L X Y Explain why the fixed resistor is included in the circuit. (2)"
+     "text": "(b) The student formed the wire into a loop. She used the circuit below to determine the resistance between two points, X and Y, on the loop. fixed resistor A V loop of metal wire movable contact L X Y Explain why the fixed resistor is included in the circuit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -781,7 +796,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of R L against L can be used to determine the value of ρ. (2)"
+     "text": "(i) Explain how a graph of R L against L can be used to determine the value of ρ. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(ii)",
@@ -831,7 +847,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following data. R L / m I / A V / V L 0.100 0.720 1.40 0.200 0.390 1.39 0.300 0.290 1.42 0.400 0.250 1.48 0.500 0.220 1.47 0.600 0.210 1.47 Complete the table with the corresponding values of R L (2)"
+     "text": "(ii) The student recorded the following data. R L / m I / A V / V L 0.100 0.720 1.40 0.200 0.390 1.39 0.300 0.290 1.42 0.400 0.250 1.48 0.500 0.220 1.47 0.600 0.210 1.47 Complete the table with the corresponding values of R L (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(iii)",
@@ -855,7 +872,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH13_2024_06/q4_c_iii.webp",
+       "src": "physics/WPH13_2024_06/q4_c_iii_1.webp",
        "w": 1090,
        "h": 91,
        "region": {
@@ -864,6 +881,18 @@
         "y0": 376.0,
         "x1": 559.0,
         "y1": 419.4
+       }
+      },
+      {
+       "src": "physics/WPH13_2024_06/q4_c_iii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -881,7 +910,8 @@
        }
       }
      ],
-     "text": "(iii) Plot a graph of R L on the y-axis against L on the x-axis on the grid opposite. (5)"
+     "text": "(iii) Plot a graph of R L on the y-axis against L on the x-axis on the grid opposite. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(iv)",
@@ -905,7 +935,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH13_2024_06/q4_c_iv_1.webp",
+       "src": "physics/WPH13_2024_06/q4_c_iv.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -914,18 +944,6 @@
         "y0": 426.2,
         "x1": 559.0,
         "y1": 461.6
-       }
-      },
-      {
-       "src": "physics/WPH13_2024_06/q4_c_iv_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 13,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -943,7 +961,8 @@
        }
       }
      ],
-     "text": "(iv) Determine the value of k from the graph. (3)"
+     "text": "(iv) Determine the value of k from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(v)",
@@ -993,10 +1012,14 @@
        }
       }
      ],
-     "text": "(v) Determine the value of ρ from the graph. d = 0.27 mm (3)"
+     "text": "(v) Determine the value of ρ from the graph. d = 0.27 mm (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "4(c)(iii): runs across pages"
+   ]
   }
  ]
 }

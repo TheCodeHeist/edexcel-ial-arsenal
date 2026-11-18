@@ -46,7 +46,7 @@
     {
      "label": "1(a)",
      "marks": 4,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Draw a labelled diagram showing how she could carry out this investigation using school laboratory apparatus. (4)"
+     "text": "(a) Draw a labelled diagram showing how she could carry out this investigation using school laboratory apparatus. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,10 +114,11 @@
        }
       }
      ],
-     "text": "(b) Identify one safety issue with this investigation and how it may be dealt with. (2)"
+     "text": "(b) Identify one safety issue with this investigation and how it may be dealt with. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2020_01_q2",
@@ -171,7 +173,8 @@
        }
       }
      ],
-     "text": "(a) Show that the upthrust U on the beaker could be calculated using the equation π r dg 2 U = 1000 where d is in cm and U is in N. (4)"
+     "text": "(a) Show that the upthrust U on the beaker could be calculated using the equation π r dg 2 U = 1000 where d is in cm and U is in N. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
@@ -207,7 +210,8 @@
        }
       }
      ],
-     "text": "(b) The student marked the position of the water surface on the beaker for different values of m. He plotted a graph of d in cm against m in g. 7 6 5 4 3 2 1 0 0 50 100 150 200 m / g When the beaker is in equilibrium upthrust = weight, leading him to the following equation m = ρπr2d where ρ = 1 g cm−3. Determine the diameter of the beaker, using information from the graph. (3)"
+     "text": "(b) The student marked the position of the water surface on the beaker for different values of m. He plotted a graph of d in cm against m in g. 7 6 5 4 3 2 1 0 0 50 100 150 200 m / g When the beaker is in equilibrium upthrust = weight, leading him to the following equation m = ρπr2d where ρ = 1 g cm−3. Determine the diameter of the beaker, using information from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
@@ -243,10 +247,11 @@
        }
       }
      ],
-     "text": "(c) The graph shows that the beaker would have a depth under the water surface with no mass added. Identify the source of the systematic error and how it could be corrected. (2)"
+     "text": "(c) The graph shows that the beaker would have a depth under the water surface with no mass added. Identify the source of the systematic error and how it could be corrected. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2020_01_q3",
@@ -301,12 +306,13 @@
        }
       }
      ],
-     "text": "(a) Describe a method the student could use to determine the density of the salt solution. (3)"
+     "text": "(a) Describe a method the student could use to determine the density of the salt solution. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -337,7 +343,8 @@
        }
       }
      ],
-     "text": "(b) The student increased the density of the salt solution by adding different masses of salt. Sketch, on the axes below, a graph to show how the refractive index of the salt solution varies with the mass of salt added. (2) mass of salt added"
+     "text": "(b) The student increased the density of the salt solution by adding different masses of salt. Sketch, on the axes below, a graph to show how the refractive index of the salt solution varies with the mass of salt added. (2) mass of salt added",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -373,7 +380,8 @@
        }
       }
      ],
-     "text": "(c) The relationship between the refractive index n, the angle of incidence θ1 and the angle of refraction θ2 is given by the equation sin θ1 = n sin θ2 Describe a graphical method she could use to determine n. (4)"
+     "text": "(c) The relationship between the refractive index n, the angle of incidence θ1 and the angle of refraction θ2 is given by the equation sin θ1 = n sin θ2 Describe a graphical method she could use to determine n. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)(i)",
@@ -423,7 +431,8 @@
        }
       }
      ],
-     "text": "(i) The uncertainty in the measurement of the angles was ± 0.5°. Calculate the maximum and minimum values of n. (3)"
+     "text": "(i) The uncertainty in the measurement of the angles was ± 0.5°. Calculate the maximum and minimum values of n. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(d)(ii)",
@@ -473,10 +482,14 @@
        }
       }
      ],
-     "text": "(ii) Calculate the percentage uncertainty in the student’s value of n. (2)"
+     "text": "(ii) Calculate the percentage uncertainty in the student’s value of n. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(b): text after the marks"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2020_01_q4",
@@ -531,7 +544,8 @@
        }
       }
      ],
-     "text": "(a) Criticise these results. (2)"
+     "text": "(a) Criticise these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -567,12 +581,13 @@
        }
       }
      ],
-     "text": "(b) Complete the last row of the table. (3)"
+     "text": "(b) Complete the last row of the table. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -603,7 +618,8 @@
        }
       }
      ],
-     "text": "(c) Plot a graph of change in gravitational potential energy on the y-axis against mean energy supplied on the x-axis. (5)"
+     "text": "(c) Plot a graph of change in gravitational potential energy on the y-axis against mean energy supplied on the x-axis. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(d)",
@@ -639,7 +655,8 @@
        }
       }
      ],
-     "text": "(d) Determine the efficiency of the motor. (2)"
+     "text": "(d) Determine the efficiency of the motor. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(e)",
@@ -675,10 +692,11 @@
        }
       }
      ],
-     "text": "(e) The students repeated the experiment with a much larger mass and determined that the efficiency of the motor was decreased. Describe how they should collect and use data to determine the mass at which the efficiency starts to decrease. (3)"
+     "text": "(e) The students repeated the experiment with a much larger mass and determined that the efficiency of the motor was decreased. Describe how they should collect and use data to determine the mass at which the efficiency starts to decrease. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2020_01_q5",
@@ -733,7 +751,8 @@
        }
       }
      ],
-     "text": "(a) A teacher is given a sample of the same material with diameter 1 mm. Justify the teacher’s decision that it would be safe for her students to determine the breaking stress of the sample. (2)"
+     "text": "(a) A teacher is given a sample of the same material with diameter 1 mm. Justify the teacher’s decision that it would be safe for her students to determine the breaking stress of the sample. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(b)",
@@ -769,10 +788,11 @@
        }
       }
      ],
-     "text": "(b) To determine the breaking stress, a student used 100 g slotted masses hung vertically from the sample. The maximum mass that the sample could hold before breaking was 1.9 kg. The diameter was 0.95 mm. The manufacturer gives the breaking stress of the rope as 2.55 × 107 Pa. Determine whether the student’s result supports the manufacturer’s value. (4)"
+     "text": "(b) To determine the breaking stress, a student used 100 g slotted masses hung vertically from the sample. The maximum mass that the sample could hold before breaking was 1.9 kg. The diameter was 0.95 mm. The manufacturer gives the breaking stress of the rope as 2.55 × 107 Pa. Determine whether the student’s result supports the manufacturer’s value. (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

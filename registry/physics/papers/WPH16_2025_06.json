@@ -91,12 +91,13 @@
        }
       }
      ],
-     "text": "(i) Describe two safety precautions the student should take when using electrolytic capacitors in a circuit. (2)"
+     "text": "(i) Describe two safety precautions the student should take when using electrolytic capacitors in a circuit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) The student moved the switch to position A to charge the 680 µF electrolytic capacitor. She moved the switch to position B to connect the capacitor to another capacitor X. She measured the potential difference across the 680 µF electrolytic capacitor when the switch was in position A and in position B. Complete the diagram to show the circuit the student used. (2) A B 6.0 V 680 μF"
+     "text": "(ii) The student moved the switch to position A to charge the 680 µF electrolytic capacitor. She moved the switch to position B to connect the capacitor to another capacitor X. She measured the potential difference across the 680 µF electrolytic capacitor when the switch was in position A and in position B. Complete the diagram to show the circuit the student used. (2) A B 6.0 V 680 μF",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -177,10 +179,14 @@
        }
       }
      ],
-     "text": "(b) The student charged the 680 µF capacitor to different potential differences, V1. For each value of potential difference V1, she connected the 680 µF capacitor to capacitor X. The final value of the potential difference across the 680 µF capacitor was V2. She recorded the corresponding values of V1 and V2 and plotted the graph below. 1.20 1.00 0.80 V2 / V 0.60 0.40 0.20 0.00 0.00 1.00 2.00 3.00 4.00 5.00 6.00 7.00 V1 / V Criticise the student’s graph. (3)"
+     "text": "(b) The student charged the 680 µF capacitor to different potential differences, V1. For each value of potential difference V1, she connected the 680 µF capacitor to capacitor X. The final value of the potential difference across the 680 µF capacitor was V2. She recorded the corresponding values of V1 and V2 and plotted the graph below. 1.20 1.00 0.80 V2 / V 0.60 0.40 0.20 0.00 0.00 1.00 2.00 3.00 4.00 5.00 6.00 7.00 V1 / V Criticise the student’s graph. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "1(a)(ii): text after the marks"
+   ]
   },
   {
    "id": "WPH16_2025_06_q2",
@@ -204,7 +210,7 @@
     {
      "label": "2(a)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -235,7 +241,8 @@
        }
       }
      ],
-     "text": "(a) The student used temperatures ranging from 0 °C to 100 °C. Devise a method the student could use to estimate a value for absolute zero. Your method should include any additional apparatus and the use of a suitable graph. (6)"
+     "text": "(a) The student used temperatures ranging from 0 °C to 100 °C. Devise a method the student could use to estimate a value for absolute zero. Your method should include any additional apparatus and the use of a suitable graph. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -271,10 +278,11 @@
        }
       }
      ],
-     "text": "(b) The student suggested that using a data logger with a temperature probe and a pressure sensor would improve the investigation. Explain how using a data logger could improve the accuracy of the measurements. (3)"
+     "text": "(b) The student suggested that using a data logger with a temperature probe and a pressure sensor would improve the investigation. Explain how using a data logger could improve the accuracy of the measurements. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2025_06_q3",
@@ -329,7 +337,8 @@
        }
       }
      ],
-     "text": "(a) The student used a micrometer screw gauge to measure the thickness of one glass slide. She recorded a single measurement as 1.21 mm. Explain why a micrometer screw gauge was an appropriate instrument to use for this measurement. Your answer should include a calculation. (2)"
+     "text": "(a) The student used a micrometer screw gauge to measure the thickness of one glass slide. She recorded a single measurement as 1.21 mm. Explain why a micrometer screw gauge was an appropriate instrument to use for this measurement. Your answer should include a calculation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -365,7 +374,8 @@
        }
       }
      ],
-     "text": "(b) For each value of w the student recorded the potential difference V across the solar cell. Explain one variable she should control in this investigation. (2)"
+     "text": "(b) For each value of w the student recorded the potential difference V across the solar cell. Explain one variable she should control in this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(i)",
@@ -415,7 +425,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of ln V against w could be used to determine a value for B. (2)"
+     "text": "(i) Explain how a graph of ln V against w could be used to determine a value for B. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(ii)",
@@ -439,7 +450,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2025_06/q3_c_ii.webp",
+       "src": "physics/WPH16_2025_06/q3_c_ii_1.webp",
        "w": 1090,
        "h": 672,
        "region": {
@@ -448,6 +459,18 @@
         "y0": 288.7,
         "x1": 559.0,
         "y1": 611.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2025_06/q3_c_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -465,7 +488,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following results. w / mm V / mV 1.21 381 2.46 375 4.88 366 6.10 361 8.55 352 10.97 344 Plot a graph of ln V against w on the grid opposite. Use the additional column to record your processed data. You should keep the values of V in mV. (5)"
+     "text": "(ii) The student recorded the following results. w / mm V / mV 1.21 381 2.46 375 4.88 366 6.10 361 8.55 352 10.97 344 Plot a graph of ln V against w on the grid opposite. Use the additional column to record your processed data. You should keep the values of V in mV. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(iii)",
@@ -489,7 +513,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2025_06/q3_c_iii_1.webp",
+       "src": "physics/WPH16_2025_06/q3_c_iii.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -498,18 +522,6 @@
         "y0": 613.5,
         "x1": 559.0,
         "y1": 648.9
-       }
-      },
-      {
-       "src": "physics/WPH16_2025_06/q3_c_iii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -527,7 +539,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the gradient of the graph. (3)"
+     "text": "(iii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(iv)",
@@ -577,10 +590,14 @@
        }
       }
      ],
-     "text": "(iv) The mean thickness of each glass slide was 1.22 mm. Determine the minimum number of glass slides needed to reduce V to 75% of the initial value. (4)"
+     "text": "(iv) The mean thickness of each glass slide was 1.22 mm. Determine the minimum number of glass slides needed to reduce V to 75% of the initial value. (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(c)(ii): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2025_06_q4",
@@ -649,7 +666,8 @@
        }
       }
      ],
-     "text": "(i) Explain why timing multiple oscillations improves the measurement of T. (3)"
+     "text": "(i) Explain why timing multiple oscillations improves the measurement of T. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -699,7 +717,8 @@
        }
       }
      ],
-     "text": "(ii) Describe two techniques the student should use when timing oscillations. (2)"
+     "text": "(ii) Describe two techniques the student should use when timing oscillations. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(iii)",
@@ -749,7 +768,8 @@
        }
       }
      ],
-     "text": "(iii) The student recorded the following results. 10T / s 6.88 6.93 6.84 6.96 Calculate the mean value of T. (2)"
+     "text": "(iii) The student recorded the following results. 10T / s 6.88 6.93 6.84 6.96 Calculate the mean value of T. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(a)(iv)",
@@ -799,7 +819,8 @@
        }
       }
      ],
-     "text": "(iv) Determine the percentage uncertainty in the mean value of T. (2)"
+     "text": "(iv) Determine the percentage uncertainty in the mean value of T. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -849,7 +870,8 @@
        }
       }
      ],
-     "text": "(i) The student used vernier calipers to measure d. Explain one technique he should use to determine an accurate value for d. (2)"
+     "text": "(i) The student used vernier calipers to measure d. Explain one technique he should use to determine an accurate value for d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -899,7 +921,8 @@
        }
       }
      ],
-     "text": "2 (ii) Show that the percentage uncertainty in the term D is about 2%. 2 2 d D = 59.4 mm ± 0.2 mm d = 13.9 mm ± 0.1 mm (3)"
+     "text": "2 (ii) Show that the percentage uncertainty in the term D is about 2%. 2 2 d D = 59.4 mm ± 0.2 mm d = 13.9 mm ± 0.1 mm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iii)",
@@ -949,10 +972,14 @@
        }
       }
      ],
-     "text": "(iii) The student determined the value of the constant N experimentally and estimated its percentage uncertainty. He determined the value of v as 0.276 with a percentage uncertainty of 6%. The value of v for steel is 0.265 Deduce whether this spring was made from steel. (2)"
+     "text": "(iii) The student determined the value of the constant N experimentally and estimated its percentage uncertainty. He determined the value of v as 0.276 with a percentage uncertainty of 6%. The value of v for steel is 0.265 Deduce whether this spring was made from steel. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "4(b)(ii): text doesn't start at its label"
+   ]
   }
  ]
 }

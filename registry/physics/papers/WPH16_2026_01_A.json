@@ -47,7 +47,7 @@
     {
      "label": "1(a)(i)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -92,7 +92,8 @@
        }
       }
      ],
-     "text": "(i) In the answer book draw a line of best fit on the graph. (2)"
+     "text": "(i) In the answer book draw a line of best fit on the graph. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -142,7 +143,8 @@
        }
       }
      ],
-     "text": "(ii) Estimate the maximum value of V. (1)"
+     "text": "(ii) Estimate the maximum value of V. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(a)(iii)",
@@ -192,7 +194,8 @@
        }
       }
      ],
-     "text": "(iii) State the value of the resonant frequency. (1)"
+     "text": "(iii) State the value of the resonant frequency. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -228,10 +231,11 @@
        }
       }
      ],
-     "text": "(b) Suggest one way in which the experiment could be improved to obtain a more accurate value of the resonant frequency. (1)"
+     "text": "(b) Suggest one way in which the experiment could be improved to obtain a more accurate value of the resonant frequency. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_01_A_q2",
@@ -255,7 +259,7 @@
     {
      "label": "2(a)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -286,7 +290,8 @@
        }
       }
      ],
-     "text": "(a) Draw in the answer book an appropriate circuit diagram for this investigation. (3)"
+     "text": "(a) Draw in the answer book an appropriate circuit diagram for this investigation. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -322,12 +327,13 @@
        }
       }
      ],
-     "text": "(b) State one safety precaution the student should take. (1)"
+     "text": "(b) State one safety precaution the student should take. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -358,7 +364,8 @@
        }
       }
      ],
-     "text": "(c) The student had a stopwatch. Describe how the student should determine an accurate value for the total capacitance of the capacitors. (6)"
+     "text": "(c) The student had a stopwatch. Describe how the student should determine an accurate value for the total capacitance of the capacitors. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(d)",
@@ -394,10 +401,11 @@
        }
       }
      ],
-     "text": "(d) The student repeated the investigation but used a data logger instead of a stopwatch and an ammeter. Suggest why using a data logger would improve this investigation. (2)"
+     "text": "(d) The student repeated the investigation but used a data logger instead of a stopwatch and an ammeter. Suggest why using a data logger would improve this investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_01_A_q3",
@@ -452,12 +460,13 @@
        }
       }
      ],
-     "text": "(a) The relationship between the atomic number Z and the frequency f of the most intense spectral line is given by Z = k f n Where k and n are constants. Explain why a graph of log Z against log f would give a straight line. (2)"
+     "text": "(a) The relationship between the atomic number Z and the frequency f of the most intense spectral line is given by Z = k f n Where k and n are constants. Explain why a graph of log Z against log f would give a straight line. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -502,7 +511,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log Z against log f on the grid in the answer book. Use the blank space in the answer book for your processed data. You should not convert the values of f from 1015 Hz to Hz. (6)"
+     "text": "(i) Plot a graph of log Z against log f on the grid in the answer book. Use the blank space in the answer book for your processed data. You should not convert the values of f from 1015 Hz to Hz. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -552,7 +562,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the value of n. (3)"
+     "text": "(ii) Determine the value of n. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -602,7 +613,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of k using your graph. (3)"
+     "text": "(iii) Determine the value of k using your graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)",
@@ -638,10 +650,11 @@
        }
       }
      ],
-     "text": "(c) A scientist named Henry Moseley suggested that Z µ f 0.5 Explain whether the graph supports this suggestion. (2)"
+     "text": "(c) A scientist named Henry Moseley suggested that Z µ f 0.5 Explain whether the graph supports this suggestion. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_01_A_q4",
@@ -710,7 +723,8 @@
        }
       }
      ],
-     "text": "(i) Explain one technique she should use to reduce the uncertainty in the measurement of d. (2)"
+     "text": "(i) Explain one technique she should use to reduce the uncertainty in the measurement of d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -760,7 +774,8 @@
        }
       }
      ],
-     "text": "(ii) She recorded the following measurements. d / mm 8.53 8.56 8.55 8.53 Determine the mean value of d and its uncertainty. (3)"
+     "text": "(ii) She recorded the following measurements. d / mm 8.53 8.56 8.55 8.53 Determine the mean value of d and its uncertainty. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -810,7 +825,8 @@
        }
       }
      ],
-     "text": "(i) Show that the uncertainty in d 2 is about 1 mm2 d = 10.70 mm ± 0.06 mm (3)"
+     "text": "(i) Show that the uncertainty in d 2 is about 1 mm2 d = 10.70 mm ± 0.06 mm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -860,7 +876,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in A is about 0.4% s 2 = 881 mm2 ± 2 mm2 (4)"
+     "text": "(ii) Show that the percentage uncertainty in A is about 0.4% s 2 = 881 mm2 ± 2 mm2 (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(i)",
@@ -910,7 +927,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean density ρ, in g cm–3, of the metal the ring is made from. m10 = 63.0 g ± 0.5 g x10 = 14.03 mm ± 0.04 mm A = 602 mm2 ± 0.4% (2)"
+     "text": "(i) Determine the mean density ρ, in g cm–3, of the metal the ring is made from. m10 = 63.0 g ± 0.5 g x10 = 14.03 mm ± 0.04 mm A = 602 mm2 ± 0.4% (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -960,10 +978,11 @@
        }
       }
      ],
-     "text": "(ii) The density of stainless steel ranges from 7.48 g cm–3 to 7.95 g cm–3. Deduce whether the metal rings could be made from stainless steel. (3)"
+     "text": "(ii) The density of stainless steel ranges from 7.48 g cm–3 to 7.95 g cm–3. Deduce whether the metal rings could be made from stainless steel. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

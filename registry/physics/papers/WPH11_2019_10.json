@@ -65,10 +65,12 @@
        }
       }
      ],
-     "text": "1 Which row of the table gives the meaning of the stated unit prefixes? micro centi A 10í\u0019 10í\u0015 B 10í 10\u0015 C 10í 10í\u0015 D 10í\u0019 10\u0015"
+     "text": "1 Which row of the table gives the meaning of the stated unit prefixes? micro centi A 10í\u0019 10í\u0015 B 10í 10\u0015 C 10í 10í\u0015 D 10í\u0019 10\u0015",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q2",
@@ -111,10 +113,12 @@
        }
       }
      ],
-     "text": "2 All quantities may be expressed in terms of SI base units. Which of the following are the base units for the moment of a force? A kg m sí\u0015 B kg m\u0015 sí\u0015 C kg m sí\u0014 D kg m\u0015 sí\u0016"
+     "text": "2 All quantities may be expressed in terms of SI base units. Which of the following are the base units for the moment of a force? A kg m sí\u0015 B kg m\u0015 sí\u0015 C kg m sí\u0014 D kg m\u0015 sí\u0016",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q3",
@@ -157,10 +161,12 @@
        }
       }
      ],
-     "text": "3 A student measured the diameter of a length of wire in order to determine its cross-sectional area. The following measurements were taken at various positions along the wire and at various orientations around the wire. All measurements are in mm. 1.57 1.36 1.54 1.55 1.58 Which of the following expressions should the student use to determine the cross-sectional area of the wire in mm\u0015? A ʌ \u0014\u0011\u0018\u0019 \u0015 B ʌ \u0014\u0011\u0018\u0015 \u0015 C ʌ \u0013\u0011\u001a\u001b \u0015 D ʌ \u0013\u0011\u001a\u0019 \u0015"
+     "text": "3 A student measured the diameter of a length of wire in order to determine its cross-sectional area. The following measurements were taken at various positions along the wire and at various orientations around the wire. All measurements are in mm. 1.57 1.36 1.54 1.55 1.58 Which of the following expressions should the student use to determine the cross-sectional area of the wire in mm\u0015? A ʌ \u0014\u0011\u0018\u0019 \u0015 B ʌ \u0014\u0011\u0018\u0015 \u0015 C ʌ \u0013\u0011\u001a\u001b \u0015 D ʌ \u0013\u0011\u001a\u0019 \u0015",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q4",
@@ -203,10 +209,12 @@
        }
       }
      ],
-     "text": "4 The area under each of the following graphs represents a physical quantity. For which graph is the area under the graph not equal to work done? Displacement Extension Time Strain A B C D"
+     "text": "4 The area under each of the following graphs represents a physical quantity. For which graph is the area under the graph not equal to work done? Displacement Extension Time Strain A B C D",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q5",
@@ -249,16 +257,31 @@
        }
       }
      ],
-     "text": "5 The steps on an escalator move with a speed of 0.5 m sí\u0014. The vertical component of their velocity is 0.3 m sí\u0014 upwards. 0.5 m sí\u0014 0.3 m sí\u0014 Which of the following is the horizontal component of velocity for the escalator steps? A 0.2 m sí\u0014 B 0.4 m sí\u0014 C 0.5 m sí\u0014 D 0.8 m sí\u0014"
+     "text": "5 The steps on an escalator move with a speed of 0.5 m sí\u0014. The vertical component of their velocity is 0.3 m sí\u0014 upwards. 0.5 m sí\u0014 0.3 m sí\u0014 Which of the following is the horizontal component of velocity for the escalator steps? A 0.2 m sí\u0014 B 0.4 m sí\u0014 C 0.5 m sí\u0014 D 0.8 m sí\u0014",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q6",
    "number": 6,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH11_2019_10/q6_lead.webp",
+     "w": 1091,
+     "h": 424,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 58.8,
+      "x1": 558.9,
+      "y1": 262.0
+     }
+    }
+   ],
    "parts": [
     {
      "label": "6",
@@ -295,16 +318,31 @@
        }
       }
      ],
-     "text": "6 The dot at the start of every arrowed line indicates the point at which the force can be considered to act. Which of the following forces has been drawn in the wrong position? A Rc B Rt C Wc D Wt"
+     "text": "6 The dot at the start of every arrowed line indicates the point at which the force can be considered to act. Which of the following forces has been drawn in the wrong position? A Rc B Rt C Wc D Wt",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2019_10_q7",
    "number": 7,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH11_2019_10/q7_lead.webp",
+     "w": 1091,
+     "h": 424,
+     "region": {
+      "page": 5,
+      "x0": 36.0,
+      "y0": 58.8,
+      "x1": 558.9,
+      "y1": 262.0
+     }
+    }
+   ],
    "parts": [
     {
      "label": "7",
@@ -341,10 +379,12 @@
        }
       }
      ],
-     "text": "7 The table has four legs. Which of the following statements is correct according to Newton’s third law? A \u0017Rf = Rc + Rt B \u0017Rf = Rc + Wt C Rc = Rt D Rt = Wc"
+     "text": "7 The table has four legs. Which of the following statements is correct according to Newton’s third law? A \u0017Rf = Rc + Rt B \u0017Rf = Rc + Wt C Rc = Rt D Rt = Wc",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2019_10_q8",
@@ -387,10 +427,12 @@
        }
       }
      ],
-     "text": "8 An electric pump lifts water from a well through a height of 10 m at a rate of 4 kg sí\u0014. The water leaves the pump with a velocity of 5 m sí\u0014 as shown. water lifted at 4 kg sí\u0014 water leaves pump at 5 m sí\u0014 Which of the following expressions could be used to determine the minimum power output of the pump in watts? A 1 2 (4 u 5\u0015 B (4 u 9.81 u 10) C (4 u 9.81 u 10) + 1 2 (4 u 5\u0015 D (4 u 9.81 u 10) í 1 2 (4 u 5\u0015"
+     "text": "8 An electric pump lifts water from a well through a height of 10 m at a rate of 4 kg sí\u0014. The water leaves the pump with a velocity of 5 m sí\u0014 as shown. water lifted at 4 kg sí\u0014 water leaves pump at 5 m sí\u0014 Which of the following expressions could be used to determine the minimum power output of the pump in watts? A 1 2 (4 u 5\u0015 B (4 u 9.81 u 10) C (4 u 9.81 u 10) + 1 2 (4 u 5\u0015 D (4 u 9.81 u 10) í 1 2 (4 u 5\u0015",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q9",
@@ -433,10 +475,12 @@
        }
       }
      ],
-     "text": "9 A student used a falling sphere to determine the acceleration of free fall. A camera produced images of the sphere at constant time intervals as it fell. The positions of the sphere in the first two images are shown. Image 1 shows the sphere’s position at the instant it was released. Image 1 Image 2 P Q R S Which of the positions P, Q, R or S will the sphere be at in Image 3? A P B Q C R D S"
+     "text": "9 A student used a falling sphere to determine the acceleration of free fall. A camera produced images of the sphere at constant time intervals as it fell. The positions of the sphere in the first two images are shown. Image 1 shows the sphere’s position at the instant it was released. Image 1 Image 2 P Q R S Which of the positions P, Q, R or S will the sphere be at in Image 3? A P B Q C R D S",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q10",
@@ -479,10 +523,12 @@
        }
       }
      ],
-     "text": "10 A force F was applied to compress a spring by a distance x. A second spring of double the stiffness was compressed by the same distance x. Which of the following gives the magnitude of the force applied to the second spring? A \u0017F B \u0015F C F D F \u0015"
+     "text": "10 A force F was applied to compress a spring by a distance x. A second spring of double the stiffness was compressed by the same distance x. Which of the following gives the magnitude of the force applied to the second spring? A \u0017F B \u0015F C F D F \u0015",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q11",
@@ -524,10 +570,11 @@
        }
       }
      ],
-     "text": "11 A rope is used to pull a box a fixed distance s along a horizontal surface. The rope is at an angle ș to the horizontal and a constant force F is applied to the rope as shown. F ș direction of motion Explain how the work done on the box by F varies as ș varies. (3)"
+     "text": "11 A rope is used to pull a box a fixed distance s along a horizontal surface. The rope is at an angle ș to the horizontal and a constant force F is applied to the rope as shown. F ș direction of motion Explain how the work done on the box by F varies as ș varies. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q12",
@@ -551,7 +598,7 @@
     {
      "label": "12(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -582,12 +629,13 @@
        }
       }
      ],
-     "text": "(a) When released from a height h, trolley A ran down the slope and then continued to move horizontally. On the horizontal part of the track a frictional force F brought the trolley to rest over a short distance d. The trolley has a mass m. The student measured d for a range of heights h. The student plotted the following graph of d against h. d h Derive an expression for the gradient of the graph, in terms of F, m and g. (2)"
+     "text": "(a) When released from a height h, trolley A ran down the slope and then continued to move horizontally. On the horizontal part of the track a frictional force F brought the trolley to rest over a short distance d. The trolley has a mass m. The student measured d for a range of heights h. The student plotted the following graph of d against h. d h Derive an expression for the gradient of the graph, in terms of F, m and g. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "12(b)",
      "marks": 4,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -618,10 +666,11 @@
        }
       }
      ],
-     "text": "(b) In a second experiment, an identical trolley B was placed at rest at the bottom of the slope. When trolley A was released as before, it rolled down and collided with trolley B. After the collision the two trolleys joined together and moved off to the right with a velocity v. A h % gh . The student predicted that, provided friction was ignored, v = \u0015 Assess whether the student was correct. (4)"
+     "text": "(b) In a second experiment, an identical trolley B was placed at rest at the bottom of the slope. When trolley A was released as before, it rolled down and collided with trolley B. After the collision the two trolleys joined together and moved off to the right with a velocity v. A h % gh . The student predicted that, provided friction was ignored, v = \u0015 Assess whether the student was correct. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q13",
@@ -645,7 +694,7 @@
     {
      "label": "13(a)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -676,7 +725,8 @@
        }
       }
      ],
-     "text": "(a) A ball is given an initial velocity of 33 m sí\u0014 at an angle of 28 to the horizontal. When hit from the lower level, this ball travels a horizontal distance of 92 m before landing. Use of the higher level increases the horizontal distance travelled before landing by 10 m. Deduce whether an upper level at a height of 4.5 m would be sufficient to produce this increase. You should ignore air resistance. (5)"
+     "text": "(a) A ball is given an initial velocity of 33 m sí\u0014 at an angle of 28 to the horizontal. When hit from the lower level, this ball travels a horizontal distance of 92 m before landing. Use of the higher level increases the horizontal distance travelled before landing by 10 m. Deduce whether an upper level at a height of 4.5 m would be sufficient to produce this increase. You should ignore air resistance. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "13(b)",
@@ -712,10 +762,11 @@
        }
       }
      ],
-     "text": "*(b) Your answer to part (a) did not consider the effect of air resistance. The trajectories of the motion of the golf ball with air resistance and without air resistance are shown. Trajectory without air resistance Trajectory with air resistance Explain the differences between the two paths. (6)"
+     "text": "*(b) Your answer to part (a) did not consider the effect of air resistance. The trajectories of the motion of the golf ball with air resistance and without air resistance are shown. Trajectory without air resistance Trajectory with air resistance Explain the differences between the two paths. (6)",
+     "kindGuessed": "extended"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q14",
@@ -784,7 +835,8 @@
        }
       }
      ],
-     "text": "(i) Explain the effect of the moment Ud. (2)"
+     "text": "(i) Explain the effect of the moment Ud. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(a)(ii)",
@@ -834,7 +886,8 @@
        }
       }
      ],
-     "text": "(ii) Explain what would happen to the boat in windy weather if the centre of gravity G were higher. (3)"
+     "text": "(ii) Explain what would happen to the boat in windy weather if the centre of gravity G were higher. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(i)",
@@ -884,7 +937,8 @@
        }
       }
      ],
-     "text": "(i) Explain why the position of X for the ship when it has a full ballast tank is lower than when the ship has an empty ballast tank. (4)"
+     "text": "(i) Explain why the position of X for the ship when it has a full ballast tank is lower than when the ship has an empty ballast tank. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(ii)",
@@ -934,10 +988,11 @@
        }
       }
      ],
-     "text": "(ii) Explain a disadvantage of using a full ballast tank when the boat is moving through the water. (2)"
+     "text": "(ii) Explain a disadvantage of using a full ballast tank when the boat is moving through the water. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q15",
@@ -1006,7 +1061,8 @@
        }
       }
      ],
-     "text": "(i) Describe a method that the student could use to determine an accurate value for the terminal velocity of the sphere. You may add to the diagram above. (5)"
+     "text": "(i) Describe a method that the student could use to determine an accurate value for the terminal velocity of the sphere. You may add to the diagram above. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(a)(ii)",
@@ -1056,12 +1112,13 @@
        }
       }
      ],
-     "text": "(ii) Explain why the use of a larger sphere would increase the percentage uncertainty in the calculated value of the terminal velocity. (4)"
+     "text": "(ii) Explain why the use of a larger sphere would increase the percentage uncertainty in the calculated value of the terminal velocity. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)(i)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1092,7 +1149,8 @@
        }
       }
      ],
-     "text": "(b) (i) Complete the free-body force diagram for the sphere when travelling at terminal velocity. (3)"
+     "text": "(b) (i) Complete the free-body force diagram for the sphere when travelling at terminal velocity. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)(ii)",
@@ -1128,10 +1186,11 @@
        }
       }
      ],
-     "text": "(ii) The student obtained a value of 0.16 m sí\u0014 for the terminal velocity of the sphere. Calculate the viscosity Ș of the washing up liquid in Pa s. radius of sphere 4.8 u 10í\u0016 m weight of sphere 3.5 u 10í\u0015 N density of washing up liquid = 1.1 u 10\u0016 kg mí\u0016 (4)"
+     "text": "(ii) The student obtained a value of 0.16 m sí\u0014 for the terminal velocity of the sphere. Calculate the viscosity Ș of the washing up liquid in Pa s. radius of sphere 4.8 u 10í\u0016 m weight of sphere 3.5 u 10í\u0015 N density of washing up liquid = 1.1 u 10\u0016 kg mí\u0016 (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q16",
@@ -1186,7 +1245,8 @@
        }
       }
      ],
-     "text": "(a) Explain how the stress-strain graph shows that concrete is more suitable for use under compression than under tension. (2)"
+     "text": "(a) Explain how the stress-strain graph shows that concrete is more suitable for use under compression than under tension. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(b)",
@@ -1222,7 +1282,8 @@
        }
       }
      ],
-     "text": "(b) Steel is a metal often used in building. The stress-strain graph for steel is shown. Stress / u 10\u001b Pa \u0019 5 \u0017 \u0016 \u0015 1 Strain / % í\u0015\u0011\u0013 í\u0014\u0011\u0018 í\u0014\u0011\u0013 í\u0013\u0011\u0018 0 0.5 1.0 1.5 \u0015\u0011\u0013 í\u0014 í\u0015 í\u0016 í\u0017 í\u0018 í\u0019 A steel rod has a diameter of 45 mm. Calculate the maximum force that could be applied to the steel rod before it fractures. (3)"
+     "text": "(b) Steel is a metal often used in building. The stress-strain graph for steel is shown. Stress / u 10\u001b Pa \u0019 5 \u0017 \u0016 \u0015 1 Strain / % í\u0015\u0011\u0013 í\u0014\u0011\u0018 í\u0014\u0011\u0013 í\u0013\u0011\u0018 0 0.5 1.0 1.5 \u0015\u0011\u0013 í\u0014 í\u0015 í\u0016 í\u0017 í\u0018 í\u0019 A steel rod has a diameter of 45 mm. Calculate the maximum force that could be applied to the steel rod before it fractures. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(c)(i)",
@@ -1272,7 +1333,8 @@
        }
       }
      ],
-     "text": "(i) Explain how this process increases the maximum tensile force that the concrete can withstand before fracture. (4)"
+     "text": "(i) Explain how this process increases the maximum tensile force that the concrete can withstand before fracture. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(c)(ii)",
@@ -1322,10 +1384,11 @@
        }
       }
      ],
-     "text": "(ii) Explain why the external tensile force in the rods must not take the steel beyond its elastic limit. (2)"
+     "text": "(ii) Explain why the external tensile force in the rods must not take the steel beyond its elastic limit. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2019_10_q17",
@@ -1394,7 +1457,8 @@
        }
       }
      ],
-     "text": "(i) State how the graph shows that in 3rd gear the car has a smaller acceleration than in 1st gear. (1)"
+     "text": "(i) State how the graph shows that in 3rd gear the car has a smaller acceleration than in 1st gear. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(a)(ii)",
@@ -1444,7 +1508,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the average acceleration when the car is accelerating in 2nd gear. (2)"
+     "text": "(ii) Determine the average acceleration when the car is accelerating in 2nd gear. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(a)(iii)",
@@ -1494,7 +1559,8 @@
        }
       }
      ],
-     "text": "(iii) The equation that links the power P of a car engine to the forward force F on the car and the velocity v of the car is P = Fv Comment on the magnitude of F when the car is in higher gears, assuming P remains constant. (2)"
+     "text": "(iii) The equation that links the power P of a car engine to the forward force F on the car and the velocity v of the car is P = Fv Comment on the magnitude of F when the car is in higher gears, assuming P remains constant. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(b)(i)",
@@ -1544,7 +1610,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the minimum time taken for the car to accelerate from rest to 60 miles per hour. You may assume that the time taken to change gears is negligible. 1 mile 1600 m (4)"
+     "text": "(i) Calculate the minimum time taken for the car to accelerate from rest to 60 miles per hour. You may assume that the time taken to change gears is negligible. 1 mile 1600 m (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(b)(ii)",
@@ -1594,10 +1661,11 @@
        }
       }
      ],
-     "text": "(ii) Explain why there will be a maximum speed at which the car can travel. (3)"
+     "text": "(ii) Explain why there will be a maximum speed at which the car can travel. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

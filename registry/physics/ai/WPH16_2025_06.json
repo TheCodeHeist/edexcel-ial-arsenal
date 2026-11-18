@@ -1,0 +1,52 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "755ea4124470",
+   "kinds": {
+    "1(a)(i)": "short",
+    "1(a)(ii)": "draw",
+    "1(b)": "short"
+   }
+  },
+  "2": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "005df989fc34",
+   "kinds": {
+    "2(a)": "extended",
+    "2(b)": "short"
+   }
+  },
+  "3": {
+   "at": "2026-11-18",
+   "concerns": [
+    "3(c)(iii): the plotting grid belongs to 3(c)(ii), which says \"on the grid opposite\""
+   ],
+   "fingerprint": "ffbfd9eee6f4",
+   "kinds": {
+    "3(a)": "short",
+    "3(b)": "short",
+    "3(c)(i)": "short",
+    "3(c)(ii)": "draw",
+    "3(c)(iii)": "calc",
+    "3(c)(iv)": "calc"
+   }
+  },
+  "4": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "8a8f950db56e",
+   "kinds": {
+    "4(a)(i)": "short",
+    "4(a)(ii)": "short",
+    "4(a)(iii)": "calc",
+    "4(a)(iv)": "calc",
+    "4(b)(i)": "short",
+    "4(b)(ii)": "calc",
+    "4(b)(iii)": "short"
+   }
+  }
+ }
+}

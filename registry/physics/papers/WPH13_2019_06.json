@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) (i) State the resolution of the measuring instrument shown in the photograph. (1)"
+     "text": "(a) (i) State the resolution of the measuring instrument shown in the photograph. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(ii) Explain why this device is suitable to measure the diameter of the metal sphere. (2)"
+     "text": "(ii) Explain why this device is suitable to measure the diameter of the metal sphere. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -149,7 +151,8 @@
        }
       }
      ],
-     "text": "(b) The student measured the diameter. The reading obtained was 20.5 ± 0.05 mm. Calculate the percentage uncertainty in the measurement of the diameter. (1)"
+     "text": "(b) The student measured the diameter. The reading obtained was 20.5 ± 0.05 mm. Calculate the percentage uncertainty in the measurement of the diameter. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -185,7 +188,8 @@
        }
       }
      ],
-     "text": "(c) The student took further measurements of the diameter and calculated a mean. Describe how the student should use this measuring device to make the measurements as accurate as possible. (2)"
+     "text": "(c) The student took further measurements of the diameter and calculated a mean. Describe how the student should use this measuring device to make the measurements as accurate as possible. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(d)(i)",
@@ -235,7 +239,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean diameter of the second metal sphere. (2)"
+     "text": "(i) Calculate the mean diameter of the second metal sphere. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(d)(ii)",
@@ -285,7 +290,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the percentage uncertainty in the mean diameter of the second metal sphere. (2)"
+     "text": "(ii) Calculate the percentage uncertainty in the mean diameter of the second metal sphere. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(e)",
@@ -321,7 +327,8 @@
        }
       }
      ],
-     "text": "(e) The student measured the mass of the first metal sphere using a top pan balance. The mass reading obtained was 35.6 g. Calculate the density of the first metal sphere. (4)"
+     "text": "(e) The student measured the mass of the first metal sphere using a top pan balance. The mass reading obtained was 35.6 g. Calculate the density of the first metal sphere. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(f)",
@@ -357,10 +364,11 @@
        }
       }
      ],
-     "text": "(f) The student calculated the density of the second metal sphere to be 7.75 × 103 kg m–3 with an uncertainty of 2%. Determine whether the two spheres could be made from the same metal. (2)"
+     "text": "(f) The student calculated the density of the second metal sphere to be 7.75 × 103 kg m–3 with an uncertainty of 2%. Determine whether the two spheres could be made from the same metal. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2019_06_q2",
@@ -415,7 +423,8 @@
        }
       }
      ],
-     "text": "(a) Describe what the student should do to obtain the data to plot the force-extension graph. (4)"
+     "text": "(a) Describe what the student should do to obtain the data to plot the force-extension graph. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -451,10 +460,11 @@
        }
       }
      ],
-     "text": "(b) Explain how you would use the graph to determine the stiffness of the spring. (2)"
+     "text": "(b) Explain how you would use the graph to determine the stiffness of the spring. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2019_06_q3",
@@ -509,7 +519,8 @@
        }
       }
      ],
-     "text": "(a) Describe how the student can accurately determine the radius of the first bright ring of the diffraction pattern. (4)"
+     "text": "(a) Describe how the student can accurately determine the radius of the first bright ring of the diffraction pattern. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -545,7 +556,8 @@
        }
       }
      ],
-     "text": "(b) Explain how the diffraction pattern provides evidence for the wave nature of electrons. (2)"
+     "text": "(b) Explain how the diffraction pattern provides evidence for the wave nature of electrons. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(i)",
@@ -595,12 +607,13 @@
        }
       }
      ],
-     "text": "(i) Criticise these results. (2)"
+     "text": "(i) Criticise these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(ii)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -657,7 +670,8 @@
        }
       }
      ],
-     "text": "(ii) Use the results in the table to plot a graph of λ on the y-axis against sin θ on the x-axis on the grid provided. Use the right-hand column of the table for your processed data. (6)"
+     "text": "(ii) Use the results in the table to plot a graph of λ on the y-axis against sin θ on the x-axis on the grid provided. Use the right-hand column of the table for your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(iii)",
@@ -707,7 +721,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the gradient of the graph. (3)"
+     "text": "(iii) Determine the gradient of the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(iv)",
@@ -757,10 +772,14 @@
        }
       }
      ],
-     "text": "(iv) The diffraction occurs as the electrons pass through the thin slice of graphite. The atoms in the graphite are arranged in layers. The position of the rings in the diffraction pattern can be approximated by the equation nλ = d sin θ where d is the spacing between the layers. Explain why the spacing between the layers is given by the gradient of the graph. (2)"
+     "text": "(iv) The diffraction occurs as the electrons pass through the thin slice of graphite. The atoms in the graphite are arranged in layers. The position of the rings in the diffraction pattern can be approximated by the equation nλ = d sin θ where d is the spacing between the layers. Explain why the spacing between the layers is given by the gradient of the graph. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(c)(ii): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH13_2019_06_q4",
@@ -815,7 +834,8 @@
        }
       }
      ],
-     "text": "(a) Calculate μ given the equation below. mg = f λ μ (3)"
+     "text": "(a) Calculate μ given the equation below. mg = f λ μ (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(i)",
@@ -851,7 +871,8 @@
        }
       }
      ],
-     "text": "(b) (i) Identify two significant sources of uncertainty in the student’s measurements. (2)"
+     "text": "(b) (i) Identify two significant sources of uncertainty in the student’s measurements. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -887,10 +908,11 @@
        }
       }
      ],
-     "text": "(ii) For each of these sources of uncertainty, describe an experimental technique the student could have used to obtain an accurate measurement. (4)"
+     "text": "(ii) For each of these sources of uncertainty, describe an experimental technique the student could have used to obtain an accurate measurement. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) The student used the immersion heater to heat the water in the beaker. Identify one health and safety issue and how it should be dealt with. (2)"
+     "text": "(a) The student used the immersion heater to heat the water in the beaker. Identify one health and safety issue and how it should be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The student determined the temperature θ of the fixed volume of air. Describe an accurate method to determine a single value of θ. (3)"
+     "text": "(b) The student determined the temperature θ of the fixed volume of air. Describe an accurate method to determine a single value of θ. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) Determine the mean value of θ. (1)"
+     "text": "(i) Determine the mean value of θ. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(ii)",
@@ -213,7 +216,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of θ. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of θ. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(iii)",
@@ -263,10 +267,11 @@
        }
       }
      ],
-     "text": "(iii) The diameter of the flask was 15 cm. Determine the number of air molecules in the flask. You may assume the volume of air is spherical. (4)"
+     "text": "(iii) The diameter of the flask was 15 cm. Determine the number of air molecules in the flask. You may assume the volume of air is spherical. (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2025_01_q2",
@@ -290,7 +295,7 @@
     {
      "label": "2(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -321,12 +326,13 @@
        }
       }
      ],
-     "text": "(a) Complete the circuit diagram for the circuit the student could use in this investigation. (2)"
+     "text": "(a) Complete the circuit diagram for the circuit the student could use in this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -357,10 +363,11 @@
        }
       }
      ],
-     "text": "(b) The student placed a light sensor a distance from the filament bulb. The light sensor measured X, the light received, in lux, from the filament bulb. She predicted that the relationship between P and X is given by P = k X 4 where k is a constant. Devise a method to test this prediction. You should include the use of a suitable graph. (6)"
+     "text": "(b) The student placed a light sensor a distance from the filament bulb. The light sensor measured X, the light received, in lux, from the filament bulb. She predicted that the relationship between P and X is given by P = k X 4 where k is a constant. Devise a method to test this prediction. You should include the use of a suitable graph. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2025_01_q3",
@@ -415,7 +422,8 @@
        }
       }
      ],
-     "text": "(a) Give two reasons why it would not be appropriate to record A to the nearest mm. (2)"
+     "text": "(a) Give two reasons why it would not be appropriate to record A to the nearest mm. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -465,7 +473,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of ln A against n can be used to determine the value of λ. (2)"
+     "text": "(i) Explain how a graph of ln A against n can be used to determine the value of λ. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -489,7 +498,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2025_01/q3_b_ii.webp",
+       "src": "physics/WPH16_2025_01/q3_b_ii_1.webp",
        "w": 1090,
        "h": 643,
        "region": {
@@ -498,6 +507,18 @@
         "y0": 288.7,
         "x1": 559.0,
         "y1": 597.0
+       }
+      },
+      {
+       "src": "physics/WPH16_2025_01/q3_b_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -515,7 +536,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following results. n A / cm 5 8.5 10 7.0 15 5.5 20 5.0 25 4.0 30 3.5 Plot a graph of ln A against n on the grid opposite. Use the additional column for your processed data. (5)"
+     "text": "(ii) The student recorded the following results. n A / cm 5 8.5 10 7.0 15 5.5 20 5.0 25 4.0 30 3.5 Plot a graph of ln A against n on the grid opposite. Use the additional column for your processed data. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(iii)",
@@ -539,7 +561,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2025_01/q3_b_iii_1.webp",
+       "src": "physics/WPH16_2025_01/q3_b_iii.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -548,18 +570,6 @@
         "y0": 599.5,
         "x1": 559.0,
         "y1": 634.9
-       }
-      },
-      {
-       "src": "physics/WPH16_2025_01/q3_b_iii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -577,7 +587,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of λ from the graph. (3)"
+     "text": "(iii) Determine the value of λ from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
@@ -627,7 +638,8 @@
        }
       }
      ],
-     "text": "(iv) Determine the value of A0 from the graph. (3)"
+     "text": "(iv) Determine the value of A0 from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(v)",
@@ -677,10 +689,14 @@
        }
       }
      ],
-     "text": "(v) Explain why the value of A0 determined from the graph may not be the true value of A0. (2)"
+     "text": "(v) Explain why the value of A0 determined from the graph may not be the true value of A0. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(ii): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2025_01_q4",
@@ -735,7 +751,8 @@
        }
       }
      ],
-     "text": "(a) The student used a metre rule to measure the heights h1 and h2 . She calculated the difference in height ∆h as 21 mm ± 1 mm. Explain why it was appropriate to record the uncertainty in ∆h as 1 mm. (3)"
+     "text": "(a) The student used a metre rule to measure the heights h1 and h2 . She calculated the difference in height ∆h as 21 mm ± 1 mm. Explain why it was appropriate to record the uncertainty in ∆h as 1 mm. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -771,7 +788,8 @@
        }
       }
      ],
-     "text": "(b) The student placed a small glass sphere at marker 1. She released the sphere and used a stopwatch to measure the time t taken for the sphere to reach marker 2. She repeated this several times. The student moved marker 2 to the lower end of the ramp and repeated the procedure. Discuss how moving marker 2 to the lower end of the ramp could affect the percentage uncertainty in t. (3)"
+     "text": "(b) The student placed a small glass sphere at marker 1. She released the sphere and used a stopwatch to measure the time t taken for the sphere to reach marker 2. She repeated this several times. The student moved marker 2 to the lower end of the ramp and repeated the procedure. Discuss how moving marker 2 to the lower end of the ramp could affect the percentage uncertainty in t. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -821,7 +839,8 @@
        }
       }
      ],
-     "text": "(i) Determine the student’s value of g. (2)"
+     "text": "(i) Determine the student’s value of g. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -883,7 +902,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in the student’s value of g is about 7%. (3)"
+     "text": "(ii) Show that the percentage uncertainty in the student’s value of g is about 7%. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iii)",
@@ -933,10 +953,11 @@
        }
       }
      ],
-     "text": "(iii) Deduce whether the student’s value of g is accurate. (2)"
+     "text": "(iii) Deduce whether the student’s value of g is accurate. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

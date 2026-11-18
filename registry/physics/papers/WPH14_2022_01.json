@@ -65,10 +65,12 @@
        }
       }
      ],
-     "text": "1 8O is an isotope of oxygen. 17 Which row of the table gives the number of nucleons and the number of neutrons in an atom of 17 8O ? Number of nucleons Number of neutrons A 8 8 B 8 9 C 17 8 D 17 9"
+     "text": "1 8O is an isotope of oxygen. 17 Which row of the table gives the number of nucleons and the number of neutrons in an atom of 17 8O ? Number of nucleons Number of neutrons A 8 8 B 8 9 C 17 8 D 17 9",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q2",
@@ -111,16 +113,31 @@
        }
       }
      ],
-     "text": "2 Which row in the table gives the charge and mass of an antiproton? Charge / C Mass / kg A 1.6 × 10−19 −9.11 × 10−31 B −1.6 × 10−19 9.11 × 10−31 C 1.6 × 10−19 −1.67 × 10−27 D −1.6 × 10−19 1.67 × 10−27"
+     "text": "2 Which row in the table gives the charge and mass of an antiproton? Charge / C Mass / kg A 1.6 × 10−19 −9.11 × 10−31 B −1.6 × 10−19 9.11 × 10−31 C 1.6 × 10−19 −1.67 × 10−27 D −1.6 × 10−19 1.67 × 10−27",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q3",
    "number": 3,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2022_01/q3_lead.webp",
+     "w": 1090,
+     "h": 534,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 312.6
+     }
+    }
+   ],
    "parts": [
     {
      "label": "3",
@@ -157,16 +174,31 @@
        }
       }
      ],
-     "text": "3 Which of the following is the kinetic energy of trolley X before the collision? A 0.5 J B 1 J C 2 J D 4 J"
+     "text": "3 Which of the following is the kinetic energy of trolley X before the collision? A 0.5 J B 1 J C 2 J D 4 J",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2022_01_q4",
    "number": 4,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2022_01/q4_lead.webp",
+     "w": 1090,
+     "h": 534,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 312.6
+     }
+    }
+   ],
    "parts": [
     {
      "label": "4",
@@ -203,16 +235,31 @@
        }
       }
      ],
-     "text": "4 Which row of the table is correct for this collision? Momentum Elastic or inelastic collision A conserved elastic B conserved inelastic C not conserved elastic D not conserved inelastic"
+     "text": "4 Which row of the table is correct for this collision? Momentum Elastic or inelastic collision A conserved elastic B conserved inelastic C not conserved elastic D not conserved inelastic",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2022_01_q5",
    "number": 5,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2022_01/q5_lead.webp",
+     "w": 1090,
+     "h": 319,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 209.6
+     }
+    }
+   ],
    "parts": [
     {
      "label": "5",
@@ -249,16 +296,31 @@
        }
       }
      ],
-     "text": "5 Electrons are released from the heated metal filament. Which of the following is the name of this process? A ionisation B photoelectric emission C relativistic effect D thermionic emission"
+     "text": "5 Electrons are released from the heated metal filament. Which of the following is the name of this process? A ionisation B photoelectric emission C relativistic effect D thermionic emission",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2022_01_q6",
    "number": 6,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2022_01/q6_lead.webp",
+     "w": 1090,
+     "h": 319,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 209.6
+     }
+    }
+   ],
    "parts": [
     {
      "label": "6",
@@ -295,10 +357,12 @@
        }
       }
      ],
-     "text": "6 When a potential difference is applied across the parallel metal plates, the electrons are deflected. Which of the following changes would decrease the deflection of the electrons? A increasing the current in the metal filament B increasing the distance between the plates C increasing the length of the plates D increasing the potential difference across the plates"
+     "text": "6 When a potential difference is applied across the parallel metal plates, the electrons are deflected. Which of the following changes would decrease the deflection of the electrons? A increasing the current in the metal filament B increasing the distance between the plates C increasing the length of the plates D increasing the potential difference across the plates",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2022_01_q7",
@@ -341,10 +405,12 @@
        }
       }
      ],
-     "text": "7 A square coil PQRS has sides of length l. There is a clockwise current I in the coil as shown. The plane of the coil is parallel to a magnetic field of magnetic flux density B. P Q I B S R Which row of the table is correct? Side of coil Magnetic force A PQ 0 B QR 0 C RS BIl into page D SP BIl out of page"
+     "text": "7 A square coil PQRS has sides of length l. There is a clockwise current I in the coil as shown. The plane of the coil is parallel to a magnetic field of magnetic flux density B. P Q I B S R Which row of the table is correct? Side of coil Magnetic force A PQ 0 B QR 0 C RS BIl into page D SP BIl out of page",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q8",
@@ -387,10 +453,12 @@
        }
       }
      ],
-     "text": "8 In the early 20th century experiments were carried out to measure the scattering of alpha particles after striking thin gold foil. Which of the following could not be concluded from the results of these experiments? A The nucleus is charged. B The nucleus contains most of the mass of the atom. C The nucleus contains neutrons and protons. D The nucleus is very small compared to the atom."
+     "text": "8 In the early 20th century experiments were carried out to measure the scattering of alpha particles after striking thin gold foil. Which of the following could not be concluded from the results of these experiments? A The nucleus is charged. B The nucleus contains most of the mass of the atom. C The nucleus contains neutrons and protons. D The nucleus is very small compared to the atom.",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q9",
@@ -433,10 +501,12 @@
        }
       }
      ],
-     "text": "9 A charged particle is accelerated in a spiral path in a cyclotron. spiral path dees Which of the following changes would increase the amount of energy transferred to the particle as it travels through 360° ? A increasing the distance between the dees B increasing the frequency of the potential difference across the dees C increasing the strength of the magnetic field within the dees D increasing the maximum potential difference across the dees"
+     "text": "9 A charged particle is accelerated in a spiral path in a cyclotron. spiral path dees Which of the following changes would increase the amount of energy transferred to the particle as it travels through 360° ? A increasing the distance between the dees B increasing the frequency of the potential difference across the dees C increasing the strength of the magnetic field within the dees D increasing the maximum potential difference across the dees",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q10",
@@ -479,10 +549,12 @@
        }
       }
      ],
-     "text": "10 A website states: “The radius of the orbit of the Moon around the Earth is increasing by a small amount each year, however the time period of the orbit remains constant.” Which row of the table is correct if the statement is true? Angular velocity of Moon Speed of Moon A constant constant B constant increasing C increasing constant D increasing increasing"
+     "text": "10 A website states: “The radius of the orbit of the Moon around the Earth is increasing by a small amount each year, however the time period of the orbit remains constant.” Which row of the table is correct if the statement is true? Angular velocity of Moon Speed of Moon A constant constant B constant increasing C increasing constant D increasing increasing",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q11",
@@ -493,7 +565,7 @@
     {
      "label": "11",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -524,10 +596,14 @@
        }
       }
      ],
-     "text": "11 The diagram represents a negative point charge. Draw field lines to show the electric field around the charge."
+     "text": "11 The diagram represents a negative point charge. Draw field lines to show the electric field around the charge.",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "11: text after the marks"
+   ]
   },
   {
    "id": "WPH14_2022_01_q12",
@@ -569,10 +645,14 @@
        }
       }
      ],
-     "text": "12 A helicopter can hover in a fixed position as shown. helicopter blades (Source: Ascent Xmedia/Getty Images) The helicopter blades move air vertically downwards. Explain how this enables the helicopter to maintain a constant height above the ground."
+     "text": "12 A helicopter can hover in a fixed position as shown. helicopter blades (Source: Ascent Xmedia/Getty Images) The helicopter blades move air vertically downwards. Explain how this enables the helicopter to maintain a constant height above the ground.",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "12: text after the marks"
+   ]
   },
   {
    "id": "WPH14_2022_01_q13",
@@ -627,7 +707,8 @@
        }
       }
      ],
-     "text": "(a) (i) Show that the force of repulsion between the balloons in diagram 2 is about 1 × 10−3 N. mass of each balloon = 1.1 grams (4)"
+     "text": "(a) (i) Show that the force of repulsion between the balloons in diagram 2 is about 1 × 10−3 N. mass of each balloon = 1.1 grams (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(a)(ii)",
@@ -663,7 +744,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the charge on each balloon is about 2 × 10−7 C. (2)"
+     "text": "(ii) Show that the charge on each balloon is about 2 × 10−7 C. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)",
@@ -699,10 +781,11 @@
        }
       }
      ],
-     "text": "(b) One balloon is removed and the remaining balloon returns to its original position. Calculate the electric potential at a distance of 0.30 m from the centre of the remaining balloon. (2)"
+     "text": "(b) One balloon is removed and the remaining balloon returns to its original position. Calculate the electric potential at a distance of 0.30 m from the centre of the remaining balloon. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q14",
@@ -757,7 +840,8 @@
        }
       }
      ],
-     "text": "(a) Determine whether the initial value of current on the graph is consistent with the values stated on the circuit diagram. (2)"
+     "text": "(a) Determine whether the initial value of current on the graph is consistent with the values stated on the circuit diagram. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(b)",
@@ -793,7 +877,8 @@
        }
       }
      ],
-     "text": "(b) Explain how the current on ammeter A2 would vary over the same time interval. (2)"
+     "text": "(b) Explain how the current on ammeter A2 would vary over the same time interval. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(c)",
@@ -829,7 +914,8 @@
        }
       }
      ],
-     "text": "(c) Determine the capacitance of the capacitor. (3)"
+     "text": "(c) Determine the capacitance of the capacitor. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(d)",
@@ -865,7 +951,8 @@
        }
       }
      ],
-     "text": "(d) Determine the charge stored on the capacitor after 30 s. (2)"
+     "text": "(d) Determine the charge stored on the capacitor after 30 s. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(e)",
@@ -901,10 +988,11 @@
        }
       }
      ],
-     "text": "(e) Determine the maximum energy stored by the capacitor. (2)"
+     "text": "(e) Determine the maximum energy stored by the capacitor. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q15",
@@ -928,7 +1016,7 @@
     {
      "label": "15(a)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -959,7 +1047,8 @@
        }
       }
      ],
-     "text": "(a) The poi ball moves clockwise in a circle of radius r, centre O, with a constant speed v. The diagram shows two positions, A and B, of the poi ball. A B r O Derive the equation for centripetal acceleration a = v 2 by considering the velocity r of the poi ball at these two positions. Your answer should include a vector diagram. (5)"
+     "text": "(a) The poi ball moves clockwise in a circle of radius r, centre O, with a constant speed v. The diagram shows two positions, A and B, of the poi ball. A B r O Derive the equation for centripetal acceleration a = v 2 by considering the velocity r of the poi ball at these two positions. Your answer should include a vector diagram. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)",
@@ -995,7 +1084,8 @@
        }
       }
      ],
-     "text": "(b) The poi ball completes 1.3 revolutions per second. Calculate the acceleration of the poi ball. radius of circular motion = 0.58 m (3)"
+     "text": "(b) The poi ball completes 1.3 revolutions per second. Calculate the acceleration of the poi ball. radius of circular motion = 0.58 m (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "15(c)",
@@ -1043,10 +1133,11 @@
        }
       }
      ],
-     "text": "(c) The child comments that as the ball goes round the circle with a constant speed, the size of the force on his hand changes. Discuss whether this comment is correct. (4)"
+     "text": "(c) The child comments that as the ball goes round the circle with a constant speed, the size of the force on his hand changes. Discuss whether this comment is correct. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q16",
@@ -1101,7 +1192,8 @@
        }
       }
      ],
-     "text": "(a) Explain the process that enables a particle detector to detect charged particles. (2)"
+     "text": "(a) Explain the process that enables a particle detector to detect charged particles. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(b)(i)",
@@ -1137,7 +1229,8 @@
        }
       }
      ],
-     "text": "(b) (i) Describe the structure of a baryon and a meson. (2)"
+     "text": "(b) (i) Describe the structure of a baryon and a meson. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(b)(ii)",
@@ -1173,7 +1266,8 @@
        }
       }
      ],
-     "text": "(ii) A magnetic field acts in the detector. State the direction of the magnetic field. (1)"
+     "text": "(ii) A magnetic field acts in the detector. State the direction of the magnetic field. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(b)(iii)",
@@ -1209,7 +1303,8 @@
        }
       }
      ],
-     "text": "(iii) Deduce the charge and baryon number for the omega particle. (3)"
+     "text": "(iii) Deduce the charge and baryon number for the omega particle. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "16(c)",
@@ -1257,10 +1352,11 @@
        }
       }
      ],
-     "text": "*(c) The rest mass of the omega baryon is significantly larger than the rest mass of the proton. Discuss how energy and momentum are conserved during this collision. (6)"
+     "text": "*(c) The rest mass of the omega baryon is significantly larger than the rest mass of the proton. Discuss how energy and momentum are conserved during this collision. (6)",
+     "kindGuessed": "extended"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q17",
@@ -1315,7 +1411,8 @@
        }
       }
      ],
-     "text": "(a) The muon belongs to the same family of particles as the electron. State how the muon is classified in the standard model. (2)"
+     "text": "(a) The muon belongs to the same family of particles as the electron. State how the muon is classified in the standard model. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(b)",
@@ -1351,12 +1448,13 @@
        }
       }
      ],
-     "text": "(b) A muon (μ) can be produced by the decay shown in this nuclear equation. π− → μ− + ν− μ State the names of the two other particles involved. (2)"
+     "text": "(b) A muon (μ) can be produced by the decay shown in this nuclear equation. π− → μ− + ν− μ State the names of the two other particles involved. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(c)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1387,7 +1485,8 @@
        }
       }
      ],
-     "text": "(c) A website states: “The rest mass of a muon is 106 MeV / c2, which is a little over 200 times that of an electron.” Deduce whether this statement is correct. (3)"
+     "text": "(c) A website states: “The rest mass of a muon is 106 MeV / c2, which is a little over 200 times that of an electron.” Deduce whether this statement is correct. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(d)(i)",
@@ -1437,12 +1536,13 @@
        }
       }
      ],
-     "text": "(i) Explain why the unit GeV / c is a valid unit for momentum. (2)"
+     "text": "(i) Explain why the unit GeV / c is a valid unit for momentum. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(d)(ii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1487,7 +1587,8 @@
        }
       }
      ],
-     "text": "(ii) Deduce whether the website’s claim is correct. muon charge = −1.6 × 10−19 C 3.10 GeV/c = 1.65 × 10–18 N s (3)"
+     "text": "(ii) Deduce whether the website’s claim is correct. muon charge = −1.6 × 10−19 C 3.10 GeV/c = 1.65 × 10–18 N s (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(d)(iii)",
@@ -1537,10 +1638,11 @@
        }
       }
      ],
-     "text": "(iii) Stationary muons are unstable and have a mean lifetime of a few microseconds. Explain why muons in the ring are observed to have a much greater mean lifetime. (2)"
+     "text": "(iii) Stationary muons are unstable and have a mean lifetime of a few microseconds. Explain why muons in the ring are observed to have a much greater mean lifetime. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2022_01_q18",
@@ -1595,7 +1697,8 @@
        }
       }
      ],
-     "text": "(a) State the name of the term Nϕ and its unit. (2)"
+     "text": "(a) State the name of the term Nϕ and its unit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)",
@@ -1643,7 +1746,8 @@
        }
       }
      ],
-     "text": "(b) A coil of 500 turns and radius 3.0 mm is placed between two poles of an electromagnet as shown. The terminals are connected to an a.c. power supply. coil terminals The magnetic flux density B perpendicular to the plane of the coil varies with time t as shown below. 0.4 0.3 B / T 0.2 0.1 0 t / s 0 0.01 0.02 0.03 0.04 0.05 0.06 −0.1 −0.2 −0.3 −0.4 Determine the maximum e.m.f. across the coil. (6)"
+     "text": "(b) A coil of 500 turns and radius 3.0 mm is placed between two poles of an electromagnet as shown. The terminals are connected to an a.c. power supply. coil terminals The magnetic flux density B perpendicular to the plane of the coil varies with time t as shown below. 0.4 0.3 B / T 0.2 0.1 0 t / s 0 0.01 0.02 0.03 0.04 0.05 0.06 −0.1 −0.2 −0.3 −0.4 Determine the maximum e.m.f. across the coil. (6)",
+     "kindGuessed": "calc"
     },
     {
      "label": "18(c)",
@@ -1679,10 +1783,14 @@
        }
       }
      ],
-     "text": "(c) Some electric motor designs rely on electromagnetic induction. A laboratory demonstration of the principle of an induction motor is shown. An aluminium disc is free to rotate and is initially stationary. A powerful magnet is moved around the disc in the direction of the arrow, without touching the disc. aluminium disc magnet (Source: https://www.philipharris.co.uk/product/physics/electricity-and-electromagnetism/ magnetism/eddy-current-unit/b8h79908) A student suggests that the disc will start to rotate as the magnet is moved and that the disc will rotate in the same direction as the movement of the magnet. Discuss this suggestion. (6)"
+     "text": "(c) Some electric motor designs rely on electromagnetic induction. A laboratory demonstration of the principle of an induction motor is shown. An aluminium disc is free to rotate and is initially stationary. A powerful magnet is moved around the disc in the direction of the arrow, without touching the disc. aluminium disc magnet (Source: https://www.philipharris.co.uk/product/physics/electricity-and-electromagnetism/ magnetism/eddy-current-unit/b8h79908) A student suggests that the disc will start to rotate as the magnet is moved and that the disc will rotate in the same direction as the movement of the magnet. Discuss this suggestion. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "18(b): runs across pages"
+   ]
   }
  ]
 }

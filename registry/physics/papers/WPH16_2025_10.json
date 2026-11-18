@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) (i) Describe two techniques the student should use when timing these oscillations. (2)"
+     "text": "(a) (i) Describe two techniques the student should use when timing these oscillations. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(ii) Explain how using a video camera could improve the results. (2)"
+     "text": "(ii) Explain how using a video camera could improve the results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean time period T of the oscillations. (2)"
+     "text": "(i) Calculate the mean time period T of the oscillations. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)(ii)",
@@ -213,7 +216,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of T. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of T. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -249,10 +253,11 @@
        }
       }
      ],
-     "text": "(c) The student investigated how T varied with the mass of the trolley. She recorded the following data to draw a graph. Mass T / s 1.3 1.01 1.8 5.90 2.3 1.34 Criticise the recording of the data. (2)"
+     "text": "(c) The student investigated how T varied with the mass of the trolley. She recorded the following data to draw a graph. Mass T / s 1.3 1.01 1.8 5.90 2.3 1.34 Criticise the recording of the data. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2025_10_q2",
@@ -307,12 +312,13 @@
        }
       }
      ],
-     "text": "(a) The student placed the small coil inside the large coil and switched on the a.c. power supply. An e.m.f. was induced across the small coil. The induced e.m.f. was displayed on the oscilloscope screen, as shown below. one division The vertical scale was set to 5 mV per division. Determine the maximum e.m.f. induced across the small coil. (3)"
+     "text": "(a) The student placed the small coil inside the large coil and switched on the a.c. power supply. An e.m.f. was induced across the small coil. The induced e.m.f. was displayed on the oscilloscope screen, as shown below. one division The vertical scale was set to 5 mV per division. Determine the maximum e.m.f. induced across the small coil. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(i)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -357,12 +363,13 @@
        }
       }
      ],
-     "text": "(i) Complete the circuit diagram to show the circuit the student should use. (2) large coil a.c. power supply"
+     "text": "(i) Complete the circuit diagram to show the circuit the student should use. (2) large coil a.c. power supply",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(ii)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -407,10 +414,14 @@
        }
       }
      ],
-     "text": "(ii) Devise a method the student should use to determine a value for z. Your method should include the use of a suitable graph. (6)"
+     "text": "(ii) Devise a method the student should use to determine a value for z. Your method should include the use of a suitable graph. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "2(b)(i): text after the marks"
+   ]
   },
   {
    "id": "WPH16_2025_10_q3",
@@ -465,7 +476,8 @@
        }
       }
      ],
-     "text": "(a) Describe two safety precautions the student should take when using an electrolytic capacitor in a circuit. (2)"
+     "text": "(a) Describe two safety precautions the student should take when using an electrolytic capacitor in a circuit. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -515,7 +527,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of ln I against t could be used to determine a value for R. (2)"
+     "text": "(i) Explain how a graph of ln I against t could be used to determine a value for R. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -539,7 +552,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2025_10/q3_b_ii.webp",
+       "src": "physics/WPH16_2025_10/q3_b_ii_1.webp",
        "w": 1090,
        "h": 751,
        "region": {
@@ -548,6 +561,18 @@
         "y0": 57.2,
         "x1": 559.0,
         "y1": 417.5
+       }
+      },
+      {
+       "src": "physics/WPH16_2025_10/q3_b_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -565,7 +590,8 @@
        }
       }
      ],
-     "text": "(ii) The student moved the switch to position 2 and immediately started a stopwatch. She recorded I every 10 seconds. The student recorded the following results. t / s I / mA 10.00 0.237 20.00 0.165 30.00 0.105 40.00 0.066 50.00 0.043 60.00 0.028 Plot a graph of ln I against t on the grid opposite. Use the additional column to record your processed data. You should keep the values of I in mA. (5)"
+     "text": "(ii) The student moved the switch to position 2 and immediately started a stopwatch. She recorded I every 10 seconds. The student recorded the following results. t / s I / mA 10.00 0.237 20.00 0.165 30.00 0.105 40.00 0.066 50.00 0.043 60.00 0.028 Plot a graph of ln I against t on the grid opposite. Use the additional column to record your processed data. You should keep the values of I in mA. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(iii)",
@@ -589,7 +615,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2025_10/q3_b_iii_1.webp",
+       "src": "physics/WPH16_2025_10/q3_b_iii.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -598,18 +624,6 @@
         "y0": 420.0,
         "x1": 559.0,
         "y1": 455.5
-       }
-      },
-      {
-       "src": "physics/WPH16_2025_10/q3_b_iii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 11,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -627,7 +641,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of R using the graph. (4)"
+     "text": "(iii) Determine the value of R using the graph. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)",
@@ -663,10 +678,14 @@
        }
       }
      ],
-     "text": "(c) Explain how using a data logger instead of using an ammeter and stopwatch would improve the investigation. (2)"
+     "text": "(c) Explain how using a data logger instead of using an ammeter and stopwatch would improve the investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(ii): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2025_10_q4",
@@ -721,7 +740,8 @@
        }
       }
      ],
-     "text": "(a) Moving the bridge changes the amplitude of the vibration. There is a maximum amplitude when the bridge is a distance L from the wooden blocks. Describe an accurate method to determine the value of L. (4)"
+     "text": "(a) Moving the bridge changes the amplitude of the vibration. There is a maximum amplitude when the bridge is a distance L from the wooden blocks. Describe an accurate method to determine the value of L. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)",
@@ -757,7 +777,8 @@
        }
       }
      ],
-     "text": "(b) The student used a micrometer screw gauge to measure the diameter d of the wire. Explain one technique he should use to determine an accurate value for d. (2)"
+     "text": "(b) The student used a micrometer screw gauge to measure the diameter d of the wire. Explain one technique he should use to determine an accurate value for d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -819,7 +840,8 @@
        }
       }
      ],
-     "text": "–3. (i) Show that the value of ρ is about 8100 kg m M = 802 g d = 1.02 mm ± 0.02 mm f = 50.3 Hz L = 0.343 m ± 0.003 m (2)"
+     "text": "–3. (i) Show that the value of ρ is about 8100 kg m M = 802 g d = 1.02 mm ± 0.02 mm f = 50.3 Hz L = 0.343 m ± 0.003 m (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -869,7 +891,8 @@
        }
       }
      ],
-     "text": "(ii) The frequency meter had a resolution of 0.1 Hz. The uncertainty in the mass is negligible. Show that the percentage uncertainty in ρ is about 6%. (4)"
+     "text": "(ii) The frequency meter had a resolution of 0.1 Hz. The uncertainty in the mass is negligible. Show that the percentage uncertainty in ρ is about 6%. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iii)",
@@ -919,10 +942,15 @@
        }
       }
      ],
-     "text": "–3. (iii) A textbook states that stainless steel has a density of 7800 kg m Deduce whether the wire could be made from stainless steel. (2)"
+     "text": "–3. (iii) A textbook states that stainless steel has a density of 7800 kg m Deduce whether the wire could be made from stainless steel. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "4(c)(i): text doesn't start at its label",
+    "4(c)(iii): text doesn't start at its label"
+   ]
   }
  ]
 }

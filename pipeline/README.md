@@ -146,10 +146,32 @@ Verdicts and corrections are saved in `registry/<subject>/reviews/<id>.json` (`r
 generated registry files, and applied whenever those are written. Each verdict is tied to a fingerprint of the
 question's labels, marks, keys and crop regions: if re-segmenting changes the question, it comes back for review.
 
+## After changing the segmenter
+
+```sh
+pipeline/.venv/bin/python pipeline/recut.py            # which questions would change (nothing written)
+pipeline/.venv/bin/python pipeline/recut.py --write    # re-cut just those papers
+pipeline/.venv/bin/python pipeline/publish.py <ids…>   # the ids recut.py prints
+```
+
+Only the changed questions get new fingerprints, so every other review and AI reading stays valid. The changed
+ones go back to the AI reader (`ai_read.py todo` lists them); once it has read them with no concern,
+`ai_read.py carry` renews a person's earlier "looks right" (a reviewer may pass a known issue expecting the fix).
+
+## The AI reader: checks, kinds and topics
+
+`ai_read.py todo <paper>` prints the kind guide and the paper's topic tags, then the questions still to read:
+those not read as they are cut now, or not tagged yet. For each, `show` stitches the question and its mark
+scheme into one image, and `record` takes back kinds, concerns and topic tags (checked against the unit's tags:
+its own statements, earlier units for synoptic parts, and on WPH13/16 the practical-skill tags). Results go to
+`registry/<subject>/ai/<id>.json`; `reviews.apply` turns them into each part's `kind`, `topics` and
+`tagStatus: "suggested"`, with a person's correction always winning.
+
 ## Files
 
 - `registry/sources.json`: every PDF we read, with its URL and checksum.
-- `registry/<subject>/topics.json`: the spec turned into tags. Tags are spec point numbers.
+- `registry/<subject>/topics.json`: the spec turned into tags: content statement numbers ("106") and, for the
+  practical units, skill bullets ("3.5i").
 - `src/lib/papers/types.ts`: the registry format, shared by the pipeline and the site.
 
 ## What the papers look like (WPH14, June 2026)

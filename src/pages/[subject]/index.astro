@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import ToolCard from '../../components/ToolCard.svelte';
 import { SUBJECTS, type Subject } from '../../data/subjects';
 import { toolsFor, toolsForUnit } from '../../data/tools';
+import { papersFor } from '../../lib/papers/registry';
 
 export function getStaticPaths() {
   return SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
@@ -12,6 +13,7 @@ const { s } = Astro.props as { s: Subject };
 const tools = toolsFor(s.id);
 const covered = s.units.filter((u) => toolsForUnit(u.code).length).length;
 const codes = `${s.units[0].code}–${s.units.at(-1)!.code}`;
+const papers = papersFor(s.id).length;
 ---
 <Base
   title={s.name}
@@ -26,6 +28,7 @@ const codes = `${s.units[0].code}–${s.units.at(-1)!.code}`;
         <h2 id="tools-h"><span class="d">{s.name[0]}</span>{s.name.slice(1)} tools</h2>
         <p>{s.blurb}</p>
       </div>
+      {papers > 0 && <a class="btn primary" href={`/${s.id}/papers/`}>Past papers ({papers})</a>}
     </div>
     {tools.length ? (
       <div class="tools">

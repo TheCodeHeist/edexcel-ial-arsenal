@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Describe how the student was able to vary the temperature θ of the thermistor for this investigation. (2)"
+     "text": "(a) Describe how the student was able to vary the temperature θ of the thermistor for this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The photograph shows the steady reading of V on the voltmeter when the thermistor was at room temperature. (Source: PAL) Calculate the percentage uncertainty in the value of V shown. (2)"
+     "text": "(b) The photograph shows the steady reading of V on the voltmeter when the thermistor was at room temperature. (Source: PAL) Calculate the percentage uncertainty in the value of V shown. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) Estimate the value of V for a temperature of 0 °C. (2)"
+     "text": "(i) Estimate the value of V for a temperature of 0 °C. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(ii)",
@@ -213,7 +216,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the resistance of the thermistor at a temperature of 0 °C. (3)"
+     "text": "(ii) Calculate the resistance of the thermistor at a temperature of 0 °C. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(d)",
@@ -249,10 +253,11 @@
        }
       }
      ],
-     "text": "(d) The student suggested that V is inversely proportional to temperature measured in kelvin. Determine whether she is correct. (2)"
+     "text": "(d) The student suggested that V is inversely proportional to temperature measured in kelvin. Determine whether she is correct. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2021_10_q2",
@@ -307,7 +312,8 @@
        }
       }
      ],
-     "text": "(a) As d varied, the intensity of the microwaves detected by the receiver varied. Explain why. (3)"
+     "text": "(a) As d varied, the intensity of the microwaves detected by the receiver varied. Explain why. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -357,7 +363,8 @@
        }
       }
      ],
-     "text": "(i) Determine the wavelength of the microwaves being transmitted. (3)"
+     "text": "(i) Determine the wavelength of the microwaves being transmitted. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(ii)",
@@ -407,10 +414,11 @@
        }
       }
      ],
-     "text": "(ii) Calculate the frequency of the microwaves being transmitted. (2)"
+     "text": "(ii) Calculate the frequency of the microwaves being transmitted. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2021_10_q3",
@@ -465,7 +473,8 @@
        }
       }
      ],
-     "text": "(a) Describe a method to determine the maximum force the nylon fishing line can withstand before breaking. (4)"
+     "text": "(a) Describe a method to determine the maximum force the nylon fishing line can withstand before breaking. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -501,7 +510,8 @@
        }
       }
      ],
-     "text": "(b) Identify one safety issue with this investigation and how it may be dealt with. (2)"
+     "text": "(b) Identify one safety issue with this investigation and how it may be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)(i)",
@@ -551,12 +561,13 @@
        }
       }
      ],
-     "text": "(i) Calculate the percentage uncertainty in the mean diameter of the nylon fishing line. (3)"
+     "text": "(i) Calculate the percentage uncertainty in the mean diameter of the nylon fishing line. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(c)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -601,10 +612,11 @@
        }
       }
      ],
-     "text": "(ii) The student read an article that suggested nylon fishing line can absorb water. The article suggested that the ultimate tensile stress of nylon decreases by 10 % after absorbing water. She repeated her experiment, using new samples of fishing line before and after they absorbed water. Sample Maximum force / N Diameter / mm Before 65.8 0.45 After 57.8 0.46 Evaluate whether her results support the suggestion in the article. (5)"
+     "text": "(ii) The student read an article that suggested nylon fishing line can absorb water. The article suggested that the ultimate tensile stress of nylon decreases by 10 % after absorbing water. She repeated her experiment, using new samples of fishing line before and after they absorbed water. Sample Maximum force / N Diameter / mm Before 65.8 0.45 After 57.8 0.46 Evaluate whether her results support the suggestion in the article. (5)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2021_10_q4",
@@ -673,12 +685,13 @@
        }
       }
      ],
-     "text": "(i) Criticise these results. (2)"
+     "text": "(i) Criticise these results. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -735,7 +748,8 @@
        }
       }
      ],
-     "text": "(ii) Plot a graph of r on the y-axis and h on the x-axis. (5)"
+     "text": "(ii) Plot a graph of r on the y-axis and h on the x-axis. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -771,7 +785,8 @@
        }
       }
      ],
-     "text": "(b) (i) Show that the velocity u of the cube immediately before the collision is given by u = 2 gh (2)"
+     "text": "(b) (i) Show that the velocity u of the cube immediately before the collision is given by u = 2 gh (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -807,7 +822,8 @@
        }
       }
      ],
-     "text": "(ii) The coefficient of restitution e is given by the equation v e = u where v is the velocity of the cube immediately after the collision. Explain why the gradient of the graph is e2. (3)"
+     "text": "(ii) The coefficient of restitution e is given by the equation v e = u where v is the velocity of the cube immediately after the collision. Explain why the gradient of the graph is e2. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)",
@@ -855,7 +871,8 @@
        }
       }
      ],
-     "text": "(c) The student researched the range of values for the coefficients of restitution e of different metals. stainless steel 0.63 < e < 0.93 cast iron 0.3 < e < 0.6 Determine which of these metals the cube could be made from. (3)"
+     "text": "(c) The student researched the range of values for the coefficients of restitution e of different metals. stainless steel 0.63 < e < 0.93 cast iron 0.3 < e < 0.6 Determine which of these metals the cube could be made from. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
@@ -891,10 +908,14 @@
        }
       }
      ],
-     "text": "(d) Explain how friction between the cube and the surface of the ramp would affect the value obtained for e. (2)"
+     "text": "(d) Explain how friction between the cube and the surface of the ramp would affect the value obtained for e. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "4(a)(ii): runs across pages"
+   ],
+   "check": "human"
   }
  ]
 }

@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Student A placed the sphere on the track at the initial position. He released the sphere and it moved down the track. The sphere then travelled through the air to its final position in the sand tray. The surface of the sand was horizontal. He placed a metre rule on the ground as near to the sand tray as possible. He measured the horizontal distance x between the end of the track and the final position of the sphere. Describe a method to determine an accurate value for x. (3)"
+     "text": "(a) Student A placed the sphere on the track at the initial position. He released the sphere and it moved down the track. The sphere then travelled through the air to its final position in the sand tray. The surface of the sand was horizontal. He placed a metre rule on the ground as near to the sand tray as possible. He measured the horizontal distance x between the end of the track and the final position of the sphere. Describe a method to determine an accurate value for x. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
@@ -127,7 +128,8 @@
        }
       }
      ],
-     "text": "(i) Explain why the final position of the spheres varied for the repeated experiments. (2)"
+     "text": "(i) Explain why the final position of the spheres varied for the repeated experiments. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
@@ -177,10 +179,11 @@
        }
       }
      ],
-     "text": "(ii) Student A made the following statement. “My values of x are more precise than Student B’s values, so they are more accurate.” Explain whether student A’s statement is valid. (4)"
+     "text": "(ii) Student A made the following statement. “My values of x are more precise than Student B’s values, so they are more accurate.” Explain whether student A’s statement is valid. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_01_q2",
@@ -191,7 +194,7 @@
     {
      "label": "2",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -234,10 +237,15 @@
        }
       }
      ],
-     "text": "2 A student used the apparatus shown to investigate the rotational oscillations of a mass suspended from a wire. The wire remained vertical while the mass was rotating. Not to scale support wire L mass The student rotated the mass through a small angular displacement. She released the mass. The mass made rotational oscillations around the vertical wire. The student determined the time period T of the oscillations with a stopwatch. The student used a metre rule to measure the length L. For this investigation, the relationship between T and L is given by R L 2 T O 2π K 5 where R is the radius of the mass and K is a constant. Devise a method the student could use to determine a value for K. Your method should include the use of a suitable graph."
+     "text": "2 A student used the apparatus shown to investigate the rotational oscillations of a mass suspended from a wire. The wire remained vertical while the mass was rotating. Not to scale support wire L mass The student rotated the mass through a small angular displacement. She released the mass. The mass made rotational oscillations around the vertical wire. The student determined the time period T of the oscillations with a stopwatch. The student used a metre rule to measure the length L. For this investigation, the relationship between T and L is given by R L 2 T O 2π K 5 where R is the radius of the mass and K is a constant. Devise a method the student could use to determine a value for K. Your method should include the use of a suitable graph.",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "2: text after the marks",
+    "2: runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2026_01_q3",
@@ -306,7 +314,8 @@
        }
       }
      ],
-     "text": "(i) The horizontal scale was set to 200 ms per division. Determine the linear velocity of the cups. distance from axle to centre of cup = 18 cm (4)"
+     "text": "(i) The horizontal scale was set to 200 ms per division. Determine the linear velocity of the cups. distance from axle to centre of cup = 18 cm (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(a)(ii)",
@@ -356,7 +365,8 @@
        }
       }
      ],
-     "text": "(ii) The student changed the setting on the desk fan to increase the speed of the air flow. Describe how the output shown on the oscilloscope changes as the air flow past the cups increases. (2)"
+     "text": "(ii) The student changed the setting on the desk fan to increase the speed of the air flow. Describe how the output shown on the oscilloscope changes as the air flow past the cups increases. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -406,12 +416,13 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of log v against log B could be used to determine the values of p and z. (2)"
+     "text": "(i) Explain how a graph of log v against log B could be used to determine the values of p and z. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -468,7 +479,8 @@
        }
       }
      ],
-     "text": "(ii) The table shows values of mean wind speeds v and their Beaufort scale number B. v / m s −1 B 2.45 2 4.40 3 6.70 4 9.35 5 12.30 6 Plot a graph of log v against log B on the grid opposite. Use the additional columns in the table to record your processed data. (6)"
+     "text": "(ii) The table shows values of mean wind speeds v and their Beaufort scale number B. v / m s −1 B 2.45 2 4.40 3 6.70 4 9.35 5 12.30 6 Plot a graph of log v against log B on the grid opposite. Use the additional columns in the table to record your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(iii)",
@@ -518,7 +530,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of z from the graph. (3)"
+     "text": "(iii) Determine the value of z from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
@@ -580,7 +593,8 @@
        }
       }
      ],
-     "text": "(iv) Determine the value of p from the graph. (3)"
+     "text": "(iv) Determine the value of p from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(v)",
@@ -630,10 +644,14 @@
        }
       }
      ],
-     "text": "(v) When the Beaufort scale number is 10, weather conditions are defined as a storm. Determine the mean wind speed v for a storm. (2)"
+     "text": "(v) When the Beaufort scale number is 10, weather conditions are defined as a storm. Determine the mean wind speed v for a storm. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "3(b)(ii): runs across pages"
+   ],
+   "check": "human"
   },
   {
    "id": "WPH16_2026_01_q4",
@@ -688,7 +706,8 @@
        }
       }
      ],
-     "text": "(a) The student used a metre rule to measure h. Describe a technique he should use to determine an accurate value for h. (3)"
+     "text": "(a) The student used a metre rule to measure h. Describe a technique he should use to determine an accurate value for h. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -738,7 +757,8 @@
        }
       }
      ],
-     "text": "(i) Show that the density ρ of the metal is about 8.9 g cm −3. (4)"
+     "text": "(i) Show that the density ρ of the metal is about 8.9 g cm −3. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -788,7 +808,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in ρ is about 1% (4)"
+     "text": "(ii) Show that the percentage uncertainty in ρ is about 1% (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(iii)",
@@ -850,10 +871,14 @@
        }
       }
      ],
-     "text": "−3 (iii) In a textbook, it states that the density of brass is 8.53 g cm Deduce whether the cone could be made from brass. (2)"
+     "text": "−3 (iii) In a textbook, it states that the density of brass is 8.53 g cm Deduce whether the cone could be made from brass. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "risks": [
+    "4(b)(iii): text doesn't start at its label"
+   ],
+   "check": "human"
   }
  ]
 }

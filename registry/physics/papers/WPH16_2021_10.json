@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) (i) Identify two other control variables for this investigation. (2)"
+     "text": "(a) (i) Identify two other control variables for this investigation. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following data. I / A 1.5 2 2.5 3 ∆θ 3.5 7 9.5 15 Criticise the recording of this data. (3)"
+     "text": "(ii) The student recorded the following data. I / A 1.5 2 2.5 3 ∆θ 3.5 7 9.5 15 Criticise the recording of this data. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -149,10 +151,11 @@
        }
       }
      ],
-     "text": "(b) Explain one improvement the student could make to reduce the uncertainty in the measurement of ∆θ for each value of I. (2)"
+     "text": "(b) Explain one improvement the student could make to reduce the uncertainty in the measurement of ∆θ for each value of I. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2021_10_q2",
@@ -162,13 +165,13 @@
     {
      "src": "physics/WPH16_2021_10/q2_stem.webp",
      "w": 1090,
-     "h": 508,
+     "h": 515,
      "region": {
       "page": 4,
       "x0": 36.0,
       "y0": 57.0,
       "x1": 559.0,
-      "y1": 300.5
+      "y1": 303.7
      }
     }
    ],
@@ -207,7 +210,8 @@
        }
       }
      ],
-     "text": "(a) Determine the time period T for the whole oscillation when h = 0.25 m. l = 1.00 m (3)"
+     "text": "(a) Determine the time period T for the whole oscillation when h = 0.25 m. l = 1.00 m (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
@@ -243,7 +247,8 @@
        }
       }
      ],
-     "text": "(b) A student suggests that an approximate relationship between T and h is given by π 2 g (2l − h) 2 = T Devise a plan to test the validity of the relationship using a graphical method. Include the use of a stopwatch and any additional apparatus as required. (6)"
+     "text": "(b) A student suggests that an approximate relationship between T and h is given by π 2 g (2l − h) 2 = T Devise a plan to test the validity of the relationship using a graphical method. Include the use of a stopwatch and any additional apparatus as required. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -279,10 +284,11 @@
        }
       }
      ],
-     "text": "(c) Another student suggests determining T by setting up a light gate attached to a data logger. Discuss whether this modification would improve the investigation. (3)"
+     "text": "(c) Another student suggests determining T by setting up a light gate attached to a data logger. Discuss whether this modification would improve the investigation. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH16_2021_10_q3",
@@ -337,12 +343,13 @@
        }
       }
      ],
-     "text": "(a) Describe how the student should use the oscilloscope to identify the resonant frequency and determine its value. (4)"
+     "text": "(a) Describe how the student should use the oscilloscope to identify the resonant frequency and determine its value. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
      "marks": 6,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -361,7 +368,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2021_10/q3_b_i.webp",
+       "src": "physics/WPH16_2021_10/q3_b_i_1.webp",
        "w": 1090,
        "h": 104,
        "region": {
@@ -370,6 +377,18 @@
         "y0": 331.7,
         "x1": 559.0,
         "y1": 381.1
+       }
+      },
+      {
+       "src": "physics/WPH16_2021_10/q3_b_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -387,7 +406,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of log f against log V on the grid opposite. Use the additional columns in the table to record your processed data. (6)"
+     "text": "(i) Plot a graph of log f against log V on the grid opposite. Use the additional columns in the table to record your processed data. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -411,7 +431,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2021_10/q3_b_ii_1.webp",
+       "src": "physics/WPH16_2021_10/q3_b_ii.webp",
        "w": 1090,
        "h": 260,
        "region": {
@@ -420,18 +440,6 @@
         "y0": 383.7,
         "x1": 559.0,
         "y1": 508.0
-       }
-      },
-      {
-       "src": "physics/WPH16_2021_10/q3_b_ii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 9,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -449,10 +457,14 @@
        }
       }
      ],
-     "text": "(ii) It is suggested that the relationship between f and V is given by −1 f = kV 2 where k is a constant. Discuss whether the graph supports this suggestion. (5)"
+     "text": "(ii) It is suggested that the relationship between f and V is given by −1 f = kV 2 where k is a constant. Discuss whether the graph supports this suggestion. (5)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2021_10_q4",
@@ -507,7 +519,8 @@
        }
       }
      ],
-     "text": "(a) (i) Describe two techniques she should use when measuring p and q. (2)"
+     "text": "(a) (i) Describe two techniques she should use when measuring p and q. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -543,7 +556,8 @@
        }
       }
      ],
-     "text": "(ii) The difference between p and q was recorded as 26 mm ± 1 mm. Explain why the uncertainty in this value is given as 1 mm. (2)"
+     "text": "(ii) The difference between p and q was recorded as 26 mm ± 1 mm. Explain why the uncertainty in this value is given as 1 mm. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -593,7 +607,8 @@
        }
       }
      ],
-     "text": "(i) Explain the most appropriate instrument the student should use to measure d. (2)"
+     "text": "(i) Explain the most appropriate instrument the student should use to measure d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -643,7 +658,8 @@
        }
       }
      ],
-     "text": "(ii) Explain one technique that she should use to measure d. (2)"
+     "text": "(ii) Explain one technique that she should use to measure d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(iii)",
@@ -693,7 +709,8 @@
        }
       }
      ],
-     "text": "(iii) She recorded the following measurements. d / mm 2.35 2.37 2.34 2.35 2.33 Calculate the mean value of d in mm and its uncertainty. (2)"
+     "text": "(iii) She recorded the following measurements. d / mm 2.35 2.37 2.34 2.35 2.33 Calculate the mean value of d in mm and its uncertainty. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
@@ -729,12 +746,13 @@
        }
       }
      ],
-     "text": "(c) The shear modulus G is a measure of a material’s resistance to bending, and is given by mglx 32 2 G = π yd 4 where m is the mass attached to the end of the rod and y is the vertical deflection. l and x are the lengths as shown below. l Diagram not to scale d x steel rod Determine a value of G for steel in N m−2. m = 100 g with negligible uncertainty l = 58.9 cm ± 0.1 cm x = 10.3 cm ± 0.1 cm y = 26 mm ± 1 mm (2)"
+     "text": "(c) The shear modulus G is a measure of a material’s resistance to bending, and is given by mglx 32 2 G = π yd 4 where m is the mass attached to the end of the rod and y is the vertical deflection. l and x are the lengths as shown below. l Diagram not to scale d x steel rod Determine a value of G for steel in N m−2. m = 100 g with negligible uncertainty l = 58.9 cm ± 0.1 cm x = 10.3 cm ± 0.1 cm y = 26 mm ± 1 mm (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)",
      "marks": 4,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -777,10 +795,11 @@
        }
       }
      ],
-     "text": "(d) The table shows values of G for different types of steel. Type of steel Structural steel Carbon steel G / 109 N m−2 79.3 77.0 Deduce whether the data provided in part (c) would allow the student to determine the type of steel the rod was made from. (4)"
+     "text": "(d) The table shows values of G for different types of steel. Type of steel Structural steel Carbon steel G / 109 N m−2 79.3 77.0 Deduce whether the data provided in part (c) would allow the student to determine the type of steel the rod was made from. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

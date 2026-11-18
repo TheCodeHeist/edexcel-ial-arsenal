@@ -78,7 +78,8 @@
        }
       }
      ],
-     "text": "1 (a) Identify a health and safety issue with this method and how the issue may be dealt with. (2)"
+     "text": "1 (a) Identify a health and safety issue with this method and how the issue may be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(i)",
@@ -128,7 +129,8 @@
        }
       }
      ],
-     "text": "1 (b) (i) State the resolution of the force meter. (1)"
+     "text": "1 (b) (i) State the resolution of the force meter. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)(ii)",
@@ -178,7 +180,8 @@
        }
       }
      ],
-     "text": "1 (b) (ii) Determine the percentage uncertainty in the reading on the force meter. (2)"
+     "text": "1 (b) (ii) Determine the percentage uncertainty in the reading on the force meter. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(i)",
@@ -228,7 +231,8 @@
        }
       }
      ],
-     "text": "1 (c) (i) Criticise the data recorded by the student. (2)"
+     "text": "1 (c) (i) Criticise the data recorded by the student. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(ii)",
@@ -278,10 +282,11 @@
        }
       }
      ],
-     "text": "1 (c) (ii) Calculate the maximum breaking stress of the strip of rubber with w = 0.5 cm. thickness of the rubber sheet at breaking point = 1.0 mm maximum breaking force = 12 N (2)"
+     "text": "1 (c) (ii) Calculate the maximum breaking stress of the strip of rubber with w = 0.5 cm. thickness of the rubber sheet at breaking point = 1.0 mm maximum breaking force = 12 N (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_06_A_q2",
@@ -336,7 +341,8 @@
        }
       }
      ],
-     "text": "2 (a) Explain an improvement to the method used by the two students, using the same apparatus. (2)"
+     "text": "2 (a) Explain an improvement to the method used by the two students, using the same apparatus. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -386,7 +392,8 @@
        }
       }
      ],
-     "text": "2 (b) (i) Determine the mean value of t. (2)"
+     "text": "2 (b) (i) Determine the mean value of t. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(ii)",
@@ -436,7 +443,8 @@
        }
       }
      ],
-     "text": "2 (b) (ii) Determine the percentage uncertainty in the mean value of t. (2)"
+     "text": "2 (b) (ii) Determine the percentage uncertainty in the mean value of t. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(iii)",
@@ -486,10 +494,11 @@
        }
       }
      ],
-     "text": "2 (b) (iii) The students used a position sensor connected to a data logger to determine t. The data logger recorded values of position and time. Explain how using the sensor and data logger would improve this experiment. (2)"
+     "text": "2 (b) (iii) The students used a position sensor connected to a data logger to determine t. The data logger recorded values of position and time. Explain how using the sensor and data logger would improve this experiment. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_06_A_q3",
@@ -544,7 +553,8 @@
        }
       }
      ],
-     "text": "3 (a) Explain another technique the student should use when measuring d. (2)"
+     "text": "3 (a) Explain another technique the student should use when measuring d. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -606,7 +616,8 @@
        }
       }
      ],
-     "text": "3 (b) (i) Calculate the missing value in the table for R. Write your answer in the space provided in the Answer Book. (2)"
+     "text": "3 (b) (i) Calculate the missing value in the table for R. Write your answer in the space provided in the Answer Book. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(ii)",
@@ -668,7 +679,8 @@
        }
       }
      ],
-     "text": "3 (b) (ii) Show that the resistivity of the pencil lead with 80% graphite is about 1.5 × 10−3 Ω m. length of pencil lead = 120 mm mean diameter of pencil lead = 2.00 mm (3)"
+     "text": "3 (b) (ii) Show that the resistivity of the pencil lead with 80% graphite is about 1.5 × 10−3 Ω m. length of pencil lead = 120 mm mean diameter of pencil lead = 2.00 mm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -730,12 +742,13 @@
        }
       }
      ],
-     "text": "3 (b) (iii) The student used his results to plot a graph of ρ against % graphite as shown. 5.0 4.5 4.0 3.5 3.0 2.5 ρ / 10–3 Ω m 2.0 1.5 1.0 0.5 0 30 40 50 60 70 80 90 100 % graphite Estimate the resistivity of a pencil lead with 100% graphite by making additions to the graph in the Answer Book. (2)"
+     "text": "3 (b) (iii) The student used his results to plot a graph of ρ against % graphite as shown. 5.0 4.5 4.0 3.5 3.0 2.5 ρ / 10–3 Ω m 2.0 1.5 1.0 0.5 0 30 40 50 60 70 80 90 100 % graphite Estimate the resistivity of a pencil lead with 100% graphite by making additions to the graph in the Answer Book. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -792,7 +805,8 @@
        }
       }
      ],
-     "text": "3 (b) (iv) The student concluded that the resistivity of the pencil lead is inversely proportional to the % graphite. Assess the validity of the student’s conclusion. (3)"
+     "text": "3 (b) (iv) The student concluded that the resistivity of the pencil lead is inversely proportional to the % graphite. Assess the validity of the student’s conclusion. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -840,10 +854,11 @@
        }
       }
      ],
-     "text": "3 (c) The student noted that the potential difference across the pencil lead decreased as the resistance of the pencil lead decreased. Explain this trend. (3)"
+     "text": "3 (c) The student noted that the potential difference across the pencil lead decreased as the resistance of the pencil lead decreased. Explain this trend. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2026_06_A_q4",
@@ -898,7 +913,8 @@
        }
       }
      ],
-     "text": "4 (a) (i) Describe how the student made sure that the plastic tube was vertical. (1)"
+     "text": "4 (a) (i) Describe how the student made sure that the plastic tube was vertical. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -934,7 +950,8 @@
        }
       }
      ],
-     "text": "4 (a) (ii) The student pulled the string and this compressed the spring by a distance x. x hole string pulled down She released the string and the steel ball was launched into the air. The ball reached a maximum height h. Describe a method she could use to get an accurate value for h. (2)"
+     "text": "4 (a) (ii) The student pulled the string and this compressed the spring by a distance x. x hole string pulled down She released the string and the steel ball was launched into the air. The ball reached a maximum height h. Describe a method she could use to get an accurate value for h. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -984,7 +1001,8 @@
        }
       }
      ],
-     "text": "4 (b) (i) Explain how a graph of h against x2 can be used to determine the value of k. (2)"
+     "text": "4 (b) (i) Explain how a graph of h against x2 can be used to determine the value of k. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -1034,12 +1052,13 @@
        }
       }
      ],
-     "text": "4 (b) (ii) The student recorded the results as shown in the table in the Answer Book. Complete the additional column in the table in the Answer Book with corresponding values of x2 in units of cm2. (2)"
+     "text": "4 (b) (ii) The student recorded the results as shown in the table in the Answer Book. Complete the additional column in the table in the Answer Book with corresponding values of x2 in units of cm2. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(iii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1096,7 +1115,8 @@
        }
       }
      ],
-     "text": "4 (b) (iii) Plot a graph of h on the y-axis against x2 on the x-axis on the grid in the Answer Book. (5)"
+     "text": "4 (b) (iii) Plot a graph of h on the y-axis against x2 on the x-axis on the grid in the Answer Book. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(iv)",
@@ -1146,12 +1166,13 @@
        }
       }
      ],
-     "text": "4 (b) (iv) Determine a value for k from the graph. m = 0.015 kg (4)"
+     "text": "4 (b) (iv) Determine a value for k from the graph. m = 0.015 kg (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(v)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1196,10 +1217,11 @@
        }
       }
      ],
-     "text": "4 (b) (v) The student estimated that the value of k determined from the graph has a percentage uncertainty of 5%. The manufacturer’s value for the stiffness of the spring = 490 N m−1. Deduce whether the student’s value of k agrees with the manufacturer’s value. (2)"
+     "text": "4 (b) (v) The student estimated that the value of k determined from the graph has a percentage uncertainty of 5%. The manufacturer’s value for the stiffness of the spring = 490 N m−1. Deduce whether the student’s value of k agrees with the manufacturer’s value. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

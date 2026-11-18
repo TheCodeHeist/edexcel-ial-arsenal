@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) Suggest why one end of the tube is left open. (1)"
+     "text": "(a) Suggest why one end of the tube is left open. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The student suggested placing the apparatus in a beaker of boiling water and allowing the water to cool. Boiling water is a hazard. Explain one other reason why this method may be hazardous. (2)"
+     "text": "(b) The student suggested placing the apparatus in a beaker of boiling water and allowing the water to cool. Boiling water is a hazard. Explain one other reason why this method may be hazardous. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) State two techniques that should be used to ensure the measurement of θ is as accurate as possible. (2)"
+     "text": "(i) State two techniques that should be used to ensure the measurement of θ is as accurate as possible. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(ii)",
@@ -225,10 +228,14 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following measurements. θ / °C l / cm 19.0 16.0 35.0 16.9 49.0 17.7 The student predicted that a graph of l against θ could be used to estimate a value for θ at absolute zero as shown. l / cm θ at θ / °C absolute zero Discuss whether the student’s measurements would lead to an accurate value of θ at absolute zero. (3)"
+     "text": "(ii) The student recorded the following measurements. θ / °C l / cm 19.0 16.0 35.0 16.9 49.0 17.7 The student predicted that a graph of l against θ could be used to estimate a value for θ at absolute zero as shown. l / cm θ at θ / °C absolute zero Discuss whether the student’s measurements would lead to an accurate value of θ at absolute zero. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "1(c)(ii): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2022_01_q2",
@@ -252,7 +259,7 @@
     {
      "label": "2(a)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -283,7 +290,8 @@
        }
       }
      ],
-     "text": "(a) The student had a large number of copper tubes of different lengths x. He predicted that the magnet would fall with constant acceleration a inside the copper tubes. Devise a plan, using a graphical method, to test this prediction. (6)"
+     "text": "(a) The student had a large number of copper tubes of different lengths x. He predicted that the magnet would fall with constant acceleration a inside the copper tubes. Devise a plan, using a graphical method, to test this prediction. (6)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
@@ -319,10 +327,11 @@
        }
       }
      ],
-     "text": "(b) Explain a possible source of error in this investigation. (2)"
+     "text": "(b) Explain a possible source of error in this investigation. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2022_01_q3",
@@ -377,7 +386,8 @@
        }
       }
      ],
-     "text": "(a) State two precautions that should be taken when using this source. (2)"
+     "text": "(a) State two precautions that should be taken when using this source. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)",
@@ -413,7 +423,8 @@
        }
       }
      ],
-     "text": "(b) The radiation emitted from a radioactive source can be investigated using the apparatus shown. The Geiger-Muller (GM) tube detects beta radiation and gamma radiation. GM tube radioactive ratemeter source The ratemeter displays the count rate from all radiation detected by the GM tube. Explain why the background count rate should be measured. (2)"
+     "text": "(b) The radiation emitted from a radioactive source can be investigated using the apparatus shown. The Geiger-Muller (GM) tube detects beta radiation and gamma radiation. GM tube radioactive ratemeter source The ratemeter displays the count rate from all radiation detected by the GM tube. Explain why the background count rate should be measured. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -449,12 +460,13 @@
        }
       }
      ],
-     "text": "(c) The corrected count rate C varies over time t according to the relationship C = C0 e−λt where C0 is the initial count rate and λ is the decay constant. Explain how a graph of ln C against t can be used to determine a value for λ. (2)"
+     "text": "(c) The corrected count rate C varies over time t according to the relationship C = C0 e−λt where C0 is the initial count rate and λ is the decay constant. Explain how a graph of ln C against t can be used to determine a value for λ. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)(i)",
      "marks": 5,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -473,7 +485,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2022_01/q3_d_i.webp",
+       "src": "physics/WPH16_2022_01/q3_d_i_1.webp",
        "w": 1090,
        "h": 104,
        "region": {
@@ -482,6 +494,18 @@
         "y0": 348.5,
         "x1": 559.0,
         "y1": 397.9
+       }
+      },
+      {
+       "src": "physics/WPH16_2022_01/q3_d_i_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -499,7 +523,8 @@
        }
       }
      ],
-     "text": "(i) Plot a graph of ln C against t on the grid opposite. Use the additional column in the table to record your processed data. (5)"
+     "text": "(i) Plot a graph of ln C against t on the grid opposite. Use the additional column in the table to record your processed data. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(d)(ii)",
@@ -549,12 +574,13 @@
        }
       }
      ],
-     "text": "(ii) Isotope X has a half-life of approximately 30 minutes. Determine a value of λ, in hours−1, for isotope Y. (3)"
+     "text": "(ii) Isotope X has a half-life of approximately 30 minutes. Determine a value of λ, in hours−1, for isotope Y. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(d)(iii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -573,7 +599,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2022_01/q3_d_iii_1.webp",
+       "src": "physics/WPH16_2022_01/q3_d_iii.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -582,18 +608,6 @@
         "y0": 604.1,
         "x1": 559.0,
         "y1": 639.5
-       }
-      },
-      {
-       "src": "physics/WPH16_2022_01/q3_d_iii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 11,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -611,10 +625,14 @@
        }
       }
      ],
-     "text": "(iii) Hence determine the half-life t½ for isotope Y. (2)"
+     "text": "(iii) Hence determine the half-life t½ for isotope Y. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(d)(i): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2022_01_q4",
@@ -669,7 +687,8 @@
        }
       }
      ],
-     "text": "(a) (i) The student measured the height h1 of the start line from the bench using a metre rule. State two precautions she should take to ensure the measurement is as accurate as possible. (2)"
+     "text": "(a) (i) The student measured the height h1 of the start line from the bench using a metre rule. State two precautions she should take to ensure the measurement is as accurate as possible. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -705,7 +724,8 @@
        }
       }
      ],
-     "text": "(ii) The student measured the height h2 of the finish line. She recorded the difference in height Δh between the start line and finish line as 65 mm ± 1 mm. Explain why the uncertainty in Δh is 1 mm. (2)"
+     "text": "(ii) The student measured the height h2 of the finish line. She recorded the difference in height Δh between the start line and finish line as 65 mm ± 1 mm. Explain why the uncertainty in Δh is 1 mm. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -755,7 +775,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean value of t and its uncertainty. (2)"
+     "text": "(i) Calculate the mean value of t and its uncertainty. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(ii)",
@@ -805,7 +826,8 @@
        }
       }
      ],
-     "text": "(ii) The student made the ramp less steep by reducing the value of h1. Explain how this might improve the measurement of t. (2)"
+     "text": "(ii) The student made the ramp less steep by reducing the value of h1. Explain how this might improve the measurement of t. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)",
@@ -841,7 +863,8 @@
        }
       }
      ],
-     "text": "(c) Two students each carried out this procedure for another value of Δh. They recorded the following times for the same value of Δh. Student t / s Mean t / s A 2.45 2.50 2.38 2.41 2.44 B 2.48 2.45 2.43 2.40 2.44 Compare the accuracy and precision of the data that each student collected. (4)"
+     "text": "(c) Two students each carried out this procedure for another value of Δh. They recorded the following times for the same value of Δh. Student t / s Mean t / s A 2.45 2.50 2.38 2.41 2.44 B 2.48 2.45 2.43 2.40 2.44 Compare the accuracy and precision of the data that each student collected. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(d)(i)",
@@ -891,7 +914,8 @@
        }
       }
      ],
-     "text": "(i) Determine a value for g. (2)"
+     "text": "(i) Determine a value for g. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)(ii)",
@@ -941,12 +965,13 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the value of g. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the value of g. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(d)(iii)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -991,10 +1016,11 @@
        }
       }
      ],
-     "text": "(iii) Deduce whether the value of g is accurate. (2)"
+     "text": "(iii) Deduce whether the value of g is accurate. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

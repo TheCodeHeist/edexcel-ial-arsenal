@@ -65,10 +65,12 @@
        }
       }
      ],
-     "text": "1 Which of the following is an SI base unit? A ampere B coulomb C joule D tesla"
+     "text": "1 Which of the following is an SI base unit? A ampere B coulomb C joule D tesla",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q2",
@@ -111,16 +113,31 @@
        }
       }
      ],
-     "text": "2 A moving particle, P, decays. After the decay there are two particles, particle Q and particle R. The diagram shows the momentum of particle Q and the momentum of particle R. R Q Which of the following is a correct vector diagram showing the momentum of particle P before the decay? R R Q P Q P A B Q P P Q R R C D A B C D"
+     "text": "2 A moving particle, P, decays. After the decay there are two particles, particle Q and particle R. The diagram shows the momentum of particle Q and the momentum of particle R. R Q Which of the following is a correct vector diagram showing the momentum of particle P before the decay? R R Q P Q P A B Q P P Q R R C D A B C D",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q3",
    "number": 3,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2024_06/q3_lead.webp",
+     "w": 1090,
+     "h": 282,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 191.7
+     }
+    }
+   ],
    "parts": [
     {
      "label": "3",
@@ -157,16 +174,31 @@
        }
       }
      ],
-     "text": "3 Which diagram shows the direction of the force on the wire due to the magnetic field? A B C D"
+     "text": "3 Which diagram shows the direction of the force on the wire due to the magnetic field? A B C D",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2024_06_q4",
    "number": 4,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2024_06/q4_lead.webp",
+     "w": 1090,
+     "h": 282,
+     "region": {
+      "page": 3,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 191.7
+     }
+    }
+   ],
    "parts": [
     {
      "label": "4",
@@ -203,10 +235,12 @@
        }
       }
      ],
-     "text": "4 When the magnetic flux density is 0.024 T, the force on the wire is 4.8 × 10 –4 N. The length of wire in the field is 0.010 m. Which of the following gives the current, in amps, in the wire? A 4.8 × 10 –4 × 0.010 × 0.024 0 024 . B 3 4 0 010 . 4 8 . 10 3 4 4 8 . 10 C 0 010 . 0 024 . D 0 024 . 0 010 . 3 4 4 8 . 10"
+     "text": "4 When the magnetic flux density is 0.024 T, the force on the wire is 4.8 × 10 –4 N. The length of wire in the field is 0.010 m. Which of the following gives the current, in amps, in the wire? A 4.8 × 10 –4 × 0.010 × 0.024 0 024 . B 3 4 0 010 . 4 8 . 10 3 4 4 8 . 10 C 0 010 . 0 024 . D 0 024 . 0 010 . 3 4 4 8 . 10",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2024_06_q5",
@@ -249,10 +283,12 @@
        }
       }
      ],
-     "text": "5 Cyclotrons use electric fields and magnetic fields to give particles very high energy. Which of the following statements is true for charged particles in cyclotrons? A The particles are accelerated by electric fields and magnetic fields. B The particles follow circular paths of constant radius. C \u0007The electric field changes direction when the particles are in the gap between the dees. D \u0007The magnetic field changes direction when the particles are in the gap between the dees."
+     "text": "5 Cyclotrons use electric fields and magnetic fields to give particles very high energy. Which of the following statements is true for charged particles in cyclotrons? A The particles are accelerated by electric fields and magnetic fields. B The particles follow circular paths of constant radius. C \u0007The electric field changes direction when the particles are in the gap between the dees. D \u0007The magnetic field changes direction when the particles are in the gap between the dees.",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q6",
@@ -295,10 +331,12 @@
        }
       }
      ],
-     "text": "6 A capacitor of capacitance C is charged to a potential difference of V0. The capacitor then discharges through a resistor of resistance R. After time t the potential difference across the capacitor is V. Which of the following gives the time constant for this circuit? t 3 A . / V 3 V ln 0 3 t B ln V 1 ln V 0 3 t C \u001b ln V \u0019\u0019 V ln \u001a 0 3 t D \u001b V ln \u0019\u0019 V \u001a 0"
+     "text": "6 A capacitor of capacitance C is charged to a potential difference of V0. The capacitor then discharges through a resistor of resistance R. After time t the potential difference across the capacitor is V. Which of the following gives the time constant for this circuit? t 3 A . / V 3 V ln 0 3 t B ln V 1 ln V 0 3 t C \u001b ln V \u0019\u0019 V ln \u001a 0 3 t D \u001b V ln \u0019\u0019 V \u001a 0",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q7",
@@ -341,10 +379,12 @@
        }
       }
      ],
-     "text": "7 In the early 1900s, scientists carried out alpha particle scattering experiments. Which of the following statements is not a valid conclusion from their observations? A Most of the atom is empty space. B The nucleus is made of neutrons and protons. C There is a concentration of charge in the atom. D There is a concentration of mass in the atom."
+     "text": "7 In the early 1900s, scientists carried out alpha particle scattering experiments. Which of the following statements is not a valid conclusion from their observations? A Most of the atom is empty space. B The nucleus is made of neutrons and protons. C There is a concentration of charge in the atom. D There is a concentration of mass in the atom.",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q8",
@@ -387,16 +427,31 @@
        }
       }
      ],
-     "text": "8 A ball collides with a wall and moves off in the opposite direction. The wall exerts a force on the ball during the collision. The force-time graph for the collision is shown. Force Time Which of the following is given by the area under the graph? A acceleration of the ball B average force acting on the ball C change in momentum of the ball D distance travelled by the ball"
+     "text": "8 A ball collides with a wall and moves off in the opposite direction. The wall exerts a force on the ball during the collision. The force-time graph for the collision is shown. Force Time Which of the following is given by the area under the graph? A acceleration of the ball B average force acting on the ball C change in momentum of the ball D distance travelled by the ball",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q9",
    "number": 9,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2024_06/q9_lead.webp",
+     "w": 1090,
+     "h": 170,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 138.2
+     }
+    }
+   ],
    "parts": [
     {
      "label": "9",
@@ -433,16 +488,31 @@
        }
       }
      ],
-     "text": "9 The path of the proton then decreases in radius. Which of the following is a reason why the radius decreases? A The kinetic energy of the particle decreases. B The magnetic flux density decreases. C The mass of the proton increases. D The momentum of the proton increases."
+     "text": "9 The path of the proton then decreases in radius. Which of the following is a reason why the radius decreases? A The kinetic energy of the particle decreases. B The magnetic flux density decreases. C The mass of the proton increases. D The momentum of the proton increases.",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2024_06_q10",
    "number": 10,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH14_2024_06/q10_lead.webp",
+     "w": 1090,
+     "h": 170,
+     "region": {
+      "page": 6,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 138.2
+     }
+    }
+   ],
    "parts": [
     {
      "label": "10",
@@ -455,13 +525,13 @@
       {
        "src": "physics/WPH14_2024_06/q10.webp",
        "w": 1090,
-       "h": 432,
+       "h": 440,
        "region": {
         "page": 6,
         "x0": 36.0,
         "y0": 320.9,
         "x1": 559.0,
-        "y1": 527.9
+        "y1": 531.8
        }
       }
      ],
@@ -479,10 +549,12 @@
        }
       }
      ],
-     "text": "10 An alpha particle also moving in a straight line with the same speed v enters the same magnetic field. The alpha particle follows a circular path in the magnetic field. Which of the following is the initial radius of the path? A 4r B 2r C r 2 D r 4"
+     "text": "10 An alpha particle also moving in a straight line with the same speed v enters the same magnetic field. The alpha particle follows a circular path in the magnetic field. Which of the following is the initial radius of the path? A 4r B 2r C r 2 D r 4",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH14_2024_06_q11",
@@ -537,7 +609,8 @@
        }
       }
      ],
-     "text": "(a) Complete the equation for this process. (2) 9 4Be →"
+     "text": "(a) Complete the equation for this process. (2) 9 4Be →",
+     "kindGuessed": "short"
     },
     {
      "label": "11(b)",
@@ -573,10 +646,14 @@
        }
       }
      ],
-     "text": "(b) A book about the Chadwick experiment includes the following statement: “Chadwick’s experiment established that the neutron was a new fundamental particle and not an electron and proton joined together as suggested by Rutherford.” Criticise this statement with reference to the structure of the neutron. (2)"
+     "text": "(b) A book about the Chadwick experiment includes the following statement: “Chadwick’s experiment established that the neutron was a new fundamental particle and not an electron and proton joined together as suggested by Rutherford.” Criticise this statement with reference to the structure of the neutron. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "11(a): text after the marks"
+   ]
   },
   {
    "id": "WPH14_2024_06_q12",
@@ -600,7 +677,7 @@
     {
      "label": "12(a)",
      "marks": 1,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -631,7 +708,8 @@
        }
       }
      ],
-     "text": "(a) Add to the diagram to show a suitable circuit for measuring the current as the capacitor charged. (1)"
+     "text": "(a) Add to the diagram to show a suitable circuit for measuring the current as the capacitor charged. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "12(b)(i)",
@@ -681,7 +759,8 @@
        }
       }
      ],
-     "text": "(i) The resistance of the resistor is 5.1 kΩ. Show that the capacitance of the capacitor is about 0.02 F. (3)"
+     "text": "(i) The resistance of the resistor is 5.1 kΩ. Show that the capacitance of the capacitor is about 0.02 F. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "12(b)(ii)",
@@ -731,7 +810,8 @@
        }
       }
      ],
-     "text": "(ii) Calculate the charge on the capacitor when it is fully charged. (3)"
+     "text": "(ii) Calculate the charge on the capacitor when it is fully charged. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "12(b)(iii)",
@@ -781,10 +861,11 @@
        }
       }
      ],
-     "text": "(iii) Calculate the energy stored by the capacitor when it is fully charged. (2)"
+     "text": "(iii) Calculate the energy stored by the capacitor when it is fully charged. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q13",
@@ -839,7 +920,8 @@
        }
       }
      ],
-     "text": "(a) The student determined the maximum frictional force between the coin and the disk by tilting the disk, as shown. coin plastic disk Not to scale 6.3 cm The edge was raised by 6.3 cm before the coin started to slide. Show that the maximum frictional force was about 0.02 N. (4)"
+     "text": "(a) The student determined the maximum frictional force between the coin and the disk by tilting the disk, as shown. coin plastic disk Not to scale 6.3 cm The edge was raised by 6.3 cm before the coin started to slide. Show that the maximum frictional force was about 0.02 N. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)(i)",
@@ -889,12 +971,13 @@
        }
       }
      ],
-     "text": "(i) Calculate the angular velocity of the disk. (2)"
+     "text": "(i) Calculate the angular velocity of the disk. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)(ii)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -939,10 +1022,11 @@
        }
       }
      ],
-     "text": "(ii) When the student placed the coin near the centre of the disk, the coin remained in position and rotated with the disk. When the student placed the coin at the edge of the disk, the coin slid off the rotating disk. The student estimated that the closest the coin could be to the edge of the disk without sliding off was about 5 cm. Deduce whether this was a suitable estimate. You should assume that the maximum frictional force is 0.02 N. (3)"
+     "text": "(ii) When the student placed the coin near the centre of the disk, the coin remained in position and rotated with the disk. When the student placed the coin at the edge of the disk, the coin slid off the rotating disk. The student estimated that the closest the coin could be to the edge of the disk without sliding off was about 5 cm. Deduce whether this was a suitable estimate. You should assume that the maximum frictional force is 0.02 N. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q14",
@@ -997,7 +1081,8 @@
        }
       }
      ],
-     "text": "(a) State the quark structure of baryons and of mesons. (2)"
+     "text": "(a) State the quark structure of baryons and of mesons. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(i)",
@@ -1047,7 +1132,8 @@
        }
       }
      ],
-     "text": "(i) One type of leptoquark has charge +5e/3 Determine the baryon number and the lepton number for this leptoquark. Include the suggested quark and lepton in your working. (5)"
+     "text": "(i) One type of leptoquark has charge +5e/3 Determine the baryon number and the lepton number for this leptoquark. Include the suggested quark and lepton in your working. (5)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(b)(ii)",
@@ -1097,7 +1183,8 @@
        }
       }
      ],
-     "text": "(ii) Scientists search for new particles using high energy particle collisions. The highest energy particle collisions involve colliding protons moving in opposite directions, each with energy 6800 GeV. It is estimated that 11% of the total energy of a collision could be converted to the mass of a new particle. Show that the maximum mass of a particle that can be produced is about –24 kg. 3 × 10 (3)"
+     "text": "(ii) Scientists search for new particles using high energy particle collisions. The highest energy particle collisions involve colliding protons moving in opposite directions, each with energy 6800 GeV. It is estimated that 11% of the total energy of a collision could be converted to the mass of a new particle. Show that the maximum mass of a particle that can be produced is about –24 kg. 3 × 10 (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(b)(iii)",
@@ -1147,10 +1234,11 @@
        }
       }
      ],
-     "text": "(iii) Leptoquarks have not yet been observed. Suggest why leptoquarks have not yet been observed. (1)"
+     "text": "(iii) Leptoquarks have not yet been observed. Suggest why leptoquarks have not yet been observed. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q15",
@@ -1205,12 +1293,13 @@
        }
       }
      ],
-     "text": "(a) Explain how using the air table ensured that momentum was conserved in collisions between the pucks. (2)"
+     "text": "(a) Explain how using the air table ensured that momentum was conserved in collisions between the pucks. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)(i)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1255,12 +1344,13 @@
        }
       }
      ],
-     "text": "(i) Deduce whether the angle between the paths of the pucks after the collision was 90°. You should use the principle of conservation of momentum. (5)"
+     "text": "(i) Deduce whether the angle between the paths of the pucks after the collision was 90°. You should use the principle of conservation of momentum. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)(ii)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1305,10 +1395,11 @@
        }
       }
      ],
-     "text": "(ii) Deduce whether the collision was elastic. mass of each puck = 0.110 kg (5)"
+     "text": "(ii) Deduce whether the collision was elastic. mass of each puck = 0.110 kg (5)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q16",
@@ -1363,7 +1454,8 @@
        }
       }
      ],
-     "text": "(a) The high energy electrons produced will have energy 60 GeV. Show that these electrons will be travelling at relativistic speeds. (3)"
+     "text": "(a) The high energy electrons produced will have energy 60 GeV. Show that these electrons will be travelling at relativistic speeds. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(b)",
@@ -1399,7 +1491,8 @@
        }
       }
      ],
-     "text": "*(b) The diagram shows the start section of a linac and the end section of a linac. electron a.c. supply path drift tube start section electron source end section Explain how a linac produces high energy electrons. You should refer to the a.c. supply and to the length of the drift tubes in each section. (6)"
+     "text": "*(b) The diagram shows the start section of a linac and the end section of a linac. electron a.c. supply path drift tube start section electron source end section Explain how a linac produces high energy electrons. You should refer to the a.c. supply and to the length of the drift tubes in each section. (6)",
+     "kindGuessed": "extended"
     },
     {
      "label": "16(c)",
@@ -1435,10 +1528,11 @@
        }
       }
      ],
-     "text": "(c) Explain why high energies are required to investigate the structure of protons. (3)"
+     "text": "(c) Explain why high energies are required to investigate the structure of protons. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q17",
@@ -1462,7 +1556,7 @@
     {
      "label": "17(a)(i)",
      "marks": 3,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1507,12 +1601,13 @@
        }
       }
      ],
-     "text": "(i) Add dashed lines to the electric field diagram to show equipotentials at intervals of equal potential difference. (3)"
+     "text": "(i) Add dashed lines to the electric field diagram to show equipotentials at intervals of equal potential difference. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(a)(ii)",
      "marks": 1,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -1557,7 +1652,8 @@
        }
       }
      ],
-     "text": "(ii) Label the equipotential that represents 0 V. (1)"
+     "text": "(ii) Label the equipotential that represents 0 V. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(b)(i)",
@@ -1607,7 +1703,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the minimum energy, in joules, required for an electron leaving the surface of the spacecraft to reach the surface of the satellite. Assume that the charge on each object does not affect the potential at the surface of the other object. radius of satellite = 2.5 m radius of spacecraft = 2.5 m (3)"
+     "text": "(i) Calculate the minimum energy, in joules, required for an electron leaving the surface of the spacecraft to reach the surface of the satellite. Assume that the charge on each object does not affect the potential at the surface of the other object. radius of satellite = 2.5 m radius of spacecraft = 2.5 m (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(b)(ii)",
@@ -1657,7 +1754,8 @@
        }
       }
      ],
-     "text": "(ii) The spacecraft moves to a new position, taking the satellite with it. The distance between the satellite and the spacecraft remains constant, so the electrostatic force is constant. The scientists estimate that the satellite could be moved a distance of 300 km in about 60 days. Deduce whether this estimate is correct. Assume gravitational forces are negligible and the satellite is initially at rest. distance between centre of satellite and centre of spacecraft = 20 m mass of satellite = 2500 kg (4)"
+     "text": "(ii) The spacecraft moves to a new position, taking the satellite with it. The distance between the satellite and the spacecraft remains constant, so the electrostatic force is constant. The scientists estimate that the satellite could be moved a distance of 300 km in about 60 days. Deduce whether this estimate is correct. Assume gravitational forces are negligible and the satellite is initially at rest. distance between centre of satellite and centre of spacecraft = 20 m mass of satellite = 2500 kg (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(c)",
@@ -1693,10 +1791,11 @@
        }
       }
      ],
-     "text": "(c) In reality, the magnitude of the positive charge on the spacecraft may be greater than the magnitude of the negative charge on the satellite. Suggest why. (1)"
+     "text": "(c) In reality, the magnitude of the positive charge on the spacecraft may be greater than the magnitude of the negative charge on the satellite. Suggest why. (1)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH14_2024_06_q18",
@@ -1751,7 +1850,8 @@
        }
       }
      ],
-     "text": "(a) Explain how a p.d. is produced across the secondary coil when the switch is opened. (3)"
+     "text": "(a) Explain how a p.d. is produced across the secondary coil when the switch is opened. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)",
@@ -1787,7 +1887,8 @@
        }
       }
      ],
-     "text": "(b) The distance across the gap in the spark plug is 0.75 mm. Calculate the electric field strength in the gap when the switch is opened. Assume the electric field in the gap is uniform. maximum magnetic flux density = 0.34 T number of turns on secondary coil = 30 000 diameter of secondary coil = 16 mm –5 s time for primary current to fall to zero = 2.0 × 10 (5)"
+     "text": "(b) The distance across the gap in the spark plug is 0.75 mm. Calculate the electric field strength in the gap when the switch is opened. Assume the electric field in the gap is uniform. maximum magnetic flux density = 0.34 T number of turns on secondary coil = 30 000 diameter of secondary coil = 16 mm –5 s time for primary current to fall to zero = 2.0 × 10 (5)",
+     "kindGuessed": "calc"
     },
     {
      "label": "18(c)",
@@ -1823,10 +1924,11 @@
        }
       }
      ],
-     "text": "(c) When the switch in the circuit is closed, the current increases to a maximum value, as shown. Current Time Explain why the current does not increase to its maximum value instantaneously. You should refer to Lenz’s law. (3)"
+     "text": "(c) When the switch in the circuit is closed, the current increases to a maximum value, as shown. Current Time Explain why the current does not increase to its maximum value instantaneously. You should refer to Lenz’s law. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

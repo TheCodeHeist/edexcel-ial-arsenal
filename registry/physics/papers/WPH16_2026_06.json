@@ -91,7 +91,8 @@
        }
       }
      ],
-     "text": "(i) State the resolution of this measuring cylinder. (1)"
+     "text": "(i) State the resolution of this measuring cylinder. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(a)(ii)",
@@ -141,7 +142,8 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the measured volume of the water. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the measured volume of the water. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(b)",
@@ -189,7 +191,8 @@
        }
       }
      ],
-     "text": "(b) The student used the apparatus shown. Not to scale loudspeaker stand oscilloscope plastic signal generator bottle 00100 air microphone The student switched on the signal generator so that the loudspeaker made a quiet sound. The microphone detected the sound wave inside the plastic bottle. The student adjusted the signal generator to vary the frequency of the sound. As the frequency varied, the amplitude of the signal produced by the microphone increased. The amplitude reached a maximum value at a particular frequency, as shown on the oscilloscope screen. oscilloscope screen signal one division The horizontal scale was set to 2.0 ms per division. Show that the frequency of the signal is about 200 Hz. (4)"
+     "text": "(b) The student used the apparatus shown. Not to scale loudspeaker stand oscilloscope plastic signal generator bottle 00100 air microphone The student switched on the signal generator so that the loudspeaker made a quiet sound. The microphone detected the sound wave inside the plastic bottle. The student adjusted the signal generator to vary the frequency of the sound. As the frequency varied, the amplitude of the signal produced by the microphone increased. The amplitude reached a maximum value at a particular frequency, as shown on the oscilloscope screen. oscilloscope screen signal one division The horizontal scale was set to 2.0 ms per division. Show that the frequency of the signal is about 200 Hz. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)",
@@ -225,10 +228,14 @@
        }
       }
      ],
-     "text": "(c) The student changed the volume V of air in the bottle by adding water to the bottle. The student adjusted the signal generator until the signal from the microphone had a maximum amplitude. She determined the frequency f of the signal. The student determined f at different values of V and recorded the following results. V / cm3 f / Hz 425 260 375 277 330 296 The relationship between f and V is f = kV −0.5 where k is a constant. The student plotted a graph of f against V −0.5 and used the gradient to determine a value for k. Explain why the student’s results may not give an accurate value for k. (4)"
+     "text": "(c) The student changed the volume V of air in the bottle by adding water to the bottle. The student adjusted the signal generator until the signal from the microphone had a maximum amplitude. She determined the frequency f of the signal. The student determined f at different values of V and recorded the following results. V / cm3 f / Hz 425 260 375 277 330 296 The relationship between f and V is f = kV −0.5 where k is a constant. The student plotted a graph of f against V −0.5 and used the gradient to determine a value for k. Explain why the student’s results may not give an accurate value for k. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "1(b): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2026_06_q2",
@@ -283,12 +290,13 @@
        }
       }
      ],
-     "text": "(a) Describe two safety precautions the student should take when using a beta source. (2)"
+     "text": "(a) Describe two safety precautions the student should take when using a beta source. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -319,10 +327,11 @@
        }
       }
      ],
-     "text": "(b) The student predicted that the count rate C would vary with d as a C = 2 d where a is a constant. Devise a plan the student could use to test his prediction. You should include the use of a suitable graph. (6)"
+     "text": "(b) The student predicted that the count rate C would vary with d as a C = 2 d where a is a constant. Devise a plan the student could use to test his prediction. You should include the use of a suitable graph. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH16_2026_06_q3",
@@ -377,7 +386,8 @@
        }
       }
      ],
-     "text": "(a) The student filled the glass tube with more than 50 cm3 of glycerol. The student then opened the tap. She started a stopwatch when the volume of glycerol reached the 50 cm3 mark. State one advantage of filling the glass tube with more than 50 cm3 of glycerol. (1)"
+     "text": "(a) The student filled the glass tube with more than 50 cm3 of glycerol. The student then opened the tap. She started a stopwatch when the volume of glycerol reached the 50 cm3 mark. State one advantage of filling the glass tube with more than 50 cm3 of glycerol. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(i)",
@@ -427,7 +437,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of ln V against t can be used to determine a value for b. (2)"
+     "text": "(i) Explain how a graph of ln V against t can be used to determine a value for b. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -451,7 +462,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2026_06/q3_b_ii.webp",
+       "src": "physics/WPH16_2026_06/q3_b_ii_1.webp",
        "w": 1090,
        "h": 582,
        "region": {
@@ -460,6 +471,18 @@
         "y0": 279.8,
         "x1": 559.0,
         "y1": 558.3
+       }
+      },
+      {
+       "src": "physics/WPH16_2026_06/q3_b_ii_2.webp",
+       "w": 1090,
+       "h": 1435,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 59.1,
+        "x1": 559.0,
+        "y1": 747.4
        }
       }
      ],
@@ -477,7 +500,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded the following results. V / cm3 t / s 45.0 8.65 35.0 21.73 25.0 38.91 15.0 67.85 5.0 129.11 Plot a graph of ln V against t on the grid opposite. Use the additional column to record your processed data. You should keep the values of V in cm3. (5)"
+     "text": "(ii) The student recorded the following results. V / cm3 t / s 45.0 8.65 35.0 21.73 25.0 38.91 15.0 67.85 5.0 129.11 Plot a graph of ln V against t on the grid opposite. Use the additional column to record your processed data. You should keep the values of V in cm3. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(iii)",
@@ -501,7 +525,7 @@
      ],
      "qp": [
       {
-       "src": "physics/WPH16_2026_06/q3_b_iii_1.webp",
+       "src": "physics/WPH16_2026_06/q3_b_iii.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -510,18 +534,6 @@
         "y0": 560.8,
         "x1": 559.0,
         "y1": 596.2
-       }
-      },
-      {
-       "src": "physics/WPH16_2026_06/q3_b_iii_2.webp",
-       "w": 1090,
-       "h": 1435,
-       "region": {
-        "page": 11,
-        "x0": 36.0,
-        "y0": 59.1,
-        "x1": 559.0,
-        "y1": 747.4
        }
       }
      ],
@@ -539,7 +551,8 @@
        }
       }
      ],
-     "text": "(iii) Determine the value of b from the graph. (3)"
+     "text": "(iii) Determine the value of b from the graph. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iv)",
@@ -589,10 +602,14 @@
        }
       }
      ],
-     "text": "(iv) Explain how using glycerol at a higher temperature would affect the graph. (3)"
+     "text": "(iv) Explain how using glycerol at a higher temperature would affect the graph. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "3(b)(ii): runs across pages"
+   ]
   },
   {
    "id": "WPH16_2026_06_q4",
@@ -647,7 +664,8 @@
        }
       }
      ],
-     "text": "(a) The student used a micrometer screw gauge to measure t at different places along the metre rule. He did not overtighten the micrometer when taking readings. The student calculated a mean value for t. Explain one other technique to improve accuracy when using the micrometer. (2)"
+     "text": "(a) The student used a micrometer screw gauge to measure t at different places along the metre rule. He did not overtighten the micrometer when taking readings. The student calculated a mean value for t. Explain one other technique to improve accuracy when using the micrometer. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -697,7 +715,8 @@
        }
       }
      ],
-     "text": "(i) Describe a method to determine an accurate value for y using another metre rule. (3)"
+     "text": "(i) Describe a method to determine an accurate value for y using another metre rule. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -747,7 +766,8 @@
        }
       }
      ],
-     "text": "(ii) The student recorded that y was 85 mm ± 1 mm. Explain why it was appropriate to record an uncertainty of 1 mm for y. (3)"
+     "text": "(ii) The student recorded that y was 85 mm ± 1 mm. Explain why it was appropriate to record an uncertainty of 1 mm for y. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(c)(i)",
@@ -797,7 +817,8 @@
        }
       }
      ],
-     "text": "(i) Show that E is about 1.6 × 1010 Pa. (3)"
+     "text": "(i) Show that E is about 1.6 × 1010 Pa. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(ii)",
@@ -847,7 +868,8 @@
        }
       }
      ],
-     "text": "(ii) Show that the percentage uncertainty in E is about 3%. (4)"
+     "text": "(ii) Show that the percentage uncertainty in E is about 3%. (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(c)(iii)",
@@ -897,10 +919,11 @@
        }
       }
      ],
-     "text": "(iii) The value of E for oak wood is 1.23 × 1010 Pa. Deduce whether the wooden metre rule could be made from oak. (2)"
+     "text": "(iii) The value of E for oak wood is 1.23 × 1010 Pa. Deduce whether the wooden metre rule could be made from oak. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

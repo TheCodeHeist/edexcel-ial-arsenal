@@ -77,7 +77,8 @@
        }
       }
      ],
-     "text": "(a) The walls of the glass tube are very thin. Identify a health and safety issue associated with this measurement and how it may be dealt with. (2)"
+     "text": "(a) The walls of the glass tube are very thin. Identify a health and safety issue associated with this measurement and how it may be dealt with. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(b)",
@@ -113,7 +114,8 @@
        }
       }
      ],
-     "text": "(b) The student made measurements to determine a mean value for d. He measured d at different orientations along the glass tube. Explain another technique he should use to reduce error when measuring d with a micrometer screw gauge. (2)"
+     "text": "(b) The student made measurements to determine a mean value for d. He measured d at different orientations along the glass tube. Explain another technique he should use to reduce error when measuring d with a micrometer screw gauge. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "1(c)(i)",
@@ -163,7 +165,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the mean value of d. (2)"
+     "text": "(i) Calculate the mean value of d. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "1(c)(ii)",
@@ -213,10 +216,11 @@
        }
       }
      ],
-     "text": "(ii) Determine the percentage uncertainty in the mean value of d. (2)"
+     "text": "(ii) Determine the percentage uncertainty in the mean value of d. (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_10_q2",
@@ -285,7 +289,8 @@
        }
       }
      ],
-     "text": "(i) Explain why there are positions of minimum intensity. (2)"
+     "text": "(i) Explain why there are positions of minimum intensity. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(a)(ii)",
@@ -335,7 +340,8 @@
        }
       }
      ],
-     "text": "(ii) The student located the first position where the intensity was a minimum. The student used vernier calipers to measure the distance x from the initial position to the position of this minimum. Identify two possible sources of uncertainty in the measurement of x. (2)"
+     "text": "(ii) The student located the first position where the intensity was a minimum. The student used vernier calipers to measure the distance x from the initial position to the position of this minimum. Identify two possible sources of uncertainty in the measurement of x. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(b)(i)",
@@ -385,7 +391,8 @@
        }
       }
      ],
-     "text": "(i) Calculate the frequency f of the microwaves. x = 17.84 cm d = 4.09 cm D = 0.502 m (3)"
+     "text": "(i) Calculate the frequency f of the microwaves. x = 17.84 cm d = 4.09 cm D = 0.502 m (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(b)(ii)",
@@ -435,10 +442,11 @@
        }
       }
      ],
-     "text": "(ii) The student increased the value of D. Explain how increasing D reduces the percentage uncertainty in x. (2)"
+     "text": "(ii) The student increased the value of D. Explain how increasing D reduces the percentage uncertainty in x. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_10_q3",
@@ -493,7 +501,8 @@
        }
       }
      ],
-     "text": "(a) The student switched on the power supply and the voltmeter displayed the following reading. mV Determine the percentage uncertainty in this reading. (2)"
+     "text": "(a) The student switched on the power supply and the voltmeter displayed the following reading. mV Determine the percentage uncertainty in this reading. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(i)",
@@ -543,7 +552,8 @@
        }
       }
      ],
-     "text": "(i) The reading on the voltmeter increased. The student adjusted the variable resistor again so that the reading on the voltmeter was 0.0 mV. Explain the reason for this adjustment. (2)"
+     "text": "(i) The reading on the voltmeter increased. The student adjusted the variable resistor again so that the reading on the voltmeter was 0.0 mV. Explain the reason for this adjustment. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(b)(ii)",
@@ -593,7 +603,8 @@
        }
       }
      ],
-     "text": "(ii) The student attached a 500 g mass to the metre rule at a distance L from the centre of the strain gauge. The strain ε can be calculated using the formula 6WL ε O 2 Ebt where W is the weight of the 500 g mass E is the Young modulus of the wood b is the width of the metre rule t is the thickness of the metre rule. Show that ε is about 1.5 × 10 –3 E = 11.9 GPa L = 0.513 m b = 25.3 mm t = 5.8 mm (3)"
+     "text": "(ii) The student attached a 500 g mass to the metre rule at a distance L from the centre of the strain gauge. The strain ε can be calculated using the formula 6WL ε O 2 Ebt where W is the weight of the 500 g mass E is the Young modulus of the wood b is the width of the metre rule t is the thickness of the metre rule. Show that ε is about 1.5 × 10 –3 E = 11.9 GPa L = 0.513 m b = 25.3 mm t = 5.8 mm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "3(b)(iii)",
@@ -643,7 +654,8 @@
        }
       }
      ],
-     "text": "(iii) The student added more masses to the metre rule. For each mass he recorded the reading V on the voltmeter and determined the corresponding value of ε. The student recorded the following data to plot a graph of ε against V. Mass / g ε V / mV 500 520 –3 1.5 × 10 750 –3 372 2.24 × 10 1000 494 3 × 10 –3 Criticise the recording of the data. (3)"
+     "text": "(iii) The student added more masses to the metre rule. For each mass he recorded the reading V on the voltmeter and determined the corresponding value of ε. The student recorded the following data to plot a graph of ε against V. Mass / g ε V / mV 500 520 –3 1.5 × 10 750 –3 372 2.24 × 10 1000 494 3 × 10 –3 Criticise the recording of the data. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "3(c)",
@@ -679,10 +691,11 @@
        }
       }
      ],
-     "text": "(c) Engineers use strain gauges to monitor the forces exerted on aeroplane wings. Suggest two reasons why engineers need to monitor these forces. (2)"
+     "text": "(c) Engineers use strain gauges to monitor the forces exerted on aeroplane wings. Suggest two reasons why engineers need to monitor these forces. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH13_2025_10_q4",
@@ -751,7 +764,8 @@
        }
       }
      ],
-     "text": "(i) Describe an accurate method to determine t using a stopwatch. (3)"
+     "text": "(i) Describe an accurate method to determine t using a stopwatch. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(a)(ii)",
@@ -801,7 +815,8 @@
        }
       }
      ],
-     "text": "(ii) The student suggested that adding a light gate near the top of the ramp and a light gate near the bottom of the ramp would improve the measurement of t. Describe advantages and disadvantages of using light gates to measure t. (3)"
+     "text": "(ii) The student suggested that adding a light gate near the top of the ramp and a light gate near the bottom of the ramp would improve the measurement of t. Describe advantages and disadvantages of using light gates to measure t. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(i)",
@@ -813,13 +828,13 @@
       {
        "src": "physics/WPH13_2025_10/q4_b_intro.webp",
        "w": 1090,
-       "h": 198,
+       "h": 205,
        "region": {
         "page": 12,
         "x0": 36.0,
         "y0": 57.2,
         "x1": 559.0,
-        "y1": 152.0
+        "y1": 155.3
        }
       }
      ],
@@ -851,7 +866,8 @@
        }
       }
      ],
-     "text": "(i) Explain how a graph of 1 2t against h can be used to determine the value of g. (2)"
+     "text": "(i) Explain how a graph of 1 2t against h can be used to determine the value of g. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(ii)",
@@ -863,13 +879,13 @@
       {
        "src": "physics/WPH13_2025_10/q4_b_intro.webp",
        "w": 1090,
-       "h": 198,
+       "h": 205,
        "region": {
         "page": 12,
         "x0": 36.0,
         "y0": 57.2,
         "x1": 559.0,
-        "y1": 152.0
+        "y1": 155.3
        }
       }
      ],
@@ -877,13 +893,13 @@
       {
        "src": "physics/WPH13_2025_10/q4_b_ii.webp",
        "w": 1090,
-       "h": 573,
+       "h": 579,
        "region": {
         "page": 12,
         "x0": 36.0,
         "y0": 310.7,
         "x1": 559.0,
-        "y1": 585.2
+        "y1": 588.1
        }
       }
      ],
@@ -901,7 +917,8 @@
        }
       }
      ],
-     "text": "(ii) The student varied the number of slotted masses to adjust h. She determined corresponding values of t and recorded the following results. h / m t / s 0.066 2.15 0.057 2.25 0.044 2.66 0.033 3.36 0.022 4.71 Complete the table with corresponding values of 1 2t (2)"
+     "text": "(ii) The student varied the number of slotted masses to adjust h. She determined corresponding values of t and recorded the following results. h / m t / s 0.066 2.15 0.057 2.25 0.044 2.66 0.033 3.36 0.022 4.71 Complete the table with corresponding values of 1 2t (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(iii)",
@@ -913,13 +930,13 @@
       {
        "src": "physics/WPH13_2025_10/q4_b_intro.webp",
        "w": 1090,
-       "h": 198,
+       "h": 205,
        "region": {
         "page": 12,
         "x0": 36.0,
         "y0": 57.2,
         "x1": 559.0,
-        "y1": 152.0
+        "y1": 155.3
        }
       }
      ],
@@ -963,7 +980,8 @@
        }
       }
      ],
-     "text": "(iii) Plot a graph of 1 2t on the y‑axis against h on the x‑axis on the grid opposite. (5)"
+     "text": "(iii) Plot a graph of 1 2t on the y‑axis against h on the x‑axis on the grid opposite. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "4(b)(iv)",
@@ -975,13 +993,13 @@
       {
        "src": "physics/WPH13_2025_10/q4_b_intro.webp",
        "w": 1090,
-       "h": 198,
+       "h": 205,
        "region": {
         "page": 12,
         "x0": 36.0,
         "y0": 57.2,
         "x1": 559.0,
-        "y1": 152.0
+        "y1": 155.3
        }
       }
      ],
@@ -1013,7 +1031,8 @@
        }
       }
      ],
-     "text": "(iv) Determine a value for g from the graph. s = 0.900 m (4)"
+     "text": "(iv) Determine a value for g from the graph. s = 0.900 m (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "4(b)(v)",
@@ -1025,13 +1044,13 @@
       {
        "src": "physics/WPH13_2025_10/q4_b_intro.webp",
        "w": 1090,
-       "h": 198,
+       "h": 205,
        "region": {
         "page": 12,
         "x0": 36.0,
         "y0": 57.2,
         "x1": 559.0,
-        "y1": 152.0
+        "y1": 155.3
        }
       }
      ],
@@ -1063,10 +1082,14 @@
        }
       }
      ],
-     "text": "(v) The student determined the value of g as 9.56 m s –2 with a percentage uncertainty of 4%. Deduce whether the student’s value of g is consistent with the accepted value. (2)"
+     "text": "(v) The student determined the value of g as 9.56 m s –2 with a percentage uncertainty of 4%. Deduce whether the student’s value of g is consistent with the accepted value. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "pending",
+   "risks": [
+    "4(b)(iii): runs across pages"
+   ]
   }
  ]
 }

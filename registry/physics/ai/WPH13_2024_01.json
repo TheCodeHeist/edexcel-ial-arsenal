@@ -1,0 +1,58 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "18314812ed68",
+   "kinds": {
+    "1(a)(i)": "short",
+    "1(a)(ii)": "calc",
+    "1(b)": "short",
+    "1(c)(i)": "calc",
+    "1(c)(ii)": "short"
+   }
+  },
+  "2": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "fbb05ece3bc1",
+   "kinds": {
+    "2(a)": "draw",
+    "2(b)(i)": "short",
+    "2(b)(ii)": "short",
+    "2(c)": "short"
+   }
+  },
+  "3": {
+   "at": "2026-11-18",
+   "concerns": [],
+   "fingerprint": "65bc74bf8f86",
+   "kinds": {
+    "3(a)": "short",
+    "3(b)(i)": "short",
+    "3(b)(ii)": "short",
+    "3(c)(i)": "calc",
+    "3(c)(ii)": "calc",
+    "3(d)": "short"
+   }
+  },
+  "4": {
+   "at": "2026-11-18",
+   "concerns": [
+    "4(b)(i): the fraction 1/d^2 is cut at the top edge, missing its numerator 1",
+    "4(b)(ii): stray fragment at the bottom edge (top of numerator 1 belonging to 4(b)(iii))",
+    "4(b)(iii): the fraction 1/d^2 is cut at the top edge, missing its numerator 1",
+    "4(b)(iv): the plotting grid belongs to 4(b)(iii), which says 'on the grid opposite'"
+   ],
+   "fingerprint": "cb4c413f30fa",
+   "kinds": {
+    "4(a)": "short",
+    "4(b)(i)": "short",
+    "4(b)(ii)": "short",
+    "4(b)(iii)": "draw",
+    "4(b)(iv)": "calc",
+    "4(b)(v)": "calc"
+   }
+  }
+ }
+}

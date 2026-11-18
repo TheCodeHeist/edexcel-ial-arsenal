@@ -65,10 +65,12 @@
        }
       }
      ],
-     "text": "1 The unit of power is the watt. Which of the following is included in the SI base units for power? A newton B kilogram C joule D ampere"
+     "text": "1 The unit of power is the watt. Which of the following is included in the SI base units for power? A newton B kilogram C joule D ampere",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q2",
@@ -111,10 +113,12 @@
        }
       }
      ],
-     "text": "2 The diagram shows a combination of three resistors of resistance X, Y and Z. Y X Z Which of the following gives the total resistance of this combination? 1 1 A X + + Y Z 1 B + Y + Z X YZ C X + Y Z + 1 Y Z + D + X YZ"
+     "text": "2 The diagram shows a combination of three resistors of resistance X, Y and Z. Y X Z Which of the following gives the total resistance of this combination? 1 1 A X + + Y Z 1 B + Y + Z X YZ C X + Y Z + 1 Y Z + D + X YZ",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q3",
@@ -157,10 +161,12 @@
        }
       }
      ],
-     "text": "3 Ultrasound can be used to investigate organs inside the human body. Which of the following statements about ultrasound is correct? A All of the ultrasound is reflected at a boundary between different tissues. B Ultrasound travels faster in air than inside the body. C Ultrasound with a greater wavelength gives an image with a higher resolution. D Ultrasound with a shorter pulse duration gives an image with a higher resolution."
+     "text": "3 Ultrasound can be used to investigate organs inside the human body. Which of the following statements about ultrasound is correct? A All of the ultrasound is reflected at a boundary between different tissues. B Ultrasound travels faster in air than inside the body. C Ultrasound with a greater wavelength gives an image with a higher resolution. D Ultrasound with a shorter pulse duration gives an image with a higher resolution.",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q4",
@@ -203,16 +209,31 @@
        }
       }
      ],
-     "text": "4 Electromagnetic radiation can be described in terms of a photon model. Which of the following demonstrates the photon model of light? A diffraction patterns B Huygens’ construction C photoelectric effect D plane polarisation"
+     "text": "4 Electromagnetic radiation can be described in terms of a photon model. Which of the following demonstrates the photon model of light? A diffraction patterns B Huygens’ construction C photoelectric effect D plane polarisation",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q5",
    "number": 5,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH12_2021_01/q5_lead.webp",
+     "w": 1090,
+     "h": 408,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 252.3
+     }
+    }
+   ],
    "parts": [
     {
      "label": "5",
@@ -249,16 +270,31 @@
        }
       }
      ],
-     "text": "5 Corresponding values of potential difference V and current I were taken after adjusting the variable resistor. A graph of V on the y-axis against I on the x-axis was plotted. Which of the following is correct? A The area underneath the graph is the total energy dissipated in the cell. B The gradient of the graph is r. C The graph shows that V and I are directly proportional. D The y-intercept of the graph is ε."
+     "text": "5 Corresponding values of potential difference V and current I were taken after adjusting the variable resistor. A graph of V on the y-axis against I on the x-axis was plotted. Which of the following is correct? A The area underneath the graph is the total energy dissipated in the cell. B The gradient of the graph is r. C The graph shows that V and I are directly proportional. D The y-intercept of the graph is ε.",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH12_2021_01_q6",
    "number": 6,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH12_2021_01/q6_lead.webp",
+     "w": 1090,
+     "h": 408,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 56.8,
+      "x1": 559.0,
+      "y1": 252.3
+     }
+    }
+   ],
    "parts": [
     {
      "label": "6",
@@ -295,10 +331,12 @@
        }
       }
      ],
-     "text": "6 The resistance of the variable resistor is R. Which of the following gives the current in the cell? ε A R ε B r ε C ( R + r ) ε D ( R − r )"
+     "text": "6 The resistance of the variable resistor is R. Which of the following gives the current in the cell? ε A R ε B r ε C ( R + r ) ε D ( R − r )",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH12_2021_01_q7",
@@ -341,10 +379,12 @@
        }
       }
      ],
-     "text": "7 A graph of displacement against time for a point on a transverse progressive wave is shown. 10 5 0 0 0.1 0.2 0.3 0.4 0.5 0.6 –5 –10 Time / s Which of the following statements is correct? A The amplitude of the wave is 20 cm. B The frequency of the wave is 2.5 Hz. C The period of the wave is 0.2 s. D The wavelength of the wave is 0.4 m."
+     "text": "7 A graph of displacement against time for a point on a transverse progressive wave is shown. 10 5 0 0 0.1 0.2 0.3 0.4 0.5 0.6 –5 –10 Time / s Which of the following statements is correct? A The amplitude of the wave is 20 cm. B The frequency of the wave is 2.5 Hz. C The period of the wave is 0.2 s. D The wavelength of the wave is 0.4 m.",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q8",
@@ -387,10 +427,12 @@
        }
       }
      ],
-     "text": "8 A ray of light travels through glass, towards a boundary between glass and air. The critical angle for this boundary is 42°. Which row of the table is correct? Angle of incidence What happens at the boundary? A 40° All of the light is refracted B 40° All of the light is reflected C 45° All of the light is refracted D 45° All of the light is reflected"
+     "text": "8 A ray of light travels through glass, towards a boundary between glass and air. The critical angle for this boundary is 42°. Which row of the table is correct? Angle of incidence What happens at the boundary? A 40° All of the light is refracted B 40° All of the light is reflected C 45° All of the light is refracted D 45° All of the light is reflected",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q9",
@@ -433,10 +475,12 @@
        }
       }
      ],
-     "text": "9 In 1924 de Broglie suggested that electrons have wave properties. The de Broglie equation states: h λ = p Which of the following is correct? A The de Broglie wavelength is independent of the mass of the particle. B The de Broglie equation can be used to calculate the momentum of a photon. C The term p represents the mass of an electron multiplied by the speed of light. D The value of h depends on the particle involved."
+     "text": "9 In 1924 de Broglie suggested that electrons have wave properties. The de Broglie equation states: h λ = p Which of the following is correct? A The de Broglie wavelength is independent of the mass of the particle. B The de Broglie equation can be used to calculate the momentum of a photon. C The term p represents the mass of an electron multiplied by the speed of light. D The value of h depends on the particle involved.",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q10",
@@ -479,10 +523,12 @@
        }
       }
      ],
-     "text": "10 In a series circuit, 3.1 ´ 1019 electrons pass a particular point in a time of 30 seconds. Which of the following gives the magnitude of the current in amperes in this circuit? × × × − 19 19 A ( . 3 1 10 ) ( . 1 6 10 ) 30 × 19 3 1 . 10 B × − × 19 ( . 1 6 10 ) 30 C ( . × × × − × 19 19 3 1 10 ) ( . 1 6 10 ) 30 × × 19 D ( . 3 1 10 ) 30 − × 19 1 6 . 10"
+     "text": "10 In a series circuit, 3.1 ´ 1019 electrons pass a particular point in a time of 30 seconds. Which of the following gives the magnitude of the current in amperes in this circuit? × × × − 19 19 A ( . 3 1 10 ) ( . 1 6 10 ) 30 × 19 3 1 . 10 B × − × 19 ( . 1 6 10 ) 30 C ( . × × × − × 19 19 3 1 10 ) ( . 1 6 10 ) 30 × × 19 D ( . 3 1 10 ) 30 − × 19 1 6 . 10",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q11",
@@ -524,10 +570,11 @@
        }
       }
      ],
-     "text": "11 A copper wire of radius 0.40 mm carries a current of 5.1 A. Calculate the drift velocity of the electrons in the wire. number of charge carriers per m3 for copper = 8.5 ´ 1028 (2)"
+     "text": "11 A copper wire of radius 0.40 mm carries a current of 5.1 A. Calculate the drift velocity of the electrons in the wire. number of charge carriers per m3 for copper = 8.5 ´ 1028 (2)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q12",
@@ -569,10 +616,11 @@
        }
       }
      ],
-     "text": "12 A student investigated the superposition of water waves in a ripple tank. There are two sources of waves S1 and S2, which are in phase. The diagram shows the positions of successive crests of each wave at an instant in time. B S1 A S2 Crest Explain the type of superposition taking place at position A and at position B on the diagram. (4)"
+     "text": "12 A student investigated the superposition of water waves in a ripple tank. There are two sources of waves S1 and S2, which are in phase. The diagram shows the positions of successive crests of each wave at an instant in time. B S1 A S2 Crest Explain the type of superposition taking place at position A and at position B on the diagram. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q13",
@@ -627,7 +675,8 @@
        }
       }
      ],
-     "text": "(a) Calculate the resistance of the LDR when the lights were off. (2)"
+     "text": "(a) Calculate the resistance of the LDR when the lights were off. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)",
@@ -663,10 +712,11 @@
        }
       }
      ],
-     "text": "(b) When the lights were switched back on, the student discovered that it was impossible to calculate the resistance of the LDR using this circuit. The teacher said that with the lights on, the resistance of the LDR was about 9 Ω. Explain why the student was unable to use the circuit to determine the resistance of the LDR with the lights on. The resolution of the voltmeter was 0.01 V. (2)"
+     "text": "(b) When the lights were switched back on, the student discovered that it was impossible to calculate the resistance of the LDR using this circuit. The teacher said that with the lights on, the resistance of the LDR was about 9 Ω. Explain why the student was unable to use the circuit to determine the resistance of the LDR with the lights on. The resolution of the voltmeter was 0.01 V. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q14",
@@ -708,10 +758,11 @@
        }
       }
      ],
-     "text": "14 The diagram shows some of the energy levels for an atom of hydrogen. 0 eV − 0.85 eV − 1.5 eV − 3.4 eV − 13.6 eV When an electron with a kinetic energy of 12.3 eV interacts with this atom, an electron in the atom moves from the −13.6 eV level to the −1.5 eV level. When a photon with a photon energy of 12.3 eV is incident on this atom, the electron in the atom at the −13.6 eV level remains at the –13.6 eV level. Explain these observations. (4)"
+     "text": "14 The diagram shows some of the energy levels for an atom of hydrogen. 0 eV − 0.85 eV − 1.5 eV − 3.4 eV − 13.6 eV When an electron with a kinetic energy of 12.3 eV interacts with this atom, an electron in the atom moves from the −13.6 eV level to the −1.5 eV level. When a photon with a photon energy of 12.3 eV is incident on this atom, the electron in the atom at the −13.6 eV level remains at the –13.6 eV level. Explain these observations. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q15",
@@ -766,7 +817,8 @@
        }
       }
      ],
-     "text": "(a) Explain what is meant by refraction. (2)"
+     "text": "(a) Explain what is meant by refraction. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)",
@@ -802,10 +854,11 @@
        }
       }
      ],
-     "text": "(b) The simplified diagram below shows how a ray of light travels from the edge of the coin to the teacher’s eye, when the cup is partially filled with water. Diagram not to scale 4.0 cm 3.0 cm 3.7 cm 1.8 cm Determine the refractive index of the water in the cup. (3)"
+     "text": "(b) The simplified diagram below shows how a ray of light travels from the edge of the coin to the teacher’s eye, when the cup is partially filled with water. Diagram not to scale 4.0 cm 3.0 cm 3.7 cm 1.8 cm Determine the refractive index of the water in the cup. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q16",
@@ -847,10 +900,11 @@
        }
       }
      ],
-     "text": "*16 The graphs show how current I varies with potential difference V for a filament bulb and for a negative temperature coefficient thermistor. I I V V Filament bulb Thermistor Explain the shape of each graph. Your answer should include reference to the movement of conduction electrons in each component. (6)"
+     "text": "*16 The graphs show how current I varies with potential difference V for a filament bulb and for a negative temperature coefficient thermistor. I I V V Filament bulb Thermistor Explain the shape of each graph. Your answer should include reference to the movement of conduction electrons in each component. (6)",
+     "kindGuessed": "extended"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q17",
@@ -905,7 +959,8 @@
        }
       }
      ],
-     "text": "(a) Calculate the maximum speed of the electrons as they are released from the metal surface. (5)"
+     "text": "(a) Calculate the maximum speed of the electrons as they are released from the metal surface. (5)",
+     "kindGuessed": "calc"
     },
     {
      "label": "17(b)",
@@ -941,10 +996,11 @@
        }
       }
      ],
-     "text": "(b) A student suggests that if the wavelength and intensity of the light used are both increased, the maximum speed of the electrons released from the metal surface also increases. Explain whether the student’s suggestion is correct. (4)"
+     "text": "(b) A student suggests that if the wavelength and intensity of the light used are both increased, the maximum speed of the electrons released from the metal surface also increases. Explain whether the student’s suggestion is correct. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q18",
@@ -999,7 +1055,8 @@
        }
       }
      ],
-     "text": "(a) Describe how the teacher can demonstrate that the light from the laser pointer is plane polarised. (2)"
+     "text": "(a) Describe how the teacher can demonstrate that the light from the laser pointer is plane polarised. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)(i)",
@@ -1049,7 +1106,8 @@
        }
       }
      ],
-     "text": "(i) The diffraction grating equation is nλ = d sin θ State the quantity represented by d. (1)"
+     "text": "(i) The diffraction grating equation is nλ = d sin θ State the quantity represented by d. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "18(b)(ii)",
@@ -1099,7 +1157,8 @@
        }
       }
      ],
-     "text": "(ii) The teacher made the following measurements: distance from central maximum to first order maximum = 1.61 m distance from diffraction grating to screen = 2.74 m The wavelength of the light from the laser pointer was 532 nm. Calculate the number of lines per millimetre on the diffraction grating. (3)"
+     "text": "(ii) The teacher made the following measurements: distance from central maximum to first order maximum = 1.61 m distance from diffraction grating to screen = 2.74 m The wavelength of the light from the laser pointer was 532 nm. Calculate the number of lines per millimetre on the diffraction grating. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "18(b)(iii)",
@@ -1149,10 +1208,11 @@
        }
       }
      ],
-     "text": "(iii) Using this diffraction grating and laser pointer, only the first order maxima and the central maximum are produced. Explain how the teacher, using the same laser pointer, could improve his value for the number of lines per millimetre. (3)"
+     "text": "(iii) Using this diffraction grating and laser pointer, only the first order maxima and the central maximum are produced. Explain how the teacher, using the same laser pointer, could improve his value for the number of lines per millimetre. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q19",
@@ -1176,7 +1236,7 @@
     {
      "label": "19(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1207,7 +1267,8 @@
        }
       }
      ],
-     "text": "(a) Complete the circuit diagram for this experiment. (2) nichrome wire"
+     "text": "(a) Complete the circuit diagram for this experiment. (2) nichrome wire",
+     "kindGuessed": "short"
     },
     {
      "label": "19(b)(i)",
@@ -1257,7 +1318,8 @@
        }
       }
      ],
-     "text": "(i) Determine the resistivity of nichrome. cross sectional area of nichrome wire = 5.31´10−8 m2 (4)"
+     "text": "(i) Determine the resistivity of nichrome. cross sectional area of nichrome wire = 5.31´10−8 m2 (4)",
+     "kindGuessed": "calc"
     },
     {
      "label": "19(b)(ii)",
@@ -1307,10 +1369,14 @@
        }
       }
      ],
-     "text": "(ii) Calculate the power dissipated from the nichrome wire to the surroundings when the length of the wire is 0.75 m. (3)"
+     "text": "(ii) Calculate the power dissipated from the nichrome wire to the surroundings when the length of the wire is 0.75 m. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "19(a): text after the marks"
+   ]
   },
   {
    "id": "WPH12_2021_01_q20",
@@ -1334,7 +1400,7 @@
     {
      "label": "20(a)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1365,7 +1431,8 @@
        }
       }
      ],
-     "text": "(a) A typical smart meter emits radio waves with a power output of 1.00 W. An intensity of radiation greater than 4.5 W m−2 is dangerous to people. A person stands 25 cm from a smart meter. Deduce whether the radiation emitted by this smart meter would be dangerous to the person at this distance. (3)"
+     "text": "(a) A typical smart meter emits radio waves with a power output of 1.00 W. An intensity of radiation greater than 4.5 W m−2 is dangerous to people. A person stands 25 cm from a smart meter. Deduce whether the radiation emitted by this smart meter would be dangerous to the person at this distance. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "20(b)",
@@ -1401,12 +1468,13 @@
        }
       }
      ],
-     "text": "(b) It is suggested that the energy per photon could be important in determining if the radiation emitted by the smart meter is dangerous. The smart meter transmits radio waves of frequency 902 MHz. Calculate the energy per photon, in eV, of the photons emitted by the smart meter. (3)"
+     "text": "(b) It is suggested that the energy per photon could be important in determining if the radiation emitted by the smart meter is dangerous. The smart meter transmits radio waves of frequency 902 MHz. Calculate the energy per photon, in eV, of the photons emitted by the smart meter. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "20(c)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1437,10 +1505,11 @@
        }
       }
      ],
-     "text": "(c) The display of the smart meter in one household is shown. This shows the total electrical energy used in one day. 1 kW h is a unit of energy equivalent to 1 kW of power used for 1 hour. The kettle in this house has a power of 1200 W. The kettle takes 125 seconds to heat the water to boiling. The kettle then switches off. A student suggests that boiling the kettle once uses less than 1% of the total energy shown on the smart meter display. Assess the student’s suggestion. (3)"
+     "text": "(c) The display of the smart meter in one household is shown. This shows the total electrical energy used in one day. 1 kW h is a unit of energy equivalent to 1 kW of power used for 1 hour. The kettle in this house has a power of 1200 W. The kettle takes 125 seconds to heat the water to boiling. The kettle then switches off. A student suggests that boiling the kettle once uses less than 1% of the total energy shown on the smart meter display. Assess the student’s suggestion. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH12_2021_01_q21",
@@ -1509,7 +1578,8 @@
        }
       }
      ],
-     "text": "(i) The stationary wave has antinodes at both ends of the air column as shown. antinode antinode Calculate the frequency of the sound produced by this stationary wave. speed of sound in air = 330 m s−1 length of recorder = 23.6 cm (3)"
+     "text": "(i) The stationary wave has antinodes at both ends of the air column as shown. antinode antinode Calculate the frequency of the sound produced by this stationary wave. speed of sound in air = 330 m s−1 length of recorder = 23.6 cm (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "21(a)(ii)",
@@ -1559,7 +1629,8 @@
        }
       }
      ],
-     "text": "(ii) The recorder is made from three separate sections that slide together as shown. A musician plays the recorder and produces the same frequency sound as in (i). The temperature of the air increases. As the temperature of the air increases, the speed of sound also increases. Explain how the musician can adjust the recorder to produce the same frequency sound as in (i). (3)"
+     "text": "(ii) The recorder is made from three separate sections that slide together as shown. A musician plays the recorder and produces the same frequency sound as in (i). The temperature of the air increases. As the temperature of the air increases, the speed of sound also increases. Explain how the musician can adjust the recorder to produce the same frequency sound as in (i). (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "21(b)",
@@ -1595,10 +1666,11 @@
        }
       }
      ],
-     "text": "(b) On a violin, a stationary wave is created when a string is plucked. A violin string has a fixed length but the tension can be adjusted. When a string is plucked, it produces a sound with a frequency of 432 Hz. This string is adjusted to produce a sound of frequency 440 Hz. Calculate the percentage increase in the tension in the string. (3)"
+     "text": "(b) On a violin, a stationary wave is created when a string is plucked. A violin string has a fixed length but the tension can be adjusted. When a string is plucked, it produces a sound with a frequency of 432 Hz. This string is adjusted to produce a sound of frequency 440 Hz. Calculate the percentage increase in the tension in the string. (3)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }

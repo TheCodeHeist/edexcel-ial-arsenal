@@ -66,10 +66,12 @@
        }
       }
      ],
-     "text": "1 Which of the following is a vector quantity? A mass B momentum C temperature D time"
+     "text": "1 Which of the following is a vector quantity? A mass B momentum C temperature D time",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q2",
@@ -112,10 +114,12 @@
        }
       }
      ],
-     "text": "2 Which of the following is a correct unit for acceleration? A kg m s−1 B kg m s−2 C N kg−1 D N m s−1"
+     "text": "2 Which of the following is a correct unit for acceleration? A kg m s−1 B kg m s−2 C N kg−1 D N m s−1",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q3",
@@ -158,10 +162,12 @@
        }
       }
      ],
-     "text": "3 A student determines a value for the acceleration due to gravity by dropping a steel ball from rest through the air. The student ignored air resistance. Which of the following are the only two quantities required? A diameter of the ball and viscosity of the air B distance the ball falls and time taken C final velocity of the ball and viscosity of the air D mass of the ball and the final velocity of the ball"
+     "text": "3 A student determines a value for the acceleration due to gravity by dropping a steel ball from rest through the air. The student ignored air resistance. Which of the following are the only two quantities required? A diameter of the ball and viscosity of the air B distance the ball falls and time taken C final velocity of the ball and viscosity of the air D mass of the ball and the final velocity of the ball",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q4",
@@ -204,16 +210,31 @@
        }
       }
      ],
-     "text": "4 The graph below shows the motion of a person of mass 80 kg walking a short distance. 4 3 2 Velocity / m s–1 1 0 0 1 2 3 4 5 6 7 8 9 10 Time / s Which of the following is equal to the resultant force, in N, acting on the person between a time of 2 s and 7 s? A 80 g B 0 C 0.5 × (10 + 5) × 3 D 3"
+     "text": "4 The graph below shows the motion of a person of mass 80 kg walking a short distance. 4 3 2 Velocity / m s–1 1 0 0 1 2 3 4 5 6 7 8 9 10 Time / s Which of the following is equal to the resultant force, in N, acting on the person between a time of 2 s and 7 s? A 80 g B 0 C 0.5 × (10 + 5) × 3 D 3",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q5",
    "number": 5,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH11_2026_06_A/q5_lead.webp",
+     "w": 1090,
+     "h": 491,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 45.5,
+      "x1": 559.0,
+      "y1": 280.5
+     }
+    }
+   ],
    "parts": [
     {
      "label": "5",
@@ -250,16 +271,31 @@
        }
       }
      ],
-     "text": "5 Which of the following gives the stiffness of the spring? A 5 N × 4 m 5N B 4m 4m C 5N D 0.5 × 5 N × 4 m"
+     "text": "5 Which of the following gives the stiffness of the spring? A 5 N × 4 m 5N B 4m 4m C 5N D 0.5 × 5 N × 4 m",
+     "answerRead": "B",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2026_06_A_q6",
    "number": 6,
    "marks": 1,
-   "stem": [],
+   "stem": [
+    {
+     "src": "physics/WPH11_2026_06_A/q6_lead.webp",
+     "w": 1090,
+     "h": 491,
+     "region": {
+      "page": 4,
+      "x0": 36.0,
+      "y0": 45.5,
+      "x1": 559.0,
+      "y1": 280.5
+     }
+    }
+   ],
    "parts": [
     {
      "label": "6",
@@ -296,10 +332,12 @@
        }
       }
      ],
-     "text": "6 A force of 5 N is applied to the spring. Which of the following gives the energy stored, in J, in the spring? A 5 N × 4 m 5N B 4m 4m C 5N D 0.5 × 5 N × 4 m"
+     "text": "6 A force of 5 N is applied to the spring. Which of the following gives the energy stored, in J, in the spring? A 5 N × 4 m 5N B 4m 4m C 5N D 0.5 × 5 N × 4 m",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2026_06_A_q7",
@@ -342,10 +380,12 @@
        }
       }
      ],
-     "text": "7 A ball of weight 8 N falls through the air. A horizontal wind exerts a force of 15 N on the ball. Which of the following is the magnitude of the resultant force on the ball? You should ignore air resistance. A 7 N B 13 N C 17 N D 23 N"
+     "text": "7 A ball of weight 8 N falls through the air. A horizontal wind exerts a force of 15 N on the ball. Which of the following is the magnitude of the resultant force on the ball? You should ignore air resistance. A 7 N B 13 N C 17 N D 23 N",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q8",
@@ -388,10 +428,12 @@
        }
       }
      ],
-     "text": "8 In certain circumstances, Stokes’ law can be applied when an object is falling. Which of the following conditions is required for Stokes’ law to apply? A The object should not be spherical in shape. B The object must be falling through a liquid. C The object should be moving quickly. D The object should be in a laminar flow."
+     "text": "8 In certain circumstances, Stokes’ law can be applied when an object is falling. Which of the following conditions is required for Stokes’ law to apply? A The object should not be spherical in shape. B The object must be falling through a liquid. C The object should be moving quickly. D The object should be in a laminar flow.",
+     "answerRead": "D",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q9",
@@ -434,10 +476,12 @@
        }
       }
      ],
-     "text": "9 Two springs each with stiffness k are arranged next to each other, as shown spring Which of the following is the stiffness of the combined system? A 2k B k k C 2 D k 2"
+     "text": "9 Two springs each with stiffness k are arranged next to each other, as shown spring Which of the following is the stiffness of the combined system? A 2k B k k C 2 D k 2",
+     "answerRead": "A",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q10",
@@ -456,13 +500,13 @@
       {
        "src": "physics/WPH11_2026_06_A/q10.webp",
        "w": 1090,
-       "h": 430,
+       "h": 438,
        "region": {
         "page": 6,
         "x0": 36.0,
         "y0": 403.9,
         "x1": 559.0,
-        "y1": 609.9
+        "y1": 613.8
        }
       }
      ],
@@ -480,10 +524,12 @@
        }
       }
      ],
-     "text": "10 A car is travelling at a velocity v. The car brakes with a constant force and comes to rest after a distance x. The same car is now travelling at 2v. The car brakes with the same force and comes to rest. Which of the following is the distance the car now travels while braking? A 2x B 2x C 4x x D 2"
+     "text": "10 A car is travelling at a velocity v. The car brakes with a constant force and comes to rest after a distance x. The same car is now travelling at 2v. The car brakes with the same force and comes to rest. Which of the following is the distance the car now travels while braking? A 2x B 2x C 4x x D 2",
+     "answerRead": "C",
+     "kindGuessed": "mcq"
     }
    ],
-   "reviewed": false
+   "check": "pending"
   },
   {
    "id": "WPH11_2026_06_A_q11",
@@ -525,10 +571,14 @@
        }
       }
      ],
-     "text": "11 A man drives his car along a road at a constant speed. The road has many bends. Explain how the speed of the car can be constant but the velocity of the car changes."
+     "text": "11 A man drives his car along a road at a constant speed. The road has many bends. Explain how the speed of the car can be constant but the velocity of the car changes.",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "11: text after the marks"
+   ]
   },
   {
    "id": "WPH11_2026_06_A_q12",
@@ -570,10 +620,14 @@
        }
       }
      ],
-     "text": "12 A painting is hung from a peg on a wall using two identical wires, as shown. peg wire wire T T 25 25 painting Calculate the tension T in each of the wires. mass of the painting = 1.8 kg"
+     "text": "12 A painting is hung from a peg on a wall using two identical wires, as shown. peg wire wire T T 25 25 painting Calculate the tension T in each of the wires. mass of the painting = 1.8 kg",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "human",
+   "risks": [
+    "12: text after the marks"
+   ]
   },
   {
    "id": "WPH11_2026_06_A_q13",
@@ -642,7 +696,8 @@
        }
       }
      ],
-     "text": "13 (a) (i) Show that the maximum work done lifting the 50 carriages through the vertical height of 200 m is about 4 × 107 J. mass of empty carriage = 120 kg (3)"
+     "text": "13 (a) (i) Show that the maximum work done lifting the 50 carriages through the vertical height of 200 m is about 4 × 107 J. mass of empty carriage = 120 kg (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(a)(ii)",
@@ -692,7 +747,8 @@
        }
       }
      ],
-     "text": "13 (a) (ii) The ski lift engine has an output power of 135 kW. It takes 8 minutes for all 50 carriages to move through the vertical height of 200 m. Determine the work done against resistive forces. Ignore the descending carriages. (3)"
+     "text": "13 (a) (ii) The ski lift engine has an output power of 135 kW. It takes 8 minutes for all 50 carriages to move through the vertical height of 200 m. Determine the work done against resistive forces. Ignore the descending carriages. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(a)(iii)",
@@ -742,7 +798,8 @@
        }
       }
      ],
-     "text": "13 (a) (iii) Calculate the efficiency of the ski lift. (2)"
+     "text": "13 (a) (iii) Calculate the efficiency of the ski lift. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "13(b)",
@@ -778,10 +835,11 @@
        }
       }
      ],
-     "text": "13 (b) Explain how lubricating all the moving parts could improve the efficiency of the ski lift. (2)"
+     "text": "13 (b) Explain how lubricating all the moving parts could improve the efficiency of the ski lift. (2)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q14",
@@ -836,7 +894,8 @@
        }
       }
      ],
-     "text": "14 (a) Explain why the height of each bounce is less than the height of the previous bounce. (2)"
+     "text": "14 (a) Explain why the height of each bounce is less than the height of the previous bounce. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "14(b)(i)",
@@ -886,7 +945,8 @@
        }
       }
      ],
-     "text": "14 (b) (i) Show that the velocity of the ball, as it hits the ground, is about 6 m s–1. (2)"
+     "text": "14 (b) (i) Show that the velocity of the ball, as it hits the ground, is about 6 m s–1. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(b)(ii)",
@@ -936,12 +996,13 @@
        }
       }
      ],
-     "text": "14 (b) (ii) Show that the time taken for the ball to fall to the ground is about 0.6 s. (2)"
+     "text": "14 (b) (ii) Show that the time taken for the ball to fall to the ground is about 0.6 s. (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "14(b)(iii)",
      "marks": 4,
-     "kind": "short",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "intro": [
@@ -986,10 +1047,11 @@
        }
       }
      ],
-     "text": "14 (b) (iii) Sketch a velocity-time graph to show the motion of the ball from when it is dropped to when it comes to rest after bouncing three times. Sketch the graph using the grid provided in the Answer Book. You do not need to make further calculations. (4)"
+     "text": "14 (b) (iii) Sketch a velocity-time graph to show the motion of the ball from when it is dropped to when it comes to rest after bouncing three times. Sketch the graph using the grid provided in the Answer Book. You do not need to make further calculations. (4)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q15",
@@ -1044,7 +1106,8 @@
        }
       }
      ],
-     "text": "15 (a) Compare and contrast the stress-strain graph for each bar. (4)"
+     "text": "15 (a) Compare and contrast the stress-strain graph for each bar. (4)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(b)",
@@ -1080,7 +1143,8 @@
        }
       }
      ],
-     "text": "15 (b) State what is meant by elastic deformation. (1)"
+     "text": "15 (b) State what is meant by elastic deformation. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(c)(i)",
@@ -1130,7 +1194,8 @@
        }
       }
      ],
-     "text": "15 (c) (i) Explain how the equipment shown should be used to determine the extension of the toffee bar for a range of masses. You should include the use of a suitable piece of measuring equipment. (3)"
+     "text": "15 (c) (i) Explain how the equipment shown should be used to determine the extension of the toffee bar for a range of masses. You should include the use of a suitable piece of measuring equipment. (3)",
+     "kindGuessed": "short"
     },
     {
      "label": "15(c)(ii)",
@@ -1180,10 +1245,11 @@
        }
       }
      ],
-     "text": "15 (c) (ii) The food technician plotted a force-extension graph for the toffee bar, as shown. 4.0 3.5 3.0 2.5 Force / N 2.0 1.5 1.0 0.5 0.0 0.00 0.02 0.04 0.06 0.08 0.10 Extension / m Determine the Young modulus of the toffee bar. cross-sectional area of toffee bar = 1.27 × 10–4 m2 initial length of toffee bar = 15.5 cm (4)"
+     "text": "15 (c) (ii) The food technician plotted a force-extension graph for the toffee bar, as shown. 4.0 3.5 3.0 2.5 Force / N 2.0 1.5 1.0 0.5 0.0 0.00 0.02 0.04 0.06 0.08 0.10 Extension / m Determine the Young modulus of the toffee bar. cross-sectional area of toffee bar = 1.27 × 10–4 m2 initial length of toffee bar = 15.5 cm (4)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q16",
@@ -1238,12 +1304,13 @@
        }
       }
      ],
-     "text": "16 (a) Calculate the velocity of the green ball after the collision. (3)"
+     "text": "16 (a) Calculate the velocity of the green ball after the collision. (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "16(b)",
      "marks": 6,
-     "kind": "short",
+     "kind": "extended",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1274,10 +1341,11 @@
        }
       }
      ],
-     "text": "*16 (b) Discuss how momentum is conserved in this collision. You should refer to Newton’s laws of motion in your answer. (6)"
+     "text": "*16 (b) Discuss how momentum is conserved in this collision. You should refer to Newton’s laws of motion in your answer. (6)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q17",
@@ -1332,7 +1400,8 @@
        }
       }
      ],
-     "text": "17 (a) (i) State the two conditions necessary for the cupboard to be in equilibrium. (2)"
+     "text": "17 (a) (i) State the two conditions necessary for the cupboard to be in equilibrium. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(a)(ii)",
@@ -1368,12 +1437,13 @@
        }
       }
      ],
-     "text": "17 (a) (ii) State what is meant by the centre of gravity of an object. (1)"
+     "text": "17 (a) (ii) State what is meant by the centre of gravity of an object. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "17(b)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1404,10 +1474,11 @@
        }
       }
      ],
-     "text": "17 (b) The maximum force the screw can withstand is 200 N. It is suggested that a box with a mass of 50 kg can be safely placed anywhere on the base of the cupboard. The weight of the cupboard is 80 N and the cupboard can be assumed to be uniform. Deduce whether this suggestion is correct. (5)"
+     "text": "17 (b) The maximum force the screw can withstand is 200 N. It is suggested that a box with a mass of 50 kg can be safely placed anywhere on the base of the cupboard. The weight of the cupboard is 80 N and the cupboard can be assumed to be uniform. Deduce whether this suggestion is correct. (5)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q18",
@@ -1462,7 +1533,8 @@
        }
       }
      ],
-     "text": "18 (a) Show that u is about 5 m s−1 (3)"
+     "text": "18 (a) Show that u is about 5 m s−1 (3)",
+     "kindGuessed": "calc"
     },
     {
      "label": "18(b)",
@@ -1498,10 +1570,11 @@
        }
       }
      ],
-     "text": "18 (b) Determine the horizontal distance d. (5)"
+     "text": "18 (b) Determine the horizontal distance d. (5)",
+     "kindGuessed": "calc"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   },
   {
    "id": "WPH11_2026_06_A_q19",
@@ -1525,7 +1598,7 @@
     {
      "label": "19(a)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
@@ -1556,7 +1629,8 @@
        }
       }
      ],
-     "text": "19 (a) A book about icebergs claims that 70% of the mass of an iceberg is below the surface of the seawater. Deduce whether this claim is correct. density of ice = 917 kg m−3 density of seawater = 1025 kg m−3 (5)"
+     "text": "19 (a) A book about icebergs claims that 70% of the mass of an iceberg is below the surface of the seawater. Deduce whether this claim is correct. density of ice = 917 kg m−3 density of seawater = 1025 kg m−3 (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "19(b)",
@@ -1592,10 +1666,11 @@
        }
       }
      ],
-     "text": "19 (b) An iceberg is near the North Pole where it is very cold. The iceberg moves away from the North Pole and the temperature of the seawater increases slightly. The iceberg does not melt and the density of the surrounding seawater decreases. Explain what happens to the volume of the iceberg, under the surface of the seawater, as it moves away from the North Pole. (3)"
+     "text": "19 (b) An iceberg is near the North Pole where it is very cold. The iceberg moves away from the North Pole and the temperature of the seawater increases slightly. The iceberg does not melt and the density of the surrounding seawater decreases. Explain what happens to the volume of the iceberg, under the surface of the seawater, as it moves away from the North Pole. (3)",
+     "kindGuessed": "short"
     }
    ],
-   "reviewed": false
+   "check": "machine"
   }
  ]
 }
