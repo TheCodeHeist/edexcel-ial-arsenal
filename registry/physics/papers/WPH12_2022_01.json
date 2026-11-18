@@ -35,8 +35,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "C",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "65"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q1.webp",
@@ -83,8 +85,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "A",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "54"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q2.webp",
@@ -131,8 +135,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "D",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "77"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q3.webp",
@@ -179,8 +185,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "B",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "79"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q4.webp",
@@ -240,8 +248,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "B",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "45"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q5.webp",
@@ -275,7 +285,7 @@
      "kindGuessed": "mcq"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WPH12_2022_01_q6",
@@ -301,8 +311,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "C",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "47"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q6.webp",
@@ -336,7 +348,7 @@
      "kindGuessed": "mcq"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WPH12_2022_01_q7",
@@ -349,8 +361,11 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "D",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "41",
+      "40"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q7.webp",
@@ -397,8 +412,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "A",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "70"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q8.webp",
@@ -445,8 +462,10 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "B",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "40"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q9.webp",
@@ -493,8 +512,11 @@
      "marks": 1,
      "kind": "mcq",
      "answer": "C",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "80",
+      "75"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q10.webp",
@@ -553,8 +575,10 @@
      "label": "11(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "71"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q11_a.webp",
@@ -590,8 +614,11 @@
      "label": "11(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "73",
+      "66"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q11_b.webp",
@@ -627,8 +654,11 @@
      "label": "11(c)",
      "marks": 3,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "73",
+      "71"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q11_c.webp",
@@ -686,8 +716,11 @@
      "label": "12(a)",
      "marks": 4,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "56",
+      "55"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q12_a.webp",
@@ -723,8 +756,11 @@
      "label": "12(b)",
      "marks": 3,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "56",
+      "34"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q12_b.webp",
@@ -769,8 +805,11 @@
      "label": "13",
      "marks": 6,
      "kind": "extended",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "62",
+      "57"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q13.webp",
@@ -831,8 +870,11 @@
      "label": "14(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "51",
+      "52"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q14_a.webp",
@@ -868,8 +910,11 @@
      "label": "14(b)",
      "marks": 3,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "50",
+      "39"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q14_b.webp",
@@ -905,8 +950,10 @@
      "label": "14(c)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "51"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q14_c.webp",
@@ -964,8 +1011,11 @@
      "label": "15(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "43",
+      "41"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q15_a.webp",
@@ -1001,8 +1051,11 @@
      "label": "15(b)(i)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "42",
+      "43"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH12_2022_01/q15_b_intro.webp",
@@ -1052,8 +1105,11 @@
      "label": "15(b)(ii)",
      "marks": 2,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "42",
+      "43"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH12_2022_01/q15_b_intro.webp",
@@ -1125,8 +1181,11 @@
      "label": "16(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "36",
+      "35"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q16_a.webp",
@@ -1162,8 +1221,10 @@
      "label": "16(b)(i)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "45"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH12_2022_01/q16_b_intro.webp",
@@ -1213,8 +1274,11 @@
      "label": "16(b)(ii)",
      "marks": 4,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "45",
+      "47"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH12_2022_01/q16_b_intro.webp",
@@ -1264,8 +1328,10 @@
      "label": "16(b)(iii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "45"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH12_2022_01/q16_b_intro.webp",
@@ -1315,8 +1381,11 @@
      "label": "16(c)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "49",
+      "36"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q16_c.webp",
@@ -1374,8 +1443,11 @@
      "label": "17(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "68",
+      "64"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q17_a.webp",
@@ -1411,8 +1483,11 @@
      "label": "17(b)",
      "marks": 4,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "69",
+      "68"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q17_b.webp",
@@ -1469,9 +1544,12 @@
     {
      "label": "18(a)",
      "marks": 4,
-     "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "63",
+      "58"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q18_a.webp",
@@ -1507,8 +1585,10 @@
      "label": "18(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "44"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q18_b.webp",
@@ -1544,8 +1624,10 @@
      "label": "18(c)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "63"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH12_2022_01/q18_c.webp",

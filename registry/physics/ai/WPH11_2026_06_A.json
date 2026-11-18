@@ -1,39 +1,63 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "425be4d178b6",
    "kinds": {
     "1": "mcq"
+   },
+   "topics": {
+    "1": [
+     "4",
+     "13"
+    ]
    }
   },
   "10": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "6864578e6d1e",
+   "fingerprint": "798ffcf0d8cc",
    "kinds": {
     "10": "mcq"
+   },
+   "topics": {
+    "10": [
+     "18",
+     "17"
+    ]
    }
   },
   "11": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "44a42c5bef8d",
    "kinds": {
     "11": "short"
+   },
+   "topics": {
+    "11": [
+     "4"
+    ]
    }
   },
   "12": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "a8d15b7a8cfe",
    "kinds": {
     "12": "calc"
+   },
+   "topics": {
+    "12": [
+     "5",
+     "10",
+     "9"
+    ]
    }
   },
   "13": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "5ad71512e0c9",
    "kinds": {
@@ -41,10 +65,28 @@
     "13(a)(ii)": "calc",
     "13(a)(iii)": "calc",
     "13(b)": "short"
+   },
+   "topics": {
+    "13(a)(i)": [
+     "19",
+     "17"
+    ],
+    "13(a)(ii)": [
+     "20",
+     "21",
+     "17"
+    ],
+    "13(a)(iii)": [
+     "22"
+    ],
+    "13(b)": [
+     "22",
+     "17"
+    ]
    }
   },
   "14": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "bc03b62a9dcd",
    "kinds": {
@@ -52,10 +94,28 @@
     "14(b)(i)": "calc",
     "14(b)(ii)": "calc",
     "14(b)(iii)": "draw"
+   },
+   "topics": {
+    "14(a)": [
+     "20",
+     "18"
+    ],
+    "14(b)(i)": [
+     "1",
+     "10"
+    ],
+    "14(b)(ii)": [
+     "1",
+     "10"
+    ],
+    "14(b)(iii)": [
+     "2",
+     "3"
+    ]
    }
   },
   "15": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "7e71ede2df2f",
    "kinds": {
@@ -63,111 +123,219 @@
     "15(b)": "short",
     "15(c)(i)": "short",
     "15(c)(ii)": "calc"
+   },
+   "topics": {
+    "15(a)": [
+     "30",
+     "28"
+    ],
+    "15(b)": [
+     "28"
+    ],
+    "15(c)(i)": [
+     "31",
+     "28"
+    ],
+    "15(c)(ii)": [
+     "28",
+     "29",
+     "31"
+    ]
    }
   },
   "16": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "335238ac5803",
    "kinds": {
     "16(a)": "calc",
     "16(b)": "extended"
+   },
+   "topics": {
+    "16(a)": [
+     "14",
+     "13"
+    ],
+    "16(b)": [
+     "14",
+     "12",
+     "9"
+    ]
    }
   },
   "17": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "79d83041f3b4",
    "kinds": {
     "17(a)(i)": "short",
     "17(a)(ii)": "short",
     "17(b)": "calc"
+   },
+   "topics": {
+    "17(a)(i)": [
+     "9",
+     "16"
+    ],
+    "17(a)(ii)": [
+     "10",
+     "15"
+    ],
+    "17(b)": [
+     "16",
+     "15",
+     "10"
+    ]
    }
   },
   "18": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "597b34bcbd20",
    "kinds": {
     "18(a)": "calc",
     "18(b)": "calc"
+   },
+   "topics": {
+    "18(a)": [
+     "7",
+     "1",
+     "5"
+    ],
+    "18(b)": [
+     "7",
+     "1",
+     "5"
+    ]
    }
   },
   "19": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "3982e7c2e69a",
    "kinds": {
     "19(a)": "calc",
     "19(b)": "short"
+   },
+   "topics": {
+    "19(a)": [
+     "24",
+     "23",
+     "10"
+    ],
+    "19(b)": [
+     "24",
+     "23"
+    ]
    }
   },
   "2": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "9898ae1f852b",
    "kinds": {
     "2": "mcq"
+   },
+   "topics": {
+    "2": [
+     "9",
+     "10"
+    ]
    }
   },
   "3": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "eaa0cfc1ff10",
    "kinds": {
     "3": "mcq"
+   },
+   "topics": {
+    "3": [
+     "11",
+     "1"
+    ]
    }
   },
   "4": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "f09cc75e28ea",
    "kinds": {
     "4": "mcq"
+   },
+   "topics": {
+    "4": [
+     "9",
+     "3"
+    ]
    }
   },
   "5": {
-   "at": "2026-11-18",
-   "concerns": [
-    "5: missing the lead-in text and graph ('Questions 5 and 6 refer to the following information')"
-   ],
-   "fingerprint": "678e081d6a90",
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "bf8ac8ee675a",
    "kinds": {
     "5": "mcq"
+   },
+   "topics": {
+    "5": [
+     "27",
+     "29"
+    ]
    }
   },
   "6": {
-   "at": "2026-11-18",
-   "concerns": [
-    "6: missing the lead-in text and graph ('Questions 5 and 6 refer to the following information')"
-   ],
-   "fingerprint": "48a82f6ceb7e",
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "ed91e2fd34da",
    "kinds": {
     "6": "mcq"
+   },
+   "topics": {
+    "6": [
+     "32",
+     "29"
+    ]
    }
   },
   "7": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "e306d8e88a9d",
    "kinds": {
     "7": "mcq"
+   },
+   "topics": {
+    "7": [
+     "6"
+    ]
    }
   },
   "8": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "0978fcf41698",
    "kinds": {
     "8": "mcq"
+   },
+   "topics": {
+    "8": [
+     "25"
+    ]
    }
   },
   "9": {
-   "at": "2026-11-18",
+   "at": "2026-11-19",
    "concerns": [],
    "fingerprint": "8a1063ab9f11",
    "kinds": {
     "9": "mcq"
+   },
+   "topics": {
+    "9": [
+     "27"
+    ]
    }
   }
  }
