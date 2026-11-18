@@ -1210,6 +1210,10 @@
           },
           "sha256": "8c69d59d44e2fac10a2e5b1a48c04ea55966ccb0a863210508977091851a2561"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_FP1A_MS_1786858011195.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -1804,6 +1808,10 @@
           },
           "sha256": "1482a2293d6096cb04f45282ec4144ffa90e437e6fec54cd70436df0b30bbbc2"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_FP2A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -1935,6 +1943,10 @@
           },
           "sha256": "2ec4764647f01bd0851cf33f958013c5153836ba3022a8d291253795f9ad9c27"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_FP2A_MS_1786858013805.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -3581,6 +3593,10 @@
           },
           "sha256": "8751d8d75bc361a853194ea34586b84b62f8df9cd74632edd836a124e8b546a7"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P1A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -4631,6 +4647,10 @@
           },
           "sha256": "b9953cf57df5bdd6920e53fdbdf8fec59637360b27fe810cf693e2e0c83d5508"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P2A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -5635,6 +5655,10 @@
           },
           "sha256": "cbca4c53d3c3fb6c8367e204a09ae14f7ea38605e85518e22070562d6de1eee6"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P3A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -6591,6 +6615,10 @@
           },
           "sha256": "9cbdd399929aa87966119dd7603cdb804cbc16f40a2c999d52b81b0eedffd799"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P4A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -7748,6 +7776,10 @@
           },
           "sha256": "a9b1549748454cd7975c7558d4aee0fd753c23ab0bf522e2d15843b974cc8b42"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M1A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -7775,16 +7807,14 @@
         "via": "paperlords",
         "sha256": "15e0cb42a104f97f25a5a721d866aaa80d2657aa22c7ca85b1ca811256be1cf3",
         "check": {
-          "status": "mismatch",
+          "status": "ok",
           "cover": {
-            "kind": "qp",
+            "kind": "ms",
             "code": "WME01",
-            "variant": ""
+            "variant": "",
+            "series": "2026-06"
           },
-          "sha256": "15e0cb42a104f97f25a5a721d866aaa80d2657aa22c7ca85b1ca811256be1cf3",
-          "problems": [
-            "kind: cover says qp, expected ms"
-          ]
+          "sha256": "15e0cb42a104f97f25a5a721d866aaa80d2657aa22c7ca85b1ca811256be1cf3"
         }
       }
     },
@@ -8567,6 +8597,10 @@
           },
           "sha256": "a80ff409bb6b37ab127175c29e2c4a49d8bd42418ed0ab809718fbfdab9e1707"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_M2A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -8698,6 +8732,10 @@
           },
           "sha256": "01e63e3004c72ce620618ff9d6b5c3e9382e156da788f7501674e2255c77abe6"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/Jan 2026/IAL_MATHS_2026_Jan_M2A_MS_1789918194867.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -8755,6 +8793,10 @@
           },
           "sha256": "4498ad9047ffe0c3e6ea1b091ee2b6be421d211d7092745ae6bd06a79eb448a0"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_M2A_MS_1786858022055.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -9158,6 +9200,10 @@
           },
           "sha256": "0e1e9dce6e3d29bc74a138b3afa33e23f2df14724535bb2c1503f73bc3909762"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M3A_MS.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -9216,6 +9262,10 @@
           },
           "sha256": "6aa30cb0ffd7ffa3ce5209529d43aa677ce0e21eb52851a8d61b0e1f3f88bc35"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_M3A_MS_1786858581873.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -10206,6 +10256,10 @@
           },
           "sha256": "3687f2341ab4d2c4a5dc2dea43b61c79bfa1cbb89851aa50f38f1b2a731c92eb"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S1A_MS_1787724195905.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -11118,6 +11172,10 @@
           },
           "sha256": "9e54b6e2dbfc50c57a66e33df90948ea0938ff747794416eaa9d1b0c49c7216a"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S2A_MS_1787724198249.pdf",
+        "via": "paperlords"
       }
     },
     {
@@ -11632,105 +11690,12 @@
           },
           "sha256": "5d7b2c244222427aa5425b56e1e29537d9602561c825600a949b0d8010480371"
         }
+      },
+      "ms": {
+        "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S3A_MS_1787724199843.pdf",
+        "via": "paperlords"
       }
     }
   ],
-  "rejected": [
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_FP1A_MS_1786858011195.pdf",
-      "via": "paperlords",
-      "filed_as": "WFM01_2026_06_A MS",
-      "reason": "cover says WFM01 2026-06 MS; WFM01_2026_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_FP2A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WFM02_2025_06_A MS",
-      "reason": "cover says WFM02 2025-06 MS; WFM02_2025_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_FP2A_MS_1786858013805.pdf",
-      "via": "paperlords",
-      "filed_as": "WFM02_2026_06_A MS",
-      "reason": "cover says WFM02 2026-06 MS; WFM02_2026_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P1A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WMA11_2025_06_A MS",
-      "reason": "cover says WMA11 2025-06 MS; WMA11_2025_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P2A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WMA12_2025_06_A MS",
-      "reason": "cover says WMA12 2025-06 MS; WMA12_2025_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P3A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WMA13_2025_06_A MS",
-      "reason": "cover says WMA13 2025-06 MS; WMA13_2025_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_P4A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WMA14_2025_06_A MS",
-      "reason": "cover says WMA14 2025-06 MS; WMA14_2025_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M1A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WME01_2026_01_A MS",
-      "reason": "cover says WME01 2026-01 MS; WME01_2026_01 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_M2A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WME02_2025_06_A MS",
-      "reason": "cover says WME02 2025-06 MS; WME02_2025_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/Jan 2026/IAL_MATHS_2026_Jan_M2A_MS_1789918194867.pdf",
-      "via": "paperlords",
-      "filed_as": "WME02_2026_01_A MS",
-      "reason": "cover says WME02 2026-01 MS; WME02_2026_01 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_M2A_MS_1786858022055.pdf",
-      "via": "paperlords",
-      "filed_as": "WME02_2026_06_A MS",
-      "reason": "cover says WME02 2026-06 MS; WME02_2026_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M3A_MS.pdf",
-      "via": "paperlords",
-      "filed_as": "WME03_2026_01_A MS",
-      "reason": "cover says WME03 2026-01 MS; WME03_2026_01 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_M3A_MS_1786858581873.pdf",
-      "via": "paperlords",
-      "filed_as": "WME03_2026_06_A MS",
-      "reason": "cover says WME03 2026-06 MS; WME03_2026_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S1A_MS_1787724195905.pdf",
-      "via": "paperlords",
-      "filed_as": "WST01_2026_06_A MS",
-      "reason": "cover says WST01 2026-06 MS; WST01_2026_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S2A_MS_1787724198249.pdf",
-      "via": "paperlords",
-      "filed_as": "WST02_2026_06_A MS",
-      "reason": "cover says WST02 2026-06 MS; WST02_2026_06 already has its own copy"
-    },
-    {
-      "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S3A_MS_1787724199843.pdf",
-      "via": "paperlords",
-      "filed_as": "WST03_2026_06_A MS",
-      "reason": "cover says WST03 2026-06 MS; WST03_2026_06 already has its own copy"
-    }
-  ]
+  "rejected": []
 }
