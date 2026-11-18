@@ -1,0 +1,33 @@
+{
+  "$comment": "IAL Mathematics / Further Mathematics papers: links (PaperLords first, PMT as mirrors) and checksums. Kept apart from registry/sources.json (Physics) so the two pipelines never edit the same file. Written by pipeline/maths/scrape_links.py and fetch_pdfs.py.",
+  "providers": {
+    "pearson": {
+      "name": "Pearson Edexcel",
+      "url": "https://qualifications.pearson.com/",
+      "hosts": [
+        "qualifications.pearson.com"
+      ],
+      "credit": "Papers and mark schemes are © Pearson Education Ltd, reproduced for non-commercial study."
+    },
+    "paperlords": {
+      "name": "PaperLords",
+      "url": "https://www.paperlords.org/ial",
+      "hosts": [
+        "archive.paperlords.org",
+        "pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev"
+      ],
+      "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+    },
+    "pmt": {
+      "name": "Physics & Maths Tutor",
+      "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+      "hosts": [
+        "pmt.physicsandmathstutor.com"
+      ],
+      "credit": "Archived by Physics & Maths Tutor."
+    }
+  },
+  "specs": [],
+  "papers": [],
+  "rejected": []
+}
