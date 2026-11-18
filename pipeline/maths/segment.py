@@ -301,10 +301,14 @@ def check(questions):
 
 # A label may trail one stray '(' from MathType on the same line ('(b) (i) (' in P1 Jan 2024's Q6).
 MS_LABEL = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)*)\(?\s*$")
-# A question's closing total, in each unit's style: '(7 marks)' (P), '(Total 5 marks)' (FP), 'Total 8' (S),
-# or a bold '(6)' (M), which looks like a part total and is told apart by matching the question's total.
 MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*)$")   # M2: '1a', '2b(ii)'
-MS_TOTAL = re.compile(r"^(?:\((?:Total\s+)?(\d{1,2})\s+marks?\)|Total\s+(\d{1,2})(?:\s+marks?)?|\((\d{1,2})\))$", re.I)
+# A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …').
+MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)(?=\S)")
+# A question's closing total, in each unit's style: '(7 marks)' (P), '(Total 5 marks)' (FP), 'Total 8' (S1),
+# '(6)' (M1, bold), '[8]' (S3, bold), '(9)' (M3, plain, after bold part totals '[5]'). The bracketed forms look
+# just like part totals and boldness differs by unit, so they count only when the number is the question's
+# total as printed on the question paper.
+MS_TOTAL = re.compile(r"^(?:\((?:Total\s+)?(\d{1,2})\s+marks?\)|Total\s+(\d{1,2})(?:\s+marks?)?|[(\[](\d{1,2})[)\]])$", re.I)
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 
 
@@ -366,6 +370,18 @@ def ms_split(ms_doc, questions):
     # the table starts on the first page whose 'Question' header sits in the first column
     header_pages = {l.page for l in lines if l.x0 < 160 and re.match(r"Question\b(?! Paper)", l.text, re.I)}
     totals = {q.number: q.total for q in questions}
+    headers = [l for l in lines if l.x0 < 160 and re.match(r"(Question|Number)\b(?! Paper)", l.text, re.I)]
+
+    page_top = {}
+    for l in lines:
+        page_top[l.page] = min(page_top.get(l.page, 1e9), l.y0)
+
+    def under_header(line):
+        """Where a new question's table begins: just below a 'Question Number' header row, or as the first line
+        of a page (M3 starts each question on a fresh page with no header, and numbers it with a plain '4',
+        the same as a stray digit of the maths elsewhere)."""
+        return (line.y0 - page_top[line.page] < 3
+                or any(h.page == line.page and 0 < line.y0 - h.y1 < 45 for h in headers))
     if not header_pages:
         return [], {}, ["mark scheme: no 'Question Number' table header found"], lines, items
     first_page = min(header_pages)
@@ -378,7 +394,7 @@ def ms_split(ms_doc, questions):
             continue
         col = columns.get(l.page) or fallback
         t = MS_TOTAL.match(l.text) if rows and col and l.x0 > col[1] + 120 else None
-        if t and t[3] and not (l.bold and int(t[3]) == totals.get(rows[-1].q)):
+        if t and t[3] and int(t[3]) != totals.get(rows[-1].q):
             t = None                                        # a part's '(3)', not the question's total
         if t:
             r = rows[-1]
@@ -386,18 +402,25 @@ def ms_split(ms_doc, questions):
             r.end = (l.page, l.y1 + PAD)
             closed = True
             continue
-        # a label starts inside the column; its line may overhang the rule a little when a stray '(' of the
-        # scheme's maths is merged onto it ('(b) (i) (' in P1 Jan 2024)
-        if col is None or not (col[0] <= l.x0 < col[1] and l.x1 <= col[1] + 20):
+        # A label starts inside the column. Its line may overhang the rule a little when a stray '(' of the
+        # scheme's maths is merged onto it ('(b) (i) (' in P1 Jan 2024), or run on with the scheme's text (S3).
+        if col is None or not col[0] <= l.x0 < col[1]:
             continue
-        if b := MS_LABEL_BARE.match(l.text):
+        long_line = l.x1 > col[1] + 20
+        lead = MS_LABEL_LEAD.match(l.text) if long_line else None
+        if long_line and not lead:
+            continue                                        # a line of scheme text that merely starts here
+        if lead:
+            num, labs = lead[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", lead[2])
+        elif b := MS_LABEL_BARE.match(l.text):
             num, labs = b[1], [b[2], *re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3] or "")]
         elif (m := MS_LABEL.match(l.text)) and (m[1] or m[2]):
             num, labs = m[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", m[2] or "")
         else:
             continue                                        # 'Notes', 'Alt', 'Way 2', 'Note 1' …
-        if num and not labs and not l.bold and "." not in l.text:
-            continue                                        # a lone plain digit: a fragment of the maths
+        if num and not labs and not l.bold and "." not in l.text and not (
+                under_header(l) and (cur_q is None or closed)):
+            continue    # a lone plain digit, unless it opens a table after the last question closed: maths
         if num:
             n = int(num)
             if n == cur_q and labs and not closed:
