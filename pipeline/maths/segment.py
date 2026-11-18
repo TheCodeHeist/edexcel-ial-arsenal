@@ -325,7 +325,9 @@ MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)
 # '(6)' (M1, bold), '[8]' (S3, bold), '(9)' (M3, plain, after bold part totals '[5]'). The bracketed forms look
 # just like part totals and boldness differs by unit, so they count only when the number is the question's
 # total as printed on the question paper.
-MS_TOTAL = re.compile(r"^(?:\((?:Total\s+)?(\d{1,2})\s+marks?\)|Total\s+(\d{1,2})(?:\s+marks?)?|[(\[](\d{1,2})[)\]])$", re.I)
+# Also '7 marks', '[7 marks]', '(7marks)', '7 Marks' in other series.
+MS_TOTAL = re.compile(r"^(?:[(\[]?(?:Total\s+)?(\d{1,2})\s*marks?[)\]]?|Total\s+(\d{1,2})(?:\s+marks?)?|[(\[](\d{1,2})[)\]])$",
+                      re.I)
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 
 
