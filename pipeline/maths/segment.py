@@ -318,6 +318,9 @@ def check(questions):
 
 # A label may trail one stray '(' from MathType on the same line ('(b) (i) (' in P1 Jan 2024's Q6).
 MS_LABEL = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)*)\(?\s*$")
+MS_LETTER = re.compile(r"^(?:[a-h]|i|ii|iii|iv|v|vi)$")       # a part alone, under its number: '1' then 'a' (M2 2026)
+FIRST_LABEL = re.compile(r"^1(?:\s*\.|\s*\(?[a-h]\)?)?(?:\s*\(\s*[a-z]{1,4}\s*\))*\s*$")   # question 1's label: '1', '1.', '1a', '1(a)'
+HEADER = re.compile(r"^(?:Question\b(?! Paper)|Q$|Q\s+(?=[A-Z]))", re.I)
 MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*)$")   # M2: '1a', '2b(ii)'
 # A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …').
 MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)(?=\S)")
@@ -388,23 +391,41 @@ def ms_split(ms_doc, questions):
         first = next((n.path[0] for n in q.parts if n.path), None)
         level1[q.number] = None if first is None else ("roman" if first in ROMAN else "letter")
     # the table starts on the first page whose 'Question' header sits in the first column
-    header_pages = {l.page for l in lines if l.x0 < 160 and re.match(r"Question\b(?! Paper)", l.text, re.I)}
+    # the first column's heading: 'Question Number', 'QUESTION', or just 'Q' (M2 2021–22)
+    header_pages = {l.page for l in lines if l.x0 < 160 and HEADER.match(l.text)}
     totals = {q.number: q.total for q in questions}
-    headers = [l for l in lines if l.x0 < 160 and re.match(r"(Question|Number)\b(?! Paper)", l.text, re.I)]
+    part_labels = {q.number: {x for n in q.parts for x in n.path} for q in questions}
+    headers = [l for l in lines if l.x0 < 160 and (HEADER.match(l.text) or re.match(r"Number\b", l.text, re.I))]
 
     page_top = {}
     for l in lines:
         page_top[l.page] = min(page_top.get(l.page, 1e9), l.y0)
 
+    def in_column(line):
+        col = columns.get(line.page) or fallback
+        return col is not None and col[0] <= line.x0 < col[1]
+
+    col_top = {}            # the first label-sized line in each page's label column (not guidance prose
+    for l in lines:         # that happens to start at the same x, as on M2 2026's first table page)
+        col = columns.get(l.page) or fallback
+        if in_column(l) and l.x1 <= col[1] + 20 and l.page not in col_top:
+            col_top[l.page] = l.y0
+
     def under_header(line):
-        """Where a new question's table begins: just below a 'Question Number' header row, or as the first line
-        of a page (M3 starts each question on a fresh page with no header, and numbers it with a plain '4',
-        the same as a stray digit of the maths elsewhere)."""
+        """Where a new question's table begins: just below a 'Question Number' header row, as the first line of
+        a page (M3 starts each question on a fresh page with no header), or as the first thing in the page's
+        label column (M2 2026). There a plain '4' is a question number; anywhere else it's a digit of the maths."""
         return (line.y0 - page_top[line.page] < 3
+                or col_top.get(line.page) == line.y0
                 or any(h.page == line.page and 0 < line.y0 - h.y1 < 45 for h in headers))
-    if not header_pages:
+
+    # The table starts at the first header, or at the first ruled first column holding question 1's label,
+    # whichever comes first (some mark schemes print their header only on later pages, or not at all).
+    starts = set(header_pages) | {l.page for l in lines if l.page in columns and in_column(l)
+                                  and FIRST_LABEL.match(l.text)}
+    if not starts:
         return [], {}, ["mark scheme: no 'Question Number' table header found"], lines, items
-    first_page = min(header_pages)
+    first_page = min(starts)
     rows, notes, problems = [], {}, []
     cur_q, path = None, ()
     expected = 1
@@ -436,6 +457,9 @@ def ms_split(ms_doc, questions):
             num, labs = b[1], [b[2], *re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3] or "")]
         elif (m := MS_LABEL.match(l.text)) and (m[1] or m[2]):
             num, labs = m[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", m[2] or "")
+        elif (MS_LETTER.match(l.text) and cur_q is not None and not closed
+              and l.text in part_labels.get(cur_q, ())):        # a real part of this question, not an 'e' of the maths
+            num, labs = None, [l.text]
         else:
             continue                                        # 'Notes', 'Alt', 'Way 2', 'Note 1' …
         if num and not labs and not l.bold and "." not in l.text and not (
