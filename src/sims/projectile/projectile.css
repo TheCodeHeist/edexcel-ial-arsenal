@@ -1,0 +1,95 @@
+/* Projectile Lab: Launch (flight | settings, readings and examples, with the graph under the flight), Predict and
+   Target (flight | question). The scene draws itself (Scene.svelte). */
+
+.layout{display:grid;gap:16px;align-items:start}
+.layout.launch{grid-template-columns:minmax(0,1fr) minmax(290px,330px);grid-template-areas:"stage side" "graph side"}
+.layout.launch>.stage{grid-area:stage}
+.layout.launch>.side{grid-area:side;display:flex;flex-direction:column;gap:16px;min-width:0}
+.layout.launch>.graph{grid-area:graph}
+.layout.predict{grid-template-columns:minmax(0,1fr) minmax(320px,400px)}
+
+/* the sky: a quiet drafting sheet inside the glass panel */
+.stage{padding-bottom:14px}
+.sky{margin:0 14px;border-radius:var(--r-md);border:1px solid var(--rim);overflow:hidden;
+  background:color-mix(in srgb,var(--solid) 55%,transparent);box-shadow:inset 0 2px 10px -4px var(--shadow)}
+.board-note{margin:10px 16px 0;font-size:12.5px;color:var(--muted)}
+
+/* fire, play and the time scrubber */
+.playbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:12px 14px 0}
+.playbar .fire svg{width:18px;height:18px}
+.playbtn{min-width:78px;justify-content:center}
+.scrub{flex:1 1 140px;min-width:120px}
+.clock{font:700 13.5px/1 var(--f-mono);font-variant-numeric:tabular-nums;min-width:10ch}
+
+/* the shots so far, each in its trace colour */
+.shots{display:flex;flex-wrap:wrap;gap:6px;margin:12px 14px 0}
+.shot{display:inline-flex;align-items:stretch;border:1px solid var(--rim);background:var(--raised);border-radius:999px;box-shadow:inset 0 1px 0 var(--hl);position:relative}
+.shot button{border:0;background:none;cursor:pointer;font:600 12px/1 var(--f-mono);color:var(--ink);padding:6px 4px 6px 10px;display:inline-flex;align-items:center;gap:7px;border-radius:999px;position:relative}
+.shot button i{width:14px;height:3px;border-radius:2px;background:var(--cc)}
+.shot button[aria-pressed="true"]{color:var(--ink)}
+.shot:has(button[aria-pressed="true"]){border-color:var(--cc);box-shadow:inset 0 0 0 1px var(--cc)}
+.shot .x{padding:6px 10px 6px 6px;color:var(--muted);font-size:14px}
+.shot .x:hover{color:var(--bad)}
+.shows{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:12px 14px 0}
+.shows b{font:600 10.5px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+
+/* settings, readings, examples */
+.ctls{display:flex;flex-direction:column;gap:14px;padding:6px 16px 16px}
+.ctls .seg{align-self:flex-start;flex-wrap:wrap}
+.ctls .why{margin:0}
+.reads.pad{margin:0 14px 12px}
+.reads .h dd{color:var(--accent)} .reads .v dd{color:var(--redox)}
+.why.pad2{margin:0 16px 14px}
+.exlist{display:flex;flex-direction:column;gap:3px;padding:0 8px 12px}
+.exbtn{text-align:left;border:1px solid transparent;background:none;border-radius:var(--r-sm);padding:7px 9px;cursor:pointer;position:relative;display:flex;flex-direction:column;gap:2px}
+.exbtn b{font-weight:650;font-size:13.5px}
+.exbtn small{font-size:12px;color:var(--muted);line-height:1.3}
+.exbtn:hover{background:var(--accent-soft)}
+
+/* graph */
+.graph{padding-bottom:4px}
+.graph .ph{flex-wrap:wrap}
+.graph-body{display:grid;grid-template-columns:minmax(0,560px) minmax(0,1fr);gap:8px 20px;align-items:start;padding:0 16px 12px}
+.graph-side{display:flex;flex-direction:column;gap:10px;padding-top:12px}
+.plot-box{padding:4px 0 0;min-width:0}
+
+/* question and aim panels */
+.qbody .verdict{margin:0;font-weight:700}
+.qbody .verdict.ok{color:var(--good);animation:popin .35s var(--spring)} .qbody .verdict.no{color:var(--bad)}
+.qbody>.btn{align-self:flex-start}
+.qbody>.btn.big{align-self:stretch;justify-content:center}
+.qbody .why{margin:0}
+.nudge{display:flex;align-items:center;gap:6px}
+.num{width:84px;height:34px;border:1px solid var(--rim);background:var(--raised);border-radius:999px;text-align:center;
+  font:700 14px/1 var(--f-mono);font-variant-numeric:tabular-nums;color:var(--ink);-webkit-user-select:text;user-select:text}
+.num:focus{outline:2px solid var(--accent);outline-offset:1px}
+.scope{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:8px;margin:-4px 0 14px}
+
+/* selection: chrome inert, readings and working copyable */
+.sky,.shot,.exbtn{-webkit-user-select:none;user-select:none}
+.qprompt,.reveal .eq,.board-note,.why{-webkit-user-select:text;user-select:text}
+
+@media (max-width:1180px){
+  .layout.launch{grid-template-columns:minmax(0,1fr) minmax(280px,300px)}
+}
+@media (max-width:1180px){
+  .graph-body{grid-template-columns:minmax(0,1fr)}
+  .graph-side{padding-top:0}
+}
+@media (max-width:900px){
+  .layout.launch{grid-template-columns:minmax(0,1fr);grid-template-areas:"stage" "side" "graph"}
+  .layout.predict{grid-template-columns:minmax(0,1fr)}
+  .exlist{flex-direction:row;overflow-x:auto;padding:0 10px 12px;gap:6px;scrollbar-width:thin}
+  .exbtn{flex:none;width:220px;border-color:var(--rim);background:var(--raised);border-radius:var(--r-md)}
+}
+@media (max-width:760px){
+  .sky{margin:0 8px}
+  .playbar,.shots,.shows{margin-inline:8px}
+  .stage-head{padding:12px 10px 10px}
+  .graph-body{padding-inline:8px}
+  .scope{justify-content:flex-start}
+}
+@media (max-width:480px){
+  .playbar .seg button{padding:6px 10px}
+  .clock{min-width:0}
+}

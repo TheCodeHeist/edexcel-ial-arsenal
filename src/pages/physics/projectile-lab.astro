@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/projectile/App.svelte';
+import '../../sims/projectile/projectile.css';
+---
+<Sim title="Projectile Lab" description="Launch projectiles, see their components and strobe images, answer exam-style questions and hit targets, for Edexcel IAL Physics Unit 1.">
+  <App client:only="svelte" />
+</Sim>

@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile';
 
 export interface Tool {
   slug: string;
@@ -56,6 +56,18 @@ export const TOOLS: Tool[] = [
     art: 'circuit',
     href: '/physics/circuit-builder/',
     added: '2026-11-17',
+  },
+  {
+    slug: 'projectile-lab',
+    subject: 'physics',
+    title: 'Projectile Lab',
+    blurb: 'Launch projectiles from the ground or a cliff and watch their strobe images, shadows and velocity components. Answer exam-style questions drawn to scale and land shots on targets.',
+    kind: 'Simulation',
+    units: ['WPH11'],
+    topics: ['Projectile motion', 'SUVAT equations', 'Resolving vectors', 'Motion graphs'],
+    art: 'projectile',
+    href: '/physics/projectile-lab/',
+    added: '2026-11-18',
   },
 ];
 

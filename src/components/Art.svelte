@@ -54,6 +54,18 @@
     {#each [[-44, 2], [44, -2], [-24, 36], [28, 36]] as [x, y]}
       <circle cx={x} cy={y} r="3.4" fill="var(--redox)" />
     {/each}
+  {:else if name === 'projectile'}
+    <!-- a launcher on a ledge, a parabola with strobe images and the velocity components at one of them -->
+    <path d="M-56 46 H56" stroke="var(--ink)" stroke-opacity=".55" stroke-width="2.4" />
+    <path d="M-56 22 H-40 V46" stroke="var(--ink)" stroke-opacity=".55" stroke-width="2.4" />
+    <path d="M-40 22 Q-6 -78 44 46" stroke="var(--accent)" stroke-width="2.2" stroke-dasharray="3 5" />
+    {#each [[-31, 4], [-21, -11], [-10, -19], [1, -21], [12, -16], [23, -5], [34, 14]] as [x, y], i}
+      <circle cx={x} cy={y} r="4" fill="var(--solid)" stroke="var(--accent)" stroke-width="2" stroke-opacity={0.45 + i * 0.07} />
+    {/each}
+    <path d="M23 -5 H45 M41 -9 L45 -5 L41 -1" stroke="var(--accent)" stroke-width="2.4" />
+    <path d="M23 -5 V17 M19 13 L23 17 L27 13" stroke="var(--redox)" stroke-width="2.4" />
+    <circle cx="23" cy="-5" r="5" fill="var(--amph)" />
+    <path d="M-40 22 l9 -11" stroke="var(--ink)" stroke-opacity=".8" stroke-width="5" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

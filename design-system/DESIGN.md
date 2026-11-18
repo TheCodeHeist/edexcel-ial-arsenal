@@ -150,6 +150,15 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Angles:** parts turn in 45° steps (R) and wires run along the grid or at exactly 45°. A 45° part's terminals sit one grid step across and one down, so its leads are drawn √2 longer and its label sits beside it on the right.
 - **Graphs** put the axes through the origin, use crosses for readings, a dashed `--accent` line for the true curve and a `--redox` line of best fit. Axis labels are written `I / A`, `V / V`, as on an exam paper.
 
+## 9c · Physics rules (Projectile Lab)
+
+- **Scenes are to scale**: one metre is the same length across and up, so angles look right. The view fits the shots (or the question) and glides to a new fit; one SVG unit is one CSS pixel, so labels stay readable on phones. Question and target scenes shrink their height to what they need; the Launch scene keeps a fixed height so sliders never make the page jump.
+- **Components keep their colours everywhere**: horizontal is `--accent`, vertical is `--redox`, the resultant a dashed `--ink` arrow. Readings, shadows and arrows all follow this.
+- **Strobe images** are hollow rings at equal time steps (a tidy 1, 2 or 5 × 10ⁿ s, about 12 per flight). **Shadows** project each image onto the ground (`--accent`) and the launch line (`--redox`).
+- **Shots** take trace colours in order (`--ch1`…`--ch6`, at most six); older paths fade to 50%. A target hit turns the last path `--good`.
+- **Set-up labels** (u, θ, h) are drawn on the scene, the unknown shown as “?”; dimension lines and their pills are `--amph`. A target is a `--acidbase` strip with a flag; walls and platforms are `--solid` with an ink outline; the cliff is `--solid` with a faint hatch.
+- **Exam conventions**: g = 9.81 m s⁻², no air resistance in Predict and Target; units written m s⁻¹; given values without trailing zeros, answers to 3 significant figures.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.
