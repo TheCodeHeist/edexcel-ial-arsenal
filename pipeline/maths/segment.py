@@ -112,7 +112,9 @@ def label_of(q, path):
 
 # ---------------------------------------------------------------------------------------------- reading
 
-def read_lines(doc, skip_cover=True):
+def read_lines(doc, skip_cover=True, top=COL_Y0):
+    """Text lines in the printed column. `top`: mark-scheme pages have no furniture above the column, and
+    a table row continued onto a new page can put its label at y≈29 (FP3 Jan 2024), so they read from 20."""
     lines = []
     for pno, page in enumerate(doc):
         if skip_cover and pno == 0:
@@ -123,7 +125,7 @@ def read_lines(doc, skip_cover=True):
                 if not spans:
                     continue
                 x0, y0, x1, y1 = l["bbox"]
-                if x1 < COL_X0 or x0 > COL_X1 or y0 < COL_Y0 or y0 > COL_Y1:
+                if x1 < COL_X0 or x0 > COL_X1 or y0 < top or y0 > COL_Y1:
                     continue
                 text = " ".join("".join(s["text"] for s in l["spans"]).split())
                 lines.append(Line(pno, x0, y0, x1, y1, text, any("Bold" in s["font"] for s in spans)))
@@ -215,7 +217,12 @@ def outline(lines, items):
                     while n < min(len(shared), len(p)) and shared[n] == p[n]:
                         n += 1
                     shared = shared[:n]
-                bpath = tuple(shared) or pending[0][0][:1]
+                if shared:
+                    bpath = tuple(shared)
+                elif all(len(p) == 1 for p, _ in pending):
+                    bpath = ()      # sibling labels under one mark ('(i) … (ii) … (8)', M1 Q4): the question
+                else:
+                    bpath = pending[0][0][:1]
             elif q.parts:
                 q.problems.append(f"Q{q.number}: mark ({marks}) at p{l.page + 1} y{l.y0:.0f} with no new label")
                 bpath = q.parts[-1].path
@@ -224,7 +231,9 @@ def outline(lines, items):
             # where the block starts: the first line after the previous mark (so 'Given that …' lead-ins
             # belong to the part they introduce); the first block starts at its first label
             if prev_mark is None:
-                start_line = first_label or q.line
+                # a block that is the whole question ('(i) … (ii) … (8)') has no stem crop to carry the
+                # question's opening, so it starts at the question number, figure and all
+                start_line = q.line if bpath == () else (first_label or q.line)
             else:
                 start_line = next(x for x in lines if (x.page, x.y0) > (prev_mark.page, prev_mark.y1 - 1)
                                   and not RULED.match(x.text) and not CONTINUED.match(x.text))
@@ -341,7 +350,8 @@ def label_columns(ms_doc):
             continue
         left = xs[0]
         right = next((x for x in xs if x > left + 12), None)
-        if right is not None:
+        # a first column is narrow; a 'column' spanning most of the page is a notes box drawn round the text
+        if right is not None and right - left < 150:
             out[pno] = (left - 3, right + 2)
     return out
 
@@ -359,7 +369,7 @@ def label_x(lines):
 
 def ms_split(ms_doc, questions):
     """Mark-scheme segments, one per label in the 'Question Number' column, and each question's notes."""
-    lines = read_lines(ms_doc, skip_cover=False)
+    lines = read_lines(ms_doc, skip_cover=False, top=20)
     items = content_items(ms_doc, lines)
     columns = label_columns(ms_doc)
     fallback = label_x(lines)
