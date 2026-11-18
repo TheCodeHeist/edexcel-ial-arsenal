@@ -1,0 +1,72 @@
+---
+/* Practice by topic: every spec statement of a subject, unit by unit, with how many past-paper parts test it. */
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/papers.css';
+import { SUBJECTS, type Subject } from '../../../data/subjects';
+import { topicList, partsByTopic } from '../../../lib/papers/registry';
+
+export function getStaticPaths() {
+  return SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
+}
+const { s } = Astro.props as { s: Subject };
+const list = topicList(s.id);
+const parts = partsByTopic(s.id);
+const tagged = list ? list.units.flatMap((u) => u.groups.flatMap((g) => g.points)).filter((p) => parts.has(p.id)).length : 0;
+const total = [...parts.values()].reduce((n, xs) => n + xs.length, 0);
+---
+<Base
+  title={`${s.name} practice by topic`}
+  description={`Every Edexcel IAL ${s.name} past-paper question, sorted by specification topic, with mark schemes.`}
+  tab={s.id}
+  status={{ label: `${s.name} by topic`, hint: list ? 'Pick a spec statement to practise every question on it.' : 'Topics are on the way.' }}
+  stats={[{ label: 'Topics', value: tagged }, { label: 'Question parts', value: total }]}
+>
+  <section style={`--hue:var(${s.hue})`}>
+    <div class="section-h">
+      <div>
+        <h2><span class="d">P</span>ractice by topic</h2>
+        <p>Every past-paper question part on a specification point, from every series, with its mark scheme.</p>
+      </div>
+      <a class="btn" href={`/${s.id}/papers/`}>Papers by year</a>
+    </div>
+
+    <p class="credit-note panel">
+      Topics were suggested by an AI reader from each question and its mark scheme and are being checked, so a
+      question can sit under a neighbouring point. The questions and mark schemes are © Pearson Education Ltd,
+      shared for free by{' '}<a href="https://www.paperlords.org/ial">PaperLords</a> and{' '}
+      <a href="https://www.physicsandmathstutor.com/">Physics &amp; Maths Tutor</a>.
+    </p>
+
+    {!list ? (
+      <div class="panel empty-state rise">
+        <h3>No {s.name} topics yet</h3>
+        <p>{s.name} questions will be sorted by topic once its papers are in.</p>
+      </div>
+    ) : (
+      <div class="topic-units">
+        {list.units.map((u, i) => (
+          <article class="glass topic-unit rise" style={`--i:${i}`}>
+            <header>
+              <span class="code">{u.code}</span>
+              <h3>{u.title}</h3>
+            </header>
+            {u.groups.map((g) => (
+              <div class="topic-group">
+                <h4>{g.id} {g.title}</h4>
+                <ul>
+                  {g.points.map((p) => { const n = parts.get(p.id)?.length ?? 0; return (
+                    <li>
+                      {n > 0
+                        ? <a href={`/${s.id}/topics/${p.id}/`} title={p.text}><span class="pid">{p.id}</span>{p.short}<span class="n">{n}</span></a>
+                        : <span class="none" title={p.text}><span class="pid">{p.id}</span>{p.short}<span class="n">0</span></span>}
+                    </li>
+                  ); })}
+                </ul>
+              </div>
+            ))}
+          </article>
+        ))}
+      </div>
+    )}
+  </section>
+</Base>

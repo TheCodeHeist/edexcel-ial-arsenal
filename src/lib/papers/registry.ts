@@ -50,3 +50,34 @@ export function topicIndex(subject: Subject): Map<string, TopicPoint> {
 export function safeUrl(url: string): string {
   return encodeURI(decodeURI(url));
 }
+
+/** The subject's topic list (units → groups → points), or undefined if it has none yet. */
+export function topicList(subject: Subject): TopicList | undefined {
+  return Object.values(TOPIC_FILES).find((t) => t.subject === subject);
+}
+
+/** One tagged part, with what's needed to show it on its own: its paper, its question, and the part. */
+export interface TaggedPart {
+  paper: Paper;
+  question: Question;
+  part: Question['parts'][number];
+  /** the part's position in its question (its lead-in is shown only when it differs from the part before) */
+  index: number;
+}
+
+/** Every published part tagged with each topic id, newest paper first. */
+export function partsByTopic(subject: Subject): Map<string, TaggedPart[]> {
+  const out = new Map<string, TaggedPart[]>();
+  for (const paper of [...papersFor(subject)].reverse()) {
+    for (const question of paper.questions) {
+      if (!isPublished(question)) continue;
+      question.parts.forEach((part, index) => {
+        for (const t of part.topics) {
+          if (!out.has(t)) out.set(t, []);
+          out.get(t)!.push({ paper, question, part, index });
+        }
+      });
+    }
+  }
+  return out;
+}

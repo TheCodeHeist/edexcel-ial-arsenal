@@ -75,7 +75,7 @@ const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringi
                 {part.qp.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Question ${part.label}`} />)}
                 {part.topics.length > 0 && (
                   <div class="topics">
-                    {part.topics.map((t) => topics.get(t)).filter(Boolean).map((t) => <span class="chip" title={t!.text}>{t!.short}</span>)}
+                    {part.topics.map((t) => topics.get(t)).filter(Boolean).map((t) => <a class="chip" href={`/${s.id}/topics/${t!.id}/`} title={t!.text}>{t!.short}</a>)}
                   </div>
                 )}
               </div>
