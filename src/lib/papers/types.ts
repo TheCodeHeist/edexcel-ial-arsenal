@@ -40,6 +40,7 @@ export type PartKind =
   | 'mcq'               // Section A, one of A–D
   | 'calc'              // calculation / show that
   | 'short'             // short open response
+  | 'draw'              // sketch a graph, draw a diagram, add arrows/rays, plot points: answered on paper
   | 'extended';         // asterisked question, marked on structure (QWC)
 
 export interface Part {
