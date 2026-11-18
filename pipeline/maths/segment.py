@@ -301,7 +301,10 @@ def check(questions):
 
 # A label may trail one stray '(' from MathType on the same line ('(b) (i) (' in P1 Jan 2024's Q6).
 MS_LABEL = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)*)\(?\s*$")
-MS_TOTAL = re.compile(r"^\((\d{1,2}) marks?\)$")
+# A question's closing total, in each unit's style: '(7 marks)' (P), '(Total 5 marks)' (FP), 'Total 8' (S),
+# or a bold '(6)' (M), which looks like a part total and is told apart by matching the question's total.
+MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*)$")   # M2: '1a', '2b(ii)'
+MS_TOTAL = re.compile(r"^(?:\((?:Total\s+)?(\d{1,2})\s+marks?\)|Total\s+(\d{1,2})(?:\s+marks?)?|\((\d{1,2})\))$", re.I)
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 
 
@@ -314,43 +317,97 @@ class MsRow:
     total_line: Line = None
 
 
+def label_columns(ms_doc):
+    """Per page, the x-range of the mark scheme's 'Question Number' column: from the table's left edge to the
+    first vertical rule after it. Units place and style it differently (P1 labels bold at x≈61, M1 at x≈105,
+    S1 not bold at x≈40), but every table rules its first column, and the scheme's maths fragments ('3', '12',
+    a stray '(') sit to the right of that rule, so the column tells labels from fragments better than any fixed
+    position or font could."""
+    out = {}
+    for pno, page in enumerate(ms_doc):
+        xs = []
+        for d in page.get_drawings():
+            for it in d["items"]:
+                if it[0] == "l" and abs(it[1].x - it[2].x) < 1 and abs(it[1].y - it[2].y) > 20:
+                    xs.append(it[1].x)
+                elif it[0] == "re" and it[1].width < 2.5 and it[1].height > 20:
+                    xs.append(it[1].x0)
+        xs = sorted(set(round(x) for x in xs))
+        if len(xs) < 2:
+            continue
+        left = xs[0]
+        right = next((x for x in xs if x > left + 12), None)
+        if right is not None:
+            out[pno] = (left - 3, right + 2)
+    return out
+
+
+def label_x(lines):
+    """Where this mark scheme prints its labels, from the labels themselves: the commonest left edge of lines
+    that are nothing but a question label ('3(a)', '1a', '(b)'). For tables drawn without vertical rules."""
+    xs = [round(l.x0) for l in lines
+          if (MS_LABEL_BARE.match(l.text) or (MS_LABEL.match(l.text) and "(" in l.text and re.search(r"[a-h]\)", l.text)))]
+    if not xs:
+        return None
+    best = max(set(xs), key=lambda x: sum(abs(y - x) <= 3 for y in xs))
+    return (best - 10, best + 40)
+
+
 def ms_split(ms_doc, questions):
     """Mark-scheme segments, one per label in the 'Question Number' column, and each question's notes."""
     lines = read_lines(ms_doc, skip_cover=False)
     items = content_items(ms_doc, lines)
+    columns = label_columns(ms_doc)
+    fallback = label_x(lines)
     level1 = {}
     for q in questions:
         first = next((n.path[0] for n in q.parts if n.path), None)
         level1[q.number] = None if first is None else ("roman" if first in ROMAN else "letter")
     # the table starts on the first page whose 'Question' header sits in the first column
-    header_pages = {l.page for l in lines if l.x0 < 70 and l.text.startswith("Question")}
+    header_pages = {l.page for l in lines if l.x0 < 160 and re.match(r"Question\b(?! Paper)", l.text, re.I)}
+    totals = {q.number: q.total for q in questions}
     if not header_pages:
         return [], {}, ["mark scheme: no 'Question Number' table header found"], lines, items
     first_page = min(header_pages)
     rows, notes, problems = [], {}, []
     cur_q, path = None, ()
     expected = 1
+    closed = False          # the current question's '(n marks)' line has passed: what follows is its notes
     for l in lines:
         if l.page < first_page:
             continue
-        if MS_TOTAL.match(l.text) and l.bold and l.x0 > 400 and rows:
+        col = columns.get(l.page) or fallback
+        t = MS_TOTAL.match(l.text) if rows and col and l.x0 > col[1] + 120 else None
+        if t and t[3] and not (l.bold and int(t[3]) == totals.get(rows[-1].q)):
+            t = None                                        # a part's '(3)', not the question's total
+        if t:
             r = rows[-1]
             r.total_line = l
             r.end = (l.page, l.y1 + PAD)
+            closed = True
             continue
-        if not (l.bold and l.x0 < 95 and l.x1 < 125):
+        # a label starts inside the column; its line may overhang the rule a little when a stray '(' of the
+        # scheme's maths is merged onto it ('(b) (i) (' in P1 Jan 2024)
+        if col is None or not (col[0] <= l.x0 < col[1] and l.x1 <= col[1] + 20):
             continue
-        m = MS_LABEL.match(l.text)
-        if not m or not (m[1] or m[2]):
+        if b := MS_LABEL_BARE.match(l.text):
+            num, labs = b[1], [b[2], *re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3] or "")]
+        elif (m := MS_LABEL.match(l.text)) and (m[1] or m[2]):
+            num, labs = m[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", m[2] or "")
+        else:
             continue                                        # 'Notes', 'Alt', 'Way 2', 'Note 1' …
-        labs = re.findall(r"\(\s*([a-z]{1,4})\s*\)", m[2] or "")
-        if m[1]:
-            n = int(m[1])
-            if n != expected:
+        if num and not labs and not l.bold and "." not in l.text:
+            continue                                        # a lone plain digit: a fragment of the maths
+        if num:
+            n = int(num)
+            if n == cur_q and labs and not closed:
+                pass                                        # '3(b)' after '3(a)': the same question (M1)
+            elif n != expected:
                 continue                                    # a stray number, not the next question
-            cur_q, path, expected = n, (), n + 1
-        if cur_q is None:
-            continue
+            else:
+                cur_q, path, expected, closed = n, (), n + 1, False
+        if cur_q is None or closed:
+            continue                                        # before the table, or a label inside the notes
         for lab in labs:
             kind = "roman" if lab in ROMAN else "letter"
             outer = level1.get(cur_q) or kind
