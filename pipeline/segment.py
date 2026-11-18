@@ -40,6 +40,7 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import markscheme  # noqa: E402
 import reviews  # noqa: E402
+import risks  # noqa: E402
 
 pymupdf.TOOLS.mupdf_display_errors(False)
 
@@ -472,7 +473,7 @@ def export(doc, questions, lines, paper_id, subject="physics"):
                     "text": text,
                 })
         qs.append({"id": f"{paper_id}_q{q.label}", "number": int(q.label), "marks": q.total,
-                   "stem": stem, "parts": parts, "reviewed": False})
+                   "stem": stem, "parts": parts, "check": "pending"})
     paper = {"id": paper_id, "subject": subject, "questions": qs}
     (out / "paper.json").write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
     size = sum(f.stat().st_size for f in crops_dir.glob("*.webp"))
@@ -494,8 +495,8 @@ def duration_min(doc):
 
 def write_registry(paper_id, doc, out_dir):
     """registry/<subject>/papers/<id>.json: paper.json plus what the manifest knows (unit, series, sources
-    with their providers' credit). Questions start unreviewed, so nothing reaches the site before a person
-    has checked it."""
+    with their providers' credit). Questions start 'pending', so nothing reaches the site before it has
+    been checked (see reviews.status)."""
     sources = json.loads((ROOT / "registry" / "sources.json").read_text())
     entry = next(p for p in sources["papers"] if p["id"] == paper_id)
     providers = sources["providers"]
@@ -517,6 +518,7 @@ def write_registry(paper_id, doc, out_dir):
         "source": {"qp": source("qp"), "ms": source("ms")},
         "questions": seg["questions"],
     }
+    risks.assess(paper, doc, pymupdf.open(CACHE / f"{paper_id}_ms.pdf"))
     lapsed = reviews.apply(paper, reviews.load(entry["subject"], paper_id))
     if lapsed:
         print(f"  {lapsed} question review(s) no longer match the paper (it changed): they need reviewing again")

@@ -111,7 +111,23 @@ scan) and 53/90 old-spec ones (old spec not tuned for yet).
 `--write` refuses while any marks don't add up or any label is missing from the paper or the mark scheme.
 Crops go to [TheCodeHeist/edexcel-ial-arsenal-data](https://github.com/TheCodeHeist/edexcel-ial-arsenal-data),
 cloned next to this repo, and are served from `https://thecodeheist.github.io/edexcel-ial-arsenal-data/`
-(`src/lib/papers/crops.ts`). Questions are written `reviewed: false` and stay off the site until checked.
+(`src/lib/papers/crops.ts`). Questions are written `check: "pending"` and stay off the site until checked.
+
+## Checking: who looks at what
+
+Nobody reviews 2,000 questions by hand. The hard checks above already pass on every paper, so what's left is
+whether the crops are *cut* right, and that's split three ways (`check` in `types.ts`, set by `reviews.status`):
+
+- **Risky questions go to a person.** `risks.py` lists the reasons to look closely: content cut by a crop edge
+  (pixels confirm images and diagrams), a part running across pages, text after a part's `(n)`, text not
+  starting at its label, mark-scheme pairings by fallback or hand fix, MCQ keys read from a lone letter. About
+  350 of 1,945 questions have one. `segment.py --write` runs it; to re-run on its own:
+  `pipeline/.venv/bin/python pipeline/risks.py [prefix]`.
+- **Clean questions go to the AI reader** (Gemini, during tagging). It writes `registry/<subject>/ai/<id>.json`
+  with any concerns per question; a concern sends the question to a person, none makes it `machine`.
+- **A person's verdict beats both**: `human` or `flagged`.
+
+Only `machine` and `human` questions reach the site.
 
 ## Reviewing
 
@@ -119,9 +135,11 @@ cloned next to this repo, and are served from `https://thecodeheist.github.io/ed
 pipeline/.venv/bin/python pipeline/review.py      # then open http://127.0.0.1:8765
 ```
 
-Shows each question as the site will (stem, part intro, part) with its mark-scheme rows, and what the pipeline
-decided: labels, marks, kind, MCQ answer. Keys: `J`/`K` move, `R` looks right (and jump to the next unreviewed
-question), `F` flag with a note, `U` clear, `N` next unfinished paper. Kind and MCQ answer can be corrected from
+By default it shows only the papers and questions that need you (a risk, an AI concern, or a verdict from
+before the question changed), with the reasons in an orange box; untick "my questions" to see the rest. It
+shows each question as the site will (stem, part intro, part) with its mark-scheme rows, and what the pipeline
+decided: labels, marks, kind, MCQ answer. Keys: `J`/`K` move, `R` looks right (and jump to the next question
+that needs you), `F` flag with a note, `U` clear, `N` next paper that needs you. Kind and MCQ answer can be corrected from
 their dropdowns. Hover a crop for a link to its page in the source PDF.
 
 Verdicts and corrections are saved in `registry/<subject>/reviews/<id>.json` (`reviews.py`), separate from the

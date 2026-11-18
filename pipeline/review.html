@@ -9,13 +9,13 @@
   :root {
     --bg: #f6f5f2; --panel: #ffffff; --ink: #1d1c1a; --muted: #6b6862; --line: #e3e0da;
     --accent: #3b5bdb; --ok: #2b8a3e; --ok-bg: #ebfbee; --flag: #c92a2a; --flag-bg: #fff5f5;
-    --ms-bg: #f3f0ff; --ms-line: #d0c4f7; --focus: #ffd43b;
+    --ms-bg: #f3f0ff; --ms-line: #d0c4f7; --focus: #ffd43b; --risk: #b35c00; --risk-bg: #fff4e6; --machine: #1c7ed6;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #161614; --panel: #1f1f1c; --ink: #ecebe7; --muted: #9c998f; --line: #34332e;
       --accent: #748ffc; --ok: #69db7c; --ok-bg: #1b2e1f; --flag: #ff8787; --flag-bg: #2e1b1b;
-      --ms-bg: #24203a; --ms-line: #4c3f8a; --focus: #fab005;
+      --ms-bg: #24203a; --ms-line: #4c3f8a; --focus: #fab005; --risk: #ffa94d; --risk-bg: #2e2416; --machine: #74c0fc;
     }
     img.crop { filter: invert(0.9) hue-rotate(180deg); }   /* white paper is harsh in the dark */
   }
@@ -33,8 +33,14 @@
   .paper .row { display: flex; justify-content: space-between; gap: 6px; }
   .bar { height: 4px; background: var(--line); border-radius: 2px; margin-top: 4px; overflow: hidden; display: flex; }
   .bar i { display: block; background: var(--ok); } .bar b { display: block; background: var(--flag); }
+  .bar u { display: block; background: var(--machine); } .bar s { display: block; background: var(--risk); }
   .tag { font-size: 11px; color: var(--muted); }
-  .tag.flag { color: var(--flag); }
+  .tag.flag { color: var(--flag); } .tag.you { color: var(--risk); font-weight: 600; }
+  .risks { background: var(--risk-bg); color: var(--risk); border-radius: 6px; padding: 6px 10px; margin: 0 0 8px; font-size: 13px; }
+  .risks ul { margin: 2px 0 0; padding-left: 18px; }
+  .status.machine { color: var(--machine); }
+  .legend { font-size: 11px; color: var(--muted); margin-top: 6px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .legend i { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 3px; }
   main { overflow-y: auto; padding: 0 24px 40vh; }
   main > header { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 14px 0 10px;
                   border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
@@ -77,9 +83,12 @@
   <header>
     <h1>Past-paper review</h1>
     <div class="filters">
-      <label><input type="checkbox" id="unfinished"> unfinished only</label>
+      <label><input type="checkbox" id="unfinished" checked> my papers</label>
+      <label><input type="checkbox" id="mine" checked> my questions</label>
     </div>
     <div class="tag" id="overall"></div>
+    <div class="legend"><span><i style="background:var(--risk)"></i>needs you</span><span><i style="background:var(--ok)"></i>you checked</span>
+      <span><i style="background:var(--machine)"></i>AI checked</span><span><i style="background:var(--flag)"></i>flagged</span><span><i style="background:var(--line)"></i>waiting for AI</span></div>
   </header>
   <nav id="papers"></nav>
 </aside>
@@ -89,7 +98,7 @@
     <span class="credit" id="credit"></span>
     <span class="keys"><kbd>J</kbd>/<kbd>K</kbd> move · <kbd>R</kbd> looks right · <kbd>F</kbd> flag · <kbd>U</kbd> clear · <kbd>N</kbd> next paper</span>
   </header>
-  <div id="questions"><p class="empty">Choose a paper on the left. Check each question against its mark scheme: are the crops complete and cut in the right places, the marks and labels right, the MCQ answer right?</p></div>
+  <div id="questions"><p class="empty">Choose a paper on the left. You only see the questions the pipeline isn't sure of; the orange box says why. Check each against its mark scheme: are the crops complete and cut in the right places, the marks and labels right, the MCQ answer right?</p></div>
 </main>
 <script>
 const $ = (s, el = document) => el.querySelector(s);
@@ -116,21 +125,23 @@ async function loadList() {
 function renderList() {
   const only = $('#unfinished').checked;
   const nav = $('#papers'); nav.innerHTML = '';
-  let unit = null, done = 0, total = 0;
+  let unit = null;
+  const sum = { you: 0, human: 0, machine: 0, flagged: 0, ai: 0, questions: 0 };
   for (const p of papers) {
-    done += p.reviewed; total += p.questions;
-    if (only && p.reviewed === p.questions) continue;
+    for (const k in sum) sum[k] += p[k] || 0;
+    if (only && !p.you && !(current && current.paper.id === p.id)) continue;
     if (p.unit !== unit) { unit = p.unit; nav.insertAdjacentHTML('beforeend', `<div class="unit">${unit}</div>`); }
     const a = document.createElement('a');
     a.className = 'paper' + (current && current.paper.id === p.id ? ' active' : '');
-    const okW = 100 * p.reviewed / p.questions, flW = 100 * p.flagged / p.questions;
+    const w = k => 100 * (p[k] || 0) / p.questions;
+    const tag = p.you ? `<span class="tag you">${p.you} need${p.you === 1 ? 's' : ''} you</span>` : `<span class="tag">done</span>`;
     a.innerHTML = `<div class="row"><span>${seriesName(p)}</span>
-        <span class="tag ${p.flagged ? 'flag' : ''}">${p.reviewed}/${p.questions}${p.flagged ? ' · ⚑' + p.flagged : ''}</span></div>
-      <div class="bar"><i style="width:${okW}%"></i><b style="width:${flW}%"></b></div>`;
+        <span>${p.flagged ? `<span class="tag flag">⚑${p.flagged}</span> ` : ''}${tag}</span></div>
+      <div class="bar"><i style="width:${w('human')}%"></i><u style="width:${w('machine')}%"></u><b style="width:${w('flagged')}%"></b><s style="width:${w('you')}%"></s></div>`;
     a.onclick = () => openPaper(p.id);
     nav.append(a);
   }
-  $('#overall').textContent = `${done} of ${total} questions reviewed`;
+  $('#overall').textContent = `${sum.you} need you · ${sum.human} you checked · ${sum.machine} AI checked · ${sum.ai} waiting for AI · ${sum.flagged} flagged`;
 }
 
 async function openPaper(id) {
@@ -138,8 +149,7 @@ async function openPaper(id) {
   location.hash = id;
   renderPaper();
   renderList();
-  const first = current.paper.questions.findIndex(q => !verdictState(q));
-  setFocus(first === -1 ? 0 : first, true);
+  setFocus(0, true);
 }
 
 function verdictState(q) {
@@ -162,7 +172,10 @@ function renderPaper() {
   $('#credit').innerHTML = `QP via <a href="${P.source.qp.via.url}" target="_blank">${P.source.qp.via.name}</a>,
     MS via <a href="${P.source.ms.via.url}" target="_blank">${P.source.ms.via.name}</a>`;
   const box = $('#questions'); box.innerHTML = '';
-  P.questions.forEach((q, i) => box.append(renderQuestion(q, i)));
+  const mine = $('#mine').checked;
+  // keep a question on screen once judged here, so R doesn't make it vanish under the cursor
+  P.questions.forEach((q, i) => { if (!mine || q.queue === 'you' || q.verdict || q.queue === 'flagged') box.append(renderQuestion(q, i)); });
+  if (!box.children.length) box.innerHTML = '<p class="empty">Nothing here needs you. Untick “my questions” to see the rest.</p>';
 }
 
 function renderQuestion(q, i) {
@@ -170,9 +183,12 @@ function renderQuestion(q, i) {
   const state = verdictState(q);
   el.className = 'q' + (state === 'ok' ? ' ok' : state === 'flagged' ? ' flagged' : '');
   el.dataset.i = i;
-  const label = { ok: '✓ looks right', flagged: '⚑ flagged', stale: 'changed since review: check again' }[state] || 'not reviewed';
+  const label = { ok: '✓ looks right', flagged: '⚑ flagged', stale: 'changed since review: check again' }[state]
+    || { machine: 'AI checked', you: 'needs you', ai: 'waiting for AI' }[q.queue];
   let html = `<div class="qhead"><strong>Question ${q.number}</strong><span class="tag">${q.marks} mark${q.marks === 1 ? '' : 's'} · ${q.parts.length} part${q.parts.length === 1 ? '' : 's'}</span>
-    <span class="status ${state === 'ok' ? 'ok' : state === 'flagged' ? 'flagged' : ''}">${label}</span></div><div class="qbody">`;
+    <span class="status ${state === 'ok' ? 'ok' : state === 'flagged' ? 'flagged' : q.queue === 'machine' ? 'machine' : ''}">${label}</span></div><div class="qbody">`;
+  const why = [...(q.risks || []), ...q.concerns.map(c => 'AI: ' + c)];
+  if (why.length) html += `<div class="risks">Look closely at:<ul>${why.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul></div>`;
   html += q.stem.map(c => crop(c, 'qp')).join('');
   let lastIntro = null;
   for (const p of q.parts) {
@@ -197,7 +213,7 @@ function renderQuestion(q, i) {
   el.innerHTML = html;
   el.addEventListener('click', e => {
     const act = e.target.dataset && e.target.dataset.act;
-    setFocus(i);
+    setFocus(posOf(i), false);
     if (act === 'ok') judge(i, 'ok'); else if (act === 'flag') flag(i); else if (act === 'clear') clear(i);
   });
   el.querySelectorAll('select').forEach(s => s.addEventListener('change', () => correct(s.dataset.label, s.dataset.field, s.value)));
@@ -206,28 +222,33 @@ function renderQuestion(q, i) {
 
 function escapeHtml(s) { return s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
+// The question index of the card at screen position pos (the "only my questions" filter hides some).
+function qAt(pos) { const el = document.querySelectorAll('.q')[pos]; return el ? +el.dataset.i : -1; }
+const posOf = i => [...document.querySelectorAll('.q')].findIndex(el => +el.dataset.i === i);
+
 function setFocus(i, scroll = true) {
   const qs = document.querySelectorAll('.q');
   if (!qs.length) return;
-  focusIdx = Math.max(0, Math.min(i, qs.length - 1));
-  qs.forEach(q => q.classList.toggle('focus', +q.dataset.i === focusIdx));
+  focusIdx = Math.max(0, Math.min(i, qs.length - 1));     // a position on screen, not a question index
+  qs.forEach((q, j) => q.classList.toggle('focus', j === focusIdx));
   if (scroll) qs[focusIdx].scrollIntoView({ block: 'start', behavior: 'smooth' });
 }
 
 async function change(body) {
   current = await api('/api/paper/' + current.paper.id, body);
-  const keep = focusIdx;
+  const keep = focusIdx;   // the card judged stays on screen (see renderPaper), so its position holds
   renderPaper(); setFocus(keep, false);
   const s = papers.find(p => p.id === current.paper.id);
-  s.reviewed = current.paper.questions.filter(q => q.reviewed).length;
-  s.flagged = current.paper.questions.filter(q => verdictState(q) === 'flagged').length;
+  for (const k of ['you', 'human', 'machine', 'flagged', 'ai']) s[k] = current.counts[k] || 0;
   renderList();
 }
 
 async function judge(i, status, note = '') {
   await change({ action: 'judge', number: current.paper.questions[i].number, status, note });
-  const next = current.paper.questions.findIndex((q, j) => j > i && !verdictState(q));
-  setFocus(next === -1 ? i : next);
+  const shown = [...document.querySelectorAll('.q')].map(el => +el.dataset.i);
+  const next = shown.find(j => j > i && current.paper.questions[j].queue === 'you');
+  const pos = shown.indexOf(next === undefined ? i : next);
+  setFocus(pos === -1 ? 0 : pos);
 }
 async function flag(i) {
   const note = prompt('What is wrong with this question? (crop cut off, wrong mark-scheme rows, wrong marks…)');
@@ -238,7 +259,7 @@ async function correct(label, field, value) { await change({ action: 'part', lab
 
 function nextPaper() {
   const i = papers.findIndex(p => current && p.id === current.paper.id);
-  const next = papers.find((p, j) => j > i && p.reviewed < p.questions) || papers.find(p => p.reviewed < p.questions);
+  const next = papers.find((p, j) => j > i && p.you) || papers.find(p => p.you);
   if (next) openPaper(next.id);
 }
 
@@ -247,14 +268,15 @@ document.addEventListener('keydown', e => {
   const k = e.key.toLowerCase();
   if (k === 'j') setFocus(focusIdx + 1);
   else if (k === 'k') setFocus(focusIdx - 1);
-  else if (k === 'r') judge(focusIdx, 'ok');
-  else if (k === 'f') flag(focusIdx);
-  else if (k === 'u') clear(focusIdx);
+  else if (k === 'r' && qAt(focusIdx) >= 0) judge(qAt(focusIdx), 'ok');
+  else if (k === 'f' && qAt(focusIdx) >= 0) flag(qAt(focusIdx));
+  else if (k === 'u' && qAt(focusIdx) >= 0) clear(qAt(focusIdx));
   else if (k === 'n') nextPaper();
   else return;
   e.preventDefault();
 });
 $('#unfinished').onchange = renderList;
+$('#mine').onchange = () => { if (current) { renderPaper(); setFocus(0, false); } };
 
 loadList().then(() => { if (location.hash) openPaper(location.hash.slice(1)); });
 </script>

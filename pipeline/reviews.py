@@ -6,6 +6,9 @@ registry/<subject>/reviews/<paper id>.json:
       "parts":     { "13(b)(i)": { "kind": "calc", "answer": "B" } }       # corrections to what was guessed/read
     }
 
+registry/<subject>/ai/<paper id>.json (written by the AI reader during tagging):
+    { "questions": { "13": { "concerns": ["13(b): diagram looks cut off"], "fingerprint": "…" } } }
+
 The registry files are rebuilt whenever segment.py --write runs, so a verdict stored in them would be lost.
 Here it survives, tied to a fingerprint of what the reviewer actually saw: the question's labels, marks,
 answer keys and crop regions. If a later segmenter change alters any of that, the verdict no longer applies
@@ -20,8 +23,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def path(subject, paper_id):
-    return ROOT / "registry" / subject / "reviews" / f"{paper_id}.json"
+def path(subject, paper_id, kind="reviews"):
+    return ROOT / "registry" / subject / kind / f"{paper_id}.json"
+
+
+def load_ai(subject, paper_id):
+    """What the AI reader said about each question, or nothing if it hasn't read this paper yet."""
+    p = path(subject, paper_id, "ai")
+    return json.loads(p.read_text()) if p.exists() else {"questions": {}}
 
 
 def load(subject, paper_id):
@@ -48,9 +57,25 @@ def fingerprint(question):
     return hashlib.sha1(json.dumps(seen, sort_keys=True).encode()).hexdigest()[:12]
 
 
-def apply(paper, reviews):
-    """Set each question's `reviewed` and apply part corrections, in place. Returns how many reviews lapsed
+def status(question, verdict, ai):
+    """pending | machine | human | flagged: see CheckStatus in src/lib/papers/types.ts.
+
+    A person's verdict counts while the question is still what they saw. Without one, a question is 'machine'
+    only when the pipeline found no risk (risks.py) and the AI reader looked at this same question and raised
+    no concern; anything else waits for a person."""
+    fp = fingerprint(question)
+    if verdict is not None and verdict.get("fingerprint") == fp:
+        return "human" if verdict["status"] == "ok" else "flagged"
+    if not question.get("risks") and ai is not None and ai.get("fingerprint") == fp and not ai.get("concerns"):
+        return "machine"
+    return "pending"
+
+
+def apply(paper, reviews, ai=None):
+    """Set each question's `check` and apply part corrections, in place. Returns how many reviews lapsed
     (the question changed since it was judged)."""
+    if ai is None:
+        ai = load_ai(paper["subject"], paper["id"])
     lapsed = 0
     for q in paper["questions"]:
         for p in q["parts"]:
@@ -66,10 +91,10 @@ def apply(paper, reviews):
             if p.get("answer") is None:
                 p.pop("answer", None)
         verdict = reviews["questions"].get(str(q["number"]))
-        current = verdict is not None and verdict.get("fingerprint") == fingerprint(q)
-        if verdict is not None and not current:
+        if verdict is not None and verdict.get("fingerprint") != fingerprint(q):
             lapsed += 1
-        q["reviewed"] = bool(current and verdict["status"] == "ok")
+        q.pop("reviewed", None)                 # the old yes/no field, before 'check'
+        q["check"] = status(q, verdict, ai["questions"].get(str(q["number"])))
     return lapsed
 
 

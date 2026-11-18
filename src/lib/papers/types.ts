@@ -65,8 +65,15 @@ export interface Question {
   marks: number;        // sum of parts; checked against the paper's '(Total for Question 13 = 7 marks)'
   stem: Crop[];         // shared context printed before the first part (may be empty)
   parts: Part[];
-  reviewed: boolean;    // crops checked by a human; unreviewed questions never reach the site
+  check: CheckStatus;   // who stands behind the crops; only 'machine' and 'human' reach the site
+  risks?: string[];     // why the pipeline wants a person to look (see pipeline/risks.py); absent when none
 }
+
+/** How far a question's crops and mark-scheme pairing have been checked.
+    pending: not yet looked at, or a risk signal / AI concern says a person must look.
+    machine: no risk signals, and the AI reader saw nothing wrong.
+    human:   a person looked and it's right.   flagged: a person looked and it's wrong (never shown). */
+export type CheckStatus = 'pending' | 'machine' | 'human' | 'flagged';
 
 /** Who we got a file from. Shown on every paper: Pearson owns the papers; the archives that collect and share
     them for free (PaperLords, Physics & Maths Tutor) are credited by name with a link back, as a matter of

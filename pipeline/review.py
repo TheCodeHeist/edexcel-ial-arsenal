@@ -1,4 +1,4 @@
-"""Review tool: check each segmented paper by eye, question by question, and mark it reviewed.
+"""Review tool: check by eye the questions the pipeline isn't sure of, and mark them right or flag them.
 
 Usage:  pipeline/.venv/bin/python pipeline/review.py            then open http://127.0.0.1:8765
         pipeline/.venv/bin/python pipeline/review.py --port 9000
@@ -6,7 +6,11 @@ Usage:  pipeline/.venv/bin/python pipeline/review.py            then open http:/
 It shows every question the way the site will (stem, part intro, part) with its mark-scheme rows, plus what
 the pipeline decided: labels, marks, kind, MCQ answer. You mark each question "looks right" or flag it with a
 note, and can correct a part's kind or MCQ answer. Verdicts go to registry/<subject>/reviews/<id>.json (see
-reviews.py) and the paper's registry file is updated at once, so `reviewed` is always current.
+reviews.py) and the paper's registry file is updated at once, so `check` is always current.
+
+You don't review everything. By default only questions that need a person are shown: those with a risk signal
+(risks.py), an AI concern, or a verdict made before the question changed. Clean questions are left to the AI
+reader; you can still show them all and judge any of them.
 
 Images come from the local clone of the data repo, so they appear instantly. Source PDFs come from the
 pipeline cache, so a crop can be compared with its page. Local only: it listens on 127.0.0.1.
@@ -40,28 +44,51 @@ def load_paper(paper_id):
     return (json.loads(f.read_text()), f) if f else (None, None)
 
 
+def queue(q, verdict, ai):
+    """Where a question stands for the reviewer: 'you' when it waits on a person (a risk, an AI concern, or a
+    verdict that no longer matches), 'ai' when it only waits for the AI reader, else its check status."""
+    if q["check"] != "pending":
+        return q["check"]
+    stale = verdict is not None and verdict.get("fingerprint") != reviews.fingerprint(q)
+    return "you" if q.get("risks") or (ai or {}).get("concerns") or stale else "ai"
+
+
+def decorate(paper):
+    """Each question's queue, its AI concerns and its saved verdict (and whether that still applies)."""
+    rv = reviews.load(paper["subject"], paper["id"])
+    ai_file = reviews.load_ai(paper["subject"], paper["id"])
+    reviews.apply(paper, rv, ai_file)       # work `check` out afresh: the file may predate a review or a rerun
+    ai = ai_file["questions"]
+    for q in paper["questions"]:
+        n = str(q["number"])
+        v = rv["questions"].get(n)
+        q["verdict"] = v and {**v, "current": v.get("fingerprint") == reviews.fingerprint(q)}
+        q["concerns"] = (ai.get(n) or {}).get("concerns", [])
+        q["queue"] = queue(q, v, ai.get(n))
+    return rv
+
+
+def counts(paper):
+    out = {"questions": len(paper["questions"])}
+    for q in paper["questions"]:
+        out[q["queue"]] = out.get(q["queue"], 0) + 1
+    return out
+
+
 def summary():
-    """Every paper with its review progress, for the sidebar."""
+    """Every paper with where its questions stand, for the sidebar."""
     out = []
     for f in sorted((ROOT / "registry").glob("*/papers/*.json")):
         paper = json.loads(f.read_text())
-        rv = reviews.load(paper["subject"], paper["id"])
-        flagged = sum(1 for q in paper["questions"]
-                      if rv["questions"].get(str(q["number"]), {}).get("status") == "flagged"
-                      and rv["questions"][str(q["number"])].get("fingerprint") == reviews.fingerprint(q))
+        decorate(paper)
         out.append({"id": paper["id"], "subject": paper["subject"], "unit": paper["unit"], "series": paper["series"],
-                    "variant": paper.get("variant"), "questions": len(paper["questions"]),
-                    "reviewed": sum(q["reviewed"] for q in paper["questions"]), "flagged": flagged})
+                    "variant": paper.get("variant"), **counts(paper)})
     return out
 
 
 def with_reviews(paper):
-    """The paper plus its review file, and for each question whether its saved verdict still applies."""
-    rv = reviews.load(paper["subject"], paper["id"])
-    for q in paper["questions"]:
-        v = rv["questions"].get(str(q["number"]))
-        q["verdict"] = v and {**v, "current": v.get("fingerprint") == reviews.fingerprint(q)}
-    return {"paper": paper, "parts": rv["parts"]}
+    rv = decorate(paper)
+    return {"paper": paper, "parts": rv["parts"], "counts": counts(paper)}
 
 
 def update(paper_id, change):
@@ -87,8 +114,9 @@ def update(paper_id, change):
         raise ValueError(f"unknown action {change['action']!r}")
     reviews.save(paper["subject"], paper_id, rv)
     reviews.apply(paper, rv)
-    for q in paper["questions"]:            # with_reviews() decorations must not be written to the registry
-        q.pop("verdict", None)
+    for q in paper["questions"]:            # decorate()'s additions must not be written to the registry
+        for key in ("verdict", "concerns", "queue"):
+            q.pop(key, None)
     f.write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
     return with_reviews(paper)
 
