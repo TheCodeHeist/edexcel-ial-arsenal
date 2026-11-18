@@ -4,6 +4,7 @@ Usage (meant for an AI agent, one question at a time):
     pipeline/.venv/bin/python pipeline/ai_read.py todo [prefix] [--limit N]    questions still to read
     pipeline/.venv/bin/python pipeline/ai_read.py show <paper id> <question>   one question, as an image + JSON
     pipeline/.venv/bin/python pipeline/ai_read.py record <paper id> <question> '<json>'
+    pipeline/.venv/bin/python pipeline/ai_read.py carry [prefix]                after a pipeline fix (see carry())
 
 `show` stitches the question's crops (stem, part intros, parts) and each part's mark-scheme rows into one PNG,
 with a caption above every piece, and prints what the pipeline decided about each part. The reader looks at the
@@ -35,6 +36,19 @@ from publish import DATA  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 OUT = Path(__file__).resolve().parent / "cache" / "ai"
 KINDS = {"mcq", "calc", "short", "draw", "extended"}
+
+# How to choose a part's kind. Printed by `todo`, so every reader (and every recheck) works to the same rules.
+# Add a rule here when the person reviewing decides one; then re-check the kinds it affects.
+KIND_GUIDE = """\
+Kinds (judge by what the mark scheme rewards, not only the command word):
+  mcq       multiple choice A-D. Only parts the pipeline guessed as mcq; they stay mcq.
+  calc      calculate / determine / show that / estimate a value. ALSO a 'deduce', 'determine whether',
+            'assess whether' or 'explain whether' part whose mark scheme is mostly calculation (working,
+            values, a numerical comparison): the student has to calculate to answer.
+  short     short written answer: state, explain, describe, suggest, complete a table with words or numbers.
+  draw      the student draws, sketches, plots points, adds arrows/rays/lines/forces, or labels/completes a
+            diagram or graph.
+  extended  extended writing (usually 5-6 marks, marked on structured reasoning; often labelled with a *)."""
 CAPTION_H = 34
 GAP = 14
 
@@ -152,19 +166,52 @@ def todo(prefix="WPH1", limit=None):
             if not done:
                 rows.append((bool(q.get("risks")), paper["id"], q["number"]))
     rows.sort(key=lambda r: r[0])
+    print(KIND_GUIDE + "\n")
     print(f"{len(rows)} to read")
     for risky, pid, n in rows[:limit]:
         print(f"{pid} {n}" + ("   (risky: a person will look too)" if risky else ""))
 
 
+def carry(prefix="WPH1"):
+    """Keep a person's "looks right" through a pipeline fix, when the AI confirms the fixed question.
+
+    A reviewer may pass a question with a known, already-reported problem, expecting the fix. The fix re-cuts
+    the question, its fingerprint changes and the verdict lapses, which would send it back to them. Here a
+    lapsed 'ok' verdict is renewed for the question as it is now, but only if the AI reader has read this same
+    version and raised no concern; the note says so. Flagged verdicts and anything the AI doubts stay lapsed."""
+    renewed = 0
+    for f in sorted((ROOT / "registry").glob(f"*/papers/{prefix}*.json")):
+        paper = json.loads(f.read_text())
+        rv = reviews.load(paper["subject"], paper["id"])
+        ai = reviews.load_ai(paper["subject"], paper["id"])["questions"]
+        changed = False
+        for q in paper["questions"]:
+            n, fp = str(q["number"]), reviews.fingerprint(q)
+            v, read = rv["questions"].get(n), ai.get(n, {})
+            if (v and v["status"] == "ok" and v.get("fingerprint") != fp
+                    and read.get("fingerprint") == fp and not read.get("concerns")):
+                note = f"carried over after a pipeline fix; AI re-read found nothing wrong ({date.today().isoformat()})"
+                v.update(fingerprint=fp, note=(v.get("note", "") + "; " if v.get("note") else "") + note)
+                changed = True
+                renewed += 1
+                print(f"{paper['id']} q{n}: verdict carried over")
+        if changed:
+            reviews.save(paper["subject"], paper["id"], rv)
+            reviews.apply(paper, rv)
+            f.write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
+    print(f"{renewed} verdict(s) carried over")
+
+
 def main():
     args = sys.argv[1:]
-    if not args or args[0] not in ("todo", "show", "record"):
+    if not args or args[0] not in ("todo", "show", "record", "carry"):
         sys.exit(__doc__)
     if args[0] == "todo":
         limit = int(args[args.index("--limit") + 1]) if "--limit" in args else None
         rest = [a for i, a in enumerate(args[1:], 1) if a != "--limit" and args[i - 1] != "--limit"]
         todo(rest[0] if rest else "WPH1", limit)
+    elif args[0] == "carry":
+        carry(args[1] if len(args) > 1 else "WPH1")
     elif args[0] == "show" and len(args) == 3:
         show(args[1], args[2])
     elif args[0] == "record" and len(args) == 4:

@@ -33,6 +33,7 @@ import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
+from types import SimpleNamespace
 
 import pymupdf
 from PIL import Image
@@ -92,6 +93,7 @@ class Node:
     extended: bool = False          # '*' question, marked on structure
     total: int | None = None        # questions only: from '(Total for Question …)'
     end: Line | None = None         # questions only: the total line
+    lead: list = field(default_factory=list)   # questions only: bands of a lead-in shared with other questions
 
 
 STD_FRAME = pymupdf.Rect(35.0, 36.0, 560.3, 793.7)   # the page frame of a standard A4 paper (WPH14 June 2026)
@@ -237,6 +239,18 @@ class Item:
     y0: float
     y1: float
     kind: str           # 'text' | 'drawing' | 'image'
+    x0: float = 0.0
+    x1: float = 0.0
+
+
+def answer_space(text):
+    """A dotted answer line ('..........', 'speed = ..........'), not a fill-in blank inside printed content
+    (the '...........' slots of a nuclear equation, next to 'H', '+', '43Tc')."""
+    if not ANSWER_LINE.search(text):
+        return False
+    rest = re.sub(r"[.…]+", " ", text).strip()
+    longest = max(len(run) for run in re.findall(r"[.…]+", text))
+    return not rest or "=" in rest or longest > 20
 
 
 def content_items(doc, lines):
@@ -245,9 +259,9 @@ def content_items(doc, lines):
     (minus the margin strips)."""
     items = []
     for l in lines:
-        if ANSWER_LINE.search(l.text) or NOT_CONTENT.match(l.text) or TOTAL.match(l.text):
+        if answer_space(l.text) or NOT_CONTENT.match(l.text) or TOTAL.match(l.text):
             continue
-        items.append(Item(l.page, l.y0, l.y1, "text"))
+        items.append(Item(l.page, l.y0, l.y1, "text", l.x0, l.x1))
     fr = frames(doc)
     for pno, page in enumerate(doc):
         for d in page.get_drawings():
@@ -258,13 +272,13 @@ def content_items(doc, lines):
                 continue                                  # the page frame
             if r.width > 480 and r.height < 1.5:
                 continue                                  # hairline between questions
-            items.append(Item(pno, max(r.y0, COL_Y0), min(r.y1, COL_Y1), "drawing"))
+            items.append(Item(pno, max(r.y0, COL_Y0), min(r.y1, COL_Y1), "drawing", r.x0, r.x1))
         for img in page.get_image_info():
             x0, y0, x1, y1 = img["bbox"]
             x0, y0, x1, y1 = fr[pno].to_std(x0, y0, x1, y1)
             if x1 < COL_X0 + 5 or x0 > COL_X1 - 5:
                 continue                                  # 'DO NOT WRITE' margin strips
-            items.append(Item(pno, y0, y1, "image"))
+            items.append(Item(pno, y0, y1, "image", x0, x1))
     return items
 
 
@@ -279,7 +293,44 @@ def flatten(questions):
     return out
 
 
-def regions(questions, items):
+def top_of(line, items):
+    """Where a node's crop may start: just above its label's line, or above the part of stacked maths on that
+    line that rises higher (a fraction's numerator, a surd's bar). Those are narrow fragments or small drawings
+    whose box starts above the line but reaches into it; a full line of text above never does. A superscript
+    poking up a point or so is left alone (nothing is cut), and so is a diagram above whose bottom merely
+    touches the line: a drawing counts only when it reaches past the line's middle, as a surd's sign does."""
+    y, middle = line.y0, (line.y0 + line.y1) / 2
+    for it in items:
+        if it.page != line.page or not (it.y0 < line.y0 - 2 and it.y1 > line.y0 + 1):
+            continue
+        if (it.kind == "text" and it.x1 - it.x0 < 60) or (it.kind == "drawing" and it.y1 - it.y0 < 60
+                                                            and it.y1 > middle):
+            y = min(y, it.y0)
+    return y - 1
+
+
+def ink_top(doc, line):
+    """The first row of ink in a line (standard-frame y). A text box starts a few points above its letters."""
+    frame = page_frame(doc[line.page])
+    clip = frame.from_std(line.x0, line.y0, line.x1, line.y1)
+    pix = doc[line.page].get_pixmap(dpi=144, clip=clip, colorspace=pymupdf.csGRAY)
+    for row in range(pix.height):
+        if min(pix.samples[row * pix.stride: row * pix.stride + pix.width]) < 128:
+            return line.y0 + (line.y1 - line.y0) * row / pix.height
+    return line.y1
+
+
+def bottom_of(line, items, doc, top):
+    """Where the crop above `line` may end. Normally just above the line's box (`top`, see top_of). But when
+    something above hangs into that box (a fraction's denominator at the end of option D reaching into the
+    '(Total for Question …)' line), end just above where the line's ink starts instead, so it isn't clipped."""
+    if doc is None:
+        return top
+    hangs = any(it.page == line.page and (it.y0 + it.y1) / 2 < top and it.y1 > top for it in items)
+    return max(top, ink_top(doc, line) - 2) if hangs else top
+
+
+def regions(questions, items, doc=None):
     """Set node.bands = [(page, y0, y1), …]: the part of each page that shows this node's own content.
 
     A node runs from its label to wherever the next label starts (or its question's total line). For a node
@@ -292,12 +343,12 @@ def regions(questions, items):
             owner[id(n)] = q
     for i, node in enumerate(order):
         q = owner[id(node)]
-        start = (node.start.page, node.start.y0 - 1)
+        start = (node.start.page, top_of(node.start, items))
         nxt = order[i + 1] if i + 1 < len(order) else None
         if nxt is not None and owner[id(nxt)] is q:
-            end = (nxt.start.page, nxt.start.y0 - 1)
+            end = (nxt.start.page, bottom_of(nxt.start, items, doc, top_of(nxt.start, items)))
         else:
-            end = (q.end.page, q.end.y0 - 1) if q.end else (start[0], COL_Y1)
+            end = (q.end.page, bottom_of(q.end, items, doc, q.end.y0 - 1)) if q.end else (start[0], COL_Y1)
         node.bands = []
         for page in range(start[0], end[0] + 1):
             top = start[1] if page == start[0] else COL_Y0
@@ -307,6 +358,67 @@ def regions(questions, items):
                 y0 = max(top, min(it.y0 for it in inside) - PAD)
                 y1 = min(bottom, max(it.y1 for it in inside) + PAD)
                 node.bands.append((page, y0, y1))
+
+
+GRID_WORD = re.compile(r"\bgrid\b", re.I)
+
+
+def grid_band(band, items):
+    """A band that is nothing but a plotting grid: a tall drawing and no text at all."""
+    page, y0, y1 = band
+    inside = [it for it in items if it.page == page and y0 <= (it.y0 + it.y1) / 2 <= y1]
+    drawn = [it for it in inside if it.kind == "drawing"]
+    return (bool(drawn) and not any(it.kind == "text" for it in inside)
+            and max(it.y1 for it in drawn) - min(it.y0 for it in drawn) > 300)
+
+
+def reattach_grids(questions, items, lines):
+    """Give a plotting grid to the part that asks for it.
+
+    A part says "plot a graph … on the grid opposite" and the grid is printed on the next page, often after the
+    next part's label (which sits at the bottom of the first page). regions() hands everything up to the next
+    label to the part before it, so the grid lands under the next part. Move any grid-only band to the latest
+    earlier part of the same question that mentions a grid and has none of its own."""
+    for q in questions:
+        parts = leaves(q)
+        for i, part in enumerate(parts):
+            if GRID_WORD.search(text_of(part, lines)):
+                continue                                        # it asks for a grid itself: any grid is its own
+            for band in [b for b in part.bands if grid_band(b, items)]:
+                asker = next((p for p in reversed(parts[:i]) if GRID_WORD.search(text_of(p, lines))
+                              and not any(grid_band(b, items) for b in p.bands)), None)
+                if asker is not None:
+                    part.bands.remove(band)
+                    asker.bands.append(band)
+
+
+SHARED_LEAD = re.compile(r"^Questions (\d{1,2}) (?:and|to) (\d{1,2}) (?:both )?(?:refer|relate)", re.I)
+
+
+def shared_leads(questions, lines, items):
+    """Set q.lead for questions that share a printed lead-in.
+
+    'Questions 9 and 10 refer to the following information.' with a graph and options is printed after
+    question 8's total line and before question 9's label, so it belongs to no question and regions() drops it.
+    Its band runs from that line to just above question 9 and is shown as the opening of 9 and of 10."""
+    by_number = {int(q.label): q for q in questions if q.label.isdigit()}
+    for line in lines:
+        m = SHARED_LEAD.match(line.text)
+        if not m or int(m[1]) not in by_number:
+            continue
+        first, last = int(m[1]), int(m[2])
+        target = by_number[first]
+        bands = []
+        for page in range(line.page, target.start.page + 1):
+            top = line.y0 - 1 if page == line.page else COL_Y0
+            bottom = top_of(target.start, items) if page == target.start.page else COL_Y1
+            inside = [it for it in items if it.page == page and top <= (it.y0 + it.y1) / 2 <= bottom]
+            if inside:
+                bands.append((page, max(top, min(it.y0 for it in inside) - PAD),
+                              min(bottom, max(it.y1 for it in inside) + PAD)))
+        for n in range(first, last + 1):
+            if n in by_number:
+                by_number[n].lead = bands
 
 
 def leaves(node):
@@ -450,6 +562,9 @@ def export(doc, questions, lines, paper_id, subject="physics"):
     qs = []
     for q in questions:
         stem = render(doc, q, crops_dir, subject, paper_id, "_stem") if q.children else []
+        if q.lead:      # a lead-in shared with neighbouring questions comes first
+            lead = SimpleNamespace(label=q.label, bands=q.lead)
+            stem = render(doc, lead, crops_dir, subject, paper_id, "_lead") + stem
         parts = []
         for part in (q.children or [q]):
             intro = render(doc, part, crops_dir, subject, paper_id, "_intro") if part.children else []
@@ -533,7 +648,10 @@ def main():
     doc = pymupdf.open(CACHE / f"{paper_id}_qp.pdf")
     lines = read_lines(doc)
     questions = outline(lines)
-    regions(questions, content_items(doc, lines))
+    items = content_items(doc, lines)
+    regions(questions, items, doc)
+    reattach_grids(questions, items, lines)
+    shared_leads(questions, lines, items)
     print_outline(questions)
     problems = check(questions)
     print(f"\n{len(questions)} questions, {sum(q.total or 0 for q in questions)} marks")
