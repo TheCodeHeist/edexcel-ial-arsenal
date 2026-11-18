@@ -1,80 +1,1304 @@
 {
-  "$comment": "IAL Physics (2018 spec, Issue 3) topic list. Spec points are numbered once across all six units, so a tag is just the point number as a string (\"106\"). `short` is the chip label in the UI; `text` is the spec statement with equations written in plain text. Units 1, 2 and 5 still to be transcribed; units 3 and 6 are practical-skills papers and get their own skill tags later.",
-  "subject": "physics",
-  "spec": "phys-spec-2018-iss3",
-  "units": [
-    { "code": "WPH11", "title": "Mechanics and Materials", "groups": [] },
-    { "code": "WPH12", "title": "Waves and Electricity", "groups": [] },
-    { "code": "WPH13", "title": "Practical Skills in Physics I", "groups": [] },
+ "$comment": "IAL Physics (2018 spec, Issue 3) topic list. Content statements are numbered once across units 1, 2, 4 and 5 (1–171), so a content tag is just the number as a string (\"106\"). Units 3 and 6 are practical-skills papers: their tags are the skill bullets of sections 3.3–3.5 and 6.3–6.5 (\"3.5i\", \"skill\": true); their questions also take content tags from units 1–2 (WPH13) or 4–5 (WPH16). `short` is the chip label in the UI; `text` is the spec statement with equations in plain text. Units 1, 2 and 5 transcribed from the spec page images by Gemini and checked word-for-word against the spec's text layer.",
+ "subject": "physics",
+ "spec": "phys-spec-2018-iss3",
+ "units": [
+  {
+   "code": "WPH11",
+   "title": "Mechanics and Materials",
+   "groups": [
     {
-      "code": "WPH14",
-      "title": "Further Mechanics, Fields and Particles",
-      "groups": [
-        {
-          "id": "4.3",
-          "title": "Further Mechanics",
-          "points": [
-            { "id": "81", "short": "Impulse", "text": "Understand how to use the equation impulse = FΔt = Δp (Newton's second law of motion)." },
-            { "id": "82", "short": "CP9: force and change of momentum", "text": "CORE PRACTICAL 9: Investigate the relationship between the force exerted on an object and its change of momentum.", "core": 9 },
-            { "id": "83", "short": "Momentum in 2D", "text": "Understand how to apply conservation of linear momentum to problems in two dimensions." },
-            { "id": "84", "short": "CP10: collisions with ICT", "text": "CORE PRACTICAL 10: Use ICT to analyse collisions between small spheres, e.g. ball bearings on a table top.", "core": 10 },
-            { "id": "85", "short": "Elastic vs inelastic", "text": "Understand how to determine whether a collision is elastic or inelastic." },
-            { "id": "86", "short": "Ek = p²/2m", "text": "Be able to derive and use the equation Ek = p²/2m for the kinetic energy of a non-relativistic particle." },
-            { "id": "87", "short": "Radians", "text": "Be able to express angular displacement in radians and in degrees, and convert between these units." },
-            { "id": "88", "short": "Angular velocity", "text": "Understand what is meant by angular velocity and be able to use the equations v = ωr and T = 2π/ω." },
-            { "id": "89", "short": "Centripetal acceleration", "text": "Be able to use vector diagrams to derive the equations for centripetal acceleration a = v²/r = rω² and understand how to use these equations." },
-            { "id": "90", "short": "Centripetal force needed", "text": "Understand that a resultant force (centripetal force) is required to produce and maintain circular motion." },
-            { "id": "91", "short": "F = mv²/r", "text": "Be able to use the equations for centripetal force F = ma = mv²/r = mrω²." }
-          ]
-        },
-        {
-          "id": "4.4",
-          "title": "Electric and Magnetic Fields",
-          "points": [
-            { "id": "92", "short": "Electric field", "text": "Understand that an electric field (force field) is defined as a region where a charged particle experiences a force." },
-            { "id": "93", "short": "E = F/Q", "text": "Understand that electric field strength is defined as E = F/Q and be able to use this equation." },
-            { "id": "94", "short": "Coulomb's law", "text": "Be able to use the equation F = Q₁Q₂/(4πε₀r²) for the force between two charges." },
-            { "id": "95", "short": "Point-charge field", "text": "Be able to use the equation E = Q/(4πε₀r²) for the electric field due to a point charge." },
-            { "id": "96", "short": "Field and potential", "text": "Know and understand the relation between electric field and electric potential." },
-            { "id": "97", "short": "E = V/d", "text": "Be able to use the equation E = V/d for an electric field between parallel plates." },
-            { "id": "98", "short": "Radial potential", "text": "Be able to use V = Q/(4πε₀r) for a radial field." },
-            { "id": "99", "short": "Field lines, equipotentials", "text": "Be able to draw and interpret diagrams using field lines and equipotentials to describe radial and uniform electric fields." },
-            { "id": "100", "short": "C = Q/V", "text": "Understand that capacitance is defined as C = Q/V and be able to use this equation." },
-            { "id": "101", "short": "Capacitor energy", "text": "Be able to use the equation W = ½QV for the energy stored by a capacitor, derive it from the area under a graph of potential difference against charge stored, and derive and use W = ½CV² and W = ½Q²/C." },
-            { "id": "102", "short": "Charge/discharge, RC", "text": "Be able to draw and interpret charge and discharge curves for resistor capacitor circuits and understand the significance of the time constant RC." },
-            { "id": "103", "short": "CP11: capacitor p.d.", "text": "CORE PRACTICAL 11: Use an oscilloscope or data logger to display and analyse the potential difference (p.d.) across a capacitor as it charges and discharges through a resistor.", "core": 11 },
-            { "id": "104", "short": "Exponential discharge", "text": "Be able to use Q = Q₀e^(−t/RC) and derive and use the related equations I = I₀e^(−t/RC) and V = V₀e^(−t/RC), and the log forms ln Q = ln Q₀ − t/RC, ln I = ln I₀ − t/RC and ln V = ln V₀ − t/RC." },
-            { "id": "105", "short": "B, flux, flux linkage", "text": "Understand and use the terms magnetic flux density B, flux φ and flux linkage Nφ." },
-            { "id": "106", "short": "F = Bqv sinθ", "text": "Be able to use the equation F = Bqv sinθ and apply Fleming's left-hand rule to charged particles moving in a magnetic field." },
-            { "id": "107", "short": "F = BIl sinθ", "text": "Be able to use the equation F = BIl sinθ and apply Fleming's left-hand rule to current carrying conductors in a magnetic field." },
-            { "id": "108", "short": "Induction: magnet and coil", "text": "Understand the factors affecting the e.m.f. induced in a coil when there is relative motion between the coil and a permanent magnet." },
-            { "id": "109", "short": "Induction: linked coils", "text": "Understand the factors affecting the e.m.f. induced in a coil when there is a change of current in another coil linked with this coil." },
-            { "id": "110", "short": "Faraday and Lenz", "text": "Understand how to use Faraday's law to determine the magnitude of an induced e.m.f. and be able to use the equation that combines Faraday's and Lenz's laws, ℰ = −d(Nφ)/dt." }
-          ]
-        },
-        {
-          "id": "4.5",
-          "title": "Nuclear and Particle Physics",
-          "points": [
-            { "id": "111", "short": "Nucleon and proton number", "text": "Understand what is meant by nucleon number (mass number) and proton number (atomic number)." },
-            { "id": "112", "short": "Alpha scattering", "text": "Understand how large-angle alpha particle scattering gives evidence for a nuclear model of the atom and how our understanding of atomic structure has changed over time." },
-            { "id": "113", "short": "Thermionic emission", "text": "Understand that electrons are released in the process of thermionic emission and how they can be accelerated by electric and magnetic fields." },
-            { "id": "114", "short": "Accelerators and detectors", "text": "Understand the role of electric and magnetic fields in particle accelerators (linac and cyclotron) and detectors (general principles of ionisation and deflection only)." },
-            { "id": "115", "short": "r = p/BQ", "text": "Be able to derive and use the equation r = p/BQ for a charged particle in a magnetic field." },
-            { "id": "116", "short": "Conservation, particle tracks", "text": "Be able to apply conservation of charge, energy and momentum to interactions between particles and interpret particle tracks." },
-            { "id": "117", "short": "Why high energies", "text": "Understand why high energies are required to investigate the structure of nucleons." },
-            { "id": "118", "short": "ΔE = c²Δm", "text": "Be able to use the equation ΔE = c²Δm in situations involving the creation and annihilation of matter and antimatter particles." },
-            { "id": "119", "short": "MeV, GeV/c² units", "text": "Be able to use MeV and GeV (energy) and MeV/c², GeV/c² (mass) and convert between these and SI units." },
-            { "id": "120", "short": "Relativistic lifetime", "text": "Understand situations in which the relativistic increase in particle lifetime is significant (use of relativistic equations not required)." },
-            { "id": "121", "short": "Quark-lepton model", "text": "Know that in the standard quark-lepton model particles can be classified as baryons (three quarks, e.g. neutrons and protons), mesons (a quark and an antiquark, e.g. pions), leptons (fundamental, e.g. electrons and neutrinos) and photons, and that the symmetry of the model predicted the top quark." },
-            { "id": "122", "short": "Antiparticles", "text": "Know that every particle has a corresponding antiparticle and be able to use the properties of a particle to deduce the properties of its antiparticle and vice versa." },
-            { "id": "123", "short": "Charge, baryon, lepton number", "text": "Understand how to use laws of conservation of charge, baryon number and lepton number to determine whether a particle interaction is possible." },
-            { "id": "124", "short": "Particle equations", "text": "Be able to write and interpret particle equations given the relevant particle symbols." }
-          ]
-        }
-      ]
+     "id": "1.3",
+     "title": "Mechanics",
+     "points": [
+      {
+       "id": "1",
+       "short": "SUVAT equations",
+       "text": "Be able to use the equations for uniformly accelerated motion in one dimension: s = (u + v)t/2, v = u + at, s = ut + ½at², v² = u² + 2as."
+      },
+      {
+       "id": "2",
+       "short": "Motion graphs",
+       "text": "Be able to draw and interpret displacement-time, velocity-time and acceleration-time graphs."
+      },
+      {
+       "id": "3",
+       "short": "Slopes and areas of motion graphs",
+       "text": "Know the physical quantities derived from the slopes and areas of displacement-time, velocity-time and acceleration-time graphs, including cases of non-uniform acceleration and understand how to use the quantities."
+      },
+      {
+       "id": "4",
+       "short": "Scalars and vectors",
+       "text": "Understand scalar and vector quantities and know examples of each type of quantity and recognise vector notation."
+      },
+      {
+       "id": "5",
+       "short": "Resolving vectors",
+       "text": "Be able to resolve a vector into two components at right angles to each other by drawing and by calculation."
+      },
+      {
+       "id": "6",
+       "short": "Resultant vectors",
+       "text": "Be able to find the resultant of two coplanar vectors at any angle to each other by drawing, and at right angles to each other by calculation."
+      },
+      {
+       "id": "7",
+       "short": "Projectiles",
+       "text": "Understand how to make use of the independence of vertical and horizontal motion of a projectile moving freely under gravity."
+      },
+      {
+       "id": "8",
+       "short": "Free-body force diagrams",
+       "text": "Be able to draw and interpret free-body force diagrams to represent forces on a particle or on an extended but rigid body using the concept of centre of gravity of an extended body."
+      },
+      {
+       "id": "9",
+       "short": "∑F = ma and Newton's laws",
+       "text": "Be able to use the equation ∑F = ma, and understand how to use this equation in situations where m is constant (Newton’s second law of motion), including Newton’s first law of motion where a = 0, objects at rest or travelling at constant velocity. Use of the term ‘terminal velocity’ is expected."
+      },
+      {
+       "id": "10",
+       "short": "Weight and g",
+       "text": "Be able to use the equations for gravitational field strength g = F/m and weight W = mg."
+      },
+      {
+       "id": "11",
+       "short": "CP1: free-fall acceleration",
+       "text": "CORE PRACTICAL 1: Determine the acceleration of a freely-falling object.",
+       "core": 1
+      },
+      {
+       "id": "12",
+       "short": "Newton's third law",
+       "text": "Know and understand Newton’s third law of motion and know the properties of pairs of forces in an interaction between two bodies."
+      },
+      {
+       "id": "13",
+       "short": "Momentum p = mv",
+       "text": "Understand that momentum is defined as p = mv."
+      },
+      {
+       "id": "14",
+       "short": "Conservation of linear momentum",
+       "text": "Know the principle of conservation of linear momentum, understand how to relate this to Newton’s laws of motion and understand how to apply this to problems in one dimension."
+      },
+      {
+       "id": "15",
+       "short": "Moment of a force",
+       "text": "Be able to use the equation for the moment of a force, moment of force = Fx where x is the perpendicular distance between the line of action of the force and the axis of rotation."
+      },
+      {
+       "id": "16",
+       "short": "Principle of moments",
+       "text": "Be able to use the concept of centre of gravity of an extended body and apply the principle of moments to an extended body in equilibrium."
+      },
+      {
+       "id": "17",
+       "short": "Work done ΔW = FΔs",
+       "text": "Be able to use the equation for work ∆W = F∆s, including calculations when the force is not along the line of motion."
+      },
+      {
+       "id": "18",
+       "short": "Kinetic energy Ek = ½mv²",
+       "text": "Be able to use the equation Ek = ½mv² for the kinetic energy of a body."
+      },
+      {
+       "id": "19",
+       "short": "Gravitational potential energy",
+       "text": "Be able to use the equation ∆Egrav = mg∆h for the difference in gravitational potential energy near the Earth’s surface."
+      },
+      {
+       "id": "20",
+       "short": "Conservation of energy",
+       "text": "Know, and understand how to apply, the principle of conservation of energy including use of work done, gravitational potential energy and kinetic energy."
+      },
+      {
+       "id": "21",
+       "short": "Power",
+       "text": "Be able to use the equations relating power, time and energy transferred or work done P = E/t and P = W/t."
+      },
+      {
+       "id": "22",
+       "short": "Efficiency equations",
+       "text": "Be able to use the equations efficiency = useful energy output / total energy input and efficiency = useful power output / total power input."
+      }
+     ]
     },
-    { "code": "WPH15", "title": "Thermodynamics, Radiation, Oscillations and Cosmology", "groups": [] },
-    { "code": "WPH16", "title": "Practical Skills in Physics II", "groups": [] }
-  ]
+    {
+     "id": "1.4",
+     "title": "Materials",
+     "points": [
+      {
+       "id": "23",
+       "short": "Density ρ = m/V",
+       "text": "Be able to use the equation density ρ = m/V."
+      },
+      {
+       "id": "24",
+       "short": "Upthrust and Archimedes",
+       "text": "Understand how to use the relationship upthrust = weight of fluid displaced."
+      },
+      {
+       "id": "25",
+       "short": "Viscous drag and Stokes' law",
+       "text": "a Be able to use the equation for viscous drag (Stokes’ Law), F = 6πηrv. b Understand that this equation applies only to small spherical objects moving at low speeds with laminar flow (or in the absence of turbulent flow) and that viscosity is temperature dependent."
+      },
+      {
+       "id": "26",
+       "short": "CP2: viscosity of liquid",
+       "text": "CORE PRACTICAL 2: Use a falling-ball method to determine the viscosity of a liquid.",
+       "core": 2
+      },
+      {
+       "id": "27",
+       "short": "Hooke's law ΔF = kΔx",
+       "text": "Be able to use the Hooke’s law equation, ∆F = k∆x, where k is the stiffness of the object."
+      },
+      {
+       "id": "28",
+       "short": "Stress, strain, Young modulus",
+       "text": "Understand how to use the relationships • (tensile or compressive) stress = force/cross-sectional area • (tensile or compressive) strain = change in length/original length Young modulus = stress/strain."
+      },
+      {
+       "id": "29",
+       "short": "Force-extension graphs",
+       "text": "a Be able to draw and interpret force-extension and force-compression graphs. b Understand the terms limit of proportionality, elastic limit, yield point, elastic deformation and plastic deformation and be able to apply them to these graphs."
+      },
+      {
+       "id": "30",
+       "short": "Stress-strain graphs",
+       "text": "Be able to draw and interpret tensile or compressive stress-strain graphs, and understand the term breaking stress."
+      },
+      {
+       "id": "31",
+       "short": "CP3: Young modulus",
+       "text": "CORE PRACTICAL 3: Determine the Young modulus of a material.",
+       "core": 3
+      },
+      {
+       "id": "32",
+       "short": "Elastic strain energy",
+       "text": "Be able to calculate the elastic strain energy Eel in a deformed material sample, using the equation ∆Eel = ½F∆x, and from the area under the force-extension graph. The estimation of area and hence energy change for both linear and non-linear force-extension graphs is expected."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WPH12",
+   "title": "Waves and Electricity",
+   "groups": [
+    {
+     "id": "2.3",
+     "title": "Waves and Particle Nature of Light",
+     "points": [
+      {
+       "id": "33",
+       "short": "Wave terms",
+       "text": "Understand the terms amplitude, frequency, period, speed and wavelength."
+      },
+      {
+       "id": "34",
+       "short": "Wave equation v = fλ",
+       "text": "Be able to use the wave equation v = fλ."
+      },
+      {
+       "id": "35",
+       "short": "Longitudinal waves",
+       "text": "Be able to describe longitudinal waves in terms of pressure variation and the displacement of molecules."
+      },
+      {
+       "id": "36",
+       "short": "Transverse waves",
+       "text": "Be able to describe transverse waves."
+      },
+      {
+       "id": "37",
+       "short": "Wave graphs",
+       "text": "Be able to draw and interpret graphs representing transverse and longitudinal waves including standing/stationary waves."
+      },
+      {
+       "id": "38",
+       "short": "CP4: speed of sound",
+       "text": "CORE PRACTICAL 4: Determine the speed of sound in air using a 2-beam oscilloscope, signal generator, speaker and microphone.",
+       "core": 4
+      },
+      {
+       "id": "39",
+       "short": "Wave properties and terms",
+       "text": "Know and understand what is meant by wavefront, coherence, path difference, superposition, interference and phase."
+      },
+      {
+       "id": "40",
+       "short": "Phase and path difference",
+       "text": "Be able to use the relationship between phase difference and path difference."
+      },
+      {
+       "id": "41",
+       "short": "Standing waves",
+       "text": "Know what is meant by a standing/stationary wave and understand how such a wave is formed, know how to identify nodes and antinodes."
+      },
+      {
+       "id": "42",
+       "short": "Speed of transverse wave",
+       "text": "Be able to use the equation for the speed of a transverse wave on a string v = √(T/µ)."
+      },
+      {
+       "id": "43",
+       "short": "CP5: vibrating string",
+       "text": "CORE PRACTICAL 5: Investigate the effects of length, tension and mass per unit length on the frequency of a vibrating string or wire.",
+       "core": 5
+      },
+      {
+       "id": "44",
+       "short": "Radiation intensity I = P/A",
+       "text": "Be able to use the equation for the intensity of radiation I = P/A."
+      },
+      {
+       "id": "45",
+       "short": "Refraction and Snell's law",
+       "text": "Know and understand that at the interface between medium 1 and medium 2 n₁sin θ₁ = n₂sin θ₂ where refractive index is n = c/v."
+      },
+      {
+       "id": "46",
+       "short": "Critical angle sin C = 1/n",
+       "text": "Be able to calculate critical angle using sin C = 1/n."
+      },
+      {
+       "id": "47",
+       "short": "Total internal reflection",
+       "text": "Be able to predict whether total internal reflection will occur at an interface."
+      },
+      {
+       "id": "48",
+       "short": "Measuring refractive index",
+       "text": "Understand how to measure the refractive index of a solid material."
+      },
+      {
+       "id": "49",
+       "short": "Plane polarisation",
+       "text": "Understand what is meant by plane polarisation."
+      },
+      {
+       "id": "50",
+       "short": "Diffraction and Huygens",
+       "text": "Understand what is meant by diffraction and use Huygens’ construction to explain what happens to a wave when it meets a slit or an obstacle."
+      },
+      {
+       "id": "51",
+       "short": "Diffraction grating nλ = dsinθ",
+       "text": "Be able to use nλ = dsinθ for a diffraction grating."
+      },
+      {
+       "id": "52",
+       "short": "CP6: wavelength with grating",
+       "text": "CORE PRACTICAL 6: Determine the wavelength of light from a laser or other light source using a diffraction grating.",
+       "core": 6
+      },
+      {
+       "id": "53",
+       "short": "Electron diffraction",
+       "text": "Understand how diffraction experiments provide evidence for the wave nature of electrons."
+      },
+      {
+       "id": "54",
+       "short": "de Broglie equation λ = h/p",
+       "text": "Be able to use the de Broglie equation λ = h/p."
+      },
+      {
+       "id": "55",
+       "short": "Transmission and reflection",
+       "text": "Understand that waves can be transmitted and reflected at an interface between media."
+      },
+      {
+       "id": "56",
+       "short": "Pulse-echo technique",
+       "text": "Understand how a pulse-echo technique can provide information about the position of an object and how the amount of information obtained may be limited by the wavelength of the radiation or by the duration of pulses."
+      },
+      {
+       "id": "57",
+       "short": "Wave and photon models",
+       "text": "Understand how the behaviour of electromagnetic radiation can be described in terms of a wave model and a photon model, and how these models developed over time."
+      },
+      {
+       "id": "58",
+       "short": "Photon energy E = hf",
+       "text": "Be able to use the equation E = hf, that relates the photon energy to the wave frequency."
+      },
+      {
+       "id": "59",
+       "short": "Photoelectron emission",
+       "text": "Understand that the absorption of a photon can result in the emission of a photoelectron."
+      },
+      {
+       "id": "60",
+       "short": "Photoelectric equation",
+       "text": "Understand the terms ‘threshold frequency’ and ‘work function’ and be able to use the equation hf = φ + ½m(v_max)²."
+      },
+      {
+       "id": "61",
+       "short": "Electronvolt unit",
+       "text": "Be able to use the electronvolt (eV) to express small energies."
+      },
+      {
+       "id": "62",
+       "short": "Evidence for photon nature",
+       "text": "Understand how the photoelectric effect provides evidence for the particle nature of electromagnetic radiation."
+      },
+      {
+       "id": "63",
+       "short": "Atomic line spectra",
+       "text": "Understand atomic line spectra in terms of transitions between discrete energy levels and understand how to calculate the frequency of radiation that could be emitted or absorbed in a transition between energy levels."
+      }
+     ]
+    },
+    {
+     "id": "2.4",
+     "title": "Electric Circuits",
+     "points": [
+      {
+       "id": "64",
+       "short": "Electric current I = ΔQ/Δt",
+       "text": "Understand that electric current is the rate of flow of charged particles and be able to use the equation I = ∆Q/∆t."
+      },
+      {
+       "id": "65",
+       "short": "Potential difference V = W/Q",
+       "text": "Understand how to use the equation V = W/Q."
+      },
+      {
+       "id": "66",
+       "short": "Resistance and Ohm's law",
+       "text": "Understand that resistance is defined by R = V/I and that Ohm’s law is a special case when I ∝ V for constant temperature."
+      },
+      {
+       "id": "67",
+       "short": "Current and voltage conservation",
+       "text": "(a) Understand how the distribution of current in a circuit is a consequence of charge conservation. (b) Understand how the distribution of potential differences in a circuit is a consequence of energy conservation."
+      },
+      {
+       "id": "68",
+       "short": "Series and parallel resistors",
+       "text": "Be able to derive the equations for combining resistances in series and parallel using the principles of charge and energy conservation, and be able to use these equations."
+      },
+      {
+       "id": "69",
+       "short": "Electrical power equations",
+       "text": "Be able to use the equations P = VI, W = VIt and be able to derive and use related equations, e.g. P = I²R and P = V²/R."
+      },
+      {
+       "id": "70",
+       "short": "I-V characteristics",
+       "text": "Understand how to sketch, recognise and interpret current-potential difference graphs for components, including ohmic conductors, filament bulbs, thermistors and diodes."
+      },
+      {
+       "id": "71",
+       "short": "Resistivity R = ρl/A",
+       "text": "Be able to use the equation R = ρl/A."
+      },
+      {
+       "id": "72",
+       "short": "CP7: electrical resistivity",
+       "text": "CORE PRACTICAL 7: Determine the electrical resistivity of a material.",
+       "core": 7
+      },
+      {
+       "id": "73",
+       "short": "Drift velocity I = nqvA",
+       "text": "Be able to use I = nqvA to explain the large range of resistivities of different materials."
+      },
+      {
+       "id": "74",
+       "short": "Potential along a wire",
+       "text": "Understand how the potential along a uniform current-carrying wire varies with the distance along it."
+      },
+      {
+       "id": "75",
+       "short": "Potential divider circuits",
+       "text": "Understand the principles of a potential divider circuit and understand how to calculate potential differences and resistances in such a circuit."
+      },
+      {
+       "id": "76",
+       "short": "Sensors in potential dividers",
+       "text": "Be able to analyse potential divider circuits where one resistance is variable including thermistors and light dependent resistors (LDRs)."
+      },
+      {
+       "id": "77",
+       "short": "e.m.f. and internal resistance",
+       "text": "Know the definition of electromotive force (e.m.f.) and understand what is meant by internal resistance and know how to distinguish between e.m.f. and terminal potential difference."
+      },
+      {
+       "id": "78",
+       "short": "CP8: e.m.f. and internal r",
+       "text": "CORE PRACTICAL 8: Determine the e.m.f. and internal resistance of an electrical cell.",
+       "core": 8
+      },
+      {
+       "id": "79",
+       "short": "Temperature effect on resistance",
+       "text": "Understand how changes of resistance with temperature may be modelled in terms of lattice vibrations and number of conduction electrons and understand how to apply this model to metallic conductors and negative temperature coefficient thermistors."
+      },
+      {
+       "id": "80",
+       "short": "LDR resistance and light",
+       "text": "Understand how changes of resistance with illumination may be modelled in terms of the number of conduction electrons and understand how to apply this model to LDRs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WPH13",
+   "title": "Practical Skills in Physics I",
+   "groups": [
+    {
+     "id": "3.3",
+     "title": "Planning",
+     "points": [
+      {
+       "id": "3.3a",
+       "short": "Choosing apparatus",
+       "text": "Identify the apparatus required.",
+       "skill": true
+      },
+      {
+       "id": "3.3b",
+       "short": "Range and resolution",
+       "text": "The range and resolution of measuring instruments including Vernier calipers (0.1mm) and micrometer screw gauge (0.01mm).",
+       "skill": true
+      },
+      {
+       "id": "3.3c",
+       "short": "Calibration",
+       "text": "Discuss calibration of instruments, e.g. whether a meter reads zero before measurements are made.",
+       "skill": true
+      },
+      {
+       "id": "3.3d",
+       "short": "Measuring techniques",
+       "text": "Describe how to measure relevant variables using the most appropriate instrument and correct measuring techniques.",
+       "skill": true
+      },
+      {
+       "id": "3.3e",
+       "short": "Control variables",
+       "text": "Identify and state how to control all other relevant variables to make it a fair test.",
+       "skill": true
+      },
+      {
+       "id": "3.3f",
+       "short": "Repeat readings",
+       "text": "Discuss whether repeat readings are appropriate.",
+       "skill": true
+      },
+      {
+       "id": "3.3g",
+       "short": "Health and safety",
+       "text": "Identify health and safety issues and discuss how these may be dealt with.",
+       "skill": true
+      },
+      {
+       "id": "3.3h",
+       "short": "Using the data",
+       "text": "Discuss how the data collected will be used.",
+       "skill": true
+      },
+      {
+       "id": "3.3i",
+       "short": "Sources of uncertainty",
+       "text": "Identify possible sources of uncertainty and/or systematic error and explain how these may be reduced or eliminated.",
+       "skill": true
+      },
+      {
+       "id": "3.3j",
+       "short": "Implications and context",
+       "text": "Comment on the implications of physics (e.g. benefits/risks) and on its context (e.g. social/environmental/historical).",
+       "skill": true
+      }
+     ]
+    },
+    {
+     "id": "3.4",
+     "title": "Implementation and measurements",
+     "points": [
+      {
+       "id": "3.4a",
+       "short": "Number of readings",
+       "text": "Comment on the number of readings taken.",
+       "skill": true
+      },
+      {
+       "id": "3.4b",
+       "short": "Range of readings",
+       "text": "Comment on the range of measurements taken.",
+       "skill": true
+      },
+      {
+       "id": "3.4c",
+       "short": "Significant figures",
+       "text": "Comment on significant figures.",
+       "skill": true
+      },
+      {
+       "id": "3.4d",
+       "short": "Anomalous readings",
+       "text": "Check a reading that is inconsistent with other readings, e.g. a point that is not on the line of a graph – students may be shown a diagram of a micrometer that is being used to measure the diameter of a wire and be expected to write down the reading to the correct number of significant figures.",
+       "skill": true
+      },
+      {
+       "id": "3.4e",
+       "short": "Improving the experiment",
+       "text": "Comment on how the experiment may be improved, possibly by using additional apparatus (e.g. to reduce errors) – examples may include using a set square to determine whether a ruler is vertical to aid the measurement of the extension of a spring.",
+       "skill": true
+      }
+     ]
+    },
+    {
+     "id": "3.5",
+     "title": "Processing Results",
+     "points": [
+      {
+       "id": "3.5a",
+       "short": "Calculations to s.f.",
+       "text": "Perform calculations, using the correct number of significant figures.",
+       "skill": true
+      },
+      {
+       "id": "3.5b",
+       "short": "Plotting graphs",
+       "text": "Plot results on a graph using an appropriate scale.",
+       "skill": true
+      },
+      {
+       "id": "3.5c",
+       "short": "Correct units",
+       "text": "Use the correct units throughout.",
+       "skill": true
+      },
+      {
+       "id": "3.5d",
+       "short": "Relationship from graph",
+       "text": "Comment on the relationship obtained from the graph.",
+       "skill": true
+      },
+      {
+       "id": "3.5e",
+       "short": "Gradient and constants",
+       "text": "Determine the relationship between two variables or determine a constant with the aid of a graph, e.g. by determining the gradient using a large triangle.",
+       "skill": true
+      },
+      {
+       "id": "3.5f",
+       "short": "Modifications to reduce errors",
+       "text": "Suggest realistic modifications to reduce errors.",
+       "skill": true
+      },
+      {
+       "id": "3.5g",
+       "short": "Modifications to improve",
+       "text": "Suggest realistic modifications to improve the experiment.",
+       "skill": true
+      },
+      {
+       "id": "3.5h",
+       "short": "Discussing uncertainties",
+       "text": "Discuss uncertainties, qualitatively and quantitatively.",
+       "skill": true
+      },
+      {
+       "id": "3.5i",
+       "short": "Percentage uncertainty",
+       "text": "Determine the percentage uncertainty in measurements for a single reading using half the resolution of the instrument and from multiple readings using the half range (students are not expected to compound percentage uncertainties).",
+       "skill": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WPH14",
+   "title": "Further Mechanics, Fields and Particles",
+   "groups": [
+    {
+     "id": "4.3",
+     "title": "Further Mechanics",
+     "points": [
+      {
+       "id": "81",
+       "short": "Impulse",
+       "text": "Understand how to use the equation impulse = FΔt = Δp (Newton's second law of motion)."
+      },
+      {
+       "id": "82",
+       "short": "CP9: force and change of momentum",
+       "text": "CORE PRACTICAL 9: Investigate the relationship between the force exerted on an object and its change of momentum.",
+       "core": 9
+      },
+      {
+       "id": "83",
+       "short": "Momentum in 2D",
+       "text": "Understand how to apply conservation of linear momentum to problems in two dimensions."
+      },
+      {
+       "id": "84",
+       "short": "CP10: collisions with ICT",
+       "text": "CORE PRACTICAL 10: Use ICT to analyse collisions between small spheres, e.g. ball bearings on a table top.",
+       "core": 10
+      },
+      {
+       "id": "85",
+       "short": "Elastic vs inelastic",
+       "text": "Understand how to determine whether a collision is elastic or inelastic."
+      },
+      {
+       "id": "86",
+       "short": "Ek = p²/2m",
+       "text": "Be able to derive and use the equation Ek = p²/2m for the kinetic energy of a non-relativistic particle."
+      },
+      {
+       "id": "87",
+       "short": "Radians",
+       "text": "Be able to express angular displacement in radians and in degrees, and convert between these units."
+      },
+      {
+       "id": "88",
+       "short": "Angular velocity",
+       "text": "Understand what is meant by angular velocity and be able to use the equations v = ωr and T = 2π/ω."
+      },
+      {
+       "id": "89",
+       "short": "Centripetal acceleration",
+       "text": "Be able to use vector diagrams to derive the equations for centripetal acceleration a = v²/r = rω² and understand how to use these equations."
+      },
+      {
+       "id": "90",
+       "short": "Centripetal force needed",
+       "text": "Understand that a resultant force (centripetal force) is required to produce and maintain circular motion."
+      },
+      {
+       "id": "91",
+       "short": "F = mv²/r",
+       "text": "Be able to use the equations for centripetal force F = ma = mv²/r = mrω²."
+      }
+     ]
+    },
+    {
+     "id": "4.4",
+     "title": "Electric and Magnetic Fields",
+     "points": [
+      {
+       "id": "92",
+       "short": "Electric field",
+       "text": "Understand that an electric field (force field) is defined as a region where a charged particle experiences a force."
+      },
+      {
+       "id": "93",
+       "short": "E = F/Q",
+       "text": "Understand that electric field strength is defined as E = F/Q and be able to use this equation."
+      },
+      {
+       "id": "94",
+       "short": "Coulomb's law",
+       "text": "Be able to use the equation F = Q₁Q₂/(4πε₀r²) for the force between two charges."
+      },
+      {
+       "id": "95",
+       "short": "Point-charge field",
+       "text": "Be able to use the equation E = Q/(4πε₀r²) for the electric field due to a point charge."
+      },
+      {
+       "id": "96",
+       "short": "Field and potential",
+       "text": "Know and understand the relation between electric field and electric potential."
+      },
+      {
+       "id": "97",
+       "short": "E = V/d",
+       "text": "Be able to use the equation E = V/d for an electric field between parallel plates."
+      },
+      {
+       "id": "98",
+       "short": "Radial potential",
+       "text": "Be able to use V = Q/(4πε₀r) for a radial field."
+      },
+      {
+       "id": "99",
+       "short": "Field lines, equipotentials",
+       "text": "Be able to draw and interpret diagrams using field lines and equipotentials to describe radial and uniform electric fields."
+      },
+      {
+       "id": "100",
+       "short": "C = Q/V",
+       "text": "Understand that capacitance is defined as C = Q/V and be able to use this equation."
+      },
+      {
+       "id": "101",
+       "short": "Capacitor energy",
+       "text": "Be able to use the equation W = ½QV for the energy stored by a capacitor, derive it from the area under a graph of potential difference against charge stored, and derive and use W = ½CV² and W = ½Q²/C."
+      },
+      {
+       "id": "102",
+       "short": "Charge/discharge, RC",
+       "text": "Be able to draw and interpret charge and discharge curves for resistor capacitor circuits and understand the significance of the time constant RC."
+      },
+      {
+       "id": "103",
+       "short": "CP11: capacitor p.d.",
+       "text": "CORE PRACTICAL 11: Use an oscilloscope or data logger to display and analyse the potential difference (p.d.) across a capacitor as it charges and discharges through a resistor.",
+       "core": 11
+      },
+      {
+       "id": "104",
+       "short": "Exponential discharge",
+       "text": "Be able to use Q = Q₀e^(−t/RC) and derive and use the related equations I = I₀e^(−t/RC) and V = V₀e^(−t/RC), and the log forms ln Q = ln Q₀ − t/RC, ln I = ln I₀ − t/RC and ln V = ln V₀ − t/RC."
+      },
+      {
+       "id": "105",
+       "short": "B, flux, flux linkage",
+       "text": "Understand and use the terms magnetic flux density B, flux φ and flux linkage Nφ."
+      },
+      {
+       "id": "106",
+       "short": "F = Bqv sinθ",
+       "text": "Be able to use the equation F = Bqv sinθ and apply Fleming's left-hand rule to charged particles moving in a magnetic field."
+      },
+      {
+       "id": "107",
+       "short": "F = BIl sinθ",
+       "text": "Be able to use the equation F = BIl sinθ and apply Fleming's left-hand rule to current carrying conductors in a magnetic field."
+      },
+      {
+       "id": "108",
+       "short": "Induction: magnet and coil",
+       "text": "Understand the factors affecting the e.m.f. induced in a coil when there is relative motion between the coil and a permanent magnet."
+      },
+      {
+       "id": "109",
+       "short": "Induction: linked coils",
+       "text": "Understand the factors affecting the e.m.f. induced in a coil when there is a change of current in another coil linked with this coil."
+      },
+      {
+       "id": "110",
+       "short": "Faraday and Lenz",
+       "text": "Understand how to use Faraday's law to determine the magnitude of an induced e.m.f. and be able to use the equation that combines Faraday's and Lenz's laws, ℰ = −d(Nφ)/dt."
+      }
+     ]
+    },
+    {
+     "id": "4.5",
+     "title": "Nuclear and Particle Physics",
+     "points": [
+      {
+       "id": "111",
+       "short": "Nucleon and proton number",
+       "text": "Understand what is meant by nucleon number (mass number) and proton number (atomic number)."
+      },
+      {
+       "id": "112",
+       "short": "Alpha scattering",
+       "text": "Understand how large-angle alpha particle scattering gives evidence for a nuclear model of the atom and how our understanding of atomic structure has changed over time."
+      },
+      {
+       "id": "113",
+       "short": "Thermionic emission",
+       "text": "Understand that electrons are released in the process of thermionic emission and how they can be accelerated by electric and magnetic fields."
+      },
+      {
+       "id": "114",
+       "short": "Accelerators and detectors",
+       "text": "Understand the role of electric and magnetic fields in particle accelerators (linac and cyclotron) and detectors (general principles of ionisation and deflection only)."
+      },
+      {
+       "id": "115",
+       "short": "r = p/BQ",
+       "text": "Be able to derive and use the equation r = p/BQ for a charged particle in a magnetic field."
+      },
+      {
+       "id": "116",
+       "short": "Conservation, particle tracks",
+       "text": "Be able to apply conservation of charge, energy and momentum to interactions between particles and interpret particle tracks."
+      },
+      {
+       "id": "117",
+       "short": "Why high energies",
+       "text": "Understand why high energies are required to investigate the structure of nucleons."
+      },
+      {
+       "id": "118",
+       "short": "ΔE = c²Δm",
+       "text": "Be able to use the equation ΔE = c²Δm in situations involving the creation and annihilation of matter and antimatter particles."
+      },
+      {
+       "id": "119",
+       "short": "MeV, GeV/c² units",
+       "text": "Be able to use MeV and GeV (energy) and MeV/c², GeV/c² (mass) and convert between these and SI units."
+      },
+      {
+       "id": "120",
+       "short": "Relativistic lifetime",
+       "text": "Understand situations in which the relativistic increase in particle lifetime is significant (use of relativistic equations not required)."
+      },
+      {
+       "id": "121",
+       "short": "Quark-lepton model",
+       "text": "Know that in the standard quark-lepton model particles can be classified as baryons (three quarks, e.g. neutrons and protons), mesons (a quark and an antiquark, e.g. pions), leptons (fundamental, e.g. electrons and neutrinos) and photons, and that the symmetry of the model predicted the top quark."
+      },
+      {
+       "id": "122",
+       "short": "Antiparticles",
+       "text": "Know that every particle has a corresponding antiparticle and be able to use the properties of a particle to deduce the properties of its antiparticle and vice versa."
+      },
+      {
+       "id": "123",
+       "short": "Charge, baryon, lepton number",
+       "text": "Understand how to use laws of conservation of charge, baryon number and lepton number to determine whether a particle interaction is possible."
+      },
+      {
+       "id": "124",
+       "short": "Particle equations",
+       "text": "Be able to write and interpret particle equations given the relevant particle symbols."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WPH15",
+   "title": "Thermodynamics, Radiation, Oscillations and Cosmology",
+   "groups": [
+    {
+     "id": "5.3",
+     "title": "Thermodynamics",
+     "points": [
+      {
+       "id": "125",
+       "short": "Specific heat and latent heat",
+       "text": "Be able to use the equations ∆E = mc∆θ and ∆E = L∆m."
+      },
+      {
+       "id": "126",
+       "short": "CP12: thermistor calibration",
+       "text": "CORE PRACTICAL 12: Calibrate a thermistor in a potential divider circuit as a thermostat.",
+       "core": 12
+      },
+      {
+       "id": "127",
+       "short": "CP13: specific latent heat",
+       "text": "CORE PRACTICAL 13: Determine the specific latent heat of a phase change.",
+       "core": 13
+      },
+      {
+       "id": "128",
+       "short": "Internal energy concept",
+       "text": "Understand the concept of internal energy as the random distribution of potential and kinetic energy amongst molecules."
+      },
+      {
+       "id": "129",
+       "short": "Absolute zero and kinetic energy",
+       "text": "Understand the concept of absolute zero and how the average kinetic energy of molecules is related to the absolute temperature."
+      },
+      {
+       "id": "130",
+       "short": "Ideal gas pV = NkT",
+       "text": "Be able to use the equation pV = NkT for an ideal gas."
+      },
+      {
+       "id": "131",
+       "short": "CP14: Boyle's law",
+       "text": "CORE PRACTICAL 14: Investigate the relationship between pressure and volume of a gas at fixed temperature.",
+       "core": 14
+      },
+      {
+       "id": "132",
+       "short": "Kinetic theory ½m<c²> = 3/2 kT",
+       "text": "Be able to derive and use the equation ½m<c²> = 3/2 kT."
+      }
+     ]
+    },
+    {
+     "id": "5.4",
+     "title": "Nuclear Decay",
+     "points": [
+      {
+       "id": "133",
+       "short": "Binding energy and ΔE = c²Δm",
+       "text": "Understand the concept of nuclear binding energy and be able to use the equation ∆E = c²∆m in calculations of nuclear mass (including mass deficit) and energy."
+      },
+      {
+       "id": "134",
+       "short": "Atomic mass unit (u)",
+       "text": "Use the atomic mass unit (u) to express small masses and convert between this and SI units."
+      },
+      {
+       "id": "135",
+       "short": "Fusion and fission",
+       "text": "Understand the processes of nuclear fusion and fission with reference to the binding energy per nucleon curve."
+      },
+      {
+       "id": "136",
+       "short": "Conditions for fusion",
+       "text": "Understand the mechanism of nuclear fusion and the need for very high densities of matter and very high temperatures to bring about and maintain nuclear fusion."
+      },
+      {
+       "id": "137",
+       "short": "Background radiation",
+       "text": "Understand that there is background radiation and how to take appropriate account of it in calculations."
+      },
+      {
+       "id": "138",
+       "short": "Alpha, beta, gamma radiation",
+       "text": "Understand the relationships between the nature, penetration, ionising ability and range in different materials of nuclear radiations (alpha, beta and gamma)."
+      },
+      {
+       "id": "139",
+       "short": "Nuclear equations",
+       "text": "Be able to write and interpret nuclear equations given the relevant particle symbols."
+      },
+      {
+       "id": "140",
+       "short": "CP15: gamma absorption",
+       "text": "CORE PRACTICAL 15: Investigate the absorption of gamma radiation by lead.",
+       "core": 15
+      },
+      {
+       "id": "141",
+       "short": "Random nuclear decay",
+       "text": "Understand the spontaneous and random nature of nuclear decay."
+      },
+      {
+       "id": "142",
+       "short": "Radioactive decay equations",
+       "text": "Be able to determine the half-lives of radioactive isotopes graphically and be able to use the equations for radioactive decay activity A = λN, dN/dt = −λN, λ = ln 2 / t_½, N = N₀e^(−λt) and A = A₀e^(−λt) and derive and use the corresponding log equations."
+      }
+     ]
+    },
+    {
+     "id": "5.5",
+     "title": "Oscillations",
+     "points": [
+      {
+       "id": "143",
+       "short": "SHM condition F = -kx",
+       "text": "Understand that the condition for simple harmonic motion is F = −kx, and hence understand how to identify situations in which simple harmonic motion will occur."
+      },
+      {
+       "id": "144",
+       "short": "SHM equations",
+       "text": "Be able to use the equations a = −ω²x, x = Acos ωt, v = −Aω sin ωt, a = −Aω² cos ωt, and T = 1/f = 2π/ω and ω = 2πf as applied to a simple harmonic oscillator."
+      },
+      {
+       "id": "145",
+       "short": "Mass-spring and pendulum",
+       "text": "Be able to use equations for a simple harmonic oscillator T = 2π√(m/k), and a simple pendulum T = 2π√(l/g)."
+      },
+      {
+       "id": "146",
+       "short": "SHM displacement-time graph",
+       "text": "Be able to draw and interpret a displacement-time graph for an object oscillating and know that the gradient at a point gives the velocity at that point."
+      },
+      {
+       "id": "147",
+       "short": "SHM velocity-time graph",
+       "text": "Be able to draw and interpret a velocity-time graph for an oscillating object and know that the gradient at a point gives the acceleration at that point."
+      },
+      {
+       "id": "148",
+       "short": "Resonance",
+       "text": "Understand what is meant by resonance."
+      },
+      {
+       "id": "149",
+       "short": "CP16: mass from resonance",
+       "text": "CORE PRACTICAL 16: Determine the value of an unknown mass using the resonant frequencies of the oscillation of known masses.",
+       "core": 16
+      },
+      {
+       "id": "150",
+       "short": "Energy in oscillations",
+       "text": "Understand how to apply conservation of energy to damped and undamped oscillating systems."
+      },
+      {
+       "id": "151",
+       "short": "Free and forced oscillations",
+       "text": "Understand the distinction between free and forced oscillations."
+      },
+      {
+       "id": "152",
+       "short": "Forced oscillations and damping",
+       "text": "Understand how the amplitude of a forced oscillation changes at and around the natural frequency of a system and know, qualitatively, how damping affects resonance."
+      },
+      {
+       "id": "153",
+       "short": "Plastic deformation and damping",
+       "text": "Understand how damping and the plastic deformation of ductile materials reduce the amplitude of oscillation."
+      }
+     ]
+    },
+    {
+     "id": "5.6",
+     "title": "Astrophysics and Cosmology",
+     "points": [
+      {
+       "id": "154",
+       "short": "Gravitational field definition",
+       "text": "Understand that a gravitational field (force field) is defined as a region where a mass experiences a force."
+      },
+      {
+       "id": "155",
+       "short": "Gravitational field g = F/m",
+       "text": "Understand that gravitational field strength is defined as g = F/m and be able to use this equation."
+      },
+      {
+       "id": "156",
+       "short": "Newton's law of gravitation",
+       "text": "Be able to use the equation F = Gm₁m₂/r² (Newton’s law of universal gravitation)."
+      },
+      {
+       "id": "157",
+       "short": "Field of a point mass",
+       "text": "Be able to derive and use the equation g = Gm/r² for the gravitational field due to a point mass."
+      },
+      {
+       "id": "158",
+       "short": "Radial potential Vgrav = -Gm/r",
+       "text": "Be able to use the equation Vgrav = −Gm/r for a radial gravitational field."
+      },
+      {
+       "id": "159",
+       "short": "Compare E and g fields",
+       "text": "Be able to compare electric fields with gravitational fields."
+      },
+      {
+       "id": "160",
+       "short": "Orbital motion",
+       "text": "Be able to apply Newton’s laws of motion and universal gravitation to orbital motion."
+      },
+      {
+       "id": "161",
+       "short": "Black body radiators",
+       "text": "Understand what is meant by a black body radiator and be able to interpret radiation curves for such a radiator."
+      },
+      {
+       "id": "162",
+       "short": "Stefan-Boltzmann law L = σAT⁴",
+       "text": "Be able to use the Stefan-Boltzmann law equation L = σAT⁴ for black body radiators."
+      },
+      {
+       "id": "163",
+       "short": "Wien's law",
+       "text": "Be able to use Wien’s law equation λmaxT = 2.898 × 10⁻³ m K for black body radiators."
+      },
+      {
+       "id": "164",
+       "short": "Intensity I = L/(4πd²)",
+       "text": "Be able to use the equation, intensity I = L/(4πd²) where L is luminosity and d is distance from the source."
+      },
+      {
+       "id": "165",
+       "short": "Trigonometric parallax",
+       "text": "Understand how astronomical distances can be determined using trigonometric parallax."
+      },
+      {
+       "id": "166",
+       "short": "Standard candles",
+       "text": "Understand how astronomical distances can be determined using measurements of intensity received from standard candles (objects of known luminosity)."
+      },
+      {
+       "id": "167",
+       "short": "Hertzsprung-Russell diagram",
+       "text": "Be able to sketch and interpret a simple Hertzsprung-Russell diagram that relates stellar luminosity to surface temperature."
+      },
+      {
+       "id": "168",
+       "short": "Life cycle of stars",
+       "text": "Understand how to relate the Hertzsprung-Russell diagram to the life cycle of stars."
+      },
+      {
+       "id": "169",
+       "short": "Doppler effect",
+       "text": "Understand how the movement of a source of waves relative to an observer/detector gives rise to a shift in frequency (Doppler effect)."
+      },
+      {
+       "id": "170",
+       "short": "Redshift and Hubble's law",
+       "text": "Be able to use the equations for redshift z = ∆λ/λ ≈ ∆f/f ≈ v/c for a source of electromagnetic radiation moving relative to an observer and v = H₀d for objects at cosmological distances."
+      },
+      {
+       "id": "171",
+       "short": "Fate of the universe",
+       "text": "Understand the controversy over the age and ultimate fate of the universe associated with the value of the Hubble constant and the possible existence of dark matter."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WPH16",
+   "title": "Practical Skills in Physics II",
+   "groups": [
+    {
+     "id": "6.3",
+     "title": "Planning",
+     "points": [
+      {
+       "id": "6.3a",
+       "short": "Choosing apparatus",
+       "text": "Identify the most appropriate apparatus, giving details. These may include the range and resolution of instruments and/or relevant dimensions of apparatus (e.g. the length of string used for a pendulum).",
+       "skill": true
+      },
+      {
+       "id": "6.3b",
+       "short": "Calibration",
+       "text": "Discuss calibration of instruments, e.g. whether a meter reads zero before measurements are made.",
+       "skill": true
+      },
+      {
+       "id": "6.3c",
+       "short": "Measuring techniques",
+       "text": "Describe how to measure relevant variables using the most appropriate instrument(s) and techniques.",
+       "skill": true
+      },
+      {
+       "id": "6.3d",
+       "short": "Control variables",
+       "text": "Identify and state how to control all other relevant variables to make it a fair test.",
+       "skill": true
+      },
+      {
+       "id": "6.3e",
+       "short": "Repeat readings",
+       "text": "Discuss whether repeat readings are appropriate.",
+       "skill": true
+      },
+      {
+       "id": "6.3f",
+       "short": "Health and safety",
+       "text": "Identify health and safety issues and discuss how these may be dealt with.",
+       "skill": true
+      },
+      {
+       "id": "6.3g",
+       "short": "Using the data",
+       "text": "Discuss how the data collected will be used.",
+       "skill": true
+      }
+     ]
+    },
+    {
+     "id": "6.4",
+     "title": "Implementation and Measurements",
+     "points": [
+      {
+       "id": "6.4a",
+       "short": "Improving the experiment",
+       "text": "Comment on how the experiment could have been improved, possibly by using additional apparatus (e.g. to reduce errors) – examples may include using set squares to measure the diameter of a cylinder and using a marker for timing oscillations.",
+       "skill": true
+      },
+      {
+       "id": "6.4b",
+       "short": "Number of readings",
+       "text": "Comment on the number of readings taken.",
+       "skill": true
+      },
+      {
+       "id": "6.4c",
+       "short": "Range of readings",
+       "text": "Comment on the range of measurements taken.",
+       "skill": true
+      },
+      {
+       "id": "6.4d",
+       "short": "Significant figures",
+       "text": "Comment on significant figures – students may be required to identify and/or round up any incorrect figures in a table of results.",
+       "skill": true
+      },
+      {
+       "id": "6.4e",
+       "short": "Correcting units",
+       "text": "Identify and/or amend units that are incorrect.",
+       "skill": true
+      },
+      {
+       "id": "6.4f",
+       "short": "Anomalous readings",
+       "text": "Identify and check a reading that is inconsistent with other readings, e.g. a point that is not on the line of a graph.",
+       "skill": true
+      }
+     ]
+    },
+    {
+     "id": "6.5",
+     "title": "Analysis",
+     "points": [
+      {
+       "id": "6.5a",
+       "short": "Calculations to s.f.",
+       "text": "Perform calculations, using the correct number of significant figures.",
+       "skill": true
+      },
+      {
+       "id": "6.5b",
+       "short": "Plotting graphs (incl. log)",
+       "text": "Plot results on a graph using an appropriate scale and units – the graph could be logarithmic in nature.",
+       "skill": true
+      },
+      {
+       "id": "6.5c",
+       "short": "Correct units",
+       "text": "Use the correct units throughout.",
+       "skill": true
+      },
+      {
+       "id": "6.5d",
+       "short": "Trend from graph",
+       "text": "Comment on the trend/pattern obtained.",
+       "skill": true
+      },
+      {
+       "id": "6.5e",
+       "short": "Gradient and constants",
+       "text": "Determine the relationship between two variables or determine a constant with the aid of the graph, e.g. by determining the gradient using a large triangle.",
+       "skill": true
+      },
+      {
+       "id": "6.5f",
+       "short": "Precision, accuracy, sensitivity",
+       "text": "Use the terms precision, accuracy and sensitivity appropriately.",
+       "skill": true
+      },
+      {
+       "id": "6.5g",
+       "short": "Modifications to reduce errors",
+       "text": "Suggest realistic modifications to reduce errors.",
+       "skill": true
+      },
+      {
+       "id": "6.5h",
+       "short": "Modifications to improve",
+       "text": "Suggest realistic modifications to improve the experiment.",
+       "skill": true
+      },
+      {
+       "id": "6.5i",
+       "short": "Discussing uncertainties",
+       "text": "Discuss uncertainties qualitatively and quantitatively.",
+       "skill": true
+      },
+      {
+       "id": "6.5j",
+       "short": "Compounding uncertainties",
+       "text": "Compound percentage uncertainties correctly.",
+       "skill": true
+      },
+      {
+       "id": "6.5k",
+       "short": "Percentage uncertainty",
+       "text": "Determine the percentage uncertainty in measurements for a single reading using half the resolution of the instrument and from multiple readings using the half range.",
+       "skill": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

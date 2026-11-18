@@ -11,8 +11,33 @@
 /** e.g. 'WPH14_2026_06' = unit code, year, month of the series. */
 export type PaperId = string;
 
-/** Spec point number as a string, e.g. '106'. Unique within a subject (see registry/<subject>/topics.json). */
+/** The registry's subjects, as in registry/<subject>/. */
+export type Subject = 'physics' | 'chemistry' | 'maths';
+
+/** A tag: a spec content statement's number ('106'), or a practical skill ('3.5i'). Unique within a subject
+    (see registry/<subject>/topics.json). */
 export type TopicId = string;
+
+/** registry/<subject>/topics.json: the spec turned into tags, unit by unit. */
+export interface TopicList {
+  subject: Subject;
+  spec: string;                 // which spec issue the statements come from
+  units: TopicUnit[];
+}
+
+export interface TopicUnit {
+  code: string;                 // 'WPH14'
+  title: string;
+  groups: { id: string; title: string; points: TopicPoint[] }[];   // spec headings: '4.4' Electric and Magnetic Fields
+}
+
+export interface TopicPoint {
+  id: TopicId;
+  short: string;                // chip label: 'Impulse'
+  text: string;                 // the statement as printed, equations in plain text
+  core?: number;                // a core practical's number
+  skill?: true;                 // a practical-skills tag (units 3 and 6), not a content statement
+}
 
 /** A rectangle on one PDF page, in PDF points (72 per inch, origin top-left), page numbers from 1. */
 export interface Region {
@@ -91,7 +116,7 @@ export interface SourceFile {
 
 export interface Paper {
   id: PaperId;
-  subject: 'physics' | 'chemistry';
+  subject: Subject;
   unit: string;         // 'WPH14'
   series: string;       // '2026-06'
   variant?: string;     // 'A': Pearson's second paper for another time zone (WPH14/01A)
