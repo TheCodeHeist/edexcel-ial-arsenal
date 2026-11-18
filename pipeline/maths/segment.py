@@ -46,10 +46,12 @@ COL_X0, COL_X1 = 36, 559                    # the printed column; margins hold '
 COL_Y0, COL_Y1 = 40, 790                    # below 790: barcode, page number, 'Turn over'
 PAD = 4
 
-Q_START = re.compile(r"^(\d{1,2})\.\s*(.*)$")
+Q_START = re.compile(r"^(\d{1,2})[.:]\s*(.*)$")          # '5.'; June 2025 papers print '5:'
+ANSWER_BOOK = re.compile(r"^Answer Book$")
 LABEL = re.compile(r"^\(([a-h]|i|ii|iii|iv|v|vi|vii|viii|ix|x)\)\s*")
 MARK = re.compile(r"^\((\d{1,2})\)$")
-TOTAL = re.compile(r"^\(Total for Question (\d{1,2}) is (\d{1,2}) marks?\)")
+# '(Total for Question 5 is 10 marks)'; papers up to about 2022 print just '(Total 10 marks)'
+TOTAL = re.compile(r"^\(Total (?:for Question (\d{1,2}) is )?(\d{1,2}) marks?\)")
 CONTINUED = re.compile(r"^Question \d{1,2} continued")
 RULED = re.compile(r"^_{10,}$")
 NOT_CONTENT = re.compile(r"^(BLANK PAGE|TOTAL FOR PAPER|END)\b", re.I)
@@ -130,6 +132,12 @@ def read_lines(doc, skip_cover=True, top=COL_Y0):
                 text = " ".join("".join(s["text"] for s in l["spans"]).split())
                 lines.append(Line(pno, x0, y0, x1, y1, text, any("Bold" in s["font"] for s in spans)))
     lines.sort(key=lambda l: (l.page, round(l.y0), l.x0))
+    if skip_cover:
+        # An A paper (2025–26) is the question paper and a separate answer book in one PDF: the book repeats
+        # every question's total line. The questions all come first, so read only up to the book's cover.
+        book = next((l.page for l in lines if l.bold and ANSWER_BOOK.match(l.text)), None)
+        if book is not None:
+            lines = [l for l in lines if l.page < book]
     return lines
 
 
@@ -187,7 +195,7 @@ def outline(lines, items):
         else:
             rest = l.text
         if t := TOTAL.match(l.text):
-            if int(t[1]) != q.number:
+            if t[1] and int(t[1]) != q.number:
                 q.problems.append(f"total line for question {t[1]} inside question {q.number}")
             q.total, q.total_line = int(t[2]), l
             continue
