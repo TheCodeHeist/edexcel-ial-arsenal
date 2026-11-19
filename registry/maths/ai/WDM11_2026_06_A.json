@@ -178,6 +178,37 @@
      "D1.3.3"
     ]
    }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [
+    "8(d): the QUESTION crop is wrong: after the question text it contains the whole answer book (Pearson Edexcel IAL Decision Mathematics D1 front cover \"Thursday 14 May 2026 Paper WDM11/01A\", candidate details, instructions, barcode, and the blank answer pages for questions 1-8 with blank grids, tables and diagrams) - about 14,000 px of unrelated blank pages, so this crop (and the whole 17,000 px image) is mostly wrong content. The extracted text for 8(d) also includes the cover-page text.",
+    "8(a): mark scheme strip runs on into the top of the (b) graph (y 25-40 with 7x+3y=105 and a B1) which is cut through at the bottom; that graph belongs to 8(b).",
+    "8(b): asks to draw on the grid in the answer book; the blank grid is not in the (b) crop (only the model graph, which is split: its upper part sits in the (a) strip and the (b) strip starts with a sliver of a B1 above the lower part).",
+    "8(c): mark scheme strip runs on into the (d) integer testing table (header and first row (12,7) etc. with a dM1) which is cut through at the bottom; the table is split across the (c) strip and the (d) strip (the (d) strip starts with a cut row (13,6) and (13,7)), so the M1 and first rows are in the wrong strip.",
+    "8(d): mark scheme strip starts cut through the integer-point table (first row sliced), with only A1 A1 A1 and the result x=12, y=7, z=81, P=877 visible; the dM1 mark for the table is in the (c) strip."
+   ],
+   "fingerprint": "c48e2f93dfb0",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "draw",
+    "8(c)": "calc",
+    "8(d)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "D1.5.1"
+    ],
+    "8(b)": [
+     "D1.5.2"
+    ],
+    "8(c)": [
+     "D1.5.2"
+    ],
+    "8(d)": [
+     "D1.5.3"
+    ]
+   }
   }
  }
 }

@@ -16,6 +16,152 @@
      "M2.1.4"
     ]
    }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(c): the question's examiners' NOTES section contains only a stray table header row (\"Question | Scheme | Mark | Notes\") with no notes — fragment from the next question's mark-scheme page (probably the start of Q3)"
+   ],
+   "fingerprint": "68c15eb85f03",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "M2.2.2"
+    ],
+    "2(b)": [
+     "M2.2.3",
+     "M2.2.2"
+    ],
+    "2(c)": [
+     "M2.2.3",
+     "M2.5.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3: the mark-scheme crop ends with the top sliver of the next row (a half-cut line of text just under the [6] row) and the examiners' NOTES section ends with a stray table header row (\"Question | Scheme | Mark | Notes\") from the next question's mark scheme page — fragments, no content"
+   ],
+   "fingerprint": "9b1e948ac6a5",
+   "kinds": {
+    "3": "calc"
+   },
+   "topics": {
+    "3": [
+     "M2.4.1",
+     "P1.3.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(d): the question's examiners' NOTES section contains only a stray table header row (\"Question | Scheme | Mark | Notes\") with no notes — fragment from the next question's mark-scheme page"
+   ],
+   "fingerprint": "468260d1f7d6",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(c)": "calc",
+    "4(d)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "M2.1.2",
+     "M2.1.1"
+    ],
+    "4(b)": [
+     "M2.1.2"
+    ],
+    "4(c)": [
+     "M2.1.2",
+     "M1.2.1"
+    ],
+    "4(d)": [
+     "M2.1.2",
+     "M1.2.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0999678ed0ad",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "M2.3.1",
+     "M1.4.1"
+    ],
+    "5(b)": [
+     "M2.3.1"
+    ],
+    "5(c)": [
+     "M2.3.1",
+     "M1.4.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(a): the 6(a) mark-scheme crop begins with a large mark-scheme diagram of the rod (forces T, W, W/4, V, H) split off from the bar by a thin empty 6a row; the first bar shows only an empty row stub at the bottom of the first image slice — cosmetic (marks M1 A1 A1* = 3 are all present)"
+   ],
+   "fingerprint": "dc7dc8d709be",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "M2.5.1",
+     "M2.5.2"
+    ],
+    "6(b)": [
+     "M2.5.2",
+     "M1.5.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(b)/7(c): mark-scheme crops start with a sliver (top few pixels) of the previous part's [3] total row — cosmetic"
+   ],
+   "fingerprint": "70ed8a90ffdb",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc",
+    "7(d)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "M2.4.2",
+     "M2.3.1"
+    ],
+    "7(b)": [
+     "M2.4.2"
+    ],
+    "7(c)": [
+     "M2.4.3",
+     "M2.4.2",
+     "P1.1.9"
+    ],
+    "7(d)": [
+     "M2.4.3",
+     "M2.4.1"
+    ]
+   }
   }
  }
 }
