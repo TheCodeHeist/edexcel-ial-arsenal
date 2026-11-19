@@ -53,9 +53,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ae3ffaad124a",
+   "at": "2026-11-20",
+   "concerns": [
+    "4(a): mark-scheme rows continue past the part with the question total (7) and the Notes block for 4(a) (notes are interleaved per part on this paper; 4(b) and 4(c) rows likewise carry their notes); the stray question-total 7 is not part of 4(a), otherwise complete"
+   ],
+   "fingerprint": "36bf5e5f9a08",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short",
@@ -75,9 +77,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "3b703eca782b",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(a): the question asks to sketch on the same diagram but no blank axes/diagram for the sketch appear in the 5(a) question crop (only Figure 1 showing posts A and B in the stem), so the diagram the part refers to may be missing; the mark scheme graph does show the axes"
+   ],
+   "fingerprint": "6d7e5a3118eb",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc",
@@ -96,12 +100,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "6(b): the mark-scheme crop ends with the first row of 6(c)s scheme (s = vt - 1/2 at^2: 40.5 = 1/2.4.t^2, the main method before the OR) cut through its bottom, after the (3); this row belongs to 6(c)",
-    "6(c): the mark-scheme crop starts mid-row: a sliver of a formula is cut off at the very top, and the first visible row is the OR alternative, so the main-method row (40.5 = 1/2.4.t^2) is missing from 6(c) and sits cut at the foot of 6(b)"
-   ],
-   "fingerprint": "41d421f110b4",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "4562c7feed81",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -141,9 +142,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "a483784a4b76",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(a): mark-scheme rows run on past the part to the question total (16) and the Notes block (notes interleaved per part on this paper); the stray total 16 is not part of 8(a), otherwise complete"
+   ],
+   "fingerprint": "e9e3301f0739",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

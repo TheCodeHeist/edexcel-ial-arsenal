@@ -137,7 +137,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2025_10_A_q2",
@@ -1111,8 +1111,10 @@
      "label": "9(ii)(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2025_10_A/q9_ii_intro.webp",

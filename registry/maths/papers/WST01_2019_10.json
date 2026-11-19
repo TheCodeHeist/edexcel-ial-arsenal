@@ -239,7 +239,7 @@
     {
      "label": "2(a)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [
       "S1.2.1"
      ],
@@ -278,9 +278,11 @@
     {
      "label": "2(b)(i)",
      "marks": 1,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "S1.2.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST01_2019_10/q2_b_intro.webp",

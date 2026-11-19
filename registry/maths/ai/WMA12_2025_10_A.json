@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "c9eacddfa791",
+   "fingerprint": "1d844630a967",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -39,9 +39,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "844a3a6d64ec",
+   "at": "2026-11-20",
+   "concerns": [
+    "2: the mark-scheme table is cut through at the bottom (clipped sliver); its closing row with the (4 marks) total appears at the top of the examiners notes instead"
+   ],
+   "fingerprint": "25b6a66088d6",
    "kinds": {
     "2": "calc"
    },
@@ -144,9 +146,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8c40d7125362",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(a): the mark-scheme rows start with a clipped table-header fragment (the word Number cut through) at the top edge"
+   ],
+   "fingerprint": "b08632339c55",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -163,19 +167,21 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8351ce4238c1",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(ii)(b): the mark-scheme rows also repeat the 9(ii)(a) rows (M1 A1 dM1 A1), so the marks shown are 5 rather than the 1 for this part"
+   ],
+   "fingerprint": "8c6cc1e5cdab",
    "kinds": {
     "9(i)": "calc",
-    "9(ii)": "calc",
+    "9(ii)(a)": "calc",
     "9(ii)(b)": "short"
    },
    "topics": {
     "9(i)": [
      "P2.4.4"
     ],
-    "9(ii)": [
+    "9(ii)(a)": [
      "P2.4.2"
     ],
     "9(ii)(b)": [

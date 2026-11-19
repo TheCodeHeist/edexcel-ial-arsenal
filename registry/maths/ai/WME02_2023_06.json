@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): mark-scheme crop is cut off at the top — the first row (M1 use of I = mv - mu) is missing and the A1 row is sliced through, so only A1 M1 A1 are visible for 4 marks",
-    "1(a): mark-scheme crop runs on into 1(b) rows: the 1(b) M1 rows are shown (and cut through at the bottom) under the 1(a) bar, duplicating/splitting the 1(b) scheme",
-    "1(b): mark-scheme crop starts mid-row (top of the A1 row sliced through) and its end holds the start of question 2 mark scheme (Accept column vectors; r = ∫v dt, M1 A1) — content belonging to Q2"
+    "1(a): mark-scheme crop is cut off at the top - the first row (M1 for use of I = mv - mu) is missing/only a sliver of text shows, so only A1 M1 A1 (3 marks) are visible for the 4-mark part",
+    "1(b): the mark-scheme crop ends with rows from another question (Accept column vectors throughout; Use of r = integral v dt, M1; r = (4/3 t^3 - 5/2 t^2 + A)i + ... A1) - stray content from a later question (kinematics, integration of velocity) after the 1(b) total of (3)"
    ],
-   "fingerprint": "ff3ab564ac77",
+   "fingerprint": "f68810054a63",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -24,13 +23,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(a): mark-scheme crop runs on into 2(b): the 2(b) M1 row (v in direction of i - 2j) is under the 2(a) bar and cut through at the bottom, so 2(b) rows are split across two crops",
-    "2(b): mark-scheme crop starts mid-row (top of the M1 row sliced through) and ends with the 2(c) M1 row (use of a = dv/dt, a = (8t-5)i - 10j), which belongs to part 2(c)",
-    "2(c): mark-scheme crop is cut off at the top (the M1 row top is sliced through) and its end holds the start of question 3's mark scheme (centre of mass dissection note, mass-ratio table, B1 B1 M1) — content belonging to Q3"
+    "2(c): the mark-scheme crop ends with rows from another question (a bold note about a dissection of a trapezium and a table of Large tri / Small tri / Whole with Dist PQ and Mass ratio, B1 B1 ... - centre of mass of a lamina) which is cut off at the bottom - stray content from a later question after the 2(c) total of (3)"
    ],
-   "fingerprint": "e391387989aa",
+   "fingerprint": "96f3d6fdd844",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -50,13 +47,13 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a): mark-scheme crop is cut off at the top — the first row (M1 moments about PQ) is sliced through, with the equation not visible",
-    "3(a): mark-scheme crop ends with the diagram that belongs to 3(b) (folded lamina hanging from P), which is a 3(b) row",
-    "3(b): mark-scheme crop ends with the start of question 4 mark scheme (collision diagram, P 3m and Q 5m) — content belonging to Q4"
+    "3(a): mark-scheme crop is cut off at the top - the first rows (the two B1 B1 for the mass ratio / distance table) are missing (they ended up at the bottom of question 2(c) mark scheme) and the M1 row is clipped through its text (Moments about PQ), so only M1 A1 A1* are visible for the 5-mark part",
+    "3(a): the 3(a) mark-scheme crop ends with the equilibrium diagram (alpha, 2x, 16y/9) that belongs to the 3(b) solution",
+    "3(b): mark-scheme crop ends with a collision diagram (P 3m, Q 5m, u, ku, 2v, v) from a later question - stray content from another question"
    ],
-   "fingerprint": "05e3660dae65",
+   "fingerprint": "6d6bfad0f9ec",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -73,14 +70,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): mark-scheme crop ends with the first M1 row of 4(b) (Impulse-momentum for Q or use of CLM) cut through at the bottom — a 4(b) row under the 4(a) bar",
-    "4(b): mark-scheme crop is cut off at the top (the M1 row is not shown, only A1 A1 = 2 of 3 marks) and ends with the 4(c) M1 row (use of impact law) which belongs to 4(c)",
-    "4(c): mark-scheme crop is cut off at the top (the M1 row is missing, only A1ft A1 = 2 of 3 marks) and ends with the 4(d) M1 row (change in KE) belonging to 4(d)",
-    "4(d): mark-scheme crop is cut off at the top (the M1 row is missing) and ends with the diagram of a ladder (R_A, F_A, R_B, F_B, 75°) from question 5's mark scheme — content belonging to Q5"
+    "4(c): mark-scheme block ends with the first row of the 4(d) scheme (Change in KE, M1) - it belongs to 4(d), so 4(d) shows only A1 A1 (2 of its 3 marks) and the M1 is under 4(c)",
+    "4(d): mark-scheme block ends with a rod/ladder statics diagram (R_A, R_B, F_A, F_B, 15g, 75 degrees) from the next question - stray content from another question"
    ],
-   "fingerprint": "0bf3db442bdf",
+   "fingerprint": "3a83ffd46328",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -105,12 +100,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(a): mark-scheme crop runs on into 5(b): after the (5) row it shows the 5(b) guidance and the first rows (resolve horizontally M1 A1, F_A = R_B) under the 5(a) bar, cut through at the bottom",
-    "5(b): mark-scheme crop starts with the second equation (resolve vertically) — the first-equation rows are in the 5(a) crop; and its end holds the start of question 6 mark scheme (Equation of motion, F - 600 = 900 x 2, M1 A1) cut through at the bottom — content belonging to Q6"
+    "5(b): mark-scheme crop ends with the top of another question rows (Equation of motion, M1, Need all terms and dimensionally correct) cut off at the bottom - stray fragment from question 6 after the 5(b) total of (6)"
    ],
-   "fingerprint": "c852d5c9151f",
+   "fingerprint": "ec7826391078",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"

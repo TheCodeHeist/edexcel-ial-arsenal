@@ -27,12 +27,15 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c32f99dae3ab",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(b)(ii): mark-scheme crop also includes the (b)(i) row (B1, 1 mark), so the rows total 3 marks rather than the part 2 marks",
+    "2(e): mark-scheme crop starts with a cut-through stray line of the previous row at the top edge"
+   ],
+   "fingerprint": "f6180d7714dd",
    "kinds": {
-    "2(a)": "short",
-    "2(b)": "calc",
+    "2(a)": "calc",
+    "2(b)(i)": "calc",
     "2(b)(ii)": "calc",
     "2(c)": "calc",
     "2(d)": "short",
@@ -42,7 +45,7 @@
     "2(a)": [
      "S1.2.1"
     ],
-    "2(b)": [
+    "2(b)(i)": [
      "S1.2.2"
     ],
     "2(b)(ii)": [
