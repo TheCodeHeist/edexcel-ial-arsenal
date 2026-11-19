@@ -575,10 +575,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "11: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2024_01_q12",
@@ -626,10 +626,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "12: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2024_01_q13",
@@ -778,10 +778,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "14: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2024_01_q15",
@@ -830,10 +830,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "15: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2024_01_q16",
@@ -882,10 +882,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "16: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2024_01_q17",
@@ -1075,13 +1075,13 @@
       {
        "src": "physics/WPH14_2024_01/q18_a_ii_ms.webp",
        "w": 1016,
-       "h": 255,
+       "h": 258,
        "region": {
         "page": 10,
         "x0": 61.7,
         "y0": 542.0,
         "x1": 548.7,
-        "y1": 664.0
+        "y1": 665.3
        }
       }
      ],
@@ -1115,11 +1115,11 @@
       {
        "src": "physics/WPH14_2024_01/q18_b_ms.webp",
        "w": 1016,
-       "h": 217,
+       "h": 215,
        "region": {
         "page": 10,
         "x0": 61.7,
-        "y0": 662.0,
+        "y0": 663.3,
         "x1": 548.7,
         "y1": 766.0
        }
@@ -1129,10 +1129,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "18(a)(ii): text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2024_01_q19",
@@ -1742,10 +1742,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "22(a)(ii): text after the marks"
-   ],
-   "check": "human"
+   ]
   }
  ]
 }

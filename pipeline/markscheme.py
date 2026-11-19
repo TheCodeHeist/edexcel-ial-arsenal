@@ -48,7 +48,7 @@ class Row:
     x1: float
     label: str | None = None      # the question label printed in its first column, if any
     texts: list = field(default_factory=list)
-    kind: str = "body"            # 'header' | 'total' | 'body'
+    kind: str = "body"            # 'header' | 'total' | 'restated' | 'body'
 
 
 def norm(m):
@@ -90,6 +90,17 @@ def rules(page):
     return ys, left, right
 
 
+def tinted(page):
+    """Rectangles filled with a colour (not white or grey). Some mark schemes (WPH14 Jan 2026 A) reprint each
+    part's question on a lavender tint between the answer rows; grey fills are headers and totals, everywhere."""
+    out = []
+    for d in page.get_drawings():
+        f = d.get("fill")
+        if f and len(f) == 3 and max(f) - min(f) > 0.1 and d["rect"].width > 20 and d["rect"].height > 5:
+            out.append(d["rect"])
+    return out
+
+
 def page_texts(page):
     """(x0, baseline y, text) for each line; the baseline is reliable even where the line box isn't."""
     out = []
@@ -115,6 +126,7 @@ def split(doc, paper_id=None):
         if len(ys) < 2:
             continue
         texts = page_texts(page)
+        tints = tinted(page)
         label_x = left + 0.12 * (right - left)          # the Question Number column
         for y0, y1 in zip(ys, ys[1:]):
             row = Row(pno, y0, y1, left, right)
@@ -143,8 +155,36 @@ def split(doc, paper_id=None):
                     if m := LABEL.match(text) or LABEL_LEAD.match(text):
                         row.label = norm(m)
                         break
+                # The question reprinted on a tint between the answer rows (2026 A papers). It keeps its label
+                # (the part's label cell can start here, the answer rows under it unlabelled) but is not cropped.
+                if tints and all(any(r.x0 <= t[0] <= r.x1 and r.y0 <= t[1] <= r.y1 + 1 for r in tints)
+                                 for t in row.texts if not (row.label and t[0] < label_x)):
+                    row.kind = "restated"
             rows.append(row)
+        spills(rows, pno, label_x)
     return rows
+
+
+def spills(rows, pno, label_x):
+    """Let a row keep what hangs over its bottom rule. Pearson sometimes squeezes a worked fraction into its
+    cell so that its last line sits on the rule (WPH11 Oct 2023 18(b)(ii): the denominator's baseline is on
+    it), and a crop cut at the rule shows that line's lower half at the top of the next row. A row's last
+    line normally clears its rule by 5 pt or more (2–3 pt in the guidance pages' tight
+    tables); one closer than 2 pt moves the rule down under it, stopping short of the next row's first line."""
+    page_rows = [r for r in rows if r.page == pno]
+    for above, row in zip(page_rows, page_rows[1:]):
+        if above.kind != "body" or not above.texts or above.y1 != row.y0:
+            continue
+        last = max(t[1] for t in above.texts)
+        if above.y1 - last >= 2:
+            continue
+        # a line on the rule itself is read into both rows (each takes 1 pt past its bottom rule): it is the
+        # upper row's, so the next row starts after it
+        row.texts = [t for t in row.texts if t[1] > above.y1 + 1]
+        nxt = min((t[1] for t in row.texts), default=row.y1)
+        y = round(min(last + 3.5, nxt - 9), 1)
+        if y > above.y1:
+            above.y1 = row.y0 = y
 
 
 ROMAN = ["", "i", "ii", "iii", "iv", "v", "vi"]
@@ -170,8 +210,8 @@ def by_label(rows):
         # value starting an answer line) is text in a continuing row.
         if row.label and last < order(row.label) and order(row.label)[0] <= last[0] + 1:
             current, last = row.label, order(row.label)
-        if current is None:
-            continue                        # before the first question: cover, notes
+        if current is None or row.kind == "restated":
+            continue                        # before the first question (cover, notes); a reprinted question
         out.setdefault(current, []).append(row)
     return out
 
