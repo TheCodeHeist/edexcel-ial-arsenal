@@ -1,0 +1,171 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "23d39df9a78b",
+   "kinds": {
+    "1(a)": "short",
+    "1(b)": "calc",
+    "1(c)": "calc",
+    "1(d)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S3.5.1"
+    ],
+    "1(b)": [
+     "S3.5.1"
+    ],
+    "1(c)": [
+     "S3.5.2"
+    ],
+    "1(d)": [
+     "S3.5.2"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "024bba1a4867",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "short"
+   },
+   "topics": {
+    "2(a)": [
+     "S3.3.1"
+    ],
+    "2(b)": [
+     "S3.3.8",
+     "S3.3.6"
+    ],
+    "2(c)": [
+     "S3.3.6",
+     "S3.3.8"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "c65cbfe7c9ae",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "calc",
+    "3(d)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S3.3.4"
+    ],
+    "3(b)": [
+     "S3.3.4"
+    ],
+    "3(c)": [
+     "S3.3.4",
+     "S3.3.3"
+    ],
+    "3(d)": [
+     "S3.3.4"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0dd2f69489ca",
+   "kinds": {
+    "4(a)": "short",
+    "4(b)": "calc",
+    "4(c)": "calc",
+    "4(d)": "short"
+   },
+   "topics": {
+    "4(a)": [
+     "S2.3.1"
+    ],
+    "4(b)": [
+     "S2.3.1"
+    ],
+    "4(c)": [
+     "S3.3.6",
+     "S3.3.2"
+    ],
+    "4(d)": [
+     "S3.3.6"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "ad64aa3f4855",
+   "kinds": {
+    "5(a)": "short",
+    "5(b)": "short",
+    "5(c)": "calc",
+    "5(d)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S3.3.1"
+    ],
+    "5(b)": [
+     "S3.3.1"
+    ],
+    "5(c)": [
+     "S3.3.1"
+    ],
+    "5(d)": [
+     "S3.3.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "04162a813414",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S3.1.1"
+    ],
+    "6(b)": [
+     "S3.1.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): mark scheme rows are wrong: after the hypotheses B1 they include the top of the 7(b)(i) working table (Observed/Expected/(O-E)^2/E rows), cut off mid-table, which belongs to 7(b).",
+    "7(b) and 7(b)(ii): no mark scheme rows at all (purple bars absent); only the examiners notes carry their marks (B1 M1 M1 A1 B1 B1 M1 A1 for (b)(i), M1 A1 for (b)(ii)). The (b)(i) and (b)(ii) rows were apparently attached to 7(a)."
+   ],
+   "fingerprint": "63df8abe9525",
+   "kinds": {
+    "7(a)": "short",
+    "7(b)": "calc",
+    "7(b)(ii)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S3.4.1"
+    ],
+    "7(b)": [
+     "S3.4.1",
+     "S3.4.2"
+    ],
+    "7(b)(ii)": [
+     "S3.4.1"
+    ]
+   }
+  }
+ }
+}

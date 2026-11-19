@@ -1,0 +1,151 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "5429a3f6c671",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "M2.4.1"
+    ],
+    "1(b)": [
+     "M2.4.1",
+     "M1.2.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "fe1e6443a49f",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "M2.3.1",
+     "M1.4.1"
+    ],
+    "2(b)": [
+     "M2.3.1",
+     "M1.4.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "ca6c8f26cb04",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "M2.2.2"
+    ],
+    "3(b)": [
+     "M2.2.3"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(b): the mark scheme block ends with a stray, clipped table header row (\"Q | Solution | Marks | Notes\") at the very bottom, from the next mark-scheme page."
+   ],
+   "fingerprint": "ff79ac873047",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "M2.1.4",
+     "M1.2.1"
+    ],
+    "4(b)": [
+     "M2.1.4"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "Question 5 examiners notes section contains only a stray clipped table header (Q | Solution | Marks | Notes); the actual notes are missing (the question seems to have no notes, or they were cut off)."
+   ],
+   "fingerprint": "39ace1e0c21a",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "M2.5.1",
+     "M2.5.2"
+    ],
+    "5(b)": [
+     "M2.5.2",
+     "M1.5.1"
+    ],
+    "5(c)": [
+     "M2.5.2",
+     "M1.2.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "Question 6 ends with a stray clipped table header (Q | scheme | Marks | Notes) and the start of a general note (\"NB Penalise each type of accuracy error once ...\") cut off at the bottom; this belongs to the next page/ general notes, not to Q6."
+   ],
+   "fingerprint": "6450b26752cf",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "M2.4.2"
+    ],
+    "6(b)": [
+     "M2.4.3",
+     "M2.4.2"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "59d8d0d8e50f",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc",
+    "7(d)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "M2.1.2",
+     "M2.1.1"
+    ],
+    "7(b)": [
+     "M2.1.2"
+    ],
+    "7(c)": [
+     "M2.1.2"
+    ],
+    "7(d)": [
+     "M2.1.2",
+     "M1.2.1"
+    ]
+   }
+  }
+ }
+}

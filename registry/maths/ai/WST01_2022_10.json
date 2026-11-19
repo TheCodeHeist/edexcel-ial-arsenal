@@ -1,0 +1,197 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0519cbfd10c2",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "calc",
+    "1(d)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S1.2.1"
+    ],
+    "1(b)": [
+     "S1.2.1"
+    ],
+    "1(c)": [
+     "S1.2.2",
+     "S1.2.3"
+    ],
+    "1(d)": [
+     "S1.2.4"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "18aaeacfd456",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "short",
+    "2(d)": "calc",
+    "2(e)": "calc",
+    "2(f)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "S1.4.3"
+    ],
+    "2(b)": [
+     "S1.4.3"
+    ],
+    "2(c)": [
+     "S1.4.3"
+    ],
+    "2(d)": [
+     "S1.4.1"
+    ],
+    "2(e)": [
+     "S1.4.1"
+    ],
+    "2(f)": [
+     "S1.4.1",
+     "P1.1.9"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "Notes: the examiners notes block is far too long (about 5000 px): after the Q3 notes it runs on into the mark schemes and notes for Questions 4, 5, 6 and 7 of the paper (Q4 CDF table, Q5 normal, Q6 Venn/probabilities, Q7 discrete variable), so everything after the 3(c)(ii) notes belongs to other questions.",
+    "3(c): mark-scheme rows contain both (c)(i) and (c)(ii), and the same rows are repeated under 3(c)(ii).",
+    "3(c): bottom of the mark-scheme crop shows a sliver of the first notes row under the Notes/Total 10 line."
+   ],
+   "fingerprint": "85c762ef7c94",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "calc",
+    "3(c)(ii)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S1.2.2"
+    ],
+    "3(b)": [
+     "S1.2.3"
+    ],
+    "3(c)": [
+     "S1.2.2",
+     "S1.2.3"
+    ],
+    "3(c)(ii)": [
+     "S1.2.3"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4: the crop has only the question; no mark-scheme rows and no examiners notes are attached (the Q4 mark scheme was instead swept into the Q3 notes block), so the part cannot be checked or marked."
+   ],
+   "fingerprint": "59c10de2014b",
+   "kinds": {
+    "4": "calc"
+   },
+   "topics": {
+    "4": [
+     "S1.5.2",
+     "S1.5.3"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a),5(b),5(c): no mark-scheme rows and no examiners notes are attached to any part; the crop is questions only (the Q5 mark scheme was swept into the Q3 notes block), so marks cannot be checked."
+   ],
+   "fingerprint": "25bbcb8156ea",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.6.1"
+    ],
+    "5(b)": [
+     "S1.6.1"
+    ],
+    "5(c)": [
+     "S1.6.1",
+     "S1.3.2"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(a),6(b),6(c): no mark-scheme rows and no examiners notes are attached to any part; the crop is questions only (the Q6 mark scheme was swept into the Q3 notes block), so marks cannot be checked."
+   ],
+   "fingerprint": "88b134a1ec08",
+   "kinds": {
+    "6(a)": "short",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.3.1",
+     "S1.3.2"
+    ],
+    "6(b)": [
+     "S1.3.2",
+     "S1.3.4"
+    ],
+    "6(c)": [
+     "S1.3.4"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a)-7(f): no mark-scheme rows and no examiners notes are attached to any part; the crop is questions only (the Q7 mark scheme was swept into the Q3 notes block), so marks cannot be checked."
+   ],
+   "fingerprint": "0c57ca2452f8",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc",
+    "7(d)": "calc",
+    "7(e)": "calc",
+    "7(f)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S1.5.1",
+     "S1.3.2"
+    ],
+    "7(b)": [
+     "S1.5.3"
+    ],
+    "7(c)": [
+     "S1.5.3"
+    ],
+    "7(d)": [
+     "S1.5.3"
+    ],
+    "7(e)": [
+     "S1.5.1",
+     "S1.3.4"
+    ],
+    "7(f)": [
+     "S1.5.1",
+     "S1.5.2"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(a): mark-scheme crop is cut off at the top — the first row (M1 use of I = mv - mu) is missing and the A1 row is sliced through, so only A1 M1 A1 are visible for 4 marks",
+    "1(a): mark-scheme crop runs on into 1(b) rows: the 1(b) M1 rows are shown (and cut through at the bottom) under the 1(a) bar, duplicating/splitting the 1(b) scheme",
+    "1(b): mark-scheme crop starts mid-row (top of the A1 row sliced through) and its end holds the start of question 2 mark scheme (Accept column vectors; r = ∫v dt, M1 A1) — content belonging to Q2"
+   ],
+   "fingerprint": "ff3ab564ac77",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "M2.4.1",
+     "M1.2.1"
+    ],
+    "1(b)": [
+     "M2.4.1",
+     "M1.2.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(a): mark-scheme crop runs on into 2(b): the 2(b) M1 row (v in direction of i - 2j) is under the 2(a) bar and cut through at the bottom, so 2(b) rows are split across two crops",
+    "2(b): mark-scheme crop starts mid-row (top of the M1 row sliced through) and ends with the 2(c) M1 row (use of a = dv/dt, a = (8t-5)i - 10j), which belongs to part 2(c)",
+    "2(c): mark-scheme crop is cut off at the top (the M1 row top is sliced through) and its end holds the start of question 3's mark scheme (centre of mass dissection note, mass-ratio table, B1 B1 M1) — content belonging to Q3"
+   ],
+   "fingerprint": "e391387989aa",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "M2.1.4"
+    ],
+    "2(b)": [
+     "M2.1.4"
+    ],
+    "2(c)": [
+     "M2.1.4",
+     "M1.2.1"
+    ]
+   }
+  }
+ }
+}

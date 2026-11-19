@@ -1,0 +1,187 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(b): mark scheme strip is cut off at the top (first row of the bin packing, Bin 1 line, partly sliced) and runs on into the start of the quick sort (middle right, first pass with M1), which belongs to 1(c).",
+    "1(c): mark scheme strip starts cut through the middle-right quick sort table (first passes cut off at the top, only the A1 marks visible); the first pass and M1 are in the (b) strip.",
+    "All parts: the crop is clipped at the right edge: mark column totals are truncated (\"(2\", \"(3\", \"(4\") (minor)."
+   ],
+   "fingerprint": "a289f33ad90c",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "calc",
+    "1(d)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "D1.1.2"
+    ],
+    "1(b)": [
+     "D1.1.2"
+    ],
+    "1(c)": [
+     "D1.1.2"
+    ],
+    "1(d)": [
+     "D1.1.2"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "e471a87f7771",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "short",
+    "2(c)": "calc",
+    "2(d)": "short"
+   },
+   "topics": {
+    "2(a)": [
+     "D1.2.1"
+    ],
+    "2(b)": [
+     "D1.2.1"
+    ],
+    "2(c)": [
+     "D1.2.1"
+    ],
+    "2(d)": [
+     "D1.2.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "All parts: the crop is clipped at the right edge: mark column totals are truncated (\"(6\", \"(4\", \"(2\", \"(3\", \"[15\") and the examiners notes lines run off the right side (e.g. the first notes paragraph, a3A1ft, c1B1 lines cut mid-sentence)."
+   ],
+   "fingerprint": "764114a7b422",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "short",
+    "3(d)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "D1.2.2"
+    ],
+    "3(b)": [
+     "D1.3.1"
+    ],
+    "3(c)": [
+     "D1.3.1"
+    ],
+    "3(d)": [
+     "D1.3.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4: mark scheme network is cut through at the bottom: the bottom of the diagram is sliced (activity C and J arcs and the first dummy from the bottom run off the edge), so the full model network is not visible; the mark column is also clipped at the right (\"(5\", \"[5\")."
+   ],
+   "fingerprint": "4bcc30024e10",
+   "kinds": {
+    "4": "draw"
+   },
+   "topics": {
+    "4": [
+     "D1.4.1",
+     "D1.4.2"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(b): asks to add lines and shading to Diagram 1 in the answer book; the blank grid is not in the crop (only the model graph in the mark scheme).",
+    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of an activity network (arcs labelled A(6), E(7), J(8) with M1 A1 marks) that belongs to question 6, cut through at the bottom of the image.",
+    "All parts: the mark column is clipped at the right edge (\"(1\", \"(4\", \"(7\")."
+   ],
+   "fingerprint": "2e0aa497cf0a",
+   "kinds": {
+    "5(a)": "short",
+    "5(b)": "draw",
+    "5(c)": "short",
+    "5(d)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "D1.5.1"
+    ],
+    "5(b)": [
+     "D1.5.2"
+    ],
+    "5(c)": [
+     "D1.5.1"
+    ],
+    "5(d)": [
+     "D1.5.2",
+     "D1.5.3"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(a): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 3 without boxes).",
+    "6(a): mark scheme strip is only a thin sliver of the bottom of the early/late-times diagram (the top and most boxes are missing; M1 A1 marks only beside a cut-off diagram), so the model answer cannot be read; the upper part of the diagram is at the end of the question 5 notes crop instead.",
+    "6(c): mark scheme strip includes the top of the cascade chart (A, F, J, B, C rows with M1 A1) after the lower bound row, cut through at the bottom; that chart belongs to 6(d).",
+    "6(d): mark scheme strip starts cut through the cascade chart (E, G, H, I, K rows) and ends with the top of the scheduling diagram (A, F, J with M1) which belongs to 6(e); Grid 1 in the answer book is not in the crop.",
+    "6(e): mark scheme strip starts cut through the scheduling diagram (B, D, G, H / C, E, I, K rows sliced), and Grid 2 in the answer book (partly completed grid) is not in the crop."
+   ],
+   "fingerprint": "33fc20c6f30e",
+   "kinds": {
+    "6(a)": "draw",
+    "6(b)": "short",
+    "6(c)": "calc",
+    "6(d)": "draw",
+    "6(e)": "draw"
+   },
+   "topics": {
+    "6(a)": [
+     "D1.4.3"
+    ],
+    "6(b)": [
+     "D1.4.3"
+    ],
+    "6(c)": [
+     "D1.4.4"
+    ],
+    "6(d)": [
+     "D1.4.4"
+    ],
+    "6(e)": [
+     "D1.4.4"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): mark scheme strip is cut through at the bottom: the last row (\"Use x=100, z=25 to obtain two values of y, leading to\" with an M1) is sliced and belongs to 7(b), so (a) shows 7 marks against 6.",
+    "7(b): mark scheme strip omits the M1 row (\"Use x=100, z=25 ...\"), which is in the (a) strip; only A1ft A1 visible in its own strip.",
+    "All parts: the mark column totals are clipped at the right edge (\"(6\", \"(3\")."
+   ],
+   "fingerprint": "5b7942bd5001",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "D1.5.1"
+    ],
+    "7(b)": [
+     "D1.5.1"
+    ]
+   }
+  }
+ }
+}

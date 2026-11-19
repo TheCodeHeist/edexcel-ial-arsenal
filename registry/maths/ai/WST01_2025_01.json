@@ -1,0 +1,224 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "cc181913bb19",
+   "kinds": {
+    "1(a)": "short",
+    "1(b)": "calc",
+    "1(c)": "short",
+    "1(d)": "calc",
+    "1(e)": "calc",
+    "1(f)": "calc",
+    "1(g)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S1.5.4"
+    ],
+    "1(b)": [
+     "S1.5.4"
+    ],
+    "1(c)": [
+     "S1.5.3"
+    ],
+    "1(d)": [
+     "S1.5.3"
+    ],
+    "1(e)": [
+     "S1.5.1"
+    ],
+    "1(f)": [
+     "S1.5.1"
+    ],
+    "1(g)": [
+     "S1.5.2"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(e): mark scheme rows include both the (i) rows (M1 A1*, 2 marks) and the (ii) rows (M1 M1 A1, 3 marks), so they do not match this part marks (2); the same two sets of rows are repeated under 2(e)(ii), whose part is worth 3 marks."
+   ],
+   "fingerprint": "fd6692304366",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "calc",
+    "2(d)": "calc",
+    "2(e)": "calc",
+    "2(e)(ii)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "S1.2.3"
+    ],
+    "2(b)": [
+     "S1.2.2"
+    ],
+    "2(c)": [
+     "S1.2.3",
+     "S1.2.1"
+    ],
+    "2(d)": [
+     "S1.2.3"
+    ],
+    "2(e)": [
+     "S1.2.2"
+    ],
+    "2(e)(ii)": [
+     "S1.2.3"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(b): mark scheme rows include both the (i) rows and the (ii) rows (M1 A1 + M1 A1 = 4 marks) so they do not match this part marks (2); 3(b)(ii) mark scheme rows repeat the (i) rows as well. Both parts show the whole of (b) scheme.",
+    "3(b)(ii): a clipped sliver of text (start of the examiners notes, At least 5 probabilities correct...) shows under the Notes/Total 6 bar of both mark scheme crops.",
+    "3(b)(ii): the examiners notes block ends with a stray fragment of another question (top of a Venn diagram: A, 13, 7, 16, B) after the 3(b)(ii) A1 note; it belongs to Q4 and should be trimmed."
+   ],
+   "fingerprint": "013482383c23",
+   "kinds": {
+    "3(a)": "draw",
+    "3(b)": "calc",
+    "3(b)(ii)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S1.3.4"
+    ],
+    "3(b)": [
+     "S1.3.4"
+    ],
+    "3(b)(ii)": [
+     "S1.3.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): mark scheme rows are cut off at the top: the model Venn diagram loses the tops of the A and B circles, the A and B labels and the values 13 and 16 (A only, B only) that the notes and 4(c)(i) rely on; only 12, 8, 10, 20 and 14 are visible.",
+    "4(c): mark scheme rows include both the (i) row (B1ft, 1 mark) and the (ii) rows (M1 A1), so they do not match this part marks (1); 4(c)(ii) mark scheme rows repeat the (i) row as well.",
+    "4(c)(ii): a clipped sliver of text (start of the examiners notes) shows under the Notes/Total 9 bar of both the 4(c) and 4(c)(ii) mark scheme crops."
+   ],
+   "fingerprint": "70d7bf4fce79",
+   "kinds": {
+    "4(a)": "draw",
+    "4(b)": "calc",
+    "4(c)": "calc",
+    "4(c)(ii)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "S1.3.1"
+    ],
+    "4(b)": [
+     "S1.3.3"
+    ],
+    "4(c)": [
+     "S1.3.1"
+    ],
+    "4(c)(ii)": [
+     "S1.3.2"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a): mark scheme rows include both the (i) rows (M1 A1, 2 marks) and the (ii) rows (5 marks), so they do not match this part marks (2); 5(a)(ii) mark scheme rows repeat the (i) rows as well.",
+    "5(b): mark scheme rows include both the (i) rows and the (ii) rows (3 + 3 marks, Total 13 shown), not matching this part marks (3); 5(b)(ii) mark scheme rows repeat the (i) rows as well.",
+    "5(b)(ii): the examiners notes are cut off at the bottom edge: the last line (a note about awrt mu = 620 (3sf) or awrt sigma = 40 (2sf), probably an A1 line) is truncated.",
+    "5(b)(ii): a clipped sliver of text shows under the Total 13 bar of both the 5(b) and 5(b)(ii) mark scheme crops."
+   ],
+   "fingerprint": "32e337654977",
+   "kinds": {
+    "5(a)": "calc",
+    "5(a)(ii)": "calc",
+    "5(b)": "calc",
+    "5(b)(ii)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.6.1"
+    ],
+    "5(a)(ii)": [
+     "S1.6.1"
+    ],
+    "5(b)": [
+     "S1.6.1"
+    ],
+    "5(b)(ii)": [
+     "S1.6.1",
+     "P1.1.6"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "24403d2e7461",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "short",
+    "6(c)": "calc",
+    "6(d)": "short",
+    "6(e)": "short"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.4.3"
+    ],
+    "6(b)": [
+     "S1.4.1",
+     "S1.4.3"
+    ],
+    "6(c)": [
+     "S1.4.1"
+    ],
+    "6(d)": [
+     "S1.4.1"
+    ],
+    "6(e)": [
+     "S1.4.3",
+     "S1.4.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0433493c6804",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "short",
+    "7(d)": "calc",
+    "7(e)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S1.2.2",
+     "S1.2.1"
+    ],
+    "7(b)": [
+     "S1.2.4"
+    ],
+    "7(c)": [
+     "S1.2.1",
+     "S1.6.1"
+    ],
+    "7(d)": [
+     "S1.6.1"
+    ],
+    "7(e)": [
+     "S1.6.1"
+    ]
+   }
+  }
+ }
+}

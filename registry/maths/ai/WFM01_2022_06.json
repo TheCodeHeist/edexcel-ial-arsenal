@@ -23,10 +23,8 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [
-    "2(a): formula f(x) is cut off at the top edge of the stem crop"
-   ],
-   "fingerprint": "b3fd6594f551",
+   "concerns": [],
+   "fingerprint": "3824bfad0a50",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -50,8 +48,10 @@
   },
   "3": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7dce0c1eb326",
+   "concerns": [
+    "3(b): a stray \"(2)\" (3(a) mark total) is printed at the top right of the question crop above the \"Hence, given that N^-1\" line"
+   ],
+   "fingerprint": "e3f5275bb141",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -69,8 +69,12 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "016e1acee9f5",
+   "concerns": [
+    "4(a): mark-scheme rows end with a line (Mark (b) and (c) together... Award marks in the order given) cut through at the bottom edge; it belongs to (b)/(c)",
+    "4(b): mark-scheme rows start with a cut-through fragment of that note, and the (b)/(c) block also contains the (c) rows (A=36, B=86, M1 A1), so the rows add up to 7-8 marks, not the part marks of 5",
+    "4(c): the mark-scheme section holds only the repeated stem line; the real (c) rows (substituting 5+i, A=36 B=86, solving) are in the examiners NOTES block, which is itself mostly mark-scheme rows and cut at the left edge"
+   ],
+   "fingerprint": "aec4e53502df",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -138,10 +142,8 @@
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [
-    "7(a): the top brackets of matrix A are cut off at the top edge of the stem crop"
-   ],
-   "fingerprint": "1e03e11e4ee0",
+   "concerns": [],
+   "fingerprint": "00ca38299213",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",
@@ -195,7 +197,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "458146e6308c",
+   "fingerprint": "d769382d4849",
    "kinds": {
     "9(i)": "calc",
     "9(ii)": "calc"

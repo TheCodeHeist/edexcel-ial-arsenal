@@ -1,0 +1,186 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(b): the question crop lacks the blank grid on page 3 that the part says to draw the box plot on; both blank box-plot grids (the main grid and the spare grid) appear instead at the end of the 1(c) QUESTION crop."
+   ],
+   "fingerprint": "54dabf7d535c",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "draw",
+    "1(c)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S1.2.2",
+     "S1.2.3"
+    ],
+    "1(b)": [
+     "S1.2.1",
+     "S1.2.4"
+    ],
+    "1(c)": [
+     "S1.2.4",
+     "S1.2.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "6a254b469726",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "short",
+    "2(c)": "calc",
+    "2(d)": "short",
+    "2(e)": "calc",
+    "2(f)": "short"
+   },
+   "topics": {
+    "2(a)": [
+     "S1.4.3"
+    ],
+    "2(b)": [
+     "S1.4.2"
+    ],
+    "2(c)": [
+     "S1.4.3"
+    ],
+    "2(d)": [
+     "S1.4.3"
+    ],
+    "2(e)": [
+     "S1.4.1"
+    ],
+    "2(f)": [
+     "S1.4.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(a): mark scheme rows run on past the (2) marks into the 3(b) answer: the model Venn diagram for 3(b) starts under 3(a) (cut off after its top, with a stray B1 mark) and continues, cut across a horizontal line, at the top of the 3(b) mark scheme rows, so the diagram is split in two crops and each half is clipped.",
+    "3(b): mark scheme rows show only the lower part of the model Venn diagram (5, 7, 9, 16, 22) with the top of the F and G circles and the 36, 4, 21 values missing, and the marks column is clipped at the top (M1 cut)."
+   ],
+   "fingerprint": "3837d29f25bb",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "draw",
+    "3(c)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S1.3.1"
+    ],
+    "3(b)": [
+     "S1.3.1",
+     "S1.3.4"
+    ],
+    "3(c)": [
+     "S1.3.2",
+     "S1.3.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(b): mark scheme rows include both the (i) rows (3 marks) and the (ii) rows (4 marks, Total 13 shown) so the crop shows 7 marks for a 3 mark part; the 4(b)(ii) mark scheme rows repeat the (i) rows as well."
+   ],
+   "fingerprint": "8e55bcef0a31",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(b)(ii)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "S1.5.2",
+     "S1.5.1"
+    ],
+    "4(b)": [
+     "S1.5.3"
+    ],
+    "4(b)(ii)": [
+     "S1.5.3"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "e0852ca4baa5",
+   "kinds": {
+    "5(a)": "draw",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.3.4",
+     "S1.3.2"
+    ],
+    "5(b)": [
+     "S1.3.4"
+    ],
+    "5(c)": [
+     "S1.3.2"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0efadf9bae69",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.5.4"
+    ],
+    "6(b)": [
+     "S1.5.4",
+     "S1.5.3"
+    ],
+    "6(c)": [
+     "S1.5.3",
+     "S1.5.4"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(c): mark scheme rows include both the (i) rows (M1 A1, 2 marks) and the (ii) rows (M1 A1*, 2 marks), so 4 marks are shown for a 2 mark part; the 7(c)(ii) mark scheme rows repeat the (i) rows as well."
+   ],
+   "fingerprint": "70956c92e54d",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc",
+    "7(c)(ii)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S1.6.1"
+    ],
+    "7(b)": [
+     "S1.6.1"
+    ],
+    "7(c)": [
+     "S1.6.1",
+     "S1.3.2"
+    ],
+    "7(c)(ii)": [
+     "S1.6.1"
+    ]
+   }
+  }
+ }
+}

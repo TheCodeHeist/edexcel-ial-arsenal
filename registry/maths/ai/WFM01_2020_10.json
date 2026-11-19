@@ -106,8 +106,12 @@
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c4dc5ea7f7d8",
+   "concerns": [
+    "6(i): mark-scheme rows include the (b) and (c) rows as well (B1 B1 + B1 + M1 A1), so they do not add up to the part marks of 2",
+    "6(i)(b): mark-scheme rows start with the 6(i)(a) row (stretch, B1 B1) which does not answer this part, and the (b) matrix row is cut through at the bottom",
+    "6(i)(c): mark-scheme rows start with the 6(i)(a) row, cut through at the bottom edge, which does not answer this part; the (b) row is missing but the (c) rows are complete"
+   ],
+   "fingerprint": "b5bd4b50d0f8",
    "kinds": {
     "6(i)": "short",
     "6(i)(b)": "calc",

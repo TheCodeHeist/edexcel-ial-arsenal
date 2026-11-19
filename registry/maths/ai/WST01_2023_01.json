@@ -1,0 +1,180 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(d): mark-scheme rows run on into the first (e) rows (the [LQ =] 10 + 15/16(14-10) working), the second one cut through at the bottom (the fractions 1/16 and 0.75/16 are sliced), so (d) shows rows that belong to (e).",
+    "1(e): mark-scheme crop starts cut through the first (e) row (top of the line is clipped, fractions with 16 cut off) and the first M1 sits in clipped rows; the (e) rows are split across the (d)/(e) boundary."
+   ],
+   "fingerprint": "9ec3dc3dc4ca",
+   "kinds": {
+    "1(a)": "short",
+    "1(b)": "calc",
+    "1(c)": "calc",
+    "1(d)": "calc",
+    "1(e)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S1.2.1"
+    ],
+    "1(b)": [
+     "S1.2.1",
+     "S1.2.2"
+    ],
+    "1(c)": [
+     "S1.2.2"
+    ],
+    "1(d)": [
+     "S1.2.3"
+    ],
+    "1(e)": [
+     "S1.2.2",
+     "S1.2.3"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(a): the part refers to the tree diagram on page 7 but the 2(a) question crop does not contain it; the partly-filled blank tree diagram (the thing to complete) sits instead in the 2(d) question crop.",
+    "2(d): question crop contains the large partly-completed tree diagram (1st/2nd/3rd marble) that belongs to part (a), making it look like part of (d)."
+   ],
+   "fingerprint": "5178ffa15c63",
+   "kinds": {
+    "2(a)": "draw",
+    "2(b)": "calc",
+    "2(c)": "calc",
+    "2(d)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "S1.3.1",
+     "S1.3.2"
+    ],
+    "2(b)": [
+     "S1.3.4"
+    ],
+    "2(c)": [
+     "S1.3.4"
+    ],
+    "2(d)": [
+     "S1.3.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "8d49c2be6cdd",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S1.5.3"
+    ],
+    "3(b)": [
+     "S1.5.1",
+     "S1.5.3"
+    ],
+    "3(c)": [
+     "S1.5.3",
+     "P1.1.3"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(i): mark-scheme rows contain both (i)(a) and (i)(b) (9 marks) for the 4-mark part (a); and 4(i)(b) shows the same combined rows, i.e. includes the (a) rows too.",
+    "4(ii): there is a sliver of the first notes row at the bottom of the mark-scheme crop, under the Notes/Total 13 line."
+   ],
+   "fingerprint": "74b1e4838dad",
+   "kinds": {
+    "4(i)": "calc",
+    "4(i)(b)": "calc",
+    "4(ii)": "calc"
+   },
+   "topics": {
+    "4(i)": [
+     "S1.3.1",
+     "S1.3.4"
+    ],
+    "4(i)(b)": [
+     "S1.3.1",
+     "S1.3.4"
+    ],
+    "4(ii)": [
+     "S1.3.4",
+     "S1.3.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "2300df3a3f6e",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc",
+    "5(d)": "calc",
+    "5(e)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.6.1"
+    ],
+    "5(b)": [
+     "S1.6.1",
+     "S1.2.2"
+    ],
+    "5(c)": [
+     "S1.2.4"
+    ],
+    "5(d)": [
+     "S1.6.1",
+     "S1.2.4"
+    ],
+    "5(e)": [
+     "S1.6.1",
+     "S1.3.2"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "dd38ebac134b",
+   "kinds": {
+    "6(a)": "short",
+    "6(b)": "calc",
+    "6(c)": "short",
+    "6(d)": "calc",
+    "6(e)": "short"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.4.1"
+    ],
+    "6(b)": [
+     "S1.4.1"
+    ],
+    "6(c)": [
+     "S1.4.1"
+    ],
+    "6(d)": [
+     "S1.4.3",
+     "S1.4.1"
+    ],
+    "6(e)": [
+     "S1.4.1",
+     "S1.4.3"
+    ]
+   }
+  }
+ }
+}

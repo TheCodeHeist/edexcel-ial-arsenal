@@ -1,0 +1,206 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(b): mark-scheme rows include the top of the box-plot answer picture (belongs to 1(c), its M1 mark), so the rows carry an extra M1 beyond the 2 marks of part (b).",
+    "1(c): mark-scheme crop starts mid-way through the box-plot picture (box top cut off; the diagram is split across the (b)/(c) boundary) and the M1 mark for the box plot sits in the rows of 1(b).",
+    "1(e): question crop includes two blank box-plot answer grids (the grid for 1(c) and the spare grid, plus the notice about a spare grid) which belong to 1(c), not to (e).",
+    "1(a)-1(e): the right edge of the mark-scheme rows is trimmed so the part mark in brackets and the Total are partly cut off (e.g. 1(e) shows only the start of Total 11)."
+   ],
+   "fingerprint": "a45d8d67f444",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "draw",
+    "1(d)": "calc",
+    "1(e)": "short"
+   },
+   "topics": {
+    "1(a)": [
+     "S1.2.1",
+     "S1.2.2"
+    ],
+    "1(b)": [
+     "S1.2.4"
+    ],
+    "1(c)": [
+     "S1.2.1",
+     "S1.2.4"
+    ],
+    "1(d)": [
+     "S1.2.4"
+    ],
+    "1(e)": [
+     "S1.2.2",
+     "S1.2.4"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(e): mark-scheme rows include the (ii) row (B1) as well as (i), so the rows show 3 marks for a 2-mark part; the same rows are repeated for 2(e)(ii), which therefore also contains the (i) M1 A1.",
+    "2(f): bottom of the mark-scheme crop runs into the Notes header and a sliver of the notes row, and the right edge trims the mark brackets."
+   ],
+   "fingerprint": "d0e55137e35a",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "short",
+    "2(c)": "calc",
+    "2(d)": "short",
+    "2(e)": "calc",
+    "2(e)(ii)": "short",
+    "2(f)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "S1.4.3"
+    ],
+    "2(b)": [
+     "S1.4.3"
+    ],
+    "2(c)": [
+     "S1.4.1"
+    ],
+    "2(d)": [
+     "S1.4.1",
+     "S1.4.2"
+    ],
+    "2(e)": [
+     "S1.4.1"
+    ],
+    "2(e)(ii)": [
+     "S1.4.1"
+    ],
+    "2(f)": [
+     "S1.4.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(e): mark-scheme rows contain both (i) and (ii) (6 marks and the Total 14 row) for a 3-mark part; the same rows are repeated under 3(e)(ii).",
+    "3(e)(ii): same combined rows as 3(e) (includes the (i) M1 M1 A1 rows).",
+    "Notes: the examiners notes at the bottom end after the 2nd M1 of (e)(ii); the final A1 line (awrt 144) looks cut off at the bottom edge."
+   ],
+   "fingerprint": "6c560329f2ff",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "calc",
+    "3(d)": "calc",
+    "3(e)": "calc",
+    "3(e)(ii)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S1.2.1"
+    ],
+    "3(b)": [
+     "S1.2.2"
+    ],
+    "3(c)": [
+     "S1.2.1",
+     "S1.2.2"
+    ],
+    "3(d)": [
+     "S1.3.1",
+     "S1.3.4"
+    ],
+    "3(e)": [
+     "S1.2.2"
+    ],
+    "3(e)(ii)": [
+     "S1.2.3"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(b): mark-scheme rows end with the top half of the Venn-diagram answer (belongs to 4(c)), cut off at the bottom edge of the crop.",
+    "4(c): mark-scheme crop starts in the middle of the Venn diagram (tops of the circles missing, 1/12 and N labels partly cut) and the marks column (B1 M1 M1 M1 A1) is cut off at the top, so the part cannot be marked from this crop; the diagram is split across the 4(b)/4(c) boundary."
+   ],
+   "fingerprint": "8123ca60b65a",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(c)": "draw"
+   },
+   "topics": {
+    "4(a)": [
+     "S1.3.3",
+     "S1.3.4"
+    ],
+    "4(b)": [
+     "S1.3.2"
+    ],
+    "4(c)": [
+     "S1.3.1",
+     "S1.3.4"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "113e9d1ad3da",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "short",
+    "5(d)": "calc",
+    "5(e)": "calc",
+    "5(f)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.5.3"
+    ],
+    "5(b)": [
+     "S1.5.3"
+    ],
+    "5(c)": [
+     "S1.5.2"
+    ],
+    "5(d)": [
+     "S1.5.2",
+     "S1.5.3"
+    ],
+    "5(e)": [
+     "S1.3.4",
+     "S1.5.1"
+    ],
+    "5(f)": [
+     "S1.3.4",
+     "S1.5.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "bc3c0aade1c3",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.6.1"
+    ],
+    "6(b)": [
+     "S1.6.1",
+     "S1.5.3"
+    ],
+    "6(c)": [
+     "S1.6.1",
+     "S1.3.2"
+    ]
+   }
+  }
+ }
+}

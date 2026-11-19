@@ -164,8 +164,10 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ee091c3f6519",
+   "concerns": [
+    "8: mark-scheme rows are clipped at the left and right edges (label \"8\" cut, marks column \"A1 cso\" and \"(6)\" cut off), and the ALT scheme row is cut through at the bottom of the rows, continuing in the examiners notes block"
+   ],
+   "fingerprint": "fb74d95f5de3",
    "kinds": {
     "8": "calc"
    },

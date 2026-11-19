@@ -2,10 +2,8 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [
-    "1(a): the top row of matrix P in the stem is cut off at the top edge of the stem crop"
-   ],
-   "fingerprint": "925542d2abf0",
+   "concerns": [],
+   "fingerprint": "ddc9978ed132",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -131,9 +129,13 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [
-    "7(i): top row numerators of matrix A are cut off at the top edge of the crop"
+    "7(i): mark-scheme rows also include the (b) and (c) rows (M1A1 + B1 + M1 A1), so they add up to 5 marks, not the part marks of 2",
+    "7(i)(b): mark-scheme rows also include the 7(i)(a) rows and the (c) rows, not just the 1-mark (b) row",
+    "7(i)(c): mark-scheme rows start with the 7(i)(a) and (b) rows, which do not answer this part",
+    "7(ii): mark-scheme rows also include the (ii)(b) rows (M1 A1), so the marks add up to 6, not 4",
+    "7(ii)(b): mark-scheme rows start with the whole (ii)(a) block, which does not answer this part"
    ],
-   "fingerprint": "fb4e43e09ade",
+   "fingerprint": "d9c4981bc49e",
    "kinds": {
     "7(i)": "short",
     "7(i)(b)": "calc",
@@ -181,10 +183,8 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [
-    "9(a): the numerator 1 in the stem equation y^2 = 1/2 x is cut off at the top edge of the stem crop"
-   ],
-   "fingerprint": "f9635de44c15",
+   "concerns": [],
+   "fingerprint": "8098b8dc3858",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"
@@ -192,7 +192,7 @@
    "topics": {
     "9(a)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ],
     "9(b)": [
      "FP1.4.4",

@@ -2,17 +2,16 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [
-    "1(a): the top row of matrix M in the stem is cut off at the top edge of the stem crop"
-   ],
-   "fingerprint": "0ab6e2a8b865",
+   "concerns": [],
+   "fingerprint": "50245b524153",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
    },
    "topics": {
     "1(a)": [
-     "FP1.5.5"
+     "FP1.5.5",
+     "FP1.5.4"
     ],
     "1(b)": [
      "FP1.5.5",
@@ -22,10 +21,8 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [
-    "2(a): the top row of matrix P in the stem is cut off at the top edge of the stem crop"
-   ],
-   "fingerprint": "70cfaa575462",
+   "concerns": [],
+   "fingerprint": "4789b8fbca20",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -54,8 +51,11 @@
   },
   "3": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c515d2efe730",
+   "concerns": [
+    "3(ii): mark-scheme rows also include the (ii)(b) rows (M1 A1), so the marks add up to 4, not the part marks of 2",
+    "3(ii)(b): mark-scheme rows start with the (ii)(a) rows (M1 A1), which do not answer this part"
+   ],
+   "fingerprint": "15d81169b6b7",
    "kinds": {
     "3(i)": "calc",
     "3(ii)": "calc",
@@ -63,8 +63,7 @@
    },
    "topics": {
     "3(i)": [
-     "FP1.3.1",
-     "P1.4.2"
+     "FP1.3.1"
     ],
     "3(ii)": [
      "FP1.3.1"
@@ -77,7 +76,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "320ec9246edf",
+   "fingerprint": "90c448fe674a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -86,22 +85,21 @@
    "topics": {
     "4(a)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ],
     "4(b)": [
-     "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.4"
     ],
     "4(c)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ]
    }
   },
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "9a06b4cb7616",
+   "fingerprint": "450b57e798ea",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -123,7 +121,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "5d09259128de",
+   "fingerprint": "df6d45cbd78e",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -149,7 +147,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "6b59ac9f51f7",
+   "fingerprint": "904d046d1e74",
    "kinds": {
     "7(a)": "short",
     "7(b)": "calc",
@@ -167,14 +165,15 @@
      "FP1.1.6"
     ],
     "7(d)": [
-     "FP1.1.6"
+     "FP1.1.6",
+     "FP1.1.4"
     ]
    }
   },
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "58b999bdd595",
+   "fingerprint": "6380913e903f",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -194,8 +193,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "620bd42c75bf",
+   "concerns": [
+    "9: the examiners NOTES block is only a worked diagram (marked angles) with a stray cut-off \"Tota\" fragment at its top-right, and small stray fragments sit at the bottom edge of the mark-scheme rows"
+   ],
+   "fingerprint": "ef97d2692626",
    "kinds": {
     "9": "calc"
    },

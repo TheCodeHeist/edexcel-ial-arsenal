@@ -1,0 +1,218 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(e): mark scheme rows end with the opening of the 1(f) answer (The 1st estimate is more reliable estimate since... interpolation / extrapolation bullet); that text belongs to 1(f), whose own mark scheme rows then start mid-answer with the second bullet (153 within data range ...), so the (f) answer is split across the two parts.",
+    "1(f): the examiners notes end at the bottom edge with the (f) note cut off (for 2nd/3rd reason, do not allow comments that refer to weights ... is truncated)."
+   ],
+   "fingerprint": "4cccc181c238",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "calc",
+    "1(d)": "short",
+    "1(e)": "calc",
+    "1(f)": "short"
+   },
+   "topics": {
+    "1(a)": [
+     "S1.4.3"
+    ],
+    "1(b)": [
+     "S1.4.3"
+    ],
+    "1(c)": [
+     "S1.4.1"
+    ],
+    "1(d)": [
+     "S1.4.1"
+    ],
+    "1(e)": [
+     "S1.4.1"
+    ],
+    "1(f)": [
+     "S1.4.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(c): the question crop lacks Figure 1 (the grid with the club B box plot that the part says to draw club A on); the Figure 1 grids (main grid and the spare grid) appear instead at the end of the 2(d) QUESTION crop.",
+    "2(b): mark scheme rows end with a sliver of the top of the model box plot grid (Club A label and part of the grid) that belongs to 2(c); the 2(c) mark scheme rows then start with the lower part of the same figure, so the model box plot is cut horizontally across two parts and its upper half and Club A label are cut off in 2(c).",
+    "2(d): the examiners notes end at the bottom edge with the last A1 note cut off (...indicating that there is greater variation above the median) at the right edge."
+   ],
+   "fingerprint": "feca902d9724",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "draw",
+    "2(d)": "short"
+   },
+   "topics": {
+    "2(a)": [
+     "S1.2.2"
+    ],
+    "2(b)": [
+     "S1.2.4"
+    ],
+    "2(c)": [
+     "S1.2.1",
+     "S1.2.4"
+    ],
+    "2(d)": [
+     "S1.2.4"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "39d42d94766d",
+   "kinds": {
+    "3(a)": "short",
+    "3(b)": "short",
+    "3(c)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "S1.5.4"
+    ],
+    "3(b)": [
+     "S1.5.4"
+    ],
+    "3(c)": [
+     "S1.5.3"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "562382d16cc8",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(c)": "calc",
+    "4(d)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "S1.5.3",
+     "S1.5.1"
+    ],
+    "4(b)": [
+     "S1.5.2"
+    ],
+    "4(c)": [
+     "S1.5.1"
+    ],
+    "4(d)": [
+     "S1.5.3"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(c): mark scheme rows include both the (i) rows (M1 A1, 2 marks) and the (ii) rows (M1 M1A1, 3 marks), so they do not match this part marks (2); 5(c)(ii) mark scheme rows repeat the (i) rows as well."
+   ],
+   "fingerprint": "9ec4eef3c6e9",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc",
+    "5(c)(ii)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.2.1"
+    ],
+    "5(b)": [
+     "S1.2.2"
+    ],
+    "5(c)": [
+     "S1.2.2"
+    ],
+    "5(c)(ii)": [
+     "S1.2.3"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "21e9959d8d31",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc",
+    "6(d)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.3.3"
+    ],
+    "6(b)": [
+     "S1.3.2"
+    ],
+    "6(c)": [
+     "S1.3.1"
+    ],
+    "6(d)": [
+     "S1.3.4",
+     "S1.3.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "c864e7caeab2",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S1.6.1"
+    ],
+    "7(b)": [
+     "S1.6.1",
+     "S1.3.2"
+    ],
+    "7(c)": [
+     "S1.6.1",
+     "P1.1.6"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [
+    "8(c): mark scheme rows are cut off at the top: the model tree diagram shows only its Not late half (13/15 and the Car/Bicycle/Walk branches 6/13, 9/52, 19/52); the Late half (2/15 branch, 3/4, 1/8, 1/8) is missing and the marks column (B1B1 M1A1) is clipped at the top edge.",
+    "8(b): a clipped sliver of text shows at the bottom of the mark scheme crop, and the examiners notes caption is followed by a clipped duplicate Notes label at the top."
+   ],
+   "fingerprint": "26864d8160ae",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "draw"
+   },
+   "topics": {
+    "8(a)": [
+     "S1.3.4"
+    ],
+    "8(b)": [
+     "S1.3.2"
+    ],
+    "8(c)": [
+     "S1.3.2",
+     "S1.3.4"
+    ]
+   }
+  }
+ }
+}

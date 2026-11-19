@@ -769,6 +769,10 @@ def render_bands(doc, bands, name, out_dir, paper_id, x0=COL_X0, x1=None):
         clip = pymupdf.Rect(x0, y0, x1, y1)
         pix = doc[page].get_pixmap(dpi=DPI, clip=clip, colorspace=pymupdf.csGRAY)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
+        if (page, y0, y1) in MASKS:
+            draw, sc = ImageDraw.Draw(img), DPI / 72
+            for mx0, my0, mx1, my1 in MASKS[(page, y0, y1)]:
+                draw.rectangle([(mx0 - x0) * sc, (my0 - y0) * sc, (mx1 - x0) * sc, (my1 - y0) * sc], fill=255)
         buf = io.BytesIO()
         img.save(buf, "WEBP", quality=QUALITY, method=6)
         (out_dir / fname).write_bytes(buf.getvalue())
@@ -816,16 +820,17 @@ def clear_of_ink(doc, pno, y, limit=16):
     w, h, stride, s = page_ink(doc, pno)
     k = 100 / 72
     x0, x1 = int(COL_X0 * k), int(right_edge(doc) * k) - 2
+    xm = min(x1, int(MARKS_X * k))              # the marks ('(3)') sit right of this: never a reason to climb
 
     def spread(r):                              # how far the row's ink reaches across the column, 0 to 1
-        row = s[r * stride + x0: r * stride + x1]
+        row = s[r * stride + x0: r * stride + xm]
         ink = [i for i, v in enumerate(row) if v < 140]
-        return (ink[-1] - ink[0]) / max(1, x1 - x0) if ink else 0.0
+        return (ink[-1] - ink[0]) / max(1, xm - x0) if ink else 0.0
 
     r = int(y * k)
-    if r >= h or spread(r) == 0:
+    if r >= h:
         return y
-    top, rr = r, r
+    top, rr = r, (r if spread(r) > 0 else -1)      # -1: nothing to climb past
     while rr > 0 and r - rr <= 30 * k:
         if spread(rr) == 0:                     # a clear row: a candidate edge
             top = rr
@@ -838,6 +843,24 @@ def clear_of_ink(doc, pno, y, limit=16):
             break
         rr -= 1
     return top / k if top != r else y
+
+
+MARKS_X = 470
+MASKS = {}      # (page, y0, y1) of a band -> [(x0, y0, x1, y1)] to paint white when it is rendered
+
+
+def mark_bottom(doc, pno, y):
+    """If an edge at y cuts through a part's mark ('(3)', right of MARKS_X), where the mark's ink ends."""
+    w, h, stride, s = page_ink(doc, pno)
+    k = 100 / 72
+    xm, x1 = int(MARKS_X * k), int(right_edge(doc) * k) - 2
+    r = int(y * k)
+    if r >= h or not any(v < 140 for v in s[r * stride + xm: r * stride + x1]):
+        return None
+    for rr in range(r + 1, min(h, r + int(14 * k))):
+        if not any(v < 140 for v in s[rr * stride + xm: rr * stride + x1]):
+            return rr / k + 0.5
+    return None
 
 
 def clear_edges(doc, questions):
@@ -858,6 +881,13 @@ def clear_edges(doc, questions):
                 if y0a + 5 < y < y0b:
                     na.bands[ia] = (pa, y0a, y)
                     nb.bands[ib] = (pb, y, y1b)
+                elif (yb := mark_bottom(doc, pb, y0b)) is not None and yb < y1b - 5:
+                    # The upper part's mark shares a row with the top of the next part's first line, so no
+                    # straight cut separates them: the upper crop runs to the mark's bottom with the text side
+                    # below the edge painted out, the lower crop keeps the edge with the marks side painted out.
+                    na.bands[ia] = (pa, y0a, yb)
+                    MASKS[(pa, y0a, yb)] = [(COL_X0, y0b, MARKS_X, yb)]
+                    MASKS[(pb, y0b, y1b)] = MASKS.get((pb, y0b, y1b), []) + [(MARKS_X, y0b, COL_X1 + 5, yb)]
 
 
 # 'Diagram 1', 'Copy of Diagram 1', and a spare 'Copy of Figure 2' (FP2 Jan 2022); a plain 'Figure N' on a later

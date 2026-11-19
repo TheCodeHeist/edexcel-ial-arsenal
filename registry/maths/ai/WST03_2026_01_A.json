@@ -1,0 +1,168 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "85daa9e6cf76",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S3.5.1"
+    ],
+    "1(b)": [
+     "S3.5.2",
+     "S3.5.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "Shared opening (stem): last line \"The mean of a random sample of size n is denoted by X-bar\" is clipped at the bottom, and a sliver of that line shows again just above the 2(a) question text."
+   ],
+   "fingerprint": "4c74aa854c4b",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "S3.3.1",
+     "S2.3.1"
+    ],
+    "2(b)": [
+     "S3.3.1"
+    ],
+    "2(c)": [
+     "S3.3.1",
+     "S2.3.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "811f69f127cd",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "short"
+   },
+   "topics": {
+    "3(a)": [
+     "S3.4.1",
+     "S3.4.2"
+    ],
+    "3(b)": [
+     "S3.4.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "06e8c76550a8",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "S3.3.4"
+    ],
+    "4(b)": [
+     "S3.3.3",
+     "S2.1.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a): mark scheme crop also contains the examiners notes rows for (a) (M1/A1 notes) at its bottom, and the question has no examiners NOTES bar for (a): the notes for (a) are in the 5(a) crop while only (b) notes appear in the final NOTES section."
+   ],
+   "fingerprint": "29fb78faf3e8",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S2.1.1",
+     "S3.4.1"
+    ],
+    "5(b)": [
+     "S3.4.1",
+     "S3.4.2",
+     "S2.1.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "a8335ad5e887",
+   "kinds": {
+    "6(a)": "short",
+    "6(b)": "short",
+    "6(c)": "calc",
+    "6(d)": "short",
+    "6(e)": "short",
+    "6(f)": "short",
+    "6(g)": "short"
+   },
+   "topics": {
+    "6(a)": [
+     "S3.2.2"
+    ],
+    "6(b)": [
+     "S3.2.2"
+    ],
+    "6(c)": [
+     "S3.3.7",
+     "S3.3.6"
+    ],
+    "6(d)": [
+     "S3.3.6"
+    ],
+    "6(e)": [
+     "S3.3.7"
+    ],
+    "6(f)": [
+     "S3.3.7"
+    ],
+    "6(g)": [
+     "S3.3.7"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(i): the part is really 7(i)(a) (only part (a) text, 4 marks) but its mark scheme crop also includes the 7(i)(b) rows (E(A-B), 0.0655 answer), which repeat in the 7(i)(b) mark scheme.",
+    "7(i): label is 7(i) rather than 7(i)(a), and 7(i)(b) question crop shows only (b) without the shared set-up (A,B,C distributions) which sits in the 7(i) crop."
+   ],
+   "fingerprint": "3412ccfdf41d",
+   "kinds": {
+    "7(i)": "calc",
+    "7(i)(b)": "calc",
+    "7(ii)": "calc"
+   },
+   "topics": {
+    "7(i)": [
+     "S3.1.1"
+    ],
+    "7(i)(b)": [
+     "S3.1.1"
+    ],
+    "7(ii)": [
+     "S3.1.1",
+     "S1.6.1"
+    ]
+   }
+  }
+ }
+}

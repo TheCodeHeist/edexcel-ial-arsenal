@@ -1,0 +1,159 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "f970caf1bd62",
+   "kinds": {
+    "1": "calc"
+   },
+   "topics": {
+    "1": [
+     "M2.4.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2(ii): the question's examiners' NOTES section is wrong: after the SC1/SC2 special cases (which belong here) it runs on for ~8000px with the mark schemes of questions 3,4,5,6,7,8 (hill/ladder statics, centre of mass, variable acceleration, work-energy, collisions, projectile) — notes belong to other questions and should be cut after the [9] row",
+    "2(ii): the question has parts (i) and (ii) but only 2(ii) is a recorded part; part (i) 'find P' is only in the stem text and the mark scheme rows (9 marks, covering both parts) are all attached to 2(ii), so (ii) shows 9 marks and the (i) crop/rows were not split out"
+   ],
+   "fingerprint": "87cf9217c154",
+   "kinds": {
+    "2(ii)": "calc"
+   },
+   "topics": {
+    "2(ii)": [
+     "M2.3.1",
+     "M1.4.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3: no mark-scheme rows and no examiners' notes at all in the image (question crop only, 9 marks); the Q3 mark scheme (ladder/rod in limiting equilibrium, tan theta) was instead pulled into the end of question 2's notes"
+   ],
+   "fingerprint": "2e6afec89c78",
+   "kinds": {
+    "3": "calc"
+   },
+   "topics": {
+    "3": [
+     "M2.5.2",
+     "M1.5.3",
+     "M2.5.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): no mark-scheme rows for 4(a) in the image (question crop only)",
+    "4(b): no mark-scheme rows for 4(b) and no examiners' notes; the Q4 mark scheme (4a, 4b, 4b alt) sits at the end of question 2's notes"
+   ],
+   "fingerprint": "08720d19fb84",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "M2.2.2"
+    ],
+    "4(b)": [
+     "M2.2.3",
+     "M2.2.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a): no mark-scheme rows in the image (question crops only)",
+    "5(b): no mark-scheme rows and no examiners' notes; the Q5 mark scheme (5a, 5b) sits at the end of question 2's notes"
+   ],
+   "fingerprint": "e6268cc92eb2",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "M2.1.4"
+    ],
+    "5(b)": [
+     "M2.1.4"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(a): no mark-scheme rows in the image (question crops only)",
+    "6(b): no mark-scheme rows and no examiners' notes; the Q6 mark scheme (6a, 6b with the NB note and alternative method) sits at the end of question 2's notes"
+   ],
+   "fingerprint": "8dc0b0d05670",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "M2.3.1",
+     "M1.4.4"
+    ],
+    "6(b)": [
+     "M2.3.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): no mark-scheme rows in the image (question crops only)",
+    "7(b): no mark-scheme rows and no examiners' notes; the Q7 mark scheme (7a, 7b) sits at the end of question 2's notes"
+   ],
+   "fingerprint": "de30066e101c",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "M2.4.2",
+     "M2.3.1"
+    ],
+    "7(b)": [
+     "M2.4.3",
+     "M2.4.2"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [
+    "8(a): no mark-scheme rows in the image (question crops only)",
+    "8(c): no mark-scheme rows and no examiners' notes for 8(b)/8(c) either; the Q8 mark scheme (8a, 8b, 8c, 8c alt) sits at the end of question 2's notes"
+   ],
+   "fingerprint": "6e3136078533",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "M2.1.2"
+    ],
+    "8(b)": [
+     "M2.1.2"
+    ],
+    "8(c)": [
+     "M2.1.2"
+    ]
+   }
+  }
+ }
+}

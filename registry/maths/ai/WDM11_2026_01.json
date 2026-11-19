@@ -1,0 +1,197 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(a): mark scheme strip runs on into the binary search table for (b) (B, C, D, G, H, P rows with M1 A1 A1ft marks) which is cut through at the bottom; that belongs to 1(b).",
+    "1(b): mark scheme strip starts cut through the binary search table (R, S, T, V, W rows only, top rows and M1 A1 A1ft marks in the (a) strip) so only A1 of its 4 marks is visible in its own strip."
+   ],
+   "fingerprint": "526691aa7e17",
+   "kinds": {
+    "1(a)": "short",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "D1.1.1"
+    ],
+    "1(b)": [
+     "D1.1.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "2: the crop is clipped at the left edge: the mark scheme label \"2.(a)\" shows as \".(a)\" and the notes labels (a1M1, a2A1 etc.) are cut (\"a1M1\" shows partly, \"a3A1ft\", \"a4A1\"); minor."
+   ],
+   "fingerprint": "064399dcc8b9",
+   "kinds": {
+    "2": "calc"
+   },
+   "topics": {
+    "2": [
+     "D1.2.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(i): the first part is labelled \"3(i)\" (should be 3(i)(a)); its mark scheme strip contains the whole (i) mark scheme ((a), (b) and (c) rows) and the (i)(b) and (i)(c) strips repeat it, so the same mark scheme (B1, M1 A1 A1, B1) is shown three times; (c) strip is cut through (CD reject row sliced, A1 mark cut).",
+    "3(ii): the mark scheme strip contains both (ii)(a) and (ii)(b) rows, and the (ii)(b) strip repeats the same rows, so (ii)(a) shows 13 marks against 5 and the mark scheme is duplicated.",
+    "3(i)/3(ii): the crop is clipped at the left edge: labels are truncated (\"i)(a)\", \"(ii)(a)\" shown as \"(ii)(a)\" partly and notes labels like \"i)aB1\", \"ii)aM1\" cut); minor."
+   ],
+   "fingerprint": "0a551cdd0043",
+   "kinds": {
+    "3(i)": "short",
+    "3(i)(b)": "calc",
+    "3(i)(c)": "short",
+    "3(ii)": "calc",
+    "3(ii)(b)": "calc"
+   },
+   "topics": {
+    "3(i)": [
+     "D1.2.1"
+    ],
+    "3(i)(b)": [
+     "D1.2.1"
+    ],
+    "3(i)(c)": [
+     "D1.2.1"
+    ],
+    "3(ii)": [
+     "D1.3.1"
+    ],
+    "3(ii)(b)": [
+     "D1.3.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(b): mark scheme strip runs on into the (c) working after the M1 A1 rows (sum > 480, x > 47, Bin 1: 73 61 24, Bin 2: 58 54 x, with an extra M1) which is cut through at the bottom; that working and its M1 belong to 4(c), so (b) shows 3 marks against 2 and (c) is missing its first M1 row."
+   ],
+   "fingerprint": "2700e2ee700a",
+   "kinds": {
+    "4(a)": "short",
+    "4(b)": "calc",
+    "4(c)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "D1.1.2"
+    ],
+    "4(b)": [
+     "D1.1.2"
+    ],
+    "4(c)": [
+     "D1.1.2"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "817d870aa3d7",
+   "kinds": {
+    "5": "calc"
+   },
+   "topics": {
+    "5": [
+     "D1.5.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "74012a4cbfc1",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "short",
+    "6(c)": "calc",
+    "6(d)": "short"
+   },
+   "topics": {
+    "6(a)": [
+     "D1.3.4"
+    ],
+    "6(b)": [
+     "D1.3.4"
+    ],
+    "6(c)": [
+     "D1.3.3",
+     "D1.2.1"
+    ],
+    "6(d)": [
+     "D1.3.3"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): asks to complete the table in the answer book; the blank table is not in the crop.",
+    "7(b): asks to complete the diagram in the answer book (event-time boxes); that diagram is not in the crop (stem shows Figure 3 without boxes).",
+    "7(a)/7(b): the mark scheme early/late times diagram is split: its top (D, I, A, E, M, N events) is in the (a) strip after the B1 rows, cut at the bottom (with the M1 A1 marks), and the (b) strip starts cut through the rest of the diagram (top boxes sliced), so it is never shown whole.",
+    "7(d)/7(e): the model schedule is split: its top rows (A, D, I, M, P with M1 A1) sit in the (d) strip after the lower bound rows, and the (e) strip starts with the lower rows (B G J, C E K N, F H L Q); the grid in the answer book for 7(e) is also not in the crop."
+   ],
+   "fingerprint": "6e2e7670d73a",
+   "kinds": {
+    "7(a)": "draw",
+    "7(b)": "draw",
+    "7(c)": "short",
+    "7(d)": "calc",
+    "7(e)": "draw"
+   },
+   "topics": {
+    "7(a)": [
+     "D1.4.2"
+    ],
+    "7(b)": [
+     "D1.4.3"
+    ],
+    "7(c)": [
+     "D1.4.3"
+    ],
+    "7(d)": [
+     "D1.4.4"
+    ],
+    "7(e)": [
+     "D1.4.4"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [
+    "8(a): asks to complete the graph in the answer book; the blank grid is not in the crop (the stem only has the inequalities).",
+    "8(a): mark scheme strip runs on into the (b) vertex-method table (rows with M1 A1 marks) which is cut through at the bottom; those rows belong to 8(b).",
+    "8(b): mark scheme strip starts cut through the vertex table (a sliver of an A1 at the top, first rows and M1 in the (a) strip), so the vertex table is split across the (a) and (b) strips."
+   ],
+   "fingerprint": "b7b0c0153fa5",
+   "kinds": {
+    "8(a)": "draw",
+    "8(b)": "calc",
+    "8(c)": "calc",
+    "8(d)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "D1.5.2"
+    ],
+    "8(b)": [
+     "D1.5.2"
+    ],
+    "8(c)": [
+     "D1.5.3"
+    ],
+    "8(d)": [
+     "D1.5.2"
+    ]
+   }
+  }
+ }
+}

@@ -111,6 +111,90 @@
      "S1.5.3"
     ]
    }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "feb9dc321bc2",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S1.6.1"
+    ],
+    "5(b)": [
+     "S1.6.1",
+     "S1.3.3"
+    ],
+    "5(c)": [
+     "S1.6.1",
+     "S1.3.4"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(e): the question crop opens with stray page-break text \"Question 6 continues on page 24.\" (twice) above the part; harmless but not part of the question.",
+    "6(c): mark-scheme row crop is trimmed tight at the top (a sliver of the row above/the first line edge visible) though the text is readable."
+   ],
+   "fingerprint": "698ecc8e5b8c",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "short",
+    "6(c)": "short",
+    "6(d)": "short",
+    "6(e)": "calc",
+    "6(f)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S1.4.1"
+    ],
+    "6(b)": [
+     "S1.4.1",
+     "S1.4.2"
+    ],
+    "6(c)": [
+     "S1.4.1"
+    ],
+    "6(d)": [
+     "S1.4.1"
+    ],
+    "6(e)": [
+     "S1.4.1",
+     "P1.1.9"
+    ],
+    "6(f)": [
+     "S1.4.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "9d6b407f856b",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S1.5.2",
+     "S1.3.4"
+    ],
+    "7(b)": [
+     "S1.5.2"
+    ],
+    "7(c)": [
+     "S1.5.2",
+     "S1.3.4"
+    ]
+   }
   }
  }
 }

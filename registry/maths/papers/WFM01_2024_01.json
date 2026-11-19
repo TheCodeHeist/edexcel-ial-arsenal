@@ -1142,7 +1142,7 @@
      "kind": "calc",
      "topics": [
       "FP1.4.4",
-      "FP1.4.1"
+      "FP1.4.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1182,7 +1182,7 @@
      "kind": "calc",
      "topics": [
       "FP1.4.4",
-      "FP1.4.1"
+      "FP1.4.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1508,7 +1508,8 @@
      "marks": 5,
      "kind": "calc",
      "topics": [
-      "FP1.8.1"
+      "FP1.8.1",
+      "FP1.5.3"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1608,7 +1609,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

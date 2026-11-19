@@ -19,17 +19,16 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [
-    "10(ii): includes stray footer/watermark text from the end of the paper (First released on AP - Edexcel Discord)"
-   ],
-   "fingerprint": "05117f75f03c",
+   "concerns": [],
+   "fingerprint": "56ef49b049ae",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
    },
    "topics": {
     "10(i)": [
-     "FP1.8.1"
+     "FP1.8.1",
+     "FP1.5.3"
     ],
     "10(ii)": [
      "FP1.8.1"
@@ -157,9 +156,9 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [
-    "7(a): the numerator 4 in the stem equation y^2 = 4/3 x is cut off at the top edge of the stem crop"
+    "7(b): the examiners NOTES block is cut off at the bottom edge: the notes for the final mark (A1: correct coordinates) are missing"
    ],
-   "fingerprint": "294a33d5ef7f",
+   "fingerprint": "e9ea57bcef1e",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -167,11 +166,11 @@
    "topics": {
     "7(a)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ],
     "7(b)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ]
    }
   },

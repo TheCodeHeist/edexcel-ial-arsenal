@@ -152,8 +152,10 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "769db300b343",
+   "concerns": [
+    "8: mark-scheme rows are clipped at the right edge (marks column bracket), and the Way 1 block ends with the top of the Way 2 row cut through at the bottom edge; Ways 2-4 sit in the examiners NOTES block, which holds mark-scheme rows rather than notes"
+   ],
+   "fingerprint": "5b3e874d4fd8",
    "kinds": {
     "8": "calc"
    },
@@ -166,7 +168,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "209eca9b6bf1",
+   "fingerprint": "3709c9aa4f8e",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -175,7 +177,7 @@
    "topics": {
     "9(a)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ],
     "9(b)": [
      "FP1.4.4",

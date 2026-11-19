@@ -2,10 +2,8 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [
-    "1: superscript n on the summation symbol is cut off at the top edge of the crop"
-   ],
-   "fingerprint": "9982800d9604",
+   "concerns": [],
+   "fingerprint": "13326a22c598",
    "kinds": {
     "1": "calc"
    },
@@ -59,10 +57,8 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [
-    "4(i): the top brackets of matrix A are cut off at the top edge of the crop"
-   ],
-   "fingerprint": "bb81a11178ab",
+   "concerns": [],
+   "fingerprint": "fcbe425534a8",
    "kinds": {
     "4(i)": "calc",
     "4(ii)": "calc"
@@ -173,8 +169,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8553dfc16304",
+   "concerns": [
+    "9: the mark-scheme rows end with the top of the \"Way 2\" row cut through at the bottom edge; Way 2 continues in the examiners NOTES block (which holds mark-scheme rows, not notes)"
+   ],
+   "fingerprint": "15288955ae9f",
    "kinds": {
     "9": "calc"
    },
