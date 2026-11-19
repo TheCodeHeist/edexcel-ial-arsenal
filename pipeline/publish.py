@@ -39,7 +39,8 @@ def publish(paper_id):
     files = sorted(src.glob("*.webp"))
     # Every crop the registry names must exist, or the site would show broken images.
     named = {Path(c["src"]).name for q in json.loads(registry.read_text())["questions"]
-             for c in q["stem"] + [c for p in q["parts"] for c in p.get("intro", []) + p["qp"] + p["ms"]]}
+             for c in q["stem"] + q.get("msNotes", [])            # Maths: the mark scheme's notes for examiners
+             + [c for p in q["parts"] for c in p.get("intro", []) + p["qp"] + p["ms"]]}
     missing = named - {f.name for f in files}
     if missing:
         print(f"{paper_id}: {len(missing)} crops named in the registry aren't rendered, e.g. {sorted(missing)[0]}")
