@@ -1,0 +1,61 @@
+---
+/* Mock paper: pick a unit, a length and (optionally) topics; get whole past-paper questions in Pearson's order,
+   a timer, and the mark schemes at the end. The picking happens in the browser (MockPaper.svelte) from the
+   unit's pool, /papers/<subject>/mock/<unit>.json. */
+import Base from '../../../../layouts/Base.astro';
+import '../../../../styles/papers.css';
+import MockPaper from '../../../../components/papers/MockPaper.svelte';
+import { PAPER_SUBJECTS, type PaperSubject } from '../../../../data/paperSubjects';
+import { topicList } from '../../../../lib/papers/registry';
+import { pool } from '../../../../lib/papers/mockPool';
+
+export function getStaticPaths() {
+  return PAPER_SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
+}
+const { s } = Astro.props as { s: PaperSubject };
+const list = topicList(s.id);
+
+const units = s.units.map((u) => ({ u, p: pool(s.id, u.code) })).filter((x) => x.p.questions.length > 0).map(({ u, p }) => {
+  // the spec points this unit's questions test, in spec order, grouped under their headings
+  const present = new Map<string, number>();
+  for (const q of p.questions) for (const t of new Set(q.parts.flatMap((x) => x.topics))) present.set(t, (present.get(t) ?? 0) + 1);
+  const groups = (list?.units ?? []).flatMap((tu) => tu.groups.map((g) => ({
+    title: `${g.id} ${g.title}`, unit: tu.code,
+    points: g.points.filter((pt) => present.has(pt.id)).map((pt) => ({ id: pt.id, short: pt.short, text: pt.text, n: present.get(pt.id)! })),
+  }))).filter((g) => g.points.length > 0)
+    .sort((a, b) => Number(b.unit === u.code) - Number(a.unit === u.code));   // its own unit first, then synoptic ones
+  return { code: u.code, badge: u.badge, title: u.title, questions: p.questions.length, paperMarks: p.paperMarks,
+           minutesPerMark: p.minutesPerMark, mcqShare: p.mcqShare, groups };
+});
+---
+<Base
+  title={`${s.name} mock paper`}
+  description={`Make an Edexcel IAL ${s.name} mock paper from real past-paper questions, by unit and topic, with a timer and mark schemes.`}
+  tab="papers"
+  status={{ label: `${s.name} mock paper`, hint: units.length ? 'Pick a unit and a length; questions come from every checked past paper.' : 'Mocks are on the way.' }}
+  stats={[{ label: 'Units', value: units.length }, { label: 'Questions', value: units.reduce((n, u) => n + u.questions, 0) }]}
+>
+  <section style={`--hue:var(${s.hue})`}>
+    <div class="section-h">
+      <div>
+        <h2><span class="d">M</span>ock paper</h2>
+        <p>Real past-paper questions, picked to the length you want, in the order Pearson prints them.</p>
+      </div>
+      <div class="ctas"><a class="btn" href={`/papers/${s.id}/`}>Papers by year</a><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a></div>
+    </div>
+    {units.length === 0 ? (
+      <div class="panel empty-state rise">
+        <h3>No {s.name} mocks yet</h3>
+        <p>Mocks can be made once {s.name} papers have been split into questions and checked.</p>
+      </div>
+    ) : (
+      <MockPaper client:load subject={s.id} subjectName={s.name} units={units} />
+    )}
+    <p class="credit-note panel mock-credit">
+      The questions and mark schemes are © Pearson Education Ltd, shared for free by{' '}
+      <a href="https://www.paperlords.org/ial">PaperLords</a> and{' '}
+      <a href="https://www.physicsandmathstutor.com/">Physics &amp; Maths Tutor</a>. Each question's paper is named
+      with its mark scheme.
+    </p>
+  </section>
+</Base>

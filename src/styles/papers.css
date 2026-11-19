@@ -90,3 +90,11 @@ img.crop{display:block;max-width:100%;height:auto;border-radius:4px;background:#
   font:700 12px/1 var(--f-mono);color:var(--solid,#fff);background:var(--amph)}
 .paper-link .bang{width:15px;height:15px;font-size:10.5px;margin-left:5px;vertical-align:1px}
 .paper-head .paper-note{margin:12px 0}
+
+/* printing a paper or a mock: just the questions */
+@media print {
+  .top, .statusbar, .foot, .aurora, .skip, .paper-nav, .ctas, .section-h .btn, .credit-note { display: none !important; }
+  body { background: #fff !important; }
+  .qcard { break-inside: avoid-page; box-shadow: none !important; border: 1px solid #ccc; }
+  img.crop { filter: none !important; }
+}

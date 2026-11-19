@@ -46,6 +46,7 @@ const totalQuestions = subjects.reduce((n, x) => n + x.questions, 0);
               <div class="ctas">
                 <a class="btn primary" href={`/papers/${s.id}/`}>Papers by year</a>
                 {topics > 0 && <a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>}
+                <a class="btn" href={`/papers/${s.id}/mock/`}>Mock paper</a>
               </div>
             </>
           ) : (

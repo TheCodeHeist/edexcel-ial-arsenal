@@ -32,7 +32,7 @@ function grid(unit: string) {
         <h2><span class="d">P</span>ast papers</h2>
         <p>Every {s.name} paper since the current specification began, split into questions with their mark schemes.</p>
       </div>
-      <div class="ctas"><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>{s.tools && <a class="btn" href={`/${s.id}/`}>{s.name} tools</a>}<a class="btn" href="/papers/">All subjects</a></div>
+      <div class="ctas"><a class="btn primary" href={`/papers/${s.id}/mock/`}>Mock paper</a><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>{s.tools && <a class="btn" href={`/${s.id}/`}>{s.name} tools</a>}<a class="btn" href="/papers/">All subjects</a></div>
     </div>
 
     <p class="credit-note panel">
