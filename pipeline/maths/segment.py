@@ -303,7 +303,17 @@ def outline(lines, items):
         mm = MARK.match(l.text)
         if mm and l.bold and l.x0 > 470:
             marks = int(mm[1])
-            if pending:
+            # a parent opened with its first sub-part ('(i)' and its set-up, then '(a) …' and the mark): the
+            # block is that sub-part, the parent's text its intro. Longer runs only when they share a line.
+            chain = len(pending) > 1 and all(b[0][:len(a[0])] == a[0] and len(b[0]) > len(a[0])
+                                             and (len(pending) == 2 or a[1] is b[1])
+                                             for a, b in zip(pending, pending[1:])) \
+                and pending[-1][0][-1] in ("a", "i")      # a first sub-part ('(ii)' alone means an inline '(i)')
+            if chain:
+                # '(i) (a) …' then the mark: (i) opened with its first sub-part, so the block is (i)(a) (FP1 Jan
+                # 2025 Q7 read it as (i), and (i)'s rows took (a)'s, (b)'s and (c)'s)
+                bpath = pending[-1][0]
+            elif pending:
                 shared = list(pending[0][0])
                 for p, _ in pending[1:]:
                     n = 0
