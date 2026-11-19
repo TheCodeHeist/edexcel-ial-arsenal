@@ -3,7 +3,7 @@
      Setup → the paper (timer, questions as printed, no sources or topics to give hints) → marking (each
      question's source and mark scheme, a box for the marks you gave yourself, the total). The link holds the
      options and seed, so it reopens or shares the same mock. */
-  import { onMount } from 'svelte';
+  import { onMount, untrack } from 'svelte';
   import Seg from '../ui/Seg.svelte';
   import { CROPS_BASE } from '../../lib/papers/crops';
   import { pick, newSeed, toQuery, fromQuery, type MockPool, type MockQuestion, type MockCrop } from '../../lib/papers/mock';
@@ -15,7 +15,7 @@
   let { subject, subjectName, units }: { subject: string; subjectName: string; units: Unit[] } = $props();
 
   // ---- options
-  let unitCode = $state(units[0].code);
+  let unitCode = $state(untrack(() => units[0].code));   // the first unit to start with; the list itself never changes
   let length = $state<'quick' | 'half' | 'full'>('half');
   let mcq = $state(true);
   let chosen = $state<string[]>([]);
@@ -144,7 +144,7 @@
       const progress = (d: number, a: number) => (pdfBusy = `${label} ${d}/${a}`);
       const bytes = which === 'paper' ? await m.questionPaper(questions, meta, progress) : await m.markScheme(questions, meta, progress);
       const a = document.createElement('a');
-      a.href = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+      a.href = URL.createObjectURL(new Blob([new Uint8Array(bytes)], { type: 'application/pdf' }));
       a.download = `${u.code}-mock-${seed}${which === 'ms' ? '-mark-scheme' : ''}.pdf`;
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 30000);
