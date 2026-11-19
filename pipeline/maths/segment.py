@@ -332,7 +332,9 @@ MS_NUM_LEAD = re.compile(r"^(\d{1,2})\s*\.\s+(?=\S)")
 # just like part totals and boldness differs by unit, so they count only when the number is the question's
 # total as printed on the question paper.
 # Also '7 marks', '[7 marks]', '(7marks)', '7 Marks' in other series.
-MS_TOTAL = re.compile(r"^(?:[(\[]?(?:Total\s+)?(\d{1,2})\s*marks?[)\]]?|Total\s+(\d{1,2})(?:\s+marks?)?|[(\[](\d{1,2})[)\]])$",
+# Also '[Total 14]' (S2 2023), and the total run on after the last row's mark codes, 'A1A1 (8)' (FP2 2022).
+MS_TOTAL = re.compile(r"^(?:[(\[]?(?:Total\s+)?(\d{1,2})\s*marks?[)\]]?|[(\[]?Total\s+(\d{1,2})(?:\s+marks?)?[)\]]?"
+                      r"|(?:(?:d{0,2}[MABE]\d\*?\s*)+)?[(\[](\d{1,2})[)\]])$",
                       re.I)
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 
@@ -383,9 +385,31 @@ def label_x(lines):
     return (best - 10, best + 40)
 
 
+def join_totals(lines):
+    """Question totals that don't sit on one line of their own: '(10' over 'marks)' wrapped in a narrow Marks
+    column (P4 Oct 2025), and a part's total then the question's on one line, '[1] [11]' (M2 Jan 2021: only the
+    last one is the question's)."""
+    out, used = [], set()
+    for i, l in enumerate(lines):
+        if i in used:
+            continue
+        if re.fullmatch(r"[(\[]?\d{1,2}", l.text):
+            for j in range(i + 1, min(i + 8, len(lines))):
+                m = lines[j]
+                if (m.page == l.page and 0 < m.y0 - l.y0 < 24 and abs(m.x1 - l.x1) < 40
+                        and re.fullmatch(r"marks?[)\]]?", m.text, re.I)):
+                    l = Line(l.page, min(l.x0, m.x0), l.y0, max(l.x1, m.x1), m.y1, f"{l.text} {m.text}", l.bold or m.bold)
+                    used.add(j)
+                    break
+        elif two := re.fullmatch(r"[(\[]\d{1,2}[)\]]\s+([(\[]\d{1,2}[)\]])", l.text):
+            l = Line(l.page, l.x0, l.y0, l.x1, l.y1, two[1], l.bold)
+        out.append(l)
+    return out
+
+
 def ms_split(ms_doc, questions):
     """Mark-scheme segments, one per label in the 'Question Number' column, and each question's notes."""
-    lines = read_lines(ms_doc, skip_cover=False, top=20)
+    lines = join_totals(read_lines(ms_doc, skip_cover=False, top=20))
     items = content_items(ms_doc, lines)
     columns = label_columns(ms_doc)
     fallback = label_x(lines)
