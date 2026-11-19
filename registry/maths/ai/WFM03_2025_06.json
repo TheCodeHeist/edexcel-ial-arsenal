@@ -180,8 +180,11 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "5e2ae60c43d9",
+   "concerns": [
+    "9(e): in the mark-scheme rows the \"final M1A1\" row is cut through - the line \"Foci are at (+-ae,0) = ...\" is printed twice, the top half of the second copy is sliced off with clipped fragments (\"(…)\", tops of the root and the mark letters) showing across the row; the mark labels there are unreadable, and the marks shown (B1 B1 M1 M1 M1 A1 A1*) look like more than the part's 5 marks",
+    "9: the examiners NOTES block is clipped at the right edge (e.g. \"with a\" cut, \"Can award if seen\" cut, the radius expression \"64sin^2 theta + 49...\" cut) and the mark-scheme Total row is cut (\"Total 12\"); also the sqrt113 numerator in the 9(a) question crop touches the top edge of the crop and the 9(a) mark scheme has a clipped fragment of a header word at its top edge"
+   ],
+   "fingerprint": "010ce92ea155",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

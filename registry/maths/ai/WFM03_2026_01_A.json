@@ -2,8 +2,10 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "001642a2c3fb",
+   "concerns": [
+    "1: the main mark scheme is cut through at the bottom edge of the purple MARK SCHEME rows block - the final A1A1 row's last line (\"processed exact answers. Condone missing brackets.\") is sliced, with half a line of the same text repeated under the NOTES caption, and the mark-scheme Total row is cut (\"Total\"); the alternative-by-exponentials mark scheme (M1 A1 M1 A1 M1 A1 A1 = 7) sits under the examiners NOTES caption instead of with the mark-scheme rows, and no actual examiners notes are shown"
+   ],
+   "fingerprint": "a60a897cee17",
    "kinds": {
     "1": "calc"
    },
@@ -75,15 +77,19 @@
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "24949d02d558",
+   "concerns": [
+    "5(b): the mark-scheme row for dddM1 A1 is cut through near its end - the A1 note line (\"e.g. 2z-10y+22x-8=0 A0 if given in e.g. x,y,z or a,b,c etc\") is sliced across its top half and the row carries on into overprinted matrix fragments before the purple block ends, so that line is not legible",
+    "5: the examiners NOTES block is cut off at the bottom edge - the final line (\"But note that this approach needs a point on Pi1 ... (which just ...\") is sliced mid-sentence"
+   ],
+   "fingerprint": "2a92db89e6f2",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
    },
    "topics": {
     "5(a)": [
-     "FP3.6.5"
+     "FP3.6.5",
+     "FP3.6.4"
     ],
     "5(b)": [
      "FP3.6.6",
