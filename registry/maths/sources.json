@@ -2625,7 +2625,7 @@
         "via": "paperlords",
         "sha256": "b03ce7c6b0dab9967085fe501072f5571799ffe22fe482f48cf03b4f7f1a471c",
         "check": {
-          "status": "ok",
+          "status": "wrong content",
           "cover": {
             "kind": "ms",
             "code": "WFM03",
@@ -2633,7 +2633,8 @@
             "series": "2026-06"
           },
           "sha256": "b03ce7c6b0dab9967085fe501072f5571799ffe22fe482f48cf03b4f7f1a471c"
-        }
+        },
+        "note": "PaperLords' file has the FP3/01A cover but the main June 2026 FP3 paper's mark scheme inside (its Q1 is matrices; the A paper's Q1 is a hyperbola). No mark scheme for the A paper is available, so none is shown (found by the AI reader)."
       }
     },
     {

@@ -1062,8 +1062,15 @@ def main():
     print(f"\n{len(questions)} questions, {total} marks")
 
     ms_doc = open_pdf(PDF / f"{paper_id}_ms.pdf")
-    rows, notes, ms_problems, ms_lines, ms_items = ms_split(ms_doc, questions)
-    matched, pair_problems = pair(questions, rows)
+    entry = next((p for p in json.loads(units.SOURCES.read_text())["papers"] if p["id"] == paper_id), {})
+    if entry.get("ms", {}).get("check", {}).get("status", "ok") != "ok":
+        # a mark scheme known to be the wrong one (registry/maths/sources.json notes why): show none, and hold
+        # every question for a person (the paper's note for students says so)
+        rows, notes, ms_lines, ms_items, matched, pair_problems = [], {}, [], [], {}, []
+        ms_problems = [f"Q{q.number}: no usable mark scheme for this paper" for q in questions]
+    else:
+        rows, notes, ms_problems, ms_lines, ms_items = ms_split(ms_doc, questions)
+        matched, pair_problems = pair(questions, rows)
     print(f"mark scheme: {len(rows)} labelled rows, notes for {len(notes)} questions")
     for p in problems + ms_problems + pair_problems:
         print("  !! " + p)
