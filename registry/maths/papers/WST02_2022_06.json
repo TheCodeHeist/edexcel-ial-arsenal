@@ -1,0 +1,1178 @@
+{
+ "id": "WST02_2022_06",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2022-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2022_06_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q1_stem.webp",
+     "w": 1090,
+     "h": 105,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 107.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 114.0,
+        "x1": 559,
+        "y1": 149.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 98.3
+       }
+      }
+     ],
+     "text": "(a) Write down the value of the variance of W (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q1_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 152.0,
+        "x1": 559,
+        "y1": 201.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 98.3,
+        "x1": 560,
+        "y1": 160.4
+       }
+      }
+     ],
+     "text": "(b) Determine the mode of X Show your working clearly. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q1_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 204.0,
+        "x1": 559,
+        "y1": 263.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 160.4,
+        "x1": 560,
+        "y1": 254.5
+       }
+      }
+     ],
+     "text": "One observation from each distribution is recorded as W1 and X1 respectively. (c) Find P(W1 = 2 and X1 = 2) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q1_d.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 265.9,
+        "x1": 559,
+        "y1": 301.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 219,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 254.5,
+        "x1": 560,
+        "y1": 359.4
+       }
+      }
+     ],
+     "text": "(d) Find P(X1 < W1) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q1_notes.webp",
+     "w": 1092,
+     "h": 675,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 356.4,
+      "x1": 560,
+      "y1": 680.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_06_q2",
+   "number": 2,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q2_stem.webp",
+     "w": 1090,
+     "h": 209,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 156.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 167.0,
+        "x1": 559,
+        "y1": 202.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 60.5,
+        "x1": 560,
+        "y1": 190.9
+       }
+      }
+     ],
+     "text": "(a) Use algebraic integration to find, in minutes and seconds, the mean waiting time. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q2_b.webp",
+       "w": 1090,
+       "h": 102,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 207.9,
+        "x1": 559,
+        "y1": 256.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 276,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 190.9,
+        "x1": 560,
+        "y1": 322.8
+       }
+      }
+     ],
+     "text": "(b) Show that P(1 < T < 3) = 7 16 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q2_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 259.0,
+        "x1": 559,
+        "y1": 332.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 322.8,
+        "x1": 560,
+        "y1": 439.8
+       }
+      }
+     ],
+     "text": "A supervisor randomly selects 256 calls to the call centre. (c) Use a suitable approximation to find the probability that more than 125 of these calls take between 1 and 3 minutes to be answered. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q2_notes.webp",
+     "w": 1092,
+     "h": 736,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 436.8,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_06_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q3_stem.webp",
+     "w": 1090,
+     "h": 204,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 154.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 157.2,
+        "x1": 559,
+        "y1": 192.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 60.5,
+        "x1": 560,
+        "y1": 106.4
+       }
+      }
+     ],
+     "text": "(a) Find the exact probability that the point is plotted to the right of the origin. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q3_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 195.1,
+        "x1": 559,
+        "y1": 244.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 102,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 106.4,
+        "x1": 560,
+        "y1": 154.6
+       }
+      }
+     ],
+     "text": "(b) Find the exact probability that the point is plotted more than 3.5 cm away from the origin. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q3_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 247.1,
+        "x1": 559,
+        "y1": 282.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 228,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 154.6,
+        "x1": 560,
+        "y1": 263.6
+       }
+      }
+     ],
+     "text": "(c) Sketch the cumulative distribution function of R (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q3_d.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 285.1,
+        "x1": 559,
+        "y1": 368.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q3_d_ms_1.webp",
+       "w": 1092,
+       "h": 187,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 263.6,
+        "x1": 560,
+        "y1": 353.0
+       }
+      },
+      {
+       "src": "maths/WST02_2022_06/q3_d_ms_2.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 353.0,
+        "x1": 560,
+        "y1": 423.7
+       }
+      }
+     ],
+     "text": "Three independent points with x coordinates R1 , R2 and R3 are plotted on the x-axis. (d) Find the exact probability that (i) all three points are more than 10 cm from the origin (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q3_d_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 371.0,
+        "x1": 559,
+        "y1": 406.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q3_d_ii_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 353.0,
+        "x1": 560,
+        "y1": 423.7
+       }
+      }
+     ],
+     "text": "(ii) the point furthest from the origin is more than 10 cm from the origin. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q3_notes.webp",
+     "w": 1092,
+     "h": 760,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 420.7,
+      "x1": 560,
+      "y1": 785.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_06_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q4_stem.webp",
+     "w": 1090,
+     "h": 154,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 130.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 559,
+        "y1": 182.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 220,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 60.5,
+        "x1": 560,
+        "y1": 166.0
+       }
+      }
+     ],
+     "text": "(a) Find the smallest value of n such that Y = 0 lies in the critical region for this test at a 5% level of significance. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q4_b.webp",
+       "w": 1090,
+       "h": 242,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 185.1,
+        "x1": 559,
+        "y1": 300.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 413,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 166.0,
+        "x1": 560,
+        "y1": 363.7
+       }
+      }
+     ],
+     "text": "In the past, 8% of the pears grown by the farmer weigh more than 180 g. This season the farmer believes the proportion of pears weighing more than 180 g has changed. She takes a random sample of 75 pears and finds that 11 of them weigh more than 180 g. (b) Test, using a suitable approximation, whether there is evidence of a change in the proportion of pears weighing more than 180 g. You should use a 5% level of significance and state your hypotheses clearly. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q4_notes.webp",
+     "w": 1092,
+     "h": 881,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 360.7,
+      "x1": 560,
+      "y1": 783.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_06_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q5_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q5_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 202.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 45,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 73.1,
+        "x1": 560,
+        "y1": 94.3
+       }
+      },
+      {
+       "src": "maths/WST02_2022_06/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 85,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 94.3,
+        "x1": 560,
+        "y1": 134.8
+       }
+      },
+      {
+       "src": "maths/WST02_2022_06/q5_a_ms_3.webp",
+       "w": 1092,
+       "h": 137,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 134.8,
+        "x1": 560,
+        "y1": 199.7
+       }
+      }
+     ],
+     "text": "(a) Find the probability that (i) exactly 10 particles are found, (ii) between 6 and 11 particles (inclusive) are found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q5_b.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 205.1,
+        "x1": 559,
+        "y1": 288.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 461,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 199.7,
+        "x1": 560,
+        "y1": 420.7
+       }
+      }
+     ],
+     "text": "Petra takes 12 independent samples of m millilitres of the solution. The probability that at least 2 of these samples contain no particles is 0.1184 (b) Using the Statistical Tables provided, find the value of m (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q5_notes.webp",
+     "w": 1092,
+     "h": 461,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 417.7,
+      "x1": 560,
+      "y1": 638.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_06_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q6_stem.webp",
+     "w": 1090,
+     "h": 374,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 235.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 239.0,
+        "x1": 559,
+        "y1": 274.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 242,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 73.1,
+        "x1": 560,
+        "y1": 188.9
+       }
+      }
+     ],
+     "text": "(a) Find the exact value of k (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q6_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 276.9,
+        "x1": 559,
+        "y1": 336.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 188.9,
+        "x1": 560,
+        "y1": 223.4
+       }
+      },
+      {
+       "src": "maths/WST02_2022_06/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 223.4,
+        "x1": 560,
+        "y1": 267.2
+       }
+      }
+     ],
+     "text": "(b) (i) Find the exact value of a (ii) Find the exact value of P(0  X  5.5) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q6_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 338.9,
+        "x1": 559,
+        "y1": 374.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 384,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 267.2,
+        "x1": 560,
+        "y1": 451.0
+       }
+      }
+     ],
+     "text": "(c) Specify fully the cumulative distribution function of X (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q6_notes.webp",
+     "w": 1092,
+     "h": 713,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 448.0,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_06_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_06/q7_stem.webp",
+     "w": 1090,
+     "h": 362,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 230.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q7_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 233.1,
+        "x1": 559,
+        "y1": 292.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q7_a_ms_1.webp",
+       "w": 1092,
+       "h": 171,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 60.5,
+        "x1": 560,
+        "y1": 142.5
+       }
+      },
+      {
+       "src": "maths/WST02_2022_06/q7_a_ms_2.webp",
+       "w": 1092,
+       "h": 50,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 142.5,
+        "x1": 560,
+        "y1": 165.8
+       }
+      },
+      {
+       "src": "maths/WST02_2022_06/q7_a_ms_3.webp",
+       "w": 1092,
+       "h": 65,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 165.8,
+        "x1": 560,
+        "y1": 196.6
+       }
+      }
+     ],
+     "text": "(a) (i) Find the mean of Y (ii) Find the variance of Y (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q7_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 295.1,
+        "x1": 559,
+        "y1": 354.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 196.6,
+        "x1": 560,
+        "y1": 259.7
+       }
+      }
+     ],
+     "text": "A random sample of 3 counters is chosen from the bag (without replacement). (b) List all possible samples where the median of the numbers on the 3 counters is 7 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_06/q7_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 357.0,
+        "x1": 559,
+        "y1": 392.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 251,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 259.7,
+        "x1": 560,
+        "y1": 379.8
+       }
+      }
+     ],
+     "text": "(c) Find the sampling distribution of the median of the numbers on the 3 counters. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 854,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 376.8,
+      "x1": 560,
+      "y1": 786.6
+     }
+    },
+    {
+     "src": "maths/WST02_2022_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 61,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 406.5,
+      "x1": 560,
+      "y1": 435.1
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

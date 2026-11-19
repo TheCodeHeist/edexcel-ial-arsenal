@@ -1,0 +1,1266 @@
+{
+ "id": "WFM01_2021_01",
+ "subject": "maths",
+ "unit": "WFM01",
+ "series": "2021-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_FP1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_FP1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM01_2021_01_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q1_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 107.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 143,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 92.6,
+        "x1": 560,
+        "y1": 160.3
+       }
+      }
+     ],
+     "text": "1. (a) Show that the equation 4x − 2 sin x − 1 = 0, where x is in radians, has a root α in the interval [0.2, 0.6] (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q1_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 113.9,
+        "x1": 523.2,
+        "y1": 163.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 229,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 160.3,
+        "x1": 560,
+        "y1": 269.9
+       }
+      }
+     ],
+     "text": "(b) Starting with the interval [0.2, 0.6], use interval bisection twice to find an interval of width 0.1 in which α lies. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q1_notes.webp",
+     "w": 1092,
+     "h": 442,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 266.9,
+      "x1": 560,
+      "y1": 478.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2021_01_q2",
+   "number": 2,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WFM01_2021_01/q2_stem.webp",
+     "w": 1016,
+     "h": 120,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 71.3,
+      "x1": 523.2,
+      "y1": 128.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q2_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 135.4,
+        "x1": 523.2,
+        "y1": 170.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 33,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 66.5,
+        "x1": 560,
+        "y1": 81.8
+       }
+      },
+      {
+       "src": "maths/WFM01_2021_01/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 100,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 81.8,
+        "x1": 560,
+        "y1": 129.6
+       }
+      }
+     ],
+     "text": "(a) write down the other complex root of the equation. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q2_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 177.4,
+        "x1": 523.2,
+        "y1": 240.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 33,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 66.5,
+        "x1": 560,
+        "y1": 81.8
+       }
+      },
+      {
+       "src": "maths/WFM01_2021_01/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 361,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 129.6,
+        "x1": 560,
+        "y1": 302.3
+       }
+      }
+     ],
+     "text": "Given that x = 4 is also a root of the equation, (b) find the value of p and the value of q. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 987,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 299.3,
+      "x1": 560,
+      "y1": 772.4
+     }
+    },
+    {
+     "src": "maths/WFM01_2021_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1179,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 70.4,
+      "x1": 560,
+      "y1": 635.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM01_2021_01_q3",
+   "number": 3,
+   "marks": 4,
+   "stem": [
+    {
+     "src": "maths/WFM01_2021_01/q3_stem.webp",
+     "w": 1016,
+     "h": 136,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 122.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q3_a.webp",
+       "w": 1016,
+       "h": 71,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 130.9,
+        "x1": 523.2,
+        "y1": 164.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 208,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 93.7,
+        "x1": 560,
+        "y1": 193.0
+       }
+      }
+     ],
+     "text": "(a) Determine the values of k for which M is singular. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q3_b.webp",
+       "w": 1016,
+       "h": 134,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 164.5,
+        "x1": 523.2,
+        "y1": 228.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 117,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 193.0,
+        "x1": 560,
+        "y1": 248.9
+       }
+      }
+     ],
+     "text": "Given that M is non-singular, (b) find M–1 in terms of k. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q3_notes.webp",
+     "w": 1092,
+     "h": 352,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 245.9,
+      "x1": 560,
+      "y1": 414.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2021_01_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM01_2021_01/q4_stem.webp",
+     "w": 1016,
+     "h": 103,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 107.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q4_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 113.6,
+        "x1": 523.2,
+        "y1": 149.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 33,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 60.6,
+        "x1": 560,
+        "y1": 75.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2021_01/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 263,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 75.9,
+        "x1": 560,
+        "y1": 202.0
+       }
+      }
+     ],
+     "text": "(a) determine the exact value of α3 + β3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q4_b.webp",
+       "w": 1016,
+       "h": 176,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 155.8,
+        "x1": 523.2,
+        "y1": 239.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 33,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 60.6,
+        "x1": 560,
+        "y1": 75.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2021_01/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 474,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 202.0,
+        "x1": 560,
+        "y1": 428.8
+       }
+      }
+     ],
+     "text": "(b) form a quadratic equation, with integer coefficients, which has roots α 2 β 2 and β α (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q4_notes.webp",
+     "w": 1092,
+     "h": 535,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 425.8,
+      "x1": 560,
+      "y1": 682.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2021_01_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q5_a.webp",
+       "w": 1016,
+       "h": 256,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 62.9,
+        "x1": 523.2,
+        "y1": 185.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 486,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 75.9,
+        "x1": 560,
+        "y1": 308.8
+       }
+      }
+     ],
+     "text": "n n =∑ =∑ 5. (a) Using the formulae for r and r 2 , show that r 1 r 1 n n n =∑ ( r + 1 )( r + 5 ) = ( + 7 2 )( n + 7 ) 6 r 1 for all positive integers n. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q5_b.webp",
+       "w": 1016,
+       "h": 219,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 187.3,
+        "x1": 523.2,
+        "y1": 292.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 304,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 308.8,
+        "x1": 560,
+        "y1": 454.2
+       }
+      }
+     ],
+     "text": "(b) Hence show that n n n 2 7 = +∑ ( r + 1 )( r + 5 ) = ( + 1 )( an + b ) 6 r n 1 where a and b are integers to be determined. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q5_notes.webp",
+     "w": 1092,
+     "h": 582,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 451.2,
+      "x1": 560,
+      "y1": 730.2
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM01_2021_01_q6",
+   "number": 6,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WFM01_2021_01/q6_stem.webp",
+     "w": 1016,
+     "h": 145,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 126.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 133.7,
+        "x1": 523.2,
+        "y1": 169.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 60.7,
+        "x1": 560,
+        "y1": 76.5
+       }
+      }
+     ],
+     "text": "(a) write down the value of λ (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q6_b.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 175.7,
+        "x1": 523.2,
+        "y1": 211.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 76.5,
+        "x1": 560,
+        "y1": 121.4
+       }
+      }
+     ],
+     "text": "(b) determine the argument of z, giving your answer in radians to one decimal place. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q6_c.webp",
+       "w": 1016,
+       "h": 300,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 213.4,
+        "x1": 523.2,
+        "y1": 357.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q6_c_ms_1.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 121.4,
+        "x1": 560,
+        "y1": 201.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2021_01/q6_c_ms_2.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 201.6,
+        "x1": 560,
+        "y1": 236.0
+       }
+      }
+     ],
+     "text": "In part (c) you must show detailed reasoning. Solutions relying on calculator technology are not acceptable. (c) Express in the form a + ib where a and b are real, z + 3 i (i) 2 − 4 i (ii) z2 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q6_d.webp",
+       "w": 1016,
+       "h": 168,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 363.5,
+        "x1": 523.2,
+        "y1": 444.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 334,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 236.0,
+        "x1": 560,
+        "y1": 395.7
+       }
+      }
+     ],
+     "text": "(d) Show on a single Argand diagram the points A, B, C and D that represent the complex numbers z + 3 i z z , *, i and z 2 2 − 4 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 817,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 392.7,
+      "x1": 560,
+      "y1": 784.3
+     }
+    },
+    {
+     "src": "maths/WFM01_2021_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 120,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 97.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2021_01_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM01_2021_01/q7_stem.webp",
+     "w": 1016,
+     "h": 239,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 171.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q7_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 178.7,
+        "x1": 523.2,
+        "y1": 214.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 53.6,
+        "x1": 560,
+        "y1": 133.1
+       }
+      }
+     ],
+     "text": "(a) determine the area of triangle T ʹ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q7_b.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 220.7,
+        "x1": 523.2,
+        "y1": 298.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 320,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 133.1,
+        "x1": 560,
+        "y1": 286.1
+       }
+      }
+     ],
+     "text": "The point P has coordinates (3p + 2, 2p – 1) where p is a constant. The transformation represented by A maps P onto the point Pʹ with coordinates (17, –18) (b) Determine the value of p. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q7_c.webp",
+       "w": 1016,
+       "h": 210,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 304.7,
+        "x1": 523.2,
+        "y1": 405.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 58,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 286.1,
+        "x1": 560,
+        "y1": 313.7
+       }
+      }
+     ],
+     "text": "Given that 0 1   B =   − 1 0 (c) describe fully the single geometrical transformation represented by matrix B (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q7_d.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 411.3,
+        "x1": 523.2,
+        "y1": 489.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q7_d_ms.webp",
+       "w": 1092,
+       "h": 362,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 313.7,
+        "x1": 560,
+        "y1": 486.8
+       }
+      }
+     ],
+     "text": "The transformation represented by matrix A followed by the transformation represented by matrix C is equivalent to the transformation represented by matrix B (d) Determine C (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q7_notes.webp",
+     "w": 1092,
+     "h": 498,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 483.8,
+      "x1": 560,
+      "y1": 722.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2021_01_q8",
+   "number": 8,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WFM01_2021_01/q8_stem.webp",
+     "w": 1016,
+     "h": 163,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 135.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q8_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 142.2,
+        "x1": 523.2,
+        "y1": 177.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 216,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 53.6,
+        "x1": 560,
+        "y1": 156.7
+       }
+      }
+     ],
+     "text": "(a) Use algebra to determine the coordinates of A (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q8_b.webp",
+       "w": 1016,
+       "h": 222,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 184.2,
+        "x1": 523.2,
+        "y1": 290.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 314,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 156.7,
+        "x1": 560,
+        "y1": 307.0
+       }
+      }
+     ],
+     "text": "The point B with coordinates (10, 20) lies on P (b) Find an equation for the normal to P at B Give your answer in the form ax + by + c = 0, where a, b and c are integers to be determined. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q8_c.webp",
+       "w": 1016,
+       "h": 103,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 296.6,
+        "x1": 523.2,
+        "y1": 346.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q8_c_ms.webp",
+       "w": 1092,
+       "h": 313,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 307.0,
+        "x1": 560,
+        "y1": 456.5
+       }
+      }
+     ],
+     "text": "(c) Use algebra to determine, in simplest form, the exact coordinates of the points where this normal intersects the hyperbola H (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q8_notes.webp",
+     "w": 1092,
+     "h": 702,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 453.5,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2021_01_q9",
+   "number": 9,
+   "marks": 12,
+   "stem": [],
+   "parts": [
+    {
+     "label": "9(i)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q9_i.webp",
+       "w": 1016,
+       "h": 287,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 57.9,
+        "x1": 523.2,
+        "y1": 195.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q9_i_ms.webp",
+       "w": 1092,
+       "h": 636,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 53.6,
+        "x1": 560,
+        "y1": 358.4
+       }
+      }
+     ],
+     "text": "9. (i) A sequence of numbers u1, u2, u3,... is defined by 1 u + = 3 2 ( u − 1 ) u = 1 n 1 n 1 Prove by induction that, for n ∈ +  n 3 2   un = − 1   3 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(ii)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2021_01/q9_ii.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 201.5,
+        "x1": 523.2,
+        "y1": 265.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2021_01/q9_ii_ms.webp",
+       "w": 1092,
+       "h": 623,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 358.4,
+        "x1": 560,
+        "y1": 657.0
+       }
+      }
+     ],
+     "text": "(ii) f ( ) n = 2 n + 2 + 3 2 n + 1 Prove by induction that, for n ∈ , f ( ) is a multiple of 7 + n (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2021_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 1045,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 50.9,
+      "x1": 560,
+      "y1": 552.4
+     }
+    },
+    {
+     "src": "maths/WFM01_2021_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 728.2,
+      "x1": 560,
+      "y1": 757.6
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

@@ -1,0 +1,1497 @@
+{
+ "id": "WST02_2023_06",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2023-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2023_06_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_06/q1_stem.webp",
+     "w": 1090,
+     "h": 175,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 140.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q1_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 559,
+        "y1": 202.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 108,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 151.6
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 151.6,
+        "x1": 560,
+        "y1": 198.1
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q1_a_ms_3.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 198.1,
+        "x1": 560,
+        "y1": 225.7
+       }
+      }
+     ],
+     "text": "(a) Find (i) P(X = 26) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(a)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q1_a_ii.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 204.7,
+        "x1": 559,
+        "y1": 240.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q1_a_ii_ms.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 151.6,
+        "x1": 560,
+        "y1": 198.1
+       }
+      }
+     ],
+     "text": "(ii) P(X  26) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(a)(iii)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q1_a_iii.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 242.7,
+        "x1": 559,
+        "y1": 278.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q1_a_iii_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 198.1,
+        "x1": 560,
+        "y1": 225.7
+       }
+      }
+     ],
+     "text": "(iii) the smallest value of k such that P(X  k) > 0.4 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q1_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 281.1,
+        "x1": 559,
+        "y1": 354.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 225.7,
+        "x1": 560,
+        "y1": 308.5
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 308.5,
+        "x1": 560,
+        "y1": 354.4
+       }
+      }
+     ],
+     "text": "A random sample of 600 adults is taken. (b) (i) Find, using a normal approximation, the probability that no more than 222 of these 600 adults use online banking. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q1_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 357.0,
+        "x1": 559,
+        "y1": 392.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q1_b_ii_ms.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 308.5,
+        "x1": 560,
+        "y1": 354.4
+       }
+      }
+     ],
+     "text": "(ii) Explain why a normal approximation is suitable in part (b)(i) (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q1_notes.webp",
+     "w": 1092,
+     "h": 702,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 351.4,
+      "x1": 560,
+      "y1": 688.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_06_q2",
+   "number": 2,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 105,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 106.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 87,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 99.9,
+        "x1": 560,
+        "y1": 141.4
+       }
+      }
+     ],
+     "text": "2. (a) State one characteristic of a population that would make a census a practical alternative to sampling. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q2_b.webp",
+       "w": 1090,
+       "h": 304,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 109.2,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 141.0,
+        "x1": 560,
+        "y1": 203.6
+       }
+      }
+     ],
+     "text": "A leisure centre has 2500 members. It asks a sample of 300 members for their opinions on the fees it charges for using the centre. For the sample, (b) (i) identify a suitable sampling frame, (ii) identify a sampling unit. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q2_c.webp",
+       "w": 1090,
+       "h": 304,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 402.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 203.6,
+        "x1": 560,
+        "y1": 284.0
+       }
+      }
+     ],
+     "text": "The leisure centre has the following pieces of information. A is the list of the different types of membership that can be paid for by members. B is the mean of the membership fees paid by all 2500 members. C is the number in the sample of 300 members who are satisfied with the fees they pay. (c) State the piece of information that is a statistic. Give a reason for your answer. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q2_notes.webp",
+     "w": 1092,
+     "h": 438,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 283.0,
+      "x1": 560,
+      "y1": 492.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_06_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_06/q3_stem.webp",
+     "w": 1090,
+     "h": 178,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 142.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 154.0,
+        "x1": 559,
+        "y1": 189.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 304,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 245.5
+       }
+      }
+     ],
+     "text": "(a) Show that c = 31 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 192.0,
+        "x1": 559,
+        "y1": 227.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 199,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 245.5,
+        "x1": 560,
+        "y1": 340.7
+       }
+      }
+     ],
+     "text": "(b) Find P(2 < X < 3) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q3_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 230.0,
+        "x1": 559,
+        "y1": 279.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 340.7,
+        "x1": 560,
+        "y1": 371.9
+       }
+      }
+     ],
+     "text": "(c) State whether the lower quartile of X is less than 3, equal to 3 or greater than 3 Give a reason for your answer. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q3_d.webp",
+       "w": 1090,
+       "h": 530,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 282.0,
+        "x1": 559,
+        "y1": 535.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q3_d_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 371.9,
+        "x1": 560,
+        "y1": 399.5
+       }
+      }
+     ],
+     "text": "Kei does the following to work out the mode of X 1 f'( ) x O x 3 48 2 ( 8 ) 1 x O 3 0 48 2 ( 8 ) x = 4 Hence the mode of X is 4 Kei’s answer for the mode is incorrect. (d) Explain why Kei’s method does not give the correct value for the mode. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q3_e.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 538.5,
+        "x1": 559,
+        "y1": 587.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q3_e_ms.webp",
+       "w": 1092,
+       "h": 211,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 399.5,
+        "x1": 560,
+        "y1": 500.6
+       }
+      }
+     ],
+     "text": "(e) Find the mode of X Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q3_notes.webp",
+     "w": 1092,
+     "h": 573,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 497.6,
+      "x1": 560,
+      "y1": 771.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_06_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q4_a.webp",
+       "w": 1090,
+       "h": 105,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 106.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 58,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 127.6
+       }
+      }
+     ],
+     "text": "4. (a) Given n is large, state a condition for which the binomial distribution B(n, p) can be reasonably approximated by a Poisson distribution. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 312,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 109.2,
+        "x1": 559,
+        "y1": 258.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 174,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 127.6,
+        "x1": 560,
+        "y1": 210.4
+       }
+      }
+     ],
+     "text": "A manufacturer produces candles. Those candles that pass a quality inspection are suitable for sale. It is known that 2% of the candles produced by the manufacturer are not suitable for sale. A random sample of 125 candles produced by the manufacturer is taken. (b) Use a suitable approximation to find the probability that no more than 6 of the candles are not suitable for sale. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q4_c.webp",
+       "w": 1090,
+       "h": 333,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 261.1,
+        "x1": 559,
+        "y1": 420.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q4_c_ms_1.webp",
+       "w": 1092,
+       "h": 231,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 210.4,
+        "x1": 560,
+        "y1": 320.9
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q4_c_ms_2.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 320.9,
+        "x1": 560,
+        "y1": 347.4
+       }
+      }
+     ],
+     "text": "The manufacturer also produces candle holders. Charlie believes that 5% of candle holders produced by the factory have minor defects. The manufacturer claims that the true proportion is less than 5% To test the manufacturer’s claim, a random sample of 30 candle holders is taken and none of them are found to contain minor defects. (c) (i) Carry out a test of the manufacturer’s claim using a 5% level of significance. You should state your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q4_c_ii.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 422.8,
+        "x1": 559,
+        "y1": 458.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q4_c_ii_ms_1.webp",
+       "w": 1092,
+       "h": 231,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 210.4,
+        "x1": 560,
+        "y1": 320.9
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q4_c_ii_ms_2.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 320.9,
+        "x1": 560,
+        "y1": 347.4
+       }
+      }
+     ],
+     "text": "(ii) Give a reason why this is not an appropriate test. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q4_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 461.0,
+        "x1": 559,
+        "y1": 534.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q4_d_ms.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 347.4,
+        "x1": 560,
+        "y1": 408.2
+       }
+      }
+     ],
+     "text": "Ashley suggests changing the sample size to 50 (d) Comment on whether or not this change would make the test appropriate. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q4_notes.webp",
+     "w": 1092,
+     "h": 725,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 405.2,
+      "x1": 560,
+      "y1": 752.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_06_q5",
+   "number": 5,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_06/q5_stem.webp",
+     "w": 1090,
+     "h": 418,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 257.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 260.0,
+        "x1": 559,
+        "y1": 295.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 185,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 97.7,
+        "x1": 560,
+        "y1": 186.2
+       }
+      }
+     ],
+     "text": "(a) Find the value of a and the value of c (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 298.0,
+        "x1": 559,
+        "y1": 333.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 108,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 186.2,
+        "x1": 560,
+        "y1": 237.3
+       }
+      }
+     ],
+     "text": "(b) Find the value of b (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q5_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 335.6,
+        "x1": 559,
+        "y1": 385.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 158,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 237.3,
+        "x1": 560,
+        "y1": 312.9
+       }
+      }
+     ],
+     "text": "(c) Find P(6 < Y  9) Show your working clearly. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q5_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 387.6,
+        "x1": 559,
+        "y1": 423.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q5_d_ms.webp",
+       "w": 1092,
+       "h": 54,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 312.9,
+        "x1": 560,
+        "y1": 338.2
+       }
+      }
+     ],
+     "text": "(d) Specify the probability density function, f(y), for 5 < y  9 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q5_e.webp",
+       "w": 1090,
+       "h": 273,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 425.9,
+        "x1": 559,
+        "y1": 556.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q5_e_ms.webp",
+       "w": 1092,
+       "h": 248,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 338.2,
+        "x1": 560,
+        "y1": 456.6
+       }
+      }
+     ],
+     "text": "Using the information 5 10 y y y y y y ( 6 5 ) ( ) f d ( 6 5 ) ( ) f d 26 5 . 3 9 (e) find E(6Y – 5) You should make your method clear. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q5_notes.webp",
+     "w": 1092,
+     "h": 652,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 453.6,
+      "x1": 560,
+      "y1": 765.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_06_q6",
+   "number": 6,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_06/q6_stem.webp",
+     "w": 1090,
+     "h": 255,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 178.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 183.0,
+        "x1": 559,
+        "y1": 218.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 72,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 134.4
+       }
+      }
+     ],
+     "text": "(a) Find the probability that Akia selects a value between 17 and k (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q6_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 221.0,
+        "x1": 559,
+        "y1": 280.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 203,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 134.4,
+        "x1": 560,
+        "y1": 231.0
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 114,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 231.0,
+        "x1": 560,
+        "y1": 285.1
+       }
+      }
+     ],
+     "text": "It is known that Var(W) = 75 (b) (i) Find the value of a and the value of b (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q6_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 283.0,
+        "x1": 559,
+        "y1": 318.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q6_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 203,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 134.4,
+        "x1": 560,
+        "y1": 231.0
+       }
+      },
+      {
+       "src": "maths/WST02_2023_06/q6_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 114,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 231.0,
+        "x1": 560,
+        "y1": 285.1
+       }
+      }
+     ],
+     "text": "(ii) Find the value of k (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 321.0,
+        "x1": 559,
+        "y1": 356.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 285.1,
+        "x1": 560,
+        "y1": 327.6
+       }
+      }
+     ],
+     "text": "(c) Find P(–5 < W < 5) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q6_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 358.9,
+        "x1": 559,
+        "y1": 394.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 125,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 327.6,
+        "x1": 560,
+        "y1": 387.3
+       }
+      }
+     ],
+     "text": "(d) Find E(W 2) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q6_notes.webp",
+     "w": 1092,
+     "h": 735,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 384.3,
+      "x1": 560,
+      "y1": 736.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_06_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_06/q7_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 97.7,
+        "x1": 560,
+        "y1": 148.3
+       }
+      }
+     ],
+     "text": "(a) Find the probability that, in a randomly selected one-hour period, the bakery sells at least 4 but not more than 8 muffins. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q7_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 133.0,
+        "x1": 559,
+        "y1": 206.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 148.3,
+        "x1": 560,
+        "y1": 224.1
+       }
+      }
+     ],
+     "text": "A sample of 5 non-overlapping half-hour periods is selected at random. (b) Find the probability that the bakery sells fewer than 3 muffins in exactly 2 of these periods. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_06/q7_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 209.1,
+        "x1": 559,
+        "y1": 282.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 392,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 224.1,
+        "x1": 560,
+        "y1": 411.7
+       }
+      }
+     ],
+     "text": "Given that 4 muffins were sold in a one-hour period, (c) find the probability that more muffins were sold in the first 15 minutes than in the last 45 minutes. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 681,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 410.5,
+      "x1": 560,
+      "y1": 737.2
+     }
+    },
+    {
+     "src": "maths/WST02_2023_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 60,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 716.1,
+      "x1": 560,
+      "y1": 744.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

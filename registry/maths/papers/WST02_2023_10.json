@@ -1,0 +1,1215 @@
+{
+ "id": "WST02_2023_10",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2023-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2023/S2_QP_1777460842825.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2023/S2_MS_1777460841878.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2023_10_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q1_stem.webp",
+     "w": 1090,
+     "h": 275,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 188.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q1_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 191.1,
+        "x1": 559,
+        "y1": 274.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 61.1,
+        "x1": 560,
+        "y1": 117.1
+       }
+      },
+      {
+       "src": "maths/WST02_2023_10/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 117.1,
+        "x1": 560,
+        "y1": 189.3
+       }
+      }
+     ],
+     "text": "(a) Find the probability that Sam makes (i) exactly 2 sales in 14 calls, (ii) more than 3 sales in 25 calls. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q1_b.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 277.0,
+        "x1": 559,
+        "y1": 360.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 189.3,
+        "x1": 560,
+        "y1": 253.7
+       }
+      },
+      {
+       "src": "maths/WST02_2023_10/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 303,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 253.7,
+        "x1": 560,
+        "y1": 398.7
+       }
+      }
+     ],
+     "text": "Sam makes n calls each day. (b) Find the minimum value of n (i) so that the expected number of sales each day is at least 6 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q1_b_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 363.0,
+        "x1": 559,
+        "y1": 398.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q1_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 189.3,
+        "x1": 560,
+        "y1": 253.7
+       }
+      },
+      {
+       "src": "maths/WST02_2023_10/q1_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 303,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 253.7,
+        "x1": 560,
+        "y1": 398.7
+       }
+      }
+     ],
+     "text": "(ii) so that the probability of at least 1 sale in a randomly selected day exceeds 0.95 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q1_notes.webp",
+     "w": 1092,
+     "h": 441,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 395.7,
+      "x1": 560,
+      "y1": 606.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_10_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q2_stem.webp",
+     "w": 1090,
+     "h": 360,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 55.6,
+      "x1": 559,
+      "y1": 227.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 230.5,
+        "x1": 559,
+        "y1": 265.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 63.5,
+        "x1": 560,
+        "y1": 91.7
+       }
+      }
+     ],
+     "text": "(a) State the mode of X (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q2_b.webp",
+       "w": 1090,
+       "h": 142,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 268.5,
+        "x1": 559,
+        "y1": 336.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 194,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 91.7,
+        "x1": 560,
+        "y1": 183.9
+       }
+      }
+     ],
+     "text": "Given that the mode of X is equal to the median of X (b) use algebraic integration to show that a = 1 128 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q2_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 338.9,
+        "x1": 559,
+        "y1": 374.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 225,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 189.1,
+        "x1": 560,
+        "y1": 296.4
+       }
+      }
+     ],
+     "text": "(c) Find the value of d (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q2_d.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 376.9,
+        "x1": 559,
+        "y1": 412.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q2_d_ms.webp",
+       "w": 1092,
+       "h": 304,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 296.4,
+        "x1": 560,
+        "y1": 442.0
+       }
+      }
+     ],
+     "text": "(d) Hence find the value of b and the value of c (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q2_notes.webp",
+     "w": 1092,
+     "h": 380,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 439.0,
+      "x1": 560,
+      "y1": 621.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_10_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q3_stem.webp",
+     "w": 1090,
+     "h": 333,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 216.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q3_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 218.9,
+        "x1": 559,
+        "y1": 278.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 63.5,
+        "x1": 560,
+        "y1": 77.8
+       }
+      },
+      {
+       "src": "maths/WST02_2023_10/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 77.8,
+        "x1": 560,
+        "y1": 105.9
+       }
+      }
+     ],
+     "text": "(a) (i) Show that α = 32 (ii) Show that β = 47 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q3_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 280.9,
+        "x1": 559,
+        "y1": 316.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 140,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 105.9,
+        "x1": 560,
+        "y1": 172.8
+       }
+      }
+     ],
+     "text": "(b) State fully the probability density function for this distribution. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q3_c.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 318.8,
+        "x1": 559,
+        "y1": 402.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q3_c_ms_1.webp",
+       "w": 1092,
+       "h": 30,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 172.8,
+        "x1": 560,
+        "y1": 186.6
+       }
+      },
+      {
+       "src": "maths/WST02_2023_10/q3_c_ms_2.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 186.6,
+        "x1": 560,
+        "y1": 268.8
+       }
+      }
+     ],
+     "text": "(c) Find the value of (i) E(T ) (ii) Var(T ) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q3_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 404.8,
+        "x1": 559,
+        "y1": 454.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q3_d_ms.webp",
+       "w": 1092,
+       "h": 201,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 268.8,
+        "x1": 560,
+        "y1": 365.0
+       }
+      }
+     ],
+     "text": "(d) Find the probability that the time for Navtej’s journey is within 5 minutes of 35 minutes. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q3_notes.webp",
+     "w": 1092,
+     "h": 584,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 362.0,
+      "x1": 560,
+      "y1": 642.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_10_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q4_stem.webp",
+     "w": 1090,
+     "h": 196,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 150.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 153.1,
+        "x1": 559,
+        "y1": 188.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 108,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 62.1,
+        "x1": 560,
+        "y1": 113.4
+       }
+      }
+     ],
+     "text": "(a) Find the mean value of the t‑shirts made by the manufacturer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q4_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 191.1,
+        "x1": 559,
+        "y1": 250.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 113.4,
+        "x1": 560,
+        "y1": 182.5
+       }
+      }
+     ],
+     "text": "A random sample of 3 t‑shirts made by the manufacturer is taken. (b) List all the possible combinations of the individual selling prices of these 3 t‑shirts. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q4_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 252.9,
+        "x1": 559,
+        "y1": 288.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 388,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 182.5,
+        "x1": 560,
+        "y1": 368.2
+       }
+      }
+     ],
+     "text": "(c) Find the sampling distribution of the median selling price of these 3 t‑shirts. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q4_notes.webp",
+     "w": 1092,
+     "h": 318,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 365.2,
+      "x1": 560,
+      "y1": 517.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_10_q5",
+   "number": 5,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q5_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 78.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q5_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 81.0,
+        "x1": 559,
+        "y1": 130.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 57,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 61.3,
+        "x1": 560,
+        "y1": 88.0
+       }
+      }
+     ],
+     "text": "(a) State one assumption necessary, in order for a Poisson distribution to be used to model the number of complaints received by the supermarket. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q5_b.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 133.0,
+        "x1": 559,
+        "y1": 216.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 88.0,
+        "x1": 560,
+        "y1": 113.9
+       }
+      },
+      {
+       "src": "maths/WST02_2023_10/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 76,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 113.9,
+        "x1": 560,
+        "y1": 150.1
+       }
+      }
+     ],
+     "text": "(b) Find the probability that, in a given week, there are (i) fewer than 3 complaints received by the supermarket, (ii) at least 6 complaints received by the supermarket. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q5_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 218.9,
+        "x1": 559,
+        "y1": 306.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q5_c_ms.webp",
+       "w": 1092,
+       "h": 247,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 150.1,
+        "x1": 560,
+        "y1": 268.3
+       }
+      }
+     ],
+     "text": "In a randomly selected week, the supermarket received 12 complaints. (c) Test, at the 5% level of significance, whether or not there is evidence that the mean number of complaints is greater than 6 per week. State your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q5_d.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 308.9,
+        "x1": 559,
+        "y1": 410.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q5_d_ms.webp",
+       "w": 1092,
+       "h": 382,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 268.3,
+        "x1": 560,
+        "y1": 450.9
+       }
+      }
+     ],
+     "text": "Following changes made by the supermarket, it received 26 complaints over a 6‑week period. (d) Use a suitable approximation to test whether or not there is evidence that, following the changes, the mean number of complaints received is less than 6 per week. You should state your hypotheses clearly and use a 5% significance level. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q5_notes.webp",
+     "w": 1092,
+     "h": 614,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 447.9,
+      "x1": 560,
+      "y1": 742.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_10_q6",
+   "number": 6,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q6_stem.webp",
+     "w": 1090,
+     "h": 317,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 208.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q6_a.webp",
+       "w": 1090,
+       "h": 87,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 224.1,
+        "x1": 559,
+        "y1": 265.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 163,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 63.1,
+        "x1": 560,
+        "y1": 140.9
+       }
+      }
+     ],
+     "text": "1 (a) Find P Y k Y k <  < \u001b\u001a 4 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q6_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 267.9,
+        "x1": 559,
+        "y1": 303.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 388,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 140.9,
+        "x1": 560,
+        "y1": 326.9
+       }
+      }
+     ],
+     "text": "(b) Find the value of k (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 305.9,
+        "x1": 559,
+        "y1": 341.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q6_c_ms.webp",
+       "w": 1092,
+       "h": 325,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 326.9,
+        "x1": 560,
+        "y1": 482.2
+       }
+      }
+     ],
+     "text": "(c) Use algebraic calculus to find E(Y ) (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q6_notes.webp",
+     "w": 1092,
+     "h": 589,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 479.2,
+      "x1": 560,
+      "y1": 761.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_10_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_10/q7_stem.webp",
+     "w": 1090,
+     "h": 365,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 231.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 238.8,
+        "x1": 559,
+        "y1": 274.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 63.1,
+        "x1": 560,
+        "y1": 155.5
+       }
+      }
+     ],
+     "text": "(a) show that σ = 6 (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_10/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 276.8,
+        "x1": 559,
+        "y1": 312.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 180,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 155.5,
+        "x1": 560,
+        "y1": 241.0
+       }
+      }
+     ],
+     "text": "(b) Hence find the value of n and the value of p (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 523,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 238.0,
+      "x1": 560,
+      "y1": 488.3
+     }
+    },
+    {
+     "src": "maths/WST02_2023_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 735.3,
+      "x1": 560,
+      "y1": 765.3
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

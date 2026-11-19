@@ -1,0 +1,1179 @@
+{
+ "id": "WST03_2023_01",
+ "subject": "maths",
+ "unit": "WST03",
+ "series": "2023-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202023/IAL_MATHS_2023_Jan_S3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202023/IAL_MATHS_2023_Jan_S3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST03_2023_01_q1",
+   "number": 1,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q1_stem.webp",
+     "w": 1090,
+     "h": 310,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 205.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q1_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 208.6,
+        "x1": 559,
+        "y1": 267.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 163,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 85.5,
+        "x1": 560,
+        "y1": 163.7
+       }
+      },
+      {
+       "src": "maths/WST03_2023_01/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 158,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 163.7,
+        "x1": 560,
+        "y1": 238.9
+       }
+      }
+     ],
+     "text": "(a) (i) Show that the value of the unbiased estimate of the mean of x is 1008.47 (ii) Calculate the unbiased estimate of the variance of x (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q1_b.webp",
+       "w": 1090,
+       "h": 260,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 270.7,
+        "x1": 559,
+        "y1": 395.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 70,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 238.9,
+        "x1": 560,
+        "y1": 272.0
+       }
+      }
+     ],
+     "text": "The machine was initially set so that the volume of water in a bottle had a mean value of 1010 millilitres. Later, a test at the 5% significance level is used to determine whether or not the mean volume of water in a bottle has changed. If it has changed then the machine is stopped and reset. (b) Write down suitable null and alternative hypotheses for a 2-tailed test. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q1_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 398.5,
+        "x1": 559,
+        "y1": 433.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 272.0,
+        "x1": 560,
+        "y1": 366.2
+       }
+      }
+     ],
+     "text": "(c) Find the critical region for X in the above test. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q1_d.webp",
+       "w": 1090,
+       "h": 132,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 436.7,
+        "x1": 559,
+        "y1": 499.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 366.2,
+        "x1": 560,
+        "y1": 409.1
+       }
+      }
+     ],
+     "text": "(d) Using your answer to part (a) and your critical region found in part (c), comment on whether or not the machine needs to be stopped and reset. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q1_e.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 502.4,
+        "x1": 559,
+        "y1": 537.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 409.1,
+        "x1": 560,
+        "y1": 454.9
+       }
+      }
+     ],
+     "text": "(e) Explain why the use of σ 2 O s is reasonable in this situation. 2 (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 668,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 451.9,
+      "x1": 560,
+      "y1": 772.1
+     }
+    },
+    {
+     "src": "maths/WST03_2023_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 111,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 120.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_01_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q2_stem.webp",
+     "w": 1090,
+     "h": 391,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 244.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q2_a.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 247.7,
+        "x1": 559,
+        "y1": 282.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 235,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 84.7,
+        "x1": 560,
+        "y1": 197.0
+       }
+      }
+     ],
+     "text": "(a) calculate the value of the Spearman’s rank correlation coefficient for these data. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q2_b.webp",
+       "w": 1090,
+       "h": 131,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 285.7,
+        "x1": 559,
+        "y1": 348.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 217,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 197.0,
+        "x1": 560,
+        "y1": 300.8
+       }
+      }
+     ],
+     "text": "(b) Stating your hypotheses clearly, test, at the 1% level of significance, whether or not there is evidence of a positive correlation between the rank of the season’s best time and the finishing position for these athletes. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q2_c.webp",
+       "w": 1090,
+       "h": 315,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 351.5,
+        "x1": 559,
+        "y1": 502.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 300.8,
+        "x1": 560,
+        "y1": 362.8
+       }
+      }
+     ],
+     "text": "Chris suggests that it would be better to use the actual finishing time, y seconds, of these athletes rather than their finishing position. Given that Sxx = 0 1286875 . Syy = 0 55275 . Sxy = 0 225175 . (c) calculate the product moment correlation coefficient between the season’s best time and the finishing time for these athletes. Give your answer correct to 3 decimal places. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q2_d.webp",
+       "w": 1090,
+       "h": 132,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 505.6,
+        "x1": 559,
+        "y1": 568.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 161,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 362.8,
+        "x1": 560,
+        "y1": 439.5
+       }
+      }
+     ],
+     "text": "(d) Use your value of the product moment correlation coefficient to test, at the 1% level of significance, whether or not there is evidence of a positive correlation between the season’s best time and the finishing time for these athletes. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 681,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 436.5,
+      "x1": 560,
+      "y1": 762.7
+     }
+    },
+    {
+     "src": "maths/WST03_2023_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 99,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 115.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q3_stem.webp",
+     "w": 1090,
+     "h": 639,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 363.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q3_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 366.6,
+        "x1": 559,
+        "y1": 449.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 68.8,
+        "x1": 560,
+        "y1": 129.1
+       }
+      }
+     ],
+     "text": "(a) Calculate the expected frequencies for the age group 51 years and over that (i) made a claim in 2020 (ii) did not make a claim in 2020 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q3_b.webp",
+       "w": 1090,
+       "h": 232,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 452.5,
+        "x1": 559,
+        "y1": 563.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 556,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 129.1,
+        "x1": 560,
+        "y1": 395.1
+       }
+      }
+     ],
+     "text": "The 4 classes of customers aged between 17 and 50 give a value of ( O 3 E ) 2 O 7 123 correct to 3 decimal places. . E (b) Test, at the 1% level of significance, whether or not making a claim is independent of age. Show your working clearly, stating your hypotheses, the degrees of freedom, the test statistic and the critical value used. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q3_notes.webp",
+     "w": 1092,
+     "h": 754,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 392.1,
+      "x1": 560,
+      "y1": 753.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_01_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q4_stem.webp",
+     "w": 1090,
+     "h": 403,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 250.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q4_a.webp",
+       "w": 1090,
+       "h": 132,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 253.3,
+        "x1": 559,
+        "y1": 316.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 408,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 61.3,
+        "x1": 560,
+        "y1": 256.4
+       }
+      }
+     ],
+     "text": "(a) Using her results and a 5% significance level, test the research student’s claim. You should state your hypotheses, expected frequencies, test statistic and the critical value used. (8)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q4_b.webp",
+       "w": 1090,
+       "h": 152,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 319.3,
+        "x1": 559,
+        "y1": 392.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 256.4,
+        "x1": 560,
+        "y1": 323.8
+       }
+      }
+     ],
+     "text": "The research student decides to refine the model and retains the idea of using a binomial distribution but does not specify the probability that the child is a girl. (b) Use the data in the table to show that the probability that a child is a girl is 0.45 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q4_c.webp",
+       "w": 1090,
+       "h": 278,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 395.2,
+        "x1": 559,
+        "y1": 528.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 242,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 323.8,
+        "x1": 560,
+        "y1": 439.6
+       }
+      }
+     ],
+     "text": "The research student uses the probability from part (b) to calculate a new set of expected frequencies, none of which are less than 5 . / 2 O 3 E The statistic is evaluated and found to be 2.47 E (c) Test, at the 5% significance level, whether using a binomial distribution is suitable to model the number of children who are girls in a family of 4 children. You should state your hypotheses and the critical value used. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q4_notes.webp",
+     "w": 1092,
+     "h": 737,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 436.6,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q5_stem.webp",
+     "w": 1090,
+     "h": 403,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 250.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q5_a.webp",
+       "w": 1090,
+       "h": 161,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 271.7,
+        "x1": 559,
+        "y1": 348.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 624,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 359.6
+       }
+      }
+     ],
+     "text": "(a) Stating your hypotheses clearly, carry out a suitable test to assess whether the mean yield from plants using fertiliser A is greater than the mean yield from plants using fertiliser B. Use a 1% level of significance and state your test statistic and critical value. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q5_b.webp",
+       "w": 1090,
+       "h": 282,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 351.5,
+        "x1": 559,
+        "y1": 486.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 221,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 359.6,
+        "x1": 560,
+        "y1": 465.2
+       }
+      }
+     ],
+     "text": "The total cost of fertiliser A for Claire’s 50 plants was £75 The total cost of fertiliser B for Claire’s 40 plants was £50 Claire sells all her strawberries at £3 per kilogram. (b) Use this information, together with your answer in part (a), to advise Claire on which of the two brands of fertiliser she should use next year in order to maximise her expected profit per plant, giving a reason for your answer. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q5_notes.webp",
+     "w": 1092,
+     "h": 684,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 462.2,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_01_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q6_stem.webp",
+     "w": 1090,
+     "h": 203,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 154.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q6_a.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 157.5,
+        "x1": 559,
+        "y1": 192.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 232,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 171.5
+       }
+      }
+     ],
+     "text": "(a) Find a 98% confidence interval for the mean weight of stones in the batch. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q6_b.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 195.5,
+        "x1": 559,
+        "y1": 230.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 171.5,
+        "x1": 560,
+        "y1": 214.3
+       }
+      }
+     ],
+     "text": "(b) Explain why the use of the Central Limit theorem is not required to answer part (a) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q6_c.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 233.5,
+        "x1": 559,
+        "y1": 306.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 214.3,
+        "x1": 560,
+        "y1": 256.7
+       }
+      }
+     ],
+     "text": "The manufacturer of these bags of stones claims that bags in this batch have a mean weight of 22.5 kg (c) Using your answer to part (a), comment on the claim made by the manufacturer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q6_d.webp",
+       "w": 1090,
+       "h": 232,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 309.3,
+        "x1": 559,
+        "y1": 420.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 463,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 256.7,
+        "x1": 560,
+        "y1": 478.2
+       }
+      }
+     ],
+     "text": "The weight, Y kilograms, of gravel in a large bag can be modelled by a normal distribution with mean 850 kg and standard deviation 5 kg A builder purchases 10 large bags of gravel. (d) Find the probability that the mean weight of gravel in the 10 large bags is less than 848 kg (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q6_notes.webp",
+     "w": 1092,
+     "h": 516,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 475.2,
+      "x1": 560,
+      "y1": 722.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_01_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_01/q7_stem.webp",
+     "w": 1090,
+     "h": 203,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 154.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q7_a.webp",
+       "w": 1090,
+       "h": 102,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 157.5,
+        "x1": 559,
+        "y1": 206.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 424,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 61.3,
+        "x1": 560,
+        "y1": 264.5
+       }
+      }
+     ],
+     "text": "(a) find the probability that the total time taken to serve the 3 customers will be less than 11 minutes. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q7_b.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 209.5,
+        "x1": 559,
+        "y1": 244.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 264.5,
+        "x1": 560,
+        "y1": 293.0
+       }
+      }
+     ],
+     "text": "(b) State the assumption you have made in part (a) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_01/q7_c.webp",
+       "w": 1090,
+       "h": 428,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 247.5,
+        "x1": 559,
+        "y1": 452.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 525,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 293.0,
+        "x1": 560,
+        "y1": 544.4
+       }
+      }
+     ],
+     "text": "In the supermarket there is also an express checkout, which is reserved for customers buying 10 or fewer items. The time taken to serve a customer at this express checkout may be modelled by a normal distribution with mean 100 seconds and standard deviation 8 seconds. On a particular day Jiang has 8 items to pay for and has to choose whether to join a queue of 3 customers waiting at a standard checkout or a queue of 7 customers waiting at the express checkout. Using a similar assumption to that made in part (a), (c) find the probability that the total time taken to serve the 3 customers at the standard checkout will exceed the total time taken to serve the 7 customers at the express checkout. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 472,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 541.4,
+      "x1": 560,
+      "y1": 767.4
+     }
+    },
+    {
+     "src": "maths/WST03_2023_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 748.9,
+      "x1": 560,
+      "y1": 778.3
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

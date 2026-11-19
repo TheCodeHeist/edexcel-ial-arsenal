@@ -1,0 +1,1424 @@
+{
+ "id": "WMA11_2019_10",
+ "subject": "maths",
+ "unit": "WMA11",
+ "series": "2019-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202019/IAL_MATHS_2019_Oct_P1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202019/IAL_MATHS_2019_Oct_P1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA11_2019_10_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q1_stem.webp",
+     "w": 1016,
+     "h": 562,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 523.2,
+      "y1": 328.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q1_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 338.2,
+        "x1": 523.2,
+        "y1": 370.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q1_a_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 73.6,
+        "x1": 560,
+        "y1": 137.0
+       }
+      }
+     ],
+     "text": "(a) find the exact value of r, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q1_b.webp",
+       "w": 1016,
+       "h": 97,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 380.2,
+        "x1": 523.2,
+        "y1": 426.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q1_b_ms.webp",
+       "w": 1092,
+       "h": 221,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 137.0,
+        "x1": 560,
+        "y1": 242.4
+       }
+      }
+     ],
+     "text": "(b) find the exact length of the perimeter of the sector. Write your answer in simplest form. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q1_notes.webp",
+     "w": 1092,
+     "h": 427,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 239.4,
+      "x1": 560,
+      "y1": 444.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q2",
+   "number": 2,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q2_stem.webp",
+     "w": 1016,
+     "h": 360,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 231.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q2_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 241.7,
+        "x1": 523.2,
+        "y1": 273.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 444.0,
+        "x1": 560,
+        "y1": 493.3
+       }
+      }
+     ],
+     "text": "(a) find the value of a and the value of b. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q2_b.webp",
+       "w": 1016,
+       "h": 69,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 283.7,
+        "x1": 523.2,
+        "y1": 315.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 493.3,
+        "x1": 560,
+        "y1": 542.5
+       }
+      }
+     ],
+     "text": "(b) State, according to the model, the height of the tree when it was planted. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q2_notes.webp",
+     "w": 1092,
+     "h": 481,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 539.5,
+      "x1": 560,
+      "y1": 770.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q3_stem.webp",
+     "w": 1016,
+     "h": 766,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 523.2,
+      "y1": 426.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q3_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 436.4,
+        "x1": 523.2,
+        "y1": 468.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 66.6,
+        "x1": 560,
+        "y1": 123.0
+       }
+      }
+     ],
+     "text": "(a) the coordinates of M, (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q3_b.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 478.4,
+        "x1": 523.2,
+        "y1": 510.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 244,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 123.0,
+        "x1": 560,
+        "y1": 239.6
+       }
+      }
+     ],
+     "text": "(b) the coordinates of N. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q3_c.webp",
+       "w": 1016,
+       "h": 565,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 515.8,
+        "x1": 523.2,
+        "y1": 786.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q3_c_ms.webp",
+       "w": 1092,
+       "h": 150,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 239.6,
+        "x1": 560,
+        "y1": 311.2
+       }
+      }
+     ],
+     "text": "y C l N R M x O Figure 3 Figure 3 shows the curve C and the line l. The finite region R, shown shaded in Figure 3, is bounded by C, l and the y-axis. (c) Use inequalities to define the region R. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q3_notes.webp",
+     "w": 1092,
+     "h": 982,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 308.2,
+      "x1": 560,
+      "y1": 779.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q4",
+   "number": 4,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q4_stem.webp",
+     "w": 1016,
+     "h": 97,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 106.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q4_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 115.7,
+        "x1": 523.2,
+        "y1": 148.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 163,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 86.2,
+        "x1": 560,
+        "y1": 164.0
+       }
+      }
+     ],
+     "text": "(a) the size of angle DAB, in degrees, to 2 decimal places, (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q4_b.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 152.2,
+        "x1": 523.2,
+        "y1": 184.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 146,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 164.0,
+        "x1": 560,
+        "y1": 233.4
+       }
+      }
+     ],
+     "text": "(b) the length of diagonal BD, in cm, to one decimal place. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q4_notes.webp",
+     "w": 1092,
+     "h": 785,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 230.4,
+      "x1": 560,
+      "y1": 607.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q5_stem.webp",
+     "w": 1016,
+     "h": 115,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 114.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q5_a.webp",
+       "w": 1016,
+       "h": 87,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 120.6,
+        "x1": 523.2,
+        "y1": 162.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 100.3,
+        "x1": 560,
+        "y1": 145.0
+       }
+      }
+     ],
+     "text": "(a) Find d y x , giving the answer in simplest form. d (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q5_b.webp",
+       "w": 1016,
+       "h": 189,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 169.6,
+        "x1": 523.2,
+        "y1": 260.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 271,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 145.0,
+        "x1": 560,
+        "y1": 274.9
+       }
+      }
+     ],
+     "text": "The point P 4 11 ⎛ ⎞ , ⎠⎟ lies on the curve. ⎝⎜ 3 (b) Find the equation of the normal to the curve at P. Write your answer in the form ax + by + c = 0, where a, b and c are integers to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q5_notes.webp",
+     "w": 1092,
+     "h": 506,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 278.6,
+      "x1": 560,
+      "y1": 521.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q6_stem.webp",
+     "w": 1016,
+     "h": 59,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 69.4,
+      "x1": 523.2,
+      "y1": 97.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q6_a.webp",
+       "w": 1016,
+       "h": 98,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 97.4,
+        "x1": 523.2,
+        "y1": 143.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 320,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 85.9,
+        "x1": 560,
+        "y1": 239.2
+       }
+      }
+     ],
+     "text": "(a) Sketch a graph of C, stating the equation of the horizontal asymptote and the coordinates of the point of intersection with the x-axis. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q6_b.webp",
+       "w": 1016,
+       "h": 127,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 153.4,
+        "x1": 523.2,
+        "y1": 213.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 259,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 239.2,
+        "x1": 560,
+        "y1": 363.1
+       }
+      }
+     ],
+     "text": "The line with equation y = 10 – 2x is a tangent to C. (b) Find the possible values for k. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q6_notes_1.webp",
+     "w": 1092,
+     "h": 883,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 360.1,
+      "x1": 560,
+      "y1": 783.4
+     }
+    },
+    {
+     "src": "maths/WMA11_2019_10/q6_notes_2.webp",
+     "w": 1092,
+     "h": 743,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 396.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WMA11_2019_10_q7",
+   "number": 7,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q7_stem.webp",
+     "w": 1016,
+     "h": 598,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 59.3,
+      "x1": 523.2,
+      "y1": 346.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q7_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 355.8,
+        "x1": 523.2,
+        "y1": 388.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 86.5,
+        "x1": 560,
+        "y1": 142.7
+       }
+      }
+     ],
+     "text": "(a) Find the gradient of the tangent to the curve at P. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q7_b.webp",
+       "w": 1016,
+       "h": 127,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 397.8,
+        "x1": 523.2,
+        "y1": 458.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 226,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 142.7,
+        "x1": 560,
+        "y1": 251.0
+       }
+      }
+     ],
+     "text": "The point Q with x coordinate 2 + h also lies on the curve. (b) Find, in terms of h, the gradient of the line PQ. Give your answer in simplest form. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q7_c.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 467.7,
+        "x1": 523.2,
+        "y1": 500.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q7_c_ms.webp",
+       "w": 1092,
+       "h": 104,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 251.0,
+        "x1": 560,
+        "y1": 300.4
+       }
+      }
+     ],
+     "text": "(c) Explain briefly the relationship between the answer to (b) and the answer to (a). (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q7_notes.webp",
+     "w": 1092,
+     "h": 531,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 304.0,
+      "x1": 560,
+      "y1": 558.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q8",
+   "number": 8,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q8.webp",
+       "w": 1016,
+       "h": 214,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 59.7,
+        "x1": 523.2,
+        "y1": 162.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q8_ms.webp",
+       "w": 1092,
+       "h": 1063,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 101.2,
+        "x1": 560,
+        "y1": 610.6
+       }
+      }
+     ],
+     "text": "8. Solve, using algebra, the equation 1 6 4 0 x x 2 − + = Fully simplify your answers, writing them in the form a , where a, b and c are + b c integers to be found. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q8_notes.webp",
+     "w": 1092,
+     "h": 185,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 614.2,
+      "x1": 560,
+      "y1": 702.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q9",
+   "number": 9,
+   "marks": 4,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q9_stem.webp",
+     "w": 1016,
+     "h": 615,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 523.2,
+      "y1": 353.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q9_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 363.6,
+        "x1": 523.2,
+        "y1": 395.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q9_a_ms.webp",
+       "w": 1092,
+       "h": 58,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 85.9,
+        "x1": 560,
+        "y1": 113.4
+       }
+      }
+     ],
+     "text": "(a) State the period of C. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "9(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q9_b.webp",
+       "w": 1016,
+       "h": 69,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 405.6,
+        "x1": 523.2,
+        "y1": 437.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q9_b_ms.webp",
+       "w": 1092,
+       "h": 67,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 113.4,
+        "x1": 560,
+        "y1": 145.3
+       }
+      }
+     ],
+     "text": "(b) State the coordinates of M. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q9_c.webp",
+       "w": 1016,
+       "h": 257,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 440.9,
+        "x1": 523.2,
+        "y1": 563.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q9_c_ms_1.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 145.3,
+        "x1": 560,
+        "y1": 172.9
+       }
+      },
+      {
+       "src": "maths/WMA11_2019_10/q9_c_ms_2.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 172.9,
+        "x1": 560,
+        "y1": 222.1
+       }
+      }
+     ],
+     "text": "x ⎛ ⎞ The smallest positive solution of the equation sin , where k is a constant, is Į\u0011 ⎠⎟= k ⎝⎜ 12 Find, in terms of Į, x ⎛ ⎞ (c) (i) the negative solution of the equation sin that is closest to zero, ⎠⎟= k ⎝⎜ 12 x ⎛ ⎞ (ii) the smallest positive solution of the equation cos . ⎠⎟= k ⎝⎜ 12 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q9_notes.webp",
+     "w": 1092,
+     "h": 1103,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 219.1,
+      "x1": 560,
+      "y1": 747.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q10",
+   "number": 10,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q10_stem.webp",
+     "w": 1016,
+     "h": 536,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 523.2,
+      "y1": 316.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q10_a.webp",
+       "w": 1016,
+       "h": 72,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 324.5,
+        "x1": 523.2,
+        "y1": 358.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q10_a_ms_1.webp",
+       "w": 1092,
+       "h": 79,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 747.9,
+        "x1": 560,
+        "y1": 785.4
+       }
+      },
+      {
+       "src": "maths/WMA11_2019_10/q10_a_ms_2.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 77.7,
+        "x1": 560,
+        "y1": 104.0
+       }
+      }
+     ],
+     "text": "(a) Deduce the values of x for which f(x) - 0 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q10_b.webp",
+       "w": 1016,
+       "h": 239,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 367.8,
+        "x1": 523.2,
+        "y1": 482.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q10_b_ms.webp",
+       "w": 1092,
+       "h": 199,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 104.0,
+        "x1": 560,
+        "y1": 199.0
+       }
+      }
+     ],
+     "text": "The curve crosses the y-axis at the point P, as shown. (b) Expand f(x) to the form ax3 + bx2 + cx + d where a, b, c and d are integers to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q10_c.webp",
+       "w": 1016,
+       "h": 185,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 491.8,
+        "x1": 523.2,
+        "y1": 580.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q10_c_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 199.0,
+        "x1": 560,
+        "y1": 249.7
+       }
+      }
+     ],
+     "text": "(c) Hence, or otherwise, find (i) the coordinates of P, (ii) the gradient of the curve at P. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q10_d.webp",
+       "w": 1016,
+       "h": 214,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 589.8,
+        "x1": 523.2,
+        "y1": 692.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q10_d_ms.webp",
+       "w": 1092,
+       "h": 180,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 249.7,
+        "x1": 560,
+        "y1": 335.5
+       }
+      }
+     ],
+     "text": "The curve with equation y = f(x) is translated two units in the positive x direction to a curve with equation y = g(x). (d) (i) Find g(x), giving your answer in a simplified factorised form. (ii) Hence state the y intercept of the curve with equation y = g(x). (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q10_notes.webp",
+     "w": 1092,
+     "h": 932,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 332.5,
+      "x1": 560,
+      "y1": 779.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2019_10_q11",
+   "number": 11,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA11_2019_10/q11_stem.webp",
+     "w": 1016,
+     "h": 331,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 218.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "11(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q11_a.webp",
+       "w": 1016,
+       "h": 97,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 227.7,
+        "x1": 523.2,
+        "y1": 274.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q11_a_ms.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 41.6,
+        "x1": 560,
+        "y1": 85.4
+       }
+      }
+     ],
+     "text": "(a) the equation of the tangent to the curve at P, writing your answer in the form y = mx + c, where m and c are constants to be found, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "11(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2019_10/q11_b.webp",
+       "w": 1016,
+       "h": 69,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 283.7,
+        "x1": 523.2,
+        "y1": 316.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2019_10/q11_b_ms.webp",
+       "w": 1092,
+       "h": 385,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 85.4,
+        "x1": 560,
+        "y1": 269.3
+       }
+      }
+     ],
+     "text": "(b) f(x). (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2019_10/q11_notes_1.webp",
+     "w": 1092,
+     "h": 859,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 266.3,
+      "x1": 560,
+      "y1": 678.1
+     }
+    },
+    {
+     "src": "maths/WMA11_2019_10/q11_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 659.1,
+      "x1": 560,
+      "y1": 688.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

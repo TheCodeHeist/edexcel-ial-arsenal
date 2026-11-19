@@ -1,0 +1,1177 @@
+{
+ "id": "WMA14_2021_01",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2021-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_P4_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_P4_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2021_01_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q1_a.webp",
+       "w": 1016,
+       "h": 214,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 160.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 585,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 170.6,
+        "x1": 560,
+        "y1": 450.8
+       }
+      }
+     ],
+     "text": "1. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1 1 1   2 x x − 5 <   4 20 giving each coefficient in its simplest form. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q1_b.webp",
+       "w": 1016,
+       "h": 190,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 160.1,
+        "x1": 523.2,
+        "y1": 250.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 355,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 450.8,
+        "x1": 560,
+        "y1": 621.1
+       }
+      }
+     ],
+     "text": "1 By substituting x = into the answer for (a), 100 (b) find an approximation for 5 Give your answer in the form a b where a and b are integers to be found. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 352,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 618.1,
+      "x1": 560,
+      "y1": 786.6
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 774,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 411.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q2",
+   "number": 2,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA14_2021_01/q2_stem.webp",
+     "w": 1016,
+     "h": 497,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 295.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 298.2,
+        "x1": 523.2,
+        "y1": 333.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 138.8,
+        "x1": 560,
+        "y1": 223.3
+       }
+      }
+     ],
+     "text": "(a) find the size of angle ABC, giving your answer in degrees, to 2 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q2_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 336.2,
+        "x1": 523.2,
+        "y1": 371.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 178,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 223.3,
+        "x1": 560,
+        "y1": 308.3
+       }
+      }
+     ],
+     "text": "(b) Find the area of parallelogram ABCD, giving your answer to one decimal place. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 932,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 305.3,
+      "x1": 560,
+      "y1": 752.2
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 867,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 455.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q3",
+   "number": 3,
+   "marks": 2,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q3.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 93.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q3_ms.webp",
+       "w": 1092,
+       "h": 383,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 202.7,
+        "x1": 560,
+        "y1": 386.2
+       }
+      }
+     ],
+     "text": "3. Prove by contradiction that there is no greatest odd integer. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q3_notes.webp",
+     "w": 1092,
+     "h": 798,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 383.2,
+      "x1": 560,
+      "y1": 765.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2021_01/q4_stem.webp",
+     "w": 1016,
+     "h": 128,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 118.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q4_a.webp",
+       "w": 1016,
+       "h": 205,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 120.2,
+        "x1": 523.2,
+        "y1": 218.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 331,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 173.2,
+        "x1": 560,
+        "y1": 331.2
+       }
+      }
+     ],
+     "text": "(a) Show that the equation of C can be written in the form y = g(x) where g is the function ax + b g( ) x = x > k cx + d where a, b, c, d and k are integers to be found. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q4_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 220.6,
+        "x1": 523.2,
+        "y1": 256.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 331.2,
+        "x1": 560,
+        "y1": 416.1
+       }
+      }
+     ],
+     "text": "(b) Hence, or otherwise, state the range of g. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 786,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 413.1,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 586,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 320.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q5",
+   "number": 5,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q5.webp",
+       "w": 1016,
+       "h": 329,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 215.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q5_ms.webp",
+       "w": 1092,
+       "h": 724,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 91.6,
+        "x1": 560,
+        "y1": 438.4
+       }
+      }
+     ],
+     "text": "5. In this question you should show all stages of your working. Solutions relying on calculator technology are not acceptable. Using the substitution u 1 find the exact value of = 3 + 2 x − 13 ∫ 4 x d 3 + 2 x − 1 1 giving your answer in the form p + q ln 2, where p and q are integers to be found. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 699,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 435.4,
+      "x1": 560,
+      "y1": 770.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 321,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 50.7,
+      "x1": 560,
+      "y1": 204.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2021_01/q6_stem.webp",
+     "w": 1016,
+     "h": 101,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 105.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 105.7,
+        "x1": 523.2,
+        "y1": 141.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 295,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 91.6,
+        "x1": 560,
+        "y1": 232.7
+       }
+      }
+     ],
+     "text": "(a) Find x in terms of x and y. d (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q6_b.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 142.2,
+        "x1": 523.2,
+        "y1": 215.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 370,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 232.7,
+        "x1": 560,
+        "y1": 409.5
+       }
+      }
+     ],
+     "text": "The curve crosses the y-axis at the origin and at the point P. (b) Find the equation of the normal to the curve at P, writing your answer in the form y = mx + c where m and c are constants to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 789,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 406.5,
+      "x1": 560,
+      "y1": 784.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 153,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 41.8,
+      "x1": 560,
+      "y1": 115.1
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WMA14_2021_01_q7",
+   "number": 7,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2021_01/q7_stem.webp",
+     "w": 1016,
+     "h": 473,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 284.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q7_a.webp",
+       "w": 1016,
+       "h": 105,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 288.2,
+        "x1": 523.2,
+        "y1": 338.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q7_a_ms_1.webp",
+       "w": 1092,
+       "h": 413,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 59.6,
+        "x1": 560,
+        "y1": 257.6
+       }
+      },
+      {
+       "src": "maths/WMA14_2021_01/q7_a_ms_2.webp",
+       "w": 1092,
+       "h": 414,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 257.6,
+        "x1": 560,
+        "y1": 455.5
+       }
+      }
+     ],
+     "text": "∫ (a) Find e 2x sin x x d (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q7_b.webp",
+       "w": 1016,
+       "h": 309,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 340.6,
+        "x1": 523.2,
+        "y1": 488.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 230,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 455.5,
+        "x1": 560,
+        "y1": 565.6
+       }
+      }
+     ],
+     "text": "Figure 2 shows a sketch of part of the curve with equation y = e2x sin x x  0 The finite region R is bounded by the curve and the x-axis and is shown shaded in Figure 2. 2e π + 1 (b) Show that the exact area of R is 5 (Solutions relying on calculator technology are not acceptable.) (2)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 474,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 562.6,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1523,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 770.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q7_notes_3.webp",
+     "w": 1092,
+     "h": 372,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 60.4,
+      "x1": 560,
+      "y1": 238.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q8",
+   "number": 8,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q8.webp",
+       "w": 1016,
+       "h": 313,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 207.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q8_ms.webp",
+       "w": 1092,
+       "h": 1439,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 75.6,
+        "x1": 560,
+        "y1": 766.0
+       }
+      }
+     ],
+     "text": "8. With respect to a fixed origin O, the lines l1 and l2 are given by the equations − 1 2 2 4                 l : r = 5 + λ − 1 l : r = − 2 + μ − 3 1     2      4   5   − 5   b  where λ and μ are scalar parameters and b is a constant. Prove that for all values of b ≠ 7, the lines l1 and l2 are skew. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q8_notes.webp",
+     "w": 1092,
+     "h": 933,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 41.4,
+      "x1": 560,
+      "y1": 488.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q9",
+   "number": 9,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA14_2021_01/q9_stem.webp",
+     "w": 1016,
+     "h": 758,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 420.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q9_a.webp",
+       "w": 1016,
+       "h": 221,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 423.1,
+        "x1": 523.2,
+        "y1": 528.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 528,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 44.0,
+        "x1": 560,
+        "y1": 296.7
+       }
+      }
+     ],
+     "text": "(a) Show that the exact volume of this solid of revolution is given by k p ∫ (1 − cos2 ) d θ θ 0 where p and k are constants to be found. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q9_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 531.4,
+        "x1": 523.2,
+        "y1": 566.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 296,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 296.7,
+        "x1": 560,
+        "y1": 438.3
+       }
+      }
+     ],
+     "text": "(b) Hence find, by algebraic integration, the exact volume of this solid of revolution. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 717,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 435.3,
+      "x1": 560,
+      "y1": 778.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1300,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 663.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2021_01_q10",
+   "number": 10,
+   "marks": 14,
+   "stem": [],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q10_a.webp",
+       "w": 1016,
+       "h": 65,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 65.3,
+        "x1": 523.2,
+        "y1": 96.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q10_a_ms.webp",
+       "w": 1092,
+       "h": 327,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 44.0,
+        "x1": 560,
+        "y1": 200.5
+       }
+      }
+     ],
+     "text": "1 10. (a) Write in partial fraction form. ( H − 5 )( H + 3 ) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q10_b.webp",
+       "w": 1016,
+       "h": 430,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 96.1,
+        "x1": 523.2,
+        "y1": 302.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q10_b_ms.webp",
+       "w": 1092,
+       "h": 804,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 200.5,
+        "x1": 560,
+        "y1": 585.8
+       }
+      }
+     ],
+     "text": "The depth of water in a storage tank is being monitored. The depth of water in the tank, H metres, is modelled by the differential equation d H ( H − 5 )( H + 3 ) = − d t 40 where t is the time, in days, from when monitoring began. Given that the initial depth of water in the tank was 13 m, (b) solve the differential equation to show that − 0 2 . t 10 + 3 e H = − − 0 2 . t 2 e (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q10_c.webp",
+       "w": 1016,
+       "h": 124,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 304.9,
+        "x1": 523.2,
+        "y1": 364.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q10_c_ms.webp",
+       "w": 1092,
+       "h": 191,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 585.8,
+        "x1": 560,
+        "y1": 677.1
+       }
+      }
+     ],
+     "text": "(c) Hence find the time taken for the depth of water in the tank to fall to 8 m. (Solutions relying entirely on calculator technology are not acceptable.) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2021_01/q10_d.webp",
+       "w": 1016,
+       "h": 124,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 366.8,
+        "x1": 523.2,
+        "y1": 426.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2021_01/q10_d_ms.webp",
+       "w": 1092,
+       "h": 108,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 677.1,
+        "x1": 560,
+        "y1": 728.5
+       }
+      }
+     ],
+     "text": "According to the model, the depth of water in the tank will eventually fall to k metres. (d) State the value of the constant k. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2021_01/q10_notes_1.webp",
+     "w": 1092,
+     "h": 100,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 725.5,
+      "x1": 560,
+      "y1": 773.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1530,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 40.0,
+      "x1": 560,
+      "y1": 774.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q10_notes_3.webp",
+     "w": 1092,
+     "h": 128,
+     "region": {
+      "page": 27,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 101.0
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q10_notes_4.webp",
+     "w": 1092,
+     "h": 66,
+     "region": {
+      "page": 28,
+      "x0": 36,
+      "y0": 737.6,
+      "x1": 560,
+      "y1": 768.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "10(a): text cut by a crop edge"
+   ]
+  }
+ ]
+}

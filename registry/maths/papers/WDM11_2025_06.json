@@ -1,0 +1,1365 @@
+{
+ "id": "WDM11_2025_06",
+ "subject": "maths",
+ "unit": "WDM11",
+ "series": "2025-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_D1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_D1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WDM11_2025_06_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q1_stem.webp",
+     "w": 1090,
+     "h": 243,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 69.5,
+      "x1": 559,
+      "y1": 185.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 188.4,
+        "x1": 559,
+        "y1": 223.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 63.9,
+        "x1": 560,
+        "y1": 136.2
+       }
+      }
+     ],
+     "text": "(a) Calculate a lower bound for the number of vans required. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 226.4,
+        "x1": 559,
+        "y1": 261.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 346,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 136.2,
+        "x1": 560,
+        "y1": 301.5
+       }
+      }
+     ],
+     "text": "(b) Use the first‑fit bin‑packing algorithm to allocate the items to vans. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q1_notes.webp",
+     "w": 1092,
+     "h": 429,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 299.8,
+      "x1": 560,
+      "y1": 505.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q2_stem.webp",
+     "w": 1090,
+     "h": 684,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 373.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q2_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 376.2,
+        "x1": 559,
+        "y1": 425.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 169,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 63.9,
+        "x1": 560,
+        "y1": 144.7
+       }
+      }
+     ],
+     "text": "(a) Use Prim’s algorithm, starting at P, to obtain a minimum spanning tree for the network. You must clearly show the order in which you select arcs. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 428.2,
+        "x1": 559,
+        "y1": 477.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 144.7,
+        "x1": 560,
+        "y1": 205.7
+       }
+      }
+     ],
+     "text": "(b) Use the answer to part (a) to obtain an initial upper bound for the length of Aisha’s route. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q2_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 480.2,
+        "x1": 559,
+        "y1": 529.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 169,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 205.7,
+        "x1": 560,
+        "y1": 286.5
+       }
+      }
+     ],
+     "text": "(c) Use the nearest neighbour algorithm, starting at P, to find a second upper bound for the length of Aisha’s route. You should state both the route and its length. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q2_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 532.1,
+        "x1": 559,
+        "y1": 581.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q2_d_ms.webp",
+       "w": 1092,
+       "h": 188,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 286.5,
+        "x1": 560,
+        "y1": 376.2
+       }
+      }
+     ],
+     "text": "(d) By deleting T and all of its arcs, and using the answer to part (a), obtain a lower bound for the length of Aisha’s route. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q2_notes.webp",
+     "w": 1092,
+     "h": 997,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 518.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q3_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 67.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q3_i.webp",
+       "w": 1090,
+       "h": 223,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 69.5,
+        "x1": 559,
+        "y1": 175.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q3_i_ms_1.webp",
+       "w": 1092,
+       "h": 1173,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 89.3,
+        "x1": 560,
+        "y1": 651.9
+       }
+      },
+      {
+       "src": "maths/WDM11_2025_06/q3_i_ms_2.webp",
+       "w": 1092,
+       "h": 1278,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 39,
+        "x1": 560,
+        "y1": 652.0
+       }
+      }
+     ],
+     "text": "(i) A list of twelve numbers is to be sorted into ascending order. 28 18 50 27 48 8 25 12 56 31 33 42 (a) Use a quick sort to obtain the sorted list. You should show the result of each pass and identify your pivots clearly. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(i)(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q3_i_b.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 178.4,
+        "x1": 559,
+        "y1": 241.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q3_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 1173,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 89.3,
+        "x1": 560,
+        "y1": 651.9
+       }
+      },
+      {
+       "src": "maths/WDM11_2025_06/q3_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 1278,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 39,
+        "x1": 560,
+        "y1": 652.0
+       }
+      }
+     ],
+     "text": "(b) Show how the binary search algorithm is used to try to locate the number 40 in the list. You must clearly indicate your choice of pivots and which part of the list you are rejecting. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q3_ii.webp",
+       "w": 1090,
+       "h": 469,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 244.2,
+        "x1": 559,
+        "y1": 468.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q3_ii_ms.webp",
+       "w": 1092,
+       "h": 179,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 652.0,
+        "x1": 560,
+        "y1": 737.5
+       }
+      }
+     ],
+     "text": "(ii) A different list of nine distinct integers is to be sorted into descending order. 23 20 x 32 15 8 19 6 22 The list is sorted using bubble sort. The first three passes are 23 20 32 15 19 8 22 6 x 23 32 20 x 19 15 22 8 6 32 23 20 19 x 22 15 8 6 Determine the range of possible values of x (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 974,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 507.0
+     }
+    },
+    {
+     "src": "maths/WDM11_2025_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1129,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 581.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q4_stem.webp",
+     "w": 1090,
+     "h": 718,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 389.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q4_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 392.5,
+        "x1": 559,
+        "y1": 451.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 595,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 89.3,
+        "x1": 560,
+        "y1": 374.7
+       }
+      },
+      {
+       "src": "maths/WDM11_2025_06/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 374.7,
+        "x1": 560,
+        "y1": 431.5
+       }
+      }
+     ],
+     "text": "(a) (i) Use Dijkstra’s algorithm to determine the fastest route from A to H. (ii) State the fastest time. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q4_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 454.5,
+        "x1": 559,
+        "y1": 513.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 295,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 431.5,
+        "x1": 560,
+        "y1": 572.7
+       }
+      }
+     ],
+     "text": "The roads EF and GJ are now closed for maintenance. (b) Calculate how much more time Liliya’s drive will now take. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q4_notes.webp",
+     "w": 1092,
+     "h": 1144,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 588.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q5_stem.webp",
+     "w": 1090,
+     "h": 262,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 171.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q5_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 173.8,
+        "x1": 559,
+        "y1": 209.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 89.3,
+        "x1": 560,
+        "y1": 137.7
+       }
+      }
+     ],
+     "text": "(a) Write down the objective for this problem. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q5_b.webp",
+       "w": 1090,
+       "h": 343,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 211.8,
+        "x1": 559,
+        "y1": 375.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 137.7,
+        "x1": 560,
+        "y1": 200.2
+       }
+      }
+     ],
+     "text": "The gardener has a total of £1400 available to spend. Given that • red rose bushes cost £12.50 each • yellow rose bushes cost £10 each • white rose bushes cost £15 each (b) show that one constraint is given by 5x + 4y + 6z  560 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q5_c.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 378.5,
+        "x1": 559,
+        "y1": 513.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 251,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 200.2,
+        "x1": 560,
+        "y1": 320.6
+       }
+      }
+     ],
+     "text": "The gardener decides that • the number of red rose bushes must be at least 40% of the total number of rose bushes • there must be at least three white rose bushes for every two yellow rose bushes (c) Use this information to formulate two further constraints, which should be fully simplified with integer coefficients. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q5_d.webp",
+       "w": 1090,
+       "h": 330,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 516.4,
+        "x1": 559,
+        "y1": 674.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q5_d_ms.webp",
+       "w": 1092,
+       "h": 185,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 320.6,
+        "x1": 560,
+        "y1": 408.6
+       }
+      }
+     ],
+     "text": "The gardener decides to plant exactly 30 white rose bushes. This reduces two of the constraints to 5x + 4y  380 y  20 (d) Show that the third constraint can be reduced to 3x – 2y  60 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q5_e.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 676.7,
+        "x1": 559,
+        "y1": 740.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q5_e_ms.webp",
+       "w": 1092,
+       "h": 636,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 408.6,
+        "x1": 560,
+        "y1": 713.4
+       }
+      }
+     ],
+     "text": "(e) Draw these three constraints using the axes in the answer book and hence determine the number of red rose bushes and the number of yellow rose bushes that the gardener will plant. (4)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q5_notes.webp",
+     "w": 1092,
+     "h": 1075,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 555.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q6_stem.webp",
+     "w": 1090,
+     "h": 880,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 467.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q6_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 470.5,
+        "x1": 559,
+        "y1": 519.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 429,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 77.7,
+        "x1": 560,
+        "y1": 283.0
+       }
+      }
+     ],
+     "text": "(a) Determine the length of Bolin’s route. You must make your method clear and state the roads which need to be repeated. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q6_b.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 522.5,
+        "x1": 559,
+        "y1": 609.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 227,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 283.0,
+        "x1": 560,
+        "y1": 391.5
+       }
+      }
+     ],
+     "text": "A new road is constructed from F to J which has length 18 km. Bolin must inspect the changed network, starting at A and finishing at J. He must travel along each road at least once, minimising the length of his route. (b) Determine the change to the length of Bolin’s route. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q6_notes.webp",
+     "w": 1092,
+     "h": 703,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 389.8,
+      "x1": 560,
+      "y1": 726.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q7",
+   "number": 7,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q7_stem.webp",
+     "w": 1090,
+     "h": 755,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 407.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 410.6,
+        "x1": 559,
+        "y1": 460.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 576,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 77.7,
+        "x1": 560,
+        "y1": 353.7
+       }
+      }
+     ],
+     "text": "(a) Complete the precedence table in the answer book to show the immediately preceding activities for the project. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q7_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 462.6,
+        "x1": 559,
+        "y1": 512.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 694,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 353.7,
+        "x1": 560,
+        "y1": 686.2
+       }
+      }
+     ],
+     "text": "(b) Complete the diagram in the answer book to show the early event times and the late event times. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q7_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 514.6,
+        "x1": 559,
+        "y1": 564.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 134,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 38.0,
+        "x1": 560,
+        "y1": 102.1
+       }
+      }
+     ],
+     "text": "(c) Calculate a lower bound for the minimum number of workers required to complete the project in the minimum time. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(d)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q7_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 566.6,
+        "x1": 559,
+        "y1": 602.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q7_d_ms.webp",
+       "w": 1092,
+       "h": 677,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 102.1,
+        "x1": 560,
+        "y1": 426.6
+       }
+      }
+     ],
+     "text": "(d) Draw a Gantt (cascade) chart on the grid in the answer book. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(e)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q7_e.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 604.6,
+        "x1": 559,
+        "y1": 668.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q7_e_ms.webp",
+       "w": 1092,
+       "h": 225,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 426.6,
+        "x1": 560,
+        "y1": 534.1
+       }
+      }
+     ],
+     "text": "(e) Use the Gantt chart to determine the minimum number of workers required to complete the project in the minimum time. You must make specific reference to the number of workers, activities and times. (3)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q7_notes.webp",
+     "w": 1092,
+     "h": 1296,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 661.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2025_06_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WDM11_2025_06/q8_stem.webp",
+     "w": 1090,
+     "h": 835,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 445.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 450.2,
+        "x1": 559,
+        "y1": 485.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 258,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 63.9,
+        "x1": 560,
+        "y1": 187.2
+       }
+      }
+     ],
+     "text": "(a) state the remaining four constraints. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q8_b_1.webp",
+       "w": 1090,
+       "h": 46,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 619.8,
+        "x1": 559,
+        "y1": 641.4
+       }
+      },
+      {
+       "src": "maths/WDM11_2025_06/q8_b_2.webp",
+       "w": 1090,
+       "h": 484,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 42.9,
+        "x1": 559,
+        "y1": 274.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 466,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 187.2,
+        "x1": 560,
+        "y1": 410.6
+       }
+      }
+     ],
+     "text": "Question 8 continues on page 11 The five vertices of the feasible region are labelled A, B, C, D and E An objective function is of the form P = ax + by where a and b are integers. This objective function has a minimum value of 202 5 • 7 at vertex E a maximum value of 576 2 • 3 at vertex C (b) Determine the value of a and the value of b, making your working clear. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2025_06/q8_c.webp",
+       "w": 1090,
+       "h": 323,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 277.2,
+        "x1": 559,
+        "y1": 431.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2025_06/q8_c_ms_1.webp",
+       "w": 1092,
+       "h": 431,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 410.6,
+        "x1": 560,
+        "y1": 617.0
+       }
+      },
+      {
+       "src": "maths/WDM11_2025_06/q8_c_ms_2.webp",
+       "w": 1092,
+       "h": 1137,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 585.3
+       }
+      }
+     ],
+     "text": "A different objective function is of the form Q = x + ky where k is a positive constant. This objective function has a minimum value at vertex A and a maximum value at vertex C (c) Determine the range of values of k, making your working clear. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2025_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 988,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 513.7
+     }
+    },
+    {
+     "src": "maths/WDM11_2025_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 746.0,
+      "x1": 560,
+      "y1": 776.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "8(b): runs across pages"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1371 @@
+{
+ "id": "WMA12_2023_06",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2023-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2023_06_q1",
+   "number": 1,
+   "marks": 3,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q1.webp",
+       "w": 1090,
+       "h": 486,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 289.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q1_ms.webp",
+       "w": 1092,
+       "h": 250,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 188.5
+       }
+      }
+     ],
+     "text": "1. The continuous curve C has equation y = f(x). A table of values of x and y for y = f(x) is shown below. 4.0 4.2 4.4 4.6 4.8 5.0 x y 9.2 8.4556 3.8512 5.0342 7.8297 8.6 Use the trapezium rule with all the values of y in the table to find an approximation for 5∫f(x) dx 4 giving your answer to 3 decimal places. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q1_notes.webp",
+     "w": 1092,
+     "h": 771,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 185.5,
+      "x1": 560,
+      "y1": 555.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q2_stem.webp",
+     "w": 1090,
+     "h": 265,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 183.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 186.3,
+        "x1": 559,
+        "y1": 221.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 217,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 172.3
+       }
+      }
+     ],
+     "text": "(a) use the factor theorem to show that a = –3 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q2_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 224.7,
+        "x1": 559,
+        "y1": 260.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 506,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 172.3,
+        "x1": 560,
+        "y1": 415.1
+       }
+      }
+     ],
+     "text": "(b) Hence show that the equation f(x) = 0 has only one real root. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q2_notes_1.webp",
+     "w": 1092,
+     "h": 788,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 412.1,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1145,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 589.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q3_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q3_a.webp",
+       "w": 1090,
+       "h": 120,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 162.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 116,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 123.9
+       }
+      },
+      {
+       "src": "maths/WMA12_2023_06/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 123.9,
+        "x1": 560,
+        "y1": 166.4
+       }
+      }
+     ],
+     "text": "(a) (i) find the radius of C (ii) find an equation for C (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q3_b.webp",
+       "w": 1090,
+       "h": 100,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 165.1,
+        "x1": 559,
+        "y1": 212.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 329,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 166.4,
+        "x1": 560,
+        "y1": 323.7
+       }
+      }
+     ],
+     "text": "(b) Find the equation of the tangent to C at P giving your answer in the form ax + by + c = 0 where a, b and c are integers to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 978,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 320.7,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 925,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 483.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q4_stem.webp",
+     "w": 1090,
+     "h": 282,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 192.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 194.8,
+        "x1": 559,
+        "y1": 230.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 431,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 275.4
+       }
+      }
+     ],
+     "text": "(a) Find the value of A (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 325,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 232.8,
+        "x1": 559,
+        "y1": 388.1
+       }
+      }
+     ],
+     "ms": [],
+     "text": "Given that • B = 18D • p < 0 (b) find (i) the value of p (ii) the value of C (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q4_notes_1.webp",
+     "w": 1092,
+     "h": 1079,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 272.4,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1238,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 634.1
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(b): no mark-scheme rows (scheme has ['4(a)'])"
+   ]
+  },
+  {
+   "id": "WMA12_2023_06_q5",
+   "number": 5,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q5.webp",
+       "w": 1090,
+       "h": 144,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 125.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q5_ms.webp",
+       "w": 1092,
+       "h": 452,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 285.2
+       }
+      }
+     ],
+     "text": "5. Use the laws of logarithms to solve log2 (16x) + log2 (x + 1) = 3 + log2 (x + 6) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q5_notes.webp",
+     "w": 1092,
+     "h": 886,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 282.2,
+      "x1": 560,
+      "y1": 706.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q6_stem.webp",
+     "w": 1090,
+     "h": 402,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 249.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q6_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 252.1,
+        "x1": 559,
+        "y1": 287.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 60.2,
+        "x1": 560,
+        "y1": 105.2
+       }
+      }
+     ],
+     "text": "(a) show that k 2 – 7k – 60 = 0 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 290.1,
+        "x1": 559,
+        "y1": 325.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 249,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 560,
+        "y1": 224.4
+       }
+      }
+     ],
+     "text": "(b) predict the number of downloads in the 4th month. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q6_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 327.9,
+        "x1": 559,
+        "y1": 401.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 386,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 224.4,
+        "x1": 560,
+        "y1": 409.3
+       }
+      }
+     ],
+     "text": "The total number of all downloads of the app is predicted to exceed 3 million for the first time in the Nth month. (c) Calculate the value of N according to the model. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 746,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 406.3,
+      "x1": 560,
+      "y1": 764.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 1517,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 767.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q7_stem.webp",
+     "w": 1090,
+     "h": 275,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 188.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q7_a.webp",
+       "w": 1090,
+       "h": 135,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 191.0,
+        "x1": 559,
+        "y1": 255.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 194,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 69.7,
+        "x1": 560,
+        "y1": 162.4
+       }
+      }
+     ],
+     "text": "(a) use calculus to show that α satisfies the equation 2 – 18α – 20 = 0 5α (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 257.6,
+        "x1": 559,
+        "y1": 293.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 162.4,
+        "x1": 560,
+        "y1": 213.3
+       }
+      }
+     ],
+     "text": "(b) Hence find the value of α, giving your answer to 3 decimal places. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q7_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 295.5,
+        "x1": 559,
+        "y1": 331.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 242,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 213.3,
+        "x1": 560,
+        "y1": 329.2
+       }
+      }
+     ],
+     "text": "(c) Use further calculus to prove that H is a maximum at this value of α. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 967,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 326.2,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1510,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 764.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q8",
+   "number": 8,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q8_i.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 140.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q8_i_ms.webp",
+       "w": 1092,
+       "h": 64,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 99.3
+       }
+      }
+     ],
+     "text": "8. (i) A student writes the following statement: “When a and b are consecutive prime numbers, a 2 + b 2 is never a multiple of 10” Prove by counter example that this statement is not true. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q8_ii.webp",
+       "w": 1090,
+       "h": 181,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 142.9,
+        "x1": 559,
+        "y1": 229.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q8_ii_ms.webp",
+       "w": 1092,
+       "h": 442,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 99.3,
+        "x1": 560,
+        "y1": 310.8
+       }
+      }
+     ],
+     "text": "(ii) Given that x and y are even integers greater than 0 and less than 6, prove by exhaustion, that 2 – xy 1 < x 4 < 15 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 978,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 307.8,
+      "x1": 560,
+      "y1": 776.8
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 422,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 242.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q9",
+   "number": 9,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q9_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q9_a.webp",
+       "w": 1090,
+       "h": 252,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 226.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 293,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 67.3,
+        "x1": 560,
+        "y1": 207.8
+       }
+      }
+     ],
+     "text": "(a) Show that 3 cos θ (tan θ sin θ + 3) = 11 – 5cos θ may be written as 2 θ – 14 cos θ + 8 = 0 3 cos (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q9_b.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 228.5,
+        "x1": 559,
+        "y1": 320.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 207.8,
+        "x1": 560,
+        "y1": 337.5
+       }
+      }
+     ],
+     "text": "(b) Hence solve, for 0 < x < 360° 3 cos 2x (tan 2x sin 2x + 3) = 11 – 5cos 2x giving your answers to one decimal place. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q9_notes.webp",
+     "w": 1092,
+     "h": 950,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 334.5,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q10",
+   "number": 10,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q10_stem.webp",
+     "w": 1090,
+     "h": 181,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 143.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q10_a.webp",
+       "w": 1090,
+       "h": 231,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 145.7,
+        "x1": 559,
+        "y1": 256.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q10_a_ms.webp",
+       "w": 1092,
+       "h": 325,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 224.5
+       }
+      }
+     ],
+     "text": "(a) Show that 16 2 x 3 k 2 + bk + 2046 ( ) dx = ak 5 x 1 where a and b are integers to be found. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q10_b.webp",
+       "w": 1090,
+       "h": 670,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 256.0,
+        "x1": 559,
+        "y1": 577.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q10_b_ms.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 224.5,
+        "x1": 560,
+        "y1": 306.7
+       }
+      }
+     ],
+     "text": "y C l B A R O x Figure 1 Figure 1 shows a sketch of the curve C and the line l. Given that l intersects C at the point A(1, 9) and at the point B(16, q) where q is a constant, (b) show that k = 4 (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "10(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q10_c.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 579.9,
+        "x1": 559,
+        "y1": 663.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q10_c_ms.webp",
+       "w": 1092,
+       "h": 207,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 306.7,
+        "x1": 560,
+        "y1": 405.8
+       }
+      }
+     ],
+     "text": "The region R, shown shaded in Figure 1, is bounded by C and l Using the answers to parts (a) and (b), (c) find the area of region R (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q10_notes_1.webp",
+     "w": 1092,
+     "h": 783,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 402.8,
+      "x1": 560,
+      "y1": 778.2
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q10_notes_2.webp",
+     "w": 1092,
+     "h": 943,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 492.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_06_q11",
+   "number": 11,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_06/q11_stem.webp",
+     "w": 1090,
+     "h": 221,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 162.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "11(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q11_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 165.1,
+        "x1": 559,
+        "y1": 248.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q11_a_ms.webp",
+       "w": 1092,
+       "h": 100,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 68.7,
+        "x1": 560,
+        "y1": 116.3
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of a and b, (i) u2 (ii) u3 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "11(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q11_b.webp",
+       "w": 1090,
+       "h": 316,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 251.1,
+        "x1": 559,
+        "y1": 402.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q11_b_ms.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 116.3,
+        "x1": 560,
+        "y1": 185.7
+       }
+      }
+     ],
+     "text": "Given 3 O • un O 153 n 1 • b = a + 9 (b) show that a 2 – 5a – 66 = 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "11(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_06/q11_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 405.1,
+        "x1": 559,
+        "y1": 440.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_06/q11_c_ms.webp",
+       "w": 1092,
+       "h": 147,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 185.7,
+        "x1": 560,
+        "y1": 255.6
+       }
+      }
+     ],
+     "text": "(c) Hence find the larger possible value of u2 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_06/q11_notes_1.webp",
+     "w": 1092,
+     "h": 1090,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 252.6,
+      "x1": 560,
+      "y1": 775.6
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_06/q11_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 699.8,
+      "x1": 560,
+      "y1": 729.3
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

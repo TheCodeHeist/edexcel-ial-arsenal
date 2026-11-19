@@ -1,0 +1,1416 @@
+{
+ "id": "WST01_2024_01",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2024-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan 2024/IAL_MATHS_2024_Jan_S1_QP_1779098887592.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan 2024/IAL_MATHS_2024_Jan_S1_MS_1779098886439.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2024_01_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q1_stem.webp",
+     "w": 1090,
+     "h": 693,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 389.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q1_a.webp",
+       "w": 1090,
+       "h": 230,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 396.2,
+        "x1": 559,
+        "y1": 506.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 64,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 96.0,
+        "x1": 560,
+        "y1": 125.9
+       }
+      }
+     ],
+     "text": "(a) Use the histogram to complete the following table. Height (h cm) 5  h < 9 9  h < 13 13  h < 15 15  h < 17 17  h < 25 Frequency 32 152 120 (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 508.9,
+        "x1": 559,
+        "y1": 544.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 158,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 125.9,
+        "x1": 560,
+        "y1": 201.3
+       }
+      }
+     ],
+     "text": "(b) Use interpolation to estimate the median. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q1_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 546.9,
+        "x1": 559,
+        "y1": 606.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 201.3,
+        "x1": 560,
+        "y1": 231.3
+       }
+      }
+     ],
+     "text": "The mean height of these plants is 13.2 cm correct to one decimal place. (c) Describe the skew of these data. Give a reason for your answer. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q1_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 608.9,
+        "x1": 559,
+        "y1": 668.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 259,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 231.3,
+        "x1": 560,
+        "y1": 354.8
+       }
+      }
+     ],
+     "text": "Two of these plants are chosen at random. (d) Estimate the probability that both of their heights are between 8 cm and 14 cm (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q1_notes.webp",
+     "w": 1092,
+     "h": 721,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 351.8,
+      "x1": 560,
+      "y1": 697.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q2_stem.webp",
+     "w": 1090,
+     "h": 229,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 166.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q2_a.webp",
+       "w": 1090,
+       "h": 184,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 168.8,
+        "x1": 559,
+        "y1": 256.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 96.0,
+        "x1": 560,
+        "y1": 111.6
+       }
+      },
+      {
+       "src": "maths/WST01_2024_01/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 161,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 111.6,
+        "x1": 560,
+        "y1": 188.6
+       }
+      }
+     ],
+     "text": "(a) (i) Calculate the mean of the 12 values of the average minimum monthly temperature. (ii) Show that the standard deviation of the 12 values of the average minimum monthly temperature is 8.57°F to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 259.0,
+        "x1": 559,
+        "y1": 294.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 190,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 188.6,
+        "x1": 560,
+        "y1": 279.2
+       }
+      }
+     ],
+     "text": "(b) Calculate the product moment correlation coefficient between x and y (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q2_c.webp",
+       "w": 1090,
+       "h": 425,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 296.9,
+        "x1": 559,
+        "y1": 500.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 279.2,
+        "x1": 560,
+        "y1": 357.7
+       }
+      }
+     ],
+     "text": "For comparative purposes with a UK city, it was necessary to convert the temperatures from degrees Fahrenheit (°F) to degrees Celsius (°C). The formula used was c = 5 9 ( f – 32) where f is the temperature in °F and c is the temperature in °C (c) Use this formula and the values from part (a) to calculate, in °C, the mean and the standard deviation of the 12 values of the average minimum monthly temperature in Kolkata. Give your answers to 3 significant figures. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q2_d.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 502.9,
+        "x1": 559,
+        "y1": 610.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 357.7,
+        "x1": 560,
+        "y1": 419.8
+       }
+      }
+     ],
+     "text": "Given that • u is the equivalent temperature in °C of x • v is the equivalent temperature in °C of y (d) state, giving a reason, the product moment correlation coefficient between u and v (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q2_notes.webp",
+     "w": 1092,
+     "h": 727,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 416.8,
+      "x1": 560,
+      "y1": 765.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q3_stem.webp",
+     "w": 1090,
+     "h": 756,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 419.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q3_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 432.0,
+        "x1": 559,
+        "y1": 467.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 96.3,
+        "x1": 560,
+        "y1": 142.0
+       }
+      }
+     ],
+     "text": "(a) Complete the tree diagram, in terms of p where necessary. (1)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q3_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 470.0,
+        "x1": 559,
+        "y1": 529.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 142.0,
+        "x1": 560,
+        "y1": 218.1
+       }
+      }
+     ],
+     "text": "The probability that a student is left‑handed is 0.11 (b) Find the value of p (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q3_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 531.9,
+        "x1": 559,
+        "y1": 567.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 218.1,
+        "x1": 560,
+        "y1": 263.0
+       }
+      }
+     ],
+     "text": "(c) Find the probability that a student selected at random is in Year 12 and left‑handed. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q3_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 569.9,
+        "x1": 559,
+        "y1": 629.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 263.0,
+        "x1": 560,
+        "y1": 389.6
+       }
+      }
+     ],
+     "text": "Given that a student is right‑handed, (d) find the probability that the student is in Year 12 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q3_notes.webp",
+     "w": 1092,
+     "h": 404,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 386.6,
+      "x1": 560,
+      "y1": 579.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q4_stem.webp",
+     "w": 1090,
+     "h": 496,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 294.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 304.6,
+        "x1": 559,
+        "y1": 340.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 96.0,
+        "x1": 560,
+        "y1": 163.1
+       }
+      }
+     ],
+     "text": "(a) Show that 90 is an outlier for the Spanish marks. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q4_b.webp",
+       "w": 1090,
+       "h": 352,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 342.6,
+        "x1": 559,
+        "y1": 511.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 172,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 163.1,
+        "x1": 560,
+        "y1": 245.1
+       }
+      }
+     ],
+     "text": "Ignoring the point (30, 90), Greg calculated the following summary statistics. ∑ f = 422 ∑ s = 382 Sff = 1667.6 Sfs = 1735.6 (b) Use these summary statistics to show that the equation of the least squares regression line of s on f for the remaining 10 students is s = –5.72 + 1.04 f where the values of the intercept and gradient are given to 3 significant figures. You must show your working. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q4_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 513.7,
+        "x1": 559,
+        "y1": 549.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 245.1,
+        "x1": 560,
+        "y1": 290.1
+       }
+      }
+     ],
+     "text": "(c) Give an interpretation of the gradient of the regression line. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q4_d.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 551.7,
+        "x1": 559,
+        "y1": 659.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q4_d_ms_1.webp",
+       "w": 1092,
+       "h": 35,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 290.1,
+        "x1": 560,
+        "y1": 306.3
+       }
+      },
+      {
+       "src": "maths/WST01_2024_01/q4_d_ms_2.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 306.3,
+        "x1": 560,
+        "y1": 378.6
+       }
+      }
+     ],
+     "text": "Two further students sat the French test but missed the Spanish test. (d) Using the equation given in part (b), estimate (i) a Spanish mark for the student who scored 55 marks in their French test, (ii) a Spanish mark for the student who scored 18 marks in their French test. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q4_e.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 661.6,
+        "x1": 559,
+        "y1": 711.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q4_e_ms.webp",
+       "w": 1092,
+       "h": 186,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 378.6,
+        "x1": 560,
+        "y1": 467.5
+       }
+      }
+     ],
+     "text": "(e) State, giving a reason, which of the two estimates found in part (d) would be the more reliable estimate. (2)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q4_notes.webp",
+     "w": 1092,
+     "h": 621,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 464.5,
+      "x1": 560,
+      "y1": 761.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q5_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q5_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 161.7
+       }
+      }
+     ],
+     "text": "(a) Using standardisation, show that the probability that this athlete throws the discus less than 38.8 m is 0.3821 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q5_b.webp",
+       "w": 1090,
+       "h": 291,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 147.2,
+        "x1": 559,
+        "y1": 286.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 337,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 161.7,
+        "x1": 560,
+        "y1": 322.9
+       }
+      }
+     ],
+     "text": "This athlete enters a discus competition. To qualify for the final, they have 3 attempts to throw the discus a distance of more than 38.8 m Once they qualify, they do not use any of their remaining attempts. Given that they qualified for the final and that throws are independent, (b) find the probability that this athlete qualified for the final on their second throw with a distance of more than 44 m (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q5_notes.webp",
+     "w": 1092,
+     "h": 289,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 319.9,
+      "x1": 560,
+      "y1": 458.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q6_stem.webp",
+     "w": 1090,
+     "h": 97,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q6_a.webp",
+       "w": 1090,
+       "h": 120,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 105.6,
+        "x1": 559,
+        "y1": 162.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 291,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 236.3
+       }
+      }
+     ],
+     "text": "(a) Show that 14x + 20y = 13 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q6_b.webp",
+       "w": 1090,
+       "h": 258,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 164.9,
+        "x1": 559,
+        "y1": 288.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 113,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 236.3,
+        "x1": 560,
+        "y1": 290.0
+       }
+      },
+      {
+       "src": "maths/WST01_2024_01/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 290.0,
+        "x1": 560,
+        "y1": 338.2
+       }
+      }
+     ],
+     "text": "The events B and C are mutually exclusive such that P(B ∪ C) = 0.85 P(C) = 1 2 x + y (b) (i) Find a second equation in x and y (ii) Hence find the value of x and the value of y (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q6_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 290.9,
+        "x1": 559,
+        "y1": 340.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 338.2,
+        "x1": 560,
+        "y1": 432.2
+       }
+      }
+     ],
+     "text": "(c) Determine whether or not A and B are statistically independent. You must show your working clearly. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q6_notes.webp",
+     "w": 1092,
+     "h": 572,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 429.2,
+      "x1": 560,
+      "y1": 703.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q7_stem.webp",
+     "w": 1090,
+     "h": 284,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 192.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 195.6,
+        "x1": 559,
+        "y1": 231.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 102,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 145.9
+       }
+      }
+     ],
+     "text": "(a) Show that k = 4 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 233.5,
+        "x1": 559,
+        "y1": 269.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 145.9,
+        "x1": 560,
+        "y1": 226.1
+       }
+      }
+     ],
+     "text": "(b) Find the probability distribution of the discrete random variable X (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q7_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 271.5,
+        "x1": 559,
+        "y1": 306.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 86,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 226.1,
+        "x1": 560,
+        "y1": 266.8
+       }
+      }
+     ],
+     "text": "(c) Using your answer to part (b), write down the mode of X (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q7_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 309.5,
+        "x1": 559,
+        "y1": 344.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q7_d_ms.webp",
+       "w": 1092,
+       "h": 482,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 266.8,
+        "x1": 560,
+        "y1": 497.6
+       }
+      }
+     ],
+     "text": "(d) Calculate Var (13 X – 6) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q7_notes.webp",
+     "w": 1092,
+     "h": 565,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 494.6,
+      "x1": 560,
+      "y1": 765.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_01_q8",
+   "number": 8,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_01/q8_stem.webp",
+     "w": 1090,
+     "h": 142,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 124.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 131.8,
+        "x1": 559,
+        "y1": 167.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 209,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 197.0
+       }
+      }
+     ],
+     "text": "(a) find the value of k (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_01/q8_b_1.webp",
+       "w": 1090,
+       "h": 250,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 559,
+        "y1": 289.2
+       }
+      },
+      {
+       "src": "maths/WST01_2024_01/q8_b_2.webp",
+       "w": 1090,
+       "h": 80,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 673.8,
+        "x1": 559,
+        "y1": 711.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 697,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 197.0,
+        "x1": 560,
+        "y1": 531.3
+       }
+      }
+     ],
+     "text": "The random variable Y is normally distributed with mean μ and standard deviation σ Given that 3 2 and 2μ = 3σ Y μ = 0.0668 P > \u001b 2 \u001a (b) find the value of μ and the value of σ (5) First released on AP - Edexcel Discord https://sites.google.com/view/ap-edexcel",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 468,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 528.3,
+      "x1": 560,
+      "y1": 752.4
+     }
+    },
+    {
+     "src": "maths/WST01_2024_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 738.5,
+      "x1": 560,
+      "y1": 768.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "8(b): text after the marks",
+    "8(b): runs across pages"
+   ]
+  }
+ ]
+}

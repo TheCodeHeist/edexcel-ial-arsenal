@@ -1,0 +1,773 @@
+{
+ "id": "WME02_2022_06",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2022-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_M2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_M2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2022_06_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_06/q1_stem.webp",
+     "w": 1016,
+     "h": 167,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 60.6,
+      "x1": 523.2,
+      "y1": 140.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q1_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 151.1,
+        "x1": 523.2,
+        "y1": 186.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 368,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 108.8,
+        "x1": 560,
+        "y1": 285.0
+       }
+      }
+     ],
+     "text": "(a) Find the acceleration of P when t = 4 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q1_b.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 188.7,
+        "x1": 523.2,
+        "y1": 248.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 388,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 285.0,
+        "x1": 560,
+        "y1": 470.8
+       }
+      }
+     ],
+     "text": "At time T seconds, T  0 , P is moving in the direction of (2i + j) (b) Find the value of T (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_06/q2_stem.webp",
+     "w": 1016,
+     "h": 753,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 418.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 420.4,
+        "x1": 523.2,
+        "y1": 455.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 499,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 310.9
+       }
+      }
+     ],
+     "text": "(a) Find T1 in terms of d and u. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q2_b.webp",
+       "w": 1016,
+       "h": 183,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 458.3,
+        "x1": 523.2,
+        "y1": 545.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 237,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 310.9,
+        "x1": 560,
+        "y1": 423.9
+       }
+      }
+     ],
+     "text": "The ball returns to A for the first time after bouncing off each wall once. The further time taken for the particle to move from A, bounce off each wall once and return to A for the second time is T2 (b) Find T2 in terms of d and u. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q3",
+   "number": 3,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q3.webp",
+       "w": 1016,
+       "h": 232,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 168.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q3_ms.webp",
+       "w": 1092,
+       "h": 1182,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 638.6
+       }
+      }
+     ],
+     "text": "3. A particle P of mass 0.5 kg is moving with velocity λ(i + j) m s –1 when P receives an 5 impulse of magnitude N s 2 Immediately after P receives the impulse, the velocity of P is 4i m s –1 Given that λ is a constant, find the two possible values of λ (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q4.webp",
+       "w": 1016,
+       "h": 473,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 283.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q4_ms.webp",
+       "w": 1092,
+       "h": 1041,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 570.9
+       }
+      }
+     ],
+     "text": "4. A truck of mass 900 kg is moving along a straight horizontal road with the engine of the truck working at a constant rate of P watts. The resistance to the motion of the truck is modelled as a constant force of magnitude R newtons. At the instant when the speed of the truck is 15 m s –1, the deceleration of the truck is 0.2 m s –2 Later the same truck is moving down a straight road inclined at an angle θ to the horizontal, where sin θ = 1 30 . The resistance to the motion of the truck is again modelled as a constant force of magnitude R newtons. The engine of the truck is again working at a constant rate of P watts. At the instant when the speed of the truck is 12 m s –1, the acceleration of the truck is 0.4 m s –2 Find the value of R. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2022_06/q4_notes.webp",
+     "w": 1092,
+     "h": 253,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 567.9,
+      "x1": 560,
+      "y1": 689.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_06/q5_stem.webp",
+     "w": 1016,
+     "h": 632,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 360.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q5_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 364.9,
+        "x1": 523.2,
+        "y1": 400.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 604,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 361.3
+       }
+      }
+     ],
+     "text": "(a) show that T = 20 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q5_b.webp",
+       "w": 1016,
+       "h": 124,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 402.8,
+        "x1": 523.2,
+        "y1": 462.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 517,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 361.3,
+        "x1": 560,
+        "y1": 608.9
+       }
+      }
+     ],
+     "text": "Given also that the rod is in limiting equilibrium, (b) find the value of the coefficient of friction between the rod and the ground. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q6",
+   "number": 6,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_06/q6_stem.webp",
+     "w": 1016,
+     "h": 309,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 204.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 9,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q6_a.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 207.6,
+        "x1": 523.2,
+        "y1": 271.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 1027,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 564.1
+       }
+      }
+     ],
+     "text": "(a) Find (i) y in terms of v (ii) x in terms of v (iii) the value of k (9)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q6_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 273.6,
+        "x1": 523.2,
+        "y1": 323.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 415,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 564.1,
+        "x1": 560,
+        "y1": 763.2
+       }
+      }
+     ],
+     "text": "(b) Find, in terms of m and v, the total kinetic energy lost in the collision between P and Q. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_06/q7_stem.webp",
+     "w": 1016,
+     "h": 941,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 508.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q7_a.webp",
+       "w": 1016,
+       "h": 97,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 508.0,
+        "x1": 523.2,
+        "y1": 554.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 572,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 345.7
+       }
+      }
+     ],
+     "text": "(a) Show that d = 29 14 a (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q7_b.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 556.6,
+        "x1": 523.2,
+        "y1": 630.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 833,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 345.7,
+        "x1": 560,
+        "y1": 745.0
+       }
+      },
+      {
+       "src": "maths/WME02_2022_06/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 184,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 155.7
+       }
+      }
+     ],
+     "text": "The template is freely suspended from the point Q and hangs in equilibrium with QR at θ° to the downward vertical. (b) Find the value of θ (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_06_q8",
+   "number": 8,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_06/q8_stem.webp",
+     "w": 1016,
+     "h": 605,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 346.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q8_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 351.1,
+        "x1": 523.2,
+        "y1": 386.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 359,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 151.6,
+        "x1": 560,
+        "y1": 323.2
+       }
+      }
+     ],
+     "text": "(a) Find the work done against friction as P moves from A to B. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q8_b.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 389.0,
+        "x1": 523.2,
+        "y1": 448.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 296,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 323.2,
+        "x1": 560,
+        "y1": 464.9
+       }
+      }
+     ],
+     "text": "Given that at the instant P reaches the point B, the speed of P is 5 m s –1 (b) use the work‑energy principle to find the value of U. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_06/q8_c.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 451.0,
+        "x1": 523.2,
+        "y1": 524.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_06/q8_c_ms.webp",
+       "w": 1092,
+       "h": 631,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 464.9,
+        "x1": 560,
+        "y1": 767.5
+       }
+      }
+     ],
+     "text": "The particle leaves the ramp at B, and moves freely under gravity until it hits the ground at the point C. (c) Find the horizontal distance from B to C. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2022_06/q8_notes.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 742.8,
+      "x1": 560,
+      "y1": 773.1
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

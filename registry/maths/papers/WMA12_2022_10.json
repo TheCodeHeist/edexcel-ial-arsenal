@@ -1,0 +1,1422 @@
+{
+ "id": "WMA12_2022_10",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2022-10",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2022_10_q1",
+   "number": 1,
+   "marks": 3,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q1.webp",
+       "w": 1090,
+       "h": 862,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 470.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q1_ms.webp",
+       "w": 1092,
+       "h": 584,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 87.6,
+        "x1": 560,
+        "y1": 367.2
+       }
+      }
+     ],
+     "text": "1. Given that a, b and c are integers greater than 0 such that • c = b + 2 • a + b + c = 10 Prove, by exhaustion, that the product of a, b and c is always even. You may use the table below to illustrate your answer. (3) You may not need to use all rows of this table. a b c 1 2",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q1_notes.webp",
+     "w": 1092,
+     "h": 884,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 364.2,
+      "x1": 560,
+      "y1": 788.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1: text after the marks"
+   ]
+  },
+  {
+   "id": "WMA12_2022_10_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q2_stem.webp",
+     "w": 1090,
+     "h": 225,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 164.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q2_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 166.3,
+        "x1": 559,
+        "y1": 215.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 157.3
+       }
+      }
+     ],
+     "text": "(a) show that k = 2 5 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q2_b.webp",
+       "w": 1090,
+       "h": 237,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 218.4,
+        "x1": 559,
+        "y1": 331.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 179,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 157.3,
+        "x1": 560,
+        "y1": 242.7
+       }
+      }
+     ],
+     "text": "(b) Find the first three terms, in ascending powers of x, of the binomial expansion of 5  2  − x 2   5 giving each term in simplest form. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q2_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 333.9,
+        "x1": 559,
+        "y1": 393.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 242.7,
+        "x1": 560,
+        "y1": 334.4
+       }
+      }
+     ],
+     "text": "Using the solution to part (b) and making your method clear, (c) find the gradient of C at the point where x = 0 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q2_notes_1.webp",
+     "w": 1092,
+     "h": 790,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 341.2,
+      "x1": 560,
+      "y1": 719.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1105,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 574.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q3_stem.webp",
+     "w": 1090,
+     "h": 179,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 142.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q3_a.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 145.1,
+        "x1": 559,
+        "y1": 228.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 76,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 76.7,
+        "x1": 560,
+        "y1": 112.6
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 76,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 112.6,
+        "x1": 560,
+        "y1": 148.4
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q3_a_ms_3.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 148.4,
+        "x1": 560,
+        "y1": 191.7
+       }
+      }
+     ],
+     "text": "(a) (i) a1 (ii) a2 (iii) a3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q3_b.webp",
+       "w": 1090,
+       "h": 251,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 231.1,
+        "x1": 559,
+        "y1": 351.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 191.7,
+        "x1": 560,
+        "y1": 324.0
+       }
+      }
+     ],
+     "text": "(b) Hence find the exact value of 50 ∑  nπ    2 n + cos       3   n = 1 You must make your method clear. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q3_notes.webp",
+     "w": 1092,
+     "h": 804,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 321.0,
+      "x1": 560,
+      "y1": 706.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q4_stem.webp",
+     "w": 1090,
+     "h": 264,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 183.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q4_a.webp",
+       "w": 1090,
+       "h": 70,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 185.9,
+        "x1": 559,
+        "y1": 219.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 158,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 150.1
+       }
+      }
+     ],
+     "text": "(a) show that a = 1.072 correct to 3 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q4_b.webp",
+       "w": 1090,
+       "h": 120,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 221.9,
+        "x1": 559,
+        "y1": 279.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 232,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 150.1,
+        "x1": 560,
+        "y1": 260.7
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 166,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 260.7,
+        "x1": 560,
+        "y1": 340.3
+       }
+      }
+     ],
+     "text": "Using a = 1.072 (b) find an equation for t in terms of w (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q4_c.webp",
+       "w": 1090,
+       "h": 70,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 281.9,
+        "x1": 559,
+        "y1": 315.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 340.3,
+        "x1": 560,
+        "y1": 415.7
+       }
+      }
+     ],
+     "text": "(c) find the value of t when w = 15, giving your answer to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q4_notes_1.webp",
+     "w": 1092,
+     "h": 724,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 412.7,
+      "x1": 560,
+      "y1": 759.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_10/q4_notes_2.webp",
+     "w": 1092,
+     "h": 550,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 308.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q5",
+   "number": 5,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q5_stem.webp",
+     "w": 1090,
+     "h": 106,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 107.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q5_a.webp",
+       "w": 1090,
+       "h": 243,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 114.0,
+        "x1": 559,
+        "y1": 230.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 346,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 73.8,
+        "x1": 560,
+        "y1": 239.1
+       }
+      }
+     ],
+     "text": "(a) Show that the equation (3 cos θ – tan θ)cos θ = 2 can be written as 3 sin2 θ + sin θ – 1 = 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q5_b.webp",
+       "w": 1090,
+       "h": 167,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 230.1,
+        "x1": 559,
+        "y1": 309.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 239.1,
+        "x1": 560,
+        "y1": 343.5
+       }
+      }
+     ],
+     "text": "π  x  2 π (b) Hence solve for – 2 (3 cos 2x – tan 2x)cos 2x = 2 (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q5_notes.webp",
+     "w": 1092,
+     "h": 906,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 350.3,
+      "x1": 560,
+      "y1": 784.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q6_stem.webp",
+     "w": 1090,
+     "h": 275,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 188.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q6_a.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 202.4,
+        "x1": 559,
+        "y1": 309.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 208,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 174.0
+       }
+      }
+     ],
+     "text": "(a) Use the trapezium rule with all the values of y in the table to find an approximation for 2∫f(x) dx 0 giving your answer to 3 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q6_b.webp",
+       "w": 1090,
+       "h": 936,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 312.8,
+        "x1": 559,
+        "y1": 761.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 291,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 174.0,
+        "x1": 560,
+        "y1": 313.0
+       }
+      }
+     ],
+     "text": "y x = 2 R R C1 C1 3 C2 C2 x 2 O Figure 1 Figure 2 The region R, shown shaded in Figure 1, is bounded by • the curve C1 the curve C2 with equation y = 2 – 1 • 4 x2 • the line with equation x = 2 • the y‑axis The region R forms part of the design for a logo shown in Figure 2. The design consists of the shaded region R inside a rectangle of width 2 and height 3 Using calculus and the answer to part (a), (b) calculate an estimate for the percentage of the logo which is shaded. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q6_notes.webp",
+     "w": 1092,
+     "h": 871,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 319.9,
+      "x1": 560,
+      "y1": 737.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q7_stem.webp",
+     "w": 1090,
+     "h": 147,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 126.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q7_a.webp",
+       "w": 1090,
+       "h": 220,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 135.5,
+        "x1": 559,
+        "y1": 240.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 261,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 199.5
+       }
+      }
+     ],
+     "text": "(a) Write the equation of C in the form 7 5 3 1 2 + bx 2 + cx 2 + dx 2 y = ax where a, b, c and d are fully simplified constants. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q7_b.webp",
+       "w": 1090,
+       "h": 234,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 243.2,
+        "x1": 559,
+        "y1": 355.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 205,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 199.5,
+        "x1": 560,
+        "y1": 297.5
+       }
+      }
+     ],
+     "text": "The curve C has three turning points. Using calculus, (b) show that the x coordinates of the three turning points satisfy the equation 2x3 – 10x2 + 13x – 5 = 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q7_c.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 357.8,
+        "x1": 559,
+        "y1": 450.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q7_c_ms.webp",
+       "w": 1092,
+       "h": 239,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 297.5,
+        "x1": 560,
+        "y1": 411.8
+       }
+      }
+     ],
+     "text": "Given that the x coordinate of one of the turning points is 1 (c) find, using algebra, the exact x coordinates of the other two turning points. (Solutions based entirely on calculator technology are not acceptable.) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 739,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 408.8,
+      "x1": 560,
+      "y1": 763.2
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 362,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 218.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q8",
+   "number": 8,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q8_stem.webp",
+     "w": 1090,
+     "h": 97,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q8_a.webp",
+       "w": 1090,
+       "h": 100,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 104.5,
+        "x1": 559,
+        "y1": 151.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 178,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 74.7,
+        "x1": 560,
+        "y1": 159.8
+       }
+      }
+     ],
+     "text": "(a) show that r = 2 3 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q8_b.webp",
+       "w": 1090,
+       "h": 243,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 154.5,
+        "x1": 559,
+        "y1": 270.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 352,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 159.8,
+        "x1": 560,
+        "y1": 328.2
+       }
+      }
+     ],
+     "text": "Given also that u2 – u4 = 16 where uk is the kth term of this sequence, (b) find the value of S10 giving your answer to one decimal place. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q8_notes.webp",
+     "w": 1092,
+     "h": 922,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 325.2,
+      "x1": 560,
+      "y1": 767.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q9",
+   "number": 9,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q9_stem.webp",
+     "w": 1090,
+     "h": 883,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 480.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 483.3,
+        "x1": 559,
+        "y1": 518.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q9_a_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 168.7
+       }
+      }
+     ],
+     "text": "(a) find the coordinates of T (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q9_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 521.2,
+        "x1": 559,
+        "y1": 580.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q9_b_ms.webp",
+       "w": 1092,
+       "h": 147,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 168.7,
+        "x1": 560,
+        "y1": 238.7
+       }
+      }
+     ],
+     "text": "The curve C1 intersects the circle C2 at the point A with x coordinate 2 (b) Find an equation of the circle C2 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q9_c.webp",
+       "w": 1090,
+       "h": 213,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 583.2,
+        "x1": 559,
+        "y1": 685.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q9_c_ms.webp",
+       "w": 1092,
+       "h": 233,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 238.7,
+        "x1": 560,
+        "y1": 350.0
+       }
+      }
+     ],
+     "text": "The line l shown in Figure 3, is the tangent to circle C2 at A (c) Show that an equation of l is 1 22 y = x + 3 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q9_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 687.7,
+        "x1": 559,
+        "y1": 747.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q9_d_ms.webp",
+       "w": 1092,
+       "h": 424,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 350.0,
+        "x1": 560,
+        "y1": 553.4
+       }
+      }
+     ],
+     "text": "The region R, shown shaded in Figure 3, is bounded by C1, l and the y‑axis. (d) Find the exact area of R. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 496,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 550.4,
+      "x1": 560,
+      "y1": 788.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1520,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 773.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_10_q10",
+   "number": 10,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_10/q10_stem.webp",
+     "w": 1090,
+     "h": 47,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q10_i.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 188.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q10_i_ms_1.webp",
+       "w": 1092,
+       "h": 46,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 96.1
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q10_i_ms_2.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 96.1,
+        "x1": 560,
+        "y1": 156.4
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q10_i_ms_3.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 189.8,
+        "x1": 560,
+        "y1": 217.9
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q10_i_ms_4.webp",
+       "w": 1092,
+       "h": 253,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 217.9,
+        "x1": 560,
+        "y1": 338.8
+       }
+      }
+     ],
+     "text": "(i) write, in simplest form, in terms of a, (a) log2 9   3 (b) log2   16 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_10/q10_ii.webp",
+       "w": 1090,
+       "h": 187,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 191.2,
+        "x1": 559,
+        "y1": 280.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_10/q10_ii_ms_1.webp",
+       "w": 1092,
+       "h": 585,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 363.5,
+        "x1": 560,
+        "y1": 643.9
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_10/q10_ii_ms_2.webp",
+       "w": 1092,
+       "h": 937,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 66.9,
+        "x1": 560,
+        "y1": 516.2
+       }
+      }
+     ],
+     "text": "(ii) Solve 3x × 2x + 4 = 6 giving your answer, in simplest form, in terms of a. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_10/q10_notes_1.webp",
+     "w": 1092,
+     "h": 577,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 513.2,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_10/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1379,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 706.3
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_10/q10_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 748.4,
+      "x1": 560,
+      "y1": 777.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

@@ -1,0 +1,1290 @@
+{
+ "id": "WST02_2022_01",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2022-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2022_01_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_01/q1_stem.webp",
+     "w": 1016,
+     "h": 154,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 130.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q1_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 523.2,
+        "y1": 168.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 96.0,
+        "x1": 560,
+        "y1": 171.5
+       }
+      }
+     ],
+     "text": "(a) Find the value of x (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q1_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 171.1,
+        "x1": 523.2,
+        "y1": 220.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 171.5,
+        "x1": 560,
+        "y1": 247.6
+       }
+      }
+     ],
+     "text": "(b) Use a normal approximation to find the probability that in 6 randomly chosen weeks the total number of faulty cups made is fewer than 32 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q1_c.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 223.1,
+        "x1": 523.2,
+        "y1": 296.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 247.6,
+        "x1": 560,
+        "y1": 354.2
+       }
+      }
+     ],
+     "text": "A week is called a “poor week” if at least x faulty cups are made, where x is the value found in part (a). (c) Find the probability that in 50 randomly chosen weeks, more than 1 is a “poor week”. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q1_notes.webp",
+     "w": 1092,
+     "h": 489,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 351.2,
+      "x1": 560,
+      "y1": 585.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_01_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_01/q2_stem.webp",
+     "w": 1016,
+     "h": 282,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 191.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 194.6,
+        "x1": 523.2,
+        "y1": 230.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 160.5
+       }
+      }
+     ],
+     "text": "(a) Specify fully, in terms of k, the probability density function of X (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q2_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 232.6,
+        "x1": 523.2,
+        "y1": 268.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 160.5,
+        "x1": 560,
+        "y1": 190.4
+       }
+      }
+     ],
+     "text": "(b) Write down, in terms of k, the value of E(X ) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q2_c.webp",
+       "w": 1016,
+       "h": 94,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 269.6,
+        "x1": 523.2,
+        "y1": 314.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 186,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 190.4,
+        "x1": 560,
+        "y1": 279.0
+       }
+      }
+     ],
+     "text": "(c) Show that Var(X ) = 4 2 3 k (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q2_d.webp",
+       "w": 1016,
+       "h": 79,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 315.1,
+        "x1": 523.2,
+        "y1": 352.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 280,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 279.0,
+        "x1": 560,
+        "y1": 413.0
+       }
+      }
+     ],
+     "text": "2) (d) Find, in terms of k, the value of E(3X (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q2_notes.webp",
+     "w": 1092,
+     "h": 436,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 410.0,
+      "x1": 560,
+      "y1": 618.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_01/q3_stem.webp",
+     "w": 1016,
+     "h": 75,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q3_a.webp",
+       "w": 1016,
+       "h": 98,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 523.2,
+        "y1": 141.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 58,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 96.0,
+        "x1": 560,
+        "y1": 123.1
+       }
+      }
+     ],
+     "text": "(a) Give a reason why a Poisson distribution could be used to model the number of breakdowns. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q3_b.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 144.2,
+        "x1": 523.2,
+        "y1": 217.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 123.1,
+        "x1": 560,
+        "y1": 154.5
+       }
+      }
+     ],
+     "text": "The headteacher of the school replaces the photocopier with a refurbished one and wants to find out if the rate of breakdowns has increased or decreased. (b) Write down suitable null and alternative hypotheses that the headteacher should use. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q3_c.webp",
+       "w": 1016,
+       "h": 150,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 220.1,
+        "x1": 523.2,
+        "y1": 291.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 154.5,
+        "x1": 560,
+        "y1": 230.0
+       }
+      }
+     ],
+     "text": "The refurbished photocopier was monitored for the first week after it was installed. (c) Using a 5% level of significance, find the critical region to test whether the rate of breakdowns has now changed. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q3_d.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 294.1,
+        "x1": 523.2,
+        "y1": 329.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 83,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 230.0,
+        "x1": 560,
+        "y1": 269.5
+       }
+      }
+     ],
+     "text": "(d) Find the actual significance level of a test based on the critical region from part (c). (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q3_e.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 332.1,
+        "x1": 523.2,
+        "y1": 391.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q3_e_ms.webp",
+       "w": 1092,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 269.5,
+        "x1": 560,
+        "y1": 329.0
+       }
+      }
+     ],
+     "text": "During the first week after it was installed there were 4 breakdowns. (e) Comment on this finding in the light of the critical region found in part (c). (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q3_notes.webp",
+     "w": 1092,
+     "h": 519,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 326.0,
+      "x1": 560,
+      "y1": 574.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_01_q4",
+   "number": 4,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_01/q4_stem.webp",
+     "w": 1016,
+     "h": 350,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 224.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q4_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 227.0,
+        "x1": 523.2,
+        "y1": 262.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 104.5,
+        "x1": 560,
+        "y1": 186.8
+       }
+      }
+     ],
+     "text": "(a) Sketch f(x) for all values of x (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q4_b.webp",
+       "w": 1016,
+       "h": 96,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 263.3,
+        "x1": 523.2,
+        "y1": 308.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 242,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 186.8,
+        "x1": 560,
+        "y1": 302.8
+       }
+      }
+     ],
+     "text": "(b) Show that k = 1 6 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q4_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 311.4,
+        "x1": 523.2,
+        "y1": 346.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 519,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 302.8,
+        "x1": 560,
+        "y1": 551.5
+       }
+      }
+     ],
+     "text": "(c) Specify fully the cumulative distribution function F(x) of X (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q4_d.webp",
+       "w": 1016,
+       "h": 158,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 347.7,
+        "x1": 523.2,
+        "y1": 422.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q4_d_ms.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 551.5,
+        "x1": 560,
+        "y1": 597.4
+       }
+      }
+     ],
+     "text": "Given that E(X ) = 61 12 (d) find P(X > E(X )) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q4_e.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 425.4,
+        "x1": 523.2,
+        "y1": 460.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q4_e_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 597.4,
+        "x1": 560,
+        "y1": 656.3
+       }
+      }
+     ],
+     "text": "(e) Describe the skewness of the distribution, giving a reason for your answer. (2)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 252,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 653.3,
+      "x1": 560,
+      "y1": 774.1
+     }
+    },
+    {
+     "src": "maths/WST02_2022_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 575,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 67.5,
+      "x1": 560,
+      "y1": 342.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_01_q5",
+   "number": 5,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_01/q5_stem.webp",
+     "w": 1016,
+     "h": 104,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 106.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q5_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 109.2,
+        "x1": 523.2,
+        "y1": 158.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 96.0,
+        "x1": 560,
+        "y1": 122.3
+       }
+      }
+     ],
+     "text": "(a) Write down a suitable model for the distribution of the number of applicants identified as colour blind from a total of n applicants. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q5_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 161.2,
+        "x1": 523.2,
+        "y1": 210.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 82,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 122.3,
+        "x1": 560,
+        "y1": 161.2
+       }
+      }
+     ],
+     "text": "(b) State one assumption necessary for this distribution to be a suitable model of this situation. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q5_c.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 213.2,
+        "x1": 523.2,
+        "y1": 262.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 161.2,
+        "x1": 560,
+        "y1": 237.0
+       }
+      }
+     ],
+     "text": "(c) Using a suitable approximation, find the probability that exactly 5 out of 120 applicants are identified as colour blind. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q5_d.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 265.1,
+        "x1": 523.2,
+        "y1": 300.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q5_d_ms.webp",
+       "w": 1092,
+       "h": 85,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 237.0,
+        "x1": 560,
+        "y1": 277.2
+       }
+      }
+     ],
+     "text": "(d) Explain why the approximation that you used in part (c) is appropriate. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(e)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q5_e.webp",
+       "w": 1016,
+       "h": 262,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 303.1,
+        "x1": 523.2,
+        "y1": 428.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q5_e_ms.webp",
+       "w": 1092,
+       "h": 750,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 277.2,
+        "x1": 560,
+        "y1": 636.9
+       }
+      }
+     ],
+     "text": "Jaymini claims that 75% of all applicants for this training programme go on to become pilots. From a random sample of 96 applicants for this training programme 67 go on to become pilots. (e) Using a suitable approximation, test Jaymini’s claim at the 5% level of significance. State your hypotheses clearly. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 279,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 633.9,
+      "x1": 560,
+      "y1": 767.1
+     }
+    },
+    {
+     "src": "maths/WST02_2022_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 807,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 67.0,
+      "x1": 560,
+      "y1": 453.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_01_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 81,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 135.7
+       }
+      }
+     ],
+     "text": "6 (a) Explain what you understand by the sampling distribution of a statistic. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q6_b.webp",
+       "w": 1016,
+       "h": 320,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 523.2,
+        "y1": 248.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 650,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 135.7,
+        "x1": 560,
+        "y1": 447.1
+       }
+      }
+     ],
+     "text": "At Sam’s cafe a standard breakfast consists of 6 breakfast items. Customers can then choose to upgrade to a medium breakfast by adding 1 extra breakfast item or they can upgrade to a large breakfast by adding 2 extra breakfast items. Standard, medium and large breakfasts are sold in the ratio 6 : 3 : 2 respectively. A random sample of 2 customers is taken from customers who have bought a breakfast from Sam’s cafe on a particular day. (b) Find the sampling distribution for the total number, T, of breakfast items bought by these 2 customers. Show your working clearly. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q6_c.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 251.1,
+        "x1": 523.2,
+        "y1": 286.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 190,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 447.1,
+        "x1": 560,
+        "y1": 538.0
+       }
+      }
+     ],
+     "text": "(c) Find E(T ) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q6_notes.webp",
+     "w": 1092,
+     "h": 461,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 535.0,
+      "x1": 560,
+      "y1": 756.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_01_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_01/q7_stem.webp",
+     "w": 1016,
+     "h": 96,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 102.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q7_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 104.8,
+        "x1": 523.2,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 157,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 95.6,
+        "x1": 560,
+        "y1": 170.5
+       }
+      }
+     ],
+     "text": "(a) find P(L  4.5) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_01/q7_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 523.2,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 511,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 170.5,
+        "x1": 560,
+        "y1": 415.5
+       }
+      }
+     ],
+     "text": "(b) find Var(L) (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_01/q7_notes.webp",
+     "w": 1092,
+     "h": 680,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 412.5,
+      "x1": 560,
+      "y1": 738.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

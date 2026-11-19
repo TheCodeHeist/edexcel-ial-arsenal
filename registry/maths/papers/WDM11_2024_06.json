@@ -1,0 +1,1279 @@
+{
+ "id": "WDM11_2024_06",
+ "subject": "maths",
+ "unit": "WDM11",
+ "series": "2024-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202024/IAL_MATHS_2024_MayJune_D1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202024/IAL_MATHS_2024_MayJune_D1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WDM11_2024_06_q1",
+   "number": 1,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q1_stem.webp",
+     "w": 1090,
+     "h": 100,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 69.5,
+      "x1": 559,
+      "y1": 117.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q1_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 120.6,
+        "x1": 559,
+        "y1": 170.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 241,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 100.4,
+        "x1": 560,
+        "y1": 215.6
+       }
+      }
+     ],
+     "text": "(a) Use the first‑fit bin packing algorithm to determine how the eleven numbers listed above can be packed into bins of size 14 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q1_b.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 172.4,
+        "x1": 559,
+        "y1": 236.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 411,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 215.6,
+        "x1": 560,
+        "y1": 412.5
+       }
+      }
+     ],
+     "text": "(b) The list of numbers is to be sorted into ascending order. Use a quick sort to obtain the sorted list. You should show the result of each pass and identify your pivots clearly. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q1_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 238.6,
+        "x1": 559,
+        "y1": 288.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 412.5,
+        "x1": 560,
+        "y1": 469.1
+       }
+      }
+     ],
+     "text": "(c) Apply the first‑fit decreasing bin packing algorithm to the sorted list to pack the numbers into bins of size 14 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q1_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 290.6,
+        "x1": 559,
+        "y1": 326.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 244,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 469.1,
+        "x1": 560,
+        "y1": 586.0
+       }
+      }
+     ],
+     "text": "(d) Explain why the number of bins used in part (c) is optimal. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q1_e.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 328.4,
+        "x1": 559,
+        "y1": 392.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q1_e_ms.webp",
+       "w": 1092,
+       "h": 281,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 586.0,
+        "x1": 560,
+        "y1": 720.2
+       }
+      }
+     ],
+     "text": "(e) Use the binary search algorithm to try to locate 3.0 in the list of numbers. Clearly indicate how you choose your pivots and which part of the list is rejected at each stage. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q1_notes_1.webp",
+     "w": 1092,
+     "h": 1416,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 746.9
+     }
+    },
+    {
+     "src": "maths/WDM11_2024_06/q1_notes_2.webp",
+     "w": 1092,
+     "h": 980,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 537.8
+     }
+    },
+    {
+     "src": "maths/WDM11_2024_06/q1_notes_3.webp",
+     "w": 1092,
+     "h": 94,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 190.5,
+      "x1": 560,
+      "y1": 235.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2024_06_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q2_stem.webp",
+     "w": 1090,
+     "h": 863,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 458.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 5,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q2_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 461.7,
+        "x1": 559,
+        "y1": 535.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 311,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 235.0,
+        "x1": 560,
+        "y1": 383.5
+       }
+      },
+      {
+       "src": "maths/WDM11_2024_06/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 383.5,
+        "x1": 560,
+        "y1": 411.8
+       }
+      }
+     ],
+     "text": "(a) (i) Complete Diagram 1 in the answer book to show the early event times and the late event times. (ii) State the minimum completion time of the project. (5)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 537.7,
+        "x1": 559,
+        "y1": 587.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 411.8,
+        "x1": 560,
+        "y1": 491.8
+       }
+      }
+     ],
+     "text": "(b) Calculate a lower bound for the number of workers needed to complete the project in the minimum time. You must show your working. (1)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q2_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 589.7,
+        "x1": 559,
+        "y1": 639.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 494.3,
+        "x1": 560,
+        "y1": 578.5
+       }
+      }
+     ],
+     "text": "(c) Schedule the activities using the minimum number of workers so that the project is completed in the minimum time. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q2_notes_1.webp",
+     "w": 1092,
+     "h": 1154,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 621.5
+     }
+    },
+    {
+     "src": "maths/WDM11_2024_06/q2_notes_2.webp",
+     "w": 1092,
+     "h": 94,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 155.5,
+      "x1": 560,
+      "y1": 199.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2024_06_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q3_stem.webp",
+     "w": 1090,
+     "h": 848,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 451.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q3_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 454.6,
+        "x1": 559,
+        "y1": 514.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 356,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 199.9,
+        "x1": 560,
+        "y1": 370.3
+       }
+      }
+     ],
+     "text": "(a) Use Dijkstra’s algorithm to find the shortest time needed to travel from A to J. State the quickest route. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q3_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 516.5,
+        "x1": 559,
+        "y1": 589.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 370.3,
+        "x1": 560,
+        "y1": 431.6
+       }
+      }
+     ],
+     "text": "(b) Hence determine the weight of the minimum spanning tree for the network given in Figure 2. Give a reason for your answer. You do not need to find the minimum spanning tree. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q3_notes.webp",
+     "w": 1092,
+     "h": 738,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 428.6,
+      "x1": 560,
+      "y1": 782.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2024_06_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q4_stem.webp",
+     "w": 1090,
+     "h": 1363,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 699.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 701.9,
+        "x1": 559,
+        "y1": 751.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 62,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 100.9
+       }
+      }
+     ],
+     "text": "(a) Starting at A, use Prim’s algorithm to find a minimum spanning tree for the table of shortest distances. You must state the order in which you select the arcs of your tree. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q4_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 753.9,
+        "x1": 559,
+        "y1": 789.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 100.9,
+        "x1": 560,
+        "y1": 129.7
+       }
+      }
+     ],
+     "text": "(b) State the weight of the minimum spanning tree. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 45.9,
+        "x1": 559,
+        "y1": 119.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 129.7,
+        "x1": 560,
+        "y1": 158.5
+       }
+      }
+     ],
+     "text": "A route is needed that minimises the total distance to traverse each road at least once. The route must start at E and finish at F. (c) Determine the length of this route. You must give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q4_d.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 559,
+        "y1": 209.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q4_d_ms.webp",
+       "w": 1092,
+       "h": 416,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 158.5,
+        "x1": 560,
+        "y1": 357.7
+       }
+      }
+     ],
+     "text": "It is now decided to start the route at C and finish the route at A. The route must include every road at least once and must still minimise the total distance travelled. (d) By considering the pairings of all relevant nodes, find the roads that need to be traversed twice. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q4_e.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 211.8,
+        "x1": 559,
+        "y1": 313.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q4_e_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 357.7,
+        "x1": 560,
+        "y1": 386.6
+       }
+      }
+     ],
+     "text": "Naoko needs to visit all nine factories, starting and finishing at the same factory, and wishes to minimise the total distance travelled. (e) Starting at B, use the nearest neighbour algorithm on the table of shortest distances to find an upper bound for the length of Naoko’s route. Write down the cycle, obtained from the table of shortest distances, which gives this upper bound. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q4_f.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 315.8,
+        "x1": 559,
+        "y1": 365.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q4_f_ms.webp",
+       "w": 1092,
+       "h": 115,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 386.6,
+        "x1": 560,
+        "y1": 441.5
+       }
+      }
+     ],
+     "text": "(f) By deleting C and all of its arcs, use the values in the table of shortest distances to find a lower bound for the length of Naoko’s route. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q4_notes.webp",
+     "w": 1092,
+     "h": 1102,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 568.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2024_06_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q5_stem.webp",
+     "w": 1090,
+     "h": 561,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 314.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q5_a.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 317.7,
+        "x1": 559,
+        "y1": 381.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 398,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 71.2,
+        "x1": 560,
+        "y1": 262.0
+       }
+      }
+     ],
+     "text": "(a) Formulate this information as a linear programming problem in x and y only, stating the objective and listing the constraints as simplified inequalities with integer coefficients. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q5_b.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 383.7,
+        "x1": 559,
+        "y1": 505.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 262.0,
+        "x1": 560,
+        "y1": 334.2
+       }
+      },
+      {
+       "src": "maths/WDM11_2024_06/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 69,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 334.2,
+        "x1": 560,
+        "y1": 366.9
+       }
+      }
+     ],
+     "text": "The head of department decides to order exactly 42 reams of lined paper and still wishes to maximise the total number of reams of paper ordered. (b) Determine (i) the total number of reams of paper to be ordered, (ii) the number of reams of graph paper to be ordered. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 668,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 363.9,
+      "x1": 560,
+      "y1": 684.1
+     }
+    },
+    {
+     "src": "maths/WDM11_2024_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 174,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 74.7,
+      "x1": 560,
+      "y1": 157.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2024_06_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q6_stem.webp",
+     "w": 1090,
+     "h": 661,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 362.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q6_a.webp",
+       "w": 1090,
+       "h": 102,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 372.1,
+        "x1": 559,
+        "y1": 420.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 209,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 157.5,
+        "x1": 560,
+        "y1": 257.5
+       }
+      }
+     ],
+     "text": "(a) Draw the activity network for the project described in the precedence table, using activity on arc and the minimum number of dummies. (5)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q6_b_1.webp",
+       "w": 1090,
+       "h": 594,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 420.9,
+        "x1": 559,
+        "y1": 705.2
+       }
+      },
+      {
+       "src": "maths/WDM11_2024_06/q6_b_2.webp",
+       "w": 1090,
+       "h": 290,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 42.7,
+        "x1": 559,
+        "y1": 181.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 30,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 257.5,
+        "x1": 560,
+        "y1": 271.3
+       }
+      }
+     ],
+     "text": "0 2 4 6 8 10 12 14 16 18 20 22 B G H M A D C E F I J K Grid 1 A cascade chart for all the activities of the project, except activity L, is shown on Grid 1. The time taken to complete each activity is given in hours and each activity requires one worker. The project is to be completed in the minimum time using as few workers as possible. (b) State the critical activities of the project. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q6_c.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 183.8,
+        "x1": 559,
+        "y1": 247.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 271.3,
+        "x1": 560,
+        "y1": 300.0
+       }
+      }
+     ],
+     "text": "(c) Use the cascade chart to determine the minimum number of workers needed to complete the project in the shortest possible time. You must make specific reference to time and activities. (You do not need to provide a schedule of the activities.) (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "6(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q6_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 249.8,
+        "x1": 559,
+        "y1": 323.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 69,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 300.0,
+        "x1": 560,
+        "y1": 332.6
+       }
+      }
+     ],
+     "text": "The duration of activity L is x hours. Given that the total float of activity L is at most 7 hours, (d) determine the range of possible values for x. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 943,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 329.6,
+      "x1": 560,
+      "y1": 781.7
+     }
+    },
+    {
+     "src": "maths/WDM11_2024_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 28,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 74.7,
+      "x1": 560,
+      "y1": 87.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(b): runs across pages"
+   ]
+  },
+  {
+   "id": "WDM11_2024_06_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WDM11_2024_06/q7_stem.webp",
+     "w": 1090,
+     "h": 843,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 449.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 456.3,
+        "x1": 559,
+        "y1": 491.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 199,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 87.7,
+        "x1": 560,
+        "y1": 182.5
+       }
+      }
+     ],
+     "text": "(a) Determine the inequalities that define R. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_06/q7_b.webp",
+       "w": 1090,
+       "h": 276,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 494.3,
+        "x1": 559,
+        "y1": 626.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 682,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 182.5,
+        "x1": 560,
+        "y1": 509.6
+       }
+      }
+     ],
+     "text": "The objective function, P, is given by P = 2x + ky where k is a positive constant. Given that the minimum value of P is at least half of the maximum value of P, (b) determine the range of possible values of k. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2024_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 591,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 506.6,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WDM11_2024_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 750.5,
+      "x1": 560,
+      "y1": 779.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

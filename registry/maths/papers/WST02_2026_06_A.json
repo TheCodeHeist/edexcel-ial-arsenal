@@ -1,0 +1,1368 @@
+{
+ "id": "WST02_2026_06_A",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2026-06",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S2A_QP_1786858037764.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_S2A_MS_1787724198249.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2026_06_A_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q1_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 67.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q1_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 69.8,
+        "x1": 559,
+        "y1": 119.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q1_a_ms.webp",
+       "w": 1092,
+       "h": 156,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 95.9,
+        "x1": 560,
+        "y1": 170.1
+       }
+      }
+     ],
+     "text": "(a) Find the probability that in a randomly chosen 150 cm plank there will be exactly 5 minor defects. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q1_b.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 559,
+        "y1": 233.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q1_b_ms.webp",
+       "w": 1092,
+       "h": 207,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 170.1,
+        "x1": 560,
+        "y1": 269.0
+       }
+      }
+     ],
+     "text": "Planks are sold in packs of 6, with each plank measuring 100 cm in length. A pack is selected at random. (b) Find the probability that exactly 2 of these 6 planks will have fewer than 4 minor defects. You must show your working. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q1_c.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 235.8,
+        "x1": 559,
+        "y1": 299.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q1_c_ms.webp",
+       "w": 1092,
+       "h": 267,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 269.0,
+        "x1": 560,
+        "y1": 396.8
+       }
+      }
+     ],
+     "text": "(c) Using a suitable approximation, find the probability that the total number of minor defects in the 6 planks is less than 28 You must show your working. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q1_notes.webp",
+     "w": 1092,
+     "h": 374,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 393.8,
+      "x1": 560,
+      "y1": 572.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_06_A_q2",
+   "number": 2,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q2_stem.webp",
+     "w": 1090,
+     "h": 326,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 201.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_a.webp",
+       "w": 1090,
+       "h": 95,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 216.1,
+        "x1": 559,
+        "y1": 261.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 204,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 97.3,
+        "x1": 560,
+        "y1": 194.5
+       }
+      }
+     ],
+     "text": "1 (a) show that k = 1728 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 264.1,
+        "x1": 559,
+        "y1": 313.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_b_ms.webp",
+       "w": 1092,
+       "h": 309,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 194.5,
+        "x1": 560,
+        "y1": 342.6
+       }
+      }
+     ],
+     "text": "(b) By finding the value of b, specify the probability density function, f (x), for all values of x (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 316.1,
+        "x1": 559,
+        "y1": 351.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_c_ms.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 342.6,
+        "x1": 560,
+        "y1": 399.1
+       }
+      }
+     ],
+     "text": "(c) Find the median of X (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 354.0,
+        "x1": 559,
+        "y1": 389.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_d_ms.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 399.1,
+        "x1": 560,
+        "y1": 425.4
+       }
+      }
+     ],
+     "text": "(d) State the mode of X (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(e)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 392.0,
+        "x1": 559,
+        "y1": 427.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q2_e_ms.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 425.4,
+        "x1": 560,
+        "y1": 471.8
+       }
+      }
+     ],
+     "text": "(e) State, giving a reason, the skewness of the distribution of X (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q2_notes.webp",
+     "w": 1092,
+     "h": 632,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 468.8,
+      "x1": 560,
+      "y1": 771.4
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WST02_2026_06_A_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q3_stem.webp",
+     "w": 1090,
+     "h": 74,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 119.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_a_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 119.0,
+        "x1": 560,
+        "y1": 147.4
+       }
+      }
+     ],
+     "text": "(a) Suggest a suitable sampling frame for the survey. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 559,
+        "y1": 157.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_b_ms.webp",
+       "w": 1092,
+       "h": 58,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 147.4,
+        "x1": 560,
+        "y1": 174.6
+       }
+      }
+     ],
+     "text": "(b) Identify the sampling units. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 159.6,
+        "x1": 559,
+        "y1": 209.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_c_ms.webp",
+       "w": 1092,
+       "h": 84,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 174.6,
+        "x1": 560,
+        "y1": 214.5
+       }
+      }
+     ],
+     "text": "(c) Give one advantage and one disadvantage of taking a sample survey rather than a census. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_d.webp",
+       "w": 1090,
+       "h": 333,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 211.8,
+        "x1": 559,
+        "y1": 371.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_d_ms_1.webp",
+       "w": 1092,
+       "h": 87,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 214.5,
+        "x1": 560,
+        "y1": 255.4
+       }
+      },
+      {
+       "src": "maths/WST02_2026_06_A/q3_d_ms_2.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 255.4,
+        "x1": 560,
+        "y1": 317.4
+       }
+      }
+     ],
+     "text": "It is known that on average 3 in every 1000 births at this hospital result in identical twins being born. When twins are born this is counted as one birth. Last year there were 3000 births at this hospital. (d) Using a Poisson approximation, find the probability that at this hospital last year there were (i) less than 4 births resulting in identical twins, (ii) more than 7 but at most 10 births resulting in identical twins. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 373.7,
+        "x1": 559,
+        "y1": 409.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q3_e_ms.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 317.4,
+        "x1": 560,
+        "y1": 363.8
+       }
+      }
+     ],
+     "text": "(e) Explain why the Poisson approximation in part (d) is suitable. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q3_notes.webp",
+     "w": 1092,
+     "h": 367,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 360.8,
+      "x1": 560,
+      "y1": 536.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_06_A_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q4_stem.webp",
+     "w": 1090,
+     "h": 124,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 105.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 107.6,
+        "x1": 559,
+        "y1": 157.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_a_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 119.0,
+        "x1": 560,
+        "y1": 186.0
+       }
+      }
+     ],
+     "text": "(a) State, in context, two conditions necessary for a binomial distribution to be a suitable model for the number of faulty electrical components in the sample. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_b.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 159.8,
+        "x1": 559,
+        "y1": 223.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 186.0,
+        "x1": 560,
+        "y1": 280.8
+       }
+      }
+     ],
+     "text": "(b) Using a 5% significance level, find the critical region for a two-tailed test of the hypothesis that the probability of an electrical component being faulty is 0.2 The probability of rejection in each tail should be as close as possible to 0.025 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 225.8,
+        "x1": 559,
+        "y1": 275.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_c_ms.webp",
+       "w": 1092,
+       "h": 77,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 280.8,
+        "x1": 560,
+        "y1": 317.0
+       }
+      }
+     ],
+     "text": "(c) Find the actual significance level of this test based on your critical region from part (b) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 277.8,
+        "x1": 559,
+        "y1": 351.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_d_ms.webp",
+       "w": 1092,
+       "h": 76,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 317.0,
+        "x1": 560,
+        "y1": 353.3
+       }
+      }
+     ],
+     "text": "In this sample 4 electrical components were found to be faulty. (d) Comment on the company’s claim with reference to your answer to part (b) You must justify your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_e.webp",
+       "w": 1090,
+       "h": 292,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 353.7,
+        "x1": 559,
+        "y1": 493.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q4_e_ms.webp",
+       "w": 1092,
+       "h": 233,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 353.3,
+        "x1": 560,
+        "y1": 464.2
+       }
+      }
+     ],
+     "text": "To try to reduce the number of faulty electrical components being received, the company changes supplier. After the change of supplier, the company takes a random sample of 25 electrical components and 2 were found to be faulty. (e) Test, at the 10% level of significance, whether or not the probability of a faulty electrical component has decreased. State your hypotheses clearly. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q4_notes.webp",
+     "w": 1092,
+     "h": 549,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 461.2,
+      "x1": 560,
+      "y1": 724.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_06_A_q5",
+   "number": 5,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q5_stem.webp",
+     "w": 1090,
+     "h": 174,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 129.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 131.8,
+        "x1": 559,
+        "y1": 167.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 119.0,
+        "x1": 560,
+        "y1": 161.2
+       }
+      }
+     ],
+     "text": "(a) List all 7 possible samples of size 3 with M = 4 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 559,
+        "y1": 205.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_b_ms.webp",
+       "w": 1092,
+       "h": 255,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 161.2,
+        "x1": 560,
+        "y1": 282.9
+       }
+      }
+     ],
+     "text": "(b) Find the probability that M = 4 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 207.8,
+        "x1": 559,
+        "y1": 243.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_c_ms.webp",
+       "w": 1092,
+       "h": 286,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 282.9,
+        "x1": 560,
+        "y1": 419.7
+       }
+      }
+     ],
+     "text": "(c) Find the sampling distribution of M (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 245.7,
+        "x1": 559,
+        "y1": 319.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q5_d_ms.webp",
+       "w": 1092,
+       "h": 257,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 419.7,
+        "x1": 560,
+        "y1": 542.8
+       }
+      }
+     ],
+     "text": "A random sample of n sets of 3 counters is taken. The random variable Y represents the number of these n sets that have M = 6 (d) Calculate the minimum value of n such that P (Y  1) > 0.95 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q5_notes.webp",
+     "w": 1092,
+     "h": 484,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 539.8,
+      "x1": 560,
+      "y1": 771.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_06_A_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q6_stem.webp",
+     "w": 1090,
+     "h": 134,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 355.5,
+      "x1": 559,
+      "y1": 419.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 423.6,
+        "x1": 559,
+        "y1": 459.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 319,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 115.8,
+        "x1": 560,
+        "y1": 268.4
+       }
+      }
+     ],
+     "text": "(a) find P( X b −2 a > ) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q6_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 461.5,
+        "x1": 559,
+        "y1": 544.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 176,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 268.4,
+        "x1": 560,
+        "y1": 352.6
+       }
+      },
+      {
+       "src": "maths/WST02_2026_06_A/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 352.6,
+        "x1": 560,
+        "y1": 485.1
+       }
+      }
+     ],
+     "text": "The continuous variable Y is uniformly distributed over the interval [3, c] where c > 3 . / O Given that E Y 2 549 , find (b) (i) the value of c (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q6_b_ii.webp",
+       "w": 1090,
+       "h": 110,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 550.3,
+        "x1": 559,
+        "y1": 602.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q6_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 176,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 268.4,
+        "x1": 560,
+        "y1": 352.6
+       }
+      },
+      {
+       "src": "maths/WST02_2026_06_A/q6_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 352.6,
+        "x1": 560,
+        "y1": 485.1
+       }
+      }
+     ],
+     "text": "3 Y 17 \u001b (ii) the exact value of P 4 Y 3 14 < \u001a\u0019 2 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q6_notes.webp",
+     "w": 1092,
+     "h": 607,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 482.1,
+      "x1": 560,
+      "y1": 773.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_06_A_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_06_A/q7_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 48.3,
+      "x1": 559,
+      "y1": 69.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 72.3,
+        "x1": 559,
+        "y1": 121.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 112.1,
+        "x1": 560,
+        "y1": 178.0
+       }
+      }
+     ],
+     "text": "(a) Find the value of p and the value of σ 2 such that X can be approximated by the normal distribution N (42, σ 2) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q7_b.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 129.8,
+        "x1": 559,
+        "y1": 227.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 83,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 178.0,
+        "x1": 560,
+        "y1": 217.2
+       }
+      },
+      {
+       "src": "maths/WST02_2026_06_A/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 276,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 217.2,
+        "x1": 560,
+        "y1": 349.4
+       }
+      }
+     ],
+     "text": "1 The random variable W n ~ B , \u001b\u001a 3 . / (b) (i) Write down an expression for P W O 2 in terms of n . / O . / (ii) Find the value of n such that P W O 2 P W O 3 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_06_A/q7_c.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 230.4,
+        "x1": 559,
+        "y1": 322.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_06_A/q7_c_ms.webp",
+       "w": 1092,
+       "h": 258,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 349.4,
+        "x1": 560,
+        "y1": 472.4
+       }
+      }
+     ],
+     "text": "The random variable Y ~ Po ( λ ) (c) Find, in terms of r, an expression for λ such that . / O Y O r r 1 \u001b Y O r 1 P ( 2 ) P ( 2 ) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_06_A/q7_notes.webp",
+     "w": 1092,
+     "h": 428,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 469.4,
+      "x1": 560,
+      "y1": 674.1
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

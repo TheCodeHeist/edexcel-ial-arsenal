@@ -1,0 +1,1382 @@
+{
+ "id": "WMA13_2025_10_A",
+ "subject": "maths",
+ "unit": "WMA13",
+ "series": "2025-10",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202025/IAL_MATHS_2025_Oct_P3A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202025/IAL_MATHS_2025_Oct_P3A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA13_2025_10_A_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q1_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 67.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 68.2,
+        "x1": 559,
+        "y1": 104.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 95.9,
+        "x1": 560,
+        "y1": 142.4
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_ms_2.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 142.4,
+        "x1": 560,
+        "y1": 187.4
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_ms_3.webp",
+       "w": 1092,
+       "h": 532,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 187.4,
+        "x1": 560,
+        "y1": 442.3
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_ms_4.webp",
+       "w": 1092,
+       "h": 563,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 442.3,
+        "x1": 560,
+        "y1": 712.1
+       }
+      }
+     ],
+     "text": "∫ (i) (a) x x 12 (2 + 3) d (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(i)(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_b.webp",
+       "w": 1090,
+       "h": 92,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 104.0,
+        "x1": 559,
+        "y1": 147.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 95.9,
+        "x1": 560,
+        "y1": 142.4
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 142.4,
+        "x1": 560,
+        "y1": 187.4
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q1_i_b_ms_3.webp",
+       "w": 1092,
+       "h": 563,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 442.3,
+        "x1": 560,
+        "y1": 712.1
+       }
+      }
+     ],
+     "text": "x 5 (b) x d x 1 2 4 1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q1_ii.webp",
+       "w": 1090,
+       "h": 241,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 150.0,
+        "x1": 559,
+        "y1": 265.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q1_ii_ms.webp",
+       "w": 1092,
+       "h": 254,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 60.9,
+        "x1": 560,
+        "y1": 182.1
+       }
+      }
+     ],
+     "text": "(ii) Given that a 1 t 2 1 a > 0 t O d ln 7 t a find the exact value of constant a. (Solutions relying on calculator technology are not acceptable.) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q1_notes.webp",
+     "w": 1092,
+     "h": 1160,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 179.1,
+      "x1": 560,
+      "y1": 735.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q2_stem.webp",
+     "w": 1090,
+     "h": 166,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 295.6,
+      "x1": 559,
+      "y1": 374.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q2_a.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 380.6,
+        "x1": 559,
+        "y1": 440.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 1342,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 93.0,
+        "x1": 560,
+        "y1": 736.5
+       }
+      }
+     ],
+     "text": "(a) show that 2 – 3 + 4α sin α = 0 2α (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q2_b.webp",
+       "w": 1090,
+       "h": 274,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 443.0,
+        "x1": 559,
+        "y1": 573.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 144,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 75.1,
+        "x1": 560,
+        "y1": 143.9
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 333,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 143.9,
+        "x1": 560,
+        "y1": 303.2
+       }
+      }
+     ],
+     "text": "The iterative formula 3 x 1 O . / n x 1 x 1 2 4sin n n can be used to find an approximation for α. (b) Taking x1 = 0.7, find the values of x2 and x3, giving each answer to 4 decimal places. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q2_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 576.3,
+        "x1": 559,
+        "y1": 625.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q2_c_ms.webp",
+       "w": 1092,
+       "h": 286,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 197.2
+       }
+      }
+     ],
+     "text": "(c) By choosing a suitable interval and a suitable function that should be stated, show that α = 0.7283 to 4 decimal places. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q2_notes.webp",
+     "w": 1092,
+     "h": 1112,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 194.2,
+      "x1": 560,
+      "y1": 727.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q3_stem.webp",
+     "w": 1090,
+     "h": 66,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 52.2,
+      "x1": 559,
+      "y1": 83.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q3_a.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 83.5,
+        "x1": 559,
+        "y1": 190.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 1390,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 560,
+        "y1": 748.1
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 1442,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 731.7
+       }
+      }
+     ],
+     "text": "(a) Given that x x x x B 4 1 3 3 2 1 3 7 8 48 x 1 A 1 2 x x 1 x 3 3 2 12 3 find the values of the constants A and B. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q3_b.webp",
+       "w": 1090,
+       "h": 184,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 192.8,
+        "x1": 559,
+        "y1": 280.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q3_b_ms.webp",
+       "w": 1092,
+       "h": 465,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 35.5,
+        "x1": 560,
+        "y1": 257.9
+       }
+      }
+     ],
+     "text": "(b) Hence, or otherwise, find the equation of the tangent to the curve with equation y = g (x) at the point where x = 4. Give your answer in the form y = mx + c, where m and c are constants to be determined. (Solutions relying on calculator technology are not acceptable.) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q3_notes.webp",
+     "w": 1092,
+     "h": 894,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 254.9,
+      "x1": 560,
+      "y1": 684.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q4_stem.webp",
+     "w": 1090,
+     "h": 145,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 316.9,
+      "x1": 559,
+      "y1": 386.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q4_a.webp",
+       "w": 1090,
+       "h": 90,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 386.1,
+        "x1": 559,
+        "y1": 429.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 1352,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 93.0,
+        "x1": 560,
+        "y1": 741.6
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 1289,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 56.9,
+        "x1": 560,
+        "y1": 674.9
+       }
+      }
+     ],
+     "text": "(a) d y x = k cot x, where k is a constant to be found. d (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q4_b.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 431.6,
+        "x1": 559,
+        "y1": 495.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 254,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 35.5,
+        "x1": 560,
+        "y1": 156.5
+       }
+      }
+     ],
+     "text": "Hence find the exact coordinates of the point on the curve where y (b) d x = 2 3 d (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q4_notes.webp",
+     "w": 1092,
+     "h": 826,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 153.5,
+      "x1": 560,
+      "y1": 549.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q5_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q5_a.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 143.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 1452,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 93.0,
+        "x1": 560,
+        "y1": 789.2
+       }
+      }
+     ],
+     "text": "(a) Prove that nπ 2 cosec 2A – cot A ≡ tan A A n ∈  2 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q5_b.webp",
+       "w": 1090,
+       "h": 262,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 143.9,
+        "x1": 559,
+        "y1": 269.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 420,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 60.9,
+        "x1": 560,
+        "y1": 261.8
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 205,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 261.8,
+        "x1": 560,
+        "y1": 359.9
+       }
+      }
+     ],
+     "text": "° (b) Hence solve, for 0  θ  2 (i) 2 cosec 4θ – cot 2θ = 3 (ii) tan θ + cot θ = 5 Give your answers to 3 significant figures. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q5_notes.webp",
+     "w": 1092,
+     "h": 894,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 356.9,
+      "x1": 560,
+      "y1": 785.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q6_stem.webp",
+     "w": 1090,
+     "h": 710,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 386.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 386.3,
+        "x1": 559,
+        "y1": 421.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 78.4,
+        "x1": 560,
+        "y1": 109.7
+       }
+      }
+     ],
+     "text": "(a) Find the value of fg (1) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 424.2,
+        "x1": 559,
+        "y1": 459.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_b_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 109.7,
+        "x1": 560,
+        "y1": 159.6
+       }
+      }
+     ],
+     "text": "(b) State the range of g (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_c.webp",
+       "w": 1090,
+       "h": 78,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 460.4,
+        "x1": 559,
+        "y1": 497.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_c_ms.webp",
+       "w": 1092,
+       "h": 226,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 159.6,
+        "x1": 560,
+        "y1": 267.4
+       }
+      }
+     ],
+     "text": "–1 (c) Find g (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_d.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 500.2,
+        "x1": 559,
+        "y1": 559.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q6_d_ms.webp",
+       "w": 1092,
+       "h": 134,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 267.4,
+        "x1": 560,
+        "y1": 331.3
+       }
+      }
+     ],
+     "text": "Given that the equation f (x) = k, where k is a constant, has exactly two roots, (d) state the range of possible values of k. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q6_notes.webp",
+     "w": 1092,
+     "h": 950,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 328.3,
+      "x1": 560,
+      "y1": 784.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q7_stem.webp",
+     "w": 1090,
+     "h": 637,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 351.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q7_a.webp",
+       "w": 1090,
+       "h": 64,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 354.0,
+        "x1": 559,
+        "y1": 384.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q7_a_ms_1.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 80.9,
+        "x1": 560,
+        "y1": 126.5
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q7_a_ms_2.webp",
+       "w": 1092,
+       "h": 211,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 197.9,
+        "x1": 560,
+        "y1": 298.9
+       }
+      }
+     ],
+     "text": "(a) Calculate the number of bees in the colony at the start of the study. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q7_b.webp",
+       "w": 1090,
+       "h": 91,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 384.4,
+        "x1": 559,
+        "y1": 427.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 150,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 126.5,
+        "x1": 560,
+        "y1": 197.9
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 567,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 298.9,
+        "x1": 560,
+        "y1": 570.4
+       }
+      }
+     ],
+     "text": "(b) Find d P d t (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q7_c.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 429.9,
+        "x1": 559,
+        "y1": 527.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q7_c_ms.webp",
+       "w": 1092,
+       "h": 439,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 49.3,
+        "x1": 560,
+        "y1": 259.3
+       }
+      }
+     ],
+     "text": "The population of bees initially decreases, reaching a minimum value after T years, as shown in Figure 3 (c) Using your answer to part (b), calculate the value of T to 2 decimal places. (Solutions relying entirely on calculator technology are not acceptable.) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2025_10_A/q7_notes.webp",
+     "w": 1092,
+     "h": 653,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 256.3,
+      "x1": 560,
+      "y1": 569.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2025_10_A_q8",
+   "number": 8,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA13_2025_10_A/q8_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 143.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_a_ms_1.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 92.1,
+        "x1": 560,
+        "y1": 153.9
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_a_ms_2.webp",
+       "w": 1092,
+       "h": 363,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 198.0,
+        "x1": 560,
+        "y1": 371.7
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_a_ms_3.webp",
+       "w": 1092,
+       "h": 39,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 599.7,
+        "x1": 560,
+        "y1": 618.0
+       }
+      }
+     ],
+     "text": "(a) Express 10 cos θ –3 sin θ in the form R cos(θ + α), where R > 0 and 0 < α < 90° Give the exact value of R and the value of α to 2 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b.webp",
+       "w": 1090,
+       "h": 551,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 150.0,
+        "x1": 559,
+        "y1": 414.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b_ms_1.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 153.9,
+        "x1": 560,
+        "y1": 169.6
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b_ms_2.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 169.6,
+        "x1": 560,
+        "y1": 198.0
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b_ms_3.webp",
+       "w": 1092,
+       "h": 121,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 371.7,
+        "x1": 560,
+        "y1": 429.5
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b_ms_4.webp",
+       "w": 1092,
+       "h": 341,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 429.5,
+        "x1": 560,
+        "y1": 592.3
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b_ms_5.webp",
+       "w": 1092,
+       "h": 37,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 618.0,
+        "x1": 560,
+        "y1": 635.3
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_b_ms_6.webp",
+       "w": 1092,
+       "h": 40,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 635.3,
+        "x1": 560,
+        "y1": 653.8
+       }
+      }
+     ],
+     "text": "Alana models the height above the ground of a passenger on a Ferris wheel by the equation H = 12 – 10 cos(30t)° + 3 sin(30t)° where the height of the passenger above the H ground is H metres at time t minutes after the wheel starts turning. Use part (a) and the equation of the model to answer parts (b), (c) and (d). (b) Calculate (i) the maximum value of H (ii) the value of t when this maximum first occurs. Give each answer to 2 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 416.6,
+        "x1": 559,
+        "y1": 490.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_c_ms_1.webp",
+       "w": 1092,
+       "h": 1015,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 98.9,
+        "x1": 560,
+        "y1": 585.9
+       }
+      },
+      {
+       "src": "maths/WMA13_2025_10_A/q8_c_ms_2.webp",
+       "w": 1092,
+       "h": 169,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 674.7,
+        "x1": 560,
+        "y1": 755.4
+       }
+      }
+     ],
+     "text": "(c) Calculate the value of t when the passenger is 18 m above the ground for the first time. Give your answer to 2 decimal places. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_d.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 492.6,
+        "x1": 559,
+        "y1": 528.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2025_10_A/q8_d_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 87.2,
+        "x1": 560,
+        "y1": 191.1
+       }
+      }
+     ],
+     "text": "(d) Determine the time taken for the Ferris wheel to complete two revolutions. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

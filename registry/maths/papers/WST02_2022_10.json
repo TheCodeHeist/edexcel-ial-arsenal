@@ -1,0 +1,1055 @@
+{
+ "id": "WST02_2022_10",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2022-10",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2022_10_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_10/q1_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q1_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 76,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 74.7,
+        "x1": 560,
+        "y1": 110.4
+       }
+      },
+      {
+       "src": "maths/WST02_2022_10/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 110.4,
+        "x1": 560,
+        "y1": 158.8
+       }
+      }
+     ],
+     "text": "(a) Find the probability that in 15 metres of her cloth there are (i) less than 3 faults, (ii) at least 6 faults. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q1_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q1_b_ms.webp",
+       "w": 1092,
+       "h": 178,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 158.8,
+        "x1": 560,
+        "y1": 243.5
+       }
+      }
+     ],
+     "text": "Each roll contains 100 metres of Bhavna’s cloth. She selects 15 rolls at random. (b) Find the probability that exactly 10 of these rolls each have fewer than 13 faults. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q1_c.webp",
+       "w": 1090,
+       "h": 291,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 396.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q1_c_ms.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 243.5,
+        "x1": 560,
+        "y1": 337.2
+       }
+      }
+     ],
+     "text": "Bhavna decides to sell her cloth in pieces. Each piece of her cloth is 4 metres long. The cost to make each piece is £5.00 She sells each piece of her cloth that contains no faults for £7.40 She sells each piece of her cloth that contains faults for £2.00 (c) Find the expected profit that Bhavna will make on each piece of her cloth that she sells. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q1_notes.webp",
+     "w": 1092,
+     "h": 395,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 334.2,
+      "x1": 560,
+      "y1": 523.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_10_q2",
+   "number": 2,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_10/q2_stem.webp",
+     "w": 1090,
+     "h": 332,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 215.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 218.6,
+        "x1": 559,
+        "y1": 254.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 206,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 71.6,
+        "x1": 560,
+        "y1": 170.1
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of f(x) (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 256.6,
+        "x1": 559,
+        "y1": 292.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 394,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 170.1,
+        "x1": 560,
+        "y1": 358.7
+       }
+      }
+     ],
+     "text": "(b) By forming and solving an equation in k, show that k = 1.25 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 294.6,
+        "x1": 559,
+        "y1": 330.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 259,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 358.7,
+        "x1": 560,
+        "y1": 482.5
+       }
+      }
+     ],
+     "text": "(c) Use calculus to find E(X ) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 332.6,
+        "x1": 559,
+        "y1": 368.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q2_d_ms.webp",
+       "w": 1092,
+       "h": 338,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 482.5,
+        "x1": 560,
+        "y1": 644.3
+       }
+      }
+     ],
+     "text": "(d) Calculate the interquartile range of X (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q2_notes_1.webp",
+     "w": 1092,
+     "h": 311,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 641.3,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WST02_2022_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 563,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 44.2,
+      "x1": 560,
+      "y1": 314.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_10_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_10/q3_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q3_a.webp",
+       "w": 1090,
+       "h": 162,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 196.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 194,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 166.3
+       }
+      }
+     ],
+     "text": "(a) Using a 5% level of significance, find an appropriate critical region for a two-tailed test that the proportion of sunflower seeds that do not germinate is 0.35 You should state your hypotheses clearly and state the probability, which should be as close as possible to 2.5%, for each tail of your critical region. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 199.2,
+        "x1": 559,
+        "y1": 234.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 69,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 166.3,
+        "x1": 560,
+        "y1": 198.8
+       }
+      }
+     ],
+     "text": "(b) Write down the actual significance level of this test. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q3_c.webp",
+       "w": 1090,
+       "h": 299,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 237.1,
+        "x1": 559,
+        "y1": 380.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q3_c_ms.webp",
+       "w": 1092,
+       "h": 314,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 198.8,
+        "x1": 560,
+        "y1": 349.4
+       }
+      }
+     ],
+     "text": "Past records suggest that 2.8% of the company’s sunflower seeds grow to a height of more than 3 metres. A random sample of 250 of the company’s sunflower seeds is taken and 11 of them grow to a height of more than 3 metres. (c) Using a suitable approximation test, at the 5% level of significance, whether or not there is evidence that the proportion of sunflower seeds that grow to a height of more than 3 metres is now greater than 2.8% State your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q3_notes.webp",
+     "w": 1092,
+     "h": 630,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 346.4,
+      "x1": 560,
+      "y1": 648.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_10_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_10/q4_stem.webp",
+     "w": 1090,
+     "h": 154,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 130.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q4_a.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 132.8,
+        "x1": 559,
+        "y1": 168.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 154,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 76.5,
+        "x1": 560,
+        "y1": 150.0
+       }
+      }
+     ],
+     "text": "(a) Find P(5  X < 8) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 6,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q4_b.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 171.1,
+        "x1": 559,
+        "y1": 272.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 236,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 150.0,
+        "x1": 560,
+        "y1": 262.6
+       }
+      }
+     ],
+     "text": "Mia takes a random sample of 140 people. Using a normal approximation, the probability that fewer than n of these 140 people complete the task in less than 15 minutes is 0.0239 to 4 decimal places. (b) Find the value of n Show your working clearly. (6)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q4_notes.webp",
+     "w": 1092,
+     "h": 423,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 259.6,
+      "x1": 560,
+      "y1": 462.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_10_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_10/q5_stem.webp",
+     "w": 1090,
+     "h": 404,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 250.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 253.0,
+        "x1": 559,
+        "y1": 288.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 233,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 72.4,
+        "x1": 560,
+        "y1": 183.8
+       }
+      }
+     ],
+     "text": "(a) Show that c = 6 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q5_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 290.9,
+        "x1": 559,
+        "y1": 326.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 183.8,
+        "x1": 560,
+        "y1": 269.9
+       }
+      }
+     ],
+     "text": "(b) Find P(X > 3.5) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q5_c.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 328.0,
+        "x1": 559,
+        "y1": 364.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q5_c_ms.webp",
+       "w": 1092,
+       "h": 322,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 269.9,
+        "x1": 560,
+        "y1": 424.2
+       }
+      }
+     ],
+     "text": "(c) Find P(X > 4.5½3.5 < X < 5.5) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q5_notes.webp",
+     "w": 1092,
+     "h": 480,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 421.2,
+      "x1": 560,
+      "y1": 651.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_10_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2022_10/q6_stem.webp",
+     "w": 1090,
+     "h": 332,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 215.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 217.6,
+        "x1": 559,
+        "y1": 253.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 74.0,
+        "x1": 560,
+        "y1": 204.4
+       }
+      }
+     ],
+     "text": "(a) by forming and solving an equation in a, show that a = 9 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 255.5,
+        "x1": 559,
+        "y1": 291.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 434,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 204.4,
+        "x1": 560,
+        "y1": 412.0
+       }
+      }
+     ],
+     "text": "(b) find the sampling distribution of R (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q6_notes_1.webp",
+     "w": 1092,
+     "h": 793,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 409.0,
+      "x1": 560,
+      "y1": 789.4
+     }
+    },
+    {
+     "src": "maths/WST02_2022_10/q6_notes_2.webp",
+     "w": 1092,
+     "h": 119,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 44.2,
+      "x1": 560,
+      "y1": 101.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2022_10_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q7_i.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 116.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q7_i_ms.webp",
+       "w": 1092,
+       "h": 162,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 150.8
+       }
+      }
+     ],
+     "text": "7. (i) The continuous random variable X is uniformly distributed over the interval [a, b] Given that P(5 < X < 13) = 1 5 and E(X) = 9, find P(3X > a + b) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q7_ii.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q7_ii_ms.webp",
+       "w": 1092,
+       "h": 229,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 150.8,
+        "x1": 560,
+        "y1": 260.3
+       }
+      }
+     ],
+     "text": "(ii) The continuous random variable Y is uniformly distributed over the interval [1, c] Given that Var(Y) = 0.48, find the exact value of E(Y 2) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(iii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2022_10/q7_iii.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2022_10/q7_iii_ms.webp",
+       "w": 1092,
+       "h": 1084,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 260.3,
+        "x1": 560,
+        "y1": 780.2
+       }
+      }
+     ],
+     "text": "(iii) A wire of length 20 cm is cut into 2 pieces at a random point. The longest piece of wire is then cut into 2 pieces, equal in length, giving 3 pieces of wire altogether. Find the probability that the length of the shortest piece of wire is less than 6 cm. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2022_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 1554,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 44.2,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WST02_2022_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 733.3,
+      "x1": 560,
+      "y1": 762.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

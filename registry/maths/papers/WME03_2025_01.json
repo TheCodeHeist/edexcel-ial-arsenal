@@ -1,0 +1,880 @@
+{
+ "id": "WME03_2025_01",
+ "subject": "maths",
+ "unit": "WME03",
+ "series": "2025-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202025/IAL_MATHS_2025_Jan_M3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202025/IAL_MATHS_2025_Jan_M3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME03_2025_01_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME03_2025_01/q1_stem.webp",
+     "w": 1090,
+     "h": 568,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 329.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 331.9,
+        "x1": 559,
+        "y1": 367.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 211,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 150.0,
+        "x1": 560,
+        "y1": 250.9
+       }
+      }
+     ],
+     "text": "(a) Find the value of a when t = 8 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q1_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 369.9,
+        "x1": 559,
+        "y1": 429.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 773,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 250.9,
+        "x1": 560,
+        "y1": 621.5
+       }
+      }
+     ],
+     "text": "Given that v is a continuous function of t and that x = 0 when t = 0 (b) find the exact value of x when t = 8 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 307,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 618.5,
+      "x1": 560,
+      "y1": 765.3
+     }
+    },
+    {
+     "src": "maths/WME03_2025_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 646,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 104.8,
+      "x1": 560,
+      "y1": 414.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2025_01_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2",
+     "marks": 10,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q2.webp",
+       "w": 1090,
+       "h": 691,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 59.2,
+        "x1": 559,
+        "y1": 390.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q2_ms.webp",
+       "w": 1092,
+       "h": 1182,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 101.7,
+        "x1": 560,
+        "y1": 668.5
+       }
+      }
+     ],
+     "text": "mg 2. A light elastic string AB has natural length 3a and modulus of elasticity 20 7 When the string is unstretched, two particles, each of mass m, are attached to the string, one at P, where AP = a and the other at Q, where AQ = 2a. The end A of the string is then attached to a point X on a horizontal ceiling and the end B is attached to another point Y on the ceiling, where XY > 3a. The particles hang at rest in equilibrium and the two portions of the string, XP and YQ, both make an angle θ with the horizontal, as shown in Figure 1. X Y θ θ P Q (m) (m) Figure 1 Given that tan θ = 3 4 , find XY in terms of a. (10)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 196,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 665.5,
+      "x1": 560,
+      "y1": 759.3
+     }
+    },
+    {
+     "src": "maths/WME03_2025_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 653,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 104.8,
+      "x1": 560,
+      "y1": 417.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2025_01_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q3.webp",
+       "w": 1090,
+       "h": 866,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 58.6,
+        "x1": 559,
+        "y1": 473.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q3_ms.webp",
+       "w": 1092,
+       "h": 863,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 101.7,
+        "x1": 560,
+        "y1": 515.3
+       }
+      }
+     ],
+     "text": "3. 3 2 a O A ag 2a B V Figure 2 A light elastic string has natural length a and modulus of elasticity mg. One end of the elastic string is attached to a fixed point O. The other end is attached to a small smooth ring of mass m. The ring is threaded on a fixed smooth vertical pole which is a distance 3 2 a from O. Initially, the ring is held at the point A on the pole with the elastic string horizontal. ag and reaches the The ring is then projected vertically downwards with speed point B, where AB = 2a, with speed V, as shown in Figure 2. Air resistance is assumed to be negligible. Find V in terms of a and g. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q3_notes.webp",
+     "w": 1092,
+     "h": 509,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 512.3,
+      "x1": 560,
+      "y1": 756.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2025_01_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME03_2025_01/q4_stem.webp",
+     "w": 1090,
+     "h": 447,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 58.6,
+      "x1": 559,
+      "y1": 272.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 275.5,
+        "x1": 559,
+        "y1": 310.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 800,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 386.1,
+        "x1": 560,
+        "y1": 769.7
+       }
+      },
+      {
+       "src": "maths/WME03_2025_01/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 24,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 104.8,
+        "x1": 560,
+        "y1": 115.9
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of a, the y coordinate of G. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q4_b.webp",
+       "w": 1090,
+       "h": 855,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 313.5,
+        "x1": 559,
+        "y1": 723.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 745,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 115.9,
+        "x1": 560,
+        "y1": 472.9
+       }
+      }
+     ],
+     "text": "The lamina is now freely pivoted in a vertical plane about a smooth horizontal axis which passes through O and is perpendicular to the plane of the lamina. The lamina is held in equilibrium by a horizontal force which is applied to the lamina at A. The line OA makes an angle θ with the downward vertical through O, where tan θ = 3 4 , as shown in Figure 4. The line of action of the force lies in the plane of the lamina. O B θ A Figure 4 The mass of the lamina is M and the magnitude of the applied force is F. (b) Find F in terms of M and g. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 506,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 469.9,
+      "x1": 560,
+      "y1": 712.7
+     }
+    },
+    {
+     "src": "maths/WME03_2025_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 847,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 104.8,
+      "x1": 560,
+      "y1": 511.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2025_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME03_2025_01/q5_stem.webp",
+     "w": 1090,
+     "h": 994,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 533.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q5_a.webp",
+       "w": 1090,
+       "h": 99,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 534.6,
+        "x1": 559,
+        "y1": 581.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 103.1,
+        "x1": 560,
+        "y1": 197.4
+       }
+      }
+     ],
+     "text": "ag (a) Show that 2 2 V O U 3 (4 1 sin ) θ 2 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q5_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 584.2,
+        "x1": 559,
+        "y1": 619.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 378,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 197.4,
+        "x1": 560,
+        "y1": 378.3
+       }
+      }
+     ],
+     "text": "(b) Find T in terms of m, g, U, a and θ (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q5_c.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 622.4,
+        "x1": 559,
+        "y1": 700.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 261,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 378.3,
+        "x1": 560,
+        "y1": 503.1
+       }
+      }
+     ],
+     "text": "ag 19 Given that U = 8 (c) find, in terms of a, the height of P above the level of A when the string goes slack. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 513,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 500.1,
+      "x1": 560,
+      "y1": 745.9
+     }
+    },
+    {
+     "src": "maths/WME03_2025_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 442,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 104.8,
+      "x1": 560,
+      "y1": 316.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2025_01_q6",
+   "number": 6,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WME03_2025_01/q6_stem.webp",
+     "w": 1090,
+     "h": 633,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.8,
+      "x1": 559,
+      "y1": 361.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q6_a.webp",
+       "w": 1090,
+       "h": 98,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 362.0,
+        "x1": 559,
+        "y1": 408.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 846,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 101.7,
+        "x1": 560,
+        "y1": 507.3
+       }
+      }
+     ],
+     "text": "(a) show that OP = 3 2 a. (8)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 411.2,
+        "x1": 559,
+        "y1": 446.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 232,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 507.3,
+        "x1": 560,
+        "y1": 617.8
+       }
+      }
+     ],
+     "text": "(b) Find, in terms of m and g, the magnitude of the force exerted on P by the table. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q6_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 449.2,
+        "x1": 559,
+        "y1": 498.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q6_c_ms_1.webp",
+       "w": 1092,
+       "h": 253,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 617.8,
+        "x1": 560,
+        "y1": 739.2
+       }
+      },
+      {
+       "src": "maths/WME03_2025_01/q6_c_ms_2.webp",
+       "w": 1092,
+       "h": 221,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 104.8,
+        "x1": 560,
+        "y1": 210.5
+       }
+      }
+     ],
+     "text": "(c) Find, in terms of m, g and a, the sum of the kinetic energy of P and the elastic energy stored in the string. Give your answer in simplest form. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q6_notes.webp",
+     "w": 1092,
+     "h": 1169,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 207.5,
+      "x1": 560,
+      "y1": 768.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2025_01_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME03_2025_01/q7_stem.webp",
+     "w": 1090,
+     "h": 851,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.2,
+      "x1": 559,
+      "y1": 465.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q7_a.webp",
+       "w": 1090,
+       "h": 117,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 473.5,
+        "x1": 559,
+        "y1": 529.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 721,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 115.5,
+        "x1": 560,
+        "y1": 461.1
+       }
+      }
+     ],
+     "text": "L 3 (a) Show that P then moves with simple harmonic motion about E, with period π g 2 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2025_01/q7_b.webp",
+       "w": 1090,
+       "h": 141,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 533.9,
+        "x1": 559,
+        "y1": 601.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2025_01/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 648,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 461.1,
+        "x1": 560,
+        "y1": 771.8
+       }
+      },
+      {
+       "src": "maths/WME03_2025_01/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 875,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 104.8,
+        "x1": 560,
+        "y1": 524.5
+       }
+      }
+     ],
+     "text": "(b) Find the exact value of t at the instant when P is first moving upwards and decelerating with magnitude 2 3 g (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2025_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 479,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 521.5,
+      "x1": 560,
+      "y1": 751.1
+     }
+    },
+    {
+     "src": "maths/WME03_2025_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1106,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 104.8,
+      "x1": 560,
+      "y1": 635.4
+     }
+    },
+    {
+     "src": "maths/WME03_2025_01/q7_notes_3.webp",
+     "w": 1092,
+     "h": 59,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 745.5,
+      "x1": 560,
+      "y1": 773.5
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

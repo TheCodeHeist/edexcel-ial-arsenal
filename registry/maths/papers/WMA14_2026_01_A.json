@@ -1,0 +1,1173 @@
+{
+ "id": "WMA14_2026_01_A",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_P4A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_P4A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2026_01_A_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_01_A/q1_stem.webp",
+     "w": 1090,
+     "h": 131,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 107.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q1_a.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 116.0,
+        "x1": 559,
+        "y1": 179.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q1_a_ms.webp",
+       "w": 1092,
+       "h": 263,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 80.2,
+        "x1": 560,
+        "y1": 206.2
+       }
+      }
+     ],
+     "text": "(a) Find the series expansion of f (x), in ascending powers of x, up to and including the 3 term in x Give each coefficient in its simplest form. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q1_b.webp",
+       "w": 1090,
+       "h": 173,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 181.8,
+        "x1": 559,
+        "y1": 264.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q1_b_ms.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 206.2,
+        "x1": 560,
+        "y1": 250.1
+       }
+      }
+     ],
+     "text": "Using your answer to part (a), find the series expansion in ascending powers of x, 3, of up to and including the term in x 27 3 (b) g x O x < ( ) 1 x 2 ( 3 5 ) 5 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q1_c.webp",
+       "w": 1090,
+       "h": 84,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 269.6,
+        "x1": 559,
+        "y1": 309.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q1_c_ms.webp",
+       "w": 1092,
+       "h": 136,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 250.1,
+        "x1": 560,
+        "y1": 314.7
+       }
+      }
+     ],
+     "text": "27 (c) h x O x < ( ) 3 3 x 2 ( 3 ) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q1_notes_1.webp",
+     "w": 1092,
+     "h": 850,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 311.7,
+      "x1": 560,
+      "y1": 719.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q1_notes_2.webp",
+     "w": 1092,
+     "h": 754,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 406.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q2.webp",
+       "w": 1090,
+       "h": 405,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 345.8,
+        "x1": 559,
+        "y1": 539.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q2_ms.webp",
+       "w": 1092,
+       "h": 463,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 80.2,
+        "x1": 560,
+        "y1": 302.0
+       }
+      }
+     ],
+     "text": "2. In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. A curve has equation 2 – y 2 + 2xy + 5 = 0 4x Given that • points P and Q lie on the curve y d • x = 2 at P and at Q d find the coordinates of P and Q. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q2_notes_1.webp",
+     "w": 1092,
+     "h": 993,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 299.0,
+      "x1": 560,
+      "y1": 774.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q2_notes_2.webp",
+     "w": 1092,
+     "h": 436,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 58.9,
+      "x1": 560,
+      "y1": 267.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 235,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 158.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q3_a.webp",
+       "w": 1090,
+       "h": 226,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 161.2,
+        "x1": 559,
+        "y1": 269.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 80,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 80.2,
+        "x1": 560,
+        "y1": 118.2
+       }
+      },
+      {
+       "src": "maths/WMA14_2026_01_A/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 591,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 118.2,
+        "x1": 560,
+        "y1": 401.6
+       }
+      }
+     ],
+     "text": "(a) solve the differential equation to show that at 2 h O 1 bt 2 1( ) where a and b are constants to be found. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 271.5,
+        "x1": 559,
+        "y1": 307.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 80,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 80.2,
+        "x1": 560,
+        "y1": 118.2
+       }
+      },
+      {
+       "src": "maths/WMA14_2026_01_A/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 401.6,
+        "x1": 560,
+        "y1": 467.3
+       }
+      }
+     ],
+     "text": "(b) Hence find, according to the model, the limit of the height of the shrub. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q3_notes_1.webp",
+     "w": 1092,
+     "h": 609,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 464.3,
+      "x1": 560,
+      "y1": 756.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q3_notes_2.webp",
+     "w": 1092,
+     "h": 874,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 46.7,
+      "x1": 560,
+      "y1": 466.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q4.webp",
+       "w": 1090,
+       "h": 309,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 343.3,
+        "x1": 559,
+        "y1": 491.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q4_ms.webp",
+       "w": 1092,
+       "h": 426,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 88.1,
+        "x1": 560,
+        "y1": 291.9
+       }
+      }
+     ],
+     "text": "4. In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. Find 3 x 1 2 3 8 x x d x 3 2 4 1 giving the answer in the form a + b ln 3 where a and b are constants. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q4_notes_1.webp",
+     "w": 1092,
+     "h": 904,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 290.3,
+      "x1": 560,
+      "y1": 723.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q4_notes_2.webp",
+     "w": 1092,
+     "h": 886,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 66.9,
+      "x1": 560,
+      "y1": 491.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q5",
+   "number": 5,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q5.webp",
+       "w": 1090,
+       "h": 595,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 45.7,
+        "x1": 559,
+        "y1": 330.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q5_ms.webp",
+       "w": 1092,
+       "h": 385,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 90.5,
+        "x1": 560,
+        "y1": 274.6
+       }
+      }
+     ],
+     "text": "5. With respect to a fixed origin O, the lines l1 and l2 are given by the equations 2 3 2 \u001b \u001b l : r O 1 1 λ 1 \u001b \u001b 1 \u001b \u001b 3 4 \u0018 \u0017 \u0018 \u0017 10 a l : r O c 1 μ b 2 3 3 2 \u0018 \u0017 \u0018 \u0017 where a, b and c are constants and λ and μ are scalar parameters. Given that • l1 and l2 meet when λ = –2 • l1 and l2 are perpendicular find the value of a, the value of b and the value of c. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q5_notes.webp",
+     "w": 1092,
+     "h": 987,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 278.0,
+      "x1": 560,
+      "y1": 751.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_01_A/q6_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 367.2,
+      "x1": 559,
+      "y1": 402.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q6_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 405.4,
+        "x1": 559,
+        "y1": 488.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 540,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 98.0,
+        "x1": 560,
+        "y1": 356.8
+       }
+      }
+     ],
+     "text": "(a) Use algebraic integration and the substitution u = 2x – 1 to show that x 5 1 2 ( 3 2 ) 49 x O 1 d 72 ln 3 x 3 2 1 8 2 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q6_b.webp",
+       "w": 1090,
+       "h": 377,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 490.7,
+        "x1": 559,
+        "y1": 671.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q6_b_ms.webp",
+       "w": 1092,
+       "h": 220,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 356.8,
+        "x1": 560,
+        "y1": 461.9
+       }
+      }
+     ],
+     "text": "The curve C has equation x 1 3 2 y x O > 1 x 3 2 2 1 The finite region R is bounded by C, the x-axis and the lines with equations x = 2 and x = 5 The region R is rotated through 2π radians about the x-axis to form a solid of revolution. (b) Using the result from part (a), find the exact value of the volume of the solid generated. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q6_notes_1.webp",
+     "w": 1092,
+     "h": 619,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 482.4,
+      "x1": 560,
+      "y1": 779.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q6_notes_2.webp",
+     "w": 1092,
+     "h": 496,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 282.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q7",
+   "number": 7,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_01_A/q7_stem.webp",
+     "w": 1090,
+     "h": 691,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 376.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 376.4,
+        "x1": 559,
+        "y1": 411.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 77,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 78.1,
+        "x1": 560,
+        "y1": 114.6
+       }
+      }
+     ],
+     "text": "(a) find the coordinates of P. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 414.4,
+        "x1": 559,
+        "y1": 473.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 238,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 114.6,
+        "x1": 560,
+        "y1": 228.1
+       }
+      }
+     ],
+     "text": "The line l is the normal to C at P. (b) Find an equation for l in the form y = mx + c, where m and c are constants. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_c.webp",
+       "w": 1090,
+       "h": 263,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 476.3,
+        "x1": 559,
+        "y1": 602.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_c_ms.webp",
+       "w": 1092,
+       "h": 391,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 228.1,
+        "x1": 560,
+        "y1": 415.6
+       }
+      }
+     ],
+     "text": "The finite region S, shown shaded in Figure 1, is bounded by the curve C, the line l, the y-axis and the x-axis. (c) Show that the area of S is given by π 3 2 4 4 1 144 (sin θ cos θ 3 sin θ cos θ )d θ 0 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 604.5,
+        "x1": 559,
+        "y1": 640.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q7_d_ms.webp",
+       "w": 1092,
+       "h": 149,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 415.6,
+        "x1": 560,
+        "y1": 486.3
+       }
+      }
+     ],
+     "text": "(d) Hence, using algebraic integration, find the exact area of S. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q7_notes_1.webp",
+     "w": 1092,
+     "h": 575,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 483.3,
+      "x1": 560,
+      "y1": 758.7
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1506,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 44.7,
+      "x1": 560,
+      "y1": 767.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q7_notes_3.webp",
+     "w": 1092,
+     "h": 1505,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 44.5,
+      "x1": 560,
+      "y1": 766.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q8",
+   "number": 8,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q8_a.webp",
+       "w": 1090,
+       "h": 79,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 44.0,
+        "x1": 559,
+        "y1": 81.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q8_a_ms.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 80.2,
+        "x1": 560,
+        "y1": 127.2
+       }
+      }
+     ],
+     "text": "2 – q 2 8. (a) Factorise 4p (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q8_b.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 83.9,
+        "x1": 559,
+        "y1": 143.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q8_b_ms.webp",
+       "w": 1092,
+       "h": 438,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 127.2,
+        "x1": 560,
+        "y1": 336.8
+       }
+      }
+     ],
+     "text": "(b) Hence, prove by contradiction, that there are no positive integers p and q such that 2 – q 2 = 46 4p (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q8_notes_1.webp",
+     "w": 1092,
+     "h": 931,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 333.8,
+      "x1": 560,
+      "y1": 780.2
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1517,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 772.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_01_A_q9",
+   "number": 9,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_01_A/q9_stem.webp",
+     "w": 1090,
+     "h": 206,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 180.0,
+      "x1": 559,
+      "y1": 277.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_a.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 280.3,
+        "x1": 559,
+        "y1": 315.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_a_ms.webp",
+       "w": 1092,
+       "h": 164,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 92.8,
+        "x1": 560,
+        "y1": 171.0
+       }
+      }
+     ],
+     "text": "(a) find the position vector d, (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 318.5,
+        "x1": 559,
+        "y1": 353.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_b_ms.webp",
+       "w": 1092,
+       "h": 276,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 171.0,
+        "x1": 560,
+        "y1": 303.1
+       }
+      }
+     ],
+     "text": "(b) find the angle between the sides AB and BC of the parallelogram, (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 356.5,
+        "x1": 559,
+        "y1": 391.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_c_ms.webp",
+       "w": 1092,
+       "h": 116,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 303.1,
+        "x1": 560,
+        "y1": 358.3
+       }
+      }
+     ],
+     "text": "(c) find the area of the parallelogram ABCD. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 394.4,
+        "x1": 559,
+        "y1": 453.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_01_A/q9_d_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 358.3,
+        "x1": 560,
+        "y1": 421.7
+       }
+      }
+     ],
+     "text": "The point E lies on the line through the points C and D, so that D is the midpoint of CE. (d) Use your answer to part (c) to find the area of the trapezium ABCE. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_01_A/q9_notes_1.webp",
+     "w": 1092,
+     "h": 707,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 418.7,
+      "x1": 560,
+      "y1": 757.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_01_A/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1522,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 775.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

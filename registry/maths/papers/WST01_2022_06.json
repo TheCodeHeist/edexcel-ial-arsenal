@@ -1,0 +1,1442 @@
+{
+ "id": "WST01_2022_06",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2022-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2022_06_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_06/q1_stem.webp",
+     "w": 1090,
+     "h": 671,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 378.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q1_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 392.7,
+        "x1": 559,
+        "y1": 428.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 115,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 75.3,
+        "x1": 560,
+        "y1": 129.8
+       }
+      }
+     ],
+     "text": "(a) Find the values of w, x and y (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q1_b.webp",
+       "w": 1090,
+       "h": 222,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 430.6,
+        "x1": 559,
+        "y1": 536.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 228,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 129.8,
+        "x1": 560,
+        "y1": 238.6
+       }
+      }
+     ],
+     "text": "Kiana is looking for outliers in the data. She decides to classify as outliers any observations greater than Q3 + 1.0 × (Q3 – Q1) (b) Showing your working clearly, identify any outliers that Kiana finds. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q1_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 539.4,
+        "x1": 559,
+        "y1": 574.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 180,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 238.6,
+        "x1": 560,
+        "y1": 324.8
+       }
+      }
+     ],
+     "text": "(c) Draw a box plot for these data in the space provided on the grid opposite. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q1_d.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 577.4,
+        "x1": 559,
+        "y1": 684.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 324.8,
+        "x1": 560,
+        "y1": 388.9
+       }
+      }
+     ],
+     "text": "(d) Use the formula Q − Q − Q − Q ( ) ( ) skewness = 3 2 2 1 Q − Q ( ) 3 1 to find the skewness of these data. Give your answer to 2 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q1_e_1.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 686.7,
+        "x1": 559,
+        "y1": 788.1
+       }
+      },
+      {
+       "src": "maths/WST01_2022_06/q1_e_2.webp",
+       "w": 1090,
+       "h": 348,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 623.2,
+        "x1": 559,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WST01_2022_06/q1_e_3.webp",
+       "w": 1090,
+       "h": 371,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 576.2,
+        "x1": 559,
+        "y1": 753.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q1_e_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 388.9,
+        "x1": 560,
+        "y1": 432.5
+       }
+      }
+     ],
+     "text": "Kiana’s new employer, Landacre, wishes to know the average number of hours per week she worked during her employment at Seafield to help calculate the cost of employing her. (e) Explain why Landacre might prefer to know Kiana’s mean, rather than median, number of hours worked per week. (1) Hours 10 20 30 40 50 60 70 Turn over for a spare grid if you need to redraw your box plot. Only use this grid if you need to redraw your box plot. Hours 10 20 30 40 50 60 70",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_06/q1_notes.webp",
+     "w": 1092,
+     "h": 666,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 429.5,
+      "x1": 560,
+      "y1": 748.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(e): text after the marks",
+    "1(e): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2022_06_q2",
+   "number": 2,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_06/q2_stem.webp",
+     "w": 1090,
+     "h": 258,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 180.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 188.8,
+        "x1": 559,
+        "y1": 224.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 204,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 75.0,
+        "x1": 560,
+        "y1": 172.8
+       }
+      }
+     ],
+     "text": "(a) Calculate the product moment correlation coefficient between t and g (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 226.8,
+        "x1": 559,
+        "y1": 262.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 172.8,
+        "x1": 560,
+        "y1": 198.7
+       }
+      }
+     ],
+     "text": "(b) Give an interpretation of your product moment correlation coefficient. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 264.8,
+        "x1": 559,
+        "y1": 300.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 231,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 198.7,
+        "x1": 560,
+        "y1": 308.6
+       }
+      }
+     ],
+     "text": "(c) Find the equation of the least squares regression line of g on t in the form g = a + bt (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 302.8,
+        "x1": 559,
+        "y1": 338.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_d_ms.webp",
+       "w": 1092,
+       "h": 79,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 308.6,
+        "x1": 560,
+        "y1": 346.5
+       }
+      }
+     ],
+     "text": "(d) Give an interpretation of the value of b in your regression line. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_e.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 340.7,
+        "x1": 559,
+        "y1": 390.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_e_ms_1.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 346.5,
+        "x1": 560,
+        "y1": 388.7
+       }
+      },
+      {
+       "src": "maths/WST01_2022_06/q2_e_ms_2.webp",
+       "w": 1092,
+       "h": 57,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 388.7,
+        "x1": 560,
+        "y1": 415.5
+       }
+      }
+     ],
+     "text": "(e) (i) Use the regression line from part (c) to estimate the GDP, in billions of dollars, for a population of 7 000 000 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)(ii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_e_ii.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 392.7,
+        "x1": 559,
+        "y1": 442.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_e_ii_ms_1.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 346.5,
+        "x1": 560,
+        "y1": 388.7
+       }
+      },
+      {
+       "src": "maths/WST01_2022_06/q2_e_ii_ms_2.webp",
+       "w": 1092,
+       "h": 57,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 388.7,
+        "x1": 560,
+        "y1": 415.5
+       }
+      }
+     ],
+     "text": "(ii) Comment on the reliability of your answer in part (i). Give a reason, in context, for your answer. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q2_f.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 444.7,
+        "x1": 559,
+        "y1": 518.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q2_f_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 415.5,
+        "x1": 560,
+        "y1": 476.9
+       }
+      }
+     ],
+     "text": "Using the regression line from part (c), Stuart estimates that for a population increase of x million there will be an increase of 0.1 billion dollars in GDP. (f) Find the value of x (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_06/q2_notes.webp",
+     "w": 1092,
+     "h": 521,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 473.9,
+      "x1": 560,
+      "y1": 723.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_06_q3",
+   "number": 3,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_06/q3_stem.webp",
+     "w": 1090,
+     "h": 578,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 333.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q3_a.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 336.3,
+        "x1": 559,
+        "y1": 372.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 162,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 62.6,
+        "x1": 560,
+        "y1": 140.0
+       }
+      }
+     ],
+     "text": "(a) Calculate the width and height of the bar representing log lengths of 20 < l  25 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 374.6,
+        "x1": 559,
+        "y1": 410.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 140.0,
+        "x1": 560,
+        "y1": 199.1
+       }
+      }
+     ],
+     "text": "(b) Use linear interpolation to estimate the median of l (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q3_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 412.6,
+        "x1": 559,
+        "y1": 486.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 199.1,
+        "x1": 560,
+        "y1": 225.0
+       }
+      }
+     ],
+     "text": "The maximum length of log Gill can use in her stove is 26 cm. Gill estimates, using linear interpolation, that x logs from the bag will fit into her stove. (c) Show that x = 62 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q3_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 488.6,
+        "x1": 559,
+        "y1": 548.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q3_d_ms.webp",
+       "w": 1092,
+       "h": 127,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 225.0,
+        "x1": 560,
+        "y1": 285.5
+       }
+      }
+     ],
+     "text": "Gill randomly selects 4 logs from the bag. (d) Using x = 62 , find the probability that all 4 logs will fit into her stove. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q3_e.webp",
+       "w": 1090,
+       "h": 285,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 550.5,
+        "x1": 559,
+        "y1": 686.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q3_e_ms_1.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 285.5,
+        "x1": 560,
+        "y1": 364.1
+       }
+      },
+      {
+       "src": "maths/WST01_2022_06/q3_e_ms_2.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 364.1,
+        "x1": 560,
+        "y1": 456.3
+       }
+      }
+     ],
+     "text": "The weights, W grams, of the logs in the bag are coded using y = 0.5w – 255 and summarised by ∑ y = 924 ∑ y2 = 12 862 n = 88 (e) Calculate (i) the mean of W (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q3_e_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 689.3,
+        "x1": 559,
+        "y1": 724.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q3_e_ii_ms_1.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 285.5,
+        "x1": 560,
+        "y1": 364.1
+       }
+      },
+      {
+       "src": "maths/WST01_2022_06/q3_e_ii_ms_2.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 364.1,
+        "x1": 560,
+        "y1": 456.3
+       }
+      }
+     ],
+     "text": "(ii) the variance of W (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_06/q3_notes.webp",
+     "w": 1092,
+     "h": 642,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 453.3,
+      "x1": 560,
+      "y1": 761.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_06_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_06/q4_stem.webp",
+     "w": 1090,
+     "h": 189,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 66.9,
+      "x1": 559,
+      "y1": 157.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q4_a.webp",
+       "w": 1090,
+       "h": 94,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 162.8,
+        "x1": 559,
+        "y1": 207.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 282,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 87.1,
+        "x1": 560,
+        "y1": 222.2
+       }
+      }
+     ],
+     "text": "(a) show that P(W) = 3 5 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q4_b.webp",
+       "w": 1090,
+       "h": 219,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 210.1,
+        "x1": 559,
+        "y1": 314.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 296,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 222.2,
+        "x1": 560,
+        "y1": 363.7
+       }
+      }
+     ],
+     "text": "The event N is such that P(N) = 1 P(H ∩ N) = P(N) 15 (b) Find P(N′½H) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 5,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 317.2,
+        "x1": 559,
+        "y1": 390.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 363.7,
+        "x1": 560,
+        "y1": 450.2
+       }
+      }
+     ],
+     "text": "Given that W and N are mutually exclusive, (c) draw a Venn diagram to represent the events H, W and N giving the exact probabilities of each region in the Venn diagram. (5)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_06/q4_notes.webp",
+     "w": 1092,
+     "h": 667,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 447.2,
+      "x1": 560,
+      "y1": 766.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_06_q5",
+   "number": 5,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_06/q5_stem.webp",
+     "w": 1090,
+     "h": 225,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 164.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 178.2,
+        "x1": 559,
+        "y1": 213.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 93,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 85.1,
+        "x1": 560,
+        "y1": 129.2
+       }
+      }
+     ],
+     "text": "(a) Show that E(R2) = 15.8 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q5_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 216.4,
+        "x1": 559,
+        "y1": 275.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 143,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 129.2,
+        "x1": 560,
+        "y1": 197.7
+       }
+      }
+     ],
+     "text": "Given also that E(R) = 3.7 (b) find the standard deviation of R, giving your answer to 2 decimal places. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q5_c.webp",
+       "w": 1090,
+       "h": 387,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 278.3,
+        "x1": 559,
+        "y1": 463.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 197.7,
+        "x1": 560,
+        "y1": 225.5
+       }
+      }
+     ],
+     "text": "A yellow spinner is designed so that the score Y is given by the probability distribution in the table below. The cumulative distribution function F( y) is also given. y 2 3 4 5 6 P(Y = y) 0.1 0.2 0.1 a b F( y) 0.1 0.3 0.4 c d (c) Write down the value of d (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q5_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 465.8,
+        "x1": 559,
+        "y1": 525.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q5_d_ms.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 225.5,
+        "x1": 560,
+        "y1": 317.7
+       }
+      }
+     ],
+     "text": "Given that E(Y) = 4.55 (d) find the value of c (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q5_e.webp",
+       "w": 1090,
+       "h": 271,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 527.8,
+        "x1": 559,
+        "y1": 657.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q5_e_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 317.7,
+        "x1": 560,
+        "y1": 360.3
+       }
+      }
+     ],
+     "text": "Pabel and Jessie play a game with these two spinners. Pabel uses the red spinner. Jessie uses the yellow spinner. They take turns to spin their spinner. The winner is the first person whose spinner lands on the number 2 and the game ends. Jessie spins her spinner first. (e) Find the probability that Jessie wins on her second spin. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(f)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q5_f.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 659.8,
+        "x1": 559,
+        "y1": 709.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q5_f_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 360.3,
+        "x1": 560,
+        "y1": 432.9
+       }
+      }
+     ],
+     "text": "(f) Calculate the probability that, in a game, the score on Pabel’s first spin is the same as the score on Jessie’s first spin. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_06/q5_notes.webp",
+     "w": 1092,
+     "h": 518,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 429.9,
+      "x1": 560,
+      "y1": 677.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_06_q6",
+   "number": 6,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_06/q6_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q6_a.webp",
+       "w": 1090,
+       "h": 70,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 128.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 153,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 100.3,
+        "x1": 560,
+        "y1": 173.0
+       }
+      }
+     ],
+     "text": "(a) Find P(V > 104.9) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q6_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 131.2,
+        "x1": 559,
+        "y1": 180.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 173.0,
+        "x1": 560,
+        "y1": 215.0
+       }
+      }
+     ],
+     "text": "(b) In a pack of 150 bottles, find the expected number of bottles containing more than 104.9 ml (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_06/q6_c.webp",
+       "w": 1090,
+       "h": 77,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 182.3,
+        "x1": 559,
+        "y1": 218.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 313,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 215.0,
+        "x1": 560,
+        "y1": 364.8
+       }
+      }
+     ],
+     "text": "(c) Find the value of v, to 2 decimal places, such that P(V > v½V < 104.9) = 0.2801 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 736,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 361.8,
+      "x1": 560,
+      "y1": 714.5
+     }
+    },
+    {
+     "src": "maths/WST01_2022_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 741.4,
+      "x1": 560,
+      "y1": 771.3
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

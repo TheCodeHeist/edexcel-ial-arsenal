@@ -1,0 +1,1548 @@
+{
+ "id": "WST01_2025_10_A",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2025-10",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202025/IAL_MATHS_2025_Oct_S1A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202025/IAL_MATHS_2025_Oct_S1A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2025_10_A_q1",
+   "number": 1,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q1_stem.webp",
+     "w": 1090,
+     "h": 324,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 200.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 201.8,
+        "x1": 559,
+        "y1": 237.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 1492,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 771.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 137,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 86.9,
+        "x1": 560,
+        "y1": 152.2
+       }
+      }
+     ],
+     "text": "(a) Calculate Syy (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 239.8,
+        "x1": 559,
+        "y1": 275.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 1492,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 771.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 137,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 152.2,
+        "x1": 560,
+        "y1": 217.8
+       }
+      }
+     ],
+     "text": "(b) Calculate the product moment correlation coefficient for these data. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 277.8,
+        "x1": 559,
+        "y1": 313.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_c_ms_1.webp",
+       "w": 1092,
+       "h": 1492,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 771.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_c_ms_2.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 217.8,
+        "x1": 560,
+        "y1": 249.0
+       }
+      }
+     ],
+     "text": "(c) Interpret your value of the correlation coefficient. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_d.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 315.7,
+        "x1": 559,
+        "y1": 403.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_d_ms_1.webp",
+       "w": 1092,
+       "h": 1492,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 771.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_d_ms_2.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 249.0,
+        "x1": 560,
+        "y1": 295.4
+       }
+      }
+     ],
+     "text": "The researcher believes that a linear regression model may be appropriate to describe these data. (d) State, giving a reason, whether or not your value of the correlation coefficient supports the researcher’s belief. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_e.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 405.7,
+        "x1": 559,
+        "y1": 455.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_e_ms_1.webp",
+       "w": 1092,
+       "h": 1492,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 771.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_e_ms_2.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 295.4,
+        "x1": 560,
+        "y1": 389.6
+       }
+      }
+     ],
+     "text": "(e) Find the equation of the regression line of y on x, giving your answer in the form y = a + bx (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_f.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 457.7,
+        "x1": 559,
+        "y1": 555.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q1_f_ms_1.webp",
+       "w": 1092,
+       "h": 1492,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 771.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_f_ms_2.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 389.6,
+        "x1": 560,
+        "y1": 405.3
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q1_f_ms_3.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 405.3,
+        "x1": 560,
+        "y1": 464.2
+       }
+      }
+     ],
+     "text": "Jack is a 40-year-old patient. (f) (i) Use your regression line to estimate the volume of blood pumped by each contraction of Jack’s heart. (ii) Comment, giving a reason, on the reliability of your estimate. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q1_notes.webp",
+     "w": 1092,
+     "h": 680,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 463.7,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2025_10_A_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q2_stem.webp",
+     "w": 1090,
+     "h": 274,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 176.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 179.9,
+        "x1": 559,
+        "y1": 215.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 112.9,
+        "x1": 560,
+        "y1": 144.1
+       }
+      }
+     ],
+     "text": "(a) Write down the value of d (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 217.9,
+        "x1": 559,
+        "y1": 253.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_b_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 144.1,
+        "x1": 560,
+        "y1": 206.2
+       }
+      }
+     ],
+     "text": "(b) Find the values of a, b and c (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 255.8,
+        "x1": 559,
+        "y1": 291.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_c_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 206.2,
+        "x1": 560,
+        "y1": 237.4
+       }
+      }
+     ],
+     "text": "(c) Write down the value of P (X > 4) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_d.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 293.8,
+        "x1": 559,
+        "y1": 353.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_d_ms.webp",
+       "w": 1092,
+       "h": 164,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 237.4,
+        "x1": 560,
+        "y1": 315.7
+       }
+      }
+     ],
+     "text": "Two independent observations, X1 and X2, are taken from the distribution of X. (d) Find the probability that X1 and X2 are both odd. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_e.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 355.8,
+        "x1": 559,
+        "y1": 429.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q2_e_ms.webp",
+       "w": 1092,
+       "h": 278,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 315.7,
+        "x1": 560,
+        "y1": 448.6
+       }
+      }
+     ],
+     "text": "Given that X1 and X2 are both odd, (e) find the probability that the sum of X1 and X2 is 6 Give your answer to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q2_notes.webp",
+     "w": 1092,
+     "h": 586,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 445.6,
+      "x1": 560,
+      "y1": 726.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2025_10_A_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q3_stem.webp",
+     "w": 1090,
+     "h": 487,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 279.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 281.7,
+        "x1": 559,
+        "y1": 317.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_a_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 87.0,
+        "x1": 560,
+        "y1": 118.2
+       }
+      }
+     ],
+     "text": "(a) Write down the time that is exceeded by 75% of Westyou members. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_b.webp",
+       "w": 1090,
+       "h": 471,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 319.7,
+        "x1": 559,
+        "y1": 545.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_b_ms.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 118.2,
+        "x1": 560,
+        "y1": 180.7
+       }
+      }
+     ],
+     "text": "The times for the Eastyou members are summarised by the stem and leaf diagram below. Steam Leaf Key: 2 0 means 20 minutes 2 0 2 3 4 (4) 2 5 6 8 8 8 9 9 (7) 3 0 0 0 0 0 1 1 1 2 2 2 2 3 4 (14) 3 5 5 5 7 9 (5) (b) Find the value of the median and interquartile range for the Eastyou members. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_c.webp",
+       "w": 1090,
+       "h": 255,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 547.8,
+        "x1": 559,
+        "y1": 670.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_c_ms.webp",
+       "w": 1092,
+       "h": 241,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 180.7,
+        "x1": 560,
+        "y1": 296.1
+       }
+      }
+     ],
+     "text": "An outlier is a value that falls either more than 1.5 × (Q3 – Q1) above Q3 or more than 1.5 × (Q3 – Q1) below Q1 (c) On the grid on page 11 of the Answer Book, draw a box plot to represent the times of the Eastyou members. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(d)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_d.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 672.5,
+        "x1": 559,
+        "y1": 708.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q3_d_ms.webp",
+       "w": 1092,
+       "h": 157,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 296.1,
+        "x1": 560,
+        "y1": 370.8
+       }
+      }
+     ],
+     "text": "(d) State the skewness of each distribution. Give reasons for your answers. (3)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q3_notes.webp",
+     "w": 1092,
+     "h": 843,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 367.8,
+      "x1": 560,
+      "y1": 772.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2025_10_A_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q4_stem.webp",
+     "w": 1090,
+     "h": 74,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 133.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_a_ms.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 86.9,
+        "x1": 560,
+        "y1": 153.0
+       }
+      }
+     ],
+     "text": "(a) Using standardisation, find an estimate for the proportion of students who jump less than 2.5 m (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_b.webp",
+       "w": 1090,
+       "h": 263,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 135.8,
+        "x1": 559,
+        "y1": 261.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 153.0,
+        "x1": 560,
+        "y1": 215.7
+       }
+      }
+     ],
+     "text": "The long jump competition consists of 2 jumps. All the students can take part in the first jump and the 40% who jump the greatest distance in their first jump qualify for the second jump. (b) Using standardisation, find an estimate for the minimum distance achieved in the first jump in order to qualify for the second jump. Give your answer correct to 4 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_c.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 263.8,
+        "x1": 559,
+        "y1": 327.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_c_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 215.7,
+        "x1": 560,
+        "y1": 310.0
+       }
+      }
+     ],
+     "text": "(c) Find an estimate for the median distance achieved in the first jump by those who qualify for the second jump. Show your working clearly. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_d.webp",
+       "w": 1090,
+       "h": 282,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 329.8,
+        "x1": 559,
+        "y1": 465.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q4_d_ms.webp",
+       "w": 1092,
+       "h": 174,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 310.0,
+        "x1": 560,
+        "y1": 393.0
+       }
+      }
+     ],
+     "text": "The distance of the second jump is independent of the distance of the first jump and is modelled with the same normal distribution. Students who jump a distance greater than 4.1 m in their second jump receive a certificate. At the start of the long jump competition, a student is selected at random. (d) Find the probability that this student will receive a certificate. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q4_notes.webp",
+     "w": 1092,
+     "h": 626,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 390.0,
+      "x1": 560,
+      "y1": 689.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2025_10_A_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q5_stem.webp",
+     "w": 1090,
+     "h": 224,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 153.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 155.8,
+        "x1": 559,
+        "y1": 191.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 68,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 86.9,
+        "x1": 560,
+        "y1": 119.5
+       }
+      }
+     ],
+     "text": "(a) both beads selected are blue, (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 193.8,
+        "x1": 559,
+        "y1": 229.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_b_ms.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 119.5,
+        "x1": 560,
+        "y1": 168.2
+       }
+      }
+     ],
+     "text": "(b) exactly one bead selected is red. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 231.7,
+        "x1": 559,
+        "y1": 315.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_c_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 168.2,
+        "x1": 560,
+        "y1": 246.8
+       }
+      }
+     ],
+     "text": "In another bag there are 9 beads, 4 of which are green and the rest are yellow. Linda selects 3 beads from this bag at random without replacement. (c) Find the probability that 2 of these beads are yellow and 1 is green. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 317.7,
+        "x1": 559,
+        "y1": 377.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q5_d_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 246.8,
+        "x1": 560,
+        "y1": 377.1
+       }
+      }
+     ],
+     "text": "Linda replaces the 3 beads and then selects another 4 at random without replacement. (d) Find the probability that at least 1 of the beads is green. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q5_notes.webp",
+     "w": 1092,
+     "h": 822,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 374.1,
+      "x1": 560,
+      "y1": 768.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2025_10_A_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q6_stem.webp",
+     "w": 1090,
+     "h": 186,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 134.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 137.9,
+        "x1": 559,
+        "y1": 173.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 64,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 85.9,
+        "x1": 560,
+        "y1": 116.5
+       }
+      }
+     ],
+     "text": "(a) Find E (X) in terms of a and b (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 175.4,
+        "x1": 559,
+        "y1": 259.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 49,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 116.5,
+        "x1": 560,
+        "y1": 139.6
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 164,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 139.6,
+        "x1": 560,
+        "y1": 217.7
+       }
+      }
+     ],
+     "text": "2) For this probability distribution, Var (X) = E (X (b) (i) Write down the value of E(X) (ii) Find the value of a and the value of b (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 261.7,
+        "x1": 559,
+        "y1": 297.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_c_ms.webp",
+       "w": 1092,
+       "h": 239,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 217.7,
+        "x1": 560,
+        "y1": 332.0
+       }
+      }
+     ],
+     "text": "(c) Find Var (1 – 3X) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_d.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 299.7,
+        "x1": 559,
+        "y1": 383.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q6_d_ms_1.webp",
+       "w": 1092,
+       "h": 69,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 332.0,
+        "x1": 560,
+        "y1": 364.4
+       }
+      },
+      {
+       "src": "maths/WST01_2025_10_A/q6_d_ms_2.webp",
+       "w": 1092,
+       "h": 185,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 364.4,
+        "x1": 560,
+        "y1": 452.7
+       }
+      }
+     ],
+     "text": "Given that Y = 1 – X, find (d) (i) P (Y < 0) (ii) the largest possible value of k such that P (Y < k) = 0.2 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q6_notes.webp",
+     "w": 1092,
+     "h": 661,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 449.7,
+      "x1": 560,
+      "y1": 766.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2025_10_A_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST01_2025_10_A/q7_stem.webp",
+     "w": 1090,
+     "h": 130,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 107.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 110.3,
+        "x1": 559,
+        "y1": 145.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 216,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 114.3,
+        "x1": 560,
+        "y1": 217.8
+       }
+      }
+     ],
+     "text": "(a) Calculate the mean and the standard deviation of the weights of these rabbits. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 148.2,
+        "x1": 559,
+        "y1": 207.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 217.8,
+        "x1": 560,
+        "y1": 264.6
+       }
+      }
+     ],
+     "text": "Given that the median weight of these rabbits is 815 grams, (b) describe, giving a reason, the skewness of these data. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_c.webp",
+       "w": 1090,
+       "h": 148,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 210.2,
+        "x1": 559,
+        "y1": 280.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_c_ms.webp",
+       "w": 1092,
+       "h": 244,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 264.6,
+        "x1": 560,
+        "y1": 381.3
+       }
+      }
+     ],
+     "text": "Two more rabbits weighing 776 grams and 896 grams are added to make a group of 12 rabbits. (c) State, giving a reason, how the inclusion of these two rabbits would affect the mean. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_d.webp",
+       "w": 1090,
+       "h": 116,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 280.5,
+        "x1": 559,
+        "y1": 335.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2025_10_A/q7_d_ms.webp",
+       "w": 1092,
+       "h": 238,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 381.3,
+        "x1": 560,
+        "y1": 495.2
+       }
+      }
+     ],
+     "text": "x 2 , state what effect the inclusion of these two (d) By considering the change in x 3 ( ) rabbits would have on the standard deviation. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2025_10_A/q7_notes_1.webp",
+     "w": 1092,
+     "h": 525,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 492.2,
+      "x1": 560,
+      "y1": 743.8
+     }
+    },
+    {
+     "src": "maths/WST01_2025_10_A/q7_notes_2.webp",
+     "w": 1092,
+     "h": 229,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 90.6,
+      "x1": 560,
+      "y1": 200.0
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

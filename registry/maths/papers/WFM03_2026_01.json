@@ -1,0 +1,1302 @@
+{
+ "id": "WFM03_2026_01",
+ "subject": "maths",
+ "unit": "WFM03",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_FP3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_FP3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM03_2026_01_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q1.webp",
+       "w": 1090,
+       "h": 370,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 233.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q1_ms_1.webp",
+       "w": 1092,
+       "h": 52,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 87.3,
+        "x1": 560,
+        "y1": 111.6
+       }
+      },
+      {
+       "src": "maths/WFM03_2026_01/q1_ms_2.webp",
+       "w": 1092,
+       "h": 542,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 111.6,
+        "x1": 560,
+        "y1": 371.4
+       }
+      }
+     ],
+     "text": "1. The hyperbola H is defined by the equation x 2 y 2 3 O 1 b 2 48 where b is a positive constant. . /, determine Given that H has a focus at the point 8 0 , (i) the value of b, (ii) the exact value of the eccentricity of H. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q1_notes.webp",
+     "w": 1092,
+     "h": 506,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 368.4,
+      "x1": 560,
+      "y1": 610.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q2_stem.webp",
+     "w": 1090,
+     "h": 267,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 184.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 187.3,
+        "x1": 559,
+        "y1": 223.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 80.5,
+        "x1": 560,
+        "y1": 130.0
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of k, the determinant of A (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q2_b.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 224.7,
+        "x1": 559,
+        "y1": 260.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 504,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 130.0,
+        "x1": 560,
+        "y1": 371.1
+       }
+      }
+     ],
+     "text": "(b) Hence determine, in terms of k, the matrix A−1 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q2_c.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 263.5,
+        "x1": 559,
+        "y1": 370.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 335,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 371.1,
+        "x1": 560,
+        "y1": 531.5
+       }
+      }
+     ],
+     "text": "Given that k =1 • • the matrix B satisfies AB A T = (c) determine the matrix B (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q2_notes.webp",
+     "w": 1092,
+     "h": 545,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 528.5,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q3_a.webp",
+       "w": 1090,
+       "h": 199,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 152.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 382,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 94.3,
+        "x1": 560,
+        "y1": 277.0
+       }
+      }
+     ],
+     "text": "3. (a) Using the appropriate definitions of hyperbolic functions in terms of exponentials, show that 4 x 1 2 x 3 e 4 e 1 sinh x 1 sech x O 3 x 1 x 2 e 2 e (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q3_b.webp",
+       "w": 1090,
+       "h": 266,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 154.6,
+        "x1": 559,
+        "y1": 281.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 384,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 277.0,
+        "x1": 560,
+        "y1": 460.9
+       }
+      }
+     ],
+     "text": "(b) Hence solve the equation O 1 x 1 x x sinh sech 2 e Give the answer in the form a ln where a is a rational number and b is an integer. b (Solutions relying on calculator technology are not acceptable.) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q3_notes.webp",
+     "w": 1092,
+     "h": 625,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 457.9,
+      "x1": 560,
+      "y1": 757.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q4_stem.webp",
+     "w": 1090,
+     "h": 673,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 379.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q4_a.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 381.9,
+        "x1": 559,
+        "y1": 417.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 271,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 80.5,
+        "x1": 560,
+        "y1": 210.2
+       }
+      }
+     ],
+     "text": "(a) b c × (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q4_b.webp",
+       "w": 1090,
+       "h": 80,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 417.9,
+        "x1": 559,
+        "y1": 455.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 156,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 210.2,
+        "x1": 560,
+        "y1": 284.5
+       }
+      }
+     ],
+     "text": ". / (b) a b c (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q4_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 458.2,
+        "x1": 559,
+        "y1": 493.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 284.5,
+        "x1": 560,
+        "y1": 344.5
+       }
+      }
+     ],
+     "text": "(c) the volume of the tetrahedron OABC (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q4_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 496.2,
+        "x1": 559,
+        "y1": 545.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q4_d_ms_1.webp",
+       "w": 1092,
+       "h": 929,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 344.5,
+        "x1": 560,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WFM03_2026_01/q4_d_ms_2.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 90.5
+       }
+      }
+     ],
+     "text": "(d) the shortest distance from A to the plane containing O, B and C, giving the answer as a simplified surd. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q4_notes.webp",
+     "w": 1092,
+     "h": 1103,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 87.5,
+      "x1": 560,
+      "y1": 616.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q5_stem.webp",
+     "w": 1090,
+     "h": 693,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 388.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q5_a.webp",
+       "w": 1090,
+       "h": 223,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 388.9,
+        "x1": 559,
+        "y1": 495.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 431,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 66.7,
+        "x1": 560,
+        "y1": 272.8
+       }
+      }
+     ],
+     "text": "(a) Show that 2 2 d x d y \u001b\u001a 1 n m t \u001b\u001a O cosh d t d t where m and n are integers to be determined. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q5_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 498.2,
+        "x1": 559,
+        "y1": 557.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 263,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 272.8,
+        "x1": 560,
+        "y1": 398.8
+       }
+      }
+     ],
+     "text": "(b) Use algebraic integration to determine the exact length of C. Give the answer in the form a + sinh where a and b are integers to be found. b (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q5_c.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 560.2,
+        "x1": 559,
+        "y1": 633.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 464,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 398.8,
+        "x1": 560,
+        "y1": 620.9
+       }
+      }
+     ],
+     "text": "(c) Use algebraic integration to determine the exact area of the surface formed when C is rotated through 360° about the x-axis. Give the answer in simplest form in terms of hyperbolic functions. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 303,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 617.9,
+      "x1": 560,
+      "y1": 763.1
+     }
+    },
+    {
+     "src": "maths/WFM03_2026_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1123,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 578.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q6",
+   "number": 6,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q6_stem.webp",
+     "w": 1090,
+     "h": 325,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 212.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q6_a.webp",
+       "w": 1090,
+       "h": 109,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 212.4,
+        "x1": 559,
+        "y1": 264.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 358,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 66.7,
+        "x1": 560,
+        "y1": 237.7
+       }
+      }
+     ],
+     "text": "\u0019 is an eigenvector of M, stating the corresponding eigenvalue. (a) Show that 0 \u0019\u0019 3 1 \u001a (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q6_b.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 266.4,
+        "x1": 559,
+        "y1": 302.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 331,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 237.7,
+        "x1": 560,
+        "y1": 396.3
+       }
+      }
+     ],
+     "text": "(b) Show that the eigenvalue from part (a) is the only eigenvalue of M. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q6_c.webp",
+       "w": 1090,
+       "h": 215,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 304.4,
+        "x1": 559,
+        "y1": 407.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 430,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 396.3,
+        "x1": 560,
+        "y1": 602.3
+       }
+      }
+     ],
+     "text": "is represented by the matrix M. The transformation M :  3 →  3 (c) Determine a Cartesian equation for the image under M of the line with equation y 1 O 3 1 z x 3 O 1 2 3 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 344,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 599.3,
+      "x1": 560,
+      "y1": 764.0
+     }
+    },
+    {
+     "src": "maths/WFM03_2026_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 339,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 202.1
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM03_2026_01_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 182,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 143.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q7_a.webp",
+       "w": 1090,
+       "h": 220,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 149.1,
+        "x1": 559,
+        "y1": 254.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q7_a_ms_1.webp",
+       "w": 1092,
+       "h": 1355,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 66.7,
+        "x1": 560,
+        "y1": 716.4
+       }
+      },
+      {
+       "src": "maths/WFM03_2026_01/q7_a_ms_2.webp",
+       "w": 1092,
+       "h": 368,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 216.1
+       }
+      }
+     ],
+     "text": "(a) Use integration to prove that, for n 1 e° k I O 3 n I 3 I n 1 n n 3 1 1 n where k is a constant to be determined. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 256.8,
+        "x1": 559,
+        "y1": 292.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 224,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 216.1,
+        "x1": 560,
+        "y1": 323.2
+       }
+      }
+     ],
+     "text": "(b) Determine the exact value of I0 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q7_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 294.9,
+        "x1": 559,
+        "y1": 354.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 353,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 323.2,
+        "x1": 560,
+        "y1": 492.0
+       }
+      }
+     ],
+     "text": "Given that I1 = . to 5 significant figures, 3 7002 (c) use the answer to part (a) to determine the value of I4 to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 621,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 489.0,
+      "x1": 560,
+      "y1": 786.4
+     }
+    },
+    {
+     "src": "maths/WFM03_2026_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 837,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 441.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q8",
+   "number": 8,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q8_stem.webp",
+     "w": 1090,
+     "h": 221,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 162.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q8_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 169.5,
+        "x1": 559,
+        "y1": 243.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 425,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 66.7,
+        "x1": 560,
+        "y1": 270.2
+       }
+      }
+     ],
+     "text": "(a) Use calculus to show that an equation for the normal to E at P is given by x ¢ 3 y ¢ O ¢ ¢ 4 sin 3 cos 7 sin cos (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q8_b.webp",
+       "w": 1090,
+       "h": 155,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 245.6,
+        "x1": 559,
+        "y1": 319.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 347,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 270.2,
+        "x1": 560,
+        "y1": 436.0
+       }
+      }
+     ],
+     "text": "The normal to E at P meets the x-axis at the point A. (b) Show that the area of triangle OAP, where O is the origin, is k sin 2θ , where k is a rational number to be determined. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q8_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 321.8,
+        "x1": 559,
+        "y1": 357.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q8_c_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 436.0,
+        "x1": 560,
+        "y1": 511.7
+       }
+      }
+     ],
+     "text": "(c) Hence state the value of the maximum area for triangle OAP. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q8_notes.webp",
+     "w": 1092,
+     "h": 571,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 508.7,
+      "x1": 560,
+      "y1": 782.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2026_01_q9",
+   "number": 9,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WFM03_2026_01/q9_stem.webp",
+     "w": 1090,
+     "h": 85,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 63.5,
+      "x1": 559,
+      "y1": 103.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q9_a.webp",
+       "w": 1090,
+       "h": 172,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 104.5,
+        "x1": 559,
+        "y1": 186.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 581,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 66.7,
+        "x1": 560,
+        "y1": 345.0
+       }
+      }
+     ],
+     "text": "(a) Show that d y 1 O x d 1 1 x 2 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2026_01/q9_b.webp",
+       "w": 1090,
+       "h": 180,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 188.9,
+        "x1": 559,
+        "y1": 274.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2026_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 397,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 345.0,
+        "x1": 560,
+        "y1": 535.1
+       }
+      }
+     ],
+     "text": "(b) Hence, by integrating the result in part (a), prove that \u001b x x artanh \u0019 O arsinh 1 x 2 1 \u001a (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2026_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 511,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 532.1,
+      "x1": 560,
+      "y1": 776.9
+     }
+    },
+    {
+     "src": "maths/WFM03_2026_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 869,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 456.8
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

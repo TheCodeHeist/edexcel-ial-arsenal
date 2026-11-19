@@ -1,0 +1,888 @@
+{
+ "id": "WME03_2026_01",
+ "subject": "maths",
+ "unit": "WME03",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME03_2026_01_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q1_stem.webp",
+     "w": 1090,
+     "h": 148,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 127.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q1_a.webp",
+       "w": 1090,
+       "h": 143,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 129.2,
+        "x1": 559,
+        "y1": 197.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 406,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 125.2,
+        "x1": 560,
+        "y1": 319.6
+       }
+      }
+     ],
+     "text": "(a) Prove that P is moving with simple harmonic motion by showing that 2 x ẍ = –k (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 199.9,
+        "x1": 559,
+        "y1": 235.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 82,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 319.6,
+        "x1": 560,
+        "y1": 358.2
+       }
+      }
+     ],
+     "text": "(b) State the amplitude of the motion of P (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q1_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 237.9,
+        "x1": 559,
+        "y1": 273.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 358.2,
+        "x1": 560,
+        "y1": 415.0
+       }
+      }
+     ],
+     "text": "(c) Find, in terms of k, the maximum speed of P (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q1_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 275.9,
+        "x1": 559,
+        "y1": 335.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 415.0,
+        "x1": 560,
+        "y1": 509.1
+       }
+      }
+     ],
+     "text": "The period of the motion is 4 seconds. (d) Find k in terms of π (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q1_e.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 337.9,
+        "x1": 559,
+        "y1": 397.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 282,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 509.1,
+        "x1": 560,
+        "y1": 644.1
+       }
+      }
+     ],
+     "text": "The points A and B lie on the x-axis, on opposite sides of O, with OA = OB = 0.2 m (e) Find the time taken by P to move directly from A to B (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q2_stem.webp",
+     "w": 1090,
+     "h": 644,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 365.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q2_a.webp",
+       "w": 1090,
+       "h": 151,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 368.3,
+        "x1": 559,
+        "y1": 440.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 845,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 102.7,
+        "x1": 560,
+        "y1": 507.6
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of m and g, the magnitude of the normal reaction between P and the table when ω = 1 g 4 a (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q2_b.webp",
+       "w": 1090,
+       "h": 195,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 443.1,
+        "x1": 559,
+        "y1": 536.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 180,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 507.6,
+        "x1": 560,
+        "y1": 593.7
+       }
+      }
+     ],
+     "text": "The angular speed ω is gradually increased and the particle remains in contact with the table. (b) Show that ω < 1 g a 2 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q3_stem.webp",
+     "w": 1090,
+     "h": 228,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 165.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q3_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 167.1,
+        "x1": 559,
+        "y1": 202.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 525,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 102.7,
+        "x1": 560,
+        "y1": 354.1
+       }
+      }
+     ],
+     "text": "(a) Find the magnitude of the acceleration of P when x = 3 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q3_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 205.1,
+        "x1": 559,
+        "y1": 264.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 477,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 354.1,
+        "x1": 560,
+        "y1": 582.3
+       }
+      }
+     ],
+     "text": "Given that x = 1 when t = 2 (b) find the exact value of t when x = 3 (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q4_stem.webp",
+     "w": 1090,
+     "h": 880,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 479.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q4_a.webp",
+       "w": 1090,
+       "h": 111,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 484.5,
+        "x1": 559,
+        "y1": 537.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 481,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 102.7,
+        "x1": 560,
+        "y1": 333.0
+       }
+      }
+     ],
+     "text": "(a) Show that the distance from O to the centre of mass of S is 77 12 a (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q4_b.webp",
+       "w": 1090,
+       "h": 362,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 539.7,
+        "x1": 559,
+        "y1": 713.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 845,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 333.0,
+        "x1": 560,
+        "y1": 738.0
+       }
+      }
+     ],
+     "text": "The solid S is placed with its circular base on a rough horizontal surface. The point Q, shown in Figure 2, lies on the circumference of the top of the cylinder. A horizontal force of magnitude H is applied to S at Q The force acts towards the axis of symmetry of S The horizontal surface is sufficiently rough to prevent S from sliding. The solid S is on the point of tipping. Given that the weight of S is W (b) find H in terms of W (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 1160,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 105.8,
+      "x1": 560,
+      "y1": 661.9
+     }
+    },
+    {
+     "src": "maths/WME03_2026_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 949,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 105.8,
+      "x1": 560,
+      "y1": 560.8
+     }
+    },
+    {
+     "src": "maths/WME03_2026_01/q4_notes_3.webp",
+     "w": 1092,
+     "h": 1196,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 105.8,
+      "x1": 560,
+      "y1": 679.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q5.webp",
+       "w": 1090,
+       "h": 977,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 525.3
+       }
+      }
+     ],
+     "ms": [],
+     "text": "5. C 3l 2θ B A 3l Figure 3 A uniform rod AB has mass M and length 3l The rod is free to move in a vertical plane about a fixed smooth horizontal axis through B Mg , is One end of a light elastic string, of natural length 2l and modulus of elasticity 5 8 attached to the rod at A The other end of the string is attached to the fixed point C, which is at a distance 3l vertically above B, as shown in Figure 3. The rod is resting in equilibrium with angle ABC = 2θ, where 0 < θ < 1 2 π By taking moments about the horizontal axis through B, show that the extension of the string is 16 7 l (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q5: no mark-scheme rows"
+   ]
+  },
+  {
+   "id": "WME03_2026_01_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q6_stem.webp",
+     "w": 1090,
+     "h": 803,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 442.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q6_a.webp",
+       "w": 1090,
+       "h": 111,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 447.6,
+        "x1": 559,
+        "y1": 500.2
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) Show that the x coordinate of the centre of mass of the lamina is 3 2 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q6_b.webp",
+       "w": 1090,
+       "h": 110,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 505.5,
+        "x1": 559,
+        "y1": 558.1
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(b) Show that the y coordinate of the centre of mass of the lamina is 17 10 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q6_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 560.7,
+        "x1": 559,
+        "y1": 634.1
+       }
+      }
+     ],
+     "ms": [],
+     "text": "The lamina is freely suspended from B and hangs in equilibrium with BC at an angle θ to the downward vertical through B (c) Find the exact value of tan θ (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q6: no mark-scheme rows"
+   ]
+  },
+  {
+   "id": "WME03_2026_01_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 304,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 202.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 205.1,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) find, in terms of a and g, the speed of the particle at the instant when it is a distance 3a vertically below A (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q7_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 306.5
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(b) find, in terms of a, the distance of the particle below A when it first comes to instantaneous rest. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q7: no mark-scheme rows"
+   ]
+  },
+  {
+   "id": "WME03_2026_01_q8",
+   "number": 8,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01/q8_stem.webp",
+     "w": 1090,
+     "h": 737,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 410.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 413.1,
+        "x1": 559,
+        "y1": 448.5
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) Show that T = mg (1 + 3 cos θ ) (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q8_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 451.0,
+        "x1": 559,
+        "y1": 486.5
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(b) Find, in terms of a and g, the speed of P at the lowest point of its path. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q8_c.webp",
+       "w": 1090,
+       "h": 371,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 489.0,
+        "x1": 559,
+        "y1": 666.4
+       }
+      }
+     ],
+     "ms": [],
+     "text": "There is a fixed small horizontal peg at the point B, which is a distance 2a vertically below O. The peg is smooth and is perpendicular to the vertical plane of the motion of P and the string. The string comes into contact with the peg and P continues to move clockwise in the same vertical plane. The point C is such that CB = 2a and CB is horizontal, as shown in Figure 5. When the particle passes through C, the string is still taut. (c) Find, in terms of a and g, the exact speed of the particle at the instant when it passes through C (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01/q8_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 668.9,
+        "x1": 559,
+        "y1": 704.4
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(d) Find, in terms of m and g, the tension in the string at the instant when P reaches O (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q8: no mark-scheme rows"
+   ]
+  }
+ ]
+}

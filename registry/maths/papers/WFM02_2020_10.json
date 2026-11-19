@@ -1,0 +1,915 @@
+{
+ "id": "WFM02_2020_10",
+ "subject": "maths",
+ "unit": "WFM02",
+ "series": "2020-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_FP2_QP_1784112919193.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_FP2_MS_1784112918408.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM02_2020_10_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WFM02_2020_10/q1_stem.webp",
+     "w": 1016,
+     "h": 83,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 61.8,
+      "x1": 523.2,
+      "y1": 101.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q1_a.webp",
+       "w": 1016,
+       "h": 107,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 113.8,
+        "x1": 523.2,
+        "y1": 164.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q1_a_ms.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 129.2,
+        "x1": 560,
+        "y1": 222.8
+       }
+      }
+     ],
+     "text": "x3 in terms of x, d y (a) Express d 3y x and d y 2 d d d x 2 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q1_b.webp",
+       "w": 1016,
+       "h": 204,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 172.8,
+        "x1": 523.2,
+        "y1": 269.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q1_b_ms.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 222.8,
+        "x1": 560,
+        "y1": 269.6
+       }
+      }
+     ],
+     "text": "At x = 0 , y = 2 and d y x = 5 d (b) Determine the value of d 3y x3 at x = 0 d (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q1_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 276.3,
+        "x1": 523.2,
+        "y1": 311.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q1_c_ms.webp",
+       "w": 1092,
+       "h": 208,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 269.6,
+        "x1": 560,
+        "y1": 369.0
+       }
+      }
+     ],
+     "text": "(c) Express y as a series in ascending powers of x, up to and including the term in x3 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q1_notes.webp",
+     "w": 1092,
+     "h": 721,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 366.0,
+      "x1": 560,
+      "y1": 711.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2020_10_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q2_a.webp",
+       "w": 1016,
+       "h": 111,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 61.0,
+        "x1": 523.2,
+        "y1": 113.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 115.4,
+        "x1": 560,
+        "y1": 185.9
+       }
+      }
+     ],
+     "text": "3 r + 1 2. (a) Write ) in partial fractions. r r ( − 1 )( r + 1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q2_b.webp",
+       "w": 1016,
+       "h": 418,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 120.5,
+        "x1": 523.2,
+        "y1": 320.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 409,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 185.9,
+        "x1": 560,
+        "y1": 381.9
+       }
+      }
+     ],
+     "text": "(b) Hence find n O ( 3 r 1 1 ) n  2 r r 3 1 )( r 1 1 r 2 giving your answer in the form an + bn + c 2 2 n n ( + 1 ) where a, b and c are integers to be determined. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q2_c.webp",
+       "w": 1016,
+       "h": 203,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 327.3,
+        "x1": 523.2,
+        "y1": 424.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 254,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 381.9,
+        "x1": 560,
+        "y1": 503.3
+       }
+      }
+     ],
+     "text": "(c) Hence determine the exact value of 20 O ( r 3 1 1 r r 3 1 )( r 1 1 ) r 15 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q2_notes.webp",
+     "w": 1092,
+     "h": 569,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 500.3,
+      "x1": 560,
+      "y1": 772.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2020_10_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 9,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q3.webp",
+       "w": 1016,
+       "h": 171,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 139.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q3_ms.webp",
+       "w": 1092,
+       "h": 919,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 115.4,
+        "x1": 560,
+        "y1": 556.0
+       }
+      }
+     ],
+     "text": "3. Use algebra to obtain the set of values of x for which x 2 + 3 x + 10 < 7 − x x + 2 (9)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q3_notes.webp",
+     "w": 1092,
+     "h": 438,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 553.0,
+      "x1": 560,
+      "y1": 763.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2020_10_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q4_a.webp",
+       "w": 1016,
+       "h": 135,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 63.3,
+        "x1": 523.2,
+        "y1": 127.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 33,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 101.6,
+        "x1": 560,
+        "y1": 117.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 117.0,
+        "x1": 560,
+        "y1": 190.8
+       }
+      }
+     ],
+     "text": "4. (a) Express the complex number 18 3 − 18i in the form r (cos θ + i sin θ) −π < θ  π (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q4_b.webp",
+       "w": 1016,
+       "h": 192,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 133.9,
+        "x1": 523.2,
+        "y1": 225.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 33,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 101.6,
+        "x1": 560,
+        "y1": 117.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 616,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 190.8,
+        "x1": 560,
+        "y1": 486.0
+       }
+      }
+     ],
+     "text": "(b) Solve the equation z 4 = 18 3 − 18i giving your answers in the form reiθ where −π < θ  π (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q4_notes.webp",
+     "w": 1092,
+     "h": 604,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 483.0,
+      "x1": 560,
+      "y1": 772.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2020_10_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q5.webp",
+       "w": 1016,
+       "h": 432,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 264.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q5_ms_1.webp",
+       "w": 1092,
+       "h": 628,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 103.1,
+        "x1": 560,
+        "y1": 404.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q5_ms_2.webp",
+       "w": 1092,
+       "h": 70,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 404.0,
+        "x1": 560,
+        "y1": 437.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q5_ms_3.webp",
+       "w": 1092,
+       "h": 110,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 437.0,
+        "x1": 560,
+        "y1": 489.2
+       }
+      }
+     ],
+     "text": "5. The transformation T from the z-plane to the w-plane is given by w = z − 3 i i z ≠ −2i z + 2 The circle with equation | z | = 1 in the z-plane is mapped by T onto the circle C in the w-plane. Determine (i) the centre of C, (ii) the radius of C. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q5_notes.webp",
+     "w": 1092,
+     "h": 396,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 486.2,
+      "x1": 560,
+      "y1": 675.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2020_10_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q6.webp",
+       "w": 1016,
+       "h": 228,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 166.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q6_ms.webp",
+       "w": 1092,
+       "h": 1006,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 101.6,
+        "x1": 560,
+        "y1": 583.8
+       }
+      }
+     ],
+     "text": "6. Obtain the general solution of the equation x2 d y x + (x cot x + 2) xy = 4 sin x 0 < x < π d Give your answer in the form y = f (x) (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q6: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WFM02_2020_10_q7",
+   "number": 7,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WFM02_2020_10/q7_stem.webp",
+     "w": 1016,
+     "h": 623,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 356.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q7_a.webp",
+       "w": 1016,
+       "h": 72,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 362.8,
+        "x1": 523.2,
+        "y1": 396.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q7_a_ms_1.webp",
+       "w": 1092,
+       "h": 25,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 101.6,
+        "x1": 560,
+        "y1": 113.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q7_a_ms_2.webp",
+       "w": 1092,
+       "h": 351,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 113.0,
+        "x1": 560,
+        "y1": 281.2
+       }
+      }
+     ],
+     "text": "(a) Determine the polar coordinates of A. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q7_b.webp",
+       "w": 1016,
+       "h": 445,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 396.6,
+        "x1": 523.2,
+        "y1": 609.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 25,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 101.6,
+        "x1": 560,
+        "y1": 113.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 674,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 281.2,
+        "x1": 560,
+        "y1": 603.9
+       }
+      }
+     ],
+     "text": "( ) π   The point B on the curve has polar coordinates a + 2 3 , 6     The finite region R, shown shaded in Figure 1, is bounded by the curve C and the line AB. (b) Use calculus to determine the exact area of the shaded region R. Give your answer in the form a ( ) 2 dπ − e + f 3 4 where d, e and f are integers. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q7_notes.webp",
+     "w": 1092,
+     "h": 851,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 104.8,
+      "x1": 560,
+      "y1": 512.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2020_10_q8",
+   "number": 8,
+   "marks": 14,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q8_a.webp",
+       "w": 1016,
+       "h": 318,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 210.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q8_a_ms_1.webp",
+       "w": 1092,
+       "h": 1369,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 103.1,
+        "x1": 560,
+        "y1": 759.5
+       }
+      },
+      {
+       "src": "maths/WFM02_2020_10/q8_a_ms_2.webp",
+       "w": 1092,
+       "h": 1259,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 104.8,
+        "x1": 560,
+        "y1": 708.5
+       }
+      }
+     ],
+     "text": "8. (a) Show that the transformation x = eu transforms the differential equation x + 3x d y x2 d y 2 x − 8y = 4 ln x x > 0 (I) d d 2 into the differential equation u + 2 d y y d 2 u − 8y = 4u (II) d d 2 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q8_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 216.6,
+        "x1": 523.2,
+        "y1": 266.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 617,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 102.7,
+        "x1": 560,
+        "y1": 398.5
+       }
+      }
+     ],
+     "text": "(b) Determine the general solution of differential equation (II), expressing y as a function of u. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2020_10/q8_c.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 272.7,
+        "x1": 523.2,
+        "y1": 308.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2020_10/q8_c_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 398.5,
+        "x1": 560,
+        "y1": 449.7
+       }
+      }
+     ],
+     "text": "(c) Hence obtain the general solution of differential equation (I). (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2020_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 578,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 446.7,
+      "x1": 560,
+      "y1": 723.5
+     }
+    },
+    {
+     "src": "maths/WFM02_2020_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 60,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 739.7,
+      "x1": 560,
+      "y1": 768.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

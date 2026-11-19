@@ -1,0 +1,1460 @@
+{
+ "id": "WMA13_2026_01",
+ "subject": "maths",
+ "unit": "WMA13",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_P3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_P3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA13_2026_01_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q1_stem.webp",
+     "w": 1090,
+     "h": 95,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 62.8,
+      "x1": 559,
+      "y1": 107.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q1_a.webp",
+       "w": 1090,
+       "h": 81,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 107.9,
+        "x1": 559,
+        "y1": 146.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 86.5,
+        "x1": 560,
+        "y1": 137.2
+       }
+      }
+     ],
+     "text": "Ä Ç (a) Show that g( ) x = 0 has a root α in the interval 0 7 0 8 . , . (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q1_b.webp",
+       "w": 1090,
+       "h": 206,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 148.9,
+        "x1": 559,
+        "y1": 247.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 137.2,
+        "x1": 560,
+        "y1": 193.5
+       }
+      }
+     ],
+     "text": "(b) Show that the equation g( ) x = 0 can be written in the form 1 Ä Ç x px O 3 2 arcsin( 1 ) where p is a constant to be found. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q1_c.webp",
+       "w": 1090,
+       "h": 336,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 250.0,
+        "x1": 559,
+        "y1": 410.5
+       }
+      }
+     ],
+     "ms": [],
+     "text": "Using the iteration formula 1 Ä Ç x 1 O 3 px 2 arcsin( 1 ) n n 1 with the value of p found in part (b) and starting with x1 = . 0 7 (c) (i) find, to 4 decimal places, the value of x2 (ii) find, by repeated iteration, the value of α, giving your answer to 4 decimal places. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q1_notes.webp",
+     "w": 1092,
+     "h": 971,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 295.6,
+      "x1": 560,
+      "y1": 761.1
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(c): no mark-scheme rows (scheme has ['1(a)', '1(b)', '1(ci)', '1(cii)'])",
+    "MS 1(ci): matches no part of the paper",
+    "MS 1(cii): matches no part of the paper"
+   ]
+  },
+  {
+   "id": "WMA13_2026_01_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q2_i.webp",
+       "w": 1090,
+       "h": 90,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 60.3,
+        "x1": 559,
+        "y1": 103.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q2_i_ms.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 116.0
+       }
+      }
+     ],
+     "text": ", find in simplest form, d y 2. (i) Given y = x x 2 ln 2 d x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q2_ii.webp",
+       "w": 1090,
+       "h": 331,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 105.6,
+        "x1": 559,
+        "y1": 264.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q2_ii_ms.webp",
+       "w": 1092,
+       "h": 255,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 116.0,
+        "x1": 560,
+        "y1": 238.0
+       }
+      }
+     ],
+     "text": "(ii) Given x 2 e 3 x O x P 3 f ( ) x 1 2 ( 4 3 ) 4 show that x ax b 1 2 2e ( ) ∑ x O f ( ) x 1 3 ( 4 3 ) where a and b are constants to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q2_notes.webp",
+     "w": 1092,
+     "h": 784,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 235.0,
+      "x1": 560,
+      "y1": 610.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q3_i.webp",
+       "w": 1090,
+       "h": 132,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 119.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q3_i_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 85.7,
+        "x1": 560,
+        "y1": 158.4
+       }
+      }
+     ],
+     "text": "3. (i) Find, in simplest form, . / x 1 x 5 7 2 3 d (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q3_ii.webp",
+       "w": 1090,
+       "h": 302,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 133.8,
+        "x1": 559,
+        "y1": 278.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q3_ii_ms_1.webp",
+       "w": 1092,
+       "h": 365,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 158.4,
+        "x1": 560,
+        "y1": 332.7
+       }
+      },
+      {
+       "src": "maths/WMA13_2026_01/q3_ii_ms_2.webp",
+       "w": 1092,
+       "h": 216,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 332.7,
+        "x1": 560,
+        "y1": 435.9
+       }
+      }
+     ],
+     "text": "x 1 x 3 x 1 3 2 4 7 14 x >1 (ii) x O f( ) x 3 x 1 ( 1 )( 2 ) (a) Write f( ) x in the form c ax b 1 1 31 x where a, b and c are constants to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q3_ii_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 280.7,
+        "x1": 559,
+        "y1": 364.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q3_ii_b_ms_1.webp",
+       "w": 1092,
+       "h": 365,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 158.4,
+        "x1": 560,
+        "y1": 332.7
+       }
+      },
+      {
+       "src": "maths/WMA13_2026_01/q3_ii_b_ms_2.webp",
+       "w": 1092,
+       "h": 216,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 332.7,
+        "x1": 560,
+        "y1": 435.9
+       }
+      }
+     ],
+     "text": "(b) Hence, using algebraic integration, find 9∫ x x f ( ) d 3 writing the answer in simplest form. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q3_notes_1.webp",
+     "w": 1092,
+     "h": 688,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 433.9,
+      "x1": 560,
+      "y1": 763.5
+     }
+    },
+    {
+     "src": "maths/WMA13_2026_01/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1489,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 754.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q4_stem.webp",
+     "w": 1090,
+     "h": 277,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 189.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 192.3,
+        "x1": 559,
+        "y1": 227.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 41,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 86.0
+       }
+      },
+      {
+       "src": "maths/WMA13_2026_01/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 86.0,
+        "x1": 560,
+        "y1": 137.0
+       }
+      }
+     ],
+     "text": "(a) find the resting heart rate of this mammal. Give your answer to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q4_b.webp",
+       "w": 1090,
+       "h": 219,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 230.3,
+        "x1": 559,
+        "y1": 334.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 41,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 86.0
+       }
+      },
+      {
+       "src": "maths/WMA13_2026_01/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 187,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 137.0,
+        "x1": 560,
+        "y1": 226.4
+       }
+      }
+     ],
+     "text": "(b) Show that the equation of the model can be written in the form p h = mq giving each of the values of the constants p and q to 3 significant figures where appropriate. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q4_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 337.4,
+        "x1": 559,
+        "y1": 372.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q4_c_ms_1.webp",
+       "w": 1092,
+       "h": 41,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 86.0
+       }
+      },
+      {
+       "src": "maths/WMA13_2026_01/q4_c_ms_2.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 226.4,
+        "x1": 560,
+        "y1": 272.2
+       }
+      }
+     ],
+     "text": "(c) With reference to the model, interpret the value of the constant p. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q4_notes.webp",
+     "w": 1092,
+     "h": 1022,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 279.0,
+      "x1": 560,
+      "y1": 769.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q5",
+   "number": 5,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q5_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 116.5,
+        "x1": 559,
+        "y1": 151.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 166,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 146.0
+       }
+      }
+     ],
+     "text": "(a) Find ff( ), x giving your answer as a single fraction in its simplest form. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q5_b.webp",
+       "w": 1090,
+       "h": 80,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 152.2,
+        "x1": 559,
+        "y1": 189.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 146.0,
+        "x1": 560,
+        "y1": 189.8
+       }
+      }
+     ],
+     "text": "(b) Find f −1 12 ( ) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q5_c.webp",
+       "w": 1090,
+       "h": 230,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 192.5,
+        "x1": 559,
+        "y1": 302.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 211,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 189.8,
+        "x1": 560,
+        "y1": 290.9
+       }
+      }
+     ],
+     "text": "The function g is defined by x x x P x 4 g : ln 0 e (c) Find the exact values of a such that a = a fg ( ) g ( ) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q5_notes.webp",
+     "w": 1092,
+     "h": 969,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 297.6,
+      "x1": 560,
+      "y1": 762.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q6_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q6_a.webp",
+       "w": 1090,
+       "h": 245,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 95.0,
+        "x1": 559,
+        "y1": 212.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 187.3
+       }
+      }
+     ],
+     "text": "(a) Show that the equation . / O ¢ 3 ¢ 2 cos 60 3 sin can be written in the form . / 1 tan¢ O 1 6 3 3 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q6_b.webp",
+       "w": 1090,
+       "h": 181,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 214.0,
+        "x1": 559,
+        "y1": 300.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 187.3,
+        "x1": 560,
+        "y1": 279.0
+       }
+      }
+     ],
+     "text": "x N (b) Hence solve, for 0 , the equation 180 . / O . / x 3 x 3 2 cos 2 70 3 sin 2 10 giving your solutions to one decimal place. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q6_notes.webp",
+     "w": 1092,
+     "h": 939,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 276.0,
+      "x1": 560,
+      "y1": 726.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 736,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 409.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q7_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 412.4,
+        "x1": 559,
+        "y1": 447.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 111,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 119.6
+       }
+      }
+     ],
+     "text": "(a) State the coordinates of P. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 450.4,
+        "x1": 559,
+        "y1": 485.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 144,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 119.6,
+        "x1": 560,
+        "y1": 188.2
+       }
+      }
+     ],
+     "text": "(b) Solve the equation f( ) x = 8 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q7_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 488.4,
+        "x1": 559,
+        "y1": 571.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 188.2,
+        "x1": 560,
+        "y1": 238.0
+       }
+      }
+     ],
+     "text": "The line l has equation y mx , where m is a constant. = Given that l intersects the graph of y = f( ) at exactly one point, x (c) find the possible values of m. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q7_d.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 574.3,
+        "x1": 559,
+        "y1": 671.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q7_d_ms.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 238.0,
+        "x1": 560,
+        "y1": 309.7
+       }
+      }
+     ],
+     "text": "The graph with equation y = f( ) is transformed onto the graph with equation x ), where a and b are constants. y O a x 3 b f ( . / Given that the vertex of the graph with equation y ) is 5 16 O a x 3 b , f ( (d) find the value of a and the value of b. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 952,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 306.7,
+      "x1": 560,
+      "y1": 763.2
+     }
+    },
+    {
+     "src": "maths/WMA13_2026_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 130,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 101.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q8",
+   "number": 8,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q8.webp",
+       "w": 1090,
+       "h": 316,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 208.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q8_ms.webp",
+       "w": 1092,
+       "h": 474,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 293.9
+       }
+      }
+     ],
+     "text": "8. A curve has equation ° ° = e2tan y x 3 N y N 2 2 Show that y a d O x x b 1 x n ( ) d (ln ) where a, b and n are integers to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 1021,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 300.2,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA13_2026_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 700,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 375.5
+     }
+    },
+    {
+     "src": "maths/WMA13_2026_01/q8_notes_3.webp",
+     "w": 1092,
+     "h": 49,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 64.2,
+      "x1": 560,
+      "y1": 87.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q9",
+   "number": 9,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q9_stem.webp",
+     "w": 1090,
+     "h": 55,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 60.7,
+      "x1": 559,
+      "y1": 86.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q9_a.webp",
+       "w": 1090,
+       "h": 259,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 87.0,
+        "x1": 559,
+        "y1": 210.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 540,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 87.2,
+        "x1": 560,
+        "y1": 345.9
+       }
+      }
+     ],
+     "text": "(a) Write h( ) x in the form . / P 1 R x 1 Ü sin 2 ° where P, R and α are positive constants, 0 < Ü < 2 Give the exact values of P and R and give the value of α, in radians, to 3 decimal places. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q9_b.webp",
+       "w": 1090,
+       "h": 538,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 211.9,
+        "x1": 559,
+        "y1": 469.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 345.9,
+        "x1": 560,
+        "y1": 389.7
+       }
+      }
+     ],
+     "text": "y M O x Figure 2 Figure 2 is a sketch of the curve with equation y = h( ) x (b) State the range of h. (1)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q9_c.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 472.0,
+        "x1": 559,
+        "y1": 569.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q9_c_ms.webp",
+       "w": 1092,
+       "h": 163,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 389.7,
+        "x1": 560,
+        "y1": 467.3
+       }
+      }
+     ],
+     "text": "The point M, shown in Figure 2, is the minimum point on the curve with the largest x coordinate. (c) Find the x coordinate of M. (Solutions based entirely on calculator technology are not acceptable.) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 598,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 474.0,
+      "x1": 560,
+      "y1": 760.7
+     }
+    },
+    {
+     "src": "maths/WMA13_2026_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1257,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 642.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2026_01_q10",
+   "number": 10,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2026_01/q10_stem.webp",
+     "w": 1090,
+     "h": 304,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 202.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q10_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 204.9,
+        "x1": 559,
+        "y1": 254.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q10_a_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 66.8,
+        "x1": 560,
+        "y1": 137.5
+       }
+      }
+     ],
+     "text": "(a) find the rate of growth in the number of insects in population A exactly 5 years after the start of the study. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q10_b.webp",
+       "w": 1090,
+       "h": 507,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 256.9,
+        "x1": 559,
+        "y1": 499.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q10_b_ms.webp",
+       "w": 1092,
+       "h": 136,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 137.5,
+        "x1": 560,
+        "y1": 202.5
+       }
+      }
+     ],
+     "text": "The number of insects NB in population B, t years after the start of the study, is modelled by the equation N P kt O 1 8000 e B where P and k are positive constants. Given that • there are 10 000 insects in population B at the start of the study • there are 11 570 insects in population B exactly 4 years after the start of the study • there are the same number of insects in population A and population B after T years find, according to the models, (b) the exact value of P and the value of k to 3 decimal places, (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2026_01/q10_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 502.3,
+        "x1": 559,
+        "y1": 537.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2026_01/q10_c_ms.webp",
+       "w": 1092,
+       "h": 334,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 202.5,
+        "x1": 560,
+        "y1": 362.3
+       }
+      }
+     ],
+     "text": "(c) the value of T, giving your answer to one decimal place. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2026_01/q10_notes.webp",
+     "w": 1092,
+     "h": 842,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 375.2,
+      "x1": 560,
+      "y1": 778.8
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

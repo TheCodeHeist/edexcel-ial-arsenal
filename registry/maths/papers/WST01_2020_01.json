@@ -1,0 +1,1340 @@
+{
+ "id": "WST01_2020_01",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2020-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202020/IAL_MATHS_2020_Jan_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202020/IAL_MATHS_2020_Jan_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2020_01_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q1.webp",
+       "w": 1016,
+       "h": 376,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 237.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q1_ms.webp",
+       "w": 1092,
+       "h": 202,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 75.6,
+        "x1": 560,
+        "y1": 172.0
+       }
+      }
+     ],
+     "text": "1. The discrete random variable X has the following probability distribution x –2 –1 1 3 4 P(X = x) 0.15 a b c 0.15 where a, b and c are probabilities. The mean value of X is 1 and F(1) = 0.63 Find the value of a, the value of b and the value of c. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 502,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 169.0,
+      "x1": 560,
+      "y1": 409.7
+     }
+    },
+    {
+     "src": "maths/WST01_2020_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 91.4,
+      "x1": 560,
+      "y1": 121.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_01_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_01/q2_stem.webp",
+     "w": 1016,
+     "h": 424,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 261.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q2_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 267.9,
+        "x1": 523.2,
+        "y1": 303.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 560,
+        "y1": 197.5
+       }
+      }
+     ],
+     "text": "(a) Draw a Venn diagram to illustrate this information. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q2_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 309.9,
+        "x1": 523.2,
+        "y1": 345.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 197.5,
+        "x1": 560,
+        "y1": 227.2
+       }
+      }
+     ],
+     "text": "(b) State, giving a reason, a pair of mutually exclusive events from D, C and R. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q2_c.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 351.9,
+        "x1": 523.2,
+        "y1": 387.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 67,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 227.2,
+        "x1": 560,
+        "y1": 259.1
+       }
+      }
+     ],
+     "text": "(c) Find the probability that the family has exactly 2 of these kinds of animals as pets. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q2_d.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 393.9,
+        "x1": 523.2,
+        "y1": 443.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 259.1,
+        "x1": 560,
+        "y1": 337.6
+       }
+      }
+     ],
+     "text": "(d) Showing your working clearly, determine whether or not the events D and C are independent. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q2_e.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 449.9,
+        "x1": 523.2,
+        "y1": 513.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q2_e_ms.webp",
+       "w": 1092,
+       "h": 176,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 337.6,
+        "x1": 560,
+        "y1": 421.9
+       }
+      }
+     ],
+     "text": "Sarah’s family is in the group and her family has a pet cat. (e) Find the probability that Sarah’s family also has a pet rabbit. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q2_f.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 519.9,
+        "x1": 523.2,
+        "y1": 555.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q2_f_ms.webp",
+       "w": 1092,
+       "h": 140,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 421.9,
+        "x1": 560,
+        "y1": 488.3
+       }
+      }
+     ],
+     "text": "(f) Find the exact value of P([D ∪ R] | Cʹ ) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_01/q2_notes.webp",
+     "w": 1092,
+     "h": 623,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 485.3,
+      "x1": 560,
+      "y1": 783.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_01_q3",
+   "number": 3,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_01/q3_stem.webp",
+     "w": 1016,
+     "h": 964,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 520.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 529.5,
+        "x1": 523.2,
+        "y1": 564.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 74.9,
+        "x1": 560,
+        "y1": 117.8
+       }
+      }
+     ],
+     "text": "(a) Show that Smp = 1373.6 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 571.5,
+        "x1": 523.2,
+        "y1": 606.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 117.8,
+        "x1": 560,
+        "y1": 178.9
+       }
+      }
+     ],
+     "text": "(b) Find the value of the product moment correlation coefficient for these data. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_c.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 613.5,
+        "x1": 523.2,
+        "y1": 662.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 178.9,
+        "x1": 560,
+        "y1": 221.1
+       }
+      }
+     ],
+     "text": "(c) State, giving a reason, whether or not the data are consistent with the manager’s belief. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_d.webp",
+       "w": 1016,
+       "h": 221,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 669.5,
+        "x1": 523.2,
+        "y1": 774.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 221.1,
+        "x1": 560,
+        "y1": 288.1
+       }
+      }
+     ],
+     "text": "The manager noticed that the total number of washing machines sold was k times the total = 1 number of guarantee policies sold and suggests a model of the form p , where k is k m an integer. (d) Find the value of k. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_e.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 57.9,
+        "x1": 523.2,
+        "y1": 149.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_e_ms.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 288.1,
+        "x1": 560,
+        "y1": 364.7
+       }
+      }
+     ],
+     "text": "Jiang works for Soapern and thought that this model oversimplified the situation and suggested that a linear regression of p on m may be more appropriate. (e) Find the equation of the linear regression of p on m, giving your answer in the form p = a + bm, where a and b should be given to 3 significant figures. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(f)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_f.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 150.4,
+        "x1": 523.2,
+        "y1": 199.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_f_ms.webp",
+       "w": 1092,
+       "h": 64,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 364.7,
+        "x1": 560,
+        "y1": 394.6
+       }
+      }
+     ],
+     "text": "(f) Use Jiang’s model to estimate the number of guarantee policies sold when 70 washing machines are sold in a month. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(g)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q3_g.webp",
+       "w": 1016,
+       "h": 250,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 200.9,
+        "x1": 523.2,
+        "y1": 320.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q3_g_ms.webp",
+       "w": 1092,
+       "h": 134,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 394.6,
+        "x1": 560,
+        "y1": 458.5
+       }
+      }
+     ],
+     "text": "Usually about 70 washing machines are sold in January. Soapern decides to offer a bonus to staff during January based on the number of guarantee policies sold. If the number of guarantee policies sold is greater than the number estimated by the model, the bonus will be paid. (g) State, giving your reasons, whether you would recommend that the staff use the manager’s model or Jiang’s model. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_01/q3_notes.webp",
+     "w": 1092,
+     "h": 668,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 455.5,
+      "x1": 560,
+      "y1": 775.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_01_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_01/q4_stem.webp",
+     "w": 1016,
+     "h": 573,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 332.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q4_a.webp",
+       "w": 1016,
+       "h": 76,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 333.5,
+        "x1": 523.2,
+        "y1": 369.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 170,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 74.3,
+        "x1": 560,
+        "y1": 155.0
+       }
+      }
+     ],
+     "text": "(a) Calculate the width and height of the bar representing birth weight 3.50  w < 4.00 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q4_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 370.3,
+        "x1": 523.2,
+        "y1": 419.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 155.0,
+        "x1": 560,
+        "y1": 217.2
+       }
+      }
+     ],
+     "text": "(b) Use linear interpolation to estimate the lower quartile of the birth weights of the 98 babies. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q4_c.webp",
+       "w": 1016,
+       "h": 122,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 420.9,
+        "x1": 523.2,
+        "y1": 478.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 217.2,
+        "x1": 560,
+        "y1": 266.1
+       }
+      }
+     ],
+     "text": "The researcher estimated the median to be 3.14 kg and the upper quartile to be 3.55 kg. (c) Use the median and quartiles to describe the skewness of these data. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q4_d.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 479.9,
+        "x1": 523.2,
+        "y1": 529.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q4_d_ms.webp",
+       "w": 1092,
+       "h": 166,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 266.1,
+        "x1": 560,
+        "y1": 345.3
+       }
+      }
+     ],
+     "text": "(d) Find an estimate for (i) the mean birth weight (ii) the standard deviation of the birth weights. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q4_e.webp",
+       "w": 1016,
+       "h": 227,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 530.4,
+        "x1": 523.2,
+        "y1": 638.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q4_e_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 345.3,
+        "x1": 560,
+        "y1": 390.0
+       }
+      }
+     ],
+     "text": "(e) Use the formula 3( mean − median ) skewness = standard deviation to estimate a value for the skewness of these data. Give your answer to 2 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q4_f.webp",
+       "w": 1016,
+       "h": 308,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 639.6,
+        "x1": 523.2,
+        "y1": 787.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q4_f_ms_1.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 390.0,
+        "x1": 560,
+        "y1": 404.2
+       }
+      },
+      {
+       "src": "maths/WST01_2020_01/q4_f_ms_2.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 404.2,
+        "x1": 560,
+        "y1": 454.7
+       }
+      }
+     ],
+     "text": "The researcher read that birth weights should be approximately normally distributed and decides to split the class 3.00  w < 3.50 The frequency for 3.00  w < 3.25 is 9 and the frequency for 3.25  w < 3.50 is 23 (f) (i) State, giving a reason, what the effect would be on the estimate of the median. (ii) Without carrying out any further calculations state, giving a reason, what the effect of this change would be on the estimate of the mean. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_01/q4_notes.webp",
+     "w": 1092,
+     "h": 685,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 451.7,
+      "x1": 560,
+      "y1": 780.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_01_q5",
+   "number": 5,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_01/q5_stem.webp",
+     "w": 1016,
+     "h": 46,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 79.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q5_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 85.8,
+        "x1": 523.2,
+        "y1": 121.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 138.5
+       }
+      }
+     ],
+     "text": "(a) Find P(X < 7) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q5_b.webp",
+       "w": 1016,
+       "h": 139,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 127.8,
+        "x1": 523.2,
+        "y1": 194.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 138.5,
+        "x1": 560,
+        "y1": 194.4
+       }
+      }
+     ],
+     "text": "(b) Find the value of k such that P(10 – k < X < 10 + k) = 0.60 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q5_c.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 200.9,
+        "x1": 523.2,
+        "y1": 292.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 334,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 194.4,
+        "x1": 560,
+        "y1": 354.6
+       }
+      }
+     ],
+     "text": "A single observation x, of X, is to be taken. A rectangle is drawn on a centimetre grid with vertices having coordinates (0, 0), (x, 0), (x, x – 3) and (0, x – 3) (c) Find the probability that the area of this rectangle is more than 40 cm2 (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_01/q5_notes.webp",
+     "w": 1092,
+     "h": 799,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 351.6,
+      "x1": 560,
+      "y1": 734.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_01_q6",
+   "number": 6,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_01/q6_stem.webp",
+     "w": 1016,
+     "h": 356,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 228.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q6_a.webp",
+       "w": 1016,
+       "h": 90,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 228.3,
+        "x1": 523.2,
+        "y1": 270.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 174,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 62.0,
+        "x1": 560,
+        "y1": 145.4
+       }
+      }
+     ],
+     "text": "(a) Show that k = 20 49 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q6_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 277.3,
+        "x1": 523.2,
+        "y1": 312.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 145.4,
+        "x1": 560,
+        "y1": 225.2
+       }
+      }
+     ],
+     "text": "(b) Find E(S) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q6_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 319.3,
+        "x1": 523.2,
+        "y1": 354.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 225.2,
+        "x1": 560,
+        "y1": 288.7
+       }
+      }
+     ],
+     "text": "(c) Find Serena’s expected profit if she enters the tennis tournament. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q6_d.webp",
+       "w": 1016,
+       "h": 192,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 361.3,
+        "x1": 523.2,
+        "y1": 452.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 288.7,
+        "x1": 560,
+        "y1": 331.9
+       }
+      }
+     ],
+     "text": "Roger also enters this tennis tournament. Given that Roger is still in the tournament, the probability that he wins the next round is a constant p. The random variable R represents the total number of rounds that Roger wins. (d) Explain why P(R = 2) = p2(1 – p) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q6_e.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 459.3,
+        "x1": 523.2,
+        "y1": 494.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q6_e_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 331.9,
+        "x1": 560,
+        "y1": 375.0
+       }
+      }
+     ],
+     "text": "(e) Find, in terms of p, the probability distribution for R. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(f)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_01/q6_f.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 501.3,
+        "x1": 523.2,
+        "y1": 550.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_01/q6_f_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 375.0,
+        "x1": 560,
+        "y1": 454.6
+       }
+      }
+     ],
+     "text": "(f) Find the smallest value of p such that Roger’s expected profit is at least as great as Serena’s. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 687,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 451.6,
+      "x1": 560,
+      "y1": 780.9
+     }
+    },
+    {
+     "src": "maths/WST01_2020_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 61,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 554.3,
+      "x1": 560,
+      "y1": 582.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

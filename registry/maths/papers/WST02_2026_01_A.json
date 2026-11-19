@@ -1,0 +1,1279 @@
+{
+ "id": "WST02_2026_01_A",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S2A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2026/S2A_MS_1777540461198.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2026_01_A_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q1_stem.webp",
+     "w": 1090,
+     "h": 153,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 119.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 559,
+        "y1": 157.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q1_a_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 71.8,
+        "x1": 560,
+        "y1": 133.9
+       }
+      }
+     ],
+     "text": "(a) Find the value of μ to one decimal place. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q1_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 159.8,
+        "x1": 559,
+        "y1": 219.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q1_b_ms.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 133.9,
+        "x1": 560,
+        "y1": 193.5
+       }
+      }
+     ],
+     "text": "A customer buys a random sample of 8 of these rods. (b) Find the probability that at least 3 of these rods will have a length less than 200 cm. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q1_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 221.8,
+        "x1": 559,
+        "y1": 295.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q1_c_ms.webp",
+       "w": 1092,
+       "h": 163,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 193.5,
+        "x1": 560,
+        "y1": 271.4
+       }
+      }
+     ],
+     "text": "Another customer buys a random sample of 60 of these rods. (c) Using a suitable approximation, find the probability that more than 5 of these rods will have length less than 200 cm. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q1_notes.webp",
+     "w": 1092,
+     "h": 406,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 268.4,
+      "x1": 560,
+      "y1": 463.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_A_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q2_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 331.5,
+      "x1": 559,
+      "y1": 353.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q2_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 355.6,
+        "x1": 559,
+        "y1": 415.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 30,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 72.7,
+        "x1": 560,
+        "y1": 86.7
+       }
+      },
+      {
+       "src": "maths/WST02_2026_01_A/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 172,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 86.7,
+        "x1": 560,
+        "y1": 168.6
+       }
+      }
+     ],
+     "text": "(a) (i) Write down an expression for P(X = 3) in terms of p (ii) Find the value of p such that P(X = 3) is 16 times the value of P(X = 7) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q2_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 417.6,
+        "x1": 559,
+        "y1": 477.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q2_b_ms.webp",
+       "w": 1092,
+       "h": 157,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 168.6,
+        "x1": 560,
+        "y1": 243.7
+       }
+      }
+     ],
+     "text": "The random variable Y ~ Po(λ) (b) Find the value of λ such that P(Y = 3) is 5 times the value of P(Y = 5) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q2_c.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 479.6,
+        "x1": 559,
+        "y1": 552.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q2_c_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 243.7,
+        "x1": 560,
+        "y1": 319.2
+       }
+      }
+     ],
+     "text": "The random variable W ~ B(n, 0.4) (c) Find the value of n and the value of α such that W can be approximated by the normal distribution, N(32, α) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q2_notes.webp",
+     "w": 1092,
+     "h": 516,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 316.2,
+      "x1": 560,
+      "y1": 563.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_A_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 207,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 144.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q3_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 151.8,
+        "x1": 559,
+        "y1": 201.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q3_a_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 71.8,
+        "x1": 560,
+        "y1": 142.3
+       }
+      }
+     ],
+     "text": "(a) Find the value of a such that P(X > a) = 0.4 Give your answer to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q3_b.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 203.8,
+        "x1": 559,
+        "y1": 311.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 142.3,
+        "x1": 560,
+        "y1": 249.0
+       }
+      },
+      {
+       "src": "maths/WST02_2026_01_A/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 262,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 249.0,
+        "x1": 560,
+        "y1": 374.2
+       }
+      }
+     ],
+     "text": "(b) Use calculus to find (i) E(X) (ii) Var(X) (Solutions relying on calculator technology are not acceptable.) (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q3_notes.webp",
+     "w": 1092,
+     "h": 655,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 371.2,
+      "x1": 560,
+      "y1": 685.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_A_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q4_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 347.5,
+      "x1": 559,
+      "y1": 382.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q4_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 385.6,
+        "x1": 559,
+        "y1": 459.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 72.3,
+        "x1": 560,
+        "y1": 86.7
+       }
+      },
+      {
+       "src": "maths/WST02_2026_01_A/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 86.7,
+        "x1": 560,
+        "y1": 129.6
+       }
+      }
+     ],
+     "text": "(a) (i) State suitable hypotheses for a two tailed test of this claim. (ii) Using a 5% level of significance, find an appropriate critical region for this test. The probability in each of the tails should be as close to 2.5% as possible. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q4_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 461.6,
+        "x1": 559,
+        "y1": 511.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 129.6,
+        "x1": 560,
+        "y1": 172.5
+       }
+      }
+     ],
+     "text": "(b) Ann found that 8 of the 15 peas germinated. State whether or not the company’s claim is supported. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q4_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 513.6,
+        "x1": 559,
+        "y1": 549.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q4_c_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 172.5,
+        "x1": 560,
+        "y1": 219.4
+       }
+      }
+     ],
+     "text": "(c) State the actual significance level of this test. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q4_notes.webp",
+     "w": 1092,
+     "h": 490,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 216.4,
+      "x1": 560,
+      "y1": 450.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_A_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q5_stem.webp",
+     "w": 1090,
+     "h": 74,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 119.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 71.8,
+        "x1": 560,
+        "y1": 122.7
+       }
+      }
+     ],
+     "text": "(a) Write down the distribution of L (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 559,
+        "y1": 171.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_b_ms.webp",
+       "w": 1092,
+       "h": 93,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 122.7,
+        "x1": 560,
+        "y1": 166.9
+       }
+      }
+     ],
+     "text": "(b) Find the probability that the length of the longer piece of string is 28 cm to the nearest cm. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_c.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 173.8,
+        "x1": 559,
+        "y1": 233.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_c_ms.webp",
+       "w": 1092,
+       "h": 174,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 166.9,
+        "x1": 560,
+        "y1": 249.9
+       }
+      }
+     ],
+     "text": "Each piece of string is used to form the perimeter of a square. 2 (c) Calculate the probability that the area of the larger square is less than 64 cm (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 235.8,
+        "x1": 559,
+        "y1": 285.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q5_d_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 249.9,
+        "x1": 560,
+        "y1": 366.8
+       }
+      }
+     ],
+     "text": "(d) Calculate the probability that the difference in area between the two squares is 2 greater than 81 cm (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q5_notes.webp",
+     "w": 1092,
+     "h": 499,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 363.8,
+      "x1": 560,
+      "y1": 602.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_A_q6",
+   "number": 6,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q6_stem.webp",
+     "w": 1090,
+     "h": 342,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 209.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 216.2,
+        "x1": 559,
+        "y1": 251.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 107.6,
+        "x1": 560,
+        "y1": 214.3
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of f (x) for all values of x (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 254.2,
+        "x1": 559,
+        "y1": 289.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_b_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 214.3,
+        "x1": 560,
+        "y1": 242.5
+       }
+      }
+     ],
+     "text": "(b) Write down the mode of X (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 292.2,
+        "x1": 559,
+        "y1": 327.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_c_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 242.5,
+        "x1": 560,
+        "y1": 304.6
+       }
+      }
+     ],
+     "text": "(c) Show that P(X > 2) = 0.8 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 330.2,
+        "x1": 559,
+        "y1": 365.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_d_ms.webp",
+       "w": 1092,
+       "h": 569,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 304.6,
+        "x1": 560,
+        "y1": 577.2
+       }
+      }
+     ],
+     "text": "(d) Define fully the cumulative distribution function F(x) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_e.webp",
+       "w": 1090,
+       "h": 157,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 372.6,
+        "x1": 559,
+        "y1": 447.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_e_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 577.2,
+        "x1": 560,
+        "y1": 624.4
+       }
+      }
+     ],
+     "text": "Given that P(X < a | X > 2) = 5 8 (e) find the value of F(a) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(f)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_f.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 450.1,
+        "x1": 559,
+        "y1": 485.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q6_f_ms.webp",
+       "w": 1092,
+       "h": 310,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 624.4,
+        "x1": 560,
+        "y1": 772.4
+       }
+      }
+     ],
+     "text": "(f) Hence, or otherwise, find the value of a. Give your answer to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q6_notes.webp",
+     "w": 1092,
+     "h": 791,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 447.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_A_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01_A/q7_stem.webp",
+     "w": 1090,
+     "h": 74,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 133.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 72.3,
+        "x1": 560,
+        "y1": 114.8
+       }
+      }
+     ],
+     "text": "(a) Find the smallest value of n such that the probability that there are at least n sightings in 2 months is less than 0.05 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 135.8,
+        "x1": 559,
+        "y1": 185.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 114.8,
+        "x1": 560,
+        "y1": 161.1
+       }
+      }
+     ],
+     "text": "(b) Find the smallest number of months, m, such that the probability of no sightings in m months is less than 0.05 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 187.8,
+        "x1": 559,
+        "y1": 237.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_c_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 161.1,
+        "x1": 560,
+        "y1": 210.9
+       }
+      }
+     ],
+     "text": "(c) Find the probability that there is at least 1 sighting per month in each of 3 consecutive months. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 239.8,
+        "x1": 559,
+        "y1": 289.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_d_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 210.9,
+        "x1": 560,
+        "y1": 255.7
+       }
+      }
+     ],
+     "text": "(d) Find the probability that the number of sightings in an 8 month period is equal to the expected number of sightings for that period. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_e.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 291.8,
+        "x1": 559,
+        "y1": 341.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01_A/q7_e_ms.webp",
+       "w": 1092,
+       "h": 414,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 255.7,
+        "x1": 560,
+        "y1": 453.8
+       }
+      }
+     ],
+     "text": "(e) Given that there were 4 sightings in a 4 month period, find the probability that there were more sightings in the last 2 months than in the first 2 months. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01_A/q7_notes.webp",
+     "w": 1092,
+     "h": 607,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 450.8,
+      "x1": 560,
+      "y1": 741.6
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

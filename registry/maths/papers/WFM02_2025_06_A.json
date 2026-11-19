@@ -1,0 +1,1191 @@
+{
+ "id": "WFM02_2025_06_A",
+ "subject": "maths",
+ "unit": "WFM02",
+ "series": "2025-06",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_FP2A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_FP2A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM02_2025_06_A_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WFM02_2025_06_A/q1_stem.webp",
+     "w": 1090,
+     "h": 876,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 476.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 479.5,
+        "x1": 559,
+        "y1": 514.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q1_a_ms.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 63.6,
+        "x1": 560,
+        "y1": 146.4
+       }
+      }
+     ],
+     "text": "(a) Use algebra to determine the x coordinates of the points of intersection of C and l (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q1_b.webp",
+       "w": 1090,
+       "h": 222,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 517.4,
+        "x1": 559,
+        "y1": 623.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 71,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 146.4,
+        "x1": 560,
+        "y1": 179.5
+       }
+      },
+      {
+       "src": "maths/WFM02_2025_06_A/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 361,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 179.5,
+        "x1": 560,
+        "y1": 352.5
+       }
+      }
+     ],
+     "text": "(b) Determine the range of values of x for which x (i) 2x + 12 > 10 x − 6 (ii) ½2x + 12½ > 10 x x − 6 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q1_notes.webp",
+     "w": 1092,
+     "h": 891,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 349.5,
+      "x1": 560,
+      "y1": 776.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2025_06_A_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q2_a.webp",
+       "w": 1090,
+       "h": 341,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 220.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 232,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 63.6,
+        "x1": 560,
+        "y1": 174.4
+       }
+      }
+     ],
+     "text": "2. (a) Show that the differential equation (x + 2) d y 2 + 6x – y x ≠ –2 x = 3x d can be written in the form d y x + f (x) y = kx d where f is a function to be determined and k is a constant to be found. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q2_b.webp",
+       "w": 1090,
+       "h": 184,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 222.7,
+        "x1": 559,
+        "y1": 310.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q2_b_ms.webp",
+       "w": 1092,
+       "h": 424,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 174.4,
+        "x1": 560,
+        "y1": 377.6
+       }
+      }
+     ],
+     "text": "Given that y = 18 at x = 4 (b) use the answer to part (a) to determine, in simplest form, the particular solution of the differential equation. Give the answer in the form y = g (x) (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q2_notes.webp",
+     "w": 1092,
+     "h": 748,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 374.6,
+      "x1": 560,
+      "y1": 733.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2025_06_A_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM02_2025_06_A/q3_stem.webp",
+     "w": 1090,
+     "h": 225,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 164.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q3_a.webp",
+       "w": 1090,
+       "h": 270,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 174.0,
+        "x1": 559,
+        "y1": 303.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 77.4,
+        "x1": 560,
+        "y1": 112.1
+       }
+      },
+      {
+       "src": "maths/WFM02_2025_06_A/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 407,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 112.1,
+        "x1": 560,
+        "y1": 306.8
+       }
+      }
+     ],
+     "text": "(a) show that 3 y 2 d Ax 1 8 O 3 d x 5 . / 2 3 x 1 4 2 where A is a constant to be determined. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q3_b.webp",
+       "w": 1090,
+       "h": 103,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 305.8,
+        "x1": 559,
+        "y1": 355.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 77.4,
+        "x1": 560,
+        "y1": 112.1
+       }
+      },
+      {
+       "src": "maths/WFM02_2025_06_A/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 211,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 306.8,
+        "x1": 560,
+        "y1": 408.0
+       }
+      }
+     ],
+     "text": "(b) Hence determine the Maclaurin series expansion for arcsin 2x in ascending powers 3 of x up to and including the term in x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q3_c.webp",
+       "w": 1090,
+       "h": 387,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 357.4,
+        "x1": 559,
+        "y1": 542.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q3_c_ms_1.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 77.4,
+        "x1": 560,
+        "y1": 112.1
+       }
+      },
+      {
+       "src": "maths/WFM02_2025_06_A/q3_c_ms_2.webp",
+       "w": 1092,
+       "h": 361,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 408.0,
+        "x1": 560,
+        "y1": 580.5
+       }
+      }
+     ],
+     "text": "x is given by The Maclaurin series expansion for e 2 r x x ex O 1 1 x 1 1 ... 1 1 ... 2 r ! 3x and the answer to part (b) to show that, (c) Use the Maclaurin series expansion for e for small values of x e 3x arcsin 2x ≈ Cx + Dx 2 + Ex 3 where C, D and E are constants to be determined. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q3_notes_1.webp",
+     "w": 1092,
+     "h": 402,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 577.5,
+      "x1": 560,
+      "y1": 770.1
+     }
+    },
+    {
+     "src": "maths/WFM02_2025_06_A/q3_notes_2.webp",
+     "w": 1092,
+     "h": 426,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 244.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2025_06_A_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM02_2025_06_A/q4_stem.webp",
+     "w": 1090,
+     "h": 1155,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 610.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 613.7,
+        "x1": 559,
+        "y1": 649.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q4_a_ms.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 63.6,
+        "x1": 560,
+        "y1": 119.6
+       }
+      }
+     ],
+     "text": "(a) Determine the value of a, the value of b and the value of c (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q4_b.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 651.7,
+        "x1": 559,
+        "y1": 711.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 195,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 119.6,
+        "x1": 560,
+        "y1": 213.0
+       }
+      }
+     ],
+     "text": "Given that the complex number w lies in the region R, (b) determine the exact range of possible values of ½ w ½ (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q4_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 714.1,
+        "x1": 559,
+        "y1": 763.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q4_c_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 213.0,
+        "x1": 560,
+        "y1": 286.9
+       }
+      }
+     ],
+     "text": "(c) determine the minimum value of arg w, giving the answer in radians to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q4_notes.webp",
+     "w": 1092,
+     "h": 505,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 293.5,
+      "x1": 560,
+      "y1": 535.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2025_06_A_q5",
+   "number": 5,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM02_2025_06_A/q5_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q5_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 99.4,
+        "x1": 559,
+        "y1": 134.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 62.5,
+        "x1": 560,
+        "y1": 107.9
+       }
+      }
+     ],
+     "text": "2 (a) Express 1 + as a single fraction in simplest form. 2 r + 5 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q5_b.webp",
+       "w": 1090,
+       "h": 264,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 137.4,
+        "x1": 559,
+        "y1": 263.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q5_b_ms.webp",
+       "w": 1092,
+       "h": 693,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 107.9,
+        "x1": 560,
+        "y1": 440.1
+       }
+      }
+     ],
+     "text": "(b) Hence use the method of differences to determine an expression for n O\u0017 2 \u001b 1 log3 1 \u001a\u0019 2 r 1 5 r 1 giving the answer in the form log3 (f (n)) where f is a function to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q5_c.webp",
+       "w": 1090,
+       "h": 220,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 266.1,
+        "x1": 559,
+        "y1": 371.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q5_c_ms.webp",
+       "w": 1092,
+       "h": 351,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 440.1,
+        "x1": 560,
+        "y1": 607.9
+       }
+      }
+     ],
+     "text": "(c) Hence determine the value of n for which 10 n O 1\u0017 2 \u001b log3 1 1 \u001a\u0019 O 2 r 1 2 5 r n 2 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q5_notes_1.webp",
+     "w": 1092,
+     "h": 352,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 604.9,
+      "x1": 560,
+      "y1": 773.8
+     }
+    },
+    {
+     "src": "maths/WFM02_2025_06_A/q5_notes_2.webp",
+     "w": 1092,
+     "h": 740,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 394.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM02_2025_06_A_q6",
+   "number": 6,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WFM02_2025_06_A/q6_stem.webp",
+     "w": 1090,
+     "h": 287,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 194.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 194.3,
+        "x1": 559,
+        "y1": 229.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 402,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 58.6,
+        "x1": 560,
+        "y1": 250.7
+       }
+      }
+     ],
+     "text": "(a) Use calculus to determine, in simplest form, the exact polar coordinates of P (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 8,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q6_b.webp",
+       "w": 1090,
+       "h": 968,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 237.5,
+        "x1": 559,
+        "y1": 701.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q6_b_ms.webp",
+       "w": 1092,
+       "h": 1090,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 250.7,
+        "x1": 560,
+        "y1": 773.6
+       }
+      }
+     ],
+     "text": "C1 C2 P R O initial line Figure 3 Figure 3 shows a sketch of part of the curve C1 and part of the curve C2 The curve C2 is a circle with centre at the pole O. The curves C1 and C2 intersect at P. The region R, shown shaded in Figure 3, is bounded by C1, C2 and the initial line. (b) Use algebraic integration to determine the area of R, giving the answer in the form 3 ln . / aπ 1 b 1 c 2 where a, b and c are rational numbers. (8)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q6_notes.webp",
+     "w": 1092,
+     "h": 866,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 60.1,
+      "x1": 560,
+      "y1": 475.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2025_06_A_q7",
+   "number": 7,
+   "marks": 13,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q7_a.webp",
+       "w": 1090,
+       "h": 346,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 222.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 471,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 63.6,
+        "x1": 560,
+        "y1": 289.3
+       }
+      }
+     ],
+     "text": "7. (a) Show that the substitution x = e u, where u is a function of x, transforms the differential equation 2 y x y d d 2 2 2 x 1 3 3 y O 27 x x > 0 (I) 2 x d x d into the differential equation 2 y y d d 2 u 2 1 3 y O 27 e (II) 2 u d u d (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q7_b.webp",
+       "w": 1090,
+       "h": 144,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 224.9,
+        "x1": 559,
+        "y1": 293.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 385,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 289.3,
+        "x1": 560,
+        "y1": 473.5
+       }
+      }
+     ],
+     "text": "(b) By solving differential equation (II), determine the general solution of differential equation (I). Give the answer in the form y = f (x) where f is a fully simplified function. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q7_c.webp",
+       "w": 1090,
+       "h": 235,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 293.4,
+        "x1": 559,
+        "y1": 405.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q7_c_ms_1.webp",
+       "w": 1092,
+       "h": 630,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 473.5,
+        "x1": 560,
+        "y1": 775.3
+       }
+      },
+      {
+       "src": "maths/WFM02_2025_06_A/q7_c_ms_2.webp",
+       "w": 1092,
+       "h": 30,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 54.1
+       }
+      }
+     ],
+     "text": "16 and d Given that when x = 1 4 , y = 11 y x = 1 d (c) determine the value of y when x = 1 8 , giving the answer in the form 1 . / p 2 1 q 64 where p and q are integers. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q7_notes.webp",
+     "w": 1092,
+     "h": 1427,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 51.1,
+      "x1": 560,
+      "y1": 735.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM02_2025_06_A_q8",
+   "number": 8,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WFM02_2025_06_A/q8_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 28,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q8_a.webp",
+       "w": 1090,
+       "h": 182,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 168.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q8_a_ms.webp",
+       "w": 1092,
+       "h": 338,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 78.2,
+        "x1": 560,
+        "y1": 240.1
+       }
+      }
+     ],
+     "text": "(a) show that, for n ∈  1 n z nθ 1 O 2cos n z (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q8_b.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 171.0,
+        "x1": 559,
+        "y1": 263.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q8_b_ms.webp",
+       "w": 1092,
+       "h": 364,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 240.1,
+        "x1": 560,
+        "y1": 414.7
+       }
+      }
+     ],
+     "text": "(b) Hence show that 4 θ = 1 8 (cos 4 θ + a cos 2θ + b) cos where a and b are integers to be determined. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 6,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM02_2025_06_A/q8_c.webp",
+       "w": 1090,
+       "h": 982,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 268.5,
+        "x1": 559,
+        "y1": 739.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM02_2025_06_A/q8_c_ms.webp",
+       "w": 1092,
+       "h": 627,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 414.7,
+        "x1": 560,
+        "y1": 715.1
+       }
+      }
+     ],
+     "text": "y R O x π 4 Figure 4 Figure 4 shows a sketch of the curve with equation π π 2 3  x  2 y O cos x 1 1 sin x 2 The region R, shown shaded in Figure 4, is bounded by the curve, the x–axis and the π line with equation x = 4 The region R is rotated through 2π radians about the x–axis to form a solid of revolution. (c) Use the answer to part (b) and algebraic integration to determine the exact volume of this solid. π . / Give the answer in the form p 1 qπ 1 r 2 where p, q and r are integers. 160 (6)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q8_notes_1.webp",
+     "w": 1092,
+     "h": 37,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 712.1,
+      "x1": 560,
+      "y1": 729.3
+     }
+    },
+    {
+     "src": "maths/WFM02_2025_06_A/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1488,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 754.0
+     }
+    },
+    {
+     "src": "maths/WFM02_2025_06_A/q8_notes_3.webp",
+     "w": 1092,
+     "h": 1075,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 555.5
+     }
+    },
+    {
+     "src": "maths/WFM02_2025_06_A/q8_notes_4.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 749.6,
+      "x1": 560,
+      "y1": 779.0
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

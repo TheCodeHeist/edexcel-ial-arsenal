@@ -1,0 +1,968 @@
+{
+ "id": "WME02_2023_10",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2023-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2023/M2_QP_1777460827381.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2023/M2_MS_1777460826539.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2023_10_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WME02_2023_10/q1_stem.webp",
+     "w": 1090,
+     "h": 141,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 60.1,
+      "x1": 559,
+      "y1": 127.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 137.5,
+        "x1": 559,
+        "y1": 173.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 86.2,
+        "x1": 560,
+        "y1": 100.5
+       }
+      },
+      {
+       "src": "maths/WME02_2023_10/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 426,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 100.5,
+        "x1": 560,
+        "y1": 304.6
+       }
+      }
+     ],
+     "text": "(a) Find the velocity of P when P is moving in a direction parallel to the vector j (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 175.6,
+        "x1": 559,
+        "y1": 211.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 86.2,
+        "x1": 560,
+        "y1": 100.5
+       }
+      },
+      {
+       "src": "maths/WME02_2023_10/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 432,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 304.6,
+        "x1": 560,
+        "y1": 511.3
+       }
+      }
+     ],
+     "text": "(b) Find the acceleration of P when t = 4 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2023_10_q2",
+   "number": 2,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME02_2023_10/q2_stem.webp",
+     "w": 1090,
+     "h": 983,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 528.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q2_a.webp",
+       "w": 1090,
+       "h": 90,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 530.5,
+        "x1": 559,
+        "y1": 573.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 682,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.9,
+        "x1": 560,
+        "y1": 384.8
+       }
+      }
+     ],
+     "text": "(a) Show that d = 5 2 a (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q2_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 576.1,
+        "x1": 559,
+        "y1": 649.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 431,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 384.8,
+        "x1": 560,
+        "y1": 590.9
+       }
+      }
+     ],
+     "text": "The template is freely pivoted about Q and hangs in equilibrium with PQ at an angle of θ to the downward vertical. (b) Find the value of tan θ (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q2_c.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 652.0,
+        "x1": 559,
+        "y1": 763.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 309,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 590.9,
+        "x1": 560,
+        "y1": 738.8
+       }
+      }
+     ],
+     "text": "The mass of the template is M The template is still freely pivoted about Q, but it is now held in equilibrium, with PQ vertical, by a horizontal force of magnitude F which acts on the template at X. The line of action of the force lies in the same plane as the template. (c) Find F in terms of M and g (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2023_10/q2_notes.webp",
+     "w": 1092,
+     "h": 38,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 57.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2023_10_q3",
+   "number": 3,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q3.webp",
+       "w": 1090,
+       "h": 720,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 402.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q3_ms.webp",
+       "w": 1092,
+       "h": 1456,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 57.9,
+        "x1": 560,
+        "y1": 756.3
+       }
+      }
+     ],
+     "text": "3. I N s 60° α° –1 Q 8 m s –1 12 m s Figure 2 A particle Q of mass 0.25 kg is moving in a straight line on a smooth horizontal surface –1 when it receives an impulse of magnitude I N s. with speed 8 m s The impulse acts parallel to the horizontal surface and at 60° to the original direction of motion of Q. –1 Immediately after receiving the impulse, the speed of Q is 12 m s As a result of receiving the impulse, the direction of motion of Q is turned through α°, as shown in Figure 2. Find the value of I (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2023_10/q3_notes.webp",
+     "w": 1092,
+     "h": 39,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 86.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2023_10_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2023_10/q4_stem.webp",
+     "w": 1090,
+     "h": 498,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 295.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 295.9,
+        "x1": 559,
+        "y1": 331.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 86.2,
+        "x1": 560,
+        "y1": 158.6
+       }
+      }
+     ],
+     "text": "(a) Find the value of T1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q4_b.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 333.4,
+        "x1": 559,
+        "y1": 431.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 278,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 158.6,
+        "x1": 560,
+        "y1": 291.5
+       }
+      }
+     ],
+     "text": "–1 At time t = 0, a particle Q is also projected from A but with velocity (5i + 7j) m s Particle Q moves freely under gravity. (b) Find the vertical distance between Q and P at time T1 seconds, giving your answer to 2 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 433.8,
+        "x1": 559,
+        "y1": 507.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 335,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 291.5,
+        "x1": 560,
+        "y1": 451.8
+       }
+      }
+     ],
+     "text": "At the instant when particle P reaches B, particle Q is moving at α° below the horizontal. (c) Find the value of α. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q4_d.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 509.8,
+        "x1": 559,
+        "y1": 583.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q4_d_ms.webp",
+       "w": 1092,
+       "h": 440,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 451.8,
+        "x1": 560,
+        "y1": 662.7
+       }
+      }
+     ],
+     "text": "At time T2 seconds, the direction of motion of Q is perpendicular to the initial direction of motion of Q. (d) Find the value of T2 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2023_10/q4_notes.webp",
+     "w": 1092,
+     "h": 39,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 86.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2023_10_q5",
+   "number": 5,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WME02_2023_10/q5_stem.webp",
+     "w": 1090,
+     "h": 204,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 154.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q5_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 156.9,
+        "x1": 559,
+        "y1": 206.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 287,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 86.2,
+        "x1": 560,
+        "y1": 223.3
+       }
+      }
+     ],
+     "text": "(a) Using this model, find the acceleration of the cyclist at the instant when her speed is 6 m s –1 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q5_b.webp",
+       "w": 1090,
+       "h": 403,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 208.9,
+        "x1": 559,
+        "y1": 402.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 647,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 223.3,
+        "x1": 560,
+        "y1": 533.3
+       }
+      }
+     ],
+     "text": "On the following day, the cyclist travels up a straight road from a point A to a point B. The distance from A to B is 20 km. Point A is 500 m above sea level and point B is 800 m above sea level. The cyclist starts from rest at A. –1 At the instant she reaches B her speed is 8 m s The total resistance to the motion of the cyclist from non‑gravitational forces is modelled as a constant force of magnitude 60 N. (b) Using this model, find the total work done by the cyclist in the journey from A to B. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q5_c.webp",
+       "w": 1090,
+       "h": 349,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 404.8,
+        "x1": 559,
+        "y1": 572.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q5_c_ms.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 533.3,
+        "x1": 560,
+        "y1": 664.8
+       }
+      }
+     ],
+     "text": "Later on, the cyclist is travelling up a straight road which is inclined at an angle α to the horizontal, where sin α = 1 20 The cyclist is now working at a constant rate of P watts and has a constant speed –1 of 7 m s The total resistance to the motion of the cyclist from non‑gravitational forces is again modelled as a constant force of magnitude 60 N. (c) Using this model, find the value of P (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2023_10_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2023_10/q6_stem.webp",
+     "w": 1090,
+     "h": 904,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 490.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q6_a.webp",
+       "w": 1090,
+       "h": 81,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 490.4,
+        "x1": 559,
+        "y1": 528.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 694,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 72.4,
+        "x1": 560,
+        "y1": 405.0
+       }
+      }
+     ],
+     "text": "(a) Show that T = 5 W (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 531.3,
+        "x1": 559,
+        "y1": 566.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 732,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 405.0,
+        "x1": 560,
+        "y1": 755.6
+       }
+      }
+     ],
+     "text": "(b) Find, in terms of W, the magnitude of the force exerted on the rod by the hinge at A. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WME02_2023_10_q7",
+   "number": 7,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME02_2023_10/q7_stem.webp",
+     "w": 1090,
+     "h": 403,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 250.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q7_a.webp",
+       "w": 1090,
+       "h": 98,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 250.2,
+        "x1": 559,
+        "y1": 296.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 723,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 56.6,
+        "x1": 560,
+        "y1": 403.1
+       }
+      }
+     ],
+     "text": "(a) Show that y = 8 3 u (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q7_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 299.3,
+        "x1": 559,
+        "y1": 358.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 248,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 403.1,
+        "x1": 560,
+        "y1": 521.3
+       }
+      }
+     ],
+     "text": "The coefficient of restitution between P and Q is e. (b) Find the value of e. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q7_c.webp",
+       "w": 1090,
+       "h": 304,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 361.2,
+        "x1": 559,
+        "y1": 506.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q7_c_ms.webp",
+       "w": 1092,
+       "h": 210,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 521.3,
+        "x1": 560,
+        "y1": 621.8
+       }
+      }
+     ],
+     "text": "After the collision, Q hits a smooth fixed vertical wall that is perpendicular to the direction of motion of Q. Particle Q rebounds. The coefficient of restitution between Q and the wall is f. Given that there is no second collision between P and Q, (c) find the range of possible values of f. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2023_10/q7_d.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 506.5,
+        "x1": 559,
+        "y1": 593.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_10/q7_d_ms.webp",
+       "w": 1092,
+       "h": 300,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 621.8,
+        "x1": 560,
+        "y1": 765.5
+       }
+      }
+     ],
+     "text": "Given that f = 1 4 (d) find, in terms of m and u, the magnitude of the impulse received by Q as a result of its impact with the wall. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2023_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 42,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 770.1,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WME02_2023_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 701.6,
+      "x1": 560,
+      "y1": 731.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

@@ -1,0 +1,1209 @@
+{
+ "id": "WST01_2022_10",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2022-10",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2022_10_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_10/q1_stem.webp",
+     "w": 1090,
+     "h": 633,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 360.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q1_a.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 360.1,
+        "x1": 559,
+        "y1": 396.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q1_a_ms.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 76.7,
+        "x1": 560,
+        "y1": 137.5
+       }
+      }
+     ],
+     "text": "(a) Calculate the exact area of the bar representing the 42  x < 45 class. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q1_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 399.0,
+        "x1": 559,
+        "y1": 458.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q1_b_ms.webp",
+       "w": 1092,
+       "h": 348,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 137.5,
+        "x1": 560,
+        "y1": 304.1
+       }
+      }
+     ],
+     "text": "The height of the tallest bar in the histogram is 10 cm. (b) Find the exact height of the second tallest bar. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q1_c.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 460.9,
+        "x1": 559,
+        "y1": 568.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q1_c_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 304.1,
+        "x1": 560,
+        "y1": 350.5
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q1_c_ms_2.webp",
+       "w": 1092,
+       "h": 127,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 350.5,
+        "x1": 560,
+        "y1": 411.0
+       }
+      }
+     ],
+     "text": "Q1 for these data is 45 cm. (c) Use linear interpolation to find an estimate for (i) Q2 (ii) the interquartile range. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q1_d.webp",
+       "w": 1090,
+       "h": 241,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 570.8,
+        "x1": 559,
+        "y1": 686.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q1_d_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 411.0,
+        "x1": 560,
+        "y1": 489.8
+       }
+      }
+     ],
+     "text": "One measure of skewness is given by Q − 2 Q + Q 3 2 1 Q − Q 3 1 (d) By calculating this measure, describe the skewness of these data. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_10/q1_notes_1.webp",
+     "w": 1092,
+     "h": 632,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 486.8,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WST01_2022_10/q1_notes_2.webp",
+     "w": 1092,
+     "h": 125,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 44.2,
+      "x1": 560,
+      "y1": 103.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_10_q2",
+   "number": 2,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_10/q2_stem.webp",
+     "w": 1090,
+     "h": 198,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 151.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 158.8,
+        "x1": 559,
+        "y1": 194.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 144.6
+       }
+      }
+     ],
+     "text": "(a) Find the exact value of Stt and the exact value of Sct (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 196.8,
+        "x1": 559,
+        "y1": 232.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 144.6,
+        "x1": 560,
+        "y1": 195.3
+       }
+      }
+     ],
+     "text": "(b) Calculate the value of the product moment correlation coefficient for these data. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q2_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 234.8,
+        "x1": 559,
+        "y1": 270.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 195.3,
+        "x1": 560,
+        "y1": 222.9
+       }
+      }
+     ],
+     "text": "(c) Give an interpretation of your answer to part (b) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q2_d.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 272.7,
+        "x1": 559,
+        "y1": 365.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q2_d_ms.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 222.9,
+        "x1": 560,
+        "y1": 316.8
+       }
+      }
+     ],
+     "text": "(d) Show that the equation of the linear regression line of t on c can be written as t = –5.84 + 0.976c where the values of the intercept and gradient are given to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q2_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 367.5,
+        "x1": 559,
+        "y1": 403.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q2_e_ms.webp",
+       "w": 1092,
+       "h": 84,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 316.8,
+        "x1": 560,
+        "y1": 356.5
+       }
+      }
+     ],
+     "text": "(e) Find the expected total ticket sales for a film with a production cost of £90 million. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q2_f.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 405.5,
+        "x1": 559,
+        "y1": 478.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q2_f_ms.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 356.5,
+        "x1": 560,
+        "y1": 419.3
+       }
+      }
+     ],
+     "text": "Using the regression line in part (d) (f) find the range of values of the production cost of a film for which the total ticket sales are less than 80% of its production cost. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_10/q2_notes.webp",
+     "w": 1092,
+     "h": 740,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 416.3,
+      "x1": 560,
+      "y1": 771.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_10_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_10/q3_stem.webp",
+     "w": 1090,
+     "h": 317,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 208.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q3_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 212.2,
+        "x1": 559,
+        "y1": 247.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 204,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 75.2,
+        "x1": 560,
+        "y1": 172.5
+       }
+      }
+     ],
+     "text": "(a) Find the mean of b (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q3_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 250.1,
+        "x1": 559,
+        "y1": 285.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 182,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 172.5,
+        "x1": 560,
+        "y1": 259.6
+       }
+      }
+     ],
+     "text": "(b) Find the standard deviation of b (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q3_c.webp",
+       "w": 1090,
+       "h": 182,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 287.5,
+        "x1": 559,
+        "y1": 374.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q3_c_ms_1.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 259.6,
+        "x1": 560,
+        "y1": 309.5
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ms_2.webp",
+       "w": 1092,
+       "h": 1002,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 309.5,
+        "x1": 560,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ms_3.webp",
+       "w": 1092,
+       "h": 874,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 87.2,
+        "x1": 560,
+        "y1": 506.1
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ms_4.webp",
+       "w": 1092,
+       "h": 1173,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 642.2
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ms_5.webp",
+       "w": 1092,
+       "h": 1387,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 744.6
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ms_6.webp",
+       "w": 1092,
+       "h": 833,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 479.0
+       }
+      }
+     ],
+     "text": "A 9th squirrel is added to the sample. Given that for all 9 squirrels ∑x = 0 (c) find (i) the body length of the 9th squirrel, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 377.1,
+        "x1": 559,
+        "y1": 412.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii_ms_1.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 259.6,
+        "x1": 560,
+        "y1": 309.5
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii_ms_2.webp",
+       "w": 1092,
+       "h": 1002,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 309.5,
+        "x1": 560,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii_ms_3.webp",
+       "w": 1092,
+       "h": 874,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 87.2,
+        "x1": 560,
+        "y1": 506.1
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii_ms_4.webp",
+       "w": 1092,
+       "h": 1173,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 642.2
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii_ms_5.webp",
+       "w": 1092,
+       "h": 1387,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 744.6
+       }
+      },
+      {
+       "src": "maths/WST01_2022_10/q3_c_ii_ms_6.webp",
+       "w": 1092,
+       "h": 833,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 479.0
+       }
+      }
+     ],
+     "text": "(ii) the standard deviation of x for all 9 squirrels. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 655,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 476.0,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WST01_2022_10/q3_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 746.1,
+      "x1": 560,
+      "y1": 775.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_10_q4",
+   "number": 4,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q4.webp",
+       "w": 1090,
+       "h": 240,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 171.8
+       }
+      }
+     ],
+     "ms": [],
+     "text": "4. The cumulative distribution function of the discrete random variable W, which takes only the values 6, 7 and 8, is given by w + w − F(W ) = ( 3 )( 1 ) for w = 6, 7, 8 77 Find E(W ) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q4: no mark-scheme rows"
+   ]
+  },
+  {
+   "id": "WST01_2022_10_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_10/q5_stem.webp",
+     "w": 1090,
+     "h": 436,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 265.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 268.7,
+        "x1": 559,
+        "y1": 304.1
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) Find the probability that this kiwi fruit is Large. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q5_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 306.7,
+        "x1": 559,
+        "y1": 366.1
+       }
+      }
+     ],
+     "ms": [],
+     "text": "35% of the kiwi fruit are Jumbo. (b) Find the value of k to one decimal place. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q5_c.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 368.6,
+        "x1": 559,
+        "y1": 428.0
+       }
+      }
+     ],
+     "ms": [],
+     "text": "75% of Tiny kiwi fruit weigh more than y grams. (c) Find the value of y giving your answer to one decimal place. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q5: no mark-scheme rows"
+   ]
+  },
+  {
+   "id": "WST01_2022_10_q6",
+   "number": 6,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_10/q6_stem.webp",
+     "w": 1090,
+     "h": 367,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 232.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q6_a.webp",
+       "w": 1090,
+       "h": 223,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 243.8,
+        "x1": 559,
+        "y1": 350.1
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) Write down the value of (i) P(A) (ii) P(A½B) (iii) P(A½C) (3)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q6_b.webp",
+       "w": 1090,
+       "h": 151,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 350.1,
+        "x1": 559,
+        "y1": 421.9
+       }
+      }
+     ],
+     "ms": [],
+     "text": "Given that P(B¢ ∩ D¢) = 7 10 and P(C½D) = 3 5 (b) find the exact value of q and the exact value of r (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q6_c.webp",
+       "w": 1090,
+       "h": 148,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 421.9,
+        "x1": 559,
+        "y1": 492.7
+       }
+      }
+     ],
+     "ms": [],
+     "text": "Given also that P(B ∪ C¢) = 5 8 (c) find the exact value of s (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q6: no mark-scheme rows"
+   ]
+  },
+  {
+   "id": "WST01_2022_10_q7",
+   "number": 7,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_10/q7_stem.webp",
+     "w": 1090,
+     "h": 225,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 164.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 178.4,
+        "x1": 559,
+        "y1": 213.8
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) Given that the number selected by Adana is not 5, write down the probability it is 0 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 216.4,
+        "x1": 559,
+        "y1": 251.8
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(b) Show that E(X 2) = 75 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q7_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 254.4,
+        "x1": 559,
+        "y1": 289.8
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(c) Find Var(X ) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q7_d.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 292.3,
+        "x1": 559,
+        "y1": 327.8
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(d) Find Var(4 – 3X ) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q7_e.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 330.3,
+        "x1": 559,
+        "y1": 417.7
+       }
+      }
+     ],
+     "ms": [],
+     "text": "Bruno and Charlie each independently select one number at random from the distribution of X (e) Find the probability that the number Bruno selects is greater than the number Charlie selects. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(f)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_10/q7_f.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 420.3,
+        "x1": 559,
+        "y1": 479.7
+       }
+      }
+     ],
+     "ms": [],
+     "text": "Devika multiplies Bruno’s number by Charlie’s number to obtain a product, D (f) Determine the probability distribution of D (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "Q7: no mark-scheme rows"
+   ]
+  }
+ ]
+}

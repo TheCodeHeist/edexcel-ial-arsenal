@@ -1,0 +1,1159 @@
+{
+ "id": "WMA14_2022_01",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2022-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_P4_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_P4_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2022_01_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q1.webp",
+       "w": 1016,
+       "h": 231,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 167.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q1_ms.webp",
+       "w": 1092,
+       "h": 594,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 62.5,
+        "x1": 560,
+        "y1": 347.2
+       }
+      }
+     ],
+     "text": "1. The curve C has equation xy2 = x2 y + 6 x ≠ 0 y ≠ 0 Find an equation for the tangent to C at the point P (2, 3), giving your answer in the form ax + by + c = 0 where a, b and c are integers. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q1_notes.webp",
+     "w": 1092,
+     "h": 914,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 344.2,
+      "x1": 560,
+      "y1": 782.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q2_a.webp",
+       "w": 1016,
+       "h": 248,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 175.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 339,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 65.1,
+        "x1": 560,
+        "y1": 227.5
+       }
+      }
+     ],
+     "text": "2. (a) Find, in ascending powers of x, the first three non-zero terms of the binomial series expansion of x | x | < 1 3 1 + 4 3 3 4 giving each coefficient as a simplified fraction. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q2_b.webp",
+       "w": 1016,
+       "h": 116,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 182.3,
+        "x1": 523.2,
+        "y1": 237.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 335,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 227.5,
+        "x1": 560,
+        "y1": 387.5
+       }
+      }
+     ],
+     "text": "(b) Use the expansion from part (a) with x = 1 3 to find a rational approximation to 3 31 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q2_notes.webp",
+     "w": 1092,
+     "h": 821,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 384.5,
+      "x1": 560,
+      "y1": 778.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_01/q3_stem.webp",
+     "w": 1016,
+     "h": 141,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 124.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q3_a.webp",
+       "w": 1016,
+       "h": 222,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 133.7,
+        "x1": 523.2,
+        "y1": 239.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 474,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 81.3,
+        "x1": 560,
+        "y1": 308.5
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_01/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 312,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 308.5,
+        "x1": 560,
+        "y1": 457.5
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_01/q3_a_ms_3.webp",
+       "w": 1092,
+       "h": 417,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 457.5,
+        "x1": 560,
+        "y1": 657.3
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_01/q3_a_ms_4.webp",
+       "w": 1092,
+       "h": 315,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 59.2,
+        "x1": 560,
+        "y1": 210.1
+       }
+      }
+     ],
+     "text": "(a) Show that C has Cartesian equation 12 y = x p  x  q ( 7 − x )( 1 + ) where p and q are constants to be found. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q3_b.webp",
+       "w": 1016,
+       "h": 218,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 246.2,
+        "x1": 523.2,
+        "y1": 350.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 235,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 210.1,
+        "x1": 560,
+        "y1": 322.5
+       }
+      }
+     ],
+     "text": "(b) Hence, find a Cartesian equation for C in the form a c y = + p  x  q x + b x + d where a, b, c and d are constants. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q3_notes_1.webp",
+     "w": 1092,
+     "h": 981,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 319.5,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q3_notes_2.webp",
+     "w": 1092,
+     "h": 945,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 51.9,
+      "x1": 560,
+      "y1": 505.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_01/q4_stem.webp",
+     "w": 1016,
+     "h": 446,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 270.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q4_a.webp",
+       "w": 1016,
+       "h": 147,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 277.3,
+        "x1": 523.2,
+        "y1": 347.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 47.1,
+        "x1": 560,
+        "y1": 139.0
+       }
+      }
+     ],
+     "text": "(a) Show that the surface area, A cm2, of the icosahedron is given by A = 5 3x2 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q4_b.webp",
+       "w": 1016,
+       "h": 276,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 353.9,
+        "x1": 523.2,
+        "y1": 485.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 283,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 139.0,
+        "x1": 560,
+        "y1": 274.1
+       }
+      }
+     ],
+     "text": "Given that the volume, V cm3, of the icosahedron is given by V = 5 ( )x 12 3 + 5 3 ( ) 3 + 5 x V (b) show that d = d A 8 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q4_c.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 492.4,
+        "x1": 523.2,
+        "y1": 569.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 371,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 274.1,
+        "x1": 560,
+        "y1": 452.0
+       }
+      }
+     ],
+     "text": "The surface area of the icosahedron is increasing at a constant rate of 0.025 cm2 s−1 (c) Find the rate of change of the volume of the icosahedron when x = 2 , giving your answer to 2 significant figures. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 655,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 449.0,
+      "x1": 560,
+      "y1": 762.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 727,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 52.3,
+      "x1": 560,
+      "y1": 400.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_01/q5_stem.webp",
+     "w": 1016,
+     "h": 792,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 436.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q5_a.webp",
+       "w": 1016,
+       "h": 249,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 443.3,
+        "x1": 523.2,
+        "y1": 562.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 452,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 51.2,
+        "x1": 560,
+        "y1": 267.6
+       }
+      }
+     ],
+     "text": "(a) Show that the area of R is given by 9 ∫ t 3 4 K d t 81 − 16 t 2 0 where K is a constant to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q5_b.webp",
+       "w": 1016,
+       "h": 143,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 568.7,
+        "x1": 523.2,
+        "y1": 637.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 965,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 267.6,
+        "x1": 560,
+        "y1": 730.4
+       }
+      }
+     ],
+     "text": "(b) Using the substitution u = 81 − 16t2 , or otherwise, find the exact area of R. (Solutions relying on calculator technology are not acceptable.) (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 61,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 727.4,
+      "x1": 560,
+      "y1": 756.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1532,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 52.6,
+      "x1": 560,
+      "y1": 787.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q5_notes_3.webp",
+     "w": 1092,
+     "h": 282,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 52.3,
+      "x1": 560,
+      "y1": 187.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q6",
+   "number": 6,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q6.webp",
+       "w": 1016,
+       "h": 252,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 177.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q6_ms.webp",
+       "w": 1092,
+       "h": 412,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 64.8,
+        "x1": 560,
+        "y1": 261.8
+       }
+      }
+     ],
+     "text": "6. Three consecutive terms in a sequence of real numbers are given by k, 1 + 2k and 3 + 3k where k is a constant. Use proof by contradiction to show that this sequence is not a geometric sequence. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q6_notes.webp",
+     "w": 1092,
+     "h": 813,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 258.8,
+      "x1": 560,
+      "y1": 648.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_01/q7_stem.webp",
+     "w": 1016,
+     "h": 679,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 382.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q7_a.webp",
+       "w": 1016,
+       "h": 242,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 393.1,
+        "x1": 523.2,
+        "y1": 508.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 306,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 52.4,
+        "x1": 560,
+        "y1": 198.8
+       }
+      }
+     ],
+     "text": "(a) Show that the volume, V cm3, of the doorknob is given by 4 ∫ ( ) V = K x − 8 x + 16 e d x 2 2 x 0 where K is a constant to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q7_b.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 515.0,
+        "x1": 523.2,
+        "y1": 592.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 526,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 198.8,
+        "x1": 560,
+        "y1": 451.2
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_01/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 507,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 451.2,
+        "x1": 560,
+        "y1": 694.0
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_01/q7_b_ms_3.webp",
+       "w": 1092,
+       "h": 630,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 39.5,
+        "x1": 560,
+        "y1": 341.7
+       }
+      }
+     ],
+     "text": "(b) Hence, find the exact value of the volume of the doorknob. Give your answer in the form pπ (e q + r) cm3 where p, q and r are simplified rational numbers to be found. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 897,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 338.7,
+      "x1": 560,
+      "y1": 768.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1001,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 51.9,
+      "x1": 560,
+      "y1": 532.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q8",
+   "number": 8,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_01/q8_stem.webp",
+     "w": 1016,
+     "h": 308,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 204.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q8_a.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 208.7,
+        "x1": 523.2,
+        "y1": 272.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 293,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 53.1,
+        "x1": 560,
+        "y1": 193.4
+       }
+      }
+     ],
+     "text": "(a) Write down an equation for l1 Give your answer in the form r = p + λq , where λ is a scalar parameter. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q8_b.webp",
+       "w": 1016,
+       "h": 332,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 278.7,
+        "x1": 523.2,
+        "y1": 437.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 504,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 193.4,
+        "x1": 560,
+        "y1": 434.6
+       }
+      }
+     ],
+     "text": "The line l2 has equation 3 1         r =  + μ 1 5     4   9  where μ is a scalar parameter. (b) Show that l1 and l2 do not meet. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q8_c.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 444.2,
+        "x1": 523.2,
+        "y1": 535.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q8_c_ms.webp",
+       "w": 1092,
+       "h": 690,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 434.6,
+        "x1": 560,
+        "y1": 765.3
+       }
+      }
+     ],
+     "text": "The point C is on l2 where μ = −1 (c) Find the acute angle between AC and l2 Give your answer in degrees to one decimal place. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 1331,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 52.6,
+      "x1": 560,
+      "y1": 690.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 736,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 52.6,
+      "x1": 560,
+      "y1": 405.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_01_q9",
+   "number": 9,
+   "marks": 11,
+   "stem": [],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q9_a.webp",
+       "w": 1016,
+       "h": 185,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 145.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 209,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 61.6,
+        "x1": 560,
+        "y1": 161.5
+       }
+      }
+     ],
+     "text": "9. (a) Find the derivative with respect to y of 1 ( ) 2 1 + 2 ln y (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q9_b.webp",
+       "w": 1016,
+       "h": 176,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 151.8,
+        "x1": 523.2,
+        "y1": 235.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 814,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 161.5,
+        "x1": 560,
+        "y1": 551.8
+       }
+      }
+     ],
+     "text": "(b) Hence find a general solution to the differential equation π < x < 2 π 3cosec(2x) d y x = y (1 + 2 ln y) 3 y > 0 −2 d (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_01/q9_c.webp",
+       "w": 1016,
+       "h": 267,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 241.1,
+        "x1": 523.2,
+        "y1": 368.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_01/q9_c_ms_1.webp",
+       "w": 1092,
+       "h": 494,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 551.8,
+        "x1": 560,
+        "y1": 788.6
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_01/q9_c_ms_2.webp",
+       "w": 1092,
+       "h": 52,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 52.6,
+        "x1": 560,
+        "y1": 77.2
+       }
+      }
+     ],
+     "text": "π (c) Show that the particular solution of this differential equation for which y = 1 at x = 6 is given by sec −1 A x y = e 2 where A is an irrational number to be found. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 1482,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 74.2,
+      "x1": 560,
+      "y1": 785.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1509,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 52.6,
+      "x1": 560,
+      "y1": 776.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

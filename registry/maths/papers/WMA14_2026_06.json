@@ -1,0 +1,1178 @@
+{
+ "id": "WMA14_2026_06",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2026-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_P4_QP_1786858033298.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_P4_MS_1786858032670.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2026_06_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q1_stem.webp",
+     "w": 1090,
+     "h": 63,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 68.6,
+      "x1": 559,
+      "y1": 98.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q1_a.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 102.8,
+        "x1": 559,
+        "y1": 137.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 205,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 186.3,
+        "x1": 560,
+        "y1": 284.3
+       }
+      }
+     ],
+     "text": "(a) Write f ( ) x in partial fraction form. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q1_b.webp",
+       "w": 1090,
+       "h": 252,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 140.8,
+        "x1": 559,
+        "y1": 261.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 405,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 284.3,
+        "x1": 560,
+        "y1": 478.5
+       }
+      }
+     ],
+     "text": "(b) Using • the answer to part (a) • appropriate binomial series expansions find the first 3 terms, in ascending powers of x, of the series expansion of f ( ) x . Write the answer in simplest form. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q1_c.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 264.5,
+        "x1": 559,
+        "y1": 299.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 478.5,
+        "x1": 560,
+        "y1": 545.5
+       }
+      }
+     ],
+     "text": "(c) State the range of values of x for which the expansion in part (b) is valid. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q1_notes_1.webp",
+     "w": 1092,
+     "h": 457,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 549.5,
+      "x1": 560,
+      "y1": 768.2
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q1_notes_2.webp",
+     "w": 1092,
+     "h": 1412,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 66.8,
+      "x1": 560,
+      "y1": 744.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WMA14_2026_06_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q2_stem.webp",
+     "w": 1090,
+     "h": 232,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 61.1,
+      "x1": 559,
+      "y1": 172.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 174.4,
+        "x1": 559,
+        "y1": 210.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 153,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 187.4,
+        "x1": 560,
+        "y1": 260.6
+       }
+      }
+     ],
+     "text": "(a) With reference to the equations, explain why l1 and l2 are not parallel. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 213.1,
+        "x1": 559,
+        "y1": 248.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 435,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 260.6,
+        "x1": 560,
+        "y1": 468.7
+       }
+      }
+     ],
+     "text": "(b) Prove by contradiction that l1 and l2 do not intersect. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q2_notes_1.webp",
+     "w": 1092,
+     "h": 636,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 465.7,
+      "x1": 560,
+      "y1": 770.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1472,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 67.0,
+      "x1": 560,
+      "y1": 773.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_06_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q3_stem.webp",
+     "w": 1090,
+     "h": 197,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 151.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q3_a.webp",
+       "w": 1090,
+       "h": 103,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 154.5,
+        "x1": 559,
+        "y1": 203.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 374,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 496.5,
+        "x1": 560,
+        "y1": 675.6
+       }
+      }
+     ],
+     "text": "(a) Use parametric differentiation to find the equation of the tangent to C at P. Give the answer in the form y O mx 1 , where m and c are constants. c (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q3_b.webp",
+       "w": 1090,
+       "h": 209,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 206.5,
+        "x1": 559,
+        "y1": 306.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 80,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 675.6,
+        "x1": 560,
+        "y1": 713.4
+       }
+      },
+      {
+       "src": "maths/WMA14_2026_06/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 243,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 106.2,
+        "x1": 560,
+        "y1": 222.3
+       }
+      }
+     ],
+     "text": "(b) Show that the equation of C can be written in the form y x = f ( ) where ax 1 b 0 < x < k f ( ) x O x d 1 and where a, b, d and k are integers to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q3_c.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 309.7,
+        "x1": 559,
+        "y1": 344.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 222.3,
+        "x1": 560,
+        "y1": 274.5
+       }
+      }
+     ],
+     "text": "(c) Hence, or otherwise, find the range of f. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 960,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 271.5,
+      "x1": 560,
+      "y1": 731.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1445,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 68.7,
+      "x1": 560,
+      "y1": 762.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_06_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q4_stem.webp",
+     "w": 1090,
+     "h": 517,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.2,
+      "x1": 559,
+      "y1": 305.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q4_a.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 308.4,
+        "x1": 559,
+        "y1": 343.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 179,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 177.2,
+        "x1": 560,
+        "y1": 263.0
+       }
+      }
+     ],
+     "text": "(a) the time taken to fill the container, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q4_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 345.6,
+        "x1": 559,
+        "y1": 381.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 279,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 263.0,
+        "x1": 560,
+        "y1": 396.0
+       }
+      }
+     ],
+     "text": "(b) the exact rate of change of the depth of the water, in cm s−1, when h = 5 (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q4_notes.webp",
+     "w": 1092,
+     "h": 777,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 400.1,
+      "x1": 560,
+      "y1": 772.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_06_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q5_stem.webp",
+     "w": 1090,
+     "h": 524,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.2,
+      "x1": 559,
+      "y1": 308.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q5_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 311.4,
+        "x1": 559,
+        "y1": 346.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 344,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 320.3,
+        "x1": 560,
+        "y1": 485.2
+       }
+      }
+     ],
+     "text": "(a) find the size of angle BAC, giving the answer, in degrees, to one decimal place. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q5_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 349.4,
+        "x1": 559,
+        "y1": 384.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 485.2,
+        "x1": 560,
+        "y1": 533.8
+       }
+      }
+     ],
+     "text": "(b) Hence find the area of triangle ABC, giving the answer to one decimal place. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q5_c.webp",
+       "w": 1090,
+       "h": 123,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 387.4,
+        "x1": 559,
+        "y1": 446.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 410,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 533.8,
+        "x1": 560,
+        "y1": 730.2
+       }
+      }
+     ],
+     "text": "The line AB is extended to a point D such that angle ADC is a right angle. (c) Find (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 81,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 727.2,
+      "x1": 560,
+      "y1": 765.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1403,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 741.2
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q5_notes_3.webp",
+     "w": 1092,
+     "h": 1367,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 56.9,
+      "x1": 560,
+      "y1": 712.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_06_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q6_stem.webp",
+     "w": 1090,
+     "h": 879,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.2,
+      "x1": 559,
+      "y1": 479.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q6_a.webp",
+       "w": 1090,
+       "h": 89,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 482.2,
+        "x1": 559,
+        "y1": 524.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 248,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 195.5,
+        "x1": 560,
+        "y1": 314.4
+       }
+      }
+     ],
+     "text": "(a) Use implicit differentiation to find d y in simplest form in terms of x and y. d x (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q6_b.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 527.3,
+        "x1": 559,
+        "y1": 634.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 376,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 314.4,
+        "x1": 560,
+        "y1": 494.3
+       }
+      }
+     ],
+     "text": "The point P a b ( , ) lies on C. Given that a is the maximum possible value of x (b) find the value of a and the value of b. (Solutions relying on calculator technology are not acceptable.) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 432,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 498.3,
+      "x1": 560,
+      "y1": 705.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 1451,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 68.8,
+      "x1": 560,
+      "y1": 765.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_06_q7",
+   "number": 7,
+   "marks": 13,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q7_i.webp",
+       "w": 1090,
+       "h": 150,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 57.4,
+        "x1": 559,
+        "y1": 129.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q7_i_ms.webp",
+       "w": 1092,
+       "h": 394,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 507.7,
+        "x1": 560,
+        "y1": 696.3
+       }
+      }
+     ],
+     "text": "7. (i) Use integration by parts to find ∫ 2 x e cos 4 x x d (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q7_ii.webp",
+       "w": 1090,
+       "h": 311,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 130.5,
+        "x1": 559,
+        "y1": 278.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q7_ii_ms_1.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 696.3,
+        "x1": 560,
+        "y1": 765.5
+       }
+      },
+      {
+       "src": "maths/WMA14_2026_06/q7_ii_ms_2.webp",
+       "w": 1092,
+       "h": 468,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 106.2,
+        "x1": 560,
+        "y1": 330.5
+       }
+      }
+     ],
+     "text": "(ii) Using the substitution 2x u = sin and algebraic integration, find the exact value of 3 2 x 3 4 d x 2 1 4 3 x 1 4 giving the answer in simplest form. (Solutions relying on calculator technology are not acceptable.) (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 908,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 334.5,
+      "x1": 560,
+      "y1": 769.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1419,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 748.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2026_06_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA14_2026_06/q8_stem.webp",
+     "w": 1090,
+     "h": 309,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.4,
+      "x1": 559,
+      "y1": 205.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q8_a.webp",
+       "w": 1090,
+       "h": 265,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 208.6,
+        "x1": 559,
+        "y1": 335.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q8_a_ms_1.webp",
+       "w": 1092,
+       "h": 67,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 156.7,
+        "x1": 560,
+        "y1": 188.4
+       }
+      },
+      {
+       "src": "maths/WMA14_2026_06/q8_a_ms_2.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 188.4,
+        "x1": 560,
+        "y1": 245.2
+       }
+      }
+     ],
+     "text": "(a) find, according to this model, (i) the value of k, (ii) the value of d S when t =10 d t (Solutions relying entirely on calculator technology are not acceptable.) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q8_b.webp",
+       "w": 1090,
+       "h": 239,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 338.3,
+        "x1": 559,
+        "y1": 452.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 315,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 245.2,
+        "x1": 560,
+        "y1": 395.5
+       }
+      }
+     ],
+     "text": "In an improved model, S increases with respect to t according to the differential equation d S 128 3 S O d t 50 (b) Solve the differential equation, with S =18 when t = 0, to find an equation for S in terms of t. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2026_06/q8_c.webp",
+       "w": 1090,
+       "h": 123,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 455.6,
+        "x1": 559,
+        "y1": 514.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2026_06/q8_c_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 395.5,
+        "x1": 560,
+        "y1": 445.6
+       }
+      }
+     ],
+     "text": "Given that the algae grows until it covers the entire surface of the pond, (c) find, according to the improved model, the maximum possible area of the pond. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2026_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 650,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 442.6,
+      "x1": 560,
+      "y1": 754.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2026_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 655,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 66.1,
+      "x1": 560,
+      "y1": 379.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

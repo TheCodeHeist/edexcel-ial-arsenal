@@ -1,0 +1,1446 @@
+{
+ "id": "WST01_2024_06",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2024-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202024/IAL_MATHS_2024_MayJune_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202024/IAL_MATHS_2024_MayJune_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2024_06_q1",
+   "number": 1,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_06/q1_stem.webp",
+     "w": 1090,
+     "h": 556,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 323.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 325.6,
+        "x1": 559,
+        "y1": 361.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 560,
+        "y1": 84.9
+       }
+      }
+     ],
+     "text": "(a) Find the value of k, used in the stem and leaf diagram. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q1_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 363.6,
+        "x1": 559,
+        "y1": 413.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 84.9,
+        "x1": 560,
+        "y1": 116.1
+       }
+      }
+     ],
+     "text": "(b) Find the lower quartile and the upper quartile of the height grown in one year for these Birch trees. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q1_c.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 415.6,
+        "x1": 559,
+        "y1": 507.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 116.1,
+        "x1": 560,
+        "y1": 167.6
+       }
+      }
+     ],
+     "text": "The researcher defines an outlier as an observation that is greater than Q3 + 1.5 × (Q3 – Q1) or less than Q1 – 1.5 × (Q3 – Q1) (c) Show that there is only one outlier amongst the Birch trees. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q1_d.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 510.4,
+        "x1": 559,
+        "y1": 597.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 273,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 167.6,
+        "x1": 560,
+        "y1": 298.3
+       }
+      }
+     ],
+     "text": "The grid on page 3 shows a box plot for the heights that the Maple trees grow in one year. (d) On the same grid draw a box plot for the heights that the Birch trees grow in one year. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(e)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q1_e.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 600.3,
+        "x1": 559,
+        "y1": 663.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q1_e_ms.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 298.3,
+        "x1": 560,
+        "y1": 380.8
+       }
+      }
+     ],
+     "text": "(e) Comment on any difference in the distributions of the growth of these Birch trees and the growth of these Maple trees. State the values of any statistics you have used to support your comment. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(f)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q1_f_1.webp",
+       "w": 1090,
+       "h": 259,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 666.1,
+        "x1": 559,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WST01_2024_06/q1_f_2.webp",
+       "w": 1090,
+       "h": 740,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 423.4,
+        "x1": 559,
+        "y1": 778.4
+       }
+      },
+      {
+       "src": "maths/WST01_2024_06/q1_f_3.webp",
+       "w": 1090,
+       "h": 759,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 402.1,
+        "x1": 559,
+        "y1": 765.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q1_f_ms.webp",
+       "w": 1092,
+       "h": 175,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 380.8,
+        "x1": 560,
+        "y1": 464.6
+       }
+      }
+     ],
+     "text": "The researcher realises he has missed out 4 pieces of data for the Maple trees. The heights each seedling grows in one year, to the nearest cm, in ascending order, for these 4 Maple trees are 27 cm, a cm, 48 cm, 2a cm. Given that there is no change to the box plot for the Maple trees given on page 3 (f) find the range of possible values for a Show your working clearly. (3) Birch Maple 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 Height grown (cm) Turn over for spare grid if you need to redraw your answer for part (d) Only use this grid if you need to redraw your answer for part (d) Birch Maple 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 Height grown (cm)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_06/q1_notes.webp",
+     "w": 1092,
+     "h": 685,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 461.6,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(f): text after the marks",
+    "1(f): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2024_06_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_06/q2_stem.webp",
+     "w": 1090,
+     "h": 254,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 178.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 192.4,
+        "x1": 559,
+        "y1": 227.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 55.6,
+        "x1": 560,
+        "y1": 89.8
+       }
+      }
+     ],
+     "text": "(a) Find P(2X – 3 > 5) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q2_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 230.4,
+        "x1": 559,
+        "y1": 289.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 219,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 89.8,
+        "x1": 560,
+        "y1": 194.4
+       }
+      }
+     ],
+     "text": "Given that E(X ) = 4.6 (b) show that Var(X ) = 4.14 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q2_c.webp",
+       "w": 1090,
+       "h": 237,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 292.3,
+        "x1": 559,
+        "y1": 405.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 182,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 194.4,
+        "x1": 560,
+        "y1": 281.5
+       }
+      }
+     ],
+     "text": "The random variable Y = aX – b where a and b are positive constants. Given that E(Y) = 13.4 and Var(Y) = 66.24 (c) find the value of a and the value of b (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q2_d.webp",
+       "w": 1090,
+       "h": 260,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 408.2,
+        "x1": 559,
+        "y1": 532.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q2_d_ms.webp",
+       "w": 1092,
+       "h": 537,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 281.5,
+        "x1": 560,
+        "y1": 538.9
+       }
+      }
+     ],
+     "text": "In a game Sam and Alex each spin the spinner once, landing on X1 and X2 respectively. Sam’s score is given by the random variable S = X1 Alex’s score is given by the random variable R = 2X2 – 3 The person with the higher score wins the game. If the scores are the same it is a draw. (d) Find the probability that Sam wins the game. (4)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_06/q2_notes.webp",
+     "w": 1092,
+     "h": 463,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 535.9,
+      "x1": 560,
+      "y1": 757.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_06_q3",
+   "number": 3,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_06/q3_stem.webp",
+     "w": 1090,
+     "h": 605,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 346.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 346.6,
+        "x1": 559,
+        "y1": 382.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 55.5,
+        "x1": 560,
+        "y1": 129.5
+       }
+      }
+     ],
+     "text": "(a) Calculate the width and the height of the bar representing the class 30  x < 32 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 385.0,
+        "x1": 559,
+        "y1": 420.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 129.5,
+        "x1": 560,
+        "y1": 188.6
+       }
+      }
+     ],
+     "text": "(b) Using linear interpolation, estimate the median of x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q3_c.webp",
+       "w": 1090,
+       "h": 241,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 422.9,
+        "x1": 559,
+        "y1": 538.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 188.6,
+        "x1": 560,
+        "y1": 264.8
+       }
+      }
+     ],
+     "text": "The weight, w grams, of each of the 50 pebbles is coded using 10y = w – 20 These coded data are summarised by 2 y O 104 y O 233 54 . (c) Show that the mean of w is 40.8 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q3_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 540.7,
+        "x1": 559,
+        "y1": 576.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q3_d_ms.webp",
+       "w": 1092,
+       "h": 368,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 264.8,
+        "x1": 560,
+        "y1": 440.9
+       }
+      }
+     ],
+     "text": "(d) Calculate the standard deviation of w (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q3_e.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 578.7,
+        "x1": 559,
+        "y1": 700.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q3_e_ms_1.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 440.9,
+        "x1": 560,
+        "y1": 454.0
+       }
+      },
+      {
+       "src": "maths/WST01_2024_06/q3_e_ms_2.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 454.0,
+        "x1": 560,
+        "y1": 510.7
+       }
+      }
+     ],
+     "text": "The weight of a pebble recorded as 40.8 grams is added to the sample. (e) Without carrying out any further calculations, state, giving a reason, what effect this would have on the value of (i) the mean of w (ii) the standard deviation of w (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_06/q3_notes.webp",
+     "w": 1092,
+     "h": 589,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 507.7,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_06_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_06/q4_stem.webp",
+     "w": 1090,
+     "h": 194,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 149.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 154.2,
+        "x1": 559,
+        "y1": 189.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 56.4,
+        "x1": 560,
+        "y1": 142.7
+       }
+      }
+     ],
+     "text": "(a) Calculate the exact value of Sdg and the exact value of Sgg (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q4_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 192.2,
+        "x1": 559,
+        "y1": 227.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 142.7,
+        "x1": 560,
+        "y1": 207.2
+       }
+      }
+     ],
+     "text": "(b) Calculate the value of the product moment correlation coefficient between d and g (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q4_c.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 230.2,
+        "x1": 559,
+        "y1": 322.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 207.2,
+        "x1": 560,
+        "y1": 299.4
+       }
+      }
+     ],
+     "text": "(c) Show that the equation of the regression line of g on d can be written as g = –42.3 + 0.722d where the values of the intercept and gradient are given to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q4_d.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 325.0,
+        "x1": 559,
+        "y1": 360.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q4_d_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 299.4,
+        "x1": 560,
+        "y1": 328.0
+       }
+      }
+     ],
+     "text": "(d) Give an interpretation, in context, of the gradient of the regression line. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q4_e.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 363.0,
+        "x1": 559,
+        "y1": 460.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q4_e_ms_1.webp",
+       "w": 1092,
+       "h": 30,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 328.0,
+        "x1": 560,
+        "y1": 342.2
+       }
+      },
+      {
+       "src": "maths/WST01_2024_06/q4_e_ms_2.webp",
+       "w": 1092,
+       "h": 58,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 342.2,
+        "x1": 560,
+        "y1": 369.3
+       }
+      }
+     ],
+     "text": "Using the equation of the regression line given in part (c) (e) (i) estimate the girth of a bear with a length of 2.5 metres, (ii) explain why an estimate for the girth of a bear with a length of 0.5 metres is not reliable. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q4_f.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 462.9,
+        "x1": 559,
+        "y1": 536.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q4_f_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 369.3,
+        "x1": 560,
+        "y1": 432.7
+       }
+      }
+     ],
+     "text": "Using the regression line from part (c), the biologist estimates that for each x cm increase in the length of a bear there will be a 17.3 cm increase in the girth. (f) Find the value of x (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_06/q4_notes.webp",
+     "w": 1092,
+     "h": 672,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 429.7,
+      "x1": 560,
+      "y1": 751.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_06_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_06/q5_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q5_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 168.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 166,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 56.4,
+        "x1": 560,
+        "y1": 135.7
+       }
+      }
+     ],
+     "text": "(a) Use standardisation to find the proportion of adults that take less than 18 minutes to complete round one. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q5_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 171.1,
+        "x1": 559,
+        "y1": 244.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 135.7,
+        "x1": 560,
+        "y1": 194.4
+       }
+      }
+     ],
+     "text": "Only the fastest 60% of adults from round one take part in round two. (b) Use standardisation to find the longest time that an adult can take to complete round one if they are to take part in round two. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q5_c.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 247.1,
+        "x1": 559,
+        "y1": 344.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 358,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 194.4,
+        "x1": 560,
+        "y1": 366.0
+       }
+      }
+     ],
+     "text": "The time, T minutes, taken by adults to complete round two is modelled by a normal distribution with mean µ Given that P(µ – 10 < T < µ + 10) = 0.95 (c) find P(T > µ – 5 ½ T > µ – 10) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_06/q5_notes.webp",
+     "w": 1092,
+     "h": 585,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 363.0,
+      "x1": 560,
+      "y1": 643.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2024_06_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2024_06/q6_stem.webp",
+     "w": 1090,
+     "h": 655,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 370.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q6_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 381.9,
+        "x1": 559,
+        "y1": 431.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 144,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 560,
+        "y1": 125.6
+       }
+      }
+     ],
+     "text": "(a) Find the probability that a randomly selected teenager plays Chess but does not play Go. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q6_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 433.9,
+        "x1": 559,
+        "y1": 493.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 241,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 125.6,
+        "x1": 560,
+        "y1": 240.7
+       }
+      }
+     ],
+     "text": "Given that the events C and S are independent, (b) find the value of p (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 495.8,
+        "x1": 559,
+        "y1": 531.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 240.7,
+        "x1": 560,
+        "y1": 285.4
+       }
+      }
+     ],
+     "text": "(c) Hence find the value of q (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q6_d.webp",
+       "w": 1090,
+       "h": 91,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 532.8,
+        "x1": 559,
+        "y1": 575.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q6_d_ms_1.webp",
+       "w": 1092,
+       "h": 82,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 285.4,
+        "x1": 560,
+        "y1": 324.1
+       }
+      },
+      {
+       "src": "maths/WST01_2024_06/q6_d_ms_2.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 324.1,
+        "x1": 560,
+        "y1": 384.2
+       }
+      }
+     ],
+     "text": "(d) Find (i) P((C ∪ S) ∩ G¢) (1) (ii) P(C ½ (S ∩ G))",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q6_d_ii.webp",
+       "w": 1090,
+       "h": 46,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 575.6,
+        "x1": 559,
+        "y1": 597.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q6_d_ii_ms_1.webp",
+       "w": 1092,
+       "h": 82,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 285.4,
+        "x1": 560,
+        "y1": 324.1
+       }
+      },
+      {
+       "src": "maths/WST01_2024_06/q6_d_ii_ms_2.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 324.1,
+        "x1": 560,
+        "y1": 384.2
+       }
+      }
+     ],
+     "text": "(2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2024_06/q6_e.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 599.8,
+        "x1": 559,
+        "y1": 687.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2024_06/q6_e_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 384.2,
+        "x1": 560,
+        "y1": 514.2
+       }
+      }
+     ],
+     "text": "A youth club consists of a large number of teenagers. In this youth club 76 teenagers play Chess and Go. (e) Use the information in the Venn diagram to estimate how many of the teenagers in the youth club do not play Scrabble. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2024_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 582,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 511.2,
+      "x1": 560,
+      "y1": 789.8
+     }
+    },
+    {
+     "src": "maths/WST01_2024_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 728.2,
+      "x1": 560,
+      "y1": 757.6
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(d): text after the marks",
+    "6(d)(ii): text doesn't start at its label"
+   ]
+  }
+ ]
+}

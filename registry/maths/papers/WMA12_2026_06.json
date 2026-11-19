@@ -1,0 +1,1407 @@
+{
+ "id": "WMA12_2026_06",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2026-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_P2_QP_1786858027821.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/June 2026/IAL_MATHS_2026_JUNE_P2_MS_1786858027179.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2026_06_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q1_stem.webp",
+     "w": 1090,
+     "h": 81,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 95.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 102.5,
+        "x1": 559,
+        "y1": 137.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 110.5,
+        "x1": 560,
+        "y1": 178.0
+       }
+      }
+     ],
+     "text": "(a) Use the remainder theorem to find the remainder when f(x) is divided by (x – 2) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 140.4,
+        "x1": 559,
+        "y1": 175.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 456,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 178.0,
+        "x1": 560,
+        "y1": 396.3
+       }
+      }
+     ],
+     "text": "(b) Hence, or otherwise, find the quotient when f(x) is divided by (x – 2) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q1_notes_1.webp",
+     "w": 1092,
+     "h": 483,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 393.3,
+      "x1": 560,
+      "y1": 624.6
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q1_notes_2.webp",
+     "w": 1092,
+     "h": 953,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 102.2,
+      "x1": 560,
+      "y1": 559.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q2_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q2_i.webp",
+       "w": 1090,
+       "h": 144,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 94.8,
+        "x1": 559,
+        "y1": 163.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q2_i_ms.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 78.6,
+        "x1": 560,
+        "y1": 173.2
+       }
+      }
+     ],
+     "text": "(i) Solve, for 0 < x  2π, the equation 2 x + cos x = 0 1 + sin (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q2_ii.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 166.0,
+        "x1": 559,
+        "y1": 258.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q2_ii_ms.webp",
+       "w": 1092,
+       "h": 243,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 173.2,
+        "x1": 560,
+        "y1": 289.3
+       }
+      }
+     ],
+     "text": "(ii) Solve, for 0 < θ < 180°, the equation sin (θ + 60°) = 4 cos (θ + 60°) giving the answer to one decimal place. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q2_notes_1.webp",
+     "w": 1092,
+     "h": 1050,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 286.3,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1102,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 568.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q3_stem.webp",
+     "w": 1090,
+     "h": 110,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 109.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q3_a.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 114.0,
+        "x1": 559,
+        "y1": 221.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 70.8,
+        "x1": 560,
+        "y1": 164.4
+       }
+      },
+      {
+       "src": "maths/WMA12_2026_06/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 301,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 164.4,
+        "x1": 560,
+        "y1": 308.6
+       }
+      }
+     ],
+     "text": "(a) Decide, showing detailed reasoning, whether the sequence could be (i) an arithmetic sequence, (ii) a geometric sequence. State, for each part, the value of u3 if such a sequence is possible. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q3_b.webp",
+       "w": 1090,
+       "h": 266,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 223.9,
+        "x1": 559,
+        "y1": 351.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 285,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 308.6,
+        "x1": 560,
+        "y1": 444.8
+       }
+      }
+     ],
+     "text": "(b) Given instead that • the sequence is periodic of period 4 50 iO • ui O 141 1 find the value of u3 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 725,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 441.8,
+      "x1": 560,
+      "y1": 789.3
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1277,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 89.8,
+      "x1": 560,
+      "y1": 702.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q4_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q4_i.webp",
+       "w": 1090,
+       "h": 216,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 184.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q4_i_ms.webp",
+       "w": 1092,
+       "h": 175,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 70.8,
+        "x1": 560,
+        "y1": 154.4
+       }
+      }
+     ],
+     "text": "(i) Show by counterexample that the statement 5 5 . / O “f n n 3 3 n 2 3 19 n 1 20 is a perfect cube for all positive integers n” 2 2 is not true. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q4_ii.webp",
+       "w": 1090,
+       "h": 144,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 187.2,
+        "x1": 559,
+        "y1": 255.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q4_ii_ms.webp",
+       "w": 1092,
+       "h": 261,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 154.4,
+        "x1": 560,
+        "y1": 278.9
+       }
+      }
+     ],
+     "text": "(ii) Prove that the following statement is true 2 > 6x – 4 for all real x” “(x + 1) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q4_notes_1.webp",
+     "w": 1092,
+     "h": 1067,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 276.6,
+      "x1": 560,
+      "y1": 788.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1352,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 688.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q5_stem.webp",
+     "w": 1090,
+     "h": 196,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 150.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q5_a.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 164.4,
+        "x1": 559,
+        "y1": 227.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 292,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 70.8,
+        "x1": 560,
+        "y1": 210.5
+       }
+      }
+     ],
+     "text": "(a) Using the trapezium rule with all the y values in the table, find an estimate for the area of the region bounded by C and the x‑axis between the lines with equations x = 0.9 and x = 5.1 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q5_b.webp",
+       "w": 1090,
+       "h": 756,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 233.7,
+        "x1": 559,
+        "y1": 596.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 254,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 210.5,
+        "x1": 560,
+        "y1": 331.8
+       }
+      }
+     ],
+     "text": "0.9 m 0.9 m y 2.5 m (0.9, 1.5) (5.1, 1.5) (0, 1.5) (6, 1.5) 1.5 m C O x 6 m Figure 1 Figure 2 Figure 1 shows a sketch of a solid concrete skateboard ramp. Figure 2 shows a graph of the cross‑section of the same ramp. The ramp • has a total length of 6 m • has a platform at each end at a height of 1.5 m and with a length of 0.9 m • has a curved section C with equation y = f(x), where x and y are in metres • has a uniform cross-section and is 2.5 m wide as shown in Figure 1 and/or Figure 2. (b) Using the answer to part (a), find an estimate for the volume of concrete in the whole of the ramp. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "5(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q5_c.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 598.6,
+        "x1": 559,
+        "y1": 662.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 178,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 331.8,
+        "x1": 560,
+        "y1": 417.0
+       }
+      }
+     ],
+     "text": "(c) State, giving a reason for your answer, whether the answer for part (b) is an overestimate or an underestimate of the true volume of concrete in the whole of the skateboard ramp. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 617,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 414.8,
+      "x1": 560,
+      "y1": 710.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1277,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 652.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6(i)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q6_i.webp",
+       "w": 1090,
+       "h": 310,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 205.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q6_i_ms_1.webp",
+       "w": 1092,
+       "h": 383,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 70.8,
+        "x1": 560,
+        "y1": 254.1
+       }
+      },
+      {
+       "src": "maths/WMA12_2026_06/q6_i_ms_2.webp",
+       "w": 1092,
+       "h": 189,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 254.1,
+        "x1": 560,
+        "y1": 344.2
+       }
+      }
+     ],
+     "text": "6. (i) (a) Sketch a graph of the curve with equation 1 y O 1 3 x ∈  x 5 Show on your sketch • the coordinates of any points at which the curve crosses the axes • the equation of any asymptotes (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "6(i)(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q6_i_b.webp",
+       "w": 1090,
+       "h": 234,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 207.9,
+        "x1": 559,
+        "y1": 320.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q6_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 383,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 70.8,
+        "x1": 560,
+        "y1": 254.1
+       }
+      },
+      {
+       "src": "maths/WMA12_2026_06/q6_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 189,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 254.1,
+        "x1": 560,
+        "y1": 344.2
+       }
+      }
+     ],
+     "text": "(b) Using logarithms and making your method clear, solve the equation 1 x 1 3 O 23 5 giving the answer to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q6_ii.webp",
+       "w": 1090,
+       "h": 116,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 322.7,
+        "x1": 559,
+        "y1": 377.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q6_ii_ms.webp",
+       "w": 1092,
+       "h": 442,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 344.2,
+        "x1": 560,
+        "y1": 556.1
+       }
+      }
+     ],
+     "text": "(ii) Given that log4 x = a, find in simplest form in terms of a (a) log4 (64x) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(ii)(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q6_ii_b.webp",
+       "w": 1090,
+       "h": 89,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 377.9,
+        "x1": 559,
+        "y1": 420.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q6_ii_b_ms.webp",
+       "w": 1092,
+       "h": 442,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 344.2,
+        "x1": 560,
+        "y1": 556.1
+       }
+      }
+     ],
+     "text": "2 (b) log4 \u001b\u001a 2 x (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 482,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 553.1,
+      "x1": 560,
+      "y1": 784.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 1229,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.0,
+      "x1": 560,
+      "y1": 645.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q7_a.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 178.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 269,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 93.7,
+        "x1": 560,
+        "y1": 222.5
+       }
+      }
+     ],
+     "text": "7. (a) Find, in ascending powers of x, up to and including the term in x 2, the binomial expansion of 10 5 \u001b x 1 1 \u001a\u0019 16 fully simplifying each coefficient. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q7_b.webp",
+       "w": 1090,
+       "h": 245,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 178.5,
+        "x1": 559,
+        "y1": 295.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 222.5,
+        "x1": 560,
+        "y1": 353.7
+       }
+      }
+     ],
+     "text": "10 (b) Use x = 1 10 and the answer to part (a) to show that an estimate for 33 \u001b\u001a is 32 1389 k where k is an integer to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q7_c.webp",
+       "w": 1090,
+       "h": 85,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 295.2,
+        "x1": 559,
+        "y1": 335.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 242,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 353.7,
+        "x1": 560,
+        "y1": 469.4
+       }
+      }
+     ],
+     "text": "10 1389 (c) Hence find a rational estimate for (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 642,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 466.4,
+      "x1": 560,
+      "y1": 774.2
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1261,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 644.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q8",
+   "number": 8,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q8_stem.webp",
+     "w": 1090,
+     "h": 724,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 403.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q8_a.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 406.7,
+        "x1": 559,
+        "y1": 490.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 201,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 70.8,
+        "x1": 560,
+        "y1": 167.0
+       }
+      }
+     ],
+     "text": "(a) Find (i) the coordinates of the centre of C (ii) the radius of C (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q8_b.webp",
+       "w": 1090,
+       "h": 351,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 492.7,
+        "x1": 559,
+        "y1": 660.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 230,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 167.0,
+        "x1": 560,
+        "y1": 276.5
+       }
+      }
+     ],
+     "text": "The parabola S 3 2 • has equation y O ax 3 x 3 3 2 • intersects C on the y-axis at the point A (0, –3) • intersects C again at the point B where AB is a diameter of C Given that B is the minimum point of S, (b) show that a = 3 32 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q8_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 663.1,
+        "x1": 559,
+        "y1": 722.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q8_c_ms.webp",
+       "w": 1092,
+       "h": 545,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 276.5,
+        "x1": 560,
+        "y1": 537.8
+       }
+      }
+     ],
+     "text": "The finite region R is bounded by S and C and is shown shaded in Figure 3. (c) Use algebraic integration to find the exact area of R. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 494,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 534.8,
+      "x1": 560,
+      "y1": 771.8
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1536,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 777.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_06_q9",
+   "number": 9,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_06/q9_stem.webp",
+     "w": 1090,
+     "h": 604,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 346.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q9_a.webp",
+       "w": 1090,
+       "h": 172,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 349.0,
+        "x1": 559,
+        "y1": 431.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 273,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 243.2,
+        "x1": 560,
+        "y1": 373.7
+       }
+      }
+     ],
+     "text": "(a) Show that the area, A cm 2, of the design is given by π x . / 2 A xy O 1 3 10 8 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q9_b.webp",
+       "w": 1090,
+       "h": 339,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 434.0,
+        "x1": 559,
+        "y1": 596.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 427,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 373.7,
+        "x1": 560,
+        "y1": 578.1
+       }
+      }
+     ],
+     "text": "Given that • the total area of the design is one square metre π • the perimeter, P cm, of the design is given by P O 2 y 1 2 1 x 3 5 π \u001b \u0018\u0017 2 \u001a (b) show that π π 20000 3 2 5 P O 1 2 1 x \u001b \u001a x 4 \u0018 \u0017 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q9_c.webp",
+       "w": 1090,
+       "h": 92,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 598.8,
+        "x1": 559,
+        "y1": 642.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q9_c_ms.webp",
+       "w": 1092,
+       "h": 244,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 578.1,
+        "x1": 560,
+        "y1": 694.9
+       }
+      }
+     ],
+     "text": "(c) Use algebraic differentiation to find the value of x that gives the minimum value for P, giving the answer to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_06/q9_d.webp",
+       "w": 1090,
+       "h": 157,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 642.4,
+        "x1": 559,
+        "y1": 717.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_06/q9_d_ms_1.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 694.9,
+        "x1": 560,
+        "y1": 789.6
+       }
+      },
+      {
+       "src": "maths/WMA12_2026_06/q9_d_ms_2.webp",
+       "w": 1092,
+       "h": 48,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 62.9
+       }
+      }
+     ],
+     "text": "2 P By considering d 2 d x (d) justify that the value for x found in part (c) gives the minimum value for P. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_06/q9_notes_1.webp",
+     "w": 1092,
+     "h": 1513,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 59.9,
+      "x1": 560,
+      "y1": 785.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06/q9_notes_2.webp",
+     "w": 1092,
+     "h": 669,
+     "region": {
+      "page": 27,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 360.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

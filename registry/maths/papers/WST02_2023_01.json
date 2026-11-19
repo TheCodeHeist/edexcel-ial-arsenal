@@ -1,0 +1,1192 @@
+{
+ "id": "WST02_2023_01",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2023-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2023/S2_QP_1777746692002.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2023/S2_MS_1777746689481.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2023_01_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_01/q1_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q1_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 68,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 72.8,
+        "x1": 560,
+        "y1": 105.0
+       }
+      }
+     ],
+     "text": "(a) Suggest a suitable distribution for modelling the number of sales of pairs of shoes made per hour on a weekday. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q1_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 559,
+        "y1": 182.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 54,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 105.0,
+        "x1": 560,
+        "y1": 130.5
+       }
+      }
+     ],
+     "text": "(b) State one assumption necessary for this distribution to be a suitable model of this situation. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q1_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 185.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q1_c_ms_1.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 130.5,
+        "x1": 560,
+        "y1": 180.5
+       }
+      },
+      {
+       "src": "maths/WST02_2023_01/q1_c_ms_2.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 180.5,
+        "x1": 560,
+        "y1": 232.1
+       }
+      }
+     ],
+     "text": "(c) Find the probability that on a weekday the shop sells (i) more than 4 pairs of shoes in a one-hour period, (ii) more than 4 pairs of shoes in each of 3 consecutive one-hour periods. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q1_d.webp",
+       "w": 1090,
+       "h": 321,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 424.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 269,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 232.1,
+        "x1": 560,
+        "y1": 360.9
+       }
+      }
+     ],
+     "text": "The area manager visits the shop on a weekday, the day after an advert for the shop appears in a local paper. In a one-hour period during the manager’s visit, the shop sells 7 pairs of shoes. This leads the manager to believe that the advert has increased the shop’s sales of pairs of shoes. (d) Stating your hypotheses clearly, test at the 5% level of significance whether or not there is evidence of an increase in sales of pairs of shoes following the appearance of the advert. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_01/q1_notes.webp",
+     "w": 1092,
+     "h": 575,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 357.9,
+      "x1": 560,
+      "y1": 633.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_01_q2",
+   "number": 2,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_01/q2_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q2_a.webp",
+       "w": 1090,
+       "h": 65,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 126.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 74.0,
+        "x1": 560,
+        "y1": 102.6
+       }
+      }
+     ],
+     "text": "(a) List all the possible combinations of 3 coins that might be taken. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q2_b.webp",
+       "w": 1090,
+       "h": 392,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 126.2,
+        "x1": 559,
+        "y1": 313.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 102.6,
+        "x1": 560,
+        "y1": 130.7
+       }
+      }
+     ],
+     "text": "Let X – represent the mean value of the 3 coins taken. Part of the sampling distribution of X – is given below. x – 20 50 a b 4913 27 P(X – = x – ) c d 8000 8000 (b) Write down the value of a and the value of b (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q2_c.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 316.3,
+        "x1": 559,
+        "y1": 413.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 156,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 130.7,
+        "x1": 560,
+        "y1": 205.4
+       }
+      }
+     ],
+     "text": "The probability of taking a 20p coin at random from the bag is p The probability of taking a 50p coin at random from the bag is q (c) Find the value of p and the value of q (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 416.4,
+        "x1": 559,
+        "y1": 451.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 143,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 205.4,
+        "x1": 560,
+        "y1": 273.5
+       }
+      }
+     ],
+     "text": "(d) Hence, find the value of c and the value of d (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q2_e.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 454.4,
+        "x1": 559,
+        "y1": 513.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q2_e_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 273.5,
+        "x1": 560,
+        "y1": 352.0
+       }
+      }
+     ],
+     "text": "Let M represent the mode of the 3 coins taken at random from the bag. (e) Find the sampling distribution of M (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_01/q2_notes.webp",
+     "w": 1092,
+     "h": 792,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 349.0,
+      "x1": 560,
+      "y1": 728.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_01_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_01/q3_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q3_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 188.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 70.6,
+        "x1": 560,
+        "y1": 116.5
+       }
+      },
+      {
+       "src": "maths/WST02_2023_01/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 116.5,
+        "x1": 560,
+        "y1": 179.4
+       }
+      }
+     ],
+     "text": "(a) Find the probability that from a random sample of 10 of these tennis balls (i) at least 4 fail the bounce test (ii) more than 1 but fewer than 5 fail the bounce test. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q3_b.webp",
+       "w": 1090,
+       "h": 262,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 191.1,
+        "x1": 559,
+        "y1": 316.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 251,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 179.4,
+        "x1": 560,
+        "y1": 299.3
+       }
+      }
+     ],
+     "text": "The managing director makes changes to the production process and claims that these changes will reduce the probability of its tennis balls failing the bounce test. After the changes were made a random sample of 50 of the tennis balls were tested and it was found that 2 failed the bounce test. (b) Test, at the 5% significance level, whether or not this result supports the managing director’s claim. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q3_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 319.0,
+        "x1": 559,
+        "y1": 406.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 253,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 299.3,
+        "x1": 560,
+        "y1": 420.1
+       }
+      }
+     ],
+     "text": "In a second random sample of n tennis balls it was found that none failed the bounce test. As a result of this sample, the managing director’s claim is supported at the 1% significance level. (c) Find the smallest possible value of n (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_01/q3_notes.webp",
+     "w": 1092,
+     "h": 596,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 417.1,
+      "x1": 560,
+      "y1": 702.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_01_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_01/q4_stem.webp",
+     "w": 1090,
+     "h": 409,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 252.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q4_a.webp",
+       "w": 1090,
+       "h": 65,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 259.9,
+        "x1": 559,
+        "y1": 290.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 117.3
+       }
+      }
+     ],
+     "text": "(a) Find P(X < 10k) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q4_b.webp",
+       "w": 1090,
+       "h": 90,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 290.7,
+        "x1": 559,
+        "y1": 333.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 161,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 117.3,
+        "x1": 560,
+        "y1": 194.3
+       }
+      }
+     ],
+     "text": "1 (b) Show that k = π (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q4_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 335.8,
+        "x1": 559,
+        "y1": 419.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q4_c_ms_1.webp",
+       "w": 1092,
+       "h": 72,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 194.3,
+        "x1": 560,
+        "y1": 228.5
+       }
+      },
+      {
+       "src": "maths/WST02_2023_01/q4_c_ms_2.webp",
+       "w": 1092,
+       "h": 176,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 228.5,
+        "x1": 560,
+        "y1": 312.0
+       }
+      }
+     ],
+     "text": "(c) Find, in terms of π, the values of (i) E(X) (ii) Var(X) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q4_d.webp",
+       "w": 1090,
+       "h": 240,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 421.8,
+        "x1": 559,
+        "y1": 536.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q4_d_ms.webp",
+       "w": 1092,
+       "h": 357,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 312.0,
+        "x1": 560,
+        "y1": 483.3
+       }
+      }
+     ],
+     "text": "Circles are drawn with area A, where 2 2   A = π X +   π   (d) Find E(A) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_01/q4_notes.webp",
+     "w": 1092,
+     "h": 646,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 480.3,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_01_q5",
+   "number": 5,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_01/q5_stem.webp",
+     "w": 1090,
+     "h": 175,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 140.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q5_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 100,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 58.0,
+        "x1": 560,
+        "y1": 105.4
+       }
+      }
+     ],
+     "text": "(a) Find the probability that there are at most 5 defects in this piece of steel cable. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q5_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 171,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 105.4,
+        "x1": 560,
+        "y1": 186.8
+       }
+      }
+     ],
+     "text": "The company produces a piece of steel cable 80 metres long on each of the next 4 days. (b) Find the probability that fewer than 2 of these 4 pieces of steel cable contain at most 5 defects. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q5_c.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 354.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 525,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 186.8,
+        "x1": 560,
+        "y1": 438.4
+       }
+      }
+     ],
+     "text": "The following week the company produces a piece of steel cable x metres long. Using a normal approximation, the probability that this piece of steel cable has fewer than 26 defects is 0.5398 (c) Find the value of x (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_01/q5_notes.webp",
+     "w": 1092,
+     "h": 739,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 435.4,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2023_01_q6",
+   "number": 6,
+   "marks": 18,
+   "stem": [
+    {
+     "src": "maths/WST02_2023_01/q6_stem.webp",
+     "w": 1090,
+     "h": 250,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 176.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q6_a.webp",
+       "w": 1090,
+       "h": 65,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 179.4,
+        "x1": 559,
+        "y1": 209.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 67,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 92.3
+       }
+      }
+     ],
+     "text": "(a) Show that ak = 1 – bk 2 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q6_b.webp",
+       "w": 1090,
+       "h": 130,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 209.9,
+        "x1": 559,
+        "y1": 271.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 339,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 92.3,
+        "x1": 560,
+        "y1": 254.7
+       }
+      }
+     ],
+     "text": "Using part (a) and given that E(X) = 6 5 (b) show that 5bk 3 = 36 – 15k (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q6_c.webp",
+       "w": 1090,
+       "h": 140,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 271.9,
+        "x1": 559,
+        "y1": 338.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 303,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 254.7,
+        "x1": 560,
+        "y1": 399.6
+       }
+      }
+     ],
+     "text": "Using part (a) and given that E(X) = 6 5 and Var(X) = 22 75 (c) show that 5bk 4 = 52 – 10k 2 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q6_d.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 341.3,
+        "x1": 559,
+        "y1": 400.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 202,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 399.6,
+        "x1": 560,
+        "y1": 496.1
+       }
+      }
+     ],
+     "text": "Given that k < 3 (d) find the value of k (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2023_01/q6_e.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 403.3,
+        "x1": 559,
+        "y1": 438.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2023_01/q6_e_ms.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 496.1,
+        "x1": 560,
+        "y1": 590.7
+       }
+      }
+     ],
+     "text": "(e) Hence find the value of a and the value of b (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2023_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 422,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 587.7,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WST02_2023_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 574,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 44.2,
+      "x1": 560,
+      "y1": 319.3
+     }
+    },
+    {
+     "src": "maths/WST02_2023_01/q6_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 722.1,
+      "x1": 560,
+      "y1": 751.6
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

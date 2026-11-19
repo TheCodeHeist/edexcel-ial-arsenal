@@ -1,0 +1,1378 @@
+{
+ "id": "WMA11_2022_06",
+ "subject": "maths",
+ "unit": "WMA11",
+ "series": "2022-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_P1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_P1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA11_2022_06_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q1.webp",
+       "w": 1016,
+       "h": 218,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 161.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q1_ms.webp",
+       "w": 1092,
+       "h": 263,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 222.5
+       }
+      }
+     ],
+     "text": "1. Find ∫  3  10 x 5 + 6 x 3 − d x   x 2 giving your answer in simplest form. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q1_notes.webp",
+     "w": 1092,
+     "h": 750,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 220.2,
+      "x1": 560,
+      "y1": 579.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q2",
+   "number": 2,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q2_stem.webp",
+     "w": 1016,
+     "h": 192,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 148.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 155.2,
+        "x1": 523.2,
+        "y1": 190.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 227,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 205.2
+       }
+      }
+     ],
+     "text": "(a) Use the sine rule to find the value of sin x° , giving your answer to 4 decimal places. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q2_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 197.2,
+        "x1": 523.2,
+        "y1": 260.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 256,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 205.2,
+        "x1": 560,
+        "y1": 327.8
+       }
+      }
+     ],
+     "text": "Given also that AB is the longest side of the triangle, (b) find the value of x, giving your answer to 2 decimal places. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q2_notes.webp",
+     "w": 1092,
+     "h": 854,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 325.5,
+      "x1": 560,
+      "y1": 735.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q3",
+   "number": 3,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q3_stem.webp",
+     "w": 1016,
+     "h": 96,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q3_i.webp",
+       "w": 1016,
+       "h": 110,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 112.0,
+        "x1": 523.2,
+        "y1": 164.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q3_i_ms.webp",
+       "w": 1092,
+       "h": 190,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 187.3
+       }
+      }
+     ],
+     "text": "180 − 80 (i) Show that is an integer and find its value. 5 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q3_ii.webp",
+       "w": 1016,
+       "h": 213,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 171.2,
+        "x1": 523.2,
+        "y1": 273.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q3_ii_ms.webp",
+       "w": 1092,
+       "h": 356,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 187.3,
+        "x1": 560,
+        "y1": 357.8
+       }
+      }
+     ],
+     "text": "(ii) Simplify − 4 5 5 7 − 3 5 giving your answer in the form a + b 5 where a and b are rational numbers. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 784,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 355.6,
+      "x1": 560,
+      "y1": 731.3
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1380,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 82.2,
+      "x1": 560,
+      "y1": 744.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q4_stem.webp",
+     "w": 1016,
+     "h": 744,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 413.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q4_i.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 420.2,
+        "x1": 523.2,
+        "y1": 455.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q4_i_ms.webp",
+       "w": 1092,
+       "h": 312,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 245.9
+       }
+      }
+     ],
+     "text": "(i) y = f(x) − 2 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(ii)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q4_ii.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 462.2,
+        "x1": 523.2,
+        "y1": 553.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q4_ii_ms.webp",
+       "w": 1092,
+       "h": 350,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 245.9,
+        "x1": 560,
+        "y1": 413.4
+       }
+      }
+     ],
+     "text": "(ii) y = f(−x) (3) On each sketch you must clearly state • the coordinates of the maximum and minimum points • the equation of the asymptote",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q4_notes.webp",
+     "w": 1092,
+     "h": 725,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 410.4,
+      "x1": 560,
+      "y1": 757.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(ii): text after the marks"
+   ]
+  },
+  {
+   "id": "WMA11_2022_06_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q5_stem.webp",
+     "w": 1016,
+     "h": 192,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 148.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q5_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 155.2,
+        "x1": 523.2,
+        "y1": 190.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 380,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 150.3,
+        "x1": 560,
+        "y1": 332.4
+       }
+      }
+     ],
+     "text": "(a) find f(x) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q5_b.webp",
+       "w": 1016,
+       "h": 253,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 197.5,
+        "x1": 523.2,
+        "y1": 318.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 267,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 332.4,
+        "x1": 560,
+        "y1": 459.9
+       }
+      }
+     ],
+     "text": "The line l1 has equation y = 4 5 x Given that the line l2 is perpendicular to l1 and passes through (−5, 0) (b) find an equation for l2 , writing your answer in the form y = mx + c where m and c are constants to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q5_c.webp",
+       "w": 1016,
+       "h": 813,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 321.9,
+        "x1": 523.2,
+        "y1": 711.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 297,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 459.9,
+        "x1": 560,
+        "y1": 602.3
+       }
+      }
+     ],
+     "text": "(−2, 12) y l1 C l2 R O −5 x Figure 2 Figure 2 shows a sketch of the curve C and the lines l1 and l2 (c) Define the region R, shown shaded in Figure 2, using inequalities. (2)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 313,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 599.3,
+      "x1": 560,
+      "y1": 749.2
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1458,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 767.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q6_stem.webp",
+     "w": 1016,
+     "h": 96,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q6_a.webp",
+       "w": 1016,
+       "h": 369,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 523.2,
+        "y1": 295.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 182,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 200.4,
+        "x1": 560,
+        "y1": 287.1
+       }
+      }
+     ],
+     "text": "(a) Given that 2xy − 3x2 = 50 and y − x3 + 6x = 0 show that 2x4 − 15x2 − 50 = 0 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q6_b.webp",
+       "w": 1016,
+       "h": 233,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 302.4,
+        "x1": 523.2,
+        "y1": 413.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 354,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 287.1,
+        "x1": 560,
+        "y1": 456.6
+       }
+      }
+     ],
+     "text": "(b) Hence solve the simultaneous equations 2xy − 3x2 = 50 y − x3 + 6x = 0 Give your answers in fully simplified surd form. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q6_notes.webp",
+     "w": 1092,
+     "h": 632,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 453.6,
+      "x1": 560,
+      "y1": 756.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q7_stem.webp",
+     "w": 1016,
+     "h": 237,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 60.1,
+      "x1": 523.2,
+      "y1": 173.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q7_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 180.3,
+        "x1": 523.2,
+        "y1": 215.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 334,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 315.2,
+        "x1": 560,
+        "y1": 475.0
+       }
+      }
+     ],
+     "text": "(a) find the value of A. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q7_b.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 222.3,
+        "x1": 523.2,
+        "y1": 313.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 495,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 475.0,
+        "x1": 560,
+        "y1": 712.2
+       }
+      }
+     ],
+     "text": "Given also that • f(x) = 8 3 , when x = 12 (b) find f(x) , giving each term in simplest form. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 116,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 709.2,
+      "x1": 560,
+      "y1": 764.2
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 747,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 426.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q8_stem.webp",
+     "w": 1016,
+     "h": 988,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 530.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q8_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 537.4,
+        "x1": 523.2,
+        "y1": 572.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 341,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 259.8
+       }
+      }
+     ],
+     "text": "(a) show that the length of the arc CD is 35.9 cm to one decimal place. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q8_b.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 579.4,
+        "x1": 523.2,
+        "y1": 670.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 140,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 259.8,
+        "x1": 560,
+        "y1": 326.4
+       }
+      }
+     ],
+     "text": "The face of the fan is modelled to be a flat surface. Find, according to the model, (b) the perimeter of the face of the fan, giving your answer to the nearest cm, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q8_c.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 677.4,
+        "x1": 523.2,
+        "y1": 740.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q8_c_ms.webp",
+       "w": 1092,
+       "h": 371,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 326.4,
+        "x1": 560,
+        "y1": 504.1
+       }
+      }
+     ],
+     "text": "(c) the surface area of the face of the fan. Give your answer to 3 significant figures and make your units clear. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 554,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 501.1,
+      "x1": 560,
+      "y1": 766.2
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1168,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 628.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2022_06_q9",
+   "number": 9,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q9_stem.webp",
+     "w": 1016,
+     "h": 475,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 284.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q9_a.webp",
+       "w": 1016,
+       "h": 250,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 291.3,
+        "x1": 523.2,
+        "y1": 410.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 341.9,
+        "x1": 560,
+        "y1": 428.3
+       }
+      }
+     ],
+     "text": "(a) state, in terms of p , the value of (i) 2 sin (180° − α) (ii) sin (α − 180°) (iii) 3 + sin (180° + α) (3)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q9_b.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 417.3,
+        "x1": 523.2,
+        "y1": 508.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 222,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 428.3,
+        "x1": 560,
+        "y1": 534.4
+       }
+      }
+     ],
+     "text": "A copy of Figure 4, labelled Diagram 1, is shown on page 27. On Diagram 1, (b) sketch the graph of y = sin 2x (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "9(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q9_c_1.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 515.3,
+        "x1": 523.2,
+        "y1": 593.1
+       }
+      },
+      {
+       "src": "maths/WMA11_2022_06/q9_c_2.webp",
+       "w": 1016,
+       "h": 342,
+       "region": {
+        "page": 27,
+        "x0": 36,
+        "y0": 78.9,
+        "x1": 523.2,
+        "y1": 242.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q9_c_ms.webp",
+       "w": 1092,
+       "h": 292,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 534.4,
+        "x1": 560,
+        "y1": 674.2
+       }
+      }
+     ],
+     "text": "(c) Hence find, in terms of α, the x coordinates of any points in the interval 0 < x < 180° where sin 2x = p (3) y y = sin x O x Diagram 1",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q9_notes_1.webp",
+     "w": 1092,
+     "h": 204,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 671.2,
+      "x1": 560,
+      "y1": 768.8
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q9_notes_2.webp",
+     "w": 1092,
+     "h": 675,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 63.8,
+      "x1": 560,
+      "y1": 387.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "9(c): text after the marks",
+    "9(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WMA11_2022_06_q10",
+   "number": 10,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA11_2022_06/q10_stem.webp",
+     "w": 1016,
+     "h": 693,
+     "region": {
+      "page": 28,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 388.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q10_a.webp",
+       "w": 1016,
+       "h": 109,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 395.3,
+        "x1": 523.2,
+        "y1": 447.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q10_a_ms.webp",
+       "w": 1092,
+       "h": 108,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 148.1
+       }
+      }
+     ],
+     "text": "(a) Find d y d x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q10_b.webp",
+       "w": 1016,
+       "h": 267,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 454.0,
+        "x1": 523.2,
+        "y1": 581.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q10_b_ms.webp",
+       "w": 1092,
+       "h": 316,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 148.1,
+        "x1": 560,
+        "y1": 299.0
+       }
+      }
+     ],
+     "text": "The line l, shown in Figure 5, is the normal to C at the point A with x coordinate −7 2 Given that l is also a tangent to C at the point B, (b) show that the x coordinate of the point B is a solution of the equation 12x2 + 4x − 33 = 0 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q10_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 588.1,
+        "x1": 523.2,
+        "y1": 623.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q10_c_ms.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 299.0,
+        "x1": 560,
+        "y1": 375.7
+       }
+      }
+     ],
+     "text": "(c) Hence find the x coordinate of B, justifying your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2022_06/q10_d.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 630.6,
+        "x1": 523.2,
+        "y1": 694.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2022_06/q10_d_ms.webp",
+       "w": 1092,
+       "h": 381,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 375.7,
+        "x1": 560,
+        "y1": 557.9
+       }
+      }
+     ],
+     "text": "Given that the y intercept of l is −1 (d) find the value of k. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2022_06/q10_notes_1.webp",
+     "w": 1092,
+     "h": 394,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 554.9,
+      "x1": 560,
+      "y1": 743.3
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1439,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 68.4,
+      "x1": 560,
+      "y1": 758.9
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q10_notes_3.webp",
+     "w": 1092,
+     "h": 574,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 68.4,
+      "x1": 560,
+      "y1": 343.6
+     }
+    },
+    {
+     "src": "maths/WMA11_2022_06/q10_notes_4.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 730.3,
+      "x1": 560,
+      "y1": 759.8
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

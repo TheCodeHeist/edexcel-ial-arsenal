@@ -1,0 +1,1002 @@
+{
+ "id": "WST03_2024_01",
+ "subject": "maths",
+ "unit": "WST03",
+ "series": "2024-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202024/IAL_MATHS_2024_Jan_S3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202024/IAL_MATHS_2024_Jan_S3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST03_2024_01_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q1.webp",
+       "w": 1090,
+       "h": 626,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 356.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q1_ms.webp",
+       "w": 1092,
+       "h": 848,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 94.5,
+        "x1": 560,
+        "y1": 500.9
+       }
+      }
+     ],
+     "text": "1. Chen is treating vines to prevent fungus appearing. One month after the treatment, Chen monitors the vines to see if fungus is present. The contingency table shows information about the type of treatment for a sample of 150 vines and whether or not fungus is present. Type of treatment Copper None Sulphur sulphate No fungus present 20 55 48 Fungus present 10 8 9 Test, at the 5% level of significance, whether or not there is any association between the type of treatment and the presence of fungus. Show your working clearly, stating your hypotheses, expected frequencies, test statistic and critical value. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q1_notes.webp",
+     "w": 1092,
+     "h": 486,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 497.9,
+      "x1": 560,
+      "y1": 730.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2024_01_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST03_2024_01/q2_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q2_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 116,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 155.2
+       }
+      }
+     ],
+     "text": "(a) Explain how this sample can be taken using systematic sampling. (3)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q2_b.webp",
+       "w": 1090,
+       "h": 406,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 559,
+        "y1": 337.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 155.2,
+        "x1": 560,
+        "y1": 224.6
+       }
+      }
+     ],
+     "text": "The company has offices in London, Edinburgh and Cardiff. The table shows the number of employees in each city. City London Edinburgh Cardiff Number of employees 430 250 120 The president of the company is going to take a sample of 100 employees to determine the average time employees spend in front of a computer each week. (b) Explain how this sample can be taken using stratified sampling. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q2_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 340.3,
+        "x1": 559,
+        "y1": 389.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 224.6,
+        "x1": 560,
+        "y1": 271.2
+       }
+      }
+     ],
+     "text": "(c) Explain an advantage of using stratified sampling rather than simple random sampling. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q2_notes.webp",
+     "w": 1092,
+     "h": 308,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 268.2,
+      "x1": 560,
+      "y1": 415.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2024_01_q3",
+   "number": 3,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST03_2024_01/q3_stem.webp",
+     "w": 1090,
+     "h": 511,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 301.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q3_a.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 304.3,
+        "x1": 559,
+        "y1": 367.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 217,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 204.0
+       }
+      }
+     ],
+     "text": "(a) Use Angela’s suggestion to test, at the 5% level of significance, whether or not there is evidence of any correlation between annual tea consumption and population. State your hypotheses clearly and the critical value used. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q3_b.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 370.3,
+        "x1": 559,
+        "y1": 457.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 447,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 204.0,
+        "x1": 560,
+        "y1": 417.6
+       }
+      }
+     ],
+     "text": "Johan suggests using Spearman’s rank correlation coefficient to calculate the correlation between the rank of annual tea consumption and the rank of population. (b) Calculate Spearman’s rank correlation coefficient between the rank of annual tea consumption and the rank of population. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q3_c.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 460.3,
+        "x1": 559,
+        "y1": 537.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 211,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 417.6,
+        "x1": 560,
+        "y1": 518.7
+       }
+      }
+     ],
+     "text": "(c) Use Johan’s suggestion to test, at the 5% level of significance, whether or not there is evidence of a positive correlation between annual tea consumption and population. State your hypotheses clearly and the critical value used. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q3_notes.webp",
+     "w": 1092,
+     "h": 555,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 515.7,
+      "x1": 560,
+      "y1": 781.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2024_01_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2024_01/q4_stem.webp",
+     "w": 1090,
+     "h": 225,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 164.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 178.4,
+        "x1": 559,
+        "y1": 213.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 68,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 99.5,
+        "x1": 560,
+        "y1": 132.0
+       }
+      }
+     ],
+     "text": "(a) Show that the mean number of jobs sent to the printer per hour for these data is 1.75 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q4_b.webp",
+       "w": 1090,
+       "h": 407,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 216.4,
+        "x1": 559,
+        "y1": 410.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 184,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 132.0,
+        "x1": 560,
+        "y1": 219.6
+       }
+      }
+     ],
+     "text": "The office manager believes that the number of jobs sent to the printer per hour can be modelled using a Poisson distribution. The office manager uses the mean given in part (a) to calculate the expected frequencies for this model. Some of the results are given in the following table. Number of jobs 0 1 2 3 4 5 or more Expected frequency 20.85 36.49 31.93 r s 3.95 (b) Show that the value of s is 8.15 to 2 decimal places. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q4_c.webp",
+       "w": 1090,
+       "h": 56,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 413.5,
+        "x1": 559,
+        "y1": 439.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 77,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 219.6,
+        "x1": 560,
+        "y1": 256.0
+       }
+      }
+     ],
+     "text": "(c) Find the value of r to 2 decimal places. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q4_d.webp",
+       "w": 1090,
+       "h": 219,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 439.9,
+        "x1": 559,
+        "y1": 544.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q4_d_ms.webp",
+       "w": 1092,
+       "h": 430,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 256.0,
+        "x1": 560,
+        "y1": 461.8
+       }
+      }
+     ],
+     "text": "O 3 E 2 ( ) i i The value of for the first four frequencies in the table is 1.43 E i (d) Test, at the 5% level of significance, whether or not the number of jobs sent to the printer per hour can be modelled using a Poisson distribution. Show your working clearly, stating your hypotheses, test statistic and critical value. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q4_notes.webp",
+     "w": 1092,
+     "h": 511,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 458.8,
+      "x1": 560,
+      "y1": 703.2
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(c): text cut by a crop edge",
+    "4(d): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WST03_2024_01_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST03_2024_01/q5_stem.webp",
+     "w": 1090,
+     "h": 392,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 244.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q5_a.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 258.7,
+        "x1": 559,
+        "y1": 322.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 369,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 101.0,
+        "x1": 560,
+        "y1": 277.8
+       }
+      }
+     ],
+     "text": "(a) Use a suitable test, at the 5% level of significance, to investigate the professor’s claim. State clearly your hypotheses, test statistic and critical value. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 324.7,
+        "x1": 559,
+        "y1": 360.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 134,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 277.8,
+        "x1": 560,
+        "y1": 341.4
+       }
+      }
+     ],
+     "text": "(b) State two assumptions you have made in carrying out the test in part (a). (2)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q5_notes.webp",
+     "w": 1092,
+     "h": 596,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 340.3,
+      "x1": 560,
+      "y1": 625.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2024_01_q6",
+   "number": 6,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST03_2024_01/q6_stem.webp",
+     "w": 1090,
+     "h": 154,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 130.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q6_a.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 559,
+        "y1": 196.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 375,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 98.0,
+        "x1": 560,
+        "y1": 277.8
+       }
+      }
+     ],
+     "text": "(a) Find a 99% confidence interval for the mean height. You may assume that the heights are normally distributed with known population standard deviation. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q6_b.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 199.2,
+        "x1": 559,
+        "y1": 306.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 142,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 277.8,
+        "x1": 560,
+        "y1": 345.4
+       }
+      }
+     ],
+     "text": "Some summary statistics for the weights, x kg, of this sample are given below. x O 91 2. x2 O n = 8 1145 16 . (b) Calculate unbiased estimates of the mean and the variance of the weights of three‑month-old golden retrievers. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q6_c.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 308.7,
+        "x1": 559,
+        "y1": 410.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 345.4,
+        "x1": 560,
+        "y1": 475.5
+       }
+      }
+     ],
+     "text": "A further random sample of 24 three‑month-old golden retrievers is taken. The unbiased estimates of the mean and the variance of the weights, in kg, from this sample are found to be 10.8 and 17.64 respectively. (c) Estimate the standard error of the mean weight for the combined sample of 32 three‑month-old golden retrievers. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q6_notes.webp",
+     "w": 1092,
+     "h": 648,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 479.4,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2024_01_q7",
+   "number": 7,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST03_2024_01/q7_stem.webp",
+     "w": 1090,
+     "h": 362,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 230.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 233.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 87,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 98.5,
+        "x1": 560,
+        "y1": 139.9
+       }
+      }
+     ],
+     "text": "(a) Find the value of a and the value of b (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q7_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 320.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 214,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 139.9,
+        "x1": 560,
+        "y1": 242.3
+       }
+      }
+     ],
+     "text": "(b) Find the probability that a randomly chosen large container of fruit juice contains more than 1.8 times the amount of fruit juice in a randomly chosen small container. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2024_01/q7_c_1.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 323.1,
+        "x1": 559,
+        "y1": 396.5
+       }
+      },
+      {
+       "src": "maths/WST03_2024_01/q7_c_2.webp",
+       "w": 1090,
+       "h": 80,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 673.8,
+        "x1": 559,
+        "y1": 711.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2024_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 329,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 242.3,
+        "x1": 560,
+        "y1": 399.8
+       }
+      }
+     ],
+     "text": "A random sample of 3 small containers of fruit juice is taken. (c) Find the probability that the first container of fruit juice in this sample contains at least 5 ml more than the mean amount of fruit juice in all 3 small containers. (6) First released on AP - Edexcel Discord https://sites.google.com/view/ap-edexcel",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2024_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 786,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 396.8,
+      "x1": 560,
+      "y1": 773.5
+     }
+    },
+    {
+     "src": "maths/WST03_2024_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 55,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 763.9,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "7(c): text after the marks",
+    "7(c): runs across pages"
+   ]
+  }
+ ]
+}

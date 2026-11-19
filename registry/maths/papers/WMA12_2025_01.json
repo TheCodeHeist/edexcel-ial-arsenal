@@ -1,0 +1,1394 @@
+{
+ "id": "WMA12_2025_01",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2025-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202025/IAL_MATHS_2025_Jan_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202025/IAL_MATHS_2025_Jan_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2025_01_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q1_stem.webp",
+     "w": 1090,
+     "h": 168,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 137.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 140.0,
+        "x1": 559,
+        "y1": 175.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 139,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 83.3,
+        "x1": 560,
+        "y1": 149.5
+       }
+      }
+     ],
+     "text": "(a) the number of terms in the series, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 178.0,
+        "x1": 559,
+        "y1": 213.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 149.5,
+        "x1": 560,
+        "y1": 235.7
+       }
+      }
+     ],
+     "text": "(b) the sum of the series. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q1_notes.webp",
+     "w": 1092,
+     "h": 996,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 232.7,
+      "x1": 560,
+      "y1": 710.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q2",
+   "number": 2,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q2_a.webp",
+       "w": 1090,
+       "h": 179,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 142.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 432,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 83.3,
+        "x1": 560,
+        "y1": 290.1
+       }
+      }
+     ],
+     "text": "2. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of (2 – 5x) 8 giving each term in simplest form. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q2_b.webp",
+       "w": 1090,
+       "h": 177,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 144.5,
+        "x1": 559,
+        "y1": 228.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 290.1,
+        "x1": 560,
+        "y1": 339.9
+       }
+      }
+     ],
+     "text": "8 This expansion is to be used to find an approximation for 2.05 (b) State the value of x that should be used. (There is no need to carry out this calculation.) (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 702,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 336.9,
+      "x1": 560,
+      "y1": 673.3
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 311,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 188.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q2_notes_3.webp",
+     "w": 1092,
+     "h": 26,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 61.2,
+      "x1": 560,
+      "y1": 73.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q3_stem.webp",
+     "w": 1090,
+     "h": 717,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 400.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q3_a.webp",
+       "w": 1090,
+       "h": 232,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 403.3,
+        "x1": 559,
+        "y1": 514.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 73.2,
+        "x1": 560,
+        "y1": 177.2
+       }
+      }
+     ],
+     "text": "(a) show that the area A m 2 of the sheet metal used to make the container is given by Q 2 A O Px 1 x where P and Q are positive constants to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q3_b.webp",
+       "w": 1090,
+       "h": 100,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 517.0,
+        "x1": 559,
+        "y1": 564.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 248,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 177.2,
+        "x1": 560,
+        "y1": 296.0
+       }
+      }
+     ],
+     "text": "(b) Use calculus to find the value of x for which A has a stationary value, giving your answer to 3 significant figures. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q3_c.webp",
+       "w": 1090,
+       "h": 146,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 564.8,
+        "x1": 559,
+        "y1": 634.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 340,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 296.0,
+        "x1": 560,
+        "y1": 458.7
+       }
+      }
+     ],
+     "text": "2 (c) Find d A and hence show that the value of x found in part (b) gives the minimum 2 x d value of A. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q3_notes_1.webp",
+     "w": 1092,
+     "h": 636,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 476.2,
+      "x1": 560,
+      "y1": 781.3
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1433,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 64.3,
+      "x1": 560,
+      "y1": 751.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q3_notes_3.webp",
+     "w": 1092,
+     "h": 274,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 92.1,
+      "x1": 560,
+      "y1": 222.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q4_stem.webp",
+     "w": 1090,
+     "h": 274,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 188.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 190.9,
+        "x1": 559,
+        "y1": 226.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 311,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 228.1
+       }
+      }
+     ],
+     "text": "(a) the common ratio, (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q4_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 228.9,
+        "x1": 559,
+        "y1": 264.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 228.1,
+        "x1": 560,
+        "y1": 307.7
+       }
+      }
+     ],
+     "text": "(b) the first term. . (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 971,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 304.7,
+      "x1": 560,
+      "y1": 770.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 184,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 51.3,
+      "x1": 560,
+      "y1": 138.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q5_stem.webp",
+     "w": 1090,
+     "h": 145,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 126.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 128.9,
+        "x1": 559,
+        "y1": 164.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 222,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 85.5,
+        "x1": 560,
+        "y1": 191.7
+       }
+      }
+     ],
+     "text": "(a) show that 16a + 9b = 56 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q5_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 166.9,
+        "x1": 559,
+        "y1": 226.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 191.7,
+        "x1": 560,
+        "y1": 267.5
+       }
+      }
+     ],
+     "text": "Given further that when f(x) is divided by (x – 2) the remainder is b, (b) find the value of a and the value of b. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q5_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 228.9,
+        "x1": 559,
+        "y1": 264.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 164,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 267.5,
+        "x1": 560,
+        "y1": 345.9
+       }
+      }
+     ],
+     "text": "(c) Hence, using algebra, fully factorise f(x). (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 932,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 342.9,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1563,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q5_notes_3.webp",
+     "w": 1092,
+     "h": 247,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 92.1,
+      "x1": 560,
+      "y1": 210.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q6_stem.webp",
+     "w": 1090,
+     "h": 904,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 490.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q6_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 492.9,
+        "x1": 559,
+        "y1": 542.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 275,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 95.9,
+        "x1": 560,
+        "y1": 227.5
+       }
+      }
+     ],
+     "text": "(a) find an equation for l, giving your answer in the form y = mx + c, where m and c are constants. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q6_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 544.9,
+        "x1": 559,
+        "y1": 604.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 227.5,
+        "x1": 560,
+        "y1": 255.5
+       }
+      }
+     ],
+     "text": "Given that P has coordinates (7, k), where k is a constant, (b) find the value of k, (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 606.8,
+        "x1": 559,
+        "y1": 642.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 243,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 255.5,
+        "x1": 560,
+        "y1": 371.9
+       }
+      }
+     ],
+     "text": "(c) find an equation for the circle. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q6_notes.webp",
+     "w": 1092,
+     "h": 878,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 368.9,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q7_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q7_i.webp",
+       "w": 1090,
+       "h": 492,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 95.0,
+        "x1": 559,
+        "y1": 330.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q7_i_ms.webp",
+       "w": 1092,
+       "h": 188,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 89.5,
+        "x1": 560,
+        "y1": 179.1
+       }
+      }
+     ],
+     "text": "(i) The table below shows values of x and y, where y = log10 (x + 5), for x values between –1 and 4 x –1 0 1 2 3 4 y = log10 (x + 5) log10 4 log10 5 log10 6 log10 7 log10 8 log10 9 Using the trapezium rule with all the y values in the given table, show that 4 3\u001a . / log x 1 5 d x log k 10 10 1 where k is an integer to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q7_ii.webp",
+       "w": 1090,
+       "h": 138,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 333.0,
+        "x1": 559,
+        "y1": 398.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q7_ii_ms.webp",
+       "w": 1092,
+       "h": 362,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 179.1,
+        "x1": 560,
+        "y1": 352.5
+       }
+      }
+     ],
+     "text": "(ii) Find the value of a such that . / 3 . / O 2 log 5 3 a log a 1 25 1 5 5 (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 891,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 349.5,
+      "x1": 560,
+      "y1": 777.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 163,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 50.7,
+      "x1": 560,
+      "y1": 128.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q8",
+   "number": 8,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8(i)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q8_i.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 149.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q8_i_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 69.1,
+        "x1": 560,
+        "y1": 116.5
+       }
+      }
+     ],
+     "text": "8. (i) A student states “If x and y are irrational numbers, x ≠ y, then xy is also irrational.” Show, by counter example, that this statement is not always true. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q8_ii.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 151.8,
+        "x1": 559,
+        "y1": 244.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q8_ii_ms.webp",
+       "w": 1092,
+       "h": 350,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 116.5,
+        "x1": 560,
+        "y1": 283.7
+       }
+      }
+     ],
+     "text": "(ii) Prove, using algebra, that for all odd integers n, the value of the expression 3 + 3n + 2 n is always even but never a multiple of 4 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 921,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 286.3,
+      "x1": 560,
+      "y1": 727.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 671,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 41.1,
+      "x1": 560,
+      "y1": 362.6
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q8_notes_3.webp",
+     "w": 1092,
+     "h": 82,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 73.8,
+      "x1": 560,
+      "y1": 112.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q9",
+   "number": 9,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q9_stem.webp",
+     "w": 1090,
+     "h": 857,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 467.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 470.5,
+        "x1": 559,
+        "y1": 506.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 225,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 112.6,
+        "x1": 560,
+        "y1": 220.2
+       }
+      }
+     ],
+     "text": "(a) Using calculus, find the coordinates of M. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q9_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 508.5,
+        "x1": 559,
+        "y1": 567.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 69,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 220.2,
+        "x1": 560,
+        "y1": 252.8
+       }
+      }
+     ],
+     "text": "The curve crosses the x‑axis at the point P, as shown in Figure 3. (b) Use algebra to find the x coordinate of P. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q9_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 570.5,
+        "x1": 559,
+        "y1": 657.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q9_c_ms.webp",
+       "w": 1092,
+       "h": 279,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 252.8,
+        "x1": 560,
+        "y1": 385.9
+       }
+      }
+     ],
+     "text": "The finite region R, shown shaded in Figure 3, is bounded by the curve, the line through M parallel to the x‑axis and the line through P parallel to the y‑axis. (c) Use algebraic integration to find the area of R, giving your answer to one decimal place. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 802,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 388.5,
+      "x1": 560,
+      "y1": 772.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1516,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 767.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2025_01_q10",
+   "number": 10,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2025_01/q10_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q10_a.webp",
+       "w": 1090,
+       "h": 169,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 95.0,
+        "x1": 559,
+        "y1": 175.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q10_a_ms.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 194.3
+       }
+      }
+     ],
+     "text": "(a) Show that n 2 2 ° cos ¢ 3tan ¢ 1 sin ¢ 1 ¢ \u001b \u001a \u0019 tan ¢ sin ¢ 2 \u0018 \u0017 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2025_01/q10_b.webp",
+       "w": 1090,
+       "h": 224,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 177.9,
+        "x1": 559,
+        "y1": 284.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2025_01/q10_b_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 194.3,
+        "x1": 560,
+        "y1": 311.3
+       }
+      }
+     ],
+     "text": "(b) Hence solve, for 0 < x < 2π, the equation 2 x x x cos 3tan 1 O 4sin 3 5 \u001a \u0019 tan x \u0018 \u0017 giving your answers to 3 significant figures. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2025_01/q10_notes_1.webp",
+     "w": 1092,
+     "h": 995,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 312.6,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2025_01/q10_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 755.8,
+      "x1": 560,
+      "y1": 785.4
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

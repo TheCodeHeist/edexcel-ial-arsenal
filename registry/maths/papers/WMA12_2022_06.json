@@ -1,0 +1,1269 @@
+{
+ "id": "WMA12_2022_06",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2022-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2022_06_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q1.webp",
+       "w": 1016,
+       "h": 254,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 178.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q1_ms.webp",
+       "w": 1092,
+       "h": 373,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 275.5
+       }
+      }
+     ],
+     "text": "1. Find the first four terms, in ascending powers of x, of the binomial expansion of 10  3  2 + x   8 Give each coefficient as an integer. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q1_notes_1.webp",
+     "w": 1092,
+     "h": 1020,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 272.5,
+      "x1": 560,
+      "y1": 761.6
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q1_notes_2.webp",
+     "w": 1092,
+     "h": 237,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 181.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_06/q2_stem.webp",
+     "w": 1016,
+     "h": 774,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 428.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 446.2,
+        "x1": 523.2,
+        "y1": 481.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 110,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 149.1
+       }
+      }
+     ],
+     "text": "(a) Complete the table above, giving values of y to 3 decimal places. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q2_b.webp",
+       "w": 1016,
+       "h": 227,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 488.2,
+        "x1": 523.2,
+        "y1": 596.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 234,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 149.1,
+        "x1": 560,
+        "y1": 260.9
+       }
+      }
+     ],
+     "text": "(b) Use the trapezium rule with all the y values in the completed table to find, to 2 decimal places, an estimate for 3 ∫ ( ) 1 − log (sin ) x d x 10 0 5 . (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q2_c.webp",
+       "w": 1016,
+       "h": 197,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 603.0,
+        "x1": 523.2,
+        "y1": 697.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 552,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 260.9,
+        "x1": 560,
+        "y1": 525.3
+       }
+      }
+     ],
+     "text": "(c) Use your answer to part (b) to find an estimate for ∫ 3 ( ) 3 + log (sin ) x d x 10 0 5 . (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q2_notes_1.webp",
+     "w": 1092,
+     "h": 514,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 522.3,
+      "x1": 560,
+      "y1": 768.8
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q2_notes_2.webp",
+     "w": 1092,
+     "h": 861,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 480.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q3_i.webp",
+       "w": 1016,
+       "h": 144,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 125.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q3_i_ms.webp",
+       "w": 1092,
+       "h": 531,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 350.9
+       }
+      }
+     ],
+     "text": "3. (i) Show that the following statement is false: “ (n + 1)3 − n3 is prime for all n ∈  ” (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q3_ii.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 132.0,
+        "x1": 523.2,
+        "y1": 181.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q3_ii_ms_1.webp",
+       "w": 1092,
+       "h": 783,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 350.9,
+        "x1": 560,
+        "y1": 726.6
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_06/q3_ii_ms_2.webp",
+       "w": 1092,
+       "h": 1040,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 566.8
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_06/q3_ii_ms_3.webp",
+       "w": 1092,
+       "h": 1397,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 737.9
+       }
+      }
+     ],
+     "text": "(ii) Given that the points A(1, 0) , B(3, −10) and C(7, −6) lie on a circle, prove that AB is a diameter of this circle. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q3: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WMA12_2022_06_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q4.webp",
+       "w": 1016,
+       "h": 290,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 523.2,
+        "y1": 195.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q4_ms.webp",
+       "w": 1092,
+       "h": 432,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 303.7
+       }
+      }
+     ],
+     "text": "4. In this question you must show all stages of your working. Give your answers in fully simplified surd form. Given that a and b are positive constants, solve the simultaneous equations a − b = 8 log4 a + log4 b = 3 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q4_notes.webp",
+     "w": 1092,
+     "h": 695,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 301.5,
+      "x1": 560,
+      "y1": 634.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q5",
+   "number": 5,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q5.webp",
+       "w": 1016,
+       "h": 260,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 523.2,
+        "y1": 181.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q5_ms.webp",
+       "w": 1092,
+       "h": 540,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 96.3,
+        "x1": 560,
+        "y1": 354.8
+       }
+      }
+     ],
+     "text": "5. In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Solve, for −180° < θ  180° , the equation 3 tan (θ + 43°) = 2 cos (θ + 43°) (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q5_notes.webp",
+     "w": 1092,
+     "h": 758,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 351.8,
+      "x1": 560,
+      "y1": 714.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_06/q6_stem.webp",
+     "w": 1016,
+     "h": 168,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 136.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q6_a.webp",
+       "w": 1016,
+       "h": 143,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 141.2,
+        "x1": 523.2,
+        "y1": 209.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q6_a_ms_1.webp",
+       "w": 1092,
+       "h": 214,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 198.9
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_06/q6_a_ms_2.webp",
+       "w": 1092,
+       "h": 212,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 198.9,
+        "x1": 560,
+        "y1": 300.2
+       }
+      }
+     ],
+     "text": "(a) Show that r satisfies 3r2 − 4r − 4 = 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q6_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 216.0,
+        "x1": 523.2,
+        "y1": 279.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 265,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 300.2,
+        "x1": 560,
+        "y1": 427.0
+       }
+      }
+     ],
+     "text": "Given that the geometric sequence has a sum to infinity, (b) find u1 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q6_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 286.0,
+        "x1": 523.2,
+        "y1": 321.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 260,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 427.0,
+        "x1": 560,
+        "y1": 551.3
+       }
+      }
+     ],
+     "text": "(c) find S∞ (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 424,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 548.3,
+      "x1": 560,
+      "y1": 751.6
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 714,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 410.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q7",
+   "number": 7,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q7.webp",
+       "w": 1016,
+       "h": 407,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 251.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q7_ms.webp",
+       "w": 1092,
+       "h": 542,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 356.2
+       }
+      }
+     ],
+     "text": "7. f(x) = Ax3 + 6x2 − 4x + B where A and B are constants. Given that • (x + 2) is a factor of f(x) 5 ∫ • x x = f ( ) d 176 3 find the value of A and the value of B. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 853,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 353.9,
+      "x1": 560,
+      "y1": 762.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 717,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 411.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q8",
+   "number": 8,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_06/q8_stem.webp",
+     "w": 1016,
+     "h": 255,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 178.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q8_a.webp",
+       "w": 1016,
+       "h": 109,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 179.5,
+        "x1": 523.2,
+        "y1": 231.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 185,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 185.0
+       }
+      }
+     ],
+     "text": "(a) Find d y d x (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q8_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 237.9,
+        "x1": 523.2,
+        "y1": 273.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 476,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 185.0,
+        "x1": 560,
+        "y1": 413.0
+       }
+      }
+     ],
+     "text": "(b) Hence find the coordinates of the stationary points of the curve. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 754,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 410.8,
+      "x1": 560,
+      "y1": 772.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 652,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 67.2,
+      "x1": 560,
+      "y1": 379.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q9",
+   "number": 9,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_06/q9_stem.webp",
+     "w": 1016,
+     "h": 377,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 237.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q9_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 244.0,
+        "x1": 523.2,
+        "y1": 279.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 636,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 401.4
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of N against t for k = 1 (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q9_b.webp",
+       "w": 1016,
+       "h": 134,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 286.0,
+        "x1": 523.2,
+        "y1": 349.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 205,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 401.4,
+        "x1": 560,
+        "y1": 499.6
+       }
+      }
+     ],
+     "text": "Given that it takes 5700 years for the amount of carbon‑14 to reduce to half its initial value, (b) show that the value of the constant λ is 0.999878 to 6 decimal places. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q9_c.webp",
+       "w": 1016,
+       "h": 250,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 356.0,
+        "x1": 523.2,
+        "y1": 475.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q9_c_ms.webp",
+       "w": 1092,
+       "h": 140,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 499.6,
+        "x1": 560,
+        "y1": 566.2
+       }
+      }
+     ],
+     "text": "Given that Item A • is known to have had 15 grams of carbon‑14 present initially • is thought to be 3250 years old (c) calculate, to 3 significant figures, how much carbon‑14 the equation predicts is currently in Item A. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q9_d.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 482.0,
+        "x1": 523.2,
+        "y1": 559.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q9_d_ms.webp",
+       "w": 1092,
+       "h": 258,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 566.2,
+        "x1": 560,
+        "y1": 689.3
+       }
+      }
+     ],
+     "text": "Item B is known to have initially had 25 grams of carbon‑14 present, but only 18 grams now remain. (d) Use algebra to calculate the age of Item B to the nearest 100 years. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q9_notes_1.webp",
+     "w": 1092,
+     "h": 161,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 686.3,
+      "x1": 560,
+      "y1": 762.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1081,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 586.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2022_06_q10",
+   "number": 10,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA12_2022_06/q10_stem.webp",
+     "w": 1016,
+     "h": 104,
+     "region": {
+      "page": 28,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 106.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q10_a.webp",
+       "w": 1016,
+       "h": 144,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 113.2,
+        "x1": 523.2,
+        "y1": 181.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q10_a_ms.webp",
+       "w": 1092,
+       "h": 288,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 234.6
+       }
+      }
+     ],
+     "text": "(a) Show that l and C intersect when 5x2 + (4k − 26)x + k2 − 10k + 34 − r2 = 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q10_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 188.0,
+        "x1": 523.2,
+        "y1": 251.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q10_b_ms_1.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 234.6,
+        "x1": 560,
+        "y1": 340.9
+       }
+      },
+      {
+       "src": "maths/WMA12_2022_06/q10_b_ms_2.webp",
+       "w": 1092,
+       "h": 329,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 340.9,
+        "x1": 560,
+        "y1": 498.3
+       }
+      }
+     ],
+     "text": "Given that l is a tangent to C, (b) show that 5r2 = (k + p)2 , where p is a constant to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2022_06/q10_c.webp",
+       "w": 1016,
+       "h": 822,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 255.1,
+        "x1": 523.2,
+        "y1": 649.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2022_06/q10_c_ms.webp",
+       "w": 1092,
+       "h": 376,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 498.3,
+        "x1": 560,
+        "y1": 678.4
+       }
+      }
+     ],
+     "text": "y l B C X (3, 5) A O x Figure 2 The line l • cuts the y-axis at the point A • touches the circle C at the point B as shown in Figure 2. Given that AB = 2r (c) find the value of k (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2022_06/q10_notes_1.webp",
+     "w": 1092,
+     "h": 202,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 675.4,
+      "x1": 560,
+      "y1": 771.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1451,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 764.1
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q10_notes_3.webp",
+     "w": 1092,
+     "h": 1451,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 764.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q10_notes_4.webp",
+     "w": 1092,
+     "h": 1472,
+     "region": {
+      "page": 27,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 774.0
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q10_notes_5.webp",
+     "w": 1092,
+     "h": 363,
+     "region": {
+      "page": 28,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 241.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2022_06/q10_notes_6.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 29,
+      "x0": 36,
+      "y0": 730.3,
+      "x1": 560,
+      "y1": 759.8
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

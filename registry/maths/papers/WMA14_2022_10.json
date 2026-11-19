@@ -1,0 +1,1227 @@
+{
+ "id": "WMA14_2022_10",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2022-10",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_P4_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202022/IAL_MATHS_2022_Oct_P4_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2022_10_q1",
+   "number": 1,
+   "marks": 3,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q1.webp",
+       "w": 1090,
+       "h": 362,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 230.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q1_ms.webp",
+       "w": 1092,
+       "h": 280,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 214.0
+       }
+      }
+     ],
+     "text": "1. A curve C has parametric equations t −3 y = 1 t x = t + 2 t ∈  t > 3 Show that all points on C lie on the curve with Cartesian equation y = ax −1 bx where a and b are constants to be found. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q1_notes.webp",
+     "w": 1092,
+     "h": 1206,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 211.0,
+      "x1": 560,
+      "y1": 789.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q2_a.webp",
+       "w": 1090,
+       "h": 92,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 69.4,
+        "x1": 559,
+        "y1": 113.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 202,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 176.6
+       }
+      }
+     ],
+     "text": "2. (a) Express ) in partial fraction form. ( ) ( x − x − 2 1 2 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q2_b.webp",
+       "w": 1090,
+       "h": 306,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 115.5,
+        "x1": 559,
+        "y1": 261.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 403,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 176.6,
+        "x1": 560,
+        "y1": 369.2
+       }
+      }
+     ],
+     "text": "(b) Hence show that ∫ 25 3 x x = k d ln ( ) ( ) x x 2 − 1 − 2 5 where k is a fully simplified fraction to be found. (Solutions relying entirely on calculator technology are not acceptable.) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q2_notes.webp",
+     "w": 1092,
+     "h": 711,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 366.2,
+      "x1": 560,
+      "y1": 707.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WMA14_2022_10_q3",
+   "number": 3,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_10/q3_stem.webp",
+     "w": 1090,
+     "h": 750,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 416.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q3_a.webp",
+       "w": 1090,
+       "h": 91,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 416.2,
+        "x1": 559,
+        "y1": 459.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 132,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 138.5
+       }
+      }
+     ],
+     "text": "→ (a) Find RQ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 462.0,
+        "x1": 559,
+        "y1": 497.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 215,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 138.5,
+        "x1": 560,
+        "y1": 241.0
+       }
+      }
+     ],
+     "text": "(b) Find the size of angle PQR, in degrees, to three significant figures. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q3_notes.webp",
+     "w": 1092,
+     "h": 1151,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 238.0,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_10/q4_stem.webp",
+     "w": 1090,
+     "h": 111,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 109.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 116.9,
+        "x1": 559,
+        "y1": 166.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 338,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 241.5
+       }
+      }
+     ],
+     "text": "(a) Find, in ascending powers of x, the first four non-zero terms of the binomial expansion of g (x). Give each coefficient in simplest form. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q4_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 168.9,
+        "x1": 559,
+        "y1": 204.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 84,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 241.5,
+        "x1": 560,
+        "y1": 281.6
+       }
+      }
+     ],
+     "text": "(b) State the range of values of x for which this expansion is valid. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q4_c.webp",
+       "w": 1090,
+       "h": 161,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 206.8,
+        "x1": 559,
+        "y1": 283.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 194,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 281.6,
+        "x1": 560,
+        "y1": 374.2
+       }
+      }
+     ],
+     "text": "(c) Use the expansion from part (a) to find a fully simplified rational approximation for 3 Show your working and make your method clear. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q4_notes_1.webp",
+     "w": 1092,
+     "h": 872,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 371.2,
+      "x1": 560,
+      "y1": 789.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_10/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1465,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 45.4,
+      "x1": 560,
+      "y1": 747.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q5",
+   "number": 5,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 6,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q5.webp",
+       "w": 1090,
+       "h": 1132,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 599.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q5_ms.webp",
+       "w": 1092,
+       "h": 524,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 330.8
+       }
+      }
+     ],
+     "text": "5. In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. y R O x 1 k 2 Figure 2 Figure 2 shows a sketch of part of the curve with equation x 12 y = ) ( 1 5 . 2 x + 2 3 The region R, shown shaded in Figure 2, is bounded by the curve, the line with equation x = 1 2 , the x-axis and the line with equation x = k. This region is rotated through 360° about the x-axis to form a solid of revolution. Given that the volume of this solid is 713 648 π , use algebraic integration to find the exact value of the constant k. (6)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q5_notes.webp",
+     "w": 1092,
+     "h": 908,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 327.8,
+      "x1": 560,
+      "y1": 762.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_10/q6_stem.webp",
+     "w": 1090,
+     "h": 761,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 421.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q6_a.webp",
+       "w": 1090,
+       "h": 101,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 424.6,
+        "x1": 559,
+        "y1": 472.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 273,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 79.2,
+        "x1": 560,
+        "y1": 210.0
+       }
+      }
+     ],
+     "text": "(a) Find the equation of the tangent to C at P, writing your answer in the form y = mx + c , where m and c are constants to be found. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q6_b.webp",
+       "w": 1090,
+       "h": 138,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 472.8,
+        "x1": 559,
+        "y1": 538.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 210.0,
+        "x1": 560,
+        "y1": 261.0
+       }
+      }
+     ],
+     "text": "  The curve C has equation y = f (x), where f is a function with domain k, 1 + 3 3  (b) Find the exact value of the constant k. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 540.9,
+        "x1": 559,
+        "y1": 576.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q6_c_ms.webp",
+       "w": 1092,
+       "h": 122,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 261.0,
+        "x1": 560,
+        "y1": 319.1
+       }
+      }
+     ],
+     "text": "(c) Find the range of f. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q6_notes.webp",
+     "w": 1092,
+     "h": 971,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 316.1,
+      "x1": 560,
+      "y1": 781.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_10/q7_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q7_i.webp",
+       "w": 1090,
+       "h": 255,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 227.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q7_i_ms.webp",
+       "w": 1092,
+       "h": 443,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 291.9
+       }
+      }
+     ],
+     "text": "(i) Use the substitution u = ex – 3 to show that ln 7 ∫ 4 e x 3 d x = a + b ln 2 − e x 3 ln 5 where a and b are constants to be found. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q7_ii.webp",
+       "w": 1090,
+       "h": 245,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 229.9,
+        "x1": 559,
+        "y1": 347.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q7_ii_ms.webp",
+       "w": 1092,
+       "h": 420,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 291.9,
+        "x1": 560,
+        "y1": 493.4
+       }
+      }
+     ],
+     "text": "(ii) Show, by integration, that ∫ 3ex cos 2x dx = pex sin 2x + qex cos 2x + c where p and q are constants to be found and c is an arbitrary constant. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 625,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 490.4,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1284,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 44.8,
+      "x1": 560,
+      "y1": 660.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q8",
+   "number": 8,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q8.webp",
+       "w": 1090,
+       "h": 656,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 371.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q8_ms.webp",
+       "w": 1092,
+       "h": 485,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 75.5,
+        "x1": 560,
+        "y1": 308.1
+       }
+      }
+     ],
+     "text": "8. A student was asked to prove by contradiction that “there are no positive integers x and y such that 3x2 + 2xy – y2 = 25” The start of the student’s proof is shown in the box below. Assume that integers x and y exist such that 3x2 + 2xy – y2 = 25 ( ) ( ) = ⇒ 3 x − y x + y 25 ( ) = ( ) = If 3 x − y x + y 1 and 25 3 x − y = 1  . Not integers ⇒ 4 x = 26 ⇒ x = 6 5 . , y = 18 5  x + y = 25  Show the calculations and statements that are needed to complete the proof. (4)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q8_notes.webp",
+     "w": 1092,
+     "h": 638,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 315.0,
+      "x1": 560,
+      "y1": 621.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q9",
+   "number": 9,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "9",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q9.webp",
+       "w": 1090,
+       "h": 449,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 271.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q9_ms.webp",
+       "w": 1092,
+       "h": 841,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 482.9
+       }
+      }
+     ],
+     "text": "9. With respect to a fixed origin O, the equations of lines l1 and l2 are given by 2 − 1         l1 : r = 8  + λ 2     10   3  − 4 5         l2 : r = + μ − 1 4      2   8  where λ and μ are scalar parameters. Prove that lines l1 and l2 are skew. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 626,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 489.9,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 808,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 46.5,
+      "x1": 560,
+      "y1": 433.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2022_10_q10",
+   "number": 10,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_10/q10_stem.webp",
+     "w": 1090,
+     "h": 375,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 236.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q10_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 239.0,
+        "x1": 559,
+        "y1": 274.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q10_a_ms.webp",
+       "w": 1092,
+       "h": 408,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 80.2,
+        "x1": 560,
+        "y1": 275.9
+       }
+      }
+     ],
+     "text": "(a) find an equation linking r and t, (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q10_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 277.0,
+        "x1": 559,
+        "y1": 312.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q10_b_ms.webp",
+       "w": 1092,
+       "h": 123,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 275.9,
+        "x1": 560,
+        "y1": 334.6
+       }
+      }
+     ],
+     "text": "(b) find the time taken for the ball of ice to melt completely. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q10_c_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 315.0,
+        "x1": 559,
+        "y1": 350.4
+       }
+      },
+      {
+       "src": "maths/WMA14_2022_10/q10_c_2.webp",
+       "w": 1090,
+       "h": 480,
+       "region": {
+        "page": 27,
+        "x0": 36,
+        "y0": 558.6,
+        "x1": 559,
+        "y1": 788.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q10_c_ms.webp",
+       "w": 1092,
+       "h": 341,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 334.6,
+        "x1": 560,
+        "y1": 497.6
+       }
+      }
+     ],
+     "text": "(c) On Diagram 1 on page 27, sketch a graph of r against t. (1) r 12 O t Diagram 1",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q10_notes_1.webp",
+     "w": 1092,
+     "h": 591,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 494.6,
+      "x1": 560,
+      "y1": 777.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_10/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1548,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 45.4,
+      "x1": 560,
+      "y1": 787.9
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "10(c): text after the marks",
+    "10(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WMA14_2022_10_q11",
+   "number": 11,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2022_10/q11_stem.webp",
+     "w": 1090,
+     "h": 667,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 376.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "11(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q11_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 382.9,
+        "x1": 559,
+        "y1": 465.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q11_a_ms.webp",
+       "w": 1092,
+       "h": 428,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 93.6,
+        "x1": 560,
+        "y1": 298.2
+       }
+      }
+     ],
+     "text": "(a) Show that ( ) 2 108 − 3 x + y d y = ( ) d x 2 y + x + y 20 3 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "11(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2022_10/q11_b.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 468.2,
+        "x1": 559,
+        "y1": 589.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2022_10/q11_b_ms.webp",
+       "w": 1092,
+       "h": 268,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 298.2,
+        "x1": 560,
+        "y1": 426.6
+       }
+      }
+     ],
+     "text": "The curve is used to model the shape of a cycle track with both x and y measured in km. The points P and Q represent points that are furthest north and furthest south of the origin O, as shown in Figure 4. Using the result given in part (a), (b) find how far the point Q is south of O. Give your answer to the nearest 100 m. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2022_10/q11_notes_1.webp",
+     "w": 1092,
+     "h": 762,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 423.6,
+      "x1": 560,
+      "y1": 789.0
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_10/q11_notes_2.webp",
+     "w": 1092,
+     "h": 1007,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 45.9,
+      "x1": 560,
+      "y1": 528.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2022_10/q11_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 748.4,
+      "x1": 560,
+      "y1": 777.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

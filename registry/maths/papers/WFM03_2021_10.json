@@ -1,0 +1,1187 @@
+{
+ "id": "WFM03_2021_10",
+ "subject": "maths",
+ "unit": "WFM03",
+ "series": "2021-10",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202021/IAL_MATHS_2021_Oct_FP3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202021/IAL_MATHS_2021_Oct_FP3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM03_2021_10_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q1.webp",
+       "w": 1016,
+       "h": 255,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 178.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q1_ms.webp",
+       "w": 1092,
+       "h": 690,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 79.0,
+        "x1": 560,
+        "y1": 409.7
+       }
+      }
+     ],
+     "text": "1. The curve C has equation y = 1 2 arcosh (2x) 7 2  x  13 Using calculus, determine the exact length of the curve C. Give your answer in the form p q , where p and q are constants to be found. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q1_notes_1.webp",
+     "w": 1092,
+     "h": 799,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 406.7,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q1_notes_2.webp",
+     "w": 1092,
+     "h": 1314,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 63.2,
+      "x1": 560,
+      "y1": 693.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q2.webp",
+       "w": 1016,
+       "h": 268,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 523.2,
+        "y1": 185.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q2_ms.webp",
+       "w": 1092,
+       "h": 639,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 66.1,
+        "x1": 560,
+        "y1": 372.3
+       }
+      }
+     ],
+     "text": "2. Given that cosh y = x and y < 0 use the definition of cosh y in terms of exponential functions to prove that ( ) y = ln x − x − 1 2 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q2_notes.webp",
+     "w": 1092,
+     "h": 846,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 369.3,
+      "x1": 560,
+      "y1": 775.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM03_2021_10/q3_stem.webp",
+     "w": 1016,
+     "h": 200,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 152.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q3_a.webp",
+       "w": 1016,
+       "h": 143,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 154.7,
+        "x1": 523.2,
+        "y1": 222.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 452,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 66.1,
+        "x1": 560,
+        "y1": 282.5
+       }
+      }
+     ],
+     "text": "(a) Using calculus, show that an equation for l is 4 x sin θ − 3 y cos θ = 14 sin θ cos θ (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q3_b.webp",
+       "w": 1016,
+       "h": 204,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 225.5,
+        "x1": 523.2,
+        "y1": 322.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 436,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 282.5,
+        "x1": 560,
+        "y1": 491.1
+       }
+      }
+     ],
+     "text": "The line l meets the x-axis at the point A and meets the y-axis at the point B. The point M is the midpoint of AB. (b) Determine a Cartesian equation for the locus of M as θ varies, giving your answer in the form ax2 + by2 = c where a, b and c are integers. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 623,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 488.1,
+      "x1": 560,
+      "y1": 786.3
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q3_notes_2.webp",
+     "w": 1092,
+     "h": 120,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 97.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WFM03_2021_10/q4_stem.webp",
+     "w": 1016,
+     "h": 174,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 139.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q4_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 148.4,
+        "x1": 523.2,
+        "y1": 184.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 205,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 66.1,
+        "x1": 560,
+        "y1": 163.8
+       }
+      }
+     ],
+     "text": "(a) Show that det M = 5k − 10 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q4_b.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 186.6,
+        "x1": 523.2,
+        "y1": 245.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 546,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 163.8,
+        "x1": 560,
+        "y1": 425.6
+       }
+      }
+     ],
+     "text": "Given that k ≠ 2 (b) find M−1 in terms of k. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q4_c.webp",
+       "w": 1016,
+       "h": 209,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 246.0,
+        "x1": 523.2,
+        "y1": 345.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q4_c_ms_1.webp",
+       "w": 1092,
+       "h": 760,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 425.6,
+        "x1": 560,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WFM03_2021_10/q4_c_ms_2.webp",
+       "w": 1092,
+       "h": 243,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 156.0
+       }
+      }
+     ],
+     "text": "The points O (0, 0, 0), A (4, −8, 3), B (−2, 5, −4) and C (4, −6, 8) are the vertices of a tetrahedron T. The transformation represented by matrix M transforms T to a tetrahedron with volume 50 (c) Determine the possible values of k. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q4_notes.webp",
+     "w": 1092,
+     "h": 1305,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 153.0,
+      "x1": 560,
+      "y1": 778.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WFM03_2021_10/q5_stem.webp",
+     "w": 1016,
+     "h": 247,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 175.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q5_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 177.9,
+        "x1": 523.2,
+        "y1": 213.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 318,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 66.1,
+        "x1": 560,
+        "y1": 218.0
+       }
+      }
+     ],
+     "text": "(a) Determine a vector that is perpendicular to both l1 and l2 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q5_b.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 215.9,
+        "x1": 523.2,
+        "y1": 275.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 218.0,
+        "x1": 560,
+        "y1": 335.4
+       }
+      }
+     ],
+     "text": "(b) Determine an equation of the plane parallel to l1 that contains l2 (i) in the form r = a + sb + tc (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q5_b_ii.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 277.6,
+        "x1": 523.2,
+        "y1": 313.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q5_b_ii_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 218.0,
+        "x1": 560,
+        "y1": 335.4
+       }
+      }
+     ],
+     "text": "(ii) in the form r.n = p (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q5_c.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 315.8,
+        "x1": 523.2,
+        "y1": 375.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q5_c_ms_1.webp",
+       "w": 1092,
+       "h": 903,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 335.4,
+        "x1": 560,
+        "y1": 768.0
+       }
+      },
+      {
+       "src": "maths/WFM03_2021_10/q5_c_ms_2.webp",
+       "w": 1092,
+       "h": 726,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 388.0
+       }
+      }
+     ],
+     "text": "(c) Determine the shortest distance between l1 and l2 Give your answer in simplest form. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q5_notes_1.webp",
+     "w": 1092,
+     "h": 811,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 385.0,
+      "x1": 560,
+      "y1": 774.2
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q5_notes_2.webp",
+     "w": 1092,
+     "h": 805,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 425.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM03_2021_10/q6_stem.webp",
+     "w": 1016,
+     "h": 135,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 121.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q6_a.webp",
+       "w": 1016,
+       "h": 201,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 132.9,
+        "x1": 523.2,
+        "y1": 228.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 1177,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 66.1,
+        "x1": 560,
+        "y1": 630.3
+       }
+      }
+     ],
+     "text": "(a) Prove that, for n  5 n − 1 In = 1 π − 1   2 4 (n − 1)(n − 3) In − 4     2 2 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q6_b.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 231.4,
+        "x1": 523.2,
+        "y1": 266.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 332,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 630.3,
+        "x1": 560,
+        "y1": 789.4
+       }
+      },
+      {
+       "src": "maths/WFM03_2021_10/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 51,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 64.2
+       }
+      }
+     ],
+     "text": "(b) Hence, determine the exact value of I5 , giving your answer in its simplest form. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q6_notes_1.webp",
+     "w": 1092,
+     "h": 1455,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 61.2,
+      "x1": 560,
+      "y1": 759.2
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q6_notes_2.webp",
+     "w": 1092,
+     "h": 920,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 481.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WFM03_2021_10/q7_stem.webp",
+     "w": 1016,
+     "h": 223,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 163.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q7_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 166.4,
+        "x1": 523.2,
+        "y1": 201.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 66.1,
+        "x1": 560,
+        "y1": 127.5
+       }
+      }
+     ],
+     "text": "(a) Determine an expression for e2 in terms of a. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q7_b.webp",
+       "w": 1016,
+       "h": 175,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 204.4,
+        "x1": 523.2,
+        "y1": 287.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 279,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 127.5,
+        "x1": 560,
+        "y1": 261.1
+       }
+      }
+     ],
+     "text": "The line l is the directrix of H for which x > 0 The points A and Aʹ are the points of intersection of l with the asymptotes of H. (b) Determine, in terms of e, the length of the line segment AAʹ. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q7_c.webp",
+       "w": 1016,
+       "h": 259,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 290.4,
+        "x1": 523.2,
+        "y1": 414.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q7_c_ms.webp",
+       "w": 1092,
+       "h": 561,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 261.1,
+        "x1": 560,
+        "y1": 529.8
+       }
+      }
+     ],
+     "text": "The point F is the focus of H for which x < 0 Given that the area of triangle AFAʹ is 164 3 (c) show that a is a solution of the equation 30a3 − 164a2 + 375a − 4100 = 0 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q7_d.webp",
+       "w": 1016,
+       "h": 149,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 416.7,
+        "x1": 523.2,
+        "y1": 488.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q7_d_ms.webp",
+       "w": 1092,
+       "h": 444,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 529.8,
+        "x1": 560,
+        "y1": 742.1
+       }
+      }
+     ],
+     "text": "(d) Hence, using algebra and making your reasoning clear, show that the only possible value of a is 20 3 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 107,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 739.1,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1485,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 752.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2021_10_q8",
+   "number": 8,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WFM03_2021_10/q8_stem.webp",
+     "w": 1016,
+     "h": 104,
+     "region": {
+      "page": 28,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 106.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q8_a.webp",
+       "w": 1016,
+       "h": 109,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 111.1,
+        "x1": 523.2,
+        "y1": 163.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 340,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 79.9,
+        "x1": 560,
+        "y1": 242.8
+       }
+      }
+     ],
+     "text": "(a) Determine d y d x (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q8_b.webp",
+       "w": 1016,
+       "h": 173,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 165.5,
+        "x1": 523.2,
+        "y1": 247.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 403,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 242.8,
+        "x1": 560,
+        "y1": 435.4
+       }
+      }
+     ],
+     "text": "(b) Show that y∫ ∫ x dx = x arccos (2 x ) + dx 1 − 4 x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q8_c.webp",
+       "w": 1016,
+       "h": 277,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 250.4,
+        "x1": 523.2,
+        "y1": 382.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q8_c_ms.webp",
+       "w": 1092,
+       "h": 525,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 435.4,
+        "x1": 560,
+        "y1": 687.0
+       }
+      }
+     ],
+     "text": "(c) Use the substitution x = 1 2 cos θ to show that 1 b ∫ ∫ x dx = 1 8 θ dθ cos2 4 1 − 4 x 0 a where a and b are limits to be determined. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2021_10/q8_d.webp",
+       "w": 1016,
+       "h": 202,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 385.5,
+        "x1": 523.2,
+        "y1": 481.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2021_10/q8_d_ms.webp",
+       "w": 1092,
+       "h": 663,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 40.6,
+        "x1": 560,
+        "y1": 358.2
+       }
+      }
+     ],
+     "text": "(d) Hence, determine the exact value of 1 8∫arccos (2 x ) dx 0 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2021_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 860,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 355.2,
+      "x1": 560,
+      "y1": 767.9
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1085,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 560.6
+     }
+    },
+    {
+     "src": "maths/WFM03_2021_10/q8_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 722.0,
+      "x1": 560,
+      "y1": 751.5
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

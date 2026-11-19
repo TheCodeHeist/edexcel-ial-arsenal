@@ -1,0 +1,838 @@
+{
+ "id": "WME03_2026_01_A",
+ "subject": "maths",
+ "unit": "WME03",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M3A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M3A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME03_2026_01_A_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q1.webp",
+       "w": 1090,
+       "h": 343,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 45.7,
+        "x1": 559,
+        "y1": 209.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q1_ms.webp",
+       "w": 1092,
+       "h": 408,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 363.4,
+        "x1": 560,
+        "y1": 559.2
+       }
+      }
+     ],
+     "text": "1. A particle P of mass 0.5 kg moves along the positive x-axis under the action of a single force of magnitude F newtons. The force acts along the x-axis in the direction of x increasing. When P is x metres from the origin O, it is moving away from O with \u001b 3 –1 speed x 3 \u0019 m s 8 4 2 \u001a Find F when P is 4 m from O. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q1_notes.webp",
+     "w": 1092,
+     "h": 339,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 556.2,
+      "x1": 560,
+      "y1": 718.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_A_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01_A/q2_stem.webp",
+     "w": 1090,
+     "h": 259,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 169.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 559,
+        "y1": 205.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 132.9,
+        "x1": 560,
+        "y1": 197.0
+       }
+      }
+     ],
+     "text": "2 (a) Show that K = mgR (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q2_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 207.8,
+        "x1": 559,
+        "y1": 291.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q2_b_ms.webp",
+       "w": 1092,
+       "h": 557,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 197.0,
+        "x1": 560,
+        "y1": 464.0
+       }
+      }
+     ],
+     "text": "When S is at a distance 3R from the centre of the Earth, the speed of S is V. Assuming that air resistance can be ignored, (b) find, in terms of g, R and V, the speed of S as it hits the surface of the Earth. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q2_notes_1.webp",
+     "w": 1092,
+     "h": 556,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 461.0,
+      "x1": 560,
+      "y1": 727.5
+     }
+    },
+    {
+     "src": "maths/WME03_2026_01_A/q2_notes_2.webp",
+     "w": 1092,
+     "h": 787,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 445.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_A_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 158,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 121.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 123.8,
+        "x1": 559,
+        "y1": 159.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q3_a_ms.webp",
+       "w": 1092,
+       "h": 231,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 101.2,
+        "x1": 560,
+        "y1": 211.6
+       }
+      }
+     ],
+     "text": "(a) Find the period of the motion. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q3_b.webp",
+       "w": 1090,
+       "h": 167,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 161.8,
+        "x1": 559,
+        "y1": 241.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q3_b_ms.webp",
+       "w": 1092,
+       "h": 203,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 211.6,
+        "x1": 560,
+        "y1": 308.6
+       }
+      }
+     ],
+     "text": "The amplitude of the motion is a metres. Find (b) the value of a, (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q3_c.webp",
+       "w": 1090,
+       "h": 129,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 241.6,
+        "x1": 559,
+        "y1": 303.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q3_c_ms.webp",
+       "w": 1092,
+       "h": 301,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 308.6,
+        "x1": 560,
+        "y1": 452.3
+       }
+      }
+     ],
+     "text": "(c) the total length of time during each complete oscillation for which P is within 1 2 a metres of O. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q3_notes.webp",
+     "w": 1092,
+     "h": 596,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 449.3,
+      "x1": 560,
+      "y1": 734.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_A_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01_A/q4_stem.webp",
+     "w": 1090,
+     "h": 203,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 143.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 145.8,
+        "x1": 559,
+        "y1": 181.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q4_a_ms.webp",
+       "w": 1092,
+       "h": 278,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 236.6
+       }
+      }
+     ],
+     "text": "(a) Calculate the weight of P. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q4_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 183.8,
+        "x1": 559,
+        "y1": 243.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 236.6,
+        "x1": 560,
+        "y1": 368.9
+       }
+      }
+     ],
+     "text": "The particle is now raised to the midpoint of AB and released from rest. (b) Calculate the speed of P when it has fallen 4 m. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q4_notes.webp",
+     "w": 1092,
+     "h": 423,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 365.9,
+      "x1": 560,
+      "y1": 568.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_A_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01_A/q5_stem.webp",
+     "w": 1090,
+     "h": 717,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 389.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q5_a.webp",
+       "w": 1090,
+       "h": 93,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 389.7,
+        "x1": 559,
+        "y1": 433.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 337,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 264.7
+       }
+      }
+     ],
+     "text": "π (a) show that the volume of S is 4 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 436.2,
+        "x1": 559,
+        "y1": 471.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 1003,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 264.7,
+        "x1": 560,
+        "y1": 745.8
+       }
+      },
+      {
+       "src": "maths/WME03_2026_01_A/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 47,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 90.2
+       }
+      }
+     ],
+     "text": "(b) find, in terms of π, the x coordinate of the centre of mass of S. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q5_notes.webp",
+     "w": 1092,
+     "h": 1095,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 96.1,
+      "x1": 560,
+      "y1": 621.3
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WME03_2026_01_A_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01_A/q6_stem.webp",
+     "w": 1090,
+     "h": 314,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 196.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q6_a.webp",
+       "w": 1090,
+       "h": 78,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 197.0,
+        "x1": 559,
+        "y1": 234.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 270,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 102.6,
+        "x1": 560,
+        "y1": 231.4
+       }
+      }
+     ],
+     "text": "–1, of the motorcycle. (a) find the speed, in m s (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q6_b.webp",
+       "w": 1090,
+       "h": 397,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 236.8,
+        "x1": 559,
+        "y1": 427.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q6_b_ms.webp",
+       "w": 1092,
+       "h": 358,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 231.4,
+        "x1": 560,
+        "y1": 403.2
+       }
+      }
+     ],
+     "text": "In a refined model it is assumed that there is sideways friction. The coefficient of friction between the motorcycle tyres and the track is 1 4 It is still assumed that air resistance can be ignored and that the motorcycle is modelled as a particle. The motorcycle’s path is unchanged. Using this model, –1, at which the motorcycle can travel without (b) find the maximum speed, in m s slipping sideways. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q6_notes_1.webp",
+     "w": 1092,
+     "h": 708,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 400.2,
+      "x1": 560,
+      "y1": 739.6
+     }
+    },
+    {
+     "src": "maths/WME03_2026_01_A/q6_notes_2.webp",
+     "w": 1092,
+     "h": 394,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 256.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME03_2026_01_A_q7",
+   "number": 7,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WME03_2026_01_A/q7_stem.webp",
+     "w": 1090,
+     "h": 822,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 439.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q7_a.webp",
+       "w": 1090,
+       "h": 91,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 444.7,
+        "x1": 559,
+        "y1": 487.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 266,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 230.5
+       }
+      }
+     ],
+     "text": "2 gl (a) show that u > 5 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 11,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME03_2026_01_A/q7_b.webp",
+       "w": 1090,
+       "h": 139,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 490.3,
+        "x1": 559,
+        "y1": 556.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 646,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 230.5,
+        "x1": 560,
+        "y1": 540.1
+       }
+      }
+     ],
+     "text": "As the rod rotates, the least tension in the rod is T and the greatest tension is 4T. 17 (b) Show that u gl = 5 (11)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01_A/q7_notes_1.webp",
+     "w": 1092,
+     "h": 481,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 537.1,
+      "x1": 560,
+      "y1": 767.4
+     }
+    },
+    {
+     "src": "maths/WME03_2026_01_A/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1386,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 732.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

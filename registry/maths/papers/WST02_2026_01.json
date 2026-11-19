@@ -1,0 +1,1401 @@
+{
+ "id": "WST02_2026_01",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2026_01_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q1_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q1_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 97.8,
+        "x1": 560,
+        "y1": 112.0
+       }
+      },
+      {
+       "src": "maths/WST02_2026_01/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 112.0,
+        "x1": 560,
+        "y1": 140.7
+       }
+      }
+     ],
+     "text": "(a) For this survey (i) suggest a suitable sampling frame, (ii) identify the sampling units. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 216.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 140.7,
+        "x1": 560,
+        "y1": 168.8
+       }
+      }
+     ],
+     "text": "(b) Give one advantage of taking a sample rather than a census. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q1_c.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 219.1,
+        "x1": 559,
+        "y1": 330.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 168.8,
+        "x1": 560,
+        "y1": 197.0
+       }
+      }
+     ],
+     "text": "A large number of customers completed the survey and 35% said they were satisfied with their download speed. A random sample of 50 customers who completed the survey is taken. (c) Write down a suitable distribution to model the number of customers in this sample that were satisfied with their download speed. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q1_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 333.0,
+        "x1": 559,
+        "y1": 406.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 146,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 197.0,
+        "x1": 560,
+        "y1": 266.5
+       }
+      }
+     ],
+     "text": "Using your answer to part (c) (d) find the probability that more than 40% of the customers in the sample were satisfied with their download speed. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q1_notes.webp",
+     "w": 1092,
+     "h": 270,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 263.5,
+      "x1": 560,
+      "y1": 392.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q2_stem.webp",
+     "w": 1090,
+     "h": 238,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 170.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_a.webp",
+       "w": 1090,
+       "h": 102,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 176.6,
+        "x1": 559,
+        "y1": 225.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 97.8,
+        "x1": 560,
+        "y1": 140.2
+       }
+      }
+     ],
+     "text": "(a) Show that k = 1 6 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 227.5,
+        "x1": 559,
+        "y1": 262.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 76,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 140.2,
+        "x1": 560,
+        "y1": 176.3
+       }
+      }
+     ],
+     "text": "(b) Write down the value of P (X = 5) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 265.5,
+        "x1": 559,
+        "y1": 300.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 176.3,
+        "x1": 560,
+        "y1": 256.2
+       }
+      }
+     ],
+     "text": "(c) Find P (5 < X < 7) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 303.5,
+        "x1": 559,
+        "y1": 338.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 298,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 256.2,
+        "x1": 560,
+        "y1": 398.5
+       }
+      }
+     ],
+     "text": "(d) Specify the probability density function of X, for all values of x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 341.5,
+        "x1": 559,
+        "y1": 376.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_e_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 398.5,
+        "x1": 560,
+        "y1": 502.8
+       }
+      }
+     ],
+     "text": "(e) Hence sketch the probability density function of X (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(f)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_f.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 379.4,
+        "x1": 559,
+        "y1": 414.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_f_ms.webp",
+       "w": 1092,
+       "h": 102,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 502.8,
+        "x1": 560,
+        "y1": 551.2
+       }
+      }
+     ],
+     "text": "(f) Write down the value of E (X) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(g)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q2_g.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 417.4,
+        "x1": 559,
+        "y1": 466.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q2_g_ms.webp",
+       "w": 1092,
+       "h": 256,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 551.2,
+        "x1": 560,
+        "y1": 673.8
+       }
+      }
+     ],
+     "text": "(g) Find E (2X 2 – 1) You must make your method clear. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 199,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 670.8,
+      "x1": 560,
+      "y1": 765.9
+     }
+    },
+    {
+     "src": "maths/WST02_2026_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 590,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 350.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q3_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q3_a.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 230.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 78,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 95.1,
+        "x1": 560,
+        "y1": 132.5
+       }
+      },
+      {
+       "src": "maths/WST02_2026_01/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 65,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 132.5,
+        "x1": 560,
+        "y1": 163.0
+       }
+      }
+     ],
+     "text": "(a) Find the probability that during a randomly selected morning the sensor detects motion (i) at least 4 times in a randomly selected 30-minute period, (ii) at least 4 times in each of 3 randomly selected non-overlapping 30-minute periods. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q3_b.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 233.1,
+        "x1": 559,
+        "y1": 368.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 71,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 163.0,
+        "x1": 560,
+        "y1": 196.6
+       }
+      }
+     ],
+     "text": "Remy decides to clean the sensor. After cleaning the sensor, Remy records the number of times the sensor detects motion in a one-hour period in the morning. Remy will use this data to test, at a 5% significance level, if there is evidence that the mean rate of detecting motion has increased. (b) Write down suitable null and alternative hypotheses for Remy’s test. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q3_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 370.8,
+        "x1": 559,
+        "y1": 406.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 196.6,
+        "x1": 560,
+        "y1": 260.8
+       }
+      }
+     ],
+     "text": "(c) Find the critical region for the test and state its associated probability. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q3_d.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 409.0,
+        "x1": 559,
+        "y1": 492.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 134,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 260.8,
+        "x1": 560,
+        "y1": 324.8
+       }
+      }
+     ],
+     "text": "In the one-hour period after the sensor is cleaned, the sensor detects motion 13 times. Using this observation and your answer to part (c) (d) state the conclusion to the test, giving a reason for your answer. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q3_notes.webp",
+     "w": 1092,
+     "h": 453,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 321.8,
+      "x1": 560,
+      "y1": 538.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q4_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q4_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 188.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 29,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 96.7,
+        "x1": 560,
+        "y1": 110.3
+       }
+      },
+      {
+       "src": "maths/WST02_2026_01/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 75,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 110.3,
+        "x1": 560,
+        "y1": 145.5
+       }
+      }
+     ],
+     "text": "(a) Find the probability that from a random sample of 30 patients (i) exactly one patient has the eye condition, (ii) no more than 2 patients have the eye condition. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q4_b.webp",
+       "w": 1090,
+       "h": 203,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 191.1,
+        "x1": 559,
+        "y1": 288.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 301,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 145.5,
+        "x1": 560,
+        "y1": 289.9
+       }
+      }
+     ],
+     "text": "The optician claims that the proportion of patients with the eye condition has changed. A random sample of 150 patients is taken and 13 have the eye condition. (b) Using a suitable approximation, carry out an appropriate test to investigate the optician’s claim. Use a 5% level of significance and state your hypotheses clearly. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q4_notes.webp",
+     "w": 1092,
+     "h": 485,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 286.9,
+      "x1": 560,
+      "y1": 519.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q5_stem.webp",
+     "w": 1090,
+     "h": 175,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 140.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q5_a.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 143.0,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 97.8,
+        "x1": 560,
+        "y1": 140.1
+       }
+      }
+     ],
+     "text": "(a) List all the possible combinations of the three products. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q5_b.webp",
+       "w": 1090,
+       "h": 409,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 377.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 65,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 140.1,
+        "x1": 560,
+        "y1": 170.8
+       }
+      }
+     ],
+     "text": "The selling price of each product is shown in the table below. The selling price of a wrap is the same for supplier A and supplier B. Sandwich Wrap Panini Price £ 3 £ 4 £ 5 The random variable T represents the total price, in pounds, of the three selected products. (b) List all the possible values of T (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q5_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 379.8,
+        "x1": 559,
+        "y1": 415.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 285,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 170.8,
+        "x1": 560,
+        "y1": 306.7
+       }
+      }
+     ],
+     "text": "(c) Find the sampling distribution of T (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q5_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 417.8,
+        "x1": 559,
+        "y1": 467.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q5_d_ms.webp",
+       "w": 1092,
+       "h": 226,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 306.7,
+        "x1": 560,
+        "y1": 415.2
+       }
+      }
+     ],
+     "text": "(d) Find the sampling distribution of the range, R, of the prices of the three selected products. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q5_notes.webp",
+     "w": 1092,
+     "h": 460,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 412.2,
+      "x1": 560,
+      "y1": 632.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_q6",
+   "number": 6,
+   "marks": 19,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q6_stem.webp",
+     "w": 1090,
+     "h": 278,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 189.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 197.5,
+        "x1": 559,
+        "y1": 233.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 363,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 97.8,
+        "x1": 560,
+        "y1": 271.3
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of f (w) (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 235.5,
+        "x1": 559,
+        "y1": 270.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 271.3,
+        "x1": 560,
+        "y1": 299.4
+       }
+      }
+     ],
+     "text": "(b) State the mode of W (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 273.5,
+        "x1": 559,
+        "y1": 308.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 301,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 299.4,
+        "x1": 560,
+        "y1": 443.4
+       }
+      }
+     ],
+     "text": "(c) Find the mean weight of these watermelons. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q6_d.webp",
+       "w": 1090,
+       "h": 180,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 315.2,
+        "x1": 559,
+        "y1": 400.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 191,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 443.4,
+        "x1": 560,
+        "y1": 534.3
+       }
+      }
+     ],
+     "text": "73 . / O Given that E W 2 5 (d) find the standard deviation of the weights of these watermelons, giving the answer to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q6_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 403.4,
+        "x1": 559,
+        "y1": 438.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q6_e_ms.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 534.3,
+        "x1": 560,
+        "y1": 660.8
+       }
+      }
+     ],
+     "text": "(e) Show that the median lies between w = 3.7 and w = 3.8 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(f)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q6_f.webp",
+       "w": 1090,
+       "h": 312,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 441.4,
+        "x1": 559,
+        "y1": 590.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q6_f_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 660.8,
+        "x1": 560,
+        "y1": 764.9
+       }
+      }
+     ],
+     "text": "The farmer inspects the watermelons to check whether or not they are spoiled. The number of spoiled watermelons found by the farmer in an area of 150 m 2 on the farm is modelled by a Poisson distribution with mean 5 The farmer randomly selects an area of 900 m 2 from the farm and counts the number of spoiled watermelons. (f) Use a normal approximation to find the probability that the farmer finds fewer than 20 spoiled watermelons. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q6_notes.webp",
+     "w": 1092,
+     "h": 1277,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 680.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2026_01_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 175,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 140.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q7_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 93.5,
+        "x1": 560,
+        "y1": 143.6
+       }
+      }
+     ],
+     "text": "(a) Find P (X > 16) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2026_01/q7_b.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 292.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2026_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 318,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 143.6,
+        "x1": 560,
+        "y1": 295.8
+       }
+      }
+     ],
+     "text": "Hallie takes a random sample of 180 of these train journeys between the two cities. Using a normal approximation, the probability that more than k of these 180 train journeys arrive no more than 2 minutes late is less than 0.0427 to 4 decimal places. (b) Using standardisation, find the smallest possible value of k You must show all stages of your working. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2026_01/q7_notes.webp",
+     "w": 1092,
+     "h": 516,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 292.8,
+      "x1": 560,
+      "y1": 539.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

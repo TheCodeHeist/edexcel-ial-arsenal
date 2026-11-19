@@ -1,0 +1,1198 @@
+{
+ "id": "WMA12_2026_01",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2026_01_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q1_a.webp",
+       "w": 1090,
+       "h": 194,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 149.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 106.8,
+        "x1": 560,
+        "y1": 178.7
+       }
+      }
+     ],
+     "text": "1. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 7 (3 + kx) where k is a non‑zero constant. Give each term in simplest form. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q1_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 152.0,
+        "x1": 559,
+        "y1": 211.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 172,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 178.7,
+        "x1": 560,
+        "y1": 260.8
+       }
+      }
+     ],
+     "text": "Given that, in this expansion, the coefficient of x 2 is 3 times the coefficient of x 3 (b) find, in simplest form, the value of k. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q1_notes.webp",
+     "w": 1092,
+     "h": 902,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 257.8,
+      "x1": 560,
+      "y1": 690.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_01/q2_stem.webp",
+     "w": 1090,
+     "h": 887,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 482.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q2_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 484.9,
+        "x1": 559,
+        "y1": 534.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 153,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 133.4,
+        "x1": 560,
+        "y1": 206.4
+       }
+      }
+     ],
+     "text": "(a) Use the trapezium rule with all the values of y in the table to find an estimate for the area of R. Give the answer to 2 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 536.9,
+        "x1": 559,
+        "y1": 586.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 206.4,
+        "x1": 560,
+        "y1": 247.8
+       }
+      }
+     ],
+     "text": "(b) State how you would use the trapezium rule to get a more accurate estimate for the true area of R. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q2_c.webp",
+       "w": 1090,
+       "h": 237,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 588.9,
+        "x1": 559,
+        "y1": 702.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 247.8,
+        "x1": 560,
+        "y1": 323.9
+       }
+      }
+     ],
+     "text": "Using the answer to part (a) and showing your working, (c) estimate the value of 11 3 x 2 3 3 0 1 . d x 4 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q2_notes.webp",
+     "w": 1092,
+     "h": 700,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 320.9,
+      "x1": 560,
+      "y1": 656.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q3_i.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 164.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q3_i_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 120.6,
+        "x1": 560,
+        "y1": 170.4
+       }
+      }
+     ],
+     "text": "3. (i) Given that • f (x) = 4x 3 + 6x + k, where k is a constant • (x + 2) is a factor of f (x) find the remainder when f (x) is divided by (x – 5) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q3_ii.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 167.1,
+        "x1": 559,
+        "y1": 250.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q3_ii_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 170.4,
+        "x1": 560,
+        "y1": 287.7
+       }
+      }
+     ],
+     "text": "(ii) Find the remainder, R, and the quotient, Q(x), when 6x 3 – 15x 2 – 21x + 8 is divided by (2x + 3) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q3_notes.webp",
+     "w": 1092,
+     "h": 1003,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 284.7,
+      "x1": 560,
+      "y1": 766.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q4",
+   "number": 4,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q4.webp",
+       "w": 1090,
+       "h": 305,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 203.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q4_ms.webp",
+       "w": 1092,
+       "h": 350,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 162.0,
+        "x1": 560,
+        "y1": 329.3
+       }
+      }
+     ],
+     "text": "4. In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Given that k is a positive constant and 2 k \u0017 12 \u001b 1 4 d x O 14 \u001a\u0019 2 x k find the possible values of k. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q4_notes.webp",
+     "w": 1092,
+     "h": 430,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 326.3,
+      "x1": 560,
+      "y1": 532.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q5",
+   "number": 5,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_01/q5_stem.webp",
+     "w": 1090,
+     "h": 97,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q5_a.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 105.6,
+        "x1": 559,
+        "y1": 188.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 129.5,
+        "x1": 560,
+        "y1": 260.4
+       }
+      }
+     ],
+     "text": "(a) Find (i) the coordinates of the centre of C1 (ii) the radius of C1 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q5_b.webp",
+       "w": 1090,
+       "h": 275,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 191.5,
+        "x1": 559,
+        "y1": 322.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 230,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 260.4,
+        "x1": 560,
+        "y1": 370.2
+       }
+      }
+     ],
+     "text": "The circle C2 has • centre (–k, 0) where k is a positive constant • radius 5 Given that circles C1 and C2 touch (b) find the exact value of k. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q5_notes.webp",
+     "w": 1092,
+     "h": 646,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 367.2,
+      "x1": 560,
+      "y1": 677.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q6_i.webp",
+       "w": 1090,
+       "h": 184,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 60.1,
+        "x1": 559,
+        "y1": 148.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q6_i_ms.webp",
+       "w": 1092,
+       "h": 219,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 130.3,
+        "x1": 560,
+        "y1": 234.9
+       }
+      }
+     ],
+     "text": "6. (i) Given that p and q are consecutive odd numbers, where p > q > 0, prove that 2 – q 2 p is a multiple of 8 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q6_ii.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 150.8,
+        "x1": 559,
+        "y1": 234.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q6_ii_ms.webp",
+       "w": 1092,
+       "h": 260,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 234.9,
+        "x1": 560,
+        "y1": 359.3
+       }
+      }
+     ],
+     "text": "(ii) The curve C has equation y = x 3 + 12x 2 + 49x + 2 Prove that C has no stationary points. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 510,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 366.1,
+      "x1": 560,
+      "y1": 610.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 822,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 72.2,
+      "x1": 560,
+      "y1": 466.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q7_i.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 187.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q7_i_ms.webp",
+       "w": 1092,
+       "h": 275,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 130.3,
+        "x1": 560,
+        "y1": 261.6
+       }
+      }
+     ],
+     "text": "(i) Find the exact solution of the equation 2x – 5 = 20 8 giving the answer in the form a + b log25 where a and b are rational constants. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q7_ii.webp",
+       "w": 1090,
+       "h": 143,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 190.0,
+        "x1": 559,
+        "y1": 258.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q7_ii_ms.webp",
+       "w": 1092,
+       "h": 352,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 261.6,
+        "x1": 560,
+        "y1": 430.1
+       }
+      }
+     ],
+     "text": "(ii) Using the laws of logarithms, solve the equation log3 (13 + 2y) + 3 = 2log3 (4 – y) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 585,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 436.9,
+      "x1": 560,
+      "y1": 717.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 671,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 72.2,
+      "x1": 560,
+      "y1": 394.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_01/q8_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(i)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q8_i.webp",
+       "w": 1090,
+       "h": 185,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 94.8,
+        "x1": 559,
+        "y1": 183.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q8_i_ms.webp",
+       "w": 1092,
+       "h": 321,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 125.6,
+        "x1": 560,
+        "y1": 278.9
+       }
+      }
+     ],
+     "text": "(i) Solve, for 0  θ < 180 2 (2θ – 30)° + 1 = 49 4 tan giving the answers to one decimal place. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(ii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q8_ii.webp",
+       "w": 1090,
+       "h": 194,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 185.3,
+        "x1": 559,
+        "y1": 277.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q8_ii_ms.webp",
+       "w": 1092,
+       "h": 368,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 278.9,
+        "x1": 560,
+        "y1": 455.5
+       }
+      }
+     ],
+     "text": "(ii) Solve, for 0  x < 2π 2 tan x sin x + 3 = 0 giving the answers, in radians, in the form kπ where k is a rational constant. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 611,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 452.5,
+      "x1": 560,
+      "y1": 745.2
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 597,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 70.6,
+      "x1": 560,
+      "y1": 356.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q9",
+   "number": 9,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_01/q9_stem.webp",
+     "w": 1090,
+     "h": 274,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 188.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 190.9,
+        "x1": 559,
+        "y1": 226.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 105.8,
+        "x1": 560,
+        "y1": 167.4
+       }
+      }
+     ],
+     "text": "(a) find the mass of lithium the company will mine in year 5 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q9_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 228.7,
+        "x1": 559,
+        "y1": 278.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 120,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 167.4,
+        "x1": 560,
+        "y1": 224.3
+       }
+      }
+     ],
+     "text": "(b) calculate the total mass of lithium the company will mine from year 1 to year 15 inclusive. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q9_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 280.9,
+        "x1": 559,
+        "y1": 368.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q9_c_ms.webp",
+       "w": 1092,
+       "h": 147,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 224.3,
+        "x1": 560,
+        "y1": 294.4
+       }
+      }
+     ],
+     "text": "Model B assumes that the mass of lithium the company mines will decrease by the same percentage each year. (c) Find, according to model B, the mass of lithium the company will mine in year 10. Give the answer to the nearest 10 tonnes. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q9_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 370.6,
+        "x1": 559,
+        "y1": 430.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q9_d_ms.webp",
+       "w": 1092,
+       "h": 142,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 294.4,
+        "x1": 560,
+        "y1": 362.0
+       }
+      }
+     ],
+     "text": "According to model B, there is a limit to the total mass of lithium that can be mined. (d) Calculate the value of this limit. Give the answer to the nearest 100 tonnes. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 646,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 359.0,
+      "x1": 560,
+      "y1": 668.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 787,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 72.2,
+      "x1": 560,
+      "y1": 449.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2026_01_q10",
+   "number": 10,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2026_01/q10_stem.webp",
+     "w": 1090,
+     "h": 865,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 471.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q10_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 474.5,
+        "x1": 559,
+        "y1": 510.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q10_a_ms.webp",
+       "w": 1092,
+       "h": 291,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 103.7,
+        "x1": 560,
+        "y1": 243.0
+       }
+      }
+     ],
+     "text": "(a) Use algebraic differentiation to find the exact x coordinate of P. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2026_01/q10_b.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 512.5,
+        "x1": 559,
+        "y1": 633.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2026_01/q10_b_ms.webp",
+       "w": 1092,
+       "h": 333,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 243.0,
+        "x1": 560,
+        "y1": 402.5
+       }
+      }
+     ],
+     "text": "The region R1, shown shaded in Figure 2, is bounded by C and the x‑axis. The region R2, also shown shaded in Figure 2, is bounded by C, the x‑axis and the line with equation x = k, where k is a constant. Given that the area of R1 is equal to the area of R2 (b) use algebraic integration to find the exact value of k. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2026_01/q10_notes.webp",
+     "w": 1092,
+     "h": 747,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 399.5,
+      "x1": 560,
+      "y1": 757.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

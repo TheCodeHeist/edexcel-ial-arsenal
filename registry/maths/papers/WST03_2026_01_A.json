@@ -1,0 +1,1115 @@
+{
+ "id": "WST03_2026_01_A",
+ "subject": "maths",
+ "unit": "WST03",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S3A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S3A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST03_2026_01_A_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST03_2026_01_A/q1_stem.webp",
+     "w": 1090,
+     "h": 639,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 352.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 355.1,
+        "x1": 559,
+        "y1": 390.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 476,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 110.6,
+        "x1": 560,
+        "y1": 338.7
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 496.6,
+        "x1": 560,
+        "y1": 588.2
+       }
+      }
+     ],
+     "text": "(a) Find Spearman’s rank correlation coefficient for these data. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q1_b.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 393.0,
+        "x1": 559,
+        "y1": 456.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 330,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 338.7,
+        "x1": 560,
+        "y1": 496.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 375,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 588.2,
+        "x1": 560,
+        "y1": 767.5
+       }
+      }
+     ],
+     "text": "(b) Stating your hypotheses clearly, test, at the 5% level of significance, whether or not there is evidence of a positive correlation between the distance travelled by car and the amount of commission earned. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q1: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WST03_2026_01_A_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST03_2026_01_A/q2_stem.webp",
+     "w": 1090,
+     "h": 114,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 492.8,
+      "x1": 559,
+      "y1": 546.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q2_a.webp",
+       "w": 1090,
+       "h": 80,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 546.7,
+        "x1": 559,
+        "y1": 584.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 35,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 122.3,
+        "x1": 560,
+        "y1": 138.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 215,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 138.6,
+        "x1": 560,
+        "y1": 241.3
+       }
+      }
+     ],
+     "text": "(a) Show that X– is a biased estimator of α, and state the bias. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q2_b.webp",
+       "w": 1090,
+       "h": 141,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 584.7,
+        "x1": 559,
+        "y1": 652.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 35,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 122.3,
+        "x1": 560,
+        "y1": 138.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 241.3,
+        "x1": 560,
+        "y1": 283.1
+       }
+      }
+     ],
+     "text": "Given that Y = k X– is an unbiased estimator for α (b) find the value of k. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q2_c.webp",
+       "w": 1090,
+       "h": 181,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 654.9,
+        "x1": 559,
+        "y1": 741.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q2_c_ms_1.webp",
+       "w": 1092,
+       "h": 35,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 122.3,
+        "x1": 560,
+        "y1": 138.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q2_c_ms_2.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 283.1,
+        "x1": 560,
+        "y1": 403.4
+       }
+      }
+     ],
+     "text": "A random sample of 10 values of X is taken and the results are as follows 3 5 8 12 4 13 10 8 5 12 (c) Hence estimate the maximum value of X (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2026_01_A/q2_notes.webp",
+     "w": 1092,
+     "h": 589,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 400.4,
+      "x1": 560,
+      "y1": 682.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2026_01_A_q3",
+   "number": 3,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST03_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 442,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 257.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 10,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q3_a.webp",
+       "w": 1090,
+       "h": 163,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 260.5,
+        "x1": 559,
+        "y1": 337.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q3_a_ms.webp",
+       "w": 1092,
+       "h": 1153,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 111.7,
+        "x1": 560,
+        "y1": 664.6
+       }
+      }
+     ],
+     "text": "(a) Test, at the 5% level of significance, whether there is an association between the results of candidates’ driving tests and the driving test centre. Show your working clearly. You should state your hypotheses, expected frequencies, test statistic and the critical value for this test. (10)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q3_b.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 340.5,
+        "x1": 559,
+        "y1": 427.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q3_b_ms.webp",
+       "w": 1092,
+       "h": 222,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 664.6,
+        "x1": 560,
+        "y1": 770.6
+       }
+      }
+     ],
+     "text": "The researcher decides to conduct a further investigation into the results of candidates’ driving tests. (b) State which driving test centre you would recommend for further investigation. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2026_01_A_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST03_2026_01_A/q4_stem.webp",
+     "w": 1090,
+     "h": 159,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 121.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q4_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 124.8,
+        "x1": 559,
+        "y1": 160.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q4_a_ms.webp",
+       "w": 1092,
+       "h": 219,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 112.8,
+        "x1": 560,
+        "y1": 217.8
+       }
+      }
+     ],
+     "text": "(a) Find a 95% confidence interval for μ, giving your limits correct to 1 decimal place. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q4_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 162.8,
+        "x1": 559,
+        "y1": 236.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q4_b_ms.webp",
+       "w": 1092,
+       "h": 235,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 217.8,
+        "x1": 560,
+        "y1": 330.1
+       }
+      }
+     ],
+     "text": "Sonia plans to take 20 random samples, each of 5 mugs. A 95% confidence interval for μ is to be determined for each sample. (b) Find the probability that more than 3 of these intervals will not contain μ. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2026_01_A/q4_notes.webp",
+     "w": 1092,
+     "h": 314,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 327.1,
+      "x1": 560,
+      "y1": 477.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2026_01_A_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST03_2026_01_A/q5_stem.webp",
+     "w": 1090,
+     "h": 763,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 272.5,
+      "x1": 559,
+      "y1": 638.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q5_a.webp",
+       "w": 1090,
+       "h": 64,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 641.2,
+        "x1": 559,
+        "y1": 671.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 110.7,
+        "x1": 560,
+        "y1": 172.9
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 345.6,
+        "x1": 560,
+        "y1": 416.4
+       }
+      }
+     ],
+     "text": "(a) Find the value of a and the value of b (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q5_b.webp",
+       "w": 1090,
+       "h": 200,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 671.3,
+        "x1": 559,
+        "y1": 766.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 361,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 172.9,
+        "x1": 560,
+        "y1": 345.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 400,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 416.4,
+        "x1": 560,
+        "y1": 608.1
+       }
+      }
+     ],
+     "text": "O E 3 2 ( ) The value of for the given values for the number of births 0, 1, 2, 3 and 4 E is 9.86 (b) Using a 5% significance level, test whether or not this Poisson model is suitable. Show your working clearly, stating your hypotheses, test statistic and critical value. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q5: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WST03_2026_01_A_q6",
+   "number": 6,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "maths/WST03_2026_01_A/q6_stem.webp",
+     "w": 1090,
+     "h": 74,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 81.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 83.8,
+        "x1": 559,
+        "y1": 119.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 110.0,
+        "x1": 560,
+        "y1": 175.8
+       }
+      }
+     ],
+     "text": "(a) Describe how a stratified sample of 200 staff could be taken. (3)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 121.8,
+        "x1": 559,
+        "y1": 171.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_b_ms.webp",
+       "w": 1092,
+       "h": 82,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 175.8,
+        "x1": 560,
+        "y1": 214.7
+       }
+      }
+     ],
+     "text": "(b) Explain an advantage of using a stratified sample rather than a simple random sample. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_c.webp",
+       "w": 1090,
+       "h": 423,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 173.8,
+        "x1": 559,
+        "y1": 376.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_c_ms.webp",
+       "w": 1092,
+       "h": 286,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 214.7,
+        "x1": 560,
+        "y1": 351.7
+       }
+      }
+     ],
+     "text": "A random sample of 80 full-time staff and an independent random sample of 80 part‑time staff were given a test of policy awareness. The results are summarised in the table below. Mean score Variance of scores ( x– ) 2 ) ( s Full-time staff 52 21 Part-time staff 50 19 (c) Stating your hypotheses clearly, test, at the 1% level of significance, whether or not the mean policy awareness scores for full‑time and part‑time staff are different. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 378.9,
+        "x1": 559,
+        "y1": 414.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_d_ms.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 351.7,
+        "x1": 560,
+        "y1": 403.2
+       }
+      }
+     ],
+     "text": "(d) Explain the significance of the Central Limit Theorem to the test in part (c). (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(e)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 416.9,
+        "x1": 559,
+        "y1": 452.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_e_ms.webp",
+       "w": 1092,
+       "h": 65,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 403.2,
+        "x1": 560,
+        "y1": 434.1
+       }
+      }
+     ],
+     "text": "(e) State an assumption you have made in carrying out the test in part (c). (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(f)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_f.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 454.8,
+        "x1": 559,
+        "y1": 556.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_f_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 434.1,
+        "x1": 560,
+        "y1": 476.9
+       }
+      }
+     ],
+     "text": "After all the staff had completed a training course the 80 full‑time staff and the 80 part‑time staff were given another test of policy awareness. The value of the test statistic z was 2.53 (f) Comment on the awareness of company policy for the full‑time and part‑time staff in light of this result. Use a 1% level of significance. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(g)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_g.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 558.8,
+        "x1": 559,
+        "y1": 594.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q6_g_ms.webp",
+       "w": 1092,
+       "h": 68,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 476.9,
+        "x1": 560,
+        "y1": 509.0
+       }
+      }
+     ],
+     "text": "(g) Interpret your answers to part (c) and part (f). (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2026_01_A/q6_notes.webp",
+     "w": 1092,
+     "h": 547,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 506.0,
+      "x1": 560,
+      "y1": 768.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2026_01_A_q7",
+   "number": 7,
+   "marks": 15,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q7_i.webp",
+       "w": 1090,
+       "h": 391,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 45.7,
+        "x1": 559,
+        "y1": 233.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q7_i_ms_1.webp",
+       "w": 1092,
+       "h": 37,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 100.6,
+        "x1": 560,
+        "y1": 117.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q7_i_ms_2.webp",
+       "w": 1092,
+       "h": 326,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 117.6,
+        "x1": 560,
+        "y1": 273.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q7_i_ms_3.webp",
+       "w": 1092,
+       "h": 330,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 273.6,
+        "x1": 560,
+        "y1": 431.5
+       }
+      }
+     ],
+     "text": "7. (i) As part of a recruitment exercise candidates are required to complete three separate tasks. The times taken, A, B and C, in minutes, for candidates to complete the three tasks are such that 2 ), B ~ N(32, 7 2 ) and C ~ N(45, 9 2 ) A ~ N(21, 2 The time taken by an individual candidate to complete each task is assumed to be independent of the time taken to complete each of the other tasks. A candidate is selected at random. (a) Find the probability that the candidate takes a total time of more than 90 minutes to complete all three tasks. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(i)(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q7_i_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 235.8,
+        "x1": 559,
+        "y1": 271.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q7_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 37,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 100.6,
+        "x1": 560,
+        "y1": 117.6
+       }
+      },
+      {
+       "src": "maths/WST03_2026_01_A/q7_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 330,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 273.6,
+        "x1": 560,
+        "y1": 431.5
+       }
+      }
+     ],
+     "text": "(b) Find P(A > B) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2026_01_A/q7_ii.webp",
+       "w": 1090,
+       "h": 475,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 273.7,
+        "x1": 559,
+        "y1": 501.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2026_01_A/q7_ii_ms.webp",
+       "w": 1092,
+       "h": 648,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 431.5,
+        "x1": 560,
+        "y1": 742.1
+       }
+      }
+     ],
+     "text": "(ii) A simple random sample, X1 , X2 , X3 , X4 , is taken from a normal population with mean μ and standard deviation σ Given that X 1 X 1 X 1 X X O 1 2 3 4 4 and that P(X1 > X– + kσ) = 0.1 where k is a constant, find the value of k, giving your answer correct to 3 significant figures. You should show all stages of your working. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

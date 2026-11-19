@@ -1,0 +1,1236 @@
+{
+ "id": "WST01_2023_01",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2023-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2023/S1_QP_1777746694358.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2023/S1_MS_1777746693207.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2023_01_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2023_01/q1_stem.webp",
+     "w": 1090,
+     "h": 685,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 385.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q1_a.webp",
+       "w": 1090,
+       "h": 277,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 392.3,
+        "x1": 559,
+        "y1": 524.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 67.3,
+        "x1": 560,
+        "y1": 129.0
+       }
+      }
+     ],
+     "text": "(a) Use the histogram to complete the frequency table for the times taken by the 100 people to swim 500 metres. Time taken (t minutes) 5 – 10 10 – 14 14 – 18 18 – 25 25 – 40 Frequency ( f ) 10 16 24 (1)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q1_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 527.4,
+        "x1": 559,
+        "y1": 562.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 129.0,
+        "x1": 560,
+        "y1": 187.7
+       }
+      }
+     ],
+     "text": "(b) Estimate the number of people who took less than 16 minutes to swim 500 metres. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q1_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 565.4,
+        "x1": 559,
+        "y1": 600.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 187.7,
+        "x1": 560,
+        "y1": 256.9
+       }
+      }
+     ],
+     "text": "(c) Find an estimate for the mean time taken to swim 500 metres. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q1_d.webp",
+       "w": 1090,
+       "h": 130,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 600.6,
+        "x1": 559,
+        "y1": 662.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 285,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 256.9,
+        "x1": 560,
+        "y1": 393.6
+       }
+      }
+     ],
+     "text": "∑ Given that = 41 033 ft 2 (d) find an estimate for the standard deviation of the times taken to swim 500 metres. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q1_e.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 665.3,
+        "x1": 559,
+        "y1": 738.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 271,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 393.6,
+        "x1": 560,
+        "y1": 523.2
+       }
+      }
+     ],
+     "text": "Given that Q3 = 23 (e) use linear interpolation to estimate the interquartile range of the times taken to swim 500 metres. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2023_01/q1_notes.webp",
+     "w": 1092,
+     "h": 460,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 520.2,
+      "x1": 560,
+      "y1": 740.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2023_01_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2023_01/q2_stem.webp",
+     "w": 1090,
+     "h": 254,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 178.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 216.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 449,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 51.4,
+        "x1": 560,
+        "y1": 266.9
+       }
+      }
+     ],
+     "text": "(a) Use this information to complete the tree diagram shown on page 7 (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 219.1,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 266.9,
+        "x1": 560,
+        "y1": 312.1
+       }
+      }
+     ],
+     "text": "(b) Find the probability that the 2 marbles selected from bag X are of different colours. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 292.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 312.1,
+        "x1": 560,
+        "y1": 357.4
+       }
+      }
+     ],
+     "text": "(c) Find the probability that all 3 marbles selected are the same colour. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q2_d_1.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 295.1,
+        "x1": 559,
+        "y1": 354.5
+       }
+      },
+      {
+       "src": "maths/WST01_2023_01/q2_d_2.webp",
+       "w": 1090,
+       "h": 1138,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 81.6,
+        "x1": 559,
+        "y1": 627.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 357.4,
+        "x1": 560,
+        "y1": 451.9
+       }
+      }
+     ],
+     "text": "Given that all three marbles selected are the same colour, (d) find the probability that they are all green. (3) 1st Marble 2nd Marble 3rd Marble (from bag X) (from bag X) (from bag Y) G ............... G 4 B 8 ............... G 4 G ............... 5 8 B 9 B ............... G ............... 4 G 9 ............... B ............... B 6 G 13 B ............... 7 B 13",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2023_01/q2_notes.webp",
+     "w": 1092,
+     "h": 711,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 448.9,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2(d): text after the marks",
+    "2(d): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2023_01_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2023_01/q3_stem.webp",
+     "w": 1090,
+     "h": 254,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 178.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 181.3,
+        "x1": 559,
+        "y1": 216.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 80,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 58.4,
+        "x1": 560,
+        "y1": 96.1
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of a, E(X) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 219.3,
+        "x1": 559,
+        "y1": 254.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 96.1,
+        "x1": 560,
+        "y1": 190.4
+       }
+      }
+     ],
+     "text": "(b) Find the range of the possible values of E(X) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q3_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 257.3,
+        "x1": 559,
+        "y1": 316.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 373,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 190.4,
+        "x1": 560,
+        "y1": 368.8
+       }
+      }
+     ],
+     "text": "Given that Var(X) = 0.56 (c) find the possible values of a (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2023_01/q3_notes.webp",
+     "w": 1092,
+     "h": 742,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 365.8,
+      "x1": 560,
+      "y1": 721.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2023_01_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q4_i.webp",
+       "w": 1090,
+       "h": 543,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 317.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q4_i_ms_1.webp",
+       "w": 1092,
+       "h": 136,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 68.8,
+        "x1": 560,
+        "y1": 133.9
+       }
+      },
+      {
+       "src": "maths/WST01_2023_01/q4_i_ms_2.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 133.9,
+        "x1": 560,
+        "y1": 196.1
+       }
+      }
+     ],
+     "text": "4. (i) In the Venn diagram below, A and B represent events and p, q, r and s are probabilities. A B p r q s 7 1 8 . / \u001b . / P ( ) A O P ( ) B O P \u001a\u0019 A B ' A ' B \u0018\u0017 O 25 5 25 (a) Use algebra to show that 2p + 2q + 2r = 4 5 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(i)(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q4_i_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 319.7,
+        "x1": 559,
+        "y1": 355.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q4_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 136,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 68.8,
+        "x1": 560,
+        "y1": 133.9
+       }
+      },
+      {
+       "src": "maths/WST01_2023_01/q4_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 133.9,
+        "x1": 560,
+        "y1": 196.1
+       }
+      }
+     ],
+     "text": "(b) Find the value of p, the value of q, the value of r and the value of s (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q4_ii.webp",
+       "w": 1090,
+       "h": 282,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 357.7,
+        "x1": 559,
+        "y1": 492.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q4_ii_ms.webp",
+       "w": 1092,
+       "h": 375,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 196.1,
+        "x1": 560,
+        "y1": 375.8
+       }
+      }
+     ],
+     "text": "(ii) Two events, C and D, are such that x 5 P ( ) C O P ( D ) O x 1 5 x where x is a positive constant. By considering P(C) + P(D) show that C and D cannot be mutually exclusive. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2023_01/q4_notes.webp",
+     "w": 1092,
+     "h": 870,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 372.8,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2023_01_q5",
+   "number": 5,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "maths/WST01_2023_01/q5_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q5_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 68.8,
+        "x1": 560,
+        "y1": 131.3
+       }
+      }
+     ],
+     "text": "(a) Find the probability that a randomly selected housefly has a wing length of less than 3.86 mm. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q5_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 559,
+        "y1": 216.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 131.3,
+        "x1": 560,
+        "y1": 182.0
+       }
+      },
+      {
+       "src": "maths/WST01_2023_01/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 44,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 182.0,
+        "x1": 560,
+        "y1": 202.9
+       }
+      }
+     ],
+     "text": "(b) Find (i) the upper quartile (Q3) of L (ii) the lower quartile (Q1) of L (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q5_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 219.1,
+        "x1": 559,
+        "y1": 292.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 202.9,
+        "x1": 560,
+        "y1": 253.9
+       }
+      }
+     ],
+     "text": "A value that is greater than Q3 + 1.5 × (Q3 – Q1) or smaller than Q1 – 1.5 × (Q3 – Q1) is defined as an outlier. (c) Find these two outlier limits. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q5_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 295.1,
+        "x1": 559,
+        "y1": 368.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q5_d_ms.webp",
+       "w": 1092,
+       "h": 147,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 253.9,
+        "x1": 560,
+        "y1": 323.5
+       }
+      }
+     ],
+     "text": "A housefly is selected at random. (d) Using standardisation, show that the probability that this housefly is not an outlier is 0.993 to 3 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q5_e.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 370.8,
+        "x1": 559,
+        "y1": 444.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q5_e_ms.webp",
+       "w": 1092,
+       "h": 240,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 323.5,
+        "x1": 560,
+        "y1": 438.4
+       }
+      }
+     ],
+     "text": "Given that this housefly is not an outlier, (e) showing your working, find the probability that the wing length of this housefly is greater than 5 mm. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2023_01/q5_notes.webp",
+     "w": 1092,
+     "h": 739,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 435.4,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2023_01_q6",
+   "number": 6,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2023_01/q6_stem.webp",
+     "w": 1090,
+     "h": 184,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 144.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 152.0,
+        "x1": 559,
+        "y1": 187.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 57,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 69.3,
+        "x1": 560,
+        "y1": 96.4
+       }
+      }
+     ],
+     "text": "(a) Give an interpretation of the gradient of the regression line. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q6_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 190.0,
+        "x1": 559,
+        "y1": 239.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 65,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 96.4,
+        "x1": 560,
+        "y1": 127.2
+       }
+      }
+     ],
+     "text": "(b) Use the regression line to estimate the maximum weight of sugar that will dissolve in 100 grams of water when the temperature is 90 °C. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q6_c.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 242.0,
+        "x1": 559,
+        "y1": 277.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 127.2,
+        "x1": 560,
+        "y1": 155.3
+       }
+      }
+     ],
+     "text": "(c) Comment on the reliability of your estimate, giving a reason for your answer. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(d)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q6_d.webp",
+       "w": 1090,
+       "h": 230,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 279.9,
+        "x1": 559,
+        "y1": 389.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 454,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 155.3,
+        "x1": 560,
+        "y1": 372.5
+       }
+      }
+     ],
+     "text": "Using the regression line of y on x and the following summary statistics y O 3119 y O 851093 x O 24 500 n O 12 2 2 (d) show that the product moment correlation coefficient for these data is 0.988 to 3 decimal places. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_01/q6_e_1.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 392.5,
+        "x1": 559,
+        "y1": 503.8
+       }
+      },
+      {
+       "src": "maths/WST01_2023_01/q6_e_2.webp",
+       "w": 1090,
+       "h": 600,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 59.2,
+        "x1": 559,
+        "y1": 346.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_01/q6_e_ms.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 372.5,
+        "x1": 560,
+        "y1": 432.6
+       }
+      }
+     ],
+     "text": "The research student’s supervisor plotted the original data on a scatter diagram, shown on page 23 With reference to both the scatter diagram and the correlation coefficient, (e) discuss the suitability of a linear regression model to describe the relationship between x and y. (2) 400 300 Weight 200 (y grams) 100 0 0 20 40 60 80 Temperature (x °C)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2023_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 746,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 429.6,
+      "x1": 560,
+      "y1": 787.0
+     }
+    },
+    {
+     "src": "maths/WST01_2023_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 730.2,
+      "x1": 560,
+      "y1": 759.6
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(e): text after the marks",
+    "6(e): runs across pages"
+   ]
+  }
+ ]
+}

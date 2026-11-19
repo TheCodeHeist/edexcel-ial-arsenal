@@ -1,0 +1,931 @@
+{
+ "id": "WME02_2022_01",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2022-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_M2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_M2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2022_01_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q1_stem.webp",
+     "w": 1016,
+     "h": 80,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 54.7,
+      "x1": 523.2,
+      "y1": 92.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q1_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 99.2,
+        "x1": 523.2,
+        "y1": 134.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 451,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 60.2,
+        "x1": 560,
+        "y1": 276.4
+       }
+      }
+     ],
+     "text": "(a) Find the speed of the particle immediately after it receives the impulse. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q1_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 141.2,
+        "x1": 523.2,
+        "y1": 204.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 258,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 276.4,
+        "x1": 560,
+        "y1": 399.5
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 255,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 399.5,
+        "x1": 560,
+        "y1": 521.6
+       }
+      }
+     ],
+     "text": "(b) Find the size of the angle between the direction of motion of the particle immediately before it receives the impulse and the direction of motion of the particle immediately after it receives the impulse. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2022_01/q1_notes.webp",
+     "w": 1092,
+     "h": 466,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 43.8,
+      "x1": 560,
+      "y1": 267.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_01_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q2_stem.webp",
+     "w": 1016,
+     "h": 308,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 204.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q2_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 211.2,
+        "x1": 523.2,
+        "y1": 246.6
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(a) Find the value of P. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q2_b.webp",
+       "w": 1016,
+       "h": 250,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 253.2,
+        "x1": 523.2,
+        "y1": 372.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 325,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 267.2,
+        "x1": 560,
+        "y1": 422.7
+       }
+      }
+     ],
+     "text": "Later, at the instant when the car and the trailer are travelling up the hill with a speed of 20 m s−1 , the towbar breaks. When the towbar breaks the trailer is at the point X. The trailer continues to travel up the hill before coming to instantaneous rest at the point Y. The resistance to the motion of the trailer from non-gravitational forces is again modelled as a constant force of magnitude 300 N. (b) Use the work-energy principle to find the distance XY. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2(a): no mark-scheme rows (scheme has ['2(b)'])"
+   ]
+  },
+  {
+   "id": "WME02_2022_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q3_stem.webp",
+     "w": 1016,
+     "h": 194,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 149.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q3_a.webp",
+       "w": 1016,
+       "h": 73,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 159.9,
+        "x1": 523.2,
+        "y1": 194.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 279,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 46.8,
+        "x1": 560,
+        "y1": 180.1
+       }
+      }
+     ],
+     "text": "(a) Find F in terms of t. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q3_b.webp",
+       "w": 1016,
+       "h": 178,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 194.6,
+        "x1": 523.2,
+        "y1": 279.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 662,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 180.1,
+        "x1": 560,
+        "y1": 497.7
+       }
+      }
+     ],
+     "text": "At time t = 0 , the position vector of P relative to a fixed point O is (4i − 3j) m . (b) Find the position vector of P relative to O when P is first moving parallel to the vector i. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_01_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q4_stem.webp",
+     "w": 1016,
+     "h": 190,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 147.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q4_a.webp",
+       "w": 1016,
+       "h": 107,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 147.5,
+        "x1": 523.2,
+        "y1": 198.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 597,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 46.8,
+        "x1": 560,
+        "y1": 333.0
+       }
+      }
+     ],
+     "text": "(a) show that the speed of B immediately after the collision is 1 5 u (1 + 6e) . (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q4_b.webp",
+       "w": 1016,
+       "h": 279,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 205.2,
+        "x1": 523.2,
+        "y1": 338.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 597,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 333.0,
+        "x1": 560,
+        "y1": 619.1
+       }
+      }
+     ],
+     "text": "After the collision with ball A, ball B hits a smooth fixed vertical wall which is perpendicular to the direction of motion of B. The coefficient of restitution between B and the wall is 5 7 Ball B rebounds from the wall and there is a second direct collision between A and B. (b) Find the range of possible values of e. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q4: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2022_01_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q5_stem.webp",
+     "w": 1016,
+     "h": 507,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 523.2,
+      "y1": 299.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q5_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 306.5,
+        "x1": 523.2,
+        "y1": 341.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 338,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 59.5,
+        "x1": 560,
+        "y1": 221.3
+       }
+      }
+     ],
+     "text": "(a) Explain why AO = 13a (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q5_b.webp",
+       "w": 1016,
+       "h": 166,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 348.5,
+        "x1": 523.2,
+        "y1": 427.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 322,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 221.3,
+        "x1": 560,
+        "y1": 375.2
+       }
+      }
+     ],
+     "text": "The normal reaction on the rod at C has magnitude kW (b) Show that k = 8 13 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q5_c.webp",
+       "w": 1016,
+       "h": 281,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 433.5,
+        "x1": 523.2,
+        "y1": 567.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q5_c_ms_1.webp",
+       "w": 1092,
+       "h": 749,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 375.2,
+        "x1": 560,
+        "y1": 734.3
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q5_c_ms_2.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 734.3,
+        "x1": 560,
+        "y1": 779.5
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q5_c_ms_3.webp",
+       "w": 1092,
+       "h": 490,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 43.8,
+        "x1": 560,
+        "y1": 278.9
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q5_c_ms_4.webp",
+       "w": 1092,
+       "h": 674,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 278.9,
+        "x1": 560,
+        "y1": 601.7
+       }
+      }
+     ],
+     "text": "The resultant force acting on the rod at A has magnitude R and acts upwards at θ° to the horizontal. (c) Find (i) an expression for R in terms of W (ii) the value of θ (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2022_01_q6",
+   "number": 6,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q6_stem.webp",
+     "w": 1016,
+     "h": 951,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 59.4,
+      "x1": 523.2,
+      "y1": 515.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q6_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 529.9,
+        "x1": 523.2,
+        "y1": 565.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 450,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 46.8,
+        "x1": 560,
+        "y1": 262.3
+       }
+      }
+     ],
+     "text": "53 (a) Show that d = ( a ) 2 7 + π (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q6_b.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 571.9,
+        "x1": 523.2,
+        "y1": 649.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 929,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 262.3,
+        "x1": 560,
+        "y1": 707.9
+       }
+      }
+     ],
+     "text": "The framework is freely suspended from A and hangs in equilibrium with AC at angle α° to the downward vertical. (b) Find the value of α. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WME02_2022_01_q7",
+   "number": 7,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WME02_2022_01/q7_stem.webp",
+     "w": 1016,
+     "h": 133,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 120.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q7_a.webp",
+       "w": 1016,
+       "h": 109,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 127.0,
+        "x1": 523.2,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 562,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 46.9,
+        "x1": 560,
+        "y1": 316.0
+       }
+      }
+     ],
+     "text": "(a) Show that y = x tan α − gx 2 (1 + tan2 α) 2 u 2 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q7_b.webp",
+       "w": 1016,
+       "h": 605,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 185.2,
+        "x1": 523.2,
+        "y1": 474.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 368,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 316.0,
+        "x1": 560,
+        "y1": 492.2
+       }
+      }
+     ],
+     "text": "A small ball is projected from the fixed point O on horizontal ground. The ball is projected with speed 20 m s−1 at angle θ° above the horizontal. A vertical pole AB, of height 2 m, stands on the ground with OA = 10 m , as shown in Figure 3. B 20 m s−1 2 m θ° O A 10 m Figure 3 The ball is modelled as a particle moving freely under gravity and the pole is modelled as a rod. The path of the ball lies in the vertical plane containing O, A and B. Using the model, (b) find the range of values of θ for which the ball will pass over the pole. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q7_c.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 481.4,
+        "x1": 523.2,
+        "y1": 544.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q7_c_ms_1.webp",
+       "w": 1092,
+       "h": 356,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 492.2,
+        "x1": 560,
+        "y1": 662.5
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q7_c_ms_2.webp",
+       "w": 1092,
+       "h": 266,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 662.5,
+        "x1": 560,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q7_c_ms_3.webp",
+       "w": 1092,
+       "h": 188,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 43.8,
+        "x1": 560,
+        "y1": 133.7
+       }
+      }
+     ],
+     "text": "Given that θ = 40 and that the ball first hits the ground at the point C (c) find the speed of the ball at the instant it passes over the pole, (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2022_01/q7_d.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 551.3,
+        "x1": 523.2,
+        "y1": 586.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q7_d_ms_1.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 133.7,
+        "x1": 560,
+        "y1": 218.0
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q7_d_ms_2.webp",
+       "w": 1092,
+       "h": 200,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 218.0,
+        "x1": 560,
+        "y1": 313.7
+       }
+      },
+      {
+       "src": "maths/WME02_2022_01/q7_d_ms_3.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 313.7,
+        "x1": 560,
+        "y1": 417.9
+       }
+      }
+     ],
+     "text": "(d) find the distance OC. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2022_01/q7_notes.webp",
+     "w": 1092,
+     "h": 604,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 414.9,
+      "x1": 560,
+      "y1": 704.6
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

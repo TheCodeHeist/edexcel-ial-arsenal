@@ -1,0 +1,1353 @@
+{
+ "id": "WST01_2026_01",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2026_01_q1",
+   "number": 1,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q1_stem.webp",
+     "w": 1090,
+     "h": 520,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 306.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q1_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 315.4,
+        "x1": 559,
+        "y1": 350.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 120,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 64.2,
+        "x1": 560,
+        "y1": 121.4
+       }
+      }
+     ],
+     "text": "(a) Find the median and the interquartile range of the marks of these students. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 5,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q1_b.webp",
+       "w": 1090,
+       "h": 261,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 353.4,
+        "x1": 559,
+        "y1": 478.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 350,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 121.4,
+        "x1": 560,
+        "y1": 289.0
+       }
+      }
+     ],
+     "text": "An outlier is defined as a mark that is either more than 1.5 × interquartile range above the upper quartile or more than 1.5 × interquartile range below the lower quartile (b) On the grid provided on page 3, draw a box plot to represent the marks of the students, indicating clearly any outliers. (5)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q1_c_1.webp",
+       "w": 1090,
+       "h": 342,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 480.8,
+        "x1": 559,
+        "y1": 644.2
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q1_c_2.webp",
+       "w": 1090,
+       "h": 360,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 607.2,
+        "x1": 559,
+        "y1": 779.7
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q1_c_3.webp",
+       "w": 1090,
+       "h": 360,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 584.4,
+        "x1": 559,
+        "y1": 756.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 289.0,
+        "x1": 560,
+        "y1": 393.0
+       }
+      }
+     ],
+     "text": "Three students asked for their marks to be checked. • The mark for student A was changed from 47 to 43 • The mark for student B was changed from 49 to 43 • The mark for student C was changed from 90 to 94 (c) Explain the effects that these three changes would have on the box plot drawn in part (b). • Show your calculations clearly • You do not need to draw the new box plot (4) 0 10 20 30 40 50 60 70 80 90 100 Turn over for a spare grid if you need to redraw your box plot. Only use this grid if you need to redraw your box plot. 0 10 20 30 40 50 60 70 80 90 100",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q1_notes.webp",
+     "w": 1092,
+     "h": 573,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 390.0,
+      "x1": 560,
+      "y1": 664.5
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(c): text after the marks",
+    "1(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2026_01_q2",
+   "number": 2,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q2_stem.webp",
+     "w": 1090,
+     "h": 192,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 148.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 161.0,
+        "x1": 559,
+        "y1": 196.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 142,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 95.6,
+        "x1": 560,
+        "y1": 163.6
+       }
+      }
+     ],
+     "text": "(a) Find the value of Sff and the value of Sdf (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 199.0,
+        "x1": 559,
+        "y1": 234.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 163.6,
+        "x1": 560,
+        "y1": 191.7
+       }
+      }
+     ],
+     "text": "(b) State, giving a reason, which is the response variable. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 236.9,
+        "x1": 559,
+        "y1": 272.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 102,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 191.7,
+        "x1": 560,
+        "y1": 240.1
+       }
+      }
+     ],
+     "text": "(c) Calculate the value of the product moment correlation coefficient for these data. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 274.9,
+        "x1": 559,
+        "y1": 310.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q2_d_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 240.1,
+        "x1": 560,
+        "y1": 268.2
+       }
+      }
+     ],
+     "text": "(d) Give an interpretation of your answer to part (c) (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q2_e.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 312.9,
+        "x1": 559,
+        "y1": 362.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q2_e_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 268.2,
+        "x1": 560,
+        "y1": 362.3
+       }
+      }
+     ],
+     "text": "(e) Find the equation of the least squares regression line of f on d, giving your answer in the form f = α + βd (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(f)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q2_f.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 364.9,
+        "x1": 559,
+        "y1": 448.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q2_f_ms_1.webp",
+       "w": 1092,
+       "h": 30,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 362.3,
+        "x1": 560,
+        "y1": 376.1
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q2_f_ms_2.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 376.1,
+        "x1": 560,
+        "y1": 437.3
+       }
+      }
+     ],
+     "text": "(f) Give an interpretation of (i) the gradient of your regression line, (ii) the f intercept of your regression line. (2)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q2_notes.webp",
+     "w": 1092,
+     "h": 588,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 434.3,
+      "x1": 560,
+      "y1": 715.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2026_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q3_stem.webp",
+     "w": 1090,
+     "h": 672,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 378.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q3_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 381.7,
+        "x1": 559,
+        "y1": 465.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 87,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 79.9,
+        "x1": 560,
+        "y1": 121.3
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 209,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 121.3,
+        "x1": 560,
+        "y1": 221.2
+       }
+      }
+     ],
+     "text": "(a) Find the probability that (i) of these three countries, this person only visited France and Spain, (ii) this person did not visit any of these three countries. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q3_b.webp",
+       "w": 1090,
+       "h": 245,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 467.7,
+        "x1": 559,
+        "y1": 584.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 223.6,
+        "x1": 560,
+        "y1": 307.9
+       }
+      }
+     ],
+     "text": "Given that • of the 52 people who had visited France, 9 also visited Germany P (F ∪ G) = 41 • 60 (b) complete the Venn diagram. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q3_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 587.4,
+        "x1": 559,
+        "y1": 670.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q3_c_ms_1.webp",
+       "w": 1092,
+       "h": 72,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 307.9,
+        "x1": 560,
+        "y1": 342.2
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q3_c_ms_2.webp",
+       "w": 1092,
+       "h": 203,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 342.2,
+        "x1": 560,
+        "y1": 438.8
+       }
+      }
+     ],
+     "text": "(c) Find (i) P (F′ ∩ G′) (ii) P (F ∩ G ½ S) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q3_notes.webp",
+     "w": 1092,
+     "h": 446,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 435.8,
+      "x1": 560,
+      "y1": 649.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2026_01_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q4_stem.webp",
+     "w": 1090,
+     "h": 573,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 331.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q4_a.webp",
+       "w": 1090,
+       "h": 274,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 334.2,
+        "x1": 559,
+        "y1": 465.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 65,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 78.7,
+        "x1": 560,
+        "y1": 109.0
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 31,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 109.0,
+        "x1": 560,
+        "y1": 123.5
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q4_a_ms_3.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 123.5,
+        "x1": 560,
+        "y1": 154.8
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q4_a_ms_4.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 154.8,
+        "x1": 560,
+        "y1": 199.3
+       }
+      }
+     ],
+     "text": "(a) Find (i) the value of a (ii) the value of d (iii) the value of b (iv) the value of c (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q4_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 468.1,
+        "x1": 559,
+        "y1": 527.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 199.3,
+        "x1": 560,
+        "y1": 278.9
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 278,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 278.9,
+        "x1": 560,
+        "y1": 412.2
+       }
+      }
+     ],
+     "text": "(b) Find (i) E(12X + 4) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q4_b_ii.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 530.0,
+        "x1": 559,
+        "y1": 565.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q4_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 199.3,
+        "x1": 560,
+        "y1": 278.9
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q4_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 278,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 278.9,
+        "x1": 560,
+        "y1": 412.2
+       }
+      }
+     ],
+     "text": "(ii) Var(12X + 4) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q4_notes.webp",
+     "w": 1092,
+     "h": 794,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 409.2,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2026_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q5_stem.webp",
+     "w": 1090,
+     "h": 146,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 126.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q5_a.webp",
+       "w": 1090,
+       "h": 703,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 129.1,
+        "x1": 559,
+        "y1": 466.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 406,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 78.7,
+        "x1": 560,
+        "y1": 272.9
+       }
+      }
+     ],
+     "text": "(a) Complete the tree diagram for this information. 1st counter 2nd counter Red ................ Red 4 x ................ 7 x 3 1 Black Red 4 ................ 7 Black ................ Black (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q5_b.webp",
+       "w": 1090,
+       "h": 150,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 466.2,
+        "x1": 559,
+        "y1": 538.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 272.9,
+        "x1": 560,
+        "y1": 366.6
+       }
+      }
+     ],
+     "text": "The probability that the two counters selected are different colours is 32 63 (b) Find the total number of counters in the box before the two counters are selected. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q5_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 540.6,
+        "x1": 559,
+        "y1": 600.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 268,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 366.6,
+        "x1": 560,
+        "y1": 494.7
+       }
+      }
+     ],
+     "text": "Given that the second counter is red, (c) find the probability that the first counter is black. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q5_notes.webp",
+     "w": 1092,
+     "h": 622,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 491.7,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2026_01_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q6_stem.webp",
+     "w": 1090,
+     "h": 132,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 119.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q6_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 121.0,
+        "x1": 559,
+        "y1": 156.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 78.7,
+        "x1": 560,
+        "y1": 124.3
+       }
+      }
+     ],
+     "text": "(a) Find P(X + 2 < 3X – 4) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q6_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 158.9,
+        "x1": 559,
+        "y1": 194.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 92,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 124.3,
+        "x1": 560,
+        "y1": 168.0
+       }
+      }
+     ],
+     "text": "(b) Find E(X 2) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q6_c.webp",
+       "w": 1090,
+       "h": 160,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 196.9,
+        "x1": 559,
+        "y1": 273.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 438,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 168.0,
+        "x1": 560,
+        "y1": 377.7
+       }
+      }
+     ],
+     "text": "Given that E(aX + 5) = 6 where a is a constant, (c) find the value of Var(3 – aX) You must show your working. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q6_notes.webp",
+     "w": 1092,
+     "h": 588,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 374.7,
+      "x1": 560,
+      "y1": 656.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2026_01_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST01_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 145,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 78.7,
+        "x1": 560,
+        "y1": 147.6
+       }
+      }
+     ],
+     "text": "(a) Using standardisation, show that the proportion of competitors that take longer than 210 minutes to complete an olympic triathlon is 6.68% according to the model. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q7_b.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 147.2,
+        "x1": 559,
+        "y1": 234.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 147.6,
+        "x1": 560,
+        "y1": 206.8
+       }
+      }
+     ],
+     "text": "Russell is preparing for an olympic triathlon. Russell aims to finish in the first 15% of all competitors. (b) Using standardisation, estimate the longest time that Russell can take to complete the triathlon and achieve his aim, according to the model. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q7_c.webp",
+       "w": 1090,
+       "h": 203,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 237.1,
+        "x1": 559,
+        "y1": 334.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q7_c_ms_1.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 206.8,
+        "x1": 560,
+        "y1": 267.5
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q7_c_ms_2.webp",
+       "w": 1092,
+       "h": 200,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 267.5,
+        "x1": 560,
+        "y1": 363.3
+       }
+      }
+     ],
+     "text": "The time taken, Y minutes, to complete a sprint triathlon is modelled by a normal distribution with mean μ minutes and standard deviation σ minutes. Given that P(Y < μ + 5) = 0.7967 (c) (i) find P(Y < μ – 5 ½ Y < μ) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2026_01/q7_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 337.1,
+        "x1": 559,
+        "y1": 372.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2026_01/q7_c_ii_ms_1.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 206.8,
+        "x1": 560,
+        "y1": 267.5
+       }
+      },
+      {
+       "src": "maths/WST01_2026_01/q7_c_ii_ms_2.webp",
+       "w": 1092,
+       "h": 200,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 267.5,
+        "x1": 560,
+        "y1": 363.3
+       }
+      }
+     ],
+     "text": "(ii) Show that, to the nearest whole number, σ = 6 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2026_01/q7_notes.webp",
+     "w": 1092,
+     "h": 397,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 360.3,
+      "x1": 560,
+      "y1": 550.4
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

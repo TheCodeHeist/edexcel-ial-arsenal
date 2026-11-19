@@ -1,0 +1,1084 @@
+{
+ "id": "WST03_2023_06",
+ "subject": "maths",
+ "unit": "WST03",
+ "series": "2023-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_S3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_S3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST03_2023_06_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q1_a.webp",
+       "w": 1090,
+       "h": 105,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 106.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 110,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 122.6
+       }
+      }
+     ],
+     "text": "1. (a) State two conditions under which it might be more appropriate to use Spearman’s rank correlation coefficient rather than the product moment correlation coefficient. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q1_b.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 109.2,
+        "x1": 559,
+        "y1": 220.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 206,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 122.6,
+        "x1": 560,
+        "y1": 221.1
+       }
+      }
+     ],
+     "text": "A random sample of 10 melons was taken from a market stall. The length, in centimetres, and maximum diameter, in centimetres, of each melon were recorded. The Spearman’s rank correlation coefficient between the results was –0.673 (b) Test, at the 5% level of significance, whether or not there is evidence of a correlation. State clearly your hypotheses and the critical value used. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q1_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 223.1,
+        "x1": 559,
+        "y1": 310.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 212,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 221.1,
+        "x1": 560,
+        "y1": 322.1
+       }
+      }
+     ],
+     "text": "The product moment correlation coefficient between the results was –0.525 (c) Test, at the 5% level of significance, whether or not there is evidence of a negative correlation. State clearly your hypotheses and the critical value used. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q1_notes.webp",
+     "w": 1092,
+     "h": 457,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 319.1,
+      "x1": 560,
+      "y1": 537.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_06_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_06/q2_stem.webp",
+     "w": 1090,
+     "h": 654,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 370.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 373.3,
+        "x1": 559,
+        "y1": 480.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 149,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 141.3
+       }
+      }
+     ],
+     "text": "(a) calculate the expected frequencies for the payment amount under £50 that (i) use cash (ii) use a bank card (iii) use a mobile app (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q2_b.webp",
+       "w": 1090,
+       "h": 248,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 485.8,
+        "x1": 559,
+        "y1": 604.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 636,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 141.3,
+        "x1": 560,
+        "y1": 446.0
+       }
+      }
+     ],
+     "text": "O 3 E 2 ( ) Given that for the other 6 classes 2 4048 to 4 decimal places, O . E (b) test, at the 5% level of significance, whether or not there is evidence for an association between the payment amount and the payment method used. You should state the hypotheses, the test statistic, the degrees of freedom and the critical value used for this test. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q2_notes.webp",
+     "w": 1092,
+     "h": 614,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 443.0,
+      "x1": 560,
+      "y1": 737.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_06_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_06/q3_stem.webp",
+     "w": 1090,
+     "h": 110,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 109.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q3_a.webp",
+       "w": 1090,
+       "h": 96,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 109.2,
+        "x1": 559,
+        "y1": 154.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 73,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 105.1
+       }
+      }
+     ],
+     "text": "X X (a) Explain why is not a statistic. 1 2 σ (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q3_b.webp",
+       "w": 1090,
+       "h": 168,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 164.5,
+        "x1": 559,
+        "y1": 244.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 173,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 105.1,
+        "x1": 560,
+        "y1": 187.3
+       }
+      }
+     ],
+     "text": "3 5 S O X 1 X 1 2 5 7 (b) Show that S is a biased estimator of μ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q3_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 246.9,
+        "x1": 559,
+        "y1": 282.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 187.3,
+        "x1": 560,
+        "y1": 235.3
+       }
+      }
+     ],
+     "text": "(c) Hence find the bias, in terms of μ , when S is used as an estimator of μ (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q3_d.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 284.9,
+        "x1": 559,
+        "y1": 343.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q3_d_ms.webp",
+       "w": 1092,
+       "h": 144,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 235.3,
+        "x1": 560,
+        "y1": 304.0
+       }
+      }
+     ],
+     "text": "Given that Y = aX1 + bX2 is an unbiased estimator of μ , where a and b are constants, (d) find an equation, in terms of a and b, that must be satisfied. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q3_e.webp",
+       "w": 1090,
+       "h": 81,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 343.7,
+        "x1": 559,
+        "y1": 382.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q3_e_ms.webp",
+       "w": 1092,
+       "h": 225,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 304.0,
+        "x1": 560,
+        "y1": 411.5
+       }
+      }
+     ],
+     "text": "(e) Using your answer to part (d), show that Var(Y ) = (2a 2 – 2a + 1) σ 2 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 382,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 408.5,
+      "x1": 560,
+      "y1": 591.6
+     }
+    },
+    {
+     "src": "maths/WST03_2023_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 73,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 73.6,
+      "x1": 560,
+      "y1": 108.4
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "3(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WST03_2023_06_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_06/q4_stem.webp",
+     "w": 1090,
+     "h": 208,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 156.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q4_a.webp",
+       "w": 1090,
+       "h": 160,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 167.6,
+        "x1": 559,
+        "y1": 243.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 312,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 108.4,
+        "x1": 560,
+        "y1": 257.7
+       }
+      }
+     ],
+     "text": "(a) Show that for 0  a  4 P (a  T < a + 1) = 1 25 (2a + 1) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 651,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 246.5,
+        "x1": 559,
+        "y1": 558.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 543,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 257.7,
+        "x1": 560,
+        "y1": 517.5
+       }
+      }
+     ],
+     "text": "A random sample of 150 of these flights is taken. The delays are summarised in the table below. Delay (t hours) Frequency 0  t < 1 10 1  t < 2 13 2  t < 3 24 3  t < 4 35 4  t < 5 68 (b) Test, at the 5% significance level, whether the given probability density function is a suitable model for these delays. You should state your hypotheses, expected frequencies, test statistic and the critical value used. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q4_notes.webp",
+     "w": 1092,
+     "h": 575,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 514.5,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_06_q5",
+   "number": 5,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_06/q5_stem.webp",
+     "w": 1090,
+     "h": 161,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 133.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q5_a.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 133.6,
+        "x1": 559,
+        "y1": 206.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 149,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 141.5
+       }
+      }
+     ],
+     "text": "(a) Show that a 90% confidence interval for μ , in terms of x– , is given by ( x– – 2.60, x– + 2.60) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q5_b.webp",
+       "w": 1090,
+       "h": 244,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 209.2,
+        "x1": 559,
+        "y1": 325.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 150,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 141.5,
+        "x1": 560,
+        "y1": 212.7
+       }
+      }
+     ],
+     "text": "The continuous random variable Y is normally distributed with 2) Y ~ N( μ, 3 A random sample of 20 observations of Y are taken and Y– denotes the sample mean. (b) Find a 95% confidence interval for μ, in terms of y– (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q5_c.webp",
+       "w": 1090,
+       "h": 203,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 328.3,
+        "x1": 559,
+        "y1": 425.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q5_c_ms_1.webp",
+       "w": 1092,
+       "h": 82,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 212.7,
+        "x1": 560,
+        "y1": 251.6
+       }
+      },
+      {
+       "src": "maths/WST03_2023_06/q5_c_ms_2.webp",
+       "w": 1092,
+       "h": 310,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 251.6,
+        "x1": 560,
+        "y1": 400.1
+       }
+      }
+     ],
+     "text": "(c) Given that X and Y are independent, (i) find the distribution of X– – Y– (ii) calculate the probability that the two confidence intervals from part (a) and part (b) do not overlap. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q5_notes.webp",
+     "w": 1092,
+     "h": 625,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 397.1,
+      "x1": 560,
+      "y1": 696.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_06_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_06/q6_stem.webp",
+     "w": 1090,
+     "h": 413,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 254.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 268.7,
+        "x1": 559,
+        "y1": 304.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 185,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 158.5
+       }
+      }
+     ],
+     "text": "(a) Calculate the value of α and the value of β (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q6_b.webp",
+       "w": 1090,
+       "h": 242,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 306.7,
+        "x1": 559,
+        "y1": 422.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 362,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 158.5,
+        "x1": 560,
+        "y1": 331.7
+       }
+      }
+     ],
+     "text": "Roxane claims that these results show that the crisps from brand A have a lower fat content than the crisps from brand B, as the mean fat content for brand A is, statistically, significantly less than the mean fat content for brand B. (b) Stating your hypotheses clearly, carry out a suitable test, at the 5% level of significance, to assess Roxane’s claim. You should state your test statistic and critical value. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q6_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 424.6,
+        "x1": 559,
+        "y1": 474.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 110,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 331.7,
+        "x1": 560,
+        "y1": 384.2
+       }
+      }
+     ],
+     "text": "(c) For the test in part (b), state whether or not it is necessary to assume that the fat content of crisps is normally distributed. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q6_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 476.6,
+        "x1": 559,
+        "y1": 512.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 116,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 384.2,
+        "x1": 560,
+        "y1": 439.6
+       }
+      }
+     ],
+     "text": "(d) State an assumption you have made in carrying out the test in part (b). (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q6_notes.webp",
+     "w": 1092,
+     "h": 559,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 436.6,
+      "x1": 560,
+      "y1": 704.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2023_06_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2023_06/q7_stem.webp",
+     "w": 1090,
+     "h": 224,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 163.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 170.8,
+        "x1": 559,
+        "y1": 206.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 262,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 69.5,
+        "x1": 560,
+        "y1": 194.5
+       }
+      }
+     ],
+     "text": "(a) Find P(X < 40) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2023_06/q7_b.webp",
+       "w": 1090,
+       "h": 418,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 209.2,
+        "x1": 559,
+        "y1": 409.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2023_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 476,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 194.5,
+        "x1": 560,
+        "y1": 422.7
+       }
+      }
+     ],
+     "text": "The random variable C is such that C ~ N(20, σ 2) The random variables C1 , C2 and C3 are independent and each has the same distribution as C The random variable D is defined as 3 O D O Ci i 1 Given that P(A + B + D < 76) = 0.2420 and that A, B and D are independent, (b) showing your working clearly, find the standard deviation of C (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2023_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 513,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 419.7,
+      "x1": 560,
+      "y1": 665.3
+     }
+    },
+    {
+     "src": "maths/WST03_2023_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 59,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 718.7,
+      "x1": 560,
+      "y1": 746.8
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

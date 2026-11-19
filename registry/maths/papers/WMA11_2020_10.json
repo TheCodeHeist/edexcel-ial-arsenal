@@ -1,0 +1,1098 @@
+{
+ "id": "WMA11_2020_10",
+ "subject": "maths",
+ "unit": "WMA11",
+ "series": "2020-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_P1_QP_1784112927597.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_P1_MS_1784112926918.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA11_2020_10_q1",
+   "number": 1,
+   "marks": 3,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q1.webp",
+       "w": 1016,
+       "h": 178,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 143.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q1_ms.webp",
+       "w": 1092,
+       "h": 248,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 93.8,
+        "x1": 560,
+        "y1": 212.5
+       }
+      }
+     ],
+     "text": "1. Given that (3pq2)4 ×2p q8 º apbqc find the values of the constants a, b and c. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q1_notes.webp",
+     "w": 1092,
+     "h": 409,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 209.5,
+      "x1": 560,
+      "y1": 405.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA11_2020_10/q2_stem.webp",
+     "w": 1016,
+     "h": 46,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 79.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q2_a.webp",
+       "w": 1016,
+       "h": 183,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 85.9,
+        "x1": 523.2,
+        "y1": 173.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 269,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 69.8,
+        "x1": 560,
+        "y1": 198.7
+       }
+      }
+     ],
+     "text": "(a) Express f(x) in the form a – b(x + c)2 where a, b and c are integers to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q2_b.webp",
+       "w": 1016,
+       "h": 187,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 179.6,
+        "x1": 523.2,
+        "y1": 269.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 457,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 198.7,
+        "x1": 560,
+        "y1": 417.4
+       }
+      }
+     ],
+     "text": "The curve with equation y = f(x) – 7 crosses the x‑axis at the points P and Q and crosses the y‑axis at the point R. (b) Find the area of the triangle PQR, giving your answer in the form m n where m and n are integers to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q2_notes_1.webp",
+     "w": 1092,
+     "h": 701,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 414.4,
+      "x1": 560,
+      "y1": 750.5
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1507,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 44.4,
+      "x1": 560,
+      "y1": 767.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA11_2020_10/q3_stem.webp",
+     "w": 1016,
+     "h": 937,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 506.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q3_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 513.7,
+        "x1": 523.2,
+        "y1": 549.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 69.8,
+        "x1": 560,
+        "y1": 133.0
+       }
+      }
+     ],
+     "text": "(a) show that α = 1.6 radians. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q3_b.webp",
+       "w": 1016,
+       "h": 192,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 555.7,
+        "x1": 523.2,
+        "y1": 647.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 318,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 133.0,
+        "x1": 560,
+        "y1": 285.3
+       }
+      },
+      {
+       "src": "maths/WMA11_2020_10/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 596,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 285.3,
+        "x1": 560,
+        "y1": 571.0
+       }
+      }
+     ],
+     "text": "(b) Hence find (i) the area of the badge, giving your answer in cm2 to 2 significant figures, (ii) the perimeter of the badge, giving your answer in cm to one decimal place. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 427,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 568.0,
+      "x1": 560,
+      "y1": 772.6
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1521,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 44.1,
+      "x1": 560,
+      "y1": 773.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q4",
+   "number": 4,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q4.webp",
+       "w": 1016,
+       "h": 228,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 166.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q4_ms.webp",
+       "w": 1092,
+       "h": 737,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 61.1,
+        "x1": 560,
+        "y1": 414.4
+       }
+      }
+     ],
+     "text": "4. Use algebra to solve the simultaneous equations y – 3x = 4 2 + y 2 + 6x – 4y = 4 x You must show all stages of your working. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q4_notes_1.webp",
+     "w": 1092,
+     "h": 744,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 411.4,
+      "x1": 560,
+      "y1": 768.4
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q4_notes_2.webp",
+     "w": 1092,
+     "h": 402,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 44.0,
+      "x1": 560,
+      "y1": 236.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5(i)",
+     "marks": 6,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q5_i.webp",
+       "w": 1016,
+       "h": 802,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 55.3,
+        "x1": 523.2,
+        "y1": 439.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q5_i_ms_1.webp",
+       "w": 1092,
+       "h": 354,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 69.8,
+        "x1": 560,
+        "y1": 239.2
+       }
+      },
+      {
+       "src": "maths/WMA11_2020_10/q5_i_ms_2.webp",
+       "w": 1092,
+       "h": 334,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 239.2,
+        "x1": 560,
+        "y1": 399.2
+       }
+      }
+     ],
+     "text": "y 5. (i) –5 2 O x –3 y = f(x) Figure 2 Figure 2 shows a sketch of the curve with equation y = f(x). The curve passes through the points (–5, 0) and (0, –3) and touches the x‑axis at the point (2, 0). On separate diagrams sketch the curve with equation (a) y = f(x + 2) (b) y = f(–x) On each diagram, show clearly the coordinates of all the points where the curve cuts or touches the coordinate axes. (6)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "5(ii)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q5_ii.webp",
+       "w": 1016,
+       "h": 730,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 439.8,
+        "x1": 523.2,
+        "y1": 790
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q5_ii_ms_1.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 399.2,
+        "x1": 560,
+        "y1": 469.6
+       }
+      },
+      {
+       "src": "maths/WMA11_2020_10/q5_ii_ms_2.webp",
+       "w": 1092,
+       "h": 208,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 469.6,
+        "x1": 560,
+        "y1": 569.2
+       }
+      }
+     ],
+     "text": "y (ii) 3 p q O x Figure 3 Figure 3 shows a sketch of the curve with equation π    0  x  2π y = k cos x +    6 where k is a constant. The curve meets the y‑axis at the point (0, 3 ) and passes through the points ( p, 0) and (q, 0). Find (a) the value of k, (b) the exact value of p and the exact value of q. (3)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q5_notes_1.webp",
+     "w": 1092,
+     "h": 297,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 566.2,
+      "x1": 560,
+      "y1": 708.3
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q5_notes_2.webp",
+     "w": 1092,
+     "h": 1117,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 44.9,
+      "x1": 560,
+      "y1": 580.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q6",
+   "number": 6,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA11_2020_10/q6_stem.webp",
+     "w": 1016,
+     "h": 46,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 79.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 85.8,
+        "x1": 523.2,
+        "y1": 121.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 69.8,
+        "x1": 560,
+        "y1": 190.4
+       }
+      }
+     ],
+     "text": "(a) Find the gradient of the line AB, giving your answer as a fully simplified fraction. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q6_b.webp",
+       "w": 1016,
+       "h": 187,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 127.8,
+        "x1": 523.2,
+        "y1": 217.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 390,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 190.4,
+        "x1": 560,
+        "y1": 376.9
+       }
+      }
+     ],
+     "text": "The point M is the midpoint of AB. The line l passes through M and is perpendicular to AB. (b) Find an equation for l, giving your answer in the form px + qy + r = 0 where p, q and r are integers to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q6_c.webp",
+       "w": 1016,
+       "h": 129,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 223.8,
+        "x1": 523.2,
+        "y1": 285.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q6_c_ms.webp",
+       "w": 1092,
+       "h": 493,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 376.9,
+        "x1": 560,
+        "y1": 613.0
+       }
+      }
+     ],
+     "text": "The point C lies on l such that the area of triangle ABC is 37.5 square units. (c) Find the two possible pairs of coordinates of point C. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q6_notes_1.webp",
+     "w": 1092,
+     "h": 344,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 610.0,
+      "x1": 560,
+      "y1": 774.5
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q6_notes_2.webp",
+     "w": 1092,
+     "h": 1427,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 44.1,
+      "x1": 560,
+      "y1": 728.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA11_2020_10/q7_stem.webp",
+     "w": 1016,
+     "h": 121,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 115.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q7_a.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 119.6,
+        "x1": 523.2,
+        "y1": 183.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 309,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 69.8,
+        "x1": 560,
+        "y1": 217.8
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of C. On your sketch you should show the coordinates of any points of intersection with the coordinate axes and state clearly the equations of any asymptotes. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q7_b.webp",
+       "w": 1016,
+       "h": 251,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 189.6,
+        "x1": 523.2,
+        "y1": 309.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 377,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 217.8,
+        "x1": 560,
+        "y1": 398.2
+       }
+      }
+     ],
+     "text": "The line l has equation y = 4x + k, where k is a constant. Given that l meets C at two distinct points, (b) show that k2 + 16k + 48 > 0 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q7_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 316.0,
+        "x1": 523.2,
+        "y1": 351.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q7_c_ms.webp",
+       "w": 1092,
+       "h": 307,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 398.2,
+        "x1": 560,
+        "y1": 545.0
+       }
+      }
+     ],
+     "text": "(c) Hence find the range of possible values for k. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 484,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 542.0,
+      "x1": 560,
+      "y1": 773.8
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1330,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 45.6,
+      "x1": 560,
+      "y1": 683.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q8",
+   "number": 8,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA11_2020_10/q8_stem.webp",
+     "w": 1016,
+     "h": 104,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 107.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q8_a.webp",
+       "w": 1016,
+       "h": 156,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 114.3,
+        "x1": 523.2,
+        "y1": 188.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 275,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 67.6,
+        "x1": 560,
+        "y1": 199.1
+       }
+      }
+     ],
+     "text": "(a) Show that d y 2 – 20x + 32 x = 3x d (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q8_b.webp",
+       "w": 1016,
+       "h": 160,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 195.5,
+        "x1": 523.2,
+        "y1": 271.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 303,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 199.1,
+        "x1": 560,
+        "y1": 344.0
+       }
+      }
+     ],
+     "text": "The line l1 is the tangent to C at the point where x = 6 (b) Find the equation of l1, giving your answer in the form y = mx + c, where m and c are constants to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q8_c.webp",
+       "w": 1016,
+       "h": 189,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 278.5,
+        "x1": 523.2,
+        "y1": 368.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q8_c_ms.webp",
+       "w": 1092,
+       "h": 307,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 344.0,
+        "x1": 560,
+        "y1": 490.9
+       }
+      }
+     ],
+     "text": "The line l2 is the tangent to C at the point where x = α Given that l1 and l2 are parallel and distinct, (c) find the value of α (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 569,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 487.9,
+      "x1": 560,
+      "y1": 760.6
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1515,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 44.2,
+      "x1": 560,
+      "y1": 771.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA11_2020_10_q9",
+   "number": 9,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "9",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA11_2020_10/q9.webp",
+       "w": 1016,
+       "h": 274,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 188.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA11_2020_10/q9_ms.webp",
+       "w": 1092,
+       "h": 500,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 72.6,
+        "x1": 560,
+        "y1": 312.0
+       }
+      }
+     ],
+     "text": "9. A curve with equation y = f(x) passes through the point (9, 10). Given that 3x 2 – 21 − 5 x f′(x) = 27x x > 0 2 x find f(x), fully simplifying each term. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2020_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 919,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 309.0,
+      "x1": 560,
+      "y1": 749.5
+     }
+    },
+    {
+     "src": "maths/WMA11_2020_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 61,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 735.3,
+      "x1": 560,
+      "y1": 763.8
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

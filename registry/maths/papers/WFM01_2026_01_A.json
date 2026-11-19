@@ -1,0 +1,1262 @@
+{
+ "id": "WFM01_2026_01_A",
+ "subject": "maths",
+ "unit": "WFM01",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_FP1A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_FP1A_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM01_2026_01_A_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q1.webp",
+       "w": 1090,
+       "h": 242,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 54.7,
+        "x1": 559,
+        "y1": 170.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q1_ms.webp",
+       "w": 1092,
+       "h": 357,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 274.1
+       }
+      }
+     ],
+     "text": "n n O O 1. Use the standard results for and for 2 to show that, for all positive integers n, r r r 1 r 1 n n O r r ( 1 3 ) O a n ( 1 1 )( n 1 b ) r 1 where a and b are integers to be found. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q1_notes.webp",
+     "w": 1092,
+     "h": 362,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 279.1,
+      "x1": 560,
+      "y1": 452.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q2_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 206.5,
+      "x1": 559,
+      "y1": 266.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q2_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 269.0,
+        "x1": 559,
+        "y1": 318.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 116.1,
+        "x1": 560,
+        "y1": 162.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 723,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 162.6,
+        "x1": 560,
+        "y1": 509.1
+       }
+      }
+     ],
+     "text": "(a) Given that z = 2 + 3i is a root of the equation f (z) = 0, use algebra to find the three other roots of f (z) = 0 (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 321.0,
+        "x1": 559,
+        "y1": 356.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 116.1,
+        "x1": 560,
+        "y1": 162.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 468,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 509.1,
+        "x1": 560,
+        "y1": 733.2
+       }
+      }
+     ],
+     "text": "(b) Show the four roots of f (z) = 0 on a single Argand diagram. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q2_notes.webp",
+     "w": 1092,
+     "h": 804,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 83.1,
+      "x1": 560,
+      "y1": 468.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 315,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 392.8,
+      "x1": 559,
+      "y1": 543.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q3_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 546.2,
+        "x1": 559,
+        "y1": 581.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q3_a_ms.webp",
+       "w": 1092,
+       "h": 876,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 523.3
+       }
+      }
+     ],
+     "text": "(a) find the coordinates of the point A and the coordinates of the point B. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q3_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 584.2,
+        "x1": 559,
+        "y1": 619.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q3_b_ms.webp",
+       "w": 1092,
+       "h": 146,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 523.3,
+        "x1": 560,
+        "y1": 593.1
+       }
+      }
+     ],
+     "text": "(b) Find the coordinates of the midpoint of AB. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q3_notes_1.webp",
+     "w": 1092,
+     "h": 360,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 590.1,
+      "x1": 560,
+      "y1": 762.6
+     }
+    },
+    {
+     "src": "maths/WFM01_2026_01_A/q3_notes_2.webp",
+     "w": 1092,
+     "h": 966,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 70.0,
+      "x1": 560,
+      "y1": 532.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q4.webp",
+       "w": 1090,
+       "h": 255,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 45.7,
+        "x1": 559,
+        "y1": 167.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q4_ms.webp",
+       "w": 1092,
+       "h": 511,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 141.6,
+        "x1": 560,
+        "y1": 386.3
+       }
+      }
+     ],
+     "text": "4. In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. Given that z = x + iy, where x and y are real numbers, solve the equation (z – 2i)(z* – 2i) = 21 – 12i where z* is the complex conjugate of z. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q4_notes_1.webp",
+     "w": 1092,
+     "h": 768,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 383.3,
+      "x1": 560,
+      "y1": 751.3
+     }
+    },
+    {
+     "src": "maths/WFM01_2026_01_A/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1419,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 720.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q5_stem.webp",
+     "w": 1090,
+     "h": 197,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 203.9,
+      "x1": 559,
+      "y1": 297.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q5_a.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 300.4,
+        "x1": 559,
+        "y1": 383.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 129.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 42,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 129.6,
+        "x1": 560,
+        "y1": 149.1
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q5_a_ms_3.webp",
+       "w": 1092,
+       "h": 47,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 149.1,
+        "x1": 560,
+        "y1": 171.1
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q5_a_ms_4.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 171.1,
+        "x1": 560,
+        "y1": 213.4
+       }
+      }
+     ],
+     "text": "(a) (i) write down the value of (α + β) and the value of αβ 2 + β 2 = –2 (ii) show that α 3 + β 3 (iii) find the value of α (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q5_b.webp",
+       "w": 1090,
+       "h": 229,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 384.5,
+        "x1": 559,
+        "y1": 494.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 129.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 492,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 213.4,
+        "x1": 560,
+        "y1": 448.8
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q5_b_ms_3.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 448.8,
+        "x1": 560,
+        "y1": 553.1
+       }
+      }
+     ],
+     "text": "4 + β 4 = (α 2 + β 2) 2 – 2(αβ) 2 (b) (i) show that α (ii) find a quadratic equation which has roots 3 – β) and (β 3 – α) (α 2 + qx + r = 0 where p, q and r are integers. giving your answer in the form px (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q5_notes_1.webp",
+     "w": 1092,
+     "h": 411,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 550.1,
+      "x1": 560,
+      "y1": 747.1
+     }
+    },
+    {
+     "src": "maths/WFM01_2026_01_A/q5_notes_2.webp",
+     "w": 1092,
+     "h": 726,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 110.4,
+      "x1": 560,
+      "y1": 458.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q6_stem.webp",
+     "w": 1090,
+     "h": 128,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 51.1,
+      "x1": 559,
+      "y1": 112.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q6_a.webp",
+       "w": 1090,
+       "h": 78,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 113.3,
+        "x1": 559,
+        "y1": 150.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q6_a_ms_1.webp",
+       "w": 1092,
+       "h": 286,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 100.9,
+        "x1": 560,
+        "y1": 237.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q6_a_ms_2.webp",
+       "w": 1092,
+       "h": 175,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 85.3,
+        "x1": 560,
+        "y1": 168.6
+       }
+      }
+     ],
+     "text": "–1 in terms of p and q. (a) Find A (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q6_b.webp",
+       "w": 1090,
+       "h": 268,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 152.9,
+        "x1": 559,
+        "y1": 280.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 1097,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 237.9,
+        "x1": 560,
+        "y1": 763.7
+       }
+      },
+      {
+       "src": "maths/WFM01_2026_01_A/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 422,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 168.6,
+        "x1": 560,
+        "y1": 370.8
+       }
+      }
+     ],
+     "text": "Given XA = B, where p q \u001b \u0019 B O 6 p 11 q \u0019\u0019 5 p 8 q \u001a (b) find the matrix X, giving your answer in its simplest form. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q6: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WFM01_2026_01_A_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q7_stem.webp",
+     "w": 1090,
+     "h": 113,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 317.2,
+      "x1": 559,
+      "y1": 371.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 373.8,
+        "x1": 559,
+        "y1": 423.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 150,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 101.3,
+        "x1": 560,
+        "y1": 172.5
+       }
+      }
+     ],
+     "text": "(a) Starting with the interval [2, 2.1], use interval bisection twice to find an interval of width 0.025 that contains α. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q7_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 425.8,
+        "x1": 559,
+        "y1": 461.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 110,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 172.5,
+        "x1": 560,
+        "y1": 224.7
+       }
+      }
+     ],
+     "text": "(b) Find f ′(x). (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q7_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 463.8,
+        "x1": 559,
+        "y1": 513.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q7_c_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 224.7,
+        "x1": 560,
+        "y1": 295.4
+       }
+      }
+     ],
+     "text": "(c) Taking 2 as a first approximation to α, apply the Newton–Raphson process once to f (x) to find a second approximation to α, giving your answer to 2 decimal places. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q7_notes.webp",
+     "w": 1092,
+     "h": 891,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 292.4,
+      "x1": 560,
+      "y1": 720.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM01_2026_01_A_q8",
+   "number": 8,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q8_stem.webp",
+     "w": 1090,
+     "h": 174,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 129.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q8_a.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 131.8,
+        "x1": 559,
+        "y1": 191.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q8_a_ms.webp",
+       "w": 1092,
+       "h": 539,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 98.3,
+        "x1": 560,
+        "y1": 356.4
+       }
+      }
+     ],
+     "text": "(a) Use calculus to show that an equation of the tangent to C at P is 2 py = x + ap (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q8_b.webp",
+       "w": 1090,
+       "h": 218,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 194.2,
+        "x1": 559,
+        "y1": 298.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q8_b_ms.webp",
+       "w": 1092,
+       "h": 356,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 356.4,
+        "x1": 560,
+        "y1": 526.8
+       }
+      }
+     ],
+     "text": "The tangent to C at the point P intersects the directrix of C at the point B and intersects the x-axis at the point D. Given that the y-coordinate of B is 5 6 a and p > 0 (b) find, in terms of a, the x-coordinate of D. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q8_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 301.1,
+        "x1": 559,
+        "y1": 374.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q8_c_ms.webp",
+       "w": 1092,
+       "h": 271,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 526.8,
+        "x1": 560,
+        "y1": 656.5
+       }
+      }
+     ],
+     "text": "Given that O is the origin, (c) find, in terms of a, the area of the triangle OPD, giving your answer in its simplest form. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q8_notes_1.webp",
+     "w": 1092,
+     "h": 1177,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 68.4,
+      "x1": 560,
+      "y1": 633.0
+     }
+    },
+    {
+     "src": "maths/WFM01_2026_01_A/q8_notes_2.webp",
+     "w": 1092,
+     "h": 715,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 93.7,
+      "x1": 560,
+      "y1": 436.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q9",
+   "number": 9,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WFM01_2026_01_A/q9_stem.webp",
+     "w": 1090,
+     "h": 85,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 402.6,
+      "x1": 559,
+      "y1": 443.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 443.3,
+        "x1": 559,
+        "y1": 478.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q9_a_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 101.7,
+        "x1": 560,
+        "y1": 181.4
+       }
+      }
+     ],
+     "text": "(a) Show that A is non-singular. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q9_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 481.3,
+        "x1": 559,
+        "y1": 564.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q9_b_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 181.4,
+        "x1": 560,
+        "y1": 226.0
+       }
+      }
+     ],
+     "text": "The triangle R is transformed to the triangle S by the matrix A. Given that the area of the triangle R is 10 square units, (b) find the area of triangle S. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q9_c.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 567.4,
+        "x1": 559,
+        "y1": 675.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q9_c_ms.webp",
+       "w": 1092,
+       "h": 124,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 226.0,
+        "x1": 560,
+        "y1": 284.9
+       }
+      }
+     ],
+     "text": "Given that 4 B = A and that the triangle R is transformed to the triangle T by the matrix B, (c) find, without evaluating B, the area of triangle T. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q9_notes_1.webp",
+     "w": 1092,
+     "h": 1022,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 281.9,
+      "x1": 560,
+      "y1": 772.2
+     }
+    },
+    {
+     "src": "maths/WFM01_2026_01_A/q9_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 132.1,
+      "x1": 560,
+      "y1": 162.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2026_01_A_q10",
+   "number": 10,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "10",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2026_01_A/q10.webp",
+       "w": 1090,
+       "h": 192,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 48.1,
+        "x1": 559,
+        "y1": 140.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2026_01_A/q10_ms.webp",
+       "w": 1092,
+       "h": 342,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 162.3,
+        "x1": 560,
+        "y1": 326.1
+       }
+      }
+     ],
+     "text": "+ 10. Prove by induction that, for n ∈  1 n . / O 2 2 r ( 2 r 3 1 ) O n n ( 1 1 3 ) n 1 n 3 1 6 r 1 (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_01_A/q10_notes_1.webp",
+     "w": 1092,
+     "h": 931,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 323.1,
+      "x1": 560,
+      "y1": 769.5
+     }
+    },
+    {
+     "src": "maths/WFM01_2026_01_A/q10_notes_2.webp",
+     "w": 1092,
+     "h": 429,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 69.0,
+      "x1": 560,
+      "y1": 274.5
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

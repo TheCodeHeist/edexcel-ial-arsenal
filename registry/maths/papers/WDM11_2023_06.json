@@ -1,0 +1,1423 @@
+{
+ "id": "WDM11_2023_06",
+ "subject": "maths",
+ "unit": "WDM11",
+ "series": "2023-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_D1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_D1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WDM11_2023_06_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q1_stem.webp",
+     "w": 1090,
+     "h": 735,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 69.5,
+      "x1": 559,
+      "y1": 421.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q1_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 424.5,
+        "x1": 559,
+        "y1": 473.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 290,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 225.0,
+        "x1": 560,
+        "y1": 363.7
+       }
+      }
+     ],
+     "text": "(a) Complete Diagram 1 in the answer book to show the early event times and the late event times. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q1_b.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 476.4,
+        "x1": 559,
+        "y1": 539.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 363.7,
+        "x1": 560,
+        "y1": 389.5
+       }
+      }
+     ],
+     "text": "(b) Calculate the maximum number of days by which activity H could be delayed without lengthening the completion time of the project. You must make the numbers used in your calculation clear. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q1_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 542.4,
+        "x1": 559,
+        "y1": 591.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 213,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 389.5,
+        "x1": 560,
+        "y1": 491.5
+       }
+      }
+     ],
+     "text": "(c) Calculate a lower bound for the number of workers needed to complete the project in the minimum time. You must show your working. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "1(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q1_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 594.4,
+        "x1": 559,
+        "y1": 643.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 216,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 493.9,
+        "x1": 560,
+        "y1": 597.6
+       }
+      }
+     ],
+     "text": "(d) Schedule the activities on Grid 1 in the answer book, using the minimum number of workers, so that the project is completed in the minimum time. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q1_notes.webp",
+     "w": 1092,
+     "h": 1349,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 715.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q2_stem.webp",
+     "w": 1090,
+     "h": 155,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 119.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 126.6,
+        "x1": 559,
+        "y1": 162.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 182,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 99.6,
+        "x1": 560,
+        "y1": 186.6
+       }
+      }
+     ],
+     "text": "(a) State, with a reason, which number was used as a pivot for the first pass. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 164.6,
+        "x1": 559,
+        "y1": 214.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 123,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 186.6,
+        "x1": 560,
+        "y1": 245.0
+       }
+      }
+     ],
+     "text": "(b) Starting at the left-hand end of the above list, obtain the fully sorted list using a bubble sort. You need to write down only the list that results at the end of each pass. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q2_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 216.6,
+        "x1": 559,
+        "y1": 266.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 127,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 245.0,
+        "x1": 560,
+        "y1": 305.7
+       }
+      }
+     ],
+     "text": "(c) Apply the first-fit decreasing bin packing algorithm to the fully sorted list to pack the numbers into bins of size 85 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q2_notes_1.webp",
+     "w": 1092,
+     "h": 873,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 302.7,
+      "x1": 560,
+      "y1": 721.2
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q2_notes_2.webp",
+     "w": 1092,
+     "h": 98,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 115.5,
+      "x1": 560,
+      "y1": 162.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q3",
+   "number": 3,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q3_stem.webp",
+     "w": 1090,
+     "h": 697,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 379.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q3_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 382.8,
+        "x1": 559,
+        "y1": 432.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 188,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 162.0,
+        "x1": 560,
+        "y1": 251.9
+       }
+      }
+     ],
+     "text": "(a) Complete the table in the answer book, using N = 4217, to show the results obtained at each step of the algorithm. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q3_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 434.7,
+        "x1": 559,
+        "y1": 484.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 251.9,
+        "x1": 560,
+        "y1": 298.8
+       }
+      }
+     ],
+     "text": "(b) Explain how the output values of the algorithm relate to the original input N, where N is any positive integer. (2)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q3_notes.webp",
+     "w": 1092,
+     "h": 960,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 295.8,
+      "x1": 560,
+      "y1": 756.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q4_stem.webp",
+     "w": 1090,
+     "h": 1081,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 563.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q4_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 566.4,
+        "x1": 559,
+        "y1": 601.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 96.9,
+        "x1": 560,
+        "y1": 146.6
+       }
+      }
+     ],
+     "text": "(a) Determine the inequalities that define the feasible region. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 604.4,
+        "x1": 559,
+        "y1": 639.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 204,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 146.6,
+        "x1": 560,
+        "y1": 244.1
+       }
+      }
+     ],
+     "text": "(b) Find the exact coordinates of the vertices of the feasible region. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 642.4,
+        "x1": 559,
+        "y1": 715.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 244.1,
+        "x1": 560,
+        "y1": 310.0
+       }
+      }
+     ],
+     "text": "The objective is to maximise P, where P = 2x + ky (c) For the case k = 3, use the point testing method to find the optimal vertex of the feasible region and state the corresponding value of P. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q4_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 718.4,
+        "x1": 559,
+        "y1": 767.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q4_d_ms.webp",
+       "w": 1092,
+       "h": 175,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 310.0,
+        "x1": 560,
+        "y1": 393.5
+       }
+      }
+     ],
+     "text": "(d) Determine the range of values for k for which the optimal vertex found in (c) is still optimal. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q4_notes_1.webp",
+     "w": 1092,
+     "h": 786,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 390.5,
+      "x1": 560,
+      "y1": 767.3
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q4_notes_2.webp",
+     "w": 1092,
+     "h": 603,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 356.7
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q4_notes_3.webp",
+     "w": 1092,
+     "h": 112,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 103.1,
+      "x1": 560,
+      "y1": 156.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q5_stem.webp",
+     "w": 1090,
+     "h": 815,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 436.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 5,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q5_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 446.4,
+        "x1": 559,
+        "y1": 495.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 182,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 172.5,
+        "x1": 560,
+        "y1": 259.3
+       }
+      }
+     ],
+     "text": "(a) Draw the activity network described in the precedence table above, using activity on arc and the minimum number of dummies. (5)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q5_b.webp",
+       "w": 1090,
+       "h": 545,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 498.4,
+        "x1": 559,
+        "y1": 759.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 127,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 259.3,
+        "x1": 560,
+        "y1": 320.1
+       }
+      }
+     ],
+     "text": "A project is modelled by the activity network drawn in (a). Each activity requires exactly one worker. The project is to be completed in the shortest possible time. The table below gives the time, in hours, to complete three of the activities. Activity Duration (in hours) A 10 E 7 F 8 The length of the critical path AEFK is 33 hours. (b) Determine the range of possible values for the duration of activity J. You must make your method and working clear. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 880,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 317.1,
+      "x1": 560,
+      "y1": 738.9
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 131,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 155.6,
+      "x1": 560,
+      "y1": 218.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q6_stem.webp",
+     "w": 1090,
+     "h": 646,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 39,
+      "x1": 559,
+      "y1": 348.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q6_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 351.5,
+        "x1": 559,
+        "y1": 410.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q6_a_ms_1.webp",
+       "w": 1092,
+       "h": 282,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 220.8,
+        "x1": 560,
+        "y1": 355.2
+       }
+      },
+      {
+       "src": "maths/WDM11_2023_06/q6_a_ms_2.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 355.2,
+        "x1": 560,
+        "y1": 383.8
+       }
+      }
+     ],
+     "text": "(a) (i) Use Dijkstra’s algorithm to find the shortest path from A to J. (ii) State the length of the shortest path from A to J. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q6_b.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 413.5,
+        "x1": 559,
+        "y1": 500.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 383.8,
+        "x1": 560,
+        "y1": 454.3
+       }
+      }
+     ],
+     "text": "The roads between the parks need to be inspected. Robin must travel along each road at least once. Robin wishes to minimise the length of the inspection route. Robin will start the inspection route at C and finish at E. (b) By considering the pairings of all relevant nodes, find the length of Robin’s route. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 503.4,
+        "x1": 559,
+        "y1": 538.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 454.3,
+        "x1": 560,
+        "y1": 482.4
+       }
+      }
+     ],
+     "text": "(c) State the number of times Robin will pass through G. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q6_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 541.4,
+        "x1": 559,
+        "y1": 614.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 482.4,
+        "x1": 560,
+        "y1": 510.5
+       }
+      }
+     ],
+     "text": "It is now decided to start and finish the inspection route at A. Robin must still minimise the length of the route and travel along each road at least once. (d) Calculate the difference between the lengths of the two inspection routes. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q6_e.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 617.4,
+        "x1": 559,
+        "y1": 680.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q6_e_ms.webp",
+       "w": 1092,
+       "h": 99,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 510.5,
+        "x1": 560,
+        "y1": 557.5
+       }
+      }
+     ],
+     "text": "(e) State the edges that need to be traversed twice in the route that starts and finishes at A, but do not need to be traversed twice in the route that starts at C and finishes at E. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 240,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 554.5,
+      "x1": 560,
+      "y1": 669.4
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 969,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 532.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q7_stem.webp",
+     "w": 1090,
+     "h": 675,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 45.5,
+      "x1": 559,
+      "y1": 368.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q7_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 369.0,
+        "x1": 559,
+        "y1": 418.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 99.6,
+        "x1": 560,
+        "y1": 141.5
+       }
+      }
+     ],
+     "text": "(a) Using Prim’s algorithm, starting at A, obtain a minimum spanning tree for the network. You must clearly state the order in which you select the arcs of your tree. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q7_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 421.0,
+        "x1": 559,
+        "y1": 470.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 141.5,
+        "x1": 560,
+        "y1": 169.5
+       }
+      }
+     ],
+     "text": "(b) Use your answer to (a) to determine an initial upper bound for the length of the tourist’s route. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q7_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 473.0,
+        "x1": 559,
+        "y1": 522.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 169.5,
+        "x1": 560,
+        "y1": 212.0
+       }
+      }
+     ],
+     "text": "(c) Starting at A, use the nearest neighbour algorithm to find another upper bound for the length of the tourist’s route. Write down the route that gives this upper bound. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q7_d.webp",
+       "w": 1090,
+       "h": 222,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 525.0,
+        "x1": 559,
+        "y1": 630.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q7_d_ms.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 212.0,
+        "x1": 560,
+        "y1": 267.9
+       }
+      }
+     ],
+     "text": "The nearest neighbour algorithm starting at E gives a route of E – H – A – D – G – C – B – F – E (d) State which of these two nearest neighbour routes gives the better upper bound. Give reasons for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q7_e.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 633.4,
+        "x1": 559,
+        "y1": 720.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q7_e_ms.webp",
+       "w": 1092,
+       "h": 174,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 267.9,
+        "x1": 560,
+        "y1": 351.3
+       }
+      }
+     ],
+     "text": "Starting by deleting A, and all of its arcs, a lower bound of 235 km for the length of the route is found. (e) Determine the smallest interval that must contain the optimal length of the tourist’s route. You must make your method and working clear. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 876,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 348.3,
+      "x1": 560,
+      "y1": 768.0
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 215,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 65.8,
+      "x1": 560,
+      "y1": 168.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WDM11_2023_06_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WDM11_2023_06/q8_stem.webp",
+     "w": 1090,
+     "h": 482,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 276.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q8_a.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 279.7,
+        "x1": 559,
+        "y1": 343.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 516,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 97.6,
+        "x1": 560,
+        "y1": 344.9
+       }
+      }
+     ],
+     "text": "(a) Formulate this as a linear programming problem in x and y only, stating the objective and listing the constraints as simplified inequalities with integer coefficients. (8)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2023_06/q8_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 345.7,
+        "x1": 559,
+        "y1": 419.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2023_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 344.9,
+        "x1": 560,
+        "y1": 438.4
+       }
+      }
+     ],
+     "text": "Given that the headteacher awards 16 sport prizes, (b) calculate the corresponding number of leadership prizes that the headteacher awards. You must show your working. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WDM11_2023_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 705,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 435.4,
+      "x1": 560,
+      "y1": 773.3
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 344,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 232.5
+     }
+    },
+    {
+     "src": "maths/WDM11_2023_06/q8_notes_3.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 688.9,
+      "x1": 560,
+      "y1": 719.0
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

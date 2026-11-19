@@ -1,0 +1,1198 @@
+{
+ "id": "WMA12_2021_01",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2021-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2021_01_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_01/q1_stem.webp",
+     "w": 1016,
+     "h": 162,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 135.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q1_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 141.8,
+        "x1": 523.2,
+        "y1": 177.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 74.6,
+        "x1": 560,
+        "y1": 159.2
+       }
+      }
+     ],
+     "text": "(a) Show that a + b = −1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q1_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 183.8,
+        "x1": 523.2,
+        "y1": 247.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 366,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 159.2,
+        "x1": 560,
+        "y1": 334.2
+       }
+      }
+     ],
+     "text": "When f (x) is divided by (x − 2) , the remainder is −23 (b) Find the value of a and the value of b. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q1_notes.webp",
+     "w": 1092,
+     "h": 956,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 331.2,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_01/q2_stem.webp",
+     "w": 1016,
+     "h": 104,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 107.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 114.2,
+        "x1": 523.2,
+        "y1": 149.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 267,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 86.6,
+        "x1": 560,
+        "y1": 214.3
+       }
+      }
+     ],
+     "text": "(a) Using calculus, find the x coordinates of the stationary points of the curve. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q2_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 156.2,
+        "x1": 523.2,
+        "y1": 191.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 858,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 214.3,
+        "x1": 560,
+        "y1": 625.7
+       }
+      }
+     ],
+     "text": "(b) Justify, by further calculus, the nature of all of the stationary points of the curve. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q2_notes.webp",
+     "w": 1092,
+     "h": 1557,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q3_i.webp",
+       "w": 1016,
+       "h": 226,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 166.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q3_i_ms.webp",
+       "w": 1092,
+       "h": 452,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 72.8,
+        "x1": 560,
+        "y1": 289.2
+       }
+      }
+     ],
+     "text": "3. (i) Solve x + 2 = 3 7 giving your answer in the form x = log7 a where a is a rational number in its simplest form. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q3_ii.webp",
+       "w": 1016,
+       "h": 134,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 172.6,
+        "x1": 523.2,
+        "y1": 236.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q3_ii_ms.webp",
+       "w": 1092,
+       "h": 488,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 289.2,
+        "x1": 560,
+        "y1": 522.9
+       }
+      }
+     ],
+     "text": "(ii) Using the laws of logarithms, solve 1 + log2 y + log2 ( y + 4) = log2 (5 − y) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q3_notes.webp",
+     "w": 1092,
+     "h": 1273,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 653.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q4_a.webp",
+       "w": 1016,
+       "h": 211,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 158.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 380,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 86.6,
+        "x1": 560,
+        "y1": 268.3
+       }
+      }
+     ],
+     "text": "4. (a) Find the first three terms, in ascending powers of x, of the binomial expansion of ( ) 6 px 2 + where p is a constant. Give each term in simplest form. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q4_b.webp",
+       "w": 1016,
+       "h": 296,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 165.2,
+        "x1": 523.2,
+        "y1": 307.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 536,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 268.3,
+        "x1": 560,
+        "y1": 525.3
+       }
+      }
+     ],
+     "text": "Given that in the expansion of  1  ( ) 6 3 − x 2 + px   2 the coefficient of x2 is −3 4 (b) find the possible values of p. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q4_notes.webp",
+     "w": 1092,
+     "h": 1084,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 563.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q5",
+   "number": 5,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q5_i.webp",
+       "w": 1016,
+       "h": 139,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 61.2,
+        "x1": 523.2,
+        "y1": 127.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q5_i_ms.webp",
+       "w": 1092,
+       "h": 858,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 100.4,
+        "x1": 560,
+        "y1": 511.9
+       }
+      }
+     ],
+     "text": "5. (i) Use algebra to prove that for all x  0 3x + 1  2 3x (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(ii)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q5_ii.webp",
+       "w": 1016,
+       "h": 134,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 134.0,
+        "x1": 523.2,
+        "y1": 197.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q5_ii_ms.webp",
+       "w": 1092,
+       "h": 202,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 511.9,
+        "x1": 560,
+        "y1": 608.4
+       }
+      }
+     ],
+     "text": "(ii) Show that the following statement is not true. “The sum of three consecutive prime numbers is always a multiple of 5” (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q5_notes.webp",
+     "w": 1092,
+     "h": 1557,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q6_a.webp",
+       "w": 1016,
+       "h": 297,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 199.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 341,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 72.8,
+        "x1": 560,
+        "y1": 235.8
+       }
+      }
+     ],
+     "text": "6. (a) Show that the equation θ θ 3sin cos = 5 tan θ sin θ  1 2sin θ − 1 2 can be written in the form 3 sin3 θ + 10 sin2 θ − 8 sin θ = 0 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q6_b.webp",
+       "w": 1016,
+       "h": 259,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 199.9,
+        "x1": 523.2,
+        "y1": 323.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 376,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 235.8,
+        "x1": 560,
+        "y1": 415.8
+       }
+      }
+     ],
+     "text": "π < x < 4 π (b) Hence solve, for −4 3 sin 2 x cos 2 x = 5 tan 2x 2 sin 2 x − 1 giving your answers to 3 decimal places where appropriate. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q6_notes.webp",
+     "w": 1092,
+     "h": 785,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 412.8,
+      "x1": 560,
+      "y1": 789.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q7",
+   "number": 7,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_01/q7_stem.webp",
+     "w": 1016,
+     "h": 972,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 523.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q7_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 530.5,
+        "x1": 523.2,
+        "y1": 580.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 206,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 72.8,
+        "x1": 560,
+        "y1": 170.9
+       }
+      }
+     ],
+     "text": "(a) Use the given equation to complete the table, giving the values of P to 4 significant figures where appropriate. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q7_b.webp",
+       "w": 1016,
+       "h": 221,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 586.5,
+        "x1": 523.2,
+        "y1": 692.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 308,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 170.9,
+        "x1": 560,
+        "y1": 318.3
+       }
+      }
+     ],
+     "text": "The amount of energy, in kWh, produced between 10:00 and 12:00 can be found by calculating the area of region R, shown shaded in Figure 1. (b) Use the trapezium rule, with all the values of P in the completed table, to find an estimate for the amount of energy produced between 10:00 and 12:00. Give your answer to 2 decimal places. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q7_notes.webp",
+     "w": 1092,
+     "h": 735,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 315.3,
+      "x1": 560,
+      "y1": 667.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q8",
+   "number": 8,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_01/q8_stem.webp",
+     "w": 1016,
+     "h": 207,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 156.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q8_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 163.6,
+        "x1": 523.2,
+        "y1": 198.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 72.8,
+        "x1": 560,
+        "y1": 115.7
+       }
+      }
+     ],
+     "text": "(a) Find an expression for a2 in terms of p, giving your answer in simplest form. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q8_b.webp",
+       "w": 1016,
+       "h": 165,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 198.5,
+        "x1": 523.2,
+        "y1": 277.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 816,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 115.7,
+        "x1": 560,
+        "y1": 507.3
+       }
+      }
+     ],
+     "text": "3 n=∑ Given that an = p + 15 1 (b) find the possible values of a2 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q8_notes.webp",
+     "w": 1092,
+     "h": 1255,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 644.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q9",
+   "number": 9,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_01/q9_stem.webp",
+     "w": 1016,
+     "h": 163,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 135.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q9_a.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 142.2,
+        "x1": 523.2,
+        "y1": 233.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q9_a_ms_1.webp",
+       "w": 1092,
+       "h": 84,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 88.2,
+        "x1": 560,
+        "y1": 128.0
+       }
+      },
+      {
+       "src": "maths/WMA12_2021_01/q9_a_ms_2.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 128.0,
+        "x1": 560,
+        "y1": 177.7
+       }
+      }
+     ],
+     "text": "(a) Write down, in terms of k, (i) the coordinates of the centre of C, (ii) the radius of C. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "9(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q9_b.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 240.2,
+        "x1": 523.2,
+        "y1": 331.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q9_b_ms_1.webp",
+       "w": 1092,
+       "h": 178,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 177.7,
+        "x1": 560,
+        "y1": 263.0
+       }
+      },
+      {
+       "src": "maths/WMA12_2021_01/q9_b_ms_2.webp",
+       "w": 1092,
+       "h": 154,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 263.0,
+        "x1": 560,
+        "y1": 336.4
+       }
+      }
+     ],
+     "text": "Given that the point P(2, 3) lies on C 2 − 17k + 6 = 0 (b) (i) show that 5k (ii) hence find the possible values of k. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q9_c.webp",
+       "w": 1016,
+       "h": 192,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 338.2,
+        "x1": 523.2,
+        "y1": 429.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q9_c_ms.webp",
+       "w": 1092,
+       "h": 686,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 336.4,
+        "x1": 560,
+        "y1": 665.2
+       }
+      }
+     ],
+     "text": "The tangent to the circle at P intersects the x-axis at point T. Given that k < 2 (c) calculate the exact area of triangle OPT. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 258,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 662.2,
+      "x1": 560,
+      "y1": 785.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1419,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 723.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_01_q10",
+   "number": 10,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_01/q10_stem.webp",
+     "w": 1016,
+     "h": 366,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 233.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q10_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 239.8,
+        "x1": 523.2,
+        "y1": 275.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q10_a_ms.webp",
+       "w": 1092,
+       "h": 281,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 72.8,
+        "x1": 560,
+        "y1": 207.0
+       }
+      }
+     ],
+     "text": "(a) Calculate the distance he will run on Sunday in week 5 under training plan A. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q10_b.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 281.8,
+        "x1": 523.2,
+        "y1": 373.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q10_b_ms.webp",
+       "w": 1092,
+       "h": 299,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 207.0,
+        "x1": 560,
+        "y1": 350.0
+       }
+      }
+     ],
+     "text": "In training plan B, he will increase the distance he runs each Sunday by the same percentage. (b) Calculate the distance he will run on Sunday in week 5 under training plan B. Give your answer in km to one decimal place. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_01/q10_c.webp",
+       "w": 1016,
+       "h": 349,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 379.8,
+        "x1": 523.2,
+        "y1": 546.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_01/q10_c_ms.webp",
+       "w": 1092,
+       "h": 561,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 350.0,
+        "x1": 560,
+        "y1": 619.0
+       }
+      }
+     ],
+     "text": "Owen will also run a fixed distance, x km, each Wednesday over the 12-week period. Given that ● x is an integer ● the total distance that Owen will run on Sundays and Wednesdays over the 12 weeks will not exceed 360 km (c) (i) find the maximum value of x, if he uses training plan A, (ii) find the maximum value of x, if he uses training plan B. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_01/q10_notes_1.webp",
+     "w": 1092,
+     "h": 1542,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 43.1,
+      "x1": 560,
+      "y1": 782.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_01/q10_notes_2.webp",
+     "w": 1092,
+     "h": 36,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 773.1,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

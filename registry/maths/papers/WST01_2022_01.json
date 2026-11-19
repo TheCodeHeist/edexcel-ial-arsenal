@@ -1,0 +1,1469 @@
+{
+ "id": "WST01_2022_01",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2022-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2022_01_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q1_stem.webp",
+     "w": 1016,
+     "h": 728,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 405.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q1_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 408.5,
+        "x1": 523.2,
+        "y1": 444.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 46.1,
+        "x1": 560,
+        "y1": 88.5
+       }
+      }
+     ],
+     "text": "(a) Find the probability that it does not have defective soles. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q1_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 446.7,
+        "x1": 523.2,
+        "y1": 482.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 62,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 88.5,
+        "x1": 560,
+        "y1": 118.0
+       }
+      }
+     ],
+     "text": "(b) Find P(A ∩ B ∩ C¢) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q1_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 484.7,
+        "x1": 523.2,
+        "y1": 520.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 153,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 118.0,
+        "x1": 560,
+        "y1": 190.7
+       }
+      }
+     ],
+     "text": "(c) Find P(A ∪ B ∪ C¢) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q1_d.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 522.6,
+        "x1": 523.2,
+        "y1": 558.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 190.7,
+        "x1": 560,
+        "y1": 263.5
+       }
+      }
+     ],
+     "text": "(d) Find the probability that the shoe has at most one type of defect. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q1_e.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 560.6,
+        "x1": 523.2,
+        "y1": 610.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 263.5,
+        "x1": 560,
+        "y1": 338.9
+       }
+      }
+     ],
+     "text": "(e) Given the selected shoe has at most one type of defect, find the probability it has defective stitching. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(f)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q1_f_1.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 612.6,
+        "x1": 523.2,
+        "y1": 686.0
+       }
+      },
+      {
+       "src": "maths/WST01_2022_01/q1_f_2.webp",
+       "w": 1016,
+       "h": 477,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 82.4,
+        "x1": 523.2,
+        "y1": 310.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q1_f_ms.webp",
+       "w": 1092,
+       "h": 226,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 338.9,
+        "x1": 560,
+        "y1": 446.9
+       }
+      }
+     ],
+     "text": "The random variable X is the number of the events A, B, C that occur for a randomly selected shoe. (f) Find E(X ) (3) This is a copy of the Venn diagram for this question. A B 0 1 9 2 3 5 93 7 C",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q1_notes.webp",
+     "w": 1092,
+     "h": 722,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 443.9,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(f): text after the marks",
+    "1(f): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2022_01_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q2_stem.webp",
+     "w": 1016,
+     "h": 259,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 180.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 186.0,
+        "x1": 523.2,
+        "y1": 221.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 239,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 47.2,
+        "x1": 560,
+        "y1": 161.4
+       }
+      }
+     ],
+     "text": "(a) Calculate the product moment correlation coefficient between d and p (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q2_b.webp",
+       "w": 1016,
+       "h": 204,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 224.0,
+        "x1": 523.2,
+        "y1": 321.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 48,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 161.4,
+        "x1": 560,
+        "y1": 184.2
+       }
+      },
+      {
+       "src": "maths/WST01_2022_01/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 81,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 184.2,
+        "x1": 560,
+        "y1": 222.6
+       }
+      }
+     ],
+     "text": "The amount of petrol remaining in the fuel tank for each journey, w litres, is recorded. (b) (i) Write down an equation for w in terms of p (ii) Hence, write down the value of the product moment correlation coefficient between w and p (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q2_c.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 323.9,
+        "x1": 523.2,
+        "y1": 373.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 123,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 222.6,
+        "x1": 560,
+        "y1": 281.1
+       }
+      }
+     ],
+     "text": "(c) Write down the value of the product moment correlation coefficient between d and w (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q2_notes.webp",
+     "w": 1092,
+     "h": 1067,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 278.1,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_01_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q3_stem.webp",
+     "w": 1016,
+     "h": 592,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 340.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q3_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 343.2,
+        "x1": 523.2,
+        "y1": 378.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 46.1,
+        "x1": 560,
+        "y1": 107.1
+       }
+      }
+     ],
+     "text": "(a) show that c = 9 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q3_b.webp",
+       "w": 1016,
+       "h": 382,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 381.2,
+        "x1": 523.2,
+        "y1": 564.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 107.1,
+        "x1": 560,
+        "y1": 187.5
+       }
+      }
+     ],
+     "text": "The number of deliveries made by Pat each day is represented by d The data in the stem and leaf diagram are coded using x = d – 125 and the following summary statistics are obtained ∑x = –96 and ∑(x – x ) 2 = 1306 (b) Find the mean number of deliveries. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q3_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 566.8,
+        "x1": 523.2,
+        "y1": 602.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 137,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 187.5,
+        "x1": 560,
+        "y1": 252.5
+       }
+      }
+     ],
+     "text": "(c) Find the standard deviation of the number of deliveries. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q3_d.webp",
+       "w": 1016,
+       "h": 204,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 604.8,
+        "x1": 523.2,
+        "y1": 702.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 227,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 252.5,
+        "x1": 560,
+        "y1": 361.0
+       }
+      }
+     ],
+     "text": "One of these 24 days is selected at random. The random variable D represents the number of deliveries made by Pat on this day. The random variable X = D –125 (d) Find P(D > 118½X < 0) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q3_notes.webp",
+     "w": 1092,
+     "h": 673,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 358.0,
+      "x1": 560,
+      "y1": 680.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_01_q4",
+   "number": 4,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q4_stem.webp",
+     "w": 1016,
+     "h": 132,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 119.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q4_a.webp",
+       "w": 1016,
+       "h": 76,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 124.1,
+        "x1": 523.2,
+        "y1": 159.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 72.1,
+        "x1": 560,
+        "y1": 114.9
+       }
+      }
+     ],
+     "text": "(a) Find P(2  W < 3.5) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q4_b.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 162.5,
+        "x1": 523.2,
+        "y1": 221.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 114.9,
+        "x1": 560,
+        "y1": 176.6
+       }
+      }
+     ],
+     "text": "The discrete random variable X = 5 – 2W (b) Find E(X ) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q4_c.webp",
+       "w": 1016,
+       "h": 73,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 224.4,
+        "x1": 523.2,
+        "y1": 258.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 176.6,
+        "x1": 560,
+        "y1": 240.8
+       }
+      }
+     ],
+     "text": "(c) Find P(X < W ) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q4_d.webp",
+       "w": 1016,
+       "h": 255,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 258.9,
+        "x1": 523.2,
+        "y1": 381.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q4_d_ms_1.webp",
+       "w": 1092,
+       "h": 171,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 240.8,
+        "x1": 560,
+        "y1": 322.4
+       }
+      },
+      {
+       "src": "maths/WST01_2022_01/q4_d_ms_2.webp",
+       "w": 1092,
+       "h": 217,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 322.4,
+        "x1": 560,
+        "y1": 426.1
+       }
+      }
+     ],
+     "text": "The discrete random variable Y = 1 W (d) Find (i) the probability distribution of Y (ii) Var(Y), showing your working. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q4_e.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 383.6,
+        "x1": 523.2,
+        "y1": 419.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q4_e_ms.webp",
+       "w": 1092,
+       "h": 137,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 426.1,
+        "x1": 560,
+        "y1": 491.2
+       }
+      }
+     ],
+     "text": "(e) Find Var(2 – 3Y) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q4_notes.webp",
+     "w": 1092,
+     "h": 629,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 488.2,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_01_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q5_stem.webp",
+     "w": 1016,
+     "h": 96,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 102.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q5_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 523.2,
+        "y1": 154.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 135.5
+       }
+      }
+     ],
+     "text": "(a) Find the probability that a particular value generated by the computer program is less than 37 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q5_b.webp",
+       "w": 1016,
+       "h": 254,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 157.1,
+        "x1": 523.2,
+        "y1": 278.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 161,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 135.5,
+        "x1": 560,
+        "y1": 212.6
+       }
+      }
+     ],
+     "text": "Jia changes the mean to m but leaves the standard deviation as 2.4 The computer program then randomly generates 2 independent values from this normal distribution. The probability that both of these values are greater than 32 is 0.16 (b) Find the value of m, giving your answer to 2 decimal places. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q5_c.webp",
+       "w": 1016,
+       "h": 204,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 281.1,
+        "x1": 523.2,
+        "y1": 378.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 267,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 212.6,
+        "x1": 560,
+        "y1": 339.9
+       }
+      }
+     ],
+     "text": "Jia now changes the mean to 4 and the standard deviation to 8 The computer program then randomly generates 5 independent values from this normal distribution. (c) Find the probability that at least one of these values is negative. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q5_notes.webp",
+     "w": 1092,
+     "h": 734,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 336.9,
+      "x1": 560,
+      "y1": 688.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2022_01_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q6_stem.webp",
+     "w": 1016,
+     "h": 1017,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 544.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 547.4,
+        "x1": 523.2,
+        "y1": 582.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 66,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 105.1
+       }
+      }
+     ],
+     "text": "(a) Use the regression model to find the mean number of marks on the final exam. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q6_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 585.3,
+        "x1": 523.2,
+        "y1": 620.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 55,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 105.1,
+        "x1": 560,
+        "y1": 130.9
+       }
+      }
+     ],
+     "text": "(b) Give an interpretation of the gradient of the regression line. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q6_c.webp",
+       "w": 1016,
+       "h": 154,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 623.3,
+        "x1": 523.2,
+        "y1": 696.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 29,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 130.9,
+        "x1": 560,
+        "y1": 144.1
+       }
+      }
+     ],
+     "text": "Considering the equation of the regression line, Priya says that she would expect someone who scored 0 marks on the pre‑test to score 10.8 marks on the final exam. (c) Comment on the reliability of Priya’s statement. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q6_d.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 699.3,
+        "x1": 523.2,
+        "y1": 748.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 144.1,
+        "x1": 560,
+        "y1": 157.2
+       }
+      }
+     ],
+     "text": "(d) Write down the number of marks achieved on the final exam for the student who exceeded the expectation of the regression model by the largest number of marks. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q6_e_1.webp",
+       "w": 1016,
+       "h": 46,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 755.7,
+        "x1": 523.2,
+        "y1": 777.3
+       }
+      },
+      {
+       "src": "maths/WST01_2022_01/q6_e_2.webp",
+       "w": 1016,
+       "h": 53,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 761.7,
+        "x1": 523.2,
+        "y1": 786.3
+       }
+      },
+      {
+       "src": "maths/WST01_2022_01/q6_e_3.webp",
+       "w": 1016,
+       "h": 110,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 78.0,
+        "x1": 523.2,
+        "y1": 130.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q6_e_ms.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 157.2,
+        "x1": 560,
+        "y1": 206.3
+       }
+      }
+     ],
+     "text": "Question 6 continues on page 24. Question 6 continues on page 24. (e) Find the range of values of p for which this regression model, f = 10.8 + 0.748 p, predicts a greater number of marks on the final exam than on the pre‑test. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(f)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q6_f.webp",
+       "w": 1016,
+       "h": 372,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 133.0,
+        "x1": 523.2,
+        "y1": 311.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q6_f_ms.webp",
+       "w": 1092,
+       "h": 547,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 206.3,
+        "x1": 560,
+        "y1": 468.1
+       }
+      }
+     ],
+     "text": "Later the teacher discovers an error in the recorded data. The student who achieved a score of 98 on the pre‑test, scored 92 not 29 on the final exam. The summary statistics used for the model f = 10.8 + 0.748 p are corrected to include this information and a new least squares regression line is found. Given the original summary statistics were, n = 34 ∑p = 2120 ∑pf = 133 486 Spp = 15 573.76 Spf = 11 648.35 (f) calculate the gradient of the new regression line. Show your working clearly. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q6_notes.webp",
+     "w": 1092,
+     "h": 678,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 465.1,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(e): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2022_01_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2022_01/q7_stem.webp",
+     "w": 1016,
+     "h": 376,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 523.2,
+      "y1": 236.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q7_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 251.0,
+        "x1": 523.2,
+        "y1": 286.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 72.1,
+        "x1": 560,
+        "y1": 164.6
+       }
+      }
+     ],
+     "text": "(a) Show that n(n – 1)(n – 2) = 7980 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q7_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 288.9,
+        "x1": 523.2,
+        "y1": 324.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 83,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 164.6,
+        "x1": 560,
+        "y1": 203.6
+       }
+      }
+     ],
+     "text": "(b) Verify that n = 21 satisfies the equation in part (a). (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2022_01/q7_c.webp",
+       "w": 1016,
+       "h": 124,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 326.9,
+        "x1": 523.2,
+        "y1": 386.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2022_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 397,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 203.6,
+        "x1": 560,
+        "y1": 393.7
+       }
+      }
+     ],
+     "text": "Given that n = 21 (c) find the exact value of a and the exact value of b (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2022_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 787,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 390.7,
+      "x1": 560,
+      "y1": 767.6
+     }
+    },
+    {
+     "src": "maths/WST01_2022_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 716.6,
+      "x1": 560,
+      "y1": 746.1
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

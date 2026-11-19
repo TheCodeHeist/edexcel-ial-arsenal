@@ -1,0 +1,957 @@
+{
+ "id": "WME02_2024_01",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2024-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Mechanics/M2/QP/January 2024 QP.pdf",
+   "via": {
+    "name": "Physics & Maths Tutor",
+    "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+    "credit": "Archived by Physics & Maths Tutor."
+   }
+  },
+  "ms": {
+   "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Mechanics/M2/MS/January 2024 MS.pdf",
+   "via": {
+    "name": "Physics & Maths Tutor",
+    "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+    "credit": "Archived by Physics & Maths Tutor."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2024_01_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q1_stem.webp",
+     "w": 1090,
+     "h": 195,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 149.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 152.7,
+        "x1": 559,
+        "y1": 188.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 299,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 203.7
+       }
+      }
+     ],
+     "text": "(a) the values of t for which P is instantaneously at rest (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q1_b.webp",
+       "w": 1090,
+       "h": 76,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 190.3,
+        "x1": 559,
+        "y1": 226.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 203.7,
+        "x1": 560,
+        "y1": 277.6
+       }
+      }
+     ],
+     "text": "(b) the distance travelled by P in the interval 1  t  3 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q1_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 228.7,
+        "x1": 559,
+        "y1": 264.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 263,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 277.6,
+        "x1": 560,
+        "y1": 403.3
+       }
+      }
+     ],
+     "text": "(c) the magnitude of the acceleration of P at the instant when t = 3 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q2_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 116.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 119.0,
+        "x1": 559,
+        "y1": 154.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 484,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 292.6
+       }
+      }
+     ],
+     "text": "(a) Find the speed of Q immediately after receiving the impulse. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q2_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 156.9,
+        "x1": 559,
+        "y1": 230.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 463,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 292.6,
+        "x1": 560,
+        "y1": 514.2
+       }
+      }
+     ],
+     "text": "As a result of receiving the impulse, the direction of motion of Q is turned through an angle θ° (b) Find the value of θ (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q3_stem.webp",
+     "w": 1090,
+     "h": 706,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 395.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 397.7,
+        "x1": 559,
+        "y1": 433.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 566,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 331.8
+       }
+      }
+     ],
+     "text": "(a) Use the model to find the total work done in pushing the block from A to B. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q3_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 435.9,
+        "x1": 559,
+        "y1": 509.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 468,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 331.8,
+        "x1": 560,
+        "y1": 556.2
+       }
+      }
+     ],
+     "text": "The block is now held at B and released from rest. (b) Use the model and the work‑energy principle to find the speed of the block at the instant it reaches A. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q4_stem.webp",
+     "w": 1090,
+     "h": 636,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 361.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q4_a.webp",
+       "w": 1090,
+       "h": 103,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 364.2,
+        "x1": 559,
+        "y1": 412.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 929,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 506.2
+       }
+      }
+     ],
+     "text": "(a) Show that d = 71 40 a (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q4_b.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 415.4,
+        "x1": 559,
+        "y1": 522.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 512,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 506.2,
+        "x1": 560,
+        "y1": 751.5
+       }
+      }
+     ],
+     "text": "The weight of L is 4W. A particle of weight W is attached to L at C. The folded lamina L is freely suspended from S. A force of magnitude F, acting parallel to DC, is applied to L at D so that AD is vertical. (b) Find F in terms of W (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q5_stem.webp",
+     "w": 1090,
+     "h": 787,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 434.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 437.1,
+        "x1": 559,
+        "y1": 472.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 642,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 368.4
+       }
+      }
+     ],
+     "text": "(a) Find the deceleration of the van at this instant. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 475.1,
+        "x1": 559,
+        "y1": 510.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 408,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 368.4,
+        "x1": 560,
+        "y1": 563.7
+       }
+      }
+     ],
+     "text": "(b) Find the tension in the towbar at this instant. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q6_stem.webp",
+     "w": 1090,
+     "h": 708,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 396.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 399.1,
+        "x1": 559,
+        "y1": 434.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 476,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 60.8,
+        "x1": 560,
+        "y1": 288.8
+       }
+      }
+     ],
+     "text": "(a) show that P = 22.4 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 437.0,
+        "x1": 559,
+        "y1": 472.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 538,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 288.8,
+        "x1": 560,
+        "y1": 546.6
+       }
+      },
+      {
+       "src": "maths/WME02_2024_01/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 1122,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 57.8,
+        "x1": 560,
+        "y1": 595.8
+       }
+      }
+     ],
+     "text": "(b) find the magnitude of the resultant force acting on the beam at A. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q7",
+   "number": 7,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q7_stem.webp",
+     "w": 1090,
+     "h": 374,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 236.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q7_a.webp",
+       "w": 1090,
+       "h": 66,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 238.8,
+        "x1": 559,
+        "y1": 269.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 656,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 61.1,
+        "x1": 560,
+        "y1": 375.5
+       }
+      }
+     ],
+     "text": "(a) Find the complete range of possible values of e. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q7_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 269.9,
+        "x1": 559,
+        "y1": 343.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 473,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 375.5,
+        "x1": 560,
+        "y1": 601.9
+       }
+      }
+     ],
+     "text": "Given that e = 3 5 (b) find the total kinetic energy lost in the collision between P and Q. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q7_c.webp",
+       "w": 1090,
+       "h": 304,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 345.8,
+        "x1": 559,
+        "y1": 491.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 296,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 601.9,
+        "x1": 560,
+        "y1": 743.5
+       }
+      }
+     ],
+     "text": "After the collision, Q hits a smooth fixed vertical wall that is perpendicular to the direction of motion of Q. Particle Q rebounds. The coefficient of restitution between Q and the wall is f. Given that there is a second collision between P and Q, (c) find the complete range of possible values of f. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2024_01_q8",
+   "number": 8,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME02_2024_01/q8_stem.webp",
+     "w": 1090,
+     "h": 442,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 268.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 271.5,
+        "x1": 559,
+        "y1": 307.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q8_a_ms_1.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 738.6,
+        "x1": 560,
+        "y1": 780.1
+       }
+      },
+      {
+       "src": "maths/WME02_2024_01/q8_a_ms_2.webp",
+       "w": 1092,
+       "h": 506,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 58.1,
+        "x1": 560,
+        "y1": 300.9
+       }
+      }
+     ],
+     "text": "(a) Find the distance AB. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q8_b.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 309.1,
+        "x1": 559,
+        "y1": 368.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 271,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 300.9,
+        "x1": 560,
+        "y1": 430.2
+       }
+      }
+     ],
+     "text": "–1 for an interval of length T seconds. The speed of P is less than 5 m s (b) Find the value of T (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2024_01/q8_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 371.5,
+        "x1": 559,
+        "y1": 444.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2024_01/q8_c_ms_1.webp",
+       "w": 1092,
+       "h": 293,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 430.2,
+        "x1": 560,
+        "y1": 570.7
+       }
+      },
+      {
+       "src": "maths/WME02_2024_01/q8_c_ms_2.webp",
+       "w": 1092,
+       "h": 293,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 570.7,
+        "x1": 560,
+        "y1": 710.8
+       }
+      }
+     ],
+     "text": "At the instant when the direction of motion of P is perpendicular to the initial direction of motion of P, the particle is h metres above the ground. (c) Find the value of h. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2024_01/q8_notes.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 746.6,
+      "x1": 560,
+      "y1": 776.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

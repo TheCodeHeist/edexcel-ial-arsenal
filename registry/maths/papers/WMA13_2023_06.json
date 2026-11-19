@@ -1,0 +1,1531 @@
+{
+ "id": "WMA13_2023_06",
+ "subject": "maths",
+ "unit": "WMA13",
+ "series": "2023-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_P3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_P3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA13_2023_06_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q1_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 78.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q1_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 81.2,
+        "x1": 559,
+        "y1": 116.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 104,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 66.3,
+        "x1": 560,
+        "y1": 115.7
+       }
+      }
+     ],
+     "text": "(a) Show that g(x) = 0 has a root α in the interval [3, 4] (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q1_b.webp",
+       "w": 1090,
+       "h": 275,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 250.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 150,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 115.7,
+        "x1": 560,
+        "y1": 187.4
+       }
+      }
+     ],
+     "text": "Using the iteration formula x 1 O 1000 3 2 x with x O 3 6 n 1 n 1 (b) (i) find, to 4 decimal places, the value of x2 (ii) find, by repeated iteration, the value of α. Give your answer to 4 decimal places. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q1_notes.webp",
+     "w": 1092,
+     "h": 417,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 184.4,
+      "x1": 560,
+      "y1": 384.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q2_stem.webp",
+     "w": 1090,
+     "h": 688,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 386.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 389.6,
+        "x1": 559,
+        "y1": 449.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 41,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 67.1,
+        "x1": 560,
+        "y1": 86.1
+       }
+      },
+      {
+       "src": "maths/WMA13_2023_06/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 86.1,
+        "x1": 560,
+        "y1": 147.9
+       }
+      }
+     ],
+     "text": "(a) (i) Find an equation linking log6 T and log6 x (ii) Hence find the exact value of T when x = 216 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q2_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 451.5,
+        "x1": 559,
+        "y1": 487.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 237,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 147.9,
+        "x1": 560,
+        "y1": 261.5
+       }
+      }
+     ],
+     "text": "(b) Find an equation, not involving logs, linking T with x (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q2_notes.webp",
+     "w": 1092,
+     "h": 936,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 258.5,
+      "x1": 560,
+      "y1": 707.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q3_i.webp",
+       "w": 1090,
+       "h": 90,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 61.0,
+        "x1": 559,
+        "y1": 104.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q3_i_ms.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 57.3,
+        "x1": 560,
+        "y1": 109.3
+       }
+      }
+     ],
+     "text": "3. (i) Find d . / writing your answer in simplest form. 2 3 x ln sin dx (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q3_ii.webp",
+       "w": 1090,
+       "h": 108,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 107.0,
+        "x1": 559,
+        "y1": 157.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q3_ii_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 109.3,
+        "x1": 560,
+        "y1": 155.7
+       }
+      },
+      {
+       "src": "maths/WMA13_2023_06/q3_ii_ms_2.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 155.7,
+        "x1": 560,
+        "y1": 286.6
+       }
+      }
+     ],
+     "text": "(ii) (a) Find d . / 6 x 2 3 3 4 dx (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q3_ii_b.webp",
+       "w": 1090,
+       "h": 270,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 160.5,
+        "x1": 559,
+        "y1": 289.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q3_ii_b_ms_1.webp",
+       "w": 1092,
+       "h": 98,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 109.3,
+        "x1": 560,
+        "y1": 155.7
+       }
+      },
+      {
+       "src": "maths/WMA13_2023_06/q3_ii_b_ms_2.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 155.7,
+        "x1": 560,
+        "y1": 286.6
+       }
+      }
+     ],
+     "text": "(b) Hence show that 2 \u001b 5 d . / x x 2 3 x O R 3 4 0 where R is an integer to be found. (Solutions relying on calculator technology are not acceptable.) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 1056,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 283.6,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 546,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 301.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q4_stem.webp",
+     "w": 1090,
+     "h": 102,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 105.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 105.6,
+        "x1": 559,
+        "y1": 141.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 206,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 165.2
+       }
+      }
+     ],
+     "text": "(a) State the range of f (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 143.5,
+        "x1": 559,
+        "y1": 217.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 165.2,
+        "x1": 560,
+        "y1": 256.9
+       }
+      }
+     ],
+     "text": "On the following page there is a diagram, labelled Diagram 1, which shows a sketch of the curve with equation y = f(x). –1(x). (b) On Diagram 1, sketch the curve with equation y = f (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q4_c_1.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 220.3,
+        "x1": 559,
+        "y1": 317.7
+       }
+      },
+      {
+       "src": "maths/WMA13_2023_06/q4_c_2.webp",
+       "w": 1090,
+       "h": 440,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 64.9,
+        "x1": 559,
+        "y1": 275.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 239,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 256.9,
+        "x1": 560,
+        "y1": 371.1
+       }
+      }
+     ],
+     "text": "The curve with equation y = f(x) meets the curve with equation y = f –1(x) at the point P Using algebra and showing your working, (c) find the exact x coordinate of P (3) Question 4 continued y y = f(x) O x Diagram 1",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q4_notes_1.webp",
+     "w": 1092,
+     "h": 657,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 368.1,
+      "x1": 560,
+      "y1": 682.9
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1258,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 40.5,
+      "x1": 560,
+      "y1": 643.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(c): text cut by a crop edge",
+    "4(c): text after the marks",
+    "4(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WMA13_2023_06_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q5_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q5_i.webp",
+       "w": 1090,
+       "h": 151,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 109.4,
+        "x1": 559,
+        "y1": 181.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q5_i_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 74.1,
+        "x1": 560,
+        "y1": 160.8
+       }
+      }
+     ],
+     "text": "(i) Solve, for 0 < x < π . / O . / x 3 2 3 sec x 1 2 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q5_ii.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 183.7,
+        "x1": 559,
+        "y1": 243.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q5_ii_ms.webp",
+       "w": 1092,
+       "h": 235,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 160.8,
+        "x1": 560,
+        "y1": 273.1
+       }
+      }
+     ],
+     "text": "(ii) Solve, for 0 < θ < 360° 10 sin θ = 3 cos 2θ (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q5_notes.webp",
+     "w": 1092,
+     "h": 1084,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 270.1,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q6_stem.webp",
+     "w": 1090,
+     "h": 707,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 395.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 398.6,
+        "x1": 559,
+        "y1": 434.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 65.3,
+        "x1": 560,
+        "y1": 107.0
+       }
+      }
+     ],
+     "text": "(a) Find the coordinates of P (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 436.6,
+        "x1": 559,
+        "y1": 472.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 117,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 107.0,
+        "x1": 560,
+        "y1": 162.4
+       }
+      }
+     ],
+     "text": "(b) Find ff(0) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q6_c.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 474.6,
+        "x1": 559,
+        "y1": 534.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 166,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 162.4,
+        "x1": 560,
+        "y1": 241.5
+       }
+      }
+     ],
+     "text": "(c) Solve the inequality 3½x – 2½ – 10 < 5x + 10 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q6_d.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 536.9,
+        "x1": 559,
+        "y1": 596.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 371,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 241.5,
+        "x1": 560,
+        "y1": 419.5
+       }
+      }
+     ],
+     "text": "(d) Solve the equation f(½x½) = 0 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 779,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 416.5,
+      "x1": 560,
+      "y1": 789.6
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 468,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 264.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q7_stem.webp",
+     "w": 1090,
+     "h": 334,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 216.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 219.5,
+        "x1": 559,
+        "y1": 254.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 66.3,
+        "x1": 560,
+        "y1": 146.9
+       }
+      }
+     ],
+     "text": "(a) find the exact value of A and the value of k to 4 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q7_b.webp",
+       "w": 1090,
+       "h": 255,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 257.5,
+        "x1": 559,
+        "y1": 379.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 146.9,
+        "x1": 560,
+        "y1": 188.5
+       }
+      }
+     ],
+     "text": "The number of bacteria N in the second population is modelled by the equation –0.6t t  0 N = 60 000e where t is the time in hours from the start of the study. (b) Find the rate of decrease of bacteria in this population exactly 5 hours from the start of the study. Give your answer to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q7_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 381.8,
+        "x1": 559,
+        "y1": 465.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 179,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 188.5,
+        "x1": 560,
+        "y1": 273.7
+       }
+      }
+     ],
+     "text": "When t = T, the number of bacteria in the two different populations was the same. (c) Find the value of T, giving your answer to 3 significant figures. (Solutions relying entirely on calculator technology are not acceptable.) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q7_notes.webp",
+     "w": 1092,
+     "h": 1018,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 270.7,
+      "x1": 560,
+      "y1": 758.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q8",
+   "number": 8,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q8_stem.webp",
+     "w": 1090,
+     "h": 620,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 353.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q8_a.webp",
+       "w": 1090,
+       "h": 176,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 356.6,
+        "x1": 559,
+        "y1": 440.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 171,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 148.8
+       }
+      }
+     ],
+     "text": "(a) Show that f′(x) = A(2x + 1) 2 (1 – 4x) e –4x where A is a constant to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q8_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 443.0,
+        "x1": 559,
+        "y1": 478.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 234,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 148.8,
+        "x1": 560,
+        "y1": 260.4
+       }
+      }
+     ],
+     "text": "(b) Hence find the exact coordinates of the two stationary points on C. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q8_c.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 480.9,
+        "x1": 559,
+        "y1": 578.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q8_c_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 260.4,
+        "x1": 560,
+        "y1": 324.7
+       }
+      }
+     ],
+     "text": "The function g is defined by g(x) = 8f(x – 2) (c) Find the coordinates of the maximum stationary point on the curve with equation y = g(x) . (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 973,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 321.7,
+      "x1": 560,
+      "y1": 788.5
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 391,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 227.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA13_2023_06_q9",
+   "number": 9,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q9_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q9_a.webp",
+       "w": 1090,
+       "h": 158,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 180.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 234,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 178.8
+       }
+      }
+     ],
+     "text": "(a) Show that nπ x x cos 2 sin 2 1 cosec x x ≠ 2 n ∈  x x sin cos (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q9_b.webp",
+       "w": 1090,
+       "h": 271,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 182.0,
+        "x1": 559,
+        "y1": 311.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 227,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 178.8,
+        "x1": 560,
+        "y1": 287.4
+       }
+      }
+     ],
+     "text": "π (b) Hence solve, for 0 < θ < 2 2 θ θ  cos2 sin 2  +  = 6 cot θ – 4    θ θ sin cos giving your answers to 3 significant figures as appropriate. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q9_c_1.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 314.2,
+        "x1": 559,
+        "y1": 421.4
+       }
+      },
+      {
+       "src": "maths/WMA13_2023_06/q9_c_2.webp",
+       "w": 1090,
+       "h": 51,
+       "region": {
+        "page": 29,
+        "x0": 36,
+        "y0": 653.4,
+        "x1": 559,
+        "y1": 677.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q9_c_ms.webp",
+       "w": 1092,
+       "h": 212,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 287.4,
+        "x1": 560,
+        "y1": 388.8
+       }
+      }
+     ],
+     "text": "(c) Using the result from part (a), or otherwise, find the exact value of π ∫ x x cos2 sin 2 4   + x x cot d     x x sin cos π 6 (2) v____________________________________________________________________________________",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q9_notes_1.webp",
+     "w": 1092,
+     "h": 843,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 385.8,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1015,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 67.7,
+      "x1": 560,
+      "y1": 554.4
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "9(c): text after the marks",
+    "9(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WMA13_2023_06_q10",
+   "number": 10,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA13_2023_06/q10_stem.webp",
+     "w": 1090,
+     "h": 708,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 396.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q10_a.webp",
+       "w": 1090,
+       "h": 92,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 396.4,
+        "x1": 559,
+        "y1": 439.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q10_a_ms.webp",
+       "w": 1092,
+       "h": 213,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 168.8
+       }
+      }
+     ],
+     "text": "(a) Find y giving your answer as a fully simplified fraction. d (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA13_2023_06/q10_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 442.4,
+        "x1": 559,
+        "y1": 515.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA13_2023_06/q10_b_ms.webp",
+       "w": 1092,
+       "h": 310,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 168.8,
+        "x1": 560,
+        "y1": 317.1
+       }
+      }
+     ],
+     "text": "The tangents at points P and Q on the curve are parallel to the y-axis, as shown in Figure 4. (b) Use the answer to part (a) to find the equations of these two tangents. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2023_06/q10_notes_1.webp",
+     "w": 1092,
+     "h": 990,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 314.1,
+      "x1": 560,
+      "y1": 789.0
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1141,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 587.1
+     }
+    },
+    {
+     "src": "maths/WMA13_2023_06/q10_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 708.0,
+      "x1": 560,
+      "y1": 737.4
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "10(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
+  }
+ ]
+}

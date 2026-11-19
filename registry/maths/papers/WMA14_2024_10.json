@@ -1,0 +1,1322 @@
+{
+ "id": "WMA14_2024_10",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2024-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2024/P4_QP_1777745486910.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2024/P4_MS_1777745485780.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2024_10_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q1_a.webp",
+       "w": 1090,
+       "h": 223,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 163.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q1_a_ms.webp",
+       "w": 1092,
+       "h": 258,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 100.1,
+        "x1": 560,
+        "y1": 223.6
+       }
+      }
+     ],
+     "text": "1. (a) Find the first 4 terms of the binomial expansion, in ascending powers of x, of 1 8 . / 3 8 3 3 x x N 3 3 giving each coefficient as a simplified fraction. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q1_b.webp",
+       "w": 1090,
+       "h": 98,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 163.7,
+        "x1": 559,
+        "y1": 210.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q1_b_ms.webp",
+       "w": 1092,
+       "h": 240,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 223.6,
+        "x1": 560,
+        "y1": 338.1
+       }
+      }
+     ],
+     "text": "(b) Use the answer from part (a) with x = 2 3 to find a rational approximation to 3 6 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q1_notes_1.webp",
+     "w": 1092,
+     "h": 865,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 335.1,
+      "x1": 560,
+      "y1": 750.0
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q1_notes_2.webp",
+     "w": 1092,
+     "h": 811,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 68.9,
+      "x1": 560,
+      "y1": 457.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q2",
+   "number": 2,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q2.webp",
+       "w": 1090,
+       "h": 402,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 249.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q2_ms.webp",
+       "w": 1092,
+       "h": 455,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 101.3,
+        "x1": 560,
+        "y1": 319.3
+       }
+      }
+     ],
+     "text": "2. In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. The curve C1 has equation 4 2 8 x ∈  y O x 1 10 x 1 The curve C2 has equation 2 y O 2 x 3 7 x ∈  Use algebra to prove by contradiction that C1 and C2 do not intersect. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q2_notes_1.webp",
+     "w": 1092,
+     "h": 717,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 326.2,
+      "x1": 560,
+      "y1": 669.7
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1038,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 565.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2024_10/q3_stem.webp",
+     "w": 1090,
+     "h": 562,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 326.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q3_a.webp",
+       "w": 1090,
+       "h": 216,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 340.4,
+        "x1": 559,
+        "y1": 443.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 226,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 113.9,
+        "x1": 560,
+        "y1": 222.0
+       }
+      }
+     ],
+     "text": "(a) Show that y d θ ≠ 0 x O k cosec θ d where k is a constant to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q3_b.webp",
+       "w": 1090,
+       "h": 180,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 443.9,
+        "x1": 559,
+        "y1": 529.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 222.0,
+        "x1": 560,
+        "y1": 328.8
+       }
+      }
+     ],
+     "text": "π The point P lies on C where θ O 6 (b) Find the equation of the tangent to C at P, giving your answer in the form ax + by + c = 0 where a, b and c are integers. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q3_c.webp",
+       "w": 1090,
+       "h": 205,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 532.1,
+        "x1": 559,
+        "y1": 630.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q3_c_ms.webp",
+       "w": 1092,
+       "h": 461,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 328.8,
+        "x1": 560,
+        "y1": 549.3
+       }
+      }
+     ],
+     "text": "(c) Show that C has Cartesian equation . / 3 2   8 x O 9 2 3 y 3 q x q where q is a constant to be found. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 453,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 547.5,
+      "x1": 560,
+      "y1": 764.6
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1465,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 771.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2024_10/q4_stem.webp",
+     "w": 1090,
+     "h": 669,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 377.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q4_a.webp",
+       "w": 1090,
+       "h": 63,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 380.4,
+        "x1": 559,
+        "y1": 410.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 68,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 100.1,
+        "x1": 560,
+        "y1": 132.1
+       }
+      }
+     ],
+     "text": "(a) Verify that P lies on C. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q4_b.webp",
+       "w": 1090,
+       "h": 92,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 410.2,
+        "x1": 559,
+        "y1": 453.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 320,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 132.1,
+        "x1": 560,
+        "y1": 285.1
+       }
+      }
+     ],
+     "text": "(b) Find d y x in terms of x and y. d (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 456.4,
+        "x1": 559,
+        "y1": 529.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 224,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 285.1,
+        "x1": 560,
+        "y1": 392.3
+       }
+      }
+     ],
+     "text": "The normal to C at P crosses the x-axis at a point Q. (c) Find the x coordinate of Q, giving your answer in the form a + b ln 2 where a and b are integers. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q4_notes_1.webp",
+     "w": 1092,
+     "h": 680,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 389.3,
+      "x1": 560,
+      "y1": 715.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q4_notes_2.webp",
+     "w": 1092,
+     "h": 803,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 68.8,
+      "x1": 560,
+      "y1": 453.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q5",
+   "number": 5,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA14_2024_10/q5_stem.webp",
+     "w": 1090,
+     "h": 673,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 379.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q5_a.webp",
+       "w": 1090,
+       "h": 278,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 382.3,
+        "x1": 559,
+        "y1": 515.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 175,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 100.1,
+        "x1": 560,
+        "y1": 183.8
+       }
+      }
+     ],
+     "text": "(a) Show that 3 πh 4 V O 75 [The volume V of a right circular cone with vertical height h and base radius r is given by the formula V = 1 2h] 3 πr (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q5_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 517.5,
+        "x1": 559,
+        "y1": 591.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 370,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 183.8,
+        "x1": 560,
+        "y1": 360.7
+       }
+      }
+     ],
+     "text": "3 s –1 Given that water flows into the container at a constant rate of 2π cm –1, the rate at which h is changing, exactly 1.5 minutes after water starts (b) find, in cm s flowing into the container. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q5_notes_1.webp",
+     "w": 1092,
+     "h": 786,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 357.7,
+      "x1": 560,
+      "y1": 734.6
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q5_notes_2.webp",
+     "w": 1092,
+     "h": 874,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 68.9,
+      "x1": 560,
+      "y1": 487.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q6",
+   "number": 6,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q6.webp",
+       "w": 1090,
+       "h": 256,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 64.3,
+        "x1": 559,
+        "y1": 186.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q6_ms.webp",
+       "w": 1092,
+       "h": 723,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 102.9,
+        "x1": 560,
+        "y1": 449.7
+       }
+      }
+     ],
+     "text": "6. Use the substitution u 3 O x 1 1 to show that \u001a 5 9 x . / . / 1 k 3 3 x O x 1 x 3 A c d 2 1 3 x 1 1 where k and A are constants to be found and c is an arbitrary constant. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q6_notes.webp",
+     "w": 1092,
+     "h": 679,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 446.7,
+      "x1": 560,
+      "y1": 772.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2024_10/q7_stem.webp",
+     "w": 1090,
+     "h": 552,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 321.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q7_a.webp",
+       "w": 1090,
+       "h": 232,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 331.2,
+        "x1": 559,
+        "y1": 442.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 170,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 100.1,
+        "x1": 560,
+        "y1": 181.2
+       }
+      }
+     ],
+     "text": "(a) Show that x B 3 3 1 A 1 x x 1 2 1 2 where A and B are constants to be found. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q7_b.webp",
+       "w": 1090,
+       "h": 351,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 445.0,
+        "x1": 559,
+        "y1": 613.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 823,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 181.2,
+        "x1": 560,
+        "y1": 575.5
+       }
+      }
+     ],
+     "text": "The finite region R, shown shaded in Figure 4, is bounded by the curve, the line with equation x = 4, the x-axis and the line with equation x = 1 This region is rotated through 2π radians about the x-axis to form a solid of revolution. (b) Use the answer to part (a) and algebraic integration to find the exact volume of the solid generated, giving your answer in the form π( p + q ln 2) where p and q are rational constants. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 386,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 573.5,
+      "x1": 560,
+      "y1": 758.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1409,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 68.8,
+      "x1": 560,
+      "y1": 744.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA14_2024_10/q8_stem.webp",
+     "w": 1090,
+     "h": 200,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 152.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 152.9,
+        "x1": 559,
+        "y1": 188.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 170,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 99.7,
+        "x1": 560,
+        "y1": 180.9
+       }
+      }
+     ],
+     "text": "(a) Find a vector equation for l1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q8_b.webp",
+       "w": 1090,
+       "h": 362,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 190.9,
+        "x1": 559,
+        "y1": 364.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 143,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 180.9,
+        "x1": 560,
+        "y1": 248.9
+       }
+      }
+     ],
+     "text": "The line l2 has equation 3 3 r O p 1 μ 3 4 q 1 \u0018 \u0017 \u0018 \u0017 where p and q are constants and μ is a scalar parameter. Given that l1 and l2 intersect at B, (b) find the value of p and the value of q. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q8_c.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 366.8,
+        "x1": 559,
+        "y1": 426.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q8_c_ms.webp",
+       "w": 1092,
+       "h": 189,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 248.9,
+        "x1": 560,
+        "y1": 339.0
+       }
+      }
+     ],
+     "text": "The acute angle between l1 and l2 is θ (c) Find the exact value of cos θ (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q8_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 428.8,
+        "x1": 559,
+        "y1": 488.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q8_d_ms.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 339.0,
+        "x1": 560,
+        "y1": 445.5
+       }
+      }
+     ],
+     "text": "Given that the point C lies on l2 such that AC is perpendicular to l2 (d) find the exact length of AC, giving your answer as a surd. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 682,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 442.5,
+      "x1": 560,
+      "y1": 769.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1440,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 758.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2024_10_q9",
+   "number": 9,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 67.4,
+        "x1": 559,
+        "y1": 103.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q9_a_ms.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 100.1,
+        "x1": 560,
+        "y1": 186.5
+       }
+      }
+     ],
+     "text": "1 9. (a) Express in partial fractions. . / x x 3 2 1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q9_b.webp",
+       "w": 1090,
+       "h": 549,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 105.6,
+        "x1": 559,
+        "y1": 368.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q9_b_ms.webp",
+       "w": 1092,
+       "h": 607,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 186.5,
+        "x1": 560,
+        "y1": 477.5
+       }
+      }
+     ],
+     "text": "The height above ground, h metres, of a carriage on a fairground ride is modelled by the differential equation d h 1 t \u001b \u0018 . / h h O 2 3 1 cos \u001a\u0019 \u0017\u0016 d t 50 10 where t seconds is the time after the start of the ride. Given that, at the start of the ride, the carriage is 2.5 m above ground, (b) solve the differential equation to show that, according to the model, 5 h O t \u001a k sin \u001b \u0019\u0018 10 10 3 8 e where k is a constant to be found. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q9_c.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 371.0,
+        "x1": 559,
+        "y1": 463.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q9_c_ms.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 480.0,
+        "x1": 560,
+        "y1": 571.5
+       }
+      }
+     ],
+     "text": "(c) Hence find, according to the model, the time taken for the carriage to reach its maximum height above ground for the 3rd time. Give your answer to the nearest second. (Solutions relying entirely on calculator technology are not acceptable.) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 421,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 568.5,
+      "x1": 560,
+      "y1": 770.2
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1394,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 82.3,
+      "x1": 560,
+      "y1": 750.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "9(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WMA14_2024_10_q10",
+   "number": 10,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2024_10/q10_stem.webp",
+     "w": 1090,
+     "h": 640,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 363.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "10(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q10_a.webp",
+       "w": 1090,
+       "h": 243,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 366.6,
+        "x1": 559,
+        "y1": 482.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q10_a_ms.webp",
+       "w": 1092,
+       "h": 269,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 102.9,
+        "x1": 560,
+        "y1": 231.6
+       }
+      }
+     ],
+     "text": "(a) Show that the area of R is π 2 2 k t sin t cos d t t 0 where k is a constant to be found. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2024_10/q10_b.webp",
+       "w": 1090,
+       "h": 216,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 485.0,
+        "x1": 559,
+        "y1": 588.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2024_10/q10_b_ms.webp",
+       "w": 1092,
+       "h": 474,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 231.6,
+        "x1": 560,
+        "y1": 458.5
+       }
+      }
+     ],
+     "text": "(b) Hence, using algebraic integration, find the exact area of R, giving your answer in the form pπ + q where p and q are constants. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2024_10/q10_notes_1.webp",
+     "w": 1092,
+     "h": 654,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 455.5,
+      "x1": 560,
+      "y1": 768.6
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1410,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 744.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q10_notes_3.webp",
+     "w": 1092,
+     "h": 436,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 68.5,
+      "x1": 560,
+      "y1": 277.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_10/q10_notes_4.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 27,
+      "x0": 36,
+      "y0": 743.6,
+      "x1": 560,
+      "y1": 773.1
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

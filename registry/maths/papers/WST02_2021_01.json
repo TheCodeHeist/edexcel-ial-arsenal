@@ -1,0 +1,1168 @@
+{
+ "id": "WST02_2021_01",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2021-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202021/IAL_MATHS_2021_Jan_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2021_01_q1",
+   "number": 1,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_01/q1_stem.webp",
+     "w": 1016,
+     "h": 162,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 135.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q1_a.webp",
+       "w": 1016,
+       "h": 73,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 141.8,
+        "x1": 523.2,
+        "y1": 176.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 73.3,
+        "x1": 560,
+        "y1": 101.9
+       }
+      }
+     ],
+     "text": "(a) Write down a suitable model for the distribution of X. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q1_b.webp",
+       "w": 1016,
+       "h": 73,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 182.8,
+        "x1": 523.2,
+        "y1": 217.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 101.9,
+        "x1": 560,
+        "y1": 130.4
+       }
+      }
+     ],
+     "text": "(b) State an assumption that has been made for the model in part (a). (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q1_c.webp",
+       "w": 1016,
+       "h": 189,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 223.8,
+        "x1": 523.2,
+        "y1": 314.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q1_c_ms_1.webp",
+       "w": 1092,
+       "h": 74,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 130.4,
+        "x1": 560,
+        "y1": 165.4
+       }
+      },
+      {
+       "src": "maths/WST02_2021_01/q1_c_ms_2.webp",
+       "w": 1092,
+       "h": 158,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 165.4,
+        "x1": 560,
+        "y1": 240.6
+       }
+      }
+     ],
+     "text": "(c) Find the probability that (i) exactly 24 young oysters do survive to be harvested, (ii) at least 3 young oysters do not survive to be harvested. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q1_d.webp",
+       "w": 1016,
+       "h": 189,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 320.8,
+        "x1": 523.2,
+        "y1": 411.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 240.6,
+        "x1": 560,
+        "y1": 314.7
+       }
+      }
+     ],
+     "text": "A second random sample, of 200 young oysters, is taken. The probability that at least n of these young oysters do not survive to be harvested is more than 0.8 (d) Using a suitable approximation, find the maximum value of n. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q1_e.webp",
+       "w": 1016,
+       "h": 277,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 417.8,
+        "x1": 523.2,
+        "y1": 550.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 273,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 314.7,
+        "x1": 560,
+        "y1": 445.4
+       }
+      }
+     ],
+     "text": "Jim believes that the level of salt in the lake water has changed and it has altered the survival rate of his oysters. He takes a random sample of 25 young oysters and places them in the lake. When Jim harvests the oysters, he finds that 21 do survive to be harvested. (e) Use a suitable test, at the 5% level of significance, to assess whether or not there is evidence that the proportion of oysters not surviving to be harvested is more than 5%. State your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_01/q1_notes.webp",
+     "w": 1092,
+     "h": 646,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 442.4,
+      "x1": 560,
+      "y1": 752.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_01_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_01/q2_stem.webp",
+     "w": 1016,
+     "h": 251,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 177.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q2_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 188.2,
+        "x1": 523.2,
+        "y1": 237.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 73.3,
+        "x1": 560,
+        "y1": 116.3
+       }
+      }
+     ],
+     "text": "(a) Find the probability that a novice tightrope artist, walking on the wire, walks at least 3.5 metres before falling. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q2_b.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 244.2,
+        "x1": 523.2,
+        "y1": 321.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 116.3,
+        "x1": 560,
+        "y1": 188.8
+       }
+      }
+     ],
+     "text": "A random sample of 30 novice tightrope artists is taken. (b) Find the probability that more than 1 of these novice tightrope artists, walking on the wire, walks at least 3.5 metres before falling. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q2_c.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 328.2,
+        "x1": 523.2,
+        "y1": 391.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 413,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 188.8,
+        "x1": 560,
+        "y1": 386.8
+       }
+      }
+     ],
+     "text": "Given E(W ) = 1.6 (c) use algebraic integration to find Var(W ) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_01/q2_notes.webp",
+     "w": 1092,
+     "h": 500,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 383.8,
+      "x1": 560,
+      "y1": 623.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_01_q3",
+   "number": 3,
+   "marks": 17,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_01/q3_stem.webp",
+     "w": 1016,
+     "h": 74,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 93.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q3_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 99.6,
+        "x1": 523.2,
+        "y1": 149.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 125,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 64.7,
+        "x1": 560,
+        "y1": 124.0
+       }
+      }
+     ],
+     "text": "(a) Find the probability that a sample of 100 ml of the pond water does not contain exactly 4 water fleas. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q3_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 155.8,
+        "x1": 523.2,
+        "y1": 219.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 124.0,
+        "x1": 560,
+        "y1": 169.8
+       }
+      }
+     ],
+     "text": "Aja collects 5 separate samples, each of 100 ml, of the pond water. (b) Find the probability that exactly 1 of these samples contains exactly 4 water fleas. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q3_c.webp",
+       "w": 1016,
+       "h": 187,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 225.8,
+        "x1": 523.2,
+        "y1": 315.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q3_c_ms_1.webp",
+       "w": 1092,
+       "h": 275,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 560,
+        "y1": 301.2
+       }
+      },
+      {
+       "src": "maths/WST02_2021_01/q3_c_ms_2.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 301.2,
+        "x1": 560,
+        "y1": 377.5
+       }
+      }
+     ],
+     "text": "Using a normal approximation, the probability that more than 3 water fleas will be found in a random sample of n ml of the pond water is 0.9394 correct to 4 significant figures. n (c) (i) Show that n − 1.55 − 50 = 0 0 07 . (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q3_c_ii.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 321.8,
+        "x1": 523.2,
+        "y1": 357.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q3_c_ii_ms_1.webp",
+       "w": 1092,
+       "h": 275,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 560,
+        "y1": 301.2
+       }
+      },
+      {
+       "src": "maths/WST02_2021_01/q3_c_ii_ms_2.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 301.2,
+        "x1": 560,
+        "y1": 377.5
+       }
+      }
+     ],
+     "text": "(ii) Hence find the value of n (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q3_d.webp",
+       "w": 1016,
+       "h": 221,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 363.8,
+        "x1": 523.2,
+        "y1": 469.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 256,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 377.5,
+        "x1": 560,
+        "y1": 500.1
+       }
+      }
+     ],
+     "text": "After the pond has been cleaned, the number of water fleas in a 100 ml random sample of the pond water is 15 (d) Using a suitable test, at the 1% level of significance, assess whether or not there is evidence that the number of water fleas per 100 ml of the pond water has increased. State your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_01/q3_notes.webp",
+     "w": 1092,
+     "h": 568,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 497.1,
+      "x1": 560,
+      "y1": 769.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_01_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_01/q4_stem.webp",
+     "w": 1016,
+     "h": 209,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 157.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q4_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 164.6,
+        "x1": 523.2,
+        "y1": 200.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 64.7,
+        "x1": 560,
+        "y1": 158.5
+       }
+      }
+     ],
+     "text": "(a) Show that ka3 = 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q4_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 206.6,
+        "x1": 523.2,
+        "y1": 270.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 283,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 158.5,
+        "x1": 560,
+        "y1": 293.9
+       }
+      }
+     ],
+     "text": "Given that E(X ) = 1.5 (b) use algebraic integration to show that a = 6 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q4_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 276.6,
+        "x1": 523.2,
+        "y1": 312.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 270,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 293.9,
+        "x1": 560,
+        "y1": 423.1
+       }
+      }
+     ],
+     "text": "(c) Verify that the median of X is 1.2 to one decimal place. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_01/q4_notes.webp",
+     "w": 1092,
+     "h": 638,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 420.1,
+      "x1": 560,
+      "y1": 725.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_01_q5",
+   "number": 5,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_01/q5_stem.webp",
+     "w": 1016,
+     "h": 74,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 93.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q5_a.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 99.9,
+        "x1": 523.2,
+        "y1": 135.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 117,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 65.6,
+        "x1": 560,
+        "y1": 121.2
+       }
+      }
+     ],
+     "text": "(a) Find the probability that the length of the piece of wood AC is more than 1.8 metres. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q5_b.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 141.9,
+        "x1": 523.2,
+        "y1": 219.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 107,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 121.2,
+        "x1": 560,
+        "y1": 172.0
+       }
+      }
+     ],
+     "text": "The two pieces of wood AC and CB form the two shortest sides of a right-angled triangle. The random variable X represents the length of the longest side of the right-angled triangle. 2 = 2W 2 − 6W + 9 (b) Show that X (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q5_c.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 225.9,
+        "x1": 523.2,
+        "y1": 303.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 238,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 172.0,
+        "x1": 560,
+        "y1": 285.7
+       }
+      }
+     ],
+     "text": "[You may assume for random variables S, T and U and for constants a and b that if S = aT + bU then E(S ) = aE(T ) + bE(U )] 2 ) (c) Find E(X (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q5_d.webp",
+       "w": 1016,
+       "h": 81,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 307.1,
+        "x1": 523.2,
+        "y1": 345.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q5_d_ms.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 285.7,
+        "x1": 560,
+        "y1": 416.8
+       }
+      }
+     ],
+     "text": "2 > 5) (d) Find P(X (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_01/q5_notes.webp",
+     "w": 1092,
+     "h": 580,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 413.8,
+      "x1": 560,
+      "y1": 692.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_01_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_01/q6_stem.webp",
+     "w": 1016,
+     "h": 103,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 107.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q6_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 113.8,
+        "x1": 523.2,
+        "y1": 163.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 77.4,
+        "x1": 560,
+        "y1": 120.3
+       }
+      }
+     ],
+     "text": "(a) Explain why the owner decided to take a random sample of the youth club members rather than ask all the youth club members. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q6_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 523.2,
+        "y1": 205.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 120.3,
+        "x1": 560,
+        "y1": 148.9
+       }
+      }
+     ],
+     "text": "(b) Suggest a suitable sampling frame. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q6_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 211.8,
+        "x1": 523.2,
+        "y1": 247.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 148.9,
+        "x1": 560,
+        "y1": 177.0
+       }
+      }
+     ],
+     "text": "(c) Identify the sampling units. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_01/q6_d.webp",
+       "w": 1016,
+       "h": 647,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 253.8,
+        "x1": 523.2,
+        "y1": 563.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 456,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 177.0,
+        "x1": 560,
+        "y1": 395.4
+       }
+      }
+     ],
+     "text": "The new method uses a bag containing a large number of balls. Each ball is numbered either 20, 50 or 70 When a ball is selected at random, the random variable X represents the number on the ball where P(X = 20) = p P(X = 50) = q P(X = 70) = r A youth club member takes a ball from the bag, records its number and replaces it in the bag. He then takes a second ball from the bag, records its number and replaces it in the bag. The random variable M is the mean of the 2 numbers recorded. Given that P(M = 20) = 25 64 P(M = 60) = 1 16 and q > r (d) show that P(M = 50) = 1 16 (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_01/q6_notes.webp",
+     "w": 1092,
+     "h": 736,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 392.4,
+      "x1": 560,
+      "y1": 745.3
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

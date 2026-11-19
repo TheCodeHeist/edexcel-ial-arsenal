@@ -1,0 +1,1445 @@
+{
+ "id": "WST03_2025_06",
+ "subject": "maths",
+ "unit": "WST03",
+ "series": "2025-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_S3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_S3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST03_2025_06_q1",
+   "number": 1,
+   "marks": 3,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q1_stem.webp",
+     "w": 1090,
+     "h": 204,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 154.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 157.1,
+        "x1": 559,
+        "y1": 192.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 102.5,
+        "x1": 560,
+        "y1": 144.9
+       }
+      }
+     ],
+     "text": "(a) Give a reason for using systematic sampling in this case. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q1_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 195.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 144.9,
+        "x1": 560,
+        "y1": 173.5
+       }
+      }
+     ],
+     "text": "The members are numbered from 001 to 360 and the 5th member on the list is randomly selected as the first player and then every xth member thereafter is selected. (b) Write down the value of x (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q1_c_1.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 320.5
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q1_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 173.5,
+        "x1": 560,
+        "y1": 219.2
+       }
+      }
+     ],
+     "text": "(c) Write down the probability that the sample includes both the 5th and the 6th member on the list. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q1_notes.webp",
+     "w": 1092,
+     "h": 237,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 216.2,
+      "x1": 560,
+      "y1": 329.5
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q2_stem.webp",
+     "w": 1090,
+     "h": 284,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 192.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q2_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 206.7,
+        "x1": 559,
+        "y1": 256.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 160,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 99.6,
+        "x1": 560,
+        "y1": 176.1
+       }
+      }
+     ],
+     "text": "(a) Calculate Spearman’s rank correlation coefficient for these data. Show your working clearly. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q2_b_1.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 258.7,
+        "x1": 559,
+        "y1": 322.1
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q2_b_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 236,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 176.1,
+        "x1": 560,
+        "y1": 288.7
+       }
+      }
+     ],
+     "text": "(b) Stating your hypotheses clearly, test at the 1% level of significance, whether or not there is evidence of a positive correlation between the ranks of Judge 1 and the ranks of Judge 2 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q2_notes.webp",
+     "w": 1092,
+     "h": 759,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 285.7,
+      "x1": 560,
+      "y1": 649.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2(b): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q3",
+   "number": 3,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q3_stem.webp",
+     "w": 1090,
+     "h": 693,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 388.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q3_a.webp",
+       "w": 1090,
+       "h": 94,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 391.5,
+        "x1": 559,
+        "y1": 436.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 102.0,
+        "x1": 560,
+        "y1": 161.7
+       }
+      }
+     ],
+     "text": "(a) Calculate the expected frequency for a diesel engine that first experienced an engine problem during month 1–6 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q3_b_1.webp",
+       "w": 1090,
+       "h": 245,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 436.2,
+        "x1": 559,
+        "y1": 553.1
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q3_b_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q3_b_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q3_b_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 514,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 161.7,
+        "x1": 560,
+        "y1": 408.0
+       }
+      }
+     ],
+     "text": ". / O 2 O 3 E \u001b Given that for the other 8 classes 7 444 . to 3 decimal places, E (b) test, at a 5% level of significance, whether or not there is evidence of an association between when the car first experienced an engine problem and the type of engine. You should state the hypotheses, the test statistic, the degrees of freedom and the critical value used for this test. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q3_notes.webp",
+     "w": 1092,
+     "h": 703,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 405.0,
+      "x1": 560,
+      "y1": 742.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "3(b): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q4",
+   "number": 4,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q4_stem.webp",
+     "w": 1090,
+     "h": 406,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 251.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 263.9,
+        "x1": 559,
+        "y1": 313.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 214,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 102.0,
+        "x1": 560,
+        "y1": 204.1
+       }
+      }
+     ],
+     "text": "(a) Find an unbiased estimate of the mean and an unbiased estimate of the variance for the weights of the red squirrels. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q4_b.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 315.9,
+        "x1": 559,
+        "y1": 379.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 302,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 204.1,
+        "x1": 560,
+        "y1": 348.8
+       }
+      }
+     ],
+     "text": "(b) Stating your hypotheses clearly, carry out a suitable test to assess the research student’s belief. Use a 5% level of significance and state your critical value. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q4_c_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 381.9,
+        "x1": 559,
+        "y1": 417.3
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q4_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q4_c_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q4_c_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 348.8,
+        "x1": 560,
+        "y1": 396.8
+       }
+      }
+     ],
+     "text": "(c) State an assumption you have made in carrying out the test in part (b) (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q4_notes.webp",
+     "w": 1092,
+     "h": 782,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 393.8,
+      "x1": 560,
+      "y1": 768.6
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q5_stem.webp",
+     "w": 1090,
+     "h": 269,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 185.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 188.4,
+        "x1": 559,
+        "y1": 223.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 199,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 102.0,
+        "x1": 560,
+        "y1": 197.2
+       }
+      }
+     ],
+     "text": "(a) Find the proportion of male puppies born in these litters of size 5 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q5_b.webp",
+       "w": 1090,
+       "h": 299,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 226.3,
+        "x1": 559,
+        "y1": 369.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 90,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 197.2,
+        "x1": 560,
+        "y1": 239.6
+       }
+      }
+     ],
+     "text": "Jeff calculates expected frequencies, to 2 decimal places, as follows. Number of males 0 1 2 3 4 5 Expected r 41.92 79.91 76.16 36.30 6.92 frequencies (b) Find the value of r (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q5_c_1.webp",
+       "w": 1090,
+       "h": 258,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 369.3,
+        "x1": 559,
+        "y1": 492.7
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q5_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q5_c_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q5_c_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 420,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 239.6,
+        "x1": 560,
+        "y1": 440.8
+       }
+      }
+     ],
+     "text": "2 . / O E 3 The value of for the given values in the table excluding r is 5.70 to E 2 decimal places. (c) Using a 5% significance level, test whether or not a binomial distribution is a suitable model for the number of male puppies born in these 250 litters. You should state the hypotheses, the degrees of freedom and the critical value used. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q5_notes.webp",
+     "w": 1092,
+     "h": 653,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 437.8,
+      "x1": 560,
+      "y1": 750.5
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q6_stem.webp",
+     "w": 1090,
+     "h": 101,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 104.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q6_a.webp",
+       "w": 1090,
+       "h": 107,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 105.7,
+        "x1": 559,
+        "y1": 156.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 102.0,
+        "x1": 560,
+        "y1": 144.4
+       }
+      }
+     ],
+     "text": "(a) Explain why 1 2 X1 + 3 4 X20 is a statistic. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q6_b.webp",
+       "w": 1090,
+       "h": 107,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 159.6,
+        "x1": 559,
+        "y1": 210.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 144.4,
+        "x1": 560,
+        "y1": 224.0
+       }
+      }
+     ],
+     "text": "(b) Show that R = 1 2 X1 + 3 4 X20 is a biased estimator of μ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q6_c.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 213.1,
+        "x1": 559,
+        "y1": 248.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 224.0,
+        "x1": 560,
+        "y1": 269.4
+       }
+      }
+     ],
+     "text": "(c) Hence find the bias, in terms of μ , when R is used as an estimator of μ (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q6_d_1.webp",
+       "w": 1090,
+       "h": 231,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 248.0,
+        "x1": 559,
+        "y1": 358.3
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q6_d_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 349,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 269.4,
+        "x1": 560,
+        "y1": 436.6
+       }
+      }
+     ],
+     "text": "14 20 aX 1 bX Given that S = aX − bX i i 1 2 and T = i O i O are each used as an unbiased 1 15 2 20 estimator of μ , where a and b are constants, (d) find the value of a and the value of b (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q6_notes.webp",
+     "w": 1092,
+     "h": 653,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 433.6,
+      "x1": 560,
+      "y1": 746.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(d): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q7_stem.webp",
+     "w": 1090,
+     "h": 271,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 53.5,
+      "x1": 559,
+      "y1": 183.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 186.0,
+        "x1": 559,
+        "y1": 221.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 549,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 102.0,
+        "x1": 560,
+        "y1": 365.1
+       }
+      }
+     ],
+     "text": "(a) show that σ = 12 n (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q7_b.webp",
+       "w": 1090,
+       "h": 67,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 223.9,
+        "x1": 559,
+        "y1": 255.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 141,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 365.1,
+        "x1": 560,
+        "y1": 432.3
+       }
+      }
+     ],
+     "text": "(b) Hence, find the value of μ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q7_c_1.webp",
+       "w": 1090,
+       "h": 89,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 255.8,
+        "x1": 559,
+        "y1": 297.7
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q7_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q7_c_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q7_c_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 432.3,
+        "x1": 560,
+        "y1": 552.8
+       }
+      }
+     ],
+     "text": "_ (c) Find P (X n > 59) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 464,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 549.8,
+      "x1": 560,
+      "y1": 772.3
+     }
+    },
+    {
+     "src": "maths/WST03_2025_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 370,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 72.6,
+      "x1": 560,
+      "y1": 249.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "7(b): text cut by a crop edge",
+    "7(c): text cut by a crop edge",
+    "7(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WST03_2025_06_q8",
+   "number": 8,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST03_2025_06/q8_stem.webp",
+     "w": 1090,
+     "h": 147,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 126.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q8_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 129.5,
+        "x1": 559,
+        "y1": 179.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 233,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 102.0,
+        "x1": 560,
+        "y1": 213.6
+       }
+      }
+     ],
+     "text": "(a) Using standardisation, calculate the probability that their total weight is more than 54.1 kg. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q8_b.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 181.5,
+        "x1": 559,
+        "y1": 303.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 213.6,
+        "x1": 560,
+        "y1": 345.8
+       }
+      }
+     ],
+     "text": "The weights, C kg, of bags of cement are such that C ~ N (25, 0.03 2) Two bags of cement are selected at random. (b) Using standardisation, calculate the probability that their weights differ by more than 0.02 kg. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2025_06/q8_c_1.webp",
+       "w": 1090,
+       "h": 255,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 305.8,
+        "x1": 559,
+        "y1": 428.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q8_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q8_c_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q8_c_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 27,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WST03_2025_06/q8_c_5.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2025_06/q8_c_ms.webp",
+       "w": 1092,
+       "h": 309,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 345.8,
+        "x1": 560,
+        "y1": 493.9
+       }
+      }
+     ],
+     "text": "The weights, P kg, of pallets are such that P ~ N (15, 0.2 2) The random variable T represents the total weight, in kg, of 28 bags of sand with 5 bags of cement and a single pallet of weight P1 (c) Using standardisation, calculate the probability that T < 30P1 + 190 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2025_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 580,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 490.9,
+      "x1": 560,
+      "y1": 768.8
+     }
+    },
+    {
+     "src": "maths/WST03_2025_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 733.4,
+      "x1": 560,
+      "y1": 762.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "8(c): runs across pages"
+   ]
+  }
+ ]
+}

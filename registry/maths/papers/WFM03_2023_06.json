@@ -1,0 +1,938 @@
+{
+ "id": "WFM03_2023_06",
+ "subject": "maths",
+ "unit": "WFM03",
+ "series": "2023-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_FP3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202023/IAL_MATHS_2023_MayJune_FP3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM03_2023_06_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q1.webp",
+       "w": 1090,
+       "h": 275,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 188.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q1_ms.webp",
+       "w": 1092,
+       "h": 696,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 401.6
+       }
+      }
+     ],
+     "text": "1. In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Solve the equation 7 cosh x + 3 sinh x = 2e x + 7 Give your answers as simplified natural logarithms. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2023_06/q1_notes.webp",
+     "w": 1092,
+     "h": 368,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 398.6,
+      "x1": 560,
+      "y1": 574.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2023_06_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM03_2023_06/q2_stem.webp",
+     "w": 1090,
+     "h": 237,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 170.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 181.8,
+        "x1": 559,
+        "y1": 217.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 81.1
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 482,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 81.1,
+        "x1": 560,
+        "y1": 311.7
+       }
+      }
+     ],
+     "text": "(a) Determine M –1 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q2_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 219.8,
+        "x1": 559,
+        "y1": 303.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 81.1
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 905,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 311.7,
+        "x1": 560,
+        "y1": 745.5
+       }
+      }
+     ],
+     "text": "The transformation represented by M maps the plane Π1 to the plane Π2 The point (x, y, z) on Π1 maps to the point (u, v, w) on Π2 (b) Determine x, y and z in terms of u, v and w as appropriate. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q2_c.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 305.9,
+        "x1": 559,
+        "y1": 427.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q2_c_ms_1.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 81.1
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q2_c_ms_2.webp",
+       "w": 1092,
+       "h": 640,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 375.3
+       }
+      }
+     ],
+     "text": "The plane Π1 has equation 3x – 7y + 2z = –3 (c) Find a Cartesian equation for Π2 Give your answer in the form au + bv + cw = d where a, b, c and d are integers to be determined. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2023_06_q3",
+   "number": 3,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WFM03_2023_06/q3_stem.webp",
+     "w": 1090,
+     "h": 464,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 279.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q3_a.webp",
+       "w": 1090,
+       "h": 190,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 295.9,
+        "x1": 559,
+        "y1": 386.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 1386,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 75.1,
+        "x1": 560,
+        "y1": 739.7
+       }
+      }
+     ],
+     "text": "(a) Show that the length of C is given by π 1 . / 3 2 x 2 x x tan 1 cot d 2 π 6 (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 389.2,
+        "x1": 559,
+        "y1": 424.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 719,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 92.0,
+        "x1": 560,
+        "y1": 436.4
+       }
+      }
+     ],
+     "text": "(b) Hence determine the exact length of C, giving your answer in simplest form. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2023_06_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WFM03_2023_06/q4_stem.webp",
+     "w": 1090,
+     "h": 274,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 80.5,
+      "x1": 559,
+      "y1": 211.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q4_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 211.9,
+        "x1": 559,
+        "y1": 247.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 81.3
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 970,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 81.3,
+        "x1": 560,
+        "y1": 546.7
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q4_a_ms_3.webp",
+       "w": 1092,
+       "h": 874,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 80.9,
+        "x1": 560,
+        "y1": 500.0
+       }
+      }
+     ],
+     "text": "(a) Determine a vector equation for l. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q4_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 249.9,
+        "x1": 559,
+        "y1": 333.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 28,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 81.3
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 1504,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 790
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q4_b_ms_3.webp",
+       "w": 1092,
+       "h": 1322,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 702.6
+       }
+      }
+     ],
+     "text": "The points C and D both lie on l. Given that C and D are 5 units apart, (b) determine the exact volume of the tetrahedron ABCD. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM03_2023_06_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q5.webp",
+       "w": 1090,
+       "h": 385,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 241.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q5_ms_1.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 124.8
+       }
+      },
+      {
+       "src": "maths/WFM03_2023_06/q5_ms_2.webp",
+       "w": 1092,
+       "h": 1263,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 124.8,
+        "x1": 560,
+        "y1": 730.1
+       }
+      }
+     ],
+     "text": "5. 1 2 k \u001a \u001b \u0018 M O 3 1 3 3 4 where is a constant k \u001b\u001b \u0018\u0018 2 6 3 8 \u0019 Given that M has a repeated eigenvalue, determine (i) the possible values of k, (ii) all corresponding eigenvalues of M for each value of k. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2023_06/q5_notes.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 71.3,
+      "x1": 560,
+      "y1": 101.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2023_06_q6",
+   "number": 6,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WFM03_2023_06/q6_stem.webp",
+     "w": 1090,
+     "h": 131,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 62.5,
+      "x1": 559,
+      "y1": 125.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q6_a.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 127.8,
+        "x1": 559,
+        "y1": 187.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 814,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 101.7,
+        "x1": 560,
+        "y1": 491.7
+       }
+      }
+     ],
+     "text": "(a) Use calculus to show that an equation of the tangent to E at P is 3x cos θ + 4y sin θ = 12 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q6_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 189.7,
+        "x1": 559,
+        "y1": 225.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 262,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 491.7,
+        "x1": 560,
+        "y1": 617.1
+       }
+      }
+     ],
+     "text": "(b) Determine an equation for the normal to E at P. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q6_c.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 227.7,
+        "x1": 559,
+        "y1": 349.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 732,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 419.5
+       }
+      }
+     ],
+     "text": "The tangent to E at P meets the x-axis at the point A. The normal to E at P meets the y-axis at the point B. (c) Show that the locus of the midpoint of A and B as θ varies has equation 2(p – qy 2) = r x where p, q and r are integers to be determined. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2023_06/q6_notes.webp",
+     "w": 1092,
+     "h": 151,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 416.5,
+      "x1": 560,
+      "y1": 488.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2023_06_q7",
+   "number": 7,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM03_2023_06/q7_stem.webp",
+     "w": 1090,
+     "h": 97,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 53.2,
+      "x1": 559,
+      "y1": 99.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q7_a.webp",
+       "w": 1090,
+       "h": 188,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 103.1,
+        "x1": 559,
+        "y1": 192.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 1345,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 713.4
+       }
+      }
+     ],
+     "text": "(a) Show that, for n  2 n 3 cosh 1 2 x sinh 2 x n 3 1 I O 1 I n n 2 n n 3 2 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q7_b.webp",
+       "w": 1090,
+       "h": 235,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 195.3,
+        "x1": 559,
+        "y1": 307.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 1238,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 66.7,
+        "x1": 560,
+        "y1": 660.2
+       }
+      }
+     ],
+     "text": "(b) Hence determine . / 3 1 cosh x x 1 2 d collecting any like terms in your answer. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2023_06/q7_notes.webp",
+     "w": 1092,
+     "h": 35,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 657.2,
+      "x1": 560,
+      "y1": 673.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM03_2023_06_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 92.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 68.3,
+        "x1": 560,
+        "y1": 142.5
+       }
+      }
+     ],
+     "text": "8. (a) Differentiate x arcosh 5x with respect to x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM03_2023_06/q8_b.webp",
+       "w": 1090,
+       "h": 257,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 218.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM03_2023_06/q8_b_ms.webp",
+       "w": 1092,
+       "h": 1310,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 142.5,
+        "x1": 560,
+        "y1": 770.5
+       }
+      }
+     ],
+     "text": "(b) Hence, or otherwise, show that 3 \u001a 3 2 2 . / 3 1 k 5 arcosh 5 x x d O 3 1 ln p 1 q 2 ln r 20 5 4 1 4 where p, q, r and k are rational numbers to be determined. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2023_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 35,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 767.5,
+      "x1": 560,
+      "y1": 784.2
+     }
+    },
+    {
+     "src": "maths/WFM03_2023_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 724.0,
+      "x1": 560,
+      "y1": 753.4
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

@@ -1,0 +1,1336 @@
+{
+ "id": "WFM01_2024_06",
+ "subject": "maths",
+ "unit": "WFM01",
+ "series": "2024-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202024/IAL_MATHS_2024_MayJune_FP1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202024/IAL_MATHS_2024_MayJune_FP1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WFM01_2024_06_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q1_i.webp",
+       "w": 1090,
+       "h": 288,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 194.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q1_i_ms_1.webp",
+       "w": 1092,
+       "h": 79,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 97.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q1_i_ms_2.webp",
+       "w": 1092,
+       "h": 283,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 97.6,
+        "x1": 560,
+        "y1": 233.2
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q1_i_ms_3.webp",
+       "w": 1092,
+       "h": 709,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 233.2,
+        "x1": 560,
+        "y1": 573.0
+       }
+      }
+     ],
+     "text": "1. (i) The matrix A is defined by 3 k 4 k 3 1 \u001a A O \u001b \u0019\u0018 2 6 where k is a constant. (a) Determine the value of k for which A is singular. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(i)(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q1_i_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 196.9,
+        "x1": 559,
+        "y1": 256.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q1_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 79,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 97.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q1_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 709,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 233.2,
+        "x1": 560,
+        "y1": 573.0
+       }
+      }
+     ],
+     "text": "Given that A is non‑singular, (b) determine A –1 in terms of k, giving your answer in simplest form. . (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q1_ii.webp",
+       "w": 1090,
+       "h": 386,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 258.9,
+        "x1": 559,
+        "y1": 443.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q1_ii_ms_1.webp",
+       "w": 1092,
+       "h": 89,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 573.0,
+        "x1": 560,
+        "y1": 615.0
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q1_ii_ms_2.webp",
+       "w": 1092,
+       "h": 156,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 615.0,
+        "x1": 560,
+        "y1": 689.7
+       }
+      }
+     ],
+     "text": "(ii) The matrix B is defined by p 0 B O \u001b \u001a\u0019 0 q where p and q are integers. State the value of p and the value of q when B represents (a) an enlargement about the origin with scale factor –2 (b) a reflection in the y–axis. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2024_06_q2",
+   "number": 2,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM01_2024_06/q2_stem.webp",
+     "w": 1090,
+     "h": 236,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 169.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 172.6,
+        "x1": 559,
+        "y1": 208.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 56.7,
+        "x1": 560,
+        "y1": 72.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 512,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 72.9,
+        "x1": 560,
+        "y1": 318.2
+       }
+      }
+     ],
+     "text": "(a) show that p = –87 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 210.6,
+        "x1": 559,
+        "y1": 260.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 56.7,
+        "x1": 560,
+        "y1": 72.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 723,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 318.2,
+        "x1": 560,
+        "y1": 664.4
+       }
+      }
+     ],
+     "text": "(b) Use algebra to determine the other roots of f(z) = 0, giving your answers in simplest form. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q2_c.webp",
+       "w": 1090,
+       "h": 275,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 262.6,
+        "x1": 559,
+        "y1": 393.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q2_c_ms_1.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 56.7,
+        "x1": 560,
+        "y1": 72.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q2_c_ms_2.webp",
+       "w": 1092,
+       "h": 312,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 55.7,
+        "x1": 560,
+        "y1": 204.7
+       }
+      }
+     ],
+     "text": "On an Argand diagram • the root z = 3 is represented by the point P • the other roots of f(z) = 0 are represented by the points Q and R • the number z = –9 is represented by the point S (c) Show on a single Argand diagram the positions of P, Q, R and S (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q2_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 396.4,
+        "x1": 559,
+        "y1": 445.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q2_d_ms_1.webp",
+       "w": 1092,
+       "h": 34,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 56.7,
+        "x1": 560,
+        "y1": 72.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q2_d_ms_2.webp",
+       "w": 1092,
+       "h": 393,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 204.7,
+        "x1": 560,
+        "y1": 392.8
+       }
+      }
+     ],
+     "text": "(d) Determine the perimeter of the quadrilateral PQSR, giving your answer as a simplified surd. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2024_06_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WFM01_2024_06/q3_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 62.7,
+      "x1": 559,
+      "y1": 108.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q3_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 110.9,
+        "x1": 559,
+        "y1": 160.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 43,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 80.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 910,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 80.6,
+        "x1": 560,
+        "y1": 516.9
+       }
+      }
+     ],
+     "text": "(a) Use linear interpolation once on the interval [0.25, 1] to determine an approximation to α, giving your answer to 3 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q3_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 162.9,
+        "x1": 559,
+        "y1": 222.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 43,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 80.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 527.8,
+        "x1": 560,
+        "y1": 589.6
+       }
+      }
+     ],
+     "text": "The equation f(x) = 0 has another root β in the interval [1.5, 2.5] (b) Determine f′(x) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q3_c.webp",
+       "w": 1090,
+       "h": 590,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 224.8,
+        "x1": 559,
+        "y1": 507.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q3_c_ms_1.webp",
+       "w": 1092,
+       "h": 43,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 80.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q3_c_ms_2.webp",
+       "w": 1092,
+       "h": 391,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 589.6,
+        "x1": 560,
+        "y1": 776.7
+       }
+      }
+     ],
+     "text": "(c) Hence, using x0 = 1.75 as a first approximation to β, apply the Newton–Raphson process once to f(x) to determine a second approximation to β, giving your answer to 3 decimal places. (2) -_____________________________________________________________________________________",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "3(c): text after the marks"
+   ]
+  },
+  {
+   "id": "WFM01_2024_06_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM01_2024_06/q4_stem.webp",
+     "w": 1090,
+     "h": 223,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 163.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q4_a.webp",
+       "w": 1090,
+       "h": 72,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 165.8,
+        "x1": 559,
+        "y1": 200.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 72,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 94.2
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 460,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 94.2,
+        "x1": 560,
+        "y1": 314.6
+       }
+      }
+     ],
+     "text": "(a) Determine z2 − 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q4_b.webp",
+       "w": 1090,
+       "h": 107,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 200.1,
+        "x1": 559,
+        "y1": 250.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 72,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 94.2
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 874,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 314.6,
+        "x1": 560,
+        "y1": 733.5
+       }
+      }
+     ],
+     "text": "(b) Express 50 z* in the form kz, where k is a positive integer. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q4_c.webp",
+       "w": 1090,
+       "h": 148,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 250.7,
+        "x1": 559,
+        "y1": 321.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q4_c_ms_1.webp",
+       "w": 1092,
+       "h": 72,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 60.4,
+        "x1": 560,
+        "y1": 94.2
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q4_c_ms_2.webp",
+       "w": 1092,
+       "h": 485,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 56.9,
+        "x1": 560,
+        "y1": 289.1
+       }
+      }
+     ],
+     "text": "50 (c) Hence find the value of arg \u001b\u001a z * Give your answer in radians to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(b): text cut by a crop edge",
+    "4(c): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WFM01_2024_06_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WFM01_2024_06/q5_stem.webp",
+     "w": 1090,
+     "h": 69,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 48.2,
+      "x1": 559,
+      "y1": 81.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q5_a.webp",
+       "w": 1090,
+       "h": 210,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 81.0,
+        "x1": 559,
+        "y1": 181.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 59.9,
+        "x1": 560,
+        "y1": 105.7
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 372,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 105.7,
+        "x1": 560,
+        "y1": 283.9
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q5_a_ms_3.webp",
+       "w": 1092,
+       "h": 549,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 283.9,
+        "x1": 560,
+        "y1": 546.9
+       }
+      }
+     ],
+     "text": "(a) Without solving the equation, (i) show that pq = 5 2 (ii) determine the value of p + q (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q5_b.webp",
+       "w": 1090,
+       "h": 250,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 183.9,
+        "x1": 559,
+        "y1": 303.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 59.9,
+        "x1": 560,
+        "y1": 105.7
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 1235,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 56.9,
+        "x1": 560,
+        "y1": 649.3
+       }
+      }
+     ],
+     "text": "(b) Hence, without finding the values of p and q, determine a quadratic equation with roots q p and q2 p2 + 1 + 1 giving your answer in the form ax 2 + bx + c = 0 where a, b and c are integers. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2024_06_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q6_a.webp",
+       "w": 1090,
+       "h": 256,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 59.4,
+        "x1": 559,
+        "y1": 181.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 936,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 57.4,
+        "x1": 560,
+        "y1": 506.2
+       }
+      }
+     ],
+     "text": "6. (a) Prove by induction that for n ∈  + . / n n r 1 2 3 1 1 r \u001a O \u001b\u001a 0 2 \u001a n 0 2 \u001b where r is a constant. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q6_b.webp",
+       "w": 1090,
+       "h": 338,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 189.9,
+        "x1": 559,
+        "y1": 351.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 81,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 506.2,
+        "x1": 560,
+        "y1": 544.6
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 242,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 544.6,
+        "x1": 560,
+        "y1": 660.0
+       }
+      }
+     ],
+     "text": "4 3 O 4 0 \u001b 1 2 \u001b M N O \u001a\u0019 \u001a\u0019 0 5 0 2 The transformation represented by matrix M followed by the transformation represented by matrix N is represented by the matrix B a b (b) (i) Determine N in the form \u001b\u001a where a, b, c and d are integers. c d (ii) Determine B (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q6_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 353.8,
+        "x1": 559,
+        "y1": 413.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 234,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 660.0,
+        "x1": 560,
+        "y1": 772.0
+       }
+      }
+     ],
+     "text": "Hexagon S is transformed onto hexagon S′ by matrix B (c) Given that the area of S′ is 720 square units, determine the area of S (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2024_06_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WFM01_2024_06/q7_stem.webp",
+     "w": 1090,
+     "h": 46,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 78.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q7_a.webp",
+       "w": 1090,
+       "h": 245,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 81.0,
+        "x1": 559,
+        "y1": 198.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 669,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 59.0,
+        "x1": 560,
+        "y1": 379.4
+       }
+      }
+     ],
+     "text": "(a) Show that for all positive integers n n O 2 3 2 ( 12 r 1 2 r 3 3 ) O An 1 Bn r 1 where A and B are integers to be determined. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q7_b.webp",
+       "w": 1090,
+       "h": 173,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 200.8,
+        "x1": 559,
+        "y1": 283.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 787,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 379.4,
+        "x1": 560,
+        "y1": 756.9
+       }
+      }
+     ],
+     "text": "(b) Hence determine the value of n for which 2 n n ( 3 2 r 3 12 r 1 2 r 3 3 ) O 270 r O 1 r O 1 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2024_06_q8",
+   "number": 8,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "8",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q8.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 149.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q8_ms_1.webp",
+       "w": 1092,
+       "h": 1503,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 59.0,
+        "x1": 560,
+        "y1": 780.0
+       }
+      },
+      {
+       "src": "maths/WFM01_2024_06/q8_ms_2.webp",
+       "w": 1092,
+       "h": 1307,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 59.6,
+        "x1": 560,
+        "y1": 686.7
+       }
+      }
+     ],
+     "text": "8. Prove by induction that for n ∈  + n – 1 + 8 2n + 1 f(n) = 7 is divisible by 57 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WFM01_2024_06_q9",
+   "number": 9,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WFM01_2024_06/q9_stem.webp",
+     "w": 1090,
+     "h": 133,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 120.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q9_a.webp",
+       "w": 1090,
+       "h": 143,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 122.2,
+        "x1": 559,
+        "y1": 190.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 817,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 59.0,
+        "x1": 560,
+        "y1": 450.4
+       }
+      }
+     ],
+     "text": "(a) Use calculus to show that an equation of the normal to H at P is 3x – ty = c(t 4 – 1) t (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q9_b.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 193.0,
+        "x1": 559,
+        "y1": 276.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 1502,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 56.9,
+        "x1": 560,
+        "y1": 777.3
+       }
+      }
+     ],
+     "text": "The parabola C has equation y 2 = 6x The normal to H at the point with coordinates (8, 2) meets C at the point Q where y > 0 (b) Determine the exact coordinates of Q (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WFM01_2024_06/q9_c.webp",
+       "w": 1090,
+       "h": 274,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 278.9,
+        "x1": 559,
+        "y1": 410.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WFM01_2024_06/q9_c_ms.webp",
+       "w": 1092,
+       "h": 1479,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 54.1,
+        "x1": 560,
+        "y1": 763.6
+       }
+      }
+     ],
+     "text": "Given that • the point R is the focus of C • the line l is the directrix of C • the line through Q and R meets l at the point S (c) determine the exact length of QS (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2024_06/q9_notes_1.webp",
+     "w": 1092,
+     "h": 38,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 760.6,
+      "x1": 560,
+      "y1": 778.2
+     }
+    },
+    {
+     "src": "maths/WFM01_2024_06/q9_notes_2.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 710.7,
+      "x1": 560,
+      "y1": 740.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

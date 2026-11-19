@@ -1,0 +1,1399 @@
+{
+ "id": "WMA12_2023_10",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2023-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2023/P2_QP_1777460832958.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Oct 2023/P2_MS_1777460831990.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2023_10_q1",
+   "number": 1,
+   "marks": 3,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q1.webp",
+       "w": 1090,
+       "h": 770,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 425.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q1_ms.webp",
+       "w": 1092,
+       "h": 291,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 98.0,
+        "x1": 560,
+        "y1": 237.3
+       }
+      }
+     ],
+     "text": "1. Given that a, b and c are integers greater than 0 such that • c = 3a + 1 • a + b + c = 15 prove, by exhaustion, that the product abc is always a multiple of 4 You may use the table below to illustrate your answer. (3) You may not need to use all rows of this table. a b c abc",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q1_notes.webp",
+     "w": 1092,
+     "h": 1083,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 234.3,
+      "x1": 560,
+      "y1": 753.9
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1: text after the marks"
+   ]
+  },
+  {
+   "id": "WMA12_2023_10_q2",
+   "number": 2,
+   "marks": 5,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q2_stem.webp",
+     "w": 1090,
+     "h": 204,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 154.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 154.3,
+        "x1": 559,
+        "y1": 189.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 135.8
+       }
+      }
+     ],
+     "text": "(a) Find the value of u2 , the value of u3 and the value of u4 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q2_b.webp",
+       "w": 1090,
+       "h": 218,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 192.2,
+        "x1": 559,
+        "y1": 296.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 246,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 135.8,
+        "x1": 560,
+        "y1": 253.3
+       }
+      }
+     ],
+     "text": "(b) Find the value of rO 100 ur 1 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q2_notes_1.webp",
+     "w": 1092,
+     "h": 922,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 250.3,
+      "x1": 560,
+      "y1": 692.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 30,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 79.8,
+      "x1": 560,
+      "y1": 93.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q3",
+   "number": 3,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q3_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q3_a.webp",
+       "w": 1090,
+       "h": 194,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 104.8,
+        "x1": 559,
+        "y1": 197.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 359,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 93.8,
+        "x1": 560,
+        "y1": 265.7
+       }
+      }
+     ],
+     "text": "(a) Solve, for 0 < θ  360° the equation 2 tan θ + 3 sin θ = 0 giving your answers, as appropriate, to one decimal place. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q3_b.webp",
+       "w": 1090,
+       "h": 193,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 199.9,
+        "x1": 559,
+        "y1": 292.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 265.7,
+        "x1": 560,
+        "y1": 331.4
+       }
+      }
+     ],
+     "text": "(b) Hence, or otherwise, find the smallest positive solution of 2 tan (2x + 40°) + 3 sin (2x + 40°) = 0 giving your answer to one decimal place. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 869,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 328.4,
+      "x1": 560,
+      "y1": 745.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q3_notes_2.webp",
+     "w": 1092,
+     "h": 1541,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 44.6,
+      "x1": 560,
+      "y1": 783.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q3_notes_3.webp",
+     "w": 1092,
+     "h": 42,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 79.8,
+      "x1": 560,
+      "y1": 99.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q4_stem.webp",
+     "w": 1090,
+     "h": 255,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 178.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q4_a.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 181.7,
+        "x1": 559,
+        "y1": 241.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 99.8,
+        "x1": 560,
+        "y1": 178.5
+       }
+      }
+     ],
+     "text": "(a) show that a + 4b = –56 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q4_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 244.0,
+        "x1": 559,
+        "y1": 303.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 178.5,
+        "x1": 560,
+        "y1": 228.3
+       }
+      }
+     ],
+     "text": "Given also that when f (x) is divided by (x – 2) the remainder is –25 (b) find a second simplified equation linking a and b. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q4_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 306.0,
+        "x1": 559,
+        "y1": 389.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 238,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 228.3,
+        "x1": 560,
+        "y1": 341.9
+       }
+      }
+     ],
+     "text": "(c) Hence, using algebra and showing your working, (i) find the value of a and the value of b, (ii) fully factorise f (x). (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q4_notes_1.webp",
+     "w": 1092,
+     "h": 897,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 338.9,
+      "x1": 560,
+      "y1": 769.4
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1508,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 44.6,
+      "x1": 560,
+      "y1": 767.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q5",
+   "number": 5,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q5_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q5_i.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 188.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q5_i_ms.webp",
+       "w": 1092,
+       "h": 419,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 280.1
+       }
+      }
+     ],
+     "text": "(i) Solve a = 70 3 giving the answer to 3 decimal places. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(ii)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q5_ii.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 191.5,
+        "x1": 559,
+        "y1": 251.3
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(ii) Find the exact value of b such that 4 + 3 log3 b = log3 5b (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q5_notes.webp",
+     "w": 1092,
+     "h": 993,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 277.1,
+      "x1": 560,
+      "y1": 753.3
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(ii): no mark-scheme rows (scheme has ['5(i)'])"
+   ]
+  },
+  {
+   "id": "WMA12_2023_10_q6",
+   "number": 6,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q6_stem.webp",
+     "w": 1090,
+     "h": 618,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 353.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q6_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 355.9,
+        "x1": 559,
+        "y1": 405.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 148,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 79.8,
+        "x1": 560,
+        "y1": 150.6
+       }
+      }
+     ],
+     "text": "(a) Use the trapezium rule with all the y values given in Figure 1 to estimate the cross‑sectional area of the river. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q6_b.webp",
+       "w": 1090,
+       "h": 213,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 407.4,
+        "x1": 559,
+        "y1": 509.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 150.6,
+        "x1": 560,
+        "y1": 193.8
+       }
+      }
+     ],
+     "text": "–1 across the The water in the river is modelled as flowing at a constant speed of 1.5 m s whole of the cross‑section. (b) Use the model and the answer to part (a) to estimate the volume of water flowing 3 to through this section of the river each minute, giving your answer in m 2 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q6_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 511.8,
+        "x1": 559,
+        "y1": 599.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q6_c_ms.webp",
+       "w": 1092,
+       "h": 127,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 193.8,
+        "x1": 560,
+        "y1": 253.9
+       }
+      }
+     ],
+     "text": "Assuming the model, (c) state, giving a reason for your answer, whether your answer for part (b) is an overestimate or an underestimate of the true volume of water flowing through this section of the river each minute. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q6_notes.webp",
+     "w": 1092,
+     "h": 1043,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 250.9,
+      "x1": 560,
+      "y1": 750.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q7_stem.webp",
+     "w": 1090,
+     "h": 903,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 489.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q7_a.webp",
+       "w": 1090,
+       "h": 143,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 492.5,
+        "x1": 559,
+        "y1": 560.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 286,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 85.1,
+        "x1": 560,
+        "y1": 221.9
+       }
+      }
+     ],
+     "text": "(a) show that an equation for the straight line passing through X and N is 2x + 5y + 7 = 0 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q7_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 563.3,
+        "x1": 559,
+        "y1": 646.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 339,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 221.9,
+        "x1": 560,
+        "y1": 384.3
+       }
+      }
+     ],
+     "text": "(b) Hence find (i) the coordinates of N, (ii) an equation for C. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 743,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 391.1,
+      "x1": 560,
+      "y1": 747.1
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 700,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 44.6,
+      "x1": 560,
+      "y1": 380.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q8",
+   "number": 8,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q8_stem.webp",
+     "w": 1090,
+     "h": 346,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 222.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q8_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 225.0,
+        "x1": 559,
+        "y1": 260.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 121,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 137.0
+       }
+      }
+     ],
+     "text": "(a) find the value of a. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q8_b.webp",
+       "w": 1090,
+       "h": 176,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 263.0,
+        "x1": 559,
+        "y1": 346.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 137.0,
+        "x1": 560,
+        "y1": 221.4
+       }
+      }
+     ],
+     "text": "Given also that the total number of seats in the n rows is 2146 (b) show that 2 + 8n – 1073 = 0 n (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q8_c.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 349.4,
+        "x1": 559,
+        "y1": 432.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q8_c_ms.webp",
+       "w": 1092,
+       "h": 194,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 221.4,
+        "x1": 560,
+        "y1": 314.1
+       }
+      }
+     ],
+     "text": "(c) Hence (i) state the number of rows of seats in the theatre, (ii) find the maximum number of seats in any one row. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 669,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 311.1,
+      "x1": 560,
+      "y1": 631.8
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 79.8,
+      "x1": 560,
+      "y1": 110.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q9",
+   "number": 9,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA12_2023_10/q9_stem.webp",
+     "w": 1090,
+     "h": 815,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 447.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 461.0,
+        "x1": 559,
+        "y1": 496.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q9_a_ms.webp",
+       "w": 1092,
+       "h": 169,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 110.3,
+        "x1": 560,
+        "y1": 190.6
+       }
+      }
+     ],
+     "text": "(a) Find, using calculus, the range of values of x for which y is increasing. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q9_b.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 499.0,
+        "x1": 559,
+        "y1": 620.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q9_b_ms.webp",
+       "w": 1092,
+       "h": 551,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 190.6,
+        "x1": 560,
+        "y1": 454.6
+       }
+      }
+     ],
+     "text": "The point P lies on C and has coordinates (9, 40). The line l is the tangent to C at the point P. The finite region R, shown shaded in Figure 3, is bounded by the curve C, the line l, the x-axis and the y-axis. (b) Find, using calculus, the exact area of R. (8)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 512,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 461.4,
+      "x1": 560,
+      "y1": 706.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 1235,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 44.6,
+      "x1": 560,
+      "y1": 636.6
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q9_notes_3.webp",
+     "w": 1092,
+     "h": 1448,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 44.6,
+      "x1": 560,
+      "y1": 738.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2023_10_q10",
+   "number": 10,
+   "marks": 12,
+   "stem": [],
+   "parts": [
+    {
+     "label": "10(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q10_i.webp",
+       "w": 1090,
+       "h": 155,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 131.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q10_i_ms_1.webp",
+       "w": 1092,
+       "h": 195,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 172.4
+       }
+      },
+      {
+       "src": "maths/WMA12_2023_10/q10_i_ms_2.webp",
+       "w": 1092,
+       "h": 204,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 172.4,
+        "x1": 560,
+        "y1": 270.0
+       }
+      }
+     ],
+     "text": "10. (i) (a) Find, in ascending powers of x, the 2nd, 3rd and 5th terms of the binomial expansion of 6 (3 + 2x) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(i)(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q10_i_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 133.6,
+        "x1": 559,
+        "y1": 207.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q10_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 195,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 79.3,
+        "x1": 560,
+        "y1": 172.4
+       }
+      },
+      {
+       "src": "maths/WMA12_2023_10/q10_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 204,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 172.4,
+        "x1": 560,
+        "y1": 270.0
+       }
+      }
+     ],
+     "text": "For a particular value of x, these three terms form consecutive terms in a geometric series. (b) Find this value of x. . (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q10_ii.webp",
+       "w": 1090,
+       "h": 359,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 209.3,
+        "x1": 559,
+        "y1": 381.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q10_ii_ms_1.webp",
+       "w": 1092,
+       "h": 267,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 270.0,
+        "x1": 560,
+        "y1": 397.8
+       }
+      },
+      {
+       "src": "maths/WMA12_2023_10/q10_ii_ms_2.webp",
+       "w": 1092,
+       "h": 280,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 397.8,
+        "x1": 560,
+        "y1": 531.4
+       }
+      }
+     ],
+     "text": "(ii) In a different geometric series, 2 θ • the first term is sin • the common ratio is 2 cos θ the sum to infinity is 8 • 5 (a) Show that 2 θ – 16 cos θ + 3 = 0 5 cos (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "10(ii)(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2023_10/q10_ii_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 28,
+        "x0": 36,
+        "y0": 383.8,
+        "x1": 559,
+        "y1": 419.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2023_10/q10_ii_b_ms.webp",
+       "w": 1092,
+       "h": 280,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 397.8,
+        "x1": 560,
+        "y1": 531.4
+       }
+      }
+     ],
+     "text": "(b) Hence find the exact value of the 2nd term in the series. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2023_10/q10_notes_1.webp",
+     "w": 1092,
+     "h": 538,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 528.4,
+      "x1": 560,
+      "y1": 786.1
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q10_notes_2.webp",
+     "w": 1092,
+     "h": 1539,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 44.6,
+      "x1": 560,
+      "y1": 782.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2023_10/q10_notes_3.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 699.8,
+      "x1": 560,
+      "y1": 729.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

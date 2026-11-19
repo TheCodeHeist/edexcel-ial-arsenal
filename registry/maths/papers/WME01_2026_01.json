@@ -1,0 +1,1271 @@
+{
+ "id": "WME01_2026_01",
+ "subject": "maths",
+ "unit": "WME01",
+ "series": "2026-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME01_2026_01_q1",
+   "number": 1,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q1.webp",
+       "w": 1090,
+       "h": 401,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 248.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q1_ms_1.webp",
+       "w": 1092,
+       "h": 170,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 110.7,
+        "x1": 560,
+        "y1": 191.7
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q1_ms_2.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 191.7,
+        "x1": 560,
+        "y1": 264.0
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q1_ms_3.webp",
+       "w": 1092,
+       "h": 282,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 264.0,
+        "x1": 560,
+        "y1": 398.4
+       }
+      }
+     ],
+     "text": "1. A particle P of mass 3m and a particle Q of mass 5m are on a smooth horizontal surface. The particles move towards each other in opposite directions along the same straight line and collide. Immediately before the collision, the speed of P is 3u and the speed of Q is 4u The magnitude of the impulse exerted on P by Q in the collision is 33 mu 2 Find (i) the speed of P immediately after the collision, (ii) the speed of Q immediately after the collision. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 733,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 395.4,
+      "x1": 560,
+      "y1": 746.6
+     }
+    },
+    {
+     "src": "maths/WME01_2026_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 41,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 127.7,
+      "x1": 560,
+      "y1": 146.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME01_2026_01_q2",
+   "number": 2,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME01_2026_01/q2_stem.webp",
+     "w": 1090,
+     "h": 766,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 424.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q2_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 431.1,
+        "x1": 559,
+        "y1": 466.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q2_a_ms_1.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 146.7,
+        "x1": 560,
+        "y1": 272.8
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q2_a_ms_2.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 272.8,
+        "x1": 560,
+        "y1": 351.5
+       }
+      }
+     ],
+     "text": "(a) Show that U = 6 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q2_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 469.1,
+        "x1": 559,
+        "y1": 504.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 146.7,
+        "x1": 560,
+        "y1": 272.8
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 115,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 351.5,
+        "x1": 560,
+        "y1": 406.4
+       }
+      }
+     ],
+     "text": "(b) Find the distance travelled by P whilst moving from rest to a speed of 6 m s –1 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 507.0,
+        "x1": 559,
+        "y1": 542.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q2_c_ms_1.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 146.7,
+        "x1": 560,
+        "y1": 272.8
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q2_c_ms_2.webp",
+       "w": 1092,
+       "h": 86,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 406.4,
+        "x1": 560,
+        "y1": 447.1
+       }
+      }
+     ],
+     "text": "(c) Find the acceleration of P between t = 0 and t = 12 s. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q2_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 545.0,
+        "x1": 559,
+        "y1": 580.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q2_d_ms_1.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 146.7,
+        "x1": 560,
+        "y1": 272.8
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q2_d_ms_2.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 447.1,
+        "x1": 560,
+        "y1": 526.9
+       }
+      }
+     ],
+     "text": "(d) Find the deceleration of P between t = 31 s and t = 41 s. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q2_e.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 583.0,
+        "x1": 559,
+        "y1": 618.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q2_e_ms_1.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 146.7,
+        "x1": 560,
+        "y1": 272.8
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q2_e_ms_2.webp",
+       "w": 1092,
+       "h": 332,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 526.9,
+        "x1": 560,
+        "y1": 685.5
+       }
+      }
+     ],
+     "text": "(e) Sketch an acceleration‑time graph to represent the motion of P from t = 0 to t = 41 s. (2)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 186,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 682.5,
+      "x1": 560,
+      "y1": 770.9
+     }
+    },
+    {
+     "src": "maths/WME01_2026_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 805,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 454.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME01_2026_01_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME01_2026_01/q3_stem.webp",
+     "w": 1090,
+     "h": 354,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 226.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q3_a.webp",
+       "w": 1090,
+       "h": 143,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 229.0,
+        "x1": 559,
+        "y1": 297.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 26,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 125.5,
+        "x1": 560,
+        "y1": 137.3
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 281,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 137.3,
+        "x1": 560,
+        "y1": 271.8
+       }
+      }
+     ],
+     "text": "(a) Show that 2p – q = 19 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q3_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 299.8,
+        "x1": 559,
+        "y1": 383.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 26,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 125.5,
+        "x1": 560,
+        "y1": 137.3
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 221,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 271.8,
+        "x1": 560,
+        "y1": 377.6
+       }
+      }
+     ],
+     "text": "The mass of the particle is 0.5 kg. Given that p = 7 (b) find the acceleration of the particle. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q3_notes.webp",
+     "w": 1092,
+     "h": 675,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 374.6,
+      "x1": 560,
+      "y1": 698.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME01_2026_01_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME01_2026_01/q4_stem.webp",
+     "w": 1090,
+     "h": 787,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 434.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q4_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 437.1,
+        "x1": 559,
+        "y1": 510.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q4_a_ms_1.webp",
+       "w": 1092,
+       "h": 70,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 138.7,
+        "x1": 560,
+        "y1": 171.4
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q4_a_ms_2.webp",
+       "w": 1092,
+       "h": 713,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 180.7,
+        "x1": 560,
+        "y1": 522.6
+       }
+      }
+     ],
+     "text": "(a) Find (i) the tension in the rope attached to the rod at C, (ii) the tension in the rope attached to the rod at A. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q4_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 513.1,
+        "x1": 559,
+        "y1": 596.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 70,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 138.7,
+        "x1": 560,
+        "y1": 171.4
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 475,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 522.6,
+        "x1": 560,
+        "y1": 749.9
+       }
+      }
+     ],
+     "text": "The particle of mass 20 kg at B is removed and replaced by a particle of mass M kg. The rod remains in equilibrium in a horizontal position. (b) Find the exact maximum value of M. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 39,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 746.9,
+      "x1": 560,
+      "y1": 764.8
+     }
+    },
+    {
+     "src": "maths/WME01_2026_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1027,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 560.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME01_2026_01_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME01_2026_01/q5_stem.webp",
+     "w": 1090,
+     "h": 465,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 279.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q5_a.webp",
+       "w": 1090,
+       "h": 67,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 282.6,
+        "x1": 559,
+        "y1": 314.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 125.5,
+        "x1": 560,
+        "y1": 210.0
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 342,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 210.0,
+        "x1": 560,
+        "y1": 373.9
+       }
+      }
+     ],
+     "text": "(a) Show that U = 2.1 to 2 significant figures. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q5_b.webp",
+       "w": 1090,
+       "h": 153,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 314.0,
+        "x1": 559,
+        "y1": 387.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 125.5,
+        "x1": 560,
+        "y1": 210.0
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 292,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 373.9,
+        "x1": 560,
+        "y1": 513.1
+       }
+      }
+     ],
+     "text": "The particle passes through C with speed U –1 m s 3 (b) Find the time taken to move from B to C. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q5_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 389.6,
+        "x1": 559,
+        "y1": 425.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q5_c_ms_1.webp",
+       "w": 1092,
+       "h": 177,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 125.5,
+        "x1": 560,
+        "y1": 210.0
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q5_c_ms_2.webp",
+       "w": 1092,
+       "h": 365,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 513.1,
+        "x1": 560,
+        "y1": 688.2
+       }
+      }
+     ],
+     "text": "(c) Find the distance AC. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 185,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 685.2,
+      "x1": 560,
+      "y1": 773.6
+     }
+    },
+    {
+     "src": "maths/WME01_2026_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 927,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 512.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME01_2026_01_q6",
+   "number": 6,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WME01_2026_01/q6_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 154.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 124.9,
+        "x1": 560,
+        "y1": 188.4
+       }
+      }
+     ],
+     "text": "(a) Find the exact speed of S (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q6_b.webp",
+       "w": 1090,
+       "h": 233,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 157.2,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 243,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 188.4,
+        "x1": 560,
+        "y1": 304.6
+       }
+      }
+     ],
+     "text": "The harbour is at the origin O. At 9 am, a boat B leaves the point with position vector (50i + 10j) km and moves with constant velocity (–8i + 10j) km h –1 (b) Find the direction in which B is moving, giving your answer as a bearing to the nearest degree. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q6_c.webp",
+       "w": 1090,
+       "h": 143,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 339.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 320,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 304.6,
+        "x1": 560,
+        "y1": 457.5
+       }
+      }
+     ],
+     "text": "(c) Show that at time t hours after 9 am, → = [(50 – 18t)i + (10 – 5t)j] km SB (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q6_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 341.9,
+        "x1": 559,
+        "y1": 377.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q6_d_ms.webp",
+       "w": 1092,
+       "h": 190,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 457.5,
+        "x1": 560,
+        "y1": 548.4
+       }
+      }
+     ],
+     "text": "(d) Show that B and S do not collide. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q6_e.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 379.9,
+        "x1": 559,
+        "y1": 439.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q6_e_ms.webp",
+       "w": 1092,
+       "h": 397,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 548.4,
+        "x1": 560,
+        "y1": 738.5
+       }
+      }
+     ],
+     "text": "When B is north‑east of S, the distance between S and B is d km. (e) Find the value of d. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 68,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 735.5,
+      "x1": 560,
+      "y1": 767.7
+     }
+    },
+    {
+     "src": "maths/WME01_2026_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 1444,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 760.4
+     }
+    },
+    {
+     "src": "maths/WME01_2026_01/q6_notes_3.webp",
+     "w": 1092,
+     "h": 397,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 258.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME01_2026_01_q7",
+   "number": 7,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME01_2026_01/q7_stem.webp",
+     "w": 1090,
+     "h": 887,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 482.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q7_a.webp",
+       "w": 1090,
+       "h": 88,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 482.6,
+        "x1": 559,
+        "y1": 524.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 407,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 246.7,
+        "x1": 560,
+        "y1": 441.5
+       }
+      }
+     ],
+     "text": "(a) Show that μ = 1 4 (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME01_2026_01/q7_b.webp",
+       "w": 1090,
+       "h": 312,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 526.9,
+        "x1": 559,
+        "y1": 676.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME01_2026_01/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 258,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 441.5,
+        "x1": 560,
+        "y1": 564.5
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 410,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 564.5,
+        "x1": 560,
+        "y1": 761.0
+       }
+      },
+      {
+       "src": "maths/WME01_2026_01/q7_b_ms_3.webp",
+       "w": 1092,
+       "h": 48,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 68.0,
+        "x1": 560,
+        "y1": 90.3
+       }
+      }
+     ],
+     "text": "Additional identical blocks of mass 0.2 kg are added one at a time into the bucket until P starts to move up the plane. At the instant when P starts to move up the plane, there are a total of n blocks in the bucket. (b) Find (i) the value of n (ii) the magnitude of the initial acceleration of P (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME01_2026_01/q7_notes.webp",
+     "w": 1092,
+     "h": 1223,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 87.3,
+      "x1": 560,
+      "y1": 673.5
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

@@ -2,6 +2,8 @@
 
 Usage:  pipeline/.venv/bin/python pipeline/maths/segment.py WMA11_2024_01             outline + checks
         pipeline/.venv/bin/python pipeline/maths/segment.py WMA11_2024_01 --preview   overlay PNG per page
+        pipeline/.venv/bin/python pipeline/maths/segment.py WMA11_2024_01 --write     crops + the registry file
+                                                                                        (registry/maths/papers/)
         pipeline/.venv/bin/python pipeline/maths/segment.py WMA11_2024_01 --render    crops + paper.json in
                                                                     pipeline/cache/segments/<id>/
 
@@ -35,6 +37,9 @@ from pathlib import Path
 
 import pymupdf
 from PIL import Image, ImageDraw
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import units  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 CACHE = ROOT / "pipeline" / "cache"
@@ -128,10 +133,39 @@ def open_pdf(path):
     return doc
 
 
+_RIGHT = {}
+
+
+def right_edge(doc):
+    """Where this paper's printed column ends. Papers up to 2022 keep a 'Leave blank' box down the right margin
+    (x ≈ 515–560: the label, the box's rule, a 'Q12' score box at each question's end). It isn't the question:
+    counted as content it made every answer page part of a question, and it showed in every crop. So for those
+    papers the column stops at the box's rule; for the rest (and mark schemes) it's the usual COL_X1."""
+    key = doc.name                  # the file: a closed document's id() can be reused by the next one
+    if key not in _RIGHT:
+        edge = COL_X1
+        for page in list(doc)[1:4]:
+            leave = [l["bbox"][0] for b in page.get_text("dict")["blocks"] for l in b.get("lines", [])
+                     if "".join(s["text"] for s in l["spans"]).strip() in ("Leave", "blank", "Leave blank")
+                     and l["bbox"][0] > 470]
+            if not leave:
+                continue
+            lx = min(leave)
+            rules = [it[1].x for d in page.get_drawings() for it in d["items"]
+                     if it[0] == "l" and abs(it[1].x - it[2].x) < 1 and abs(it[1].y - it[2].y) > 300 and 470 < it[1].x < lx]
+            rules += [d["rect"].x0 for d in page.get_drawings()
+                      if d["rect"].width < 3 and d["rect"].height > 300 and 470 < d["rect"].x0 < lx]
+            edge = (min(rules) if rules else lx - 4) - 1
+            break
+        _RIGHT[key] = edge
+    return _RIGHT[key]
+
+
 def read_lines(doc, skip_cover=True, top=COL_Y0):
     """Text lines in the printed column. `top`: mark-scheme pages have no furniture above the column, and
     a table row continued onto a new page can put its label at y≈29 (FP3 Jan 2024), so they read from 20."""
     lines = []
+    right = right_edge(doc)
     for pno, page in enumerate(doc):
         if skip_cover and pno == 0:
             continue
@@ -141,7 +175,7 @@ def read_lines(doc, skip_cover=True, top=COL_Y0):
                 if not spans:
                     continue
                 x0, y0, x1, y1 = l["bbox"]
-                if x1 < COL_X0 or x0 > COL_X1 or y0 < top or y0 > COL_Y1:
+                if x1 < COL_X0 or x0 > right or y0 < top or y0 > COL_Y1:
                     continue
                 text = " ".join("".join(s["text"] for s in l["spans"]).split())
                 lines.append(Line(pno, x0, y0, x1, y1, text, any("Bold" in s["font"] for s in spans)))
@@ -161,17 +195,18 @@ def content_items(doc, lines):
     items = [Item(l.page, l.y0, l.y1, "text") for l in lines
              if not (RULED.match(l.text) or CONTINUED.match(l.text) or TOTAL.match(l.text)
                      or NOT_CONTENT.match(l.text))]
+    right = right_edge(doc)
     for pno, page in enumerate(doc):
         for d in page.get_drawings():
             r = d["rect"]
-            if r.x1 < COL_X0 or r.x0 > COL_X1 or r.y1 < COL_Y0 or r.y0 > COL_Y1:
+            if r.x1 < COL_X0 or r.x0 > right - 2 or r.y1 < COL_Y0 or r.y0 > COL_Y1:
                 continue
             if (r.width > 500 and r.height > 700) or (r.width > 400 and r.height < 1.5):
                 continue                                    # page frame, answer rules, separators
             items.append(Item(pno, max(r.y0, COL_Y0), min(r.y1, COL_Y1), "drawing"))
         for img in page.get_image_info():
             x0, y0, x1, y1 = img["bbox"]
-            if x1 < COL_X0 + 5 or x0 > COL_X1 - 5:
+            if x1 < COL_X0 + 5 or x0 > right - 5:
                 continue
             items.append(Item(pno, max(y0, COL_Y0), min(y1, COL_Y1), "image"))
     return items
@@ -609,8 +644,9 @@ def slug(label, suffix=""):
     return "q" + "_".join(re.findall(r"[0-9]+|[a-z]+", label)) + suffix
 
 
-def render_bands(doc, bands, name, out_dir, paper_id, x0=COL_X0, x1=COL_X1):
+def render_bands(doc, bands, name, out_dir, paper_id, x0=COL_X0, x1=None):
     crops = []
+    x1 = x1 if x1 is not None else right_edge(doc)
     for i, (page, y0, y1) in enumerate(bands):
         fname = name + (f"_{i + 1}" if len(bands) > 1 else "") + ".webp"
         clip = pymupdf.Rect(x0, y0, x1, y1)
@@ -716,6 +752,79 @@ def preview(doc, questions, out_dir):
     return paths
 
 
+DURATION = re.compile(r"Time:\s*(?:(\d)\s*hours?)?\s*(?:(\d{1,2})\s*minutes?)?", re.I)
+QUESTION_OF = re.compile(r"^(?:MS )?(?:Q(\d{1,2})\b|(\d{1,2})(?:\(|:))")
+
+
+def duration_min(doc):
+    """Exam length from the cover, e.g. '(Time: 1 hour 30 minutes)' -> 90."""
+    m = DURATION.search(" ".join(doc[0].get_text().split()))
+    return int(m[1] or 0) * 60 + int(m[2] or 0) if m and (m[1] or m[2]) else None
+
+
+def problems_by_question(problems):
+    """Each segmenter problem under the question(s) it is about; the rest are about the whole paper."""
+    out, paper = {}, []
+    for p in problems:
+        if m := re.match(r"total line for question (\d+) inside question (\d+)", p):
+            for n in (int(m[1]), int(m[2])):
+                out.setdefault(n, []).append(p)
+        elif m := QUESTION_OF.match(p):
+            out.setdefault(int(m[1] or m[2]), []).append(p)
+        else:
+            paper.append(p)
+    return out, paper
+
+
+def write_registry(paper_id, doc, ms_doc, out_dir, problems):
+    """registry/maths/papers/<id>.json, in the same shape as Physics (src/lib/papers/types.ts). Questions start
+    'pending'. Each one carries risks: the shared crop checks (pipeline/risks.py: content cut by an edge, text
+    after the marks, a part across pages) plus any segmenter problem about it, so a paper the segmenter isn't
+    sure of in one place can still be written, and only that question waits for a person. A problem with the
+    whole paper (no questions found, no mark-scheme table) stops the write."""
+    sys.path.insert(0, str(ROOT / "pipeline"))
+    import risks
+    import reviews
+    by_q, whole = problems_by_question(problems)
+    if whole:
+        print("not writing the registry file: " + "; ".join(whole))
+        return None
+    sources = json.loads(units.SOURCES.read_text())
+    entry = next(p for p in sources["papers"] if p["id"] == paper_id)
+    providers = sources["providers"]
+
+    def source(kind):
+        f = entry[kind]
+        prov = providers[f["via"]]
+        return {"url": f["url"], "via": {"name": prov["name"], "url": prov["url"], "credit": prov["credit"]}}
+
+    seg = json.loads((out_dir / "paper.json").read_text())
+    paper = {
+        "id": paper_id, "subject": SUBJECT, "unit": entry["unit"], "series": entry["series"],
+        **({"variant": entry["variant"]} if entry.get("variant") else {}),
+        "totalMarks": sum(q["marks"] or 0 for q in seg["questions"]),
+        "durationMin": duration_min(doc),
+        "source": {"qp": source("qp"), "ms": source("ms")},
+        "questions": seg["questions"],
+    }
+    pages = risks.Pages(doc)
+    for q in paper["questions"]:
+        # A Maths part often opens with its set-up ('Given that θ > 90 (b) find …'): that's its own text, so
+        # only a label missing from the part altogether is a risk.
+        texts = {p["label"]: p.get("text", "") for p in q["parts"]}
+        shared = [r for r in risks.text_risks(q) if not (
+            r.endswith("text doesn't start at its label")
+            and any(h in texts.get(r.split(":")[0], "") for h in risks.label_heads(q["number"], r.split(":")[0])))]
+        found = risks.edge_risks(q, pages) + shared + by_q.get(q["number"], [])
+        if found:
+            q["risks"] = found
+    reviews.apply(paper, reviews.load(SUBJECT, paper_id))
+    path = ROOT / "registry" / SUBJECT / "papers" / f"{paper_id}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(paper, indent=1, ensure_ascii=False) + "\n")
+    return path
+
+
 def main():
     paper_id = sys.argv[1]
     doc = open_pdf(PDF / f"{paper_id}_qp.pdf")
@@ -742,9 +851,13 @@ def main():
     if "--preview" in sys.argv:
         out = CACHE / "segments" / paper_id / "preview"
         print(f"preview: {len(preview(doc, questions, out))} pages in {out}")
-    if "--render" in sys.argv:
+    if "--render" in sys.argv or "--write" in sys.argv:
         out, n, size = export(paper_id, doc, questions, lines, ms_doc, rows, notes, ms_lines, ms_items, matched)
         print(f"render: {n} crops, {size / 1024:.0f} KB, in {out}")
+    if "--write" in sys.argv:
+        path = write_registry(paper_id, doc, ms_doc, out, problems + ms_problems + pair_problems)
+        if path:
+            print(f"registry: {path.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

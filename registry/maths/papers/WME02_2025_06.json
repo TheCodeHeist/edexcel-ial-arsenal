@@ -1,0 +1,1218 @@
+{
+ "id": "WME02_2025_06",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2025-06",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_M2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202025/IAL_MATHS_2025_MayJune_M2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2025_06_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2025_06/q1_stem.webp",
+     "w": 1090,
+     "h": 352,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 225.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 227.9,
+        "x1": 559,
+        "y1": 263.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 315,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 111.7,
+        "x1": 560,
+        "y1": 262.5
+       }
+      }
+     ],
+     "text": "(a) show that k = 4 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q1_b.webp",
+       "w": 1090,
+       "h": 263,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 265.9,
+        "x1": 559,
+        "y1": 391.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 374,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 262.5,
+        "x1": 560,
+        "y1": 441.2
+       }
+      }
+     ],
+     "text": "The displacement of P from O is s metres in the positive x direction. (b) Show that s = 1 3 t 2 (18 – t 2) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q1_c_1.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 393.9,
+        "x1": 559,
+        "y1": 429.4
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q1_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 223,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 441.2,
+        "x1": 560,
+        "y1": 547.9
+       }
+      }
+     ],
+     "text": "(c) Find the total distance that P moves before it returns to O. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q1_notes_1.webp",
+     "w": 1092,
+     "h": 476,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 544.9,
+      "x1": 560,
+      "y1": 773.2
+     }
+    },
+    {
+     "src": "maths/WME02_2025_06/q1_notes_2.webp",
+     "w": 1092,
+     "h": 69,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 103.7,
+      "x1": 560,
+      "y1": 136.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "1(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WME02_2025_06_q2",
+   "number": 2,
+   "marks": 7,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q2_1.webp",
+       "w": 1090,
+       "h": 396,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 246.6
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q2_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q2_ms.webp",
+       "w": 1092,
+       "h": 297,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 214.5
+       }
+      }
+     ],
+     "text": "2: In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. [In this question, i and j are horizontal unit vectors.] A particle P of mass 3 kg is moving on a smooth horizontal plane. At time t seconds, where 1  t  4, the position vector, r metres, of P relative to a fixed 1 origin is given by r = 4t 2 i – 3t j. At the instant when t = 4, P receives an impulse (6i – 3j) N s. Find the speed of P immediately after the impulse is received. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q2_notes.webp",
+     "w": 1092,
+     "h": 489,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 211.5,
+      "x1": 560,
+      "y1": 445.8
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2: runs across pages"
+   ]
+  },
+  {
+   "id": "WME02_2025_06_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME02_2025_06/q3_stem.webp",
+     "w": 1090,
+     "h": 859,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 59.1,
+      "x1": 559,
+      "y1": 471.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q3_a.webp",
+       "w": 1090,
+       "h": 111,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 476.3,
+        "x1": 559,
+        "y1": 529.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 497,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 310.5
+       }
+      }
+     ],
+     "text": "a 6 (a) Show that the centre of mass of the framework is a distance from AB. π 1 (3 2) (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q3_b_1.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 532.0,
+        "x1": 559,
+        "y1": 653.3
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q3_b_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q3_b_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q3_b_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 918,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 310.5,
+        "x1": 560,
+        "y1": 750.4
+       }
+      }
+     ],
+     "text": "The point E is on the arc AB and the angle AOE is a right angle. The framework is freely suspended from A. The framework hangs at rest in a vertical plane with AE making an angle θ with the downward vertical. (b) Find the exact value of tan θ, simplifying your answer. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 38,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 747.4,
+      "x1": 560,
+      "y1": 765.2
+     }
+    },
+    {
+     "src": "maths/WME02_2025_06/q3_notes_2.webp",
+     "w": 1092,
+     "h": 616,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 363.1
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "3(b): runs across pages"
+   ]
+  },
+  {
+   "id": "WME02_2025_06_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2025_06/q4_stem.webp",
+     "w": 1090,
+     "h": 195,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 60.8,
+      "x1": 559,
+      "y1": 154.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q4_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 154.6,
+        "x1": 559,
+        "y1": 190.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 225,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 179.9
+       }
+      }
+     ],
+     "text": "–1, at which the car could move up the slope. (a) Find the constant speed, in m s (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q4_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 192.6,
+        "x1": 559,
+        "y1": 242.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 167,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 179.9,
+        "x1": 560,
+        "y1": 259.6
+       }
+      }
+     ],
+     "text": "(b) Find the acceleration of the car at the instant when it is moving up the slope –1 at 10 m s (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q4_c_1.webp",
+       "w": 1090,
+       "h": 254,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 244.6,
+        "x1": 559,
+        "y1": 365.9
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q4_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q4_c_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q4_c_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 322,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 259.6,
+        "x1": 560,
+        "y1": 413.6
+       }
+      }
+     ],
+     "text": "At this instant, the car is at the point A and the engine of the car is switched off. The total resistance to the motion of the car from non-gravitational forces remains at 200 N. Using the work-energy principle, (c) find how far up the slope from A the car would travel before coming to rest. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q4_notes.webp",
+     "w": 1092,
+     "h": 605,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 410.6,
+      "x1": 560,
+      "y1": 700.5
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WME02_2025_06_q5",
+   "number": 5,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WME02_2025_06/q5_stem.webp",
+     "w": 1090,
+     "h": 104,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 106.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q5_a.webp",
+       "w": 1090,
+       "h": 110,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 112.0,
+        "x1": 559,
+        "y1": 164.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 286,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 85.8,
+        "x1": 560,
+        "y1": 222.3
+       }
+      }
+     ],
+     "text": "1 e u (a) Show that the speed of Q after the collision is 2(l ) 3 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q5_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 167.1,
+        "x1": 559,
+        "y1": 226.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 311,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 222.3,
+        "x1": 560,
+        "y1": 371.2
+       }
+      }
+     ],
+     "text": "The total loss of kinetic energy due to the collision is k(1 – e 2)mu 2, where k is a constant. (b) Find the value of k. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q5_c.webp",
+       "w": 1090,
+       "h": 160,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 232.3,
+        "x1": 559,
+        "y1": 308.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 162,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 371.2,
+        "x1": 560,
+        "y1": 448.5
+       }
+      }
+     ],
+     "text": "The magnitude of the impulse of Q on P in the collision is 8 mu 9 (c) Find the value of e. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q5_d_1.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 311.0,
+        "x1": 559,
+        "y1": 408.4
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q5_d_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q5_d_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q5_d_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q5_d_ms.webp",
+       "w": 1092,
+       "h": 339,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 448.5,
+        "x1": 560,
+        "y1": 611.0
+       }
+      }
+     ],
+     "text": "After the collision, Q goes on to hit a vertical wall which is fixed at right angles to the direction of motion of Q. The coefficient of restitution between Q and the wall is f. After Q has hit the wall, Q has the same speed as P. (d) Find the value of f. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 341,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 608.0,
+      "x1": 560,
+      "y1": 771.0
+     }
+    },
+    {
+     "src": "maths/WME02_2025_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 573,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 342.7
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(d): runs across pages"
+   ]
+  },
+  {
+   "id": "WME02_2025_06_q6",
+   "number": 6,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2025_06/q6_stem.webp",
+     "w": 1090,
+     "h": 721,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 402.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q6_a.webp",
+       "w": 1090,
+       "h": 112,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 407.3,
+        "x1": 559,
+        "y1": 460.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 188,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 70.9,
+        "x1": 560,
+        "y1": 160.3
+       }
+      }
+     ],
+     "text": "(a) Show that S = 2 mg cos θ 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q6_b.webp",
+       "w": 1090,
+       "h": 167,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 463.2,
+        "x1": 559,
+        "y1": 542.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 133,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 160.3,
+        "x1": 560,
+        "y1": 223.8
+       }
+      }
+     ],
+     "text": "The magnitude of the vertical component of the force exerted on the rod at A is V. (b) Show that V = mg 3 (3 – 2 cos 2 θ) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q6_c_1.webp",
+       "w": 1090,
+       "h": 297,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 545.1,
+        "x1": 559,
+        "y1": 687.3
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q6_c_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q6_c_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q6_c_4.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 568,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 223.8,
+        "x1": 560,
+        "y1": 496.2
+       }
+      }
+     ],
+     "text": "Given that the rod is in limiting equilibrium and the coefficient of friction between the rod and the floor is 4 7 (c) show that 2 θ + q tan θ + r = 0 p tan where p, q and r are integers to be found. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 536,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 493.2,
+      "x1": 560,
+      "y1": 750.2
+     }
+    },
+    {
+     "src": "maths/WME02_2025_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 420,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 269.2
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "6(c): runs across pages"
+   ]
+  },
+  {
+   "id": "WME02_2025_06_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME02_2025_06/q7_stem.webp",
+     "w": 1090,
+     "h": 445,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 270.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 273.0,
+        "x1": 559,
+        "y1": 308.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 220,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 72.0,
+        "x1": 560,
+        "y1": 177.4
+       }
+      }
+     ],
+     "text": "(a) show that V = 6 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2025_06/q7_b_1.webp",
+       "w": 1090,
+       "h": 669,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 311.0,
+        "x1": 559,
+        "y1": 631.3
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q7_b_2.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      },
+      {
+       "src": "maths/WME02_2025_06/q7_b_3.webp",
+       "w": 1090,
+       "h": 38,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 136.0,
+        "x1": 559,
+        "y1": 154.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2025_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 978,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 177.4,
+        "x1": 560,
+        "y1": 646.3
+       }
+      }
+     ],
+     "text": "Figure 3 shows a plane fixed to the ground at an angle of 60° The stone hits this plane at the point A. A 20 m s–1 60 α O Figure 3 The direction of the motion of the stone is perpendicular to the plane at the instant the stone hits A. Using the model, (b) find the height of A above the ground, giving your answer to 2 significant figures. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2025_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 255,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 643.3,
+      "x1": 560,
+      "y1": 765.5
+     }
+    },
+    {
+     "src": "maths/WME02_2025_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 613,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 361.5
+     }
+    },
+    {
+     "src": "maths/WME02_2025_06/q7_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 743.5,
+      "x1": 560,
+      "y1": 772.9
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "7(b): runs across pages"
+   ]
+  }
+ ]
+}

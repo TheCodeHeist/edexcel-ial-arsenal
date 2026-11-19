@@ -54,6 +54,8 @@ def fingerprint(question):
         "parts": [(p["label"], p["marks"], p.get("answerRead", p.get("answer")),
                    regions(p.get("intro", [])), regions(p["qp"]), regions(p["ms"])) for p in question["parts"]],
     }
+    if question.get("msNotes"):         # Maths: the mark scheme's notes after a question (Physics has none, so
+        seen["notes"] = regions(question["msNotes"])    # its fingerprints are unchanged)
     return hashlib.sha1(json.dumps(seen, sort_keys=True).encode()).hexdigest()[:12]
 
 

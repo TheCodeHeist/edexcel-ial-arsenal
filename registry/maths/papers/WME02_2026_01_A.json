@@ -1,0 +1,978 @@
+{
+ "id": "WME02_2026_01_A",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2026-01",
+ "variant": "A",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202026/IAL_MATHS_2026_Jan_M2A_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan 2026/IAL_MATHS_2026_Jan_M2A_MS_1789918194867.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2026_01_A_q1",
+   "number": 1,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q1_stem.webp",
+     "w": 1090,
+     "h": 129,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 44.0,
+      "x1": 559,
+      "y1": 105.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 107.8,
+        "x1": 559,
+        "y1": 143.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q1_a_ms.webp",
+       "w": 1092,
+       "h": 266,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 115.6,
+        "x1": 560,
+        "y1": 242.8
+       }
+      }
+     ],
+     "text": "(a) Find the magnitude of the impulse. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q1_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 145.8,
+        "x1": 559,
+        "y1": 195.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 1100,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 242.8,
+        "x1": 560,
+        "y1": 770.3
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 105.0,
+        "x1": 560,
+        "y1": 167.2
+       }
+      }
+     ],
+     "text": "(b) Find the angle between the direction of the impulse and the direction of motion of P immediately before the impulse is applied. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q1: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2026_01_A_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q2_stem.webp",
+     "w": 1090,
+     "h": 278,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 231.6,
+      "x1": 559,
+      "y1": 364.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 367.5,
+        "x1": 559,
+        "y1": 403.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 417,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 176.5,
+        "x1": 560,
+        "y1": 376.3
+       }
+      }
+     ],
+     "text": "(a) Find the value of R. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q2_b.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 405.3,
+        "x1": 559,
+        "y1": 502.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q2_b_ms.webp",
+       "w": 1092,
+       "h": 550,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 376.3,
+        "x1": 560,
+        "y1": 639.6
+       }
+      }
+     ],
+     "text": "Later the cyclist cycles down the same road on the same bicycle. He is again working at a constant rate of 280 W and the resistance to motion is now modelled as a constant force of magnitude 60 N. –1. (b) Find the acceleration of the cyclist at the instant when his speed is 3.5m s (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q2: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2026_01_A_q3",
+   "number": 3,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q3_stem.webp",
+     "w": 1090,
+     "h": 514,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 292.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q3_a.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 294.9,
+        "x1": 559,
+        "y1": 378.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q3_a_ms_1.webp",
+       "w": 1092,
+       "h": 624,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 110.5,
+        "x1": 560,
+        "y1": 409.7
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q3_a_ms_2.webp",
+       "w": 1092,
+       "h": 298,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 409.7,
+        "x1": 560,
+        "y1": 552.2
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q3_a_ms_3.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 552.2,
+        "x1": 560,
+        "y1": 632.4
+       }
+      }
+     ],
+     "text": "(a) Find the distance of the centre of mass of the lamina (i) from OD, (ii) from OA. (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q3_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 380.8,
+        "x1": 559,
+        "y1": 454.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q3_b_ms_1.webp",
+       "w": 1092,
+       "h": 263,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 632.4,
+        "x1": 560,
+        "y1": 758.3
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q3_b_ms_2.webp",
+       "w": 1092,
+       "h": 791,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 446.3
+       }
+      }
+     ],
+     "text": "The lamina is suspended from C and hangs freely in equilibrium with CB inclined at an angle α to the vertical. (b) Find, to the nearest degree, the size of the angle α. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q3: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2026_01_A_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q4_stem.webp",
+     "w": 1090,
+     "h": 351,
+     "region": {
+      "page": 3,
+      "x0": 36,
+      "y0": 490.5,
+      "x1": 559,
+      "y1": 658.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q4_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 661.0,
+        "x1": 559,
+        "y1": 696.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q4_a_ms.webp",
+       "w": 1092,
+       "h": 550,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 98.0,
+        "x1": 560,
+        "y1": 361.5
+       }
+      }
+     ],
+     "text": "(a) the value of T, (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q4_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 699.0,
+        "x1": 559,
+        "y1": 734.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q4_b_ms_1.webp",
+       "w": 1092,
+       "h": 529,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 361.5,
+        "x1": 560,
+        "y1": 615.2
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q4_b_ms_2.webp",
+       "w": 1092,
+       "h": 37,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 84.4
+       }
+      }
+     ],
+     "text": "(b) the magnitude of the acceleration of P at the instant when t = T. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q4: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2026_01_A_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q5_stem.webp",
+     "w": 1090,
+     "h": 847,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 451.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q5_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 461.6,
+        "x1": 559,
+        "y1": 497.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q5_a_ms.webp",
+       "w": 1092,
+       "h": 483,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 84.4,
+        "x1": 560,
+        "y1": 315.6
+       }
+      }
+     ],
+     "text": "16 (a) show that F O mg ( 1 1 2 k ) 25 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q5_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 503.8,
+        "x1": 559,
+        "y1": 587.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q5_b_ms.webp",
+       "w": 1092,
+       "h": 724,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 315.6,
+        "x1": 560,
+        "y1": 662.8
+       }
+      }
+     ],
+     "text": "(b) find, in terms of m, g and k, (i) the horizontal component of the force exerted by the hinge on the rod at A, (ii) the vertical component of the force exerted by the hinge on the rod at A. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q5_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 589.8,
+        "x1": 559,
+        "y1": 649.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q5_c_ms.webp",
+       "w": 1092,
+       "h": 329,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 227.8
+       }
+      }
+     ],
+     "text": "Given also that the force acting on the rod at A acts at 45° above the horizontal, (c) find the value of k. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2026_01_A/q5_notes.webp",
+     "w": 1092,
+     "h": 37,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 259.8,
+      "x1": 560,
+      "y1": 277.0
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(a): text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WME02_2026_01_A_q6",
+   "number": 6,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q6_stem.webp",
+     "w": 1090,
+     "h": 353,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 215.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q6_a.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 217.8,
+        "x1": 559,
+        "y1": 291.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q6_a_ms.webp",
+       "w": 1092,
+       "h": 777,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 277.0,
+        "x1": 560,
+        "y1": 649.6
+       }
+      }
+     ],
+     "text": "(a) (i) Show that w = 23 9 (ii) Find the value of v. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q6_b.webp",
+       "w": 1090,
+       "h": 339,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 293.8,
+        "x1": 559,
+        "y1": 456.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 811,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 459.2
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 628,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 459.2,
+        "x1": 560,
+        "y1": 759.8
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q6_b_ms_3.webp",
+       "w": 1092,
+       "h": 711,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 407.8
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q6_b_ms_4.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 112.5
+       }
+      }
+     ],
+     "text": "When A and B collide they are 3 m from a smooth vertical wall which is perpendicular to their direction of motion. After the collision with A, particle B hits the wall and rebounds. The coefficient of restitution between B and the wall is 1 2 There is a second collision between A and B at a point d m from the wall. (b) Find the value of d. (7)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q6: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2026_01_A_q7",
+   "number": 7,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WME02_2026_01_A/q7_stem.webp",
+     "w": 1090,
+     "h": 253,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 45.7,
+      "x1": 559,
+      "y1": 167.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 559,
+        "y1": 205.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_a_ms.webp",
+       "w": 1092,
+       "h": 193,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 112.5,
+        "x1": 560,
+        "y1": 204.7
+       }
+      }
+     ],
+     "text": "(a) Find the time taken by P to reach H. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 207.6,
+        "x1": 559,
+        "y1": 281.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_b_ms.webp",
+       "w": 1092,
+       "h": 389,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 204.7,
+        "x1": 560,
+        "y1": 390.8
+       }
+      }
+     ],
+     "text": "At the point A on its path, the position vector of P relative to O is (ki + kj) m, where k is a positive constant. (b) Find the value of k. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 283.7,
+        "x1": 559,
+        "y1": 333.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_c_ms_1.webp",
+       "w": 1092,
+       "h": 241,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 390.8,
+        "x1": 560,
+        "y1": 506.2
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q7_c_ms_2.webp",
+       "w": 1092,
+       "h": 541,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 506.2,
+        "x1": 560,
+        "y1": 765.3
+       }
+      },
+      {
+       "src": "maths/WME02_2026_01_A/q7_c_ms_3.webp",
+       "w": 1092,
+       "h": 862,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 483.4
+       }
+      }
+     ],
+     "text": "(c) Find, in terms of k, the position vector of the other point on the path of P which is at the same vertical height above the ground as the point A. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_d.webp",
+       "w": 1090,
+       "h": 126,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 335.5,
+        "x1": 559,
+        "y1": 395.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2026_01_A/q7_d_ms.webp",
+       "w": 1092,
+       "h": 358,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 483.4,
+        "x1": 560,
+        "y1": 654.7
+       }
+      }
+     ],
+     "text": "At time T seconds the particle is at the point B and is moving perpendicular to (4i + 9j) (d) Find the value of T. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2026_01_A/q7_notes.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 743.5,
+      "x1": 560,
+      "y1": 772.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

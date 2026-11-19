@@ -1,0 +1,1581 @@
+{
+ "id": "WST02_2025_01",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2025-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202025/IAL_MATHS_2025_Jan_S2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202025/IAL_MATHS_2025_Jan_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2025_01_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2025_01/q1_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q1_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 97.4,
+        "x1": 560,
+        "y1": 161.7
+       }
+      }
+     ],
+     "text": "(a) Find P(X = 2) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q1_b.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 170,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 161.7,
+        "x1": 560,
+        "y1": 242.4
+       }
+      }
+     ],
+     "text": "(b) Use a suitable Poisson approximation to estimate P(X = 2) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q1_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 216.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q1_c_ms.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 242.4,
+        "x1": 560,
+        "y1": 305.1
+       }
+      }
+     ],
+     "text": "(c) Calculate the percentage error in this approximation. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q1_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 219.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 305.1,
+        "x1": 560,
+        "y1": 335.0
+       }
+      }
+     ],
+     "text": "(d) State the conditions under which the Poisson distribution may be used as an approximation to the binomial distribution. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q1_e.webp",
+       "w": 1090,
+       "h": 223,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 377.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 405,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 335.0,
+        "x1": 560,
+        "y1": 528.8
+       }
+      }
+     ],
+     "text": "The random variable Y has a Poisson distribution with mean λ such that P(Y = 6) = 0.1601 and P(Y = 7) = 0.1418 (e) By forming and solving 2 equations, find the value of λ to 2 significant figures. Show your working clearly. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 490,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 525.8,
+      "x1": 560,
+      "y1": 760.7
+     }
+    },
+    {
+     "src": "maths/WST02_2025_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 252,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 67.4,
+      "x1": 560,
+      "y1": 187.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2025_01_q2",
+   "number": 2,
+   "marks": 11,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q2_i.webp",
+       "w": 1090,
+       "h": 354,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 226.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q2_i_ms.webp",
+       "w": 1092,
+       "h": 112,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 85.6,
+        "x1": 560,
+        "y1": 139.1
+       }
+      }
+     ],
+     "text": "2. (i) Nima wants to investigate the distribution of a discrete random variable X The unknown mean of the distribution is µ Nima takes a sample and finds the sample mean, x̅ For each of the following, state whether or not it is a statistic. Give a reason for your answer in each case. (a) µ (b) x̅ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q2_ii.webp",
+       "w": 1090,
+       "h": 407,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 229.1,
+        "x1": 559,
+        "y1": 424.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q2_ii_ms.webp",
+       "w": 1092,
+       "h": 259,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 139.1,
+        "x1": 560,
+        "y1": 262.9
+       }
+      }
+     ],
+     "text": "(ii) A discrete random variable Y has the sampling distribution given in the table below. 2 5 6 y 1 1 5 P(Y = y) 3 4 12 Two random independent observations of Y are taken. Find the probability that the value of the first observation of Y is smaller than the value of the second observation of Y (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(iii)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q2_iii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 426.9,
+        "x1": 559,
+        "y1": 500.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q2_iii_ms_1.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 262.9,
+        "x1": 560,
+        "y1": 291.5
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q2_iii_ms_2.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 291.5,
+        "x1": 560,
+        "y1": 321.4
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q2_iii_ms_3.webp",
+       "w": 1092,
+       "h": 293,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 321.4,
+        "x1": 560,
+        "y1": 461.4
+       }
+      }
+     ],
+     "text": "(iii) A bag contains three counters, numbered 3, 4 and 5 respectively. Two counters are drawn at random, one after the other without replacement. (a) List all the possible combinations of the scores on the two counters. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(iii)(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q2_iii_b.webp",
+       "w": 1090,
+       "h": 176,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 502.8,
+        "x1": 559,
+        "y1": 586.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q2_iii_b_ms_1.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 262.9,
+        "x1": 560,
+        "y1": 291.5
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q2_iii_b_ms_2.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 291.5,
+        "x1": 560,
+        "y1": 321.4
+       }
+      }
+     ],
+     "text": "The random variable T is defined as T = number on the first counter + (2 × number on the second counter) (b) List all the possible values of T (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(iii)(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q2_iii_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 589.2,
+        "x1": 559,
+        "y1": 624.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q2_iii_c_ms_1.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 262.9,
+        "x1": 560,
+        "y1": 291.5
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q2_iii_c_ms_2.webp",
+       "w": 1092,
+       "h": 293,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 321.4,
+        "x1": 560,
+        "y1": 461.4
+       }
+      }
+     ],
+     "text": "(c) Find the sampling distribution of T (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 640,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 458.4,
+      "x1": 560,
+      "y1": 765.4
+     }
+    },
+    {
+     "src": "maths/WST02_2025_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 523,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 67.1,
+      "x1": 560,
+      "y1": 317.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2025_01_q3",
+   "number": 3,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST02_2025_01/q3_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 130.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 142,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 97.4,
+        "x1": 560,
+        "y1": 164.9
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of k, the probability density function of X for all values of x (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 559,
+        "y1": 168.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 210,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 164.9,
+        "x1": 560,
+        "y1": 265.2
+       }
+      }
+     ],
+     "text": "(b) Sketch the graph of the probability density function of X (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q3_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 171.2,
+        "x1": 559,
+        "y1": 206.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 118,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 265.2,
+        "x1": 560,
+        "y1": 321.4
+       }
+      }
+     ],
+     "text": "(c) Find the mean of X in terms of k (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q3_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 209.1,
+        "x1": 559,
+        "y1": 244.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 416,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 321.4,
+        "x1": 560,
+        "y1": 520.4
+       }
+      }
+     ],
+     "text": "(d) Find, in terms of k, the cumulative distribution function of X for all values of x (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q3_e.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 247.1,
+        "x1": 559,
+        "y1": 306.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q3_e_ms.webp",
+       "w": 1092,
+       "h": 245,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 520.4,
+        "x1": 560,
+        "y1": 637.8
+       }
+      }
+     ],
+     "text": "The random variable Y is defined by Y = X 2 (e) Find E(Y) in terms of k (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(f)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q3_f.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 309.1,
+        "x1": 559,
+        "y1": 358.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q3_f_ms.webp",
+       "w": 1092,
+       "h": 282,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 637.8,
+        "x1": 560,
+        "y1": 772.5
+       }
+      }
+     ],
+     "text": "(f) Find the exact probability that Y < 2k 2 Show your working clearly. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q3_notes.webp",
+     "w": 1092,
+     "h": 1061,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 67.2,
+      "x1": 560,
+      "y1": 576.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2025_01_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(i)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q4_i.webp",
+       "w": 1090,
+       "h": 306,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 203.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q4_i_ms_1.webp",
+       "w": 1092,
+       "h": 262,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 97.4,
+        "x1": 560,
+        "y1": 222.4
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q4_i_ms_2.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 222.4,
+        "x1": 560,
+        "y1": 308.7
+       }
+      }
+     ],
+     "text": "4. (i) The probability density function of a continuous random variable X is given by x 3  x  1 3 f ( ) x O 20 \u001b 0 otherwise (a) Using algebraic integration find E(X 2) You must show your working. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(i)(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q4_i_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 206.0,
+        "x1": 559,
+        "y1": 265.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q4_i_b_ms_1.webp",
+       "w": 1092,
+       "h": 262,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 97.4,
+        "x1": 560,
+        "y1": 222.4
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q4_i_b_ms_2.webp",
+       "w": 1092,
+       "h": 181,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 222.4,
+        "x1": 560,
+        "y1": 308.7
+       }
+      }
+     ],
+     "text": "Given that E(X ) = 2.42 (b) find the value of Var (X ) correct to 3 significant figures. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q4_ii.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 268.0,
+        "x1": 559,
+        "y1": 341.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q4_ii_ms_1.webp",
+       "w": 1092,
+       "h": 189,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 308.7,
+        "x1": 560,
+        "y1": 399.3
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q4_ii_ms_2.webp",
+       "w": 1092,
+       "h": 171,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 399.3,
+        "x1": 560,
+        "y1": 480.8
+       }
+      }
+     ],
+     "text": "(ii) A random sample of size 10 is taken from a continuous random variable Y (a) Find the probability that at least 7 of these values are smaller than the upper quartile of Y (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(ii)(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q4_ii_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 343.7,
+        "x1": 559,
+        "y1": 393.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q4_ii_b_ms_1.webp",
+       "w": 1092,
+       "h": 189,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 308.7,
+        "x1": 560,
+        "y1": 399.3
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q4_ii_b_ms_2.webp",
+       "w": 1092,
+       "h": 171,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 399.3,
+        "x1": 560,
+        "y1": 480.8
+       }
+      }
+     ],
+     "text": "(b) Find the probability that less than or equal to 5 of these values are larger than the upper quartile of Y (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q4_notes.webp",
+     "w": 1092,
+     "h": 608,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 477.8,
+      "x1": 560,
+      "y1": 769.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2025_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2025_01/q5_stem.webp",
+     "w": 1090,
+     "h": 104,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 106.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q5_a.webp",
+       "w": 1090,
+       "h": 204,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 109.2,
+        "x1": 559,
+        "y1": 206.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 37,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 95.7,
+        "x1": 560,
+        "y1": 113.1
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 97,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 113.1,
+        "x1": 560,
+        "y1": 159.3
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q5_a_ms_3.webp",
+       "w": 1092,
+       "h": 130,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 159.3,
+        "x1": 560,
+        "y1": 221.0
+       }
+      }
+     ],
+     "text": "(a) Find the probability that in a random 20-minute period of time on this Monday night Chris sees (i) at least 6 meteors (ii) no more than 3 meteors. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q5_b.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 209.1,
+        "x1": 559,
+        "y1": 344.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 69,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 221.0,
+        "x1": 560,
+        "y1": 253.5
+       }
+      }
+     ],
+     "text": "Chris is told by the local astronomy club that there will be more meteors to be seen per hour on the following Friday night than on Monday night. Chris decides to use data from the Friday night to test, at a 5% significance level, if there is evidence to support the claim of the local astronomy club. Chris plans to spend 30 minutes looking for meteors on the Friday night. (b) Write down suitable null and alternative hypotheses that Chris can use. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q5_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 347.0,
+        "x1": 559,
+        "y1": 382.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 139,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 253.5,
+        "x1": 560,
+        "y1": 319.7
+       }
+      }
+     ],
+     "text": "(c) Find the critical region for the test and state its associated probability. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q5_d.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 385.0,
+        "x1": 559,
+        "y1": 458.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q5_d_ms.webp",
+       "w": 1092,
+       "h": 218,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 319.7,
+        "x1": 560,
+        "y1": 424.2
+       }
+      }
+     ],
+     "text": "On the Friday night, Chris sees 12 meteors in the 30 minutes. (d) State the conclusion to the test that can be made using this observation. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q5_notes.webp",
+     "w": 1092,
+     "h": 698,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 421.2,
+      "x1": 560,
+      "y1": 755.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2025_01_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2025_01/q6_stem.webp",
+     "w": 1090,
+     "h": 96,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 102.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q6_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 105.2,
+        "x1": 559,
+        "y1": 140.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 117,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 86.0,
+        "x1": 560,
+        "y1": 142.0
+       }
+      }
+     ],
+     "text": "(a) State the variance of R in terms of p (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q6_b.webp",
+       "w": 1090,
+       "h": 174,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 143.1,
+        "x1": 559,
+        "y1": 226.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 284,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 142.0,
+        "x1": 560,
+        "y1": 277.8
+       }
+      }
+     ],
+     "text": "A normal distribution is used as an approximation for R Using this approximation, P (R < 180) = 0.0307 to 3 significant figures. (b) Show that 200 − 200 p = 10.96 to 4 significant figures. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q6_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 229.1,
+        "x1": 559,
+        "y1": 264.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 235,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 277.8,
+        "x1": 560,
+        "y1": 389.8
+       }
+      }
+     ],
+     "text": "(c) Hence find the value of p, giving your answer to 2 significant figures. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q6_notes.webp",
+     "w": 1092,
+     "h": 591,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 386.8,
+      "x1": 560,
+      "y1": 670.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2025_01_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2025_01/q7_stem.webp",
+     "w": 1090,
+     "h": 151,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 128.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 140.0,
+        "x1": 559,
+        "y1": 175.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 321,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 95.9,
+        "x1": 560,
+        "y1": 249.5
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of y = f (x) (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 178.0,
+        "x1": 559,
+        "y1": 213.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 249.5,
+        "x1": 560,
+        "y1": 278.1
+       }
+      }
+     ],
+     "text": "(b) Hence write down the mode of X (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q7_c.webp",
+       "w": 1090,
+       "h": 158,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 216.0,
+        "x1": 559,
+        "y1": 291.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q7_c_ms_1.webp",
+       "w": 1092,
+       "h": 574,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 278.1,
+        "x1": 560,
+        "y1": 553.3
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q7_c_ms_2.webp",
+       "w": 1092,
+       "h": 460,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 553.3,
+        "x1": 560,
+        "y1": 773.3
+       }
+      }
+     ],
+     "text": "(c) Using algebraic integration and showing your working clearly (i) show that k = 3 28 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2025_01/q7_c_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 293.9,
+        "x1": 559,
+        "y1": 329.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2025_01/q7_c_ii_ms_1.webp",
+       "w": 1092,
+       "h": 574,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 278.1,
+        "x1": 560,
+        "y1": 553.3
+       }
+      },
+      {
+       "src": "maths/WST02_2025_01/q7_c_ii_ms_2.webp",
+       "w": 1092,
+       "h": 460,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 553.3,
+        "x1": 560,
+        "y1": 773.3
+       }
+      }
+     ],
+     "text": "(ii) verify that the upper quartile of X lies between 5.71 and 5.72 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2025_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 1455,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 67.2,
+      "x1": 560,
+      "y1": 764.9
+     }
+    },
+    {
+     "src": "maths/WST02_2025_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 67,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 728.4,
+      "x1": 560,
+      "y1": 760.0
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

@@ -1,0 +1,1273 @@
+{
+ "id": "WMA14_2023_01",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2023-01",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2023/P4_QP_1777746697274.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://pub-a2eda39105f54cdd94f4f22e236ea1df.r2.dev/library/IAL/Maths/Jan 2023/P4_MS_1777746695771.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2023_01_q1",
+   "number": 1,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q1_stem.webp",
+     "w": 1090,
+     "h": 62,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 67.8,
+      "x1": 559,
+      "y1": 97.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 103.3,
+        "x1": 559,
+        "y1": 138.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 210,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 103.2,
+        "x1": 560,
+        "y1": 203.2
+       }
+      }
+     ],
+     "text": "(a) Write f (x) in partial fraction form. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q1_b.webp",
+       "w": 1090,
+       "h": 105,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 141.1,
+        "x1": 559,
+        "y1": 190.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q1_b_ms_1.webp",
+       "w": 1092,
+       "h": 384,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 203.2,
+        "x1": 560,
+        "y1": 386.9
+       }
+      },
+      {
+       "src": "maths/WMA14_2023_01/q1_b_ms_2.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 386.9,
+        "x1": 560,
+        "y1": 449.3
+       }
+      }
+     ],
+     "text": "(b) (i) Hence find, in ascending powers of x up to and including the terms in x2, the binomial series expansion of f (x). Give each coefficient as a simplified fraction. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)(ii)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q1_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 193.3,
+        "x1": 559,
+        "y1": 228.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q1_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 384,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 203.2,
+        "x1": 560,
+        "y1": 386.9
+       }
+      },
+      {
+       "src": "maths/WMA14_2023_01/q1_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 131,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 386.9,
+        "x1": 560,
+        "y1": 449.3
+       }
+      }
+     ],
+     "text": "(ii) Find the range of values of x for which this expansion is valid. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q1_notes_1.webp",
+     "w": 1092,
+     "h": 634,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 446.3,
+      "x1": 560,
+      "y1": 749.8
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q1_notes_2.webp",
+     "w": 1092,
+     "h": 1405,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 741.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q1_notes_3.webp",
+     "w": 1092,
+     "h": 278,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 66.4,
+      "x1": 560,
+      "y1": 199.4
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
+  },
+  {
+   "id": "WMA14_2023_01_q2",
+   "number": 2,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q2_stem.webp",
+     "w": 1090,
+     "h": 139,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 123.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q2_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 133.0,
+        "x1": 559,
+        "y1": 168.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 491,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 103.2,
+        "x1": 560,
+        "y1": 338.0
+       }
+      }
+     ],
+     "text": "(a) Show that all points P(x, y) lie on a straight line. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q2_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 171.0,
+        "x1": 559,
+        "y1": 220.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 394,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 338.0,
+        "x1": 560,
+        "y1": 526.9
+       }
+      }
+     ],
+     "text": "(b) Hence or otherwise, find the x coordinate of the point of intersection of this line and the line with equation y = x + 12 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 462,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 523.9,
+      "x1": 560,
+      "y1": 745.0
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1435,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 756.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q2_notes_3.webp",
+     "w": 1092,
+     "h": 297,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 210.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q3",
+   "number": 3,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 5,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q3.webp",
+       "w": 1090,
+       "h": 870,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 56.8,
+        "x1": 559,
+        "y1": 474.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q3_ms.webp",
+       "w": 1092,
+       "h": 410,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 103.2,
+        "x1": 560,
+        "y1": 299.4
+       }
+      }
+     ],
+     "text": "3. y R O x 5 5 Figure 1 In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Figure 1 shows a sketch of the curve with equation x 3 y = x  0 x + 2 3 5 The finite region R, shown shaded in Figure 1, is bounded by the curve, the x-axis and the lines with equations x = 5 and x = 5 The region R is rotated through 360° about the x-axis. Use integration to find the exact volume of the solid generated. Give your answer in the form a ln b, where a is an irrational number and b is a prime number. (5)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q3_notes.webp",
+     "w": 1092,
+     "h": 632,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 296.4,
+      "x1": 560,
+      "y1": 599.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q4",
+   "number": 4,
+   "marks": 9,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q4_a.webp",
+       "w": 1090,
+       "h": 403,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 63.1,
+        "x1": 559,
+        "y1": 256.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 272,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 102.1,
+        "x1": 560,
+        "y1": 231.9
+       }
+      }
+     ],
+     "text": "4. (a) Using the substitution u = x + , show that 2 1 ∫ 12 x + x + x 2 1 8 4 e d 4 may be expressed in the form b ∫ u ku u 2e d a where a, b and k are constants to be found. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q4_b.webp",
+       "w": 1090,
+       "h": 235,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 258.7,
+        "x1": 559,
+        "y1": 370.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 374,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 231.9,
+        "x1": 560,
+        "y1": 411.3
+       }
+      }
+     ],
+     "text": "(b) Hence find, by algebraic integration, the exact value of ∫ 12 x x + x + 2 1 8 4 e d 4 giving your answer in simplest form. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q4_notes.webp",
+     "w": 1092,
+     "h": 757,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 408.3,
+      "x1": 560,
+      "y1": 771.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q5_stem.webp",
+     "w": 1090,
+     "h": 776,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 429.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q5_a.webp",
+       "w": 1090,
+       "h": 93,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 429.1,
+        "x1": 559,
+        "y1": 472.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 70,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 69.9,
+        "x1": 560,
+        "y1": 102.9
+       }
+      },
+      {
+       "src": "maths/WMA14_2023_01/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 192,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 103.2,
+        "x1": 560,
+        "y1": 194.8
+       }
+      }
+     ],
+     "text": "(a) Find d y x in terms of x and y. d (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q5_b.webp",
+       "w": 1090,
+       "h": 184,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 475.5,
+        "x1": 559,
+        "y1": 563.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 70,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 69.9,
+        "x1": 560,
+        "y1": 102.9
+       }
+      },
+      {
+       "src": "maths/WMA14_2023_01/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 237,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 194.8,
+        "x1": 560,
+        "y1": 308.1
+       }
+      }
+     ],
+     "text": "The curve is not defined for values of x in the interval ( p, q), as shown in Figure 2. (b) Using your answer to part (a) or otherwise, find the value of p and the value of q. (Solutions relying entirely on calculator technology are not acceptable.) (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q5_notes_1.webp",
+     "w": 1092,
+     "h": 860,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 305.1,
+      "x1": 560,
+      "y1": 717.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q5_notes_2.webp",
+     "w": 1092,
+     "h": 587,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 349.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q6",
+   "number": 6,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q6_stem.webp",
+     "w": 1090,
+     "h": 185,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 145.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q6_a.webp",
+       "w": 1090,
+       "h": 141,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 145.3,
+        "x1": 559,
+        "y1": 212.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q6_a_ms_1.webp",
+       "w": 1092,
+       "h": 112,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 103.0,
+        "x1": 560,
+        "y1": 156.1
+       }
+      },
+      {
+       "src": "maths/WMA14_2023_01/q6_a_ms_2.webp",
+       "w": 1092,
+       "h": 161,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 156.1,
+        "x1": 560,
+        "y1": 232.9
+       }
+      }
+     ],
+     "text": "→ (a) (i) Find AB (ii) Find a vector equation for the line l (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q6_b.webp",
+       "w": 1090,
+       "h": 225,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 214.9,
+        "x1": 559,
+        "y1": 322.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 594,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 232.9,
+        "x1": 560,
+        "y1": 517.6
+       }
+      }
+     ],
+     "text": "The point C has position vector 3i + 5j + 2k The point P lies on l → is perpendicular to l Given that CP (b) find the position vector of the point P (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q6_notes_1.webp",
+     "w": 1092,
+     "h": 486,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 514.6,
+      "x1": 560,
+      "y1": 747.7
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q6_notes_2.webp",
+     "w": 1092,
+     "h": 175,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 67.3,
+      "x1": 560,
+      "y1": 151.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q7_stem.webp",
+     "w": 1090,
+     "h": 123,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 115.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q7_a.webp",
+       "w": 1090,
+       "h": 91,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 115.4,
+        "x1": 559,
+        "y1": 158.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 62,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 100.0,
+        "x1": 560,
+        "y1": 129.3
+       }
+      }
+     ],
+     "text": "(a) Find d V r giving your answer in simplest form. d (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q7_b.webp",
+       "w": 1090,
+       "h": 457,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 161.1,
+        "x1": 559,
+        "y1": 380.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 199,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 129.3,
+        "x1": 560,
+        "y1": 224.5
+       }
+      },
+      {
+       "src": "maths/WMA14_2023_01/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 224.5,
+        "x1": 560,
+        "y1": 252.6
+       }
+      }
+     ],
+     "text": "At time t seconds, the volume of the balloon is increasing according to the differential equation V d 900 t  0 = t t + 3 2 d ( 2 ) Given that V = 0 when t = 0 (b) (i) solve this differential equation to show that t 300 V = t + 2 3 (ii) Hence find the upper limit to the volume of the balloon. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q7_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 382.6,
+        "x1": 559,
+        "y1": 432.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 121,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 252.6,
+        "x1": 560,
+        "y1": 310.2
+       }
+      }
+     ],
+     "text": "(c) Find the radius of the balloon at t = 3, giving your answer in cm to 3 significant figures. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q7_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 434.6,
+        "x1": 559,
+        "y1": 484.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q7_d_ms.webp",
+       "w": 1092,
+       "h": 234,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 310.2,
+        "x1": 560,
+        "y1": 422.2
+       }
+      }
+     ],
+     "text": "(d) Find the rate of increase of the radius of the balloon at t = 3, giving your answer to 2 significant figures. Show your working and state the units of your answer. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 728,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 419.2,
+      "x1": 560,
+      "y1": 768.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 139,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 134.0
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q8",
+   "number": 8,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q8_stem.webp",
+     "w": 1090,
+     "h": 823,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 56.8,
+      "x1": 559,
+      "y1": 451.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q8_a.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 454.4,
+        "x1": 559,
+        "y1": 518.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 330,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 103.6,
+        "x1": 560,
+        "y1": 261.5
+       }
+      }
+     ],
+     "text": "(a) Show, using calculus, that an equation for l is 8y + 2x = 17 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q8_b.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 520.9,
+        "x1": 559,
+        "y1": 580.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 344,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 261.5,
+        "x1": 560,
+        "y1": 426.2
+       }
+      }
+     ],
+     "text": "The region S, shown shaded in Figure 3, is bounded by C, l and the x-axis. (b) Find, using calculus, the exact area of S. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 709,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 423.2,
+      "x1": 560,
+      "y1": 762.7
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1431,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 754.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q8_notes_3.webp",
+     "w": 1092,
+     "h": 175,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 151.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2023_01_q9",
+   "number": 9,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA14_2023_01/q9_stem.webp",
+     "w": 1090,
+     "h": 498,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 59.4,
+      "x1": 559,
+      "y1": 297.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q9_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 312.3,
+        "x1": 559,
+        "y1": 347.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 268,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 100.9,
+        "x1": 560,
+        "y1": 229.3
+       }
+      }
+     ],
+     "text": "(a) Show the calculations and statements that are required to complete the proof. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "9(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2023_01/q9_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 350.2,
+        "x1": 559,
+        "y1": 385.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2023_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 406,
+       "region": {
+        "page": 25,
+        "x0": 36,
+        "y0": 229.3,
+        "x1": 560,
+        "y1": 423.6
+       }
+      }
+     ],
+     "text": "(b) Hence prove, by contradiction, that 3 is an irrational number. 3 (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2023_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 676,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 420.6,
+      "x1": 560,
+      "y1": 744.6
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 568,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 68.0,
+      "x1": 560,
+      "y1": 340.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2023_01/q9_notes_3.webp",
+     "w": 1092,
+     "h": 63,
+     "region": {
+      "page": 27,
+      "x0": 36,
+      "y0": 740.0,
+      "x1": 560,
+      "y1": 769.5
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

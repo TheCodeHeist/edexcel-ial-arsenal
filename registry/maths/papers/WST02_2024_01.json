@@ -1,0 +1,1265 @@
+{
+ "id": "WST02_2024_01",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2024-01",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Statistics/S2/QP/January 2024 QP.pdf",
+   "via": {
+    "name": "Physics & Maths Tutor",
+    "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+    "credit": "Archived by Physics & Maths Tutor."
+   }
+  },
+  "ms": {
+   "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Statistics/S2/MS/January 2024 MS.pdf",
+   "via": {
+    "name": "Physics & Maths Tutor",
+    "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+    "credit": "Archived by Physics & Maths Tutor."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2024_01_q1",
+   "number": 1,
+   "marks": 16,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q1_stem.webp",
+     "w": 1090,
+     "h": 275,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 188.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 202.4,
+        "x1": 559,
+        "y1": 237.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q1_a_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 88.4,
+        "x1": 560,
+        "y1": 162.6
+       }
+      }
+     ],
+     "text": "(a) Calculate the mean and the variance of these data. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q1_b.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 240.3,
+        "x1": 559,
+        "y1": 289.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q1_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 162.6,
+        "x1": 560,
+        "y1": 191.3
+       }
+      }
+     ],
+     "text": "(b) Explain why the results in part (a) suggest that a Poisson distribution may be a suitable model for the number of complaints per day. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q1_c.webp",
+       "w": 1090,
+       "h": 283,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 292.3,
+        "x1": 559,
+        "y1": 427.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q1_c_ms_1.webp",
+       "w": 1092,
+       "h": 32,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 191.3,
+        "x1": 560,
+        "y1": 205.9
+       }
+      },
+      {
+       "src": "maths/WST02_2024_01/q1_c_ms_2.webp",
+       "w": 1092,
+       "h": 48,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 205.9,
+        "x1": 560,
+        "y1": 228.8
+       }
+      },
+      {
+       "src": "maths/WST02_2024_01/q1_c_ms_3.webp",
+       "w": 1092,
+       "h": 108,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 228.8,
+        "x1": 560,
+        "y1": 280.1
+       }
+      }
+     ],
+     "text": "The manager uses a Poisson distribution with mean 3 to model the number of complaints per day. (c) For a randomly selected day find, using the manager’s model, the probability that there are (i) at least 3 complaints, (ii) more than 4 complaints but less than 8 complaints. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q1_d.webp",
+       "w": 1090,
+       "h": 251,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 430.2,
+        "x1": 559,
+        "y1": 550.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q1_d_ms.webp",
+       "w": 1092,
+       "h": 247,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 280.1,
+        "x1": 560,
+        "y1": 398.3
+       }
+      }
+     ],
+     "text": "A week consists of 7 consecutive days. (d) Using the manager’s model and a suitable approximation, show that the probability that there are less than 19 complaints in a randomly selected week is 0.29 to 2 decimal places. Show your working clearly. (Solutions relying on calculator technology are not acceptable.) (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q1_e.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 552.9,
+        "x1": 559,
+        "y1": 640.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q1_e_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 398.3,
+        "x1": 560,
+        "y1": 472.2
+       }
+      }
+     ],
+     "text": "A period of 13 weeks is selected at random. (e) Find the probability that in this period there are exactly 5 weeks that have less than 19 complaints. Show your working clearly. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q1_notes.webp",
+     "w": 1092,
+     "h": 667,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 469.2,
+      "x1": 560,
+      "y1": 789.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2024_01_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q2_stem.webp",
+     "w": 1090,
+     "h": 164,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 135.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q2_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 138.0,
+        "x1": 559,
+        "y1": 173.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q2_a_ms.webp",
+       "w": 1092,
+       "h": 199,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 89.7,
+        "x1": 560,
+        "y1": 184.3
+       }
+      }
+     ],
+     "text": "(a) find the value of σ (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q2_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 176.0,
+        "x1": 559,
+        "y1": 249.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q2_b_ms.webp",
+       "w": 1092,
+       "h": 151,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 184.3,
+        "x1": 560,
+        "y1": 256.7
+       }
+      }
+     ],
+     "text": "Qiang selects 25 pregnant sheep at random from a large flock. (b) Find the probability that more than 3 of these pregnant sheep have a length of pregnancy of less than 108 days. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q2_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 251.9,
+        "x1": 559,
+        "y1": 325.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q2_c_ms.webp",
+       "w": 1092,
+       "h": 185,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 256.7,
+        "x1": 560,
+        "y1": 345.0
+       }
+      }
+     ],
+     "text": "Charlie takes 200 random samples of 25 pregnant sheep. (c) Use a Poisson approximation to estimate the probability that at least 2 of the samples have more than 3 pregnant sheep with a length of pregnancy of less than 108 days. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q2_notes.webp",
+     "w": 1092,
+     "h": 405,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 342.0,
+      "x1": 560,
+      "y1": 535.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2024_01_q3",
+   "number": 3,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q3_stem.webp",
+     "w": 1090,
+     "h": 154,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 130.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q3_a.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 133.0,
+        "x1": 559,
+        "y1": 196.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 93,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 88.4,
+        "x1": 560,
+        "y1": 132.6
+       }
+      }
+     ],
+     "text": "(a) Give two assumptions, in context, that Rowan needs to make for a binomial distribution to be a suitable model for the number of these type A vacuum tubes that shatter when exposed to alternating high and low temperatures. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q3_b.webp",
+       "w": 1090,
+       "h": 134,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 199.2,
+        "x1": 559,
+        "y1": 262.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 229,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 132.6,
+        "x1": 560,
+        "y1": 241.9
+       }
+      }
+     ],
+     "text": "(b) Using a binomial distribution, find the critical region for the test. You should state the probability of rejection in each tail, which should be as close as possible to 0.025 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q3_c.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 265.1,
+        "x1": 559,
+        "y1": 314.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q3_c_ms.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 241.9,
+        "x1": 560,
+        "y1": 270.6
+       }
+      }
+     ],
+     "text": "(c) Find the actual level of significance of the test based on your critical region from part (b) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q3_d.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 317.1,
+        "x1": 559,
+        "y1": 404.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q3_d_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 270.6,
+        "x1": 560,
+        "y1": 299.2
+       }
+      }
+     ],
+     "text": "Rowan records that in the latest batch of 15 type A vacuum tubes exposed to alternating high and low temperatures, 4 of them shattered. (d) With reference to part (b), comment on Rowan’s belief. Give a reason for your answer. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q3_e.webp",
+       "w": 1090,
+       "h": 270,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 407.1,
+        "x1": 559,
+        "y1": 536.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q3_e_ms.webp",
+       "w": 1092,
+       "h": 265,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 299.2,
+        "x1": 560,
+        "y1": 425.9
+       }
+      }
+     ],
+     "text": "Rowan changes to type B vacuum tubes. He takes a random sample of 40 type B vacuum tubes and finds that 8 of them shatter when exposed to alternating high and low temperatures. (e) Test, at the 5% level of significance, whether or not there is evidence that the proportion of type B vacuum tubes that shatter when exposed to alternating high and low temperatures is lower than 35% You should state your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q3_notes.webp",
+     "w": 1092,
+     "h": 765,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 422.9,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2024_01_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q4_stem.webp",
+     "w": 1090,
+     "h": 267,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 184.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q4_a.webp",
+       "w": 1090,
+       "h": 60,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 196.0,
+        "x1": 559,
+        "y1": 224.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 233,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 75.7,
+        "x1": 560,
+        "y1": 187.2
+       }
+      }
+     ],
+     "text": "(a) Sketch the graph of f(g) (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "4(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q4_b.webp",
+       "w": 1090,
+       "h": 95,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 224.5,
+        "x1": 559,
+        "y1": 269.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 673,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 187.2,
+        "x1": 560,
+        "y1": 509.4
+       }
+      }
+     ],
+     "text": "/ . . / | (b) Find P  G  G  1 2 6 2 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q4_c.webp",
+       "w": 1090,
+       "h": 197,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 272.0,
+        "x1": 559,
+        "y1": 366.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 432,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 509.4,
+        "x1": 560,
+        "y1": 716.5
+       }
+      }
+     ],
+     "text": "The continuous random variable H is such that E(H) = 12 and Var(H) = 2.4 . / (c) Find E 2 H 1 G 1 2 3 3 Show your working clearly. (Solutions relying on calculator technology are not acceptable.) (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q4_notes.webp",
+     "w": 1092,
+     "h": 933,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 560,
+      "y1": 506.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2024_01_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q5_stem.webp",
+     "w": 1090,
+     "h": 125,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 116.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q5_a.webp",
+       "w": 1090,
+       "h": 71,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 119.2,
+        "x1": 559,
+        "y1": 153.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 89.7,
+        "x1": 560,
+        "y1": 162.1
+       }
+      }
+     ],
+     "text": "(a) show that a = 12 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q5_b.webp",
+       "w": 1090,
+       "h": 124,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 153.0,
+        "x1": 559,
+        "y1": 211.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 162.1,
+        "x1": 560,
+        "y1": 222.0
+       }
+      },
+      {
+       "src": "maths/WST02_2024_01/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 222.0,
+        "x1": 560,
+        "y1": 297.7
+       }
+      }
+     ],
+     "text": "O 3 Given that P( W b P ) 5 (b) (i) find the value of b (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q5_b_ii.webp",
+       "w": 1090,
+       "h": 90,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 211.9,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q5_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 126,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 162.1,
+        "x1": 560,
+        "y1": 222.0
+       }
+      },
+      {
+       "src": "maths/WST02_2024_01/q5_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 159,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 222.0,
+        "x1": 560,
+        "y1": 297.7
+       }
+      }
+     ],
+     "text": "b \u001b (ii) find P 3 < W < 12 \u001a\u0019 2 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q5_c.webp",
+       "w": 1090,
+       "h": 183,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 344.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 383,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 297.7,
+        "x1": 560,
+        "y1": 481.2
+       }
+      }
+     ],
+     "text": "A piece of wood AB has length 160 cm. The wood is cut at random into 2 pieces. Each of the pieces is then cut in half. The four pieces are used to form the sides of a rectangle. (c) Calculate the probability that the area of the rectangle is greater than 975 cm 2 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q5_notes.webp",
+     "w": 1092,
+     "h": 415,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 478.2,
+      "x1": 560,
+      "y1": 677.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2024_01_q6",
+   "number": 6,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q6_stem.webp",
+     "w": 1090,
+     "h": 375,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 236.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q6_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 239.0,
+        "x1": 559,
+        "y1": 274.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 482,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 88.4,
+        "x1": 560,
+        "y1": 319.6
+       }
+      }
+     ],
+     "text": "(a) Find the sampling distribution of X (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q6_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 277.0,
+        "x1": 559,
+        "y1": 350.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 227,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 319.6,
+        "x1": 560,
+        "y1": 427.9
+       }
+      }
+     ],
+     "text": "A random sample of n sets of 4 counters is taken. The random variable Y represents the number of these n sets that have a total score of exactly 14 (b) Calculate the minimum value of n such that P( Y 1 > ) 0 95 . (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q6_notes.webp",
+     "w": 1092,
+     "h": 490,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 424.9,
+      "x1": 560,
+      "y1": 659.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2024_01_q7",
+   "number": 7,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST02_2024_01/q7_stem.webp",
+     "w": 1090,
+     "h": 306,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 203.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q7_a.webp",
+       "w": 1090,
+       "h": 74,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 206.0,
+        "x1": 559,
+        "y1": 241.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 163,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 86.2,
+        "x1": 560,
+        "y1": 164.0
+       }
+      }
+     ],
+     "text": "(a) show that b = 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q7_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 244.0,
+        "x1": 559,
+        "y1": 279.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 78,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 164.0,
+        "x1": 560,
+        "y1": 200.7
+       }
+      }
+     ],
+     "text": "(b) Hence show that a = 2 (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2024_01/q7_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 281.9,
+        "x1": 559,
+        "y1": 317.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2024_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 414,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 200.7,
+        "x1": 560,
+        "y1": 399.2
+       }
+      }
+     ],
+     "text": "(c) Show that the median of X lies between 1.4 and 1.5 . (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2024_01/q7_notes_1.webp",
+     "w": 1092,
+     "h": 779,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 396.2,
+      "x1": 560,
+      "y1": 769.7
+     }
+    },
+    {
+     "src": "maths/WST02_2024_01/q7_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 749.2,
+      "x1": 560,
+      "y1": 779.4
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

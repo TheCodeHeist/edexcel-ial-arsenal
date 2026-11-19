@@ -1,0 +1,1546 @@
+{
+ "id": "WST01_2019_10",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2019-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202019/IAL_MATHS_2019_Oct_S1_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/Oct%202019/IAL_MATHS_2019_Oct_S1_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2019_10_q1",
+   "number": 1,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q1_stem.webp",
+     "w": 1016,
+     "h": 336,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 220.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q1_a.webp",
+       "w": 1016,
+       "h": 64,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 227.7,
+        "x1": 523.2,
+        "y1": 258.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q1_a_ms.webp",
+       "w": 1092,
+       "h": 77,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 88.1,
+        "x1": 560,
+        "y1": 124.6
+       }
+      }
+     ],
+     "text": "(a) Calculate Sxy (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q1_b.webp",
+       "w": 1016,
+       "h": 69,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 267.7,
+        "x1": 523.2,
+        "y1": 300.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q1_b_ms.webp",
+       "w": 1092,
+       "h": 335,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 124.6,
+        "x1": 560,
+        "y1": 284.9
+       }
+      }
+     ],
+     "text": "(b) Find the equation of the regression line of h on f in the form h = a + bf (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q1_c.webp",
+       "w": 1016,
+       "h": 122,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 309.7,
+        "x1": 523.2,
+        "y1": 368.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q1_c_ms.webp",
+       "w": 1092,
+       "h": 190,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 284.9,
+        "x1": 560,
+        "y1": 375.7
+       }
+      }
+     ],
+     "text": "(c) Give an interpretation of (i) the value of b in your regression line, (ii) the value of a in your regression line. (2)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q1_d.webp",
+       "w": 1016,
+       "h": 94,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 377.7,
+        "x1": 523.2,
+        "y1": 422.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q1_d_ms.webp",
+       "w": 1092,
+       "h": 121,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 375.7,
+        "x1": 560,
+        "y1": 433.0
+       }
+      }
+     ],
+     "text": "(d) Estimate the annual heating bill for a building with a total floor area of 4600 square metres. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q1_notes.webp",
+     "w": 1092,
+     "h": 698,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 430.0,
+      "x1": 560,
+      "y1": 764.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2019_10_q2",
+   "number": 2,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q2_stem.webp",
+     "w": 1016,
+     "h": 632,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 362.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q2_a.webp",
+       "w": 1016,
+       "h": 306,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 375.1,
+        "x1": 523.2,
+        "y1": 521.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 155,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 74.9,
+        "x1": 560,
+        "y1": 148.6
+       }
+      }
+     ],
+     "text": "(a) Use the histogram to complete the frequency table for the times taken to complete the puzzle. Time taken (seconds) 15–30 30–45 45–55 55–60 60–75 75–90 Frequency (f) 20 145 10 5 Time midpoint (t seconds) 22.5 37.5 50 57.5 67.5 82.5 (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q2_b.webp",
+       "w": 1016,
+       "h": 179,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 524.6,
+        "x1": 523.2,
+        "y1": 610.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q2_b_ms_1.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 148.6,
+        "x1": 560,
+        "y1": 178.4
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q2_b_ms_2.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 178.4,
+        "x1": 560,
+        "y1": 239.4
+       }
+      }
+     ],
+     "text": "Given that ∑ft = 11 087.5 and ∑ft2 = 505 718.75 (b) find an estimate for (i) the mean time taken to complete the puzzle, (1)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)(ii)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q2_b_ii.webp",
+       "w": 1016,
+       "h": 59,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 618.7,
+        "x1": 523.2,
+        "y1": 647.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q2_b_ii_ms_1.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 148.6,
+        "x1": 560,
+        "y1": 178.4
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q2_b_ii_ms_2.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 178.4,
+        "x1": 560,
+        "y1": 239.4
+       }
+      }
+     ],
+     "text": "(ii) the standard deviation of the times taken to complete the puzzle. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q2_c.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 656.7,
+        "x1": 523.2,
+        "y1": 689.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 120,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 239.4,
+        "x1": 560,
+        "y1": 296.2
+       }
+      }
+     ],
+     "text": "(c) Use linear interpolation to estimate the median time taken to complete the puzzle. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q2_d.webp",
+       "w": 1016,
+       "h": 60,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 697.5,
+        "x1": 523.2,
+        "y1": 725.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q2_d_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 296.2,
+        "x1": 560,
+        "y1": 338.1
+       }
+      }
+     ],
+     "text": "(d) Describe the skewness of these data. Give a reason for your answer. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "2(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q2_e.webp",
+       "w": 1016,
+       "h": 116,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 734.3,
+        "x1": 523.2,
+        "y1": 789.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q2_e_ms.webp",
+       "w": 1092,
+       "h": 274,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 338.1,
+        "x1": 560,
+        "y1": 469.0
+       }
+      }
+     ],
+     "text": "Three of the 260 people are chosen at random. (e) Estimate the probability that all 3 of their times are less than 36 seconds. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q2_notes.webp",
+     "w": 1092,
+     "h": 676,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 466.0,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2019_10_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q3_stem.webp",
+     "w": 1016,
+     "h": 68,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 92.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q3_a.webp",
+       "w": 1016,
+       "h": 64,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 101.7,
+        "x1": 523.2,
+        "y1": 132.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 206,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 174.0
+       }
+      }
+     ],
+     "text": "(a) Find the probability that the distance Jenny throws the javelin is less than 40 m. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q3_b.webp",
+       "w": 1016,
+       "h": 266,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 141.7,
+        "x1": 523.2,
+        "y1": 269.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 526,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 174.0,
+        "x1": 560,
+        "y1": 426.0
+       }
+      }
+     ],
+     "text": "Jenny enters a javelin competition. To qualify for the final she has 3 attempts to throw the javelin a distance of more than 40 m. Once she has qualified she does not use any of her remaining attempts. Given that Jenny qualified for the final and that throws of the javelin are independent, (b) find the probability that she qualified for the final on her third throw with a distance greater than 45 m. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 699,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 423.0,
+      "x1": 560,
+      "y1": 758.1
+     }
+    },
+    {
+     "src": "maths/WST01_2019_10/q3_notes_2.webp",
+     "w": 1092,
+     "h": 17,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 82.1,
+      "x1": 560,
+      "y1": 89.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2019_10_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q4_stem.webp",
+     "w": 1016,
+     "h": 853,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 468.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q4_a.webp",
+       "w": 1016,
+       "h": 137,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 478.7,
+        "x1": 523.2,
+        "y1": 543.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 88,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 89.6,
+        "x1": 560,
+        "y1": 131.0
+       }
+      }
+     ],
+     "text": "(a) State, without calculation, which of the 3 values below is most likely to be a value of the product moment correlation coefficient for the data in the scatter diagram. 0.72 0.05 0.95 (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q4_b.webp",
+       "w": 1016,
+       "h": 142,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 550.9,
+        "x1": 523.2,
+        "y1": 618.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 61,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 131.0,
+        "x1": 560,
+        "y1": 160.2
+       }
+      }
+     ],
+     "text": "In the sample of 10 boys, one is a junior champion 100 metre runner and one is a junior champion 200 metre runner. (b) Write down the boy who is most likely to be the 100 metre junior champion. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q4_c.webp",
+       "w": 1016,
+       "h": 238,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 628.3,
+        "x1": 523.2,
+        "y1": 741.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q4_c_ms_1.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 160.2,
+        "x1": 560,
+        "y1": 254.5
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q4_c_ms_2.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 254.5,
+        "x1": 560,
+        "y1": 303.7
+       }
+      }
+     ],
+     "text": "The data for the two junior champions are removed and the remaining data are summarised below ∑x2 = 3445.26 ∑x = 164.4 Syy = 67.52 Sxy = 60.85 (c) (i) Calculate the value of the product moment correlation coefficient for the remaining data. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)(ii)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q4_c_ii.webp",
+       "w": 1016,
+       "h": 86,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 748.9,
+        "x1": 523.2,
+        "y1": 790
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q4_c_ii_ms_1.webp",
+       "w": 1092,
+       "h": 198,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 160.2,
+        "x1": 560,
+        "y1": 254.5
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q4_c_ii_ms_2.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 254.5,
+        "x1": 560,
+        "y1": 303.7
+       }
+      }
+     ],
+     "text": "(ii) Comment, in context, on the value of the product moment correlation coefficient that you obtained in part (i). (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q4_notes.webp",
+     "w": 1092,
+     "h": 546,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 300.7,
+      "x1": 560,
+      "y1": 562.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2019_10_q5",
+   "number": 5,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q5_stem.webp",
+     "w": 1016,
+     "h": 709,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 399.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_a.webp",
+       "w": 1016,
+       "h": 66,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 412.0,
+        "x1": 523.2,
+        "y1": 443.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 123.4
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 123.4,
+        "x1": 560,
+        "y1": 168.9
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q5_a_ms_3.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 168.9,
+        "x1": 560,
+        "y1": 214.3
+       }
+      }
+     ],
+     "text": "(a) Find (i) P(D) (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(a)(ii)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_a_ii.webp",
+       "w": 1016,
+       "h": 66,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 453.0,
+        "x1": 523.2,
+        "y1": 484.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_a_ii_ms_1.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 123.4
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q5_a_ii_ms_2.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 123.4,
+        "x1": 560,
+        "y1": 168.9
+       }
+      }
+     ],
+     "text": "(ii) P(D ∩ Xƍ (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(a)(iii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_a_iii.webp",
+       "w": 1016,
+       "h": 66,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 494.0,
+        "x1": 523.2,
+        "y1": 525.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_a_iii_ms_1.webp",
+       "w": 1092,
+       "h": 101,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 75.8,
+        "x1": 560,
+        "y1": 123.4
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q5_a_iii_ms_2.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 168.9,
+        "x1": 560,
+        "y1": 214.3
+       }
+      }
+     ],
+     "text": "(iii) P(Dƍ ∪ Zƍ (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_b.webp",
+       "w": 1016,
+       "h": 127,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 535.0,
+        "x1": 523.2,
+        "y1": 595.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 105,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 214.3,
+        "x1": 560,
+        "y1": 264.0
+       }
+      }
+     ],
+     "text": "Given that the house has a driveway, (b) find the probability that there are exactly 2 cars in the household. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_c.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 605.0,
+        "x1": 523.2,
+        "y1": 637.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_c_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 264.0,
+        "x1": 560,
+        "y1": 292.2
+       }
+      }
+     ],
+     "text": "(c) Write down 2 of the events D, X, Y and Z that are mutually exclusive. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_d.webp",
+       "w": 1016,
+       "h": 69,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 647.0,
+        "x1": 523.2,
+        "y1": 679.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_d_ms.webp",
+       "w": 1092,
+       "h": 164,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 292.2,
+        "x1": 560,
+        "y1": 370.3
+       }
+      }
+     ],
+     "text": "(d) Determine whether the events D and X are independent. Justify your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_e.webp",
+       "w": 1016,
+       "h": 122,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 689.0,
+        "x1": 523.2,
+        "y1": 747.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_e_ms_1.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 370.3,
+        "x1": 560,
+        "y1": 398.8
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q5_e_ms_2.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 398.8,
+        "x1": 560,
+        "y1": 462.7
+       }
+      }
+     ],
+     "text": "(e) Define in the context of this question, the event (i) Dƍ ∩ Z (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q5_e_ii.webp",
+       "w": 1016,
+       "h": 65,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 756.9,
+        "x1": 523.2,
+        "y1": 787.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q5_e_ii_ms_1.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 370.3,
+        "x1": 560,
+        "y1": 398.8
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q5_e_ii_ms_2.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 398.8,
+        "x1": 560,
+        "y1": 462.7
+       }
+      }
+     ],
+     "text": "(ii) D ∩ (X ∪ Y) (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q5_notes.webp",
+     "w": 1092,
+     "h": 539,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 459.7,
+      "x1": 560,
+      "y1": 717.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2019_10_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q6_stem.webp",
+     "w": 1016,
+     "h": 156,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 134.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q6_a.webp",
+       "w": 1016,
+       "h": 68,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 144.1,
+        "x1": 523.2,
+        "y1": 176.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 259,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 87.4,
+        "x1": 560,
+        "y1": 211.6
+       }
+      }
+     ],
+     "text": "(a) Calculate the value of ȝ and the value of ı (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q6_b.webp",
+       "w": 1016,
+       "h": 360,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 186.1,
+        "x1": 523.2,
+        "y1": 358.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 343,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 211.6,
+        "x1": 560,
+        "y1": 375.4
+       }
+      }
+     ],
+     "text": "A second machine cuts wood into logs. The lengths, L cm, of the logs produced by this second machine are normally distributed with L ~ N(30, 0.52) An outlier is a value that is greater than Q3 + 1.5 × (Q3 – Q1) or smaller than Q1 – 1.5 × (Q3 – Q1) A log is selected at random. Given that Q1 = 29.7 to 3 significant figures, (b) find the probability that the length of this log is an outlier. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q6_notes.webp",
+     "w": 1092,
+     "h": 589,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 372.4,
+      "x1": 560,
+      "y1": 654.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2019_10_q7",
+   "number": 7,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST01_2019_10/q7_stem.webp",
+     "w": 1016,
+     "h": 327,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 216.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q7_a.webp",
+       "w": 1016,
+       "h": 127,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 225.9,
+        "x1": 523.2,
+        "y1": 286.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q7_a_ms_1.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 74.6,
+        "x1": 560,
+        "y1": 119.3
+       }
+      },
+      {
+       "src": "maths/WST01_2019_10/q7_a_ms_2.webp",
+       "w": 1092,
+       "h": 63,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 119.3,
+        "x1": 560,
+        "y1": 149.0
+       }
+      }
+     ],
+     "text": "(a) (i) show that a = 0.2 (ii) find the value of b (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q7_b.webp",
+       "w": 1016,
+       "h": 69,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 296.1,
+        "x1": 523.2,
+        "y1": 328.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 176,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 149.0,
+        "x1": 560,
+        "y1": 232.8
+       }
+      }
+     ],
+     "text": "(b) Calculate Var(4X + 3) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q7_c.webp",
+       "w": 1016,
+       "h": 156,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 338.1,
+        "x1": 523.2,
+        "y1": 412.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q7_c_ms.webp",
+       "w": 1092,
+       "h": 95,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 232.8,
+        "x1": 560,
+        "y1": 278.2
+       }
+      }
+     ],
+     "text": "The cost to produce each cake is 20 cents and the shopkeeper sells each cake for 80 cents. (c) Find the expected profit made by the shopkeeper for a randomly selected customer buying cakes. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2019_10/q7_d.webp",
+       "w": 1016,
+       "h": 384,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 422.1,
+        "x1": 523.2,
+        "y1": 606.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2019_10/q7_d_ms.webp",
+       "w": 1092,
+       "h": 288,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 278.2,
+        "x1": 560,
+        "y1": 415.8
+       }
+      }
+     ],
+     "text": "The shopkeeper decides to run a promotion where she gives 1 free cake to all customers who buy 4 or more cakes. During the promotion the number of cakes, Y, taken away by a customer buying cakes has the following probability distribution y 1 2 3 4 5 6 3 4 3 22 8 P(Y = y) 0 40 40 40 40 40 (d) Find the expected profit made by the shopkeeper for a randomly selected customer buying cakes during the promotion. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2019_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 750,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 412.8,
+      "x1": 560,
+      "y1": 772.4
+     }
+    },
+    {
+     "src": "maths/WST01_2019_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 41,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 725.3,
+      "x1": 560,
+      "y1": 744.5
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

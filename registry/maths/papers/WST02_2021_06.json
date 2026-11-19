@@ -1,0 +1,1045 @@
+{
+ "id": "WST02_2021_06",
+ "subject": "maths",
+ "unit": "WST02",
+ "series": "2021-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Statistics/S2/QP/June 2021 QP.pdf",
+   "via": {
+    "name": "Physics & Maths Tutor",
+    "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+    "credit": "Archived by Physics & Maths Tutor."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_S2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST02_2021_06_q1",
+   "number": 1,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_06/q1_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q1_a.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 178.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q1_a_ms_1.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 76.7,
+        "x1": 560,
+        "y1": 105.1
+       }
+      },
+      {
+       "src": "maths/WST02_2021_06/q1_a_ms_2.webp",
+       "w": 1092,
+       "h": 142,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 105.1,
+        "x1": 560,
+        "y1": 172.7
+       }
+      },
+      {
+       "src": "maths/WST02_2021_06/q1_a_ms_3.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 172.7,
+        "x1": 560,
+        "y1": 215.6
+       }
+      }
+     ],
+     "text": "(a) Find the probability that in a packet of Spany’s pansy seeds (i) more than 2 but fewer than 5 seeds do not germinate, (ii) more than 18 seeds germinate. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q1_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 254.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 215.6,
+        "x1": 560,
+        "y1": 275.1
+       }
+      }
+     ],
+     "text": "Jem buys 5 packets of Spany’s pansy seeds. (b) Calculate the probability that all of these packets contain more than 18 seeds that germinate. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q1_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 257.1,
+        "x1": 559,
+        "y1": 330.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 81,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 275.1,
+        "x1": 560,
+        "y1": 313.5
+       }
+      }
+     ],
+     "text": "Jem believes that Spany’s claim is incorrect. She believes that the percentage of pansy seeds that do not germinate is greater than 5% (c) Write down the hypotheses for a suitable test to examine Jem’s belief. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q1_d.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 333.0,
+        "x1": 559,
+        "y1": 392.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 297,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 313.5,
+        "x1": 560,
+        "y1": 455.7
+       }
+      }
+     ],
+     "text": "Jem planted all of the 100 seeds she bought from Spany and found that 8 did not germinate. (d) Using a suitable approximation, carry out the test using a 5% level of significance. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_06/q1_notes.webp",
+     "w": 1092,
+     "h": 703,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 452.7,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_06_q2",
+   "number": 2,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_06/q2_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q2_a.webp",
+       "w": 1090,
+       "h": 100,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 142.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 175,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 73.3,
+        "x1": 560,
+        "y1": 156.9
+       }
+      }
+     ],
+     "text": "(a) Find the probability of there being exactly 5 faults in one of his rugs that is 4 m2 in size. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q2_b.webp",
+       "w": 1090,
+       "h": 102,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 145.2,
+        "x1": 559,
+        "y1": 193.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 123,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 156.9,
+        "x1": 560,
+        "y1": 215.3
+       }
+      }
+     ],
+     "text": "(b) Find the probability that there are more than 5 faults in one of his rugs that is 6 m2 in size. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q2_c.webp",
+       "w": 1090,
+       "h": 152,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 196.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 215.3,
+        "x1": 560,
+        "y1": 266.9
+       }
+      }
+     ],
+     "text": "Luis makes a rug that is 4 m2 in size and finds it has exactly 5 faults in it. (c) Write down the probability that the next rug that Luis makes, which is 4 m2 in size, will have exactly 5 faults. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q2_d.webp",
+       "w": 1090,
+       "h": 256,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 393.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q2_d_ms.webp",
+       "w": 1092,
+       "h": 220,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 266.9,
+        "x1": 560,
+        "y1": 372.3
+       }
+      }
+     ],
+     "text": "A small rug has dimensions 80 cm by 150 cm. Faults still occur randomly at a rate of 3 every 4 m2 Luis makes a profit of £80 on each small rug he sells that contains no faults but a profit of £60 on any small rug he sells that contains faults. Luis sells n small rugs and expects to make a profit of at least £4000 (d) Calculate the minimum value of n (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q2_e.webp",
+       "w": 1090,
+       "h": 241,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 396.0,
+        "x1": 559,
+        "y1": 511.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q2_e_ms.webp",
+       "w": 1092,
+       "h": 264,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 372.3,
+        "x1": 560,
+        "y1": 498.4
+       }
+      }
+     ],
+     "text": "Luis wishes to increase the productivity of his business and employs Rhiannon. Faults also occur randomly in Rhiannon’s rugs and independently to faults made by Luis. Luis randomly selects 10 small rugs made by Rhiannon and finds 13 faults. (e) Test, at the 5% level of significance, whether or not there is evidence to support the suggestion that the rate at which faults occur is higher for Rhiannon than for Luis. State your hypotheses clearly. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_06/q2_notes.webp",
+     "w": 1092,
+     "h": 605,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 495.4,
+      "x1": 560,
+      "y1": 785.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_06_q3",
+   "number": 3,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_06/q3_stem.webp",
+     "w": 1090,
+     "h": 265,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 183.5
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 183.5,
+        "x1": 559,
+        "y1": 218.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 176,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 63.5,
+        "x1": 560,
+        "y1": 147.5
+       }
+      }
+     ],
+     "text": "(a) Sketch f(y) (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q3_b.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 221.4,
+        "x1": 559,
+        "y1": 255.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 187,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 147.5,
+        "x1": 560,
+        "y1": 237.1
+       }
+      }
+     ],
+     "text": "(b) Find the mode of Y (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q3_c.webp",
+       "w": 1090,
+       "h": 73,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 258.4,
+        "x1": 559,
+        "y1": 292.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 239,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 237.1,
+        "x1": 560,
+        "y1": 351.2
+       }
+      }
+     ],
+     "text": "(c) Use algebraic integration to calculate E(Y 2) (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q3_d.webp",
+       "w": 1090,
+       "h": 120,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 295.4,
+        "x1": 559,
+        "y1": 352.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q3_d_ms.webp",
+       "w": 1092,
+       "h": 114,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 351.2,
+        "x1": 560,
+        "y1": 405.5
+       }
+      }
+     ],
+     "text": "Given that E(Y) = 2.696 (d) find Var(Y) (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(e)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q3_e.webp",
+       "w": 1090,
+       "h": 105,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 355.0,
+        "x1": 559,
+        "y1": 404.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q3_e_ms.webp",
+       "w": 1092,
+       "h": 268,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 405.5,
+        "x1": 560,
+        "y1": 533.7
+       }
+      }
+     ],
+     "text": "(e) Find the value of y for which P(Y  y) = 0.9 Give your answer to 3 significant figures. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_06/q3_notes.webp",
+     "w": 1092,
+     "h": 541,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 530.7,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_06_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 10,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q4.webp",
+       "w": 1090,
+       "h": 304,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 202.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q4_ms_1.webp",
+       "w": 1092,
+       "h": 60,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 63.5,
+        "x1": 560,
+        "y1": 92.1
+       }
+      },
+      {
+       "src": "maths/WST02_2021_06/q4_ms_2.webp",
+       "w": 1092,
+       "h": 260,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 92.1,
+        "x1": 560,
+        "y1": 216.3
+       }
+      },
+      {
+       "src": "maths/WST02_2021_06/q4_ms_3.webp",
+       "w": 1092,
+       "h": 407,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 216.3,
+        "x1": 560,
+        "y1": 411.3
+       }
+      }
+     ],
+     "text": "4. A bag contains a large number of balls, each with one of the numbers 1, 2 or 5 written on it in the ratio 2 : 3 : 4 respectively. A random sample of 3 balls is taken from the bag. The random variable B represents the range of the numbers written on the balls in the sample. (i) Find P(B = 4) (ii) Find the sampling distribution of B. (10)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_06/q4_notes.webp",
+     "w": 1092,
+     "h": 444,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 408.3,
+      "x1": 560,
+      "y1": 620.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST02_2021_06_q5",
+   "number": 5,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST02_2021_06/q5_stem.webp",
+     "w": 1090,
+     "h": 378,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 237.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q5_a.webp",
+       "w": 1090,
+       "h": 135,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 239.3,
+        "x1": 559,
+        "y1": 303.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q5_a_ms_1.webp",
+       "w": 1092,
+       "h": 36,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 63.5,
+        "x1": 560,
+        "y1": 80.6
+       }
+      },
+      {
+       "src": "maths/WST02_2021_06/q5_a_ms_2.webp",
+       "w": 1092,
+       "h": 128,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 80.6,
+        "x1": 560,
+        "y1": 141.5
+       }
+      }
+     ],
+     "text": "(a) Explain why (i) α = 1 (ii) β = – 1 (2) 25",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q5_b.webp",
+       "w": 1090,
+       "h": 70,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 306.3,
+        "x1": 559,
+        "y1": 339.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 209,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 141.5,
+        "x1": 560,
+        "y1": 241.3
+       }
+      }
+     ],
+     "text": "(b) Find the probability density function of Y (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q5_c.webp",
+       "w": 1090,
+       "h": 273,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 342.3,
+        "x1": 559,
+        "y1": 472.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 241.3,
+        "x1": 560,
+        "y1": 373.5
+       }
+      }
+     ],
+     "text": "The continuous random variable R represents the distance, in metres, the point is from the arrow for the red turntable. The distribution of R is modelled by a continuous uniform distribution over the interval [d, 3d]     11 5 Given that P R = Y > >  P   5 3 (c) find the value of d (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q5_d.webp",
+       "w": 1090,
+       "h": 244,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 479.4,
+        "x1": 559,
+        "y1": 595.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q5_d_ms.webp",
+       "w": 1092,
+       "h": 336,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 373.5,
+        "x1": 560,
+        "y1": 534.4
+       }
+      }
+     ],
+     "text": "In the game each turntable is spun 3 times. The distance between the point and the arrow is determined for each spin. To win a prize, at least 5 of the distances the point is from the arrow when a turntable is spun must be less than 11 5 m Jo plays the game once. (d) Calculate the probability of Jo winning a prize. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_06/q5_notes.webp",
+     "w": 1092,
+     "h": 539,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 531.4,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
+  },
+  {
+   "id": "WST02_2021_06_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "6",
+     "marks": 10,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST02_2021_06/q6.webp",
+       "w": 1090,
+       "h": 252,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 57.0,
+        "x1": 559,
+        "y1": 177.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST02_2021_06/q6_ms_1.webp",
+       "w": 1092,
+       "h": 361,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 63.5,
+        "x1": 560,
+        "y1": 236.6
+       }
+      },
+      {
+       "src": "maths/WST02_2021_06/q6_ms_2.webp",
+       "w": 1092,
+       "h": 161,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 236.6,
+        "x1": 560,
+        "y1": 313.1
+       }
+      }
+     ],
+     "text": "6. The random variable Y ~ B(225, p) Using a normal approximation, the probability that Y is at least 188 is 0.1056 to 4 decimal places. (i) Show that p satisfies 145p2 – 241p + 100 = 0 when the normal probability tables are used. (ii) Hence find the value of p, justifying your answer. (10)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST02_2021_06/q6_notes_1.webp",
+     "w": 1092,
+     "h": 386,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 310.1,
+      "x1": 560,
+      "y1": 495.0
+     }
+    },
+    {
+     "src": "maths/WST02_2021_06/q6_notes_2.webp",
+     "w": 1092,
+     "h": 61,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 725.6,
+      "x1": 560,
+      "y1": 754.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

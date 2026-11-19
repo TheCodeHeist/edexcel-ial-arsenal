@@ -1,0 +1,1050 @@
+{
+ "id": "WMA14_2020_10",
+ "subject": "maths",
+ "unit": "WMA14",
+ "series": "2020-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_P4_QP_1784112933900.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_P4_MS_1784112933224.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA14_2020_10_q1",
+   "number": 1,
+   "marks": 4,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q1.webp",
+       "w": 1016,
+       "h": 100,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 105.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q1_ms.webp",
+       "w": 1092,
+       "h": 312,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 134.4,
+        "x1": 560,
+        "y1": 283.5
+       }
+      }
+     ],
+     "text": "1. Given that n is an integer, use algebra, to prove by contradiction, that if n3 is even then n is even. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q1_notes.webp",
+     "w": 1092,
+     "h": 997,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 291.2,
+      "x1": 560,
+      "y1": 769.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q2_a.webp",
+       "w": 1016,
+       "h": 266,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 185.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 483,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 120.7,
+        "x1": 560,
+        "y1": 351.9
+       }
+      }
+     ],
+     "text": "2. (a) Use the binomial expansion to expand 1 4 − ( ) 2 x x < 4 − 5 5 in ascending powers of x, up to and including the term in x2 giving each coefficient as a fully simplified fraction. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q2_b.webp",
+       "w": 1016,
+       "h": 326,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 193.2,
+        "x1": 523.2,
+        "y1": 349.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 351.9,
+        "x1": 560,
+        "y1": 396.5
+       }
+      }
+     ],
+     "text": "2 1 kx where k is a constant and x < 4 . / O f x 4 3 5 x 5 Given that the series expansion of f(x), in ascending powers of x, is 3 1 + x + mx 2 + ... where m is a constant 10 (b) find the value of k, (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q2_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 355.6,
+        "x1": 523.2,
+        "y1": 391.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 396.5,
+        "x1": 560,
+        "y1": 475.5
+       }
+      }
+     ],
+     "text": "(c) find the value of m. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q2_notes_1.webp",
+     "w": 1092,
+     "h": 329,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 472.5,
+      "x1": 560,
+      "y1": 630.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1407,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 96.5,
+      "x1": 560,
+      "y1": 771.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q3",
+   "number": 3,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3",
+     "marks": 6,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q3.webp",
+       "w": 1016,
+       "h": 795,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 57.5,
+        "x1": 523.2,
+        "y1": 438.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q3_ms.webp",
+       "w": 1092,
+       "h": 268,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 193.6,
+        "x1": 560,
+        "y1": 322.0
+       }
+      }
+     ],
+     "text": "3. y y = e 0.5x −2 O x R Figure 1 Figure 1 shows a sketch of part of the curve with equation y = e 0.5x −2 The region R, shown shaded in Figure 1, is bounded by the curve, the x-axis and the y-axis. The region R is rotated 360° about the x-axis to form a solid of revolution. Show that the volume of this solid can be written in the form a ln 2 + b, where a and b are constants to be found. (6)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q3_notes.webp",
+     "w": 1092,
+     "h": 761,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 324.8,
+      "x1": 560,
+      "y1": 689.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q4",
+   "number": 4,
+   "marks": 12,
+   "stem": [
+    {
+     "src": "maths/WMA14_2020_10/q4_stem.webp",
+     "w": 1016,
+     "h": 699,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 392.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q4_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 399.2,
+        "x1": 523.2,
+        "y1": 434.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 170.8,
+        "x1": 560,
+        "y1": 243.3
+       }
+      }
+     ],
+     "text": "(a) Find the coordinates of A and show that B has coordinates (20, 0). (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q4_b.webp",
+       "w": 1016,
+       "h": 134,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 441.2,
+        "x1": 523.2,
+        "y1": 505.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 342,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 243.3,
+        "x1": 560,
+        "y1": 406.7
+       }
+      }
+     ],
+     "text": "(b) Show that the equation of the tangent to the curve at B is 7y + 4x − 80 = 0 (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q4_c.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 511.6,
+        "x1": 523.2,
+        "y1": 575.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 375,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 406.7,
+        "x1": 560,
+        "y1": 586.1
+       }
+      }
+     ],
+     "text": "The tangent to the curve at B cuts the curve again at the point P. (c) Find, using algebra, the x coordinate of P. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q4_notes_1.webp",
+     "w": 1092,
+     "h": 351,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 609.7,
+      "x1": 560,
+      "y1": 777.6
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q4_notes_2.webp",
+     "w": 1092,
+     "h": 1391,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 42.9,
+      "x1": 560,
+      "y1": 710.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q5",
+   "number": 5,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2020_10/q5_stem.webp",
+     "w": 1016,
+     "h": 447,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 271.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q5_a.webp",
+       "w": 1016,
+       "h": 90,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 273.7,
+        "x1": 523.2,
+        "y1": 316.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 152,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 137.9,
+        "x1": 560,
+        "y1": 210.6
+       }
+      }
+     ],
+     "text": "ln x ∫ (a) Find x 2 d x (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q5_b.webp",
+       "w": 1016,
+       "h": 336,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 323.0,
+        "x1": 523.2,
+        "y1": 483.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 366,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 210.6,
+        "x1": 560,
+        "y1": 385.6
+       }
+      }
+     ],
+     "text": "Figure 3 shows a sketch of part of the curve with equation 1 x 1 x 3 2 ln x > 0.5 y O x 2 The finite region R, shown shaded in Figure 3, is bounded by the curve, the line with equation x = 2, the x-axis and the line with equation x = 4 (b) Use the answer to part (a) to find the exact area of R, writing your answer in simplest form. (4)",
+     "kindGuessed": "draw"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q5_notes.webp",
+     "w": 1092,
+     "h": 813,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 382.6,
+      "x1": 560,
+      "y1": 772.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA14_2020_10/q6_stem.webp",
+     "w": 1016,
+     "h": 104,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 107.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q6_a.webp",
+       "w": 1016,
+       "h": 99,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 110.9,
+        "x1": 523.2,
+        "y1": 158.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 222,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 141.3,
+        "x1": 560,
+        "y1": 247.6
+       }
+      }
+     ],
+     "text": "(a) Find, by firstly taking natural logarithms, an expression for d y x in terms of x and y. d (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q6_b.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 164.9,
+        "x1": 523.2,
+        "y1": 242.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 227,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 247.6,
+        "x1": 560,
+        "y1": 356.0
+       }
+      }
+     ],
+     "text": "(b) Hence show that the x coordinates of the stationary points of C are solutions of the equation tan x + x ln x = 0 (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q6_notes_1.webp",
+     "w": 1092,
+     "h": 856,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 353.0,
+      "x1": 560,
+      "y1": 763.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q6_notes_2.webp",
+     "w": 1092,
+     "h": 1265,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 118.2,
+      "x1": 560,
+      "y1": 725.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q7",
+   "number": 7,
+   "marks": 12,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(i)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q7_i.webp",
+       "w": 1016,
+       "h": 245,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 175.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q7_i_ms.webp",
+       "w": 1092,
+       "h": 684,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 130.8,
+        "x1": 560,
+        "y1": 458.4
+       }
+      }
+     ],
+     "text": "7. (i) Using a suitable substitution, find, using calculus, the value of 5 ∫ 3 x x d x − 2 1 1 (Solutions relying entirely on calculator technology are not acceptable.) (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(ii)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q7_ii.webp",
+       "w": 1016,
+       "h": 182,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 181.7,
+        "x1": 523.2,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q7_ii_ms.webp",
+       "w": 1092,
+       "h": 415,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 458.4,
+        "x1": 560,
+        "y1": 657.5
+       }
+      }
+     ],
+     "text": "(ii) Find ∫( 2x 6 − 16 x ) d x + 1 2 )( x − 3 (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 223,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 654.5,
+      "x1": 560,
+      "y1": 761.1
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1545,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 781.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA14_2020_10/q8_stem.webp",
+     "w": 1016,
+     "h": 402,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 250.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q8_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 254.7,
+        "x1": 523.2,
+        "y1": 290.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 467,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 178.0,
+        "x1": 560,
+        "y1": 401.7
+       }
+      }
+     ],
+     "text": "(a) find the position vector of X. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q8_b.webp",
+       "w": 1016,
+       "h": 251,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 297.2,
+        "x1": 523.2,
+        "y1": 417.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 580,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 401.7,
+        "x1": 560,
+        "y1": 679.3
+       }
+      }
+     ],
+     "text": "The point P (10, −7, 0) lies on l1 The point Q lies on l2 → is perpendicular to l2 Given that PQ (b) calculate the coordinates of Q. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 1338,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 49.0,
+      "x1": 560,
+      "y1": 690.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1214,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 50.2,
+      "x1": 560,
+      "y1": 632.3
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA14_2020_10_q9",
+   "number": 9,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WMA14_2020_10/q9_stem.webp",
+     "w": 1016,
+     "h": 290,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 196.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q9_a.webp",
+       "w": 1016,
+       "h": 243,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 203.2,
+        "x1": 523.2,
+        "y1": 319.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q9_a_ms.webp",
+       "w": 1092,
+       "h": 367,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 59.5,
+        "x1": 560,
+        "y1": 235.2
+       }
+      }
+     ],
+     "text": "(a) show that 2 pt \u001a A O \u001b \u0019\u0018 qt 1 r where p, q and r are integers to be found. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA14_2020_10/q9_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 326.0,
+        "x1": 523.2,
+        "y1": 389.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA14_2020_10/q9_b_ms.webp",
+       "w": 1092,
+       "h": 157,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 235.2,
+        "x1": 560,
+        "y1": 310.0
+       }
+      }
+     ],
+     "text": "According to the model, there is a limit to the area that will be covered by the bacteria. (b) Find the value of this limit. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2020_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 978,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 307.0,
+      "x1": 560,
+      "y1": 775.9
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 479,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 269.4
+     }
+    },
+    {
+     "src": "maths/WMA14_2020_10/q9_notes_3.webp",
+     "w": 1092,
+     "h": 65,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 72.1,
+      "x1": 560,
+      "y1": 103.2
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

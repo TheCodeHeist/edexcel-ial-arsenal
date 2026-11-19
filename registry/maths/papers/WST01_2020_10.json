@@ -1,0 +1,1319 @@
+{
+ "id": "WST01_2020_10",
+ "subject": "maths",
+ "unit": "WST01",
+ "series": "2020-10",
+ "totalMarks": 75,
+ "durationMin": 90,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_S1_QP_1784112935928.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/May 2020/IAL_Maths_2020_May_S1_MS_1784112935280.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST01_2020_10_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q1.webp",
+       "w": 1016,
+       "h": 286,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 194.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q1_ms.webp",
+       "w": 1092,
+       "h": 388,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 86.8,
+        "x1": 560,
+        "y1": 272.5
+       }
+      }
+     ],
+     "text": "1. The discrete random variable X takes the values −1, 2, 3, 4 and 7 only. Given that P(X = x) = 8 −x for x = −1, 2, 3, 4 and 7 k find the value of E(X ) (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_10/q1_notes_1.webp",
+     "w": 1092,
+     "h": 228,
+     "region": {
+      "page": 5,
+      "x0": 36,
+      "y0": 269.5,
+      "x1": 560,
+      "y1": 378.3
+     }
+    },
+    {
+     "src": "maths/WST01_2020_10/q1_notes_2.webp",
+     "w": 1092,
+     "h": 77,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 78.1,
+      "x1": 560,
+      "y1": 114.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_10_q2",
+   "number": 2,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_10/q2_stem.webp",
+     "w": 1016,
+     "h": 711,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 398.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 2,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q2_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 407.3,
+        "x1": 523.2,
+        "y1": 442.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q2_a_ms.webp",
+       "w": 1092,
+       "h": 137,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 124.6,
+        "x1": 560,
+        "y1": 189.8
+       }
+      }
+     ],
+     "text": "(a) Complete the tree diagram, giving your answers in terms of p and q where appropriate. (2)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q2_b.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 449.3,
+        "x1": 523.2,
+        "y1": 498.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q2_b_ms.webp",
+       "w": 1092,
+       "h": 59,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 189.8,
+        "x1": 560,
+        "y1": 217.6
+       }
+      }
+     ],
+     "text": "(b) Find an expression, in terms of p and q, for the probability that a randomly selected student chooses water to drink. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q2_c.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 505.3,
+        "x1": 523.2,
+        "y1": 582.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q2_c_ms.webp",
+       "w": 1092,
+       "h": 100,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 217.6,
+        "x1": 560,
+        "y1": 265.0
+       }
+      }
+     ],
+     "text": "The events “choosing a vegetarian main course” and “choosing water to drink” are independent. (c) Find a linear equation in terms of p and q. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(d)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q2_d.webp",
+       "w": 1016,
+       "h": 200,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 589.3,
+        "x1": 523.2,
+        "y1": 684.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q2_d_ms.webp",
+       "w": 1092,
+       "h": 299,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 265.0,
+        "x1": 560,
+        "y1": 408.1
+       }
+      }
+     ],
+     "text": "A student who has chosen juice to drink is selected at random. The probability that they chose fish for their main course is 7 30 (d) Find the value of p and the value of q. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q2_e.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 691.3,
+        "x1": 523.2,
+        "y1": 768.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q2_e_ms.webp",
+       "w": 1092,
+       "h": 205,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 408.1,
+        "x1": 560,
+        "y1": 506.2
+       }
+      }
+     ],
+     "text": "The canteen manager claims that students who choose water to drink are most likely to choose a fish main course. (e) State, showing your working clearly, whether or not the manager’s claim is correct. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_10/q2_notes.webp",
+     "w": 1092,
+     "h": 597,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 503.2,
+      "x1": 560,
+      "y1": 789.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_10_q3",
+   "number": 3,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_10/q3_stem.webp",
+     "w": 1016,
+     "h": 133,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 121.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q3_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 127.8,
+        "x1": 523.2,
+        "y1": 163.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q3_a_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 73.5,
+        "x1": 560,
+        "y1": 152.3
+       }
+      }
+     ],
+     "text": "(a) Find the proportion of students who receive medals. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q3_b.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 169.8,
+        "x1": 523.2,
+        "y1": 246.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q3_b_ms.webp",
+       "w": 1092,
+       "h": 125,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 152.3,
+        "x1": 560,
+        "y1": 211.9
+       }
+      }
+     ],
+     "text": "The school wishes to give a certificate of achievement or a medal to the 80% of students who achieve a distance of at least d metres. (b) Find the value of d. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q3_c.webp",
+       "w": 1016,
+       "h": 147,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 246.8,
+        "x1": 523.2,
+        "y1": 317.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q3_c_ms.webp",
+       "w": 1092,
+       "h": 236,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 211.9,
+        "x1": 560,
+        "y1": 324.6
+       }
+      }
+     ],
+     "text": "Of those who received medals, the 1 3 who jump the furthest will receive gold medals. (c) Find the shortest distance, g metres, that must be achieved to receive a gold medal. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q3_d.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 323.8,
+        "x1": 523.2,
+        "y1": 401.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q3_d_ms.webp",
+       "w": 1092,
+       "h": 201,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 324.6,
+        "x1": 560,
+        "y1": 420.8
+       }
+      }
+     ],
+     "text": "A journalist from the local newspaper interviews a randomly selected group of 3 medal winners. (d) Find the exact probability that there is at least one gold medal winner in the group. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_10/q3_notes.webp",
+     "w": 1092,
+     "h": 742,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 417.8,
+      "x1": 560,
+      "y1": 773.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_10_q4",
+   "number": 4,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_10/q4_stem.webp",
+     "w": 1016,
+     "h": 368,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 233.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q4_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 240.6,
+        "x1": 523.2,
+        "y1": 276.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 109,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 72.1,
+        "x1": 560,
+        "y1": 124.1
+       }
+      }
+     ],
+     "text": "(a) Determine any outliers in these data. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q4_b.webp",
+       "w": 1016,
+       "h": 218,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 282.6,
+        "x1": 523.2,
+        "y1": 386.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q4_b_ms.webp",
+       "w": 1092,
+       "h": 164,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 124.1,
+        "x1": 560,
+        "y1": 202.4
+       }
+      }
+     ],
+     "text": "(b) On the grid below draw a box plot for these data, indicating clearly any outliers. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "4(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q4_c.webp",
+       "w": 1016,
+       "h": 211,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 386.6,
+        "x1": 523.2,
+        "y1": 487.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q4_c_ms.webp",
+       "w": 1092,
+       "h": 96,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 202.4,
+        "x1": 560,
+        "y1": 247.9
+       }
+      }
+     ],
+     "text": "0 10 20 30 40 50 60 Marks (c) Use the quartiles to describe the skewness of these data. Give a reason for your answer. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 3,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q4_d.webp",
+       "w": 1016,
+       "h": 363,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 494.1,
+        "x1": 523.2,
+        "y1": 668.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q4_d_ms.webp",
+       "w": 1092,
+       "h": 268,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 247.9,
+        "x1": 560,
+        "y1": 376.2
+       }
+      }
+     ],
+     "text": "Two more students also took the tests. Their average marks, which were both less than 45, are added to the data and the box plot redrawn. The median and the upper quartile are the same but the lower quartile is now 26 (d) Redraw the box plot on the grid below. (3)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "4(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q4_e_1.webp",
+       "w": 1016,
+       "h": 182,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 668.0,
+        "x1": 523.2,
+        "y1": 755.0
+       }
+      },
+      {
+       "src": "maths/WST01_2020_10/q4_e_2.webp",
+       "w": 1016,
+       "h": 52,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 762.6,
+        "x1": 523.2,
+        "y1": 787.2
+       }
+      },
+      {
+       "src": "maths/WST01_2020_10/q4_e_3.webp",
+       "w": 1016,
+       "h": 646,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 442.5,
+        "x1": 523.2,
+        "y1": 751.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q4_e_ms.webp",
+       "w": 1092,
+       "h": 153,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 376.2,
+        "x1": 560,
+        "y1": 449.3
+       }
+      }
+     ],
+     "text": "0 10 20 30 40 50 60 Marks (e) Give ranges of values within which each of these students’ average marks must lie. (2) Turn over for spare grids if you need to redraw your answer for part (b) or part (d). Only use these grids if you need to redraw your answer for part (b) or part (d). Copy of grid for part (b) 0 10 20 30 40 50 60 Marks Copy of grid for part (d) 0 10 20 30 40 50 60 Marks",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_10/q4_notes.webp",
+     "w": 1092,
+     "h": 717,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 446.3,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "4(e): text after the marks",
+    "4(e): runs across pages"
+   ]
+  },
+  {
+   "id": "WST01_2020_10_q5",
+   "number": 5,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_10/q5_stem.webp",
+     "w": 1016,
+     "h": 263,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 183.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q5_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 190.2,
+        "x1": 523.2,
+        "y1": 239.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q5_a_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 72.1,
+        "x1": 560,
+        "y1": 115.5
+       }
+      }
+     ],
+     "text": "(a) Use the regression line to estimate the annual rent in dollars for a shop with a floor area of 800 m2 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q5_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 246.2,
+        "x1": 523.2,
+        "y1": 281.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q5_b_ms.webp",
+       "w": 1092,
+       "h": 172,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 115.5,
+        "x1": 560,
+        "y1": 197.5
+       }
+      }
+     ],
+     "text": "(b) Find Syy and Sxx (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q5_c.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 288.2,
+        "x1": 523.2,
+        "y1": 323.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q5_c_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 197.5,
+        "x1": 560,
+        "y1": 277.7
+       }
+      }
+     ],
+     "text": "(c) Find the product moment correlation coefficient between y and x. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q5_d.webp",
+       "w": 1016,
+       "h": 196,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 330.2,
+        "x1": 523.2,
+        "y1": 423.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q5_d_ms.webp",
+       "w": 1092,
+       "h": 106,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 277.7,
+        "x1": 560,
+        "y1": 328.2
+       }
+      }
+     ],
+     "text": "An 11th shop is added to the sample. The floor area is 900 m2 and the annual rent is 15 000 dollars. (d) Use the formula Sxy = ∑ (x − x)( y − y) to show that the value of Sxy for the 11 shops will be the same as it was for the original 10 shops. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(e)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q5_e.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 430.2,
+        "x1": 523.2,
+        "y1": 465.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q5_e_ms.webp",
+       "w": 1092,
+       "h": 157,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 328.2,
+        "x1": 560,
+        "y1": 403.1
+       }
+      }
+     ],
+     "text": "(e) Find the new equation of the regression line of y on x for the 11 shops. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(f)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q5_f.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 472.2,
+        "x1": 523.2,
+        "y1": 549.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q5_f_ms.webp",
+       "w": 1092,
+       "h": 103,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 403.1,
+        "x1": 560,
+        "y1": 451.8
+       }
+      }
+     ],
+     "text": "The company is considering renting a larger shop with area of 3000 m2 (f) Comment on the suitability of using the new regression line to estimate the annual rent. Give a reason for your answer. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_10/q5_notes.webp",
+     "w": 1092,
+     "h": 694,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 448.8,
+      "x1": 560,
+      "y1": 781.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST01_2020_10_q6",
+   "number": 6,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WST01_2020_10/q6_stem.webp",
+     "w": 1016,
+     "h": 199,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 153.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_a.webp",
+       "w": 1016,
+       "h": 83,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 156.4,
+        "x1": 523.2,
+        "y1": 195.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 94,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 72.9,
+        "x1": 560,
+        "y1": 117.3
+       }
+      }
+     ],
+     "text": "(a) Show that E(A) = 3.5 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_b.webp",
+       "w": 1016,
+       "h": 82,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 198.4,
+        "x1": 523.2,
+        "y1": 237.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_b_ms.webp",
+       "w": 1092,
+       "h": 123,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 117.3,
+        "x1": 560,
+        "y1": 175.9
+       }
+      }
+     ],
+     "text": "(b) Find Var (A) (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_c.webp",
+       "w": 1016,
+       "h": 288,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 244.1,
+        "x1": 523.2,
+        "y1": 381.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_c_ms.webp",
+       "w": 1092,
+       "h": 54,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 175.9,
+        "x1": 560,
+        "y1": 201.1
+       }
+      }
+     ],
+     "text": "The random variable B represents the score on a 4-sided die. The probability distribution for B is given in the following table where k is a positive integer. b 1 3 4 k P(B = b) 0.25 0.25 0.25 0.25 (c) Write down the name of the probability distribution of B. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_d.webp",
+       "w": 1016,
+       "h": 82,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 384.6,
+        "x1": 523.2,
+        "y1": 423.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_d_ms.webp",
+       "w": 1092,
+       "h": 52,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 201.1,
+        "x1": 560,
+        "y1": 225.7
+       }
+      }
+     ],
+     "text": "(d) Given that E(B) = E(A) state, giving a reason, the value of k. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(e)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_e.webp",
+       "w": 1016,
+       "h": 374,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 426.6,
+        "x1": 523.2,
+        "y1": 605.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_e_ms.webp",
+       "w": 1092,
+       "h": 120,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 225.7,
+        "x1": 560,
+        "y1": 282.8
+       }
+      }
+     ],
+     "text": "The random variable X ~ N( μ, σ 2) Sam and Tim are playing a game with the spinner and the die. They each spin the spinner once to obtain their value of A and each roll the die once to obtain their value of B. Their value of A is taken as their value of μ and their value of B is taken as their value of σ. The person with the larger value of P(X > 3.5) is the winner. (e) Given that Sam obtained values of a = 4 and b = 3 and Tim obtained b = 4 find, giving a reason, the probability that Tim wins. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(f)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_f.webp",
+       "w": 1016,
+       "h": 83,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 608.6,
+        "x1": 523.2,
+        "y1": 647.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_f_ms.webp",
+       "w": 1092,
+       "h": 149,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 282.8,
+        "x1": 560,
+        "y1": 354.2
+       }
+      }
+     ],
+     "text": "(f) Find the largest value of P(X > 3.5) achievable in this game. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(g)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST01_2020_10/q6_g.webp",
+       "w": 1016,
+       "h": 74,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 654.3,
+        "x1": 523.2,
+        "y1": 689.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2020_10/q6_g_ms.webp",
+       "w": 1092,
+       "h": 123,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 354.2,
+        "x1": 560,
+        "y1": 412.4
+       }
+      }
+     ],
+     "text": "(g) Find the probability of achieving this value. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST01_2020_10/q6_notes_1.webp",
+     "w": 1092,
+     "h": 788,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 409.4,
+      "x1": 560,
+      "y1": 786.9
+     }
+    },
+    {
+     "src": "maths/WST01_2020_10/q6_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 736.5,
+      "x1": 560,
+      "y1": 765.9
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

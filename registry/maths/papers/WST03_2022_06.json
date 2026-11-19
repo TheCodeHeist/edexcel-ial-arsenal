@@ -1,0 +1,1160 @@
+{
+ "id": "WST03_2022_06",
+ "subject": "maths",
+ "unit": "WST03",
+ "series": "2022-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_S3_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202022/IAL_MATHS_2022_MayJune_S3_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WST03_2022_06_q1",
+   "number": 1,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q1_stem.webp",
+     "w": 1090,
+     "h": 888,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 482.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q1_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 485.5,
+        "x1": 559,
+        "y1": 520.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 88.1,
+        "x1": 560,
+        "y1": 114.3
+       }
+      }
+     ],
+     "text": "(a) Explain how Michael could have dealt with these tied ranks. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q1_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 523.4,
+        "x1": 559,
+        "y1": 596.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 206,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 114.3,
+        "x1": 560,
+        "y1": 212.9
+       }
+      }
+     ],
+     "text": "Given that the largest number of total tournaments won is ranked number 1 (b) calculate the value of Spearman’s rank correlation coefficient between player’s rank and the rank in total tournaments won. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q1_c.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 599.4,
+        "x1": 559,
+        "y1": 662.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q1_c_ms.webp",
+       "w": 1092,
+       "h": 149,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 212.9,
+        "x1": 560,
+        "y1": 283.7
+       }
+      }
+     ],
+     "text": "(c) Stating your hypotheses and critical value clearly, test at the 5% level of significance, whether or not there is evidence of a positive correlation between player’s rank and the rank in total tournaments won for these darts players. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(d)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q1_d.webp",
+       "w": 1090,
+       "h": 212,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 665.4,
+        "x1": 559,
+        "y1": 766.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q1_d_ms.webp",
+       "w": 1092,
+       "h": 129,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 283.7,
+        "x1": 560,
+        "y1": 345.3
+       }
+      }
+     ],
+     "text": "Michael does not believe that there is a positive correlation between player’s rank and the rank in total number of tournaments won. (d) Find the largest level of significance, that is given in the tables provided, which could be used to support Michael’s claim. You must state your critical value. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q1_notes.webp",
+     "w": 1092,
+     "h": 612,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 342.3,
+      "x1": 560,
+      "y1": 635.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2022_06_q2",
+   "number": 2,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q2_stem.webp",
+     "w": 1090,
+     "h": 310,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 205.2
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q2_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 215.0,
+        "x1": 559,
+        "y1": 264.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 165,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 87.7,
+        "x1": 560,
+        "y1": 166.3
+       }
+      }
+     ],
+     "text": "(a) Find unbiased estimates for the mean and variance of the temperature of the water, after four hours, for brand A. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q2_b.webp",
+       "w": 1090,
+       "h": 295,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 266.9,
+        "x1": 559,
+        "y1": 408.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 296,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 166.3,
+        "x1": 560,
+        "y1": 307.8
+       }
+      }
+     ],
+     "text": "A random sample of 80 flasks from brand B gives the following results, where y is the temperature of the water in the flask after four hours. y = 75 9 . sy = 2 2 . (b) Test, at the 1% significance level, whether there is a difference in the mean water temperature after four hours between brand A and brand B. You should state your hypotheses, test statistic and critical value clearly. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(c)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q2_c.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 413.4,
+        "x1": 559,
+        "y1": 448.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q2_c_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 307.8,
+        "x1": 560,
+        "y1": 351.3
+       }
+      }
+     ],
+     "text": "(c) Explain why it is reasonable to assume that σ 2 = s 2 in this situation. (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q2_notes.webp",
+     "w": 1092,
+     "h": 595,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 348.3,
+      "x1": 560,
+      "y1": 633.4
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2022_06_q3",
+   "number": 3,
+   "marks": 14,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q3_stem.webp",
+     "w": 1090,
+     "h": 154,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 130.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q3_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 133.2,
+        "x1": 559,
+        "y1": 168.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 100,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 87.7,
+        "x1": 560,
+        "y1": 135.1
+       }
+      }
+     ],
+     "text": "(a) Find the mean of the sample. (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q3_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 171.2,
+        "x1": 559,
+        "y1": 206.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 197,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 135.1,
+        "x1": 560,
+        "y1": 229.4
+       }
+      }
+     ],
+     "text": "(b) Show that the standard deviation is 3 (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(c)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q3_c.webp",
+       "w": 1090,
+       "h": 125,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 209.1,
+        "x1": 559,
+        "y1": 268.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q3_c_ms.webp",
+       "w": 1092,
+       "h": 174,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 229.4,
+        "x1": 560,
+        "y1": 312.4
+       }
+      }
+     ],
+     "text": "The a % confidence interval using the 25 observations has a width of 2.1 (c) Calculate the value of a (6)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q3_d.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 271.1,
+        "x1": 559,
+        "y1": 320.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q3_d_ms.webp",
+       "w": 1092,
+       "h": 239,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 312.4,
+        "x1": 560,
+        "y1": 426.5
+       }
+      }
+     ],
+     "text": "(d) Find the smallest sample size, of observations from X, that would be required to obtain a 95% confidence interval of width at most 1.5 (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q3_notes.webp",
+     "w": 1092,
+     "h": 734,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 423.5,
+      "x1": 560,
+      "y1": 775.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2022_06_q4",
+   "number": 4,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q4_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q4_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 95.2,
+        "x1": 559,
+        "y1": 144.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 56,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 88.1,
+        "x1": 560,
+        "y1": 114.3
+       }
+      }
+     ],
+     "text": "(a) Write down a suitable model for the distribution of the time, T minutes, that he has to wait for a train to leave. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q4_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 147.2,
+        "x1": 559,
+        "y1": 182.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 210,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 114.3,
+        "x1": 560,
+        "y1": 214.8
+       }
+      }
+     ],
+     "text": "(b) Find the mean and standard deviation of T (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q4_c.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 185.1,
+        "x1": 559,
+        "y1": 258.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 302,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 214.8,
+        "x1": 560,
+        "y1": 359.1
+       }
+      }
+     ],
+     "text": "During a 10‑week period, Navtej travels to work by train on 46 occasions. (c) Estimate the probability that the mean length of time that he has to wait for a train to leave is between 3.4 and 3.6 minutes. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(d)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q4_d.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 261.1,
+        "x1": 559,
+        "y1": 296.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q4_d_ms.webp",
+       "w": 1092,
+       "h": 91,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 359.1,
+        "x1": 560,
+        "y1": 402.7
+       }
+      }
+     ],
+     "text": "(d) State a necessary assumption for the calculation in part (c). (1)",
+     "kindGuessed": "short"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q4_notes.webp",
+     "w": 1092,
+     "h": 533,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 399.7,
+      "x1": 560,
+      "y1": 654.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2022_06_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q5_stem.webp",
+     "w": 1090,
+     "h": 75,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 92.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q5_a.webp",
+       "w": 1090,
+       "h": 96,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 94.9,
+        "x1": 559,
+        "y1": 140.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 52,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 88.1,
+        "x1": 560,
+        "y1": 112.6
+       }
+      }
+     ],
+     "text": "X − μ (a) Explain why is not a statistic. 1 σ (1)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q5_b.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 143.0,
+        "x1": 559,
+        "y1": 178.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 64,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 112.6,
+        "x1": 560,
+        "y1": 142.9
+       }
+      }
+     ],
+     "text": "(b) Explain what you understand by an unbiased estimator for μ (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q5_c.webp",
+       "w": 1090,
+       "h": 213,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 181.0,
+        "x1": 559,
+        "y1": 283.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 196,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 142.9,
+        "x1": 560,
+        "y1": 236.5
+       }
+      }
+     ],
+     "text": "Two estimators for μ are U1 and U2 where X + 3 X U = 3 X − 2 X and U = 1 2 1 1 2 2 4 (c) Show that both U1 and U2 are unbiased estimators for μ (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q5_d.webp",
+       "w": 1090,
+       "h": 184,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 285.6,
+        "x1": 559,
+        "y1": 373.0
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q5_d_ms.webp",
+       "w": 1092,
+       "h": 277,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 236.5,
+        "x1": 560,
+        "y1": 369.1
+       }
+      }
+     ],
+     "text": "The most efficient estimator among a group of unbiased estimators is the one with the smallest variance. (d) By finding the variance of U1 and the variance of U2 state, giving a reason, the most efficient estimator for μ from these two estimators. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q5_notes.webp",
+     "w": 1092,
+     "h": 494,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 366.1,
+      "x1": 560,
+      "y1": 602.5
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2022_06_q6",
+   "number": 6,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q6_stem.webp",
+     "w": 1090,
+     "h": 254,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 178.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q6_a.webp",
+       "w": 1090,
+       "h": 104,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 181.1,
+        "x1": 559,
+        "y1": 230.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 87.7,
+        "x1": 560,
+        "y1": 208.2
+       }
+      }
+     ],
+     "text": "(a) Find the probability that when 6 men and 3 women are in the lift, the load exceeds 700 kg. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q6_b.webp",
+       "w": 1090,
+       "h": 154,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 233.1,
+        "x1": 559,
+        "y1": 306.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 379,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 208.2,
+        "x1": 560,
+        "y1": 389.7
+       }
+      }
+     ],
+     "text": "A sign in the lift states: “Maximum number of people in the lift is c” (b) Find the value of c such that the probability of the load exceeding 700 kg is less than 2.5% no matter the gender of the occupants. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q6_notes.webp",
+     "w": 1092,
+     "h": 466,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 386.7,
+      "x1": 560,
+      "y1": 609.6
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WST03_2022_06_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WST03_2022_06/q7_stem.webp",
+     "w": 1090,
+     "h": 327,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.0,
+      "x1": 559,
+      "y1": 213.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 1,
+     "kind": "short",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q7_a.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 216.4,
+        "x1": 559,
+        "y1": 251.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST03_2022_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 297,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 87.7,
+        "x1": 560,
+        "y1": 229.9
+       }
+      }
+     ],
+     "text": "(a) Write down suitable null and alternative hypotheses for this test. (1)",
+     "kindGuessed": "short"
+    },
+    {
+     "label": "7(b)",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q7_b.webp",
+       "w": 1090,
+       "h": 175,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 254.4,
+        "x1": 559,
+        "y1": 337.7
+       }
+      }
+     ],
+     "ms": [],
+     "text": "It is found that the null hypothesis is not rejected at the 5% significance level. (b) Hence (i) find the minimum value of x (8)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)(ii)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WST03_2022_06/q7_b_ii.webp",
+       "w": 1090,
+       "h": 75,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 340.3,
+        "x1": 559,
+        "y1": 375.7
+       }
+      }
+     ],
+     "ms": [],
+     "text": "(ii) determine the minimum number of times the die was rolled. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WST03_2022_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 502,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 543.2,
+      "x1": 560,
+      "y1": 783.6
+     }
+    },
+    {
+     "src": "maths/WST03_2022_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 749.9,
+      "x1": 560,
+      "y1": 780.2
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "7(b): no mark-scheme rows (scheme has ['7(a)', '7(bi)', '7(bii)'])",
+    "7(b)(ii): no mark-scheme rows (scheme has ['7(a)', '7(bi)', '7(bii)'])",
+    "MS 7(bi): matches no part of the paper",
+    "MS 7(bii): matches no part of the paper"
+   ]
+  }
+ ]
+}

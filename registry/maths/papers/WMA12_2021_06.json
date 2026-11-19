@@ -1,0 +1,1204 @@
+{
+ "id": "WMA12_2021_06",
+ "subject": "maths",
+ "unit": "WMA12",
+ "series": "2021-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_P2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_P2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WMA12_2021_06_q1",
+   "number": 1,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_06/q1_stem.webp",
+     "w": 1016,
+     "h": 191,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 149.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "1(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q1_a.webp",
+       "w": 1016,
+       "h": 192,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 155.8,
+        "x1": 523.2,
+        "y1": 247.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q1_a_ms.webp",
+       "w": 1092,
+       "h": 222,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 187.2
+       }
+      }
+     ],
+     "text": "(a) (i) state with a reason whether an arithmetic series or a geometric series should be used, (ii) write down an expression, in terms of n, for the amount, in pounds (£), saved in week n. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "1(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q1_b.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 253.8,
+        "x1": 523.2,
+        "y1": 331.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q1_b_ms.webp",
+       "w": 1092,
+       "h": 284,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 187.2,
+        "x1": 560,
+        "y1": 322.8
+       }
+      }
+     ],
+     "text": "Given that the computer Adina wants to buy costs £350 (b) find the number of weeks it will take for Adina to save enough money to buy the computer. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q1_notes.webp",
+     "w": 1092,
+     "h": 909,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 319.8,
+      "x1": 560,
+      "y1": 755.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_06/q2_stem.webp",
+     "w": 1016,
+     "h": 813,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 447.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "draw",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q2_a.webp",
+       "w": 1016,
+       "h": 250,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 453.9,
+        "x1": 523.2,
+        "y1": 573.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 446,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 294.4
+       }
+      }
+     ],
+     "text": "(a) On Diagram 1, sketch the curve with equation x (i) y = 2 x – 6 (ii) y = 4 Label clearly the coordinates of any points of intersection with the coordinate axes. (4)",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q2_b_1.webp",
+       "w": 1016,
+       "h": 137,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 578.2,
+        "x1": 523.2,
+        "y1": 643.3
+       }
+      },
+      {
+       "src": "maths/WMA12_2021_06/q2_b_2.webp",
+       "w": 1016,
+       "h": 674,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 68.5,
+        "x1": 523.2,
+        "y1": 391.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 349,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 294.4,
+        "x1": 560,
+        "y1": 461.3
+       }
+      }
+     ],
+     "text": "x meets the curve with equation y = 4 x – 6 at the point P. The curve with equation y = 2 (b) Using algebra, find the exact coordinates of P. (4) y x y = 4 O x Diagram 1",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q2_notes.webp",
+     "w": 1092,
+     "h": 692,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 458.3,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "2(b): text cut by a crop edge",
+    "2(b): text after the marks",
+    "2(b): runs across pages"
+   ]
+  },
+  {
+   "id": "WMA12_2021_06_q3",
+   "number": 3,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "3(i)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q3_i.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 117.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q3_i_ms.webp",
+       "w": 1092,
+       "h": 238,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 194.5
+       }
+      }
+     ],
+     "text": "3. (i) Prove that for all single digit prime numbers, p, p3 + p is a multiple of 10 (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(ii)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q3_ii.webp",
+       "w": 1016,
+       "h": 125,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 124.2,
+        "x1": 523.2,
+        "y1": 183.5
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q3_ii_ms.webp",
+       "w": 1092,
+       "h": 230,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 194.5,
+        "x1": 560,
+        "y1": 304.3
+       }
+      }
+     ],
+     "text": "(ii) Show, using algebra, that for n  ¥ (n + 1)3 – n3 is not a multiple of 3 (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q3_notes.webp",
+     "w": 1092,
+     "h": 524,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 301.3,
+      "x1": 560,
+      "y1": 552.2
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q4",
+   "number": 4,
+   "marks": 8,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q4_a.webp",
+       "w": 1016,
+       "h": 245,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 174.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q4_a_ms.webp",
+       "w": 1092,
+       "h": 318,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 233.1
+       }
+      }
+     ],
+     "text": "4. (a) Find, in ascending powers of x, up to and including the term in x3, the binomial expansion of 13 x   + 2   8 fully simplifying each coefficient. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q4_b.webp",
+       "w": 1016,
+       "h": 136,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 179.6,
+        "x1": 523.2,
+        "y1": 244.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q4_b_ms.webp",
+       "w": 1092,
+       "h": 231,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 233.1,
+        "x1": 560,
+        "y1": 343.3
+       }
+      }
+     ],
+     "text": "13 (b) Use the answer to part (a) to find an approximation for 2.0125 Give your answer to 3 decimal places. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "4(c)",
+     "marks": 1,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q4_c.webp",
+       "w": 1016,
+       "h": 166,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 249.6,
+        "x1": 523.2,
+        "y1": 328.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q4_c_ms.webp",
+       "w": 1092,
+       "h": 172,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 343.3,
+        "x1": 560,
+        "y1": 425.5
+       }
+      }
+     ],
+     "text": "13 Without calculating 2.0125 (c) state, with a reason, whether the answer to part (b) is an overestimate or an underestimate. (1)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q4_notes.webp",
+     "w": 1092,
+     "h": 762,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 422.5,
+      "x1": 560,
+      "y1": 787.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q5",
+   "number": 5,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_06/q5_stem.webp",
+     "w": 1016,
+     "h": 827,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 453.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q5_a.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 460.7,
+        "x1": 523.2,
+        "y1": 510.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 322,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 234.9
+       }
+      }
+     ],
+     "text": "(a) find, to 2 decimal places, an estimate for the area bounded by the curve C1, the line with equation x = 2.5, the x-axis and the line with equation x = 4 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q5_b.webp",
+       "w": 1016,
+       "h": 216,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 516.7,
+        "x1": 523.2,
+        "y1": 620.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q5_b_ms.webp",
+       "w": 1092,
+       "h": 202,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 234.9,
+        "x1": 560,
+        "y1": 331.3
+       }
+      }
+     ],
+     "text": "The curve C2 has equation 3 y = x − x + x > 3 9 0 2 ∫   3 (b) Find x − 3 x + 9 d x 2   (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q5_c.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 626.4,
+        "x1": 523.2,
+        "y1": 703.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q5_c_ms.webp",
+       "w": 1092,
+       "h": 344,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 331.3,
+        "x1": 560,
+        "y1": 496.2
+       }
+      }
+     ],
+     "text": "The region R, shown shaded in Figure 2, is bounded by the curves C1 and C2 (c) Use the answers to part (a) and part (b) to find, to one decimal place, an estimate for the area of the region R. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q5_notes_1.webp",
+     "w": 1092,
+     "h": 619,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 493.2,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_06/q5_notes_2.webp",
+     "w": 1092,
+     "h": 145,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 51.7,
+      "x1": 560,
+      "y1": 120.9
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q6",
+   "number": 6,
+   "marks": 7,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_06/q6_stem.webp",
+     "w": 1016,
+     "h": 203,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 57.6,
+      "x1": 523.2,
+      "y1": 154.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 161.7,
+        "x1": 523.2,
+        "y1": 197.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 390,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 267.4
+       }
+      }
+     ],
+     "text": "(a) find the value of k. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q6_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 201.0,
+        "x1": 523.2,
+        "y1": 264.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 352,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 267.4,
+        "x1": 560,
+        "y1": 435.9
+       }
+      }
+     ],
+     "text": "The circle meets the coordinate axes at the points R, S and T. (b) Find the exact area of the triangle RST. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q6_notes.webp",
+     "w": 1092,
+     "h": 745,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 432.9,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q7",
+   "number": 7,
+   "marks": 10,
+   "stem": [],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q7_a.webp",
+       "w": 1016,
+       "h": 215,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 57.6,
+        "x1": 523.2,
+        "y1": 160.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 332,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 239.8
+       }
+      }
+     ],
+     "text": "7. (a) Given that 3 log3(2x – 1) = 2 + log3(14x – 25) show that 2x3 – 3x2 – 30x + 56 = 0 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q7_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 167.2,
+        "x1": 523.2,
+        "y1": 202.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q7_b_ms.webp",
+       "w": 1092,
+       "h": 351,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 239.8,
+        "x1": 560,
+        "y1": 408.0
+       }
+      }
+     ],
+     "text": "(b) Show that –4 is a root of this cubic equation. (2)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q7_c.webp",
+       "w": 1016,
+       "h": 128,
+       "region": {
+        "page": 22,
+        "x0": 36,
+        "y0": 209.2,
+        "x1": 523.2,
+        "y1": 269.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 331,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 408.0,
+        "x1": 560,
+        "y1": 566.3
+       }
+      }
+     ],
+     "text": "(c) Hence, using algebra and showing each step of your working, solve 3 log3(2x – 1) = 2 + log3(14x – 25) (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q7_notes_1.webp",
+     "w": 1092,
+     "h": 469,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 563.3,
+      "x1": 560,
+      "y1": 787.8
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_06/q7_notes_2.webp",
+     "w": 1092,
+     "h": 614,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 51.7,
+      "x1": 560,
+      "y1": 345.8
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q8",
+   "number": 8,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_06/q8_stem.webp",
+     "w": 1016,
+     "h": 99,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 104.4
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(i)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q8_i.webp",
+       "w": 1016,
+       "h": 180,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 111.0,
+        "x1": 523.2,
+        "y1": 196.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q8_i_ms.webp",
+       "w": 1092,
+       "h": 254,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 94.6,
+        "x1": 560,
+        "y1": 216.3
+       }
+      }
+     ],
+     "text": "(i) Solve, for 0 < θ < 360°, the equation 3 sin (θ + 30°) = 7 cos (θ + 30°) giving your answers to one decimal place. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(ii)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q8_ii.webp",
+       "w": 1016,
+       "h": 415,
+       "region": {
+        "page": 26,
+        "x0": 36,
+        "y0": 203.5,
+        "x1": 523.2,
+        "y1": 401.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q8_ii_ms.webp",
+       "w": 1092,
+       "h": 505,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 216.3,
+        "x1": 560,
+        "y1": 458.3
+       }
+      }
+     ],
+     "text": "(ii) (a) Show that the equation 3 sin3 x = 5 sin x – 7 sin x cos x can be written in the form sin x (a cos 2 x + b cos x + c) = 0 where a, b and c are constants to be found. π π − x (b) Hence solve for the equation 2 2 3 sin3 x = 5 sin x – 7 sin x cos x (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q8_notes_1.webp",
+     "w": 1092,
+     "h": 698,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 455.3,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_06/q8_notes_2.webp",
+     "w": 1092,
+     "h": 1383,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 52.6,
+      "x1": 560,
+      "y1": 716.1
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WMA12_2021_06_q9",
+   "number": 9,
+   "marks": 10,
+   "stem": [
+    {
+     "src": "maths/WMA12_2021_06/q9_stem.webp",
+     "w": 1016,
+     "h": 536,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 313.9
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "9(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q9_a.webp",
+       "w": 1016,
+       "h": 173,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 320.8,
+        "x1": 523.2,
+        "y1": 403.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q9_a_ms.webp",
+       "w": 1092,
+       "h": 267,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 80.8,
+        "x1": 560,
+        "y1": 208.6
+       }
+      }
+     ],
+     "text": "(a) show that the external surface area, S cm2, of the box is given by 250000 S h = + 2000 h (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(b)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q9_b.webp",
+       "w": 1016,
+       "h": 112,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 406.2,
+        "x1": 523.2,
+        "y1": 459.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q9_b_ms.webp",
+       "w": 1092,
+       "h": 311,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 208.6,
+        "x1": 560,
+        "y1": 357.4
+       }
+      }
+     ],
+     "text": "k (b) Use algebraic differentiation to show that S has a stationary point when h = 250 where k is a rational constant to be found. (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "9(c)",
+     "marks": 2,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WMA12_2021_06/q9_c.webp",
+       "w": 1016,
+       "h": 104,
+       "region": {
+        "page": 30,
+        "x0": 36,
+        "y0": 466.2,
+        "x1": 523.2,
+        "y1": 515.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WMA12_2021_06/q9_c_ms.webp",
+       "w": 1092,
+       "h": 251,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 357.4,
+        "x1": 560,
+        "y1": 477.4
+       }
+      }
+     ],
+     "text": "(c) Justify by further differentiation that this value of h gives the minimum external surface area of the box. (2)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA12_2021_06/q9_notes_1.webp",
+     "w": 1092,
+     "h": 658,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 474.4,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_06/q9_notes_2.webp",
+     "w": 1092,
+     "h": 245,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 51.7,
+      "x1": 560,
+      "y1": 168.9
+     }
+    },
+    {
+     "src": "maths/WMA12_2021_06/q9_notes_3.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 756.5,
+      "x1": 560,
+      "y1": 786.1
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}

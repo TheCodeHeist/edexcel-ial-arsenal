@@ -1,0 +1,886 @@
+{
+ "id": "WME02_2021_06",
+ "subject": "maths",
+ "unit": "WME02",
+ "series": "2021-06",
+ "totalMarks": 75,
+ "durationMin": null,
+ "source": {
+  "qp": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_M2_QP.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  },
+  "ms": {
+   "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_M2_MS.pdf",
+   "via": {
+    "name": "PaperLords",
+    "url": "https://www.paperlords.org/ial",
+    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "WME02_2021_06_q1",
+   "number": 1,
+   "marks": 5,
+   "stem": [],
+   "parts": [
+    {
+     "label": "1",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q1.webp",
+       "w": 1016,
+       "h": 300,
+       "region": {
+        "page": 2,
+        "x0": 36,
+        "y0": 57.7,
+        "x1": 523.2,
+        "y1": 201.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q1_ms.webp",
+       "w": 1092,
+       "h": 497,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 98.7,
+        "x1": 560,
+        "y1": 336.7
+       }
+      }
+     ],
+     "text": "1. A motorcyclist and his motorcycle have a combined mass of 480 kg. The motorcyclist drives down a straight road that is inclined at an angle θ to the horizontal, where sin θ = 1 12 , with the engine of the motorcycle working at 3.5 kW. The motorcycle is moving at a constant speed of V m s–1. The resistance to the motion of the motorcycle is modelled as a constant force with magnitude 20V newtons. Find the value of V. (5)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2021_06_q2",
+   "number": 2,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2021_06/q2_stem.webp",
+     "w": 1016,
+     "h": 163,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 135.7
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "2(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q2_a.webp",
+       "w": 1016,
+       "h": 76,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 142.1,
+        "x1": 523.2,
+        "y1": 177.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q2_a_ms.webp",
+       "w": 1092,
+       "h": 355,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 240.4
+       }
+      }
+     ],
+     "text": "(a) Find F when t = 2 (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "2(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q2_b.webp",
+       "w": 1016,
+       "h": 163,
+       "region": {
+        "page": 4,
+        "x0": 36,
+        "y0": 184.3,
+        "x1": 523.2,
+        "y1": 261.7
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q2_b_ms.webp",
+       "w": 1092,
+       "h": 370,
+       "region": {
+        "page": 8,
+        "x0": 36,
+        "y0": 240.4,
+        "x1": 560,
+        "y1": 417.3
+       }
+      }
+     ],
+     "text": "At time t = 0, P is at the origin O. (b) Find the position vector of P relative to O at the instant when P is moving in the direction of the vector j (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2021_06_q3",
+   "number": 3,
+   "marks": 8,
+   "stem": [
+    {
+     "src": "maths/WME02_2021_06/q3_stem.webp",
+     "w": 1016,
+     "h": 752,
+     "region": {
+      "page": 6,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 417.8
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "3(a)",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q3_a.webp",
+       "w": 1016,
+       "h": 101,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 422.2,
+        "x1": 523.2,
+        "y1": 470.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q3_a_ms.webp",
+       "w": 1092,
+       "h": 684,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 398.4
+       }
+      }
+     ],
+     "text": "− π (a) Show that the centre of mass of T is a distance 4(67 3 ) a from AD. − π 3(28 ) (5)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "3(b)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q3_b.webp",
+       "w": 1016,
+       "h": 279,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 476.7,
+        "x1": 523.2,
+        "y1": 610.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q3_b_ms.webp",
+       "w": 1092,
+       "h": 271,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 398.4,
+        "x1": 560,
+        "y1": 527.9
+       }
+      }
+     ],
+     "text": "The template T is suspended from the ceiling by two light inextensible vertical strings. One string is attached to T at A and the other string is attached to T at B so that T hangs in equilibrium with AB horizontal. The weight of T is W. The tension in the string attached to T at B is kW, where k is a constant. (b) Find the value of k, giving your answer to 2 decimal places. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2021_06_q4",
+   "number": 4,
+   "marks": 6,
+   "stem": [],
+   "parts": [
+    {
+     "label": "4",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q4.webp",
+       "w": 1016,
+       "h": 600,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 57.5,
+        "x1": 523.2,
+        "y1": 344.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q4_ms_1.webp",
+       "w": 1092,
+       "h": 1301,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 84.4,
+        "x1": 560,
+        "y1": 708.4
+       }
+      },
+      {
+       "src": "maths/WME02_2021_06/q4_ms_2.webp",
+       "w": 1092,
+       "h": 1436,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 67.2,
+        "x1": 560,
+        "y1": 755.9
+       }
+      }
+     ],
+     "text": "4. 8 m s–1 P J N s 60° 5 m s–1 Figure 2 A particle P of mass 0.3 kg is moving with speed 5 m s–1 along a straight line on a smooth horizontal plane. The particle receives a horizontal impulse of magnitude J N s. The speed of P immediately after receiving the impulse is 8 m s–1. The angle between the direction of motion of P before it receives the impulse and the direction of the impulse is 60°, as shown in Figure 2. Find the value of J. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2021_06_q5",
+   "number": 5,
+   "marks": 9,
+   "stem": [
+    {
+     "src": "maths/WME02_2021_06/q5_stem.webp",
+     "w": 1016,
+     "h": 662,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 374.6
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "5(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q5_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 381.4,
+        "x1": 523.2,
+        "y1": 416.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q5_a_ms.webp",
+       "w": 1092,
+       "h": 681,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 70.2,
+        "x1": 560,
+        "y1": 396.8
+       }
+      }
+     ],
+     "text": "(a) Find, in terms of M and g, the tension in the string. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "5(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q5_b.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 423.4,
+        "x1": 523.2,
+        "y1": 486.8
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q5_b_ms_1.webp",
+       "w": 1092,
+       "h": 759,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 396.8,
+        "x1": 560,
+        "y1": 760.4
+       }
+      },
+      {
+       "src": "maths/WME02_2021_06/q5_b_ms_2.webp",
+       "w": 1092,
+       "h": 38,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 67.4,
+        "x1": 560,
+        "y1": 85.2
+       }
+      }
+     ],
+     "text": "The magnitude of the force acting on the rod at A is λMg, where λ is a constant. (b) Find, to 2 significant figures, the value of λ. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending",
+   "risks": [
+    "MS Q5: no '(n marks)' line after its last row"
+   ]
+  },
+  {
+   "id": "WME02_2021_06_q6",
+   "number": 6,
+   "marks": 15,
+   "stem": [
+    {
+     "src": "maths/WME02_2021_06/q6_stem.webp",
+     "w": 1016,
+     "h": 670,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 57.5,
+      "x1": 523.2,
+      "y1": 378.3
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "6(a)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q6_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 385.2,
+        "x1": 523.2,
+        "y1": 420.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q6_a_ms.webp",
+       "w": 1092,
+       "h": 253,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 85.2,
+        "x1": 560,
+        "y1": 206.1
+       }
+      }
+     ],
+     "text": "(a) Find the potential energy lost by the system as A moves 2 m up the ramp. (3)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q6_b.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 427.2,
+        "x1": 523.2,
+        "y1": 462.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q6_b_ms.webp",
+       "w": 1092,
+       "h": 287,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 206.1,
+        "x1": 560,
+        "y1": 343.4
+       }
+      }
+     ],
+     "text": "(b) Find the work done against friction as A moves 2 m up the ramp. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(c)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q6_c.webp",
+       "w": 1016,
+       "h": 191,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 469.2,
+        "x1": 523.2,
+        "y1": 560.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q6_c_ms.webp",
+       "w": 1092,
+       "h": 357,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 343.4,
+        "x1": 560,
+        "y1": 514.4
+       }
+      }
+     ],
+     "text": "When B hits the ground, B is brought to rest by the impact and does not rebound and A continues to move up the ramp. (c) Use the work‑energy principle to find the speed of B at the instant before it hits the ground. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "6(d)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q6_d.webp",
+       "w": 1016,
+       "h": 133,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 567.2,
+        "x1": 523.2,
+        "y1": 630.6
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q6_d_ms.webp",
+       "w": 1092,
+       "h": 435,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 514.4,
+        "x1": 560,
+        "y1": 722.8
+       }
+      }
+     ],
+     "text": "Particle A comes to instantaneous rest at the point Y on the ramp, where XY = (2 + d) m. (d) Use the work‑energy principle to find the value of d. (4)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2021_06_q7",
+   "number": 7,
+   "marks": 11,
+   "stem": [
+    {
+     "src": "maths/WME02_2021_06/q7_stem.webp",
+     "w": 1016,
+     "h": 439,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 268.1
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "7(a)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q7_a.webp",
+       "w": 1016,
+       "h": 75,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 274.9,
+        "x1": 523.2,
+        "y1": 310.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q7_a_ms.webp",
+       "w": 1092,
+       "h": 387,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 84.4,
+        "x1": 560,
+        "y1": 269.4
+       }
+      }
+     ],
+     "text": "(a) Find the distance AB. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(b)",
+     "marks": 4,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q7_b.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 316.9,
+        "x1": 523.2,
+        "y1": 394.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q7_b_ms_1.webp",
+       "w": 1092,
+       "h": 368,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 269.4,
+        "x1": 560,
+        "y1": 445.6
+       }
+      },
+      {
+       "src": "maths/WME02_2021_06/q7_b_ms_2.webp",
+       "w": 1092,
+       "h": 320,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 445.6,
+        "x1": 560,
+        "y1": 598.8
+       }
+      }
+     ],
+     "text": "When the height of the ball above the ground is more than h metres, the speed of the ball is less than 10 m s–1 (b) Find the smallest possible value of h. (4)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "7(c)",
+     "marks": 3,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q7_c.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 400.9,
+        "x1": 523.2,
+        "y1": 478.4
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q7_c_ms.webp",
+       "w": 1092,
+       "h": 321,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 598.8,
+        "x1": 560,
+        "y1": 752.5
+       }
+      }
+     ],
+     "text": "When the ball is at the point C on its path, the direction of motion of the ball is perpendicular to the direction of motion of the ball at the instant before it hits the ground at B. (c) Find, in terms of i and j, the velocity of the ball when it is at C. (3)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2021_06/q7_notes.webp",
+     "w": 1092,
+     "h": 37,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 749.5,
+      "x1": 560,
+      "y1": 766.7
+     }
+    }
+   ],
+   "check": "pending"
+  },
+  {
+   "id": "WME02_2021_06_q8",
+   "number": 8,
+   "marks": 13,
+   "stem": [
+    {
+     "src": "maths/WME02_2021_06/q8_stem.webp",
+     "w": 1016,
+     "h": 162,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 57.7,
+      "x1": 523.2,
+      "y1": 135.0
+     }
+    }
+   ],
+   "parts": [
+    {
+     "label": "8(a)",
+     "marks": 7,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q8_a.webp",
+       "w": 1016,
+       "h": 159,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 138.0,
+        "x1": 523.2,
+        "y1": 213.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q8_a_ms.webp",
+       "w": 1092,
+       "h": 672,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 107.5,
+        "x1": 560,
+        "y1": 429.6
+       }
+      }
+     ],
+     "text": "(a) (i) Show that the speed of B immediately after the collision with A is 4 3 u(1 + e) (ii) Find the speed of A immediately after the collision with B. (7)",
+     "kindGuessed": "calc"
+    },
+    {
+     "label": "8(b)",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WME02_2021_06/q8_b.webp",
+       "w": 1016,
+       "h": 162,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 220.5,
+        "x1": 523.2,
+        "y1": 297.9
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WME02_2021_06/q8_b_ms_1.webp",
+       "w": 1092,
+       "h": 661,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 429.6,
+        "x1": 560,
+        "y1": 746.2
+       }
+      },
+      {
+       "src": "maths/WME02_2021_06/q8_b_ms_2.webp",
+       "w": 1092,
+       "h": 305,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 67.5,
+        "x1": 560,
+        "y1": 213.5
+       }
+      }
+     ],
+     "text": "At the instant when A collides with B, particle C is projected with speed u towards B so that B and C collide directly. (b) Show that there will be a second collision between A and B. (6)",
+     "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2021_06/q8_notes.webp",
+     "w": 1092,
+     "h": 64,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 733.5,
+      "x1": 560,
+      "y1": 763.7
+     }
+    }
+   ],
+   "check": "pending"
+  }
+ ]
+}
