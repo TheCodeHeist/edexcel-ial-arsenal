@@ -103,6 +103,81 @@
      "D1.3.1"
     ]
    }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(a): asks to complete the diagram in the answer book (event-time boxes); that diagram is not in the crop (stem shows Figure 4 without boxes).",
+    "6(a): mark scheme network is cut off at the top (E, A, F, B, G, K, L, N arcs and the top boxes sliced through) so only the lower half of the early/late-times diagram is readable; the top part of this diagram is at the end of the question 5 notes crop instead.",
+    "6(d)/6(e): the model schedule is split: its top row (D, H, M, Q with the time axis and an M1) sits in the (d) strip after the B1ft row, and the (e) strip starts cut through the rest (A, I, J / B, F, L, K, N / C, G, E, P; the mark column is cut so only A1 A1 A1 visible); the grid in the answer book for 6(e) is not in the crop.",
+    "Notes: the end of the notes (\"For (e) the following may be useful in checking their schedule\") is cut off, with the promised table missing."
+   ],
+   "fingerprint": "bb1219e98ccf",
+   "kinds": {
+    "6(a)": "draw",
+    "6(b)": "short",
+    "6(c)": "calc",
+    "6(d)": "calc",
+    "6(e)": "draw"
+   },
+   "topics": {
+    "6(a)": [
+     "D1.4.3"
+    ],
+    "6(b)": [
+     "D1.4.3"
+    ],
+    "6(c)": [
+     "D1.4.4"
+    ],
+    "6(d)": [
+     "D1.4.3"
+    ],
+    "6(e)": [
+     "D1.4.4"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(b): asks to draw the minimum spanning tree on the diagram in the answer book; that diagram (vertex layout) is not in the crop.",
+    "7(b): mark scheme drawing of the MST looks cut off at the top: only vertices A, E, F, G, H are visible (B, C, D and their arcs, which the tree DB, BG, BC, CA, AF, GE, GH needs, are missing), so the model tree is incomplete.",
+    "7(d): mark scheme strip runs on into the (e) rows (the first nearest neighbour route ACBGEDHFA 342 with an M1) after the (d) M1 A1 rows; that belongs to 7(e), and (e) shows only A1 A1 (with the second route) in its own strip."
+   ],
+   "fingerprint": "fa5677641209",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "draw",
+    "7(c)": "calc",
+    "7(d)": "calc",
+    "7(e)": "calc",
+    "7(f)": "calc",
+    "7(g)": "short"
+   },
+   "topics": {
+    "7(a)": [
+     "D1.2.1"
+    ],
+    "7(b)": [
+     "D1.2.1"
+    ],
+    "7(c)": [
+     "D1.3.3"
+    ],
+    "7(d)": [
+     "D1.3.3"
+    ],
+    "7(e)": [
+     "D1.3.4"
+    ],
+    "7(f)": [
+     "D1.3.3"
+    ],
+    "7(g)": [
+     "D1.3.3"
+    ]
+   }
   }
  }
 }

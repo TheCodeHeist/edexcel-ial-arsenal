@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M2.1.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME02_2023_10/q1_a.webp",
@@ -96,8 +98,10 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M2.1.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME02_2023_10/q1_b.webp",
@@ -142,7 +146,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME02_2023_10_q2",
