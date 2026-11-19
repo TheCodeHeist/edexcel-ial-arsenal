@@ -127,6 +127,34 @@
     stopTimer(); phase = 'marking';
     requestAnimationFrame(() => document.getElementById('marking')?.scrollIntoView({ behavior: 'smooth' }));
   }
+  // ---- PDFs (pdf-lib is loaded only when asked for)
+  let pdfBusy = $state('');
+  async function pdf(which: 'paper' | 'ms') {
+    if (pdfBusy) return;
+    pdfBusy = which === 'paper' ? 'Making the paper…' : 'Making the mark scheme…';
+    try {
+      const m = await import('../../lib/papers/mockPdf');
+      const u = units.find((x) => x.code === poolInfo?.unit) ?? unit;
+      const names = new Map(u.groups.flatMap((g) => g.points.map((p) => [p.id, p.short] as const)));
+      const meta = {
+        subjectName, unit: u.code, unitTitle: u.title, unitLabel: /^\d$/.test(u.badge) ? `Unit ${u.badge}` : u.badge,
+        minutes, topics: (fromQuery(location.search).topics ?? []).map((id) => names.get(id) ?? id), url: location.href,
+      };
+      const label = pdfBusy;
+      const progress = (d: number, a: number) => (pdfBusy = `${label} ${d}/${a}`);
+      const bytes = which === 'paper' ? await m.questionPaper(questions, meta, progress) : await m.markScheme(questions, meta, progress);
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+      a.download = `${u.code}-mock-${seed}${which === 'ms' ? '-mark-scheme' : ''}.pdf`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 30000);
+    } catch (e) {
+      error = `Couldn't make the PDF: ${e instanceof Error ? e.message : e}`;
+    } finally {
+      pdfBusy = '';
+    }
+  }
+
   function setScore(i: number, v: string, max: number) {
     const n = Number(v);
     scores[i] = v === '' || Number.isNaN(n) ? undefined : Math.max(0, Math.min(max, Math.round(n)));
@@ -206,6 +234,13 @@
       <button type="button" class="btn" disabled={loading} onclick={() => make()}>New questions</button>
       <button type="button" class="btn" onclick={copyLink}>{copied ? 'Link copied' : 'Copy link'}</button>
       <button type="button" class="btn" onclick={() => print()}>Print</button>
+    </div>
+    <div class="pdfs">
+      <span>For printing:</span>
+      <button type="button" class="btn primary" disabled={!!pdfBusy} onclick={() => pdf('paper')}>Question paper (PDF)</button>
+      <button type="button" class="btn" disabled={!!pdfBusy} onclick={() => pdf('ms')}>Mark scheme (PDF)</button>
+      {#if pdfBusy}<span class="busy" aria-live="polite">{pdfBusy}</span>{/if}
+      {#if error}<span class="err" role="alert">{error}</span>{/if}
     </div>
   </div>
 
@@ -303,6 +338,9 @@
     padding: 10px 14px; margin-bottom: 14px; border-radius: var(--r-lg);
     background: color-mix(in srgb, var(--solid) 94%, transparent); backdrop-filter: blur(12px); }
   @media (max-width: 640px) { .mock-bar { position: static; } .acts { margin-left: 0; } }
+  .pdfs { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; font-size: 13px; color: var(--muted);
+    border-top: 1px dashed var(--line); padding-top: 8px; }
+  .pdfs .busy { font: 600 12px/1 var(--f-mono); color: var(--accent); }
   .mock-hint { margin: -4px 0 12px; font-size: 13px; color: var(--muted); }
   .mock-bar .what { font-size: 14px; }
   .timer { display: flex; gap: 8px; align-items: center; }
