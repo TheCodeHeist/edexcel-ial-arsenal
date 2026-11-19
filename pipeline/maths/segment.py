@@ -630,8 +630,13 @@ def ms_split(ms_doc, questions):
         else:
             continue                                        # 'Notes', 'Alt', 'Way 2', 'Note 1' …
         if num and not labs and not l.bold and "." not in l.text and not (
-                under_header(l) and (cur_q is None or closed)):
-            continue    # a lone plain digit, unless it opens a table after the last question closed: maths
+                (under_header(l) or (closed and int(num) == expected and l.x1 <= col[1] + 4
+                                     and rule_above(ms_doc, l.page, l.y0)
+                                     and not any(o.page == l.page and abs(o.mid - l.mid) < 5 and o.x1 < l.x0
+                                                 for o in lines)))   # leftmost on its row, not maths ('4z³')
+                and (cur_q is None or closed)):
+            continue    # a lone plain digit, unless it opens a table, or is the next question's number right
+            #             after the last one closed (M2 Oct 2021 prints '2' mid-page): else it's maths
         if num:
             n = int(num)
             if n == cur_q and labs and not closed:
@@ -693,6 +698,25 @@ def ms_split(ms_doc, questions):
 
 
 FOOTER = re.compile(r"^Pearson Education Limited\. Registered company", re.I)
+
+
+_RULES = {}
+
+
+def rule_above(doc, pno, y, gap=14):
+    """Is there a full-width table rule just above y? A question's first row starts under one; notes don't."""
+    key = (doc.name, pno)
+    if key not in _RULES:
+        width = {}                      # rules are often drawn cell by cell: pool the pieces at each height
+        for d in doc[pno].get_drawings():
+            for it in d["items"]:
+                if it[0] == "l" and abs(it[1].y - it[2].y) < 1:
+                    width[round(it[1].y)] = width.get(round(it[1].y), 0) + abs(it[1].x - it[2].x)
+            r = d["rect"]
+            if r.height < 2.5:
+                width[round(r.y0)] = width.get(round(r.y0), 0) + r.width
+        _RULES[key] = [y for y, w in width.items() if w > 300]
+    return any(0 <= y - ry < gap for ry in _RULES[key])
 
 
 def table_top(page, y_first, floor, headers=()):
