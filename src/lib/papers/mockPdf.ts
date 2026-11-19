@@ -388,7 +388,7 @@ export async function markScheme(questions: MockQuestion[], meta: MockMeta, prog
   doc.setTitle(`${meta.unit} mock paper: mark scheme`);
   doc.setCreator('Edexcel IAL Arsenal');
   const f = await fonts(doc);
-  const imgs = await loadAll(questions.flatMap((q) => q.parts.flatMap((p) => p.ms)), progress);
+  const imgs = await loadAll(questions.flatMap((q) => [...q.parts.flatMap((p) => p.ms), ...(q.msNotes ?? [])]), progress);
   const total = questions.reduce((n, q) => n + q.marks, 0);
   const w = new Writer(doc, f);
   const width = A4.w - M.left - M.right;
@@ -431,6 +431,10 @@ export async function markScheme(questions: MockQuestion[], meta: MockMeta, prog
       if (p.kind === 'mcq' && p.answer) { w.need(18); w.text(`Answer: ${p.answer}`, M.left, 11, f.bold); w.y += 16; }
       for (const c of p.ms) await w.image(imgs.get(c.src)!, M.left - 10);
       w.y += 4;
+    }
+    if (q.msNotes?.length) {
+      w.need(30); w.text('Notes for examiners', M.left, 10, f.bold); w.y += 14;
+      for (const c of q.msNotes) await w.image(imgs.get(c.src)!, M.left - 10);
     }
   }
   footers(w, `${meta.unit} mock paper: mark scheme · Edexcel IAL Arsenal`, 1, false);

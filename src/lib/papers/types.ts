@@ -91,6 +91,7 @@ export interface Question {
   stem: Crop[];         // shared context printed before the first part (may be empty)
   parts: Part[];
   check: CheckStatus;   // who stands behind the crops; only 'machine' and 'human' reach the site
+  msNotes?: Crop[];     // Maths: the mark scheme's notes for examiners after the question's rows
   risks?: string[];     // why the pipeline wants a person to look (see pipeline/risks.py); absent when none
 }
 

@@ -48,7 +48,10 @@ Kinds (judge by what the mark scheme rewards, not only the command word):
   short     short written answer: state, explain, describe, suggest, complete a table with words or numbers.
   draw      the student draws, sketches, plots points, adds arrows/rays/lines/forces, or labels/completes a
             diagram or graph.
-  extended  extended writing (usually 5-6 marks, marked on structured reasoning; often labelled with a *)."""
+  extended  extended writing (usually 5-6 marks, marked on structured reasoning; often labelled with a *).
+Maths papers have no mcq and almost no extended: find / solve / show that / prove (algebraic working) is calc;
+  sketch a graph or curve, draw a diagram or network, shade a region is draw; state / explain / interpret /
+  give a reason / criticise a model in words is short."""
 CAPTION_H = 34
 GAP = 14
 
@@ -111,6 +114,8 @@ def show(paper_id, number):
         last_intro = intro
         pieces.append((f"{p['label']}  ({p['marks']} mark{'s' * (p['marks'] != 1)}): QUESTION", "#1c5fb4", p["qp"]))
         pieces.append((f"{p['label']}: MARK SCHEME rows", "#7a3db8", p["ms"]))
+    if q.get("msNotes"):        # Maths: the examiners' notes after the question's mark scheme
+        pieces.append((f"Question {q['number']}: examiners' NOTES on the mark scheme", "#7a3db8", q["msNotes"]))
     image = OUT / f"{paper_id}_q{q['number']}.png"
     stitch(pieces, image)
     print(json.dumps({
@@ -169,7 +174,17 @@ def record(paper_id, number, raw):
 # and the content of the theory units they draw on. Synoptic questions may reach back to earlier units.
 DRAWS_ON = {"WPH11": ["WPH11"], "WPH12": ["WPH12", "WPH11"], "WPH13": ["WPH13", "WPH11", "WPH12"],
             "WPH14": ["WPH14", "WPH11", "WPH12"], "WPH15": ["WPH15", "WPH14", "WPH11", "WPH12"],
-            "WPH16": ["WPH16", "WPH14", "WPH15", "WPH11", "WPH12"]}
+            "WPH16": ["WPH16", "WPH14", "WPH15", "WPH11", "WPH12"],
+            # Maths: each unit, then the units it builds on. C12/C34 (WMA01/02, before 2019) and D1 before 2019
+            # (WDM01) take the 2018 spec's tags.
+            "WMA11": ["WMA11"], "WMA12": ["WMA12", "WMA11"], "WMA13": ["WMA13", "WMA12", "WMA11"],
+            "WMA14": ["WMA14", "WMA13", "WMA12", "WMA11"], "WMA01": ["WMA11", "WMA12"], "WMA02": ["WMA13", "WMA14"],
+            "WFM01": ["WFM01", "WMA11", "WMA12"], "WFM02": ["WFM02", "WFM01", "WMA11", "WMA12", "WMA13", "WMA14"],
+            "WFM03": ["WFM03", "WFM02", "WFM01", "WMA13", "WMA14"],
+            "WME01": ["WME01", "WMA11", "WMA12"], "WME02": ["WME02", "WME01", "WMA11", "WMA12", "WMA13"],
+            "WME03": ["WME03", "WME02", "WME01", "WMA13", "WMA14"],
+            "WST01": ["WST01", "WMA11", "WMA12"], "WST02": ["WST02", "WST01", "WMA11", "WMA12", "WMA13"],
+            "WST03": ["WST03", "WST02", "WST01"], "WDM11": ["WDM11"], "WDM01": ["WDM11"]}
 
 
 def topic_list(subject, unit):
@@ -194,9 +209,10 @@ def print_topics(subject, unit):
 def todo(prefix="WPH1", limit=None):
     """Questions still to read: no reading of the question as it is cut now, or no topic tags yet. Clean ones
     first (those are the ones only the AI will check)."""
-    rows = []
+    rows, subject = [], "physics"
     for f in sorted((ROOT / "registry").glob(f"*/papers/{prefix}*.json")):
         paper = json.loads(f.read_text())
+        subject = paper["subject"]
         ai = reviews.load_ai(paper["subject"], paper["id"])["questions"]
         for q in paper["questions"]:
             read = ai.get(str(q["number"]), {})
@@ -208,7 +224,7 @@ def todo(prefix="WPH1", limit=None):
     print(KIND_GUIDE + "\n")
     units = {pid[:5] for _, pid, _ in rows}
     if len(units) == 1:
-        print_topics("physics", units.pop())
+        print_topics(subject, units.pop())
     print(f"{len(rows)} to read")
     for risky, pid, n in rows[:limit]:
         print(f"{pid} {n}" + ("   (risky: a person will look too)" if risky else ""))

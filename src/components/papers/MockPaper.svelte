@@ -294,6 +294,11 @@
                 {#each part.ms as c}<img class="crop" src={url(c)} {...size(c)} loading="lazy" decoding="async" alt={`Mark scheme for ${part.label}`} />{/each}
               </div>
             {/each}
+            {#if q.msNotes?.length}
+              <div class="ms-notes"><p class="ms-cap">Notes for examiners</p>
+                {#each q.msNotes as c}<img class="crop" src={url(c)} {...size(c)} loading="lazy" decoding="async" alt="Notes for examiners" />{/each}
+              </div>
+            {/if}
           </li>
         {/each}
       </ol>

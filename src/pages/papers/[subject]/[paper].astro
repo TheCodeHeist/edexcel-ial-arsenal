@@ -91,6 +91,11 @@ const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringi
                   {part.ms.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Mark scheme for ${part.label}`} />)}
                 </div>
               ))}
+              {q.msNotes && q.msNotes.length > 0 && (
+                <div class="ms-notes"><p class="ms-cap">Notes for examiners</p>
+                  {q.msNotes.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Notes for examiners on question ${q.number}`} />)}
+                </div>
+              )}
             </details>
           </>
         ) : (

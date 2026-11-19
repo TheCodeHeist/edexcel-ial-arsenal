@@ -28,6 +28,7 @@ export interface MockQuestion {
   stem: MockCrop[];
   parts: MockPart[];
   note?: string;            // a note for students (registry/<subject>/notes.json)
+  msNotes?: MockCrop[];     // Maths: the mark scheme's notes for examiners
 }
 
 export interface MockPool {
@@ -66,6 +67,7 @@ export function toMockQuestion(p: Paper, q: Question, source: string, note?: str
       qp: x.qp.map(crop), ms: x.ms.map(crop),
     })),
     ...(note ? { note } : {}),
+    ...(q.msNotes?.length ? { msNotes: q.msNotes.map(crop) } : {}),
   };
 }
 

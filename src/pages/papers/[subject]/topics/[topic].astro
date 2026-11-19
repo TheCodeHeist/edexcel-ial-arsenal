@@ -75,6 +75,11 @@ const context = (x: TaggedPart) => [...x.question.stem, ...(x.part.intro ?? [])]
             {x.part.kind === 'mcq' && x.part.answer && <p class="answer">Answer: <b>{x.part.answer}</b></p>}
             {x.part.ms.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Mark scheme for ${x.part.label}`} />)}
           </div>
+          {x.question.msNotes && x.question.msNotes.length > 0 && (
+            <div class="ms-notes"><p class="ms-cap">Notes for examiners (question {x.question.number})</p>
+              {x.question.msNotes.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt="Notes for examiners" />)}
+            </div>
+          )}
         </details>
       </li>
     ))}
