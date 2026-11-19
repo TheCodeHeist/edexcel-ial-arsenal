@@ -629,13 +629,13 @@
       {
        "src": "maths/WST02_2023_01/q4_a.webp",
        "w": 1090,
-       "h": 11,
+       "h": 65,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 259.9,
         "x1": 559,
-        "y1": 265.0
+        "y1": 290.7
        }
       }
      ],
@@ -653,7 +653,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) Find P(X < 10k) (1)",
      "kindGuessed": "calc"
     },
     {
@@ -666,11 +666,11 @@
       {
        "src": "maths/WST02_2023_01/q4_b.webp",
        "w": 1090,
-       "h": 143,
+       "h": 90,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 265.0,
+        "y0": 290.7,
         "x1": 559,
         "y1": 333.3
        }
@@ -690,7 +690,7 @@
        }
       }
      ],
-     "text": "(a) Find P(X < 10k) (1) 1 (b) Show that k = π (2)",
+     "text": "1 (b) Show that k = π (2)",
      "kindGuessed": "calc"
     },
     {
@@ -794,11 +794,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks",
-    "4(a): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST02_2023_01_q5",
@@ -1013,13 +1009,13 @@
       {
        "src": "maths/WST02_2023_01/q6_b.webp",
        "w": 1090,
-       "h": 70,
+       "h": 130,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 209.9,
         "x1": 559,
-        "y1": 243.4
+        "y1": 271.9
        }
       }
      ],
@@ -1037,7 +1033,7 @@
        }
       }
      ],
-     "text": "Using part (a) and given that E(X) = 6 5",
+     "text": "Using part (a) and given that E(X) = 6 5 (b) show that 5bk 3 = 36 – 15k (6)",
      "kindGuessed": "calc"
     },
     {
@@ -1050,11 +1046,11 @@
       {
        "src": "maths/WST02_2023_01/q6_c.webp",
        "w": 1090,
-       "h": 199,
+       "h": 140,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 243.4,
+        "y0": 271.9,
         "x1": 559,
         "y1": 338.8
        }
@@ -1074,7 +1070,7 @@
        }
       }
      ],
-     "text": "(b) show that 5bk 3 = 36 – 15k (6) Using part (a) and given that E(X) = 6 5 and Var(X) = 22 75 (c) show that 5bk 4 = 52 – 10k 2 (5)",
+     "text": "Using part (a) and given that E(X) = 6 5 and Var(X) = 22 75 (c) show that 5bk 4 = 52 – 10k 2 (5)",
      "kindGuessed": "calc"
     },
     {
@@ -1178,10 +1174,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(b): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

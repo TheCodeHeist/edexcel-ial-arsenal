@@ -786,13 +786,13 @@
     {
      "src": "maths/WFM02_2025_06_A/q6_stem.webp",
      "w": 1090,
-     "h": 247,
+     "h": 287,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 175.0
+      "y1": 194.0
      }
     }
    ],
@@ -809,11 +809,11 @@
       {
        "src": "maths/WFM02_2025_06_A/q6_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 175.0,
+        "y0": 194.3,
         "x1": 559,
         "y1": 229.7
        }
@@ -833,13 +833,13 @@
        }
       }
      ],
-     "text": "The tangent to C1 is perpendicular to the initial line at the point P (a) Use calculus to determine, in simplest form, the exact polar coordinates of P (4)",
+     "text": "(a) Use calculus to determine, in simplest form, the exact polar coordinates of P (4)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 8,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "FP2.7.2"
      ],
@@ -950,13 +950,13 @@
       {
        "src": "maths/WFM02_2025_06_A/q7_b.webp",
        "w": 1090,
-       "h": 90,
+       "h": 144,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 224.9,
         "x1": 559,
-        "y1": 267.8
+        "y1": 293.4
        }
       }
      ],
@@ -974,13 +974,13 @@
        }
       }
      ],
-     "text": "(b) By solving differential equation (II), determine the general solution of differential equation (I).",
+     "text": "(b) By solving differential equation (II), determine the general solution of differential equation (I). Give the answer in the form y = f (x) where f is a fully simplified function. (4)",
      "kindGuessed": "calc"
     },
     {
      "label": "7(c)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [
       "FP2.5.1",
       "FP2.5.2"
@@ -990,11 +990,11 @@
       {
        "src": "maths/WFM02_2025_06_A/q7_c.webp",
        "w": 1090,
-       "h": 288,
+       "h": 235,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 267.8,
+        "y0": 293.4,
         "x1": 559,
         "y1": 405.8
        }
@@ -1026,8 +1026,8 @@
        }
       }
      ],
-     "text": "Give the answer in the form y = f (x) where f is a fully simplified function. (4) 16 and d Given that when x = 1 4 , y = 11 y x = 1 d (c) determine the value of y when x = 1 8 , giving the answer in the form 1 . / p 2 1 q 64 where p and q are integers. (5)",
-     "kindGuessed": "short"
+     "text": "16 and d Given that when x = 1 4 , y = 11 y x = 1 d (c) determine the value of y when x = 1 8 , giving the answer in the form 1 . / p 2 1 q 64 where p and q are integers. (5)",
+     "kindGuessed": "calc"
     }
    ],
    "msNotes": [
@@ -1044,10 +1044,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(b): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2025_06_A_q8",
@@ -1149,7 +1146,7 @@
     {
      "label": "8(c)",
      "marks": 6,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "FP2.3.2",
       "P4.6.1"
@@ -1225,7 +1222,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

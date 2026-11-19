@@ -168,13 +168,13 @@
       {
        "src": "maths/WMA14_2023_10/q2_a.webp",
        "w": 1090,
-       "h": 67,
+       "h": 46,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 329.3,
         "x1": 559,
-        "y1": 361.4
+        "y1": 351.4
        }
       }
      ],
@@ -204,7 +204,7 @@
        }
       }
      ],
-     "text": "(a) show that d x k = where k is a constant to be found, d t x",
+     "text": "(a) show that d x k = where k is a constant to be found,",
      "kindGuessed": "calc"
     },
     {
@@ -219,11 +219,11 @@
       {
        "src": "maths/WMA14_2023_10/q2_b.webp",
        "w": 1090,
-       "h": 123,
+       "h": 144,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 361.4,
+        "y0": 351.4,
         "x1": 559,
         "y1": 420.2
        }
@@ -255,7 +255,7 @@
        }
       }
      ],
-     "text": "(4) (b) show that d V V p = where p is a constant to be found. d t (3)",
+     "text": "d t x (4) (b) show that d V V p = where p is a constant to be found. d t (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -491,7 +491,7 @@
     {
      "label": "4(b)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P2.1.3"
      ],
@@ -715,13 +715,13 @@
     {
      "src": "maths/WMA14_2023_10/q6_stem.webp",
      "w": 1090,
-     "h": 273,
+     "h": 312,
      "region": {
       "page": 16,
       "x0": 36,
-      "y0": 61.9,
+      "y0": 62.6,
       "x1": 559,
-      "y1": 193.0
+      "y1": 212.0
      }
     }
    ],
@@ -729,7 +729,7 @@
     {
      "label": "6(a)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P4.7.6"
      ],
@@ -738,11 +738,11 @@
       {
        "src": "maths/WMA14_2023_10/q6_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 193.0,
+        "y0": 212.3,
         "x1": 559,
         "y1": 247.7
        }
@@ -762,8 +762,8 @@
        }
       }
      ],
-     "text": "Given that l1 and l2 meet at the point P (a) state the coordinates of P (1)",
-     "kindGuessed": "calc"
+     "text": "(a) state the coordinates of P (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "6(b)",
@@ -1252,13 +1252,13 @@
       {
        "src": "maths/WMA14_2023_10/q8_b.webp",
        "w": 1090,
-       "h": 164,
+       "h": 221,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 405.4,
         "x1": 559,
-        "y1": 483.8
+        "y1": 510.8
        }
       }
      ],
@@ -1276,7 +1276,7 @@
        }
       }
      ],
-     "text": "(b) Use parametric differentiation to show that y d x O λ cosec t d",
+     "text": "(b) Use parametric differentiation to show that y d x O λ cosec t d where λ is a constant to be found. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1292,11 +1292,11 @@
       {
        "src": "maths/WMA14_2023_10/q8_c.webp",
        "w": 1090,
-       "h": 255,
+       "h": 199,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 483.8,
+        "y0": 510.8,
         "x1": 559,
         "y1": 606.2
        }
@@ -1316,7 +1316,7 @@
        }
       }
      ],
-     "text": "where λ is a constant to be found. (4) ° t O The point P with parameter lies on C. 4 The tangent to C at the point P cuts the y-axis at the point N. (c) Find the exact y coordinate of N, giving your answer in simplest form. (3)",
+     "text": "° t O The point P with parameter lies on C. 4 The tangent to C at the point P cuts the y-axis at the point N. (c) Find the exact y coordinate of N, giving your answer in simplest form. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1410,10 +1410,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(b): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

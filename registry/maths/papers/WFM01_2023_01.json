@@ -340,7 +340,7 @@
     {
      "label": "3(d)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [
       "FP1.1.3"
      ],
@@ -437,13 +437,13 @@
       {
        "src": "maths/WFM01_2023_01/q4_a.webp",
        "w": 1090,
-       "h": 199,
+       "h": 262,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 146.8,
         "x1": 559,
-        "y1": 241.9
+        "y1": 272.0
        }
       }
      ],
@@ -461,13 +461,13 @@
        }
       }
      ],
-     "text": "(a) (i) Determine ′f ( ) x (ii) Explain why 0.25 cannot be used as an initial approximation for α in the Newton-Raphson process. (iii) Taking 0.15 as a first approximation to α apply the Newton-Raphson process once to f(x) to obtain a second approximation to α",
+     "text": "(a) (i) Determine ′f ( ) x (ii) Explain why 0.25 cannot be used as an initial approximation for α in the Newton-Raphson process. (iii) Taking 0.15 as a first approximation to α apply the Newton-Raphson process once to f(x) to obtain a second approximation to α Give your answer to 3 decimal places. (5)",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 3,
-     "kind": "short",
+     "kind": "calc",
      "topics": [
       "FP1.3.1"
      ],
@@ -476,11 +476,11 @@
       {
        "src": "maths/WFM01_2023_01/q4_b.webp",
        "w": 1090,
-       "h": 202,
+       "h": 140,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 241.9,
+        "y0": 272.0,
         "x1": 559,
         "y1": 338.4
        }
@@ -500,8 +500,8 @@
        }
       }
      ],
-     "text": "Give your answer to 3 decimal places. (5) Ä Ç to find another (b) Use linear interpolation once on the interval 0 15 0 25 . , . approximation to α Give your answer to 3 decimal places. (3)",
-     "kindGuessed": "short"
+     "text": "Ä Ç to find another (b) Use linear interpolation once on the interval 0 15 0 25 . , . approximation to α Give your answer to 3 decimal places. (3)",
+     "kindGuessed": "calc"
     }
    ],
    "msNotes": [
@@ -530,10 +530,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM01_2023_01_q5",

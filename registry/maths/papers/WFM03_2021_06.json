@@ -609,13 +609,13 @@
     {
      "src": "maths/WFM03_2021_06/q6_stem.webp",
      "w": 1016,
-     "h": 298,
+     "h": 338,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 57.0,
       "x1": 523.2,
-      "y1": 199.4
+      "y1": 218.4
      }
     }
    ],
@@ -633,11 +633,11 @@
       {
        "src": "maths/WFM03_2021_06/q6_a.webp",
        "w": 1016,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 199.4,
+        "y0": 218.8,
         "x1": 523.2,
         "y1": 254.2
        }
@@ -669,7 +669,7 @@
        }
       }
      ],
-     "text": "Given that l1 and l2 both lie in a common plane Π1 (a) show that an equation for Π1 is 3x + y − z = 3 (4)",
+     "text": "(a) show that an equation for Π1 is 3x + y − z = 3 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -852,7 +852,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_06_q7",

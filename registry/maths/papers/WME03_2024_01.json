@@ -260,13 +260,13 @@
     {
      "src": "maths/WME03_2024_01/q3_stem.webp",
      "w": 1090,
-     "h": 484,
+     "h": 503,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 288.7
+      "y1": 297.9
      }
     }
    ],
@@ -281,11 +281,11 @@
       {
        "src": "maths/WME03_2024_01/q3_a.webp",
        "w": 1090,
-       "h": 144,
+       "h": 125,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 288.7,
+        "y0": 297.9,
         "x1": 559,
         "y1": 357.3
        }
@@ -346,11 +346,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2024_01_q4",
@@ -624,13 +620,13 @@
     {
      "src": "maths/WME03_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 248,
+     "h": 279,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 175.7
+      "y1": 190.5
      }
     }
    ],
@@ -645,11 +641,11 @@
       {
        "src": "maths/WME03_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 85,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 175.7,
+        "y0": 190.5,
         "x1": 559,
         "y1": 230.5
        }
@@ -669,7 +665,7 @@
        }
       }
      ],
-     "text": "Initially P rests in equilibrium at the point E, where AEB is a vertical straight line. = 13 (a) Show that AE l 8 (4)",
+     "text": "= 13 (a) Show that AE l 8 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -815,13 +811,13 @@
       {
        "src": "maths/WME03_2024_01/q7_a.webp",
        "w": 1090,
-       "h": 148,
+       "h": 179,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 482.3,
         "x1": 559,
-        "y1": 553.0
+        "y1": 567.5
        }
       }
      ],
@@ -839,7 +835,7 @@
        }
       }
      ],
-     "text": "(a) use the principle of conservation of mechanical energy to show that 36 v O u 3 gr 2 2 13",
+     "text": "(a) use the principle of conservation of mechanical energy to show that 36 v O u 3 gr 2 2 13 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -852,11 +848,11 @@
       {
        "src": "maths/WME03_2024_01/q7_b.webp",
        "w": 1090,
-       "h": 114,
+       "h": 84,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 553.0,
+        "y0": 567.5,
         "x1": 559,
         "y1": 607.6
        }
@@ -876,7 +872,7 @@
        }
       }
      ],
-     "text": "(3) 41 (b) show that u  gr 2 13 (4)",
+     "text": "41 (b) show that u  gr 2 13 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -929,10 +925,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

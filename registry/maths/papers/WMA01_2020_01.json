@@ -32,13 +32,13 @@
     {
      "src": "maths/WMA01_2020_01/q1_stem.webp",
      "w": 1016,
-     "h": 123,
+     "h": 124,
      "region": {
       "page": 2,
       "x0": 36,
       "y0": 57.5,
       "x1": 523.2,
-      "y1": 115.9
+      "y1": 116.6
      }
     }
    ],
@@ -53,11 +53,11 @@
       {
        "src": "maths/WMA01_2020_01/q1_a.webp",
        "w": 1016,
-       "h": 94,
+       "h": 92,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 115.9,
+        "y0": 116.6,
         "x1": 523.2,
         "y1": 160.8
        }
@@ -132,7 +132,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WMA01_2020_01_q2",

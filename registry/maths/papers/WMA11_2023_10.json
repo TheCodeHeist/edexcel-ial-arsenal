@@ -55,13 +55,13 @@
       {
        "src": "maths/WMA11_2023_10/q1_a.webp",
        "w": 1090,
-       "h": 66,
+       "h": 92,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 155.4,
         "x1": 559,
-        "y1": 186.5
+        "y1": 199.1
        }
       }
      ],
@@ -79,7 +79,7 @@
        }
       }
      ],
-     "text": "(a) d y d x",
+     "text": "(a) d y d x (3)",
      "kindGuessed": "calc"
     },
     {
@@ -94,11 +94,11 @@
       {
        "src": "maths/WMA11_2023_10/q1_b.webp",
        "w": 1090,
-       "h": 115,
+       "h": 89,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 186.5,
+        "y0": 199.1,
         "x1": 559,
         "y1": 241.2
        }
@@ -118,7 +118,7 @@
        }
       }
      ],
-     "text": "(3) 2 y (b) d x 2 d (2)",
+     "text": "2 y (b) d x 2 d (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -136,10 +136,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA11_2023_10_q2",
@@ -149,13 +146,13 @@
     {
      "src": "maths/WMA11_2023_10/q2_stem.webp",
      "w": 1090,
-     "h": 190,
+     "h": 207,
      "region": {
       "page": 4,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 147.6
+      "y1": 156.0
      }
     }
    ],
@@ -172,13 +169,13 @@
       {
        "src": "maths/WMA11_2023_10/q2_a.webp",
        "w": 1090,
-       "h": 58,
+       "h": 73,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 147.6,
+        "y0": 156.0,
         "x1": 559,
-        "y1": 175.0
+        "y1": 190.3
        }
       }
      ],
@@ -196,7 +193,7 @@
        }
       }
      ],
-     "text": "1 2 (a) a",
+     "text": "2 (a) a (1)",
      "kindGuessed": "calc"
     },
     {
@@ -211,11 +208,11 @@
       {
        "src": "maths/WMA11_2023_10/q2_b.webp",
        "w": 1090,
-       "h": 127,
+       "h": 95,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 175.0,
+        "y0": 190.3,
         "x1": 559,
         "y1": 235.3
        }
@@ -235,7 +232,7 @@
        }
       }
      ],
-     "text": "(1) (b) 16 3 b (1)",
+     "text": "(b) 16 3 b (1)",
      "kindGuessed": "calc"
     },
     {
@@ -292,10 +289,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA11_2023_10_q3",
@@ -574,7 +568,7 @@
     {
      "label": "4(d)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.1.11"
      ],
@@ -1343,7 +1337,7 @@
     {
      "label": "10(a)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.3.3"
      ],
@@ -1382,7 +1376,7 @@
     {
      "label": "10(b)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.3.3"
      ],
@@ -1537,7 +1531,7 @@
     {
      "label": "11(b)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.1.5",
       "P1.1.3"

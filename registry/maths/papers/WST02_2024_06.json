@@ -997,13 +997,13 @@
       {
        "src": "maths/WST02_2024_06/q6_a.webp",
        "w": 1090,
-       "h": 40,
+       "h": 75,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 172.0,
         "x1": 559,
-        "y1": 190.8
+        "y1": 207.4
        }
       }
      ],
@@ -1021,7 +1021,7 @@
        }
       }
      ],
-     "text": "(a) Show that 4a + 4b = 1",
+     "text": "(a) Show that 4a + 4b = 1 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1034,11 +1034,11 @@
       {
        "src": "maths/WST02_2024_06/q6_b.webp",
        "w": 1090,
-       "h": 182,
+       "h": 146,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 190.8,
+        "y0": 207.9,
         "x1": 559,
         "y1": 277.9
        }
@@ -1070,7 +1070,7 @@
        }
       }
      ],
-     "text": "(3) 2) = 17 Given that E(X 5 (b) (i) find an equation in terms of a only (5)",
+     "text": "2) = 17 Given that E(X 5 (b) (i) find an equation in terms of a only (5)",
      "kindGuessed": "calc"
     },
     {
@@ -1211,10 +1211,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

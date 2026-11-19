@@ -1070,13 +1070,13 @@
       {
        "src": "maths/WST02_2025_10_A/q7_a.webp",
        "w": 1090,
-       "h": 11,
+       "h": 71,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 69.9,
         "x1": 559,
-        "y1": 74.9
+        "y1": 103.6
        }
       }
      ],
@@ -1094,7 +1094,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) Find an expression, in terms of a and b, for E(3 – 2X) (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1107,11 +1107,11 @@
       {
        "src": "maths/WST02_2025_10_A/q7_b.webp",
        "w": 1090,
-       "h": 143,
+       "h": 84,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 74.9,
+        "y0": 103.6,
         "x1": 559,
         "y1": 143.2
        }
@@ -1131,7 +1131,7 @@
        }
       }
      ],
-     "text": "(a) Find an expression, in terms of a and b, for E(3 – 2X) (2) > 1 2 (b) Find P( X b + a ) 3 3 (2)",
+     "text": "> 1 2 (b) Find P( X b + a ) 3 3 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1223,11 +1223,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks",
-    "7(a): text doesn't start at its label"
-   ]
+   "check": "pending"
   }
  ]
 }

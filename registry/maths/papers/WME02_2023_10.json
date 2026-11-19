@@ -371,13 +371,13 @@
     {
      "src": "maths/WME02_2023_10/q4_stem.webp",
      "w": 1090,
-     "h": 458,
+     "h": 498,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 276.5
+      "y1": 295.6
      }
     }
    ],
@@ -392,11 +392,11 @@
       {
        "src": "maths/WME02_2023_10/q4_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 276.5,
+        "y0": 295.9,
         "x1": 559,
         "y1": 331.3
        }
@@ -416,7 +416,7 @@
        }
       }
      ],
-     "text": "At time T1 seconds, P is at its highest point above the ground. (a) Find the value of T1 (2)",
+     "text": "(a) Find the value of T1 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -784,13 +784,13 @@
     {
      "src": "maths/WME02_2023_10/q7_stem.webp",
      "w": 1090,
-     "h": 370,
+     "h": 403,
      "region": {
       "page": 24,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 234.0
+      "y1": 250.0
      }
     }
    ],
@@ -805,11 +805,11 @@
       {
        "src": "maths/WME02_2023_10/q7_a.webp",
        "w": 1090,
-       "h": 132,
+       "h": 98,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 234.0,
+        "y0": 250.2,
         "x1": 559,
         "y1": 296.7
        }
@@ -829,7 +829,7 @@
        }
       }
      ],
-     "text": "of P and Q before the collision. (a) Show that y = 8 3 u (6)",
+     "text": "(a) Show that y = 8 3 u (6)",
      "kindGuessed": "calc"
     },
     {
@@ -879,13 +879,13 @@
       {
        "src": "maths/WME02_2023_10/q7_c.webp",
        "w": 1090,
-       "h": 270,
+       "h": 304,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 361.2,
         "x1": 559,
-        "y1": 490.3
+        "y1": 506.5
        }
       }
      ],
@@ -903,7 +903,7 @@
        }
       }
      ],
-     "text": "After the collision, Q hits a smooth fixed vertical wall that is perpendicular to the direction of motion of Q. Particle Q rebounds. The coefficient of restitution between Q and the wall is f. Given that there is no second collision between P and Q, (c) find the range of possible values of f.",
+     "text": "After the collision, Q hits a smooth fixed vertical wall that is perpendicular to the direction of motion of Q. Particle Q rebounds. The coefficient of restitution between Q and the wall is f. Given that there is no second collision between P and Q, (c) find the range of possible values of f. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -916,11 +916,11 @@
       {
        "src": "maths/WME02_2023_10/q7_d.webp",
        "w": 1090,
-       "h": 217,
+       "h": 183,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 490.3,
+        "y0": 506.5,
         "x1": 559,
         "y1": 593.9
        }
@@ -940,14 +940,11 @@
        }
       }
      ],
-     "text": "(3) Given that f = 1 4 (d) find, in terms of m and u, the magnitude of the impulse received by Q as a result of its impact with the wall. (2)",
+     "text": "Given that f = 1 4 (d) find, in terms of m and u, the magnitude of the impulse received by Q as a result of its impact with the wall. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(c): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

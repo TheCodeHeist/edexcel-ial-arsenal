@@ -677,13 +677,13 @@
       {
        "src": "maths/WFM02_2020_10/q7_a.webp",
        "w": 1016,
-       "h": 12,
+       "h": 72,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 362.8,
         "x1": 523.2,
-        "y1": 367.9
+        "y1": 396.6
        }
       }
      ],
@@ -713,7 +713,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) Determine the polar coordinates of A. (6)",
      "kindGuessed": "calc"
     },
     {
@@ -728,11 +728,11 @@
       {
        "src": "maths/WFM02_2020_10/q7_b.webp",
        "w": 1016,
-       "h": 505,
+       "h": 445,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 367.9,
+        "y0": 396.6,
         "x1": 523.2,
         "y1": 609.7
        }
@@ -764,7 +764,7 @@
        }
       }
      ],
-     "text": "(a) Determine the polar coordinates of A. (6) ( ) π   The point B on the curve has polar coordinates a + 2 3 , 6     The finite region R, shown shaded in Figure 1, is bounded by the curve C and the line AB. (b) Use calculus to determine the exact area of the shaded region R. Give your answer in the form a ( ) 2 dπ − e + f 3 4 where d, e and f are integers. (7)",
+     "text": "( ) π   The point B on the curve has polar coordinates a + 2 3 , 6     The finite region R, shown shaded in Figure 1, is bounded by the curve C and the line AB. (b) Use calculus to determine the exact area of the shaded region R. Give your answer in the form a ( ) 2 dπ − e + f 3 4 where d, e and f are integers. (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -782,11 +782,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks",
-    "7(a): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM02_2020_10_q8",

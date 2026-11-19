@@ -621,7 +621,7 @@
     {
      "label": "5(c)",
      "marks": 2,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "P1.1.8",
       "P1.1.7"
@@ -707,13 +707,13 @@
       {
        "src": "maths/WMA11_2026_06/q6_a.webp",
        "w": 1090,
-       "h": 40,
+       "h": 74,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 501.7,
         "x1": 559,
-        "y1": 520.6
+        "y1": 537.1
        }
       }
      ],
@@ -743,7 +743,7 @@
        }
       }
      ],
-     "text": "(a) find f( ) x . You may leave the answer in a factorised form.",
+     "text": "(a) find f( ) x . You may leave the answer in a factorised form. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -760,11 +760,11 @@
       {
        "src": "maths/WMA11_2026_06/q6_b.webp",
        "w": 1090,
-       "h": 244,
+       "h": 210,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 520.6,
+        "y0": 537.1,
         "x1": 559,
         "y1": 637.1
        }
@@ -784,7 +784,7 @@
        }
       }
      ],
-     "text": "(3) . / and at two further points, P and Q. The line with equation y O 2 x 3 12 cuts C at 0 , 3 12 (b) Use algebra to find the exact x coordinates of P and Q. Give each answer in simplest form. (Solutions relying entirely on calculator technology are not acceptable.) (4)",
+     "text": ". / and at two further points, P and Q. The line with equation y O 2 x 3 12 cuts C at 0 , 3 12 (b) Use algebra to find the exact x coordinates of P and Q. Give each answer in simplest form. (Solutions relying entirely on calculator technology are not acceptable.) (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -802,10 +802,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA11_2026_06_q7",
@@ -1132,13 +1129,13 @@
       {
        "src": "maths/WMA11_2026_06/q9_b.webp",
        "w": 1090,
-       "h": 149,
+       "h": 204,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 456.8,
         "x1": 559,
-        "y1": 527.8
+        "y1": 554.0
        }
       }
      ],
@@ -1156,7 +1153,7 @@
        }
       }
      ],
-     "text": "(b) State the number of roots of the equation ° ° \u001b \u001b x 1 sin \u001a\u0019 O sin \u001a\u0019 8 8",
+     "text": "(b) State the number of roots of the equation ° ° \u001b \u001b x 1 sin \u001a\u0019 O sin \u001a\u0019 8 8 in the interval 0 x N ° , giving a reason for your answer. 101 (2)",
      "kindGuessed": "short"
     },
     {
@@ -1172,11 +1169,11 @@
       {
        "src": "maths/WMA11_2026_06/q9_c.webp",
        "w": 1090,
-       "h": 244,
+       "h": 189,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 527.8,
+        "y0": 554.0,
         "x1": 559,
         "y1": 644.5
        }
@@ -1196,7 +1193,7 @@
        }
       }
      ],
-     "text": "in the interval 0 x N ° , giving a reason for your answer. 101 (2) ° \u0019 The curve C2 has equation y x O 3 5 sin 1 \u001b\u001a \u0018\u0017 8 The point Q is the minimum turning point on C2 in the interval 0 x N 2 ° (c) State the coordinates of Q. (2)",
+     "text": "° \u0019 The curve C2 has equation y x O 3 5 sin 1 \u001b\u001a \u0018\u0017 8 The point Q is the minimum turning point on C2 in the interval 0 x N 2 ° (c) State the coordinates of Q. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1226,10 +1223,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "9(b): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA11_2026_06_q10",

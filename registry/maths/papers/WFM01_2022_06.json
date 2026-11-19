@@ -421,13 +421,13 @@
       {
        "src": "maths/WFM01_2022_06/q3_a.webp",
        "w": 1090,
-       "h": 61,
+       "h": 41,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 104.6,
         "x1": 559,
-        "y1": 133.1
+        "y1": 123.8
        }
       }
      ],
@@ -445,7 +445,7 @@
        }
       }
      ],
-     "text": "(a) Determine M–1, giving your answer in simplest form in terms of k. (2)",
+     "text": "(a) Determine M–1, giving your answer in simplest form in terms of k.",
      "kindGuessed": "calc"
     },
     {
@@ -461,11 +461,11 @@
       {
        "src": "maths/WFM01_2022_06/q3_b.webp",
        "w": 1090,
-       "h": 162,
+       "h": 181,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 133.1,
+        "y0": 123.8,
         "x1": 559,
         "y1": 210.5
        }
@@ -497,11 +497,14 @@
        }
       }
      ],
-     "text": "k k   Hence, given that N–1 =   − 4 1 (b) determine (MN)–1, giving your answer in simplest form in terms of k. (2)",
+     "text": "(2) k k   Hence, given that N–1 =   − 4 1 (b) determine (MN)–1, giving your answer in simplest form in terms of k. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "machine"
+   "check": "pending",
+   "risks": [
+    "3(a): text after the marks"
+   ]
   },
   {
    "id": "WFM01_2022_06_q4",
@@ -1034,11 +1037,11 @@
     {
      "src": "maths/WFM01_2022_06/q7_stem.webp",
      "w": 1090,
-     "h": 117,
+     "h": 151,
      "region": {
       "page": 24,
       "x0": 36,
-      "y0": 81.5,
+      "y0": 64.8,
       "x1": 559,
       "y1": 137.1
      }
@@ -1282,10 +1285,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM01_2022_06_q8",

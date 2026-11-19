@@ -1041,13 +1041,13 @@
       {
        "src": "maths/WMA11_2026_06_A/q8_b.webp",
        "w": 1090,
-       "h": 57,
+       "h": 103,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 560.5,
         "x1": 559,
-        "y1": 587.5
+        "y1": 609.2
        }
       }
      ],
@@ -1065,7 +1065,7 @@
        }
       }
      ],
-     "text": "(b) Find an expression for f ( ) x in terms of x. Give the answer in a fully factorised form.",
+     "text": "(b) Find an expression for f ( ) x in terms of x. Give the answer in a fully factorised form. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1082,11 +1082,11 @@
       {
        "src": "maths/WMA11_2026_06_A/q8_c.webp",
        "w": 1090,
-       "h": 175,
+       "h": 129,
        "region": {
         "page": 7,
         "x0": 36,
-        "y0": 587.5,
+        "y0": 609.7,
         "x1": 559,
         "y1": 671.2
        }
@@ -1106,7 +1106,7 @@
        }
       }
      ],
-     "text": "(3) . / The curve C2 has equation y x x O 3 3 5 (c) Find the exact x coordinates of all points of intersection of C1 and C2 (4)",
+     "text": ". / The curve C2 has equation y x x O 3 3 5 (c) Find the exact x coordinates of all points of intersection of C1 and C2 (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -1136,10 +1136,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(b): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA11_2026_06_A_q9",

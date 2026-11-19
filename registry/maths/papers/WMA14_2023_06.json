@@ -621,13 +621,13 @@
       {
        "src": "maths/WMA14_2023_06/q4_c.webp",
        "w": 1090,
-       "h": 61,
+       "h": 114,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 247.1,
         "x1": 559,
-        "y1": 275.8
+        "y1": 301.3
        }
       }
      ],
@@ -645,7 +645,7 @@
        }
       }
      ],
-     "text": "The point P′ is the reflection of P in the line l.",
+     "text": "The point P′ is the reflection of P in the line l. (c) Find the coordinates of P′ (2)",
      "kindGuessed": "calc"
     },
     {
@@ -661,11 +661,11 @@
       {
        "src": "maths/WMA14_2023_06/q4_d.webp",
        "w": 1090,
-       "h": 144,
+       "h": 91,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 275.8,
+        "y0": 301.3,
         "x1": 559,
         "y1": 344.5
        }
@@ -685,7 +685,7 @@
        }
       }
      ],
-     "text": "(c) Find the coordinates of P′ (2) →| , giving your answer as a simplified surd. (d) Hence find |PP′ (2)",
+     "text": "→| , giving your answer as a simplified surd. (d) Hence find |PP′ (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -715,11 +715,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(c): text after the marks",
-    "4(c): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2023_06_q5",

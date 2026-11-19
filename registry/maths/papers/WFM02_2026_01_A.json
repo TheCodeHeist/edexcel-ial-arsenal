@@ -434,13 +434,13 @@
       {
        "src": "maths/WFM02_2026_01_A/q5_a.webp",
        "w": 1090,
-       "h": 145,
+       "h": 168,
        "region": {
         "page": 3,
         "x0": 36,
         "y0": 313.4,
         "x1": 559,
-        "y1": 382.3
+        "y1": 393.6
        }
       }
      ],
@@ -494,7 +494,7 @@
        }
       }
      ],
-     "text": "(a) show that \u001b \u0018 2 3 y 2 y y y y d 1 d d d d \u001b \u0018 \u001b \u0018 O x 3 \u0017\u0016 3 \u0017\u0016 1 \u001a\u0019 2 1 5 5 3 \u0017\u0016 \u001a\u0019 \u001a\u0019 . / x 3 x 2 x x x d x 2 d d d d 2 3",
+     "text": "(a) show that \u001b \u0018 2 3 y 2 y y y y d 1 d d d d \u001b \u0018 \u001b \u0018 O x 3 \u0017\u0016 3 \u0017\u0016 1 \u001a\u0019 2 1 5 5 3 \u0017\u0016 \u001a\u0019 \u001a\u0019 . / x 3 x 2 x x x d x 2 d d d d 2 3 (5)",
      "kindGuessed": "calc"
     },
     {
@@ -510,11 +510,11 @@
       {
        "src": "maths/WFM02_2026_01_A/q5_b.webp",
        "w": 1090,
-       "h": 211,
+       "h": 188,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 382.3,
+        "y0": 393.6,
         "x1": 559,
         "y1": 483.2
        }
@@ -534,7 +534,7 @@
        }
       }
      ],
-     "text": "(5) Given also that y = 3 and d y x = 1 4 at x = 0 d (b) obtain a series solution for y in ascending powers of x with simplified coefficients, 3 up to and including the term in x (4)",
+     "text": "Given also that y = 3 and d y x = 1 4 at x = 0 d (b) obtain a series solution for y in ascending powers of x with simplified coefficients, 3 up to and including the term in x (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -552,10 +552,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2026_01_A_q6",
@@ -836,7 +833,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_A_q8",
@@ -846,13 +843,13 @@
     {
      "src": "maths/WFM02_2026_01_A/q8_stem.webp",
      "w": 1090,
-     "h": 645,
+     "h": 684,
      "region": {
       "page": 5,
       "x0": 36,
       "y0": 45.7,
       "x1": 559,
-      "y1": 355.0
+      "y1": 373.8
      }
     }
    ],
@@ -869,11 +866,11 @@
       {
        "src": "maths/WFM02_2026_01_A/q8_a.webp",
        "w": 1090,
-       "h": 144,
+       "h": 104,
        "region": {
         "page": 5,
         "x0": 36,
-        "y0": 355.0,
+        "y0": 374.0,
         "x1": 559,
         "y1": 423.4
        }
@@ -893,7 +890,7 @@
        }
       }
      ],
-     "text": "circle C2 with polar equation r = a , 0  θ  2π , where a is a positive constant. (a) Find, in terms of a, the polar coordinates of the points where the curve C1 meets the circle C2 (3)",
+     "text": "(a) Find, in terms of a, the polar coordinates of the points where the curve C1 meets the circle C2 (3)",
      "kindGuessed": "calc"
     },
     {

@@ -1190,13 +1190,13 @@
       {
        "src": "maths/WMA13_2021_10/q8_b.webp",
        "w": 1016,
-       "h": 169,
+       "h": 222,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 166.2,
         "x1": 523.2,
-        "y1": 247.0
+        "y1": 272.3
        }
       }
      ],
@@ -1214,7 +1214,7 @@
        }
       }
      ],
-     "text": "(b) Given x = 2 sin y, show that y d 1 = x A - x d 2",
+     "text": "(b) Given x = 2 sin y, show that y d 1 = x A - x d 2 where A is a constant to be found. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1230,11 +1230,11 @@
       {
        "src": "maths/WMA13_2021_10/q8_c.webp",
        "w": 1016,
-       "h": 235,
+       "h": 182,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 247.0,
+        "y0": 272.3,
         "x1": 523.2,
         "y1": 359.3
        }
@@ -1254,7 +1254,7 @@
        }
       }
      ],
-     "text": "where A is a constant to be found. (3) π The point P lies on C and has y coordinate 4 (c) Find the equation of the tangent to C at P. Write your answer in the form y = mx + c, where m and c are constants to be found. (3)",
+     "text": "π The point P lies on C and has y coordinate 4 (c) Find the equation of the tangent to C at P. Write your answer in the form y = mx + c, where m and c are constants to be found. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -1296,10 +1296,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(b): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q9",

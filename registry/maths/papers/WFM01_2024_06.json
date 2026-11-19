@@ -685,13 +685,13 @@
       {
        "src": "maths/WFM01_2024_06/q4_b.webp",
        "w": 1090,
-       "h": 87,
+       "h": 107,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 200.1,
         "x1": 559,
-        "y1": 241.2
+        "y1": 250.7
        }
       }
      ],
@@ -721,7 +721,7 @@
        }
       }
      ],
-     "text": "(b) Express 50 z* in the form kz, where k is a positive integer.",
+     "text": "(b) Express 50 z* in the form kz, where k is a positive integer. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -736,11 +736,11 @@
       {
        "src": "maths/WFM01_2024_06/q4_c.webp",
        "w": 1090,
-       "h": 168,
+       "h": 148,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 241.2,
+        "y0": 250.7,
         "x1": 559,
         "y1": 321.4
        }
@@ -772,13 +772,14 @@
        }
       }
      ],
-     "text": "(3) 50 (c) Hence find the value of arg \u001b\u001a z * Give your answer in radians to 3 significant figures. (2)",
+     "text": "50 (c) Hence find the value of arg \u001b\u001a z * Give your answer in radians to 3 significant figures. (2)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "4(b): text after the marks"
+    "4(b): text cut by a crop edge",
+    "4(c): text cut by a crop edge"
    ]
   },
   {

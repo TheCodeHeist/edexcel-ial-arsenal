@@ -747,7 +747,7 @@
     {
      "label": "6(ii)",
      "marks": 1,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "P1.3.3"
      ],
@@ -1071,13 +1071,13 @@
       {
        "src": "maths/WMA12_2025_06_A/q8_a.webp",
        "w": 1090,
-       "h": 41,
+       "h": 74,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 176.0,
         "x1": 559,
-        "y1": 195.1
+        "y1": 211.1
        }
       }
      ],
@@ -1095,13 +1095,13 @@
        }
       }
      ],
-     "text": "(a) deduce the range of values of x for which y is decreasing.",
+     "text": "(a) deduce the range of values of x for which y is decreasing. (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "8(b)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P2.2.1"
      ],
@@ -1110,11 +1110,11 @@
       {
        "src": "maths/WMA12_2025_06_A/q8_b.webp",
        "w": 1090,
-       "h": 216,
+       "h": 183,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 195.1,
+        "y0": 211.1,
         "x1": 559,
         "y1": 298.6
        }
@@ -1134,7 +1134,7 @@
        }
       }
      ],
-     "text": "(2) Given further that C cuts the x‑axis at 7 2 (b) state a factor of f (x), giving the answer in the form (Ax + B) where A and B are integers. (1)",
+     "text": "Given further that C cuts the x‑axis at 7 2 (b) state a factor of f (x), giving the answer in the form (Ax + B) where A and B are integers. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -1204,10 +1204,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2025_06_A_q9",

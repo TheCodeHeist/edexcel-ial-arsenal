@@ -404,7 +404,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2024_06_q4",
@@ -518,7 +518,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2024_06_q5",
@@ -581,7 +581,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2024_06_q6",
@@ -961,7 +961,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2024_06_q9",
@@ -1088,7 +1088,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2024_06_q10",
@@ -1098,13 +1098,13 @@
     {
      "src": "maths/WFM02_2024_06/q10_stem.webp",
      "w": 1090,
-     "h": 892,
+     "h": 912,
      "region": {
       "page": 32,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 484.6
+      "y1": 494.2
      }
     }
    ],
@@ -1121,11 +1121,11 @@
       {
        "src": "maths/WFM02_2024_06/q10_a.webp",
        "w": 1090,
-       "h": 95,
+       "h": 75,
        "region": {
         "page": 32,
         "x0": 36,
-        "y0": 484.6,
+        "y0": 494.2,
         "x1": 559,
         "y1": 529.6
        }
@@ -1145,7 +1145,7 @@
        }
       }
      ],
-     "text": "2 (a) determine the exact value of k. (2)",
+     "text": "(a) determine the exact value of k. (2)",
      "kindGuessed": "calc"
     },
     {

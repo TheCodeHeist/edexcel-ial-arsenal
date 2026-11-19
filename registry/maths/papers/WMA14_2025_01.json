@@ -95,13 +95,13 @@
     {
      "src": "maths/WMA14_2025_01/q2_stem.webp",
      "w": 1090,
-     "h": 70,
+     "h": 110,
      "region": {
       "page": 4,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 90.0
+      "y1": 109.3
      }
     }
    ],
@@ -119,11 +119,11 @@
       {
        "src": "maths/WMA14_2025_01/q2_a.webp",
        "w": 1090,
-       "h": 133,
+       "h": 93,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 90.0,
+        "y0": 109.3,
         "x1": 559,
         "y1": 153.2
        }
@@ -143,7 +143,7 @@
        }
       }
      ],
-     "text": "( ) 2 2 x 3 x 1 5 y 1 4 x y O 10 2 1 35 y > 0 (a) Find an expression for d y x in terms of x and y d (6)",
+     "text": "(a) Find an expression for d y x in terms of x and y d (6)",
      "kindGuessed": "calc"
     },
     {
@@ -187,7 +187,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_01_q3",
@@ -813,13 +813,13 @@
       {
        "src": "maths/WMA14_2025_01/q8_a.webp",
        "w": 1090,
-       "h": 12,
+       "h": 64,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 277.9,
         "x1": 559,
-        "y1": 283.0
+        "y1": 308.1
        }
       }
      ],
@@ -849,7 +849,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) find the value of the constant a and the value of the constant b. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -865,11 +865,11 @@
       {
        "src": "maths/WMA14_2025_01/q8_b.webp",
        "w": 1090,
-       "h": 143,
+       "h": 91,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 283.0,
+        "y0": 308.1,
         "x1": 559,
         "y1": 351.3
        }
@@ -913,7 +913,7 @@
        }
       }
      ],
-     "text": "(a) find the value of the constant a and the value of the constant b. (2) → (b) Hence find vector AB (2)",
+     "text": "→ (b) Hence find vector AB (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1058,11 +1058,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks",
-    "8(a): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_01_q9",

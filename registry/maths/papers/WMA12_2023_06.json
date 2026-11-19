@@ -1123,13 +1123,13 @@
       {
        "src": "maths/WMA12_2023_06/q10_a.webp",
        "w": 1090,
-       "h": 171,
+       "h": 231,
        "region": {
         "page": 26,
         "x0": 36,
         "y0": 145.7,
         "x1": 559,
-        "y1": 227.5
+        "y1": 256.0
        }
       }
      ],
@@ -1147,13 +1147,13 @@
        }
       }
      ],
-     "text": "(a) Show that 16 2 x 3 k 2 + bk + 2046 ( ) dx = ak 5 x 1",
+     "text": "(a) Show that 16 2 x 3 k 2 + bk + 2046 ( ) dx = ak 5 x 1 where a and b are integers to be found. (5)",
      "kindGuessed": "calc"
     },
     {
      "label": "10(b)",
      "marks": 2,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "P1.1.11",
       "P1.2.1"
@@ -1163,11 +1163,11 @@
       {
        "src": "maths/WMA12_2023_06/q10_b.webp",
        "w": 1090,
-       "h": 729,
+       "h": 670,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 227.5,
+        "y0": 256.0,
         "x1": 559,
         "y1": 577.3
        }
@@ -1187,7 +1187,7 @@
        }
       }
      ],
-     "text": "where a and b are integers to be found. (5) y C l B A R O x Figure 1 Figure 1 shows a sketch of the curve C and the line l. Given that l intersects C at the point A(1, 9) and at the point B(16, q) where q is a constant, (b) show that k = 4 (2)",
+     "text": "y C l B A R O x Figure 1 Figure 1 shows a sketch of the curve C and the line l. Given that l intersects C at the point A(1, 9) and at the point B(16, q) where q is a constant, (b) show that k = 4 (2)",
      "kindGuessed": "draw"
     },
     {
@@ -1257,10 +1257,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "10(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA12_2023_06_q11",

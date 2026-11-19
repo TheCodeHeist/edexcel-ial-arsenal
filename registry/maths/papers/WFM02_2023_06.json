@@ -239,7 +239,7 @@
     {
      "label": "2(b)",
      "marks": 4,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [
       "FP2.3.3"
      ],
@@ -501,13 +501,13 @@
       {
        "src": "maths/WFM02_2023_06/q4_a.webp",
        "w": 1090,
-       "h": 146,
+       "h": 170,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 56.8,
         "x1": 559,
-        "y1": 126.7
+        "y1": 138.0
        }
       }
      ],
@@ -537,7 +537,7 @@
        }
       }
      ],
-     "text": "4. (a) Determine the general solution of the differential equation 2 y y d d 2 3 8 1 16 y O 48 x 3 34 2 d x d x",
+     "text": "4. (a) Determine the general solution of the differential equation 2 y y d d 2 3 8 1 16 y O 48 x 3 34 2 d x d x (5)",
      "kindGuessed": "calc"
     },
     {
@@ -552,11 +552,11 @@
       {
        "src": "maths/WFM02_2023_06/q4_b.webp",
        "w": 1090,
-       "h": 175,
+       "h": 152,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 126.7,
+        "y0": 138.0,
         "x1": 559,
         "y1": 210.6
        }
@@ -588,7 +588,7 @@
        }
       }
      ],
-     "text": "(5) Given that y = 4 and d y x = 21 at x = 0 d (b) determine the particular solution of the differential equation. (4)",
+     "text": "Given that y = 4 and d y x = 21 at x = 0 d (b) determine the particular solution of the differential equation. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -657,10 +657,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2023_06_q5",

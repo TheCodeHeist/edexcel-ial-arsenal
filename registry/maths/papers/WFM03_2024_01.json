@@ -387,13 +387,13 @@
       {
        "src": "maths/WFM03_2024_01/q3_c.webp",
        "w": 1090,
-       "h": 66,
+       "h": 125,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 474.7,
         "x1": 559,
-        "y1": 506.2
+        "y1": 534.4
        }
       }
      ],
@@ -411,7 +411,7 @@
        }
       }
      ],
-     "text": "(c) Hence show that",
+     "text": "(c) Hence show that 2 = 49(1 – e 2) b (2)",
      "kindGuessed": "calc"
     },
     {
@@ -426,11 +426,11 @@
       {
        "src": "maths/WFM03_2024_01/q3_d.webp",
        "w": 1090,
-       "h": 198,
+       "h": 139,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 506.2,
+        "y0": 534.4,
         "x1": 559,
         "y1": 600.7
        }
@@ -450,7 +450,7 @@
        }
       }
      ],
-     "text": "2 = 49(1 – e 2) b (2) . / Given that E crosses the y-axis at the points with coordinates 0 , 4 3 (d) determine the value of e (2)",
+     "text": ". / Given that E crosses the y-axis at the points with coordinates 0 , 4 3 (d) determine the value of e (2)",
      "kindGuessed": "calc"
     },
     {
@@ -494,10 +494,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(c): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM03_2024_01_q4",
@@ -569,13 +566,13 @@
       {
        "src": "maths/WFM03_2024_01/q4_b.webp",
        "w": 1090,
-       "h": 62,
+       "h": 114,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 239.5,
         "x1": 559,
-        "y1": 268.6
+        "y1": 293.7
        }
       }
      ],
@@ -593,7 +590,7 @@
        }
       }
      ],
-     "text": "Given that –3 is an eigenvalue of M",
+     "text": "Given that –3 is an eigenvalue of M (b) determine a corresponding eigenvector. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -609,11 +606,11 @@
       {
        "src": "maths/WFM03_2024_01/q4_c.webp",
        "w": 1090,
-       "h": 256,
+       "h": 204,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 268.6,
+        "y0": 293.7,
         "x1": 559,
         "y1": 391.0
        }
@@ -633,7 +630,7 @@
        }
       }
      ],
-     "text": "(b) determine a corresponding eigenvector. (2) 1 \u001a is also an eigenvector of M Hence, given that 1 \u001a\u001a 1 \u001b (c) determine a diagonal matrix D and an orthogonal matrix P such that D = P TMP (4)",
+     "text": "1 \u001a is also an eigenvector of M Hence, given that 1 \u001a\u001a 1 \u001b (c) determine a diagonal matrix D and an orthogonal matrix P such that D = P TMP (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -651,11 +648,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(b): text after the marks",
-    "4(b): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM03_2024_01_q5",
@@ -817,13 +810,13 @@
     {
      "src": "maths/WFM03_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 61,
+     "h": 101,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 85.7
+      "y1": 104.8
      }
     }
    ],
@@ -841,11 +834,11 @@
       {
        "src": "maths/WFM03_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 74,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 85.7,
+        "y0": 105.2,
         "x1": 559,
         "y1": 140.6
        }
@@ -889,7 +882,7 @@
        }
       }
      ],
-     "text": "The plane Π1 contains the points A, B and C (a) Determine a Cartesian equation of Π1 (4)",
+     "text": "(a) Determine a Cartesian equation of Π1 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -984,7 +977,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2024_01_q7",

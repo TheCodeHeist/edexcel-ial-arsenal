@@ -466,13 +466,13 @@
     {
      "src": "maths/WMA11_2024_01/q5_stem.webp",
      "w": 1090,
-     "h": 781,
+     "h": 820,
      "region": {
       "page": 10,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 431.3
+      "y1": 450.0
      }
     }
    ],
@@ -489,11 +489,11 @@
       {
        "src": "maths/WMA11_2024_01/q5_a.webp",
        "w": 1090,
-       "h": 144,
+       "h": 104,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 431.3,
+        "y0": 450.4,
         "x1": 559,
         "y1": 499.8
        }
@@ -513,7 +513,7 @@
        }
       }
      ],
-     "text": "The straight line l1 , shown in Figure 1, passes through the points P(–2, 9) and Q(10, 6). (a) Find the equation of l1 , giving your answer in the form y = mx + c , where m and c are constants to be found. (3)",
+     "text": "(a) Find the equation of l1 , giving your answer in the form y = mx + c , where m and c are constants to be found. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -635,7 +635,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_01_q6",
@@ -645,13 +645,13 @@
     {
      "src": "maths/WMA11_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 872,
+     "h": 912,
      "region": {
       "page": 14,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 475.2
+      "y1": 494.1
      }
     }
    ],
@@ -659,7 +659,7 @@
     {
      "label": "6(a)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.3.3"
      ],
@@ -668,11 +668,11 @@
       {
        "src": "maths/WMA11_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 114,
+       "h": 74,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 475.2,
+        "y0": 494.4,
         "x1": 559,
         "y1": 529.9
        }
@@ -692,8 +692,8 @@
        }
       }
      ],
-     "text": "The point P, shown in Figure 2, is a minimum point on C1 (a) State the coordinates of P (2)",
-     "kindGuessed": "calc"
+     "text": "(a) State the coordinates of P (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "6(b)",
@@ -1064,13 +1064,13 @@
     {
      "src": "maths/WMA11_2024_01/q9_stem.webp",
      "w": 1090,
-     "h": 211,
+     "h": 250,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 157.7
+      "y1": 176.5
      }
     }
    ],
@@ -1088,11 +1088,11 @@
       {
        "src": "maths/WMA11_2024_01/q9_a.webp",
        "w": 1090,
-       "h": 144,
+       "h": 104,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 157.7,
+        "y0": 176.9,
         "x1": 559,
         "y1": 226.3
        }
@@ -1112,7 +1112,7 @@
        }
       }
      ],
-     "text": "• C1 passes through the origin (a) sketch a graph of C1 showing the coordinates of any points where C1 cuts the coordinate axes, (2)",
+     "text": "(a) sketch a graph of C1 showing the coordinates of any points where C1 cuts the coordinate axes, (2)",
      "kindGuessed": "draw"
     },
     {

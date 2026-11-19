@@ -538,13 +538,13 @@
     {
      "src": "maths/WMA14_2023_01/q5_stem.webp",
      "w": 1090,
-     "h": 742,
+     "h": 776,
      "region": {
       "page": 14,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 412.6
+      "y1": 429.1
      }
     }
    ],
@@ -561,11 +561,11 @@
       {
        "src": "maths/WMA14_2023_01/q5_a.webp",
        "w": 1090,
-       "h": 127,
+       "h": 93,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 412.6,
+        "y0": 429.1,
         "x1": 559,
         "y1": 472.9
        }
@@ -597,7 +597,7 @@
        }
       }
      ],
-     "text": "y2 = 2x2 + 15x + 10y (a) Find d y x in terms of x and y. d (4)",
+     "text": "(a) Find d y x in terms of x and y. d (4)",
      "kindGuessed": "calc"
     },
     {
@@ -679,7 +679,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2023_01_q6",
@@ -1199,7 +1199,7 @@
     {
      "label": "9(a)",
      "marks": 3,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "P4.1.1"
      ],

@@ -863,13 +863,13 @@
     {
      "src": "maths/WMA11_2021_06/q7_stem.webp",
      "w": 1016,
-     "h": 624,
+     "h": 664,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 57.5,
       "x1": 523.2,
-      "y1": 356.4
+      "y1": 375.5
      }
     }
    ],
@@ -877,7 +877,7 @@
     {
      "label": "7(a)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.2.1"
      ],
@@ -886,11 +886,11 @@
       {
        "src": "maths/WMA11_2021_06/q7_a.webp",
        "w": 1016,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 356.4,
+        "y0": 375.8,
         "x1": 523.2,
         "y1": 411.3
        }
@@ -910,8 +910,8 @@
        }
       }
      ],
-     "text": "The line l1 cuts the y-axis at the point C, as shown in Figure 3. (a) State the y coordinate of C. (1)",
-     "kindGuessed": "calc"
+     "text": "(a) State the y coordinate of C. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "7(b)",
@@ -1059,7 +1059,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2021_06_q8",

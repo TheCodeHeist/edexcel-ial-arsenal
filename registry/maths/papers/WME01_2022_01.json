@@ -627,13 +627,13 @@
       {
        "src": "maths/WME01_2022_01/q6_b.webp",
        "w": 1016,
-       "h": 41,
+       "h": 76,
        "region": {
         "page": 18,
         "x0": 36,
         "y0": 180.9,
         "x1": 523.2,
-        "y1": 200.2
+        "y1": 216.5
        }
       }
      ],
@@ -651,7 +651,7 @@
        }
       }
      ],
-     "text": "(b) Find the size of the angle between the direction of the acceleration and the vector j.",
+     "text": "(b) Find the size of the angle between the direction of the acceleration and the vector j. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -664,11 +664,11 @@
       {
        "src": "maths/WME01_2022_01/q6_c.webp",
        "w": 1016,
-       "h": 214,
+       "h": 180,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 200.2,
+        "y0": 216.6,
         "x1": 523.2,
         "y1": 302.5
        }
@@ -688,7 +688,7 @@
        }
       }
      ],
-     "text": "(2) At time t = 0, the velocity of P is (3i − 4j) m s−1 At t = T seconds, P is moving in the direction of the vector (11i − 13j). (c) Find the value of T. (5)",
+     "text": "At time t = 0, the velocity of P is (3i − 4j) m s−1 At t = T seconds, P is moving in the direction of the vector (11i − 13j). (c) Find the value of T. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -706,10 +706,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(b): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME01_2022_01_q7",
@@ -914,13 +911,13 @@
       {
        "src": "maths/WME01_2022_01/q8_a.webp",
        "w": 1016,
-       "h": 40,
+       "h": 75,
        "region": {
         "page": 26,
         "x0": 36,
         "y0": 166.9,
         "x1": 523.2,
-        "y1": 185.8
+        "y1": 202.5
        }
       }
      ],
@@ -938,7 +935,7 @@
        }
       }
      ],
-     "text": "(a) Find r in terms of t.",
+     "text": "(a) Find r in terms of t. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -951,11 +948,11 @@
       {
        "src": "maths/WME01_2022_01/q8_b.webp",
        "w": 1016,
-       "h": 288,
+       "h": 253,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 185.8,
+        "y0": 202.6,
         "x1": 523.2,
         "y1": 323.9
        }
@@ -975,7 +972,7 @@
        }
       }
      ],
-     "text": "(2) Another ship B moves with constant velocity (15i + 14j) km h−1 At time t = 0, B is at the point with position vector (3i – 5j) km. (b) Show that, at time t hours, → = [ (12t − 10)i + (24t − 10)j ] km AB (4)",
+     "text": "Another ship B moves with constant velocity (15i + 14j) km h−1 At time t = 0, B is at the point with position vector (3i – 5j) km. (b) Show that, at time t hours, → = [ (12t − 10)i + (24t − 10)j ] km AB (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1079,10 +1076,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

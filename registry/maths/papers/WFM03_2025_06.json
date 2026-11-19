@@ -960,13 +960,13 @@
     {
      "src": "maths/WFM03_2025_06/q8_stem.webp",
      "w": 1090,
-     "h": 211,
+     "h": 245,
      "region": {
       "page": 24,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 157.7
+      "y1": 174.0
      }
     }
    ],
@@ -983,11 +983,11 @@
       {
        "src": "maths/WFM03_2025_06/q8_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 80,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 157.7,
+        "y0": 174.3,
         "x1": 559,
         "y1": 212.2
        }
@@ -1007,7 +1007,7 @@
        }
       }
      ],
-     "text": "where λ and μ are scalar parameters. . / \u001b 3 . / (a) Determine 7 i 1 5 j 3 6 k 3 i 1 j 1 2 k (1)",
+     "text": ". / \u001b 3 . / (a) Determine 7 i 1 5 j 3 6 k 3 i 1 j 1 2 k (1)",
      "kindGuessed": "calc"
     },
     {
@@ -1190,13 +1190,13 @@
       {
        "src": "maths/WFM03_2025_06/q9_a.webp",
        "w": 1090,
-       "h": 52,
+       "h": 79,
        "region": {
         "page": 28,
         "x0": 36,
         "y0": 111.8,
         "x1": 559,
-        "y1": 136.1
+        "y1": 148.9
        }
       }
      ],
@@ -1214,7 +1214,7 @@
        }
       }
      ],
-     "text": "113 (a) Show that e = 8",
+     "text": "113 (a) Show that e = 8 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1229,11 +1229,11 @@
       {
        "src": "maths/WFM03_2025_06/q9_b.webp",
        "w": 1090,
-       "h": 266,
+       "h": 239,
        "region": {
         "page": 28,
         "x0": 36,
-        "y0": 136.1,
+        "y0": 148.9,
         "x1": 559,
         "y1": 263.1
        }
@@ -1253,7 +1253,7 @@
        }
       }
      ],
-     "text": "(2) π The point (8 sec θ, 7 tan θ), where 0 , lies on H. θ < < 2 (b) Use calculus to show that the tangent to H at P has equation x y θ 3 θ O sec tan 1 8 7 (3)",
+     "text": "π The point (8 sec θ, 7 tan θ), where 0 , lies on H. θ < < 2 (b) Use calculus to show that the tangent to H at P has equation x y θ 3 θ O sec tan 1 8 7 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1428,8 +1428,7 @@
    ],
    "check": "pending",
    "risks": [
-    "9(a): text cut by a crop edge",
-    "9(a): text after the marks"
+    "9(a): text cut by a crop edge"
    ]
   }
  ]

@@ -836,13 +836,13 @@
       {
        "src": "maths/WFM02_2023_01/q7_a.webp",
        "w": 1090,
-       "h": 146,
+       "h": 198,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 114.0,
         "x1": 559,
-        "y1": 183.6
+        "y1": 208.5
        }
       }
      ],
@@ -860,7 +860,7 @@
        }
       }
      ],
-     "text": "(a) Use de Moivre’s theorem to show that ( ) 4 2 cos 5 x ≡ cos x a sin x + b sin x + c",
+     "text": "(a) Use de Moivre’s theorem to show that ( ) 4 2 cos 5 x ≡ cos x a sin x + b sin x + c where a, b and c are integers to be determined. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -875,11 +875,11 @@
       {
        "src": "maths/WFM02_2023_01/q7_b.webp",
        "w": 1090,
-       "h": 265,
+       "h": 213,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 183.6,
+        "y0": 208.5,
         "x1": 559,
         "y1": 310.1
        }
@@ -899,7 +899,7 @@
        }
       }
      ],
-     "text": "where a, b and c are integers to be determined. (4) π (b) Hence solve, for 0 < θ < 2 cos 5θ = sin 2θ sin θ – cos θ giving your answers to 3 decimal places. (4)",
+     "text": "π (b) Hence solve, for 0 < θ < 2 cos 5θ = sin 2θ sin θ – cos θ giving your answers to 3 decimal places. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -917,10 +917,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM02_2023_01_q8",
@@ -1066,13 +1063,13 @@
       {
        "src": "maths/WFM02_2023_01/q9_a.webp",
        "w": 1090,
-       "h": 204,
+       "h": 152,
        "region": {
         "page": 32,
         "x0": 36,
-        "y0": 48.2,
+        "y0": 51.3,
         "x1": 559,
-        "y1": 145.6
+        "y1": 123.8
        }
       }
      ],
@@ -1102,7 +1099,7 @@
        }
       }
      ],
-     "text": "1 2 , determine, in terms of y and t, 9. (a) Given that x = t (i) d y d x 2 y (ii) d 2",
+     "text": "2 , determine, in terms of y and t, 9. (a) Given that x = t (i) d y d x",
      "kindGuessed": "calc"
     },
     {
@@ -1117,11 +1114,11 @@
       {
        "src": "maths/WFM02_2023_01/q9_b.webp",
        "w": 1090,
-       "h": 413,
+       "h": 458,
        "region": {
         "page": 32,
         "x0": 36,
-        "y0": 145.6,
+        "y0": 123.8,
         "x1": 559,
         "y1": 343.6
        }
@@ -1153,7 +1150,7 @@
        }
       }
      ],
-     "text": "x d (5) 1 2 , where t > 0, transforms the (b) Hence show that the transformation x = t differential equation 2 d y ( ) d y ( ) 2 3 5 x − 6 x + 1 + 9 x y = x I 2 x d x d into the differential equation 2 d y d y ( ) − + y = t 4 12 9 II 2 t d t d (2)",
+     "text": "2 y (ii) d x 2 d (5) 1 2 , where t > 0, transforms the (b) Hence show that the transformation x = t differential equation 2 d y ( ) d y ( ) 2 3 5 x − 6 x + 1 + 9 x y = x I 2 x d x d into the differential equation 2 d y d y ( ) − + y = t 4 12 9 II 2 t d t d (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1237,8 +1234,6 @@
    ],
    "check": "pending",
    "risks": [
-    "9(a): text cut by a crop edge",
-    "9(b): text cut by a crop edge",
     "9(a): text after the marks"
    ]
   }

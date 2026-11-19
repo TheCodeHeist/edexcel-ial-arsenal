@@ -308,13 +308,13 @@
       {
        "src": "maths/WFM01_2021_01/q3_a.webp",
        "w": 1016,
-       "h": 12,
+       "h": 71,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 130.9,
         "x1": 523.2,
-        "y1": 136.1
+        "y1": 164.5
        }
       }
      ],
@@ -332,7 +332,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) Determine the values of k for which M is singular. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -347,11 +347,11 @@
       {
        "src": "maths/WFM01_2021_01/q3_b.webp",
        "w": 1016,
-       "h": 193,
+       "h": 134,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 136.1,
+        "y0": 164.5,
         "x1": 523.2,
         "y1": 228.1
        }
@@ -371,7 +371,7 @@
        }
       }
      ],
-     "text": "(a) Determine the values of k for which M is singular. (2) Given that M is non-singular, (b) find M–1 in terms of k. (2)",
+     "text": "Given that M is non-singular, (b) find M–1 in terms of k. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -389,11 +389,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(a): text after the marks",
-    "3(a): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM01_2021_01_q4",

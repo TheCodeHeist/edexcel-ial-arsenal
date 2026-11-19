@@ -32,13 +32,13 @@
     {
      "src": "maths/WST01_2022_10/q1_stem.webp",
      "w": 1090,
-     "h": 590,
+     "h": 633,
      "region": {
       "page": 2,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 339.8
+      "y1": 360.1
      }
     }
    ],
@@ -53,11 +53,11 @@
       {
        "src": "maths/WST01_2022_10/q1_a.webp",
        "w": 1090,
-       "h": 118,
+       "h": 76,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 339.8,
+        "y0": 360.1,
         "x1": 559,
         "y1": 396.4
        }
@@ -77,7 +77,7 @@
        }
       }
      ],
-     "text": "The area of the bar representing the 40  x < 42 class is 16.5 cm 2 (a) Calculate the exact area of the bar representing the 42  x < 45 class. (2)",
+     "text": "(a) Calculate the exact area of the bar representing the 42  x < 45 class. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -908,18 +908,18 @@
       {
        "src": "maths/WST01_2022_10/q6_a.webp",
        "w": 1090,
-       "h": 191,
+       "h": 223,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 243.8,
         "x1": 559,
-        "y1": 334.8
+        "y1": 350.1
        }
       }
      ],
      "ms": [],
-     "text": "(a) Write down the value of (i) P(A) (ii) P(A½B) (iii) P(A½C)",
+     "text": "(a) Write down the value of (i) P(A) (ii) P(A½B) (iii) P(A½C) (3)",
      "kindGuessed": "short"
     },
     {
@@ -932,18 +932,18 @@
       {
        "src": "maths/WST01_2022_10/q6_b.webp",
        "w": 1090,
-       "h": 121,
+       "h": 151,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 334.8,
+        "y0": 350.1,
         "x1": 559,
-        "y1": 392.4
+        "y1": 421.9
        }
       }
      ],
      "ms": [],
-     "text": "(3) Given that P(B¢ ∩ D¢) = 7 10 and P(C½D) = 3 5",
+     "text": "Given that P(B¢ ∩ D¢) = 7 10 and P(C½D) = 3 5 (b) find the exact value of q and the exact value of r (6)",
      "kindGuessed": "calc"
     },
     {
@@ -956,26 +956,23 @@
       {
        "src": "maths/WST01_2022_10/q6_c.webp",
        "w": 1090,
-       "h": 210,
+       "h": 148,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 392.4,
+        "y0": 421.9,
         "x1": 559,
         "y1": 492.7
        }
       }
      ],
      "ms": [],
-     "text": "(b) find the exact value of q and the exact value of r (6) Given also that P(B ∪ C¢) = 5 8 (c) find the exact value of s (2)",
+     "text": "Given also that P(B ∪ C¢) = 5 8 (c) find the exact value of s (2)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "6(a): text after the marks",
-    "6(b): text after the marks",
-    "6(b): text doesn't start at its label",
     "Q6: no mark-scheme rows"
    ]
   },

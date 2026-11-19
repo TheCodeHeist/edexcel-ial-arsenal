@@ -197,13 +197,13 @@
     {
      "src": "maths/WMA14_2022_10/q3_stem.webp",
      "w": 1090,
-     "h": 707,
+     "h": 750,
      "region": {
       "page": 6,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 396.0
+      "y1": 416.2
      }
     }
    ],
@@ -220,11 +220,11 @@
       {
        "src": "maths/WMA14_2022_10/q3_a.webp",
        "w": 1090,
-       "h": 133,
+       "h": 91,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 396.0,
+        "y0": 416.2,
         "x1": 559,
         "y1": 459.4
        }
@@ -244,7 +244,7 @@
        }
       }
      ],
-     "text": "→ = 8i – 5j + 3k • PR → (a) Find RQ (2)",
+     "text": "→ (a) Find RQ (2)",
      "kindGuessed": "calc"
     },
     {
@@ -301,7 +301,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_10_q4",
@@ -563,13 +563,13 @@
       {
        "src": "maths/WMA14_2022_10/q6_a.webp",
        "w": 1090,
-       "h": 40,
+       "h": 101,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 424.6,
         "x1": 559,
-        "y1": 443.5
+        "y1": 472.8
        }
       }
      ],
@@ -587,7 +587,7 @@
        }
       }
      ],
-     "text": "(a) Find the equation of the tangent to C at P, writing your answer in the form",
+     "text": "(a) Find the equation of the tangent to C at P, writing your answer in the form y = mx + c , where m and c are constants to be found. (5)",
      "kindGuessed": "calc"
     },
     {
@@ -603,11 +603,11 @@
       {
        "src": "maths/WMA14_2022_10/q6_b.webp",
        "w": 1090,
-       "h": 198,
+       "h": 138,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 443.5,
+        "y0": 472.8,
         "x1": 559,
         "y1": 538.4
        }
@@ -627,7 +627,7 @@
        }
       }
      ],
-     "text": "y = mx + c , where m and c are constants to be found. (5)   The curve C has equation y = f (x), where f is a function with domain k, 1 + 3 3  (b) Find the exact value of the constant k. (1)",
+     "text": "  The curve C has equation y = f (x), where f is a function with domain k, 1 + 3 3  (b) Find the exact value of the constant k. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -684,10 +684,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_10_q7",

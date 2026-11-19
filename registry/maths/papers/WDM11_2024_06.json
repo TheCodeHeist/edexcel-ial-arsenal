@@ -935,13 +935,13 @@
       {
        "src": "maths/WDM11_2024_06/q6_a.webp",
        "w": 1090,
-       "h": 40,
+       "h": 102,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 372.1,
         "x1": 559,
-        "y1": 391.0
+        "y1": 420.9
        }
       }
      ],
@@ -959,7 +959,7 @@
        }
       }
      ],
-     "text": "(a) Draw the activity network for the project described in the precedence table, using",
+     "text": "(a) Draw the activity network for the project described in the precedence table, using activity on arc and the minimum number of dummies. (5)",
      "kindGuessed": "draw"
     },
     {
@@ -972,11 +972,11 @@
       {
        "src": "maths/WDM11_2024_06/q6_b_1.webp",
        "w": 1090,
-       "h": 656,
+       "h": 594,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 391.0,
+        "y0": 420.9,
         "x1": 559,
         "y1": 705.2
        }
@@ -1008,7 +1008,7 @@
        }
       }
      ],
-     "text": "activity on arc and the minimum number of dummies. (5) 0 2 4 6 8 10 12 14 16 18 20 22 B G H M A D C E F I J K Grid 1 A cascade chart for all the activities of the project, except activity L, is shown on Grid 1. The time taken to complete each activity is given in hours and each activity requires one worker. The project is to be completed in the minimum time using as few workers as possible. (b) State the critical activities of the project. (1)",
+     "text": "0 2 4 6 8 10 12 14 16 18 20 22 B G H M A D C E F I J K Grid 1 A cascade chart for all the activities of the project, except activity L, is shown on Grid 1. The time taken to complete each activity is given in hours and each activity requires one worker. The project is to be completed in the minimum time using as few workers as possible. (b) State the critical activities of the project. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -1102,7 +1102,6 @@
    ],
    "check": "pending",
    "risks": [
-    "6(a): text after the marks",
     "6(b): runs across pages"
    ]
   },

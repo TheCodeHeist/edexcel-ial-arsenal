@@ -273,13 +273,13 @@
       {
        "src": "maths/WME03_2026_01_A/q3_b.webp",
        "w": 1090,
-       "h": 110,
+       "h": 167,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 161.8,
         "x1": 559,
-        "y1": 214.6
+        "y1": 241.6
        }
       }
      ],
@@ -297,7 +297,7 @@
        }
       }
      ],
-     "text": "The amplitude of the motion is a metres. Find",
+     "text": "The amplitude of the motion is a metres. Find (b) the value of a, (3)",
      "kindGuessed": "calc"
     },
     {
@@ -310,11 +310,11 @@
       {
        "src": "maths/WME03_2026_01_A/q3_c.webp",
        "w": 1090,
-       "h": 185,
+       "h": 129,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 214.6,
+        "y0": 241.6,
         "x1": 559,
         "y1": 303.2
        }
@@ -334,7 +334,7 @@
        }
       }
      ],
-     "text": "(b) the value of a, (3) (c) the total length of time during each complete oscillation for which P is within 1 2 a metres of O. (4)",
+     "text": "(c) the total length of time during each complete oscillation for which P is within 1 2 a metres of O. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -352,11 +352,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(b): text after the marks",
-    "3(b): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_A_q4",

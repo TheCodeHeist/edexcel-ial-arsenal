@@ -310,13 +310,13 @@
       {
        "src": "maths/WST03_2025_06/q3_a.webp",
        "w": 1090,
-       "h": 40,
+       "h": 94,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 391.5,
         "x1": 559,
-        "y1": 410.4
+        "y1": 436.2
        }
       }
      ],
@@ -334,7 +334,7 @@
        }
       }
      ],
-     "text": "(a) Calculate the expected frequency for a diesel engine that first experienced an engine",
+     "text": "(a) Calculate the expected frequency for a diesel engine that first experienced an engine problem during month 1–6 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -347,11 +347,11 @@
       {
        "src": "maths/WST03_2025_06/q3_b.webp",
        "w": 1090,
-       "h": 298,
+       "h": 245,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 410.4,
+        "y0": 436.2,
         "x1": 559,
         "y1": 553.1
        }
@@ -371,7 +371,7 @@
        }
       }
      ],
-     "text": "problem during month 1–6 (2) . / O 2 O 3 E \u001b Given that for the other 8 classes 7 444 . to 3 decimal places, E (b) test, at a 5% level of significance, whether or not there is evidence of an association between when the car first experienced an engine problem and the type of engine. You should state the hypotheses, the test statistic, the degrees of freedom and the critical value used for this test. (7)",
+     "text": ". / O 2 O 3 E \u001b Given that for the other 8 classes 7 444 . to 3 decimal places, E (b) test, at a 5% level of significance, whether or not there is evidence of an association between when the car first experienced an engine problem and the type of engine. You should state the hypotheses, the test statistic, the degrees of freedom and the critical value used for this test. (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -389,10 +389,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2025_06_q4",
@@ -607,13 +604,13 @@
       {
        "src": "maths/WST03_2025_06/q5_b.webp",
        "w": 1090,
-       "h": 246,
+       "h": 299,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 226.3,
         "x1": 559,
-        "y1": 344.2
+        "y1": 369.3
        }
       }
      ],
@@ -631,7 +628,7 @@
        }
       }
      ],
-     "text": "Jeff calculates expected frequencies, to 2 decimal places, as follows. Number of males 0 1 2 3 4 5 Expected r 41.92 79.91 76.16 36.30 6.92 frequencies",
+     "text": "Jeff calculates expected frequencies, to 2 decimal places, as follows. Number of males 0 1 2 3 4 5 Expected r 41.92 79.91 76.16 36.30 6.92 frequencies (b) Find the value of r (2)",
      "kindGuessed": "calc"
     },
     {
@@ -644,11 +641,11 @@
       {
        "src": "maths/WST03_2025_06/q5_c.webp",
        "w": 1090,
-       "h": 310,
+       "h": 258,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 344.2,
+        "y0": 369.3,
         "x1": 559,
         "y1": 492.7
        }
@@ -668,7 +665,7 @@
        }
       }
      ],
-     "text": "(b) Find the value of r (2) 2 . / O E 3 The value of for the given values in the table excluding r is 5.70 to E 2 decimal places. (c) Using a 5% significance level, test whether or not a binomial distribution is a suitable model for the number of male puppies born in these 250 litters. You should state the hypotheses, the degrees of freedom and the critical value used. (7)",
+     "text": "2 . / O E 3 The value of for the given values in the table excluding r is 5.70 to E 2 decimal places. (c) Using a 5% significance level, test whether or not a binomial distribution is a suitable model for the number of male puppies born in these 250 litters. You should state the hypotheses, the degrees of freedom and the critical value used. (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -686,10 +683,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(b): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2025_06_q6",
@@ -794,13 +788,13 @@
       {
        "src": "maths/WST03_2025_06/q6_c.webp",
        "w": 1090,
-       "h": 11,
+       "h": 73,
        "region": {
         "page": 18,
         "x0": 36,
         "y0": 213.1,
         "x1": 559,
-        "y1": 218.2
+        "y1": 248.0
        }
       }
      ],
@@ -818,7 +812,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(c) Hence find the bias, in terms of μ , when R is used as an estimator of μ (1)",
      "kindGuessed": "calc"
     },
     {
@@ -831,11 +825,11 @@
       {
        "src": "maths/WST03_2025_06/q6_d.webp",
        "w": 1090,
-       "h": 293,
+       "h": 231,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 218.2,
+        "y0": 248.0,
         "x1": 559,
         "y1": 358.3
        }
@@ -855,7 +849,7 @@
        }
       }
      ],
-     "text": "(c) Hence find the bias, in terms of μ , when R is used as an estimator of μ (1) 14 20 aX 1 bX Given that S = aX − bX i i 1 2 and T = i O i O are each used as an unbiased 1 15 2 20 estimator of μ , where a and b are constants, (d) find the value of a and the value of b (4)",
+     "text": "14 20 aX 1 bX Given that S = aX − bX i i 1 2 and T = i O i O are each used as an unbiased 1 15 2 20 estimator of μ , where a and b are constants, (d) find the value of a and the value of b (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -873,11 +867,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(c): text after the marks",
-    "6(c): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2025_06_q7",

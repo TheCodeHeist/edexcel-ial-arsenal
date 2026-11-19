@@ -237,13 +237,13 @@
       {
        "src": "maths/WST03_2025_01/q2_c.webp",
        "w": 1090,
-       "h": 61,
+       "h": 89,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 475.7,
         "x1": 559,
-        "y1": 504.7
+        "y1": 518.4
        }
       }
      ],
@@ -261,24 +261,24 @@
        }
       }
      ],
-     "text": "The manager combines cells 4, 5 and ‘6 or more’, before continuing the test.",
+     "text": "The manager combines cells 4, 5 and ‘6 or more’, before continuing the test. (c) Explain why it is necessary for the manager to do this.",
      "kindGuessed": "calc"
     },
     {
      "label": "2(d)",
      "marks": 4,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WST03_2025_01/q2_d.webp",
        "w": 1090,
-       "h": 304,
+       "h": 275,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 504.7,
+        "y0": 518.4,
         "x1": 559,
         "y1": 650.4
        }
@@ -298,8 +298,8 @@
        }
       }
      ],
-     "text": "(c) Explain why it is necessary for the manager to do this. (1) . / 2 O 3 E \u001b After combining these cells, the manager calculates that O 12 2. E correct to 3 significant figures. (d) Carry out the manager’s test at the 1% significance level. You should clearly state the hypotheses, the degrees of freedom and the critical value used. (4)",
-     "kindGuessed": "short"
+     "text": "(1) . / 2 O 3 E \u001b After combining these cells, the manager calculates that O 12 2. E correct to 3 significant figures. (d) Carry out the manager’s test at the 1% significance level. You should clearly state the hypotheses, the degrees of freedom and the critical value used. (4)",
+     "kindGuessed": "calc"
     }
    ],
    "msNotes": [
@@ -318,8 +318,7 @@
    ],
    "check": "pending",
    "risks": [
-    "2(c): text after the marks",
-    "2(c): text doesn't start at its label"
+    "2(c): text after the marks"
    ]
   },
   {
@@ -694,13 +693,13 @@
       {
        "src": "maths/WST03_2025_01/q5_b.webp",
        "w": 1090,
-       "h": 472,
+       "h": 527,
        "region": {
         "page": 18,
         "x0": 36,
         "y0": 195.1,
         "x1": 559,
-        "y1": 421.2
+        "y1": 447.7
        }
       }
      ],
@@ -730,7 +729,7 @@
        }
       }
      ],
-     "text": "The results of the survey are shown in the table. Biology Chemistry Physics Total London 66 37 17 120 Birmingham 40 19 21 80 The data are to be used to determine whether or not a student’s favourite science subject is independent of the place where they live. (b) Calculate (i) the expected frequency for the class Biology and London,",
+     "text": "The results of the survey are shown in the table. Biology Chemistry Physics Total London 66 37 17 120 Birmingham 40 19 21 80 The data are to be used to determine whether or not a student’s favourite science subject is independent of the place where they live. (b) Calculate (i) the expected frequency for the class Biology and London, (ii) the expected frequency for the class Biology and Birmingham. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -743,11 +742,11 @@
       {
        "src": "maths/WST03_2025_01/q5_c.webp",
        "w": 1090,
-       "h": 335,
+       "h": 280,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 421.2,
+        "y0": 447.7,
         "x1": 559,
         "y1": 581.3
        }
@@ -767,7 +766,7 @@
        }
       }
      ],
-     "text": "(ii) the expected frequency for the class Biology and Birmingham. (3) 2 ( O 3 E ) Before the two classes for Biology are included O 4 549 . E to 3 decimal places. (c) Test at the 10% level of significance, whether or not a student’s favourite science subject is independent of the place where they live. Show your working clearly, stating your hypotheses, the degrees of freedom, the test statistic and the critical value used. (7)",
+     "text": "2 ( O 3 E ) Before the two classes for Biology are included O 4 549 . E to 3 decimal places. (c) Test at the 10% level of significance, whether or not a student’s favourite science subject is independent of the place where they live. Show your working clearly, stating your hypotheses, the degrees of freedom, the test statistic and the critical value used. (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -785,10 +784,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(b): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2025_01_q6",
@@ -856,13 +852,13 @@
       {
        "src": "maths/WST03_2025_01/q6_b.webp",
        "w": 1090,
-       "h": 30,
+       "h": 65,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 135.4,
         "x1": 559,
-        "y1": 149.8
+        "y1": 166.3
        }
       }
      ],
@@ -880,7 +876,7 @@
        }
       }
      ],
-     "text": "_",
+     "text": "_ (b) Hence find the bias, in terms of a, when X is used as an estimator of a",
      "kindGuessed": "calc"
     },
     {
@@ -893,11 +889,11 @@
       {
        "src": "maths/WST03_2025_01/q6_c.webp",
        "w": 1090,
-       "h": 198,
+       "h": 164,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 149.8,
+        "y0": 166.3,
         "x1": 559,
         "y1": 244.6
        }
@@ -917,7 +913,7 @@
        }
       }
      ],
-     "text": "(b) Hence find the bias, in terms of a, when X is used as an estimator of a (1) _ Given that Y = cX + d is an unbiased estimator of a where c and d are constants. (c) find the value of c and the value of d (3)",
+     "text": "(1) _ Given that Y = cX + d is an unbiased estimator of a where c and d are constants. (c) find the value of c and the value of d (3)",
      "kindGuessed": "calc"
     },
     {
@@ -977,8 +973,7 @@
     "6(a): text cut by a crop edge",
     "6(b): text cut by a crop edge",
     "stem: text cut by a crop edge",
-    "6(b): text after the marks",
-    "6(b): text doesn't start at its label"
+    "6(b): text after the marks"
    ]
   },
   {

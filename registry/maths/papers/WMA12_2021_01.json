@@ -578,13 +578,13 @@
       {
        "src": "maths/WMA12_2021_01/q6_a.webp",
        "w": 1016,
-       "h": 264,
+       "h": 297,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 57.6,
         "x1": 523.2,
-        "y1": 184.3
+        "y1": 199.9
        }
       }
      ],
@@ -602,7 +602,7 @@
        }
       }
      ],
-     "text": "6. (a) Show that the equation θ θ 3sin cos = 5 tan θ sin θ  1 2sin θ − 1 2 can be written in the form 3 sin3 θ + 10 sin2 θ − 8 sin θ = 0",
+     "text": "6. (a) Show that the equation θ θ 3sin cos = 5 tan θ sin θ  1 2sin θ − 1 2 can be written in the form 3 sin3 θ + 10 sin2 θ − 8 sin θ = 0 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -617,11 +617,11 @@
       {
        "src": "maths/WMA12_2021_01/q6_b.webp",
        "w": 1016,
-       "h": 291,
+       "h": 259,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 184.3,
+        "y0": 199.9,
         "x1": 523.2,
         "y1": 323.9
        }
@@ -641,7 +641,7 @@
        }
       }
      ],
-     "text": "(4) π < x < 4 π (b) Hence solve, for −4 3 sin 2 x cos 2 x = 5 tan 2x 2 sin 2 x − 1 giving your answers to 3 decimal places where appropriate. (4)",
+     "text": "π < x < 4 π (b) Hence solve, for −4 3 sin 2 x cos 2 x = 5 tan 2x 2 sin 2 x − 1 giving your answers to 3 decimal places where appropriate. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -659,10 +659,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_01_q7",

@@ -317,13 +317,13 @@
       {
        "src": "maths/WFM02_2021_10/q5_a.webp",
        "w": 1016,
-       "h": 164,
+       "h": 193,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 81.2,
         "x1": 523.2,
-        "y1": 159.8
+        "y1": 173.5
        }
       }
      ],
@@ -341,7 +341,7 @@
        }
       }
      ],
-     "text": "(a) show that d 3y x3 = 8 tan x sec2 x (p sec2 x + q) d",
+     "text": "(a) show that d 3y x3 = 8 tan x sec2 x (p sec2 x + q) d where p and q are integers to be determined.",
      "kindGuessed": "calc"
     },
     {
@@ -356,11 +356,11 @@
       {
        "src": "maths/WFM02_2021_10/q5_b.webp",
        "w": 1016,
-       "h": 268,
+       "h": 240,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 159.8,
+        "y0": 173.5,
         "x1": 523.2,
         "y1": 288.0
        }
@@ -380,7 +380,7 @@
        }
       }
      ],
-     "text": "where p and q are integers to be determined. (5) π of tan2 x in ascending powers of (b) Hence determine the Taylor series expansion about 3 3 π π     x x −  up to and including the term in − , giving each coefficient in       3 3 simplest form. (3)",
+     "text": "(5) π of tan2 x in ascending powers of (b) Hence determine the Taylor series expansion about 3 3 π π     x x −  up to and including the term in − , giving each coefficient in       3 3 simplest form. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -646,13 +646,13 @@
       {
        "src": "maths/WFM02_2021_10/q8_a.webp",
        "w": 1016,
-       "h": 11,
+       "h": 61,
        "region": {
         "page": 28,
         "x0": 36,
         "y0": 431.3,
         "x1": 523.2,
-        "y1": 436.3
+        "y1": 460.1
        }
       }
      ],
@@ -670,7 +670,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) Use calculus to determine the polar coordinates of P. (5)",
      "kindGuessed": "calc"
     },
     {
@@ -685,11 +685,11 @@
       {
        "src": "maths/WFM02_2021_10/q8_b.webp",
        "w": 1016,
-       "h": 456,
+       "h": 407,
        "region": {
         "page": 28,
         "x0": 36,
-        "y0": 436.3,
+        "y0": 460.1,
         "x1": 523.2,
         "y1": 655.1
        }
@@ -721,15 +721,11 @@
        }
       }
      ],
-     "text": "(a) Use calculus to determine the polar coordinates of P. (5) π is parallel to the initial line. The tangent to C at the point Q where θ = 2 The tangent to C at Q meets the tangent to C at P at the point S, as shown in Figure 1. The finite region R, shown shaded in Figure 1, is bounded by the line segments QS, SP and the curve C. (b) Use algebraic integration to show that the area of R is 1 32 (a 3 + bπ) where a and b are integers to be determined. (6)",
+     "text": "π is parallel to the initial line. The tangent to C at the point Q where θ = 2 The tangent to C at Q meets the tangent to C at P at the point S, as shown in Figure 1. The finite region R, shown shaded in Figure 1, is bounded by the line segments QS, SP and the curve C. (b) Use algebraic integration to show that the area of R is 1 32 (a 3 + bπ) where a and b are integers to be determined. (6)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks",
-    "8(a): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_10_q9",

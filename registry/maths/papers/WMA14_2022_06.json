@@ -207,11 +207,11 @@
       {
        "src": "maths/WMA14_2022_06/q2_a.webp",
        "w": 1090,
-       "h": 82,
+       "h": 75,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 64.8,
+        "y0": 68.2,
         "x1": 559,
         "y1": 103.8
        }
@@ -289,7 +289,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(a): text cut by a crop edge"
+   ]
   },
   {
    "id": "WMA14_2022_06_q3",
@@ -299,13 +302,13 @@
     {
      "src": "maths/WMA14_2022_06/q3_stem.webp",
      "w": 1090,
-     "h": 536,
+     "h": 574,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 313.9
+      "y1": 332.1
      }
     }
    ],
@@ -322,11 +325,11 @@
       {
        "src": "maths/WMA14_2022_06/q3_a.webp",
        "w": 1090,
-       "h": 131,
+       "h": 94,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 313.9,
+        "y0": 332.1,
         "x1": 559,
         "y1": 376.7
        }
@@ -346,7 +349,7 @@
        }
       }
      ],
-     "text": "2 s –1 The cross-sectional area of the tablet is decreasing at a constant rate of 0.5 mm (a) Find d x t when x = 7 d (4)",
+     "text": "(a) Find d x t when x = 7 d (4)",
      "kindGuessed": "calc"
     },
     {
@@ -403,7 +406,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_06_q4",
@@ -436,13 +439,13 @@
       {
        "src": "maths/WMA14_2022_06/q4_a.webp",
        "w": 1090,
-       "h": 159,
+       "h": 190,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 194.8,
         "x1": 559,
-        "y1": 270.7
+        "y1": 285.2
        }
       }
      ],
@@ -460,7 +463,7 @@
        }
       }
      ],
-     "text": "(a) Show that y kxy − x 2 d 6 16 = x y − kx 2 2 d 8 3",
+     "text": "(a) Show that y kxy − x 2 d 6 16 = x y − kx 2 2 d 8 3 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -476,11 +479,11 @@
       {
        "src": "maths/WMA14_2022_06/q4_b.webp",
        "w": 1090,
-       "h": 172,
+       "h": 142,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 270.7,
+        "y0": 285.2,
         "x1": 559,
         "y1": 353.2
        }
@@ -500,7 +503,7 @@
        }
       }
      ],
-     "text": "(4) Given that the curve has a turning point at x = 5 2 (b) find the value of k (4)",
+     "text": "Given that the curve has a turning point at x = 5 2 (b) find the value of k (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -518,10 +521,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_06_q5",

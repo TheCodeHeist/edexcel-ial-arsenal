@@ -751,11 +751,11 @@
     {
      "src": "maths/WFM01_2026_01_A/q7_stem.webp",
      "w": 1090,
-     "h": 118,
+     "h": 113,
      "region": {
       "page": 4,
       "x0": 36,
-      "y0": 314.6,
+      "y0": 317.2,
       "x1": 559,
       "y1": 371.0
      }
@@ -894,7 +894,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WFM01_2026_01_A_q8",

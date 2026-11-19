@@ -408,13 +408,13 @@
       {
        "src": "maths/WST03_2023_06/q3_d.webp",
        "w": 1090,
-       "h": 61,
+       "h": 124,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 284.9,
         "x1": 559,
-        "y1": 313.9
+        "y1": 343.7
        }
       }
      ],
@@ -432,7 +432,7 @@
        }
       }
      ],
-     "text": "Given that Y = aX1 + bX2 is an unbiased estimator of μ , where a and b are constants,",
+     "text": "Given that Y = aX1 + bX2 is an unbiased estimator of μ , where a and b are constants, (d) find an equation, in terms of a and b, that must be satisfied. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -445,11 +445,11 @@
       {
        "src": "maths/WST03_2023_06/q3_e.webp",
        "w": 1090,
-       "h": 143,
+       "h": 81,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 313.9,
+        "y0": 343.7,
         "x1": 559,
         "y1": 382.3
        }
@@ -469,7 +469,7 @@
        }
       }
      ],
-     "text": "(d) find an equation, in terms of a and b, that must be satisfied. (2) (e) Using your answer to part (d), show that Var(Y ) = (2a 2 – 2a + 1) σ 2 (3)",
+     "text": "(e) Using your answer to part (d), show that Var(Y ) = (2a 2 – 2a + 1) σ 2 (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -487,11 +487,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(d): text after the marks",
-    "3(d): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2023_06_q4",
@@ -611,13 +607,13 @@
     {
      "src": "maths/WST03_2023_06/q5_stem.webp",
      "w": 1090,
-     "h": 130,
+     "h": 161,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 118.8
+      "y1": 133.6
      }
     }
    ],
@@ -632,11 +628,11 @@
       {
        "src": "maths/WST03_2023_06/q5_a.webp",
        "w": 1090,
-       "h": 184,
+       "h": 153,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 118.8,
+        "y0": 133.6,
         "x1": 559,
         "y1": 206.6
        }
@@ -656,7 +652,7 @@
        }
       }
      ],
-     "text": "A random sample of 10 observations of X is taken and X– denotes the sample mean. (a) Show that a 90% confidence interval for μ , in terms of x– , is given by ( x– – 2.60, x– + 2.60) (3)",
+     "text": "(a) Show that a 90% confidence interval for μ , in terms of x– , is given by ( x– – 2.60, x– + 2.60) (3)",
      "kindGuessed": "calc"
     },
     {
@@ -760,11 +756,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2023_06_q6",

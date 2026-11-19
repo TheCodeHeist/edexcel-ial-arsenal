@@ -943,13 +943,13 @@
       {
        "src": "maths/WMA13_2021_01/q7_a.webp",
        "w": 1016,
-       "h": 126,
+       "h": 161,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 109.8,
         "x1": 523.2,
-        "y1": 169.9
+        "y1": 186.7
        }
       }
      ],
@@ -967,7 +967,7 @@
        }
       }
      ],
-     "text": "7. (a) Prove that x x nπ sin 2 cos2 Z + ≡ cosec x x ≠ n ∈ cos x sin x 2",
+     "text": "7. (a) Prove that x x nπ sin 2 cos2 Z + ≡ cosec x x ≠ n ∈ cos x sin x 2 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -984,11 +984,11 @@
       {
        "src": "maths/WMA13_2021_01/q7_b.webp",
        "w": 1016,
-       "h": 296,
+       "h": 260,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 169.9,
+        "y0": 187.3,
         "x1": 523.2,
         "y1": 311.8
        }
@@ -1008,7 +1008,7 @@
        }
       }
      ],
-     "text": "(3) π π (b) Hence solve, for − < θ < 2 2 θ θ sin 4 cos4 7 + + = 3cot 2 2 θ θ θ cos2 sin 2 giving your answers in radians to 3 significant figures where appropriate. (6)",
+     "text": "π π (b) Hence solve, for − < θ < 2 2 θ θ sin 4 cos4 7 + + = 3cot 2 2 θ θ θ cos2 sin 2 giving your answers in radians to 3 significant figures where appropriate. (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -1038,10 +1038,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q8",
@@ -1382,13 +1379,13 @@
       {
        "src": "maths/WMA13_2021_01/q10_b.webp",
        "w": 1016,
-       "h": 170,
+       "h": 204,
        "region": {
         "page": 30,
         "x0": 36,
         "y0": 163.6,
         "x1": 523.2,
-        "y1": 244.8
+        "y1": 260.9
        }
       }
      ],
@@ -1406,7 +1403,7 @@
        }
       }
      ],
-     "text": "(b) Hence show that y p d = x qx x −3 d where p is irrational and q is an integer, stating the values of p and q.",
+     "text": "(b) Hence show that y p d = x qx x −3 d where p is irrational and q is an integer, stating the values of p and q. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1422,11 +1419,11 @@
       {
        "src": "maths/WMA13_2021_01/q10_c.webp",
        "w": 1016,
-       "h": 181,
+       "h": 148,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 244.8,
+        "y0": 260.9,
         "x1": 523.2,
         "y1": 331.3
        }
@@ -1446,7 +1443,7 @@
        }
       }
      ],
-     "text": "(3) π (c) Find the equation of the normal to C at the point where , giving your answer y = 12 in the form y = mx + c, giving m and c as exact irrational numbers. (5)",
+     "text": "π (c) Find the equation of the normal to C at the point where , giving your answer y = 12 in the form y = mx + c, giving m and c as exact irrational numbers. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1491,8 +1488,7 @@
    "check": "pending",
    "risks": [
     "10(a): text cut by a crop edge",
-    "stem: text cut by a crop edge",
-    "10(b): text after the marks"
+    "stem: text cut by a crop edge"
    ]
   }
  ]

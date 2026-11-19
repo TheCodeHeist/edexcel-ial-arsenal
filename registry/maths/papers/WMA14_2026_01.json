@@ -704,13 +704,13 @@
     {
      "src": "maths/WMA14_2026_01/q6_stem.webp",
      "w": 1090,
-     "h": 314,
+     "h": 354,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 207.4
+      "y1": 226.3
      }
     }
    ],
@@ -728,11 +728,11 @@
       {
        "src": "maths/WMA14_2026_01/q6_a.webp",
        "w": 1090,
-       "h": 114,
+       "h": 74,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 207.4,
+        "y0": 226.6,
         "x1": 559,
         "y1": 262.0
        }
@@ -752,7 +752,7 @@
        }
       }
      ],
-     "text": "Given that P is the point on l1 that is nearest O, (a) find the coordinates of P. (4)",
+     "text": "(a) find the coordinates of P. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -860,7 +860,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2026_01_q7",

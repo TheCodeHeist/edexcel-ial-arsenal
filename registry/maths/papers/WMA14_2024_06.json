@@ -332,13 +332,13 @@
       {
        "src": "maths/WMA14_2024_06/q4_a.webp",
        "w": 1090,
-       "h": 167,
+       "h": 223,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 392.1,
         "x1": 559,
-        "y1": 471.6
+        "y1": 498.5
        }
       }
      ],
@@ -356,7 +356,7 @@
        }
       }
      ],
-     "text": "(a) show that d A . / K θ θ O 1 3 cos d",
+     "text": "(a) show that d A . / K θ θ O 1 3 cos d where K is a constant to be found. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -372,11 +372,11 @@
       {
        "src": "maths/WMA14_2024_06/q4_b.webp",
        "w": 1090,
-       "h": 153,
+       "h": 97,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 471.6,
+        "y0": 498.5,
         "x1": 559,
         "y1": 544.7
        }
@@ -396,7 +396,7 @@
        }
       }
      ],
-     "text": "where K is a constant to be found. (2) π (b) Find, in cm 2 s –1, the rate of increase of the area of the segment when θ O 3 (4)",
+     "text": "π (b) Find, in cm 2 s –1, the rate of increase of the area of the segment when θ O 3 (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -414,10 +414,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA14_2024_06_q5",
@@ -490,13 +487,13 @@
       {
        "src": "maths/WMA14_2024_06/q5_b.webp",
        "w": 1090,
-       "h": 259,
+       "h": 319,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 500.5,
         "x1": 559,
-        "y1": 624.2
+        "y1": 652.8
        }
       }
      ],
@@ -514,7 +511,7 @@
        }
       }
      ],
-     "text": "The region R, shown shaded in Figure 2, is bounded by the curve and the line with equation y = 1 (b) Show that the area of region R is given by b t 1 1 M 3 k t ) d t ( 3 3 t a",
+     "text": "The region R, shown shaded in Figure 2, is bounded by the curve and the line with equation y = 1 (b) Show that the area of region R is given by b t 1 1 M 3 k t ) d t ( 3 3 t a where M and k are constants to be found. (5)",
      "kindGuessed": "calc"
     },
     {
@@ -530,11 +527,11 @@
       {
        "src": "maths/WMA14_2024_06/q5_c.webp",
        "w": 1090,
-       "h": 243,
+       "h": 183,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 624.2,
+        "y0": 652.8,
         "x1": 559,
         "y1": 740.5
        }
@@ -566,7 +563,7 @@
        }
       }
      ],
-     "text": "where M and k are constants to be found. (5) (c) (i) Write t 1 1 ) in partial fractions. t ( 3 3 t (ii) Use algebraic integration to find the exact area of R, giving your answer in simplest form. (6)",
+     "text": "(c) (i) Write t 1 1 ) in partial fractions. t ( 3 3 t (ii) Use algebraic integration to find the exact area of R, giving your answer in simplest form. (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -596,10 +593,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(b): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_06_q6",
@@ -944,11 +938,11 @@
     {
      "src": "maths/WMA14_2024_06/q8_stem.webp",
      "w": 1090,
-     "h": 72,
+     "h": 71,
      "region": {
       "page": 22,
       "x0": 36,
-      "y0": 64.8,
+      "y0": 65.5,
       "x1": 559,
       "y1": 99.0
      }

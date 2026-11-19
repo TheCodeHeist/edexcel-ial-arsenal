@@ -504,13 +504,13 @@
       {
        "src": "maths/WME02_2026_01/q4_b.webp",
        "w": 1090,
-       "h": 11,
+       "h": 74,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 203.8,
         "x1": 559,
-        "y1": 208.8
+        "y1": 238.8
        }
       }
      ],
@@ -540,7 +540,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(b) Find the value of t when the acceleration of P is perpendicular to (2i – j) (4)",
      "kindGuessed": "calc"
     },
     {
@@ -553,11 +553,11 @@
       {
        "src": "maths/WME02_2026_01/q4_c.webp",
        "w": 1090,
-       "h": 217,
+       "h": 155,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 208.8,
+        "y0": 238.8,
         "x1": 559,
         "y1": 312.6
        }
@@ -601,7 +601,7 @@
        }
       }
      ],
-     "text": "(b) Find the value of t when the acceleration of P is perpendicular to (2i – j) (4) When t = 1, P is at the point with position vector 1 \u001b i j 3 7 \u001a\u0019m. 3 (c) Find the distance OP when t = 4 (6)",
+     "text": "When t = 1, P is at the point with position vector 1 \u001b i j 3 7 \u001a\u0019m. 3 (c) Find the distance OP when t = 4 (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -631,11 +631,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(b): text after the marks",
-    "4(b): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2026_01_q5",

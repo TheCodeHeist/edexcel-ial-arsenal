@@ -630,13 +630,13 @@
     {
      "src": "maths/WMA13_2025_06_A/q5_stem.webp",
      "w": 1090,
-     "h": 205,
+     "h": 258,
      "region": {
       "page": 14,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 154.8
+      "y1": 180.2
      }
     }
    ],
@@ -654,11 +654,11 @@
       {
        "src": "maths/WMA13_2025_06_A/q5_a.webp",
        "w": 1090,
-       "h": 157,
+       "h": 104,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 154.8,
+        "y0": 180.2,
         "x1": 559,
         "y1": 229.6
        }
@@ -678,7 +678,7 @@
        }
       }
      ],
-     "text": "π lies on C. The point A with x coordinate 3 (a) Use algebraic differentiation to find the gradient of the tangent to C at A. Give the answer in simplest form. (3)",
+     "text": "(a) Use algebraic differentiation to find the gradient of the tangent to C at A. Give the answer in simplest form. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -972,13 +972,13 @@
       {
        "src": "maths/WMA13_2025_06_A/q7_a.webp",
        "w": 1090,
-       "h": 129,
+       "h": 183,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 95.2,
         "x1": 559,
-        "y1": 157.0
+        "y1": 182.5
        }
       }
      ],
@@ -996,7 +996,7 @@
        }
       }
      ],
-     "text": "(a) Write sin 4θ in the form n θ) sin θ cos θ (P + Q sin",
+     "text": "(a) Write sin 4θ in the form n θ) sin θ cos θ (P + Q sin where P, Q and n are constants to be found. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1012,11 +1012,11 @@
       {
        "src": "maths/WMA13_2025_06_A/q7_b.webp",
        "w": 1090,
-       "h": 306,
+       "h": 253,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 157.0,
+        "y0": 182.5,
         "x1": 559,
         "y1": 303.8
        }
@@ -1036,7 +1036,7 @@
        }
       }
      ],
-     "text": "where P, Q and n are constants to be found. (3) kπ where k ∈ , the equation (b) Use the result from part (a) to show that, for x ≠ 2 sec x sin 4x = 5 sin 3 x cot x can be written in the form 4 sec 2 x – 5 tan x – 8 tan 2 x = 0",
+     "text": "kπ where k ∈ , the equation (b) Use the result from part (a) to show that, for x ≠ 2 sec x sin 4x = 5 sin 3 x cot x can be written in the form 4 sec 2 x – 5 tan x – 8 tan 2 x = 0",
      "kindGuessed": "calc"
     },
     {
@@ -1108,7 +1108,6 @@
    ],
    "check": "pending",
    "risks": [
-    "7(a): text after the marks",
     "7(b): text after the marks"
    ]
   },

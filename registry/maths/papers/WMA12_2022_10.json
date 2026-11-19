@@ -605,13 +605,13 @@
       {
        "src": "maths/WMA12_2022_10/q5_a.webp",
        "w": 1090,
-       "h": 185,
+       "h": 243,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 114.0,
         "x1": 559,
-        "y1": 202.3
+        "y1": 230.1
        }
       }
      ],
@@ -629,7 +629,7 @@
        }
       }
      ],
-     "text": "(a) Show that the equation (3 cos θ – tan θ)cos θ = 2 can be written as",
+     "text": "(a) Show that the equation (3 cos θ – tan θ)cos θ = 2 can be written as 3 sin2 θ + sin θ – 1 = 0 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -645,11 +645,11 @@
       {
        "src": "maths/WMA12_2022_10/q5_b.webp",
        "w": 1090,
-       "h": 225,
+       "h": 167,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 202.3,
+        "y0": 230.1,
         "x1": 559,
         "y1": 309.8
        }
@@ -669,7 +669,7 @@
        }
       }
      ],
-     "text": "3 sin2 θ + sin θ – 1 = 0 (3) π  x  2 π (b) Hence solve for – 2 (3 cos 2x – tan 2x)cos 2x = 2 (5)",
+     "text": "π  x  2 π (b) Hence solve for – 2 (3 cos 2x – tan 2x)cos 2x = 2 (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -687,10 +687,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_10_q6",

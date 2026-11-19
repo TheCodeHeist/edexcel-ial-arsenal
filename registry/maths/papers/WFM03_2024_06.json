@@ -133,13 +133,13 @@
     {
      "src": "maths/WFM03_2024_06/q2_stem.webp",
      "w": 1090,
-     "h": 260,
+     "h": 300,
      "region": {
       "page": 4,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 181.4
+      "y1": 200.3
      }
     }
    ],
@@ -156,11 +156,11 @@
       {
        "src": "maths/WFM03_2024_06/q2_a.webp",
        "w": 1090,
-       "h": 114,
+       "h": 74,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 181.4,
+        "y0": 200.7,
         "x1": 559,
         "y1": 236.1
        }
@@ -180,7 +180,7 @@
        }
       }
      ],
-     "text": "Given that M has exactly two distinct eigenvalues λ1 and λ2 where λ1 < λ2 (a) determine a normalised eigenvector corresponding to the eigenvalue λ1 (6)",
+     "text": "(a) determine a normalised eigenvector corresponding to the eigenvalue λ1 (6)",
      "kindGuessed": "calc"
     },
     {
@@ -224,7 +224,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2024_06_q3",
@@ -854,11 +854,11 @@
     {
      "src": "maths/WFM03_2024_06/q8_stem.webp",
      "w": 1090,
-     "h": 130,
+     "h": 127,
      "region": {
       "page": 26,
       "x0": 36,
-      "y0": 64.8,
+      "y0": 66.2,
       "x1": 559,
       "y1": 127.1
      }
@@ -980,7 +980,10 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WFM03_2024_06_q9",

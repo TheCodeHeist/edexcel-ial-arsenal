@@ -265,13 +265,13 @@
     {
      "src": "maths/WDM11_2024_01/q2_stem.webp",
      "w": 1090,
-     "h": 490,
+     "h": 552,
      "region": {
       "page": 3,
       "x0": 36,
       "y0": 45.5,
       "x1": 559,
-      "y1": 280.1
+      "y1": 310.0
      }
     }
    ],
@@ -286,13 +286,13 @@
       {
        "src": "maths/WDM11_2024_01/q2_a.webp",
        "w": 1090,
-       "h": 103,
+       "h": 104,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 280.1,
+        "y0": 310.0,
         "x1": 559,
-        "y1": 329.0
+        "y1": 359.1
        }
       }
      ],
@@ -310,24 +310,24 @@
        }
       }
      ],
-     "text": "Table 1 represents a network that shows the travel times, in minutes, between eight towns, A, B, C, D, E, F, G and H. (a) Use Prim’s algorithm, starting at A, to find the minimum spanning tree for this",
+     "text": "(a) Use Prim’s algorithm, starting at A, to find the minimum spanning tree for this network. You must clearly state the order in which you select the edges of your tree. (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WDM11_2024_01/q2_b.webp",
        "w": 1090,
-       "h": 137,
+       "h": 74,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 329.0,
+        "y0": 359.1,
         "x1": 559,
         "y1": 394.5
        }
@@ -347,8 +347,8 @@
        }
       }
      ],
-     "text": "network. You must clearly state the order in which you select the edges of your tree. (3) (b) State the weight of the minimum spanning tree. (1)",
-     "kindGuessed": "calc"
+     "text": "(b) State the weight of the minimum spanning tree. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "2(c)",
@@ -360,13 +360,13 @@
       {
        "src": "maths/WDM11_2024_01/q2_c.webp",
        "w": 1090,
-       "h": 389,
+       "h": 452,
        "region": {
         "page": 3,
         "x0": 36,
         "y0": 398.0,
         "x1": 559,
-        "y1": 584.6
+        "y1": 614.6
        }
       }
      ],
@@ -384,7 +384,7 @@
        }
       }
      ],
-     "text": "A B C D E F G H J 33 37 41 35 x 40 28 42 Table 2 Table 2 shows the travel times, in minutes, between town J and towns A, B, C, D, E, F, G and H. The journey time between towns E and J is x minutes where x > 28 A salesperson needs to visit all of the nine towns, starting and finishing at J. The salesperson wishes to minimise the total time spent travelling. (c) Starting at J, use the nearest neighbour algorithm to find an upper bound for the duration of the salesperson’s route. Write down the route that gives this",
+     "text": "A B C D E F G H J 33 37 41 35 x 40 28 42 Table 2 Table 2 shows the travel times, in minutes, between town J and towns A, B, C, D, E, F, G and H. The journey time between towns E and J is x minutes where x > 28 A salesperson needs to visit all of the nine towns, starting and finishing at J. The salesperson wishes to minimise the total time spent travelling. (c) Starting at J, use the nearest neighbour algorithm to find an upper bound for the duration of the salesperson’s route. Write down the route that gives this upper bound. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -397,13 +397,13 @@
       {
        "src": "maths/WDM11_2024_01/q2_d.webp",
        "w": 1090,
-       "h": 204,
+       "h": 176,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 584.6,
+        "y0": 614.6,
         "x1": 559,
-        "y1": 682.6
+        "y1": 698.7
        }
       }
      ],
@@ -421,7 +421,7 @@
        }
       }
      ],
-     "text": "upper bound. (2) Using the nearest neighbour algorithm, starting at E, an upper bound of 291 minutes for the salesperson’s route was found. (d) State the best upper bound that can be obtained by using this information and your answer to (c). Give the reason for your answer.",
+     "text": "Using the nearest neighbour algorithm, starting at E, an upper bound of 291 minutes for the salesperson’s route was found. (d) State the best upper bound that can be obtained by using this information and your answer to (c). Give the reason for your answer. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -434,11 +434,11 @@
       {
        "src": "maths/WDM11_2024_01/q2_e.webp",
        "w": 1090,
-       "h": 178,
+       "h": 145,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 682.6,
+        "y0": 698.7,
         "x1": 559,
         "y1": 767.9
        }
@@ -458,7 +458,7 @@
        }
       }
      ],
-     "text": "(1) Starting by deleting J and all of its arcs, a lower bound of 264 minutes for the duration of the salesperson’s route was found. (e) Determine the value of x. You must make your method and working clear. (3)",
+     "text": "Starting by deleting J and all of its arcs, a lower bound of 264 minutes for the duration of the salesperson’s route was found. (e) Determine the value of x. You must make your method and working clear. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -476,12 +476,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): text after the marks",
-    "2(c): text after the marks",
-    "2(d): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WDM11_2024_01_q3",

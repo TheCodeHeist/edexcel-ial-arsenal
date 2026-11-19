@@ -578,13 +578,13 @@
     {
      "src": "maths/WMA14_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 223,
+     "h": 262,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 163.4
+      "y1": 182.2
      }
     }
    ],
@@ -602,11 +602,11 @@
       {
        "src": "maths/WMA14_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 163.4,
+        "y0": 182.6,
         "x1": 559,
         "y1": 218.0
        }
@@ -626,7 +626,7 @@
        }
       }
      ],
-     "text": "Given that l1 and l2 intersect, (a) find the value of p, (4)",
+     "text": "(a) find the value of p, (4)",
      "kindGuessed": "calc"
     },
     {
@@ -775,7 +775,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_01_q7",
@@ -796,13 +796,13 @@
       {
        "src": "maths/WMA14_2024_01/q7_a.webp",
        "w": 1090,
-       "h": 172,
+       "h": 205,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 57.0,
         "x1": 559,
-        "y1": 139.0
+        "y1": 155.0
        }
       }
      ],
@@ -820,7 +820,7 @@
        }
       }
      ],
-     "text": "7. (a) Using the substitution u = 4x + 2 sin 2x , or otherwise, show that ° \u001a 1 2 . / x 1 x x x O ° 3 4 2 sin 2 2 2 e cos d e 1 8 0",
+     "text": "7. (a) Using the substitution u = 4x + 2 sin 2x , or otherwise, show that ° \u001a 1 2 . / x 1 x x x O ° 3 4 2 sin 2 2 2 e cos d e 1 8 0 (5)",
      "kindGuessed": "calc"
     },
     {
@@ -836,11 +836,11 @@
       {
        "src": "maths/WMA14_2024_01/q7_b.webp",
        "w": 1090,
-       "h": 768,
+       "h": 735,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 139.0,
+        "y0": 155.0,
         "x1": 559,
         "y1": 507.3
        }
@@ -860,7 +860,7 @@
        }
       }
      ],
-     "text": "(5) y R π O x 2 Figure 3 The curve shown in Figure 3, has equation y O x 1 x x 2 sin 2 6 e cos The region R, shown shaded in Figure 3, is bounded by the positive x-axis, the positive y-axis and the curve. The region R is rotated through 2π radians about the x-axis to form a solid. (b) Use the answer to part (a) to find the volume of the solid formed, giving the answer in simplest form. (3)",
+     "text": "y R π O x 2 Figure 3 The curve shown in Figure 3, has equation y O x 1 x x 2 sin 2 6 e cos The region R, shown shaded in Figure 3, is bounded by the positive x-axis, the positive y-axis and the curve. The region R is rotated through 2π radians about the x-axis to form a solid. (b) Use the answer to part (a) to find the volume of the solid formed, giving the answer in simplest form. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -890,10 +890,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_01_q8",

@@ -272,13 +272,13 @@
       {
        "src": "maths/WMA13_2021_06/q3_i.webp",
        "w": 1016,
-       "h": 185,
+       "h": 247,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 57.6,
         "x1": 523.2,
-        "y1": 146.2
+        "y1": 176.0
        }
       }
      ],
@@ -296,7 +296,7 @@
        }
       }
      ],
-     "text": "3. (i) Find ∫ 12 d x ( ) 2 x 2 − 1",
+     "text": "3. (i) Find ∫ 12 d x ( ) 2 x 2 − 1 giving your answer in simplest form. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -313,11 +313,11 @@
       {
        "src": "maths/WMA13_2021_06/q3_ii.webp",
        "w": 1016,
-       "h": 497,
+       "h": 435,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 146.2,
+        "y0": 176.0,
         "x1": 523.2,
         "y1": 384.5
        }
@@ -349,7 +349,7 @@
        }
       }
      ],
-     "text": "giving your answer in simplest form. (2) (ii) (a) Write 4 x + 3 in the form x + 2 B A + x + 2 where A and B are constants to be found (b) Hence find, using algebraic integration, the exact value of 5 x ∫ − 4 + 3 x d x + 2 − 8 giving your answer in simplest form. (6)",
+     "text": "(ii) (a) Write 4 x + 3 in the form x + 2 B A + x + 2 where A and B are constants to be found (b) Hence find, using algebraic integration, the exact value of 5 x ∫ − 4 + 3 x d x + 2 − 8 giving your answer in simplest form. (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -367,10 +367,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(i): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q4",

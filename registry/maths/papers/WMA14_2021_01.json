@@ -42,13 +42,13 @@
       {
        "src": "maths/WMA14_2021_01/q1_a.webp",
        "w": 1016,
-       "h": 159,
+       "h": 214,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 57.7,
         "x1": 523.2,
-        "y1": 133.9
+        "y1": 160.1
        }
       }
      ],
@@ -66,7 +66,7 @@
        }
       }
      ],
-     "text": "1. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1 1 1   2 x x − 5 <   4 20",
+     "text": "1. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1 1 1   2 x x − 5 <   4 20 giving each coefficient in its simplest form. (5)",
      "kindGuessed": "calc"
     },
     {
@@ -81,11 +81,11 @@
       {
        "src": "maths/WMA14_2021_01/q1_b.webp",
        "w": 1016,
-       "h": 244,
+       "h": 190,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 133.9,
+        "y0": 160.1,
         "x1": 523.2,
         "y1": 250.6
        }
@@ -105,7 +105,7 @@
        }
       }
      ],
-     "text": "giving each coefficient in its simplest form. (5) 1 By substituting x = into the answer for (a), 100 (b) find an approximation for 5 Give your answer in the form a b where a and b are integers to be found. (2)",
+     "text": "1 By substituting x = into the answer for (a), 100 (b) find an approximation for 5 Give your answer in the form a b where a and b are integers to be found. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -135,10 +135,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_01_q2",
@@ -540,13 +537,13 @@
     {
      "src": "maths/WMA14_2021_01/q6_stem.webp",
      "w": 1016,
-     "h": 59,
+     "h": 60,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.6,
       "x1": 523.2,
-      "y1": 85.7
+      "y1": 86.4
      }
     }
    ],
@@ -564,11 +561,11 @@
       {
        "src": "maths/WMA14_2021_01/q6_a.webp",
        "w": 1016,
-       "h": 117,
+       "h": 115,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 85.7,
+        "y0": 86.4,
         "x1": 523.2,
         "y1": 141.2
        }
@@ -1032,11 +1029,11 @@
       {
        "src": "maths/WMA14_2021_01/q10_a.webp",
        "w": 1016,
-       "h": 71,
+       "h": 65,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 62.6,
+        "y0": 65.3,
         "x1": 523.2,
         "y1": 96.1
        }
@@ -1142,7 +1139,7 @@
     {
      "label": "10(d)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P4.6.4"
      ],
@@ -1217,7 +1214,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "10(a): text cut by a crop edge"
+   ]
   }
  ]
 }

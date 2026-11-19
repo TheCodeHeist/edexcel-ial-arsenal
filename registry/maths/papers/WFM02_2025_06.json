@@ -137,7 +137,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_q2",
@@ -200,7 +200,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_q3",
@@ -327,7 +327,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_q4",
@@ -528,7 +528,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_q5",
@@ -873,7 +873,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_q7",
@@ -883,13 +883,13 @@
     {
      "src": "maths/WFM02_2025_06/q7_stem.webp",
      "w": 1090,
-     "h": 686,
+     "h": 725,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 385.9
+      "y1": 404.3
      }
     }
    ],
@@ -906,11 +906,11 @@
       {
        "src": "maths/WFM02_2025_06/q7_a.webp",
        "w": 1090,
-       "h": 113,
+       "h": 74,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 385.9,
+        "y0": 404.7,
         "x1": 559,
         "y1": 440.1
        }
@@ -942,7 +942,7 @@
        }
       }
      ],
-     "text": "Circles C1 and C2 intersect at the origin O and at the point P. (a) Determine the polar coordinates of P. (2)",
+     "text": "(a) Determine the polar coordinates of P. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1151,7 +1151,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_q9",
@@ -1278,7 +1278,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

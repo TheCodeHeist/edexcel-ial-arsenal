@@ -56,13 +56,13 @@
       {
        "src": "maths/WMA12_2026_06_A/q1_a.webp",
        "w": 1090,
-       "h": 45,
+       "h": 79,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 132.0,
         "x1": 559,
-        "y1": 153.4
+        "y1": 169.8
        }
       }
      ],
@@ -80,7 +80,7 @@
        }
       }
      ],
-     "text": ". / (a) Find, in simplest form in terms of a, the remainder when f( ) x is divided by x 3 2",
+     "text": ". / (a) Find, in simplest form in terms of a, the remainder when f( ) x is divided by x 3 2 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -95,11 +95,11 @@
       {
        "src": "maths/WMA12_2026_06_A/q1_b.webp",
        "w": 1090,
-       "h": 164,
+       "h": 129,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 153.4,
+        "y0": 170.0,
         "x1": 559,
         "y1": 231.7
        }
@@ -119,7 +119,7 @@
        }
       }
      ],
-     "text": "(2) . / Given that x 3 2 is a factor of f( ) x , (b) show that a = 5 (1)",
+     "text": ". / Given that x 3 2 is a factor of f( ) x , (b) show that a = 5 (1)",
      "kindGuessed": "calc"
     },
     {
@@ -188,10 +188,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_A_q2",
@@ -637,7 +634,7 @@
     {
      "label": "5(b)",
      "marks": 3,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "P2.8.2",
       "P2.8.1"
@@ -1091,13 +1088,13 @@
       {
        "src": "maths/WMA12_2026_06_A/q8_a.webp",
        "w": 1090,
-       "h": 69,
+       "h": 95,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 45.7,
         "x1": 559,
-        "y1": 78.5
+        "y1": 91.0
        }
       }
      ],
@@ -1115,7 +1112,7 @@
        }
       }
      ],
-     "text": "8. (a) Find the first four terms, in ascending powers of x, of the binomial expansion of 12 , where k is a constant. Give each term in simplest form. . / k 1 4 x",
+     "text": "8. (a) Find the first four terms, in ascending powers of x, of the binomial expansion of 12 , where k is a constant. Give each term in simplest form. . / k 1 4 x (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1130,11 +1127,11 @@
       {
        "src": "maths/WMA12_2026_06_A/q8_b.webp",
        "w": 1090,
-       "h": 165,
+       "h": 139,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 78.5,
+        "y0": 91.0,
         "x1": 559,
         "y1": 157.2
        }
@@ -1154,7 +1151,7 @@
        }
       }
      ],
-     "text": "(4) Given that the coefficient of x3 in this expansion is 55 2 (b) find the value of k. (2)",
+     "text": "Given that the coefficient of x3 in this expansion is 55 2 (b) find the value of k. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1223,10 +1220,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2026_06_A_q9",

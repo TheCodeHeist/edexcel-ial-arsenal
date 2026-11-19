@@ -42,13 +42,13 @@
       {
        "src": "maths/WMA14_2024_10/q1_a.webp",
        "w": 1090,
-       "h": 163,
+       "h": 223,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 57.0,
         "x1": 559,
-        "y1": 134.6
+        "y1": 163.7
        }
       }
      ],
@@ -66,7 +66,7 @@
        }
       }
      ],
-     "text": "1. (a) Find the first 4 terms of the binomial expansion, in ascending powers of x, of 1 8 . / 3 8 3 3 x x N 3 3",
+     "text": "1. (a) Find the first 4 terms of the binomial expansion, in ascending powers of x, of 1 8 . / 3 8 3 3 x x N 3 3 giving each coefficient as a simplified fraction. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -81,11 +81,11 @@
       {
        "src": "maths/WMA14_2024_10/q1_b.webp",
        "w": 1090,
-       "h": 158,
+       "h": 98,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 134.6,
+        "y0": 163.7,
         "x1": 559,
         "y1": 210.2
        }
@@ -105,7 +105,7 @@
        }
       }
      ],
-     "text": "giving each coefficient as a simplified fraction. (4) (b) Use the answer from part (a) with x = 2 3 to find a rational approximation to 3 6 (2)",
+     "text": "(b) Use the answer from part (a) with x = 2 3 to find a rational approximation to 3 6 (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -135,10 +135,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_10_q2",
@@ -246,13 +243,13 @@
       {
        "src": "maths/WMA14_2024_10/q3_a.webp",
        "w": 1090,
-       "h": 161,
+       "h": 216,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 340.4,
         "x1": 559,
-        "y1": 417.6
+        "y1": 443.9
        }
       }
      ],
@@ -270,7 +267,7 @@
        }
       }
      ],
-     "text": "(a) Show that y d θ ≠ 0 x O k cosec θ d",
+     "text": "(a) Show that y d θ ≠ 0 x O k cosec θ d where k is a constant to be found. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -286,11 +283,11 @@
       {
        "src": "maths/WMA14_2024_10/q3_b.webp",
        "w": 1090,
-       "h": 234,
+       "h": 180,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 417.6,
+        "y0": 443.9,
         "x1": 559,
         "y1": 529.5
        }
@@ -310,7 +307,7 @@
        }
       }
      ],
-     "text": "where k is a constant to be found. (3) π The point P lies on C where θ O 6 (b) Find the equation of the tangent to C at P, giving your answer in the form ax + by + c = 0 where a, b and c are integers. (3)",
+     "text": "π The point P lies on C where θ O 6 (b) Find the equation of the tangent to C at P, giving your answer in the form ax + by + c = 0 where a, b and c are integers. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -380,10 +377,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_10_q4",
@@ -876,13 +870,13 @@
     {
      "src": "maths/WMA14_2024_10/q8_stem.webp",
      "w": 1090,
-     "h": 161,
+     "h": 200,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 133.9
+      "y1": 152.6
      }
     }
    ],
@@ -899,11 +893,11 @@
       {
        "src": "maths/WMA14_2024_10/q8_a.webp",
        "w": 1090,
-       "h": 114,
+       "h": 75,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 133.9,
+        "y0": 152.9,
         "x1": 559,
         "y1": 188.3
        }
@@ -923,7 +917,7 @@
        }
       }
      ],
-     "text": "The straight line l1 passes through A and B. (a) Find a vector equation for l1 (2)",
+     "text": "(a) Find a vector equation for l1 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1071,7 +1065,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_10_q9",
@@ -1091,11 +1085,11 @@
       {
        "src": "maths/WMA14_2024_10/q9_a.webp",
        "w": 1090,
-       "h": 80,
+       "h": 75,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 64.8,
+        "y0": 67.4,
         "x1": 559,
         "y1": 103.0
        }
@@ -1225,7 +1219,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "9(a): text cut by a crop edge"
+   ]
   },
   {
    "id": "WMA14_2024_10_q10",

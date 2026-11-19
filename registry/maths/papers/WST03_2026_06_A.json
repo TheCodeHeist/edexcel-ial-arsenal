@@ -863,13 +863,13 @@
       {
        "src": "maths/WST03_2026_06_A/q5_b.webp",
        "w": 1090,
-       "h": 675,
+       "h": 710,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 173.8,
         "x1": 559,
-        "y1": 497.5
+        "y1": 514.2
        }
       }
      ],
@@ -887,7 +887,7 @@
        }
       }
      ],
-     "text": "In the interview, the customer is asked about their age group and the type of product they usually buy. The results are shown below. Type of product Value Standard Luxury Total Under 30 29 23 8 60 Age 30–50 16 29 30 75 (years) 51 and over 20 26 19 65 Total 65 78 57 200 A chi-squared test is carried out using these results to investigate whether or not there is an association between the type of product bought and the age of the customer. (b) Calculate the expected frequencies for the age group Under 30 who bought (i) value products, (ii) luxury products.",
+     "text": "In the interview, the customer is asked about their age group and the type of product they usually buy. The results are shown below. Type of product Value Standard Luxury Total Under 30 29 23 8 60 Age 30–50 16 29 30 75 (years) 51 and over 20 26 19 65 Total 65 78 57 200 A chi-squared test is carried out using these results to investigate whether or not there is an association between the type of product bought and the age of the customer. (b) Calculate the expected frequencies for the age group Under 30 who bought (i) value products, (ii) luxury products. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -900,11 +900,11 @@
       {
        "src": "maths/WST03_2026_06_A/q5_c.webp",
        "w": 1090,
-       "h": 323,
+       "h": 288,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 497.5,
+        "y0": 514.5,
         "x1": 559,
         "y1": 652.1
        }
@@ -924,7 +924,7 @@
        }
       }
      ],
-     "text": "(2) . / 2 O 3 E The value of for the other seven classes is 6.456 to 3 decimal places. E (c) Carry out a suitable test, at the 1% level of significance, to determine whether or not there is an association between the type of product bought and the age of the customer. Show your working clearly, stating your hypotheses, the degrees of freedom, the test statistic and the critical value used. (7)",
+     "text": ". / 2 O 3 E The value of for the other seven classes is 6.456 to 3 decimal places. E (c) Carry out a suitable test, at the 1% level of significance, to determine whether or not there is an association between the type of product bought and the age of the customer. Show your working clearly, stating your hypotheses, the degrees of freedom, the test statistic and the critical value used. (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -942,10 +942,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(b): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2026_06_A_q6",

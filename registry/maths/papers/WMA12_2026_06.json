@@ -830,13 +830,13 @@
       {
        "src": "maths/WMA12_2026_06/q6_ii.webp",
        "w": 1090,
-       "h": 60,
+       "h": 116,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 322.7,
         "x1": 559,
-        "y1": 351.4
+        "y1": 377.9
        }
       }
      ],
@@ -854,7 +854,7 @@
        }
       }
      ],
-     "text": "(ii) Given that log4 x = a, find in simplest form in terms of a",
+     "text": "(ii) Given that log4 x = a, find in simplest form in terms of a (a) log4 (64x) (2)",
      "kindGuessed": "calc"
     },
     {
@@ -869,11 +869,11 @@
       {
        "src": "maths/WMA12_2026_06/q6_ii_b.webp",
        "w": 1090,
-       "h": 144,
+       "h": 89,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 351.4,
+        "y0": 377.9,
         "x1": 559,
         "y1": 420.0
        }
@@ -893,7 +893,7 @@
        }
       }
      ],
-     "text": "(a) log4 (64x) (2) 2 (b) log4 \u001b\u001a 2 x (3)",
+     "text": "2 (b) log4 \u001b\u001a 2 x (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -923,10 +923,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(ii): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q7",
@@ -985,13 +982,13 @@
       {
        "src": "maths/WMA12_2026_06/q7_b.webp",
        "w": 1090,
-       "h": 241,
+       "h": 300,
        "region": {
         "page": 18,
         "x0": 36,
         "y0": 151.9,
         "x1": 559,
-        "y1": 267.1
+        "y1": 295.2
        }
       }
      ],
@@ -1009,7 +1006,7 @@
        }
       }
      ],
-     "text": "fully simplifying each coefficient. (4) 10 (b) Use x = 1 10 and the answer to part (a) to show that an estimate for 33 \u001b\u001a is 32 1389 k",
+     "text": "fully simplifying each coefficient. (4) 10 (b) Use x = 1 10 and the answer to part (a) to show that an estimate for 33 \u001b\u001a is 32 1389 k where k is an integer to be found. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1024,11 +1021,11 @@
       {
        "src": "maths/WMA12_2026_06/q7_c.webp",
        "w": 1090,
-       "h": 144,
+       "h": 85,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 267.1,
+        "y0": 295.2,
         "x1": 559,
         "y1": 335.9
        }
@@ -1048,7 +1045,7 @@
        }
       }
      ],
-     "text": "where k is an integer to be found. (3) 10 1389 (c) Hence find a rational estimate for (2)",
+     "text": "10 1389 (c) Hence find a rational estimate for (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1080,8 +1077,7 @@
    ],
    "check": "pending",
    "risks": [
-    "7(a): text after the marks",
-    "7(b): text after the marks"
+    "7(a): text after the marks"
    ]
   },
   {
@@ -1360,13 +1356,13 @@
       {
        "src": "maths/WMA12_2026_06/q9_c.webp",
        "w": 1090,
-       "h": 40,
+       "h": 69,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 598.8,
         "x1": 559,
-        "y1": 617.8
+        "y1": 631.4
        }
       }
      ],
@@ -1384,7 +1380,7 @@
        }
       }
      ],
-     "text": "(c) Use algebraic differentiation to find the value of x that gives the minimum value",
+     "text": "(c) Use algebraic differentiation to find the value of x that gives the minimum value for P, giving the answer to 3 significant figures.",
      "kindGuessed": "calc"
     },
     {
@@ -1399,11 +1395,11 @@
       {
        "src": "maths/WMA12_2026_06/q9_d.webp",
        "w": 1090,
-       "h": 208,
+       "h": 180,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 617.8,
+        "y0": 631.4,
         "x1": 559,
         "y1": 717.2
        }
@@ -1435,7 +1431,7 @@
        }
       }
      ],
-     "text": "for P, giving the answer to 3 significant figures. (3) 2 P By considering d 2 d x (d) justify that the value for x found in part (c) gives the minimum value for P. (2)",
+     "text": "(3) 2 P By considering d 2 d x (d) justify that the value for x found in part (c) gives the minimum value for P. (2)",
      "kindGuessed": "calc"
     }
    ],

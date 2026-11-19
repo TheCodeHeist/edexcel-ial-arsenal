@@ -332,13 +332,13 @@
     {
      "src": "maths/WME03_2026_06/q4_stem.webp",
      "w": 1090,
-     "h": 589,
+     "h": 617,
      "region": {
       "page": 14,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 339.1
+      "y1": 352.7
      }
     }
    ],
@@ -353,11 +353,11 @@
       {
        "src": "maths/WME03_2026_06/q4_a.webp",
        "w": 1090,
-       "h": 137,
+       "h": 109,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 339.1,
+        "y0": 352.7,
         "x1": 559,
         "y1": 404.4
        }
@@ -467,11 +467,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2026_06_q5",

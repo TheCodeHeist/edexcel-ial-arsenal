@@ -1266,13 +1266,13 @@
       {
        "src": "maths/WST02_2021_10/q6_e.webp",
        "w": 1016,
-       "h": 40,
+       "h": 75,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 499.1,
         "x1": 523.2,
-        "y1": 517.7
+        "y1": 534.5
        }
       }
      ],
@@ -1290,7 +1290,7 @@
        }
       }
      ],
-     "text": "(e) Find the exact value of the 30th percentile of Y",
+     "text": "(e) Find the exact value of the 30th percentile of Y (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1303,11 +1303,11 @@
       {
        "src": "maths/WST02_2021_10/q6_f.webp",
        "w": 1016,
-       "h": 123,
+       "h": 87,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 517.7,
+        "y0": 534.8,
         "x1": 523.2,
         "y1": 576.5
        }
@@ -1327,7 +1327,7 @@
        }
       }
      ],
-     "text": "(2) (f) Find P(4Y  5 | Y  3) (2)",
+     "text": "(f) Find P(4Y  5 | Y  3) (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1345,10 +1345,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(e): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

@@ -483,13 +483,13 @@
       {
        "src": "maths/WFM02_2022_06/q5_a.webp",
        "w": 1090,
-       "h": 74,
+       "h": 98,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 130.4,
         "x1": 559,
-        "y1": 165.6
+        "y1": 176.9
        }
       }
      ],
@@ -519,7 +519,7 @@
        }
       }
      ],
-     "text": "(a) determine d x in terms of d y x , d y y 3 2 x and y d d d 3 2",
+     "text": "(a) determine d x in terms of d y x , d y y 3 2 x and y d d d 3 2 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -535,11 +535,11 @@
       {
        "src": "maths/WFM02_2022_06/q5_b.webp",
        "w": 1090,
-       "h": 210,
+       "h": 187,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 165.6,
+        "y0": 176.9,
         "x1": 559,
         "y1": 266.0
        }
@@ -571,7 +571,7 @@
        }
       }
      ],
-     "text": "(4) Given that y = 2 and d y x = 1 at x = 0 d (b) determine a series solution for y in ascending powers of x, up to and including the term in x3 , giving each coefficient in its simplest form. (4)",
+     "text": "Given that y = 2 and d y x = 1 at x = 0 d (b) determine a series solution for y in ascending powers of x, up to and including the term in x3 , giving each coefficient in its simplest form. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -601,10 +601,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_06_q6",

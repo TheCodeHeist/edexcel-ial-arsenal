@@ -43,11 +43,11 @@
       {
        "src": "maths/WFM02_2021_06/q1_a.webp",
        "w": 1016,
-       "h": 81,
+       "h": 75,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 65.5,
+        "y0": 68.3,
         "x1": 523.2,
         "y1": 103.9
        }
@@ -160,7 +160,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_06_q2",
@@ -395,13 +395,13 @@
       {
        "src": "maths/WFM02_2021_06/q4_a.webp",
        "w": 1016,
-       "h": 151,
+       "h": 184,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 139.2,
         "x1": 523.2,
-        "y1": 211.7
+        "y1": 227.1
        }
       }
      ],
@@ -419,7 +419,7 @@
        }
       }
      ],
-     "text": "(a) show that y y 3 y     3 d 28 d 24 d = −    x y x y x 3 2 d d d",
+     "text": "(a) show that y y 3 y     3 d 28 d 24 d = −    x y x y x 3 2 d d d (5)",
      "kindGuessed": "calc"
     },
     {
@@ -435,11 +435,11 @@
       {
        "src": "maths/WFM02_2021_06/q4_b.webp",
        "w": 1016,
-       "h": 210,
+       "h": 178,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 211.7,
+        "y0": 227.1,
         "x1": 523.2,
         "y1": 312.1
        }
@@ -459,14 +459,11 @@
        }
       }
      ],
-     "text": "(5) y Given also that y = 8 and d x = 1 at x = 0 d (b) find a series solution for y in ascending powers of x, up to and including the term in x3, simplifying the coefficients where possible. (4)",
+     "text": "y Given also that y = 8 and d x = 1 at x = 0 d (b) find a series solution for y in ascending powers of x, up to and including the term in x3, simplifying the coefficients where possible. (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_06_q5",

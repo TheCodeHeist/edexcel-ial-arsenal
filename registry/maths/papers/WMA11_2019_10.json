@@ -647,13 +647,13 @@
     {
      "src": "maths/WMA11_2019_10/q6_stem.webp",
      "w": 1016,
-     "h": 43,
+     "h": 59,
      "region": {
       "page": 14,
       "x0": 36,
-      "y0": 65.5,
+      "y0": 69.4,
       "x1": 523.2,
-      "y1": 85.7
+      "y1": 97.4
      }
     }
    ],
@@ -671,11 +671,11 @@
       {
        "src": "maths/WMA11_2019_10/q6_a.webp",
        "w": 1016,
-       "h": 122,
+       "h": 98,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 85.7,
+        "y0": 97.4,
         "x1": 523.2,
         "y1": 143.6
        }
@@ -695,7 +695,7 @@
        }
       }
      ],
-     "text": "x (a) Sketch a graph of C, stating the equation of the horizontal asymptote and the coordinates of the point of intersection with the x-axis. (3)",
+     "text": "(a) Sketch a graph of C, stating the equation of the horizontal asymptote and the coordinates of the point of intersection with the x-axis. (3)",
      "kindGuessed": "draw"
     },
     {
@@ -767,7 +767,6 @@
    ],
    "check": "pending",
    "risks": [
-    "6(a): text cut by a crop edge",
     "stem: text cut by a crop edge"
    ]
   },

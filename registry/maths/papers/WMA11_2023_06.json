@@ -387,13 +387,13 @@
       {
        "src": "maths/WMA11_2023_06/q4_a.webp",
        "w": 1090,
-       "h": 301,
+       "h": 355,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 81.2,
         "x1": 559,
-        "y1": 225.4
+        "y1": 251.2
        }
       }
      ],
@@ -411,7 +411,7 @@
        }
       }
      ],
-     "text": "(a) Write x x 5 1 2 3 y O x 3 8 in the form p + Bx q y = Ax",
+     "text": "(a) Write x x 5 1 2 3 y O x 3 8 in the form p + Bx q y = Ax where A, B, p and q are constants to be found. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -426,11 +426,11 @@
       {
        "src": "maths/WMA11_2023_06/q4_b.webp",
        "w": 1090,
-       "h": 144,
+       "h": 90,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 225.4,
+        "y0": 251.2,
         "x1": 559,
         "y1": 294.2
        }
@@ -450,7 +450,7 @@
        }
       }
      ],
-     "text": "where A, B, p and q are constants to be found. (4) (b) Hence find d y x giving each coefficient in simplest form. d (3)",
+     "text": "(b) Hence find d y x giving each coefficient in simplest form. d (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -468,10 +468,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA11_2023_06_q5",

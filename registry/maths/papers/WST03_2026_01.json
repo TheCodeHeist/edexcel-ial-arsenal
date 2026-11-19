@@ -481,13 +481,13 @@
       {
        "src": "maths/WST03_2026_01/q4_d.webp",
        "w": 1090,
-       "h": 61,
+       "h": 91,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 498.8,
         "x1": 559,
-        "y1": 527.8
+        "y1": 542.2
        }
       }
      ],
@@ -505,24 +505,24 @@
        }
       }
      ],
-     "text": "The manager says that the cells for 4, 5 and  6 need to be combined into a single cell.",
+     "text": "The manager says that the cells for 4, 5 and  6 need to be combined into a single cell. (d) Explain why it is necessary for the manager to do this.",
      "kindGuessed": "calc"
     },
     {
      "label": "4(e)",
      "marks": 7,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WST03_2026_01/q4_e.webp",
        "w": 1090,
-       "h": 267,
+       "h": 237,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 527.8,
+        "y0": 542.2,
         "x1": 559,
         "y1": 655.6
        }
@@ -542,8 +542,8 @@
        }
       }
      ],
-     "text": "(d) Explain why it is necessary for the manager to do this. (1) . / 2 O 3 E The value of for the first 4 frequencies given in each table is 2.51 E (e) Using a 10% significance level, test whether or not a binomial distribution is a suitable model. You must state your hypotheses, test statistic and the critical value used. (7)",
-     "kindGuessed": "short"
+     "text": "(1) . / 2 O 3 E The value of for the first 4 frequencies given in each table is 2.51 E (e) Using a 10% significance level, test whether or not a binomial distribution is a suitable model. You must state your hypotheses, test statistic and the critical value used. (7)",
+     "kindGuessed": "calc"
     }
    ],
    "msNotes": [
@@ -830,13 +830,13 @@
     {
      "src": "maths/WST03_2026_01/q7_stem.webp",
      "w": 1090,
-     "h": 91,
+     "h": 117,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 100.1
+      "y1": 112.4
      }
     }
    ],
@@ -851,11 +851,11 @@
       {
        "src": "maths/WST03_2026_01/q7_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 89,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 100.1,
+        "y0": 112.4,
         "x1": 559,
         "y1": 154.6
        }
@@ -875,7 +875,7 @@
        }
       }
      ],
-     "text": "The mean of a random sample of size 9, taken from this distribution, is denoted by X– (a) Find, in terms of X–, an unbiased estimator for a (3)",
+     "text": "(a) Find, in terms of X–, an unbiased estimator for a (3)",
      "kindGuessed": "calc"
     },
     {
@@ -930,11 +930,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2026_01_q8",

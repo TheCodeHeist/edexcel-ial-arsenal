@@ -32,11 +32,11 @@
     {
      "src": "maths/WMA11_2026_01/q1_stem.webp",
      "w": 1090,
-     "h": 124,
+     "h": 116,
      "region": {
       "page": 2,
       "x0": 36,
-      "y0": 64.8,
+      "y0": 68.9,
       "x1": 559,
       "y1": 124.3
      }
@@ -138,7 +138,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WMA11_2026_01_q2",
@@ -409,13 +412,13 @@
     {
      "src": "maths/WMA11_2026_01/q4_stem.webp",
      "w": 1090,
-     "h": 91,
+     "h": 130,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 100.1
+      "y1": 118.8
      }
     }
    ],
@@ -432,11 +435,11 @@
       {
        "src": "maths/WMA11_2026_01/q4_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 100.1,
+        "y0": 119.2,
         "x1": 559,
         "y1": 154.6
        }
@@ -456,7 +459,7 @@
        }
       }
      ],
-     "text": "The point A (–1, 8) and the point B (7, 2) lie on the line L1 (a) Find an equation for L1 in the form ax + by + c = 0 , where a, b and c are integers. (3)",
+     "text": "(a) Find an equation for L1 in the form ax + by + c = 0 , where a, b and c are integers. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -566,7 +569,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2026_01_q5",
@@ -1275,7 +1278,7 @@
     {
      "label": "9(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [
       "P1.3.3"
      ],

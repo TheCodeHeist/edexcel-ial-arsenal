@@ -1368,20 +1368,20 @@
     {
      "label": "8(a)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WDM11_2025_01/q8_a.webp",
        "w": 1090,
-       "h": 12,
+       "h": 63,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 534.1,
         "x1": 559,
-        "y1": 539.3
+        "y1": 563.9
        }
       }
      ],
@@ -1399,24 +1399,24 @@
        }
       }
      ],
-     "text": "",
-     "kindGuessed": "calc"
+     "text": "(a) State the four inequalities that define the feasible region. (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "8(b)",
      "marks": 5,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WDM11_2025_01/q8_b.webp",
        "w": 1090,
-       "h": 275,
+       "h": 224,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 539.3,
+        "y0": 563.9,
         "x1": 559,
         "y1": 671.0
        }
@@ -1436,8 +1436,8 @@
        }
       }
      ],
-     "text": "(a) State the four inequalities that define the feasible region. (2) The maximum value of the objective function is 628 9 The minimum value of the objective function is 260 7 (b) Determine the objective function, showing your working clearly. (5)",
-     "kindGuessed": "short"
+     "text": "The maximum value of the objective function is 628 9 The minimum value of the objective function is 260 7 (b) Determine the objective function, showing your working clearly. (5)",
+     "kindGuessed": "calc"
     },
     {
      "label": "8(c)",
@@ -1491,11 +1491,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks",
-    "8(a): text doesn't start at its label"
-   ]
+   "check": "pending"
   }
  ]
 }

@@ -950,13 +950,13 @@
     {
      "src": "maths/WST03_2026_06/q7_stem.webp",
      "w": 1090,
-     "h": 305,
+     "h": 351,
      "region": {
       "page": 26,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 203.0
+      "y1": 224.7
      }
     }
    ],
@@ -971,13 +971,13 @@
       {
        "src": "maths/WST03_2026_06/q7_a.webp",
        "w": 1090,
-       "h": 56,
+       "h": 53,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 203.0,
+        "y0": 225.0,
         "x1": 559,
-        "y1": 229.7
+        "y1": 249.8
        }
       }
      ],
@@ -995,7 +995,7 @@
        }
       }
      ],
-     "text": "C = 4W1 – 3X2 – Y",
+     "text": "(a) Find the distribution of C (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1008,11 +1008,11 @@
       {
        "src": "maths/WST03_2026_06/q7_b.webp",
        "w": 1090,
-       "h": 144,
+       "h": 102,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 229.7,
+        "y0": 249.8,
         "x1": 559,
         "y1": 298.4
        }
@@ -1032,7 +1032,7 @@
        }
       }
      ],
-     "text": "(a) Find the distribution of C (3) _ (b) Hence find, using standardisation, P (4W1 < 3X2 + Y + σ) (3)",
+     "text": "_ (b) Hence find, using standardisation, P (4W1 < 3X2 + Y + σ) (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1101,8 +1101,8 @@
    ],
    "check": "pending",
    "risks": [
-    "7(a): text after the marks",
-    "7(a): text doesn't start at its label"
+    "7(a): text cut by a crop edge",
+    "7(b): text cut by a crop edge"
    ]
   }
  ]

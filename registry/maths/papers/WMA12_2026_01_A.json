@@ -222,13 +222,13 @@
       {
        "src": "maths/WMA12_2026_01_A/q2_b.webp",
        "w": 1090,
-       "h": 11,
+       "h": 65,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 491.7,
         "x1": 559,
-        "y1": 496.8
+        "y1": 522.4
        }
       }
      ],
@@ -246,7 +246,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(b) u61 (1)",
      "kindGuessed": "calc"
     },
     {
@@ -261,11 +261,11 @@
       {
        "src": "maths/WMA12_2026_01_A/q2_c.webp",
        "w": 1090,
-       "h": 143,
+       "h": 90,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 496.8,
+        "y0": 522.4,
         "x1": 559,
         "y1": 565.1
        }
@@ -285,7 +285,7 @@
        }
       }
      ],
-     "text": "(b) u61 (1) 99 iO (c) ui (2) 1",
+     "text": "99 iO (c) ui (2) 1",
      "kindGuessed": "calc"
     }
    ],
@@ -305,8 +305,6 @@
    ],
    "check": "pending",
    "risks": [
-    "2(b): text after the marks",
-    "2(b): text doesn't start at its label",
     "2(c): text after the marks"
    ]
   },

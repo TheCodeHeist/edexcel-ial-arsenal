@@ -386,13 +386,13 @@
     {
      "src": "maths/WFM02_2024_01/q4_stem.webp",
      "w": 1090,
-     "h": 118,
+     "h": 135,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 113.0
+      "y1": 121.1
      }
     }
    ],
@@ -409,11 +409,11 @@
       {
        "src": "maths/WFM02_2024_01/q4_a.webp",
        "w": 1090,
-       "h": 343,
+       "h": 326,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 113.0,
+        "y0": 121.1,
         "x1": 559,
         "y1": 277.0
        }
@@ -433,7 +433,7 @@
        }
       }
      ],
-     "text": "3 \u001b \u001b ° ° (a) Determine, in ascending powers of x 3 up to and including the term in x 3 , \u0019 \u0019 6 6 \u001a \u001a the Taylor series expansion about π of 6 \u001b tan 3 x y O \u0019 2 \u001a giving each coefficient in simplest form. (7)",
+     "text": "\u001b ° ° (a) Determine, in ascending powers of x 3 up to and including the term in x 3 , \u0019 \u0019 6 6 \u001a \u001a the Taylor series expansion about π of 6 \u001b tan 3 x y O \u0019 2 \u001a giving each coefficient in simplest form. (7)",
      "kindGuessed": "calc"
     },
     {
@@ -476,7 +476,11 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WFM02_2024_01_q5",
@@ -487,7 +491,7 @@
     {
      "label": "5",
      "marks": 9,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "FP2.7.2"
      ],
@@ -571,13 +575,13 @@
       {
        "src": "maths/WFM02_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 11,
+       "h": 66,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 159.0,
         "x1": 559,
-        "y1": 164.2
+        "y1": 190.3
        }
       }
      ],
@@ -607,7 +611,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "(a) Determine the general solution of this differential equation. (6)",
      "kindGuessed": "calc"
     },
     {
@@ -622,11 +626,11 @@
       {
        "src": "maths/WFM02_2024_01/q6_b.webp",
        "w": 1090,
-       "h": 193,
+       "h": 139,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 164.2,
+        "y0": 190.3,
         "x1": 559,
         "y1": 256.4
        }
@@ -658,7 +662,7 @@
        }
       }
      ],
-     "text": "(a) Determine the general solution of this differential equation. (6) Given that the motion of the particle satisfies x = 1 and d x t = 1 when t = 0 2 d 2 (b) determine the particular solution for the motion of the particle. (4)",
+     "text": "Given that the motion of the particle satisfies x = 1 and d x t = 1 when t = 0 2 d 2 (b) determine the particular solution for the motion of the particle. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -714,11 +718,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text after the marks",
-    "6(a): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM02_2024_01_q7",

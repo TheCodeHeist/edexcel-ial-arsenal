@@ -171,11 +171,11 @@
     {
      "src": "maths/WFM01_2025_06/q2_stem.webp",
      "w": 1090,
-     "h": 131,
+     "h": 129,
      "region": {
       "page": 6,
       "x0": 36,
-      "y0": 64.1,
+      "y0": 64.8,
       "x1": 559,
       "y1": 126.4
      }
@@ -236,7 +236,7 @@
     {
      "label": "2(b)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "FP1.6.2"
      ],
@@ -677,13 +677,13 @@
       {
        "src": "maths/WFM01_2025_06/q4_b.webp",
        "w": 1090,
-       "h": 61,
+       "h": 123,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 198.1,
         "x1": 559,
-        "y1": 226.8
+        "y1": 256.7
        }
       }
      ],
@@ -701,7 +701,7 @@
        }
       }
      ],
-     "text": "The normal to C at P meets the y-axis at the point A.",
+     "text": "The normal to C at P meets the y-axis at the point A. (b) Determine the exact coordinates of A in terms of t. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -717,11 +717,11 @@
       {
        "src": "maths/WFM01_2025_06/q4_c.webp",
        "w": 1090,
-       "h": 215,
+       "h": 153,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 226.8,
+        "y0": 256.7,
         "x1": 559,
         "y1": 329.3
        }
@@ -741,15 +741,11 @@
        }
       }
      ],
-     "text": "(b) Determine the exact coordinates of A in terms of t. (2) Given that t = 1 3 (c) find the exact area of triangle OPA, where O is the origin. (2)",
+     "text": "Given that t = 1 3 (c) find the exact area of triangle OPA, where O is the origin. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(b): text after the marks",
-    "4(b): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM01_2025_06_q5",
@@ -759,13 +755,13 @@
     {
      "src": "maths/WFM01_2025_06/q5_stem.webp",
      "w": 1090,
-     "h": 272,
+     "h": 315,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 187.2
+      "y1": 207.6
      }
     }
    ],
@@ -773,7 +769,7 @@
     {
      "label": "5(a)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "FP1.1.1"
      ],
@@ -782,11 +778,11 @@
       {
        "src": "maths/WFM01_2025_06/q5_a.webp",
        "w": 1090,
-       "h": 118,
+       "h": 75,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 187.2,
+        "y0": 208.0,
         "x1": 559,
         "y1": 243.4
        }
@@ -818,8 +814,8 @@
        }
       }
      ],
-     "text": "Given that | z1z2 | = 15 (a) state the value of r. (1)",
-     "kindGuessed": "calc"
+     "text": "(a) state the value of r. (1)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(b)",
@@ -876,7 +872,7 @@
     {
      "label": "5(c)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [
       "FP1.1.3"
      ],
@@ -1493,7 +1489,7 @@
     {
      "label": "9",
      "marks": 4,
-     "kind": "draw",
+     "kind": "calc",
      "topics": [
       "FP1.4.3",
       "FP1.4.1"

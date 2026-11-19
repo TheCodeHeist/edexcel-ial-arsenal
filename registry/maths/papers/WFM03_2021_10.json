@@ -359,13 +359,13 @@
       {
        "src": "maths/WFM03_2021_10/q4_b.webp",
        "w": 1016,
-       "h": 91,
+       "h": 125,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 186.6,
         "x1": 523.2,
-        "y1": 229.7
+        "y1": 245.9
        }
       }
      ],
@@ -383,7 +383,7 @@
        }
       }
      ],
-     "text": "Given that k ≠ 2 (b) find M−1 in terms of k.",
+     "text": "Given that k ≠ 2 (b) find M−1 in terms of k. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -399,11 +399,11 @@
       {
        "src": "maths/WFM03_2021_10/q4_c.webp",
        "w": 1016,
-       "h": 243,
+       "h": 209,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 229.7,
+        "y0": 246.0,
         "x1": 523.2,
         "y1": 345.9
        }
@@ -435,7 +435,7 @@
        }
       }
      ],
-     "text": "(4) The points O (0, 0, 0), A (4, −8, 3), B (−2, 5, −4) and C (4, −6, 8) are the vertices of a tetrahedron T. The transformation represented by matrix M transforms T to a tetrahedron with volume 50 (c) Determine the possible values of k. (5)",
+     "text": "The points O (0, 0, 0), A (4, −8, 3), B (−2, 5, −4) and C (4, −6, 8) are the vertices of a tetrahedron T. The transformation represented by matrix M transforms T to a tetrahedron with volume 50 (c) Determine the possible values of k. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -453,10 +453,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(b): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_10_q5",

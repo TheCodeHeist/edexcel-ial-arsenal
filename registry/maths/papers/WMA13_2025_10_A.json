@@ -692,13 +692,13 @@
       {
        "src": "maths/WMA13_2025_10_A/q5_a.webp",
        "w": 1090,
-       "h": 63,
+       "h": 126,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 83.8,
         "x1": 559,
-        "y1": 113.8
+        "y1": 143.9
        }
       }
      ],
@@ -716,7 +716,7 @@
        }
       }
      ],
-     "text": "(a) Prove that",
+     "text": "(a) Prove that nπ 2 cosec 2A – cot A ≡ tan A A n ∈  2 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -732,11 +732,11 @@
       {
        "src": "maths/WMA13_2025_10_A/q5_b.webp",
        "w": 1090,
-       "h": 324,
+       "h": 262,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 113.8,
+        "y0": 143.9,
         "x1": 559,
         "y1": 269.0
        }
@@ -768,7 +768,7 @@
        }
       }
      ],
-     "text": "nπ 2 cosec 2A – cot A ≡ tan A A n ∈  2 (4) ° (b) Hence solve, for 0  θ  2 (i) 2 cosec 4θ – cot 2θ = 3 (ii) tan θ + cot θ = 5 Give your answers to 3 significant figures. (5)",
+     "text": "° (b) Hence solve, for 0  θ  2 (i) 2 cosec 4θ – cot 2θ = 3 (ii) tan θ + cot θ = 5 Give your answers to 3 significant figures. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -786,12 +786,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(a): text cut by a crop edge",
-    "5(b): text cut by a crop edge",
-    "5(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA13_2025_10_A_q6",

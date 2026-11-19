@@ -355,7 +355,7 @@
     {
      "label": "3(a)",
      "marks": 3,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [
       "P1.1.12",
       "P1.1.11"
@@ -395,7 +395,7 @@
     {
      "label": "3(b)",
      "marks": 3,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [
       "P1.1.12",
       "P1.1.11"
@@ -460,13 +460,13 @@
     {
      "src": "maths/WMA11_2024_06/q4_stem.webp",
      "w": 1090,
-     "h": 298,
+     "h": 338,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 199.4
+      "y1": 218.4
      }
     }
    ],
@@ -484,11 +484,11 @@
       {
        "src": "maths/WMA11_2024_06/q4_a.webp",
        "w": 1090,
-       "h": 175,
+       "h": 135,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 199.4,
+        "y0": 218.8,
         "x1": 559,
         "y1": 282.8
        }
@@ -508,7 +508,7 @@
        }
       }
      ],
-     "text": "Given that C1 and C2 meet at a single point P (a) show that 2 + 26k + 169 = 0 k (3)",
+     "text": "(a) show that 2 + 26k + 169 = 0 k (3)",
      "kindGuessed": "calc"
     },
     {
@@ -566,7 +566,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_06_q5",
@@ -576,13 +576,13 @@
     {
      "src": "maths/WMA11_2024_06/q5_stem.webp",
      "w": 1090,
-     "h": 611,
+     "h": 670,
      "region": {
       "page": 10,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 349.9
+      "y1": 378.1
      }
     }
    ],
@@ -599,11 +599,11 @@
       {
        "src": "maths/WMA11_2024_06/q5_a.webp",
        "w": 1090,
-       "h": 133,
+       "h": 75,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 349.9,
+        "y0": 378.1,
         "x1": 559,
         "y1": 413.5
        }
@@ -623,7 +623,7 @@
        }
       }
      ],
-     "text": "π radians, angle EBD = 1.3 radians and AE = 12.2 m Angle BCD = 2 (a) Find the area of the sector BDE, giving your answer in m 2 (2)",
+     "text": "(a) Find the area of the sector BDE, giving your answer in m 2 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1050,13 +1050,13 @@
       {
        "src": "maths/WMA11_2024_06/q8_a.webp",
        "w": 1090,
-       "h": 41,
+       "h": 93,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 114.0,
         "x1": 559,
-        "y1": 133.2
+        "y1": 158.0
        }
       }
      ],
@@ -1074,7 +1074,7 @@
        }
       }
      ],
-     "text": "(a) Sketch the graph of C1 showing the coordinates of any points of intersection with",
+     "text": "(a) Sketch the graph of C1 showing the coordinates of any points of intersection with the coordinate axes. (3)",
      "kindGuessed": "draw"
     },
     {
@@ -1090,11 +1090,11 @@
       {
        "src": "maths/WMA11_2024_06/q8_b.webp",
        "w": 1090,
-       "h": 294,
+       "h": 242,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 133.2,
+        "y0": 158.0,
         "x1": 559,
         "y1": 273.6
        }
@@ -1114,7 +1114,7 @@
        }
       }
      ],
-     "text": "the coordinate axes. (3) The curve C2 has equation y = A x where A is a constant. (b) Show that the x coordinates of the points of intersection of C1 and C2 satisfy the equation x 4 – 4x 2 + A = 0 (1)",
+     "text": "The curve C2 has equation y = A x where A is a constant. (b) Show that the x coordinates of the points of intersection of C1 and C2 satisfy the equation x 4 – 4x 2 + A = 0 (1)",
      "kindGuessed": "calc"
     },
     {
@@ -1184,10 +1184,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA11_2024_06_q9",
@@ -1197,13 +1194,13 @@
     {
      "src": "maths/WMA11_2024_06/q9_stem.webp",
      "w": 1090,
-     "h": 161,
+     "h": 200,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 133.9
+      "y1": 152.6
      }
     }
    ],
@@ -1220,11 +1217,11 @@
       {
        "src": "maths/WMA11_2024_06/q9_a.webp",
        "w": 1090,
-       "h": 143,
+       "h": 104,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 133.9,
+        "y0": 152.9,
         "x1": 559,
         "y1": 202.3
        }
@@ -1256,7 +1253,7 @@
        }
       }
      ],
-     "text": "• the line l1 passes through A and B (a) find an equation for l1, giving your answer in the form px + qy + r = 0 where p, q and r are integers to be found. (3)",
+     "text": "(a) find an equation for l1, giving your answer in the form px + qy + r = 0 where p, q and r are integers to be found. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1503,13 +1500,13 @@
     {
      "src": "maths/WMA11_2024_06/q11_stem.webp",
      "w": 1090,
-     "h": 657,
+     "h": 696,
      "region": {
       "page": 30,
       "x0": 36,
       "y0": 54.2,
       "x1": 559,
-      "y1": 369.4
+      "y1": 388.1
      }
     }
    ],
@@ -1527,11 +1524,11 @@
       {
        "src": "maths/WMA11_2024_06/q11_a.webp",
        "w": 1090,
-       "h": 115,
+       "h": 75,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 369.4,
+        "y0": 388.5,
         "x1": 559,
         "y1": 423.9
        }
@@ -1551,7 +1548,7 @@
        }
       }
      ],
-     "text": "The point P shown in Figure 4 is a maximum point on C1 (a) Find the coordinates of P. (2)",
+     "text": "(a) Find the coordinates of P. (2)",
      "kindGuessed": "calc"
     },
     {

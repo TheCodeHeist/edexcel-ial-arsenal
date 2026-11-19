@@ -333,13 +333,13 @@
       {
        "src": "maths/WMA12_2025_01/q3_b.webp",
        "w": 1090,
-       "h": 39,
+       "h": 100,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 517.0,
         "x1": 559,
-        "y1": 535.7
+        "y1": 564.8
        }
       }
      ],
@@ -357,7 +357,7 @@
        }
       }
      ],
-     "text": "(b) Use calculus to find the value of x for which A has a stationary value, giving your",
+     "text": "(b) Use calculus to find the value of x for which A has a stationary value, giving your answer to 3 significant figures. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -372,11 +372,11 @@
       {
        "src": "maths/WMA12_2025_01/q3_c.webp",
        "w": 1090,
-       "h": 206,
+       "h": 146,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 535.7,
+        "y0": 564.8,
         "x1": 559,
         "y1": 634.1
        }
@@ -396,7 +396,7 @@
        }
       }
      ],
-     "text": "answer to 3 significant figures. (4) 2 (c) Find d A and hence show that the value of x found in part (b) gives the minimum 2 x d value of A. (2)",
+     "text": "2 (c) Find d A and hence show that the value of x found in part (b) gives the minimum 2 x d value of A. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -438,10 +438,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(b): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA12_2025_01_q4",

@@ -424,13 +424,13 @@
       {
        "src": "maths/WFM02_2026_01/q4_a.webp",
        "w": 1090,
-       "h": 181,
+       "h": 244,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 102.8,
         "x1": 559,
-        "y1": 189.4
+        "y1": 219.5
        }
       }
      ],
@@ -448,7 +448,7 @@
        }
       }
      ],
-     "text": "(a) Show that 4 y 3 y 2 y Bx y d d d d O 1 Ax 2 1 1 Cy d x 4 d x 3 d x 2 d x",
+     "text": "(a) Show that 4 y 3 y 2 y Bx y d d d d O 1 Ax 2 1 1 Cy d x 4 d x 3 d x 2 d x where A, B and C are integers to be determined. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -464,11 +464,11 @@
       {
        "src": "maths/WFM02_2026_01/q4_b.webp",
        "w": 1090,
-       "h": 247,
+       "h": 184,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 189.4,
+        "y0": 219.5,
         "x1": 559,
         "y1": 307.4
        }
@@ -488,14 +488,11 @@
        }
       }
      ],
-     "text": "where A, B and C are integers to be determined. (4) Given that d y x = 3 and y = 1 at x = 1 d (b) determine the Taylor series solution for y in ascending powers of (x – 1), up to and including the term in (x – 1) 4, giving each coefficient in simplest form. (4)",
+     "text": "Given that d y x = 3 and y = 1 at x = 1 d (b) determine the Taylor series solution for y in ascending powers of (x – 1), up to and including the term in (x – 1) 4, giving each coefficient in simplest form. (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2026_01_q5",
@@ -558,7 +555,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_q6",
@@ -644,13 +641,13 @@
       {
        "src": "maths/WFM02_2026_01/q7_a.webp",
        "w": 1090,
-       "h": 137,
+       "h": 192,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 133.0,
         "x1": 559,
-        "y1": 198.7
+        "y1": 224.7
        }
       }
      ],
@@ -668,7 +665,7 @@
        }
       }
      ],
-     "text": "(a) show that 4 θ = 1 sin 8 (A cos 4θ + B cos 2θ + C)",
+     "text": "(a) show that 4 θ = 1 sin 8 (A cos 4θ + B cos 2θ + C) where A, B and C are integers to be determined. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -683,11 +680,11 @@
       {
        "src": "maths/WFM02_2026_01/q7_b.webp",
        "w": 1090,
-       "h": 209,
+       "h": 155,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 198.7,
+        "y0": 224.7,
         "x1": 559,
         "y1": 298.8
        }
@@ -707,7 +704,7 @@
        }
       }
      ],
-     "text": "where A, B and C are integers to be determined. (4) 1 Using cos θ sin 2 π 3 θ and the result from part (a), \u001b \u001a \u0019 \u0018 (b) determine an expression for cos 4θ in terms of cos 4θ and cos 2θ (2)",
+     "text": "1 Using cos θ sin 2 π 3 θ and the result from part (a), \u001b \u001a \u0019 \u0018 (b) determine an expression for cos 4θ in terms of cos 4θ and cos 2θ (2)",
      "kindGuessed": "calc"
     },
     {
@@ -751,10 +748,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2026_01_q8",

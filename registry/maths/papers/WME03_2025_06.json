@@ -336,13 +336,13 @@
     {
      "src": "maths/WME03_2025_06/q4_stem.webp",
      "w": 1090,
-     "h": 733,
+     "h": 787,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 408.2
+      "y1": 434.2
      }
     }
    ],
@@ -357,13 +357,13 @@
       {
        "src": "maths/WME03_2025_06/q4_a.webp",
        "w": 1090,
-       "h": 137,
+       "h": 109,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 408.2,
+        "y0": 434.2,
         "x1": 559,
-        "y1": 473.8
+        "y1": 486.2
        }
       }
      ],
@@ -381,7 +381,7 @@
        }
       }
      ],
-     "text": "At the instant when P reaches the point D, where CD = 3 2 shown in Figure 3. (a) Show that the elastic energy stored in the string increases by 1 2 mga, as P moves downwards from C to D.",
+     "text": "(a) Show that the elastic energy stored in the string increases by 1 2 mga, as P moves downwards from C to D. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -394,11 +394,11 @@
       {
        "src": "maths/WME03_2025_06/q4_b.webp",
        "w": 1090,
-       "h": 215,
+       "h": 190,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 473.8,
+        "y0": 486.2,
         "x1": 559,
         "y1": 576.6
        }
@@ -418,7 +418,7 @@
        }
       }
      ],
-     "text": "(3) Air resistance is modelled as a constant force of magnitude 1 5 mg Using the model and the work‑energy principle, (b) find V in terms of a and g. (5)",
+     "text": "Air resistance is modelled as a constant force of magnitude 1 5 mg Using the model and the work‑energy principle, (b) find V in terms of a and g. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -448,12 +448,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text cut by a crop edge",
-    "stem: text cut by a crop edge",
-    "4(a): text after the marks"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2025_06_q5",

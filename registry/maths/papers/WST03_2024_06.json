@@ -886,13 +886,13 @@
       {
        "src": "maths/WST03_2024_06/q6_b.webp",
        "w": 1090,
-       "h": 119,
+       "h": 172,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 138.9,
         "x1": 559,
-        "y1": 195.8
+        "y1": 221.2
        }
       }
      ],
@@ -910,7 +910,7 @@
        }
       }
      ],
-     "text": "The weights of bags of potatoes, R kg, are such that R ~ N(2.3, 0.03 2) Two bags of potatoes are selected at random.",
+     "text": "The weights of bags of potatoes, R kg, are such that R ~ N(2.3, 0.03 2) Two bags of potatoes are selected at random. (b) Calculate the probability that the difference in their weights is more than 0.05 kg. (5)",
      "kindGuessed": "calc"
     },
     {
@@ -923,11 +923,11 @@
       {
        "src": "maths/WST03_2024_06/q6_c.webp",
        "w": 1090,
-       "h": 273,
+       "h": 221,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 195.8,
+        "y0": 221.2,
         "x1": 559,
         "y1": 326.5
        }
@@ -947,7 +947,7 @@
        }
       }
      ],
-     "text": "(b) Calculate the probability that the difference in their weights is more than 0.05 kg. (5) The weights of trays, T kg, are such that T ~ N(2.5, ) 2 0 1 . The random variable G represents the total weight, in kg, of a single tray packed with 10 bags of potatoes where G and T are independent. (c) Calculate P(G < 2T + 20) (7)",
+     "text": "The weights of trays, T kg, are such that T ~ N(2.5, ) 2 0 1 . The random variable G represents the total weight, in kg, of a single tray packed with 10 bags of potatoes where G and T are independent. (c) Calculate P(G < 2T + 20) (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -977,11 +977,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(b): text after the marks",
-    "6(b): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2024_06_q7",

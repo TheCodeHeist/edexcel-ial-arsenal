@@ -1451,13 +1451,13 @@
       {
        "src": "maths/WST01_2025_10_A/q7_c.webp",
        "w": 1090,
-       "h": 90,
+       "h": 148,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 210.2,
         "x1": 559,
-        "y1": 252.7
+        "y1": 280.5
        }
       }
      ],
@@ -1475,24 +1475,24 @@
        }
       }
      ],
-     "text": "Two more rabbits weighing 776 grams and 896 grams are added to make a group of 12 rabbits.",
+     "text": "Two more rabbits weighing 776 grams and 896 grams are added to make a group of 12 rabbits. (c) State, giving a reason, how the inclusion of these two rabbits would affect the mean. (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "7(d)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WST01_2025_10_A/q7_d.webp",
        "w": 1090,
-       "h": 174,
+       "h": 116,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 252.7,
+        "y0": 280.5,
         "x1": 559,
         "y1": 335.6
        }
@@ -1512,8 +1512,8 @@
        }
       }
      ],
-     "text": "(c) State, giving a reason, how the inclusion of these two rabbits would affect the mean. (2) x 2 , state what effect the inclusion of these two (d) By considering the change in x 3 ( ) rabbits would have on the standard deviation. (2)",
-     "kindGuessed": "short"
+     "text": "x 2 , state what effect the inclusion of these two (d) By considering the change in x 3 ( ) rabbits would have on the standard deviation. (2)",
+     "kindGuessed": "calc"
     }
    ],
    "msNotes": [
@@ -1542,10 +1542,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(c): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

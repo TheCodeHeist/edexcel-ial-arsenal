@@ -1664,13 +1664,13 @@
       {
        "src": "maths/WMA13_2024_01/q9_a.webp",
        "w": 1090,
-       "h": 213,
+       "h": 258,
        "region": {
         "page": 26,
         "x0": 36,
         "y0": 114.0,
         "x1": 559,
-        "y1": 216.0
+        "y1": 237.3
        }
       }
      ],
@@ -1700,7 +1700,7 @@
        }
       }
      ],
-     "text": "(a) Show that the equation 3sin θ cos θ O 1 θ θ 3 θ (2 sec2 )(cos sin ) θ θ cos 1 sin can be written in the form",
+     "text": "(a) Show that the equation 3sin θ cos θ O 1 θ θ 3 θ (2 sec2 )(cos sin ) θ θ cos 1 sin can be written in the form θ θ 3sin 2 3 4cos2 O 2 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1715,11 +1715,11 @@
       {
        "src": "maths/WMA13_2024_01/q9_b.webp",
        "w": 1090,
-       "h": 315,
+       "h": 271,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 216.0,
+        "y0": 237.3,
         "x1": 559,
         "y1": 367.0
        }
@@ -1739,7 +1739,7 @@
        }
       }
      ],
-     "text": "θ θ 3sin 2 3 4cos2 O 2 (3) 3 π (b) Hence solve for π x N N 2 x x 3 sin cos O 1 x x 3 x ( 2 sec 2 )(cos sin ) cos x 1 sin x giving the answer to 3 significant figures. (5)",
+     "text": "3 π (b) Hence solve for π x N N 2 x x 3 sin cos O 1 x x 3 x ( 2 sec 2 )(cos sin ) cos x 1 sin x giving the answer to 3 significant figures. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1793,10 +1793,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "9(a): text after the marks"
-   ]
+   "check": "pending"
   }
  ]
 }

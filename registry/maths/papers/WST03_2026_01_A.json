@@ -156,13 +156,13 @@
     {
      "src": "maths/WST03_2026_01_A/q2_stem.webp",
      "w": 1090,
-     "h": 90,
+     "h": 108,
      "region": {
       "page": 2,
       "x0": 36,
       "y0": 492.8,
       "x1": 559,
-      "y1": 535.7
+      "y1": 544.3
      }
     }
    ],
@@ -177,13 +177,13 @@
       {
        "src": "maths/WST03_2026_01_A/q2_a.webp",
        "w": 1090,
-       "h": 50,
+       "h": 85,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 535.7,
+        "y0": 544.3,
         "x1": 559,
-        "y1": 559.4
+        "y1": 584.7
        }
       }
      ],
@@ -213,7 +213,7 @@
        }
       }
      ],
-     "text": "The mean of a random sample of size n is denoted by X–",
+     "text": "(a) Show that X– is a biased estimator of α, and state the bias. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -226,11 +226,11 @@
       {
        "src": "maths/WST03_2026_01_A/q2_b.webp",
        "w": 1090,
-       "h": 194,
+       "h": 141,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 559.4,
+        "y0": 584.7,
         "x1": 559,
         "y1": 652.3
        }
@@ -262,7 +262,7 @@
        }
       }
      ],
-     "text": "(a) Show that X– is a biased estimator of α, and state the bias. (3) Given that Y = k X– is an unbiased estimator for α (b) find the value of k. (1)",
+     "text": "Given that Y = k X– is an unbiased estimator for α (b) find the value of k. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -329,14 +329,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): text cut by a crop edge",
-    "2(b): text cut by a crop edge",
-    "stem: text cut by a crop edge",
-    "2(a): text after the marks",
-    "2(a): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST03_2026_01_A_q3",

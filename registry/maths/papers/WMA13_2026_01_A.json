@@ -324,13 +324,13 @@
       {
        "src": "maths/WMA13_2026_01_A/q3_i.webp",
        "w": 1090,
-       "h": 15,
+       "h": 77,
        "region": {
         "page": 3,
         "x0": 36,
         "y0": 82.0,
         "x1": 559,
-        "y1": 88.6
+        "y1": 118.1
        }
       }
      ],
@@ -360,7 +360,7 @@
        }
       }
      ],
-     "text": "",
+     "text": "2 – 3x + 6) by (x + 2) (i) (a) Divide (x (2)",
      "kindGuessed": "calc"
     },
     {
@@ -375,11 +375,11 @@
       {
        "src": "maths/WMA13_2026_01_A/q3_i_b.webp",
        "w": 1090,
-       "h": 153,
+       "h": 91,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 88.6,
+        "y0": 118.1,
         "x1": 559,
         "y1": 161.4
        }
@@ -411,7 +411,7 @@
        }
       }
      ],
-     "text": "2 – 3x + 6) by (x + 2) (i) (a) Divide (x (2) x 3 x 1 2 3 6 (b) Hence find x d x 1 2 (3)",
+     "text": "x 3 x 1 2 3 6 (b) Hence find x d x 1 2 (3)",
      "kindGuessed": "calc"
     },
     {
@@ -481,13 +481,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(i)(b): text cut by a crop edge",
-    "3(i): text cut by a crop edge",
-    "3(i): text after the marks",
-    "3(i): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA13_2026_01_A_q4",
