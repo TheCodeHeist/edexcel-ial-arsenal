@@ -720,15 +720,16 @@
         }
       },
       "ms": {
-        "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_FP1_MS.pdf",
-        "via": "paperlords",
-        "sha256": "5a568d1775dafc0447c8ec983d70babd72cded6bc30235748cd7e122c2744ca7",
+        "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL//Further-Pure/F1/MS/January 2022 MS.pdf",
+        "via": "pmt",
+        "sha256": "172bf0d70dac0236aa12b40af1cc0c6668bccebecb619e321c3762b631f834a7",
         "mirrors": [
           {
-            "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL//Further-Pure/F1/MS/January 2022 MS.pdf",
-            "via": "pmt"
+            "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_FP1_MS.pdf",
+            "via": "paperlords"
           }
         ],
+        "note": "PaperLords' copy has the FP1 cover (WFM01_01_2201_MS) but FP3's mark scheme inside (hyperbolic functions); PMT's copy is the FP1 mark scheme and is used instead",
         "check": {
           "status": "ok",
           "cover": {
@@ -737,7 +738,7 @@
             "variant": "",
             "series": "2022-01"
           },
-          "sha256": "5a568d1775dafc0447c8ec983d70babd72cded6bc30235748cd7e122c2744ca7"
+          "sha256": "172bf0d70dac0236aa12b40af1cc0c6668bccebecb619e321c3762b631f834a7"
         }
       }
     },

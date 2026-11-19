@@ -15,11 +15,11 @@
    }
   },
   "ms": {
-   "url": "https://archive.paperlords.org/library/IAL/Maths/Jan%202022/IAL_MATHS_2022_Jan_FP1_MS.pdf",
+   "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL//Further-Pure/F1/MS/January 2022 MS.pdf",
    "via": {
-    "name": "PaperLords",
-    "url": "https://www.paperlords.org/ial",
-    "credit": "Collected and kept up to date by the PaperLords team, free for students everywhere."
+    "name": "Physics & Maths Tutor",
+    "url": "https://www.physicsandmathstutor.com/a-level-maths-papers/",
+    "credit": "Archived by Physics & Maths Tutor."
    }
   }
  },
@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.4",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q1.webp",
@@ -52,56 +55,34 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q1_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q1_ms.webp",
        "w": 1092,
-       "h": 959,
+       "h": 417,
        "region": {
-        "page": 4,
+        "page": 8,
         "x0": 36,
-        "y0": 84.8,
+        "y0": 87.3,
         "x1": 560,
-        "y1": 544.6
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q1_ms_2.webp",
-       "w": 1092,
-       "h": 456,
-       "region": {
-        "page": 4,
-        "x0": 36,
-        "y0": 550.6,
-        "x1": 560,
-        "y1": 769.3
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q1_ms_3.webp",
-       "w": 1092,
-       "h": 720,
-       "region": {
-        "page": 5,
-        "x0": 36,
-        "y0": 40,
-        "x1": 560,
-        "y1": 385.3
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q1_ms_4.webp",
-       "w": 1092,
-       "h": 1135,
-       "region": {
-        "page": 6,
-        "x0": 36,
-        "y0": 40,
-        "x1": 560,
-        "y1": 584.3
+        "y1": 286.7
        }
       }
      ],
      "text": "  1. M =   4 x + 1 2 − x Find the range of values of x for which the determinant of the matrix M is positive. (5)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q1_notes.webp",
+     "w": 1092,
+     "h": 297,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 283.7,
+      "x1": 560,
+      "y1": 426.0
+     }
     }
    ],
    "check": "pending",
@@ -132,8 +113,10 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q2_a.webp",
@@ -150,27 +133,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q2_a_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q2_a_ms.webp",
        "w": 1092,
-       "h": 1486,
+       "h": 276,
        "region": {
-        "page": 7,
+        "page": 9,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 66.7,
         "x1": 560,
-        "y1": 784.8
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q2_a_ms_2.webp",
-       "w": 1092,
-       "h": 996,
-       "region": {
-        "page": 8,
-        "x0": 36,
-        "y0": 40,
-        "x1": 560,
-        "y1": 517.5
+        "y1": 198.7
        }
       }
      ],
@@ -181,8 +152,10 @@
      "label": "2(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q2_b.webp",
@@ -201,25 +174,25 @@
       {
        "src": "maths/WFM01_2022_01/q2_b_ms_1.webp",
        "w": 1092,
-       "h": 1486,
+       "h": 108,
        "region": {
-        "page": 7,
+        "page": 9,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 198.7,
         "x1": 560,
-        "y1": 784.8
+        "y1": 249.7
        }
       },
       {
        "src": "maths/WFM01_2022_01/q2_b_ms_2.webp",
        "w": 1092,
-       "h": 996,
+       "h": 265,
        "region": {
-        "page": 8,
+        "page": 9,
         "x0": 36,
-        "y0": 40,
+        "y0": 249.7,
         "x1": 560,
-        "y1": 517.5
+        "y1": 376.8
        }
       }
      ],
@@ -230,8 +203,10 @@
      "label": "2(b)(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q2_b_ii.webp",
@@ -250,25 +225,25 @@
       {
        "src": "maths/WFM01_2022_01/q2_b_ii_ms_1.webp",
        "w": 1092,
-       "h": 1486,
+       "h": 108,
        "region": {
-        "page": 7,
+        "page": 9,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 198.7,
         "x1": 560,
-        "y1": 784.8
+        "y1": 249.7
        }
       },
       {
        "src": "maths/WFM01_2022_01/q2_b_ii_ms_2.webp",
        "w": 1092,
-       "h": 996,
+       "h": 265,
        "region": {
-        "page": 8,
+        "page": 9,
         "x0": 36,
-        "y0": 40,
+        "y0": 249.7,
         "x1": 560,
-        "y1": 517.5
+        "y1": 376.8
        }
       }
      ],
@@ -279,8 +254,10 @@
      "label": "2(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q2_c.webp",
@@ -297,27 +274,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q2_c_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q2_c_ms.webp",
        "w": 1092,
-       "h": 1486,
+       "h": 230,
        "region": {
-        "page": 7,
+        "page": 9,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 376.8,
         "x1": 560,
-        "y1": 784.8
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q2_c_ms_2.webp",
-       "w": 1092,
-       "h": 996,
-       "region": {
-        "page": 8,
-        "x0": 36,
-        "y0": 40,
-        "x1": 560,
-        "y1": 517.5
+        "y1": 486.3
        }
       }
      ],
@@ -325,10 +290,33 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q2: no '(n marks)' line after its last row"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q2_notes_1.webp",
+     "w": 1092,
+     "h": 638,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 483.3,
+      "x1": 560,
+      "y1": 788.8
+     }
+    },
+    {
+     "src": "maths/WFM01_2022_01/q2_notes_2.webp",
+     "w": 1092,
+     "h": 375,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 219.6
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WFM01_2022_01_q3",
@@ -353,8 +341,10 @@
      "label": "3(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q3_a.webp",
@@ -371,63 +361,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q3_a_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q3_a_ms.webp",
        "w": 1092,
-       "h": 476,
+       "h": 132,
        "region": {
-        "page": 9,
+        "page": 11,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 80.5,
         "x1": 560,
-        "y1": 300.3
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q3_a_ms_2.webp",
-       "w": 1092,
-       "h": 458,
-       "region": {
-        "page": 9,
-        "x0": 36,
-        "y0": 300.3,
-        "x1": 560,
-        "y1": 519.5
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q3_a_ms_3.webp",
-       "w": 1092,
-       "h": 496,
-       "region": {
-        "page": 9,
-        "x0": 36,
-        "y0": 519.5,
-        "x1": 560,
-        "y1": 757.0
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q3_a_ms_4.webp",
-       "w": 1092,
-       "h": 554,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 43.0,
-        "x1": 560,
-        "y1": 308.3
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q3_a_ms_5.webp",
-       "w": 1092,
-       "h": 722,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 308.3,
-        "x1": 560,
-        "y1": 654.5
+        "y1": 143.5
        }
       }
      ],
@@ -438,8 +380,11 @@
      "label": "3(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.3",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q3_b.webp",
@@ -458,13 +403,13 @@
       {
        "src": "maths/WFM01_2022_01/q3_b_ms.webp",
        "w": 1092,
-       "h": 755,
+       "h": 409,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 40.5,
+        "y0": 143.5,
         "x1": 560,
-        "y1": 402.4
+        "y1": 339.1
        }
       }
      ],
@@ -476,13 +421,13 @@
     {
      "src": "maths/WFM01_2022_01/q3_notes.webp",
      "w": 1092,
-     "h": 433,
+     "h": 414,
      "region": {
       "page": 11,
       "x0": 36,
-      "y0": 436.2,
+      "y0": 336.1,
       "x1": 560,
-      "y1": 643.4
+      "y1": 534.6
      }
     }
    ],
@@ -511,8 +456,11 @@
      "label": "4(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.6",
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q4_a.webp",
@@ -529,27 +477,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q4_a_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q4_a_ms.webp",
        "w": 1092,
-       "h": 563,
+       "h": 101,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 80.5,
         "x1": 560,
-        "y1": 342.2
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q4_a_ms_2.webp",
-       "w": 1092,
-       "h": 325,
-       "region": {
-        "page": 12,
-        "x0": 36,
-        "y0": 342.2,
-        "x1": 560,
-        "y1": 497.6
+        "y1": 128.4
        }
       }
      ],
@@ -560,8 +496,10 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q4_b.webp",
@@ -580,13 +518,13 @@
       {
        "src": "maths/WFM01_2022_01/q4_b_ms.webp",
        "w": 1092,
-       "h": 422,
+       "h": 147,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 497.6,
+        "y0": 128.4,
         "x1": 560,
-        "y1": 699.6
+        "y1": 198.6
        }
       }
      ],
@@ -597,8 +535,10 @@
      "label": "4(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q4_c.webp",
@@ -617,13 +557,13 @@
       {
        "src": "maths/WFM01_2022_01/q4_c_ms.webp",
        "w": 1092,
-       "h": 628,
+       "h": 226,
        "region": {
-        "page": 13,
+        "page": 12,
         "x0": 36,
-        "y0": 40.5,
+        "y0": 198.6,
         "x1": 560,
-        "y1": 341.7
+        "y1": 306.3
        }
       }
      ],
@@ -634,8 +574,10 @@
      "label": "4(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q4_d.webp",
@@ -650,15 +592,51 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q4_d_ms.webp",
+       "w": 1092,
+       "h": 289,
+       "region": {
+        "page": 12,
+        "x0": 36,
+        "y0": 306.3,
+        "x1": 560,
+        "y1": 444.5
+       }
+      }
+     ],
      "text": "(d) Hence determine the value of each of the constants A, B and C (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(d): no mark-scheme rows (scheme has ['4(a)', '4(a)', '4(b)', '4(c)'])"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q4_notes_1.webp",
+     "w": 1092,
+     "h": 725,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 441.5,
+      "x1": 560,
+      "y1": 789.0
+     }
+    },
+    {
+     "src": "maths/WFM01_2022_01/q4_notes_2.webp",
+     "w": 1092,
+     "h": 251,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 160.1
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WFM01_2022_01_q5",
@@ -683,8 +661,10 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q5_a.webp",
@@ -699,7 +679,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 212,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 94.3,
+        "x1": 560,
+        "y1": 195.6
+       }
+      }
+     ],
      "text": "(a) Give a full description of U as a single geometrical transformation. (2)",
      "kindGuessed": "short"
     },
@@ -707,8 +700,10 @@
      "label": "5(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q5_b.webp",
@@ -723,7 +718,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 138,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 195.6,
+        "x1": 560,
+        "y1": 261.6
+       }
+      }
+     ],
      "text": "The transformation V, represented by the 2 × 2 matrix Q, is a reflection in the line y = –x (b) Write down the matrix Q (1)",
      "kindGuessed": "calc"
     },
@@ -731,8 +739,11 @@
      "label": "5(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.3",
+      "FP1.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q5_c.webp",
@@ -747,7 +758,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q5_c_ms.webp",
+       "w": 1092,
+       "h": 365,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 261.6,
+        "x1": 560,
+        "y1": 436.3
+       }
+      }
+     ],
      "text": "The transformation U followed by the transformation V is represented by the matrix R (c) Determine the matrix R (2)",
      "kindGuessed": "calc"
     },
@@ -755,8 +779,11 @@
      "label": "5(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.4",
+      "FP1.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q5_d.webp",
@@ -771,20 +798,41 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q5_d_ms.webp",
+       "w": 1092,
+       "h": 747,
+       "region": {
+        "page": 14,
+        "x0": 36,
+        "y0": 436.3,
+        "x1": 560,
+        "y1": 794.1
+       }
+      }
+     ],
      "text": "The transformation W is represented by the matrix 3R The transformation W maps a triangle T to a triangle T′ The transformation W′ maps the triangle T′ back to the original triangle T (d) Determine the matrix that represents W′ (3)",
      "kindGuessed": "calc"
     }
    ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q5_notes.webp",
+     "w": 1092,
+     "h": 589,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 322.2
+     }
+    }
+   ],
    "check": "pending",
    "risks": [
-    "stem: text cut by a crop edge",
-    "5(a): no mark-scheme rows (scheme has ['5(i)', '5(i)(ii)'])",
-    "5(b): no mark-scheme rows (scheme has ['5(i)', '5(i)(ii)'])",
-    "5(c): no mark-scheme rows (scheme has ['5(i)', '5(i)(ii)'])",
-    "5(d): no mark-scheme rows (scheme has ['5(i)', '5(i)(ii)'])",
-    "MS 5(i): matches no part of the paper",
-    "MS 5(i)(ii): matches no part of the paper"
+    "stem: text cut by a crop edge"
    ]
   },
   {
@@ -810,8 +858,10 @@
      "label": "6(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q6_a.webp",
@@ -830,13 +880,13 @@
       {
        "src": "maths/WFM01_2022_01/q6_a_ms.webp",
        "w": 1092,
-       "h": 982,
+       "h": 199,
        "region": {
-        "page": 15,
+        "page": 16,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 94.3,
         "x1": 560,
-        "y1": 543.0
+        "y1": 189.6
        }
       }
      ],
@@ -847,8 +897,10 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q6_b.webp",
@@ -867,13 +919,13 @@
       {
        "src": "maths/WFM01_2022_01/q6_b_ms.webp",
        "w": 1092,
-       "h": 1357,
+       "h": 265,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 40.5,
+        "y0": 189.6,
         "x1": 560,
-        "y1": 691.3
+        "y1": 316.1
        }
       }
      ],
@@ -884,8 +936,11 @@
      "label": "6(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.3",
+      "FP1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q6_c.webp",
@@ -900,15 +955,39 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 322,
+       "region": {
+        "page": 16,
+        "x0": 36,
+        "y0": 316.1,
+        "x1": 560,
+        "y1": 469.9
+       }
+      }
+     ],
      "text": "(c) Determine the value of B (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(c): no mark-scheme rows (scheme has ['6(a)', '6(b)'])"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q6_notes.webp",
+     "w": 1092,
+     "h": 602,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 466.9,
+      "x1": 560,
+      "y1": 755.4
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WFM01_2022_01_q7",
@@ -933,8 +1012,11 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q7_a.webp",
@@ -951,27 +1033,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q7_a_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q7_a_ms.webp",
        "w": 1092,
-       "h": 328,
+       "h": 325,
        "region": {
         "page": 17,
         "x0": 36,
-        "y0": 72.2,
+        "y0": 66.7,
         "x1": 560,
-        "y1": 229.4
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q7_a_ms_2.webp",
-       "w": 1092,
-       "h": 216,
-       "region": {
-        "page": 17,
-        "x0": 36,
-        "y0": 229.4,
-        "x1": 560,
-        "y1": 332.5
+        "y1": 222.0
        }
       }
      ],
@@ -982,8 +1052,11 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q7_b.webp",
@@ -1000,27 +1073,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q7_b_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q7_b_ms.webp",
        "w": 1092,
-       "h": 394,
+       "h": 517,
        "region": {
         "page": 17,
         "x0": 36,
-        "y0": 332.5,
+        "y0": 222.0,
         "x1": 560,
-        "y1": 520.9
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q7_b_ms_2.webp",
-       "w": 1092,
-       "h": 345,
-       "region": {
-        "page": 17,
-        "x0": 36,
-        "y0": 520.9,
-        "x1": 560,
-        "y1": 686.3
+        "y1": 469.8
        }
       }
      ],
@@ -1028,12 +1089,21 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS 7(c): matches no part of the paper",
-    "MS 7(c): matches no part of the paper",
-    "MS 7(c): matches no part of the paper"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q7_notes.webp",
+     "w": 1092,
+     "h": 674,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 466.8,
+      "x1": 560,
+      "y1": 790
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WFM01_2022_01_q8",
@@ -1058,8 +1128,10 @@
      "label": "8(a)",
      "marks": 2,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q8_a.webp",
@@ -1078,13 +1150,13 @@
       {
        "src": "maths/WFM01_2022_01/q8_a_ms.webp",
        "w": 1092,
-       "h": 267,
+       "h": 164,
        "region": {
-        "page": 20,
+        "page": 18,
         "x0": 36,
-        "y0": 67.5,
+        "y0": 80.5,
         "x1": 560,
-        "y1": 195.2
+        "y1": 158.5
        }
       }
      ],
@@ -1095,8 +1167,10 @@
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q8_b.webp",
@@ -1113,27 +1187,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q8_b_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q8_b_ms.webp",
        "w": 1092,
-       "h": 148,
+       "h": 142,
        "region": {
-        "page": 20,
+        "page": 18,
         "x0": 36,
-        "y0": 195.2,
+        "y0": 158.5,
         "x1": 560,
-        "y1": 265.5
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q8_b_ms_2.webp",
-       "w": 1092,
-       "h": 305,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 265.5,
-        "x1": 560,
-        "y1": 411.4
+        "y1": 226.3
        }
       }
      ],
@@ -1144,8 +1206,10 @@
      "label": "8(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q8_c.webp",
@@ -1164,13 +1228,13 @@
       {
        "src": "maths/WFM01_2022_01/q8_c_ms.webp",
        "w": 1092,
-       "h": 550,
+       "h": 194,
        "region": {
-        "page": 20,
+        "page": 18,
         "x0": 36,
-        "y0": 411.4,
+        "y0": 226.3,
         "x1": 560,
-        "y1": 675.1
+        "y1": 318.8
        }
       }
      ],
@@ -1181,8 +1245,10 @@
      "label": "8(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q8_d.webp",
@@ -1199,27 +1265,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_01/q8_d_ms_1.webp",
+       "src": "maths/WFM01_2022_01/q8_d_ms.webp",
        "w": 1092,
-       "h": 229,
+       "h": 319,
        "region": {
-        "page": 20,
+        "page": 18,
         "x0": 36,
-        "y0": 675.1,
+        "y0": 318.8,
         "x1": 560,
-        "y1": 784.4
-       }
-      },
-      {
-       "src": "maths/WFM01_2022_01/q8_d_ms_2.webp",
-       "w": 1092,
-       "h": 154,
-       "region": {
-        "page": 21,
-        "x0": 36,
-        "y0": 40,
-        "x1": 560,
-        "y1": 113.5
+        "y1": 471.7
        }
       }
      ],
@@ -1229,23 +1283,31 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM01_2022_01/q8_notes.webp",
+     "src": "maths/WFM01_2022_01/q8_notes_1.webp",
      "w": 1092,
-     "h": 62,
+     "h": 670,
      "region": {
-      "page": 21,
+      "page": 18,
       "x0": 36,
-      "y0": 758.1,
+      "y0": 468.7,
       "x1": 560,
-      "y1": 787.5
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WFM01_2022_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 210,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 140.3
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS 8(e): matches no part of the paper",
-    "MS 8(e): matches no part of the paper"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM01_2022_01_q9",
@@ -1257,8 +1319,10 @@
      "label": "9(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q9_a.webp",
@@ -1273,7 +1337,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q9_a_ms.webp",
+       "w": 1092,
+       "h": 670,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 80.5,
+        "x1": 560,
+        "y1": 401.4
+       }
+      }
+     ],
      "text": "9. (a) Prove by induction that, for n ∈  n 1 =∑ r 3 2(n + 1) 2 = n 4 r 1 (5)",
      "kindGuessed": "calc"
     },
@@ -1281,8 +1358,10 @@
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q9_b.webp",
@@ -1297,7 +1376,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q9_b_ms.webp",
+       "w": 1092,
+       "h": 426,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 401.4,
+        "x1": 560,
+        "y1": 605.5
+       }
+      }
+     ],
      "text": "(b) Using the standard summation formulae, show that n (r + 1)(r – 1) = 1 =∑ r 4 n(n + A)(n + B)(n + C) r 1 where A, B and C are constants to be determined. (4)",
      "kindGuessed": "calc"
     },
@@ -1305,8 +1397,10 @@
      "label": "9(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2022_01/q9_c.webp",
@@ -1321,15 +1415,63 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WFM01_2022_01/q9_c_ms_1.webp",
+       "w": 1092,
+       "h": 330,
+       "region": {
+        "page": 20,
+        "x0": 36,
+        "y0": 605.5,
+        "x1": 560,
+        "y1": 763.5
+       }
+      },
+      {
+       "src": "maths/WFM01_2022_01/q9_c_ms_2.webp",
+       "w": 1092,
+       "h": 232,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 40,
+        "x1": 560,
+        "y1": 151.0
+       }
+      }
+     ],
      "text": "(c) Determine the value of n for which n 2 n =∑ =∑ 2 3 r (r + 1)(r – 1) = 17 r r 1 r n (5)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q9: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2022_01/q9_notes_1.webp",
+     "w": 1092,
+     "h": 1286,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 148.0,
+      "x1": 560,
+      "y1": 764.7
+     }
+    },
+    {
+     "src": "maths/WFM01_2022_01/q9_notes_2.webp",
+     "w": 1092,
+     "h": 62,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 756.2,
+      "x1": 560,
+      "y1": 785.7
+     }
+    }
+   ],
+   "check": "pending"
   }
  ]
 }
