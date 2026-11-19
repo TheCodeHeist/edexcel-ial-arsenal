@@ -139,6 +139,7 @@
       const meta = {
         subjectName, unit: u.code, unitTitle: u.title, unitLabel: /^\d$/.test(u.badge) ? `Unit ${u.badge}` : u.badge,
         minutes, topics: (fromQuery(location.search).topics ?? []).map((id) => names.get(id) ?? id), url: location.href,
+        layout: subject === 'maths' ? 'maths' as const : 'science' as const,
       };
       const label = pdfBusy;
       const progress = (d: number, a: number) => (pdfBusy = `${label} ${d}/${a}`);

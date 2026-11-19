@@ -19,6 +19,9 @@ export interface MockMeta {
   minutes: number;
   topics: string[];         // names of the chosen topics, if any
   url: string;              // the mock's link
+  /** 'maths': each question on a fresh page with all its parts together, then ruled pages to answer on (as
+      Pearson's Maths papers are); otherwise answer space after each part (as the science papers are) */
+  layout?: 'maths' | 'science';
 }
 
 const A4 = { w: 595.28, h: 841.89 };
@@ -69,9 +72,9 @@ function findNumber(cv: HTMLCanvasElement) {
     if (col(c)) { c1 = c; gap = 0; } else if (++gap >= 6) break;
   }
   const width = c1 - c0;
-  let text = false;                                   // and the question's text follows it on the line
-  for (let c = c1 + 7; c < Math.min(w, c1 + 120) && !text; c++) text = col(c);
-  if (width < 3 || width > 45 || !text) return undefined;
+  // A number on its own (Maths prints '4.' alone above a centred instruction or a figure) counts too: it's the
+  // first thing at the top-left of a question's first crop.
+  if (width < 3 || width > 45 || bot - top > 40) return undefined;
   return { x0: c0, y0: top, x1: c1, y1: bot };
 }
 
@@ -313,8 +316,10 @@ export async function questionPaper(questions: MockQuestion[], meta: MockMeta, p
   for (const [i, q] of questions.entries()) {
     const n = i + 1;
     const star = q.parts.some((p) => p.kind === 'extended') ? '*' : '';
-    w.need(90);
-    if (i > 0) w.y += 10;
+    if (meta.layout !== 'maths') {
+      w.need(90);
+      if (i > 0) w.y += 10;
+    }
     let numbered = false;
     const show = async (c: MockCrop) => {
       const cv = imgs.get(c.src)!;
@@ -338,6 +343,31 @@ export async function questionPaper(questions: MockQuestion[], meta: MockMeta, p
       }
       await w.image(cv);
     };
+    if (meta.layout === 'maths') {
+      // a fresh page; the whole question (stem, every part) together; then ruled lines to the foot of the
+      // page and one or two ruled pages more, 'Question n continued'; the total under the last line
+      if (i > 0 || w.y > M.top + 1) w.newPage();
+      for (const c of q.stem) await show(c);
+      for (const [j, p] of q.parts.entries()) {
+        const prev = q.parts[j - 1];
+        if (p.intro?.length && JSON.stringify(p.intro) !== JSON.stringify(prev?.intro ?? [])) for (const c of p.intro) await show(c);
+        for (const c of p.qp) await show(c);
+      }
+      const rule = (y: number) => w.page.drawLine({ start: { x: M.left, y: A4.h - y }, end: { x: A4.w - M.right, y: A4.h - y },
+        thickness: 0.6, color: grey(0.55) });
+      const fill = (reserve: number) => { w.y += 8; while (w.left > reserve + 24) { w.y += 24; rule(w.y); } };
+      const extra = q.marks <= 6 ? 1 : 2;
+      fill(0);
+      for (let k = 0; k < extra; k++) {
+        w.newPage();
+        w.text(`Question ${n} continued`, M.left, 12, f.bold); w.y += 14;
+        fill(k === extra - 1 ? 30 : 0);
+      }
+      w.y += 10;
+      w.text(`(Total for Question ${n} is ${q.marks} mark${q.marks === 1 ? '' : 's'})`, A4.w - M.right, 11, f.bold, { right: true });
+      w.y += 18;
+      continue;
+    }
     for (const c of q.stem) await show(c);
     for (const [j, p] of q.parts.entries()) {
       const prev = q.parts[j - 1];
