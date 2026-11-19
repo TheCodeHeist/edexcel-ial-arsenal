@@ -118,6 +118,82 @@
      "S2.4.5"
     ]
    }
+  },
+  "5": {
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "846b3ba864c3",
+   "kinds": {
+    "5(a)": "short",
+    "5(b)": "calc",
+    "5(c)": "calc",
+    "5(d)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S2.4.2"
+    ],
+    "5(b)": [
+     "S2.4.2",
+     "S1.3.4"
+    ],
+    "5(c)": [
+     "S2.4.2",
+     "S1.3.4"
+    ],
+    "5(d)": [
+     "S2.1.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-20",
+   "concerns": [
+    "6(b): the purple mark-scheme block holds the rows for both (b)(i) and (b)(ii) (3+3 marks, ending Total 10) although this part is 3 marks, so the rows do not match this part alone; the (b)(ii) rows (P(Y<5), 5-3/39-3, 1/18) belong to 6(b)(ii).",
+    "6(b)(ii): the mark-scheme block repeats the whole (b)(i)+(ii) scheme (duplicate of the 6(b) block, marks add to 6 not 3), so the (b)(i) rows (c^2+3c-1638=0, c=39) are stray here.",
+    "Notes: the question-6 examiners NOTES are clipped at the bottom: the final A1 rows for (b)(ii) (the 1/18 note) are missing after the M1 for 5-3/c-3."
+   ],
+   "fingerprint": "f4b6fd75f4c9",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(b)(ii)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S2.3.1",
+     "S2.2.4"
+    ],
+    "6(b)": [
+     "S2.3.1",
+     "S2.2.4"
+    ],
+    "6(b)(ii)": [
+     "S2.3.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "f17479425e26",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S2.3.2",
+     "S2.1.2"
+    ],
+    "7(b)": [
+     "S2.1.1"
+    ],
+    "7(c)": [
+     "S2.1.1"
+    ]
+   }
   }
  }
 }
