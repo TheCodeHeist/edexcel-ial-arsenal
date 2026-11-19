@@ -322,8 +322,11 @@ MS_LETTER = re.compile(r"^(?:[a-h]|i|ii|iii|iv|v|vi)$")       # a part alone, un
 FIRST_LABEL = re.compile(r"^1(?:\s*\.|\s*\(?[a-h]\)?)?(?:\s*\(\s*[a-z]{1,4}\s*\))*\s*$")   # question 1's label: '1', '1.', '1a', '1(a)'
 HEADER = re.compile(r"^(?:Question\b(?! Paper)|Q$|Q\s+(?=[A-Z]))", re.I)
 MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*)$")   # M2: '1a', '2b(ii)'
-# A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …').
-MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)(?=\S)")
+# A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …',
+# S1 Oct 2021: '1 (a) [Sum of probs …', no dot).
+MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)(?=\S)")
+# A question with no parts, its number running on into the scheme (S1 Jan 2020: '1. [Sum of probs = 1 gives]').
+MS_NUM_LEAD = re.compile(r"^(\d{1,2})\s*\.\s+(?=\S)")
 # A question's closing total, in each unit's style: '(7 marks)' (P), '(Total 5 marks)' (FP), 'Total 8' (S1),
 # '(6)' (M1, bold), '[8]' (S3, bold), '(9)' (M3, plain, after bold part totals '[5]'). The bracketed forms look
 # just like part totals and boldness differs by unit, so they count only when the number is the question's
@@ -448,10 +451,15 @@ def ms_split(ms_doc, questions):
         if col is None or not col[0] <= l.x0 < col[1]:
             continue
         long_line = l.x1 > col[1] + 20
-        lead = MS_LABEL_LEAD.match(l.text) if long_line else None
-        if long_line and not lead:
+        lead = MS_LABEL_LEAD.match(l.text)                  # also short: '(b) 10' (S1 Jan 2020)
+        nlead = MS_NUM_LEAD.match(l.text) if long_line and not lead else None
+        if nlead and not (int(nlead[1]) == expected and under_header(l)):
+            nlead = None                                    # only right under a header, as the next question
+        if long_line and not lead and not nlead:
             continue                                        # a line of scheme text that merely starts here
-        if lead:
+        if nlead:
+            num, labs = nlead[1], []
+        elif lead:
             num, labs = lead[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", lead[2])
         elif b := MS_LABEL_BARE.match(l.text):
             num, labs = b[1], [b[2], *re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3] or "")]
