@@ -796,8 +796,12 @@ def pair(questions, rows):
             problems.append(f"Q{q.number}: no mark-scheme rows")
             continue
         for n in q.parts:
-            mine = [r for r in qrows if r.path[:len(n.path)] == n.path or
-                    (len(r.path) < len(n.path) and n.path[:len(r.path)] == r.path)]
+            # rows for this part (or its sub-parts); a row for a parent ('(i)') only when the part has none of
+            # its own: '(i)' then '(b)', '(c)' in the scheme means the '(i)' row is (i)(a)'s, not every sibling's
+            own = [r for r in qrows if r.path[:len(n.path)] == n.path]
+            parent = [r for r in qrows if 0 < len(r.path) < len(n.path) and n.path[:len(r.path)] == r.path]
+            whole = [r for r in qrows if not r.path and n.path]       # the question's own rows: as before
+            mine = sorted(own + whole + (parent if not own else []), key=qrows.index)
             if not n.path:
                 mine = qrows
             if not mine:
@@ -806,7 +810,12 @@ def pair(questions, rows):
             out[n.label] = mine
         for r in qrows:
             if not any(r in v for v in out.values()):
-                problems.append(f"MS {label_of(q.number, r.path)}: matches no part of the paper")
+                # a parent's row when every child has its own (a '(i)' header row): it opens the first child
+                first = next((n for n in q.parts if r.path and n.path[:len(r.path)] == r.path), None)
+                if first is not None:
+                    out[first.label] = sorted(out.get(first.label, []) + [r], key=qrows.index)
+                else:
+                    problems.append(f"MS {label_of(q.number, r.path)}: matches no part of the paper")
     return out, problems
 
 
