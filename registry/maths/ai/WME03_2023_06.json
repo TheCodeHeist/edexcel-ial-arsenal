@@ -1,0 +1,138 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "6f1a5a25e221",
+   "kinds": {
+    "1": "calc"
+   },
+   "topics": {
+    "1": [
+     "M3.5.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "78ce07735333",
+   "kinds": {
+    "2": "calc"
+   },
+   "topics": {
+    "2": [
+     "M3.2.1",
+     "M1.5.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "9ca5679e1df9",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "M3.5.1"
+    ],
+    "3(b)": [
+     "M3.5.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "1349861d3a76",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "M3.4.3"
+    ],
+    "4(b)": [
+     "M3.4.3",
+     "M1.4.4"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(b): the mark-scheme crop ends with the first row of 5(c)'s scheme (\"Correct statement regarding 2gR^2/x for example\" with M1, cut through at the bottom edge); it belongs to 5(c)",
+    "5(c): the mark-scheme crop starts mid-row: the first M1 row (statement about 2gR^2/x) is split, its heading is in the 5(b) crop and only the bullets (2gR^2/x>0 for x>=R; x->inf, 2gR^2/x->0) are shown, with no marks cell, so 5(c) rows show only dM1 A1 for the 3 marks"
+   ],
+   "fingerprint": "27c4a2407aa4",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "M3.3.1",
+     "M3.1.1"
+    ],
+    "5(b)": [
+     "M3.3.1"
+    ],
+    "5(c)": [
+     "M3.3.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(b): the mark-scheme crop ends with a stray row \"Vertical motion 0 = (2 sqrt(ag/5) x 3/5)^2 - 2gh\" with no marks cell: this is the first (main) method of 6(c)'s scheme and belongs to 6(c)",
+    "6(c): the mark-scheme crop starts at \"OR / Energy mgh = ...\" with M1A1ft; the main-method \"Vertical motion\" row it is the alternative to has been left at the foot of the 6(b) crop"
+   ],
+   "fingerprint": "b87099dc5ff8",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "M3.4.4"
+    ],
+    "6(b)": [
+     "M3.4.4"
+    ],
+    "6(c)": [
+     "M3.4.4",
+     "M2.1.2"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "3a8f96e5dda6",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "M3.2.1",
+     "M3.2.2"
+    ],
+    "7(b)": [
+     "M3.3.3"
+    ],
+    "7(c)": [
+     "M3.3.3"
+    ]
+   }
+  }
+ }
+}

@@ -2,8 +2,10 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "fe19a3d43a26",
+   "concerns": [
+    "1: the Alt mark-scheme table (M1 A1 M1 M1 A1A1, total 6) sits under the grey-purple \"examiners NOTES\" caption rather than inside the MARK SCHEME rows block, so the alternative-method rows are filed as notes; content is complete and legible, only the caption split is wrong"
+   ],
+   "fingerprint": "90e72e7291ee",
    "kinds": {
     "1": "calc"
    },
@@ -150,8 +152,10 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "66dd07b853f4",
+   "concerns": [
+    "8: the \"8 Alt via exponentials\" mark-scheme table (M1 A1 M1 dM1 A1 A1, total 6) sits under the grey-purple \"examiners NOTES\" caption rather than inside the MARK SCHEME rows block; content is complete and legible, only the caption split is wrong"
+   ],
+   "fingerprint": "3efab4552933",
    "kinds": {
     "8": "calc"
    },

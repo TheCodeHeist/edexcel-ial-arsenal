@@ -105,8 +105,10 @@
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "5bc2eb6984f2",
+   "concerns": [
+    "6(a): a stray clipped fragment of the scheme header (\"Number\") shows at the top edge of the 6(a) mark-scheme crop"
+   ],
+   "fingerprint": "8c9dc7bef5c8",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -116,16 +118,17 @@
      "FP2.7.1"
     ],
     "6(b)": [
-     "FP2.7.2"
+     "FP2.7.2",
+     "P3.5.1"
     ]
    }
   },
   "7": {
    "at": "2026-11-19",
    "concerns": [
-    "7(c): the sentence \"Give the answer in the form y = f(x)...\" belonging to 7(b) is cut across between 7(b) and 7(c)"
+    "7(c): a stray clipped fragment (the top of \"Additional Notes\") shows at the bottom edge of the 7(c) mark-scheme crop, under Total 13"
    ],
-   "fingerprint": "2be03b768717",
+   "fingerprint": "0cf66b6ba83b",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -34,7 +34,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "98aff49f318e",
+   "fingerprint": "290769cbebbc",
    "kinds": {
     "3": "calc"
    },
@@ -68,7 +68,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "22951fb1c71e",
+   "fingerprint": "2f046106bc1d",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -78,15 +78,17 @@
      "FP2.6.1"
     ],
     "5(b)": [
-     "FP2.6.2",
+     "FP2.6.3",
      "FP2.6.4"
     ]
    }
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "cef5aac6420b",
+   "concerns": [
+    "6(b): the mark-scheme crop is cut at the bottom (a fragment of the next row shows under [12]) and the rest of the 6(b) scheme, the ALT(b) rows ending A1 (5), appears under the examiners' NOTES caption bar instead of in the purple 6(b) block; the notes proper start only after it"
+   ],
+   "fingerprint": "cc3dc3ec2625",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -123,10 +125,8 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [
-    "8(d): examiners notes include stray publisher footer"
-   ],
-   "fingerprint": "31977718d3c9",
+   "concerns": [],
+   "fingerprint": "057a90107bbb",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -135,8 +135,8 @@
    },
    "topics": {
     "8(a)": [
-     "FP2.3.2",
-     "FP2.3.1"
+     "FP2.3.1",
+     "FP2.3.2"
     ],
     "8(b)": [
      "FP2.3.2"
@@ -145,7 +145,8 @@
      "FP2.3.2"
     ],
     "8(d)": [
-     "FP2.3.2"
+     "FP2.3.2",
+     "P2.8.1"
     ]
    }
   }

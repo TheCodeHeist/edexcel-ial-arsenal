@@ -2,8 +2,10 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "076337a06175",
+   "concerns": [
+    "1: the \"Total 5\" row is cut at the bottom of the mark-scheme crop and shows again under the examiners' NOTES caption bar (no notes text for this question)"
+   ],
+   "fingerprint": "017e2c46a50b",
    "kinds": {
     "1": "calc"
    },
@@ -79,8 +81,10 @@
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7a6ce76147c8",
+   "concerns": [
+    "5: the \"Total 9\" row is cut at the bottom of the mark-scheme crop and shows again under the examiners' NOTES caption bar (no notes text for this question)"
+   ],
+   "fingerprint": "da1413889504",
    "kinds": {
     "5": "calc"
    },
@@ -134,9 +138,10 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [
-    "8(c): includes an extraneous crop from page 32 containing Discord watermark text; examiners notes include stray watermark and publisher footer"
+    "8(a): the mark-scheme crop holds only one guidance line (\"Allow single fraction to be implied...\") and an empty marks column; the proof lines and the 3 marks are missing, so the rows do not answer the part or add up to 3",
+    "8(b): the mark-scheme crop holds only the word \"Examples:\" with M1 A1 beside it; the working and the other marks of the 4 are missing, so marks do not add up to 4"
    ],
-   "fingerprint": "57a933f63170",
+   "fingerprint": "8e79ee81f60e",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

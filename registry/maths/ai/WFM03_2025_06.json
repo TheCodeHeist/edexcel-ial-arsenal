@@ -2,8 +2,10 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8bd4a8ed3136",
+   "concerns": [
+    "1: the examiners NOTES block is clipped at the right edge - many lines are cut mid-word (e.g. \"Mus\", \"Must clearly link t\", \"insufficie\", \"correc\", \"arou\"), and the Total row of the mark scheme is also sliced (\"Total 6\" shows as \"Total (\"); the notes are not fully legible"
+   ],
+   "fingerprint": "a184481ac8fb",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"

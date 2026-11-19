@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "9a5b8d1db48e",
+   "fingerprint": "1093e3265e49",
    "kinds": {
     "1": "calc"
    },
@@ -17,13 +17,14 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0da76c33262a",
+   "fingerprint": "5b35b986cc5e",
    "kinds": {
     "2": "calc"
    },
    "topics": {
     "2": [
-     "FP3.1.2"
+     "FP3.1.2",
+     "FP3.1.1"
     ]
    }
   },
@@ -140,7 +141,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "8d947ad821e8",
+   "fingerprint": "6da1e9e8fd1c",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -152,8 +153,7 @@
      "FP3.3.2"
     ],
     "8(b)": [
-     "FP3.4.2",
-     "FP3.3.2"
+     "FP3.4.2"
     ],
     "8(c)": [
      "FP3.4.3"

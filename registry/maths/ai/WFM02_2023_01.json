@@ -84,8 +84,10 @@
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d7f2346f662f",
+   "concerns": [
+    "5: mark-scheme crop clipped at the right edge (\"(6)\" cut) and the end of the scheme spills: the \"Total 6\" row and the whole alternative scheme (squaring both sides: B1, M1M1, A1, A1A1, A1 rows) appear under the examiners' NOTES caption bar, not in the purple block"
+   ],
+   "fingerprint": "8330f6a34c6c",
    "kinds": {
     "5": "calc"
    },
@@ -98,8 +100,11 @@
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "39b83c45cdd2",
+   "concerns": [
+    "6(a): mark-scheme crop clipped at the right edge (\"(2)\" cut); the 6(a) block also ends with the general guidance for part (b) (\"Part (b) The approaches below...\"), which is not 6(a) content",
+    "6(b): mark-scheme crop clipped at the right edge (a line of guidance and marks column cut) and Way 2 and Way 3 of the 6(b) scheme (with Total 8) sit under the examiners' NOTES caption bar instead of in the purple 6(b) block; the 6(b) block ends cleanly after Way 1 with A1 and Total 8"
+   ],
+   "fingerprint": "c1940263fcda",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc"
@@ -151,9 +156,11 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [
-    "9(d): examiners notes include stray publisher footer"
+    "9(a): the question crop has only (a)(i); the second sub-part \"(ii) d2y/dx2\" and the mark total (5) sit at the top of the 9(b) QUESTION crop, so 9(a) is incomplete and 9(b) opens with another part's text",
+    "9(a)/9(b)/9(c)/9(d): mark-scheme crops clipped at the right edge (\"(5)\", \"(2)\", \"(5)\", \"(1)\" cut, \"Total 13\" half cut)",
+    "9(b): the mark-scheme block ends with the line \"Mark (c) and (d) together\", which belongs to part (c)"
    ],
-   "fingerprint": "6a68d3e7df8d",
+   "fingerprint": "663ce7b066ac",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

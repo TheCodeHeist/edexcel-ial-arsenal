@@ -19,8 +19,10 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c045bfb2ca00",
+   "concerns": [
+    "10: minor, the mark scheme crops are clipped at the right edge (the part totals \"(3)\", \"(7)\", \"(3)\", \"(1)\" and \"(14 marks)\" are cut to \"(3\", \"(7\", \"(1\", \"(14 marks\") and the examiners notes lose line ends at the right edge (e.g. the 10(b) M1 \"...with or without the integral signs\" and \"depends on some attempt at integration\"); a few stray accent marks sit above the (a) notes line \"correctly stated fractions\". Questions, figures and mark rows (3, 7, 3, 1) are complete"
+   ],
+   "fingerprint": "b7e869f594f9",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",

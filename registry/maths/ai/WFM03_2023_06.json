@@ -17,7 +17,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d694e5ea8dc4",
+   "fingerprint": "89e72b6478b3",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -25,8 +25,8 @@
    },
    "topics": {
     "2(a)": [
-     "FP3.6.4",
-     "FP3.6.5"
+     "FP3.6.5",
+     "FP3.6.4"
     ],
     "2(b)": [
      "FP3.6.6"
@@ -57,18 +57,17 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [
-    "4(a): stem crop cuts off the top entry (-1) of the normal vector to plane Pi1 at the top edge"
-   ],
-   "fingerprint": "dd720fcd69d1",
+   "concerns": [],
+   "fingerprint": "84e9a0d3b2f1",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
    },
    "topics": {
     "4(a)": [
-     "FP3.5.1",
-     "FP3.5.2"
+     "FP3.5.3",
+     "FP3.5.2",
+     "FP3.5.1"
     ],
     "4(b)": [
      "FP3.5.1"
@@ -130,8 +129,10 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "450164718478",
+   "concerns": [
+    "8(b): stray fragments from the end of the mark scheme page - a clipped \"(2)\" (8(a)s mark total) sits at the very top edge of the 8(b) mark-scheme block, and the \"PAPER TOTAL: 75\" row is split around the grey-purple \"examiners NOTES\" caption (clipped line at the bottom of the purple rows, full row under the caption); no real examiners notes are present"
+   ],
+   "fingerprint": "59d25fd002ae",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

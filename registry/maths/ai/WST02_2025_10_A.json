@@ -1,0 +1,181 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(c): the question-1 examiners NOTES block is clipped at the bottom edge: the last B1 note (\"Allow use of </> for this mark only\") is cut through half a line, and the notes are also clipped at the right edge (e.g. 1(b) M1 note ends \"... = 0.642 o\")."
+   ],
+   "fingerprint": "9ca6c7e853e7",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "S2.2.2"
+    ],
+    "1(b)": [
+     "S2.2.2"
+    ],
+    "1(c)": [
+     "S2.2.3",
+     "S2.2.2"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "6041d9308c3c",
+   "kinds": {
+    "2(a)": "short",
+    "2(b)": "short",
+    "2(c)": "short",
+    "2(d)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "S2.4.1"
+    ],
+    "2(b)": [
+     "S2.4.1"
+    ],
+    "2(c)": [
+     "S2.4.1"
+    ],
+    "2(d)": [
+     "S2.4.6",
+     "S2.4.5"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "2e177af6f7c7",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "calc",
+    "3(d)": "short"
+   },
+   "topics": {
+    "3(a)": [
+     "S2.1.1"
+    ],
+    "3(b)": [
+     "S2.1.3"
+    ],
+    "3(c)": [
+     "S2.3.2"
+    ],
+    "3(d)": [
+     "S2.1.3",
+     "S2.3.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): the mark-scheme sketch is tiny and very faint (the curve and axes are barely legible) and looks truncated, so the B1B1 shape marks cannot be checked from the crop.",
+    "4(c): the last mark-scheme row of the purple block is the alternative-method median line from part (d) (integral of (1/28)(12y-y^3) dy ... = 0.5 or), cut through at the bottom, so it does not answer this part.",
+    "4(d): the mark-scheme block opens with the cut-off lower half of the same formula (the stray fragment above the M1 row) before the F(3)=1 line; the (c)/(d) boundary slices through one formula.",
+    "Notes: the question-4 examiners NOTES for 4(c) A1 (\"Oe NB Answer only scores 0/3\") are clipped through half a line where the 4(c) and 4(d) notes meet."
+   ],
+   "fingerprint": "af3873c3a363",
+   "kinds": {
+    "4(a)": "draw",
+    "4(b)": "calc",
+    "4(c)": "calc",
+    "4(d)": "calc",
+    "4(e)": "short"
+   },
+   "topics": {
+    "4(a)": [
+     "S2.2.1",
+     "S2.2.2"
+    ],
+    "4(b)": [
+     "S2.2.5"
+    ],
+    "4(c)": [
+     "S2.2.2",
+     "S2.2.1"
+    ],
+    "4(d)": [
+     "S2.2.5",
+     "S2.2.2"
+    ],
+    "4(e)": [
+     "S1.2.4",
+     "S2.2.5"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "74cd58284d6c",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "S2.1.1"
+    ],
+    "5(b)": [
+     "S2.3.2",
+     "S2.1.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "39aeac917622",
+   "kinds": {
+    "6(a)": "short",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "S2.4.2"
+    ],
+    "6(b)": [
+     "S2.4.2",
+     "S1.3.3"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "d3a2333bc494",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc",
+    "7(d)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "S2.3.1",
+     "S2.2.4"
+    ],
+    "7(b)": [
+     "S2.3.1"
+    ],
+    "7(c)": [
+     "S2.3.1",
+     "S2.2.4"
+    ],
+    "7(d)": [
+     "S2.3.1"
+    ]
+   }
+  }
+ }
+}

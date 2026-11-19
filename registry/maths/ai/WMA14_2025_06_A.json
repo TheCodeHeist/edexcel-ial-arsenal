@@ -63,8 +63,11 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "08ccd5aeeb59",
+   "concerns": [
+    "4(a): the purple MARK SCHEME crop does not stop at the 5-mark table (B1, M1A1, A1A1 = 5, then \"(5)\") but runs on into the examiners notes for (a) (B1/M1/A1 explanations and the \"(a) Alternative by direct expansion\" box, about 70% of that crop); those notes then are not repeated under the end-of-question NOTES, which start at (b). Mark rows themselves are complete and add up",
+    "4: minor, the end-of-question examiners NOTES therefore cover only (b) and (c) (first note line at the top of the notes is cut through)"
+   ],
+   "fingerprint": "4768db5972fe",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short",
@@ -122,10 +125,11 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [
-    "7(a): bottom edge cuts through the numerator 12u + 5 of part 7(b)",
-    "7(b): the numerator 12u + 5 is cut horizontally by the top crop edge, with the top half in 7(a)"
+    "7(a): question crop stops short: it ends after the integral \"to ∫ (12u+5)/(u²(2u+1)) du\" and lacks its last line \"where a and b are constants to be found. (4)\"",
+    "7(b): question crop opens with that stray last line of part (a) (\"where a and b are constants to be found.\" with the (4)) above the real 7(b) text",
+    "7(a): the purple MARK SCHEME crop runs on past the 4-mark table (B1, M1, A1, B1 = 4, then \"(4)\") into the examiners notes for (a) (B1/M1/A1/B1 explanations and an example box, about 60% of the crop); likewise the 7(b) mark scheme crop includes the (b) notes (M1/A1/A1). The end-of-question NOTES therefore cover only (c). Mark rows themselves are complete and add up (4, 3, 4 = 11)"
    ],
-   "fingerprint": "f4fce9eddb04",
+   "fingerprint": "212ea862f5aa",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -140,16 +144,18 @@
     ],
     "7(c)": [
      "P4.6.3",
-     "P3.3.2"
+     "P4.6.2"
     ]
    }
   },
   "8": {
    "at": "2026-11-19",
    "concerns": [
-    "8(a): the top of the vector arrow above AB is clipped at the top crop edge (with its tip in the stem crop)"
+    "8(a): the purple MARK SCHEME crop runs on past the 3-mark table (M1, A1, A1ft = 3, then \"(3)\") into the examiners notes for (a) (M1/A1/A1ft explanations with the column-vector examples, about 65% of that crop); the end-of-question NOTES then start at (b). Mark rows (3) are complete",
+    "8(a): minor, a stray sliver of text (\"Number\" fragment) sits just above the first mark scheme row; 8(c) mark scheme crop likewise starts with a stray sliver of the (b) \"(4)\" mark above its first row",
+    "8: the examiners notes end with a \"For reference\" triangle diagram and a vector-product alternative for (c); all complete. Question parts and marks (3, 4, 4 = 11) are complete"
    ],
-   "fingerprint": "bb3b29fc77b1",
+   "fingerprint": "aa29d71affac",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -164,7 +170,7 @@
      "P4.7.7"
     ],
     "8(c)": [
-     "P4.7.7",
+     "P4.7.3",
      "P4.7.5"
     ]
    }

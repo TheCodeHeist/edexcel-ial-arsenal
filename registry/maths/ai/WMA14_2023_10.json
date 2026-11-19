@@ -19,8 +19,12 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "3d050127f138",
+   "concerns": [
+    "2(a): crop is cut through the bottom of its line: the fraction dx/dt = k/x has its denominators (dt and x) sliced off, so the part shows only the numerators dx and k, and the trailing comma/\"(4)\" is not with it",
+    "2(b): crop starts with the stray bottom fragment of the 2(a) equation (the denominators \"dt\" and \"x\" of dx/dt = k/x, plus the \"(4)\" mark) above the real 2(b) line; the part itself (dV/dt = V^p, 3 marks) is complete",
+    "2: minor, the mark scheme crops are clipped at the right edge (part totals \"(4\", \"(3\", \"(7 marks\" are cut) and the first examiners note line is cut at the top; mark rows (4 and 3 = 7) are complete"
+   ],
+   "fingerprint": "e35b83c549c2",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"

@@ -47,8 +47,11 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.3.1",
+      "M3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q1_a.webp",
@@ -96,8 +99,10 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q1_b.webp",
@@ -154,7 +159,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME03_2024_01_q2",
@@ -179,8 +184,10 @@
      "label": "2(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q2_a.webp",
@@ -216,8 +223,11 @@
      "label": "2(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.2.1",
+      "M1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q2_b.webp",
@@ -250,7 +260,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME03_2024_01_q3",
@@ -275,8 +285,11 @@
      "label": "3(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.5.1",
+      "P4.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q3_a.webp",
@@ -312,8 +325,10 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q3_b.webp",
@@ -346,7 +361,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME03_2024_01_q4",
@@ -358,8 +373,11 @@
      "label": "4",
      "marks": 9,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.4.3",
+      "M1.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q4.webp",
@@ -406,7 +424,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME03_2024_01_q5",
@@ -418,8 +436,10 @@
      "label": "5(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q5_a.webp",
@@ -503,8 +523,11 @@
      "label": "5(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.5.1",
+      "M2.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q5_b.webp",
@@ -564,8 +587,11 @@
      "label": "5(c)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.5.2",
+      "M2.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q5_c.webp",
@@ -610,7 +636,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME03_2024_01_q6",
@@ -635,8 +661,11 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.2.1",
+      "M1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q6_a.webp",
@@ -672,8 +701,11 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.3.3",
+      "M3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q6_b.webp",
@@ -709,8 +741,10 @@
      "label": "6(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q6_c.webp",
@@ -746,8 +780,10 @@
      "label": "6(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q6_d.webp",
@@ -780,7 +816,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME03_2024_01_q7",
@@ -805,8 +841,10 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q7_a.webp",
@@ -842,8 +880,10 @@
      "label": "7(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q7_b.webp",
@@ -879,8 +919,11 @@
      "label": "7(c)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "M3.4.4",
+      "M2.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WME03_2024_01/q7_c.webp",
@@ -925,7 +968,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

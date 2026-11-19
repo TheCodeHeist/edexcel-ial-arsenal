@@ -137,7 +137,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f174532b3f83",
+   "fingerprint": "1b56816dab68",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -153,8 +153,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b5a8f24a8ef3",
+   "concerns": [
+    "9(c): the \"PAPER TOTAL 75\" row is split around the examiners NOTES caption (clipped line at the bottom of the purple rows, full row under the caption), and no actual examiners notes are shown; harmless stray text"
+   ],
+   "fingerprint": "f3ed64497dd0",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -167,7 +169,7 @@
     ],
     "9(b)": [
      "FP3.5.2",
-     "FP3.5.1"
+     "FP3.5.3"
     ],
     "9(c)": [
      "FP3.5.2",

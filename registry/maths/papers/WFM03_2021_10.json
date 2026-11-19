@@ -97,7 +97,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_10_q2",
@@ -110,7 +110,8 @@
      "marks": 6,
      "kind": "calc",
      "topics": [
-      "FP3.1.2"
+      "FP3.1.2",
+      "FP3.1.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -159,7 +160,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_10_q3",
@@ -1078,8 +1079,7 @@
      "marks": 2,
      "kind": "calc",
      "topics": [
-      "FP3.4.2",
-      "FP3.3.2"
+      "FP3.4.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1219,7 +1219,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

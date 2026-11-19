@@ -107,8 +107,10 @@
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b495507fa6fd",
+   "concerns": [
+    "7: minor, the mark scheme crops are clipped at the right edge (part totals \"(2)\", \"(5)\", \"(3)\" show as \"(2\", \"(5\", \"(3\") and the examiners notes lose line ends at the right edge (e.g. the 7(a) \"r = (4,4,2)\" column vector and \"must be in vector form and\"); the last notes line (\"dM1: Full attempt at area of triangle using 1/2|OX||XA|sin(OXA)\") is sliced horizontally at the very bottom. Stem, parts and mark rows (2, 5, 3 = 10) are complete"
+   ],
+   "fingerprint": "ffc02e9a3279",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -124,7 +126,8 @@
      "P4.7.6"
     ],
     "7(c)": [
-     "P4.7.3"
+     "P4.7.3",
+     "P4.7.5"
     ]
    }
   },

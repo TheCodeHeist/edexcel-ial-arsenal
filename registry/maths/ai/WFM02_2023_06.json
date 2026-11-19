@@ -24,8 +24,10 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d7931ca4f054",
+   "concerns": [
+    "2(c): a stray clipped fragment (top of the \"Notes\" heading) shows at the bottom edge of the 2(c) mark-scheme crop, under Total 10"
+   ],
+   "fingerprint": "727bd9938242",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "draw",
@@ -45,8 +47,10 @@
   },
   "3": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "cba5a738954d",
+   "concerns": [
+    "3(b): a stray clipped fragment (top of the \"Notes\" heading) shows at the bottom edge of the 3(b) mark-scheme crop, under Total 7"
+   ],
+   "fingerprint": "c9092226fb59",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -64,8 +68,10 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "350b2acab76d",
+   "concerns": [
+    "4(c): a stray clipped fragment at the bottom edge of the 4(c) mark-scheme crop, under Total 11"
+   ],
+   "fingerprint": "ca9d918777b9",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -85,8 +91,11 @@
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "88dbea9edb5a",
+   "concerns": [
+    "5(a): the two alternative mark schemes for 5(a) (Alt I and Alt II, each ending (5)) sit under the examiners' NOTES caption bar, after the notes text, not in the purple 5(a) block",
+    "5(b): a stray clipped fragment shows at the bottom edge of the 5(b) mark-scheme crop, under Total 7"
+   ],
+   "fingerprint": "ecbfd9d77280",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -104,8 +113,11 @@
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "1528095f1ed8",
+   "concerns": [
+    "6(a): the alternative mark scheme for 6(a) (M1 dM1 ddM1A1, (4)) sits under the examiners' NOTES caption bar, not in the purple 6(a) block",
+    "6(c): a stray clipped fragment shows at the bottom edge of the 6(c) mark-scheme crop, under Total 9"
+   ],
+   "fingerprint": "77d11920982c",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -143,10 +155,8 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [
-    "8(c): examiners notes include stray publisher footer"
-   ],
-   "fingerprint": "869b68d92058",
+   "concerns": [],
+   "fingerprint": "73072c14cab4",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",
@@ -157,7 +167,8 @@
      "FP2.7.1"
     ],
     "8(b)": [
-     "FP2.7.1"
+     "FP2.7.1",
+     "P1.4.2"
     ],
     "8(c)": [
      "FP2.7.2"

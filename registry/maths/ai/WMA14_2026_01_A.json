@@ -56,8 +56,10 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "9c08e4d53a1a",
+   "concerns": [
+    "4: minor, the examiners notes are clipped at the left edge (note labels lose their first letter: \"M1:\" shows as \"1:\" or \"I1:\", \"Special Case\" as \"pecial Case\", \"Some candidates\" as \"ome candidates\"); question, mark scheme rows and the 7 marks are complete"
+   ],
+   "fingerprint": "3c92d22f163b",
    "kinds": {
     "4": "calc"
    },
@@ -70,8 +72,10 @@
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "2607074be269",
+   "concerns": [
+    "5: minor, the examiners notes are clipped at the left and right edges (e.g. \"Allow values or vectors see...\" and \"proceedi...\" lose their line ends, \"B1:\" starts flush against the edge); question, mark scheme rows and the 6 marks are complete"
+   ],
+   "fingerprint": "cb87aaba974c",
    "kinds": {
     "5": "calc"
    },
