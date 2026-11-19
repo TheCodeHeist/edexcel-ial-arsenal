@@ -1,0 +1,1809 @@
+{
+ "$comment": "IAL Mathematics, Further Mathematics and Pure Mathematics (2018 spec, Issue 3) topic list. A tag is the unit badge plus the statement number as printed (\"P1.1.4\", \"FP2.7.2\", \"S3.4.1\"), so ids are unique across units. Two spec misprints are numbered by position: S1's Normal distribution statement (printed 5.1 under section 6) is S1.6.1, and FP2's second polar coordinates statement (printed 7.1 twice) is FP2.7.2. Questions from the old C12/C34 papers (WMA01/02) take P1-P4 tags. `short` is the chip label; `text` is the statement with formulas in plain text. Transcribed from the spec's page images by Gemini and checked against its text layer.",
+ "subject": "maths",
+ "spec": "maths-spec-2018-iss3",
+ "units": [
+  {
+   "code": "WMA11",
+   "title": "Pure Mathematics 1",
+   "groups": [
+    {
+     "id": "P1.1",
+     "title": "Algebra and functions",
+     "points": [
+      {
+       "id": "P1.1.1",
+       "short": "Laws of indices",
+       "text": "Laws of indices for all rational exponents."
+      },
+      {
+       "id": "P1.1.2",
+       "short": "Surds",
+       "text": "Use and manipulation of surds."
+      },
+      {
+       "id": "P1.1.3",
+       "short": "Quadratic functions",
+       "text": "Quadratic functions and their graphs."
+      },
+      {
+       "id": "P1.1.4",
+       "short": "Discriminant",
+       "text": "The discriminant of a quadratic function."
+      },
+      {
+       "id": "P1.1.5",
+       "short": "Completing the square",
+       "text": "Completing the square. Solution of quadratic equations."
+      },
+      {
+       "id": "P1.1.6",
+       "short": "Simultaneous equations",
+       "text": "Solve simultaneous equations; analytical solution by substitution."
+      },
+      {
+       "id": "P1.1.7",
+       "short": "Interpreting inequalities",
+       "text": "Interpret linear and quadratic inequalities graphically."
+      },
+      {
+       "id": "P1.1.8",
+       "short": "Representing inequalities",
+       "text": "Represent linear and quadratic inequalities graphically."
+      },
+      {
+       "id": "P1.1.9",
+       "short": "Solving inequalities",
+       "text": "Solutions of linear and quadratic inequalities."
+      },
+      {
+       "id": "P1.1.10",
+       "short": "Polynomial manipulation",
+       "text": "Algebraic manipulation of polynomials, including expanding brackets and collecting like terms, factorisation."
+      },
+      {
+       "id": "P1.1.11",
+       "short": "Curve sketching & intersections",
+       "text": "Graphs of functions; sketching curves defined by simple equations. Geometrical interpretation of algebraic solution of equations. Use of intersection points of graphs of functions to solve equations."
+      },
+      {
+       "id": "P1.1.12",
+       "short": "Graph transformations",
+       "text": "Knowledge of the effect of simple transformations on the graph of y = f(x) as represented by y = af(x), y = f(x) + a, y = f(x + a), y = f(ax)."
+      }
+     ]
+    },
+    {
+     "id": "P1.2",
+     "title": "Coordinate geometry in the (x, y) plane",
+     "points": [
+      {
+       "id": "P1.2.1",
+       "short": "Straight line equations",
+       "text": "Equation of a straight line, including the forms y − y1 = m(x − x1) and ax + by + c = 0."
+      },
+      {
+       "id": "P1.2.2",
+       "short": "Parallel & perpendicular lines",
+       "text": "Conditions for two straight lines to be parallel or perpendicular to each other."
+      }
+     ]
+    },
+    {
+     "id": "P1.3",
+     "title": "Trigonometry",
+     "points": [
+      {
+       "id": "P1.3.1",
+       "short": "Sine and cosine rules",
+       "text": "The sine and cosine rules, and the area of a triangle in the form 1/2 ab sin C."
+      },
+      {
+       "id": "P1.3.2",
+       "short": "Radian measure",
+       "text": "Radian measure, including use for arc length and area of sector."
+      },
+      {
+       "id": "P1.3.3",
+       "short": "Trig graphs & symmetries",
+       "text": "Sine, cosine and tangent functions. Their graphs, symmetries and periodicity."
+      }
+     ]
+    },
+    {
+     "id": "P1.4",
+     "title": "Differentiation",
+     "points": [
+      {
+       "id": "P1.4.1",
+       "short": "Derivative as gradient & limit",
+       "text": "The derivative of f(x) as the gradient of the tangent to the graph of y = f(x) at a point; the gradient of the tangent as a limit; interpretation as a rate of change; second order derivatives."
+      },
+      {
+       "id": "P1.4.2",
+       "short": "Differentiation of x^n",
+       "text": "Differentiation of x^n, and related sums, differences and constant multiples."
+      },
+      {
+       "id": "P1.4.3",
+       "short": "Tangents and normals",
+       "text": "Applications of differentiation to gradients, tangents and normals."
+      }
+     ]
+    },
+    {
+     "id": "P1.5",
+     "title": "Integration",
+     "points": [
+      {
+       "id": "P1.5.1",
+       "short": "Indefinite integration",
+       "text": "Indefinite integration as the reverse of differentiation."
+      },
+      {
+       "id": "P1.5.2",
+       "short": "Integration of x^n",
+       "text": "Integration of x^n and related sums, differences and constant multiples."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WMA12",
+   "title": "Pure Mathematics 2",
+   "groups": [
+    {
+     "id": "P2.1",
+     "title": "Proof",
+     "points": [
+      {
+       "id": "P2.1.1",
+       "short": "Structure of math proof",
+       "text": "Understand and use the structure of mathematical proof, proceeding from given assumptions through a series of logical steps to a conclusion; use methods of proof stated below:"
+      },
+      {
+       "id": "P2.1.2",
+       "short": "Proof by exhaustion",
+       "text": "Proof by exhaustion"
+      },
+      {
+       "id": "P2.1.3",
+       "short": "Disproof by counter example",
+       "text": "Disproof by counter example."
+      }
+     ]
+    },
+    {
+     "id": "P2.2",
+     "title": "Algebra and functions",
+     "points": [
+      {
+       "id": "P2.2.1",
+       "short": "Factor & Remainder Theorems",
+       "text": "Simple algebraic division; use of the Factor Theorem and the Remainder Theorem."
+      }
+     ]
+    },
+    {
+     "id": "P2.3",
+     "title": "Coordinate geometry in the (x, y) plane",
+     "points": [
+      {
+       "id": "P2.3.1",
+       "short": "Equation of a circle",
+       "text": "Coordinate geometry of the circle using the equation of a circle in the form (x − a)^2 + (y − b)^2 = r^2 and including use of the following circle properties:\n(i) the angle in a semicircle is a right angle;\n(ii) the perpendicular from the centre to a chord bisects the chord;\n(iii) the perpendicularity of radius and tangent."
+      }
+     ]
+    },
+    {
+     "id": "P2.4",
+     "title": "Sequences and series",
+     "points": [
+      {
+       "id": "P2.4.1",
+       "short": "Recurrence relations",
+       "text": "Sequences, including those given by a formula for the nth term and those generated by a simple relation of the form x_(n+1) = f(x_n)."
+      },
+      {
+       "id": "P2.4.2",
+       "short": "Arithmetic sequences & series",
+       "text": "Understand and work with arithmetic sequences and series, including the formula for the nth term and the sum of a finite arithmetic series; the sum of the first n natural numbers."
+      },
+      {
+       "id": "P2.4.3",
+       "short": "Periodic & monotonic sequences",
+       "text": "Increasing sequences, decreasing sequences and periodic sequences."
+      },
+      {
+       "id": "P2.4.4",
+       "short": "Geometric sequences & series",
+       "text": "Understand and work with geometric sequences and series, including the formulae for the nth term and the sum of a finite geometric series; the sum to infinity of a convergent geometric series, including the use of |r| < 1."
+      },
+      {
+       "id": "P2.4.5",
+       "short": "Binomial expansion (pos int)",
+       "text": "Binomial expansion of (a + bx)^n for positive integer n."
+      }
+     ]
+    },
+    {
+     "id": "P2.5",
+     "title": "Exponentials and logarithms",
+     "points": [
+      {
+       "id": "P2.5.1",
+       "short": "Exponential function y = a^x",
+       "text": "y = a^x and its graph."
+      },
+      {
+       "id": "P2.5.2",
+       "short": "Laws of logarithms",
+       "text": "Laws of logarithms."
+      },
+      {
+       "id": "P2.5.3",
+       "short": "Equations of form a^x = b",
+       "text": "The solution of equations of the form a^x = b."
+      }
+     ]
+    },
+    {
+     "id": "P2.6",
+     "title": "Trigonometry",
+     "points": [
+      {
+       "id": "P2.6.1",
+       "short": "Trig identities tan & sin^2",
+       "text": "Knowledge and use of tan θ = sin θ/cos θ, and sin^2 θ + cos^2 θ = 1."
+      },
+      {
+       "id": "P2.6.2",
+       "short": "Solving trigonometric equations",
+       "text": "Solution of simple trigonometric equations in a given interval."
+      }
+     ]
+    },
+    {
+     "id": "P2.7",
+     "title": "Differentiation",
+     "points": [
+      {
+       "id": "P2.7.1",
+       "short": "Maxima, minima & stationary pts",
+       "text": "Applications of differentiation to maxima and minima and stationary points, increasing and decreasing functions."
+      }
+     ]
+    },
+    {
+     "id": "P2.8",
+     "title": "Integration",
+     "points": [
+      {
+       "id": "P2.8.1",
+       "short": "Definite integrals",
+       "text": "Evaluation of definite integrals."
+      },
+      {
+       "id": "P2.8.2",
+       "short": "Area under a curve",
+       "text": "Interpretation of the definite integral as the area under a curve."
+      },
+      {
+       "id": "P2.8.3",
+       "short": "Trapezium rule",
+       "text": "Approximation of area under a curve using the trapezium rule."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WMA13",
+   "title": "Pure Mathematics 3",
+   "groups": [
+    {
+     "id": "P3.1",
+     "title": "Algebra and functions",
+     "points": [
+      {
+       "id": "P3.1.1",
+       "short": "Rational expressions & division",
+       "text": "Simplification of rational expressions including factorising and cancelling, and algebraic division."
+      },
+      {
+       "id": "P3.1.2",
+       "short": "Functions, domain, range, inv",
+       "text": "Definition of a function. Domain and range of functions. Composition of functions. Inverse functions and their graphs."
+      },
+      {
+       "id": "P3.1.3",
+       "short": "Modulus function",
+       "text": "The modulus function."
+      },
+      {
+       "id": "P3.1.4",
+       "short": "Combined graph transformations",
+       "text": "Combinations of the transformations y = f(x) as represented by y = af(x), y = f(x) + a, y = f(x + a), y = f(ax)."
+      }
+     ]
+    },
+    {
+     "id": "P3.2",
+     "title": "Trigonometry",
+     "points": [
+      {
+       "id": "P3.2.1",
+       "short": "Sec, cosec, cot & inverse trig",
+       "text": "Knowledge of secant, cosecant and cotangent and of arcsin, arccos and arctan. Their relationships to sine, cosine and tangent. Understanding of their graphs and appropriate restricted domains."
+      },
+      {
+       "id": "P3.2.2",
+       "short": "Sec^2 and cosec^2 identities",
+       "text": "Knowledge and use of sec^2 θ = 1 + tan^2 θ and cosec^2 θ = 1 + cot^2 θ."
+      },
+      {
+       "id": "P3.2.3",
+       "short": "Addition & double angle formula",
+       "text": "Knowledge and use of double angle formulae; use of formulae for sin (A ± B), cos (A ± B) and tan (A ± B) and of expressions for a cos θ + b sin θ in the equivalent forms of r cos (θ ± a) or r sin (θ ± a)."
+      }
+     ]
+    },
+    {
+     "id": "P3.3",
+     "title": "Exponential and logarithms",
+     "points": [
+      {
+       "id": "P3.3.1",
+       "short": "Natural exponential function e^x",
+       "text": "The function e^x and its graph."
+      },
+      {
+       "id": "P3.3.2",
+       "short": "Natural logarithm function ln x",
+       "text": "The function ln x and its graph; ln x as the inverse function of e^x."
+      },
+      {
+       "id": "P3.3.3",
+       "short": "Log graphs to estimate models",
+       "text": "Use logarithmic graphs to estimate parameters in relationships of the form y = ax^n and y = kb^x."
+      }
+     ]
+    },
+    {
+     "id": "P3.4",
+     "title": "Differentiation",
+     "points": [
+      {
+       "id": "P3.4.1",
+       "short": "Diff of exp, ln, sin, cos, tan",
+       "text": "Differentiation of e^kx, ln kx, sin kx, cos kx, tan kx and their sums and differences."
+      },
+      {
+       "id": "P3.4.2",
+       "short": "Product, quotient & chain rules",
+       "text": "Differentiation using the product rule, the quotient rule and the chain rule."
+      },
+      {
+       "id": "P3.4.3",
+       "short": "dy/dx = 1 / (dx/dy)",
+       "text": "The use of dy/dx = 1/(dx/dy)."
+      },
+      {
+       "id": "P3.4.4",
+       "short": "Exponential growth and decay",
+       "text": "Understand and use exponential growth and decay."
+      }
+     ]
+    },
+    {
+     "id": "P3.5",
+     "title": "Integration",
+     "points": [
+      {
+       "id": "P3.5.1",
+       "short": "Integration of exp, 1/x, trig",
+       "text": "Integration of e^kx, 1/x, sin kx, cos kx and their sums and differences."
+      },
+      {
+       "id": "P3.5.2",
+       "short": "Reverse chain rule integration",
+       "text": "Integration by recognition of known derivatives to include integrals of the form ∫ (f'(x)/f(x)) dx = ln (f(x)) + c and ∫ f'(x)[f(x)]^n dx = [f(x)]^(n+1)/(n+1) + c"
+      }
+     ]
+    },
+    {
+     "id": "P3.6",
+     "title": "Numerical methods",
+     "points": [
+      {
+       "id": "P3.6.1",
+       "short": "Sign change root location",
+       "text": "Location of roots of f(x) = 0 by considering changes of sign of f(x) in an interval of x in which f(x) is continuous."
+      },
+      {
+       "id": "P3.6.2",
+       "short": "Iterative methods for roots",
+       "text": "Approximate solution of equations using simple iterative methods, including recurrence relations of the form x_(n+1) = f(x_n)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WMA14",
+   "title": "Pure Mathematics 4",
+   "groups": [
+    {
+     "id": "P4.1",
+     "title": "Proof",
+     "points": [
+      {
+       "id": "P4.1.1",
+       "short": "Proof by contradiction",
+       "text": "Proof by contradiction"
+      }
+     ]
+    },
+    {
+     "id": "P4.2",
+     "title": "Algebra and functions",
+     "points": [
+      {
+       "id": "P4.2.1",
+       "short": "Partial fractions",
+       "text": "Decompose rational functions into partial fractions (denominators not more complicated than repeated linear terms)."
+      }
+     ]
+    },
+    {
+     "id": "P4.3",
+     "title": "Coordinate geometry in the (x, y) plane",
+     "points": [
+      {
+       "id": "P4.3.1",
+       "short": "Parametric curves & conversion",
+       "text": "Parametric equations of curves and conversion between cartesian and parametric forms."
+      }
+     ]
+    },
+    {
+     "id": "P4.4",
+     "title": "Binomial expansion",
+     "points": [
+      {
+       "id": "P4.4.1",
+       "short": "Binomial series (rational n)",
+       "text": "Binomial Series for any rational n."
+      }
+     ]
+    },
+    {
+     "id": "P4.5",
+     "title": "Differentiation",
+     "points": [
+      {
+       "id": "P4.5.1",
+       "short": "Implicit & parametric diff",
+       "text": "Differentiation of simple functions defined implicitly or parametrically."
+      },
+      {
+       "id": "P4.5.2",
+       "short": "Forming differential equations",
+       "text": "Formation of simple differential equations."
+      }
+     ]
+    },
+    {
+     "id": "P4.6",
+     "title": "Integration",
+     "points": [
+      {
+       "id": "P4.6.1",
+       "short": "Volumes of revolution",
+       "text": "Evaluation of volume of revolution."
+      },
+      {
+       "id": "P4.6.2",
+       "short": "Substitution and by parts",
+       "text": "Simple cases of integration by substitution and integration by parts. Understand these methods as the reverse processes of the chain and product rules respectively."
+      },
+      {
+       "id": "P4.6.3",
+       "short": "Integration by partial fracs",
+       "text": "Simple cases of integration using partial fractions."
+      },
+      {
+       "id": "P4.6.4",
+       "short": "Separable 1st order DEs",
+       "text": "Analytical solution of simple first order differential equations with separable variables."
+      },
+      {
+       "id": "P4.6.5",
+       "short": "Parametric integration for area",
+       "text": "Use integration to find the area under a curve given its parametric equations."
+      }
+     ]
+    },
+    {
+     "id": "P4.7",
+     "title": "Vectors",
+     "points": [
+      {
+       "id": "P4.7.1",
+       "short": "Vectors in 2D and 3D",
+       "text": "Vectors in two and three dimensions."
+      },
+      {
+       "id": "P4.7.2",
+       "short": "Magnitude of a vector",
+       "text": "Magnitude of a vector."
+      },
+      {
+       "id": "P4.7.3",
+       "short": "Vector operations & geometry",
+       "text": "Algebraic operations of vector addition and multiplication by scalars, and their geometrical interpretations."
+      },
+      {
+       "id": "P4.7.4",
+       "short": "Position vectors",
+       "text": "Position vectors."
+      },
+      {
+       "id": "P4.7.5",
+       "short": "Distance between two points",
+       "text": "The distance between two points."
+      },
+      {
+       "id": "P4.7.6",
+       "short": "Vector equations of lines",
+       "text": "Vector equations of lines."
+      },
+      {
+       "id": "P4.7.7",
+       "short": "Scalar product & line angles",
+       "text": "The scalar product. Its use for calculating the angle between two lines."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WFM01",
+   "title": "Further Pure Mathematics 1",
+   "groups": [
+    {
+     "id": "FP1.1",
+     "title": "Complex numbers",
+     "points": [
+      {
+       "id": "FP1.1.1",
+       "short": "Complex numbers Cartesian/polar",
+       "text": "Definition of complex numbers in the form a + ib and r cos θ + i r sin θ."
+      },
+      {
+       "id": "FP1.1.2",
+       "short": "Arithmetic of complex numbers",
+       "text": "Sum, product and quotient of complex numbers."
+      },
+      {
+       "id": "FP1.1.3",
+       "short": "Argand diagrams & operations",
+       "text": "Geometrical representation of complex numbers in the Argand diagram. Geometrical representation of sums, products and quotients of complex numbers."
+      },
+      {
+       "id": "FP1.1.4",
+       "short": "Complex roots of quadratics",
+       "text": "Complex solutions of quadratic equations with real coefficients."
+      },
+      {
+       "id": "FP1.1.5",
+       "short": "Roots of cubic equations",
+       "text": "Finding conjugate complex roots and a real root of a cubic equation with integer coefficients."
+      },
+      {
+       "id": "FP1.1.6",
+       "short": "Roots of quartic equations",
+       "text": "Finding conjugate complex roots and/or real roots of a quartic equation with real coefficients."
+      }
+     ]
+    },
+    {
+     "id": "FP1.2",
+     "title": "Roots of quadratic equations",
+     "points": [
+      {
+       "id": "FP1.2.1",
+       "short": "Sum & product of roots",
+       "text": "Sum of roots and product of roots of a quadratic equation."
+      },
+      {
+       "id": "FP1.2.2",
+       "short": "Symmetric root expressions",
+       "text": "Manipulation of expressions involving the sum of roots and product of roots."
+      },
+      {
+       "id": "FP1.2.3",
+       "short": "Forming quadratics from roots",
+       "text": "Forming quadratic equations with new roots."
+      }
+     ]
+    },
+    {
+     "id": "FP1.3",
+     "title": "Numerical solution of equations",
+     "points": [
+      {
+       "id": "FP1.3.1",
+       "short": "Numerical root-finding methods",
+       "text": "Equations of the form f(x) = 0 solved numerically by: (i) interval bisection, (ii) linear interpolation, (iii) the Newton-Raphson process."
+      }
+     ]
+    },
+    {
+     "id": "FP1.4",
+     "title": "Coordinate systems",
+     "points": [
+      {
+       "id": "FP1.4.1",
+       "short": "Parabola & rectangular hyperbola",
+       "text": "Cartesian equations for the parabola and rectangular hyperbola."
+      },
+      {
+       "id": "FP1.4.2",
+       "short": "Parametric parabola & hyperbola",
+       "text": "Idea of parametric equation for parabola and rectangular hyperbola."
+      },
+      {
+       "id": "FP1.4.3",
+       "short": "Focus-directrix property",
+       "text": "The focus-directrix property of the parabola."
+      },
+      {
+       "id": "FP1.4.4",
+       "short": "Conics tangents and normals",
+       "text": "Tangents and normals to these curves."
+      }
+     ]
+    },
+    {
+     "id": "FP1.5",
+     "title": "Matrix algebra integration",
+     "points": [
+      {
+       "id": "FP1.5.1",
+       "short": "Matrix addition & subtraction",
+       "text": "Addition and subtraction of matrices."
+      },
+      {
+       "id": "FP1.5.2",
+       "short": "Matrix scalar multiplication",
+       "text": "Multiplication of a matrix by a scalar."
+      },
+      {
+       "id": "FP1.5.3",
+       "short": "Matrix multiplication",
+       "text": "Products of matrices."
+      },
+      {
+       "id": "FP1.5.4",
+       "short": "Determinants of 2x2 matrices",
+       "text": "Evaluation of 2 × 2 determinants."
+      },
+      {
+       "id": "FP1.5.5",
+       "short": "Inverse of 2x2 matrices",
+       "text": "Inverse of 2 × 2 matrices."
+      }
+     ]
+    },
+    {
+     "id": "FP1.6",
+     "title": "Transformations using matrices",
+     "points": [
+      {
+       "id": "FP1.6.1",
+       "short": "2D linear transformations",
+       "text": "Linear transformations of column vectors in two dimensions and their matrix representation."
+      },
+      {
+       "id": "FP1.6.2",
+       "short": "Geometric matrix transforms",
+       "text": "Applications of 2 × 2 matrices to represent geometrical transformations."
+      },
+      {
+       "id": "FP1.6.3",
+       "short": "Combined matrix transformations",
+       "text": "Combinations of transformations."
+      },
+      {
+       "id": "FP1.6.4",
+       "short": "Inverse transformations",
+       "text": "The inverse (when it exists) of a given transformation or combination of transformations."
+      }
+     ]
+    },
+    {
+     "id": "FP1.7",
+     "title": "Series",
+     "points": [
+      {
+       "id": "FP1.7.1",
+       "short": "Summation of finite series",
+       "text": "Summation of simple finite series."
+      }
+     ]
+    },
+    {
+     "id": "FP1.8",
+     "title": "Proof",
+     "points": [
+      {
+       "id": "FP1.8.1",
+       "short": "Mathematical induction",
+       "text": "Proof by mathematical induction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WFM02",
+   "title": "Further Pure Mathematics 2",
+   "groups": [
+    {
+     "id": "FP2.1",
+     "title": "Inequalities",
+     "points": [
+      {
+       "id": "FP2.1.1",
+       "short": "Inequalities with modulus",
+       "text": "The manipulation and solution of algebraic inequalities and inequations, including those involving the modulus sign."
+      }
+     ]
+    },
+    {
+     "id": "FP2.2",
+     "title": "Series",
+     "points": [
+      {
+       "id": "FP2.2.1",
+       "short": "Method of differences",
+       "text": "Summation of simple finite series using the method of differences."
+      }
+     ]
+    },
+    {
+     "id": "FP2.3",
+     "title": "Further complex numbers",
+     "points": [
+      {
+       "id": "FP2.3.1",
+       "short": "Euler's relation",
+       "text": "Euler’s relation e^(iθ) = cos θ + i sin θ."
+      },
+      {
+       "id": "FP2.3.2",
+       "short": "De Moivre's theorem",
+       "text": "De Moivre’s theorem and its application to trigonometric identities and to roots of a complex number."
+      },
+      {
+       "id": "FP2.3.3",
+       "short": "Argand loci and regions",
+       "text": "Loci and regions in the Argand diagram."
+      },
+      {
+       "id": "FP2.3.4",
+       "short": "Transformations z to w-plane",
+       "text": "Elementary transformations from the z-plane to the w-plane."
+      }
+     ]
+    },
+    {
+     "id": "FP2.4",
+     "title": "First order differential equations",
+     "points": [
+      {
+       "id": "FP2.4.1",
+       "short": "Further separable 1st order DEs",
+       "text": "Further solution of first order differential equations with separable variables."
+      },
+      {
+       "id": "FP2.4.2",
+       "short": "Integrating factor 1st order DEs",
+       "text": "First order linear differential equations of the form dy/dx + Py = Q where P and Q are functions of x."
+      },
+      {
+       "id": "FP2.4.3",
+       "short": "1st order DEs with substitution",
+       "text": "Differential equations reducible to the above types by means of a given substitution."
+      }
+     ]
+    },
+    {
+     "id": "FP2.5",
+     "title": "Second order differential equations",
+     "points": [
+      {
+       "id": "FP2.5.1",
+       "short": "2nd order linear DEs",
+       "text": "The linear second order differential equation a d^2y/dx^2 + b dy/dx + cy = f(x) where a, b and c are real constants and the particular integral can be found by inspection or trial."
+      },
+      {
+       "id": "FP2.5.2",
+       "short": "2nd order DEs with substitution",
+       "text": "Differential equations reducible to the above types by means of a given substitution."
+      }
+     ]
+    },
+    {
+     "id": "FP2.6",
+     "title": "Maclaurin and Taylor series",
+     "points": [
+      {
+       "id": "FP2.6.1",
+       "short": "Higher order derivatives",
+       "text": "Third and higher order derivatives."
+      },
+      {
+       "id": "FP2.6.2",
+       "short": "Maclaurin series",
+       "text": "Derivation and use of Maclaurin series."
+      },
+      {
+       "id": "FP2.6.3",
+       "short": "Taylor series",
+       "text": "Derivation and use of Taylor series."
+      },
+      {
+       "id": "FP2.6.4",
+       "short": "Taylor series series solutions",
+       "text": "Use of Taylor series method for series solutions of differential equations."
+      }
+     ]
+    },
+    {
+     "id": "FP2.7",
+     "title": "Polar coordinates",
+     "points": [
+      {
+       "id": "FP2.7.1",
+       "short": "Polar coordinates & curves",
+       "text": "Polar coordinates (r, θ), r ≥ 0."
+      },
+      {
+       "id": "FP2.7.2",
+       "short": "Area in polar coordinates",
+       "text": "Use of the formula 1/2 ∫_α^β r^2 dθ for area."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WFM03",
+   "title": "Further Pure Mathematics 3",
+   "groups": [
+    {
+     "id": "FP3.1",
+     "title": "Hyperbolic functions",
+     "points": [
+      {
+       "id": "FP3.1.1",
+       "short": "Hyperbolic functions definition",
+       "text": "Definition of the six hyperbolic functions in terms of exponentials. Graphs and properties of the hyperbolic functions."
+      },
+      {
+       "id": "FP3.1.2",
+       "short": "Inverse hyperbolic functions",
+       "text": "Inverse hyperbolic functions, their graphs, properties and logarithmic equivalents."
+      }
+     ]
+    },
+    {
+     "id": "FP3.2",
+     "title": "Further coordinate systems",
+     "points": [
+      {
+       "id": "FP3.2.1",
+       "short": "Cartesian & parametric conics",
+       "text": "Cartesian and parametric equations for the ellipse and hyperbola."
+      },
+      {
+       "id": "FP3.2.2",
+       "short": "Focus-directrix & eccentricity",
+       "text": "The focus-directrix properties of the ellipse and hyperbola, including the eccentricity."
+      },
+      {
+       "id": "FP3.2.3",
+       "short": "Ellipse & hyperbola tangents",
+       "text": "Tangents and normals to these curves."
+      },
+      {
+       "id": "FP3.2.4",
+       "short": "Conic loci problems",
+       "text": "Simple loci problems."
+      }
+     ]
+    },
+    {
+     "id": "FP3.3",
+     "title": "Differentiation",
+     "points": [
+      {
+       "id": "FP3.3.1",
+       "short": "Diff of hyperbolic functions",
+       "text": "Differentiation of hyperbolic functions and expressions involving them."
+      },
+      {
+       "id": "FP3.3.2",
+       "short": "Diff of inverse trig/hyperbolic",
+       "text": "Differentiation of inverse functions, including trigonometric and hyperbolic functions."
+      }
+     ]
+    },
+    {
+     "id": "FP3.4",
+     "title": "Integration",
+     "points": [
+      {
+       "id": "FP3.4.1",
+       "short": "Integration of hyperbolics",
+       "text": "Integration of hyperbolic functions and expressions involving them."
+      },
+      {
+       "id": "FP3.4.2",
+       "short": "Integration of inverse functions",
+       "text": "Integration of inverse trigonometric and hyperbolic functions."
+      },
+      {
+       "id": "FP3.4.3",
+       "short": "Trig & hyperbolic substitution",
+       "text": "Integration using hyperbolic and trigonometric substitutions."
+      },
+      {
+       "id": "FP3.4.4",
+       "short": "Quadratic surds substitution",
+       "text": "Use of substitution for integrals involving quadratic surds."
+      },
+      {
+       "id": "FP3.4.5",
+       "short": "Reduction formulae",
+       "text": "The derivation and use of simple reduction formulae."
+      },
+      {
+       "id": "FP3.4.6",
+       "short": "Arc length & surface area",
+       "text": "The calculation of arc length and the area of a surface of revolution."
+      }
+     ]
+    },
+    {
+     "id": "FP3.5",
+     "title": "Vectors",
+     "points": [
+      {
+       "id": "FP3.5.1",
+       "short": "Vector & scalar triple products",
+       "text": "The vector product a × b and the triple scalar product a . b × c."
+      },
+      {
+       "id": "FP3.5.2",
+       "short": "Lines & planes vector equations",
+       "text": "Use of vectors in problems involving points, lines and planes. The equation of a line in the form (r − a) × b = 0."
+      },
+      {
+       "id": "FP3.5.3",
+       "short": "Plane equations r.n = p",
+       "text": "The equation of a plane in the forms r.n = p, r = a + sb + tc."
+      }
+     ]
+    },
+    {
+     "id": "FP3.6",
+     "title": "Further matrix algebra",
+     "points": [
+      {
+       "id": "FP3.6.1",
+       "short": "3D linear transformations",
+       "text": "Linear transformations of column vectors in two and three dimensions and their matrix representation."
+      },
+      {
+       "id": "FP3.6.2",
+       "short": "Matrix products & transforms",
+       "text": "Combination of transformations. Products of matrices."
+      },
+      {
+       "id": "FP3.6.3",
+       "short": "Matrix transpose",
+       "text": "Transpose of a matrix."
+      },
+      {
+       "id": "FP3.6.4",
+       "short": "Determinants of 3x3 matrices",
+       "text": "Evaluation of 3 × 3 determinants."
+      },
+      {
+       "id": "FP3.6.5",
+       "short": "Inverse of 3x3 matrices",
+       "text": "Inverse of 3 × 3 matrices."
+      },
+      {
+       "id": "FP3.6.6",
+       "short": "Inverse transformations in 3D",
+       "text": "The inverse (when it exists) of a given transformation or combination of transformations."
+      },
+      {
+       "id": "FP3.6.7",
+       "short": "Eigenvalues & eigenvectors",
+       "text": "Eigenvalues and eigenvectors of 2 × 2 and 3 × 3 matrices."
+      },
+      {
+       "id": "FP3.6.8",
+       "short": "Diagonalisation of matrices",
+       "text": "Reduction of symmetric matrices to diagonal form."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WME01",
+   "title": "Mechanics 1",
+   "groups": [
+    {
+     "id": "M1.1",
+     "title": "Mathematical models in mechanics",
+     "points": [
+      {
+       "id": "M1.1.1",
+       "short": "Modelling assumptions",
+       "text": "The basic ideas of mathematical modelling as applied in Mechanics."
+      }
+     ]
+    },
+    {
+     "id": "M1.2",
+     "title": "Vectors in mechanics",
+     "points": [
+      {
+       "id": "M1.2.1",
+       "short": "Vector magnitude and direction",
+       "text": "Magnitude and direction of a vector. Resultant of vectors may also be required."
+      },
+      {
+       "id": "M1.2.2",
+       "short": "Vectors in kinematics & forces",
+       "text": "Application of vectors to displacements, velocities, accelerations and forces in a plane."
+      }
+     ]
+    },
+    {
+     "id": "M1.3",
+     "title": "Kinematics of a particle moving in a straight line",
+     "points": [
+      {
+       "id": "M1.3.1",
+       "short": "Constant acceleration (SUVAT)",
+       "text": "Motion in a straight line with constant acceleration."
+      }
+     ]
+    },
+    {
+     "id": "M1.4",
+     "title": "Dynamics of a particle moving in a straight line or plane",
+     "points": [
+      {
+       "id": "M1.4.1",
+       "short": "Newton's laws of motion",
+       "text": "The concept of a force. Newton’s laws of motion."
+      },
+      {
+       "id": "M1.4.2",
+       "short": "Connected particles",
+       "text": "Simple applications including the motion of two connected particles."
+      },
+      {
+       "id": "M1.4.3",
+       "short": "Impulse and momentum",
+       "text": "Momentum and impulse. The impulse-momentum principle. The principle of conservation of momentum applied to two particles colliding directly."
+      },
+      {
+       "id": "M1.4.4",
+       "short": "Friction (F = μR moving)",
+       "text": "Coefficient of friction."
+      }
+     ]
+    },
+    {
+     "id": "M1.5",
+     "title": "Statics of a particle",
+     "points": [
+      {
+       "id": "M1.5.1",
+       "short": "Resolving forces",
+       "text": "Forces treated as vectors. Resolution of forces."
+      },
+      {
+       "id": "M1.5.2",
+       "short": "Particle equilibrium",
+       "text": "Equilibrium of a particle under coplanar forces. Weight, normal reaction, tension and thrust, friction."
+      },
+      {
+       "id": "M1.5.3",
+       "short": "Friction (F ≤ μR equilibrium)",
+       "text": "Coefficient of friction."
+      }
+     ]
+    },
+    {
+     "id": "M1.6",
+     "title": "Moments",
+     "points": [
+      {
+       "id": "M1.6.1",
+       "short": "Moment of a force",
+       "text": "Moment of a force."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WME02",
+   "title": "Mechanics 2",
+   "groups": [
+    {
+     "id": "M2.1",
+     "title": "Kinematics of a particle moving in a straight line or plane",
+     "points": [
+      {
+       "id": "M2.1.1",
+       "short": "Vertical motion under gravity",
+       "text": "Motion in a vertical plane with constant acceleration, e.g. under gravity."
+      },
+      {
+       "id": "M2.1.2",
+       "short": "Projectiles",
+       "text": "Simple cases of motion of a projectile."
+      },
+      {
+       "id": "M2.1.3",
+       "short": "Variable acceleration x(t)",
+       "text": "Velocity and acceleration when the displacement is a function of time."
+      },
+      {
+       "id": "M2.1.4",
+       "short": "Calculus with vectors",
+       "text": "Differentiation and integration of a vector with respect to time."
+      }
+     ]
+    },
+    {
+     "id": "M2.2",
+     "title": "Centres of mass",
+     "points": [
+      {
+       "id": "M2.2.1",
+       "short": "Discrete centre of mass",
+       "text": "Centre of mass of a discrete mass distribution in one and two dimensions."
+      },
+      {
+       "id": "M2.2.2",
+       "short": "Centre of mass of laminas",
+       "text": "Centre of mass of uniform plane figures, and simple cases of composite plane figures."
+      },
+      {
+       "id": "M2.2.3",
+       "short": "Equilibrium of a lamina",
+       "text": "Simple cases of equilibrium of a plane lamina."
+      }
+     ]
+    },
+    {
+     "id": "M2.3",
+     "title": "Work and energy",
+     "points": [
+      {
+       "id": "M2.3.1",
+       "short": "Work, energy and power",
+       "text": "Kinetic and potential energy, work and power. The work-energy principle. The principle of conservation of mechanical energy."
+      }
+     ]
+    },
+    {
+     "id": "M2.4",
+     "title": "Collisions",
+     "points": [
+      {
+       "id": "M2.4.1",
+       "short": "Impulse & momentum in 2D",
+       "text": "Momentum as a vector. The impulse-momentum principle in vector form. Conservation of linear momentum."
+      },
+      {
+       "id": "M2.4.2",
+       "short": "Direct elastic collisions",
+       "text": "Direct impact of elastic particles. Newton’s law of restitution. Loss of mechanical energy due to impact."
+      },
+      {
+       "id": "M2.4.3",
+       "short": "Successive impacts",
+       "text": "Successive impacts of up to three particles or two particles and a smooth plane surface."
+      }
+     ]
+    },
+    {
+     "id": "M2.5",
+     "title": "Statics of rigid bodies",
+     "points": [
+      {
+       "id": "M2.5.1",
+       "short": "Moments on rigid bodies",
+       "text": "Moment of a force."
+      },
+      {
+       "id": "M2.5.2",
+       "short": "Equilibrium of rigid bodies",
+       "text": "Equilibrium of rigid bodies."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WME03",
+   "title": "Mechanics 3",
+   "groups": [
+    {
+     "id": "M3.1",
+     "title": "Further kinematics",
+     "points": [
+      {
+       "id": "M3.1.1",
+       "short": "Acceleration as f(x) or f(t)",
+       "text": "Kinematics of a particle moving in a straight line when the acceleration is a function of the displacement (x), or time (t)."
+      }
+     ]
+    },
+    {
+     "id": "M3.2",
+     "title": "Elastic strings and springs",
+     "points": [
+      {
+       "id": "M3.2.1",
+       "short": "Hooke's law",
+       "text": "Elastic strings and springs. Hooke’s law."
+      },
+      {
+       "id": "M3.2.2",
+       "short": "Elastic potential energy",
+       "text": "Energy stored in an elastic string or spring."
+      }
+     ]
+    },
+    {
+     "id": "M3.3",
+     "title": "Further dynamics",
+     "points": [
+      {
+       "id": "M3.3.1",
+       "short": "Motion under variable force",
+       "text": "Newton’s laws of motion, for a particle moving in one dimension, when the applied force is variable."
+      },
+      {
+       "id": "M3.3.2",
+       "short": "Simple harmonic motion (SHM)",
+       "text": "Simple harmonic motion."
+      },
+      {
+       "id": "M3.3.3",
+       "short": "Elastic string/spring SHM",
+       "text": "Oscillations of a particle attached to the end of an elastic string or spring."
+      }
+     ]
+    },
+    {
+     "id": "M3.4",
+     "title": "Motion in a circle",
+     "points": [
+      {
+       "id": "M3.4.1",
+       "short": "Angular speed",
+       "text": "Angular speed."
+      },
+      {
+       "id": "M3.4.2",
+       "short": "Radial acceleration (v^2/r)",
+       "text": "Radial acceleration in circular motion. The forms rω^2 and v^2/r are required."
+      },
+      {
+       "id": "M3.4.3",
+       "short": "Horizontal circular motion",
+       "text": "Uniform motion of a particle moving in a horizontal circle."
+      },
+      {
+       "id": "M3.4.4",
+       "short": "Vertical circular motion",
+       "text": "Motion of a particle in a vertical circle."
+      }
+     ]
+    },
+    {
+     "id": "M3.5",
+     "title": "Statics of rigid bodies",
+     "points": [
+      {
+       "id": "M3.5.1",
+       "short": "Centre of mass of rigid bodies",
+       "text": "Centre of mass of uniform rigid bodies and simple composite bodies."
+      },
+      {
+       "id": "M3.5.2",
+       "short": "Equilibrium of rigid bodies M3",
+       "text": "Simple cases of equilibrium of rigid bodies."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WST01",
+   "title": "Statistics 1",
+   "groups": [
+    {
+     "id": "S1.1",
+     "title": "Mathematical models in probability and statistics",
+     "points": [
+      {
+       "id": "S1.1.1",
+       "short": "Modelling in prob & stats",
+       "text": "The basic ideas of mathematical modelling as applied in probability and statistics."
+      }
+     ]
+    },
+    {
+     "id": "S1.2",
+     "title": "Representation and summary of data",
+     "points": [
+      {
+       "id": "S1.2.1",
+       "short": "Histograms, stem & leaf, box",
+       "text": "Histograms, stem and leaf diagrams, box plots."
+      },
+      {
+       "id": "S1.2.2",
+       "short": "Measures of location",
+       "text": "Measures of location – mean, median, mode."
+      },
+      {
+       "id": "S1.2.3",
+       "short": "Measures of dispersion",
+       "text": "Measures of dispersion – variance, standard deviation, range and interpercentile ranges."
+      },
+      {
+       "id": "S1.2.4",
+       "short": "Skewness and outliers",
+       "text": "Skewness. Concepts of outliers."
+      }
+     ]
+    },
+    {
+     "id": "S1.3",
+     "title": "Probability",
+     "points": [
+      {
+       "id": "S1.3.1",
+       "short": "Elementary probability",
+       "text": "Elementary probability."
+      },
+      {
+       "id": "S1.3.2",
+       "short": "Conditional probability",
+       "text": "Sample space. Exclusive and complementary events. Conditional probability."
+      },
+      {
+       "id": "S1.3.3",
+       "short": "Independent events",
+       "text": "Independence of two events."
+      },
+      {
+       "id": "S1.3.4",
+       "short": "Sum and product laws",
+       "text": "Sum and product laws."
+      }
+     ]
+    },
+    {
+     "id": "S1.4",
+     "title": "Correlation and regression",
+     "points": [
+      {
+       "id": "S1.4.1",
+       "short": "Scatter diagrams & regression",
+       "text": "Scatter diagrams. Linear regression."
+      },
+      {
+       "id": "S1.4.2",
+       "short": "Explanatory & response vars",
+       "text": "Explanatory (independent) and response (dependent) variables. Applications and interpretations."
+      },
+      {
+       "id": "S1.4.3",
+       "short": "PMCC correlation coefficient",
+       "text": "The product moment correlation coefficient, its use, interpretation and limitations."
+      }
+     ]
+    },
+    {
+     "id": "S1.5",
+     "title": "Discrete random variables",
+     "points": [
+      {
+       "id": "S1.5.1",
+       "short": "Discrete random variable",
+       "text": "The concept of a discrete random variable."
+      },
+      {
+       "id": "S1.5.2",
+       "short": "Probability function & CDF",
+       "text": "The probability function and the cumulative distribution function for a discrete random variable."
+      },
+      {
+       "id": "S1.5.3",
+       "short": "E(X) and Var(X)",
+       "text": "Mean and variance of a discrete random variable."
+      },
+      {
+       "id": "S1.5.4",
+       "short": "Discrete uniform distribution",
+       "text": "The discrete uniform distribution."
+      }
+     ]
+    },
+    {
+     "id": "S1.6",
+     "title": "The Normal distribution",
+     "points": [
+      {
+       "id": "S1.6.1",
+       "short": "Normal distribution",
+       "text": "The Normal distribution including the mean, variance and use of tables of the cumulative distribution function."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WST02",
+   "title": "Statistics 2",
+   "groups": [
+    {
+     "id": "S2.1",
+     "title": "The Binomial and Poisson distributions",
+     "points": [
+      {
+       "id": "S2.1.1",
+       "short": "Binomial & Poisson models",
+       "text": "The binomial and Poisson distributions."
+      },
+      {
+       "id": "S2.1.2",
+       "short": "Mean & variance: Binomial/Poiss",
+       "text": "The mean and variance of the binomial and Poisson distributions."
+      },
+      {
+       "id": "S2.1.3",
+       "short": "Poisson approx to Binomial",
+       "text": "The use of the Poisson distribution as an approximation to the binomial distribution."
+      }
+     ]
+    },
+    {
+     "id": "S2.2",
+     "title": "Continuous random variables",
+     "points": [
+      {
+       "id": "S2.2.1",
+       "short": "Continuous random variable",
+       "text": "The concept of a continuous random variable."
+      },
+      {
+       "id": "S2.2.2",
+       "short": "PDF and CDF of continuous RV",
+       "text": "The probability density function and the cumulative distribution function for a continuous random variable."
+      },
+      {
+       "id": "S2.2.3",
+       "short": "f(x) = dF(x)/dx",
+       "text": "Relationship between density and distribution functions."
+      },
+      {
+       "id": "S2.2.4",
+       "short": "Mean & variance of continuous RV",
+       "text": "Mean and variance of continuous random variables."
+      },
+      {
+       "id": "S2.2.5",
+       "short": "Mode, median, quartiles of CRV",
+       "text": "Mode, median and quartiles of continuous random variables."
+      }
+     ]
+    },
+    {
+     "id": "S2.3",
+     "title": "Continuous distributions",
+     "points": [
+      {
+       "id": "S2.3.1",
+       "short": "Continuous uniform distribution",
+       "text": "The continuous uniform (rectangular) distribution."
+      },
+      {
+       "id": "S2.3.2",
+       "short": "Normal approximations",
+       "text": "Use of the Normal distribution as an approximation to the binomial distribution and the Poisson distribution, with the application of the continuity correction."
+      }
+     ]
+    },
+    {
+     "id": "S2.4",
+     "title": "Hypothesis tests",
+     "points": [
+      {
+       "id": "S2.4.1",
+       "short": "Sampling concepts & frames",
+       "text": "Population, census and sample. Sampling unit, sampling frame."
+      },
+      {
+       "id": "S2.4.2",
+       "short": "Test statistic & sampling dist",
+       "text": "Concepts of a statistic and its sampling distribution."
+      },
+      {
+       "id": "S2.4.3",
+       "short": "Hypothesis testing concept",
+       "text": "Concept and interpretation of a hypothesis test. Null and alternative hypotheses."
+      },
+      {
+       "id": "S2.4.4",
+       "short": "Critical region",
+       "text": "Critical region."
+      },
+      {
+       "id": "S2.4.5",
+       "short": "One- and two-tailed tests",
+       "text": "One-tailed and two-tailed tests."
+      },
+      {
+       "id": "S2.4.6",
+       "short": "Tests for Binomial & Poisson",
+       "text": "Hypothesis tests for the parameter p of a binomial distribution and for the mean of a Poisson distribution."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WST03",
+   "title": "Statistics 3",
+   "groups": [
+    {
+     "id": "S3.1",
+     "title": "Combinations of random variables",
+     "points": [
+      {
+       "id": "S3.1.1",
+       "short": "Combinations of Normal RVs",
+       "text": "Distribution of linear combinations of independent Normal random variables."
+      }
+     ]
+    },
+    {
+     "id": "S3.2",
+     "title": "Sampling",
+     "points": [
+      {
+       "id": "S3.2.1",
+       "short": "Simple random sampling",
+       "text": "Methods for collecting data. Simple random sampling. Use of random numbers for sampling."
+      },
+      {
+       "id": "S3.2.2",
+       "short": "Stratified, systematic, quota",
+       "text": "Other methods of sampling: stratified, systematic, quota."
+      }
+     ]
+    },
+    {
+     "id": "S3.3",
+     "title": "Estimation, confidence intervals and tests",
+     "points": [
+      {
+       "id": "S3.3.1",
+       "short": "Standard error, estimator, bias",
+       "text": "Concepts of standard error, estimator, bias."
+      },
+      {
+       "id": "S3.3.2",
+       "short": "Distribution of sample mean",
+       "text": "The distribution of the sample mean X̄."
+      },
+      {
+       "id": "S3.3.3",
+       "short": "Confidence interval concept",
+       "text": "Concept of a confidence interval and its interpretation."
+      },
+      {
+       "id": "S3.3.4",
+       "short": "Confidence limits: known σ²",
+       "text": "Confidence limits for a Normal mean, with variance known."
+      },
+      {
+       "id": "S3.3.5",
+       "short": "Normal mean test: known σ²",
+       "text": "Hypothesis tests for the mean of a Normal distribution with variance known."
+      },
+      {
+       "id": "S3.3.6",
+       "short": "Central Limit Theorem",
+       "text": "Use of Central Limit theorem to extend hypothesis tests and confidence intervals to samples from non-Normal distributions. Use of large sample results to extend to the case in which the variance is unknown."
+      },
+      {
+       "id": "S3.3.7",
+       "short": "2-sample test: known variances",
+       "text": "Hypothesis test for the difference between the means of two Normal distributions with variances known."
+      },
+      {
+       "id": "S3.3.8",
+       "short": "2-sample test: unknown variance",
+       "text": "Use of large sample results to extend to the case in which the population variances are unknown."
+      }
+     ]
+    },
+    {
+     "id": "S3.4",
+     "title": "Goodness of fit and contingency tables",
+     "points": [
+      {
+       "id": "S3.4.1",
+       "short": "Goodness of fit (χ² test)",
+       "text": "The null and alternative hypotheses. The use of ∑ (O_i - E_i)^2 / E_i as an approximate χ^2 statistic."
+      },
+      {
+       "id": "S3.4.2",
+       "short": "Degrees of freedom",
+       "text": "Degrees of freedom."
+      }
+     ]
+    },
+    {
+     "id": "S3.5",
+     "title": "Regression and correlation",
+     "points": [
+      {
+       "id": "S3.5.1",
+       "short": "Spearman's rank correlation",
+       "text": "Spearman’s rank correlation coefficient, its use, interpretation and limitations."
+      },
+      {
+       "id": "S3.5.2",
+       "short": "Hypothesis test for correlation",
+       "text": "Testing the hypothesis that a correlation is zero."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "WDM11",
+   "title": "Decision Mathematics 1",
+   "groups": [
+    {
+     "id": "D1.1",
+     "title": "Algorithms",
+     "points": [
+      {
+       "id": "D1.1.1",
+       "short": "Algorithm implementation",
+       "text": "The general ideas of algorithms and the implementation of an algorithm given by a flow chart or text."
+      },
+      {
+       "id": "D1.1.2",
+       "short": "Sorting & packing algorithms",
+       "text": "Students should be familiar with bin packing, bubble sort, quick sort, binary search."
+      }
+     ]
+    },
+    {
+     "id": "D1.2",
+     "title": "Algorithms on graphs",
+     "points": [
+      {
+       "id": "D1.2.1",
+       "short": "Minimum spanning tree",
+       "text": "The minimum spanning tree (minimum connector) problem. Prim’s and Kruskal’s algorithm."
+      },
+      {
+       "id": "D1.2.2",
+       "short": "Dijkstra's shortest path",
+       "text": "Dijkstra’s algorithm for finding the shortest path."
+      }
+     ]
+    },
+    {
+     "id": "D1.3",
+     "title": "Algorithms on graphs II",
+     "points": [
+      {
+       "id": "D1.3.1",
+       "short": "Route inspection (Chinese post)",
+       "text": "Algorithm for finding the shortest route around a network, travelling along every edge at least once and ending at the start vertex. The network will have up to four odd nodes."
+      },
+      {
+       "id": "D1.3.2",
+       "short": "Travelling Salesman Problem",
+       "text": "The practical and classical Travelling Salesman problems. The classical problem for complete graphs satisfying the triangle inequality."
+      },
+      {
+       "id": "D1.3.3",
+       "short": "TSP bounds via MST",
+       "text": "Determination of upper and lower bounds using minimum spanning tree methods."
+      },
+      {
+       "id": "D1.3.4",
+       "short": "Nearest neighbour algorithm",
+       "text": "The nearest neighbour algorithm."
+      }
+     ]
+    },
+    {
+     "id": "D1.4",
+     "title": "Critical path analysis",
+     "points": [
+      {
+       "id": "D1.4.1",
+       "short": "Activity networks",
+       "text": "Modelling of a project by an activity network, from a precedence table."
+      },
+      {
+       "id": "D1.4.2",
+       "short": "Precedence tables",
+       "text": "Completion of the precedence table for a given activity network."
+      },
+      {
+       "id": "D1.4.3",
+       "short": "Critical path algorithm",
+       "text": "Algorithm for finding the critical path. Earliest and latest event times. Earliest and latest start and finish times for activities."
+      },
+      {
+       "id": "D1.4.4",
+       "short": "Gantt charts & scheduling",
+       "text": "Total float. Gantt (cascade) charts. Scheduling."
+      }
+     ]
+    },
+    {
+     "id": "D1.5",
+     "title": "Linear programming",
+     "points": [
+      {
+       "id": "D1.5.1",
+       "short": "Linear program formulation",
+       "text": "Formulation of problems as linear programs."
+      },
+      {
+       "id": "D1.5.2",
+       "short": "Graphical LP solution",
+       "text": "Graphical solution of two variable problems using ruler and vertex methods."
+      },
+      {
+       "id": "D1.5.3",
+       "short": "Integer programming",
+       "text": "Consideration of problems where solutions must have integer values."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
