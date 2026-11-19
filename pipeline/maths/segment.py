@@ -579,7 +579,9 @@ def ms_split(ms_doc, questions):
         elif r.end is None:
             problems.append(f"MS Q{r.q}: no '(n marks)' line after its last row")
             r.end = nxt.start if nxt else (len(ms_doc) - 1, COL_Y1)
-    # notes: from a question's '(n marks)' line to the next question's first row
+    # notes: from a question's '(n marks)' line to the top of the next question's table (its first labelled row
+    # can sit under an unlabelled preamble row restating the question, which belongs to that question, not to the
+    # notes before it); the last question's notes stop at Pearson's publisher footer
     by_q = {}
     for r in rows:
         by_q.setdefault(r.q, []).append(r)
@@ -589,9 +591,52 @@ def ms_split(ms_doc, questions):
         if last.total_line is None:
             continue
         start = (last.total_line.page, last.total_line.y1 + 1)
-        end = by_q[qnums[i + 1]][0].start if i + 1 < len(qnums) else (len(ms_doc) - 1, COL_Y1)
+        if i + 1 < len(qnums):
+            first = by_q[qnums[i + 1]][0]
+            floor = start[1] if first.start[0] == start[0] else 0
+            top = table_top(ms_doc[first.start[0]], first.start[1], floor,
+                            [h for h in headers if h.page == first.start[0]])
+            if top < first.start[1] - 1:
+                first.start = (first.start[0], top)
+            end = first.start
+        else:
+            foot = next((l for l in lines if (l.page, l.y0) > start and FOOTER.match(l.text)), None)
+            end = (foot.page, foot.y0 - 4) if foot else (len(ms_doc) - 1, COL_Y1)
         notes[qn] = (start, end)
+    # a row's end is the next row's start: keep the row before a moved start in step
+    for a, b in zip(rows, rows[1:]):
+        if a.q == b.q and a.end != b.start:
+            a.end = b.start
     return rows, notes, problems, lines, items
+
+
+FOOTER = re.compile(r"^Pearson Education Limited\. Registered company", re.I)
+
+
+def table_top(page, y_first, floor, headers=()):
+    """Top of the ruled table a question's first row is in: the highest of the unbroken run of full-width
+    horizontal rules (gaps under 90 pt) that ends at that row, no higher than `floor`, and below the table's
+    'Question | Scheme | Marks' header row if it has one."""
+    ys = set()
+    for d in page.get_drawings():
+        for it in d["items"]:
+            if it[0] == "l" and abs(it[1].y - it[2].y) < 1 and abs(it[1].x - it[2].x) > 300:
+                ys.add(round(it[1].y, 1))
+        r = d["rect"]
+        if r.height < 2.5 and r.width > 300:
+            ys.add(round(r.y0, 1))
+    head = max((h.y1 for h in headers if floor < h.y0 < y_first), default=None)
+    if head is not None:
+        floor = max(floor, head)
+    above = sorted((y for y in ys if floor < y <= y_first + 3), reverse=True)
+    if not above:
+        return y_first
+    top = above[0]
+    for y in above[1:]:
+        if top - y >= 90:
+            break
+        top = y
+    return min(top - 1, y_first)
 
 
 def ms_bands(start, end, items, lines):
