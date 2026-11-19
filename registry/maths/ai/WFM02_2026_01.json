@@ -40,9 +40,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "5e9b53b23334",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(b)/3(c): a notes row in the mark scheme (\"If a 2nd order method is used, CF: {A}e^-x (B1), PF: lambda x + mu (M1), valid method for lambda and mu (dM1), A marks as above\") is split across the boundary: its first half is clipped at the bottom of the 3(b) rows and the second half sits at the top of the 3(c) rows"
+   ],
+   "fingerprint": "f4725bfd56bf",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -63,11 +65,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(b): mark-scheme crop clipped at the right edge (\"(4)\" cut)"
-   ],
-   "fingerprint": "bf313451637c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d2cf6e16fb52",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -111,12 +111,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(c): mark-scheme crop clipped at the right edge (the \"(2)\" mark total and \"Total 8\" are cut) with a stray fragment at the top edge",
-    "7(a): the marks column is clipped at the right edge (dM1 touches the border)"
-   ],
-   "fingerprint": "37b77bd4e980",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "46a1f6150c9d",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -162,9 +159,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d92d777da4f6",
+   "fingerprint": "4dc3deb97901",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

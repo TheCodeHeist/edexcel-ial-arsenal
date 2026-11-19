@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): mark scheme strip runs on into the bubble sort table (first row of the sort with M1 A1 A1ft A1 marks) after the bin-packing rows; that table and its four marks belong to 1(c), so (b) shows 7 marks against 3 and (c) has no marks column of its own (only \"(4)\").",
-    "1(c): mark scheme strip shows only a repeat of the bubble sort table without its M1 A1 A1ft A1 marks (they sit in the (b) strip), so the table is duplicated across the two strips.",
-    "All parts: the crop is clipped at the left edge: the labels are truncated (\"1.(a)\" and notes labels a1M1, b1A1, c1M1 etc. shown as \"1M1\", \"1A1\") (minor)."
+    "1(b): mark-scheme rows run on into (c)s bubble-sort table (passes 24 16 34 ... 38 34 31 24 23 21 16 14 12 9 5) with M1 A1 A1ft A1, so (b) rows carry (c)s 4 marks beyond its 3",
+    "1(c): mark-scheme rows start mid-table with the rows of the bubble sort cut off at the top and the M1 A1 A1ft A1 marks left in the (b) rows, so the marks column of (c) is empty"
    ],
-   "fingerprint": "385144fbf12f",
+   "fingerprint": "d3dce329e83f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -30,11 +29,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [
-    "2(a): asks to complete the table in the answer book; the blank table is not in the crop (the flowchart is enough to answer)."
-   ],
-   "fingerprint": "353c8171ba61",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "e73a59d3388b",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short"
@@ -49,13 +46,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a): mark scheme strip runs on into the Dijkstra labelled network for (b) (top half, F, H, C, G, E boxes with M1 A1 A1 marks) which is cut through at the bottom; that diagram belongs to 3(b).",
-    "3(b): mark scheme strip starts cut through the same Dijkstra diagram (bottom half: B, I, D, A, J boxes, a sliver of an A1 at the top); the diagram is split across the (a) and (b) strips so it is never shown whole, and the M1 and first A marks are in the (a) strip.",
-    "3(a)/3(b)/3(c): the crop is clipped at the right edge: mark column totals are truncated (\"(1\", \"(6\", \"(2\") and notes lines run off the right side (e.g. the bi3A1ft follow-through paragraph cut mid-sentence)."
+    "3(a): mark-scheme rows run on into the top of (b)s Dijkstra model diagram (nodes C, F, H, G, E with M1 A1 A1 marks), so (a) rows carry (b) content and marks beyond its 1",
+    "3(b): mark-scheme rows start mid-diagram - the model Dijkstra diagram is cut through (only the lower nodes B, D, I, A, J visible, first marks M1 A1 A1 and the upper nodes are in the (a) rows), so the diagram is split between (a) and (b)"
    ],
-   "fingerprint": "4811c74dc8a8",
+   "fingerprint": "2319de911f3e",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -74,12 +70,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of an activity network (arcs A, C, D, G with dummies and M1 A1 A1 marks) that belongs to question 5, cut through at the bottom of the image.",
-    "4(a)/4(b)/4(c)/4(d): the crop is clipped at the right edge: mark column totals are truncated (\"10 marks\" and some mark entries touch the edge) (minor)."
+    "Notes: examiners notes end with a stray fragment of the next question (top of an activity network with A, C, D, G and M1 A1 A1) at the bottom edge"
    ],
-   "fingerprint": "e3727033f7dc",
+   "fingerprint": "49ca0fea02df",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -103,12 +98,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(a): mark scheme network is cut through at the top: only the lower part is visible (B, E, F, H, I, J, K, L arcs and dummies), with activities A, C, D, G and the M1 mark and first A1 marks missing (only two A1 marks visible of the five); the top of this diagram appears at the end of the question 4 notes crop instead.",
-    "5(a)/5(b): the crop is clipped at the right edge: mark column totals are truncated (\"(5\", \"(1\") (minor)."
+    "5(a): mark-scheme rows start mid-diagram - only the lower half of the model network (B, E, F, H, I, J, K, L and dummies) is shown with two A1 marks; the top half (A, C, D, G) and the M1 and first A1 are at the bottom of Question 4s notes"
    ],
-   "fingerprint": "80699dce52ec",
+   "fingerprint": "b6c1982c8320",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "short"
@@ -124,13 +118,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): mark scheme strip runs on into the top of the (b) graph (y from 35 down to 20, with a B1) after the constraint rows, cut through at the bottom; that graph belongs to 6(b).",
-    "6(b): asks to represent the constraints on the graph in the answer book; the blank graph is not in the crop. The model graph is split: its upper part sits in the (a) strip (y 20-35, with a B1) and the (b) strip shows only the lower part (y 0-15) with a dB1, so it is never shown whole.",
-    "6(a)/6(b)/6(c)/6(d): the crop is clipped at the right edge: mark column totals are truncated (\"(2\", \"(3\", \"(1\") (minor)."
+    "6(a): mark-scheme rows run on into the top of (b)s model graph (y-axis 35 down to 18 with constraint lines and a B1), so (a) rows carry (b) content and a mark beyond its 3",
+    "6(b): mark-scheme rows start mid-graph - the model graph is cut through at y=15 with its upper part and first B1 in the (a) rows, so the graph is split between (a) and (b)"
    ],
-   "fingerprint": "555a74e6eead",
+   "fingerprint": "bd7b7ec6b6d7",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "draw",
@@ -154,14 +147,15 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): asks to complete the diagram in the answer book (event-time boxes); that diagram is not in the crop (stem shows Figure 3 without boxes).",
-    "7(b)/7(c)/7(d)/7(e)/7(f): every mark scheme strip repeats the top of the completed early/late-times diagram (D, E, A, B, F, K, J rows, cut through at the bottom) above its own rows, so the (b), (c), (d), (e) and (f) strips each carry a duplicated, cut-off network that is not part of their own answer, making the mark scheme hard to read.",
-    "7(c)/7(d): the model Gantt chart is split: its top rows (A, E, J, B, C, D, F with M1 A1) sit at the end of the (c) strip, cut through, and the (d) strip shows only the lower part (G, H, K, L, M) beneath another repeat of the network; the grid for 7(d) in the answer book is also not in the crop.",
-    "7(c)/7(d)/7(e): the mark scheme marks are misaligned with the parts: (c) strip shows M1 A1 twice (lower bound and the Gantt chart), (d) shows four A1/M1 marks only after the repeated network, so the rows for different parts are mixed."
+    "7(b): mark-scheme rows begin with the top half of the model event-times diagram (a repeat of (a)s answer, with M1 A1 marks) before the float calculation, so (b) rows carry (a)s marks beyond its 1",
+    "7(c): mark-scheme rows begin with the same repeated top half of the event-times diagram (M1 A1) and end with the top of (d)s model Gantt chart (rows A E J / B / C / D / F with M1 A1), so (c) rows carry extra content and marks beyond its 2",
+    "7(d): mark-scheme rows begin with the repeated top half of the event-times diagram (M1 A1) and the model Gantt chart is cut through (only rows G H K L shown, with A1 A1 A1), the top rows and the first marks being in the (c) rows",
+    "7(e): mark-scheme rows begin with the repeated top half of the event-times diagram (M1 A1) before the (e) statement",
+    "7(f): mark-scheme rows begin with the repeated top half of the event-times diagram (M1 A1) before the (f) answer, so (f) rows carry extra marks beyond its 2"
    ],
-   "fingerprint": "81433d2da8db",
+   "fingerprint": "a8d53490ec7e",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",
@@ -193,11 +187,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8(a)/8(b)/8(c): the crop is clipped at the right edge: mark column totals are truncated (\"(2)\", \"(5\", \"(3\") and the b1B1 notes line runs off the right side (minor)."
-   ],
-   "fingerprint": "ad52cddd7853",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "4cde285309da",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

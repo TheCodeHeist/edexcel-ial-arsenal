@@ -15,15 +15,14 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(b): mark-scheme rows also include the (b)(ii) rows (M1 A1 A1), so marks add to 4 not the part 1 mark",
-    "2(b)(ii): mark-scheme rows start with the (b)(i) row (|z1| = sqrt34, B1), which does not answer this part"
+    "2(b)(ii): mark-scheme crop begins with the whole 2(b)(i) row (|z1| = sqrt34, B1, (1)) before the (ii) rows; it does not answer (ii), marks shown total 4 not 3."
    ],
-   "fingerprint": "38455d673ea2",
+   "fingerprint": "12699b54c3c4",
    "kinds": {
     "2(a)": "draw",
-    "2(b)": "calc",
+    "2(b)(i)": "calc",
     "2(b)(ii)": "calc",
     "2(c)": "calc"
    },
@@ -31,7 +30,7 @@
     "2(a)": [
      "FP1.1.3"
     ],
-    "2(b)": [
+    "2(b)(i)": [
      "FP1.1.1"
     ],
     "2(b)(ii)": [

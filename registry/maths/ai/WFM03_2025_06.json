@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [
-    "1: the examiners NOTES block is clipped at the right edge - many lines are cut mid-word (e.g. \"Mus\", \"Must clearly link t\", \"insufficie\", \"correc\", \"arou\"), and the Total row of the mark scheme is also sliced (\"Total 6\" shows as \"Total (\"); the notes are not fully legible"
-   ],
-   "fingerprint": "a184481ac8fb",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d3e26fca63b8",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -39,17 +37,15 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(c): the purple MARK SCHEME rows for 3(c) contain the whole of (c)(i) and (c)(ii) (M1 dM1 A1 + M1 A1 A1 = 6 marks, ending with Total 10), so the rows do not match the part's 3 marks; they include the next part's rows",
-    "3(c)(ii): the MARK SCHEME rows are the same full (c)(i)+(c)(ii) table duplicated, so the first three rows (c)(i: determinant, cubic, eigenvalues 1, -2, 3) belong to the previous part and the total is 6 not 3",
-    "3: the examiners NOTES block is clipped at the right edge - lines are cut mid-word (e.g. \"eigenvecto\", \"elemen\", \"both\" cut, \"(o\" cut) and the Total 10 rows are sliced; notes not fully legible"
+    "3(c)(ii): mark scheme crop also contains the whole (c)(i) rows (determinant expansion, M1 dM1 A1) above the (ii) rows, so its rows total 6 marks not 3"
    ],
-   "fingerprint": "994f90f1ca04",
+   "fingerprint": "d073904bf5a4",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
-    "3(c)": "calc",
+    "3(c)(i)": "calc",
     "3(c)(ii)": "calc"
    },
    "topics": {
@@ -59,7 +55,7 @@
     "3(b)": [
      "FP3.6.7"
     ],
-    "3(c)": [
+    "3(c)(i)": [
      "FP3.6.7",
      "FP3.6.4"
     ],
@@ -69,11 +65,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4: the examiners NOTES block is clipped at the right edge - several lines are cut mid-word (e.g. \"for one or bot\", \"steps show\", \"ISW\" cut) and the Total row of the mark scheme is sliced (\"Total 5\" shows as \"Total 5\" cut); notes not fully legible"
-   ],
-   "fingerprint": "8e8227dcbac0",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "23f2a5cc6e2d",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -89,11 +83,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5: the examiners NOTES block is clipped at the right edge - lines are cut mid-word/formula (e.g. \"in terms of\" cut, \"Allow a multiple\" cut, \"method mark\" cut) and the mark-scheme Total row is sliced (\"Total 9\" shows as \"Total 9\" cut); notes not fully legible"
-   ],
-   "fingerprint": "b91e82d29fcc",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "934f7d4f2eb4",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -108,11 +100,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "6: slight right-edge clipping in the NOTES block (\"Depends on previous method mark\" ends \"mar\") and the mark-scheme Total row (\"Total 7\" cut); content otherwise legible"
-   ],
-   "fingerprint": "fd192187acd3",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "be04ede442a8",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -127,11 +117,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7: the examiners NOTES block is clipped at the right edge - many lines are cut mid-word/formula (e.g. mark labels \"M0A0\", \"M1A1\" cut to \"M0A\", \"M1A\"; sentences ending \"formu\", \"justificatio\", \"fully\"), and the mark-scheme Total row is sliced (\"Total 9\" cut); notes not fully legible"
-   ],
-   "fingerprint": "d31059cff08e",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "5d1584b45f9f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -148,12 +136,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8: the examiners NOTES block is clipped at the right edge (lines end mid-word, e.g. \"multiple c\", \"Allow min\", \"If method not\", \"for their\") and the final A1 line of the (d) ALT notes (11/sqrt434 or awrt 0.528) is sliced through at the bottom edge; the mark-scheme Total row is also cut (\"Total 1\")",
-    "8(c): in the mark-scheme row listing example points on the line, a text line (\"Common point(s)... Note: points will have the form ...\") is cut through by the row crop and overprinted - the top half of the line is lost, so that note is not legible"
+    "8(c): mark scheme crop is cut through a text line in the second M1 row: the Common points... line and the Note: points will have the form (52+13a)/3, a, (-31-10a)/3 line are clipped and overlap, leaving them partly unreadable",
+    "Notes: crop ends cut through the last line (A1: For 11/sqrt434 or awrt 0.528 of the ALT in part (d) is clipped at the bottom edge)"
    ],
-   "fingerprint": "d1ddb9931fa5",
+   "fingerprint": "09ef993d5b03",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -179,12 +167,12 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "9(e): in the mark-scheme rows the \"final M1A1\" row is cut through - the line \"Foci are at (+-ae,0) = ...\" is printed twice, the top half of the second copy is sliced off with clipped fragments (\"(…)\", tops of the root and the mark letters) showing across the row; the mark labels there are unreadable, and the marks shown (B1 B1 M1 M1 M1 A1 A1*) look like more than the part's 5 marks",
-    "9: the examiners NOTES block is clipped at the right edge (e.g. \"with a\" cut, \"Can award if seen\" cut, the radius expression \"64sin^2 theta + 49...\" cut) and the mark-scheme Total row is cut (\"Total 12\"); also the sqrt113 numerator in the 9(a) question crop touches the top edge of the crop and the 9(a) mark scheme has a clipped fragment of a header word at its top edge"
+    "9(a): question crop cuts the top of the e = sqrt113/8 fraction, so the radical bar is clipped at the top edge",
+    "9(e): mark scheme crop is stitched badly at the page break around the Foci are at (+-ae,0) row: the row appears twice, the first copy is clipped through the text, and the label cell reads only a cut-off final M1A1"
    ],
-   "fingerprint": "010ce92ea155",
+   "fingerprint": "acfdb75f3c0c",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

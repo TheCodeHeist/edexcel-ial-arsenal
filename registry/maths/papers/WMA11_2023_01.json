@@ -1264,8 +1264,11 @@
      "label": "9(b)(i)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA11_2023_01/q9_b_intro.webp",
@@ -1380,7 +1383,7 @@
     {
      "label": "9(b)(iii)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "P1.3.3",
       "P1.1.11"

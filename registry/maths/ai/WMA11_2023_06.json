@@ -15,18 +15,20 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "e29c1991fe5e",
+   "at": "2026-11-20",
+   "concerns": [
+    "10(a)(ii): mark-scheme rows start with the (a)(i) row (y=1/2(x+2), B1 (1)) before the (ii) rows, which does not answer this part."
+   ],
+   "fingerprint": "97a6e0bf35c7",
    "kinds": {
-    "10(a)": "calc",
+    "10(a)(i)": "short",
     "10(a)(ii)": "calc",
     "10(b)": "calc",
     "10(c)": "calc",
     "10(d)": "calc"
    },
    "topics": {
-    "10(a)": [
+    "10(a)(i)": [
      "P1.2.1"
     ],
     "10(a)(ii)": [
@@ -129,9 +131,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "1536d7de472f",
+   "fingerprint": "389a0a40d29c",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -190,24 +192,28 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8363c7b2fede",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(i)(b): mark-scheme rows start with the (i)(a) row (y=3cos(x), M1 A1 (2)) before the (b) row, which does not answer this part; the table header (Question/Scheme/Marks) is also cut through along the top edge.",
+    "9(ii)(b): mark-scheme rows start with the (ii)(a) row (y=sin(2x), M1 A1 (2)) before the (b) row, which does not answer this part.",
+    "9(i)(a): mark-scheme crop has a sliver of the table header (Question/Scheme/Marks) cut through along its top edge."
+   ],
+   "fingerprint": "16bc813f4a16",
    "kinds": {
-    "9(i)": "short",
+    "9(i)(a)": "short",
     "9(i)(b)": "draw",
-    "9(ii)": "short",
+    "9(ii)(a)": "short",
     "9(ii)(b)": "draw"
    },
    "topics": {
-    "9(i)": [
+    "9(i)(a)": [
      "P1.3.3"
     ],
     "9(i)(b)": [
      "P1.3.3",
      "P1.1.12"
     ],
-    "9(ii)": [
+    "9(ii)(a)": [
      "P1.3.3"
     ],
     "9(ii)(b)": [

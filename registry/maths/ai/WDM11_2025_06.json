@@ -43,21 +43,19 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(i): the first part is labelled \"3(i)\" (should be 3(i)(a)); its mark scheme strip contains the quick sort tables (a) AND the binary search working (b) together, so (b)'s mark scheme appears inside (a)'s strip.",
-    "3(i)(b): mark scheme strip repeats the quick-sort tables from (a) (middle right/left) and then the binary search again, so the (a) tables and the (b) working are duplicated across the two strips.",
-    "3(i)/3(i)(b)/3(ii): the crop is clipped at the right edge: mark column entries are cut (e.g. \"E\", \"B\", \"(9 mar\") and notes lines run off the right side (e.g. b1M1/b1A1 and the first notes paragraph cut mid-sentence).",
-    "3(i)/3(i)(b): the page is very tall (about 8400 px) because of the duplication, which makes the mark scheme hard to read."
+    "3(i)(a): mark-scheme rows contain the whole of the (i) scheme - the quick sort (4 marks) followed by (b)s binary search working (31<40 discard..., pivots 48, 42) with its M1 A1 A1 and a second (3) - so it includes (b)s rows and marks",
+    "3(i)(b): mark-scheme rows repeat the same block again, starting with the full (i)(a) quick sort tables (Middle Right/Middle Left, M1 A1 A1ft A1 (4)) before the binary search, so (b) rows duplicate (a) and carry 7 marks instead of 3"
    ],
-   "fingerprint": "2e4221dde229",
+   "fingerprint": "8507c659a91f",
    "kinds": {
-    "3(i)": "calc",
+    "3(i)(a)": "calc",
     "3(i)(b)": "calc",
     "3(ii)": "calc"
    },
    "topics": {
-    "3(i)": [
+    "3(i)(a)": [
      "D1.1.2"
     ],
     "3(i)(b)": [
@@ -86,11 +84,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(e): asks to draw on the axes in the answer book; the blank grid is not in the crop (only the model graph in the mark scheme)."
-   ],
-   "fingerprint": "742676551ea2",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "035e941fee63",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -134,13 +130,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(a): asks to complete the precedence table in the answer book; the blank table is not in the crop (only the filled model table).",
-    "7(b): asks to complete the diagram in the answer book (event-time boxes); that diagram is not in the crop (stem shows Figure 3 without boxes).",
-    "7(d): asks to draw on the grid in the answer book; the blank grid is not in the crop."
-   ],
-   "fingerprint": "5dff8a853153",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "28697a8489da",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "draw",
@@ -167,11 +159,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8(b): the crop starts with a stray page-footer line \"Question 8 continues on page 11\" (minor, harmless)."
-   ],
-   "fingerprint": "9b5ed6faa407",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "7171377eb19d",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

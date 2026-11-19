@@ -353,8 +353,10 @@
      "label": "3(i)(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "D1.1.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WDM11_2025_06/q3_i_intro.webp",
@@ -900,7 +902,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WDM11_2025_06_q6",
@@ -1245,7 +1247,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WDM11_2025_06_q8",

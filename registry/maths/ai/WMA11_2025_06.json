@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "495e5862ad20",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(a): the question crop is cut off at the top: the exponent of p^(1/2) shows only its denominator 2 (the numerator 1 is missing), and that numerator \"1\" appears as a stray fragment at the bottom edge of the shared stem above 1(a)."
+   ],
+   "fingerprint": "03a2900246cb",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -143,9 +145,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "37d5228fe277",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(c): the mark-scheme rows start with a stray fragment of 7(b)s sketch (the lower ends of the downward parabola curves) at the top edge, above the (c) rows."
+   ],
+   "fingerprint": "30fc1d7139f9",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw",
@@ -167,9 +171,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "dad38eac873d",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(c): the mark-scheme rows end with a stray sliver of the top of the next text line (the start of the examiners note \"Note: If work is done out of order...\") cut through along the bottom edge, just under (11 marks)."
+   ],
+   "fingerprint": "84509a90b52d",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -178,7 +184,7 @@
    "topics": {
     "8(a)": [
      "P1.4.2",
-     "P1.4.1"
+     "P1.4.3"
     ],
     "8(b)": [
      "P1.4.2"

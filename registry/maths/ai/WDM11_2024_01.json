@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 1 without boxes).",
-    "1(a): mark scheme diagram is cut off at the top (top boxes of the early/late times and arc labels D, E, G, J sliced through) and only M1 A1 are shown against 4 marks (notes list a1M1 a1A1 a2M1 a2A1).",
-    "1(c)/1(d): the model cascade chart is split: its top rows (C, F, G, J, A, B, D with M1 A1) sit in the (c) strip, cut at the bottom through D, and the (d) strip starts cut through the chart (E, H, I, K, L rows); Grid 1 in the answer book is not in the crop."
+    "1(a): mark-scheme rows show only a thin horizontal slice of the model event-times diagram (boxes 0, 13, 18, 24 with the arc labels sliced), cut through at top and bottom, so the completed early/late times are mostly missing",
+    "1(d): mark-scheme cascade chart is cut off at the bottom - the K row is sliced through and activity L (and the bottom of the chart) is missing"
    ],
-   "fingerprint": "44517513eeb0",
+   "fingerprint": "2038db8136d2",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -63,11 +62,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "3(b): the Special Case for Part B table (AB+FG... route length 506) appears twice in the crop: once at the top of the notes block (under the notes caption) and again at the bottom, so part of the mark scheme is duplicated (minor)."
-   ],
-   "fingerprint": "33aae8319bc7",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "37b3d5af9789",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -86,9 +83,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "eaf11e7ac78c",
+   "fingerprint": "37b05cfe0ddf",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "short"
@@ -117,12 +114,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): mark scheme strip runs on into the quick-sort table (middle right, first pass with M1) which is cut through at the bottom; that table belongs to 6(b).",
-    "6(b): mark scheme strip starts cut through the middle-right quick sort table (first passes cut off at the top, only the last four lines and the A1/A1ft/A1 marks visible); the first rows and the M1 are in the (a) strip."
+    "6(c): mark-scheme rows begin with the middle-left quick-sort table (pivots 35, 18, 11 25 ... 28) which is the alternative answer to (b), not (c); the top of the rows is also clipped, so only the last two (c) rows (reason about the 18 and n=72) answer this part",
+    "6(b): its alternative (middle-left) model answer is not in the (b) rows - it sits in the (c) rows"
    ],
-   "fingerprint": "e4b0849923a3",
+   "fingerprint": "7f15118b144f",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -141,12 +138,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(b): mark scheme strip includes the top of the (c) feasible-region graph (y 70-130 with the first lines and two B1 marks) after the M1 A1* rows, cut through at the bottom; that graph belongs to 7(c).",
-    "7(c): the mark scheme graph is split between the (b) strip (upper part) and the (c) strip (lower part from y=60), so the model diagram is never shown whole and the B1 marks are separated; Diagram 1 (blank grid) in the answer book is not in the crop."
+    "7(c): mark-scheme rows cut the model graph off at y=40 (lower part of the feasible region, R label, x-axis missing), so the graph is incomplete and the rest sits in the (d) rows",
+    "7(d): mark-scheme rows begin with the bottom of (c)s model graph (y 30-0 and the x axis, R label) before the (d) working"
    ],
-   "fingerprint": "709b43e7b293",
+   "fingerprint": "79cde645fd60",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

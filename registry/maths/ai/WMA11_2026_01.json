@@ -154,9 +154,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "62e5b9b3a1ab",
+   "at": "2026-11-20",
+   "concerns": [
+    "Examiners notes: the notes end mid-sentence at the bottom edge (last line: \"A1: States 4/3 x^3 - 6/x - 4x + 6 sqrt3 It is not necessary to have the f(x) or the y\"), so the bottom of the notes crop looks cut off."
+   ],
+   "fingerprint": "0dff256cd5bd",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -179,11 +181,14 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "45f6d1776e67",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(b): the question crop runs on through the answer pages: it includes Diagram 1, its copy, Diagram 2 and its copy and the (c)(i)/(c)(ii) answer lines, which belong to part (c).",
+    "9(c): the question crop does not include Diagram 2 (the graph axes the part says to sketch on); the Diagram 2 axes appear only inside the 9(b) crop."
+   ],
+   "fingerprint": "d2321addff40",
    "kinds": {
-    "9(a)": "calc",
+    "9(a)": "short",
     "9(b)": "draw",
     "9(c)": "draw"
    },

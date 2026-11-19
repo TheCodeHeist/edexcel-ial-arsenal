@@ -106,9 +106,13 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "83fdb3a90513",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(a): mark scheme crop is cut off at the bottom, through the last visible row of Alternative 2 (the dM1 row, with the following Shows... line clipped); the rest of Alt 2 is missing",
+    "7(b): mark scheme crop stops after the Way 3 M1 row; the Way 3 A1* completion row is missing here and appears instead at the top of the 7(c) mark scheme crop",
+    "7(c): mark scheme crop starts with a stray row (-42+14k-28k+168 ... = 2/7|k+7|*, A1*) that belongs to 7(b) Way 3"
+   ],
+   "fingerprint": "76a3ce1275f8",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

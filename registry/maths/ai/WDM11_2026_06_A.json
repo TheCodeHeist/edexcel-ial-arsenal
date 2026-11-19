@@ -1,12 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): mark scheme strip is cut through at the top: the first row(s) of the bubble sort (first pass(es)) are sliced and the M1 mark is missing, so only A1 A1 of the 3 marks are visible.",
-    "1(b): the mark scheme strip shows the last bold-text rows correctly; the examiners notes at the bottom are cut through (the bi1A1 note is cut mid-sentence and bi2M1/bii notes are missing) so the notes are incomplete."
+    "1(a): mark-scheme rows start mid-table - the first rows of the left-to-right bubble sort and the M1 are cut off at the top (only a sliced row of digits above 13 17 14 ... remains), so the model answer and first mark are missing",
+    "Notes: examiners notes for 1(b) are cut off at the bottom (the b(i)A1 row is truncated mid-sentence)"
    ],
-   "fingerprint": "ca52f0b12d61",
+   "fingerprint": "10c84a8087e7",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,11 +21,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Notes: the end of the examiners notes shows a stray fragment of another question: a bin-packing mark scheme row (\"Totals in bins are 47, 50, 49 so n >= 50 or considers bin 2\", \"n >= 15+24+11 => n >= 50\", with a B1) that belongs to question 3, cut through at the bottom of the image."
+    "Notes: examiners notes end with a stray fragment of the next question (a mark-scheme row \"Totals in bins are 47, 50, 49 so n >= 50 ... n >= 15 + 24 + 11\" with a B1) at the bottom edge"
    ],
-   "fingerprint": "fe46474b92e1",
+   "fingerprint": "f895055354ca",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "short"
@@ -41,13 +41,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a): mark scheme strip runs on into the (b) working (the n=51 bin packing M1 row, then the start of \"or considers n=50\") which is cut through at the bottom; the (a) strip shows 4 marks against 3 and the rest of the (b) working is cut.",
-    "3(b): mark scheme strip starts cut through the n=50 packing (first rows sliced, only a sliver of \"28 20\" visible) and only A1 of its 2 marks is visible; the M1 and the first rows are in the (a) strip.",
-    "Notes: the b1M1/b1A1 notes row at the end is fine; the stray bin-packing fragment of this question appears at the end of question 2 notes instead."
+    "3(a): mark-scheme rows run on into (b)s working (Either considers n=51 ... or considers n=50 with an M1), clipped at the bottom, so (a) rows carry (b)s M1 beyond its 3",
+    "3(b): mark-scheme rows start mid-working - the first lines (28 20 ...) are sliced at the top and the M1 and the n=51 packing are in the (a) rows, so (b) shows only the A1"
    ],
-   "fingerprint": "0c61ea89a622",
+   "fingerprint": "e7d50938bfcf",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -62,12 +61,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): mark scheme strip runs on into the Dijkstra labelled network for (b) (top half: J, B, A, I, G, D, C boxes with M1 A1 marks) which is cut through at the bottom; that diagram belongs to 4(b), so (a) shows 2+ marks that are not its own.",
-    "4(b): mark scheme strip starts cut through the same labelled network (bottom half: H, F, E boxes and a sliver of A1 marks), so the diagram is split across the (a) and (b) strips and the M1 and first A1s are in the (a) strip."
+    "4(a): mark-scheme rows run on into the top of (b)s Dijkstra model diagram (nodes J, B, A, I, G, D, C with M1 A1 A1 marks), clipped at the bottom, so (a) rows carry (b) content and marks beyond its 2",
+    "4(b): mark-scheme rows start mid-diagram - the model Dijkstra diagram is cut through (only the lower nodes H, F, E with the tail of the A1 marks) and the upper half with the M1 is in the (a) rows, so the diagram is split between (a) and (b)"
    ],
-   "fingerprint": "2750ea6d4025",
+   "fingerprint": "240332e6465b",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc"
@@ -82,11 +81,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of an early/late-times activity network (boxes 0, 14, 19, 22, 38 with B(6), G(5), L(3) arcs and M1 A1 marks) that belongs to question 6, cut through at the bottom of the image."
+    "Notes: examiners notes end with a stray fragment of the next question (top of an event-times diagram with boxes 0, 14, 19, 22, 38 and M1 A1) at the bottom edge"
    ],
-   "fingerprint": "f60d86496539",
+   "fingerprint": "2a794ff8736b",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -105,14 +104,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): asks to complete the diagram in the answer book (event-time boxes); that diagram is not in the crop (stem shows Figure 4 without boxes).",
-    "6(a): mark scheme network is cut off at the top (E, A, F, B, G, K, L, N arcs and the top boxes sliced through) so only the lower half of the early/late-times diagram is readable; the top part of this diagram is at the end of the question 5 notes crop instead.",
-    "6(d)/6(e): the model schedule is split: its top row (D, H, M, Q with the time axis and an M1) sits in the (d) strip after the B1ft row, and the (e) strip starts cut through the rest (A, I, J / B, F, L, K, N / C, G, E, P; the mark column is cut so only A1 A1 A1 visible); the grid in the answer book for 6(e) is not in the crop.",
-    "Notes: the end of the notes (\"For (e) the following may be useful in checking their schedule\") is cut off, with the promised table missing."
+    "6(a): mark-scheme rows start mid-diagram - the model event-times diagram is cut through its top row (boxes 0, 19, 28, 38 with arc labels sliced) and only the lower half is shown; the upper half (with earlier boxes 14 etc.) sits at the bottom of Question 5s notes"
    ],
-   "fingerprint": "bb1219e98ccf",
+   "fingerprint": "145a9d210a9d",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "short",
@@ -139,13 +135,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(b): asks to draw the minimum spanning tree on the diagram in the answer book; that diagram (vertex layout) is not in the crop.",
-    "7(b): mark scheme drawing of the MST looks cut off at the top: only vertices A, E, F, G, H are visible (B, C, D and their arcs, which the tree DB, BG, BC, CA, AF, GE, GH needs, are missing), so the model tree is incomplete.",
-    "7(d): mark scheme strip runs on into the (e) rows (the first nearest neighbour route ACBGEDHFA 342 with an M1) after the (d) M1 A1 rows; that belongs to 7(e), and (e) shows only A1 A1 (with the second route) in its own strip."
-   ],
-   "fingerprint": "fa5677641209",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "a11a977f99ab",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw",
@@ -180,15 +172,13 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8(d): the QUESTION crop is wrong: after the question text it contains the whole answer book (Pearson Edexcel IAL Decision Mathematics D1 front cover \"Thursday 14 May 2026 Paper WDM11/01A\", candidate details, instructions, barcode, and the blank answer pages for questions 1-8 with blank grids, tables and diagrams) - about 14,000 px of unrelated blank pages, so this crop (and the whole 17,000 px image) is mostly wrong content. The extracted text for 8(d) also includes the cover-page text.",
-    "8(a): mark scheme strip runs on into the top of the (b) graph (y 25-40 with 7x+3y=105 and a B1) which is cut through at the bottom; that graph belongs to 8(b).",
-    "8(b): asks to draw on the grid in the answer book; the blank grid is not in the (b) crop (only the model graph, which is split: its upper part sits in the (a) strip and the (b) strip starts with a sliver of a B1 above the lower part).",
-    "8(c): mark scheme strip runs on into the (d) integer testing table (header and first row (12,7) etc. with a dM1) which is cut through at the bottom; the table is split across the (c) strip and the (d) strip (the (d) strip starts with a cut row (13,6) and (13,7)), so the M1 and first rows are in the wrong strip.",
-    "8(d): mark scheme strip starts cut through the integer-point table (first row sliced), with only A1 A1 A1 and the result x=12, y=7, z=81, P=877 visible; the dM1 mark for the table is in the (c) strip."
+    "8(d): the QUESTION crop is wrong - after the (d) text it includes the whole Pearson answer-book cover page and every answer page (candidate details, barcode, flowcharts/network diagrams for other questions, blank answer pages, tables), making the image about 17000 px tall; it should be only the two lines of (d), and the (d) question text is clipped to the first line at the crop edge",
+    "8(b): mark-scheme rows run on into (c)s first working (2x+7y=70 and 7x+3y=105 giving (12.2, 6.5), C=119.7 with M1 A1), so (b) rows carry (c) content and marks beyond its 3",
+    "8(c): mark-scheme rows end with the first rows of (d)s test table ((12,7) 73 Y 105 Y 123 with a dM1) clipped at the bottom, so (c) rows carry (d) content/marks beyond its 4; the rest of that table and the d1A1 mark are in the (d) rows"
    ],
-   "fingerprint": "c48e2f93dfb0",
+   "fingerprint": "f8df9fdfec66",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "draw",

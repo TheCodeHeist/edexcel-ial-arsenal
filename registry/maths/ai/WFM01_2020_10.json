@@ -67,11 +67,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(a): superscript n on the summation symbol is cut off at the top edge of the crop"
-   ],
-   "fingerprint": "99f53fea696f",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "3fbbb8de5194",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -105,21 +103,21 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(i): mark-scheme rows include the (b) and (c) rows as well (B1 B1 + B1 + M1 A1), so they do not add up to the part marks of 2",
-    "6(i)(b): mark-scheme rows start with the 6(i)(a) row (stretch, B1 B1) which does not answer this part, and the (b) matrix row is cut through at the bottom",
-    "6(i)(c): mark-scheme rows start with the 6(i)(a) row, cut through at the bottom edge, which does not answer this part; the (b) row is missing but the (c) rows are complete"
+    "6(i)(b): mark-scheme crop starts with the whole 6(i)(a) row (stretch scale factor 3, B1 B1, (2)) before the (b) row, and the (b) matrix row is clipped at its bottom edge; the part-(a) rows do not answer (b) and the rows total 3 not 1.",
+    "6(i)(c): mark-scheme crop starts with the 6(i)(a) row and the tail of the (b) row ((1)) before the (c) rows; they do not answer (c) so the marks do not add up to 2.",
+    "6(i)(a): mark-scheme crop is clipped at the bottom (last line \"send to Review\" half cut off)."
    ],
-   "fingerprint": "b5bd4b50d0f8",
+   "fingerprint": "699f65c911be",
    "kinds": {
-    "6(i)": "short",
+    "6(i)(a)": "short",
     "6(i)(b)": "calc",
     "6(i)(c)": "calc",
     "6(ii)": "calc"
    },
    "topics": {
-    "6(i)": [
+    "6(i)(a)": [
      "FP1.6.2",
      "FP1.6.1"
     ],

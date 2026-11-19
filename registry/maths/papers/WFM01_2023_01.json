@@ -887,9 +887,11 @@
     {
      "label": "7(i)(a)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WFM01_2023_01/q7_i_intro.webp",

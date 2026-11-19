@@ -130,9 +130,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8cd60c675f67",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(b): the bottom of the mark-scheme rows is clipped through the (3) mark total at the lower edge.",
+    "7(c): the mark-scheme rows start with a thin sliver of the previous rows (a stray bracket fragment) along the top edge, and a stray text sliver under (9 marks) at the bottom edge."
+   ],
+   "fingerprint": "c1d6ce2ec315",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -175,19 +178,21 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "1a21dedbd311",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(b)(ii): mark-scheme rows also include the (b)(i) row (5pi/3, 4, B1 B1 (2)) above the (ii) row, which does not answer this part."
+   ],
+   "fingerprint": "6d2294d3a253",
    "kinds": {
     "9(a)": "short",
-    "9(b)": "short",
+    "9(b)(i)": "short",
     "9(b)(ii)": "short"
    },
    "topics": {
     "9(a)": [
      "P1.3.3"
     ],
-    "9(b)": [
+    "9(b)(i)": [
      "P1.1.12",
      "P1.3.3"
     ],

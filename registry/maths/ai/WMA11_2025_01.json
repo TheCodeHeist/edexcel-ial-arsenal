@@ -51,23 +51,29 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7bae00c8f0b8",
+   "at": "2026-11-20",
+   "concerns": [
+    "4(i)(a): mark-scheme rows also include the (i)(b) rows (5/(3a^(1-x))^-2 = 45a^2/y^2, B1 M1 A1 (3)), which do not answer this part; the shown marks (1 and 3) do not match the part’s 1 mark.",
+    "4(i)(b): mark-scheme rows also include the (i)(a) row (ay^3, B1 (1)) above the (i)(b) rows, which does not answer this part.",
+    "4(ii)(a): mark-scheme rows also include the (ii)(b) rows (solves quadratic, B1 M1 A1 (3), 9 marks total), which do not answer this part; shown marks do not add up to the part’s 2.",
+    "4(ii)(b): mark-scheme rows also include the (ii)(a) rows (M1 A1* (2)) above the (ii)(b) rows, which do not answer this part.",
+    "Examiners notes: in the (i)(b) notes the A1 line (45a^2/y^2 ...) is clipped/overlapped by the next heading so it is cut through horizontally and unreadable; the notes for the final A1 of (ii)(b) at the bottom also look cut at the bottom edge (ends at \"quadratic in p\")."
+   ],
+   "fingerprint": "580324b17e6e",
    "kinds": {
-    "4(i)": "calc",
+    "4(i)(a)": "calc",
     "4(i)(b)": "calc",
-    "4(ii)": "calc",
+    "4(ii)(a)": "calc",
     "4(ii)(b)": "calc"
    },
    "topics": {
-    "4(i)": [
+    "4(i)(a)": [
      "P1.1.1"
     ],
     "4(i)(b)": [
      "P1.1.1"
     ],
-    "4(ii)": [
+    "4(ii)(a)": [
      "P1.1.1",
      "P1.1.3"
     ],
@@ -171,11 +177,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [
-    "9(a): crop is cut off at the top, clipping the top of the fraction 27/4"
-   ],
-   "fingerprint": "e677f56c208f",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "0774b05211f0",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "short",

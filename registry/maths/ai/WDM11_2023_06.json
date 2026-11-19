@@ -1,13 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 1 without boxes).",
-    "1(a): mark scheme network is cut off at the top (E, I, A, D, F, B vertices and their boxes sliced through, M1 mark row only partly visible), and only two of the four marks (M1 A1) are visible against 4.",
-    "1(c)/1(d): the model scheduling diagram is split: its top rows (B, D, E, J, L, P, with M1 A1) sit in the (c) strip under the lower-bound row, cut at the bottom, and the (d) strip starts cut through the lower rows (A, F, I, K, N, C, G, H, M, Q); Grid 1 in the answer book is also not in the crop."
+    "1(a): mark-scheme rows show only a thin horizontal slice of the model event-times diagram (a few boxes 0, 7, 27, 33 and clipped arcs), cut through at top and bottom, so the completed early/late times needed to check the answer are missing; the rest of the diagram is not in any crop"
    ],
-   "fingerprint": "123bd90892ab",
+   "fingerprint": "48b4dc836301",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -30,11 +28,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [
-    "2(a): mark scheme strip includes the first line of the bubble sort (the unsorted list and the first-pass list ending in bold 6, with the M1 mark) after the B1 row; that belongs to 2(b), so (a) shows 2 marks against 1 and (b) shows only A1 A1 of its 3 marks."
-   ],
-   "fingerprint": "7e6c4444d638",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "4d92c644b288",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -53,11 +49,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "3(a): asks to complete the table in the answer book; the blank table (columns N, A, B, C, D) is not in the crop (minor: the algorithm in the stem is enough to answer)."
-   ],
-   "fingerprint": "4589b959a14c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "8dca13fcc118",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -72,14 +66,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(b): mark scheme strip ends with the first test row of (c) ((5/2,5) -> P=20) and a cut sliver of the next row; those rows belong to 4(c).",
-    "4(c): mark scheme strip starts cut through the top (M1 mark and its first row sliced), so the (5/2,5) row and the M1 are in the (b) strip, and the (c) rows are cut through at the top edge.",
-    "All parts: the crop is clipped at the right edge: the mark column totals show as \"(3\" / \"(2\" and lines of the examiners notes run off the right side (e.g. a1M1, b1M1, d1M1 lines are cut mid-sentence).",
-    "4(a): mark scheme strip has a sliver of the previous row cut at its top edge (minor)."
-   ],
-   "fingerprint": "f0bda05f6230",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "999e3d5e7802",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -103,11 +92,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(a)/5(b): the crop is clipped at the right edge: lines of the examiners notes run off the right side (e.g. \"...so use the table below for\", b1M1/b1A1 lines are cut mid-sentence) and the mark column of the mark scheme is truncated."
-   ],
-   "fingerprint": "bf55a3fa603f",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "ab0fb63a185f",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc"
@@ -181,9 +168,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "a6aa62f78b2d",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(a): mark-scheme rows are cut through the list of final constraints - the line 2x-5y>=0 is sliced at the bottom edge and the last constraints (x-4y<=0, x>=0, y>=0) are missing from (a)",
+    "8(b): mark-scheme rows start with a sliced line (2x-5y>=0) and the leftover constraints x-4y<=0, x>=0, y>=0 that belong to (a)s answer, before the (b) working"
+   ],
+   "fingerprint": "f7e13ad9be78",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

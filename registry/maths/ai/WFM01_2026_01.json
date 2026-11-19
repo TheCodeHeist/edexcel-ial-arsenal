@@ -1,19 +1,22 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "569da4182310",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(b)(i): mark-scheme crop also contains the 1(b)(ii) Newton-Raphson rows (M1 A1, (2), Total 8) after the (i) row; marks shown total 4 not 2.",
+    "1(b)(ii): mark-scheme crop begins with the 1(b)(i) derivative row (M1 A1, (2)) before the (ii) rows; marks shown total 4 not 2. Both (b) crops also show a sliced fragment of the next table header at the bottom edge beside Total 8."
+   ],
+   "fingerprint": "b66381c93fc1",
    "kinds": {
     "1(a)": "calc",
-    "1(b)": "calc",
+    "1(b)(i)": "calc",
     "1(b)(ii)": "calc"
    },
    "topics": {
     "1(a)": [
      "FP1.3.1"
     ],
-    "1(b)": [
+    "1(b)(i)": [
      "P1.4.2"
     ],
     "1(b)(ii)": [
@@ -136,11 +139,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): a stray cut-off fragment of text (looks like \"Number\") sits at the very top edge of the mark-scheme rows, above the 7(a) row"
+    "7(a): mark-scheme crop starts with a sliced strip of the table header text (Number) at its top edge; minor, the rows themselves are complete."
    ],
-   "fingerprint": "8656b33a0798",
+   "fingerprint": "dfd839bc5558",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

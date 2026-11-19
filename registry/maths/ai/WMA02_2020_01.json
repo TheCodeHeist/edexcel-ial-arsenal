@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "fc020bd44fea",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(b): the mark scheme rows begin with the boxed \"Alternative for dM1 A1 in (a)\" (cube both sides, dM1 A1) which belongs to part (a); the 1(a) rows end at its (3) subtotal without it, so 1(b) rows show 2 extra marks beyond its 2"
+   ],
+   "fingerprint": "930da7feef59",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -11,7 +13,8 @@
    },
    "topics": {
     "1(a)": [
-     "P3.6.2"
+     "P3.6.2",
+     "P3.4.1"
     ],
     "1(b)": [
      "P3.6.2"
@@ -22,11 +25,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: contain only one line (Note that it is possible to score ... if 2 values of one of x or y are found) at the bottom edge, possibly cut off."
-   ],
-   "fingerprint": "39b9530ff1dd",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "e68ec7543e69",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -59,11 +60,9 @@
    }
   },
   "12": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 12: the mark-scheme rows end with a clipped [7 marks] line, and a stray table row ([7 marks]) sits at the top of the examiners NOTES block before the Special Case note (cosmetic)."
-   ],
-   "fingerprint": "913ddf1cd92c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "edb49deaa762",
    "kinds": {
     "12": "calc"
    },
@@ -75,11 +74,9 @@
    }
   },
   "13": {
-   "at": "2026-11-19",
-   "concerns": [
-    "13(b): a stray note line (If 2x - 7y - 48 = 0 is obtained fortuitously in (b) all the marks are available in (c) apart from the A1cso) sits below the (b) rows; it belongs to the examiners notes/(c) but is harmless."
-   ],
-   "fingerprint": "9f52bb0cdfc9",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "020fb749bdbc",
    "kinds": {
     "13(a)": "calc",
     "13(b)": "calc",
@@ -100,9 +97,9 @@
    }
   },
   "14": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "a3d0f9bdaa0b",
+   "fingerprint": "c2984ae97fa9",
    "kinds": {
     "14(a)": "calc",
     "14(b)": "short",
@@ -128,11 +125,9 @@
    }
   },
   "15": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: the single note line (Note that the use of radians ... lose the A mark in (b) and the ...) is clipped at the right edge."
-   ],
-   "fingerprint": "2eacbff5536f",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d93b816b827a",
    "kinds": {
     "15(a)": "calc",
     "15(b)": "calc",
@@ -155,9 +150,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "379f4702551e",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(a): the boxed Way 2 (Direct Expansion) is cut off at the bottom of the 2(a) rows (its A1 row is clipped mid-text) and its last two A1 rows (any 2 correct simplified terms / all correct and simplified) appear at the top of the 2(b) rows inside the box edge, so the 2(b) rows show 2 extra marks beyond its 2"
+   ],
+   "fingerprint": "48225c05e294",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -211,11 +208,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(a): the mark-scheme rows end with a stray line Mark (i) and (ii) together, which is an instruction belonging to 5(b), shown at the bottom of the 5(a) block."
-   ],
-   "fingerprint": "90c2a708d354",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "48911dabba6f",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -234,11 +229,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 6: the examiners NOTES section holds only a stray table row ([7 marks]) and no notes content; the mark-scheme block also ends with a clipped [7 marks] line."
-   ],
-   "fingerprint": "4ab95e2cf950",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "97dde7a782bf",
    "kinds": {
     "6": "calc"
    },
@@ -281,11 +274,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 9: the examiners NOTES section holds only a stray table row ([6 marks]) and no notes content; the mark-scheme block also ends with a clipped [6 marks] line."
-   ],
-   "fingerprint": "576a1e954c16",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "4595a2a72cd9",
    "kinds": {
     "9": "calc"
    },

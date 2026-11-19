@@ -771,9 +771,12 @@
     {
      "label": "6(i)(a)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "FP1.6.2",
+      "FP1.6.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WFM01_2020_10/q6_i_intro.webp",

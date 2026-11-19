@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "4deef49e8914",
+   "fingerprint": "185c1b931314",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -47,11 +47,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "3(b): a stray \"(2)\" (3(a) mark total) is printed at the top right of the question crop above the \"Hence, given that N^-1\" line"
-   ],
-   "fingerprint": "e3f5275bb141",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "65057d4fd6ee",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -68,13 +66,13 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): mark-scheme rows end with a line (Mark (b) and (c) together... Award marks in the order given) cut through at the bottom edge; it belongs to (b)/(c)",
-    "4(b): mark-scheme rows start with a cut-through fragment of that note, and the (b)/(c) block also contains the (c) rows (A=36, B=86, M1 A1), so the rows add up to 7-8 marks, not the part marks of 5",
-    "4(c): the mark-scheme section holds only the repeated stem line; the real (c) rows (substituting 5+i, A=36 B=86, solving) are in the examiners NOTES block, which is itself mostly mark-scheme rows and cut at the left edge"
+    "4(c): mark-scheme crop contains only the stem row f(z)=...; the actual (c) scheme (A and B by substituting 5+i, or multiplying out the quartic factors) is not in this crop and appears instead under the examiners NOTES section, so the part has no usable mark-scheme rows.",
+    "4(b): the mark scheme is the combined (b)/(c) scheme (rows total 5 + 2, Total 8) and is cut off at the bottom edge (a clipped strip of the next row is visible below Total 8); it also repeats the stem row f(z).",
+    "Question 4 examiners NOTES: the section actually holds the continuation of the (b)/(c) mark-scheme table (the With (c) first method, M1 A1 M1 A1A1 (5), M1 A1 (2), Total 8), not notes."
    ],
-   "fingerprint": "aec4e53502df",
+   "fingerprint": "be6f36eb6476",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -176,11 +174,13 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8(a): superscript n on the summation symbol is cut off at the top edge of the crop"
+    "8(a): mark-scheme crop is cut off at the bottom in the middle of the Way 2 box (ends at the May obtain a cubic... row); the final A1* row of Way 2 is missing.",
+    "8(b): mark-scheme crop starts with the stem row and the A1* row from part (a) ((1/3)(n+1)(n+2)(n+3)*), which do not belong to (b); the last row (= 343 070) is clipped at the bottom edge.",
+    "Question 8 examiners NOTES: contains only the empty table header (Question Number / Scheme / Notes / Marks) with no notes, and the rest of the Way 2 scheme is missing."
    ],
-   "fingerprint": "2b5561e3a405",
+   "fingerprint": "f354e6cdd218",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

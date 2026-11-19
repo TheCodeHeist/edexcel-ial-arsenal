@@ -59,12 +59,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4: mark scheme is cut mid-formula at the end of the purple MARK SCHEME rows block - the final A1 row of the first way shows -1/2 tan x with the denominator 2 sliced through at the bottom edge, and the same 2 reappears as a stray fragment at the top of the next block",
-    "4: the grey-purple caption \"examiners NOTES on the mark scheme\" is placed over Way 2, Way 3 and Way 4 of the mark scheme itself (alternative methods with M1/A1/dM1/A1 rows and a Total 4 row between Way 3 and Way 4); these are mark-scheme rows not notes, so the split between mark-scheme rows and notes is wrong and no real examiners notes appear"
+    "Notes: the notes crop begins with a stray sliver of a formula denominator (a cut-off 2) at its top edge, above Way 2"
    ],
-   "fingerprint": "3371b4d4d49c",
+   "fingerprint": "698b4279c9b4",
    "kinds": {
     "4": "calc"
    },
@@ -75,17 +74,18 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5: the final \"Total 7\" row of the mark-scheme table is split off: it appears under the grey-purple \"examiners NOTES\" caption as a stray fragment (bottom of the purple MARK SCHEME block shows only the clipped tops of the row), and no actual examiners notes are shown"
+    "Notes: the Total 7 row is cut through at the bottom of the mark scheme crop and its remainder (an empty table row with Total 7) is what sits under the NOTES caption; no actual notes text"
    ],
-   "fingerprint": "5bff74d12c8b",
+   "fingerprint": "3972ac626b74",
    "kinds": {
     "5": "calc"
    },
    "topics": {
     "5": [
-     "FP3.4.6"
+     "FP3.4.6",
+     "FP3.4.2"
     ]
    }
   },

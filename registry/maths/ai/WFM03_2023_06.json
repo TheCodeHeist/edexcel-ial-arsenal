@@ -15,9 +15,13 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "89e72b6478b3",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(a): mark scheme crop is cut through the last line of text at the bottom (Work to obtain Adj(M) must be seen ... sight of the matrix of, clipped); the rest of that note is missing",
+    "2(b): mark scheme crop opens with a clipped repeat of the header row (Condone poor notation ... Note that B0 M1 A1 is possible), with its text cut through at the top",
+    "2(c): mark scheme crop opens with the clipped Condone poor notation header row and ends with a sliver of the next row cut through at the bottom, below Total 8"
+   ],
+   "fingerprint": "6bbcb1b1546e",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -128,11 +132,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8(b): stray fragments from the end of the mark scheme page - a clipped \"(2)\" (8(a)s mark total) sits at the very top edge of the 8(b) mark-scheme block, and the \"PAPER TOTAL: 75\" row is split around the grey-purple \"examiners NOTES\" caption (clipped line at the bottom of the purple rows, full row under the caption); no real examiners notes are present"
+    "8(a): mark scheme crop is cut through the (2) subtotal at the bottom edge, and the top edge of 8(b) mark scheme shows a stray sliver of the same (2)",
+    "Notes: no notes text; the crop under the NOTES caption holds only the PAPER TOTAL: 75 row, whose top half is a clipped sliver at the bottom of the 8(b) mark scheme"
    ],
-   "fingerprint": "59d25fd002ae",
+   "fingerprint": "9444f67158b9",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

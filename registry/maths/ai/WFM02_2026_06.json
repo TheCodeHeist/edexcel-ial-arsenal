@@ -20,16 +20,19 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "fbd6730fbd4f",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(i)(a): the mark-scheme rows include the 2(i)(b) row (f\"(0)=48 -> 24, B1ft) after the (a) subtotal, so (a) shows 4 marks for a 3-mark part",
+    "2(i)(b): the mark-scheme rows repeat all of the 2(i)(a) rows (M1, dM1, A1, subtotal 3) before the (b) B1ft row, so (b) shows 4 marks for a 1-mark part"
+   ],
+   "fingerprint": "17183cdc0489",
    "kinds": {
-    "2(i)": "calc",
+    "2(i)(a)": "calc",
     "2(i)(b)": "calc",
     "2(ii)": "calc"
    },
    "topics": {
-    "2(i)": [
+    "2(i)(a)": [
      "FP2.6.1"
     ],
     "2(i)(b)": [
@@ -78,11 +81,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(a): the numerator 1 of f(r) in the stem is cut off at the top edge of the stem crop"
+    "5(d): the question examiners notes are cut off at the very bottom: the last line (5(d) \"Alt: M1 substitutes n = 1 ... from setting expressions equal\") is clipped mid-sentence"
    ],
-   "fingerprint": "76873dac6093",
+   "fingerprint": "36c1b9eb78d5",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",

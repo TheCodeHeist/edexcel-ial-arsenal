@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "ebd73724a7b5",
+   "fingerprint": "9154c2f01087",
    "kinds": {
     "1": "calc"
    },
@@ -15,9 +15,12 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "79a1d5cb8f95",
+   "at": "2026-11-20",
+   "concerns": [
+    "10(b): mark-scheme rows start with a thin stray sliver of 10(a)s graph (grey bar and a fragment of a label) along the top edge, above the (b)(i) row.",
+    "10(c): a tiny stray mark (bracket fragment) at the top right of the mark-scheme rows, above M1 A1."
+   ],
+   "fingerprint": "741b1f2ad2f3",
    "kinds": {
     "10(a)": "draw",
     "10(b)": "calc",
@@ -162,9 +165,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "592a3e009171",
+   "fingerprint": "1f611a7f2409",
    "kinds": {
     "7(a)": "short",
     "7(b)": "short"

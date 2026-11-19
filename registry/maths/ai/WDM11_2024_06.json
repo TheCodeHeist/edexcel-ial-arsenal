@@ -1,13 +1,14 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): mark scheme strip includes the first line of the quick sort (middle right, pivots 5.1; 2.9, 6.5, with M1) after the bin-packing rows; that belongs to 1(b), so (b) shows only A1 A1ft A1 of its 4 marks.",
-    "1(d): mark scheme strip includes the first line of the binary search ((1+11)/2 = 6, with M1) after the B1 row; that belongs to 1(e), so (e) shows only A1 A1.",
-    "All parts: the crop is clipped at the right edge: mark column entries are truncated (\"A1(\", \"(4\", \"(3\", \"B1 (\") and the examiners notes lines run off the right side (e.g. a1M1/b1M1 lines cut mid-sentence)."
+    "1(a): mark-scheme rows include the first passes of (b)s middle-right quick sort (pivots 5.1; 2.9, 6.5) with an M1, so (a) rows carry (b)s content/mark beyond its 3",
+    "1(b): mark-scheme rows start mid-solution (first passes and the M1 are in the (a) rows) so the middle-right model answer is split between (a) and (b)",
+    "1(d): mark-scheme rows include the first line of (e)s binary search ([(1+11)/2]=6, reject 3.8 to 6.5) with an M1, belonging to (e)",
+    "1(e): mark-scheme rows lack the first search line and M1 (it sits at the end of the (d) rows), so (e) rows start at the second step"
    ],
-   "fingerprint": "77e8099d5dae",
+   "fingerprint": "645c4d598297",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -34,14 +35,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [
-    "2(a): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 1 without boxes).",
-    "2(b): mark scheme strip includes the top of the scheduling diagram (time axis, M1 A1 marks) after the B1 row, cut through at the bottom; that diagram belongs to 2(c).",
-    "2(c): mark scheme strip starts cut through the scheduling diagram (A, D, F, I, M rows sliced at the top); the diagram is split between the (b) and (c) strips so it is never shown whole, and only A1 A1 of the 4 marks are in the (c) strip.",
-    "All parts: the crop is clipped at both side edges: left labels are truncated (\"a)(ii)\", \"i1M1\" for a1M1 etc.) and notes lines run off the right side (e.g. a2M1, b1B1, c1M1 lines cut mid-sentence)."
-   ],
-   "fingerprint": "038b66d1e3a1",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "cfcd1b9bfb21",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "calc",
@@ -60,11 +56,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "3(a)/3(b): the crop is clipped at both side edges: left labels are truncated (\"3.(a)\" shows as \".(a)\", notes labels a1M1 cut to \"1M1\") and mark entries / notes lines run off the right side (e.g. \"A1 (ACBFC\", \"(6\", notes lines cut mid-sentence)."
-   ],
-   "fingerprint": "3cb2ca8df1f5",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "09e59cf37dbd",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -79,11 +73,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "All parts: the crop is clipped at both side edges: left labels are truncated (\"4.(a)\" shows as \".(a)\", notes labels like a1M1 cut to \"1M1\") and notes lines run off the right side (e.g. the a1M1, a1A1, b3A1 lines are cut mid-sentence); the 4(f) mark column entry is also truncated."
-   ],
-   "fingerprint": "e83c504a0ef6",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "5e9670561515",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short",
@@ -114,11 +106,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(a)/5(b): the crop is clipped at both side edges: left labels are truncated (\"5.(a)\" shows as \".(a)\", \"(b)(i)\" as \"b)(i)\", notes labels a1M1 cut to \"1M1\") and notes lines run off the right side (e.g. a3M1, a1A1, a2A1, b1M1 lines cut mid-sentence)."
-   ],
-   "fingerprint": "01d9b4cf6bc5",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "fc7c75aa943f",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -133,11 +123,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "All parts: the crop is clipped at both side edges: left labels are truncated (\"6.(a)\" shows as \".(a)\", notes labels a1M1 cut to \"1M1\") and the mark column of 6(a) is cut (\"A1 (A B D I C\"), and notes lines run off both sides (e.g. the first notes paragraph and c1M1/c1A1 lines cut mid-sentence)."
-   ],
-   "fingerprint": "f11235035ce6",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "45432c3f04ad",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "short",
@@ -161,11 +149,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(a)/7(b): the crop is clipped at both side edges: left labels are truncated (\"7. (a)\" shows as \". (a)\", \"(b)\" mark labels, notes labels a1M1 cut to \"1M1\") and notes lines run off the right side (e.g. a1M1, a1A1 lines cut mid-sentence)."
-   ],
-   "fingerprint": "1fdd87812fc1",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "4e89753da61e",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

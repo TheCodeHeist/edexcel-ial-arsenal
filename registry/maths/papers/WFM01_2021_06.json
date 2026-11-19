@@ -34,8 +34,10 @@
      "label": "1(i)(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WFM01_2021_06/q1_i_intro.webp",
@@ -555,7 +557,7 @@
      "kindGuessed": "short"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2021_06_q4",
@@ -1243,7 +1245,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

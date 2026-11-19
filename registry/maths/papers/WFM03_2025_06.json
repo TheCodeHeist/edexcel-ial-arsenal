@@ -124,7 +124,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2025_06_q2",
@@ -342,8 +342,11 @@
      "label": "3(c)(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7",
+      "FP3.6.4"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WFM03_2025_06/q3_c_intro.webp",
@@ -608,7 +611,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2025_06_q5",
@@ -722,7 +725,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2025_06_q6",
@@ -836,7 +839,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2025_06_q7",
@@ -964,7 +967,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2025_06_q8",

@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1: the main mark scheme is cut through at the bottom edge of the purple MARK SCHEME rows block - the final A1A1 row's last line (\"processed exact answers. Condone missing brackets.\") is sliced, with half a line of the same text repeated under the NOTES caption, and the mark-scheme Total row is cut (\"Total\"); the alternative-by-exponentials mark scheme (M1 A1 M1 A1 M1 A1 A1 = 7) sits under the examiners NOTES caption instead of with the mark-scheme rows, and no actual examiners notes are shown"
+    "Notes: the crop under the NOTES caption starts with a clipped repeat of the last line of the main mark scheme (processed exact answers. Condone missing brackets.) and the Total 7 row, which belong to the mark scheme above"
    ],
-   "fingerprint": "a60a897cee17",
+   "fingerprint": "0227a7001508",
    "kinds": {
     "1": "calc"
    },
@@ -17,9 +17,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "daf83541813f",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(b): mark scheme crop opens with the Example by Substitution rows for 2(a) (completes the square B1, x+2=3tan t, M1A1, dM1A1; answer pi/12), which belong to 2(a); a clipped sliver of the row above also sits at its top edge",
+    "2(b): mark scheme crop is cut off at the bottom through the final A1 row: the note line under 1/2 ln(3+2sqrt2) (Notation... must include limits...) is clipped, and the (7) subtotal / Total 12 is missing"
+   ],
+   "fingerprint": "f5b17b89c666",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -76,12 +79,12 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(b): the mark-scheme row for dddM1 A1 is cut through near its end - the A1 note line (\"e.g. 2z-10y+22x-8=0 A0 if given in e.g. x,y,z or a,b,c etc\") is sliced across its top half and the row carries on into overprinted matrix fragments before the purple block ends, so that line is not legible",
-    "5: the examiners NOTES block is cut off at the bottom edge - the final line (\"But note that this approach needs a point on Pi1 ... (which just ...\") is sliced mid-sentence"
+    "5(b): mark scheme crop is cut through the dddM1 A1 row: the A1 note line (e.g. 2z-10y+22x-8=0 A0 if given in e.g. x, y, z ...) is clipped half-way, the (6) subtotal / Total 11 is missing, and what follows is the start of the alternative-methods notes (M^-1 = ... matrix row, There are obviously a lot of possible alternatives here...) which look stitched on, so the (b) marks cannot be checked as one table",
+    "Notes: crop ends cut through a line of text at the bottom edge (But note that this approach needs a point on Pi_2 ... there must be work to achieve the 4 (which just ..., clipped)"
    ],
-   "fingerprint": "2a92db89e6f2",
+   "fingerprint": "9882186cdfe1",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"

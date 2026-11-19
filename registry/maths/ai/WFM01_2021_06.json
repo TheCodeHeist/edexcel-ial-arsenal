@@ -1,16 +1,20 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "a4fdca81d35c",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(i)(a): mark-scheme crop also contains the stem row f(x)=x^3+4x-6 and the whole 1(i)(b) Newton-Raphson rows (B1 M1 A1 A1, (4)); only the first two rows (M1 A1, (2)) answer (a), so the marks shown total 6 not 2.",
+    "1(i)(b): mark-scheme crop begins with the stem row and the full 1(i)(a) rows (M1 A1 (2)) before the (b) rows; the (a) rows do not answer (b), marks shown total 6 not 4.",
+    "1(ii): mark-scheme crop begins with the stem row f(x)=x^3+4x-6 from part (i), which does not belong to (ii), and a stray fragment is visible at the very top edge of the crop."
+   ],
+   "fingerprint": "887f6465e302",
    "kinds": {
-    "1(i)": "calc",
+    "1(i)(a)": "calc",
     "1(i)(b)": "calc",
     "1(ii)": "calc"
    },
    "topics": {
-    "1(i)": [
+    "1(i)(a)": [
      "FP1.3.1"
     ],
     "1(i)(b)": [
@@ -41,9 +45,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "e9c2985b2a09",
+   "fingerprint": "3c5086f4ec3b",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short",
@@ -163,11 +167,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8: mark-scheme rows are clipped at the left and right edges (label \"8\" cut, marks column \"A1 cso\" and \"(6)\" cut off), and the ALT scheme row is cut through at the bottom of the rows, continuing in the examiners notes block"
-   ],
-   "fingerprint": "fb74d95f5de3",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "65b963146c6b",
    "kinds": {
     "8": "calc"
    },

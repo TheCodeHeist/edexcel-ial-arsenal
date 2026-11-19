@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "5751738d3430",
+   "fingerprint": "59e1322ac0b9",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -39,12 +39,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "58b593e0de84",
+   "fingerprint": "0e5e688e83f7",
    "kinds": {
     "3(a)": "short",
-    "3(b)": "calc"
+    "3(b)": "short"
    },
    "topics": {
     "3(a)": [
@@ -146,11 +146,13 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ed6d87ab7948",
+   "at": "2026-11-20",
+   "concerns": [
+    "Examiners notes: the notes at the bottom of the image stop partway through 8(c) (after the first M1 bullet points, ending at \"If their quadratic factorises then this mark cannot be awarded.\"); the notes for the remaining B1, M1 A1 marks of 8(c) are missing, so the notes crop looks cut off at the bottom."
+   ],
+   "fingerprint": "c48c45ff5e69",
    "kinds": {
-    "8(a)": "calc",
+    "8(a)": "short",
     "8(b)": "calc",
     "8(c)": "calc"
    },

@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes (end of image): the last line, the A1 for the squaring approach under Or otherwise (ii), is cut through at the bottom edge (only the top of 30 + 6 root 10 ONLY is visible)."
+    "Examiners NOTES: bottom edge clips the last line (\"A1 30+6 sqrt10 ONLY\" of the squaring approach) - only its top half is visible, and any further notes may be missing"
    ],
-   "fingerprint": "ffcc4707703f",
+   "fingerprint": "59587cd478d1",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -43,11 +43,9 @@
    }
   },
   "11": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: the (b) M1 line (Pythagoras ... h = ...) is clipped at the right edge, and the notes end at the bottom edge with a line cut off after M1 Substitutes y = -7 or y = -2 ... (the continuing alternative is missing)."
-   ],
-   "fingerprint": "0c9da9ae4c4d",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "ed771b6a2757",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -63,11 +61,9 @@
    }
   },
   "12": {
-   "at": "2026-11-19",
-   "concerns": [
-    "12(a): the last row of the mark-scheme rows shows a stray expression (2 - x/8)^10 (a + bx) = (128 - 56x + 21/2 x^2)(a + bx) that does not answer part (a) (it looks like a fragment of the examiners alternative for (b)/(c)). Marks for (a) themselves (B1 M1A1 A1) add up to 4."
-   ],
-   "fingerprint": "70d242c46302",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d7e244b57b06",
    "kinds": {
     "12(a)": "calc",
     "12(b)": "calc",
@@ -86,9 +82,9 @@
    }
   },
   "13": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "dd44c1bc3dac",
+   "fingerprint": "41e36997e43f",
    "kinds": {
     "13(i)": "calc",
     "13(ii)": "calc"
@@ -104,11 +100,12 @@
    }
   },
   "14": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes end after the (b) CSO line at the very bottom edge; there are no notes for (c), possibly cut off (or simply absent)."
+    "Examiners NOTES: end at the 14(b) final A1 line, with the 14(c) notes (and anything after) not shown, so the notes may be cut off at the bottom",
+    "14(b): mark scheme rows start with a stray sliver of the previous part (1) subtotal at the top edge (harmless)"
    ],
-   "fingerprint": "eea46721c46e",
+   "fingerprint": "b2ff1cabafeb",
    "kinds": {
     "14(a)": "short",
     "14(b)": "calc",
@@ -129,11 +126,11 @@
    }
   },
   "15": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "15(b)/15(c): the last A1 row of (b) (P = 4 root(15/2) + ... = 4 root 30) is shown at the top of the 15(c) mark-scheme block, with [4] printed beside it; (b) rows therefore show only M1 A1 M1 (3 of 4 marks) and (c) rows begin with a row that belongs to (b). Also 15(a) examiners notes line for A1* is cut at the right edge."
+    "15(b): mark scheme rows stop after M1 A1 M1 (3 of 4 marks); the final A1 row (P = 4 sqrt(15/2) + ... = 4 sqrt30, subtotal (4)) sits at the top of the 15(c) rows instead, so 15(c) rows show 4+... marks and do not add to (2)"
    ],
-   "fingerprint": "4988ddabd605",
+   "fingerprint": "93b127345811",
    "kinds": {
     "15(a)": "calc",
     "15(b)": "calc",
@@ -176,9 +173,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "4cfcf5f4cc96",
+   "fingerprint": "e318f09b1dd9",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -216,11 +213,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4: mark scheme rows, marks column is clipped at the right edge (the last A1 of dM1 A1 A1 is cut off), and the notes line at the very bottom looks tight; content otherwise complete."
-   ],
-   "fingerprint": "8ec9acd1da14",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "79a24b327cca",
    "kinds": {
     "4": "calc"
    },
@@ -232,11 +227,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(i): examiners notes M1 line is clipped at the right edge (reads y log 4 = 3000 ... and subsequentl)."
-   ],
-   "fingerprint": "f3edb45c54d8",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "b222b2978744",
    "kinds": {
     "5(i)": "calc",
     "5(ii)": "calc"
@@ -273,11 +266,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: first line (There is no SC for candidates who bisect angle ABC ...) is clipped at the left edge (starts at re is no SC...), and the dM1 line in (b) is clipped at the right edge."
-   ],
-   "fingerprint": "3c78dbe08d55",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "470eaa82cf4e",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -292,11 +283,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes end mid-sentence at the bottom edge (Way One differentiation alternative: Score M1 for the complete attempt, the A1 for the ... cut off); the rest of that alternative is missing."
+    "Examiners NOTES: cut off at the bottom - the differentiation alternative (Way One) ends mid-sentence (\"Score M1 for the complete attempt, the A1 for the\") and any further Way/lines after it are missing"
    ],
-   "fingerprint": "aa966a9f4cf1",
+   "fingerprint": "932ea4b2fbb6",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -312,11 +303,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: the Method Three line (M1: Attempt at finding S9 ... adding on the daily tota[ls]) is clipped at the right edge; the listed table in the notes is complete."
-   ],
-   "fingerprint": "f6f6b6b92eaa",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "c1ba71e1ffc0",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

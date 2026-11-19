@@ -109,9 +109,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "44abbac304c8",
+   "fingerprint": "3d5a10b597c9",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -138,17 +138,20 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f09630f7c070",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(i)(b): mark-scheme crop begins with the whole 7(i)(a) row (stretch scale factor 3, M1 A1, (2)) before the (b) row; marks shown total 3 not 1.",
+    "7(i)(c): mark-scheme crop begins with the whole 7(i)(a) row (M1 A1, (2)) before the (c) rows; marks shown total 4 not 2."
+   ],
+   "fingerprint": "3ea8d11252d8",
    "kinds": {
-    "7(i)": "short",
+    "7(i)(a)": "short",
     "7(i)(b)": "calc",
     "7(i)(c)": "calc",
     "7(ii)": "calc"
    },
    "topics": {
-    "7(i)": [
+    "7(i)(a)": [
      "FP1.6.2"
     ],
     "7(i)(b)": [
@@ -178,9 +181,13 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "e79c23d1fb1a",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(c): mark-scheme crop begins with the Way 2 and Way 3 rows (substituting Q into the normal, giving p^3 q = -1) which are alternative methods for part (b), not (c); marks shown exceed the 5 for (c).",
+    "9(c): mark-scheme crop is cut off at the bottom: Total 12 marks is followed by a sliced strip (the Alt label cut through), and the Alt method for (c) (M1 dM1 A1 ddM1 A1) plus the annotated figure appear under the examiners NOTES heading rather than in the mark-scheme crop.",
+    "9(b): the mark scheme shown is only Way 1 (grad PQ); Way 2 and Way 3 for (b) were placed in the 9(c) crop instead."
+   ],
+   "fingerprint": "714efb536214",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

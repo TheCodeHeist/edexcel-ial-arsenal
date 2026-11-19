@@ -112,9 +112,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b08570e784f1",
+   "at": "2026-11-20",
+   "concerns": [
+    "6(b): mark scheme crop has two pieces of the page stitched with overlap/cut text in the middle: the Beware Special Case line (In such cases score as M1M1A0M1A1ft ...) is cut through at its bottom and the top of the Way 2 row (Obtains Cartesian form for line DE ...) is clipped, so part of the Way 2 first row text is missing"
+   ],
+   "fingerprint": "241da1a3304f",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -153,11 +155,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8(b): a clipped half-line fragment of the paper footer (\"TOTAL FOR PAPER: 75 MARKS\") shows along the very bottom edge under the Total row of the 8(b) mark-scheme block; harmless stray text"
+    "8(b): the bottom edge of the mark scheme crop shows a clipped sliver of the next row (TOTAL FOR PAPER: 75 MARKS) below Total 9"
    ],
-   "fingerprint": "757629d7432d",
+   "fingerprint": "2fd060a735f0",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

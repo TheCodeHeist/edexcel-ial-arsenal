@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [
-    "1(a): mark scheme strip is cut off at the top (only a sliver of an A1 mark visible): the first row(s) with the M1 and the other nearest-neighbour route (A-B-D-F-C-E-G-A) are missing, so only one route (342 m) is shown and the marks M1 A1 A1 are not all visible."
-   ],
-   "fingerprint": "3dd6c8daaf55",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "a79b16033f0a",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -50,12 +48,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(b): mark scheme strip includes the quick sort table (middle right, with M1 A1 A1ft A1) after the bubble-sort rows (B1, B1 B1); that table and its four marks belong to 3(c), so the (b) strip has 7 marks shown against 3 and (c)’s first model solution is in the wrong strip.",
-    "3(c): mark scheme strip is cut through at the top (a sliver of the previous table visible) and only the alternative middle-left solution is shown; the M1 A1 A1ft A1 mark column for the middle-right table sits in the (b) strip, so (c) has no marks column showing."
+    "3(b): mark-scheme rows include (c)s quick-sort working (middle-right version, pivots 1.4, 1.6 0.8 ... sort complete) with M1 A1 A1ft A1, so (b) rows carry (c)s 4 marks on top of its own 3",
+    "3(c): mark-scheme rows start with a clipped line fragment at the top and only show the middle-left alternative; the middle-right model answer and the M1/A1 marks sit in the (b) rows instead"
    ],
-   "fingerprint": "8c24a31cf6b9",
+   "fingerprint": "19e34e66f039",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -78,14 +76,14 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): asks to complete the precedence table in the answer book; the blank (partly filled) table is not in the crop.",
-    "4(b): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 2 without boxes).",
-    "4(a)/4(b): mark scheme early/late times network is split: its top (D, L, M, G, K) is cut through at the bottom of the (a) strip and the (b) strip starts cut through the middle of the same diagram, so the diagram is never whole and is cut through labels.",
-    "4(e)/4(f): the model scheduling diagram (cascade chart) is cut: its top (C, E, G, K, N bars with M1 A1) sits in the (e) strip, cut at the bottom (D, I, L row cut), and the (f) strip shows only the B/F/H/J/Q/R part, cut; Diagram 2 (partly completed scheduling diagram) in the answer book is not in the crop for (f)."
+    "4(a): mark-scheme rows run on into the top of (b)s model activity network (early times 9,11,23,...) with M1 A1, so (a) rows carry (b)s marks beyond its 2",
+    "4(b): mark-scheme rows start mid-diagram - the network is cut through at the top (arc labels like B(4), H(8), N(13) sliced) and the upper part of the diagram is in the (a) rows",
+    "4(e): mark-scheme rows run on into the top of (f)s model scheduling diagram (rows C,E,G,K,N / A,D,I,L with M1 A1), so (e) rows carry (f)s marks beyond its 1",
+    "4(f): mark-scheme rows start mid-diagram - only the lower scheduling rows (B,F,H,M,J,P,Q,R) are shown, the top rows are in the (e) rows"
    ],
-   "fingerprint": "4ef7f17c78f3",
+   "fingerprint": "3e20024edf95",
    "kinds": {
     "4(a)": "short",
     "4(b)": "draw",
@@ -116,12 +114,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(d): asks to draw the MST on the vertices of Diagram 1 in the answer book, which is not in the crop.",
-    "5(d): mark scheme drawing is cut at the top: the MST (edges to C, D, G, E) is sliced through, with only A, B, F, H and fragments of edges visible, so the full tree cannot be seen."
-   ],
-   "fingerprint": "7299b323c606",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "7b477808cc4e",
    "kinds": {
     "5(a)": "short",
     "5(b)": "short",
@@ -148,13 +143,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): mark scheme strip is cut through at the bottom: the first line of the 6(b) answer (e.g Martin makes apple cakes and chocolate cakes in the ratio of 2:1...) is sliced through, and belongs to (b).",
-    "6(b): mark scheme strip starts cut through the model answer (first line cut at the top) and then continues into the top of the (c) feasible-region graph (y from 14 to 26) with two B1 marks, which belongs to (c).",
-    "6(c): the feasible-region graph in the mark scheme is split across the (b) and (c) strips (upper part in (b), lower part from y=12 down in (c)), and Diagram 1 in the answer book (blank grid) is not in the crop."
+    "6(b): mark-scheme rows run on into the top of (c)s model graph (y-axis 14-26 with two constraint lines and two B1 marks), so (b) rows carry content and marks belonging to (c)",
+    "6(c): mark-scheme rows start mid-graph - the model graph is cut through at y=12-14, with its upper part and first marks in the (b) rows, so the graph is split in two"
    ],
-   "fingerprint": "3cb339ae45dc",
+   "fingerprint": "f27c18bee1b6",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "short",

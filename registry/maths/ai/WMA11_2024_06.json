@@ -58,23 +58,28 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "4c6abea2f06c",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(i)(a): mark-scheme crop has the table header (Question/Scheme/Marks) cut through along its top edge.",
+    "2(i)(b): mark-scheme rows also include the (i)(a) row (2^(n+3)=8m, B1) above the (b) rows, which does not answer this part; the table header is cut through along the top edge too.",
+    "2(i)(b): the mark-scheme crop for (i)(a) and (i)(b) also contains the examiners notes for (a) (and (b)) inline, so notes for (a) appear in (b)s rows."
+   ],
+   "fingerprint": "45c3f63b4998",
    "kinds": {
-    "2(i)": "calc",
+    "2(i)(a)": "calc",
     "2(i)(b)": "calc",
     "2(ii)": "calc"
    },
    "topics": {
-    "2(i)": [
+    "2(i)(a)": [
      "P1.1.1"
     ],
     "2(i)(b)": [
      "P1.1.1"
     ],
     "2(ii)": [
-     "P1.1.2"
+     "P1.1.2",
+     "P1.1.10"
     ]
    }
   },
@@ -159,9 +164,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b77e376c62e4",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(a): mark-scheme crop has the table header (Question/Scheme/Marks) cut through along its top edge."
+   ],
+   "fingerprint": "0fff393597dd",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

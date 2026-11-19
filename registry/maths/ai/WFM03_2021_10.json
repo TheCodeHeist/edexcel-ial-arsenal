@@ -70,12 +70,14 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "0704496fa726",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(b)(ii): mark scheme crop is the same (b) rows as 5(b)(i), i.e. it includes the (i) B1 row plus (ii) M1 A1, so the rows total 3 marks not 2"
+   ],
+   "fingerprint": "4fb721463411",
    "kinds": {
     "5(a)": "calc",
-    "5(b)": "calc",
+    "5(b)(i)": "calc",
     "5(b)(ii)": "calc",
     "5(c)": "calc"
    },
@@ -83,8 +85,8 @@
     "5(a)": [
      "FP3.5.1"
     ],
-    "5(b)": [
-     "FP3.5.3"
+    "5(b)(i)": [
+     "FP3.5.2"
     ],
     "5(b)(ii)": [
      "FP3.5.3"

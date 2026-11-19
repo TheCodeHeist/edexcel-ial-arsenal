@@ -50,22 +50,22 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(ii): mark-scheme rows also include the (ii)(b) rows (M1 A1), so the marks add up to 4, not the part marks of 2",
-    "3(ii)(b): mark-scheme rows start with the (ii)(a) rows (M1 A1), which do not answer this part"
+    "3(ii)(a): mark-scheme crop also contains the 3(ii)(b) interpolation row (M1 A1, awrt 4.827, (2), Total 7) after the (a) rows; marks shown total 4 not 2.",
+    "3(ii)(b): mark-scheme crop begins with the whole 3(ii)(a) rows (M1 A1, (2)) before the (b) row; marks shown total 4 not 2."
    ],
-   "fingerprint": "15d81169b6b7",
+   "fingerprint": "25bacd009496",
    "kinds": {
     "3(i)": "calc",
-    "3(ii)": "calc",
+    "3(ii)(a)": "calc",
     "3(ii)(b)": "calc"
    },
    "topics": {
     "3(i)": [
      "FP1.3.1"
     ],
-    "3(ii)": [
+    "3(ii)(a)": [
      "FP1.3.1"
     ],
     "3(ii)(b)": [
@@ -192,11 +192,11 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "9: the examiners NOTES block is only a worked diagram (marked angles) with a stray cut-off \"Tota\" fragment at its top-right, and small stray fragments sit at the bottom edge of the mark-scheme rows"
+    "9: the Total 4 line is sliced across the boundary: its lower half is cut off at the bottom edge of the mark-scheme crop and the Total 4 label reappears at the top of the examiners NOTES crop; the notes themselves (annotated figure and correct angles) are fine."
    ],
-   "fingerprint": "ef97d2692626",
+   "fingerprint": "fbfbb4299223",
    "kinds": {
     "9": "calc"
    },

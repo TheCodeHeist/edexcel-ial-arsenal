@@ -59,11 +59,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(b): the alternative mark scheme for 4(b) (Alt, M1A1 A1 M1 A1, (5)) sits under the examiners' NOTES caption bar, in the middle of the notes text, not in the purple 4(b) block"
-   ],
-   "fingerprint": "94acfd9dc7d5",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "8b8595b4f36a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -78,9 +76,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f70975ccd452",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(b): the 5(b) mark-scheme block begins with the Alt (i) and Alt (ii) methods for 5(a) (\"For the 2nd M1A1\"), so part (a) rows sit under 5(b) before the real (b) rows"
+   ],
+   "fingerprint": "83f3450fc1b7",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -134,9 +134,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f4af6a2c7545",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(b): the Alt (i) mark-scheme row at the bottom of the 8(b) rows is cut through a formula (the |w - (...)| = |w - (...)| line is clipped)",
+    "8(c): the 8(c) mark-scheme rows start with a clipped fragment of 8(b)s Alt (i) (\"So perp bisector of ... => v = sqrt3 u o.e.\" M1A1) that belongs to 8(b), so (c) shows 7 marks for a 5-mark part"
+   ],
+   "fingerprint": "54e5cb4729cf",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

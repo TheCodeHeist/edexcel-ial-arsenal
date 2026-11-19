@@ -14,9 +14,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7e02ddd30880",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(b): mark-scheme crop is cut off at the bottom through its last row (the f(x)=(x^2-4x+13)(x^2+3/2) line of the calculator-solution note is sliced in half).",
+    "2(c): mark-scheme crop starts with the sliced-off lower half of that same 2(b) row (a stray strip of f(x)=(x^2...)(x^2+3/2) overlapping the stem row), which belongs to part (b)."
+   ],
+   "fingerprint": "ac5cb14b541f",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -145,9 +148,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "02350ad29256",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(c): mark-scheme crop starts with a sliced strip of a previous note row (unless that work is referred to in (c)) and a clipped fragment at its top edge; minor, the (c) rows themselves are complete (M1 A1 M1 A1 dM1 A1, (8), Total 13)."
+   ],
+   "fingerprint": "47bf86b25541",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -168,11 +173,11 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "9: the mark-scheme rows end with the top of the \"Way 2\" row cut through at the bottom edge; Way 2 continues in the examiners NOTES block (which holds mark-scheme rows, not notes)"
+    "9: mark-scheme crop ends mid-table: the Way 2 label is sliced at the bottom edge and the rest of the mark scheme (Way 2, Way 3, Way 4) appears under the examiners NOTES heading; the NOTES section holds mark-scheme rows, not notes."
    ],
-   "fingerprint": "15288955ae9f",
+   "fingerprint": "2a3a2c2f08d4",
    "kinds": {
     "9": "calc"
    },

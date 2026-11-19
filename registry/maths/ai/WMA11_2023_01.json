@@ -208,20 +208,23 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "822b4b6a124f",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(b)(ii): the mark-scheme rows also include the (b)(i) row (3, B1) above the (ii) row (5, B1), so the first row does not answer this part.",
+    "9(b)(iii): the mark-scheme rows also include the (b)(i) row (3, B1) above the (iii) row (201, B1), plus a trailing empty row below (4 marks); the (b)(i) row does not answer this part."
+   ],
+   "fingerprint": "06d528a9e790",
    "kinds": {
     "9(a)": "short",
-    "9(b)": "short",
+    "9(b)(i)": "short",
     "9(b)(ii)": "short",
-    "9(b)(iii)": "calc"
+    "9(b)(iii)": "short"
    },
    "topics": {
     "9(a)": [
      "P1.3.3"
     ],
-    "9(b)": [
+    "9(b)(i)": [
      "P1.3.3",
      "P1.1.11"
     ],

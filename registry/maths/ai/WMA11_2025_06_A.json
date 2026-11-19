@@ -83,11 +83,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(ii): mark-scheme rows include preamble crop for question 5 (q4_ii_ms_4.webp)"
+    "4(ii): the bottom of the examiners notes / mark-scheme crop has a stray fragment from another question: a boxed equation y = 1/2 x^4 - 3 + 10/x^2 (the start of the next question), cut off along the bottom edge."
    ],
-   "fingerprint": "ace839133504",
+   "fingerprint": "3ff25a8e4158",
    "kinds": {
     "4(i)": "calc",
     "4(ii)": "calc"
@@ -102,14 +102,15 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(a): mark-scheme crop is cut off at the top, missing the preamble row (which ended up in q4 mark scheme)"
+    "5(b)(i): mark-scheme rows also include the (b)(ii) rows (equation dy/dx = 3, M1 dM1 A1A1 (4)) below the (b)(i) row, which do not answer this part; shown marks run to (10 marks).",
+    "5(b)(ii): mark-scheme rows also include the (b)(i) row (dy/dx = 2x^3 - 20/x^3, M1A1A1 (3)) above the (b)(ii) rows, which does not answer this part."
    ],
-   "fingerprint": "0506bb484cc1",
+   "fingerprint": "324bbde4d3d0",
    "kinds": {
     "5(a)": "calc",
-    "5(b)": "calc",
+    "5(b)(i)": "calc",
     "5(b)(ii)": "calc"
    },
    "topics": {
@@ -117,7 +118,7 @@
      "P1.5.1",
      "P1.5.2"
     ],
-    "5(b)": [
+    "5(b)(i)": [
      "P1.4.2"
     ],
     "5(b)(ii)": [
@@ -141,9 +142,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "2b19b5fb3683",
+   "fingerprint": "e79f0cd5a720",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc"

@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1: examiners NOTES block is clipped at the left and right edges (labels like M1:/A1: and ends of lines cut off); the mark-scheme marks column is also clipped at the right edge"
+    "1: the Total 4 line is sliced across the boundary (only its top edge is visible at the bottom of the mark-scheme crop; Total 4 appears at the top of the examiners NOTES crop); the rows and notes are otherwise complete."
    ],
-   "fingerprint": "c0aa89ec98d9",
+   "fingerprint": "e6f37bfdd993",
    "kinds": {
     "1": "calc"
    },
@@ -16,11 +16,11 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "10: examiners NOTES block is clipped at the left and right edges (M1:/A1: labels and ends of lines cut off); marks column clipped at the right edge"
+    "10: the (Total 5) line is sliced across the boundary: its top edge is visible at the bottom of the mark-scheme crop and it reappears at the top of the examiners NOTES crop; rows and notes otherwise complete."
    ],
-   "fingerprint": "4c78bb702c61",
+   "fingerprint": "1d7b0e627191",
    "kinds": {
     "10": "calc"
    },
@@ -49,9 +49,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b9a64473bc0a",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(b): mark-scheme crop begins with the boxed (a) Alternative rows (M1A1, dM1, ddM1 A1, points (3,16/3) and (-8,-2)) before the (b) midpoint row; those rows belong to part (a), marks shown total 7 not 2."
+   ],
+   "fingerprint": "9f5246d2b7bd",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -67,11 +69,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4: examiners NOTES block is clipped at the left edge (mark labels M1:/A1: and \"Alternative\" headings cut off) and the marks column is clipped at the right edge of the mark-scheme rows"
+    "4: mark-scheme crop ends after the main scheme with Total 6 sliced at the bottom edge; Alternatives 1, 2 and 3 of the mark scheme appear under the examiners NOTES heading (the real notes follow below them), so the NOTES section is mixed with mark-scheme rows."
    ],
-   "fingerprint": "604f863c8158",
+   "fingerprint": "bfe136ffa3db",
    "kinds": {
     "4": "calc"
    },
@@ -120,11 +122,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): the numerator 7 in the stem formula for f(x) is cut off at the top edge of the stem crop"
+    "7(a): mark-scheme crop shows a stray table-header cell (Number) at its top-left corner; the rows themselves are complete. Minor."
    ],
-   "fingerprint": "a580bf786c3e",
+   "fingerprint": "07b451a37ee8",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -167,11 +169,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 9 examiners NOTES block is clipped at the left edge (part labels (a)/(b)/(c) and M1:/A1: labels cut off) and the marks column is clipped at the right edge of the mark-scheme rows"
-   ],
-   "fingerprint": "fbd5ce7bce1c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "c4106749b33b",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

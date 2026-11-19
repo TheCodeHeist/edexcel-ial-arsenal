@@ -71,9 +71,12 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "82a0ad62deb6",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(b): mark scheme crop opens with the ALT method rows for 5(a) (M1 B1 dM1 A1 ddM1 A1cso, a proof of the reduction formula) followed by a large blank gap before the real 5(b) rows; those rows belong to 5(a)",
+    "Notes: crop ends with a stray table header row (Question Number / Scheme / Notes / Marks) at the bottom"
+   ],
+   "fingerprint": "7cd1517538e4",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -88,9 +91,13 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c5b1f4d226d8",
+   "at": "2026-11-20",
+   "concerns": [
+    "6(a): mark scheme crop ends mid-ALT; the final A1 (3x+y-z=3*, Given answer) row of the ALT is missing here",
+    "6(b): mark scheme crop starts with the stray 3x+y-z=3* A1 row that belongs to the 6(a) ALT, so its rows total 2 marks not 1",
+    "6(c): mark scheme crop has a sliver of a stray line fragment at the very top edge"
+   ],
+   "fingerprint": "2c4b48a2d096",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

@@ -1,13 +1,14 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): mark scheme strip runs on into the quick sort table (middle right, first two lines with M1), cut through at the bottom; that belongs to 1(b).",
-    "1(b): mark scheme strip starts cut through the middle-right quick sort table (first passes cut off at the top, A1 marks only); the M1 and first passes are in the (a) strip.",
-    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of a network diagram (weights 70, 77, 91, 84, 56, 203, with M1 and A1 (ADBCE) marks) that belongs to question 2, cut through at the bottom of the image."
+    "1(a): mark-scheme rows include the first two passes of (b)s middle-right quick sort (pivots 30, 33 18) with an M1, so (a) rows carry (b) content and marks",
+    "1(b): mark-scheme rows start mid-sort (first lines cut through at the top, only passes 3-5 shown) so the middle-right model answer is split between the (a) and (b) rows",
+    "1(c): mark-scheme rows begin with a clipped fragment and the middle-left quick-sort table that belongs to (b) before the (c) bins; only the last block (Bin 1-4, M1 A1) answers (c)",
+    "Notes: examiners notes end with a stray fragment of another question (top of a tree diagram with weights 70, 77, 91, 84, 56, 203 and M1, A1 (ADBCE)) at the bottom edge"
    ],
-   "fingerprint": "e3bee0a4025f",
+   "fingerprint": "6336e2e80625",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -26,12 +27,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(a): mark scheme strip is cut off at the top: the Dijkstra labelled network is sliced through (only the bottom row of boxes for D, H and a strip of the top boxes is visible, B/C/E/F/G/J boxes mostly missing) and only four of the six marks (A1 (HF), A1ft (GJ), A1, A1ft) are visible; the M1 and first A1s are missing.",
-    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of a table (columns a-h with 1980, 462, 914 760 ... and an M1 mark) that belongs to question 3, cut through at the bottom of the image."
+    "2(a): mark-scheme rows start mid-diagram - the Dijkstra model diagram is cut off through its top row of boxes (nodes A, B, C, E, F, G etc. and the first M1 A1 A1 marks missing); the upper half of this diagram appears at the bottom of Question 1s notes instead",
+    "Notes: examiners notes for Question 2 end with a stray fragment of the next question (a table with columns a-h, values 1 980, 462, 914 760 and an M1) at the bottom edge"
    ],
-   "fingerprint": "77f09a6b049f",
+   "fingerprint": "91f3714f0b84",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -50,13 +51,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a): asks to complete the table in the answer book; the blank table is not in the crop.",
-    "3(a): mark scheme strip is cut off at the top: the completed trace table is sliced through (only the bottom of the first row visible, M1 and the first rows missing, the rest of the grid blank), so only A1, A1ft and A1 of the 4 marks are visible; the top rows of this table appear at the end of the previous question (2) notes crop instead.",
-    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of an activity network (A, B, D, E, H, I arcs with M1 A1 A1 marks) that belongs to question 4, cut through at the bottom of the image."
+    "3(a): mark-scheme table is cut through at the top - only the third row (132, 66, (914 760), 2, 2, 132, 0, 13 860) is shown, the first two rows and the first mark(s) are at the bottom of Question 2s notes",
+    "Notes: examiners notes for Question 3 end with a stray fragment of the next question (top of an activity network diagram with D, A, E, H, B, I and M1 A1 A1) at the bottom edge"
    ],
-   "fingerprint": "c07a60c8d7ae",
+   "fingerprint": "7ce4844c3e66",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -71,12 +71,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): mark scheme network is cut off at the top: only the bottom part (C, F, G, J, K arcs and dummies) is visible and only A1 A1 of the 5 marks (M1 A1 A1 are missing); the top part of this diagram (A, B, D, E, H, I) appears at the end of the question 3 notes crop instead.",
-    "Notes: the a4A1 row of the notes is cut through at the bottom (text sliced), a small trim error."
+    "4(a): mark-scheme rows start mid-diagram - only the bottom of the model network (arcs C, G, J, K and dummies) is shown with two A1 marks; the top half of the diagram and the M1/first A1 are at the bottom of Question 3s notes",
+    "Notes: the a4A1 line (exactly five dummies) is cut through at the bottom of its row, text half-clipped"
    ],
-   "fingerprint": "a6b87bdc3f22",
+   "fingerprint": "c9347998bfcc",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "short"
@@ -92,12 +92,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(b): mark scheme strip runs on into the (c) rows: the first two constraint derivations (x >= 40/100(x+y+z) => 3x >= 2y+2z, and the start of the 25/100 line, with an M1) are in the (b) strip and cut through at the bottom; they belong to 5(c).",
-    "5(c): mark scheme strip starts cut through the second constraint (y <= 25/100(x+y+z) line sliced at the top) so only A1 A1 of its 3 marks and part of the working are visible; the M1 and first constraint are in the (b) strip."
-   ],
-   "fingerprint": "175e2e1a634c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d6231830cb80",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -153,13 +150,14 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(b): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 3 without boxes).",
-    "7(a)/7(b): the mark scheme early/late times diagram is split: its top (events 2, 7, arcs D, E, A, L, N) is in the (a) strip after the B1 row, cut at the bottom, and the (b) strip starts cut through the same diagram (F, P, J labels and top boxes sliced), so it is never shown whole.",
-    "7(d)/7(e): the model Gantt chart is split: its top rows (A, F, I, L, P, B, C, D, E with M1 A1) sit in the (d) strip after the M1 A1 rows, cut at the bottom, and the (e) strip starts cut through the rest (G, H, J, K, M, N, Q, R); the grid in the answer book for 7(e) is also not in the crop."
+    "7(a): mark-scheme rows run on into the top of (b)s model event-times diagram (boxes 8, 27, D(17) with M1 A1), so (a) rows carry (b) content and marks beyond its 1",
+    "7(b): mark-scheme rows start mid-diagram (diagram cut through at the top, upper boxes and arcs sliced), the upper part is in the (a) rows",
+    "7(d): mark-scheme rows run on into the top of (e)s model Gantt chart (rows A,F,I,L,P / B / C / D / E with M1 A1), so (d) rows carry (e) content and marks beyond its 2",
+    "7(e): mark-scheme rows start mid-chart (only lower rows G,H,J,K,M shown, top cut through) with the remaining marks; the upper part of the Gantt chart is in the (d) rows"
    ],
-   "fingerprint": "688d9ac0b53e",
+   "fingerprint": "be9b815d6391",
    "kinds": {
     "7(a)": "short",
     "7(b)": "draw",

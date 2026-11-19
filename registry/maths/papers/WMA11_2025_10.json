@@ -1168,9 +1168,12 @@
     {
      "label": "9(b)(i)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P1.1.12",
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA11_2025_10/q9_b_intro.webp",

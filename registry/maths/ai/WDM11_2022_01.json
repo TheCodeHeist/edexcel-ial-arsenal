@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): mark scheme rows run on into the quick-sort table: the bottom of the (b) strip shows the top of the quick sort (middle right, pivots 13) cut through the table, which belongs to (c).",
-    "1(c): mark scheme rows start cut through the middle of the middle-right quick sort table (first passes cut off at the top), so the first passes are not readable; its strip also ends with the top of the binary search rows (6 -> reject 13-28) cut through, which belong to (d).",
-    "1(d): mark scheme rows start cut through the binary search (first two lines of the working cut off at the top); only the last two lines (12 reject 12; 9 found) are readable in the strip."
+    "1(c): mark-scheme rows run on into the start of (d)s binary-search working (6 reject 13-28, 3 reject 4-8, with the first M1 mark) which is cut off at the crop bottom, so (c) rows contain (d) content and the marks do not match (c)s 3",
+    "1(d): mark-scheme rows start mid-formula (only the bottom of the 8 reject 4-8 line and its A1 visible), so the first lines and M1 of (d) are missing"
    ],
-   "fingerprint": "d2c1a82e5d6a",
+   "fingerprint": "936836477bc5",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -30,13 +29,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [
-    "2(d): the question asks to draw on the vertices of Diagram 1 in the answer book, which is not in the crop (no blank vertex diagram shown), so the part cannot be answered as shown.",
-    "2(d): mark scheme crop is cut at the top: the drawn MST has its top edge cut through (vertex A and the edges from B/F/H/A are missing or sliced), so the full tree is not visible.",
-    "2(b): mark scheme strip has a sliver of the previous row cut at its top edge (minor)."
-   ],
-   "fingerprint": "09060536201f",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "3b516b3cbe7b",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -63,11 +58,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3: mark scheme network diagram is cut through in the middle: the strip ends partway through the top half of the diagram (A, D, H arcs cut), and the rest of the diagram (B, E, J, C, F, G, I) appears under the examiners-notes caption bar, so the model answer is split across the mark-scheme and notes sections."
+    "3: mark-scheme rows cut through the model network diagram - the top (activities A, D, H and dummies) is in the purple MARK SCHEME bar and the lower half (B, C, E, F, G, I, J) falls under the NOTES caption, so the diagram is split in two and the 5 marks rows are incomplete"
    ],
-   "fingerprint": "c05add0918ae",
+   "fingerprint": "72cbab2f8184",
    "kinds": {
     "3": "draw"
    },
@@ -79,13 +74,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): mark scheme strip ends with the top of the cascade chart (A, G, I, L, B, C, D bars) cut through at the bottom; that chart belongs to (b).",
-    "4(b): the question says to draw on Grid 1 in the answer book, which is not in the crop (no blank grid).",
-    "4(b): mark scheme chart is split: top half (A, B, C, D) sits in the (a) strip, and the (b) strip starts cut through the chart (E bar sliced at the top), so the model cascade chart is never shown whole."
+    "4(a): mark-scheme rows also contain the top of (b)s cascade chart (activities A,G,I,L,B,C,D with an M1 and A1), so (a) rows carry extra marks beyond its 4",
+    "4(b): mark-scheme rows start mid-chart (cascade chart cut through at activities D/E, top rows A,G,I,L,B,C,D missing) so the model cascade chart is split between the (a) and (b) rows"
    ],
-   "fingerprint": "4039f24bef54",
+   "fingerprint": "f25cd8673cf7",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "draw",
@@ -125,13 +119,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): the question asks to complete the table of least distances in the answer book; that blank table is not in the crop (the mark scheme shows the filled version), though the network in the stem is enough to work Dijkstra.",
-    "6(c): mark scheme strip is cut through at the bottom: the (c)(ii) row (29 + 7(AB) + 8(AC) = 44, M1 A1) is sliced through the text, and the top edge also shows a sliver of the previous row.",
-    "6(d): mark scheme strip starts with a sliver of the (c)(ii) row cut through its top."
+    "6(c): mark-scheme rows clip the (c)(ii) row (29 + 7(AB) + 8(AC) = 44 km and its M1 A1) at the bottom edge, cutting the text in half; a thin sliver of the same row reappears at the top of 6(d)s rows"
    ],
-   "fingerprint": "d7dcb57599d6",
+   "fingerprint": "7ce21af81170",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -155,14 +147,13 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(b): mark scheme strip contains the top part of the (c) feasible-region graph (y from 30 to 40, with two B1 marks) cut through; that graph belongs to (c), so (b) strip has stray content after its M1 A1 A1 rows.",
-    "7(c): mark scheme graph is split across the (b) and (c) strips (upper part in (b), lower part from y=20 down in (c)), so the model diagram is never shown whole and the two B1 marks are separated.",
-    "7(c) and 7(d): the question asks to draw on Diagram 1 in the answer book (blank grid), which is not in the crop; the graph is only seen in the mark scheme.",
-    "7(e): mark scheme strip has a sliver of the previous row cut at its top edge (minor)."
+    "7(b): mark-scheme rows continue into the top of (c)s model graph (y-axis 30-40 with a line and two B1 marks), so (b) rows carry content and marks belonging to (c)",
+    "7(c): mark-scheme rows start mid-graph (graph cut through at y=20 with the upper part and first B1 left in the (b) rows), so the model graph is split across the (b) and (c) rows",
+    "7(d): last mark-scheme row (V correctly labelled B1) is clipped at the bottom edge, text partly cut"
    ],
-   "fingerprint": "11d626bffa62",
+   "fingerprint": "7852bda32536",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

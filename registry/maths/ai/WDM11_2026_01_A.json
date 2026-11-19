@@ -1,13 +1,13 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): mark scheme strip is cut off at the top (first row of the bin packing, Bin 1 line, partly sliced) and runs on into the start of the quick sort (middle right, first pass with M1), which belongs to 1(c).",
-    "1(c): mark scheme strip starts cut through the middle-right quick sort table (first passes cut off at the top, only the A1 marks visible); the first pass and M1 are in the (b) strip.",
-    "All parts: the crop is clipped at the right edge: mark column totals are truncated (\"(2\", \"(3\", \"(4\") (minor)."
+    "1(b): mark-scheme rows are cut through the packing - the top line (10) and the bottom line (Bin 4: 2.4) are sliced, and Bin 4 / Bin 5 (7.8) fall at the top of the (c) rows, so the first-fit answer is incomplete",
+    "1(c): mark-scheme rows start with the sliced tail of (b)s bins (Bin 4, Bin 5: 7.8) and end with the middle-right sort clipped at the last pass (final rows and the last pivots cut off, rest in (d) rows)",
+    "1(d): mark-scheme rows begin with the tail of (c)s middle-right sort (7.8 6.2 5.0 ... (1.8)) and the whole middle-left alternative for (c) before the (d) bins; only the last block (Bin 1-4, M1 A1) answers (d)"
    ],
-   "fingerprint": "a289f33ad90c",
+   "fingerprint": "d981cb979594",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -55,11 +55,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "All parts: the crop is clipped at the right edge: mark column totals are truncated (\"(6\", \"(4\", \"(2\", \"(3\", \"[15\") and the examiners notes lines run off the right side (e.g. the first notes paragraph, a3A1ft, c1B1 lines cut mid-sentence)."
-   ],
-   "fingerprint": "764114a7b422",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "639cc094a83d",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -82,11 +80,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4: mark scheme network is cut through at the bottom: the bottom of the diagram is sliced (activity C and J arcs and the first dummy from the bottom run off the edge), so the full model network is not visible; the mark column is also clipped at the right (\"(5\", \"[5\")."
+    "4: mark-scheme rows cut the model activity network off at the bottom - the lower part of the diagram (the end of activity C, the F and J arcs and the dummy from C) is sliced, so the network is incomplete; the [5] total falls at the top of the examiners notes"
    ],
-   "fingerprint": "4bcc30024e10",
+   "fingerprint": "37e4defcb2e9",
    "kinds": {
     "4": "draw"
    },
@@ -98,13 +96,12 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(b): asks to add lines and shading to Diagram 1 in the answer book; the blank grid is not in the crop (only the model graph in the mark scheme).",
-    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of an activity network (arcs labelled A(6), E(7), J(8) with M1 A1 marks) that belongs to question 6, cut through at the bottom of the image.",
-    "All parts: the mark column is clipped at the right edge (\"(1\", \"(4\", \"(7\")."
+    "5(b): mark-scheme rows cut the model graph off at y=200 (lower part of the graph with the feasible region R and x-axis is missing), so the graph is incomplete",
+    "Notes: examiners notes end with a stray fragment of the next question (top of an activity network with A(4), E(7), J(8), M1 A1) at the bottom edge"
    ],
-   "fingerprint": "2e0aa497cf0a",
+   "fingerprint": "f45d2fee4fd2",
    "kinds": {
     "5(a)": "short",
     "5(b)": "draw",
@@ -128,15 +125,14 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): asks to complete Diagram 1 in the answer book (event-time boxes); Diagram 1 is not in the crop (stem shows Figure 3 without boxes).",
-    "6(a): mark scheme strip is only a thin sliver of the bottom of the early/late-times diagram (the top and most boxes are missing; M1 A1 marks only beside a cut-off diagram), so the model answer cannot be read; the upper part of the diagram is at the end of the question 5 notes crop instead.",
-    "6(c): mark scheme strip includes the top of the cascade chart (A, F, J, B, C rows with M1 A1) after the lower bound row, cut through at the bottom; that chart belongs to 6(d).",
-    "6(d): mark scheme strip starts cut through the cascade chart (E, G, H, I, K rows) and ends with the top of the scheduling diagram (A, F, J with M1) which belongs to 6(e); Grid 1 in the answer book is not in the crop.",
-    "6(e): mark scheme strip starts cut through the scheduling diagram (B, D, G, H / C, E, I, K rows sliced), and Grid 2 in the answer book (partly completed grid) is not in the crop."
+    "6(a): mark-scheme rows show only a thin horizontal slice of the model event-times diagram (arcs and a few boxes, 10, 14, 16, 21), cut through at the top and bottom, so most of the completed early/late times are missing",
+    "6(c): mark-scheme rows run on into the top of (d)s model cascade chart (rows A F J / B / C, with M1 A1), so (c) rows carry (d) content and marks beyond its 2",
+    "6(d): mark-scheme rows start mid-chart (only lower rows E,G,H,I,K shown, cut at the top) with A1 A1, and end with the top of (e)s model schedule (A F J row with an M1)",
+    "6(e): mark-scheme rows start mid-diagram - the schedule is cut through (only the B D G H / C E I K rows with A1ft A1 shown), the top row and M1 are in the (d) rows"
    ],
-   "fingerprint": "33fc20c6f30e",
+   "fingerprint": "f769941ebc33",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "short",
@@ -163,13 +159,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): mark scheme strip is cut through at the bottom: the last row (\"Use x=100, z=25 to obtain two values of y, leading to\" with an M1) is sliced and belongs to 7(b), so (a) shows 7 marks against 6.",
-    "7(b): mark scheme strip omits the M1 row (\"Use x=100, z=25 ...\"), which is in the (a) strip; only A1ft A1 visible in its own strip.",
-    "All parts: the mark column totals are clipped at the right edge (\"(6\", \"(3\")."
+    "7(a): mark-scheme rows end with the first line of (b)s working (Use x=100, z=25 to obtain two values of y, leading to ... M1), clipped at the bottom, so (a) rows carry (b)s M1 beyond its 6",
+    "7(b): mark-scheme rows lack the opening line and M1 (it sits at the bottom of the (a) rows), so (b) rows show only the A1ft and A1 results"
    ],
-   "fingerprint": "5b7942bd5001",
+   "fingerprint": "e0a5f8609d15",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

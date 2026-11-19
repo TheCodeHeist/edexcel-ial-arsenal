@@ -58,9 +58,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f1f41cb01d50",
+   "at": "2026-11-20",
+   "concerns": [
+    "4(a): mark scheme crop ends at the bare label ALT; the ALT method rows for (a) (M1A1 dM1 A1*) sit at the top of the 4(b) mark scheme crop, so 4(b) rows total 9 marks not 5"
+   ],
+   "fingerprint": "1a43a8a238fc",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"

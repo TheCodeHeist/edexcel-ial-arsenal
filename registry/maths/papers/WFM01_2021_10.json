@@ -911,8 +911,10 @@
      "label": "7(i)(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2021_10/q7_i_a.webp",
@@ -947,7 +949,7 @@
     {
      "label": "7(i)(b)",
      "marks": 1,
-     "kind": "short",
+     "kind": "calc",
      "topics": [
       "FP1.6.2"
      ],
@@ -1051,8 +1053,10 @@
      "label": "7(ii)(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.4"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WFM01_2021_10/q7_ii_intro.webp",

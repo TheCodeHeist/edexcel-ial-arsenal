@@ -1,16 +1,16 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "e512ccc1bfa9",
+   "fingerprint": "1923bb86e19d",
    "kinds": {
-    "1(i)": "calc",
+    "1(i)(a)": "calc",
     "1(i)(b)": "calc",
     "1(ii)": "short"
    },
    "topics": {
-    "1(i)": [
+    "1(i)(a)": [
      "FP1.5.4"
     ],
     "1(i)(b)": [
@@ -47,9 +47,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "18a93f403d9d",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(b): mark-scheme crop starts with the Alt rows for the last 2 marks of part (a) (straight line equation, M1 A1, alpha=0.834) before the (b) row; they do not answer (b), marks shown total 4 not 2."
+   ],
+   "fingerprint": "82da87bd961a",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -68,11 +70,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(c): numerator 50 in arg(50/z*) is cut off at the top edge of the crop (top part was included at the bottom of the 4(b) crop)"
+    "4(b): the question crop is cut at the bottom through the (3) mark label; a clipped fragment of it appears as a stray at the very top of the 4(c) question crop."
    ],
-   "fingerprint": "9d4106330ad5",
+   "fingerprint": "35fb5699e28d",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -151,11 +153,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8: mark-scheme rows are clipped at the right edge (marks column bracket), and the Way 1 block ends with the top of the Way 2 row cut through at the bottom edge; Ways 2-4 sit in the examiners NOTES block, which holds mark-scheme rows rather than notes"
+    "8: mark-scheme crop ends mid-table: the Way 1 box is followed by a sliced strip (the Way 2 label cut through at the bottom edge) and the rest of the mark scheme (Way 2, Way 3, Way 4, Total 6) appears under the examiners NOTES heading; the NOTES section holds mark-scheme rows, not notes."
    ],
-   "fingerprint": "5b3e874d4fd8",
+   "fingerprint": "313c279ba173",
    "kinds": {
     "8": "calc"
    },

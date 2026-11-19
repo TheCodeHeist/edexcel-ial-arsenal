@@ -19,9 +19,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "10e0c321e0b7",
+   "fingerprint": "7f1390420bfb",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -50,9 +50,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "c35448685ce3",
+   "fingerprint": "a95c39f63b63",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -67,9 +67,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8c879243c254",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(b): the 5(b) mark-scheme block starts with rows that belong to 5(a) (the d2y/dx2 line and the whole ALT method for (a), B1 M1A1 A1 (4)) before the real (b) rows, so the purple rows show 8 marks for a 4-mark part"
+   ],
+   "fingerprint": "bd78b6cf6bff",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -85,11 +87,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "6(a): the top of the pi and the brackets in (6a, pi/3) are cut off at the top edge of the crop"
-   ],
-   "fingerprint": "98a4a84184b1",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "6af5e0088e3e",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -122,11 +122,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8(c): a stray clipped fragment (the top of the \"Notes\" heading) shows at the bottom edge of the 8(c) mark-scheme crop, under [14]"
-   ],
-   "fingerprint": "f6410c097b10",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "9becb43fb300",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

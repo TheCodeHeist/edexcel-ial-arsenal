@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes: every line is clipped at the left edge (Extra Note reads xtra Note, lthough, hanged, etc.) and the last line (Extra Note 3: Answers without working ...) is cut through at the bottom edge."
+    "Examiners NOTES: bottom edge clips Extra Note 3 (\"Answers without working can score all marks ...\") mid-line, so the note is cut off"
    ],
-   "fingerprint": "2077ccb3011a",
+   "fingerprint": "8fc195ae284e",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,11 +20,11 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes: the notes block shows only a table header row (Question / Scheme / Notes / Marks) cut off at the bottom edge; no notes content visible."
+    "Examiners NOTES: the strip shows only the top of a table header row (Question / Scheme / Notes / Marks), cut off at the bottom, with no actual notes visible"
    ],
-   "fingerprint": "51e8124e2f04",
+   "fingerprint": "c4a72e08a9b4",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -39,11 +39,11 @@
    }
   },
   "11": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes: lines are clipped at the left edge (common occurrence ..., 10, 11 marks fragments) and the right edge (the substitution line is cut), and the notes end with a stray table header row (Question / Scheme / Notes / Mark) cut at the bottom edge. The notes appear to be an alternative method for (b) with its first column cut."
+    "Examiners NOTES: bottom edge shows the top of a stray repeated table header row (Question / Scheme / Notes / Marks) cut through; harmless but the notes may continue past it"
    ],
-   "fingerprint": "5a9312ab9306",
+   "fingerprint": "e3240cff8f3f",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -110,12 +110,12 @@
    }
   },
   "14": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "14(a): the bottom of the mark-scheme rows carries stray fragments from other parts: a cut line starting sing sqrt(a^2+b^2), lines 1: a = root 137 and 1: -root 137 < a < root 137, and the Pearson Education Limited / registered office footer (clipped at left). These do not answer (a).",
-    "14(b): the notes at the end of the image are clipped at the left edge (ote: There may be many other ways ..., a) Via Cartesian coordinates, ...) and the last line (using |a alpha + b beta + c| / sqrt(a^2+b^2)) is cut at the bottom edge; the notes are incomplete and their first lines seem to have been displaced into the (a) block."
+    "14(a): below its mark scheme (after the (5) subtotal) sit stray lines from the examiners notes for (b) - a clipped \"using sqrt(a^2+b^2)\", \"A1: a = sqrt137\", \"A1: -sqrt137 < a < sqrt137\" - and the Pearson Education Limited page footer; none belongs to 14(a)",
+    "14(b): after the three Ways, the rows run into the examiners note text (Via Cartesian coordinates ... \"Alternatively ... distance from (12.5,15) to ax+by+c=0 using |a alpha+b beta+c|\") which is cut off at the bottom edge; no separate NOTES section, so the end of the notes is missing"
    ],
-   "fingerprint": "76705ad05b87",
+   "fingerprint": "f0f94188c050",
    "kinds": {
     "14(a)": "calc",
     "14(b)": "calc"
@@ -132,11 +132,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: clipped at the left edge (xtra note ...) and they stop after one long expansion line cut at the right and bottom edges; the extra note content is incomplete."
-   ],
-   "fingerprint": "7a9ecd11eeac",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "78f98b1402ab",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -155,11 +153,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: clipped at the left edge (xtra note, n (b) and / or (c)...) and the note is cut off at the bottom edge after one line; the rest is missing."
-   ],
-   "fingerprint": "379dfc133028",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "9ee9c65e0242",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -199,11 +195,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes: the notes block shows only the table header row (Question Number / Scheme / Notes / Mark) cut off at the bottom edge; no note content is visible."
+    "Examiners NOTES: the notes strip holds only a repeated table header row (Question Number / Scheme / Notes / Marks) with no actual notes - either nothing to show or the real notes were cut off"
    ],
-   "fingerprint": "aae6fa634bca",
+   "fingerprint": "4f0a6a1bde01",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -218,11 +214,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a) and 6(b) mark scheme: several lines are clipped at the left edge (Working from both sides, xtra Notes, nd M ...). 6(b): the rows end with the alternative-method header 6 alt 1 cut at the bottom edge, so the alternative method(s) for (b) are missing; there is no separate examiners notes section."
+    "6(b): mark scheme rows run on into the Extra Notes text and end at the clipped top of a \"6 alt 1\" table header, so the alternative (b) schemes are cut off at the bottom and no examiners NOTES section appears; the (6) subtotal row of (b) is not shown"
    ],
-   "fingerprint": "7c34cb2cf43c",
+   "fingerprint": "0534ebf416a1",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -257,11 +253,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: text lines are clipped at the left edge (ote other methods, It 1:, andidates could ..., etc.), so the first letters/symbols of many note lines are missing."
-   ],
-   "fingerprint": "1362779d3c72",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "2fa41f3556b5",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -281,11 +275,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Examiners notes: lines are clipped at the left edge (ote 1, core as follows, 1: Second correct answer...) and the right edge of the Score M1 line."
-   ],
-   "fingerprint": "43aa0a9b82b4",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "aca2ebbf63bc",
    "kinds": {
     "9(a)": "draw",
     "9(b)": "calc"

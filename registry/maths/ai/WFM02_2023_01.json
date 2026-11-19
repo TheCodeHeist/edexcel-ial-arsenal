@@ -83,11 +83,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5: mark-scheme crop clipped at the right edge (\"(6)\" cut) and the end of the scheme spills: the \"Total 6\" row and the whole alternative scheme (squaring both sides: B1, M1M1, A1, A1A1, A1 rows) appear under the examiners' NOTES caption bar, not in the purple block"
-   ],
-   "fingerprint": "8330f6a34c6c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "915ce8de0f1c",
    "kinds": {
     "5": "calc"
    },
@@ -99,12 +97,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "6(a): mark-scheme crop clipped at the right edge (\"(2)\" cut); the 6(a) block also ends with the general guidance for part (b) (\"Part (b) The approaches below...\"), which is not 6(a) content",
-    "6(b): mark-scheme crop clipped at the right edge (a line of guidance and marks column cut) and Way 2 and Way 3 of the 6(b) scheme (with Total 8) sit under the examiners' NOTES caption bar instead of in the purple 6(b) block; the 6(b) block ends cleanly after Way 1 with A1 and Total 8"
-   ],
-   "fingerprint": "c1940263fcda",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "3b91cc77b61d",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc"
@@ -154,13 +149,11 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "9(a): the question crop has only (a)(i); the second sub-part \"(ii) d2y/dx2\" and the mark total (5) sit at the top of the 9(b) QUESTION crop, so 9(a) is incomplete and 9(b) opens with another part's text",
-    "9(a)/9(b)/9(c)/9(d): mark-scheme crops clipped at the right edge (\"(5)\", \"(2)\", \"(5)\", \"(1)\" cut, \"Total 13\" half cut)",
-    "9(b): the mark-scheme block ends with the line \"Mark (c) and (d) together\", which belongs to part (c)"
+    "9(a): part (a)(ii) (\"(ii) d2y/dx2\" with its (5) mark) is cut into the 9(b) question crop instead of the 9(a) crop, so 9(a) shows only (i) and 9(b) opens with the stray \"(ii) d2y/dx2 ... (5)\" before the real (b) text"
    ],
-   "fingerprint": "663ce7b066ac",
+   "fingerprint": "e4b0820df165",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
