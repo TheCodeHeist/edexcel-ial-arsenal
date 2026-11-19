@@ -123,9 +123,10 @@ def apply(paper, reviews, ai=None):
                 p["answerRead"] = p["answer"]
             p.setdefault("kindGuessed", p["kind"])
             fix = reviews["parts"].get(p["label"], {})
-            # a person's correction, else the AI reader's kind (if it read this same question), else the guess
+            # a person's correction, else the AI reader's kind, else the guess (like tags, a kind doesn't depend on
+            # how the crops are cut, so a reading of an earlier cut still counts)
             read = ai["questions"].get(str(q["number"]), {})
-            ai_kind = read.get("kinds", {}).get(p["label"]) if read.get("fingerprint") == fingerprint(q) else None
+            ai_kind = read.get("kinds", {}).get(p["label"])
             p["kind"] = fix.get("kind", ai_kind or p["kindGuessed"])
             # topics: a person's, else the AI reader's suggestion (tags don't depend on how the crops are cut,
             # so a reading of an earlier cut still counts)

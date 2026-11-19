@@ -116,6 +116,9 @@ def show(paper_id, number):
         pieces.append((f"{p['label']}: MARK SCHEME rows", "#7a3db8", p["ms"]))
     if q.get("msNotes"):        # Maths: the examiners' notes after the question's mark scheme
         pieces.append((f"Question {q['number']}: examiners' NOTES on the mark scheme", "#7a3db8", q["msNotes"]))
+    prev = reviews.load_ai(paper["subject"], paper_id)["questions"].get(str(q["number"]))
+    if prev and prev.get("fingerprint") == reviews.fingerprint(q):
+        prev = None                     # read as it is cut now: nothing to carry
     image = OUT / f"{paper_id}_q{q['number']}.png"
     stitch(pieces, image)
     print(json.dumps({
@@ -123,6 +126,9 @@ def show(paper_id, number):
         "parts": [{"label": p["label"], "marks": p["marks"], "kind_guessed": p.get("kindGuessed", p["kind"]),
                    **({"mcq_answer_read": p["answerRead"]} if "answerRead" in p else {}),
                    "text": p.get("text", "")[:600]} for p in q["parts"]],
+        # an earlier reading of this question before it was re-cut: its kinds and topics still hold (they don't
+        # depend on the cut); only the crops need checking again
+        **({"previous_reading": {k: prev[k] for k in ("kinds", "topics") if k in prev}} if prev else {}),
     }, indent=1, ensure_ascii=False))
 
 
