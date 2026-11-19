@@ -378,7 +378,7 @@ MS_LABEL = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)*)\(
 MS_LETTER = re.compile(r"^(?:[a-h]|i|ii|iii|iv|v|vi)$")       # a part alone, under its number: '1' then 'a' (M2 2026)
 FIRST_LABEL = re.compile(r"^1(?:\s*\.|\s*\(?[a-h]\)?)?(?:\s*\(\s*[a-z]{1,4}\s*\))*\s*$")   # question 1's label: '1', '1.', '1a', '1(a)'
 HEADER = re.compile(r"^(?:Question\b(?! Paper)|Q$|Q\s+(?=[A-Z]))", re.I)
-MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*)$")   # M2: '1a', '2b(ii)'
+MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*|(?:i|ii|iii|iv|v|vi))$")   # M2: '1a', '2b(ii)'; P1 Oct 2023: '7ai'
 # A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …',
 # S1 Oct 2021: '1 (a) [Sum of probs …', no dot).
 MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)(?=\S)")
@@ -524,6 +524,8 @@ def ms_split(ms_doc, questions):
         if (not t and rows and col and l.bold and l.x0 > 480 and re.fullmatch(r"\d{1,2}", l.text)
                 and int(l.text) == totals.get(rows[-1].q)):
             t = True    # the total alone, bold, at the foot of the Marks column (S1 Oct 2023, FP3 Jun 2025)
+        if t and closed:
+            continue        # a total after this question already closed: a question whose label was missed
         if t:
             r = rows[-1]
             r.total_line = l
@@ -546,7 +548,8 @@ def ms_split(ms_doc, questions):
         elif lead:
             num, labs = lead[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", lead[2])
         elif b := MS_LABEL_BARE.match(l.text):
-            num, labs = b[1], [b[2], *re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3] or "")]
+            num, labs = b[1], [b[2], *(re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3]) if "(" in (b[3] or "")
+                                       else [b[3]] if b[3] else [])]
         elif (m := MS_LABEL.match(l.text)) and (m[1] or m[2]):
             num, labs = m[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", m[2] or "")
         elif (MS_LETTER.match(l.text) and cur_q is not None and not closed
