@@ -202,6 +202,18 @@ def read_lines(doc, skip_cover=True, top=COL_Y0):
         book = next((l.page for l in lines if l.bold and ANSWER_BOOK.match(l.text)), None)
         if book is not None:
             lines = [l for l in lines if l.page < book]
+        # Older D1 PDFs are the answer book (questions and answer space, but only question totals) followed by
+        # the question paper (with each part's marks): question 1 starts twice. Read the part with the marks.
+        starts = [l.page for l in lines if l.bold and l.x0 < 60 and re.match(r"^1[.:]?(?:\s|$)", l.text)]
+        if len(starts) > 1:
+            bounds = starts + [doc.page_count]
+            sections = [(a, b) for a, b in zip(bounds, bounds[1:])]
+
+            def marks(sec):
+                return sum(1 for l in lines if sec[0] <= l.page < sec[1] and l.bold and l.x0 > 470 and MARK.match(l.text))
+            best = max(sections, key=marks)
+            if marks(best) > 0:
+                lines = [l for l in lines if best[0] <= l.page < best[1]]
     return lines
 
 
@@ -266,6 +278,10 @@ def outline(lines, items):
             if t[1] and int(t[1]) != q.number:
                 q.problems.append(f"total line for question {t[1]} inside question {q.number}")
             q.total, q.total_line = int(t[2]), l
+            if not q.parts and not pending:
+                # no part marks at all, only the total (a one-part D1 question): the whole question is the part
+                q.nodes.append(Node("part", label_of(q.number, ()), (q.line.page, cut_above(q.line, items)),
+                                    int(t[2]), ()))
             continue
         # labels at the start of the line (possibly several: '(a) (i) …'); a sub-part can sit further in, on
         # the line of its parent ('(c) Find' then '(i) E(Y)' at x 140, S1 Jan 2021)
