@@ -723,7 +723,89 @@ def guess_kind(text):
     return "short" if KIND_SHORT.match(body) else "calc"
 
 
+_INK = {}
+
+
+def page_ink(doc, pno):
+    """A page as greyscale pixels at 100 dpi, read once."""
+    key = (doc.name, pno)
+    if key not in _INK:
+        pix = doc[pno].get_pixmap(dpi=100, colorspace=pymupdf.csGRAY)
+        _INK[key] = (pix.width, pix.height, pix.stride, bytes(pix.samples))
+    return _INK[key]
+
+
+def clear_of_ink(doc, pno, y, limit=16):
+    """y, or the nearest row above it (up to `limit` pt) with nothing printed across the column, so a crop edge
+    there cuts through no glyph. Tall maths on a part's first line often sits wholly above the line's box (a
+    numerator, the n over a Σ, the top of a matrix bracket, π/2), so the line's box alone can't tell where it
+    starts. If no clear row is near, y stays."""
+    w, h, stride, s = page_ink(doc, pno)
+    k = 100 / 72
+    x0, x1 = int(COL_X0 * k), int(right_edge(doc) * k) - 2
+
+    def blank(r):
+        return min(s[r * stride + x0: r * stride + x1]) >= 140
+
+    r = int(y * k)
+    if r >= h or blank(r):
+        return y
+    for rr in range(r - 1, max(0, r - int(limit * k)), -1):
+        if blank(rr):
+            return rr / k
+    return y
+
+
+def clear_edges(doc, questions):
+    """Move each question's crop boundaries off printed ink: the top of its first crop, and every boundary two
+    of its crops share (both move, so nothing is lost or shown twice)."""
+    for q in questions:
+        refs = [(n, i) for n in q.nodes for i in range(len(n.bands))]
+        if not refs:
+            continue
+        n, i = refs[0]
+        p, y0, y1 = n.bands[i]
+        n.bands[i] = (p, clear_of_ink(doc, p, y0), y1)
+        for (na, ia), (nb, ib) in zip(refs, refs[1:]):
+            pa, y0a, y1a = na.bands[ia]
+            pb, y0b, y1b = nb.bands[ib]
+            if pa == pb and abs(y1a - y0b) < 0.6:
+                y = clear_of_ink(doc, pb, y0b)
+                if y0a + 5 < y < y0b:
+                    na.bands[ia] = (pa, y0a, y)
+                    nb.bands[ib] = (pb, y, y1b)
+
+
+DIAGRAM_CAPTION = re.compile(r"^(?:Copy of )?Diagram (\d+)$", re.I)
+
+
+def move_diagram_pages(questions, lines):
+    """A figure the student draws on is reprinted as 'Diagram N' (and often again as 'Copy of Diagram N', to
+    redraw on) on a later page. Being after the question's last part, that page was cropped into the last part;
+    it belongs to the part that says 'On Diagram N' / 'Using Diagram N' (or else first mentions it)."""
+    for q in questions:
+        parts = [n for n in q.nodes if n.role == "part"]
+        for n in parts:
+            for band in list(n.bands[1:]):              # a continuation page, never a part's own first crop
+                p, y0, y1 = band
+                caps = [DIAGRAM_CAPTION.match(l.text) for l in lines
+                        if l.page == p and y0 <= l.y0 <= y1 and DIAGRAM_CAPTION.match(l.text)]
+                if not caps:
+                    continue
+                d = caps[0][1]
+                others = [(m, text_in(m.bands, lines)) for m in parts if m is not n]
+                use = re.compile(rf"\b(?:On|Using|use)\s+Diagram\s+{d}\b", re.I)
+                target = (next((m for m, s in others if use.search(s)), None)
+                          or next((m for m, s in others if re.search(rf"\bDiagram\s+{d}\b", s)), None))
+                if target is not None:
+                    n.bands.remove(band)
+                    target.bands.append(band)
+                    target.bands.sort()
+
+
 def export(paper_id, doc, questions, lines, ms_doc, rows, notes, ms_lines, ms_items, matched):
+    move_diagram_pages(questions, lines)
+    clear_edges(doc, questions)
     out = CACHE / "segments" / paper_id
     crops = out / "crops"
     crops.mkdir(parents=True, exist_ok=True)
