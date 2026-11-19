@@ -70,12 +70,12 @@
       {
        "src": "maths/WME02_2023_01/q1_a_ms.webp",
        "w": 1092,
-       "h": 600,
+       "h": 602,
        "region": {
         "page": 7,
-        "x0": 36,
-        "y0": 71.9,
-        "x1": 560,
+        "x0": 36.0,
+        "y0": 71,
+        "x1": 560.0,
         "y1": 359.2
        }
       }
@@ -109,92 +109,6 @@
      "ms": [],
      "text": "Later on, the truck is moving up a straight road that is inclined at an angle α to the horizontal, where sin α = 1 8 The resistance to the motion of the truck from non-gravitational forces is modelled as a constant force of magnitude 500 N. The engine of the truck is again working at a constant rate of 30 kW. At the instant when the speed of the truck is V m s–1 , the deceleration of the truck is 0.2 m s–2 (b) Find the value of V (4)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WME02_2023_01/q1_notes_1.webp",
-     "w": 1092,
-     "h": 840,
-     "region": {
-      "page": 7,
-      "x0": 36,
-      "y0": 356.2,
-      "x1": 560,
-      "y1": 759.3
-     }
-    },
-    {
-     "src": "maths/WME02_2023_01/q1_notes_2.webp",
-     "w": 1092,
-     "h": 817,
-     "region": {
-      "page": 8,
-      "x0": 36,
-      "y0": 68.0,
-      "x1": 560,
-      "y1": 459.5
-     }
-    },
-    {
-     "src": "maths/WME02_2023_01/q1_notes_3.webp",
-     "w": 1092,
-     "h": 827,
-     "region": {
-      "page": 9,
-      "x0": 36,
-      "y0": 68.0,
-      "x1": 560,
-      "y1": 464.5
-     }
-    },
-    {
-     "src": "maths/WME02_2023_01/q1_notes_4.webp",
-     "w": 1092,
-     "h": 1225,
-     "region": {
-      "page": 10,
-      "x0": 36,
-      "y0": 66.6,
-      "x1": 560,
-      "y1": 653.8
-     }
-    },
-    {
-     "src": "maths/WME02_2023_01/q1_notes_5.webp",
-     "w": 1092,
-     "h": 1470,
-     "region": {
-      "page": 11,
-      "x0": 36,
-      "y0": 68.0,
-      "x1": 560,
-      "y1": 773.1
-     }
-    },
-    {
-     "src": "maths/WME02_2023_01/q1_notes_6.webp",
-     "w": 1092,
-     "h": 1165,
-     "region": {
-      "page": 12,
-      "x0": 36,
-      "y0": 68.0,
-      "x1": 560,
-      "y1": 626.5
-     }
-    },
-    {
-     "src": "maths/WME02_2023_01/q1_notes_7.webp",
-     "w": 1092,
-     "h": 1177,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 67.2,
-      "x1": 560,
-      "y1": 632.0
-     }
     }
    ],
    "check": "pending",
@@ -231,14 +145,27 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q2_ms.webp",
+       "w": 1092,
+       "h": 845,
+       "region": {
+        "page": 7,
+        "x0": 36.0,
+        "y0": 354,
+        "x1": 560.0,
+        "y1": 759.3
+       }
+      }
+     ],
      "text": "2. A particle P of mass 0.5 kg is moving with velocity (5i + 3j) m s–1 The particle receives an impulse (–2i + λj) N s , where λ is a constant. Immediately after receiving the impulse, the velocity of P is (xi + yj) m s–1 The kinetic energy gained by P as a result of receiving the impulse is 22 J. Find the possible values of λ. (7)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "Q2: no mark-scheme rows"
+    "MS Q2: no '(n marks)' line after its last row"
    ]
   },
   {
@@ -282,7 +209,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q3_a_ms.webp",
+       "w": 1092,
+       "h": 564,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 71,
+        "x1": 560.0,
+        "y1": 341
+       }
+      }
+     ],
      "text": "(a) Show that the centre of mass of the template is 14 5 a from AE. (5)",
      "kindGuessed": "calc"
     },
@@ -309,15 +249,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q3_b_ms.webp",
+       "w": 1092,
+       "h": 247,
+       "region": {
+        "page": 8,
+        "x0": 36.0,
+        "y0": 341,
+        "x1": 560.0,
+        "y1": 458.9
+       }
+      }
+     ],
      "text": "The template is freely suspended from A and hangs in equilibrium with AB at an angle of θ° to the downward vertical. (b) Find the value of θ, giving your answer to the nearest whole number. (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q3: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2023_01_q4",
@@ -360,7 +310,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q4_a_ms.webp",
+       "w": 1092,
+       "h": 168,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 71,
+        "x1": 560.0,
+        "y1": 151
+       }
+      }
+     ],
      "text": "(a) show that k = 4 (2)",
      "kindGuessed": "calc"
     },
@@ -387,7 +350,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q4_b_ms.webp",
+       "w": 1092,
+       "h": 260,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 151,
+        "x1": 560.0,
+        "y1": 275.2
+       }
+      }
+     ],
      "text": "(b) find the magnitude of F when t = 2 (4)",
      "kindGuessed": "calc"
     },
@@ -413,15 +389,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q4_c_ms.webp",
+       "w": 1092,
+       "h": 394,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 275.2,
+        "x1": 560.0,
+        "y1": 464.0
+       }
+      }
+     ],
      "text": "Given that r = 3i + 4j when t = 0 (c) find r when t = 2 (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q4: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2023_01_q5",
@@ -465,7 +451,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q5_a_ms.webp",
+       "w": 1092,
+       "h": 440,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 69.6,
+        "x1": 560.0,
+        "y1": 280
+       }
+      }
+     ],
      "text": "(a) Find the work done against friction as the package moves from A to B. (3)",
      "kindGuessed": "calc"
     },
@@ -491,7 +490,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q5_b_ms.webp",
+       "w": 1092,
+       "h": 336,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 280,
+        "x1": 560.0,
+        "y1": 441
+       }
+      }
+     ],
      "text": "(b) Use the work–energy principle to find the value of U. (4)",
      "kindGuessed": "calc"
     },
@@ -517,15 +529,37 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q5_c_ms_1.webp",
+       "w": 1092,
+       "h": 203,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 441,
+        "x1": 560.0,
+        "y1": 538
+       }
+      },
+      {
+       "src": "maths/WME02_2023_01/q5_c_ms_2.webp",
+       "w": 1092,
+       "h": 241,
+       "region": {
+        "page": 10,
+        "x0": 36.0,
+        "y0": 538,
+        "x1": 560.0,
+        "y1": 653.3
+       }
+      }
+     ],
      "text": "After coming to instantaneous rest at B, the package slides back down the slope. (c) Use the work–energy principle to find the speed of the package at the instant it returns to A. (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q5: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2023_01_q6",
@@ -569,7 +603,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 578,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 71,
+        "x1": 560.0,
+        "y1": 348
+       }
+      }
+     ],
      "text": "(a) show that W = 15 (4)",
      "kindGuessed": "calc"
     },
@@ -597,15 +644,37 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q6_b_ms_1.webp",
+       "w": 1092,
+       "h": 428,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 348,
+        "x1": 560.0,
+        "y1": 553
+       }
+      },
+      {
+       "src": "maths/WME02_2023_01/q6_b_ms_2.webp",
+       "w": 1092,
+       "h": 458,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 553,
+        "x1": 560.0,
+        "y1": 772.5
+       }
+      }
+     ],
      "text": "(b) find the magnitude of the resultant force acting on the pole at A. (6)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q6: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2023_01_q7",
@@ -648,7 +717,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 472,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 71,
+        "x1": 560.0,
+        "y1": 297
+       }
+      }
+     ],
      "text": "( ) (a) Show that v = 3 − 3 k u k (3)",
      "kindGuessed": "calc"
     },
@@ -675,7 +757,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 237,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 297,
+        "x1": 560.0,
+        "y1": 410
+       }
+      }
+     ],
      "text": "(b) Find, in terms of m and u, the magnitude of the impulse received by Q in the collision. (2)",
      "kindGuessed": "calc"
     },
@@ -702,15 +797,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q7_c_ms.webp",
+       "w": 1092,
+       "h": 421,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 410,
+        "x1": 560.0,
+        "y1": 611.7
+       }
+      }
+     ],
      "text": "The coefficient of restitution between P and Q is e. Given that v ≠ u (c) find the range of possible values of k. (5)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q7: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2023_01_q8",
@@ -753,7 +858,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 629,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 70.2,
+        "x1": 560.0,
+        "y1": 372
+       }
+      }
+     ],
      "text": "(a) Show that y = x tan α – gx 2 (1 + tan2 α) 2 u 2 (6)",
      "kindGuessed": "calc"
     },
@@ -780,7 +898,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 259,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 372,
+        "x1": 560.0,
+        "y1": 496
+       }
+      }
+     ],
      "text": "A small ball is projected from a fixed point A with speed U m s–1 at θ° above the horizontal. The point B is on horizontal ground and is vertically below the point A, with AB = 20 m. The ball hits the ground at the point C, where BC = 30 m , as shown in Figure 4. U m s–1 θ° A 20 m 25 m s–1 B C 30 m Figure 4 The speed of the ball immediately before it hits the ground is 25 m s–1 The motion of the ball is modelled as that of a particle moving freely under gravity. (b) Use the principle of conservation of mechanical energy to find the value of U. (3)",
      "kindGuessed": "calc"
     },
@@ -806,15 +937,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2023_01/q8_c_ms.webp",
+       "w": 1092,
+       "h": 283,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 496,
+        "x1": 560.0,
+        "y1": 631.5
+       }
+      }
+     ],
      "text": "(c) Find the value of θ (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q8: no mark-scheme rows"
-   ]
+   "check": "pending"
   }
  ]
 }

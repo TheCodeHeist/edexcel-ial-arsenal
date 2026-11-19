@@ -69,13 +69,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q1_a_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 156,
        "region": {
         "page": 6,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 95.9,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 170.1
        }
       }
@@ -108,13 +108,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q1_b_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 207,
        "region": {
         "page": 6,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 170.1,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 269.0
        }
       }
@@ -148,13 +148,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q1_c_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 267,
        "region": {
         "page": 6,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 269.0,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 396.8
        }
       }
@@ -166,21 +166,18 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q1_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 374,
      "region": {
       "page": 6,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 393.8,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 572.7
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(b): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WST02_2026_06_A_q2",
@@ -226,14 +223,14 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q2_a_ms.webp",
-       "w": 1092,
-       "h": 204,
+       "w": 1148,
+       "h": 203,
        "region": {
         "page": 7,
-        "x0": 36,
-        "y0": 97.3,
-        "x1": 560,
-        "y1": 194.5
+        "x0": 22.6,
+        "y0": 97,
+        "x1": 573.2,
+        "y1": 194
        }
       }
      ],
@@ -266,13 +263,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q2_b_ms.webp",
-       "w": 1092,
-       "h": 309,
+       "w": 1148,
+       "h": 310,
        "region": {
         "page": 7,
-        "x0": 36,
-        "y0": 194.5,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 194,
+        "x1": 573.2,
         "y1": 342.6
        }
       }
@@ -305,13 +302,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q2_c_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 119,
        "region": {
         "page": 7,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 342.6,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 399.1
        }
       }
@@ -345,13 +342,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q2_d_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 56,
        "region": {
         "page": 7,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 399.1,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 425.4
        }
       }
@@ -385,13 +382,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q2_e_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 97,
        "region": {
         "page": 7,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 425.4,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 471.8
        }
       }
@@ -403,21 +400,20 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q2_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 632,
      "region": {
       "page": 7,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 468.8,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 771.4
      }
     }
    ],
    "check": "pending",
    "risks": [
-    "2(a): text cut by a crop edge",
-    "2(a): text doesn't start at its label"
+    "2(a): text cut by a crop edge"
    ]
   },
   {
@@ -464,13 +460,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q3_a_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 60,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 119.0,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 119,
+        "x1": 573.2,
         "y1": 147.4
        }
       }
@@ -503,13 +499,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q3_b_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 58,
        "region": {
         "page": 8,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 147.4,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 174.6
        }
       }
@@ -542,13 +538,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q3_c_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 84,
        "region": {
         "page": 8,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 174.6,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 214.5
        }
       }
@@ -581,25 +577,25 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q3_d_ms_1.webp",
-       "w": 1092,
-       "h": 87,
+       "w": 1148,
+       "h": 86,
        "region": {
         "page": 8,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 214.5,
-        "x1": 560,
-        "y1": 255.4
+        "x1": 573.2,
+        "y1": 255
        }
       },
       {
        "src": "maths/WST02_2026_06_A/q3_d_ms_2.webp",
-       "w": 1092,
-       "h": 130,
+       "w": 1148,
+       "h": 131,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 255.4,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 255,
+        "x1": 573.2,
         "y1": 317.4
        }
       }
@@ -632,13 +628,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q3_e_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 97,
        "region": {
         "page": 8,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 317.4,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 363.8
        }
       }
@@ -650,21 +646,18 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q3_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 367,
      "region": {
       "page": 8,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 360.8,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 536.6
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(d): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WST02_2026_06_A_q4",
@@ -710,13 +703,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q4_a_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 141,
        "region": {
         "page": 9,
-        "x0": 36,
-        "y0": 119.0,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 119,
+        "x1": 573.2,
         "y1": 186.0
        }
       }
@@ -751,13 +744,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q4_b_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 198,
        "region": {
         "page": 9,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 186.0,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 280.8
        }
       }
@@ -791,13 +784,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q4_c_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 77,
        "region": {
         "page": 9,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 280.8,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 317.0
        }
       }
@@ -831,13 +824,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q4_d_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 76,
        "region": {
         "page": 9,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 317.0,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 353.3
        }
       }
@@ -871,13 +864,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q4_e_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 233,
        "region": {
         "page": 9,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 353.3,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 464.2
        }
       }
@@ -889,22 +882,18 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q4_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 549,
      "region": {
       "page": 9,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 461.2,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 724.0
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(d): text doesn't start at its label",
-    "4(e): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WST02_2026_06_A_q5",
@@ -928,9 +917,11 @@
     {
      "label": "5(a)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "S2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q5_a.webp",
@@ -948,14 +939,14 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q5_a_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 89,
        "region": {
         "page": 10,
-        "x0": 36,
-        "y0": 119.0,
-        "x1": 560,
-        "y1": 161.2
+        "x0": 22.6,
+        "y0": 119,
+        "x1": 573.2,
+        "y1": 161
        }
       }
      ],
@@ -966,8 +957,11 @@
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.4.2",
+      "S1.3.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q5_b.webp",
@@ -985,13 +979,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q5_b_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 255,
        "region": {
         "page": 10,
-        "x0": 36,
-        "y0": 161.2,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 161,
+        "x1": 573.2,
         "y1": 282.9
        }
       }
@@ -1003,8 +997,11 @@
      "label": "5(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.4.2",
+      "S1.3.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q5_c.webp",
@@ -1022,13 +1019,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q5_c_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 286,
        "region": {
         "page": 10,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 282.9,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 419.7
        }
       }
@@ -1040,8 +1037,10 @@
      "label": "5(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q5_d.webp",
@@ -1059,13 +1058,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q5_d_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 257,
        "region": {
         "page": 10,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 419.7,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 542.8
        }
       }
@@ -1077,21 +1076,18 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q5_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 484,
      "region": {
       "page": 10,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 539.8,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 771.5
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(d): text doesn't start at its label"
-   ]
+   "check": "machine"
   },
   {
    "id": "WST02_2026_06_A_q6",
@@ -1116,8 +1112,11 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.3.1",
+      "S2.2.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q6_a.webp",
@@ -1135,14 +1134,14 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q6_a_ms.webp",
-       "w": 1092,
-       "h": 319,
+       "w": 1148,
+       "h": 320,
        "region": {
         "page": 11,
-        "x0": 36,
-        "y0": 115.8,
-        "x1": 560,
-        "y1": 268.4
+        "x0": 22.6,
+        "y0": 115,
+        "x1": 573.2,
+        "y1": 268
        }
       }
      ],
@@ -1150,14 +1149,14 @@
      "kindGuessed": "calc"
     },
     {
-     "label": "6(b)",
+     "label": "6(b)(i)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WST02_2026_06_A/q6_b.webp",
+       "src": "maths/WST02_2026_06_A/q6_b_i.webp",
        "w": 1090,
        "h": 175,
        "region": {
@@ -1171,27 +1170,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WST02_2026_06_A/q6_b_ms_1.webp",
-       "w": 1092,
-       "h": 176,
+       "src": "maths/WST02_2026_06_A/q6_b_i_ms.webp",
+       "w": 1148,
+       "h": 177,
        "region": {
         "page": 11,
-        "x0": 36,
-        "y0": 268.4,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 268,
+        "x1": 573.2,
         "y1": 352.6
-       }
-      },
-      {
-       "src": "maths/WST02_2026_06_A/q6_b_ms_2.webp",
-       "w": 1092,
-       "h": 277,
-       "region": {
-        "page": 11,
-        "x0": 36,
-        "y0": 352.6,
-        "x1": 560,
-        "y1": 485.1
        }
       }
      ],
@@ -1202,8 +1189,10 @@
      "label": "6(b)(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q6_b_ii.webp",
@@ -1221,25 +1210,25 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q6_b_ii_ms_1.webp",
-       "w": 1092,
-       "h": 176,
+       "w": 1148,
+       "h": 177,
        "region": {
         "page": 11,
-        "x0": 36,
-        "y0": 268.4,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 268,
+        "x1": 573.2,
         "y1": 352.6
        }
       },
       {
        "src": "maths/WST02_2026_06_A/q6_b_ii_ms_2.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 277,
        "region": {
         "page": 11,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 352.6,
-        "x1": 560,
+        "x1": 573.2,
         "y1": 485.1
        }
       }
@@ -1251,22 +1240,18 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q6_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 607,
      "region": {
       "page": 11,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 482.1,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 773.0
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(b): text doesn't start at its label",
-    "6(b)(ii): text doesn't start at its label"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST02_2026_06_A_q7",
@@ -1291,8 +1276,11 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.3.2",
+      "S2.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q7_a.webp",
@@ -1310,14 +1298,14 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q7_a_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 138,
        "region": {
         "page": 12,
-        "x0": 36,
+        "x0": 22.6,
         "y0": 112.1,
-        "x1": 560,
-        "y1": 178.0
+        "x1": 573.2,
+        "y1": 178
        }
       }
      ],
@@ -1328,8 +1316,10 @@
      "label": "7(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q7_b.webp",
@@ -1347,26 +1337,26 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q7_b_ms_1.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 83,
        "region": {
         "page": 12,
-        "x0": 36,
-        "y0": 178.0,
-        "x1": 560,
-        "y1": 217.2
+        "x0": 22.6,
+        "y0": 178,
+        "x1": 573.2,
+        "y1": 217
        }
       },
       {
        "src": "maths/WST02_2026_06_A/q7_b_ms_2.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 276,
        "region": {
         "page": 12,
-        "x0": 36,
-        "y0": 217.2,
-        "x1": 560,
-        "y1": 349.4
+        "x0": 22.6,
+        "y0": 217,
+        "x1": 573.2,
+        "y1": 349
        }
       }
      ],
@@ -1377,8 +1367,10 @@
      "label": "7(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2026_06_A/q7_c.webp",
@@ -1396,13 +1388,13 @@
      "ms": [
       {
        "src": "maths/WST02_2026_06_A/q7_c_ms.webp",
-       "w": 1092,
+       "w": 1148,
        "h": 258,
        "region": {
         "page": 12,
-        "x0": 36,
-        "y0": 349.4,
-        "x1": 560,
+        "x0": 22.6,
+        "y0": 349,
+        "x1": 573.2,
         "y1": 472.4
        }
       }
@@ -1414,22 +1406,18 @@
    "msNotes": [
     {
      "src": "maths/WST02_2026_06_A/q7_notes.webp",
-     "w": 1092,
+     "w": 1148,
      "h": 428,
      "region": {
       "page": 12,
-      "x0": 36,
+      "x0": 22.6,
       "y0": 469.4,
-      "x1": 560,
+      "x1": 573.2,
       "y1": 674.1
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(b): text doesn't start at its label",
-    "7(c): text doesn't start at its label"
-   ]
+   "check": "machine"
   }
  ]
 }

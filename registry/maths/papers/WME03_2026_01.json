@@ -69,13 +69,13 @@
       {
        "src": "maths/WME03_2026_01/q1_a_ms.webp",
        "w": 1092,
-       "h": 406,
+       "h": 376,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 125.2,
-        "x1": 560,
-        "y1": 319.6
+        "x0": 36.0,
+        "y0": 124,
+        "x1": 560.0,
+        "y1": 304
        }
       }
      ],
@@ -108,13 +108,13 @@
       {
        "src": "maths/WME03_2026_01/q1_b_ms.webp",
        "w": 1092,
-       "h": 82,
+       "h": 90,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 319.6,
-        "x1": 560,
-        "y1": 358.2
+        "x0": 36.0,
+        "y0": 304,
+        "x1": 560.0,
+        "y1": 347
        }
       }
      ],
@@ -147,13 +147,13 @@
       {
        "src": "maths/WME03_2026_01/q1_c_ms.webp",
        "w": 1092,
-       "h": 119,
+       "h": 112,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 358.2,
-        "x1": 560,
-        "y1": 415.0
+        "x0": 36.0,
+        "y0": 347,
+        "x1": 560.0,
+        "y1": 400
        }
       }
      ],
@@ -189,10 +189,10 @@
        "h": 197,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 415.0,
-        "x1": 560,
-        "y1": 509.1
+        "x0": 36.0,
+        "y0": 400,
+        "x1": 560.0,
+        "y1": 494
        }
       }
      ],
@@ -225,12 +225,12 @@
       {
        "src": "maths/WME03_2026_01/q1_e_ms.webp",
        "w": 1092,
-       "h": 282,
+       "h": 313,
        "region": {
         "page": 8,
-        "x0": 36,
-        "y0": 509.1,
-        "x1": 560,
+        "x0": 36.0,
+        "y0": 494,
+        "x1": 560.0,
         "y1": 644.1
        }
       }
@@ -239,7 +239,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_q2",
@@ -286,13 +286,13 @@
       {
        "src": "maths/WME03_2026_01/q2_a_ms.webp",
        "w": 1092,
-       "h": 845,
+       "h": 818,
        "region": {
         "page": 9,
-        "x0": 36,
-        "y0": 102.7,
-        "x1": 560,
-        "y1": 507.6
+        "x0": 36.0,
+        "y0": 102,
+        "x1": 560.0,
+        "y1": 494
        }
       }
      ],
@@ -325,12 +325,12 @@
       {
        "src": "maths/WME03_2026_01/q2_b_ms.webp",
        "w": 1092,
-       "h": 180,
+       "h": 208,
        "region": {
         "page": 9,
-        "x0": 36,
-        "y0": 507.6,
-        "x1": 560,
+        "x0": 36.0,
+        "y0": 494,
+        "x1": 560.0,
         "y1": 593.7
        }
       }
@@ -339,7 +339,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_q3",
@@ -386,13 +386,13 @@
       {
        "src": "maths/WME03_2026_01/q3_a_ms.webp",
        "w": 1092,
-       "h": 525,
+       "h": 466,
        "region": {
         "page": 10,
-        "x0": 36,
-        "y0": 102.7,
-        "x1": 560,
-        "y1": 354.1
+        "x0": 36.0,
+        "y0": 102,
+        "x1": 560.0,
+        "y1": 325
        }
       }
      ],
@@ -425,12 +425,12 @@
       {
        "src": "maths/WME03_2026_01/q3_b_ms.webp",
        "w": 1092,
-       "h": 477,
+       "h": 537,
        "region": {
         "page": 10,
-        "x0": 36,
-        "y0": 354.1,
-        "x1": 560,
+        "x0": 36.0,
+        "y0": 325,
+        "x1": 560.0,
         "y1": 582.3
        }
       }
@@ -439,7 +439,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_q4",
@@ -486,13 +486,13 @@
       {
        "src": "maths/WME03_2026_01/q4_a_ms.webp",
        "w": 1092,
-       "h": 481,
+       "h": 451,
        "region": {
         "page": 11,
-        "x0": 36,
-        "y0": 102.7,
-        "x1": 560,
-        "y1": 333.0
+        "x0": 36.0,
+        "y0": 102,
+        "x1": 560.0,
+        "y1": 318
        }
       }
      ],
@@ -525,68 +525,18 @@
       {
        "src": "maths/WME03_2026_01/q4_b_ms.webp",
        "w": 1092,
-       "h": 222,
+       "h": 253,
        "region": {
         "page": 11,
-        "x0": 36,
-        "y0": 333.0,
-        "x1": 560,
+        "x0": 36.0,
+        "y0": 318,
+        "x1": 560.0,
         "y1": 438.9
        }
       }
      ],
      "text": "The solid S is placed with its circular base on a rough horizontal surface. The point Q, shown in Figure 2, lies on the circumference of the top of the cylinder. A horizontal force of magnitude H is applied to S at Q The force acts towards the axis of symmetry of S The horizontal surface is sufficiently rough to prevent S from sliding. The solid S is on the point of tipping. Given that the weight of S is W (b) find H in terms of W (2)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WME03_2026_01/q4_notes_1.webp",
-     "w": 1092,
-     "h": 631,
-     "region": {
-      "page": 11,
-      "x0": 36,
-      "y0": 435.9,
-      "x1": 560,
-      "y1": 738.5
-     }
-    },
-    {
-     "src": "maths/WME03_2026_01/q4_notes_2.webp",
-     "w": 1092,
-     "h": 1160,
-     "region": {
-      "page": 12,
-      "x0": 36,
-      "y0": 105.8,
-      "x1": 560,
-      "y1": 661.9
-     }
-    },
-    {
-     "src": "maths/WME03_2026_01/q4_notes_3.webp",
-     "w": 1092,
-     "h": 949,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 105.8,
-      "x1": 560,
-      "y1": 560.8
-     }
-    },
-    {
-     "src": "maths/WME03_2026_01/q4_notes_4.webp",
-     "w": 1092,
-     "h": 1196,
-     "region": {
-      "page": 14,
-      "x0": 36,
-      "y0": 105.8,
-      "x1": 560,
-      "y1": 679.5
-     }
     }
    ],
    "check": "pending"
@@ -620,15 +570,39 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q5_ms.webp",
+       "w": 1092,
+       "h": 604,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 434,
+        "x1": 560.0,
+        "y1": 723.7
+       }
+      }
+     ],
      "text": "5. C 3l 2θ B A 3l Figure 3 A uniform rod AB has mass M and length 3l The rod is free to move in a vertical plane about a fixed smooth horizontal axis through B Mg , is One end of a light elastic string, of natural length 2l and modulus of elasticity 5 8 attached to the rod at A The other end of the string is attached to the fixed point C, which is at a distance 3l vertically above B, as shown in Figure 3. The rod is resting in equilibrium with angle ABC = 2θ, where 0 < θ < 1 2 π By taking moments about the horizontal axis through B, show that the extension of the string is 16 7 l (7)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q5: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WME03_2026_01/q5_notes.webp",
+     "w": 1092,
+     "h": 38,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 720.7,
+      "x1": 560.0,
+      "y1": 738.5
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_q6",
@@ -671,7 +645,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q6_a_ms.webp",
+       "w": 1092,
+       "h": 363,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 102,
+        "x1": 560.0,
+        "y1": 276
+       }
+      }
+     ],
      "text": "(a) Show that the x coordinate of the centre of mass of the lamina is 3 2 (4)",
      "kindGuessed": "calc"
     },
@@ -697,7 +684,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q6_b_ms.webp",
+       "w": 1092,
+       "h": 484,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 276,
+        "x1": 560.0,
+        "y1": 508
+       }
+      }
+     ],
      "text": "(b) Show that the y coordinate of the centre of mass of the lamina is 17 10 (4)",
      "kindGuessed": "calc"
     },
@@ -724,15 +724,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q6_c_ms.webp",
+       "w": 1092,
+       "h": 291,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 508,
+        "x1": 560.0,
+        "y1": 647.1
+       }
+      }
+     ],
      "text": "The lamina is freely suspended from B and hangs in equilibrium with BC at an angle θ to the downward vertical through B (c) Find the exact value of tan θ (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q6: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_q7",
@@ -775,7 +785,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q7_a_ms.webp",
+       "w": 1092,
+       "h": 384,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 102,
+        "x1": 560.0,
+        "y1": 286
+       }
+      }
+     ],
      "text": "(a) find, in terms of a and g, the speed of the particle at the instant when it is a distance 3a vertically below A (4)",
      "kindGuessed": "calc"
     },
@@ -802,15 +825,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q7_b_ms.webp",
+       "w": 1092,
+       "h": 543,
+       "region": {
+        "page": 13,
+        "x0": 36.0,
+        "y0": 286,
+        "x1": 560.0,
+        "y1": 545.8
+       }
+      }
+     ],
      "text": "(b) find, in terms of a, the distance of the particle below A when it first comes to instantaneous rest. (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q7: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2026_01_q8",
@@ -853,7 +886,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q8_a_ms.webp",
+       "w": 1092,
+       "h": 565,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 102,
+        "x1": 560.0,
+        "y1": 372.6
+       }
+      }
+     ],
      "text": "(a) Show that T = mg (1 + 3 cos θ ) (6)",
      "kindGuessed": "calc"
     },
@@ -879,7 +925,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q8_b_ms.webp",
+       "w": 1092,
+       "h": 135,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 372.6,
+        "x1": 560.0,
+        "y1": 437
+       }
+      }
+     ],
      "text": "(b) Find, in terms of a and g, the speed of P at the lowest point of its path. (2)",
      "kindGuessed": "calc"
     },
@@ -905,7 +964,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q8_c_ms.webp",
+       "w": 1092,
+       "h": 255,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 437,
+        "x1": 560.0,
+        "y1": 559
+       }
+      }
+     ],
      "text": "There is a fixed small horizontal peg at the point B, which is a distance 2a vertically below O. The peg is smooth and is perpendicular to the vertical plane of the motion of P and the string. The string comes into contact with the peg and P continues to move clockwise in the same vertical plane. The point C is such that CB = 2a and CB is horizontal, as shown in Figure 5. When the particle passes through C, the string is still taut. (c) Find, in terms of a and g, the exact speed of the particle at the instant when it passes through C (3)",
      "kindGuessed": "calc"
     },
@@ -931,15 +1003,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_01/q8_d_ms.webp",
+       "w": 1092,
+       "h": 251,
+       "region": {
+        "page": 14,
+        "x0": 36.0,
+        "y0": 559,
+        "x1": 560.0,
+        "y1": 678.9
+       }
+      }
+     ],
      "text": "(d) Find, in terms of m and g, the tension in the string at the instant when P reaches O (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q8: no mark-scheme rows"
-   ]
+   "check": "pending"
   }
  ]
 }

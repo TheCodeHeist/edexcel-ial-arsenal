@@ -55,13 +55,13 @@
      "ms": [
       {
        "src": "maths/WME02_2020_10/q1_ms.webp",
-       "w": 1092,
+       "w": 1136,
        "h": 388,
        "region": {
         "page": 7,
-        "x0": 36,
+        "x0": 25.4,
         "y0": 96.0,
-        "x1": 560,
+        "x1": 570.1,
         "y1": 281.9
        }
       }
@@ -73,13 +73,13 @@
    "msNotes": [
     {
      "src": "maths/WME02_2020_10/q1_notes.webp",
-     "w": 1092,
+     "w": 1136,
      "h": 348,
      "region": {
       "page": 7,
-      "x0": 36,
+      "x0": 25.4,
       "y0": 278.9,
-      "x1": 560,
+      "x1": 570.1,
       "y1": 445.9
      }
     }
@@ -131,13 +131,13 @@
      "ms": [
       {
        "src": "maths/WME02_2020_10/q2_ii_ms.webp",
-       "w": 1092,
+       "w": 1136,
        "h": 736,
        "region": {
         "page": 8,
-        "x0": 36,
+        "x0": 25.4,
         "y0": 96.0,
-        "x1": 560,
+        "x1": 570.1,
         "y1": 449.3
        }
       }
@@ -148,99 +148,15 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WME02_2020_10/q2_notes_1.webp",
-     "w": 1092,
+     "src": "maths/WME02_2020_10/q2_notes.webp",
+     "w": 1136,
      "h": 411,
      "region": {
       "page": 8,
-      "x0": 36,
+      "x0": 25.4,
       "y0": 446.3,
-      "x1": 560,
+      "x1": 570.1,
       "y1": 642.8
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_2.webp",
-     "w": 1092,
-     "h": 1426,
-     "region": {
-      "page": 9,
-      "x0": 36,
-      "y0": 89.0,
-      "x1": 560,
-      "y1": 773.2
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_3.webp",
-     "w": 1092,
-     "h": 1381,
-     "region": {
-      "page": 10,
-      "x0": 36,
-      "y0": 101.7,
-      "x1": 560,
-      "y1": 764.0
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_4.webp",
-     "w": 1092,
-     "h": 854,
-     "region": {
-      "page": 11,
-      "x0": 36,
-      "y0": 250.2,
-      "x1": 560,
-      "y1": 659.7
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_5.webp",
-     "w": 1092,
-     "h": 967,
-     "region": {
-      "page": 12,
-      "x0": 36,
-      "y0": 101.7,
-      "x1": 560,
-      "y1": 565.4
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_6.webp",
-     "w": 1092,
-     "h": 1065,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 101.7,
-      "x1": 560,
-      "y1": 612.2
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_7.webp",
-     "w": 1092,
-     "h": 1398,
-     "region": {
-      "page": 14,
-      "x0": 36,
-      "y0": 101.7,
-      "x1": 560,
-      "y1": 771.9
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_8.webp",
-     "w": 1092,
-     "h": 50,
-     "region": {
-      "page": 15,
-      "x0": 36,
-      "y0": 67.1,
-      "x1": 560,
-      "y1": 90.3
      }
     }
    ],
@@ -276,15 +192,39 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q3_ms.webp",
+       "w": 1136,
+       "h": 1223,
+       "region": {
+        "page": 9,
+        "x0": 25.4,
+        "y0": 83.3,
+        "x1": 570.1,
+        "y1": 669.8
+       }
+      }
+     ],
      "text": "3. B θ A Figure 1 A uniform rod AB, of mass 25 kg and length 3 m, has end A resting on rough horizontal ground. The end B rests against a rough vertical wall. The rod is in a vertical plane perpendicular to the wall. The coefficient of friction between the rod and the ground is 4 5 The coefficient of friction between the rod and the wall is 3 5 The rod rests in limiting equilibrium. The rod is at an angle of θ to the ground, as shown in Figure 1. Find the exact value of tan θ. (9)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q3: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WME02_2020_10/q3_notes.webp",
+     "w": 1136,
+     "h": 222,
+     "region": {
+      "page": 9,
+      "x0": 25.4,
+      "y0": 666.8,
+      "x1": 570.1,
+      "y1": 773.2
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WME02_2020_10_q4",
@@ -327,7 +267,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q4_a_ms.webp",
+       "w": 1136,
+       "h": 412,
+       "region": {
+        "page": 10,
+        "x0": 25.4,
+        "y0": 96.0,
+        "x1": 570.1,
+        "y1": 293.6
+       }
+      }
+     ],
      "text": "(a) Show that the distance of G from the side AD is 42 11 a (5)",
      "kindGuessed": "calc"
     },
@@ -354,15 +307,87 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q4_b_ms_1.webp",
+       "w": 1136,
+       "h": 246,
+       "region": {
+        "page": 10,
+        "x0": 25.4,
+        "y0": 293.6,
+        "x1": 570.1,
+        "y1": 411.2
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q4_b_ms_2.webp",
+       "w": 1136,
+       "h": 320,
+       "region": {
+        "page": 10,
+        "x0": 25.4,
+        "y0": 411.2,
+        "x1": 570.1,
+        "y1": 564.4
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q4_b_ms_3.webp",
+       "w": 1136,
+       "h": 350,
+       "region": {
+        "page": 10,
+        "x0": 25.4,
+        "y0": 564.4,
+        "x1": 570.1,
+        "y1": 731.5
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q4_b_ms_4.webp",
+       "w": 1136,
+       "h": 68,
+       "region": {
+        "page": 10,
+        "x0": 25.4,
+        "y0": 731.5,
+        "x1": 570.1,
+        "y1": 764.0
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q4_b_ms_5.webp",
+       "w": 1136,
+       "h": 221,
+       "region": {
+        "page": 11,
+        "x0": 25.4,
+        "y0": 67.2,
+        "x1": 570.1,
+        "y1": 173.1
+       }
+      }
+     ],
      "text": "The mass of L is M. A particle of mass kM is attached to L at C. The lamina, with the attached particle, is freely suspended from B and hangs in equilibrium with BC making an angle of 45° with the horizontal. (b) Find the value of k. (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q4: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WME02_2020_10/q4_notes.webp",
+     "w": 1136,
+     "h": 156,
+     "region": {
+      "page": 11,
+      "x0": 25.4,
+      "y0": 170.1,
+      "x1": 570.1,
+      "y1": 244.6
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WME02_2020_10_q5",
@@ -405,7 +430,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q5_a_ms.webp",
+       "w": 1136,
+       "h": 205,
+       "region": {
+        "page": 11,
+        "x0": 25.4,
+        "y0": 244.6,
+        "x1": 570.1,
+        "y1": 342.5
+       }
+      }
+     ],
      "text": "(a) Find the acceleration of P when t = 3 (3)",
      "kindGuessed": "calc"
     },
@@ -431,15 +469,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q5_b_ms.webp",
+       "w": 1136,
+       "h": 662,
+       "region": {
+        "page": 11,
+        "x0": 25.4,
+        "y0": 342.5,
+        "x1": 570.1,
+        "y1": 659.7
+       }
+      }
+     ],
      "text": "When t = 0, P is at the fixed point O. The particle comes to instantaneous rest at the point A. (b) Find the distance OA. (7)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q5: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2020_10_q6",
@@ -483,7 +531,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q6_a_ms.webp",
+       "w": 1136,
+       "h": 238,
+       "region": {
+        "page": 12,
+        "x0": 25.4,
+        "y0": 96.0,
+        "x1": 570.1,
+        "y1": 209.9
+       }
+      }
+     ],
      "text": "(a) Find the work done against friction as P moves from A to B. (3)",
      "kindGuessed": "calc"
     },
@@ -509,15 +570,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q6_b_ms.webp",
+       "w": 1136,
+       "h": 741,
+       "region": {
+        "page": 12,
+        "x0": 25.4,
+        "y0": 209.9,
+        "x1": 570.1,
+        "y1": 565.4
+       }
+      }
+     ],
      "text": "At the instant P reaches B, the speed of P is v m s–1. After leaving the ramp at B, the particle P moves freely under gravity until it hits the horizontal ground at the point C. Immediately before hitting the ground at C, the speed of P is w m s–1 (b) Use the work‑energy principle to find (i) the value of v, (ii) the value of w. (7)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q6: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2020_10_q7",
@@ -561,7 +632,32 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q7_a_ms_1.webp",
+       "w": 1136,
+       "h": 345,
+       "region": {
+        "page": 13,
+        "x0": 25.4,
+        "y0": 96.0,
+        "x1": 570.1,
+        "y1": 261.5
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q7_a_ms_2.webp",
+       "w": 1136,
+       "h": 544,
+       "region": {
+        "page": 13,
+        "x0": 25.4,
+        "y0": 261.5,
+        "x1": 570.1,
+        "y1": 522.0
+       }
+      }
+     ],
      "text": "(a) Find the coefficient of restitution between A and B. (8)",
      "kindGuessed": "calc"
     },
@@ -588,15 +684,37 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q7_b_ms_1.webp",
+       "w": 1136,
+       "h": 345,
+       "region": {
+        "page": 13,
+        "x0": 25.4,
+        "y0": 96.0,
+        "x1": 570.1,
+        "y1": 261.5
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q7_b_ms_2.webp",
+       "w": 1136,
+       "h": 189,
+       "region": {
+        "page": 13,
+        "x0": 25.4,
+        "y0": 522.0,
+        "x1": 570.1,
+        "y1": 612.2
+       }
+      }
+     ],
      "text": "After the collision, B hits a smooth fixed vertical wall that is perpendicular to the direction of motion of B. The coefficient of restitution between B and the wall is f. Given that the speed of B immediately after first hitting the wall is equal to the speed of A immediately after its first collision with B, (b) find the value of f. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q7: no mark-scheme rows"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2020_10_q8",
@@ -639,7 +757,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q8_a_ms.webp",
+       "w": 1136,
+       "h": 282,
+       "region": {
+        "page": 14,
+        "x0": 25.4,
+        "y0": 96.0,
+        "x1": 570.1,
+        "y1": 231
+       }
+      }
+     ],
      "text": "(a) Find the speed of the ball at the instant it is projected from O. (5)",
      "kindGuessed": "calc"
     },
@@ -665,7 +796,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q8_b_ms.webp",
+       "w": 1136,
+       "h": 510,
+       "region": {
+        "page": 14,
+        "x0": 25.4,
+        "y0": 231,
+        "x1": 570.1,
+        "y1": 475.6
+       }
+      }
+     ],
      "text": "For an interval of T seconds the speed, v m s–1, of the ball is such that v  10 (b) Find the value of T. (4)",
      "kindGuessed": "calc"
     },
@@ -691,15 +835,37 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2020_10/q8_c_ms_1.webp",
+       "w": 1136,
+       "h": 619,
+       "region": {
+        "page": 14,
+        "x0": 25.4,
+        "y0": 475.6,
+        "x1": 570.1,
+        "y1": 771.9
+       }
+      },
+      {
+       "src": "maths/WME02_2020_10/q8_c_ms_2.webp",
+       "w": 1136,
+       "h": 50,
+       "region": {
+        "page": 15,
+        "x0": 25.4,
+        "y0": 67.1,
+        "x1": 570.1,
+        "y1": 90.3
+       }
+      }
+     ],
      "text": "At the point B on the path of the ball, the direction of motion of the ball is perpendicular to the direction of motion of the ball at A. (c) Find the vertical height of B above A. (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q8: no mark-scheme rows"
-   ]
+   "check": "pending"
   }
  ]
 }
