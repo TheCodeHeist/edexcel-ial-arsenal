@@ -70,8 +70,10 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "17dbb73be492",
+   "concerns": [
+    "4: the examiners NOTES block is clipped at the right edge - several lines are cut mid-word (e.g. \"for one or bot\", \"steps show\", \"ISW\" cut) and the Total row of the mark scheme is sliced (\"Total 5\" shows as \"Total 5\" cut); notes not fully legible"
+   ],
+   "fingerprint": "8e8227dcbac0",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -81,15 +83,17 @@
      "FP3.3.2"
     ],
     "4(b)": [
-     "FP3.3.2",
-     "FP3.1.2"
+     "FP3.1.2",
+     "FP3.3.2"
     ]
    }
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c58b11668e1a",
+   "concerns": [
+    "5: the examiners NOTES block is clipped at the right edge - lines are cut mid-word/formula (e.g. \"in terms of\" cut, \"Allow a multiple\" cut, \"method mark\" cut) and the mark-scheme Total row is sliced (\"Total 9\" shows as \"Total 9\" cut); notes not fully legible"
+   ],
+   "fingerprint": "b91e82d29fcc",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -105,8 +109,10 @@
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "15324caa5487",
+   "concerns": [
+    "6: slight right-edge clipping in the NOTES block (\"Depends on previous method mark\" ends \"mar\") and the mark-scheme Total row (\"Total 7\" cut); content otherwise legible"
+   ],
+   "fingerprint": "fd192187acd3",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -122,8 +128,10 @@
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f429869bd7f1",
+   "concerns": [
+    "7: the examiners NOTES block is clipped at the right edge - many lines are cut mid-word/formula (e.g. mark labels \"M0A0\", \"M1A1\" cut to \"M0A\", \"M1A\"; sentences ending \"formu\", \"justificatio\", \"fully\"), and the mark-scheme Total row is sliced (\"Total 9\" cut); notes not fully legible"
+   ],
+   "fingerprint": "d31059cff08e",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -133,15 +141,19 @@
      "FP3.4.6"
     ],
     "7(b)": [
+     "FP3.4.3",
      "FP3.4.6",
-     "FP3.4.3"
+     "FP3.1.1"
     ]
    }
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "a4ea1601edce",
+   "concerns": [
+    "8: the examiners NOTES block is clipped at the right edge (lines end mid-word, e.g. \"multiple c\", \"Allow min\", \"If method not\", \"for their\") and the final A1 line of the (d) ALT notes (11/sqrt434 or awrt 0.528) is sliced through at the bottom edge; the mark-scheme Total row is also cut (\"Total 1\")",
+    "8(c): in the mark-scheme row listing example points on the line, a text line (\"Common point(s)... Note: points will have the form ...\") is cut through by the row crop and overprinted - the top half of the line is lost, so that note is not legible"
+   ],
+   "fingerprint": "d1ddb9931fa5",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
