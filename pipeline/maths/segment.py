@@ -210,6 +210,9 @@ def content_items(doc, lines):
                 continue
             if (r.width > 500 and r.height > 700) or (r.width > 400 and r.height < 1.5):
                 continue                                    # page frame, answer rules, separators
+            fill = d.get("fill")
+            if d.get("color") is None and fill and min(fill) > 0.98:
+                continue                                    # white on white: invisible (P2 Jun 2025 answer pages)
             items.append(Item(pno, max(r.y0, COL_Y0), min(r.y1, COL_Y1), "drawing"))
         for img in page.get_image_info():
             x0, y0, x1, y1 = img["bbox"]
@@ -300,7 +303,10 @@ def outline(lines, items):
                 # question's opening, so it starts at the question number, figure and all
                 start_line = q.line if bpath == () else (first_label or q.line)
             else:
-                start_line = next(x for x in lines if (x.page, x.y0) > (prev_mark.page, prev_mark.y1 - 1)
+                # below the mark's row: past its middle, as a mark's box can run tall enough to cover the next
+                # label's line ('(b) Hence find …' at y 110 under a '(5)' boxed 96-113, P2 Jun 2025), while a
+                # limit hanging under the mark's own line ('2' at y 211 by a '(3)' at 206-223) is still that row
+                start_line = next(x for x in lines if (x.page, x.y0) > (prev_mark.page, prev_mark.mid)
                                   and not RULED.match(x.text) and not CONTINUED.match(x.text))
             node = Node("part", label_of(q.number, bpath), (start_line.page, cut_above(start_line, items)),
                         marks, bpath)
