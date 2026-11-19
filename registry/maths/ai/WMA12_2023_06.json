@@ -79,9 +79,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d4dccb923462",
+   "fingerprint": "ed193f040244",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -97,11 +97,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(b): no mark-scheme rows; rows for 4(b) are attached to 4(a)"
+    "4(a): the mark-scheme rows include the 4(b)(i) and 4(b)(ii) rows (M1A1, M1A1, M1A1), so the marks shown are 7 rather than the 1 for this part",
+    "4(b): there is no mark-scheme block under 4(b) at all (its rows are inside the 4(a) block)"
    ],
-   "fingerprint": "f44ff8de6e60",
+   "fingerprint": "306da41d6a77",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"

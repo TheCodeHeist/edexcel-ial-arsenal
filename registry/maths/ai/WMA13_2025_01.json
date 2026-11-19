@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "4ff0321a9f7c",
+   "fingerprint": "c5a28ad15968",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -14,7 +14,8 @@
      "P3.6.1"
     ],
     "1(b)": [
-     "P3.6.2"
+     "P3.6.2",
+     "P3.2.1"
     ],
     "1(c)": [
      "P3.6.2"
@@ -22,11 +23,11 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Shared opening (stem): the range 0 <= y <= pi/2 is cut off at the bottom of the stem crop - the denominator 2 of pi/2 is sliced through, and a stray fragment of it appears below the 10(a) caption bar."
+    "Stem (shared opening): crop is cut through the bottom of the condition 0 <= y <= pi/2 - the denominator 2 is clipped at the bottom edge, so the range of y reads as pi over a half-cut 2."
    ],
-   "fingerprint": "26679bd1aa13",
+   "fingerprint": "dd4a4d174a77",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -96,11 +97,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(a) mark scheme rows: a stray light-grey bar (with a small black tick) sits at the bottom of the 5(a) mark-scheme crop, below the 304(°C) row, not part of the mark scheme."
-   ],
-   "fingerprint": "fdf6e114a787",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "47d9cd4f2394",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "draw",

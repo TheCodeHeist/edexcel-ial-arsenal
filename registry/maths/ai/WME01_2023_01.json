@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(c): question crop ends with the spare redraw axes (\"Only use these axes if you need to redraw your graph\") that belong to 1(a), not to part (c); harmless blank axes but not part of (c)"
+    "1(c): the question crop ends with the spare redraw axes (Only use these axes if you need to redraw your graph) which belong to the 1(a) sketch, not to 1(c); harmless blank axes as printed on the paper, but they are not part of 1(c)"
    ],
-   "fingerprint": "d7287e09898f",
+   "fingerprint": "e8e11e4a7e01",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -41,11 +41,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a)/3(b)/3(c): the examiners notes are not in the final NOTES block (none shown) but are embedded at the foot of each part mark-scheme crop (a and b notes under their own rows, c notes after the (10) total and a NOTES header); content matches the right parts, only the layout differs"
+    "3(a): mark-scheme rows end with a stray question-total (10) and then the examiners NOTES header and notes for 3(a) (this paper interleaves notes per part, so each part purple block also contains its own notes and 3(b)/3(c) rows carry their notes too); the content is correct and complete but the question-total (10) is not part of 3(a)"
    ],
-   "fingerprint": "9aafe6e129b7",
+   "fingerprint": "73ae8cba29bd",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -82,9 +82,12 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "76d8a1e5040c",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(a): mark-scheme rows end with the stray question-total (9) before the NOTES block (notes are interleaved per part on this paper); content otherwise complete",
+    "5(b): stray tick marks/dashes at the top of the notes block, harmless"
+   ],
+   "fingerprint": "4d2608da7d4e",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -136,12 +139,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8(c): bottom of the crop includes the Pearson page footer (\"Pearson Education Limited. Registered company number 872828 ... Strand, London\"), a stray fragment",
-    "8(c): mark-scheme rows start with a thin sliver of cut-off text/lines at the top edge (remains of the previous 8(b) rows) above the R = 2g cos30 row"
+    "8(a): mark-scheme rows end with the stray question-total (15) before the NOTES block (notes are interleaved per part); content otherwise complete",
+    "8(c): the crop ends with the page footer line (Pearson Education Limited. Registered company number 872828 ...), which is not part of the question; a sliver of a cut-off line also shows at the top of the 8(c) mark-scheme rows"
    ],
-   "fingerprint": "a2dc4211f5ad",
+   "fingerprint": "0eb89d5d4178",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

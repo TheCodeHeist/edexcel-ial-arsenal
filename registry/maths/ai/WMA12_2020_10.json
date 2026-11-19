@@ -170,15 +170,16 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "9(ii): the mark-scheme rows run on into part (b) (they include the (ii)(b) M1 A1 rows), so they total 6 marks for a 4-mark part",
-    "9(ii)(b): the mark-scheme rows repeat the whole (ii)(a) scheme (B1 M1 M1 A1*, both alternatives) before the (b) rows, so they show 6 marks for a 2-mark part"
+    "9(ii)(a): the mark-scheme rows begin with an \"Alternative for first 3 marks\" block and a boxed \"(a) Special Case\" block (log3(x+5)-log3(2x-1)=4 ... x=86/161) that belong to 9(i), not 9(ii)(a)",
+    "9(ii)(b): the mark-scheme rows repeat the whole of the 9(ii)(a) rows (including the 9(i) alternative/special-case blocks) before the 9(ii)(b) rows, so the marks shown are far more than the 2 for this part",
+    "9(i): the mark-scheme rows lack the Alternative/Special Case blocks that ended up under 9(ii)(a)"
    ],
-   "fingerprint": "694afaeb1c7f",
+   "fingerprint": "173c1e4151a7",
    "kinds": {
     "9(i)": "calc",
-    "9(ii)": "calc",
+    "9(ii)(a)": "calc",
     "9(ii)(b)": "calc"
    },
    "topics": {
@@ -186,7 +187,7 @@
      "P2.5.2",
      "P2.5.3"
     ],
-    "9(ii)": [
+    "9(ii)(a)": [
      "P2.5.1",
      "P2.5.2"
     ],

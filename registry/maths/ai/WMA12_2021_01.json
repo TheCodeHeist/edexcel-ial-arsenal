@@ -96,9 +96,13 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "292f00570260",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(i): the Alt 2 (contradiction proof) mark-scheme rows (M1 M1 A1) are missing from 5(i) and appear at the top of the 5(ii) rows",
+    "5(ii): the mark-scheme rows start with the 5(i) Alt 2 block (3 extra marks) before the real (ii) B1 row, so the marks shown are 4 rather than 1",
+    "Question 5 examiners notes: the last line (NB 1+2+3 is not a valid counter example) is cut off at the bottom"
+   ],
+   "fingerprint": "3ec337383148",
    "kinds": {
     "5(i)": "calc",
     "5(ii)": "short"

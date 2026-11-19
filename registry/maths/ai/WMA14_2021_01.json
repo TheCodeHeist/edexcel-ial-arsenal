@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c4771894733a",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(b): the mark-scheme rows open with the \"Alternative by direct expansion\" box (B1M1A1 / A1A1), which is the alternative method for part (a), not (b)"
+   ],
+   "fingerprint": "e1ec0a3e6de3",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -148,11 +150,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8: minor, in the examiners notes the alternative-method table is followed by a half-cut line of text (about 3/4 down the image, just under the \"6 marks\" row) that is sliced through horizontally; the notes carry on correctly after it"
+    "8: examiners notes start with the alternative mark-scheme table, and the text under it is cut at the top (the first note lines, up to the M1 note, are missing and the dM1 line is half clipped)"
    ],
-   "fingerprint": "5daf14a1c779",
+   "fingerprint": "41de14630795",
    "kinds": {
     "8": "calc"
    },

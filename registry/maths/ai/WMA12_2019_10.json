@@ -94,9 +94,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "7696aee43933",
+   "fingerprint": "4df653c8a905",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc",
@@ -134,9 +134,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "36eeef18d3a7",
+   "fingerprint": "9f543e3ef883",
    "kinds": {
     "7(i)": "calc",
     "7(ii)": "calc",
@@ -156,11 +156,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "8: mark scheme crop includes rows for 8(ii)"
+    "8: the part is labelled 8 (should be 8(i)); its mark-scheme rows also include the 8(ii) rows (M1 A1 dM1 A1 for the integral of x^2/2 + k), so the marks shown are 9 rather than the 5 for this part"
    ],
-   "fingerprint": "24daa2e7b0e0",
+   "fingerprint": "7392e51ea72a",
    "kinds": {
     "8": "calc",
     "8(ii)": "calc"
@@ -176,28 +176,28 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "9(ii): mark scheme crop includes rows for 9(ii)(b)",
-    "9(ii)(b): mark scheme crop includes rows for 9(ii)"
+    "9(ii)(b): the mark-scheme rows also repeat the 9(ii)(a) rows (M1 dM1 A1*), so the marks shown are 8 rather than the 5 for this part",
+    "9(ii)(a): the mark-scheme crop is trimmed at the bottom through the (3) mark total (only a clipped fragment visible)"
    ],
-   "fingerprint": "354fcc0db85e",
+   "fingerprint": "377f4e7cf483",
    "kinds": {
     "9(i)": "calc",
-    "9(ii)": "calc",
+    "9(ii)(a)": "calc",
     "9(ii)(b)": "calc"
    },
    "topics": {
     "9(i)": [
      "P2.6.2"
     ],
-    "9(ii)": [
+    "9(ii)(a)": [
      "P2.4.2",
      "P2.6.1"
     ],
     "9(ii)(b)": [
-     "P2.6.2",
-     "P2.6.1"
+     "P2.6.1",
+     "P2.6.2"
     ]
    }
   }

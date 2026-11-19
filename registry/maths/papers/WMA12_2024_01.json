@@ -500,8 +500,11 @@
      "label": "5(ii)(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.3",
+      "P2.4.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2024_01/q5_ii_intro.webp",
@@ -732,8 +735,10 @@
      "label": "6(b)(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2024_01/q6_b_intro.webp",
@@ -1238,9 +1243,11 @@
     {
      "label": "9(ii)(a)",
      "marks": 1,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2024_01/q9_ii_intro.webp",
@@ -1291,7 +1298,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "P1.3.3"
+      "P1.3.3",
+      "P2.6.2"
      ],
      "tagStatus": "suggested",
      "intro": [

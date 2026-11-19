@@ -60,9 +60,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "1d02dba3df3b",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(ii): the mark-scheme rows begin with the \"Notes for part (i)\" block (M1/A1 guidance for the counterexample), which belongs to 3(i), not 3(ii)"
+   ],
+   "fingerprint": "63d33c33dbf4",
    "kinds": {
     "3(i)": "short",
     "3(ii)": "calc"
@@ -107,9 +109,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "db24c109d889",
+   "at": "2026-11-20",
+   "concerns": [
+    "6(a): the boxed Way 2 block is cut off at the bottom (box border and the closing line of its table not shown); the closing thick border line then appears as a stray fragment at the top of the 6(b) mark-scheme rows"
+   ],
+   "fingerprint": "03f544aab8e0",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

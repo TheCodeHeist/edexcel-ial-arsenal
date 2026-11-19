@@ -14,12 +14,12 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "10(i): after the mark-scheme rows, fragments of the examiners' notes (cut off at the left edge, e.g. \"1: 2a\", \"o not iswhere...\") sit inside the part's crop",
-    "10(ii): the mark-scheme area begins with the examiners' general-guidance notes (\"(ii) General guidance...\", M1/dM1/B1/A1 explanations) clipped at the left edge, before the actual mark-scheme table"
+    "10(i): the mark-scheme crop also carries the examiners notes for 10(i) (B1 2a; M1 A1 ...) as loose text under the table, outside the rows (content is right but sits in the rows area)",
+    "Question 10 examiners notes: in the first alternative (not requiring the addition law) the A1 line is clipped at the bottom, running into the next heading"
    ],
-   "fingerprint": "89255badfe6e",
+   "fingerprint": "10bca130d34f",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -76,9 +76,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7c2e06dfb61a",
+   "at": "2026-11-20",
+   "concerns": [
+    "4(b): the boxed ALT mark-scheme block is cut through: its last row (t = 1.072^(w+log_1.072 4) - 5, A1) is missing from 4(b) and appears at the top of the 4(c) rows",
+    "4(c): the mark-scheme rows start with that stray boxed A1 row from the 4(b) ALT, so the marks shown are 3 rather than 2 for this part"
+   ],
+   "fingerprint": "53a0418e1e98",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -86,8 +89,8 @@
    },
    "topics": {
     "4(a)": [
-     "P2.5.1",
-     "P2.5.2"
+     "P2.5.2",
+     "P2.5.3"
     ],
     "4(b)": [
      "P2.5.3",

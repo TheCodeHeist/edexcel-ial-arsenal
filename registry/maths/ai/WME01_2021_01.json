@@ -102,9 +102,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "01b72e580b88",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(b): mark-scheme crop cuts the sketch graph off at the bottom - the t-axis and its labels (2.5, 2.5+T, 20) appear instead at the top of the 7(c) mark-scheme rows, so 7(b) shows a graph without its time axis and 7(c) starts with stray axis labels",
+    "7(a): mark-scheme row text slightly clipped at the bottom edge (Allow 2.5g), still readable"
+   ],
+   "fingerprint": "2f42768b8715",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw",

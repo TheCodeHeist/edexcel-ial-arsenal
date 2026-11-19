@@ -115,9 +115,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "6a6e476f6ee9",
+   "fingerprint": "acdbdef83ea3",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc",
@@ -131,7 +131,8 @@
      "P2.8.3"
     ],
     "6(c)": [
-     "P2.8.3"
+     "P2.8.3",
+     "P2.8.1"
     ]
    }
   },
@@ -153,12 +154,15 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "565fc4971295",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(ii)(b): the mark-scheme rows also repeat the 8(ii)(a) rows (M1 dM1 A1 A1), so the marks shown are 5 rather than the 1 for this part",
+    "8(ii)(c): the mark-scheme rows also repeat the 8(ii)(a) rows (M1 dM1 A1 A1), so the marks shown are 6 rather than the 2 for this part"
+   ],
+   "fingerprint": "d25d693dbbf4",
    "kinds": {
     "8(i)": "calc",
-    "8(ii)": "calc",
+    "8(ii)(a)": "calc",
     "8(ii)(b)": "calc",
     "8(ii)(c)": "calc"
    },
@@ -167,7 +171,7 @@
      "P2.6.1",
      "P2.6.2"
     ],
-    "8(ii)": [
+    "8(ii)(a)": [
      "P2.6.2"
     ],
     "8(ii)(b)": [

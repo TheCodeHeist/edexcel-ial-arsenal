@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "a5ff8f49b87d",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(b): the mark-scheme rows open with the boxed \"Alt (a) by direct expansion\" scheme (B1, M1A1, A1), which belongs to part (a), before the real (b) row"
+   ],
+   "fingerprint": "e17f4ae6b0e9",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -18,13 +20,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(a): crop is cut through the bottom of its line: the fraction dx/dt = k/x has its denominators (dt and x) sliced off, so the part shows only the numerators dx and k, and the trailing comma/\"(4)\" is not with it",
-    "2(b): crop starts with the stray bottom fragment of the 2(a) equation (the denominators \"dt\" and \"x\" of dx/dt = k/x, plus the \"(4)\" mark) above the real 2(b) line; the part itself (dV/dt = V^p, 3 marks) is complete",
-    "2: minor, the mark scheme crops are clipped at the right edge (part totals \"(4\", \"(3\", \"(7 marks\" are cut) and the first examiners note line is cut at the top; mark rows (4 and 3 = 7) are complete"
+    "2(b): the mark-scheme rows start with the tail of a 2(a) row (dx/dt = 1/3x, A1) cut through at the top, before the (b) rows",
+    "2: the first line of the examiners notes (\"(a) Condone the use of different variables...\") is sliced in half at the top"
    ],
-   "fingerprint": "e35b83c549c2",
+   "fingerprint": "320e47a3f371",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -58,11 +59,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4: minor, in the examiners notes the line \"A1*: For a fully correct proof.\" (just above \"Requires\", about 90% down the first part of the notes) is sliced through horizontally at the top; the notes are otherwise complete"
+    "4(a): the bottom of the mark-scheme rows is cut right at the (4) total and the last A1* row is tight against the edge; the A1* line at the top of the notes is clipped"
    ],
-   "fingerprint": "f47bf8a203d4",
+   "fingerprint": "d4eea3c255b5",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short"
@@ -96,9 +97,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ce019ffd1045",
+   "at": "2026-11-20",
+   "concerns": [
+    "6(b): the boxed \"(b) Alt\" mark-scheme is cut at the bottom of the 6(b) rows (the cosine-rule line is clipped and its final A1 row, cos theta = 2/3, is missing); that A1 row appears instead at the top of the 6(c) mark-scheme rows, before the (c) rows"
+   ],
+   "fingerprint": "9dda4e598e2a",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -123,11 +126,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7: minor, in the examiners notes a few long lines are clipped at the right edge (e.g. the 7(a) alternative \"...this is 3000\" and the 7(d) M1 lines \"...one of their\" / \"...ln (9-2x)\"); question parts and mark scheme rows are complete and marks add up (2,1,3,5,1)"
-   ],
-   "fingerprint": "d6dc6790fb8d",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "c4ca2be5b36b",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -155,11 +156,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8: minor, a few long lines in the examiners notes are clipped at the right edge (e.g. 8(a) \"...may appear there\", 8(c) \"...equation of the tangent or\", 8(d)(i) \"...unless\"); question parts and mark scheme rows are complete and marks add up (1,4,3,6)"
-   ],
-   "fingerprint": "e418cec7505c",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "c4b5385a7f27",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

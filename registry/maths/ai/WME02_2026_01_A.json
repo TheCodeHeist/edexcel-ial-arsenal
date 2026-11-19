@@ -19,9 +19,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "fe1e6443a49f",
+   "fingerprint": "b2a4da9d7f40",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -38,9 +38,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "ca6c8f26cb04",
+   "fingerprint": "6afb2674e096",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -55,11 +55,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(b): the mark scheme block ends with a stray, clipped table header row (\"Q | Solution | Marks | Notes\") at the very bottom, from the next mark-scheme page."
+    "4(b): at the very bottom of the mark-scheme rows there is a stray table-header fragment (\"Q | Solution | Marks | Notes\") from the next page; harmless but not part of the rows."
    ],
-   "fingerprint": "ff79ac873047",
+   "fingerprint": "9a510d672828",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -75,11 +75,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Question 5 examiners notes section contains only a stray clipped table header (Q | Solution | Marks | Notes); the actual notes are missing (the question seems to have no notes, or they were cut off)."
+    "Examiners NOTES bar at the bottom of the image shows only the table header row (Q | Solution | Marks | Notes) with no notes content, so the notes crop is cut off / empty."
    ],
-   "fingerprint": "39ace1e0c21a",
+   "fingerprint": "fb86bdb48dd4",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -101,11 +101,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Question 6 ends with a stray clipped table header (Q | scheme | Marks | Notes) and the start of a general note (\"NB Penalise each type of accuracy error once ...\") cut off at the bottom; this belongs to the next page/ general notes, not to Q6."
+    "Examiners NOTES at the bottom is just a header fragment plus the generic line \"NB Penalise each type of accuracy error...\"; it holds no notes for this question (the crop is cut off or trivially empty)."
    ],
-   "fingerprint": "6450b26752cf",
+   "fingerprint": "a2d178a9a93f",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"

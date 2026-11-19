@@ -15,11 +15,12 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Examiners notes (whole question): the notes crop is clipped at the left and right edges - labels such as \"M1\"/\"A1\"/\"(a)\"/\"(b)\" lose their first characters (shown as \"1:\", \")\"), and lines run off the right edge (e.g. \"...q is an intege\", \"...must have\")."
+    "Stem (shared opening): crop cut through the bottom of the condition 0 < y < pi/4 - the denominator 4 is cut off the stem and appears (with stray slivers) at the very top of the 10(a) QUESTION crop, so the stem shows only pi over nothing.",
+    "Examiners notes (end): last line of the 10(c) notes (Allow equivalent exact forms, e.g. y = -16/sqrt3 x + ...) is clipped at the bottom edge, fractions cut off through the numerators."
    ],
-   "fingerprint": "e7d28dd7cb51",
+   "fingerprint": "5bd356d6f0e8",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",

@@ -1,22 +1,21 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): mark scheme rows for (b) include the (b)(ii) row (B1, |x|<2/3) as well, so they total 6 not the 5 marks of (b)(i), and end with the \"(9 marks)\" total row",
-    "1(b)(ii): its mark scheme crop repeats the whole of the (b)(i) rows (B1, M1 A1, M1, A1 = 5 marks) above the one B1 row that answers (ii), so the marks shown do not add up to the 1 mark of this part"
+    "1(b)(i) / 1(b)(ii): both mark-scheme crops show the whole (b) table (the (b)(i) rows and the (b)(ii) B1 row), so each part carries the other part's rows; the 1(b)(i) crop also ends with a clipped sliver below the (9 marks) line"
    ],
-   "fingerprint": "dc29fe1f59c9",
+   "fingerprint": "bab323073d15",
    "kinds": {
     "1(a)": "calc",
-    "1(b)": "calc",
+    "1(b)(i)": "calc",
     "1(b)(ii)": "calc"
    },
    "topics": {
     "1(a)": [
      "P4.2.1"
     ],
-    "1(b)": [
+    "1(b)(i)": [
      "P4.4.1"
     ],
     "1(b)(ii)": [
@@ -25,9 +24,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d1363a3d6b39",
+   "fingerprint": "47f3e1226146",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -76,9 +75,12 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "17d9bf3a780c",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(a): the mark-scheme rows open with a stray row \"A1: 34e^5 - 10e^3 or exact equivalent ...\" which belongs to a different question (an exponential answer, not this implicit-differentiation question)",
+    "5(b): the same stray \"A1: 34e^5 - 10e^3 ...\" row sits at the top of the 5(b) mark-scheme rows"
+   ],
+   "fingerprint": "260e436c8c7c",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"

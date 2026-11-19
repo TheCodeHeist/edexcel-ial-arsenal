@@ -932,8 +932,11 @@
      "label": "8(i)(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.2",
+      "P3.4.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA13_2020_10/q8_i_intro.webp",
@@ -1112,7 +1115,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2020_10_q9",

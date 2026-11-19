@@ -41,9 +41,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8bcc1147ae5d",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(i): MARK SCHEME rows crop cuts the mark-scheme sketch (log10 y against log10 x) through the middle - the x-axis, its intercept (2,0) and the log10 x label are missing from the bottom of the 3(i) rows.",
+    "3(ii): MARK SCHEME rows crop starts with the lower part of that same 3(i) sketch (a stray axis line and the label log10 x) at the top edge, belonging to 3(i)."
+   ],
+   "fingerprint": "30abb4ec9f41",
    "kinds": {
     "3(i)": "draw",
     "3(ii)": "calc"

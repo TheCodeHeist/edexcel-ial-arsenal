@@ -148,9 +148,11 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d05cb9de25e8",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(a): the boxed \"(a) Alt\" mark-scheme is cut through its last line at the bottom of the 9(a) rows (the dy/dx quotient line is clipped and its A1 row is missing); the remainder (a sliver of that formula plus the A1 row) shows at the top of the 9(b) mark-scheme rows"
+   ],
+   "fingerprint": "3ee61d93c3fa",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

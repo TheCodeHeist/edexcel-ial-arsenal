@@ -54,12 +54,16 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7efc13c676e4",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(i): MARK SCHEME rows crop starts with a clipped sliver of the previous header line (Number) cut off at the top edge.",
+    "3(ii)(b): MARK SCHEME rows begin with the 3(ii)(a) row (d/dx(3x^2-4)^6, M1 A1, 2 marks) before the (b) rows, so the crop shows 2 marks for (a) plus 3 for (b) and the 7 marks total - the (a) row is duplicated into (b).",
+    "Examiners notes: in the (ii)(b) section a line (starting variable...) is overlapped and cut by the A1cso line, text partly hidden."
+   ],
+   "fingerprint": "400cfea4399e",
    "kinds": {
     "3(i)": "calc",
-    "3(ii)": "calc",
+    "3(ii)(a)": "calc",
     "3(ii)(b)": "calc"
    },
    "topics": {
@@ -67,7 +71,7 @@
      "P3.4.1",
      "P3.4.2"
     ],
-    "3(ii)": [
+    "3(ii)(a)": [
      "P3.4.2"
     ],
     "3(ii)(b)": [
@@ -77,12 +81,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(a) mark scheme rows: the crop ends with the top of the part (b) mark-scheme sketch (grey box with y=f(x) / y=f^-1(x) curves, cut through at the bottom), which belongs to 4(b).",
-    "4(b) mark scheme rows: the crop starts part-way through the model-answer sketch (top of the grey box and its y=f^-1(x) label cut off), so the sketch is split between the 4(a) and 4(b) mark-scheme crops."
-   ],
-   "fingerprint": "f9c522cd11ed",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "7d8c7e2f4608",
    "kinds": {
     "4(a)": "short",
     "4(b)": "draw",

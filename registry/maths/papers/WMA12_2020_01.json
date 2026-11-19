@@ -522,8 +522,7 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "P2.5.1",
-      "P2.5.2"
+      "P2.4.4"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -563,7 +562,8 @@
      "kind": "calc",
      "topics": [
       "P2.5.3",
-      "P2.5.2"
+      "P2.5.2",
+      "P2.4.4"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -612,7 +612,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2020_01_q6",
@@ -766,7 +766,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2020_01_q7",
@@ -881,7 +881,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "P2.4.2"
+      "P2.4.2",
+      "P2.1.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -919,8 +920,10 @@
      "label": "8(ii)(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2020_01/q8_ii_intro.webp",

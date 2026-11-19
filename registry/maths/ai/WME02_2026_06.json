@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [
-    "1(a)/1(b): the mark-scheme total row is cut through: the \"[3]\" at the bottom of 1(a)s rows is clipped, and a sliver of it reappears at the top of 1(b)s rows (minor; marks and content are correct)."
-   ],
-   "fingerprint": "37013f67c1f1",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "c7803ea2f7ac",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -39,12 +37,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a): the mark scheme rows block also contains the whole of 3(b)s mark scheme (diagram of forces, rows labelled 3b: M1 A1 M1 A1 DM1 A1, ending [6] and (9)) after the 3(a) rows end at [3].",
-    "3(b): no mark scheme rows are paired with it (the section under the 3(b) question bar is empty; its rows were captured under 3(a)); only the examiners notes follow, listing alternative moment equations."
+    "3(a): its mark-scheme rows run on past the 3(a) [3] total into the 3(b) mark scheme (force diagram, resolve horizontally/vertically, mu=14/23, [6], (9)); that is 3(b)'s scheme and the full 9-mark total, so 3(a) rows hold 9 marks for a 3-mark part.",
+    "3(b): the 3(b) question crop has NO mark-scheme rows of its own (they were attached under 3(a)); the examiners' notes below are the alternative-equations note for 3(b) and are fine."
    ],
-   "fingerprint": "2a167c91d067",
+   "fingerprint": "bdd18738fc94",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -79,11 +77,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 5 has no examiners notes section at the end (the crop ends after the 5(c) mark scheme rows); may simply be absent from the source."
-   ],
-   "fingerprint": "efa73f442859",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "b50a28413c4d",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -102,11 +98,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 6 has no examiners notes section at the end (crop ends after the 6(c) mark scheme rows); may simply be absent from the source."
-   ],
-   "fingerprint": "40a5d094456d",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "7f91a4a2167c",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -126,12 +120,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(b): the question crop begins with a stray page-footer line \"Question 7 continues on page 26\" above Figure 5 (harmless but not part of the question).",
-    "Question 7 has no examiners notes section (crop ends after the 7(b) mark scheme rows); may simply be absent from the source."
+    "7(b): the question crop opens with the page-break banner \"Question 7 continues on page 26\", a stray fragment that is not part of the question (Figure 5 and the rest of the text are present and complete)."
    ],
-   "fingerprint": "e21eaf0e537a",
+   "fingerprint": "bed1eec3a60f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -148,11 +141,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "Question 8 has no examiners notes section at the end (crop ends after the 8(c) mark scheme rows); may simply be absent from the source."
-   ],
-   "fingerprint": "b040dbba6621",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "fe018fc1dbd6",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
