@@ -479,6 +479,9 @@ def ms_split(ms_doc, questions):
         t = MS_TOTAL.match(l.text) if rows and col and l.x0 > col[1] + 120 else None
         if t and t[3] and int(t[3]) != totals.get(rows[-1].q):
             t = None                                        # a part's '(3)', not the question's total
+        if (not t and rows and col and l.bold and l.x0 > 480 and re.fullmatch(r"\d{1,2}", l.text)
+                and int(l.text) == totals.get(rows[-1].q)):
+            t = True    # the total alone, bold, at the foot of the Marks column (S1 Oct 2023, FP3 Jun 2025)
         if t:
             r = rows[-1]
             r.total_line = l
