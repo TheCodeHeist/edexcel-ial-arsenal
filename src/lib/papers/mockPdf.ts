@@ -220,23 +220,18 @@ function footers(w: Writer, label: string, from: number, turnOver: boolean) {
   });
 }
 
-/** The site's mark (the favicon: an italic E on a dark rounded square) and name, at the top of a cover. */
+/** The site's black-and-white logo (assets/ial-arsenal-logo-bw, served from /brand/) and name, at the top of a
+    cover. The colour logo is for screens; this one prints cleanly on any printer. */
 async function logo(w: Writer) {
-  const px = 160, cv = document.createElement('canvas');
-  cv.width = cv.height = px;
-  const g = cv.getContext('2d')!;
-  g.fillStyle = '#fff'; g.fillRect(0, 0, px, px);
-  g.fillStyle = '#1e1e2e';
-  g.beginPath(); g.roundRect(0, 0, px, px, px * 18 / 64); g.fill();
-  g.fillStyle = '#89b4fa'; g.textAlign = 'center';
-  g.font = `italic 700 ${px * 40 / 64}px Georgia, 'Times New Roman', serif`;
-  g.fillText('E', px * 33 / 64, px * 46 / 64);
-  const img = await w.doc.embedPng(await (await new Promise<Blob>((ok) => cv.toBlob((b) => ok(b!), 'image/png'))).arrayBuffer());
-  const s = 34;
-  w.page.drawImage(img, { x: M.left, y: A4.h - w.y - s, width: s, height: s });
-  w.text('Edexcel IAL Arsenal', M.left + s + 10, 15, w.f.bold, { y: w.y + 4 });
-  w.text(SITE, M.left + s + 10, 8.5, w.f.sans, { grey: true, y: w.y + 22 });
-  w.y += s + 16;
+  const r = await fetch('/brand/ial-arsenal-logo-bw.png');
+  const s = 40;
+  if (r.ok) {
+    const img = await w.doc.embedPng(await r.arrayBuffer());
+    w.page.drawImage(img, { x: M.left, y: A4.h - w.y - s, width: s, height: s });
+  }
+  w.text('Edexcel IAL Arsenal', M.left + s + 10, 15, w.f.bold, { y: w.y + 7 });
+  w.text(SITE, M.left + s + 10, 8.5, w.f.sans, { grey: true, y: w.y + 25 });
+  w.y += s + 14;
 }
 
 function credit(w: Writer, meta: MockMeta) {

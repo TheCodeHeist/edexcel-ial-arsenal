@@ -28,7 +28,10 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content={new URL('/brand/ial-arsenal-logo-colorful.png', Astro.site)} />
+  <meta name="twitter:card" content="summary" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/brand/ial-arsenal-logo-colorful.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <script is:inline>
@@ -50,7 +53,7 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
     <header class="top">
       <div class="brand">
         <p class="eyebrow">Edexcel International A Level · Sciences</p>
-        <h1><a href="/"><span class="d">E</span>dexcel IAL Arsenal</a></h1>
+        <h1><a href="/"><img class="logo" src="/brand/ial-arsenal-logo-colorful.svg" width="44" height="44" alt="" /><span><span class="d">E</span>dexcel IAL Arsenal</span></a></h1>
       </div>
       <ThemePicker client:load />
       <nav class="tabs" aria-label="Subjects">
