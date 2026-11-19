@@ -808,41 +808,35 @@ def page_ink(doc, pno):
 
 
 def clear_of_ink(doc, pno, y, limit=16):
-    """y, or the nearest row above it (up to `limit` pt) with nothing printed across the column, so a crop edge
-    there cuts through no glyph. Tall maths on a part's first line often sits wholly above the line's box (a
-    numerator, the n over a Σ, the top of a matrix bracket, π/2), so the line's box alone can't tell where it
-    starts. If no clear row is near, y stays."""
+    """y, or a row above it with nothing printed across the column, so a crop edge there cuts no glyph. Only
+    stacked maths moves an edge: a numerator, the n over a Σ, matrix brackets, π/2, a column vector's entries
+    (FP3 Jun 2023), which sit above their line's box in narrow pieces. The edge climbs past such narrow ink, up
+    to 30 pt, but never through a line of text (ink spread across the column): there it stays where it was,
+    so a sentence is never split between two crops (an earlier version did that, FP2 2025-26)."""
     w, h, stride, s = page_ink(doc, pno)
     k = 100 / 72
     x0, x1 = int(COL_X0 * k), int(right_edge(doc) * k) - 2
 
-    def blank(r):
-        return min(s[r * stride + x0: r * stride + x1]) >= 140
-
-    def width(r):                               # how much of the row is ink, as a share of the column
+    def spread(r):                              # how far the row's ink reaches across the column, 0 to 1
         row = s[r * stride + x0: r * stride + x1]
-        return sum(1 for v in row if v < 140) / max(1, x1 - x0)
+        ink = [i for i, v in enumerate(row) if v < 140]
+        return (ink[-1] - ink[0]) / max(1, x1 - x0) if ink else 0.0
 
     r = int(y * k)
-    if r >= h:
+    if r >= h or spread(r) == 0:
         return y
-    top = r
-    if not blank(r):
-        top = next((rr for rr in range(r - 1, max(0, r - int(limit * k)), -1) if blank(rr)), None)
-        if top is None:
-            return y
-    # Stacked maths can rise further in narrow pieces with gaps between them (a column vector's top entry,
-    # FP3 Jun 2023): keep climbing past narrow ink close above, up to 30 pt, never into a full line of text.
-    while True:
-        above = [rr for rr in range(top - 1, max(0, top - int(8 * k)), -1) if not blank(rr)]
-        if not above or r - above[-1] > 30 * k:
+    top, rr = r, r
+    while rr > 0 and r - rr <= 30 * k:
+        if spread(rr) == 0:                     # a clear row: a candidate edge
+            top = rr
+            above = [a for a in range(rr - 1, max(0, rr - int(8 * k)), -1) if spread(a) > 0]
+            if not above:
+                break                           # nothing close above: done
+            rr = above[0]
+            continue
+        if spread(rr) > 0.4:                    # a line of text: don't cut into it or past it
             break
-        if max(width(rr) for rr in above) > 0.4:
-            break
-        nxt = next((rr for rr in range(above[0], max(0, above[0] - int(limit * k)), -1) if blank(rr)), None)
-        if nxt is None or r - nxt > 30 * k:
-            break
-        top = nxt
+        rr -= 1
     return top / k if top != r else y
 
 
