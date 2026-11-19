@@ -57,6 +57,80 @@
     ]
    }
   },
+  "12": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "b1c5715ac585",
+   "kinds": {
+    "12(a)": "calc",
+    "12(b)": "calc",
+    "12(c)": "calc",
+    "12(d)": "calc"
+   },
+   "topics": {
+    "12(a)": [
+     "P3.3.1"
+    ],
+    "12(b)": [
+     "P3.3.2",
+     "P3.3.1"
+    ],
+    "12(c)": [
+     "P3.4.2"
+    ],
+    "12(d)": [
+     "P3.4.2",
+     "P3.3.2"
+    ]
+   }
+  },
+  "13": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "78a19510648b",
+   "kinds": {
+    "13(a)": "short",
+    "13(b)": "calc",
+    "13(c)": "calc",
+    "13(d)": "calc"
+   },
+   "topics": {
+    "13(a)": [
+     "P3.3.1"
+    ],
+    "13(b)": [
+     "P3.3.1"
+    ],
+    "13(c)": [
+     "P4.6.2"
+    ],
+    "13(d)": [
+     "P4.6.2"
+    ]
+   }
+  },
+  "14": {
+   "at": "2026-11-19",
+   "concerns": [
+    "14(a): the bottom of the mark-scheme rows carries stray fragments from other parts: a cut line starting sing sqrt(a^2+b^2), lines 1: a = root 137 and 1: -root 137 < a < root 137, and the Pearson Education Limited / registered office footer (clipped at left). These do not answer (a).",
+    "14(b): the notes at the end of the image are clipped at the left edge (ote: There may be many other ways ..., a) Via Cartesian coordinates, ...) and the last line (using |a alpha + b beta + c| / sqrt(a^2+b^2)) is cut at the bottom edge; the notes are incomplete and their first lines seem to have been displaced into the (a) block."
+   ],
+   "fingerprint": "76705ad05b87",
+   "kinds": {
+    "14(a)": "calc",
+    "14(b)": "calc"
+   },
+   "topics": {
+    "14(a)": [
+     "P4.5.1",
+     "P4.3.1"
+    ],
+    "14(b)": [
+     "P4.3.1",
+     "P3.2.3"
+    ]
+   }
+  },
   "2": {
    "at": "2026-11-19",
    "concerns": [
