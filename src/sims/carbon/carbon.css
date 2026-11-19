@@ -76,7 +76,18 @@
   background:radial-gradient(circle,color-mix(in srgb,var(--fc) 70%,white) 0,color-mix(in srgb,var(--fc) 45%,transparent) 35%,transparent 70%)}
 .vflash.go{animation:vflash .9s var(--ease-out)}
 @keyframes vflash{0%{opacity:0;transform:scale(.3)}25%{opacity:1}100%{opacity:0;transform:scale(9)}}
-.slots{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;gap:clamp(8px,2.4vw,30px);padding:50px 14px 64px;flex:1}
+.slots{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:50px 14px 40px;flex:1}
+.slots-row{display:flex;align-items:center;justify-content:center;gap:clamp(8px,2.4vw,30px);width:100%}
+.slot .st{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
+.slot.extra{width:min(476px,100%);min-height:62px;flex-direction:row;gap:10px;padding:8px 40px 8px 12px}
+.slot.extra .ph2{max-width:none}
+.slot.extra .ph2 b{display:inline;margin:0 6px 0 0}
+.slot.extra .mv{height:54px;max-width:120px} .slot.extra .mv .molsvg{max-height:52px}
+.slot.extra .rbig{padding:0;font-size:17px}
+.slot.extra .st{align-items:flex-start;text-align:left;gap:3px}
+.react-btn{min-width:140px;transition:opacity .3s,transform .3s var(--spring)}
+.react-btn:disabled{opacity:.45}
+.slots.fuse .react-btn{opacity:0}
 .slot{position:relative;width:min(230px,42%);min-height:178px;border-radius:var(--r-lg);border:1.5px dashed color-mix(in srgb,var(--ink) 24%,transparent);
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:12px 10px;text-align:center;color:var(--ink);
   background:color-mix(in srgb,var(--surf) 30%,transparent);transition:transform .45s var(--spring),border-color .25s,background-color .25s,opacity .3s,box-shadow .3s}
@@ -96,14 +107,16 @@
 @keyframes slotpop{0%{transform:scale(.9)}100%{transform:none}}
 .plus{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font:500 22px/1 var(--f-body);color:var(--muted);background:var(--solid);border:1px solid var(--rim);transition:transform .5s var(--spring),opacity .3s}
 .slots.fuse .slot{transition:transform .58s cubic-bezier(.55,0,.75,.35),opacity .5s ease-in .1s}
-.slots.fuse .slot:first-child{transform:translateX(calc(50% + 20px)) scale(.35) rotate(10deg);opacity:0}
-.slots.fuse .slot:last-child{transform:translateX(calc(-50% - 20px)) scale(.35) rotate(-10deg);opacity:0}
+.slots.fuse .slot[data-slot="0"]{transform:translateX(calc(50% + 20px)) scale(.35) rotate(10deg);opacity:0}
+.slots.fuse .slot[data-slot="1"]{transform:translateX(calc(-50% - 20px)) scale(.35) rotate(-10deg);opacity:0}
+.slots.fuse .slot.extra{transform:translateY(-90px) scale(.35);opacity:0}
 .slots.fuse .plus{transform:scale(2.4) rotate(90deg);opacity:0}
 .slots.fizz .slot.filled{animation:shake .45s ease}
 .vcap{position:absolute;left:12px;right:12px;bottom:12px;text-align:center;font:600 10.5px/1.35 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);pointer-events:none;z-index:1}
 .vtoast{position:absolute;left:50%;top:12px;transform:translateX(-50%);z-index:4;width:min(520px,calc(100% - 24px));background:var(--solid);border:1px solid var(--rim);border-radius:var(--r-md);padding:10px 14px;
   box-shadow:0 14px 34px -14px var(--shadow);font-size:13.5px;line-height:1.45;opacity:0;pointer-events:none;transition:opacity .3s,transform .4s var(--spring)}
 .vtoast.on{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto}
+.vtoast .fix{display:block;margin-top:6px;font-size:12.5px;color:var(--muted)}
 .vtoast b{display:block;font:700 11px/1.2 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
 .result{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:9px;padding:24px 18px 20px;text-align:center;flex:1;justify-content:center}
 .result.in{animation:resIn .7s var(--spring) backwards}
@@ -115,6 +128,17 @@
 .r-mols .molsvg{max-height:190px;max-width:min(360px,74vw)}
 .r-mols .rm .mol-text{font-size:20px}
 .r-mols .pl{font:500 22px/1 var(--f-body);color:var(--muted)}
+.r-mols .byp{font:600 clamp(18px,2vw,22px)/1.2 var(--f-mono);letter-spacing:-.02em;color:var(--muted)}
+.result .why.spect{color:var(--muted);font-size:12.5px;margin:0}
+/* bench conditions */
+.bench{margin:12px 14px 0;padding:10px 12px;border:1px solid var(--rim);border-radius:var(--r-md);background:color-mix(in srgb,var(--surf) 50%,transparent);display:flex;flex-direction:column;gap:8px}
+.bench-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
+.bench-k{flex:none;width:92px;font:700 10.5px/1.2 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.bench .seg{max-width:100%;overflow-x:auto;scrollbar-width:none}
+.bench .seg button{white-space:nowrap}
+.chiprow.bench-chips{flex-wrap:wrap;overflow:visible;margin:0;min-width:0;flex:1}
+.bench-reset{font-size:12px;padding:4px 10px;margin-left:auto}
+.bench-note{margin:0;font-size:12px;line-height:1.4;color:var(--muted)}
 .r-name{font:700 clamp(21px,2.4vw,28px)/1.12 var(--f-display);margin:0;letter-spacing:-.01em;text-wrap:balance}
 .r-name small{display:block;font:500 13px/1.3 var(--f-body);color:var(--muted);margin-top:3px;letter-spacing:0}
 .r-new{font:700 10.5px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);background:var(--accent);padding:6px 10px;border-radius:999px;box-shadow:0 6px 16px -6px color-mix(in srgb,var(--accent) 70%,transparent);animation:newIn .7s var(--spring) .25s backwards}
@@ -365,6 +389,9 @@
   .vessel{margin:0 10px;min-height:380px}
   .slots{padding:46px 8px 60px}
   .slot{min-height:156px;width:44%}
+  .slot.extra{width:100%;min-height:58px}
+  .bench{margin:10px 10px 0}
+  .bench-k{width:100%}
   .slot .mv{height:92px} .slot .mv .molsvg{max-height:90px}
   .rack2{padding:12px 10px 4px}
   .tray{margin:0 10px;min-height:300px}

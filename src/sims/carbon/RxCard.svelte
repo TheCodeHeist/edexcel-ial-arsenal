@@ -3,7 +3,7 @@
   import { chem } from '../../lib/chem';
   import QuizBox from '../../components/ui/QuizBox.svelte';
   import CopyButton from '../../components/ui/CopyButton.svelte';
-  import { CP, RG, FAM, rxPlain, rxQuizOptions, productNames, type Reaction } from './data';
+  import { CP, RG, FAM, rxPlain, rxQuizOptions, productNames, needText, type Reaction } from './data';
   import { useCarbon } from './app.svelte';
   import Mol from './Mol.svelte';
 
@@ -19,7 +19,7 @@
   <div class="rxc-vis">
     <span class="m"><Mol id={r.a} /></span>
     {#if CP[r.b]}<span class="pl">+</span><span class="m"><Mol id={r.b} /></span>{/if}
-    <span class="ar"><span>{@html RG[r.b] ? chem(RG[r.b].f) : ''}</span><svg width="58" height="10" viewBox="0 0 58 10" aria-hidden="true"><path d="M1 5h52M48 1l5 4-5 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg><small>{@html CP[r.b] ? '' : chem(RG[r.b].n)}</small></span>
+    <span class="ar"><span>{@html RG[r.b] ? chem(RG[r.b].f) : r.need ? needText(r.need) : ''}</span><svg width="58" height="10" viewBox="0 0 58 10" aria-hidden="true"><path d="M1 5h52M48 1l5 4-5 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg><small>{@html CP[r.b] ? '' : chem(RG[r.b].n)}</small></span>
     <span class="m out">{#each r.p as p, k (p)}{#if k}<span class="pl">+</span>{/if}<Mol id={p} />{/each}<span class="mq">?</span></span>
   </div>
   <div class="rxc-top"><span class="e-r">{CP[r.a].n}{CP[r.b] ? ' + ' + CP[r.b].n : ''} → <span class="pname">{productNames(r)}</span></span><span class="badge f-{r.fam}">{FAM[r.fam][0]}</span><CopyButton text={() => rxPlain(r)} label="Copy reaction as text" /></div>
