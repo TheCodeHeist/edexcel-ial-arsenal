@@ -23,8 +23,10 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c28f33fb607a",
+   "concerns": [
+    "2: minor, the examiners notes are clipped at the left edge (note labels lose their first letter: \"M1:\" shows as \"1:\" or \"11:\") and a sliver of the next mark-scheme row text is visible at the bottom edge of the purple mark scheme crop (just above the \"(7 marks)\" row); question and the 7 marks are complete"
+   ],
+   "fingerprint": "c695f7c88794",
    "kinds": {
     "2": "calc"
    },

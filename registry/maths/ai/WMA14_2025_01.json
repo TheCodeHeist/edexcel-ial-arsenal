@@ -3,14 +3,14 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "4d68f8b2d15c",
+   "fingerprint": "1c78d0b68dee",
    "kinds": {
     "1": "calc"
    },
    "topics": {
     "1": [
      "P4.6.1",
-     "P3.5.1"
+     "P3.5.2"
     ]
    }
   },
@@ -147,8 +147,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "580751c46896",
+   "concerns": [
+    "9: minor, the examiners notes are clipped at the left edge (line starts lost, e.g. \"M1:\" shows as \"1:\", \"Notes:\" as \"otes:\", \"a)(i)\" as \"a)(i)\" with the bracket missing); question parts and mark scheme rows are complete and marks add up (6 and 6)"
+   ],
+   "fingerprint": "c1b7b8b8d848",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

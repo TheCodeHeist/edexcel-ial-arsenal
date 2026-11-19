@@ -43,24 +43,26 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "1844d7c935b8",
+   "fingerprint": "8bcc1147ae5d",
    "kinds": {
     "3(i)": "draw",
     "3(ii)": "calc"
    },
    "topics": {
     "3(i)": [
-     "P3.3.3"
+     "P3.3.3",
+     "P2.5.2"
     ],
     "3(ii)": [
-     "P3.3.3"
+     "P3.3.3",
+     "P2.5.2"
     ]
    }
   },
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "648a10d29352",
+   "fingerprint": "994e8937642d",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -165,7 +167,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "e827cd07bd92",
+   "fingerprint": "eb4fdec97b92",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -180,7 +182,8 @@
      "P3.4.2"
     ],
     "9(c)": [
-     "P1.4.3"
+     "P1.4.3",
+     "P1.2.2"
     ]
    }
   }

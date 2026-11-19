@@ -15,8 +15,11 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "cea15c743c91",
+   "concerns": [
+    "10(i): after the mark-scheme rows, fragments of the examiners' notes (cut off at the left edge, e.g. \"1: 2a\", \"o not iswhere...\") sit inside the part's crop",
+    "10(ii): the mark-scheme area begins with the examiners' general-guidance notes (\"(ii) General guidance...\", M1/dM1/B1/A1 explanations) clipped at the left edge, before the actual mark-scheme table"
+   ],
+   "fingerprint": "89255badfe6e",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -157,7 +160,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "55143ad01658",
+   "fingerprint": "3dc89ee12a4c",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

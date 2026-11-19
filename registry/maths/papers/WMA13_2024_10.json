@@ -97,7 +97,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2024_10_q2",
@@ -224,7 +224,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2024_10_q3",
@@ -1322,7 +1322,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "P1.4.3"
+      "P1.4.3",
+      "P1.2.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1474,7 +1475,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

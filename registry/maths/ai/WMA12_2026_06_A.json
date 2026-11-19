@@ -24,10 +24,9 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [
-    "10(i): mark-scheme rows missing entirely",
-    "10(ii): mark-scheme rows missing entirely"
+    "10(ii): the question crop opens with \"You may use the table on page 30 of the answer book to illustrate your answer. The first 2 rows have been completed for you.\", which is the end of part (i)'s wording; it is missing from the 10(i) crop and sits at the top of (ii)"
    ],
-   "fingerprint": "bda466f5cd12",
+   "fingerprint": "4687a6ed3329",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -45,7 +44,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "6db37717dfd0",
+   "fingerprint": "1a374a4c1f46",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -62,12 +61,8 @@
   },
   "3": {
    "at": "2026-11-19",
-   "concerns": [
-    "3(a): mark-scheme rows missing entirely",
-    "3(b): mark-scheme rows missing entirely",
-    "3(c): mark-scheme rows missing entirely"
-   ],
-   "fingerprint": "8fe108db789f",
+   "concerns": [],
+   "fingerprint": "2719cf7f6acc",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short",
@@ -88,11 +83,8 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [
-    "4(a): mark-scheme rows missing entirely",
-    "4(b): mark-scheme rows missing entirely"
-   ],
-   "fingerprint": "6c9a1494c294",
+   "concerns": [],
+   "fingerprint": "b4a68cced208",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -102,18 +94,15 @@
      "P2.7.1"
     ],
     "4(b)": [
-     "P2.7.1"
+     "P2.7.1",
+     "P1.1.9"
     ]
    }
   },
   "5": {
    "at": "2026-11-19",
-   "concerns": [
-    "5(a): mark-scheme rows missing entirely",
-    "5(b): mark-scheme rows missing entirely",
-    "5(c): mark-scheme rows missing entirely"
-   ],
-   "fingerprint": "7414dec115ff",
+   "concerns": [],
+   "fingerprint": "416f194310fa",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -124,22 +113,22 @@
      "P2.8.3"
     ],
     "5(b)": [
-     "P2.8.2",
-     "P2.8.1"
+     "P1.5.2",
+     "P1.1.1"
     ],
     "5(c)": [
-     "P2.8.2"
+     "P2.8.2",
+     "P2.8.3"
     ]
    }
   },
   "6": {
    "at": "2026-11-19",
    "concerns": [
-    "6(i): mark-scheme rows missing entirely",
-    "6(ii): mark-scheme rows missing entirely",
-    "6(ii)(b): mark-scheme rows missing entirely"
+    "6(ii): the mark-scheme rows run on into part (b) (M1 A1 A1 added), so they show 6 marks (and \"8 marks\") for a 3-mark part",
+    "6(ii)(b): the mark-scheme rows repeat the whole (ii)(a) scheme (M1 dM1 A1*) before the (b) rows, 6 marks shown for a 3-mark part"
    ],
-   "fingerprint": "6566333419da",
+   "fingerprint": "2b355bce0925",
    "kinds": {
     "6(i)": "calc",
     "6(ii)": "calc",
@@ -147,25 +136,21 @@
    },
    "topics": {
     "6(i)": [
-     "P2.5.3",
-     "P2.5.2"
+     "P2.5.3"
     ],
     "6(ii)": [
      "P2.5.2"
     ],
     "6(ii)(b)": [
-     "P2.5.2"
+     "P2.5.2",
+     "P1.1.3"
     ]
    }
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [
-    "7(a): mark-scheme rows missing entirely",
-    "7(b): mark-scheme rows missing entirely",
-    "7(c): mark-scheme rows missing entirely"
-   ],
-   "fingerprint": "d94922ccfade",
+   "concerns": [],
+   "fingerprint": "cf1ae42aef68",
    "kinds": {
     "7(a)": "short",
     "7(b)": "calc",
@@ -185,12 +170,8 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [
-    "8(a): mark-scheme rows missing entirely",
-    "8(b): mark-scheme rows missing entirely",
-    "8(c): mark-scheme rows missing entirely"
-   ],
-   "fingerprint": "b9a8d674226f",
+   "concerns": [],
+   "fingerprint": "148e07120ff1",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -201,7 +182,8 @@
      "P2.4.5"
     ],
     "8(b)": [
-     "P2.4.5"
+     "P2.4.5",
+     "P1.1.1"
     ],
     "8(c)": [
      "P2.4.5"
@@ -210,12 +192,8 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [
-    "9(a): mark-scheme rows missing entirely",
-    "9(b): mark-scheme rows missing entirely",
-    "9(c): mark-scheme rows missing entirely"
-   ],
-   "fingerprint": "9008794d8236",
+   "concerns": [],
+   "fingerprint": "c159fe51cc02",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -223,13 +201,14 @@
    },
    "topics": {
     "9(a)": [
-     "P1.3.2"
+     "P1.3.3"
     ],
     "9(b)": [
      "P2.6.1"
     ],
     "9(c)": [
-     "P2.6.2"
+     "P2.6.2",
+     "P1.1.3"
     ]
    }
   }

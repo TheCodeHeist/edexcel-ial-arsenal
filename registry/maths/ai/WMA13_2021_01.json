@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f8995b0318dd",
+   "fingerprint": "889c15d45838",
    "kinds": {
     "1": "calc"
    },
@@ -16,8 +16,10 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "86ed3b2211a8",
+   "concerns": [
+    "Examiners notes (whole question): the notes crop is clipped at the left and right edges - labels such as \"M1\"/\"A1\"/\"(a)\"/\"(b)\" lose their first characters (shown as \"1:\", \")\"), and lines run off the right edge (e.g. \"...q is an intege\", \"...must have\")."
+   ],
+   "fingerprint": "e7d28dd7cb51",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -25,8 +27,8 @@
    },
    "topics": {
     "10(a)": [
-     "P3.4.1",
-     "P3.4.2"
+     "P3.4.2",
+     "P3.4.1"
     ],
     "10(b)": [
      "P3.4.3",

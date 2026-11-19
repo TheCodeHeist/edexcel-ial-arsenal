@@ -2,8 +2,10 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7e2c5839aa27",
+   "concerns": [
+    "1: minor, the examiners notes are clipped at the left edge (first letters of lines lost, e.g. \"M1:\" shows as \"1:\", \"Alt Method\" as \"lt Method\", \"mechanics\" as \"echanics\") from the Alt Method onwards; question and mark scheme are fine"
+   ],
+   "fingerprint": "215753f4749c",
    "kinds": {
     "1": "calc"
    },
@@ -39,8 +41,10 @@
   },
   "11": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "63488a02d2cd",
+   "concerns": [
+    "11: minor, the examiners notes are clipped at the left edge (line starts lost, e.g. \"(a)\" shows as \"a)\", \"M1:\" as \"1:\", \"collected\" as \"ollected\") and one line near the middle (the note beginning \"(b)...\" before \"In the approach\") is sliced through horizontally; figure, question parts and mark scheme rows are complete and total 5 and 4"
+   ],
+   "fingerprint": "cba7b14a366d",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -57,8 +61,10 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "18e61cae33ef",
+   "concerns": [
+    "2: minor, the examiners notes are clipped at the left edge (line starts lost: \"M1:\" shows as \"1:\", \"(a)\" as \"a)\", \"e.g.\" as \".g.\"); question and mark scheme rows are complete and marks add up (3 and 4)"
+   ],
+   "fingerprint": "259b3c3e29bc",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -182,8 +188,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "3c89a21e4d08",
+   "concerns": [
+    "9: minor, the examiners notes are clipped at the left edge (line starts lost, e.g. \"Notes:\" shows as \"otes:\", \"M1:\" as \"1:\") and the A1* line \"In addition to not intersecting there must be a statement...\" is sliced through horizontally just above the vector inequality; question and mark scheme rows are complete and total 5"
+   ],
+   "fingerprint": "e6a31278e4e4",
    "kinds": {
     "9": "calc"
    },

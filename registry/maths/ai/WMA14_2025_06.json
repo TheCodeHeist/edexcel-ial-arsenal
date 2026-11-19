@@ -20,8 +20,10 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "17a2e9229cfc",
+   "concerns": [
+    "10: minor, the examiners notes are clipped at the left edge (line starts lost: \"Condone\" as \"ondone\", \"B1:\" as \"1:\", \"There\" as \"here\", \"Alternative\" as \"lternative\") and at the right edge on some long lines (e.g. \"...condoning for all angles x\", \"...contradiction of\"); question and mark scheme row are complete (4 marks)"
+   ],
+   "fingerprint": "776902e9ed7e",
    "kinds": {
     "10": "calc"
    },

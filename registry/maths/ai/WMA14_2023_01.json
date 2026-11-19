@@ -2,8 +2,11 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "fc84c7eee2e2",
+   "concerns": [
+    "1(b): mark scheme rows for (b) include the (b)(ii) row (B1, |x|<2/3) as well, so they total 6 not the 5 marks of (b)(i), and end with the \"(9 marks)\" total row",
+    "1(b)(ii): its mark scheme crop repeats the whole of the (b)(i) rows (B1, M1 A1, M1, A1 = 5 marks) above the one B1 row that answers (ii), so the marks shown do not add up to the 1 mark of this part"
+   ],
+   "fingerprint": "dc29fe1f59c9",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -93,7 +96,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "bb4bf7fa6ecb",
+   "fingerprint": "8aa5e79a71f5",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -156,7 +159,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "767dd6041d4e",
+   "fingerprint": "1e04c544eaaf",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

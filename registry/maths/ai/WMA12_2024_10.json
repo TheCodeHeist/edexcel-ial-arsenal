@@ -41,8 +41,10 @@
   },
   "11": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7888d3556253",
+   "concerns": [
+    "11(i): below the mark-scheme table the crop runs on into the examiners' notes for (i) (M1/A1 text, an examples table and a handwritten student attempt), i.e. notes content sits inside the part's mark-scheme crop"
+   ],
+   "fingerprint": "b897177584e0",
    "kinds": {
     "11(i)": "calc",
     "11(ii)": "calc"
@@ -145,13 +147,14 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "af0e62a38d32",
+   "fingerprint": "be861568fdad",
    "kinds": {
     "6": "calc"
    },
    "topics": {
     "6": [
-     "P2.5.2"
+     "P2.5.2",
+     "P1.1.3"
     ]
    }
   },

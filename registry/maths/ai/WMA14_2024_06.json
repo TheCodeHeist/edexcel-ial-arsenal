@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "debeb3fe7499",
+   "fingerprint": "6330d4e56f0d",
    "kinds": {
     "1": "calc"
    },
@@ -34,7 +34,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "af040ff40407",
+   "fingerprint": "be48ffa891e3",
    "kinds": {
     "3": "calc"
    },
@@ -48,7 +48,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "80bc0d8045b8",
+   "fingerprint": "b3dd2a349dab",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -136,10 +136,8 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [
-    "8(a): stem equation and inequality have the tops of the numerators (power 4/3 and 8/3) clipped at the top crop edge"
-   ],
-   "fingerprint": "6bfeaae7ee5f",
+   "concerns": [],
+   "fingerprint": "c3791a307ccb",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -155,8 +153,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "97a4fdb73221",
+   "concerns": [
+    "9: minor, a few long lines in the examiners notes are clipped at the right edge (e.g. \"the limits must be in radians\", \"...even if not attached to\"); question parts and mark scheme rows are complete and marks add up (6 and 3)"
+   ],
+   "fingerprint": "330050746430",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

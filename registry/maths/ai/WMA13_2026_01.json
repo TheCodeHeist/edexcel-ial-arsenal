@@ -67,8 +67,10 @@
   },
   "3": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "dd8264f514b9",
+   "concerns": [
+    "3(ii): the mark-scheme crop for 3(ii)(a) also contains the rows for part (b) (the integral, 126+8ln2) and the whole-question \"(10 marks)\" total, so the marks shown are not just this part's 4; the same combined (a)+(b) block is repeated under 3(ii)(b), which is a 4-mark part."
+   ],
+   "fingerprint": "1bc5ba7a09db",
    "kinds": {
     "3(i)": "calc",
     "3(ii)": "calc",
@@ -176,7 +178,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "4ff69d0f7094",
+   "fingerprint": "4eba4cb13bcd",
    "kinds": {
     "8": "calc"
    },
@@ -190,7 +192,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a6a854c1ff84",
+   "fingerprint": "2cdc17f0f0bb",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "short",
@@ -201,10 +203,12 @@
      "P3.2.3"
     ],
     "9(b)": [
-     "P3.2.3"
+     "P3.2.3",
+     "P3.1.2"
     ],
     "9(c)": [
-     "P3.2.3"
+     "P3.2.3",
+     "P2.7.1"
     ]
    }
   }

@@ -120,12 +120,8 @@
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [
-    "7(a): mark-scheme rows for 7(b) and 7(c) are included in 7(a)",
-    "7(b): no mark-scheme rows (included in 7(a) mark-scheme crop)",
-    "7(c): no mark-scheme rows (included in 7(a) mark-scheme crop)"
-   ],
-   "fingerprint": "1617fdd1faa3",
+   "concerns": [],
+   "fingerprint": "ce08681d0f7d",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -136,7 +132,8 @@
      "P4.5.1"
     ],
     "7(b)": [
-     "P4.5.1"
+     "P4.5.1",
+     "P3.4.2"
     ],
     "7(c)": [
      "P4.5.1",

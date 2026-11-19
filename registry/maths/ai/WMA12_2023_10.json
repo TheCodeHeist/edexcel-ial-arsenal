@@ -15,8 +15,13 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "6389f516f9c7",
+   "concerns": [
+    "10(i): the mark-scheme rows include the (b) rows too (M1 A1 A1 then M1 dM1 A1), so they show 6 marks for a 3-mark part",
+    "10(i)(b): the mark-scheme rows repeat the whole (a) scheme before the (b) rows, 6 marks shown for a 3-mark part",
+    "10(ii): the mark-scheme rows include the (b) rows too (B1 M1 A1), 6 marks shown (and \"12 marks\" total) for a 3-mark part",
+    "10(ii)(b): the mark-scheme rows repeat the whole (ii)(a) scheme before the (b) rows, 6 marks shown for a 3-mark part"
+   ],
+   "fingerprint": "f677970eb51a",
    "kinds": {
     "10(i)": "calc",
     "10(i)(b)": "calc",
@@ -44,7 +49,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "cfcf9db9af06",
+   "fingerprint": "f8f23411185f",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -63,7 +68,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "38fa95594c89",
+   "fingerprint": "108629ed54bd",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -81,7 +86,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "8db8e25fbb35",
+   "fingerprint": "c2d4ec92324a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -96,7 +101,7 @@
     ],
     "4(c)": [
      "P2.2.1",
-     "P1.1.6"
+     "P1.1.10"
     ]
    }
   },
@@ -163,7 +168,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "8b7466cbf66c",
+   "fingerprint": "f07ce3ab206d",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -177,14 +182,15 @@
      "P2.4.2"
     ],
     "8(c)": [
-     "P2.4.2"
+     "P2.4.2",
+     "P1.1.3"
     ]
    }
   },
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "62d357649d83",
+   "fingerprint": "53927d5d4f7d",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

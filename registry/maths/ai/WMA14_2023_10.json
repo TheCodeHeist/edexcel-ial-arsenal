@@ -37,7 +37,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "5b98d9596274",
+   "fingerprint": "6cd2725a0580",
    "kinds": {
     "3(i)": "calc",
     "3(ii)": "calc"
@@ -55,8 +55,10 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "4b3fc037f2ca",
+   "concerns": [
+    "4: minor, in the examiners notes the line \"A1*: For a fully correct proof.\" (just above \"Requires\", about 90% down the first part of the notes) is sliced through horizontally at the top; the notes are otherwise complete"
+   ],
+   "fingerprint": "f47bf8a203d4",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short"
@@ -74,7 +76,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "3a053d9c88eb",
+   "fingerprint": "890ebd38eda5",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -92,7 +94,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "396acdbc5f5e",
+   "fingerprint": "ce019ffd1045",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -118,8 +120,10 @@
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7d5fae665ab9",
+   "concerns": [
+    "7: minor, in the examiners notes a few long lines are clipped at the right edge (e.g. the 7(a) alternative \"...this is 3000\" and the 7(d) M1 lines \"...one of their\" / \"...ln (9-2x)\"); question parts and mark scheme rows are complete and marks add up (2,1,3,5,1)"
+   ],
+   "fingerprint": "d6dc6790fb8d",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -129,10 +133,10 @@
    },
    "topics": {
     "7(a)": [
-     "P3.1.2"
+     "P3.1.1"
     ],
     "7(b)": [
-     "P3.1.2"
+     "P3.1.1"
     ],
     "7(c)": [
      "P4.2.1"
@@ -148,8 +152,10 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d1061d54086d",
+   "concerns": [
+    "8: minor, a few long lines in the examiners notes are clipped at the right edge (e.g. 8(a) \"...may appear there\", 8(c) \"...equation of the tangent or\", 8(d)(i) \"...unless\"); question parts and mark scheme rows are complete and marks add up (1,4,3,6)"
+   ],
+   "fingerprint": "e418cec7505c",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",
@@ -170,7 +176,7 @@
     ],
     "8(d)": [
      "P4.6.1",
-     "P4.6.5"
+     "P3.2.3"
     ]
    }
   }

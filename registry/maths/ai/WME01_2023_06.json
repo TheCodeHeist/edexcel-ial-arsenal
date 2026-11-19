@@ -1,0 +1,187 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "dae5332a8b29",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "short",
+    "1(c)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "M1.4.3"
+    ],
+    "1(b)": [
+     "M1.4.3"
+    ],
+    "1(c)": [
+     "M1.4.3"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0c3232fda229",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "M1.5.2",
+     "M1.2.2"
+    ],
+    "2(b)": [
+     "M1.2.1",
+     "M1.2.2"
+    ],
+    "2(c)": [
+     "M1.2.1",
+     "M1.4.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "586cf8667356",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "M1.3.1",
+     "M1.1.1"
+    ],
+    "3(b)": [
+     "M1.3.1",
+     "M1.4.1",
+     "M1.1.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): mark-scheme rows end with a cut-off row \"Tension at D is zero, seen or implied. B1\" (bottom edge slices through it) which belongs to 4(b); 4(a) then shows 8 marks not 7",
+    "4(b): mark-scheme rows are missing the leading \"Tension at D is zero, seen or implied. B1\" row (left under 4(a)), so only 3 of the 4 marks (M1A1, A1) appear"
+   ],
+   "fingerprint": "43f8a32146c6",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(c)": "short"
+   },
+   "topics": {
+    "4(a)": [
+     "M1.6.1",
+     "M1.5.2"
+    ],
+    "4(b)": [
+     "M1.6.1",
+     "M1.5.2"
+    ],
+    "4(c)": [
+     "M1.1.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(d): question crop ends with the spare redraw copy of Figure 2 (\"Only use this copy of Figure 2 if you need to redraw your sketch\"), which belongs to 5(b) (the sketch part), not to 5(d)"
+   ],
+   "fingerprint": "0878abf74620",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "draw",
+    "5(c)": "calc",
+    "5(d)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "M1.3.1"
+    ],
+    "5(b)": [
+     "M1.3.1"
+    ],
+    "5(c)": [
+     "M1.3.1"
+    ],
+    "5(d)": [
+     "M1.3.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "964c24ab9243",
+   "kinds": {
+    "6": "calc"
+   },
+   "topics": {
+    "6": [
+     "M1.5.3",
+     "M1.5.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "5dd8d7d01da8",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "M1.4.2",
+     "M1.4.1"
+    ],
+    "7(b)": [
+     "M1.4.2",
+     "M1.4.1"
+    ],
+    "7(c)": [
+     "M1.4.1",
+     "M1.3.1"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "6e40b3808ad2",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "calc",
+    "8(d)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "M1.2.2",
+     "M1.3.1"
+    ],
+    "8(b)": [
+     "M1.2.2"
+    ],
+    "8(c)": [
+     "M1.2.2"
+    ],
+    "8(d)": [
+     "M1.2.1",
+     "P1.1.5"
+    ]
+   }
+  }
+ }
+}

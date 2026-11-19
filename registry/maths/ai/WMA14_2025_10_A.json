@@ -30,7 +30,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a4cb65778864",
+   "fingerprint": "815fddcd45cd",
    "kinds": {
     "3": "calc"
    },
@@ -63,7 +63,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "178b57a14dd5",
+   "fingerprint": "bd8c94a7306a",
    "kinds": {
     "5": "calc"
    },
@@ -95,10 +95,8 @@
   },
   "7": {
    "at": "2026-11-19",
-   "concerns": [
-    "7(a): the top of the numerator 1 in the fraction is cut off at the top crop edge"
-   ],
-   "fingerprint": "df5545fa6c90",
+   "concerns": [],
+   "fingerprint": "21f14d7e33fa",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -113,7 +111,8 @@
      "P4.6.3"
     ],
     "7(c)": [
-     "P4.6.4"
+     "P4.6.4",
+     "P3.3.2"
     ]
    }
   },
@@ -143,9 +142,9 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [
-    "9(b): the top of the vector arrow above AB is clipped at the top crop edge (with its tip in 9(a))"
+    "9: minor, the mark scheme crops for 9(a)-9(e) have a few stray pixels/sliver marks at the right edge/top (e.g. a fragment above the M1,A1 column of 9(b)) and the examiners notes lose a few characters at the left/right edge (e.g. \"nd B\" for \"and B\"); all parts, the stem and marks (3,2,3,2,4 = 14) are complete"
    ],
-   "fingerprint": "bc8a7f7235e1",
+   "fingerprint": "a576edf5c3bf",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

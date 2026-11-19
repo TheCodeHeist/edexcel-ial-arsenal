@@ -46,7 +46,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d7bb9fc57dd5",
+   "fingerprint": "d5312418806e",
    "kinds": {
     "2(i)": "calc",
     "2(ii)": "calc"
@@ -62,10 +62,8 @@
   },
   "3": {
    "at": "2026-11-19",
-   "concerns": [
-    "3(a): stem crop is cut off at the top, missing the power 2 in the numerator of f(x) (q3_stem.webp)"
-   ],
-   "fingerprint": "3f6b5e4324e3",
+   "concerns": [],
+   "fingerprint": "b69be6bdc5ab",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -181,8 +179,10 @@
   },
   "8": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b70364364285",
+   "concerns": [
+    "8: the mark-scheme and examiners-notes crops are clipped at the right edge - the marks column (e.g. \"ddM1 A1\", \"6 marks\") and the ends of several note lines (\"...as an inequality\", \"...non calculator method\", \"k > 1, k < -8\") are cut off."
+   ],
+   "fingerprint": "e58918cae19c",
    "kinds": {
     "8": "calc"
    },

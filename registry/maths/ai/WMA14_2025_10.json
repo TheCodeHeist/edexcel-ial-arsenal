@@ -40,15 +40,17 @@
   },
   "2": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7c4465fe58ed",
+   "concerns": [
+    "2: the mark scheme crop starts with stray fragments of the previous question (Q1) mark scheme/notes above the real Q2 rows: a \"B1: |x| < 2/5 ... Condone |x| < |-2/5|\" row and a \"(c) B1ft: (4/(2+5x))^2 ≈ 4 - 20x + 75x^2 ...\" block (about the first 40% of the purple MARK SCHEME section, down to just above the \"2 | Volume = ...\" rows). The actual Q2 rows (B1, M1A1, M1A1, total 5) are complete and add up; question and figure are complete; the notes are complete and for Q2"
+   ],
+   "fingerprint": "41d33db042f2",
    "kinds": {
     "2": "calc"
    },
    "topics": {
     "2": [
      "P4.6.1",
-     "P3.5.1"
+     "P3.5.2"
     ]
    }
   },
@@ -91,7 +93,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c2d3abdbc322",
+   "fingerprint": "b1f240392d00",
    "kinds": {
     "5": "calc"
    },

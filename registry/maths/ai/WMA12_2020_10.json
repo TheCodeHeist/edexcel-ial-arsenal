@@ -171,8 +171,11 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "0fd3a3a29ae8",
+   "concerns": [
+    "9(ii): the mark-scheme rows run on into part (b) (they include the (ii)(b) M1 A1 rows), so they total 6 marks for a 4-mark part",
+    "9(ii)(b): the mark-scheme rows repeat the whole (ii)(a) scheme (B1 M1 M1 A1*, both alternatives) before the (b) rows, so they show 6 marks for a 2-mark part"
+   ],
+   "fingerprint": "694afaeb1c7f",
    "kinds": {
     "9(i)": "calc",
     "9(ii)": "calc",

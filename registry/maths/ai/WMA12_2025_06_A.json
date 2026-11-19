@@ -16,7 +16,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d1c3640db05e",
+   "fingerprint": "bd885f14796b",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -34,7 +34,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "2878bbab9efa",
+   "fingerprint": "9f33ab3932eb",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -51,7 +51,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "20ea8289a440",
+   "fingerprint": "e995c4931168",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -65,14 +65,15 @@
      "P2.2.1"
     ],
     "3(c)": [
-     "P2.2.1"
+     "P2.2.1",
+     "P1.1.10"
     ]
    }
   },
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "17d49ae66695",
+   "fingerprint": "046266d7f8e3",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -84,7 +85,8 @@
      "P2.5.3"
     ],
     "4(b)": [
-     "P2.8.3"
+     "P2.8.3",
+     "P2.5.2"
     ],
     "4(c)": [
      "P2.8.3"
@@ -94,14 +96,15 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "918803846230",
+   "fingerprint": "70dbfb7a7f1c",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
    },
    "topics": {
     "5(a)": [
-     "P2.4.3"
+     "P2.4.3",
+     "P2.4.1"
     ],
     "5(b)": [
      "P2.4.3",
@@ -111,11 +114,13 @@
   },
   "6": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "3453d64c5112",
+   "concerns": [
+    "6(ii): the mark-scheme rows run on into parts (b) and (c) (B1 then M1 A1 A1 then M1 A1 dM1 A1), so they show 8 marks (and \"12 marks\") for a 1-mark part (a)"
+   ],
+   "fingerprint": "46270e07c160",
    "kinds": {
     "6(i)": "calc",
-    "6(ii)": "calc",
+    "6(ii)": "short",
     "6(ii)(b)": "calc",
     "6(ii)(c)": "calc"
    },
@@ -137,14 +142,15 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "4d37e5e37149",
+   "fingerprint": "df0e2c469105",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
    },
    "topics": {
     "7(a)": [
-     "P2.4.5"
+     "P2.4.5",
+     "P1.1.6"
     ],
     "7(b)": [
      "P2.4.5"
@@ -154,7 +160,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "35e37265d968",
+   "fingerprint": "ffdda3071837",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "short",
@@ -162,7 +168,8 @@
    },
    "topics": {
     "8(a)": [
-     "P2.7.1"
+     "P2.7.1",
+     "P1.1.9"
     ],
     "8(b)": [
      "P2.2.1"

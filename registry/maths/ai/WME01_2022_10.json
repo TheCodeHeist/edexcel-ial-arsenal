@@ -1,0 +1,173 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "ac27bc741950",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "M1.4.3"
+    ],
+    "1(b)": [
+     "M1.4.3"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "e9ff54b0f3e1",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "M1.6.1",
+     "M1.5.2"
+    ],
+    "2(b)": [
+     "M1.6.1",
+     "M1.5.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(a): mark-scheme rows end with the force diagram (S, F1, X, 2g) that is the header of the 3(b) mark scheme; it is shown under 3(a) instead of at the top of the 3(b) rows"
+   ],
+   "fingerprint": "1d2327fe0d86",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "M1.5.1",
+     "M1.5.2"
+    ],
+    "3(b)": [
+     "M1.5.3",
+     "M1.5.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "f543c344e49f",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "M1.4.1"
+    ],
+    "4(b)": [
+     "M1.4.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a): mark-scheme rows include the first 5(b) row (19.6 = 29.4t + 1/2 gt^2, M1A1) and the top of an N.B. line that is cut through, so the 5(a) marks shown add up to 5 not 3",
+    "5(b): mark-scheme rows start part-way through the N.B. line (top half of the formula cut off at the upper edge) and are missing the M1A1 equation row, which was left in 5(a)"
+   ],
+   "fingerprint": "00abf2f2efc2",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "draw"
+   },
+   "topics": {
+    "5(a)": [
+     "M1.3.1"
+    ],
+    "5(b)": [
+     "M1.3.1"
+    ],
+    "5(c)": [
+     "M1.3.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "2e2890272718",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "M1.2.1",
+     "M1.2.2"
+    ],
+    "6(b)": [
+     "M1.2.2",
+     "M1.3.1",
+     "M1.4.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): mark-scheme rows end with the line \"Attempt to find the acceleration. M1\" which belongs to 7(b); 7(a) rows therefore show 8 marks not 7",
+    "7(b): mark-scheme rows are missing the first row \"Attempt to find the acceleration. M1\" (left at the foot of the 7(a) rows), so only 3 of the 4 marks appear"
+   ],
+   "fingerprint": "6bf529972d3a",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "short"
+   },
+   "topics": {
+    "7(a)": [
+     "M1.4.4",
+     "M1.4.2"
+    ],
+    "7(b)": [
+     "M1.3.1",
+     "M1.4.4"
+    ],
+    "7(c)": [
+     "M1.4.4",
+     "M1.5.3"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "1975cc93e755",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "M1.2.1"
+    ],
+    "8(b)": [
+     "M1.2.2",
+     "M1.3.1"
+    ],
+    "8(c)": [
+     "M1.2.1",
+     "M1.2.2",
+     "M1.3.1"
+    ]
+   }
+  }
+ }
+}
