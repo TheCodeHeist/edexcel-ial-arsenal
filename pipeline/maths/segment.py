@@ -819,13 +819,31 @@ def clear_of_ink(doc, pno, y, limit=16):
     def blank(r):
         return min(s[r * stride + x0: r * stride + x1]) >= 140
 
+    def width(r):                               # how much of the row is ink, as a share of the column
+        row = s[r * stride + x0: r * stride + x1]
+        return sum(1 for v in row if v < 140) / max(1, x1 - x0)
+
     r = int(y * k)
-    if r >= h or blank(r):
+    if r >= h:
         return y
-    for rr in range(r - 1, max(0, r - int(limit * k)), -1):
-        if blank(rr):
-            return rr / k
-    return y
+    top = r
+    if not blank(r):
+        top = next((rr for rr in range(r - 1, max(0, r - int(limit * k)), -1) if blank(rr)), None)
+        if top is None:
+            return y
+    # Stacked maths can rise further in narrow pieces with gaps between them (a column vector's top entry,
+    # FP3 Jun 2023): keep climbing past narrow ink close above, up to 30 pt, never into a full line of text.
+    while True:
+        above = [rr for rr in range(top - 1, max(0, top - int(8 * k)), -1) if not blank(rr)]
+        if not above or r - above[-1] > 30 * k:
+            break
+        if max(width(rr) for rr in above) > 0.4:
+            break
+        nxt = next((rr for rr in range(above[0], max(0, above[0] - int(limit * k)), -1) if blank(rr)), None)
+        if nxt is None or r - nxt > 30 * k:
+            break
+        top = nxt
+    return top / k if top != r else y
 
 
 def clear_edges(doc, questions):
