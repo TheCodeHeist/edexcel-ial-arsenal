@@ -428,6 +428,14 @@ def label_columns(ms_doc):
         # a first column is narrow; a 'column' spanning most of the page is a notes box drawn round the text
         if right is not None and right - left < 150:
             out[pno] = (left - 3, right + 2)
+    # A page whose column is far from the paper's usual one measured a stray rule (a bracket, a box in the notes:
+    # P4 Oct 2023 p12 gave 40-61 where the labels sit at 78): use the usual column there.
+    if len(out) >= 3:
+        common = max(set(out.values()), key=lambda c: sum(abs(o[0] - c[0]) < 6 and abs(o[1] - c[1]) < 6
+                                                          for o in out.values()))
+        for pno, c in out.items():
+            if abs(c[0] - common[0]) > 15 or abs(c[1] - common[1]) > 15:
+                out[pno] = common
     return out
 
 
