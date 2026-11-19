@@ -6,6 +6,11 @@
    "fingerprint": "ba9978696dec",
    "kinds": {
     "1": "mcq"
+   },
+   "topics": {
+    "1": [
+     "73"
+    ]
    }
   },
   "10": {
@@ -14,6 +19,12 @@
    "fingerprint": "8168b55dd720",
    "kinds": {
     "10": "mcq"
+   },
+   "topics": {
+    "10": [
+     "77",
+     "66"
+    ]
    }
   },
   "11": {
@@ -22,6 +33,11 @@
    "fingerprint": "c21bef65de4e",
    "kinds": {
     "11": "calc"
+   },
+   "topics": {
+    "11": [
+     "54"
+    ]
    }
   },
   "12": {
@@ -29,7 +45,12 @@
    "concerns": [],
    "fingerprint": "5be2c3b17c68",
    "kinds": {
-    "12": "short"
+    "12": "calc"
+   },
+   "topics": {
+    "12": [
+     "44"
+    ]
    }
   },
   "13": {
@@ -39,6 +60,14 @@
    "kinds": {
     "13(a)": "short",
     "13(b)": "calc"
+   },
+   "topics": {
+    "13(a)": [
+     "79"
+    ],
+    "13(b)": [
+     "71"
+    ]
    }
   },
   "14": {
@@ -49,6 +78,20 @@
     "14(a)": "short",
     "14(b)(i)": "calc",
     "14(b)(ii)": "short"
+   },
+   "topics": {
+    "14(a)": [
+     "36"
+    ],
+    "14(b)(i)": [
+     "51",
+     "52"
+    ],
+    "14(b)(ii)": [
+     "51",
+     "39",
+     "40"
+    ]
    }
   },
   "15": {
@@ -58,6 +101,17 @@
    "kinds": {
     "15(a)": "calc",
     "15(b)": "calc"
+   },
+   "topics": {
+    "15(a)": [
+     "70",
+     "68",
+     "66"
+    ],
+    "15(b)": [
+     "69",
+     "68"
+    ]
    }
   },
   "16": {
@@ -67,19 +121,43 @@
    "kinds": {
     "16(a)": "short",
     "16(b)": "extended"
+   },
+   "topics": {
+    "16(a)": [
+     "77"
+    ],
+    "16(b)": [
+     "80",
+     "77",
+     "76"
+    ]
    }
   },
   "17": {
    "at": "2026-11-18",
-   "concerns": [
-    "17(c)(i): the fraction 1/(4 l^2 μ) is cut at the top edge, cutting through the numerator 1"
-   ],
-   "fingerprint": "c41deb8db64f",
+   "concerns": [],
+   "fingerprint": "dc5c9cc12058",
    "kinds": {
-    "17(a)": "short",
+    "17(a)": "draw",
     "17(b)": "short",
     "17(c)(i)": "short",
     "17(c)(ii)": "calc"
+   },
+   "topics": {
+    "17(a)": [
+     "41"
+    ],
+    "17(b)": [
+     "41"
+    ],
+    "17(c)(i)": [
+     "42",
+     "43"
+    ],
+    "17(c)(ii)": [
+     "42",
+     "43"
+    ]
    }
   },
   "18": {
@@ -88,9 +166,26 @@
    "fingerprint": "f6804d0e76bd",
    "kinds": {
     "18(a)": "calc",
-    "18(b)": "short",
+    "18(b)": "calc",
     "18(c)": "short",
     "18(d)": "short"
+   },
+   "topics": {
+    "18(a)": [
+     "45"
+    ],
+    "18(b)": [
+     "46",
+     "47"
+    ],
+    "18(c)": [
+     "47",
+     "55"
+    ],
+    "18(d)": [
+     "46",
+     "47"
+    ]
    }
   },
   "19": {
@@ -101,16 +196,35 @@
     "19(a)": "short",
     "19(b)": "short",
     "19(c)": "calc"
+   },
+   "topics": {
+    "19(a)": [
+     "60",
+     "59"
+    ],
+    "19(b)": [
+     "62",
+     "57",
+     "60"
+    ],
+    "19(c)": [
+     "60",
+     "58",
+     "65"
+    ]
    }
   },
   "2": {
    "at": "2026-11-18",
-   "concerns": [
-    "2: option D is cut off at the bottom edge, cutting through the denominator e of It/e"
-   ],
-   "fingerprint": "83ded69e64cd",
+   "concerns": [],
+   "fingerprint": "9f74babd66a4",
    "kinds": {
     "2": "mcq"
+   },
+   "topics": {
+    "2": [
+     "64"
+    ]
    }
   },
   "3": {
@@ -119,6 +233,11 @@
    "fingerprint": "f9daf0a5d211",
    "kinds": {
     "3": "mcq"
+   },
+   "topics": {
+    "3": [
+     "56"
+    ]
    }
   },
   "4": {
@@ -127,6 +246,11 @@
    "fingerprint": "d747a489a169",
    "kinds": {
     "4": "mcq"
+   },
+   "topics": {
+    "4": [
+     "39"
+    ]
    }
   },
   "5": {
@@ -135,16 +259,25 @@
    "fingerprint": "f5593f46a4ce",
    "kinds": {
     "5": "mcq"
+   },
+   "topics": {
+    "5": [
+     "79"
+    ]
    }
   },
   "6": {
    "at": "2026-11-18",
-   "concerns": [
-    "6: option D is cut off at the bottom edge, cutting through the denominator 2 of 3/2 ε"
-   ],
-   "fingerprint": "cce2fd3c7a64",
+   "concerns": [],
+   "fingerprint": "6e196866dcb5",
    "kinds": {
     "6": "mcq"
+   },
+   "topics": {
+    "6": [
+     "75",
+     "68"
+    ]
    }
   },
   "7": {
@@ -153,6 +286,12 @@
    "fingerprint": "0f460d4e9871",
    "kinds": {
     "7": "mcq"
+   },
+   "topics": {
+    "7": [
+     "41",
+     "40"
+    ]
    }
   },
   "8": {
@@ -161,6 +300,11 @@
    "fingerprint": "1375525ef0ae",
    "kinds": {
     "8": "mcq"
+   },
+   "topics": {
+    "8": [
+     "71"
+    ]
    }
   },
   "9": {
@@ -169,6 +313,12 @@
    "fingerprint": "4c1706dd3407",
    "kinds": {
     "9": "mcq"
+   },
+   "topics": {
+    "9": [
+     "63",
+     "61"
+    ]
    }
   }
  }

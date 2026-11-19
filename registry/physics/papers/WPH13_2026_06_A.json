@@ -48,8 +48,10 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.3g"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH13_2026_06_A/q1_a.webp",
@@ -85,8 +87,10 @@
      "label": "1(b)(i)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.3b"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q1_b_intro.webp",
@@ -136,8 +140,11 @@
      "label": "1(b)(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5i",
+      "3.3b"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q1_b_intro.webp",
@@ -187,8 +194,11 @@
      "label": "1(c)(i)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.4c",
+      "3.4a"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q1_c_intro.webp",
@@ -238,8 +248,11 @@
      "label": "1(c)(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5a",
+      "28"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q1_c_intro.webp",
@@ -311,8 +324,11 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.4e",
+      "3.5f"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH13_2026_06_A/q2_a.webp",
@@ -348,8 +364,11 @@
      "label": "2(b)(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5a",
+      "3.4c"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q2_b_intro.webp",
@@ -399,8 +418,10 @@
      "label": "2(b)(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5i"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q2_b_intro.webp",
@@ -450,8 +471,11 @@
      "label": "2(b)(iii)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.4e",
+      "3.3a"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q2_b_intro.webp",
@@ -523,8 +547,11 @@
      "label": "3(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.3c",
+      "3.3d"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH13_2026_06_A/q3_a.webp",
@@ -560,8 +587,11 @@
      "label": "3(b)(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5a",
+      "66"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q3_b_intro_1.webp",
@@ -623,8 +653,11 @@
      "label": "3(b)(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5a",
+      "71"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q3_b_intro_1.webp",
@@ -685,9 +718,12 @@
     {
      "label": "3(b)(iii)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "draw",
+     "topics": [
+      "3.5b",
+      "71"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q3_b_intro_1.webp",
@@ -749,8 +785,11 @@
      "label": "3(b)(iv)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5d",
+      "71"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q3_b_intro_1.webp",
@@ -812,8 +851,11 @@
      "label": "3(c)",
      "marks": 3,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.3h",
+      "77"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH13_2026_06_A/q3_c.webp",
@@ -883,8 +925,11 @@
      "label": "4(a)(i)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.3a",
+      "3.3d"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH13_2026_06_A/q4_a_i.webp",
@@ -920,8 +965,11 @@
      "label": "4(a)(ii)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.3d",
+      "3.4e"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "physics/WPH13_2026_06_A/q4_a_ii.webp",
@@ -957,8 +1005,11 @@
      "label": "4(b)(i)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5d",
+      "3.5e"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q4_b_intro.webp",
@@ -1008,8 +1059,11 @@
      "label": "4(b)(ii)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5a",
+      "3.4c"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q4_b_intro.webp",
@@ -1059,8 +1113,10 @@
      "label": "4(b)(iii)",
      "marks": 5,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5b"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q4_b_intro.webp",
@@ -1122,8 +1178,11 @@
      "label": "4(b)(iv)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5e",
+      "27"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q4_b_intro.webp",
@@ -1173,8 +1232,11 @@
      "label": "4(b)(v)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "3.5h",
+      "27"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "physics/WPH13_2026_06_A/q4_b_intro.webp",

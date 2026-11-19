@@ -3,16 +3,16 @@
    credit for where the paper came from. Questions not yet checked are listed with a link to the original. */
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/papers.css';
-import { SUBJECTS } from '../../../data/subjects';
+import { PAPER_SUBJECTS } from '../../../data/paperSubjects';
 import type { Crop, Paper, Question } from '../../../lib/papers/types';
 import { cropUrl } from '../../../lib/papers/crops';
 import { papersFor, papersForUnit, isPublished, seriesName, paperSlug, topicIndex, safeUrl } from '../../../lib/papers/registry';
 
 export function getStaticPaths() {
-  return SUBJECTS.flatMap((s) => papersFor(s.id).map((p) => ({ params: { subject: s.id, paper: paperSlug(p) }, props: { p } })));
+  return PAPER_SUBJECTS.flatMap((s) => papersFor(s.id).map((p) => ({ params: { subject: s.id, paper: paperSlug(p) }, props: { p } })));
 }
 const { p } = Astro.props as { p: Paper };
-const s = SUBJECTS.find((x) => x.id === p.subject)!;
+const s = PAPER_SUBJECTS.find((x) => x.id === p.subject)!;
 const unit = s.units.find((u) => u.code === p.unit);
 const topics = topicIndex(p.subject);
 const shown = p.questions.filter(isPublished).length;
@@ -20,7 +20,7 @@ const shown = p.questions.filter(isPublished).length;
 const siblings = papersForUnit(p.subject, p.unit);
 const at = siblings.findIndex((x) => x.id === p.id);
 const prev = siblings[at - 1], next = siblings[at + 1];
-const href = (x: Paper) => `/${s.id}/papers/${paperSlug(x)}/`;
+const href = (x: Paper) => `/papers/${s.id}/${paperSlug(x)}/`;
 
 /* Crops are 150 dpi; at 96 px per inch they come out the size of the printed page. */
 const size = (c: Crop) => ({ width: Math.round((c.w * 96) / 150), height: Math.round((c.h * 96) / 150) });
@@ -30,12 +30,12 @@ const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringi
 <Base
   title={`${p.unit} ${seriesName(p)}`}
   description={`Edexcel IAL ${s.name} ${p.unit} (${unit?.title}), ${seriesName(p)}: every question with its mark scheme.`}
-  tab={s.id}
+  tab="papers"
   status={{ label: `${p.unit} · ${seriesName(p)}`, hint: unit?.title ?? '' }}
   stats={[{ label: 'Marks', value: p.totalMarks }, { label: 'Time', value: `${p.durationMin} min` }, { label: 'Questions', value: p.questions.length }]}
 >
   <nav class="paper-nav" aria-label="Papers">
-    <a class="btn" href={`/${s.id}/papers/`}>All {s.name} papers</a>
+    <a class="btn" href={`/papers/${s.id}/`}>All {s.name} papers</a>
     <span class="spacer"></span>
     {prev && <a class="btn" href={href(prev)} rel="prev">← {seriesName(prev, true)}</a>}
     {next && <a class="btn" href={href(next)} rel="next">{seriesName(next, true)} →</a>}
@@ -75,7 +75,7 @@ const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringi
                 {part.qp.map((c) => <img class="crop" src={cropUrl(c)} {...size(c)} loading="lazy" decoding="async" alt={`Question ${part.label}`} />)}
                 {part.topics.length > 0 && (
                   <div class="topics">
-                    {part.topics.map((t) => topics.get(t)).filter(Boolean).map((t) => <span class="chip" title={t!.text}>{t!.short}</span>)}
+                    {part.topics.map((t) => topics.get(t)).filter(Boolean).map((t) => <a class="chip" href={`/papers/${s.id}/topics/${t!.id}/`} title={t!.text}>{t!.short}</a>)}
                   </div>
                 )}
               </div>
@@ -99,7 +99,7 @@ const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringi
   </ol>
 
   <nav class="paper-nav bottom" aria-label="Papers">
-    <a class="btn" href={`/${s.id}/papers/`}>All {s.name} papers</a>
+    <a class="btn" href={`/papers/${s.id}/`}>All {s.name} papers</a>
     <span class="spacer"></span>
     {prev && <a class="btn" href={href(prev)} rel="prev">← {seriesName(prev, true)}</a>}
     {next && <a class="btn" href={href(next)} rel="next">{seriesName(next, true)} →</a>}
