@@ -428,14 +428,28 @@ def label_columns(ms_doc):
         # a first column is narrow; a 'column' spanning most of the page is a notes box drawn round the text
         if right is not None and right - left < 150:
             out[pno] = (left - 3, right + 2)
-    # A page whose column is far from the paper's usual one measured a stray rule (a bracket, a box in the notes:
-    # P4 Oct 2023 p12 gave 40-61 where the labels sit at 78): use the usual column there.
-    if len(out) >= 3:
-        common = max(set(out.values()), key=lambda c: sum(abs(o[0] - c[0]) < 6 and abs(o[1] - c[1]) < 6
-                                                          for o in out.values()))
-        for pno, c in out.items():
-            if abs(c[0] - common[0]) > 15 or abs(c[1] - common[1]) > 15:
-                out[pno] = common
+    return out
+
+
+LABELISH = re.compile(r"^(?:\d{1,2}\s*\.?\s*)?\(?[a-h]\)?(?:\s*\(?(?:i|ii|iii|iv|v|vi)\)?)?$|^\d{1,2}\s*\(?[a-h]")
+
+
+def fix_columns(columns, lines):
+    """A page whose column holds no label while the paper's usual column does, on that page, measured a stray
+    rule (P4 Oct 2023 p12 gave 40-61 where '3(i)' sits at 78): use the usual column there. Pages whose own
+    column has its labels keep it (tables do change width between questions)."""
+    if len(columns) < 3:
+        return columns
+    common = max(set(columns.values()), key=lambda c: sum(abs(o[0] - c[0]) < 6 and abs(o[1] - c[1]) < 6
+                                                          for o in columns.values()))
+    out = dict(columns)
+    for pno, c in columns.items():
+        if c == common:
+            continue
+        mine = [l for l in lines if l.page == pno and c[0] <= l.x0 < c[1] and LABELISH.match(l.text)]
+        usual = [l for l in lines if l.page == pno and common[0] <= l.x0 < common[1] and LABELISH.match(l.text)]
+        if not mine and usual:
+            out[pno] = common
     return out
 
 
@@ -476,7 +490,7 @@ def ms_split(ms_doc, questions):
     """Mark-scheme segments, one per label in the 'Question Number' column, and each question's notes."""
     lines = join_totals(read_lines(ms_doc, skip_cover=False, top=20))
     items = content_items(ms_doc, lines)
-    columns = label_columns(ms_doc)
+    columns = fix_columns(label_columns(ms_doc), lines)
     fallback = label_x(lines)
     level1 = {}
     for q in questions:
