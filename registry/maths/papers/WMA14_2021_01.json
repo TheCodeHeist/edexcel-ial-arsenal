@@ -34,19 +34,21 @@
      "label": "1(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q1_a.webp",
        "w": 1016,
-       "h": 214,
+       "h": 159,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 57.7,
         "x1": 523.2,
-        "y1": 160.1
+        "y1": 133.9
        }
       }
      ],
@@ -64,24 +66,26 @@
        }
       }
      ],
-     "text": "1. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1 1 1   2 x x − 5 <   4 20 giving each coefficient in its simplest form. (5)",
+     "text": "1. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1 1 1   2 x x − 5 <   4 20",
      "kindGuessed": "calc"
     },
     {
      "label": "1(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q1_b.webp",
        "w": 1016,
-       "h": 190,
+       "h": 244,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 160.1,
+        "y0": 133.9,
         "x1": 523.2,
         "y1": 250.6
        }
@@ -101,7 +105,7 @@
        }
       }
      ],
-     "text": "1 By substituting x = into the answer for (a), 100 (b) find an approximation for 5 Give your answer in the form a b where a and b are integers to be found. (2)",
+     "text": "giving each coefficient in its simplest form. (5) 1 By substituting x = into the answer for (a), 100 (b) find an approximation for 5 Give your answer in the form a b where a and b are integers to be found. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -131,7 +135,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(a): text after the marks"
+   ]
   },
   {
    "id": "WMA14_2021_01_q2",
@@ -156,8 +163,11 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7",
+      "P4.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q2_a.webp",
@@ -193,8 +203,11 @@
      "label": "2(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.3",
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q2_b.webp",
@@ -253,7 +266,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_01_q3",
@@ -265,8 +278,10 @@
      "label": "3",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q3.webp",
@@ -285,13 +300,13 @@
       {
        "src": "maths/WMA14_2021_01/q3_ms.webp",
        "w": 1092,
-       "h": 383,
+       "h": 349,
        "region": {
         "page": 11,
         "x0": 36,
         "y0": 202.7,
         "x1": 560,
-        "y1": 386.2
+        "y1": 370.0
        }
       }
      ],
@@ -303,11 +318,11 @@
     {
      "src": "maths/WMA14_2021_01/q3_notes.webp",
      "w": 1092,
-     "h": 798,
+     "h": 832,
      "region": {
       "page": 11,
       "x0": 36,
-      "y0": 383.2,
+      "y0": 367.0,
       "x1": 560,
       "y1": 765.8
      }
@@ -338,8 +353,11 @@
      "label": "4(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1",
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q4_a.webp",
@@ -374,9 +392,11 @@
     {
      "label": "4(b)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q4_b.webp",
@@ -435,7 +455,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_01_q5",
@@ -447,8 +467,11 @@
      "label": "5",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q5.webp",
@@ -507,7 +530,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_01_q6",
@@ -517,13 +540,13 @@
     {
      "src": "maths/WMA14_2021_01/q6_stem.webp",
      "w": 1016,
-     "h": 101,
+     "h": 59,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.6,
       "x1": 523.2,
-      "y1": 105.7
+      "y1": 85.7
      }
     }
    ],
@@ -532,17 +555,20 @@
      "label": "6(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q6_a.webp",
        "w": 1016,
-       "h": 75,
+       "h": 117,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 105.7,
+        "y0": 85.7,
         "x1": 523.2,
         "y1": 141.2
        }
@@ -562,15 +588,18 @@
        }
       }
      ],
-     "text": "(a) Find x in terms of x and y. d (5)",
+     "text": "4y 2 + 3x = 6ye–2x d y (a) Find x in terms of x and y. d (5)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q6_b.webp",
@@ -629,11 +658,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA14_2021_01_q7",
@@ -658,8 +683,10 @@
      "label": "7(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q7_a.webp",
@@ -706,9 +733,12 @@
     {
      "label": "7(b)",
      "marks": 2,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "P4.6.2",
+      "P2.8.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q7_b.webp",
@@ -779,7 +809,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_01_q8",
@@ -791,8 +821,11 @@
      "label": "8",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q8.webp",
@@ -811,13 +844,13 @@
       {
        "src": "maths/WMA14_2021_01/q8_ms.webp",
        "w": 1092,
-       "h": 1439,
+       "h": 672,
        "region": {
         "page": 21,
         "x0": 36,
         "y0": 75.6,
         "x1": 560,
-        "y1": 766.0
+        "y1": 397.8
        }
       }
      ],
@@ -827,7 +860,19 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA14_2021_01/q8_notes.webp",
+     "src": "maths/WMA14_2021_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 780,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 394.8,
+      "x1": 560,
+      "y1": 768.5
+     }
+    },
+    {
+     "src": "maths/WMA14_2021_01/q8_notes_2.webp",
      "w": 1092,
      "h": 933,
      "region": {
@@ -864,8 +909,11 @@
      "label": "9(a)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P4.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q9_a.webp",
@@ -901,8 +949,11 @@
      "label": "9(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q9_b.webp",
@@ -961,7 +1012,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_01_q10",
@@ -973,17 +1024,19 @@
      "label": "10(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q10_a.webp",
        "w": 1016,
-       "h": 65,
+       "h": 71,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 65.3,
+        "y0": 62.6,
         "x1": 523.2,
         "y1": 96.1
        }
@@ -1010,8 +1063,11 @@
      "label": "10(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P4.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q10_b.webp",
@@ -1047,8 +1103,11 @@
      "label": "10(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q10_c.webp",
@@ -1084,8 +1143,10 @@
      "label": "10(d)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_01/q10_d.webp",
@@ -1154,24 +1215,9 @@
       "x1": 560,
       "y1": 101.0
      }
-    },
-    {
-     "src": "maths/WMA14_2021_01/q10_notes_4.webp",
-     "w": 1092,
-     "h": 66,
-     "region": {
-      "page": 28,
-      "x0": 36,
-      "y0": 737.6,
-      "x1": 560,
-      "y1": 768.8
-     }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "10(a): text cut by a crop edge"
-   ]
+   "check": "pending"
   }
  ]
 }

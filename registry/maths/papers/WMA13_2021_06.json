@@ -47,8 +47,12 @@
      "label": "1(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.4.2",
+      "P3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q1_a.webp",
@@ -84,8 +88,10 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q1_b.webp",
@@ -132,7 +138,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q2",
@@ -144,8 +150,10 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q2_a.webp",
@@ -181,8 +189,11 @@
      "label": "2(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.2",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q2_b.webp",
@@ -241,7 +252,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q3",
@@ -253,19 +264,21 @@
      "label": "3(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q3_i.webp",
        "w": 1016,
-       "h": 247,
+       "h": 185,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 57.6,
         "x1": 523.2,
-        "y1": 176.0
+        "y1": 146.2
        }
       }
      ],
@@ -283,24 +296,28 @@
        }
       }
      ],
-     "text": "3. (i) Find ∫ 12 d x ( ) 2 x 2 − 1 giving your answer in simplest form. (2)",
+     "text": "3. (i) Find ∫ 12 d x ( ) 2 x 2 − 1",
      "kindGuessed": "calc"
     },
     {
      "label": "3(ii)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.1",
+      "P3.5.1",
+      "P2.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q3_ii.webp",
        "w": 1016,
-       "h": 435,
+       "h": 497,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 176.0,
+        "y0": 146.2,
         "x1": 523.2,
         "y1": 384.5
        }
@@ -332,7 +349,7 @@
        }
       }
      ],
-     "text": "(ii) (a) Write 4 x + 3 in the form x + 2 B A + x + 2 where A and B are constants to be found (b) Hence find, using algebraic integration, the exact value of 5 x ∫ − 4 + 3 x d x + 2 − 8 giving your answer in simplest form. (6)",
+     "text": "giving your answer in simplest form. (2) (ii) (a) Write 4 x + 3 in the form x + 2 B A + x + 2 where A and B are constants to be found (b) Hence find, using algebraic integration, the exact value of 5 x ∫ − 4 + 3 x d x + 2 − 8 giving your answer in simplest form. (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -350,7 +367,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(i): text after the marks"
+   ]
   },
   {
    "id": "WMA13_2021_06_q4",
@@ -375,8 +395,10 @@
      "label": "4(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q4_a.webp",
@@ -412,8 +434,10 @@
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q4_b.webp",
@@ -449,8 +473,10 @@
      "label": "4(c)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q4_c.webp",
@@ -509,7 +535,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q5",
@@ -534,8 +560,10 @@
      "label": "5(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q5_a.webp",
@@ -583,8 +611,11 @@
      "label": "5(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4",
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q5_b.webp",
@@ -643,7 +674,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q6",
@@ -668,8 +699,10 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q6_a.webp",
@@ -717,8 +750,10 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q6_b.webp",
@@ -777,7 +812,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q7",
@@ -789,8 +824,11 @@
      "label": "7",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.3",
+      "P3.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q7.webp",
@@ -809,13 +847,13 @@
       {
        "src": "maths/WMA13_2021_06/q7_ms.webp",
        "w": 1092,
-       "h": 1244,
+       "h": 400,
        "region": {
         "page": 15,
         "x0": 36,
         "y0": 65.0,
         "x1": 560,
-        "y1": 661.7
+        "y1": 256.6
        }
       }
      ],
@@ -827,6 +865,18 @@
     {
      "src": "maths/WMA13_2021_06/q7_notes_1.webp",
      "w": 1092,
+     "h": 854,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 253.6,
+      "x1": 560,
+      "y1": 662.9
+     }
+    },
+    {
+     "src": "maths/WMA13_2021_06/q7_notes_2.webp",
+     "w": 1092,
      "h": 1433,
      "region": {
       "page": 16,
@@ -837,7 +887,7 @@
      }
     },
     {
-     "src": "maths/WMA13_2021_06/q7_notes_2.webp",
+     "src": "maths/WMA13_2021_06/q7_notes_3.webp",
      "w": 1092,
      "h": 1035,
      "region": {
@@ -874,8 +924,10 @@
      "label": "8(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q8_a.webp",
@@ -911,8 +963,10 @@
      "label": "8(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q8_b.webp",
@@ -948,8 +1002,11 @@
      "label": "8(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.2",
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q8_c.webp",
@@ -985,8 +1042,11 @@
      "label": "8(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.2",
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q8_d.webp",
@@ -1022,8 +1082,11 @@
      "label": "8(e)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q8_e.webp",
@@ -1082,7 +1145,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_06_q9",
@@ -1094,8 +1157,10 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q9_a.webp",
@@ -1131,8 +1196,10 @@
      "label": "9(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q9_b.webp",
@@ -1192,8 +1259,11 @@
      "label": "9(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3",
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_06/q9_c.webp",
@@ -1228,7 +1298,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA13_2021_06/q9_notes_1.webp",
+     "src": "maths/WMA13_2021_06/q9_notes.webp",
      "w": 1092,
      "h": 591,
      "region": {
@@ -1237,18 +1307,6 @@
       "y0": 318.7,
       "x1": 560,
       "y1": 602.3
-     }
-    },
-    {
-     "src": "maths/WMA13_2021_06/q9_notes_2.webp",
-     "w": 1092,
-     "h": 66,
-     "region": {
-      "page": 21,
-      "x0": 36,
-      "y0": 745.6,
-      "x1": 560,
-      "y1": 776.8
      }
     }
    ],

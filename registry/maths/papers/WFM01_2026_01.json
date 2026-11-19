@@ -47,19 +47,21 @@
      "label": "1(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q1_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 70,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 126.4,
         "x1": 559,
-        "y1": 176.1
+        "y1": 159.8
        }
       }
      ],
@@ -89,24 +91,26 @@
        }
       }
      ],
-     "text": "(a) Starting with the end points of this interval, use interval bisection to determine α to one decimal place. (4)",
+     "text": "(a) Starting with the end points of this interval, use interval bisection to determine α to one decimal place.",
      "kindGuessed": "calc"
     },
     {
      "label": "1(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q1_b.webp",
        "w": 1090,
-       "h": 79,
+       "h": 113,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 176.2,
+        "y0": 159.8,
         "x1": 559,
         "y1": 214.1
        }
@@ -150,15 +154,17 @@
        }
       }
      ],
-     "text": "(b) (i) Determine ∑. / f x (2)",
+     "text": "(4) (b) (i) Determine ∑. / f x (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "1(b)(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q1_b_ii.webp",
@@ -229,7 +235,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(a): text after the marks"
+   ]
   },
   {
    "id": "WFM01_2026_01_q2",
@@ -254,19 +263,21 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q2_a.webp",
        "w": 1090,
-       "h": 79,
+       "h": 45,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 83.2,
         "x1": 559,
-        "y1": 121.0
+        "y1": 104.4
        }
       }
      ],
@@ -296,24 +307,27 @@
        }
       }
      ],
-     "text": ". / O (a) Show that f i3 0 (2)",
+     "text": ". / O (a) Show that f i3 0",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.5",
+      "P1.1.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q2_b.webp",
        "w": 1090,
-       "h": 109,
+       "h": 144,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 121.1,
+        "y0": 104.4,
         "x1": 559,
         "y1": 172.9
        }
@@ -345,7 +359,7 @@
        }
       }
      ],
-     "text": "(b) Hence determine the exact range of values of λ for which the equation f z. / O 0 has no real solutions. (5)",
+     "text": "(2) (b) Hence determine the exact range of values of λ for which the equation f z. / O 0 has no real solutions. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -363,7 +377,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(a): text after the marks"
+   ]
   },
   {
    "id": "WFM01_2026_01_q3",
@@ -388,8 +405,11 @@
      "label": "3(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.3",
+      "FP1.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q3_a.webp",
@@ -437,8 +457,11 @@
      "label": "3(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.3",
+      "FP1.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q3_b.webp",
@@ -497,7 +520,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_01_q4",
@@ -522,8 +545,11 @@
      "label": "4(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.1",
+      "FP1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q4_a.webp",
@@ -559,8 +585,11 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.3",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q4_b.webp",
@@ -607,7 +636,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_01_q5",
@@ -632,19 +661,21 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q5_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 40,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 141.7,
         "x1": 559,
-        "y1": 177.2
+        "y1": 160.6
        }
       }
      ],
@@ -662,24 +693,26 @@
        }
       }
      ],
-     "text": "(a) Describe fully the single geometric transformation represented by the matrix A (2)",
+     "text": "(a) Describe fully the single geometric transformation represented by the matrix A",
      "kindGuessed": "short"
     },
     {
      "label": "5(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q5_b.webp",
        "w": 1090,
-       "h": 130,
+       "h": 165,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 177.2,
+        "y0": 160.6,
         "x1": 559,
         "y1": 239.3
        }
@@ -699,15 +732,18 @@
        }
       }
      ],
-     "text": ". / and scale factor 2 2 The matrix B represents an enlargement with centre 0 0 , (b) Write down matrix B (1)",
+     "text": "(2) . / and scale factor 2 2 The matrix B represents an enlargement with centre 0 0 , (b) Write down matrix B (1)",
      "kindGuessed": "calc"
     },
     {
      "label": "5(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.3",
+      "FP1.5.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q5_c.webp",
@@ -754,7 +790,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
   },
   {
    "id": "WFM01_2026_01_q6",
@@ -779,19 +818,21 @@
      "label": "6(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q6_a.webp",
        "w": 1090,
-       "h": 164,
+       "h": 110,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 109.5,
         "x1": 559,
-        "y1": 188.0
+        "y1": 162.0
        }
       }
      ],
@@ -821,24 +862,27 @@
        }
       }
      ],
-     "text": "(a) Write down, in terms of q or r (i) Ü 1 á (ii) Üá (1)",
+     "text": "(a) Write down, in terms of q or r (i) Ü 1 á",
      "kindGuessed": "short"
     },
     {
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.2",
+      "FP1.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q6_b.webp",
        "w": 1090,
-       "h": 265,
+       "h": 319,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 188.0,
+        "y0": 162.0,
         "x1": 559,
         "y1": 314.7
        }
@@ -870,15 +914,17 @@
        }
       }
      ],
-     "text": "Given that 1 1 1 1 O and Ü 2 2 1 á O 5 Ü á 2 (b) without finding α or β, show that r 2 1 br 1 c O 0 where b and c are integers to be determined. (3)",
+     "text": "(ii) Üá (1) Given that 1 1 1 1 O and Ü 2 2 1 á O 5 Ü á 2 (b) without finding α or β, show that r 2 1 br 1 c O 0 where b and c are integers to be determined. (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q6_c.webp",
@@ -937,7 +983,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(a): text after the marks"
+   ]
   },
   {
    "id": "WFM01_2026_01_q7",
@@ -947,11 +996,11 @@
     {
      "src": "maths/WFM01_2026_01/q7_stem.webp",
      "w": 1090,
-     "h": 75,
+     "h": 97,
      "region": {
       "page": 18,
       "x0": 36,
-      "y0": 76.0,
+      "y0": 65.5,
       "x1": 559,
       "y1": 111.5
      }
@@ -962,8 +1011,11 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.2",
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q7_a.webp",
@@ -999,8 +1051,10 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q7_b.webp",
@@ -1059,10 +1113,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM01_2026_01_q8",
@@ -1074,8 +1125,10 @@
      "label": "8(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q8_a.webp",
@@ -1111,8 +1164,10 @@
      "label": "8(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q8_b.webp",
@@ -1159,7 +1214,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_01_q9",
@@ -1184,8 +1239,11 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q9_a.webp",
@@ -1221,8 +1279,11 @@
      "label": "9(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q9_b.webp",
@@ -1258,8 +1319,11 @@
      "label": "9(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q9_c.webp",
@@ -1295,8 +1359,11 @@
      "label": "9(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q9_d.webp",
@@ -1355,7 +1422,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_01_q10",
@@ -1367,8 +1434,10 @@
      "label": "10",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_01/q10.webp",
@@ -1387,13 +1456,13 @@
       {
        "src": "maths/WFM01_2026_01/q10_ms.webp",
        "w": 1092,
-       "h": 498,
+       "h": 468,
        "region": {
         "page": 17,
         "x0": 36,
         "y0": 101.1,
         "x1": 560,
-        "y1": 339.5
+        "y1": 325.3
        }
       }
      ],
@@ -1405,11 +1474,11 @@
     {
      "src": "maths/WFM01_2026_01/q10_notes.webp",
      "w": 1092,
-     "h": 694,
+     "h": 723,
      "region": {
       "page": 17,
       "x0": 36,
-      "y0": 336.5,
+      "y0": 322.3,
       "x1": 560,
       "y1": 669.0
      }

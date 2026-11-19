@@ -34,8 +34,10 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q1_a.webp",
@@ -71,8 +73,11 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.1.1",
+      "FP3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q1_b.webp",
@@ -105,7 +110,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_06_q2",
@@ -130,8 +135,10 @@
      "label": "2(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q2_a.webp",
@@ -179,8 +186,10 @@
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q2_b.webp",
@@ -225,7 +234,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_06_q3",
@@ -235,11 +244,11 @@
     {
      "src": "maths/WFM03_2021_06/q3_stem.webp",
      "w": 1016,
-     "h": 89,
+     "h": 113,
      "region": {
       "page": 8,
       "x0": 36,
-      "y0": 75.1,
+      "y0": 63.4,
       "x1": 523.2,
       "y1": 117.4
      }
@@ -250,8 +259,10 @@
      "label": "3(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q3_a.webp",
@@ -299,8 +310,11 @@
      "label": "3(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.4",
+      "FP3.6.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q3_b.webp",
@@ -357,8 +371,10 @@
      "label": "4(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q4_i.webp",
@@ -394,8 +410,11 @@
      "label": "4(ii)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.3.2",
+      "FP3.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q4_ii.webp",
@@ -454,7 +473,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_06_q5",
@@ -479,8 +498,10 @@
      "label": "5(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q5_a.webp",
@@ -516,8 +537,10 @@
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q5_b.webp",
@@ -576,7 +599,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_06_q6",
@@ -586,13 +609,13 @@
     {
      "src": "maths/WFM03_2021_06/q6_stem.webp",
      "w": 1016,
-     "h": 338,
+     "h": 298,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 57.0,
       "x1": 523.2,
-      "y1": 218.4
+      "y1": 199.4
      }
     }
    ],
@@ -601,17 +624,20 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.1",
+      "FP3.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q6_a.webp",
        "w": 1016,
-       "h": 75,
+       "h": 115,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 218.8,
+        "y0": 199.4,
         "x1": 523.2,
         "y1": 254.2
        }
@@ -643,15 +669,17 @@
        }
       }
      ],
-     "text": "(a) show that an equation for Π1 is 3x + y − z = 3 (4)",
+     "text": "Given that l1 and l2 both lie in a common plane Π1 (a) show that an equation for Π1 is 3x + y − z = 3 (4)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q6_b.webp",
@@ -687,8 +715,11 @@
      "label": "6(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.1",
+      "FP3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q6_c.webp",
@@ -772,8 +803,11 @@
      "label": "6(d)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.2",
+      "FP3.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q6_d.webp",
@@ -843,8 +877,11 @@
      "label": "7(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.3",
+      "FP3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q7_i.webp",
@@ -880,8 +917,11 @@
      "label": "7(ii)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.3",
+      "FP3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q7_ii.webp",
@@ -952,7 +992,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2021_06_q8",
@@ -977,8 +1017,10 @@
      "label": "8(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q8_a.webp",
@@ -1014,8 +1056,10 @@
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q8_b.webp",
@@ -1051,8 +1095,10 @@
      "label": "8(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q8_c.webp",
@@ -1088,8 +1134,11 @@
      "label": "8(d)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.4",
+      "FP3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2021_06/q8_d.webp",
@@ -1120,20 +1169,6 @@
      ],
      "text": "The point V(−1, 0) and the point W(1, 0) both lie on H. The point Q(sec θ, −2 tan θ) also lies on H. Given that P, Q, V and W are distinct points on H and that the lines VP and WQ intersect at the point S, (d) show that, as θ varies, S lies on an ellipse with equation x y 2 2 + = 1 a b 2 2 where a and b are integers to be found. (7)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WFM03_2021_06/q8_notes.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 20,
-      "x0": 36,
-      "y0": 606.3,
-      "x1": 560,
-      "y1": 635.8
-     }
     }
    ],
    "check": "pending"

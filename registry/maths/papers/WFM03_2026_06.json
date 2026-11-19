@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q1_a.webp",
@@ -96,8 +98,10 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q1_b.webp",
@@ -145,8 +149,11 @@
      "label": "1(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.8",
+      "FP3.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q1_c.webp",
@@ -191,7 +198,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2026_06_q2",
@@ -216,8 +223,10 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q2_a.webp",
@@ -265,8 +274,10 @@
      "label": "2(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q2_b.webp",
@@ -314,8 +325,11 @@
      "label": "2(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.4",
+      "FP3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q2_c.webp",
@@ -363,8 +377,10 @@
      "label": "2(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q2_d.webp",
@@ -409,7 +425,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2026_06_q3",
@@ -421,8 +437,11 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.3.1",
+      "FP3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q3_a.webp",
@@ -458,8 +477,11 @@
      "label": "3(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.3.1",
+      "FP3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q3_b.webp",
@@ -492,7 +514,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2026_06_q4",
@@ -517,19 +539,21 @@
      "label": "4(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q4_a.webp",
        "w": 1090,
-       "h": 203,
+       "h": 169,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 365.7,
         "x1": 559,
-        "y1": 462.4
+        "y1": 446.4
        }
       }
      ],
@@ -559,24 +583,26 @@
        }
       }
      ],
-     "text": "(a) Show that O k 4 S 96 π sin θ cos d θ θ 0 (5)",
+     "text": "(a) Show that O k 4 S 96 π sin θ cos d θ θ 0",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q4_b.webp",
        "w": 1090,
-       "h": 153,
+       "h": 186,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 462.4,
+        "y0": 446.4,
         "x1": 559,
         "y1": 535.5
        }
@@ -608,15 +634,17 @@
        }
       }
      ],
-     "text": "Given that S = 27 3 π 5 (b) use algebraic integration to determine the value of k. (3)",
+     "text": "(5) Given that S = 27 3 π 5 (b) use algebraic integration to determine the value of k. (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "4(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q4_c.webp",
@@ -661,7 +689,10 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(a): text after the marks"
+   ]
   },
   {
    "id": "WFM03_2026_06_q5",
@@ -686,8 +717,10 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q5_a.webp",
@@ -735,8 +768,11 @@
      "label": "5(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.2",
+      "FP3.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q5_b.webp",
@@ -784,8 +820,10 @@
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q5_c.webp",
@@ -833,8 +871,10 @@
      "label": "5(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q5_d.webp",
@@ -879,7 +919,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2026_06_q6",
@@ -891,8 +931,10 @@
      "label": "6(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q6_a.webp",
@@ -928,8 +970,11 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.3",
+      "FP3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q6_b.webp",
@@ -965,8 +1010,11 @@
      "label": "6(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.3",
+      "FP3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q6_c.webp",
@@ -999,7 +1047,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2026_06_q7",
@@ -1024,8 +1072,11 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.3",
+      "FP3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q7_a.webp",
@@ -1073,8 +1124,11 @@
      "label": "7(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.3",
+      "FP3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q7_b.webp",
@@ -1122,8 +1176,10 @@
      "label": "7(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q7_c.webp",
@@ -1168,7 +1224,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2026_06_q8",
@@ -1178,11 +1234,11 @@
     {
      "src": "maths/WFM03_2026_06/q8_stem.webp",
      "w": 1090,
-     "h": 60,
+     "h": 79,
      "region": {
       "page": 28,
       "x0": 36,
-      "y0": 74.4,
+      "y0": 64.8,
       "x1": 559,
       "y1": 102.7
      }
@@ -1193,8 +1249,10 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q8_a.webp",
@@ -1242,8 +1300,11 @@
      "label": "8(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.1.1",
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q8_b.webp",
@@ -1291,8 +1352,10 @@
      "label": "8(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2026_06/q8_c.webp",

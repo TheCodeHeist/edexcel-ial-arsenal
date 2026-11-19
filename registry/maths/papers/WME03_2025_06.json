@@ -88,7 +88,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q1_b_1.webp",
+       "src": "maths/WME03_2025_06/q1_b.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -97,18 +97,6 @@
         "y0": 382.3,
         "x1": 559,
         "y1": 417.7
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q1_b_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 3,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
        }
       }
      ],
@@ -144,10 +132,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(b): runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2025_06_q2",
@@ -163,7 +148,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q2_1.webp",
+       "src": "maths/WME03_2025_06/q2.webp",
        "w": 1090,
        "h": 709,
        "region": {
@@ -173,29 +158,17 @@
         "x1": 559,
         "y1": 396.6
        }
-      },
-      {
-       "src": "maths/WME03_2025_06/q2_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 5,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME03_2025_06/q2_ms.webp",
        "w": 1092,
-       "h": 349,
+       "h": 525,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 201.0,
+        "y0": 116.4,
         "x1": 560,
         "y1": 367.8
        }
@@ -219,10 +192,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2: runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2025_06_q3",
@@ -288,7 +258,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q3_b_1.webp",
+       "src": "maths/WME03_2025_06/q3_b.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -297,18 +267,6 @@
         "y0": 295.9,
         "x1": 559,
         "y1": 331.3
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q3_b_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 7,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
        }
       }
      ],
@@ -368,10 +326,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "3(b): runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2025_06_q4",
@@ -381,13 +336,13 @@
     {
      "src": "maths/WME03_2025_06/q4_stem.webp",
      "w": 1090,
-     "h": 787,
+     "h": 733,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 434.2
+      "y1": 408.2
      }
     }
    ],
@@ -402,13 +357,13 @@
       {
        "src": "maths/WME03_2025_06/q4_a.webp",
        "w": 1090,
-       "h": 109,
+       "h": 137,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 434.2,
+        "y0": 408.2,
         "x1": 559,
-        "y1": 486.2
+        "y1": 473.8
        }
       }
      ],
@@ -426,7 +381,7 @@
        }
       }
      ],
-     "text": "(a) Show that the elastic energy stored in the string increases by 1 2 mga, as P moves downwards from C to D. (3)",
+     "text": "At the instant when P reaches the point D, where CD = 3 2 shown in Figure 3. (a) Show that the elastic energy stored in the string increases by 1 2 mga, as P moves downwards from C to D.",
      "kindGuessed": "calc"
     },
     {
@@ -437,51 +392,15 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q4_b_1.webp",
+       "src": "maths/WME03_2025_06/q4_b.webp",
        "w": 1090,
-       "h": 190,
+       "h": 215,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 486.2,
+        "y0": 473.8,
         "x1": 559,
         "y1": 576.6
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q4_b_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 9,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q4_b_3.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q4_b_4.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 11,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
        }
       }
      ],
@@ -499,7 +418,7 @@
        }
       }
      ],
-     "text": "Air resistance is modelled as a constant force of magnitude 1 5 mg Using the model and the work‑energy principle, (b) find V in terms of a and g. (5)",
+     "text": "(3) Air resistance is modelled as a constant force of magnitude 1 5 mg Using the model and the work‑energy principle, (b) find V in terms of a and g. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -527,23 +446,13 @@
       "x1": 560,
       "y1": 302.5
      }
-    },
-    {
-     "src": "maths/WME03_2025_06/q4_notes_3.webp",
-     "w": 1092,
-     "h": 370,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 103.7,
-      "x1": 560,
-      "y1": 281.0
-     }
     }
    ],
    "check": "pending",
    "risks": [
-    "4(b): runs across pages"
+    "4(a): text cut by a crop edge",
+    "stem: text cut by a crop edge",
+    "4(a): text after the marks"
    ]
   },
   {
@@ -589,11 +498,11 @@
       {
        "src": "maths/WME03_2025_06/q5_a_ms.webp",
        "w": 1092,
-       "h": 167,
+       "h": 198,
        "region": {
         "page": 13,
         "x0": 36,
-        "y0": 281.0,
+        "y0": 266.1,
         "x1": 560,
         "y1": 360.7
        }
@@ -647,7 +556,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q5_c_1.webp",
+       "src": "maths/WME03_2025_06/q5_c.webp",
        "w": 1090,
        "h": 154,
        "region": {
@@ -656,42 +565,6 @@
         "y0": 513.9,
         "x1": 559,
         "y1": 587.3
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q5_c_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 13,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q5_c_3.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q5_c_4.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 15,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
        }
       }
      ],
@@ -751,10 +624,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5(c): runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2025_06_q6",
@@ -844,7 +714,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q6_c_1.webp",
+       "src": "maths/WME03_2025_06/q6_c.webp",
        "w": 1090,
        "h": 553,
        "region": {
@@ -853,42 +723,6 @@
         "y0": 482.6,
         "x1": 559,
         "y1": 747.5
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q6_c_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 17,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q6_c_3.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 18,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q6_c_4.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 19,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
        }
       }
      ],
@@ -946,24 +780,9 @@
       "x1": 560,
       "y1": 291.2
      }
-    },
-    {
-     "src": "maths/WME03_2025_06/q6_notes_3.webp",
-     "w": 1092,
-     "h": 418,
-     "region": {
-      "page": 19,
-      "x0": 36,
-      "y0": 103.7,
-      "x1": 560,
-      "y1": 304.1
-     }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(c): runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME03_2025_06_q7",
@@ -1008,11 +827,11 @@
       {
        "src": "maths/WME03_2025_06/q7_a_ms.webp",
        "w": 1092,
-       "h": 513,
+       "h": 933,
        "region": {
         "page": 19,
         "x0": 36,
-        "y0": 304.1,
+        "y0": 102.6,
         "x1": 560,
         "y1": 549.8
        }
@@ -1066,7 +885,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2025_06/q7_c_1.webp",
+       "src": "maths/WME03_2025_06/q7_c.webp",
        "w": 1090,
        "h": 145,
        "region": {
@@ -1075,54 +894,6 @@
         "y0": 484.2,
         "x1": 559,
         "y1": 553.1
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q7_c_2.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 21,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q7_c_3.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 22,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q7_c_4.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 23,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
-       }
-      },
-      {
-       "src": "maths/WME03_2025_06/q7_c_5.webp",
-       "w": 1090,
-       "h": 38,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 136.0,
-        "x1": 559,
-        "y1": 154.0
        }
       }
      ],
@@ -1192,24 +963,9 @@
       "x1": 560,
       "y1": 481.3
      }
-    },
-    {
-     "src": "maths/WME03_2025_06/q7_notes_3.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 23,
-      "x0": 36,
-      "y0": 741.4,
-      "x1": 560,
-      "y1": 770.7
-     }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(c): runs across pages"
-   ]
+   "check": "pending"
   }
  ]
 }

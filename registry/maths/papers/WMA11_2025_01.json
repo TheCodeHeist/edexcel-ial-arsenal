@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q1.webp",
@@ -82,7 +85,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q2",
@@ -92,13 +95,13 @@
     {
      "src": "maths/WMA11_2025_01/q2_stem.webp",
      "w": 1090,
-     "h": 306,
+     "h": 268,
      "region": {
       "page": 4,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 203.5
+      "y1": 185.0
      }
     }
    ],
@@ -107,17 +110,20 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q2_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 143,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 203.5,
+        "y0": 185.0,
         "x1": 559,
         "y1": 253.3
        }
@@ -137,15 +143,18 @@
        }
       }
      ],
-     "text": "(a) show that the gradient of l1 is p 3, where p is a rational constant to be found. You must show each step of your working. (2)",
+     "text": "• the straight line l1 passes through A and B (a) show that the gradient of l1 is p 3, where p is a rational constant to be found. You must show each step of your working. (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.2",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q2_b.webp",
@@ -229,8 +238,10 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q3_a.webp",
@@ -266,8 +277,10 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q3_b.webp",
@@ -314,7 +327,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q4",
@@ -339,8 +352,10 @@
      "label": "4(i)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q4_i.webp",
@@ -388,8 +403,10 @@
      "label": "4(i)(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q4_i_b.webp",
@@ -437,8 +454,11 @@
      "label": "4(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q4_ii.webp",
@@ -486,8 +506,11 @@
      "label": "4(ii)(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3",
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q4_ii_b.webp",
@@ -558,7 +581,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q5",
@@ -583,8 +606,10 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q5_a.webp",
@@ -620,8 +645,11 @@
      "label": "5(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q5_b.webp",
@@ -657,8 +685,11 @@
      "label": "5(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q5_c.webp",
@@ -717,7 +748,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q6",
@@ -742,8 +773,11 @@
      "label": "6(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q6_a.webp",
@@ -779,8 +813,11 @@
      "label": "6(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q6_b.webp",
@@ -815,9 +852,11 @@
     {
      "label": "6(c)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q6_c.webp",
@@ -876,7 +915,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q7",
@@ -901,8 +940,11 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q7_a.webp",
@@ -938,8 +980,11 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.4",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q7_b.webp",
@@ -998,7 +1043,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q8",
@@ -1023,8 +1068,11 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q8_a.webp",
@@ -1060,8 +1108,11 @@
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q8_b.webp",
@@ -1097,8 +1148,10 @@
      "label": "8(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q8_c.webp",
@@ -1134,8 +1187,11 @@
      "label": "8(d)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q8_d.webp",
@@ -1194,7 +1250,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2025_01_q9",
@@ -1219,8 +1275,11 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.5",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q9_a.webp",
@@ -1256,8 +1315,11 @@
      "label": "9(b)",
      "marks": 2,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3",
+      "P1.1.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q9_b.webp",
@@ -1293,8 +1355,11 @@
      "label": "9(c)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q9_c.webp",
@@ -1354,8 +1419,11 @@
      "label": "9(d)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.8",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2025_01/q9_d.webp",
@@ -1409,18 +1477,6 @@
       "page": 23,
       "x0": 36,
       "y0": 43.1,
-      "x1": 560,
-      "y1": 790
-     }
-    },
-    {
-     "src": "maths/WMA11_2025_01/q9_notes_3.webp",
-     "w": 1092,
-     "h": 58,
-     "region": {
-      "page": 24,
-      "x0": 36,
-      "y0": 762.4,
       "x1": 560,
       "y1": 790
      }

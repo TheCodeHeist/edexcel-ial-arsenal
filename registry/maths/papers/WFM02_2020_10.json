@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q1_a.webp",
@@ -84,8 +86,10 @@
      "label": "1(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q1_b.webp",
@@ -121,8 +125,11 @@
      "label": "1(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.2",
+      "FP2.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q1_c.webp",
@@ -169,7 +176,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2020_10_q2",
@@ -181,8 +188,11 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q2_a.webp",
@@ -218,8 +228,10 @@
      "label": "2(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q2_b.webp",
@@ -255,8 +267,10 @@
      "label": "2(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q2_c.webp",
@@ -303,7 +317,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2020_10_q3",
@@ -315,8 +329,10 @@
      "label": "3",
      "marks": 9,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q3.webp",
@@ -335,11 +351,11 @@
       {
        "src": "maths/WFM02_2020_10/q3_ms.webp",
        "w": 1092,
-       "h": 919,
+       "h": 946,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 115.4,
+        "y0": 102.6,
         "x1": 560,
         "y1": 556.0
        }
@@ -375,8 +391,11 @@
      "label": "4(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1",
+      "FP2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q4_a.webp",
@@ -424,8 +443,11 @@
      "label": "4(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "FP2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q4_b.webp",
@@ -484,7 +506,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2020_10_q5",
@@ -496,8 +518,11 @@
      "label": "5",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "P2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q5.webp",
@@ -540,13 +565,13 @@
       {
        "src": "maths/WFM02_2020_10/q5_ms_3.webp",
        "w": 1092,
-       "h": 110,
+       "h": 62,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 437.0,
         "x1": 560,
-        "y1": 489.2
+        "y1": 466.4
        }
       }
      ],
@@ -558,11 +583,11 @@
     {
      "src": "maths/WFM02_2020_10/q5_notes.webp",
      "w": 1092,
-     "h": 396,
+     "h": 441,
      "region": {
       "page": 12,
       "x0": 36,
-      "y0": 486.2,
+      "y0": 464.6,
       "x1": 560,
       "y1": 675.7
      }
@@ -580,8 +605,10 @@
      "label": "6",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q6.webp",
@@ -642,19 +669,21 @@
      "label": "7(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q7_a.webp",
        "w": 1016,
-       "h": 72,
+       "h": 12,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 362.8,
         "x1": 523.2,
-        "y1": 396.6
+        "y1": 367.9
        }
       }
      ],
@@ -684,24 +713,26 @@
        }
       }
      ],
-     "text": "(a) Determine the polar coordinates of A. (6)",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
      "label": "7(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q7_b.webp",
        "w": 1016,
-       "h": 445,
+       "h": 505,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 396.6,
+        "y0": 367.9,
         "x1": 523.2,
         "y1": 609.7
        }
@@ -733,7 +764,7 @@
        }
       }
      ],
-     "text": "( ) π   The point B on the curve has polar coordinates a + 2 3 , 6     The finite region R, shown shaded in Figure 1, is bounded by the curve C and the line AB. (b) Use calculus to determine the exact area of the shaded region R. Give your answer in the form a ( ) 2 dπ − e + f 3 4 where d, e and f are integers. (7)",
+     "text": "(a) Determine the polar coordinates of A. (6) ( ) π   The point B on the curve has polar coordinates a + 2 3 , 6     The finite region R, shown shaded in Figure 1, is bounded by the curve C and the line AB. (b) Use calculus to determine the exact area of the shaded region R. Give your answer in the form a ( ) 2 dπ − e + f 3 4 where d, e and f are integers. (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -751,7 +782,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(a): text after the marks",
+    "7(a): text doesn't start at its label"
+   ]
   },
   {
    "id": "WFM02_2020_10_q8",
@@ -763,8 +798,10 @@
      "label": "8(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q8_a.webp",
@@ -812,8 +849,10 @@
      "label": "8(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q8_b.webp",
@@ -849,8 +888,10 @@
      "label": "8(c)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2020_10/q8_c.webp",
@@ -885,7 +926,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM02_2020_10/q8_notes_1.webp",
+     "src": "maths/WFM02_2020_10/q8_notes.webp",
      "w": 1092,
      "h": 578,
      "region": {
@@ -894,18 +935,6 @@
       "y0": 446.7,
       "x1": 560,
       "y1": 723.5
-     }
-    },
-    {
-     "src": "maths/WFM02_2020_10/q8_notes_2.webp",
-     "w": 1092,
-     "h": 60,
-     "region": {
-      "page": 19,
-      "x0": 36,
-      "y0": 739.7,
-      "x1": 560,
-      "y1": 768.2
      }
     }
    ],

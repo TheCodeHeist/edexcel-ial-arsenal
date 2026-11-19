@@ -1284,13 +1284,13 @@
       {
        "src": "maths/WST01_2024_06/q6_d.webp",
        "w": 1090,
-       "h": 91,
+       "h": 12,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 532.8,
         "x1": 559,
-        "y1": 575.6
+        "y1": 537.8
        }
       }
      ],
@@ -1320,7 +1320,7 @@
        }
       }
      ],
-     "text": "(d) Find (i) P((C ∪ S) ∩ G¢) (1) (ii) P(C ½ (S ∩ G))",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
@@ -1333,11 +1333,11 @@
       {
        "src": "maths/WST01_2024_06/q6_d_ii.webp",
        "w": 1090,
-       "h": 46,
+       "h": 125,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 575.6,
+        "y0": 537.8,
         "x1": 559,
         "y1": 597.2
        }
@@ -1369,7 +1369,7 @@
        }
       }
      ],
-     "text": "(2)",
+     "text": "(d) Find (i) P((C ∪ S) ∩ G¢) (1) (ii) P(C ½ (S ∩ G)) (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1412,7 +1412,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2024_06/q6_notes_1.webp",
+     "src": "maths/WST01_2024_06/q6_notes.webp",
      "w": 1092,
      "h": 582,
      "region": {
@@ -1422,24 +1422,12 @@
       "x1": 560,
       "y1": 789.8
      }
-    },
-    {
-     "src": "maths/WST01_2024_06/q6_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 12,
-      "x0": 36,
-      "y0": 728.2,
-      "x1": 560,
-      "y1": 757.6
-     }
     }
    ],
    "check": "pending",
    "risks": [
     "6(d): text after the marks",
-    "6(d)(ii): text doesn't start at its label"
+    "6(d): text doesn't start at its label"
    ]
   }
  ]

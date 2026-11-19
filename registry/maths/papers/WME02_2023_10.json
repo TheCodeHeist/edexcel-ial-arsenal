@@ -321,13 +321,13 @@
       {
        "src": "maths/WME02_2023_10/q3_ms.webp",
        "w": 1092,
-       "h": 1456,
+       "h": 953,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 57.9,
         "x1": 560,
-        "y1": 756.3
+        "y1": 515.0
        }
       }
      ],
@@ -337,7 +337,19 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WME02_2023_10/q3_notes.webp",
+     "src": "maths/WME02_2023_10/q3_notes_1.webp",
+     "w": 1092,
+     "h": 511,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 512.0,
+      "x1": 560,
+      "y1": 756.9
+     }
+    },
+    {
+     "src": "maths/WME02_2023_10/q3_notes_2.webp",
      "w": 1092,
      "h": 39,
      "region": {
@@ -359,13 +371,13 @@
     {
      "src": "maths/WME02_2023_10/q4_stem.webp",
      "w": 1090,
-     "h": 498,
+     "h": 458,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 295.6
+      "y1": 276.5
      }
     }
    ],
@@ -380,11 +392,11 @@
       {
        "src": "maths/WME02_2023_10/q4_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 115,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 295.9,
+        "y0": 276.5,
         "x1": 559,
         "y1": 331.3
        }
@@ -404,7 +416,7 @@
        }
       }
      ],
-     "text": "(a) Find the value of T1 (2)",
+     "text": "At time T1 seconds, P is at its highest point above the ground. (a) Find the value of T1 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -676,13 +688,13 @@
     {
      "src": "maths/WME02_2023_10/q6_stem.webp",
      "w": 1090,
-     "h": 904,
+     "h": 895,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 490.4
+      "y1": 486.0
      }
     }
    ],
@@ -697,11 +709,11 @@
       {
        "src": "maths/WME02_2023_10/q6_a.webp",
        "w": 1090,
-       "h": 81,
+       "h": 90,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 490.4,
+        "y0": 486.0,
         "x1": 559,
         "y1": 528.7
        }
@@ -721,7 +733,7 @@
        }
       }
      ],
-     "text": "(a) Show that T = 5 W (3)",
+     "text": "6 (a) Show that T = 5 W (3)",
      "kindGuessed": "calc"
     },
     {
@@ -762,11 +774,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2023_10_q7",
@@ -776,13 +784,13 @@
     {
      "src": "maths/WME02_2023_10/q7_stem.webp",
      "w": 1090,
-     "h": 403,
+     "h": 370,
      "region": {
       "page": 24,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 250.0
+      "y1": 234.0
      }
     }
    ],
@@ -797,11 +805,11 @@
       {
        "src": "maths/WME02_2023_10/q7_a.webp",
        "w": 1090,
-       "h": 98,
+       "h": 132,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 250.2,
+        "y0": 234.0,
         "x1": 559,
         "y1": 296.7
        }
@@ -821,7 +829,7 @@
        }
       }
      ],
-     "text": "(a) Show that y = 8 3 u (6)",
+     "text": "of P and Q before the collision. (a) Show that y = 8 3 u (6)",
      "kindGuessed": "calc"
     },
     {
@@ -871,13 +879,13 @@
       {
        "src": "maths/WME02_2023_10/q7_c.webp",
        "w": 1090,
-       "h": 304,
+       "h": 270,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 361.2,
         "x1": 559,
-        "y1": 506.5
+        "y1": 490.3
        }
       }
      ],
@@ -895,7 +903,7 @@
        }
       }
      ],
-     "text": "After the collision, Q hits a smooth fixed vertical wall that is perpendicular to the direction of motion of Q. Particle Q rebounds. The coefficient of restitution between Q and the wall is f. Given that there is no second collision between P and Q, (c) find the range of possible values of f. (3)",
+     "text": "After the collision, Q hits a smooth fixed vertical wall that is perpendicular to the direction of motion of Q. Particle Q rebounds. The coefficient of restitution between Q and the wall is f. Given that there is no second collision between P and Q, (c) find the range of possible values of f.",
      "kindGuessed": "calc"
     },
     {
@@ -908,11 +916,11 @@
       {
        "src": "maths/WME02_2023_10/q7_d.webp",
        "w": 1090,
-       "h": 183,
+       "h": 217,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 506.5,
+        "y0": 490.3,
         "x1": 559,
         "y1": 593.9
        }
@@ -932,37 +940,14 @@
        }
       }
      ],
-     "text": "Given that f = 1 4 (d) find, in terms of m and u, the magnitude of the impulse received by Q as a result of its impact with the wall. (2)",
+     "text": "(3) Given that f = 1 4 (d) find, in terms of m and u, the magnitude of the impulse received by Q as a result of its impact with the wall. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WME02_2023_10/q7_notes_1.webp",
-     "w": 1092,
-     "h": 42,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 770.1,
-      "x1": 560,
-      "y1": 790
-     }
-    },
-    {
-     "src": "maths/WME02_2023_10/q7_notes_2.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 14,
-      "x0": 36,
-      "y0": 701.6,
-      "x1": 560,
-      "y1": 731.9
-     }
-    }
-   ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(c): text after the marks"
+   ]
   }
  ]
 }

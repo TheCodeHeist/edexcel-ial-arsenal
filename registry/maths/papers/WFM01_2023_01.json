@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q1_a.webp",
@@ -84,8 +86,10 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q1_b.webp",
@@ -132,7 +136,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2023_01_q2",
@@ -144,8 +148,10 @@
      "label": "2",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q2.webp",
@@ -164,13 +170,13 @@
       {
        "src": "maths/WFM01_2023_01/q2_ms.webp",
        "w": 1092,
-       "h": 537,
+       "h": 485,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 105.8,
         "x1": 560,
-        "y1": 363.2
+        "y1": 338.3
        }
       }
      ],
@@ -180,27 +186,15 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM01_2023_01/q2_notes_1.webp",
+     "src": "maths/WFM01_2023_01/q2_notes.webp",
      "w": 1092,
-     "h": 545,
+     "h": 596,
      "region": {
       "page": 8,
       "x0": 36,
-      "y0": 360.4,
+      "y0": 335.7,
       "x1": 560,
       "y1": 621.5
-     }
-    },
-    {
-     "src": "maths/WFM01_2023_01/q2_notes_2.webp",
-     "w": 1092,
-     "h": 61,
-     "region": {
-      "page": 9,
-      "x0": 36,
-      "y0": 111.3,
-      "x1": 560,
-      "y1": 140.1
      }
     }
    ],
@@ -229,8 +223,10 @@
      "label": "3(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q3_a.webp",
@@ -249,11 +245,11 @@
       {
        "src": "maths/WFM01_2023_01/q3_a_ms.webp",
        "w": 1092,
-       "h": 158,
+       "h": 213,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 140.1,
+        "y0": 113.3,
         "x1": 560,
         "y1": 215.5
        }
@@ -266,8 +262,11 @@
      "label": "3(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.5",
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q3_b.webp",
@@ -303,8 +302,10 @@
      "label": "3(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q3_c.webp",
@@ -340,8 +341,10 @@
      "label": "3(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q3_d.webp",
@@ -425,19 +428,22 @@
      "label": "4(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1",
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q4_a.webp",
        "w": 1090,
-       "h": 262,
+       "h": 199,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 146.8,
         "x1": 559,
-        "y1": 272.0
+        "y1": 241.9
        }
       }
      ],
@@ -455,24 +461,26 @@
        }
       }
      ],
-     "text": "(a) (i) Determine ′f ( ) x (ii) Explain why 0.25 cannot be used as an initial approximation for α in the Newton-Raphson process. (iii) Taking 0.15 as a first approximation to α apply the Newton-Raphson process once to f(x) to obtain a second approximation to α Give your answer to 3 decimal places. (5)",
+     "text": "(a) (i) Determine ′f ( ) x (ii) Explain why 0.25 cannot be used as an initial approximation for α in the Newton-Raphson process. (iii) Taking 0.15 as a first approximation to α apply the Newton-Raphson process once to f(x) to obtain a second approximation to α",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 3,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q4_b.webp",
        "w": 1090,
-       "h": 140,
+       "h": 202,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 272.0,
+        "y0": 241.9,
         "x1": 559,
         "y1": 338.4
        }
@@ -492,8 +500,8 @@
        }
       }
      ],
-     "text": "Ä Ç to find another (b) Use linear interpolation once on the interval 0 15 0 25 . , . approximation to α Give your answer to 3 decimal places. (3)",
-     "kindGuessed": "calc"
+     "text": "Give your answer to 3 decimal places. (5) Ä Ç to find another (b) Use linear interpolation once on the interval 0 15 0 25 . , . approximation to α Give your answer to 3 decimal places. (3)",
+     "kindGuessed": "short"
     }
    ],
    "msNotes": [
@@ -522,7 +530,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(a): text after the marks"
+   ]
   },
   {
    "id": "WFM01_2023_01_q5",
@@ -547,8 +558,10 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q5_a.webp",
@@ -584,8 +597,10 @@
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q5_b.webp",
@@ -621,8 +636,11 @@
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.3",
+      "FP1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q5_c.webp",
@@ -681,7 +699,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2023_01_q6",
@@ -706,8 +724,10 @@
      "label": "6(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q6_a.webp",
@@ -743,8 +763,11 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q6_b.webp",
@@ -780,8 +803,11 @@
      "label": "6(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q6_c.webp",
@@ -852,7 +878,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2023_01_q7",
@@ -863,9 +889,11 @@
     {
      "label": "7(i)",
      "marks": 2,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q7_i.webp",
@@ -925,8 +953,10 @@
      "label": "7(i)(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q7_i_b.webp",
@@ -974,8 +1004,11 @@
      "label": "7(i)(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.3",
+      "FP1.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q7_i_c.webp",
@@ -1023,8 +1056,11 @@
      "label": "7(ii)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.1",
+      "FP1.5.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q7_ii.webp",
@@ -1095,7 +1131,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2023_01_q8",
@@ -1120,8 +1156,11 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.3",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q8_a.webp",
@@ -1157,8 +1196,11 @@
      "label": "8(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.3",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q8_b.webp",
@@ -1194,8 +1236,11 @@
      "label": "8(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.3",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q8_c.webp",
@@ -1254,7 +1299,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2023_01_q9",
@@ -1266,8 +1311,10 @@
      "label": "9",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2023_01/q9.webp",
@@ -1286,13 +1333,13 @@
       {
        "src": "maths/WFM01_2023_01/q9_ms.webp",
        "w": 1092,
-       "h": 735,
+       "h": 696,
        "region": {
         "page": 23,
         "x0": 36,
         "y0": 145.8,
         "x1": 560,
-        "y1": 497.8
+        "y1": 479.5
        }
       }
      ],
@@ -1304,11 +1351,11 @@
     {
      "src": "maths/WFM01_2023_01/q9_notes_1.webp",
      "w": 1092,
-     "h": 578,
+     "h": 616,
      "region": {
       "page": 23,
       "x0": 36,
-      "y0": 494.8,
+      "y0": 476.5,
       "x1": 560,
       "y1": 771.7
      }
@@ -1323,18 +1370,6 @@
       "y0": 68.0,
       "x1": 560,
       "y1": 182.9
-     }
-    },
-    {
-     "src": "maths/WFM01_2023_01/q9_notes_3.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 25,
-      "x0": 36,
-      "y0": 740.0,
-      "x1": 560,
-      "y1": 769.5
      }
     }
    ],

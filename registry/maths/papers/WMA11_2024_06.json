@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q1.webp",
@@ -54,13 +57,13 @@
       {
        "src": "maths/WMA11_2024_06/q1_ms.webp",
        "w": 1092,
-       "h": 160,
+       "h": 131,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 78.6,
         "x1": 560,
-        "y1": 154.9
+        "y1": 140.7
        }
       }
      ],
@@ -72,11 +75,11 @@
     {
      "src": "maths/WMA11_2024_06/q1_notes.webp",
      "w": 1092,
-     "h": 391,
+     "h": 421,
      "region": {
       "page": 7,
       "x0": 36,
-      "y0": 151.9,
+      "y0": 137.7,
       "x1": 560,
       "y1": 339.1
      }
@@ -94,8 +97,10 @@
      "label": "2(i)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q2_i.webp",
@@ -167,8 +172,10 @@
      "label": "2(i)(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q2_i_b.webp",
@@ -240,8 +247,10 @@
      "label": "2(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q2_ii.webp",
@@ -322,7 +331,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_06_q3",
@@ -347,8 +356,11 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.12",
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q3_a.webp",
@@ -367,11 +379,11 @@
       {
        "src": "maths/WMA11_2024_06/q3_a_ms.webp",
        "w": 1092,
-       "h": 1477,
+       "h": 1486,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 72.7,
+        "y0": 68.6,
         "x1": 560,
         "y1": 781.0
        }
@@ -384,8 +396,11 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.12",
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q3_b.webp",
@@ -445,13 +460,13 @@
     {
      "src": "maths/WMA11_2024_06/q4_stem.webp",
      "w": 1090,
-     "h": 338,
+     "h": 298,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 218.4
+      "y1": 199.4
      }
     }
    ],
@@ -460,17 +475,20 @@
      "label": "4(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.4",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q4_a.webp",
        "w": 1090,
-       "h": 135,
+       "h": 175,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 218.8,
+        "y0": 199.4,
         "x1": 559,
         "y1": 282.8
        }
@@ -490,15 +508,18 @@
        }
       }
      ],
-     "text": "(a) show that 2 + 26k + 169 = 0 k (3)",
+     "text": "Given that C1 and C2 meet at a single point P (a) show that 2 + 26k + 169 = 0 k (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q4_b.webp",
@@ -555,13 +576,13 @@
     {
      "src": "maths/WMA11_2024_06/q5_stem.webp",
      "w": 1090,
-     "h": 670,
+     "h": 611,
      "region": {
       "page": 10,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 378.1
+      "y1": 349.9
      }
     }
    ],
@@ -570,17 +591,19 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q5_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 133,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 378.1,
+        "y0": 349.9,
         "x1": 559,
         "y1": 413.5
        }
@@ -590,25 +613,28 @@
       {
        "src": "maths/WMA11_2024_06/q5_a_ms.webp",
        "w": 1092,
-       "h": 123,
+       "h": 127,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 43.6,
+        "y0": 41.6,
         "x1": 560,
         "y1": 101.9
        }
       }
      ],
-     "text": "(a) Find the area of the sector BDE, giving your answer in m 2 (2)",
+     "text": "π radians, angle EBD = 1.3 radians and AE = 12.2 m Angle BCD = 2 (a) Find the area of the sector BDE, giving your answer in m 2 (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q5_b.webp",
@@ -644,8 +670,11 @@
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q5_c.webp",
@@ -717,8 +746,11 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q6_a.webp",
@@ -754,8 +786,11 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.8",
+      "P1.1.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q6_b.webp",
@@ -814,7 +849,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_06_q7",
@@ -839,8 +874,10 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q7_a.webp",
@@ -888,8 +925,11 @@
      "label": "7(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q7_b.webp",
@@ -925,8 +965,11 @@
      "label": "7(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q7_c.webp",
@@ -973,7 +1016,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_06_q8",
@@ -998,19 +1041,22 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11",
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q8_a.webp",
        "w": 1090,
-       "h": 93,
+       "h": 41,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 114.0,
         "x1": 559,
-        "y1": 158.0
+        "y1": 133.2
        }
       }
      ],
@@ -1018,34 +1064,37 @@
       {
        "src": "maths/WMA11_2024_06/q8_a_ms.webp",
        "w": 1092,
-       "h": 305,
+       "h": 313,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 59.9,
+        "y0": 56.0,
         "x1": 560,
         "y1": 205.5
        }
       }
      ],
-     "text": "(a) Sketch the graph of C1 showing the coordinates of any points of intersection with the coordinate axes. (3)",
+     "text": "(a) Sketch the graph of C1 showing the coordinates of any points of intersection with",
      "kindGuessed": "draw"
     },
     {
      "label": "8(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q8_b.webp",
        "w": 1090,
-       "h": 242,
+       "h": 294,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 158.0,
+        "y0": 133.2,
         "x1": 559,
         "y1": 273.6
        }
@@ -1065,15 +1114,18 @@
        }
       }
      ],
-     "text": "The curve C2 has equation y = A x where A is a constant. (b) Show that the x coordinates of the points of intersection of C1 and C2 satisfy the equation x 4 – 4x 2 + A = 0 (1)",
+     "text": "the coordinate axes. (3) The curve C2 has equation y = A x where A is a constant. (b) Show that the x coordinates of the points of intersection of C1 and C2 satisfy the equation x 4 – 4x 2 + A = 0 (1)",
      "kindGuessed": "calc"
     },
     {
      "label": "8(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.4",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q8_c.webp",
@@ -1132,7 +1184,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "8(a): text after the marks"
+   ]
   },
   {
    "id": "WMA11_2024_06_q9",
@@ -1142,13 +1197,13 @@
     {
      "src": "maths/WMA11_2024_06/q9_stem.webp",
      "w": 1090,
-     "h": 200,
+     "h": 161,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 152.6
+      "y1": 133.9
      }
     }
    ],
@@ -1157,17 +1212,19 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q9_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 143,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 152.9,
+        "y0": 133.9,
         "x1": 559,
         "y1": 202.3
        }
@@ -1177,11 +1234,11 @@
       {
        "src": "maths/WMA11_2024_06/q9_a_ms_1.webp",
        "w": 1092,
-       "h": 284,
+       "h": 292,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 62.8,
+        "y0": 58.9,
         "x1": 560,
         "y1": 198.7
        }
@@ -1199,15 +1256,18 @@
        }
       }
      ],
-     "text": "(a) find an equation for l1, giving your answer in the form px + qy + r = 0 where p, q and r are integers to be found. (3)",
+     "text": "• the line l1 passes through A and B (a) find an equation for l1, giving your answer in the form px + qy + r = 0 where p, q and r are integers to be found. (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q9_b.webp",
@@ -1243,8 +1303,10 @@
      "label": "9(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q9_c.webp",
@@ -1328,8 +1390,11 @@
      "label": "10(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q10_a.webp",
@@ -1365,8 +1430,11 @@
      "label": "10(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q10_b.webp",
@@ -1425,7 +1493,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_06_q11",
@@ -1435,13 +1503,13 @@
     {
      "src": "maths/WMA11_2024_06/q11_stem.webp",
      "w": 1090,
-     "h": 696,
+     "h": 657,
      "region": {
       "page": 30,
       "x0": 36,
       "y0": 54.2,
       "x1": 559,
-      "y1": 388.1
+      "y1": 369.4
      }
     }
    ],
@@ -1450,17 +1518,20 @@
      "label": "11(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q11_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 115,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 388.5,
+        "y0": 369.4,
         "x1": 559,
         "y1": 423.9
        }
@@ -1470,25 +1541,28 @@
       {
        "src": "maths/WMA11_2024_06/q11_a_ms.webp",
        "w": 1092,
-       "h": 165,
+       "h": 171,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 68.9,
+        "y0": 65.9,
         "x1": 560,
         "y1": 147.7
        }
       }
      ],
-     "text": "(a) Find the coordinates of P. (2)",
+     "text": "The point P shown in Figure 4 is a maximum point on C1 (a) Find the coordinates of P. (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "11(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q11_b.webp",
@@ -1524,8 +1598,11 @@
      "label": "11(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_06/q11_c.webp",
@@ -1593,18 +1670,6 @@
       "y0": 40,
       "x1": 560,
       "y1": 432.9
-     }
-    },
-    {
-     "src": "maths/WMA11_2024_06/q11_notes_3.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 26,
-      "x0": 36,
-      "y0": 716.5,
-      "x1": 560,
-      "y1": 746.6
      }
     }
    ],

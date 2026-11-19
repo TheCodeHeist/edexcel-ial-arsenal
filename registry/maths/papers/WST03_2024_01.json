@@ -924,7 +924,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WST03_2024_01/q7_c_1.webp",
+       "src": "maths/WST03_2024_01/q7_c.webp",
        "w": 1090,
        "h": 153,
        "region": {
@@ -933,18 +933,6 @@
         "y0": 323.1,
         "x1": 559,
         "y1": 396.5
-       }
-      },
-      {
-       "src": "maths/WST03_2024_01/q7_c_2.webp",
-       "w": 1090,
-       "h": 80,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 673.8,
-        "x1": 559,
-        "y1": 711.7
        }
       }
      ],
@@ -962,41 +950,25 @@
        }
       }
      ],
-     "text": "A random sample of 3 small containers of fruit juice is taken. (c) Find the probability that the first container of fruit juice in this sample contains at least 5 ml more than the mean amount of fruit juice in all 3 small containers. (6) First released on AP - Edexcel Discord https://sites.google.com/view/ap-edexcel",
+     "text": "A random sample of 3 small containers of fruit juice is taken. (c) Find the probability that the first container of fruit juice in this sample contains at least 5 ml more than the mean amount of fruit juice in all 3 small containers. (6)",
      "kindGuessed": "calc"
     }
    ],
    "msNotes": [
     {
-     "src": "maths/WST03_2024_01/q7_notes_1.webp",
+     "src": "maths/WST03_2024_01/q7_notes.webp",
      "w": 1092,
-     "h": 786,
+     "h": 679,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 396.8,
       "x1": 560,
-      "y1": 773.5
-     }
-    },
-    {
-     "src": "maths/WST03_2024_01/q7_notes_2.webp",
-     "w": 1092,
-     "h": 55,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 763.9,
-      "x1": 560,
-      "y1": 790
+      "y1": 722.2
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(c): text after the marks",
-    "7(c): runs across pages"
-   ]
+   "check": "pending"
   }
  ]
 }

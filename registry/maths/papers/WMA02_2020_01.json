@@ -173,13 +173,13 @@
       {
        "src": "maths/WMA02_2020_01/q2_a.webp",
        "w": 1009,
-       "h": 227,
+       "h": 193,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 53.0,
         "x1": 520.1,
-        "y1": 161.5
+        "y1": 145.4
        }
       }
      ],
@@ -209,7 +209,7 @@
        }
       }
      ],
-     "text": "2. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1  1  2 − x 3   4 giving each coefficient in its simplest form. (5)",
+     "text": "2. (a) Find the first 4 terms, in ascending powers of x, of the binomial expansion of 1  1  2 − x 3   4 giving each coefficient in its simplest form.",
      "kindGuessed": "calc"
     },
     {
@@ -222,11 +222,11 @@
       {
        "src": "maths/WMA02_2020_01/q2_b.webp",
        "w": 1009,
-       "h": 148,
+       "h": 181,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 161.5,
+        "y0": 145.4,
         "x1": 520.1,
         "y1": 232.0
        }
@@ -246,11 +246,14 @@
        }
       }
      ],
-     "text": "1 By substituting x = 100 into the answer for (a), (b) find an approximation for 22, giving your answer to 4 decimal places. (2)",
+     "text": "(5) 1 By substituting x = 100 into the answer for (a), (b) find an approximation for 22, giving your answer to 4 decimal places. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(a): text after the marks"
+   ]
   },
   {
    "id": "WMA02_2020_01_q3",
@@ -425,13 +428,13 @@
       {
        "src": "maths/WMA02_2020_01/q4_b.webp",
        "w": 1009,
-       "h": 124,
+       "h": 90,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 161.1,
         "x1": 520.1,
-        "y1": 220.0
+        "y1": 203.8
        }
       }
      ],
@@ -461,7 +464,7 @@
        }
       }
      ],
-     "text": "(b) Solve the equation 14 – x = ½2x – 7½ + 1 (4)",
+     "text": "(b) Solve the equation 14 – x = ½2x – 7½ + 1",
      "kindGuessed": "calc"
     },
     {
@@ -474,11 +477,11 @@
       {
        "src": "maths/WMA02_2020_01/q4_c.webp",
        "w": 1009,
-       "h": 206,
+       "h": 240,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 220.0,
+        "y0": 203.8,
         "x1": 520.1,
         "y1": 318.4
        }
@@ -498,11 +501,14 @@
        }
       }
      ],
-     "text": "A straight line l has equation y = 1 2x + k, where k is a constant. Given that l does not meet or intersect y = ½2x – 7½ + 1 (c) find the range of possible values of k. (2)",
+     "text": "(4) A straight line l has equation y = 1 2x + k, where k is a constant. Given that l does not meet or intersect y = ½2x – 7½ + 1 (c) find the range of possible values of k. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(b): text after the marks"
+   ]
   },
   {
    "id": "WMA02_2020_01_q5",
@@ -679,18 +685,32 @@
       {
        "src": "maths/WMA02_2020_01/q6_ms.webp",
        "w": 1092,
-       "h": 1109,
+       "h": 1082,
        "region": {
         "page": 11,
         "x0": 36,
         "y0": 58.1,
         "x1": 560,
-        "y1": 590.2
+        "y1": 577.0
        }
       }
      ],
      "text": "6. Given that d y 4 x ln x x y = > 0 , > 0 d x y and y = 4 when x = 1, find the exact value of y when x = e. (7)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA02_2020_01/q6_notes.webp",
+     "w": 1092,
+     "h": 35,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 574.0,
+      "x1": 560,
+      "y1": 590.2
+     }
     }
    ],
    "check": "pending"
@@ -881,18 +901,32 @@
       {
        "src": "maths/WMA02_2020_01/q9_ms.webp",
        "w": 1092,
-       "h": 644,
+       "h": 614,
        "region": {
         "page": 15,
         "x0": 36,
         "y0": 70.7,
         "x1": 560,
-        "y1": 379.3
+        "y1": 365.1
        }
       }
      ],
      "text": "9. With respect to a fixed origin O, the lines l1 and l2 are given by the equations 2 − 2       r l : = 1 + λ 1 1     3  4  10 a         l : r = c + μ b 2     3 − 2     where a, b and c are constants and λ and μ are scalar parameters. Given that ● l1 and l2 meet when λ = –2 ● l1 and l2 are perpendicular find the value of a, the value of b and the value of c. (6)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA02_2020_01/q9_notes.webp",
+     "w": 1092,
+     "h": 37,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 362.1,
+      "x1": 560,
+      "y1": 379.3
+     }
     }
    ],
    "check": "pending"
@@ -905,13 +939,13 @@
     {
      "src": "maths/WMA02_2020_01/q10_stem.webp",
      "w": 1009,
-     "h": 102,
+     "h": 67,
      "region": {
       "page": 26,
       "x0": 36,
       "y0": 53.0,
       "x1": 520.1,
-      "y1": 101.4
+      "y1": 85.0
      }
     }
    ],
@@ -926,11 +960,11 @@
       {
        "src": "maths/WMA02_2020_01/q10_a.webp",
        "w": 1009,
-       "h": 90,
+       "h": 124,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 101.4,
+        "y0": 85.0,
         "x1": 520.1,
         "y1": 144.1
        }
@@ -950,7 +984,7 @@
        }
       }
      ],
-     "text": "(a) Find, in simplest form, d y x in terms of x and y. d (5)",
+     "text": "y 3 + 4x 2y – 2x = 0 (a) Find, in simplest form, d y x in terms of x and y. d (5)",
      "kindGuessed": "calc"
     },
     {
@@ -1023,13 +1057,13 @@
       {
        "src": "maths/WMA02_2020_01/q11_a.webp",
        "w": 1009,
-       "h": 162,
+       "h": 127,
        "region": {
         "page": 30,
         "x0": 36,
         "y0": 53.0,
         "x1": 520.1,
-        "y1": 130.2
+        "y1": 113.8
        }
       }
      ],
@@ -1083,7 +1117,7 @@
        }
       }
      ],
-     "text": "11. (a) Prove cos3 θ sin3 θ nπ ∈Z + ≡ cot 2 θ θ ≠ n 2sin θ 2cos θ 2 (4)",
+     "text": "11. (a) Prove cos3 θ sin3 θ nπ ∈Z + ≡ cot 2 θ θ ≠ n 2sin θ 2cos θ 2",
      "kindGuessed": "calc"
     },
     {
@@ -1096,11 +1130,11 @@
       {
        "src": "maths/WMA02_2020_01/q11_b.webp",
        "w": 1009,
-       "h": 323,
+       "h": 357,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 130.2,
+        "y0": 113.8,
         "x1": 520.1,
         "y1": 284.8
        }
@@ -1120,11 +1154,14 @@
        }
       }
      ],
-     "text": "π (b) Hence solve, for 0 < x < 2 x x cos 3 sin 3 + = x 5 cos 2 x x 2 sin 2 cos giving your answers to 3 decimal places where appropriate. (Solutions based entirely on graphical or numerical methods are not acceptable.) (4)",
+     "text": "(4) π (b) Hence solve, for 0 < x < 2 x x cos 3 sin 3 + = x 5 cos 2 x x 2 sin 2 cos giving your answers to 3 decimal places where appropriate. (Solutions based entirely on graphical or numerical methods are not acceptable.) (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "11(a): text after the marks"
+   ]
   },
   {
    "id": "WMA02_2020_01_q12",
@@ -1156,13 +1193,13 @@
       {
        "src": "maths/WMA02_2020_01/q12_ms.webp",
        "w": 1092,
-       "h": 1093,
+       "h": 1066,
        "region": {
         "page": 21,
         "x0": 36,
         "y0": 114.8,
         "x1": 560,
-        "y1": 639.1
+        "y1": 626.0
        }
       }
      ],
@@ -1174,11 +1211,11 @@
     {
      "src": "maths/WMA02_2020_01/q12_notes.webp",
      "w": 1092,
-     "h": 280,
+     "h": 308,
      "region": {
       "page": 21,
       "x0": 36,
-      "y0": 636.1,
+      "y0": 623.0,
       "x1": 560,
       "y1": 770.0
      }
@@ -1197,13 +1234,13 @@
     {
      "src": "maths/WMA02_2020_01/q13_stem.webp",
      "w": 1009,
-     "h": 108,
+     "h": 91,
      "region": {
       "page": 38,
       "x0": 36,
       "y0": 53.0,
       "x1": 520.1,
-      "y1": 104.4
+      "y1": 96.5
      }
     }
    ],
@@ -1218,11 +1255,11 @@
       {
        "src": "maths/WMA02_2020_01/q13_a.webp",
        "w": 1009,
-       "h": 91,
+       "h": 107,
        "region": {
         "page": 38,
         "x0": 36,
-        "y0": 104.4,
+        "y0": 96.5,
         "x1": 520.1,
         "y1": 147.6
        }
@@ -1242,7 +1279,7 @@
        }
       }
      ],
-     "text": "(a) Find d y x in terms of t, giving your answer as a simplified fraction. d (4)",
+     "text": "1 3 t (a) Find d y x in terms of t, giving your answer as a simplified fraction. d (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1734,7 +1771,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA02_2020_01/q15_notes_1.webp",
+     "src": "maths/WMA02_2020_01/q15_notes.webp",
      "w": 1092,
      "h": 76,
      "region": {
@@ -1743,18 +1780,6 @@
       "y0": 575.6,
       "x1": 560,
       "y1": 611.6
-     }
-    },
-    {
-     "src": "maths/WMA02_2020_01/q15_notes_2.webp",
-     "w": 1092,
-     "h": 80,
-     "region": {
-      "page": 28,
-      "x0": 36,
-      "y0": 669.5,
-      "x1": 560,
-      "y1": 707.1
      }
     }
    ],

@@ -384,13 +384,13 @@
       {
        "src": "maths/WST01_2021_06/q3_c.webp",
        "w": 1016,
-       "h": 130,
+       "h": 69,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 405.9,
         "x1": 523.2,
-        "y1": 467.5
+        "y1": 438.5
        }
       }
      ],
@@ -420,7 +420,7 @@
        }
       }
      ],
-     "text": "(c) Estimate (i) the mean length of these carrots, (2)",
+     "text": "(c) Estimate",
      "kindGuessed": "calc"
     },
     {
@@ -437,9 +437,9 @@
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 467.5,
+        "y0": 438.5,
         "x1": 523.2,
-        "y1": 501.2
+        "y1": 472.3
        }
       }
      ],
@@ -469,7 +469,7 @@
        }
       }
      ],
-     "text": "(ii) the standard deviation of the lengths of these carrots. (3)",
+     "text": "(i) the mean length of these carrots, (2)",
      "kindGuessed": "calc"
     },
     {
@@ -482,13 +482,13 @@
       {
        "src": "maths/WST01_2021_06/q3_d.webp",
        "w": 1016,
-       "h": 124,
+       "h": 123,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 501.2,
+        "y0": 472.3,
         "x1": 523.2,
-        "y1": 560.2
+        "y1": 531.4
        }
       }
      ],
@@ -506,7 +506,7 @@
        }
       }
      ],
-     "text": "A supermarket will only buy carrots with length between 9 cm and 22 cm. (d) Estimate the proportion of carrots from the farm that the supermarket will buy. (2)",
+     "text": "(ii) the standard deviation of the lengths of these carrots. (3) A supermarket will only buy carrots with length between 9 cm and 22 cm.",
      "kindGuessed": "calc"
     },
     {
@@ -519,11 +519,11 @@
       {
        "src": "maths/WST01_2021_06/q3_e.webp",
        "w": 1016,
-       "h": 249,
+       "h": 309,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 560.2,
+        "y0": 531.4,
         "x1": 523.2,
         "y1": 679.6
        }
@@ -543,7 +543,7 @@
        }
       }
      ],
-     "text": "Any carrots that the supermarket does not buy are sold as animal feed. The farm makes a profit of 2.2 pence on each carrot sold to the supermarket, a profit of 0.8 pence on each carrot longer than 22 cm and a loss of 1.2 pence on each carrot shorter than 9 cm. (e) Find an estimate of the mean profit per carrot made by the farm. (2)",
+     "text": "(d) Estimate the proportion of carrots from the farm that the supermarket will buy. (2) Any carrots that the supermarket does not buy are sold as animal feed. The farm makes a profit of 2.2 pence on each carrot sold to the supermarket, a profit of 0.8 pence on each carrot longer than 22 cm and a loss of 1.2 pence on each carrot shorter than 9 cm. (e) Find an estimate of the mean profit per carrot made by the farm. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -561,7 +561,13 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(c): text after the marks",
+    "3(c)(ii): ends with (2), not (3)",
+    "3(c)(ii): text doesn't start at its label",
+    "3(d): text after the marks"
+   ]
   },
   {
    "id": "WST01_2021_06_q4",
@@ -1224,7 +1230,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2021_06/q6_notes_1.webp",
+     "src": "maths/WST01_2021_06/q6_notes.webp",
      "w": 1092,
      "h": 646,
      "region": {
@@ -1233,18 +1239,6 @@
       "y0": 480.1,
       "x1": 560,
       "y1": 790
-     }
-    },
-    {
-     "src": "maths/WST01_2021_06/q6_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 748.0,
-      "x1": 560,
-      "y1": 777.5
      }
     }
    ],

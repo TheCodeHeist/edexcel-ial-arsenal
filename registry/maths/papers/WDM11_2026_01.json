@@ -120,7 +120,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2026_01/q1_notes_1.webp",
+     "src": "maths/WDM11_2026_01/q1_notes.webp",
      "w": 1092,
      "h": 622,
      "region": {
@@ -129,18 +129,6 @@
       "y0": 453.2,
       "x1": 560,
       "y1": 751.5
-     }
-    },
-    {
-     "src": "maths/WDM11_2026_01/q1_notes_2.webp",
-     "w": 1092,
-     "h": 132,
-     "region": {
-      "page": 7,
-      "x0": 36,
-      "y0": 142.9,
-      "x1": 560,
-      "y1": 205.6
      }
     }
    ],
@@ -151,7 +139,45 @@
    "number": 2,
    "marks": 6,
    "stem": [],
-   "parts": [],
+   "parts": [
+    {
+     "label": "2",
+     "marks": 6,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2026_01/q2.webp",
+       "w": 1090,
+       "h": 955,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 45.5,
+        "x1": 559,
+        "y1": 503.3
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2026_01/q2_ms.webp",
+       "w": 1092,
+       "h": 630,
+       "region": {
+        "page": 7,
+        "x0": 36,
+        "y0": 100.8,
+        "x1": 560,
+        "y1": 403.0
+       }
+      }
+     ],
+     "text": "2. I B 17 8 7 7 A 6 4 21 J 15 22 9 D 12 12 12 C 5 8 H 9 8 10 28 F 17 14 16 K E 25 16 G Figure 1 Figure 1 shows a network of paths between eleven viewing points in a bird sanctuary. The number on each arc represents the time taken, in minutes, to walk between the viewing points. Use Dijkstra’s algorithm to determine the quickest route from C to K. You should state the route and the quickest time.",
+     "kindGuessed": "calc"
+    }
+   ],
    "msNotes": [
     {
      "src": "maths/WDM11_2026_01/q2_notes.webp",
@@ -168,9 +194,7 @@
    ],
    "check": "pending",
    "risks": [
-    "Q2: parts add up to 0, total says 6",
-    "Q2: no marks found",
-    "MS 2(a): matches no part of the paper"
+    "2: text after the marks"
    ]
   },
   {
@@ -452,7 +476,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2026_01/q3_notes_1.webp",
+     "src": "maths/WDM11_2026_01/q3_notes.webp",
      "w": 1092,
      "h": 485,
      "region": {
@@ -461,18 +485,6 @@
       "y0": 536.6,
       "x1": 560,
       "y1": 768.5
-     }
-    },
-    {
-     "src": "maths/WDM11_2026_01/q3_notes_2.webp",
-     "w": 1092,
-     "h": 72,
-     "region": {
-      "page": 9,
-      "x0": 36,
-      "y0": 107.0,
-      "x1": 560,
-      "y1": 140.8
      }
     }
    ],
@@ -521,11 +533,11 @@
       {
        "src": "maths/WDM11_2026_01/q4_a_ms.webp",
        "w": 1092,
-       "h": 92,
+       "h": 156,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 140.8,
+        "y0": 110.0,
         "x1": 560,
         "y1": 184.5
        }
@@ -611,7 +623,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2026_01/q4_notes_1.webp",
+     "src": "maths/WDM11_2026_01/q4_notes.webp",
      "w": 1092,
      "h": 648,
      "region": {
@@ -620,18 +632,6 @@
       "y0": 458.3,
       "x1": 560,
       "y1": 768.6
-     }
-    },
-    {
-     "src": "maths/WDM11_2026_01/q4_notes_2.webp",
-     "w": 1092,
-     "h": 261,
-     "region": {
-      "page": 10,
-      "x0": 36,
-      "y0": 107.1,
-      "x1": 560,
-      "y1": 231.9
      }
     }
    ],
@@ -642,7 +642,45 @@
    "number": 5,
    "marks": 8,
    "stem": [],
-   "parts": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 8,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2026_01/q5.webp",
+       "w": 1090,
+       "h": 825,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 45.7,
+        "x1": 559,
+        "y1": 441.2
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2026_01/q5_ms.webp",
+       "w": 1092,
+       "h": 626,
+       "region": {
+        "page": 10,
+        "x0": 36,
+        "y0": 108.1,
+        "x1": 560,
+        "y1": 408.2
+       }
+      }
+     ],
+     "text": "5. A carpenter produces three sizes of table, small, medium and large. The information below shows the quantity of wood required for each size of table, the production time, the profit on each table and the totals available. Quantity of wood required Production time Profit Small 1.2 m 2 4 hours 20 minutes £275 2 Medium 2.5 m 7 hours 30 minutes £425 Large 2 4.0 m 9 hours £650 Total available 60 m 2 200 hours The tables produced should meet the following conditions • at least 40% of the tables must be small • there must be at least twice as many small tables as medium tables • no more than 30% of the tables must be large The carpenter wishes to maximise the profit from the sale of the tables. Let x be the number of small tables, y be the number of medium tables and z be the number of large tables produced. Formulate this as a linear programming problem. You should clearly state the objective function and give the constraints as simplified inequalities with integer coefficients.",
+     "kindGuessed": "calc"
+    }
+   ],
    "msNotes": [
     {
      "src": "maths/WDM11_2026_01/q5_notes.webp",
@@ -659,9 +697,7 @@
    ],
    "check": "pending",
    "risks": [
-    "Q5: parts add up to 0, total says 8",
-    "Q5: no marks found",
-    "MS 5: matches no part of the paper"
+    "5: text after the marks"
    ]
   },
   {
@@ -834,7 +870,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2026_01/q6_notes_1.webp",
+     "src": "maths/WDM11_2026_01/q6_notes.webp",
      "w": 1092,
      "h": 849,
      "region": {
@@ -843,18 +879,6 @@
       "y0": 354.3,
       "x1": 560,
       "y1": 761.7
-     }
-    },
-    {
-     "src": "maths/WDM11_2026_01/q6_notes_2.webp",
-     "w": 1092,
-     "h": 125,
-     "region": {
-      "page": 12,
-      "x0": 36,
-      "y0": 102.1,
-      "x1": 560,
-      "y1": 161.5
      }
     }
    ],
@@ -903,11 +927,11 @@
       {
        "src": "maths/WDM11_2026_01/q7_a_ms.webp",
        "w": 1092,
-       "h": 382,
+       "h": 513,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 161.5,
+        "y0": 98.4,
         "x1": 560,
         "y1": 344.3
        }
@@ -1067,7 +1091,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2026_01/q7_notes_1.webp",
+     "src": "maths/WDM11_2026_01/q7_notes.webp",
      "w": 1092,
      "h": 1321,
      "region": {
@@ -1076,18 +1100,6 @@
       "y0": 68.0,
       "x1": 560,
       "y1": 701.3
-     }
-    },
-    {
-     "src": "maths/WDM11_2026_01/q7_notes_2.webp",
-     "w": 1092,
-     "h": 36,
-     "region": {
-      "page": 14,
-      "x0": 36,
-      "y0": 266.9,
-      "x1": 560,
-      "y1": 283.7
      }
     }
    ],
@@ -1136,11 +1148,11 @@
       {
        "src": "maths/WDM11_2026_01/q8_a_ms.webp",
        "w": 1092,
-       "h": 671,
+       "h": 1051,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 283.7,
+        "y0": 100.8,
         "x1": 560,
         "y1": 604.9
        }

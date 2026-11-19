@@ -253,18 +253,6 @@
       "x1": 560,
       "y1": 537.8
      }
-    },
-    {
-     "src": "maths/WDM11_2024_06/q1_notes_3.webp",
-     "w": 1092,
-     "h": 94,
-     "region": {
-      "page": 8,
-      "x0": 36,
-      "y0": 190.5,
-      "x1": 560,
-      "y1": 235.0
-     }
     }
    ],
    "check": "pending"
@@ -312,11 +300,11 @@
       {
        "src": "maths/WDM11_2024_06/q2_a_ms_1.webp",
        "w": 1092,
-       "h": 311,
+       "h": 594,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 235.0,
+        "y0": 99.1,
         "x1": 560,
         "y1": 383.5
        }
@@ -414,7 +402,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2024_06/q2_notes_1.webp",
+     "src": "maths/WDM11_2024_06/q2_notes.webp",
      "w": 1092,
      "h": 1154,
      "region": {
@@ -423,18 +411,6 @@
       "y0": 68.0,
       "x1": 560,
       "y1": 621.5
-     }
-    },
-    {
-     "src": "maths/WDM11_2024_06/q2_notes_2.webp",
-     "w": 1092,
-     "h": 94,
-     "region": {
-      "page": 10,
-      "x0": 36,
-      "y0": 155.5,
-      "x1": 560,
-      "y1": 199.9
      }
     }
    ],
@@ -483,11 +459,11 @@
       {
        "src": "maths/WDM11_2024_06/q3_a_ms.webp",
        "w": 1092,
-       "h": 356,
+       "h": 625,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 199.9,
+        "y0": 70.8,
         "x1": 560,
         "y1": 370.3
        }
@@ -916,7 +892,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2024_06/q5_notes_1.webp",
+     "src": "maths/WDM11_2024_06/q5_notes.webp",
      "w": 1092,
      "h": 668,
      "region": {
@@ -925,18 +901,6 @@
       "y0": 363.9,
       "x1": 560,
       "y1": 684.1
-     }
-    },
-    {
-     "src": "maths/WDM11_2024_06/q5_notes_2.webp",
-     "w": 1092,
-     "h": 174,
-     "region": {
-      "page": 15,
-      "x0": 36,
-      "y0": 74.7,
-      "x1": 560,
-      "y1": 157.5
      }
     }
    ],
@@ -971,13 +935,13 @@
       {
        "src": "maths/WDM11_2024_06/q6_a.webp",
        "w": 1090,
-       "h": 102,
+       "h": 40,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 372.1,
         "x1": 559,
-        "y1": 420.9
+        "y1": 391.0
        }
       }
      ],
@@ -985,17 +949,17 @@
       {
        "src": "maths/WDM11_2024_06/q6_a_ms.webp",
        "w": 1092,
-       "h": 209,
+       "h": 390,
        "region": {
         "page": 15,
         "x0": 36,
-        "y0": 157.5,
+        "y0": 70.8,
         "x1": 560,
         "y1": 257.5
        }
       }
      ],
-     "text": "(a) Draw the activity network for the project described in the precedence table, using activity on arc and the minimum number of dummies. (5)",
+     "text": "(a) Draw the activity network for the project described in the precedence table, using",
      "kindGuessed": "draw"
     },
     {
@@ -1008,11 +972,11 @@
       {
        "src": "maths/WDM11_2024_06/q6_b_1.webp",
        "w": 1090,
-       "h": 594,
+       "h": 656,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 420.9,
+        "y0": 391.0,
         "x1": 559,
         "y1": 705.2
        }
@@ -1044,7 +1008,7 @@
        }
       }
      ],
-     "text": "0 2 4 6 8 10 12 14 16 18 20 22 B G H M A D C E F I J K Grid 1 A cascade chart for all the activities of the project, except activity L, is shown on Grid 1. The time taken to complete each activity is given in hours and each activity requires one worker. The project is to be completed in the minimum time using as few workers as possible. (b) State the critical activities of the project. (1)",
+     "text": "activity on arc and the minimum number of dummies. (5) 0 2 4 6 8 10 12 14 16 18 20 22 B G H M A D C E F I J K Grid 1 A cascade chart for all the activities of the project, except activity L, is shown on Grid 1. The time taken to complete each activity is given in hours and each activity requires one worker. The project is to be completed in the minimum time using as few workers as possible. (b) State the critical activities of the project. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -1124,7 +1088,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2024_06/q6_notes_1.webp",
+     "src": "maths/WDM11_2024_06/q6_notes.webp",
      "w": 1092,
      "h": 943,
      "region": {
@@ -1134,22 +1098,11 @@
       "x1": 560,
       "y1": 781.7
      }
-    },
-    {
-     "src": "maths/WDM11_2024_06/q6_notes_2.webp",
-     "w": 1092,
-     "h": 28,
-     "region": {
-      "page": 16,
-      "x0": 36,
-      "y0": 74.7,
-      "x1": 560,
-      "y1": 87.7
-     }
     }
    ],
    "check": "pending",
    "risks": [
+    "6(a): text after the marks",
     "6(b): runs across pages"
    ]
   },
@@ -1196,11 +1149,11 @@
       {
        "src": "maths/WDM11_2024_06/q7_a_ms.webp",
        "w": 1092,
-       "h": 199,
+       "h": 234,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 87.7,
+        "y0": 70.8,
         "x1": 560,
         "y1": 182.5
        }
@@ -1249,7 +1202,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2024_06/q7_notes_1.webp",
+     "src": "maths/WDM11_2024_06/q7_notes.webp",
      "w": 1092,
      "h": 591,
      "region": {
@@ -1258,18 +1211,6 @@
       "y0": 506.6,
       "x1": 560,
       "y1": 790
-     }
-    },
-    {
-     "src": "maths/WDM11_2024_06/q7_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 17,
-      "x0": 36,
-      "y0": 750.5,
-      "x1": 560,
-      "y1": 779.9
      }
     }
    ],

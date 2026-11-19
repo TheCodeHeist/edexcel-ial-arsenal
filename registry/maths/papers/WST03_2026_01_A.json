@@ -156,13 +156,13 @@
     {
      "src": "maths/WST03_2026_01_A/q2_stem.webp",
      "w": 1090,
-     "h": 114,
+     "h": 90,
      "region": {
       "page": 2,
       "x0": 36,
       "y0": 492.8,
       "x1": 559,
-      "y1": 546.7
+      "y1": 535.7
      }
     }
    ],
@@ -177,13 +177,13 @@
       {
        "src": "maths/WST03_2026_01_A/q2_a.webp",
        "w": 1090,
-       "h": 80,
+       "h": 50,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 546.7,
+        "y0": 535.7,
         "x1": 559,
-        "y1": 584.7
+        "y1": 559.4
        }
       }
      ],
@@ -213,7 +213,7 @@
        }
       }
      ],
-     "text": "(a) Show that X– is a biased estimator of α, and state the bias. (3)",
+     "text": "The mean of a random sample of size n is denoted by X–",
      "kindGuessed": "calc"
     },
     {
@@ -226,11 +226,11 @@
       {
        "src": "maths/WST03_2026_01_A/q2_b.webp",
        "w": 1090,
-       "h": 141,
+       "h": 194,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 584.7,
+        "y0": 559.4,
         "x1": 559,
         "y1": 652.3
        }
@@ -262,7 +262,7 @@
        }
       }
      ],
-     "text": "Given that Y = k X– is an unbiased estimator for α (b) find the value of k. (1)",
+     "text": "(a) Show that X– is a biased estimator of α, and state the bias. (3) Given that Y = k X– is an unbiased estimator for α (b) find the value of k. (1)",
      "kindGuessed": "calc"
     },
     {
@@ -329,7 +329,14 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(a): text cut by a crop edge",
+    "2(b): text cut by a crop edge",
+    "stem: text cut by a crop edge",
+    "2(a): text after the marks",
+    "2(a): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST03_2026_01_A_q3",
@@ -580,11 +587,11 @@
       {
        "src": "maths/WST03_2026_01_A/q5_a_ms_1.webp",
        "w": 1092,
-       "h": 131,
+       "h": 133,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 110.7,
+        "y0": 109.5,
         "x1": 560,
         "y1": 172.9
        }

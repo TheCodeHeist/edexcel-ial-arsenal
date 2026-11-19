@@ -570,13 +570,13 @@
     {
      "src": "maths/WST02_2025_10/q4_stem.webp",
      "w": 1090,
-     "h": 393,
+     "h": 367,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 245.2
+      "y1": 232.6
      }
     }
    ],
@@ -591,11 +591,11 @@
       {
        "src": "maths/WST02_2025_10/q4_a.webp",
        "w": 1090,
-       "h": 89,
+       "h": 115,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 245.2,
+        "y0": 232.6,
         "x1": 559,
         "y1": 287.4
        }
@@ -615,7 +615,7 @@
        }
       }
      ],
-     "text": "(a) Show that k = 1 48 (2)",
+     "text": "where k is a positive constant. (a) Show that k = 1 48 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1118,13 +1118,13 @@
       {
        "src": "maths/WST02_2025_10/q7_b.webp",
        "w": 1090,
-       "h": 330,
+       "h": 275,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 187.7,
         "x1": 559,
-        "y1": 345.9
+        "y1": 319.7
        }
       }
      ],
@@ -1142,7 +1142,7 @@
        }
       }
      ],
-     "text": "The continuous random variable Y has probability density function 4 y  y 3 1 4 y O f ( ) 255 \u001b 0 otherwise (b) Show that Var 1 66 \u001b\u001a O Y 7225 (Solutions relying entirely on calculator technology are not acceptable.) (5)",
+     "text": "The continuous random variable Y has probability density function 4 y  y 3 1 4 y O f ( ) 255 \u001b 0 otherwise (b) Show that Var 1 66 \u001b\u001a O Y 7225",
      "kindGuessed": "calc"
     },
     {
@@ -1155,11 +1155,11 @@
       {
        "src": "maths/WST02_2025_10/q7_c.webp",
        "w": 1090,
-       "h": 89,
+       "h": 143,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 345.9,
+        "y0": 319.7,
         "x1": 559,
         "y1": 387.9
        }
@@ -1179,7 +1179,7 @@
        }
       }
      ],
-     "text": "5 \u001b (c) Hence find Var 4 3 \u001a\u0019 Y (2)",
+     "text": "(Solutions relying entirely on calculator technology are not acceptable.) (5) 5 \u001b (c) Hence find Var 4 3 \u001a\u0019 Y (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1209,7 +1209,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(b): text after the marks"
+   ]
   }
  ]
 }

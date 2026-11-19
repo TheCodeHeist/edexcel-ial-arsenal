@@ -47,8 +47,11 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1",
+      "FP2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q1_a.webp",
@@ -84,8 +87,11 @@
      "label": "1(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "FP2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q1_b.webp",
@@ -132,7 +138,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_01_q2",
@@ -144,8 +150,10 @@
      "label": "2",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q2.webp",
@@ -164,13 +172,13 @@
       {
        "src": "maths/WFM02_2022_01/q2_ms.webp",
        "w": 1092,
-       "h": 566,
+       "h": 514,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 81.3,
         "x1": 560,
-        "y1": 352.4
+        "y1": 327.7
        }
       }
      ],
@@ -182,11 +190,11 @@
     {
      "src": "maths/WFM02_2022_01/q2_notes.webp",
      "w": 1092,
-     "h": 355,
+     "h": 406,
      "region": {
       "page": 9,
       "x0": 36,
-      "y0": 349.4,
+      "y0": 324.7,
       "x1": 560,
       "y1": 519.3
      }
@@ -217,8 +225,11 @@
      "label": "3(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q3_a.webp",
@@ -254,8 +265,10 @@
      "label": "3(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q3_b.webp",
@@ -302,7 +315,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_01_q4",
@@ -327,11 +340,13 @@
      "label": "4(a)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WFM02_2022_01/q4_a.webp",
+       "src": "maths/WFM02_2022_01/q4_a_1.webp",
        "w": 1016,
        "h": 287,
        "region": {
@@ -340,6 +355,18 @@
         "y0": 429.2,
         "x1": 523.2,
         "y1": 566.8
+       }
+      },
+      {
+       "src": "maths/WFM02_2022_01/q4_a_2.webp",
+       "w": 1016,
+       "h": 676,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 442.7,
+        "x1": 523.2,
+        "y1": 766.6
        }
       }
      ],
@@ -357,18 +384,20 @@
        }
       }
      ],
-     "text": "(a) Sketch, on the polar grid in Figure 2, r = 4 – 3 0  θ < 2π (i) the rest of the curve with equation 2 cos 6θ 0  θ < 2π (ii) the polar curve with equation r = 1 A spare copy of the grid is given on page 15. (3)",
+     "text": "(a) Sketch, on the polar grid in Figure 2, r = 4 – 3 0  θ < 2π (i) the rest of the curve with equation 2 cos 6θ 0  θ < 2π (ii) the polar curve with equation r = 1 A spare copy of the grid is given on page 15. (3) Only use this grid if you need to redraw your answer to part (a) π / 2 3π / 4 π / 4 π Initial line 0 2 4 5π / 4 7π / 4 3π / 2 Copy of Figure 2",
      "kindGuessed": "draw"
     },
     {
      "label": "4(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WFM02_2022_01/q4_b_1.webp",
+       "src": "maths/WFM02_2022_01/q4_b.webp",
        "w": 1016,
        "h": 193,
        "region": {
@@ -377,18 +406,6 @@
         "y0": 573.8,
         "x1": 523.2,
         "y1": 666.0
-       }
-      },
-      {
-       "src": "maths/WFM02_2022_01/q4_b_2.webp",
-       "w": 1016,
-       "h": 676,
-       "region": {
-        "page": 15,
-        "x0": 36,
-        "y0": 442.7,
-        "x1": 523.2,
-        "y1": 766.6
        }
       }
      ],
@@ -406,7 +423,7 @@
        }
       }
      ],
-     "text": "In part (b) you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (b) Determine the exact area enclosed between the two curves defined in part (a). (7) Only use this grid if you need to redraw your answer to part (a) π / 2 3π / 4 π / 4 π Initial line 0 2 4 5π / 4 7π / 4 3π / 2 Copy of Figure 2",
+     "text": "In part (b) you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. (b) Determine the exact area enclosed between the two curves defined in part (a). (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -438,8 +455,8 @@
    ],
    "check": "pending",
    "risks": [
-    "4(b): text after the marks",
-    "4(b): runs across pages"
+    "4(a): text after the marks",
+    "4(a): runs across pages"
    ]
   },
   {
@@ -465,8 +482,10 @@
      "label": "5(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q5_a.webp",
@@ -502,8 +521,10 @@
      "label": "5(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q5_b.webp",
@@ -562,7 +583,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_01_q6",
@@ -587,8 +608,11 @@
      "label": "6(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q6_a.webp",
@@ -624,8 +648,10 @@
      "label": "6(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q6_b.webp",
@@ -661,8 +687,10 @@
      "label": "6(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q6_c.webp",
@@ -698,8 +726,10 @@
      "label": "6(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q6_d.webp",
@@ -746,7 +776,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_01_q7",
@@ -771,8 +801,10 @@
      "label": "7(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q7_a.webp",
@@ -808,8 +840,11 @@
      "label": "7(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "P2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q7_b.webp",
@@ -868,7 +903,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_01_q8",
@@ -880,8 +915,10 @@
      "label": "8(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q8_a.webp",
@@ -917,8 +954,10 @@
      "label": "8(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q8_b.webp",
@@ -954,8 +993,10 @@
      "label": "8(c)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q8_c.webp",
@@ -991,8 +1032,11 @@
      "label": "8(d)",
      "marks": 5,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.1",
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_01/q8_d.webp",
@@ -1041,13 +1085,13 @@
     {
      "src": "maths/WFM02_2022_01/q8_notes_2.webp",
      "w": 1092,
-     "h": 1514,
+     "h": 1063,
      "region": {
       "page": 21,
       "x0": 36,
       "y0": 51.8,
       "x1": 560,
-      "y1": 777.8
+      "y1": 561.4
      }
     }
    ],

@@ -34,8 +34,10 @@
      "label": "1",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q1.webp",
@@ -54,13 +56,13 @@
       {
        "src": "maths/WMA14_2024_01/q1_ms.webp",
        "w": 1092,
-       "h": 307,
+       "h": 256,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 80.9,
         "x1": 560,
-        "y1": 227.9
+        "y1": 203.2
        }
       }
      ],
@@ -72,11 +74,11 @@
     {
      "src": "maths/WMA14_2024_01/q1_notes.webp",
      "w": 1092,
-     "h": 499,
+     "h": 550,
      "region": {
       "page": 7,
       "x0": 36,
-      "y0": 225.1,
+      "y0": 200.4,
       "x1": 560,
       "y1": 463.8
      }
@@ -107,8 +109,10 @@
      "label": "2(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q2_a.webp",
@@ -144,8 +148,11 @@
      "label": "2(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.3",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q2_b.webp",
@@ -192,7 +199,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_01_q3",
@@ -217,8 +224,10 @@
      "label": "3(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q3_a.webp",
@@ -254,8 +263,11 @@
      "label": "3(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q3_b.webp",
@@ -314,7 +326,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_01_q4",
@@ -339,8 +351,11 @@
      "label": "4(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.2",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q4_a.webp",
@@ -376,8 +391,11 @@
      "label": "4(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.2",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q4_b.webp",
@@ -436,7 +454,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_01_q5",
@@ -448,8 +466,10 @@
      "label": "5(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q5_a.webp",
@@ -485,8 +505,11 @@
      "label": "5(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q5_b.webp",
@@ -545,7 +568,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_01_q6",
@@ -555,13 +578,13 @@
     {
      "src": "maths/WMA14_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 262,
+     "h": 223,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 182.2
+      "y1": 163.4
      }
     }
    ],
@@ -570,17 +593,20 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 115,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 182.6,
+        "y0": 163.4,
         "x1": 559,
         "y1": 218.0
        }
@@ -600,15 +626,18 @@
        }
       }
      ],
-     "text": "(a) find the value of p, (4)",
+     "text": "Given that l1 and l2 intersect, (a) find the value of p, (4)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q6_b.webp",
@@ -644,8 +673,10 @@
      "label": "6(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q6_c.webp",
@@ -681,8 +712,11 @@
      "label": "6(d)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7",
+      "P4.7.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q6_d.webp",
@@ -753,19 +787,22 @@
      "label": "7(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2",
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q7_a.webp",
        "w": 1090,
-       "h": 205,
+       "h": 172,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 57.0,
         "x1": 559,
-        "y1": 155.0
+        "y1": 139.0
        }
       }
      ],
@@ -783,24 +820,27 @@
        }
       }
      ],
-     "text": "7. (a) Using the substitution u = 4x + 2 sin 2x , or otherwise, show that ° \u001a 1 2 . / x 1 x x x O ° 3 4 2 sin 2 2 2 e cos d e 1 8 0 (5)",
+     "text": "7. (a) Using the substitution u = 4x + 2 sin 2x , or otherwise, show that ° \u001a 1 2 . / x 1 x x x O ° 3 4 2 sin 2 2 2 e cos d e 1 8 0",
      "kindGuessed": "calc"
     },
     {
      "label": "7(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q7_b.webp",
        "w": 1090,
-       "h": 735,
+       "h": 768,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 155.0,
+        "y0": 139.0,
         "x1": 559,
         "y1": 507.3
        }
@@ -820,7 +860,7 @@
        }
       }
      ],
-     "text": "y R π O x 2 Figure 3 The curve shown in Figure 3, has equation y O x 1 x x 2 sin 2 6 e cos The region R, shown shaded in Figure 3, is bounded by the positive x-axis, the positive y-axis and the curve. The region R is rotated through 2π radians about the x-axis to form a solid. (b) Use the answer to part (a) to find the volume of the solid formed, giving the answer in simplest form. (3)",
+     "text": "(5) y R π O x 2 Figure 3 The curve shown in Figure 3, has equation y O x 1 x x 2 sin 2 6 e cos The region R, shown shaded in Figure 3, is bounded by the positive x-axis, the positive y-axis and the curve. The region R is rotated through 2π radians about the x-axis to form a solid. (b) Use the answer to part (a) to find the volume of the solid formed, giving the answer in simplest form. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -850,7 +890,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(a): text after the marks"
+   ]
   },
   {
    "id": "WMA14_2024_01_q8",
@@ -862,8 +905,11 @@
      "label": "8",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.1.1",
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q8.webp",
@@ -882,13 +928,13 @@
       {
        "src": "maths/WMA14_2024_01/q8_ms.webp",
        "w": 1092,
-       "h": 446,
+       "h": 394,
        "region": {
         "page": 21,
         "x0": 36,
         "y0": 96.1,
         "x1": 560,
-        "y1": 309.6
+        "y1": 284.9
        }
       }
      ],
@@ -900,11 +946,11 @@
     {
      "src": "maths/WMA14_2024_01/q8_notes.webp",
      "w": 1092,
-     "h": 754,
+     "h": 806,
      "region": {
       "page": 21,
       "x0": 36,
-      "y0": 306.8,
+      "y0": 282.1,
       "x1": 560,
       "y1": 668.2
      }
@@ -935,8 +981,11 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q9_a.webp",
@@ -984,8 +1033,11 @@
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_01/q9_b.webp",
@@ -1021,11 +1073,14 @@
      "label": "9(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1",
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WMA14_2024_01/q9_c_1.webp",
+       "src": "maths/WMA14_2024_01/q9_c.webp",
        "w": 1090,
        "h": 243,
        "region": {
@@ -1034,18 +1089,6 @@
         "y0": 482.7,
         "x1": 559,
         "y1": 599.0
-       }
-      },
-      {
-       "src": "maths/WMA14_2024_01/q9_c_2.webp",
-       "w": 1090,
-       "h": 80,
-       "region": {
-        "page": 32,
-        "x0": 36,
-        "y0": 673.8,
-        "x1": 559,
-        "y1": 711.7
        }
       }
      ],
@@ -1075,7 +1118,7 @@
        }
       }
      ],
-     "text": "(c) Show that all points on C satisfy the equation Ax 1 B x 3 2 2 3 3 y O 3 x 2 4 3 where A and B are constants to be found. (5) First released on AP - Edexcel Discord https://sites.google.com/view/ap-edexcel",
+     "text": "(c) Show that all points on C satisfy the equation Ax 1 B x 3 2 2 3 3 y O 3 x 2 4 3 where A and B are constants to be found. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1107,33 +1150,17 @@
     {
      "src": "maths/WMA14_2024_01/q9_notes_3.webp",
      "w": 1092,
-     "h": 272,
+     "h": 175,
      "region": {
       "page": 25,
       "x0": 36,
       "y0": 68.0,
       "x1": 560,
-      "y1": 197.9
-     }
-    },
-    {
-     "src": "maths/WMA14_2024_01/q9_notes_4.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 26,
-      "x0": 36,
-      "y0": 742.8,
-      "x1": 560,
-      "y1": 772.9
+      "y1": 151.5
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "9(c): text after the marks",
-    "9(c): runs across pages"
-   ]
+   "check": "pending"
   }
  ]
 }

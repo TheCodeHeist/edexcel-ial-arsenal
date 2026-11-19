@@ -35,8 +35,11 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.2",
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q1.webp",
@@ -55,18 +58,32 @@
       {
        "src": "maths/WFM01_2026_06_A/q1_ms.webp",
        "w": 1092,
-       "h": 1366,
+       "h": 1337,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 75.4,
         "x1": 560,
-        "y1": 730.7
+        "y1": 716.7
        }
       }
      ],
      "text": "1. In this question you must show all stages of your working. Solutions relying on calculator technology are not acceptable. 3 – 5z 2 + 14z + 15 f (z) = 4z Given that 1 – 2i is a root of the equation f (z) = 0 , determine the other two roots of the equation f (z) = 0 (5)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM01_2026_06_A/q1_notes.webp",
+     "w": 1092,
+     "h": 37,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 713.7,
+      "x1": 560,
+      "y1": 730.7
+     }
     }
    ],
    "check": "pending"
@@ -94,8 +111,11 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q2_a.webp",
@@ -131,8 +151,11 @@
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q2_b.webp",
@@ -165,7 +188,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q3",
@@ -190,8 +213,10 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q3_a.webp",
@@ -227,8 +252,10 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q3_b.webp",
@@ -264,8 +291,11 @@
      "label": "3(c)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.1",
+      "FP1.5.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q3_c.webp",
@@ -301,8 +331,11 @@
      "label": "3(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.4",
+      "FP1.5.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q3_d.webp",
@@ -335,7 +368,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q4",
@@ -360,8 +393,10 @@
      "label": "4(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q4_a.webp",
@@ -409,8 +444,10 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q4_b.webp",
@@ -458,8 +495,10 @@
      "label": "4(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q4_c.webp",
@@ -516,7 +555,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q5",
@@ -541,8 +580,10 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q5_a.webp",
@@ -590,8 +631,10 @@
      "label": "5(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q5_b.webp",
@@ -639,8 +682,11 @@
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.1.1",
+      "FP1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q5_c.webp",
@@ -697,7 +743,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q6",
@@ -722,8 +768,10 @@
      "label": "6(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q6_a.webp",
@@ -759,8 +807,11 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.5.3",
+      "FP1.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q6_b.webp",
@@ -796,8 +847,10 @@
      "label": "6(c)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q6_c.webp",
@@ -830,7 +883,7 @@
      "kindGuessed": "short"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q7",
@@ -855,8 +908,10 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q7_a.webp",
@@ -892,8 +947,11 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.2.3",
+      "FP1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q7_b.webp",
@@ -926,7 +984,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q8",
@@ -938,8 +996,10 @@
      "label": "8(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q8_a.webp",
@@ -975,8 +1035,10 @@
      "label": "8(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q8_b.webp",
@@ -1009,7 +1071,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q9",
@@ -1034,8 +1096,11 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q9_a.webp",
@@ -1083,8 +1148,11 @@
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q9_b.webp",
@@ -1156,8 +1224,11 @@
      "label": "9(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q9_c.webp",
@@ -1217,8 +1288,11 @@
      "label": "9(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP1.4.4",
+      "FP1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM01_2026_06_A/q9_d.webp",
@@ -1277,7 +1351,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

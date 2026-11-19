@@ -1368,20 +1368,20 @@
     {
      "label": "8(a)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WDM11_2025_01/q8_a.webp",
        "w": 1090,
-       "h": 63,
+       "h": 12,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 534.1,
         "x1": 559,
-        "y1": 563.9
+        "y1": 539.3
        }
       }
      ],
@@ -1399,24 +1399,24 @@
        }
       }
      ],
-     "text": "(a) State the four inequalities that define the feasible region. (2)",
-     "kindGuessed": "short"
+     "text": "",
+     "kindGuessed": "calc"
     },
     {
      "label": "8(b)",
      "marks": 5,
-     "kind": "calc",
+     "kind": "short",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WDM11_2025_01/q8_b.webp",
        "w": 1090,
-       "h": 224,
+       "h": 275,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 563.9,
+        "y0": 539.3,
         "x1": 559,
         "y1": 671.0
        }
@@ -1436,8 +1436,8 @@
        }
       }
      ],
-     "text": "The maximum value of the objective function is 628 9 The minimum value of the objective function is 260 7 (b) Determine the objective function, showing your working clearly. (5)",
-     "kindGuessed": "calc"
+     "text": "(a) State the four inequalities that define the feasible region. (2) The maximum value of the objective function is 628 9 The minimum value of the objective function is 260 7 (b) Determine the objective function, showing your working clearly. (5)",
+     "kindGuessed": "short"
     },
     {
      "label": "8(c)",
@@ -1479,7 +1479,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2025_01/q8_notes_1.webp",
+     "src": "maths/WDM11_2025_01/q8_notes.webp",
      "w": 1092,
      "h": 964,
      "region": {
@@ -1489,21 +1489,13 @@
       "x1": 560,
       "y1": 529.2
      }
-    },
-    {
-     "src": "maths/WDM11_2025_01/q8_notes_2.webp",
-     "w": 1092,
-     "h": 52,
-     "region": {
-      "page": 22,
-      "x0": 36,
-      "y0": 765.4,
-      "x1": 560,
-      "y1": 790
-     }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "8(a): text after the marks",
+    "8(a): text doesn't start at its label"
+   ]
   }
  ]
 }

@@ -321,13 +321,13 @@
     {
      "src": "maths/WME02_2023_06/q3_stem.webp",
      "w": 1090,
-     "h": 1029,
+     "h": 1003,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 57.4,
       "x1": 559,
-      "y1": 550.8
+      "y1": 538.6
      }
     }
    ],
@@ -342,11 +342,11 @@
       {
        "src": "maths/WME02_2023_06/q3_a.webp",
        "w": 1090,
-       "h": 89,
+       "h": 114,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 550.8,
+        "y0": 538.6,
         "x1": 559,
         "y1": 593.1
        }
@@ -378,7 +378,7 @@
        }
       }
      ],
-     "text": "= 16 (a) Show that d y 9 (5)",
+     "text": "The distance of the centre of mass of F from PQ is d = 16 (a) Show that d y 9 (5)",
      "kindGuessed": "calc"
     },
     {
@@ -1079,13 +1079,13 @@
       {
        "src": "maths/WME02_2023_06/q7_c.webp",
        "w": 1090,
-       "h": 74,
+       "h": 40,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 556.4,
         "x1": 559,
-        "y1": 591.4
+        "y1": 575.3
        }
       }
      ],
@@ -1103,7 +1103,7 @@
        }
       }
      ],
-     "text": "(c) Find the time taken for the ball to travel from A to B. (3)",
+     "text": "(c) Find the time taken for the ball to travel from A to B.",
      "kindGuessed": "calc"
     },
     {
@@ -1116,11 +1116,11 @@
       {
        "src": "maths/WME02_2023_06/q7_d_1.webp",
        "w": 1090,
-       "h": 159,
+       "h": 193,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 591.8,
+        "y0": 575.3,
         "x1": 559,
         "y1": 667.3
        }
@@ -1164,12 +1164,13 @@
        }
       }
      ],
-     "text": ". / the i j At the instant when the direction of motion of the ball is perpendicular to 3 1 2 ball is h metres above the ground. (d) Find the value of h. (6) (Total for Question 7 = 15 marks)",
+     "text": "(3) . / the i j At the instant when the direction of motion of the ball is perpendicular to 3 1 2 ball is h metres above the ground. (d) Find the value of h. (6) (Total for Question 7 = 15 marks)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
+    "7(c): text after the marks",
     "7(d): text after the marks",
     "7(d): runs across pages",
     "Q7: no '(Total for Question …)' line",

@@ -47,8 +47,11 @@
      "label": "1(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q1_a.webp",
@@ -96,8 +99,10 @@
      "label": "1(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q1_b.webp",
@@ -156,7 +161,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_06_q2",
@@ -168,8 +173,10 @@
      "label": "2(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q2_a.webp",
@@ -205,8 +212,10 @@
      "label": "2(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q2_b.webp",
@@ -253,7 +262,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_06_q3",
@@ -265,8 +274,11 @@
      "label": "3",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "P2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q3.webp",
@@ -313,7 +325,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_06_q4",
@@ -325,8 +337,10 @@
      "label": "4(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q4_a.webp",
@@ -374,8 +388,10 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q4_b.webp",
@@ -434,7 +450,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_06_q5",
@@ -459,19 +475,21 @@
      "label": "5(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q5_a.webp",
        "w": 1090,
-       "h": 98,
+       "h": 74,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 130.4,
         "x1": 559,
-        "y1": 176.9
+        "y1": 165.6
        }
       }
      ],
@@ -501,24 +519,27 @@
        }
       }
      ],
-     "text": "(a) determine d x in terms of d y x , d y y 3 2 x and y d d d 3 2 (4)",
+     "text": "(a) determine d x in terms of d y x , d y y 3 2 x and y d d d 3 2",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.2",
+      "FP2.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q5_b.webp",
        "w": 1090,
-       "h": 187,
+       "h": 210,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 176.9,
+        "y0": 165.6,
         "x1": 559,
         "y1": 266.0
        }
@@ -550,7 +571,7 @@
        }
       }
      ],
-     "text": "Given that y = 2 and d y x = 1 at x = 0 d (b) determine a series solution for y in ascending powers of x, up to and including the term in x3 , giving each coefficient in its simplest form. (4)",
+     "text": "(4) Given that y = 2 and d y x = 1 at x = 0 d (b) determine a series solution for y in ascending powers of x, up to and including the term in x3 , giving each coefficient in its simplest form. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -580,7 +601,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2022_06_q6",
@@ -605,8 +629,10 @@
      "label": "6(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q6_a.webp",
@@ -642,8 +668,10 @@
      "label": "6(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q6_b.webp",
@@ -717,8 +745,10 @@
      "label": "7(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q7_a.webp",
@@ -754,8 +784,11 @@
      "label": "7(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2",
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q7_b.webp",
@@ -814,7 +847,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2022_06_q8",
@@ -826,8 +859,10 @@
      "label": "8(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q8_a.webp",
@@ -863,8 +898,10 @@
      "label": "8(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q8_b.webp",
@@ -900,8 +937,10 @@
      "label": "8(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2022_06/q8_c.webp",
@@ -957,18 +996,6 @@
       "y0": 68.0,
       "x1": 560,
       "y1": 464.1
-     }
-    },
-    {
-     "src": "maths/WFM02_2022_06/q8_notes_3.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 19,
-      "x0": 36,
-      "y0": 729.6,
-      "x1": 560,
-      "y1": 759.0
      }
     }
    ],

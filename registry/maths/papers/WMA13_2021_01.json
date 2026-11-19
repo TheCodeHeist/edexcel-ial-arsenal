@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q1.webp",
@@ -54,13 +57,13 @@
       {
        "src": "maths/WMA13_2021_01/q1_ms.webp",
        "w": 1092,
-       "h": 277,
+       "h": 247,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 58.3,
         "x1": 560,
-        "y1": 190.8
+        "y1": 176.5
        }
       }
      ],
@@ -72,11 +75,11 @@
     {
      "src": "maths/WMA13_2021_01/q1_notes.webp",
      "w": 1092,
-     "h": 1181,
+     "h": 1222,
      "region": {
       "page": 7,
       "x0": 36,
-      "y0": 193.2,
+      "y0": 173.5,
       "x1": 560,
       "y1": 759.5
      }
@@ -106,9 +109,12 @@
     {
      "label": "2(i)",
      "marks": 3,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "draw",
+     "topics": [
+      "P3.1.4",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q2_i.webp",
@@ -144,8 +150,11 @@
      "label": "2(ii)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.4",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q2_ii.webp",
@@ -220,8 +229,10 @@
      "label": "3(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q3_a.webp",
@@ -257,8 +268,10 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q3_b.webp",
@@ -294,8 +307,10 @@
      "label": "3(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q3_c.webp",
@@ -354,7 +369,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q4",
@@ -379,8 +394,10 @@
      "label": "4(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q4_a.webp",
@@ -416,8 +433,10 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q4_b.webp",
@@ -453,8 +472,10 @@
      "label": "4(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q4_c.webp",
@@ -501,7 +522,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q5",
@@ -526,8 +547,10 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q5_a.webp",
@@ -563,8 +586,11 @@
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.2",
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q5_b.webp",
@@ -600,8 +626,10 @@
      "label": "5(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q5_c.webp",
@@ -637,8 +665,11 @@
      "label": "5(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q5_d.webp",
@@ -685,7 +716,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q6",
@@ -710,8 +741,11 @@
      "label": "6(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q6_a.webp",
@@ -747,8 +781,11 @@
      "label": "6(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.1",
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q6_b.webp",
@@ -784,8 +821,10 @@
      "label": "6(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q6_c.webp",
@@ -821,8 +860,10 @@
      "label": "6(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q6_d.webp",
@@ -881,7 +922,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q7",
@@ -893,19 +934,22 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3",
+      "P3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q7_a.webp",
        "w": 1016,
-       "h": 161,
+       "h": 126,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 109.8,
         "x1": 523.2,
-        "y1": 186.7
+        "y1": 169.9
        }
       }
      ],
@@ -923,24 +967,28 @@
        }
       }
      ],
-     "text": "7. (a) Prove that x x nπ sin 2 cos2 Z + ≡ cosec x x ≠ n ∈ cos x sin x 2 (3)",
+     "text": "7. (a) Prove that x x nπ sin 2 cos2 Z + ≡ cosec x x ≠ n ∈ cos x sin x 2",
      "kindGuessed": "calc"
     },
     {
      "label": "7(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.2",
+      "P3.2.1",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q7_b.webp",
        "w": 1016,
-       "h": 260,
+       "h": 296,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 187.3,
+        "y0": 169.9,
         "x1": 523.2,
         "y1": 311.8
        }
@@ -960,7 +1008,7 @@
        }
       }
      ],
-     "text": "π π (b) Hence solve, for − < θ < 2 2 θ θ sin 4 cos4 7 + + = 3cot 2 2 θ θ θ cos2 sin 2 giving your answers in radians to 3 significant figures where appropriate. (6)",
+     "text": "(3) π π (b) Hence solve, for − < θ < 2 2 θ θ sin 4 cos4 7 + + = 3cot 2 2 θ θ θ cos2 sin 2 giving your answers in radians to 3 significant figures where appropriate. (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -990,7 +1038,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(a): text after the marks"
+   ]
   },
   {
    "id": "WMA13_2021_01_q8",
@@ -1015,8 +1066,10 @@
      "label": "8(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q8_a.webp",
@@ -1051,9 +1104,11 @@
     {
      "label": "8(b)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q8_b.webp",
@@ -1089,8 +1144,10 @@
      "label": "8(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q8_c.webp",
@@ -1137,7 +1194,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q9",
@@ -1162,8 +1219,10 @@
      "label": "9(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q9_i.webp",
@@ -1199,8 +1258,10 @@
      "label": "9(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q9_ii.webp",
@@ -1247,7 +1308,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_01_q10",
@@ -1257,13 +1318,13 @@
     {
      "src": "maths/WMA13_2021_01/q10_stem.webp",
      "w": 1016,
-     "h": 118,
+     "h": 72,
      "region": {
       "page": 30,
       "x0": 36,
       "y0": 57.7,
       "x1": 523.2,
-      "y1": 113.9
+      "y1": 92.2
      }
     }
    ],
@@ -1272,17 +1333,20 @@
      "label": "10(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q10_a.webp",
        "w": 1016,
-       "h": 91,
+       "h": 136,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 113.9,
+        "y0": 92.2,
         "x1": 523.2,
         "y1": 157.0
        }
@@ -1302,26 +1366,29 @@
        }
       }
      ],
-     "text": "(a) Find d x y in terms of y. d (2)",
+     "text": "π x = 2 y x y 3sec 2 > 3 0 < < 4 (a) Find d x y in terms of y. d (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "10(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.3",
+      "P3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q10_b.webp",
        "w": 1016,
-       "h": 204,
+       "h": 170,
        "region": {
         "page": 30,
         "x0": 36,
         "y0": 163.6,
         "x1": 523.2,
-        "y1": 260.9
+        "y1": 244.8
        }
       }
      ],
@@ -1339,24 +1406,27 @@
        }
       }
      ],
-     "text": "(b) Hence show that y p d = x qx x −3 d where p is irrational and q is an integer, stating the values of p and q. (3)",
+     "text": "(b) Hence show that y p d = x qx x −3 d where p is irrational and q is an integer, stating the values of p and q.",
      "kindGuessed": "calc"
     },
     {
      "label": "10(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P3.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_01/q10_c.webp",
        "w": 1016,
-       "h": 148,
+       "h": 181,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 260.9,
+        "y0": 244.8,
         "x1": 523.2,
         "y1": 331.3
        }
@@ -1376,7 +1446,7 @@
        }
       }
      ],
-     "text": "π (c) Find the equation of the normal to C at the point where , giving your answer y = 12 in the form y = mx + c, giving m and c as exact irrational numbers. (5)",
+     "text": "(3) π (c) Find the equation of the normal to C at the point where , giving your answer y = 12 in the form y = mx + c, giving m and c as exact irrational numbers. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1416,21 +1486,14 @@
       "x1": 560,
       "y1": 70.6
      }
-    },
-    {
-     "src": "maths/WMA13_2021_01/q10_notes_4.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 24,
-      "x0": 36,
-      "y0": 742.0,
-      "x1": 560,
-      "y1": 771.4
-     }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "10(a): text cut by a crop edge",
+    "stem: text cut by a crop edge",
+    "10(b): text after the marks"
+   ]
   }
  ]
 }

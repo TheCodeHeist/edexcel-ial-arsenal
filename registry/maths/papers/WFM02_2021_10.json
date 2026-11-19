@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "FP2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q1.webp",
@@ -54,18 +57,32 @@
       {
        "src": "maths/WFM02_2021_10/q1_ms.webp",
        "w": 1092,
-       "h": 426,
+       "h": 398,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 148.0,
         "x1": 560,
-        "y1": 351.9
+        "y1": 338.8
        }
       }
      ],
      "text": "1. Solve the equation z5 − 32i = 0 giving each answer in the form reiθ where 0 < θ < 2π (4)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2021_10/q1_notes.webp",
+     "w": 1092,
+     "h": 35,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 335.8,
+      "x1": 560,
+      "y1": 351.9
+     }
     }
    ],
    "check": "pending"
@@ -80,8 +97,11 @@
      "label": "2",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q2.webp",
@@ -100,13 +120,13 @@
       {
        "src": "maths/WFM02_2021_10/q2_ms.webp",
        "w": 1092,
-       "h": 704,
+       "h": 674,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 128.5,
         "x1": 560,
-        "y1": 465.8
+        "y1": 451.3
        }
       }
      ],
@@ -118,11 +138,11 @@
     {
      "src": "maths/WFM02_2021_10/q2_notes.webp",
      "w": 1092,
-     "h": 571,
+     "h": 602,
      "region": {
       "page": 9,
       "x0": 36,
-      "y0": 462.8,
+      "y0": 448.3,
       "x1": 560,
       "y1": 736.5
      }
@@ -140,8 +160,11 @@
      "label": "3",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q3.webp",
@@ -174,7 +197,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_10_q4",
@@ -186,8 +209,10 @@
      "label": "4(a)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q4_a.webp",
@@ -223,8 +248,10 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q4_b.webp",
@@ -257,7 +284,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_10_q5",
@@ -282,19 +309,21 @@
      "label": "5(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q5_a.webp",
        "w": 1016,
-       "h": 214,
+       "h": 164,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 81.2,
         "x1": 523.2,
-        "y1": 183.5
+        "y1": 159.8
        }
       }
      ],
@@ -312,24 +341,26 @@
        }
       }
      ],
-     "text": "(a) show that d 3y x3 = 8 tan x sec2 x (p sec2 x + q) d where p and q are integers to be determined. (5)",
+     "text": "(a) show that d 3y x3 = 8 tan x sec2 x (p sec2 x + q) d",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q5_b.webp",
        "w": 1016,
-       "h": 219,
+       "h": 268,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 183.5,
+        "y0": 159.8,
         "x1": 523.2,
         "y1": 288.0
        }
@@ -349,11 +380,14 @@
        }
       }
      ],
-     "text": "π of tan2 x in ascending powers of (b) Hence determine the Taylor series expansion about 3 3 π π     x x −  up to and including the term in − , giving each coefficient in       3 3 simplest form. (3)",
+     "text": "where p and q are integers to be determined. (5) π of tan2 x in ascending powers of (b) Hence determine the Taylor series expansion about 3 3 π π     x x −  up to and including the term in − , giving each coefficient in       3 3 simplest form. (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2021_10_q6",
@@ -378,8 +412,10 @@
      "label": "6(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q6_a.webp",
@@ -415,8 +451,10 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q6_b.webp",
@@ -449,7 +487,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_10_q7",
@@ -461,8 +499,10 @@
      "label": "7(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q7_a.webp",
@@ -498,8 +538,10 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q7_b.webp",
@@ -535,8 +577,10 @@
      "label": "7(c)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q7_c.webp",
@@ -569,7 +613,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2021_10_q8",
@@ -594,19 +638,21 @@
      "label": "8(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q8_a.webp",
        "w": 1016,
-       "h": 61,
+       "h": 11,
        "region": {
         "page": 28,
         "x0": 36,
         "y0": 431.3,
         "x1": 523.2,
-        "y1": 460.1
+        "y1": 436.3
        }
       }
      ],
@@ -624,24 +670,26 @@
        }
       }
      ],
-     "text": "(a) Use calculus to determine the polar coordinates of P. (5)",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
      "label": "8(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q8_b.webp",
        "w": 1016,
-       "h": 407,
+       "h": 456,
        "region": {
         "page": 28,
         "x0": 36,
-        "y0": 460.1,
+        "y0": 436.3,
         "x1": 523.2,
         "y1": 655.1
        }
@@ -673,11 +721,15 @@
        }
       }
      ],
-     "text": "π is parallel to the initial line. The tangent to C at the point Q where θ = 2 The tangent to C at Q meets the tangent to C at P at the point S, as shown in Figure 1. The finite region R, shown shaded in Figure 1, is bounded by the line segments QS, SP and the curve C. (b) Use algebraic integration to show that the area of R is 1 32 (a 3 + bπ) where a and b are integers to be determined. (6)",
+     "text": "(a) Use calculus to determine the polar coordinates of P. (5) π is parallel to the initial line. The tangent to C at the point Q where θ = 2 The tangent to C at Q meets the tangent to C at P at the point S, as shown in Figure 1. The finite region R, shown shaded in Figure 1, is bounded by the line segments QS, SP and the curve C. (b) Use algebraic integration to show that the area of R is 1 32 (a 3 + bπ) where a and b are integers to be determined. (6)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "8(a): text after the marks",
+    "8(a): text doesn't start at its label"
+   ]
   },
   {
    "id": "WFM02_2021_10_q9",
@@ -689,8 +741,11 @@
      "label": "9(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q9_a.webp",
@@ -726,8 +781,10 @@
      "label": "9(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2021_10/q9_b.webp",
@@ -758,20 +815,6 @@
      ],
      "text": "(b) Hence, using the method of differences, show that for all integer values of n, n = 1 =∑ 30 n (n + 1)(2n +1)(an2 + bn +c) r 4 r 1 where a, b and c are integers to be determined. (7)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WFM02_2021_10/q9_notes.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 18,
-      "x0": 36,
-      "y0": 700.0,
-      "x1": 560,
-      "y1": 729.5
-     }
     }
    ],
    "check": "pending"

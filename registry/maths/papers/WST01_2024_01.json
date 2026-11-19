@@ -1338,7 +1338,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WST01_2024_01/q8_b_1.webp",
+       "src": "maths/WST01_2024_01/q8_b.webp",
        "w": 1090,
        "h": 250,
        "region": {
@@ -1347,18 +1347,6 @@
         "y0": 169.8,
         "x1": 559,
         "y1": 289.2
-       }
-      },
-      {
-       "src": "maths/WST01_2024_01/q8_b_2.webp",
-       "w": 1090,
-       "h": 80,
-       "region": {
-        "page": 28,
-        "x0": 36,
-        "y0": 673.8,
-        "x1": 559,
-        "y1": 711.7
        }
       }
      ],
@@ -1376,13 +1364,13 @@
        }
       }
      ],
-     "text": "The random variable Y is normally distributed with mean μ and standard deviation σ Given that 3 2 and 2μ = 3σ Y μ = 0.0668 P > \u001b 2 \u001a (b) find the value of μ and the value of σ (5) First released on AP - Edexcel Discord https://sites.google.com/view/ap-edexcel",
+     "text": "The random variable Y is normally distributed with mean μ and standard deviation σ Given that 3 2 and 2μ = 3σ Y μ = 0.0668 P > \u001b 2 \u001a (b) find the value of μ and the value of σ (5)",
      "kindGuessed": "calc"
     }
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2024_01/q8_notes_1.webp",
+     "src": "maths/WST01_2024_01/q8_notes.webp",
      "w": 1092,
      "h": 468,
      "region": {
@@ -1392,25 +1380,9 @@
       "x1": 560,
       "y1": 752.4
      }
-    },
-    {
-     "src": "maths/WST01_2024_01/q8_notes_2.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 14,
-      "x0": 36,
-      "y0": 738.5,
-      "x1": 560,
-      "y1": 768.8
-     }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(b): text after the marks",
-    "8(b): runs across pages"
-   ]
+   "check": "pending"
   }
  ]
 }

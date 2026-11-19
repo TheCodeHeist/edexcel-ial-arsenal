@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1",
+      "P3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q1.webp",
@@ -54,13 +57,13 @@
       {
        "src": "maths/WMA14_2022_10/q1_ms.webp",
        "w": 1092,
-       "h": 280,
+       "h": 252,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 79.8,
         "x1": 560,
-        "y1": 214.0
+        "y1": 200.2
        }
       }
      ],
@@ -72,11 +75,11 @@
     {
      "src": "maths/WMA14_2022_10/q1_notes.webp",
      "w": 1092,
-     "h": 1206,
+     "h": 1235,
      "region": {
       "page": 7,
       "x0": 36,
-      "y0": 211.0,
+      "y0": 197.2,
       "x1": 560,
       "y1": 789.1
      }
@@ -94,17 +97,19 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q2_a.webp",
        "w": 1090,
-       "h": 92,
+       "h": 101,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 69.4,
+        "y0": 64.8,
         "x1": 559,
         "y1": 113.0
        }
@@ -124,15 +129,18 @@
        }
       }
      ],
-     "text": "2. (a) Express ) in partial fraction form. ( ) ( x − x − 2 1 2 (3)",
+     "text": "x 3 2. (a) Express ) in partial fraction form. ( ) ( x − x − 2 1 2 (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.3",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q2_b.webp",
@@ -179,10 +187,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA14_2022_10_q3",
@@ -192,13 +197,13 @@
     {
      "src": "maths/WMA14_2022_10/q3_stem.webp",
      "w": 1090,
-     "h": 750,
+     "h": 707,
      "region": {
       "page": 6,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 416.2
+      "y1": 396.0
      }
     }
    ],
@@ -207,17 +212,19 @@
      "label": "3(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q3_a.webp",
        "w": 1090,
-       "h": 91,
+       "h": 133,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 416.2,
+        "y0": 396.0,
         "x1": 559,
         "y1": 459.4
        }
@@ -237,15 +244,17 @@
        }
       }
      ],
-     "text": "→ (a) Find RQ (2)",
+     "text": "→ = 8i – 5j + 3k • PR → (a) Find RQ (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q3_b.webp",
@@ -317,8 +326,10 @@
      "label": "4(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q4_a.webp",
@@ -354,8 +365,10 @@
      "label": "4(b)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q4_b.webp",
@@ -391,8 +404,10 @@
      "label": "4(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q4_c.webp",
@@ -451,7 +466,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_10_q5",
@@ -462,9 +477,12 @@
     {
      "label": "5",
      "marks": 6,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "P4.6.1",
+      "P3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q5.webp",
@@ -511,7 +529,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_10_q6",
@@ -536,19 +554,22 @@
      "label": "6(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q6_a.webp",
        "w": 1090,
-       "h": 101,
+       "h": 40,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 424.6,
         "x1": 559,
-        "y1": 472.8
+        "y1": 443.5
        }
       }
      ],
@@ -566,24 +587,27 @@
        }
       }
      ],
-     "text": "(a) Find the equation of the tangent to C at P, writing your answer in the form y = mx + c , where m and c are constants to be found. (5)",
+     "text": "(a) Find the equation of the tangent to C at P, writing your answer in the form",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2",
+      "P4.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q6_b.webp",
        "w": 1090,
-       "h": 138,
+       "h": 198,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 472.8,
+        "y0": 443.5,
         "x1": 559,
         "y1": 538.4
        }
@@ -603,15 +627,17 @@
        }
       }
      ],
-     "text": "  The curve C has equation y = f (x), where f is a function with domain k, 1 + 3 3  (b) Find the exact value of the constant k. (1)",
+     "text": "y = mx + c , where m and c are constants to be found. (5)   The curve C has equation y = f (x), where f is a function with domain k, 1 + 3 3  (b) Find the exact value of the constant k. (1)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q6_c.webp",
@@ -658,7 +684,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(a): text after the marks"
+   ]
   },
   {
    "id": "WMA14_2022_10_q7",
@@ -683,8 +712,11 @@
      "label": "7(i)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q7_i.webp",
@@ -720,8 +752,10 @@
      "label": "7(ii)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q7_ii.webp",
@@ -780,7 +814,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_10_q8",
@@ -791,9 +825,12 @@
     {
      "label": "8",
      "marks": 4,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "P4.1.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q8.webp",
@@ -840,7 +877,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2022_10_q9",
@@ -852,8 +889,11 @@
      "label": "9",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q9.webp",
@@ -872,13 +912,13 @@
       {
        "src": "maths/WMA14_2022_10/q9_ms.webp",
        "w": 1092,
-       "h": 841,
+       "h": 812,
        "region": {
         "page": 17,
         "x0": 36,
         "y0": 79.8,
         "x1": 560,
-        "y1": 482.9
+        "y1": 469.1
        }
       }
      ],
@@ -890,11 +930,11 @@
     {
      "src": "maths/WMA14_2022_10/q9_notes_1.webp",
      "w": 1092,
-     "h": 626,
+     "h": 675,
      "region": {
       "page": 17,
       "x0": 36,
-      "y0": 489.9,
+      "y0": 466.1,
       "x1": 560,
       "y1": 790
      }
@@ -937,8 +977,11 @@
      "label": "10(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P4.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q10_a.webp",
@@ -974,8 +1017,10 @@
      "label": "10(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q10_b.webp",
@@ -1011,8 +1056,11 @@
      "label": "10(c)",
      "marks": 1,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11",
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q10_c_1.webp",
@@ -1112,8 +1160,10 @@
      "label": "11(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q11_a.webp",
@@ -1149,8 +1199,11 @@
      "label": "11(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2022_10/q11_b.webp",
@@ -1206,18 +1259,6 @@
       "y0": 45.9,
       "x1": 560,
       "y1": 528.8
-     }
-    },
-    {
-     "src": "maths/WMA14_2022_10/q11_notes_3.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 23,
-      "x0": 36,
-      "y0": 748.4,
-      "x1": 560,
-      "y1": 777.7
      }
     }
    ],

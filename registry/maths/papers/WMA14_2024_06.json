@@ -34,8 +34,10 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q1.webp",
@@ -54,13 +56,13 @@
       {
        "src": "maths/WMA14_2024_06/q1_ms.webp",
        "w": 1092,
-       "h": 456,
+       "h": 405,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 66.7,
         "x1": 560,
-        "y1": 285.0
+        "y1": 260.3
        }
       }
      ],
@@ -72,11 +74,11 @@
     {
      "src": "maths/WMA14_2024_06/q1_notes.webp",
      "w": 1092,
-     "h": 1026,
+     "h": 1077,
      "region": {
       "page": 7,
       "x0": 36,
-      "y0": 282.0,
+      "y0": 257.5,
       "x1": 560,
       "y1": 773.9
      }
@@ -107,8 +109,11 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.4",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q2_a.webp",
@@ -156,8 +161,10 @@
      "label": "2(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q2_b.webp",
@@ -216,7 +223,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_06_q3",
@@ -228,8 +235,11 @@
      "label": "3",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q3.webp",
@@ -248,13 +258,13 @@
       {
        "src": "maths/WMA14_2024_06/q3_ms.webp",
        "w": 1092,
-       "h": 645,
+       "h": 607,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 66.7,
         "x1": 560,
-        "y1": 375.8
+        "y1": 357.5
        }
       }
      ],
@@ -264,7 +274,19 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA14_2024_06/q3_notes.webp",
+     "src": "maths/WMA14_2024_06/q3_notes_1.webp",
+     "w": 1092,
+     "h": 51,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 354.5,
+      "x1": 560,
+      "y1": 378.3
+     }
+    },
+    {
+     "src": "maths/WMA14_2024_06/q3_notes_2.webp",
      "w": 1092,
      "h": 1156,
      "region": {
@@ -301,19 +323,22 @@
      "label": "4(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2",
+      "P3.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q4_a.webp",
        "w": 1090,
-       "h": 223,
+       "h": 167,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 392.1,
         "x1": 559,
-        "y1": 498.5
+        "y1": 471.6
        }
       }
      ],
@@ -321,34 +346,37 @@
       {
        "src": "maths/WMA14_2024_06/q4_a_ms.webp",
        "w": 1092,
-       "h": 204,
+       "h": 207,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 68.4,
+        "y0": 67.0,
         "x1": 560,
         "y1": 166.1
        }
       }
      ],
-     "text": "(a) show that d A . / K θ θ O 1 3 cos d where K is a constant to be found. (2)",
+     "text": "(a) show that d A . / K θ θ O 1 3 cos d",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.2",
+      "P4.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q4_b.webp",
        "w": 1090,
-       "h": 97,
+       "h": 153,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 498.5,
+        "y0": 471.6,
         "x1": 559,
         "y1": 544.7
        }
@@ -368,7 +396,7 @@
        }
       }
      ],
-     "text": "π (b) Find, in cm 2 s –1, the rate of increase of the area of the segment when θ O 3 (4)",
+     "text": "where K is a constant to be found. (2) π (b) Find, in cm 2 s –1, the rate of increase of the area of the segment when θ O 3 (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -386,7 +414,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(a): text after the marks"
+   ]
   },
   {
    "id": "WMA14_2024_06_q5",
@@ -411,8 +442,11 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q5_a.webp",
@@ -448,19 +482,21 @@
      "label": "5(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q5_b.webp",
        "w": 1090,
-       "h": 319,
+       "h": 259,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 500.5,
         "x1": 559,
-        "y1": 652.8
+        "y1": 624.2
        }
       }
      ],
@@ -478,24 +514,27 @@
        }
       }
      ],
-     "text": "The region R, shown shaded in Figure 2, is bounded by the curve and the line with equation y = 1 (b) Show that the area of region R is given by b t 1 1 M 3 k t ) d t ( 3 3 t a where M and k are constants to be found. (5)",
+     "text": "The region R, shown shaded in Figure 2, is bounded by the curve and the line with equation y = 1 (b) Show that the area of region R is given by b t 1 1 M 3 k t ) d t ( 3 3 t a",
      "kindGuessed": "calc"
     },
     {
      "label": "5(c)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1",
+      "P4.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q5_c.webp",
        "w": 1090,
-       "h": 183,
+       "h": 243,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 652.8,
+        "y0": 624.2,
         "x1": 559,
         "y1": 740.5
        }
@@ -527,7 +566,7 @@
        }
       }
      ],
-     "text": "(c) (i) Write t 1 1 ) in partial fractions. t ( 3 3 t (ii) Use algebraic integration to find the exact area of R, giving your answer in simplest form. (6)",
+     "text": "where M and k are constants to be found. (5) (c) (i) Write t 1 1 ) in partial fractions. t ( 3 3 t (ii) Use algebraic integration to find the exact area of R, giving your answer in simplest form. (6)",
      "kindGuessed": "calc"
     }
    ],
@@ -557,7 +596,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(b): text after the marks"
+   ]
   },
   {
    "id": "WMA14_2024_06_q6",
@@ -582,8 +624,11 @@
      "label": "6(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q6_a.webp",
@@ -619,8 +664,11 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q6_b.webp",
@@ -656,8 +704,11 @@
      "label": "6(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q6_c.webp",
@@ -716,7 +767,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_06_q7",
@@ -741,8 +792,10 @@
      "label": "7(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q7_a.webp",
@@ -778,8 +831,11 @@
      "label": "7(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P3.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q7_b.webp",
@@ -815,8 +871,11 @@
      "label": "7(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q7_c.webp",
@@ -875,7 +934,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2024_06_q8",
@@ -885,11 +944,11 @@
     {
      "src": "maths/WMA14_2024_06/q8_stem.webp",
      "w": 1090,
-     "h": 60,
+     "h": 72,
      "region": {
       "page": 22,
       "x0": 36,
-      "y0": 70.9,
+      "y0": 64.8,
       "x1": 559,
       "y1": 99.0
      }
@@ -900,8 +959,10 @@
      "label": "8(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q8_a.webp",
@@ -937,8 +998,10 @@
      "label": "8(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q8_b.webp",
@@ -997,10 +1060,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA14_2024_06_q9",
@@ -1025,8 +1085,11 @@
      "label": "9(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q9_a.webp",
@@ -1062,8 +1125,11 @@
      "label": "9(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2024_06/q9_b.webp",
@@ -1119,18 +1185,6 @@
       "y0": 40,
       "x1": 560,
       "y1": 188.1
-     }
-    },
-    {
-     "src": "maths/WMA14_2024_06/q9_notes_3.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 24,
-      "x0": 36,
-      "y0": 710.7,
-      "x1": 560,
-      "y1": 740.2
      }
     }
    ],

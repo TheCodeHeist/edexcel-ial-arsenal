@@ -261,13 +261,13 @@
       {
        "src": "maths/WME02_2022_01/q3_a.webp",
        "w": 1016,
-       "h": 73,
+       "h": 11,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 159.9,
         "x1": 523.2,
-        "y1": 194.6
+        "y1": 164.9
        }
       }
      ],
@@ -285,7 +285,7 @@
        }
       }
      ],
-     "text": "(a) Find F in terms of t. (3)",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
@@ -298,11 +298,11 @@
       {
        "src": "maths/WME02_2022_01/q3_b.webp",
        "w": 1016,
-       "h": 178,
+       "h": 240,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 194.6,
+        "y0": 164.9,
         "x1": 523.2,
         "y1": 279.5
        }
@@ -322,11 +322,15 @@
        }
       }
      ],
-     "text": "At time t = 0 , the position vector of P relative to a fixed point O is (4i − 3j) m . (b) Find the position vector of P relative to O when P is first moving parallel to the vector i. (6)",
+     "text": "(a) Find F in terms of t. (3) At time t = 0 , the position vector of P relative to a fixed point O is (4i − 3j) m . (b) Find the position vector of P relative to O when P is first moving parallel to the vector i. (6)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(a): text after the marks",
+    "3(a): text doesn't start at its label"
+   ]
   },
   {
    "id": "WME02_2022_01_q4",
@@ -336,13 +340,13 @@
     {
      "src": "maths/WME02_2022_01/q4_stem.webp",
      "w": 1016,
-     "h": 190,
+     "h": 157,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.0,
       "x1": 523.2,
-      "y1": 147.5
+      "y1": 131.8
      }
     }
    ],
@@ -357,11 +361,11 @@
       {
        "src": "maths/WME02_2022_01/q4_a.webp",
        "w": 1016,
-       "h": 107,
+       "h": 140,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 147.5,
+        "y0": 131.8,
         "x1": 523.2,
         "y1": 198.6
        }
@@ -381,7 +385,7 @@
        }
       }
      ],
-     "text": "(a) show that the speed of B immediately after the collision is 1 5 u (1 + 6e) . (6)",
+     "text": "By modelling the balls as particles, (a) show that the speed of B immediately after the collision is 1 5 u (1 + 6e) . (6)",
      "kindGuessed": "calc"
     },
     {
@@ -909,20 +913,6 @@
      ],
      "text": "(d) find the distance OC. (2)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WME02_2022_01/q7_notes.webp",
-     "w": 1092,
-     "h": 604,
-     "region": {
-      "page": 15,
-      "x0": 36,
-      "y0": 414.9,
-      "x1": 560,
-      "y1": 704.6
-     }
     }
    ],
    "check": "pending"

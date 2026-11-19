@@ -34,8 +34,12 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2",
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q1.webp",
@@ -82,7 +86,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2026_06_q2",
@@ -107,8 +111,11 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.2",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q2_a.webp",
@@ -127,11 +134,11 @@
       {
        "src": "maths/WMA11_2026_06/q2_a_ms.webp",
        "w": 1092,
-       "h": 741,
+       "h": 744,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 79.7,
+        "y0": 78.7,
         "x1": 560,
         "y1": 435.3
        }
@@ -144,8 +151,11 @@
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1",
+      "P1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q2_b.webp",
@@ -229,8 +239,10 @@
      "label": "3(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q3_a.webp",
@@ -249,11 +261,11 @@
       {
        "src": "maths/WMA11_2026_06/q3_a_ms.webp",
        "w": 1092,
-       "h": 880,
+       "h": 883,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 79.7,
+        "y0": 78.7,
         "x1": 560,
         "y1": 501.9
        }
@@ -266,8 +278,10 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q3_b.webp",
@@ -303,8 +317,10 @@
      "label": "3(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q3_c.webp",
@@ -341,13 +357,13 @@
     {
      "src": "maths/WMA11_2026_06/q3_notes.webp",
      "w": 1092,
-     "h": 863,
+     "h": 858,
      "region": {
       "page": 14,
       "x0": 36,
       "y0": 58.4,
       "x1": 560,
-      "y1": 472.3
+      "y1": 469.6
      }
     }
    ],
@@ -376,8 +392,11 @@
      "label": "4(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2",
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q4_a.webp",
@@ -425,8 +444,11 @@
      "label": "4(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q4_b.webp",
@@ -471,7 +493,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2026_06_q5",
@@ -496,8 +518,11 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.5",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q5_a.webp",
@@ -516,11 +541,11 @@
       {
        "src": "maths/WMA11_2026_06/q5_a_ms_1.webp",
        "w": 1092,
-       "h": 115,
+       "h": 118,
        "region": {
         "page": 19,
         "x0": 36,
-        "y0": 79.7,
+        "y0": 78.7,
         "x1": 560,
         "y1": 134.4
        }
@@ -545,8 +570,11 @@
      "label": "5(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.5",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q5_b.webp",
@@ -594,8 +622,11 @@
      "label": "5(c)",
      "marks": 2,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.8",
+      "P1.1.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q5_c.webp",
@@ -667,19 +698,22 @@
      "label": "6(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.10",
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q6_a.webp",
        "w": 1090,
-       "h": 74,
+       "h": 40,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 501.7,
         "x1": 559,
-        "y1": 537.1
+        "y1": 520.6
        }
       }
      ],
@@ -687,11 +721,11 @@
       {
        "src": "maths/WMA11_2026_06/q6_a_ms_1.webp",
        "w": 1092,
-       "h": 1370,
+       "h": 1372,
        "region": {
         "page": 21,
         "x0": 36,
-        "y0": 93.5,
+        "y0": 92.5,
         "x1": 560,
         "y1": 750.3
        }
@@ -709,24 +743,28 @@
        }
       }
      ],
-     "text": "(a) find f( ) x . You may leave the answer in a factorised form. (3)",
+     "text": "(a) find f( ) x . You may leave the answer in a factorised form.",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.10",
+      "P1.1.6",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q6_b.webp",
        "w": 1090,
-       "h": 210,
+       "h": 244,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 537.1,
+        "y0": 520.6,
         "x1": 559,
         "y1": 637.1
        }
@@ -746,7 +784,7 @@
        }
       }
      ],
-     "text": ". / and at two further points, P and Q. The line with equation y O 2 x 3 12 cuts C at 0 , 3 12 (b) Use algebra to find the exact x coordinates of P and Q. Give each answer in simplest form. (Solutions relying entirely on calculator technology are not acceptable.) (4)",
+     "text": "(3) . / and at two further points, P and Q. The line with equation y O 2 x 3 12 cuts C at 0 , 3 12 (b) Use algebra to find the exact x coordinates of P and Q. Give each answer in simplest form. (Solutions relying entirely on calculator technology are not acceptable.) (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -764,7 +802,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(a): text after the marks"
+   ]
   },
   {
    "id": "WMA11_2026_06_q7",
@@ -789,8 +830,10 @@
      "label": "7(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q7_a.webp",
@@ -809,11 +852,11 @@
       {
        "src": "maths/WMA11_2026_06/q7_a_ms.webp",
        "w": 1092,
-       "h": 704,
+       "h": 707,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 79.7,
+        "y0": 78.7,
         "x1": 560,
         "y1": 417.2
        }
@@ -826,8 +869,12 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2",
+      "P1.1.6",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q7_b.webp",
@@ -899,8 +946,11 @@
      "label": "8(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q8_a.webp",
@@ -919,11 +969,11 @@
       {
        "src": "maths/WMA11_2026_06/q8_a_ms_1.webp",
        "w": 1092,
-       "h": 117,
+       "h": 120,
        "region": {
         "page": 27,
         "x0": 36,
-        "y0": 79.7,
+        "y0": 78.7,
         "x1": 560,
         "y1": 135.5
        }
@@ -972,8 +1022,11 @@
      "label": "8(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q8_b.webp",
@@ -1031,8 +1084,11 @@
      "label": "9(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q9_a.webp",
@@ -1068,19 +1124,21 @@
      "label": "9(b)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q9_b.webp",
        "w": 1090,
-       "h": 204,
+       "h": 149,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 456.8,
         "x1": 559,
-        "y1": 554.0
+        "y1": 527.8
        }
       }
      ],
@@ -1098,24 +1156,27 @@
        }
       }
      ],
-     "text": "(b) State the number of roots of the equation ° ° \u001b \u001b x 1 sin \u001a\u0019 O sin \u001a\u0019 8 8 in the interval 0 x N ° , giving a reason for your answer. 101 (2)",
+     "text": "(b) State the number of roots of the equation ° ° \u001b \u001b x 1 sin \u001a\u0019 O sin \u001a\u0019 8 8",
      "kindGuessed": "short"
     },
     {
      "label": "9(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q9_c.webp",
        "w": 1090,
-       "h": 189,
+       "h": 244,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 554.0,
+        "y0": 527.8,
         "x1": 559,
         "y1": 644.5
        }
@@ -1135,7 +1196,7 @@
        }
       }
      ],
-     "text": "° \u0019 The curve C2 has equation y x O 3 5 sin 1 \u001b\u001a \u0018\u0017 8 The point Q is the minimum turning point on C2 in the interval 0 x N 2 ° (c) State the coordinates of Q. (2)",
+     "text": "in the interval 0 x N ° , giving a reason for your answer. 101 (2) ° \u0019 The curve C2 has equation y x O 3 5 sin 1 \u001b\u001a \u0018\u0017 8 The point Q is the minimum turning point on C2 in the interval 0 x N 2 ° (c) State the coordinates of Q. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1165,7 +1226,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "9(b): text after the marks"
+   ]
   },
   {
    "id": "WMA11_2026_06_q10",
@@ -1190,8 +1254,11 @@
      "label": "10(a)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q10_a.webp",
@@ -1227,8 +1294,12 @@
      "label": "10(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.4",
+      "P1.1.6",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q10_b.webp",
@@ -1288,8 +1359,11 @@
      "label": "10(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2026_06/q10_c.webp",
@@ -1334,7 +1408,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

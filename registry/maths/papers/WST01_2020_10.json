@@ -383,13 +383,13 @@
       {
        "src": "maths/WST01_2020_10/q3_b.webp",
        "w": 1016,
-       "h": 162,
+       "h": 99,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 169.8,
         "x1": 523.2,
-        "y1": 246.8
+        "y1": 216.7
        }
       }
      ],
@@ -407,7 +407,7 @@
        }
       }
      ],
-     "text": "The school wishes to give a certificate of achievement or a medal to the 80% of students who achieve a distance of at least d metres. (b) Find the value of d. (3)",
+     "text": "The school wishes to give a certificate of achievement or a medal to the 80% of students who achieve a distance of at least d metres.",
      "kindGuessed": "calc"
     },
     {
@@ -420,11 +420,11 @@
       {
        "src": "maths/WST01_2020_10/q3_c.webp",
        "w": 1016,
-       "h": 147,
+       "h": 210,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 246.8,
+        "y0": 216.7,
         "x1": 523.2,
         "y1": 317.2
        }
@@ -444,7 +444,7 @@
        }
       }
      ],
-     "text": "Of those who received medals, the 1 3 who jump the furthest will receive gold medals. (c) Find the shortest distance, g metres, that must be achieved to receive a gold medal. (4)",
+     "text": "(b) Find the value of d. (3) Of those who received medals, the 1 3 who jump the furthest will receive gold medals. (c) Find the shortest distance, g metres, that must be achieved to receive a gold medal. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -499,7 +499,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(b): text after the marks",
+    "3(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST01_2020_10_q4",
@@ -567,13 +571,13 @@
       {
        "src": "maths/WST01_2020_10/q4_b.webp",
        "w": 1016,
-       "h": 218,
+       "h": 209,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 282.6,
         "x1": 523.2,
-        "y1": 386.6
+        "y1": 382.3
        }
       }
      ],
@@ -604,11 +608,11 @@
       {
        "src": "maths/WST01_2020_10/q4_c.webp",
        "w": 1016,
-       "h": 211,
+       "h": 220,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 386.6,
+        "y0": 382.3,
         "x1": 523.2,
         "y1": 487.6
        }
@@ -641,13 +645,13 @@
       {
        "src": "maths/WST01_2020_10/q4_d.webp",
        "w": 1016,
-       "h": 363,
+       "h": 354,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 494.1,
         "x1": 523.2,
-        "y1": 668.0
+        "y1": 663.8
        }
       }
      ],
@@ -678,11 +682,11 @@
       {
        "src": "maths/WST01_2020_10/q4_e_1.webp",
        "w": 1016,
-       "h": 182,
+       "h": 190,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 668.0,
+        "y0": 663.8,
         "x1": 523.2,
         "y1": 755.0
        }
@@ -1289,7 +1293,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2020_10/q6_notes_1.webp",
+     "src": "maths/WST01_2020_10/q6_notes.webp",
      "w": 1092,
      "h": 788,
      "region": {
@@ -1298,18 +1302,6 @@
       "y0": 409.4,
       "x1": 560,
       "y1": 786.9
-     }
-    },
-    {
-     "src": "maths/WST01_2020_10/q6_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 11,
-      "x0": 36,
-      "y0": 736.5,
-      "x1": 560,
-      "y1": 765.9
      }
     }
    ],

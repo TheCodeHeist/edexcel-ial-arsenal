@@ -127,13 +127,13 @@
       {
        "src": "maths/WST01_2023_01/q1_c.webp",
        "w": 1090,
-       "h": 75,
+       "h": 40,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 565.4,
         "x1": 559,
-        "y1": 600.6
+        "y1": 583.9
        }
       }
      ],
@@ -151,7 +151,7 @@
        }
       }
      ],
-     "text": "(c) Find an estimate for the mean time taken to swim 500 metres. (2)",
+     "text": "(c) Find an estimate for the mean time taken to swim 500 metres.",
      "kindGuessed": "calc"
     },
     {
@@ -164,11 +164,11 @@
       {
        "src": "maths/WST01_2023_01/q1_d.webp",
        "w": 1090,
-       "h": 130,
+       "h": 165,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 600.6,
+        "y0": 583.9,
         "x1": 559,
         "y1": 662.8
        }
@@ -188,7 +188,7 @@
        }
       }
      ],
-     "text": "∑ Given that = 41 033 ft 2 (d) find an estimate for the standard deviation of the times taken to swim 500 metres. (2)",
+     "text": "(2) ∑ Given that = 41 033 ft 2 (d) find an estimate for the standard deviation of the times taken to swim 500 metres. (2)",
      "kindGuessed": "calc"
     },
     {
@@ -243,7 +243,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(c): text after the marks"
+   ]
   },
   {
    "id": "WST01_2023_01_q2",
@@ -1202,7 +1205,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2023_01/q6_notes_1.webp",
+     "src": "maths/WST01_2023_01/q6_notes.webp",
      "w": 1092,
      "h": 746,
      "region": {
@@ -1211,18 +1214,6 @@
       "y0": 429.6,
       "x1": 560,
       "y1": 787.0
-     }
-    },
-    {
-     "src": "maths/WST01_2023_01/q6_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 730.2,
-      "x1": 560,
-      "y1": 759.6
      }
     }
    ],

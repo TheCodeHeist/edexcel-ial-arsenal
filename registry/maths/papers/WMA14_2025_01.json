@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q1.webp",
@@ -54,13 +57,13 @@
       {
        "src": "maths/WMA14_2025_01/q1_ms.webp",
        "w": 1092,
-       "h": 508,
+       "h": 474,
        "region": {
         "page": 5,
         "x0": 36,
         "y0": 65.1,
         "x1": 560,
-        "y1": 308.5
+        "y1": 292.1
        }
       }
      ],
@@ -72,11 +75,11 @@
     {
      "src": "maths/WMA14_2025_01/q1_notes.webp",
      "w": 1092,
-     "h": 1007,
+     "h": 1041,
      "region": {
       "page": 5,
       "x0": 36,
-      "y0": 305.5,
+      "y0": 289.1,
       "x1": 560,
       "y1": 788.2
      }
@@ -92,13 +95,13 @@
     {
      "src": "maths/WMA14_2025_01/q2_stem.webp",
      "w": 1090,
-     "h": 110,
+     "h": 70,
      "region": {
       "page": 4,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 109.3
+      "y1": 90.0
      }
     }
    ],
@@ -107,17 +110,20 @@
      "label": "2(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q2_a.webp",
        "w": 1090,
-       "h": 93,
+       "h": 133,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 109.3,
+        "y0": 90.0,
         "x1": 559,
         "y1": 153.2
        }
@@ -137,15 +143,18 @@
        }
       }
      ],
-     "text": "(a) Find an expression for d y x in terms of x and y d (6)",
+     "text": "( ) 2 2 x 3 x 1 5 y 1 4 x y O 10 2 1 35 y > 0 (a) Find an expression for d y x in terms of x and y d (6)",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q2_b.webp",
@@ -203,8 +212,10 @@
      "label": "3(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q3_a.webp",
@@ -252,8 +263,10 @@
      "label": "3(b)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q3_b.webp",
@@ -301,8 +314,10 @@
      "label": "3(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q3_c.webp",
@@ -375,8 +390,11 @@
      "label": "4(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.2",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q4_i.webp",
@@ -424,8 +442,10 @@
      "label": "4(ii)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q4_ii.webp",
@@ -496,7 +516,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_01_q5",
@@ -508,8 +528,11 @@
      "label": "5(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1",
+      "P4.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q5_i.webp",
@@ -557,8 +580,11 @@
      "label": "5(ii)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1",
+      "P4.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q5_ii.webp",
@@ -617,7 +643,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_01_q6",
@@ -629,8 +655,10 @@
      "label": "6",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q6.webp",
@@ -689,7 +717,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_01_q7",
@@ -701,8 +729,11 @@
      "label": "7",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2",
+      "P3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q7.webp",
@@ -749,7 +780,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_01_q8",
@@ -774,19 +805,21 @@
      "label": "8(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q8_a.webp",
        "w": 1090,
-       "h": 64,
+       "h": 12,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 277.9,
         "x1": 559,
-        "y1": 308.1
+        "y1": 283.0
        }
       }
      ],
@@ -816,24 +849,27 @@
        }
       }
      ],
-     "text": "(a) find the value of the constant a and the value of the constant b. (2)",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.4",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q8_b.webp",
        "w": 1090,
-       "h": 91,
+       "h": 143,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 308.1,
+        "y0": 283.0,
         "x1": 559,
         "y1": 351.3
        }
@@ -877,15 +913,17 @@
        }
       }
      ],
-     "text": "→ (b) Hence find vector AB (2)",
+     "text": "(a) find the value of the constant a and the value of the constant b. (2) → (b) Hence find vector AB (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "8(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q8_c.webp",
@@ -933,8 +971,11 @@
      "label": "8(d)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q8_d.webp",
@@ -1017,7 +1058,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "8(a): text after the marks",
+    "8(a): text doesn't start at its label"
+   ]
   },
   {
    "id": "WMA14_2025_01_q9",
@@ -1042,8 +1087,11 @@
      "label": "9(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q9_a.webp",
@@ -1091,8 +1139,11 @@
      "label": "9(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1",
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2025_01/q9_b.webp",
@@ -1172,18 +1223,6 @@
       "y0": 40,
       "x1": 560,
       "y1": 777.3
-     }
-    },
-    {
-     "src": "maths/WMA14_2025_01/q9_notes_5.webp",
-     "w": 1092,
-     "h": 66,
-     "region": {
-      "page": 29,
-      "x0": 36,
-      "y0": 748.0,
-      "x1": 560,
-      "y1": 779.2
      }
     }
    ],

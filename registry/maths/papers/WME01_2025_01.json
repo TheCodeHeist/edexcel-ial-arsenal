@@ -154,13 +154,13 @@
     {
      "src": "maths/WME01_2025_01/q2_stem.webp",
      "w": 1090,
-     "h": 330,
+     "h": 290,
      "region": {
       "page": 5,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 214.7
+      "y1": 195.8
      }
     }
    ],
@@ -175,11 +175,11 @@
       {
        "src": "maths/WME01_2025_01/q2_a.webp",
        "w": 1090,
-       "h": 74,
+       "h": 114,
        "region": {
         "page": 5,
         "x0": 36,
-        "y0": 215.1,
+        "y0": 195.8,
         "x1": 559,
         "y1": 250.5
        }
@@ -199,7 +199,7 @@
        }
       }
      ],
-     "text": "(a) Sketch a speed‑time graph for the motion of the motorbike as it moves from A to C. (3)",
+     "text": "• The motorbike takes T2 seconds to travel from B to C (a) Sketch a speed‑time graph for the motion of the motorbike as it moves from A to C. (3)",
      "kindGuessed": "draw"
     },
     {
@@ -931,13 +931,13 @@
       {
        "src": "maths/WME01_2025_01/q6_a.webp",
        "w": 1090,
-       "h": 102,
+       "h": 41,
        "region": {
         "page": 19,
         "x0": 36,
         "y0": 346.0,
         "x1": 559,
-        "y1": 394.4
+        "y1": 365.0
        }
       }
      ],
@@ -967,7 +967,7 @@
        }
       }
      ],
-     "text": "(a) Find an expression for the magnitude of the frictional force acting on P, giving your answer in terms of m, g and α. (3)",
+     "text": "(a) Find an expression for the magnitude of the frictional force acting on P, giving your",
      "kindGuessed": "calc"
     },
     {
@@ -980,11 +980,11 @@
       {
        "src": "maths/WME01_2025_01/q6_b.webp",
        "w": 1090,
-       "h": 239,
+       "h": 300,
        "region": {
         "page": 19,
         "x0": 36,
-        "y0": 394.4,
+        "y0": 365.0,
         "x1": 559,
         "y1": 508.4
        }
@@ -1016,7 +1016,7 @@
        }
       }
      ],
-     "text": "The coefficient of friction between P and the plane is 1 2 (b) Show that tan α = 2 5 (6)",
+     "text": "answer in terms of m, g and α. (3) The coefficient of friction between P and the plane is 1 2 (b) Show that tan α = 2 5 (6)",
      "kindGuessed": "calc"
     },
     {
@@ -1107,7 +1107,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(a): text after the marks"
+   ]
   },
   {
    "id": "WME01_2025_01_q7",
@@ -1290,7 +1293,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WME01_2025_01/q7_notes_1.webp",
+     "src": "maths/WME01_2025_01/q7_notes.webp",
      "w": 1092,
      "h": 1099,
      "region": {
@@ -1299,18 +1302,6 @@
       "y0": 157.7,
       "x1": 560,
       "y1": 684.7
-     }
-    },
-    {
-     "src": "maths/WME01_2025_01/q7_notes_2.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 19,
-      "x0": 36,
-      "y0": 729.0,
-      "x1": 560,
-      "y1": 759.2
      }
     }
    ],

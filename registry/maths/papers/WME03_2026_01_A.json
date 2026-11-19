@@ -55,13 +55,13 @@
       {
        "src": "maths/WME03_2026_01_A/q1_ms.webp",
        "w": 1092,
-       "h": 408,
+       "h": 378,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 363.4,
         "x1": 560,
-        "y1": 559.2
+        "y1": 544.8
        }
       }
      ],
@@ -73,11 +73,11 @@
     {
      "src": "maths/WME03_2026_01_A/q1_notes.webp",
      "w": 1092,
-     "h": 339,
+     "h": 369,
      "region": {
       "page": 7,
       "x0": 36,
-      "y0": 556.2,
+      "y0": 541.8,
       "x1": 560,
       "y1": 718.1
      }
@@ -273,13 +273,13 @@
       {
        "src": "maths/WME03_2026_01_A/q3_b.webp",
        "w": 1090,
-       "h": 167,
+       "h": 110,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 161.8,
         "x1": 559,
-        "y1": 241.6
+        "y1": 214.6
        }
       }
      ],
@@ -297,7 +297,7 @@
        }
       }
      ],
-     "text": "The amplitude of the motion is a metres. Find (b) the value of a, (3)",
+     "text": "The amplitude of the motion is a metres. Find",
      "kindGuessed": "calc"
     },
     {
@@ -310,11 +310,11 @@
       {
        "src": "maths/WME03_2026_01_A/q3_c.webp",
        "w": 1090,
-       "h": 129,
+       "h": 185,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 241.6,
+        "y0": 214.6,
         "x1": 559,
         "y1": 303.2
        }
@@ -334,7 +334,7 @@
        }
       }
      ],
-     "text": "(c) the total length of time during each complete oscillation for which P is within 1 2 a metres of O. (4)",
+     "text": "(b) the value of a, (3) (c) the total length of time during each complete oscillation for which P is within 1 2 a metres of O. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -352,7 +352,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(b): text after the marks",
+    "3(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WME03_2026_01_A_q4",
@@ -472,13 +476,13 @@
     {
      "src": "maths/WME03_2026_01_A/q5_stem.webp",
      "w": 1090,
-     "h": 717,
+     "h": 714,
      "region": {
       "page": 6,
       "x0": 36,
       "y0": 45.7,
       "x1": 559,
-      "y1": 389.7
+      "y1": 388.1
      }
     }
    ],
@@ -493,11 +497,11 @@
       {
        "src": "maths/WME03_2026_01_A/q5_a.webp",
        "w": 1090,
-       "h": 93,
+       "h": 96,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 389.7,
+        "y0": 388.1,
         "x1": 559,
         "y1": 433.6
        }
@@ -822,13 +826,13 @@
     {
      "src": "maths/WME03_2026_01_A/q7_notes_2.webp",
      "w": 1092,
-     "h": 1386,
+     "h": 501,
      "region": {
       "page": 23,
       "x0": 36,
       "y0": 68.0,
       "x1": 560,
-      "y1": 732.9
+      "y1": 308.1
      }
     }
    ],

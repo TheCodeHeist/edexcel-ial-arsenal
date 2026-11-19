@@ -260,13 +260,13 @@
     {
      "src": "maths/WME03_2024_01/q3_stem.webp",
      "w": 1090,
-     "h": 503,
+     "h": 484,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 297.9
+      "y1": 288.7
      }
     }
    ],
@@ -281,11 +281,11 @@
       {
        "src": "maths/WME03_2024_01/q3_a.webp",
        "w": 1090,
-       "h": 125,
+       "h": 144,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 297.9,
+        "y0": 288.7,
         "x1": 559,
         "y1": 357.3
        }
@@ -346,7 +346,11 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WME03_2024_01_q4",
@@ -378,13 +382,13 @@
       {
        "src": "maths/WME03_2024_01/q4_ms.webp",
        "w": 1092,
-       "h": 1112,
+       "h": 1082,
        "region": {
         "page": 11,
         "x0": 36,
         "y0": 72.0,
         "x1": 560,
-        "y1": 605.0
+        "y1": 590.7
        }
       }
      ],
@@ -396,11 +400,11 @@
     {
      "src": "maths/WME03_2024_01/q4_notes.webp",
      "w": 1092,
-     "h": 345,
+     "h": 375,
      "region": {
       "page": 11,
       "x0": 36,
-      "y0": 602.0,
+      "y0": 587.7,
       "x1": 560,
       "y1": 767.1
      }
@@ -620,13 +624,13 @@
     {
      "src": "maths/WME03_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 279,
+     "h": 248,
      "region": {
       "page": 20,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 190.5
+      "y1": 175.7
      }
     }
    ],
@@ -641,11 +645,11 @@
       {
        "src": "maths/WME03_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 85,
+       "h": 115,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 190.5,
+        "y0": 175.7,
         "x1": 559,
         "y1": 230.5
        }
@@ -665,7 +669,7 @@
        }
       }
      ],
-     "text": "= 13 (a) Show that AE l 8 (4)",
+     "text": "Initially P rests in equilibrium at the point E, where AEB is a vertical straight line. = 13 (a) Show that AE l 8 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -811,13 +815,13 @@
       {
        "src": "maths/WME03_2024_01/q7_a.webp",
        "w": 1090,
-       "h": 179,
+       "h": 148,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 482.3,
         "x1": 559,
-        "y1": 567.5
+        "y1": 553.0
        }
       }
      ],
@@ -835,7 +839,7 @@
        }
       }
      ],
-     "text": "(a) use the principle of conservation of mechanical energy to show that 36 v O u 3 gr 2 2 13 (3)",
+     "text": "(a) use the principle of conservation of mechanical energy to show that 36 v O u 3 gr 2 2 13",
      "kindGuessed": "calc"
     },
     {
@@ -848,11 +852,11 @@
       {
        "src": "maths/WME03_2024_01/q7_b.webp",
        "w": 1090,
-       "h": 84,
+       "h": 114,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 567.5,
+        "y0": 553.0,
         "x1": 559,
         "y1": 607.6
        }
@@ -872,7 +876,7 @@
        }
       }
      ],
-     "text": "41 (b) show that u  gr 2 13 (4)",
+     "text": "(3) 41 (b) show that u  gr 2 13 (4)",
      "kindGuessed": "calc"
     },
     {
@@ -883,7 +887,7 @@
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WME03_2024_01/q7_c_1.webp",
+       "src": "maths/WME03_2024_01/q7_c.webp",
        "w": 1090,
        "h": 203,
        "region": {
@@ -892,18 +896,6 @@
         "y0": 610.1,
         "x1": 559,
         "y1": 707.5
-       }
-      },
-      {
-       "src": "maths/WME03_2024_01/q7_c_2.webp",
-       "w": 1090,
-       "h": 80,
-       "region": {
-        "page": 28,
-        "x0": 36,
-        "y0": 673.8,
-        "x1": 559,
-        "y1": 711.7
        }
       }
      ],
@@ -933,40 +925,13 @@
        }
       }
      ],
-     "text": "The point C is such that BC is a diameter of the rim of the bowl. Given that u = gr 2 4 (c) use the model to show that, after leaving the inner surface of the bowl at B, the ball falls back into the bowl before reaching C. (6) First released on AP - Edexcel Discord https://sites.google.com/view/ap-edexcel",
+     "text": "The point C is such that BC is a diameter of the rim of the bowl. Given that u = gr 2 4 (c) use the model to show that, after leaving the inner surface of the bowl at B, the ball falls back into the bowl before reaching C. (6)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WME03_2024_01/q7_notes_1.webp",
-     "w": 1092,
-     "h": 72,
-     "region": {
-      "page": 18,
-      "x0": 36,
-      "y0": 549.5,
-      "x1": 560,
-      "y1": 583.6
-     }
-    },
-    {
-     "src": "maths/WME03_2024_01/q7_notes_2.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 19,
-      "x0": 36,
-      "y0": 731.5,
-      "x1": 560,
-      "y1": 761.8
-     }
     }
    ],
    "check": "pending",
    "risks": [
-    "7(c): text after the marks",
-    "7(c): runs across pages"
+    "7(a): text after the marks"
    ]
   }
  ]

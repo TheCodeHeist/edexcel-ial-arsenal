@@ -32,13 +32,13 @@
     {
      "src": "maths/WMA01_2020_01/q1_stem.webp",
      "w": 1016,
-     "h": 131,
+     "h": 123,
      "region": {
       "page": 2,
       "x0": 36,
       "y0": 57.5,
       "x1": 523.2,
-      "y1": 119.7
+      "y1": 115.9
      }
     }
    ],
@@ -53,11 +53,11 @@
       {
        "src": "maths/WMA01_2020_01/q1_a.webp",
        "w": 1016,
-       "h": 86,
+       "h": 94,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 119.7,
+        "y0": 115.9,
         "x1": 523.2,
         "y1": 160.8
        }
@@ -77,7 +77,7 @@
        }
       }
      ],
-     "text": "(a) Write in the form a + b , where a and b are integers to be found. 5 2 5 − 2 (2)",
+     "text": "6 (a) Write in the form a + b , where a and b are integers to be found. 5 2 5 − 2 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -132,11 +132,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA01_2020_01_q2",
@@ -425,11 +421,11 @@
       {
        "src": "maths/WMA01_2020_01/q4_ms.webp",
        "w": 1092,
-       "h": 245,
+       "h": 280,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 109.0,
+        "y0": 92.6,
         "x1": 560,
         "y1": 226.1
        }
@@ -2122,18 +2118,6 @@
       "y0": 46.0,
       "x1": 560,
       "y1": 722.8
-     }
-    },
-    {
-     "src": "maths/WMA01_2020_01/q16_notes_3.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 32,
-      "x0": 36,
-      "y0": 649.9,
-      "x1": 560,
-      "y1": 680.1
      }
     }
    ],

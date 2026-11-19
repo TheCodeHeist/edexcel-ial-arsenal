@@ -34,8 +34,10 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q1_a.webp",
@@ -71,8 +73,11 @@
      "label": "1(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.1.1",
+      "FP3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q1_b.webp",
@@ -131,7 +136,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2022_06_q2",
@@ -156,8 +161,10 @@
      "label": "2(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q2_i.webp",
@@ -193,8 +200,11 @@
      "label": "2(ii)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.3",
+      "FP3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q2_ii.webp",
@@ -241,7 +251,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2022_06_q3",
@@ -251,11 +261,11 @@
     {
      "src": "maths/WFM03_2022_06/q3_stem.webp",
      "w": 1090,
-     "h": 150,
+     "h": 174,
      "region": {
       "page": 10,
       "x0": 36,
-      "y0": 76.8,
+      "y0": 65.5,
       "x1": 559,
       "y1": 148.6
      }
@@ -266,8 +276,10 @@
      "label": "3(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q3_a.webp",
@@ -303,8 +315,10 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q3_b.webp",
@@ -340,8 +354,11 @@
      "label": "3(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7",
+      "FP3.6.8"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q3_c.webp",
@@ -386,8 +403,10 @@
      "label": "4",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q4.webp",
@@ -404,32 +423,46 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM03_2022_06/q4_ms_1.webp",
+       "src": "maths/WFM03_2022_06/q4_ms.webp",
        "w": 1092,
-       "h": 1236,
+       "h": 686,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 74.1,
         "x1": 560,
-        "y1": 666.7
-       }
-      },
-      {
-       "src": "maths/WFM03_2022_06/q4_ms_2.webp",
-       "w": 1092,
-       "h": 856,
-       "region": {
-        "page": 13,
-        "x0": 36,
-        "y0": 40,
-        "x1": 560,
-        "y1": 450.3
+        "y1": 402.8
        }
       }
      ],
      "text": "x + a y = artanh cos   4.   x − a cos where a is a non‑zero constant. Show that d y x = k tan x d where k is a constant to be determined. (4)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2022_06/q4_notes_1.webp",
+     "w": 1092,
+     "h": 558,
+     "region": {
+      "page": 12,
+      "x0": 36,
+      "y0": 399.8,
+      "x1": 560,
+      "y1": 666.7
+     }
+    },
+    {
+     "src": "maths/WFM03_2022_06/q4_notes_2.webp",
+     "w": 1092,
+     "h": 862,
+     "region": {
+      "page": 13,
+      "x0": 36,
+      "y0": 40,
+      "x1": 560,
+      "y1": 453.3
+     }
     }
    ],
    "check": "pending"
@@ -444,8 +477,10 @@
      "label": "5",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q5.webp",
@@ -464,18 +499,32 @@
       {
        "src": "maths/WFM03_2022_06/q5_ms.webp",
        "w": 1092,
-       "h": 1096,
+       "h": 1067,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 86.4,
         "x1": 560,
-        "y1": 611.9
+        "y1": 597.7
        }
       }
      ],
      "text": "5. A curve has parametric equations 1 2t 0  t  4 x = 4e y = et – t The curve is rotated through 2π radians about the x‑axis. Show that the area of the curved surface generated is π(e8 + Ae4 + B) where A and B are constants to be determined. (7)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2022_06/q5_notes.webp",
+     "w": 1092,
+     "h": 38,
+     "region": {
+      "page": 14,
+      "x0": 36,
+      "y0": 594.7,
+      "x1": 560,
+      "y1": 612.5
+     }
     }
    ],
    "check": "pending"
@@ -488,11 +537,11 @@
     {
      "src": "maths/WFM03_2022_06/q6_stem.webp",
      "w": 1090,
-     "h": 89,
+     "h": 114,
      "region": {
       "page": 20,
       "x0": 36,
-      "y0": 76.8,
+      "y0": 64.8,
       "x1": 559,
       "y1": 119.1
      }
@@ -503,8 +552,10 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q6_a.webp",
@@ -540,8 +591,11 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.4",
+      "FP3.6.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q6_b.webp",
@@ -611,8 +665,10 @@
      "label": "7(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q7_a.webp",
@@ -660,8 +716,10 @@
      "label": "7(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q7_b.webp",
@@ -706,7 +764,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2022_06_q8",
@@ -731,8 +789,10 @@
      "label": "8(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q8_a.webp",
@@ -768,8 +828,11 @@
      "label": "8(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.1",
+      "FP3.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q8_b.webp",
@@ -805,8 +868,10 @@
      "label": "8(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q8_c.webp",
@@ -839,7 +904,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2022_06_q9",
@@ -864,8 +929,10 @@
      "label": "9(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q9_a.webp",
@@ -913,8 +980,10 @@
      "label": "9(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q9_b.webp",
@@ -962,8 +1031,10 @@
      "label": "9(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2022_06/q9_c.webp",
@@ -1018,20 +1089,6 @@
      ],
      "text": "(c) Hence show that, as k varies, M lies on the curve with equation x2 + py2 = qy where p and q are constants to be determined. (5)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WFM03_2022_06/q9_notes.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 21,
-      "x0": 36,
-      "y0": 738.8,
-      "x1": 560,
-      "y1": 768.3
-     }
     }
    ],
    "check": "pending"

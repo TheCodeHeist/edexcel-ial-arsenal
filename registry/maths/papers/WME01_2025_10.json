@@ -248,13 +248,13 @@
     {
      "src": "maths/WME01_2025_10/q3_stem.webp",
      "w": 1090,
-     "h": 130,
+     "h": 91,
      "region": {
       "page": 8,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 118.8
+      "y1": 100.1
      }
     }
    ],
@@ -269,11 +269,11 @@
       {
        "src": "maths/WME01_2025_10/q3_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 115,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 119.2,
+        "y0": 100.1,
         "x1": 559,
         "y1": 154.6
        }
@@ -293,7 +293,7 @@
        }
       }
      ],
-     "text": "(a) Find the acceleration of P. (3)",
+     "text": "forces F1 and F2, where F1 = (–2i + 3j) N and F2 = (4i + 2j) N. (a) Find the acceleration of P. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -710,20 +710,6 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WME01_2025_10/q5_notes.webp",
-     "w": 1092,
-     "h": 169,
-     "region": {
-      "page": 18,
-      "x0": 36,
-      "y0": 105.7,
-      "x1": 560,
-      "y1": 186.4
-     }
-    }
-   ],
    "check": "pending"
   },
   {
@@ -765,7 +751,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2025_10/q6_a_ms.webp",
+       "w": 1092,
+       "h": 184,
+       "region": {
+        "page": 18,
+        "x0": 36,
+        "y0": 98.8,
+        "x1": 560,
+        "y1": 186.4
+       }
+      }
+     ],
      "text": "(a) Find (i) the acceleration of the car for the period 0  t  10 (ii) the deceleration of the car for the period 30  t  35 (2)",
      "kindGuessed": "calc"
     },
@@ -893,10 +892,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): no mark-scheme rows (scheme has ['6(b)', '6(c)', '6(d)'])"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME01_2025_10_q7",
@@ -927,13 +923,13 @@
       {
        "src": "maths/WME01_2025_10/q7_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 39,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 442.3,
         "x1": 559,
-        "y1": 477.6
+        "y1": 460.8
        }
       }
      ],
@@ -963,7 +959,7 @@
        }
       }
      ],
-     "text": "(a) Write down an equation of motion for Q. (2)",
+     "text": "(a) Write down an equation of motion for Q.",
      "kindGuessed": "short"
     },
     {
@@ -976,11 +972,11 @@
       {
        "src": "maths/WME01_2025_10/q7_b.webp",
        "w": 1090,
-       "h": 147,
+       "h": 182,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 477.6,
+        "y0": 460.8,
         "x1": 559,
         "y1": 548.1
        }
@@ -1012,7 +1008,7 @@
        }
       }
      ],
-     "text": "The coefficient of friction between P and the plane is 1 8 (b) Find T in terms of m and g. (7)",
+     "text": "(2) The coefficient of friction between P and the plane is 1 8 (b) Find T in terms of m and g. (7)",
      "kindGuessed": "calc"
     },
     {
@@ -1126,7 +1122,10 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(a): text after the marks"
+   ]
   }
  ]
 }

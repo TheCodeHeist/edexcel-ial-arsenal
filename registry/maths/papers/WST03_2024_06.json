@@ -157,7 +157,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST03_2024_06/q1_notes_1.webp",
+     "src": "maths/WST03_2024_06/q1_notes.webp",
      "w": 1092,
      "h": 271,
      "region": {
@@ -166,18 +166,6 @@
       "y0": 221.9,
       "x1": 560,
       "y1": 351.6
-     }
-    },
-    {
-     "src": "maths/WST03_2024_06/q1_notes_2.webp",
-     "w": 1092,
-     "h": 84,
-     "region": {
-      "page": 7,
-      "x0": 36,
-      "y0": 81.3,
-      "x1": 560,
-      "y1": 121.0
      }
     }
    ],
@@ -226,11 +214,11 @@
       {
        "src": "maths/WST03_2024_06/q2_a_ms.webp",
        "w": 1092,
-       "h": 318,
+       "h": 409,
        "region": {
         "page": 7,
         "x0": 36,
-        "y0": 121.0,
+        "y0": 77.4,
         "x1": 560,
         "y1": 273.4
        }
@@ -898,13 +886,13 @@
       {
        "src": "maths/WST03_2024_06/q6_b.webp",
        "w": 1090,
-       "h": 172,
+       "h": 119,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 138.9,
         "x1": 559,
-        "y1": 221.2
+        "y1": 195.8
        }
       }
      ],
@@ -922,7 +910,7 @@
        }
       }
      ],
-     "text": "The weights of bags of potatoes, R kg, are such that R ~ N(2.3, 0.03 2) Two bags of potatoes are selected at random. (b) Calculate the probability that the difference in their weights is more than 0.05 kg. (5)",
+     "text": "The weights of bags of potatoes, R kg, are such that R ~ N(2.3, 0.03 2) Two bags of potatoes are selected at random.",
      "kindGuessed": "calc"
     },
     {
@@ -935,11 +923,11 @@
       {
        "src": "maths/WST03_2024_06/q6_c.webp",
        "w": 1090,
-       "h": 221,
+       "h": 273,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 221.2,
+        "y0": 195.8,
         "x1": 559,
         "y1": 326.5
        }
@@ -959,7 +947,7 @@
        }
       }
      ],
-     "text": "The weights of trays, T kg, are such that T ~ N(2.5, ) 2 0 1 . The random variable G represents the total weight, in kg, of a single tray packed with 10 bags of potatoes where G and T are independent. (c) Calculate P(G < 2T + 20) (7)",
+     "text": "(b) Calculate the probability that the difference in their weights is more than 0.05 kg. (5) The weights of trays, T kg, are such that T ~ N(2.5, ) 2 0 1 . The random variable G represents the total weight, in kg, of a single tray packed with 10 bags of potatoes where G and T are independent. (c) Calculate P(G < 2T + 20) (7)",
      "kindGuessed": "calc"
     }
    ],
@@ -989,7 +977,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(b): text after the marks",
+    "6(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST03_2024_06_q7",
@@ -1087,7 +1079,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST03_2024_06/q7_notes_1.webp",
+     "src": "maths/WST03_2024_06/q7_notes.webp",
      "w": 1092,
      "h": 956,
      "region": {
@@ -1096,18 +1088,6 @@
       "y0": 310.5,
       "x1": 560,
       "y1": 768.8
-     }
-    },
-    {
-     "src": "maths/WST03_2024_06/q7_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 16,
-      "x0": 36,
-      "y0": 739.7,
-      "x1": 560,
-      "y1": 769.1
      }
     }
    ],

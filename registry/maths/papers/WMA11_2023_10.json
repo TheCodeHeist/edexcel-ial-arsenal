@@ -47,19 +47,21 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q1_a.webp",
        "w": 1090,
-       "h": 92,
+       "h": 66,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 155.4,
         "x1": 559,
-        "y1": 199.1
+        "y1": 186.5
        }
       }
      ],
@@ -77,24 +79,26 @@
        }
       }
      ],
-     "text": "(a) d y d x (3)",
+     "text": "(a) d y d x",
      "kindGuessed": "calc"
     },
     {
      "label": "1(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q1_b.webp",
        "w": 1090,
-       "h": 89,
+       "h": 115,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 199.1,
+        "y0": 186.5,
         "x1": 559,
         "y1": 241.2
        }
@@ -114,7 +118,7 @@
        }
       }
      ],
-     "text": "2 y (b) d x 2 d (2)",
+     "text": "(3) 2 y (b) d x 2 d (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -132,7 +136,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(a): text after the marks"
+   ]
   },
   {
    "id": "WMA11_2023_10_q2",
@@ -142,13 +149,13 @@
     {
      "src": "maths/WMA11_2023_10/q2_stem.webp",
      "w": 1090,
-     "h": 207,
+     "h": 190,
      "region": {
       "page": 4,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 156.0
+      "y1": 147.6
      }
     }
    ],
@@ -157,19 +164,21 @@
      "label": "2(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q2_a.webp",
        "w": 1090,
-       "h": 73,
+       "h": 58,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 156.0,
+        "y0": 147.6,
         "x1": 559,
-        "y1": 190.3
+        "y1": 175.0
        }
       }
      ],
@@ -187,24 +196,26 @@
        }
       }
      ],
-     "text": "2 (a) a (1)",
+     "text": "1 2 (a) a",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q2_b.webp",
        "w": 1090,
-       "h": 95,
+       "h": 127,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 190.3,
+        "y0": 175.0,
         "x1": 559,
         "y1": 235.3
        }
@@ -224,15 +235,17 @@
        }
       }
      ],
-     "text": "(b) 16 3 b (1)",
+     "text": "(1) (b) 16 3 b (1)",
      "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q2_c.webp",
@@ -279,7 +292,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(a): text after the marks"
+   ]
   },
   {
    "id": "WMA11_2023_10_q3",
@@ -304,8 +320,10 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q3_a.webp",
@@ -341,8 +359,10 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q3_b.webp",
@@ -401,7 +421,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2023_10_q4",
@@ -426,8 +446,10 @@
      "label": "4(a)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q4_a.webp",
@@ -463,8 +485,10 @@
      "label": "4(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q4_b.webp",
@@ -500,11 +524,13 @@
      "label": "4(c)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WMA11_2023_10/q4_c.webp",
+       "src": "maths/WMA11_2023_10/q4_c_1.webp",
        "w": 1090,
        "h": 278,
        "region": {
@@ -513,6 +539,18 @@
         "y0": 413.4,
         "x1": 559,
         "y1": 546.4
+       }
+      },
+      {
+       "src": "maths/WMA11_2023_10/q4_c_2.webp",
+       "w": 1090,
+       "h": 540,
+       "region": {
+        "page": 9,
+        "x0": 36,
+        "y0": 298.9,
+        "x1": 559,
+        "y1": 557.6
        }
       }
      ],
@@ -530,18 +568,20 @@
        }
       }
      ],
-     "text": "A copy of Figure 1, labelled Diagram 1, is shown on the next page. (c) On Diagram 1, add a sketch of the curve with equation 3 2 y O x 1 x 1 x 4 4 On your sketch, state clearly the coordinates of each point where this curve cuts or meets the coordinate axes. (3)",
+     "text": "A copy of Figure 1, labelled Diagram 1, is shown on the next page. (c) On Diagram 1, add a sketch of the curve with equation 3 2 y O x 1 x 1 x 4 4 On your sketch, state clearly the coordinates of each point where this curve cuts or meets the coordinate axes. (3) y y C C O x O x Diagram 1 copy of Diagram 1 Only use the copy of Diagram 1 if you need to redraw your answer to part (c).",
      "kindGuessed": "draw"
     },
     {
      "label": "4(d)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WMA11_2023_10/q4_d_1.webp",
+       "src": "maths/WMA11_2023_10/q4_d.webp",
        "w": 1090,
        "h": 199,
        "region": {
@@ -550,18 +590,6 @@
         "y0": 548.9,
         "x1": 559,
         "y1": 643.9
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q4_d_2.webp",
-       "w": 1090,
-       "h": 540,
-       "region": {
-        "page": 9,
-        "x0": 36,
-        "y0": 298.9,
-        "x1": 559,
-        "y1": 557.6
        }
       }
      ],
@@ -579,7 +607,7 @@
        }
       }
      ],
-     "text": "(d) Hence state the number of real solutions of the equation 3 2 ( x 1 2 )( x 1 4 x 1 4 x ) O 1 giving a reason for your answer. (1) y y C C O x O x Diagram 1 copy of Diagram 1 Only use the copy of Diagram 1 if you need to redraw your answer to part (c).",
+     "text": "(d) Hence state the number of real solutions of the equation 3 2 ( x 1 2 )( x 1 4 x 1 4 x ) O 1 giving a reason for your answer. (1)",
      "kindGuessed": "calc"
     }
    ],
@@ -611,8 +639,8 @@
    ],
    "check": "pending",
    "risks": [
-    "4(d): text after the marks",
-    "4(d): runs across pages"
+    "4(c): text after the marks",
+    "4(c): runs across pages"
    ]
   },
   {
@@ -623,13 +651,13 @@
     {
      "src": "maths/WMA11_2023_10/q5_stem.webp",
      "w": 1090,
-     "h": 738,
+     "h": 715,
      "region": {
       "page": 10,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 410.4
+      "y1": 399.6
      }
     }
    ],
@@ -638,17 +666,19 @@
      "label": "5(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q5_a.webp",
        "w": 1090,
-       "h": 97,
+       "h": 120,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 410.4,
+        "y0": 399.6,
         "x1": 559,
         "y1": 456.9
        }
@@ -668,15 +698,17 @@
        }
       }
      ],
-     "text": "(a) show that cos θ° = 13 + x 5 + 5 x (2)",
+     "text": "• angle BCD = θ° (a) show that cos θ° = 13 + x 5 + 5 x (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q5_b.webp",
@@ -760,8 +792,11 @@
      "label": "6(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.4",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q6_a.webp",
@@ -797,8 +832,11 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.9",
+      "P1.1.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q6_b.webp",
@@ -815,123 +853,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA11_2023_10/q6_b_ms_1.webp",
+       "src": "maths/WMA11_2023_10/q6_b_ms.webp",
        "w": 1092,
-       "h": 1064,
+       "h": 198,
        "region": {
         "page": 15,
         "x0": 36,
         "y0": 229.8,
         "x1": 560,
-        "y1": 739.9
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_2.webp",
-       "w": 1092,
-       "h": 1025,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 45.1,
-        "x1": 560,
-        "y1": 536.5
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_3.webp",
-       "w": 1092,
-       "h": 1456,
-       "region": {
-        "page": 17,
-        "x0": 36,
-        "y0": 91.4,
-        "x1": 560,
-        "y1": 790
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_4.webp",
-       "w": 1092,
-       "h": 1389,
-       "region": {
-        "page": 18,
-        "x0": 36,
-        "y0": 45.1,
-        "x1": 560,
-        "y1": 711.3
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_5.webp",
-       "w": 1092,
-       "h": 1485,
-       "region": {
-        "page": 19,
-        "x0": 36,
-        "y0": 77.6,
-        "x1": 560,
-        "y1": 790
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_6.webp",
-       "w": 1092,
-       "h": 877,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 45.1,
-        "x1": 560,
-        "y1": 465.2
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_7.webp",
-       "w": 1092,
-       "h": 1485,
-       "region": {
-        "page": 21,
-        "x0": 36,
-        "y0": 77.6,
-        "x1": 560,
-        "y1": 790
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_8.webp",
-       "w": 1092,
-       "h": 777,
-       "region": {
-        "page": 22,
-        "x0": 36,
-        "y0": 45.1,
-        "x1": 560,
-        "y1": 417.2
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_9.webp",
-       "w": 1092,
-       "h": 1461,
-       "region": {
-        "page": 23,
-        "x0": 36,
-        "y0": 77.6,
-        "x1": 560,
-        "y1": 778.4
-       }
-      },
-      {
-       "src": "maths/WMA11_2023_10/q6_b_ms_10.webp",
-       "w": 1092,
-       "h": 671,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 77.6,
-        "x1": 560,
-        "y1": 399.2
+        "y1": 324.2
        }
       }
      ],
@@ -943,37 +873,25 @@
     {
      "src": "maths/WMA11_2023_10/q6_notes_1.webp",
      "w": 1092,
-     "h": 627,
+     "h": 873,
      "region": {
-      "page": 24,
+      "page": 15,
       "x0": 36,
-      "y0": 396.2,
+      "y0": 321.2,
       "x1": 560,
-      "y1": 696.5
+      "y1": 739.9
      }
     },
     {
      "src": "maths/WMA11_2023_10/q6_notes_2.webp",
      "w": 1092,
-     "h": 1401,
+     "h": 1025,
      "region": {
-      "page": 25,
+      "page": 16,
       "x0": 36,
       "y0": 45.1,
       "x1": 560,
-      "y1": 717.0
-     }
-    },
-    {
-     "src": "maths/WMA11_2023_10/q6_notes_3.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 26,
-      "x0": 36,
-      "y0": 721.7,
-      "x1": 560,
-      "y1": 751.1
+      "y1": 536.5
      }
     }
    ],
@@ -1002,8 +920,12 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P1.2.1",
+      "P1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q7_a.webp",
@@ -1018,7 +940,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q7_a_ms.webp",
+       "w": 1092,
+       "h": 383,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 88.6,
+        "x1": 560,
+        "y1": 272.0
+       }
+      }
+     ],
      "text": "(a) (i) find the value of the gradient of C at P (ii) Hence find the equation of the normal to C at P, giving your answer in the form ax + by + c = 0 where a, b and c are integers to be found. (4)",
      "kindGuessed": "calc"
     },
@@ -1026,8 +961,11 @@
      "label": "7(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q7_b.webp",
@@ -1042,15 +980,51 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q7_b_ms.webp",
+       "w": 1092,
+       "h": 559,
+       "region": {
+        "page": 17,
+        "x0": 36,
+        "y0": 272.0,
+        "x1": 560,
+        "y1": 539.7
+       }
+      }
+     ],
      "text": "(b) Find f(x). (6)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q7: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2023_10/q7_notes_1.webp",
+     "w": 1092,
+     "h": 528,
+     "region": {
+      "page": 17,
+      "x0": 36,
+      "y0": 536.7,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA11_2023_10/q7_notes_2.webp",
+     "w": 1092,
+     "h": 1389,
+     "region": {
+      "page": 18,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 711.3
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WMA11_2023_10_q8",
@@ -1075,8 +1049,11 @@
      "label": "8(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q8_a.webp",
@@ -1091,7 +1068,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q8_a_ms.webp",
+       "w": 1092,
+       "h": 140,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 141.3
+       }
+      }
+     ],
      "text": "(a) Show that C1 and C2 meet when 4 2 x 3 x 3 O 2 7 15 0 (2)",
      "kindGuessed": "calc"
     },
@@ -1099,8 +1089,12 @@
      "label": "8(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.1.2",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q8_b.webp",
@@ -1115,15 +1109,51 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q8_b_ms.webp",
+       "w": 1092,
+       "h": 488,
+       "region": {
+        "page": 19,
+        "x0": 36,
+        "y0": 141.3,
+        "x1": 560,
+        "y1": 375.2
+       }
+      }
+     ],
      "text": "Given that C1 and C2 meet at points P and Q (b) find, using algebra, the exact distance PQ (5)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q8: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2023_10/q8_notes_1.webp",
+     "w": 1092,
+     "h": 871,
+     "region": {
+      "page": 19,
+      "x0": 36,
+      "y0": 372.2,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA11_2023_10/q8_notes_2.webp",
+     "w": 1092,
+     "h": 877,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 465.2
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WMA11_2023_10_q9",
@@ -1148,8 +1178,10 @@
      "label": "9(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q9_a.webp",
@@ -1164,7 +1196,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q9_a_ms.webp",
+       "w": 1092,
+       "h": 119,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 131.1
+       }
+      }
+     ],
      "text": "(a) show that OP = 1.2 m (1)",
      "kindGuessed": "calc"
     },
@@ -1172,8 +1217,11 @@
      "label": "9(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q9_b.webp",
@@ -1188,7 +1236,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q9_b_ms.webp",
+       "w": 1092,
+       "h": 188,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 131.1,
+        "x1": 560,
+        "y1": 221.0
+       }
+      }
+     ],
      "text": "Given also that 2 • the target area, PQRS, is 90 m • length PQ = x metres (b) show that 2 x 1 x 3 O 5 12 1500 0 (3)",
      "kindGuessed": "calc"
     },
@@ -1196,8 +1257,10 @@
      "label": "9(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q9_c.webp",
@@ -1212,15 +1275,51 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q9_c_ms.webp",
+       "w": 1092,
+       "h": 247,
+       "region": {
+        "page": 21,
+        "x0": 36,
+        "y0": 221.0,
+        "x1": 560,
+        "y1": 339.3
+       }
+      }
+     ],
      "text": "(c) Hence calculate the total perimeter of the target area, PQRS, giving your answer to the nearest metre. (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q9: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2023_10/q9_notes_1.webp",
+     "w": 1092,
+     "h": 946,
+     "region": {
+      "page": 21,
+      "x0": 36,
+      "y0": 336.3,
+      "x1": 560,
+      "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA11_2023_10/q9_notes_2.webp",
+     "w": 1092,
+     "h": 777,
+     "region": {
+      "page": 22,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 417.2
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WMA11_2023_10_q10",
@@ -1245,8 +1344,10 @@
      "label": "10(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q10_a.webp",
@@ -1261,7 +1362,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q10_a_ms.webp",
+       "w": 1092,
+       "h": 134,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 72.4,
+        "x1": 560,
+        "y1": 136.3
+       }
+      }
+     ],
      "text": "(a) (i) State the value of n (ii) State the period of C1 (2)",
      "kindGuessed": "calc"
     },
@@ -1269,8 +1383,10 @@
      "label": "10(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q10_b.webp",
@@ -1285,7 +1401,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q10_b_ms.webp",
+       "w": 1092,
+       "h": 67,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 136.3,
+        "x1": 560,
+        "y1": 167.8
+       }
+      }
+     ],
      "text": "The point Q, shown in Figure 4, is a minimum point of C1 (b) State the coordinates of Q. (2)",
      "kindGuessed": "calc"
     },
@@ -1293,8 +1422,11 @@
      "label": "10(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q10_c.webp",
@@ -1309,15 +1441,39 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q10_c_ms.webp",
+       "w": 1092,
+       "h": 157,
+       "region": {
+        "page": 23,
+        "x0": 36,
+        "y0": 167.8,
+        "x1": 560,
+        "y1": 242.4
+       }
+      }
+     ],
      "text": "The curve C2 has equation y O 2sin x 1 k , where k is a constant. The point R a, 12 3 \u001b \u001b\u001a and the point S 3 a, 3 5 , both lie on C2 \u001a\u0019 5 Given that a is a constant less than 90 (c) find the value of k. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q10: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2023_10/q10_notes.webp",
+     "w": 1092,
+     "h": 1124,
+     "region": {
+      "page": 23,
+      "x0": 36,
+      "y0": 239.4,
+      "x1": 560,
+      "y1": 778.4
+     }
+    }
+   ],
+   "check": "pending"
   },
   {
    "id": "WMA11_2023_10_q11",
@@ -1342,8 +1498,11 @@
      "label": "11(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.5",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q11_a.webp",
@@ -1358,7 +1517,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q11_a_ms.webp",
+       "w": 1092,
+       "h": 215,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 74.8,
+        "x1": 560,
+        "y1": 177.2
+       }
+      }
+     ],
      "text": "(a) Write 2 x 2 x in the form 3 12 1 14 2 a x + b + c ( ) where a, b and c are constants to be found. (3)",
      "kindGuessed": "calc"
     },
@@ -1366,8 +1538,11 @@
      "label": "11(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.5",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q11_b.webp",
@@ -1382,7 +1557,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q11_b_ms.webp",
+       "w": 1092,
+       "h": 64,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 177.2,
+        "x1": 560,
+        "y1": 207.8
+       }
+      }
+     ],
      "text": "Given that C has a minimum at the point P (b) state the coordinates of P (1)",
      "kindGuessed": "calc"
     },
@@ -1390,8 +1578,10 @@
      "label": "11(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q11_c.webp",
@@ -1406,7 +1596,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q11_c_ms.webp",
+       "w": 1092,
+       "h": 214,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 207.8,
+        "x1": 560,
+        "y1": 309.8
+       }
+      }
+     ],
      "text": "The line l intersects C at (–1, 28) and at P as shown in Figure 5. (c) Find the equation of l giving your answer in the form y = mx + c where m and c are constants to be found. (3)",
      "kindGuessed": "calc"
     },
@@ -1414,8 +1617,11 @@
      "label": "11(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.8",
+      "P1.1.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2023_10/q11_d.webp",
@@ -1430,15 +1636,51 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WMA11_2023_10/q11_d_ms.webp",
+       "w": 1092,
+       "h": 187,
+       "region": {
+        "page": 24,
+        "x0": 36,
+        "y0": 309.8,
+        "x1": 560,
+        "y1": 399.2
+       }
+      }
+     ],
      "text": "The finite region R, shown shaded in Figure 5, is bounded by the x-axis, l, the y-axis, and C. (d) Use inequalities to define the region R. (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q11: no mark-scheme rows"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WMA11_2023_10/q11_notes_1.webp",
+     "w": 1092,
+     "h": 627,
+     "region": {
+      "page": 24,
+      "x0": 36,
+      "y0": 396.2,
+      "x1": 560,
+      "y1": 696.5
+     }
+    },
+    {
+     "src": "maths/WMA11_2023_10/q11_notes_2.webp",
+     "w": 1092,
+     "h": 1316,
+     "region": {
+      "page": 25,
+      "x0": 36,
+      "y0": 45.1,
+      "x1": 560,
+      "y1": 676.0
+     }
+    }
+   ],
+   "check": "pending"
   }
  ]
 }

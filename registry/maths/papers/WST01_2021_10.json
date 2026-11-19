@@ -90,13 +90,13 @@
       {
        "src": "maths/WST01_2021_10/q1_b.webp",
        "w": 1016,
-       "h": 75,
+       "h": 39,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 325.6,
         "x1": 523.2,
-        "y1": 361.0
+        "y1": 344.2
        }
       }
      ],
@@ -114,7 +114,7 @@
        }
       }
      ],
-     "text": "(b) Determine whether or not A and B are independent. (2)",
+     "text": "(b) Determine whether or not A and B are independent.",
      "kindGuessed": "calc"
     },
     {
@@ -127,11 +127,11 @@
       {
        "src": "maths/WST01_2021_10/q1_c.webp",
        "w": 1016,
-       "h": 146,
+       "h": 181,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 361.4,
+        "y0": 344.2,
         "x1": 523.2,
         "y1": 431.0
        }
@@ -151,7 +151,7 @@
        }
       }
      ],
-     "text": "Given that P(C | B) = P(C) (c) find the value of p and the value of q (3)",
+     "text": "(2) Given that P(C | B) = P(C) (c) find the value of p and the value of q (3)",
      "kindGuessed": "calc"
     },
     {
@@ -206,7 +206,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(b): text after the marks"
+   ]
   },
   {
    "id": "WST01_2021_10_q2",
@@ -1459,18 +1462,6 @@
       "y0": 102.0,
       "x1": 560,
       "y1": 271.7
-     }
-    },
-    {
-     "src": "maths/WST01_2021_10/q6_notes_3.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 13,
-      "x0": 36,
-      "y0": 668.1,
-      "x1": 560,
-      "y1": 697.6
      }
     }
    ],

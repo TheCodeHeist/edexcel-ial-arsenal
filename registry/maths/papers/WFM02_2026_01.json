@@ -34,8 +34,11 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q1_a.webp",
@@ -71,8 +74,10 @@
      "label": "1(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q1_b.webp",
@@ -105,7 +110,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_q2",
@@ -130,8 +135,10 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q2_a.webp",
@@ -167,8 +174,10 @@
      "label": "2(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q2_b.webp",
@@ -204,8 +213,10 @@
      "label": "2(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q2_c.webp",
@@ -252,7 +263,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_q3",
@@ -264,8 +275,10 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q3_a.webp",
@@ -301,8 +314,11 @@
      "label": "3(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2",
+      "FP2.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q3_b.webp",
@@ -338,8 +354,11 @@
      "label": "3(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.3",
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q3_c.webp",
@@ -372,7 +391,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_q4",
@@ -382,11 +401,11 @@
     {
      "src": "maths/WFM02_2026_01/q4_stem.webp",
      "w": 1090,
-     "h": 64,
+     "h": 77,
      "region": {
       "page": 14,
       "x0": 36,
-      "y0": 71.6,
+      "y0": 65.5,
       "x1": 559,
       "y1": 102.0
      }
@@ -397,19 +416,21 @@
      "label": "4(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q4_a.webp",
        "w": 1090,
-       "h": 244,
+       "h": 181,
        "region": {
         "page": 14,
         "x0": 36,
         "y0": 102.8,
         "x1": 559,
-        "y1": 219.5
+        "y1": 189.4
        }
       }
      ],
@@ -427,24 +448,27 @@
        }
       }
      ],
-     "text": "(a) Show that 4 y 3 y 2 y Bx y d d d d O 1 Ax 2 1 1 Cy d x 4 d x 3 d x 2 d x where A, B and C are integers to be determined. (4)",
+     "text": "(a) Show that 4 y 3 y 2 y Bx y d d d d O 1 Ax 2 1 1 Cy d x 4 d x 3 d x 2 d x",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.3",
+      "FP2.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q4_b.webp",
        "w": 1090,
-       "h": 184,
+       "h": 247,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 219.5,
+        "y0": 189.4,
         "x1": 559,
         "y1": 307.4
        }
@@ -464,13 +488,13 @@
        }
       }
      ],
-     "text": "Given that d y x = 3 and y = 1 at x = 1 d (b) determine the Taylor series solution for y in ascending powers of (x – 1), up to and including the term in (x – 1) 4, giving each coefficient in simplest form. (4)",
+     "text": "where A, B and C are integers to be determined. (4) Given that d y x = 3 and y = 1 at x = 1 d (b) determine the Taylor series solution for y in ascending powers of (x – 1), up to and including the term in (x – 1) 4, giving each coefficient in simplest form. (4)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "stem: text cut by a crop edge"
+    "4(a): text after the marks"
    ]
   },
   {
@@ -483,8 +507,11 @@
      "label": "5",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q5.webp",
@@ -503,18 +530,32 @@
       {
        "src": "maths/WFM02_2026_01/q5_ms.webp",
        "w": 1092,
-       "h": 1264,
+       "h": 935,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 56.5,
         "x1": 560,
-        "y1": 662.6
+        "y1": 504.9
        }
       }
      ],
      "text": "5. In this question you must show all stages of your working. Solutions relying entirely on calculator technology are not acceptable. Use algebra to determine the values of x for which x 2 x 1 5 3 2 x ∈  N 2 2 x 1 1 (6)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2026_01/q5_notes.webp",
+     "w": 1092,
+     "h": 339,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 501.9,
+      "x1": 560,
+      "y1": 664.0
+     }
     }
    ],
    "check": "pending"
@@ -529,8 +570,11 @@
      "label": "6",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "FP2.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q6.webp",
@@ -591,19 +635,22 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "FP2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q7_a.webp",
        "w": 1090,
-       "h": 192,
+       "h": 137,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 133.0,
         "x1": 559,
-        "y1": 224.7
+        "y1": 198.7
        }
       }
      ],
@@ -621,24 +668,26 @@
        }
       }
      ],
-     "text": "(a) show that 4 θ = 1 sin 8 (A cos 4θ + B cos 2θ + C) where A, B and C are integers to be determined. (4)",
+     "text": "(a) show that 4 θ = 1 sin 8 (A cos 4θ + B cos 2θ + C)",
      "kindGuessed": "calc"
     },
     {
      "label": "7(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q7_b.webp",
        "w": 1090,
-       "h": 155,
+       "h": 209,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 224.7,
+        "y0": 198.7,
         "x1": 559,
         "y1": 298.8
        }
@@ -658,15 +707,18 @@
        }
       }
      ],
-     "text": "1 Using cos θ sin 2 π 3 θ and the result from part (a), \u001b \u001a \u0019 \u0018 (b) determine an expression for cos 4θ in terms of cos 4θ and cos 2θ (2)",
+     "text": "where A, B and C are integers to be determined. (4) 1 Using cos θ sin 2 π 3 θ and the result from part (a), \u001b \u001a \u0019 \u0018 (b) determine an expression for cos 4θ in terms of cos 4θ and cos 2θ (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "7(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "P3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q7_c.webp",
@@ -699,7 +751,10 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2026_01_q8",
@@ -711,8 +766,10 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q8_a.webp",
@@ -748,8 +805,10 @@
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q8_b.webp",
@@ -785,8 +844,10 @@
      "label": "8(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q8_c.webp",
@@ -822,8 +883,10 @@
      "label": "8(d)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q8_d.webp",
@@ -856,7 +919,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_q9",
@@ -881,8 +944,10 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q9_a.webp",
@@ -930,8 +995,10 @@
      "label": "9(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01/q9_b.webp",
@@ -976,7 +1043,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

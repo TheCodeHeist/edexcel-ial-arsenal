@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q1_a.webp",
@@ -108,8 +110,10 @@
      "label": "1(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q1_b.webp",
@@ -156,7 +160,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q2",
@@ -167,9 +171,12 @@
     {
      "label": "2",
      "marks": 7,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "P4.6.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q2.webp",
@@ -216,7 +223,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q3",
@@ -241,8 +248,10 @@
      "label": "3(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q3_a.webp",
@@ -278,8 +287,11 @@
      "label": "3(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.2",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q3_b.webp",
@@ -326,7 +338,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q4",
@@ -338,8 +350,11 @@
      "label": "4",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2",
+      "P4.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q4.webp",
@@ -386,7 +401,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q5",
@@ -411,8 +426,11 @@
      "label": "5(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q5_a.webp",
@@ -448,8 +466,11 @@
      "label": "5(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q5_b.webp",
@@ -496,7 +517,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q6",
@@ -506,13 +527,13 @@
     {
      "src": "maths/WMA14_2021_06/q6_stem.webp",
      "w": 1016,
-     "h": 715,
+     "h": 711,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.5,
       "x1": 523.2,
-      "y1": 399.9
+      "y1": 398.2
      }
     }
    ],
@@ -521,17 +542,20 @@
      "label": "6(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.5",
+      "P3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q6_a.webp",
        "w": 1016,
-       "h": 184,
+       "h": 188,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 399.9,
+        "y0": 398.2,
         "x1": 523.2,
         "y1": 487.7
        }
@@ -563,15 +587,18 @@
        }
       }
      ],
-     "text": "∫ 4 (a) (i) Show, making your working clear, that the area of R = t t t 32sin cos d 2 0 (ii) Hence find, by algebraic integration, the exact value of the area of R. (6)",
+     "text": "π ∫ 4 (a) (i) Show, making your working clear, that the area of R = t t t 32sin cos d 2 0 (ii) Hence find, by algebraic integration, the exact value of the area of R. (6)",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1",
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q6_b.webp",
@@ -607,8 +634,10 @@
      "label": "6(c)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q6_c.webp",
@@ -669,13 +698,13 @@
     {
      "src": "maths/WMA14_2021_06/q7_stem.webp",
      "w": 1016,
-     "h": 275,
+     "h": 269,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 57.7,
       "x1": 523.2,
-      "y1": 189.3
+      "y1": 186.5
      }
     }
    ],
@@ -684,17 +713,20 @@
      "label": "7(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.2",
+      "P4.7.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q7_a.webp",
        "w": 1016,
-       "h": 75,
+       "h": 81,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 189.3,
+        "y0": 186.5,
         "x1": 523.2,
         "y1": 224.7
        }
@@ -714,15 +746,18 @@
        }
       }
      ],
-     "text": "(a) find OA (2)",
+     "text": "→ (a) find OA (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7",
+      "P4.7.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q7_b.webp",
@@ -758,8 +793,10 @@
      "label": "7(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q7_c.webp",
@@ -834,8 +871,11 @@
      "label": "8(a)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q8_a.webp",
@@ -871,8 +911,11 @@
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4",
+      "P3.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q8_b.webp",
@@ -919,7 +962,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q9",
@@ -931,8 +974,11 @@
      "label": "9(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.3",
+      "P4.7.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q9_i.webp",
@@ -951,11 +997,11 @@
       {
        "src": "maths/WMA14_2021_06/q9_i_ms.webp",
        "w": 1092,
-       "h": 149,
+       "h": 151,
        "region": {
         "page": 17,
         "x0": 36,
-        "y0": 53.1,
+        "y0": 51.9,
         "x1": 560,
         "y1": 124.0
        }
@@ -968,8 +1014,10 @@
      "label": "9(ii)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2021_06/q9_ii.webp",
@@ -1025,18 +1073,6 @@
       "y0": 45.1,
       "x1": 560,
       "y1": 387.7
-     }
-    },
-    {
-     "src": "maths/WMA14_2021_06/q9_notes_3.webp",
-     "w": 1092,
-     "h": 66,
-     "region": {
-      "page": 19,
-      "x0": 36,
-      "y0": 715.6,
-      "x1": 560,
-      "y1": 746.7
      }
     }
    ],

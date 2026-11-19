@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q1_a.webp",
@@ -84,8 +86,10 @@
      "label": "1(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q1_b.webp",
@@ -121,8 +125,10 @@
      "label": "1(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q1_c.webp",
@@ -173,8 +179,11 @@
      "label": "2(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.2",
+      "P3.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q2_i.webp",
@@ -210,8 +219,11 @@
      "label": "2(ii)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.2",
+      "P3.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q2_ii.webp",
@@ -258,7 +270,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2026_01_q3",
@@ -270,8 +282,10 @@
      "label": "3(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q3_i.webp",
@@ -290,11 +304,11 @@
       {
        "src": "maths/WMA13_2026_01/q3_i_ms.webp",
        "w": 1092,
-       "h": 152,
+       "h": 193,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 85.7,
+        "y0": 66.2,
         "x1": 560,
         "y1": 158.4
        }
@@ -307,8 +321,10 @@
      "label": "3(ii)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q3_ii.webp",
@@ -356,8 +372,11 @@
      "label": "3(ii)(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.1",
+      "P2.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q3_ii_b.webp",
@@ -453,8 +472,10 @@
      "label": "4(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q4_a.webp",
@@ -502,8 +523,10 @@
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q4_b.webp",
@@ -550,9 +573,11 @@
     {
      "label": "4(c)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q4_c.webp",
@@ -611,7 +636,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2026_01_q5",
@@ -621,13 +646,13 @@
     {
      "src": "maths/WMA13_2026_01/q5_stem.webp",
      "w": 1090,
-     "h": 125,
+     "h": 97,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 116.5
+      "y1": 103.0
      }
     }
    ],
@@ -636,19 +661,21 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q5_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 68,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 116.5,
+        "y0": 103.0,
         "x1": 559,
-        "y1": 151.9
+        "y1": 135.4
        }
       }
      ],
@@ -666,24 +693,26 @@
        }
       }
      ],
-     "text": "(a) Find ff( ), x giving your answer as a single fraction in its simplest form. (3)",
+     "text": "x 3 4 (a) Find ff( ), x giving your answer as a single fraction in its simplest form.",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q5_b.webp",
        "w": 1090,
-       "h": 80,
+       "h": 114,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 152.2,
+        "y0": 135.4,
         "x1": 559,
         "y1": 189.9
        }
@@ -703,15 +732,18 @@
        }
       }
      ],
-     "text": "(b) Find f −1 12 ( ) (2)",
+     "text": "(3) (b) Find f −1 12 ( ) (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q5_c.webp",
@@ -758,7 +790,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
   },
   {
    "id": "WMA13_2026_01_q6",
@@ -783,8 +818,10 @@
      "label": "6(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q6_a.webp",
@@ -820,8 +857,11 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q6_b.webp",
@@ -868,7 +908,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2026_01_q7",
@@ -893,8 +933,10 @@
      "label": "7(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q7_a.webp",
@@ -930,8 +972,10 @@
      "label": "7(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q7_b.webp",
@@ -967,8 +1011,10 @@
      "label": "7(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q7_c.webp",
@@ -1004,8 +1050,10 @@
      "label": "7(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q7_d.webp",
@@ -1064,7 +1112,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2026_01_q8",
@@ -1076,8 +1124,11 @@
      "label": "8",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.3",
+      "P3.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q8.webp",
@@ -1096,13 +1147,13 @@
       {
        "src": "maths/WMA13_2026_01/q8_ms.webp",
        "w": 1092,
-       "h": 474,
+       "h": 445,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 66.8,
         "x1": 560,
-        "y1": 293.9
+        "y1": 280.0
        }
       }
      ],
@@ -1114,11 +1165,11 @@
     {
      "src": "maths/WMA13_2026_01/q8_notes_1.webp",
      "w": 1092,
-     "h": 1021,
+     "h": 1069,
      "region": {
       "page": 16,
       "x0": 36,
-      "y0": 300.2,
+      "y0": 277.0,
       "x1": 560,
       "y1": 790
      }
@@ -1134,18 +1185,6 @@
       "x1": 560,
       "y1": 375.5
      }
-    },
-    {
-     "src": "maths/WMA13_2026_01/q8_notes_3.webp",
-     "w": 1092,
-     "h": 49,
-     "region": {
-      "page": 18,
-      "x0": 36,
-      "y0": 64.2,
-      "x1": 560,
-      "y1": 87.2
-     }
     }
    ],
    "check": "pending"
@@ -1158,13 +1197,13 @@
     {
      "src": "maths/WMA13_2026_01/q9_stem.webp",
      "w": 1090,
-     "h": 55,
+     "h": 14,
      "region": {
       "page": 26,
       "x0": 36,
       "y0": 60.7,
       "x1": 559,
-      "y1": 86.7
+      "y1": 67.0
      }
     }
    ],
@@ -1173,17 +1212,19 @@
      "label": "9(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q9_a.webp",
        "w": 1090,
-       "h": 259,
+       "h": 301,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 87.0,
+        "y0": 67.0,
         "x1": 559,
         "y1": 210.8
        }
@@ -1193,25 +1234,27 @@
       {
        "src": "maths/WMA13_2026_01/q9_a_ms.webp",
        "w": 1092,
-       "h": 540,
+       "h": 584,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 87.2,
+        "y0": 66.2,
         "x1": 560,
         "y1": 345.9
        }
       }
      ],
-     "text": "(a) Write h( ) x in the form . / P 1 R x 1 Ü sin 2 ° where P, R and α are positive constants, 0 < Ü < 2 Give the exact values of P and R and give the value of α, in radians, to 3 decimal places. (6)",
+     "text": ". /   9. x x x x x π O 1 3 h( ) 8 3 sin cos 2 sin 0 2 (a) Write h( ) x in the form . / P 1 R x 1 Ü sin 2 ° where P, R and α are positive constants, 0 < Ü < 2 Give the exact values of P and R and give the value of α, in radians, to 3 decimal places. (6)",
      "kindGuessed": "calc"
     },
     {
      "label": "9(b)",
      "marks": 1,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q9_b.webp",
@@ -1247,8 +1290,10 @@
      "label": "9(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q9_c.webp",
@@ -1332,8 +1377,11 @@
      "label": "10(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q10_a.webp",
@@ -1369,8 +1417,10 @@
      "label": "10(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q10_b.webp",
@@ -1406,8 +1456,11 @@
      "label": "10(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.2",
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2026_01/q10_c.webp",
@@ -1454,7 +1507,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

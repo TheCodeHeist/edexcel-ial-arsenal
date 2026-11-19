@@ -46,9 +46,11 @@
     {
      "label": "1(a)",
      "marks": 3,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q1_a.webp",
@@ -84,8 +86,10 @@
      "label": "1(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q1_b.webp",
@@ -132,7 +136,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q2",
@@ -157,11 +161,14 @@
      "label": "2(a)",
      "marks": 4,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.1",
+      "P1.1.11"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WMA12_2021_06/q2_a.webp",
+       "src": "maths/WMA12_2021_06/q2_a_1.webp",
        "w": 1016,
        "h": 250,
        "region": {
@@ -170,6 +177,18 @@
         "y0": 453.9,
         "x1": 523.2,
         "y1": 573.3
+       }
+      },
+      {
+       "src": "maths/WMA12_2021_06/q2_a_2.webp",
+       "w": 1016,
+       "h": 674,
+       "region": {
+        "page": 5,
+        "x0": 36,
+        "y0": 68.5,
+        "x1": 523.2,
+        "y1": 391.3
        }
       }
      ],
@@ -187,18 +206,21 @@
        }
       }
      ],
-     "text": "(a) On Diagram 1, sketch the curve with equation x (i) y = 2 x – 6 (ii) y = 4 Label clearly the coordinates of any points of intersection with the coordinate axes. (4)",
+     "text": "(a) On Diagram 1, sketch the curve with equation x (i) y = 2 x – 6 (ii) y = 4 Label clearly the coordinates of any points of intersection with the coordinate axes. (4) y x y = 4 O x Diagram 1",
      "kindGuessed": "draw"
     },
     {
      "label": "2(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.3",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WMA12_2021_06/q2_b_1.webp",
+       "src": "maths/WMA12_2021_06/q2_b.webp",
        "w": 1016,
        "h": 137,
        "region": {
@@ -207,18 +229,6 @@
         "y0": 578.2,
         "x1": 523.2,
         "y1": 643.3
-       }
-      },
-      {
-       "src": "maths/WMA12_2021_06/q2_b_2.webp",
-       "w": 1016,
-       "h": 674,
-       "region": {
-        "page": 5,
-        "x0": 36,
-        "y0": 68.5,
-        "x1": 523.2,
-        "y1": 391.3
        }
       }
      ],
@@ -236,7 +246,7 @@
        }
       }
      ],
-     "text": "x meets the curve with equation y = 4 x – 6 at the point P. The curve with equation y = 2 (b) Using algebra, find the exact coordinates of P. (4) y x y = 4 O x Diagram 1",
+     "text": "x meets the curve with equation y = 4 x – 6 at the point P. The curve with equation y = 2 (b) Using algebra, find the exact coordinates of P. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -256,9 +266,9 @@
    ],
    "check": "pending",
    "risks": [
-    "2(b): text cut by a crop edge",
-    "2(b): text after the marks",
-    "2(b): runs across pages"
+    "2(a): text cut by a crop edge",
+    "2(a): text after the marks",
+    "2(a): runs across pages"
    ]
   },
   {
@@ -271,8 +281,10 @@
      "label": "3(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q3_i.webp",
@@ -308,8 +320,10 @@
      "label": "3(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q3_ii.webp",
@@ -356,7 +370,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q4",
@@ -368,8 +382,10 @@
      "label": "4(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q4_a.webp",
@@ -405,8 +421,10 @@
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q4_b.webp",
@@ -441,9 +459,11 @@
     {
      "label": "4(c)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q4_c.webp",
@@ -490,7 +510,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q5",
@@ -515,8 +535,10 @@
      "label": "5(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q5_a.webp",
@@ -552,8 +574,11 @@
      "label": "5(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q5_b.webp",
@@ -589,8 +614,10 @@
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q5_c.webp",
@@ -649,7 +676,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q6",
@@ -674,8 +701,10 @@
      "label": "6(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q6_a.webp",
@@ -711,8 +740,11 @@
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.3.1",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q6_b.webp",
@@ -759,7 +791,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q7",
@@ -771,8 +803,10 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q7_a.webp",
@@ -808,8 +842,10 @@
      "label": "7(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q7_b.webp",
@@ -845,8 +881,11 @@
      "label": "7(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.2",
+      "P2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q7_c.webp",
@@ -905,7 +944,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q8",
@@ -930,8 +969,11 @@
      "label": "8(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.6.2",
+      "P2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q8_i.webp",
@@ -967,8 +1009,11 @@
      "label": "8(ii)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.6.2",
+      "P2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q8_ii.webp",
@@ -1027,7 +1072,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2021_06_q9",
@@ -1052,8 +1097,10 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q9_a.webp",
@@ -1089,8 +1136,11 @@
      "label": "9(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1",
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q9_b.webp",
@@ -1126,8 +1176,10 @@
      "label": "9(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2021_06/q9_c.webp",
@@ -1183,18 +1235,6 @@
       "y0": 51.7,
       "x1": 560,
       "y1": 168.9
-     }
-    },
-    {
-     "src": "maths/WMA12_2021_06/q9_notes_3.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 20,
-      "x0": 36,
-      "y0": 756.5,
-      "x1": 560,
-      "y1": 786.1
      }
     }
    ],

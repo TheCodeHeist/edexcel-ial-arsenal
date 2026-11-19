@@ -276,13 +276,13 @@
     {
      "src": "maths/WST03_2023_06/q3_stem.webp",
      "w": 1090,
-     "h": 110,
+     "h": 101,
      "region": {
       "page": 10,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 109.2
+      "y1": 105.1
      }
     }
    ],
@@ -297,11 +297,11 @@
       {
        "src": "maths/WST03_2023_06/q3_a.webp",
        "w": 1090,
-       "h": 96,
+       "h": 104,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 109.2,
+        "y0": 105.1,
         "x1": 559,
         "y1": 154.6
        }
@@ -321,7 +321,7 @@
        }
       }
      ],
-     "text": "X X (a) Explain why is not a statistic. 1 2 σ (1)",
+     "text": "X X 3 (a) Explain why is not a statistic. 1 2 σ (1)",
      "kindGuessed": "calc"
     },
     {
@@ -408,13 +408,13 @@
       {
        "src": "maths/WST03_2023_06/q3_d.webp",
        "w": 1090,
-       "h": 124,
+       "h": 61,
        "region": {
         "page": 10,
         "x0": 36,
         "y0": 284.9,
         "x1": 559,
-        "y1": 343.7
+        "y1": 313.9
        }
       }
      ],
@@ -432,7 +432,7 @@
        }
       }
      ],
-     "text": "Given that Y = aX1 + bX2 is an unbiased estimator of μ , where a and b are constants, (d) find an equation, in terms of a and b, that must be satisfied. (2)",
+     "text": "Given that Y = aX1 + bX2 is an unbiased estimator of μ , where a and b are constants,",
      "kindGuessed": "calc"
     },
     {
@@ -445,11 +445,11 @@
       {
        "src": "maths/WST03_2023_06/q3_e.webp",
        "w": 1090,
-       "h": 81,
+       "h": 143,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 343.7,
+        "y0": 313.9,
         "x1": 559,
         "y1": 382.3
        }
@@ -469,13 +469,13 @@
        }
       }
      ],
-     "text": "(e) Using your answer to part (d), show that Var(Y ) = (2a 2 – 2a + 1) σ 2 (3)",
+     "text": "(d) find an equation, in terms of a and b, that must be satisfied. (2) (e) Using your answer to part (d), show that Var(Y ) = (2a 2 – 2a + 1) σ 2 (3)",
      "kindGuessed": "calc"
     }
    ],
    "msNotes": [
     {
-     "src": "maths/WST03_2023_06/q3_notes_1.webp",
+     "src": "maths/WST03_2023_06/q3_notes.webp",
      "w": 1092,
      "h": 382,
      "region": {
@@ -485,24 +485,12 @@
       "x1": 560,
       "y1": 591.6
      }
-    },
-    {
-     "src": "maths/WST03_2023_06/q3_notes_2.webp",
-     "w": 1092,
-     "h": 73,
-     "region": {
-      "page": 9,
-      "x0": 36,
-      "y0": 73.6,
-      "x1": 560,
-      "y1": 108.4
-     }
     }
    ],
    "check": "pending",
    "risks": [
-    "3(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
+    "3(d): text after the marks",
+    "3(d): text doesn't start at its label"
    ]
   },
   {
@@ -548,11 +536,11 @@
       {
        "src": "maths/WST03_2023_06/q4_a_ms.webp",
        "w": 1092,
-       "h": 312,
+       "h": 392,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 108.4,
+        "y0": 69.7,
         "x1": 560,
         "y1": 257.7
        }
@@ -623,13 +611,13 @@
     {
      "src": "maths/WST03_2023_06/q5_stem.webp",
      "w": 1090,
-     "h": 161,
+     "h": 130,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.0,
       "x1": 559,
-      "y1": 133.6
+      "y1": 118.8
      }
     }
    ],
@@ -644,11 +632,11 @@
       {
        "src": "maths/WST03_2023_06/q5_a.webp",
        "w": 1090,
-       "h": 153,
+       "h": 184,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 133.6,
+        "y0": 118.8,
         "x1": 559,
         "y1": 206.6
        }
@@ -668,7 +656,7 @@
        }
       }
      ],
-     "text": "(a) Show that a 90% confidence interval for μ , in terms of x– , is given by ( x– – 2.60, x– + 2.60) (3)",
+     "text": "A random sample of 10 observations of X is taken and X– denotes the sample mean. (a) Show that a 90% confidence interval for μ , in terms of x– , is given by ( x– – 2.60, x– + 2.60) (3)",
      "kindGuessed": "calc"
     },
     {
@@ -772,7 +760,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text cut by a crop edge",
+    "stem: text cut by a crop edge"
+   ]
   },
   {
    "id": "WST03_2023_06_q6",
@@ -1054,7 +1046,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST03_2023_06/q7_notes_1.webp",
+     "src": "maths/WST03_2023_06/q7_notes.webp",
      "w": 1092,
      "h": 513,
      "region": {
@@ -1063,18 +1055,6 @@
       "y0": 419.7,
       "x1": 560,
       "y1": 665.3
-     }
-    },
-    {
-     "src": "maths/WST03_2023_06/q7_notes_2.webp",
-     "w": 1092,
-     "h": 59,
-     "region": {
-      "page": 14,
-      "x0": 36,
-      "y0": 718.7,
-      "x1": 560,
-      "y1": 746.8
      }
     }
    ],

@@ -265,13 +265,13 @@
     {
      "src": "maths/WDM11_2024_01/q2_stem.webp",
      "w": 1090,
-     "h": 552,
+     "h": 490,
      "region": {
       "page": 3,
       "x0": 36,
       "y0": 45.5,
       "x1": 559,
-      "y1": 310.0
+      "y1": 280.1
      }
     }
    ],
@@ -286,13 +286,13 @@
       {
        "src": "maths/WDM11_2024_01/q2_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 103,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 310.0,
+        "y0": 280.1,
         "x1": 559,
-        "y1": 359.1
+        "y1": 329.0
        }
       }
      ],
@@ -310,24 +310,24 @@
        }
       }
      ],
-     "text": "(a) Use Prim’s algorithm, starting at A, to find the minimum spanning tree for this network. You must clearly state the order in which you select the edges of your tree. (3)",
+     "text": "Table 1 represents a network that shows the travel times, in minutes, between eight towns, A, B, C, D, E, F, G and H. (a) Use Prim’s algorithm, starting at A, to find the minimum spanning tree for this",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 1,
-     "kind": "short",
+     "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WDM11_2024_01/q2_b.webp",
        "w": 1090,
-       "h": 74,
+       "h": 137,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 359.1,
+        "y0": 329.0,
         "x1": 559,
         "y1": 394.5
        }
@@ -347,8 +347,8 @@
        }
       }
      ],
-     "text": "(b) State the weight of the minimum spanning tree. (1)",
-     "kindGuessed": "short"
+     "text": "network. You must clearly state the order in which you select the edges of your tree. (3) (b) State the weight of the minimum spanning tree. (1)",
+     "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
@@ -360,13 +360,13 @@
       {
        "src": "maths/WDM11_2024_01/q2_c.webp",
        "w": 1090,
-       "h": 452,
+       "h": 389,
        "region": {
         "page": 3,
         "x0": 36,
         "y0": 398.0,
         "x1": 559,
-        "y1": 614.6
+        "y1": 584.6
        }
       }
      ],
@@ -384,7 +384,7 @@
        }
       }
      ],
-     "text": "A B C D E F G H J 33 37 41 35 x 40 28 42 Table 2 Table 2 shows the travel times, in minutes, between town J and towns A, B, C, D, E, F, G and H. The journey time between towns E and J is x minutes where x > 28 A salesperson needs to visit all of the nine towns, starting and finishing at J. The salesperson wishes to minimise the total time spent travelling. (c) Starting at J, use the nearest neighbour algorithm to find an upper bound for the duration of the salesperson’s route. Write down the route that gives this upper bound. (2)",
+     "text": "A B C D E F G H J 33 37 41 35 x 40 28 42 Table 2 Table 2 shows the travel times, in minutes, between town J and towns A, B, C, D, E, F, G and H. The journey time between towns E and J is x minutes where x > 28 A salesperson needs to visit all of the nine towns, starting and finishing at J. The salesperson wishes to minimise the total time spent travelling. (c) Starting at J, use the nearest neighbour algorithm to find an upper bound for the duration of the salesperson’s route. Write down the route that gives this",
      "kindGuessed": "calc"
     },
     {
@@ -397,13 +397,13 @@
       {
        "src": "maths/WDM11_2024_01/q2_d.webp",
        "w": 1090,
-       "h": 176,
+       "h": 204,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 614.6,
+        "y0": 584.6,
         "x1": 559,
-        "y1": 698.7
+        "y1": 682.6
        }
       }
      ],
@@ -421,7 +421,7 @@
        }
       }
      ],
-     "text": "Using the nearest neighbour algorithm, starting at E, an upper bound of 291 minutes for the salesperson’s route was found. (d) State the best upper bound that can be obtained by using this information and your answer to (c). Give the reason for your answer. (1)",
+     "text": "upper bound. (2) Using the nearest neighbour algorithm, starting at E, an upper bound of 291 minutes for the salesperson’s route was found. (d) State the best upper bound that can be obtained by using this information and your answer to (c). Give the reason for your answer.",
      "kindGuessed": "calc"
     },
     {
@@ -434,11 +434,11 @@
       {
        "src": "maths/WDM11_2024_01/q2_e.webp",
        "w": 1090,
-       "h": 145,
+       "h": 178,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 698.7,
+        "y0": 682.6,
         "x1": 559,
         "y1": 767.9
        }
@@ -458,13 +458,13 @@
        }
       }
      ],
-     "text": "Starting by deleting J and all of its arcs, a lower bound of 264 minutes for the duration of the salesperson’s route was found. (e) Determine the value of x. You must make your method and working clear. (3)",
+     "text": "(1) Starting by deleting J and all of its arcs, a lower bound of 264 minutes for the duration of the salesperson’s route was found. (e) Determine the value of x. You must make your method and working clear. (3)",
      "kindGuessed": "calc"
     }
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2024_01/q2_notes_1.webp",
+     "src": "maths/WDM11_2024_01/q2_notes.webp",
      "w": 1092,
      "h": 854,
      "region": {
@@ -474,21 +474,14 @@
       "x1": 560,
       "y1": 691.3
      }
-    },
-    {
-     "src": "maths/WDM11_2024_01/q2_notes_2.webp",
-     "w": 1092,
-     "h": 239,
-     "region": {
-      "page": 9,
-      "x0": 36,
-      "y0": 40,
-      "x1": 560,
-      "y1": 154.4
-     }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(a): text after the marks",
+    "2(c): text after the marks",
+    "2(d): text after the marks"
+   ]
   },
   {
    "id": "WDM11_2024_01_q3",
@@ -533,11 +526,11 @@
       {
        "src": "maths/WDM11_2024_01/q3_a_ms_1.webp",
        "w": 1092,
-       "h": 293,
+       "h": 528,
        "region": {
         "page": 9,
         "x0": 36,
-        "y0": 154.4,
+        "y0": 41.6,
         "x1": 560,
         "y1": 294.4
        }
@@ -657,18 +650,6 @@
       "x1": 560,
       "y1": 790
      }
-    },
-    {
-     "src": "maths/WDM11_2024_01/q3_notes_3.webp",
-     "w": 1092,
-     "h": 142,
-     "region": {
-      "page": 11,
-      "x0": 36,
-      "y0": 51.2,
-      "x1": 560,
-      "y1": 118.8
-     }
     }
    ],
    "check": "pending"
@@ -716,11 +697,11 @@
       {
        "src": "maths/WDM11_2024_01/q4_a_ms.webp",
        "w": 1092,
-       "h": 197,
+       "h": 366,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 135.1,
+        "y0": 54.2,
         "x1": 560,
         "y1": 229.2
        }
@@ -812,16 +793,54 @@
    "number": 5,
    "marks": 5,
    "stem": [],
-   "parts": [],
+   "parts": [
+    {
+     "label": "5",
+     "marks": 5,
+     "kind": "calc",
+     "topics": [],
+     "tagStatus": "none",
+     "qp": [
+      {
+       "src": "maths/WDM11_2024_01/q5.webp",
+       "w": 1090,
+       "h": 1039,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 45.7,
+        "x1": 559,
+        "y1": 544.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WDM11_2024_01/q5_ms.webp",
+       "w": 1092,
+       "h": 187,
+       "region": {
+        "page": 13,
+        "x0": 36,
+        "y0": 42.5,
+        "x1": 560,
+        "y1": 131.8
+       }
+      }
+     ],
+     "text": "5. y C D R B A objective line 4 x 4.5 Figure 3 Figure 3 shows the constraints of a linear programming problem in x and y. The unshaded area, including its boundaries, forms the feasible region, R. The four vertices of R are A(6, 8), B(13, 12), C(9, 22) and D(5, 18). An objective line has been drawn and labelled on the graph. When the objective function, P, is maximised, the value of P is 540 When the objective function, P, is minimised, the value of P is k Determine the value of k. You must make your method and working clear. (You may assume that the objective function, P, takes the form ax + by where a and b are constants.)",
+     "kindGuessed": "calc"
+    }
+   ],
    "msNotes": [
     {
      "src": "maths/WDM11_2024_01/q5_notes.webp",
      "w": 1092,
-     "h": 645,
+     "h": 675,
      "region": {
       "page": 13,
       "x0": 36,
-      "y0": 143.2,
+      "y0": 128.8,
       "x1": 560,
       "y1": 452.5
      }
@@ -829,9 +848,7 @@
    ],
    "check": "pending",
    "risks": [
-    "Q5: parts add up to 0, total says 5",
-    "Q5: no marks found",
-    "MS 5: matches no part of the paper"
+    "5: text after the marks"
    ]
   },
   {
@@ -1199,7 +1216,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WDM11_2024_01/q7_notes_1.webp",
+     "src": "maths/WDM11_2024_01/q7_notes.webp",
      "w": 1092,
      "h": 1208,
      "region": {
@@ -1208,18 +1225,6 @@
       "y0": 210.6,
       "x1": 560,
       "y1": 790
-     }
-    },
-    {
-     "src": "maths/WDM11_2024_01/q7_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 18,
-      "x0": 36,
-      "y0": 743.1,
-      "x1": 560,
-      "y1": 772.6
      }
     }
    ],

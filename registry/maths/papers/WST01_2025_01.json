@@ -520,13 +520,13 @@
       {
        "src": "maths/WST01_2025_01/q2_e.webp",
        "w": 1090,
-       "h": 203,
+       "h": 169,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 548.0,
         "x1": 559,
-        "y1": 645.1
+        "y1": 628.6
        }
       }
      ],
@@ -556,7 +556,7 @@
        }
       }
      ],
-     "text": "Bobby now collects 18 more observations, y, from the same investigation. (e) Using all 65 observations, the sample mean is 0.502 and the sample standard deviation is 0.204 (i) Show that y O 8 91 . (2)",
+     "text": "Bobby now collects 18 more observations, y, from the same investigation. (e) Using all 65 observations, the sample mean is 0.502 and the sample standard deviation is 0.204 (i) Show that y O 8 91 .",
      "kindGuessed": "calc"
     },
     {
@@ -569,11 +569,11 @@
       {
        "src": "maths/WST01_2025_01/q2_e_ii.webp",
        "w": 1090,
-       "h": 81,
+       "h": 115,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 645.1,
+        "y0": 628.6,
         "x1": 559,
         "y1": 683.3
        }
@@ -605,7 +605,7 @@
        }
       }
      ],
-     "text": "∑ (ii) Showing your working, calculate y 2 (3)",
+     "text": "(2) ∑ (ii) Showing your working, calculate y 2 (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -635,7 +635,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(e): text after the marks"
+   ]
   },
   {
    "id": "WST01_2025_01_q3",
@@ -1712,7 +1715,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2025_01/q7_notes_1.webp",
+     "src": "maths/WST01_2025_01/q7_notes.webp",
      "w": 1092,
      "h": 352,
      "region": {
@@ -1721,18 +1724,6 @@
       "y0": 365.8,
       "x1": 560,
       "y1": 534.6
-     }
-    },
-    {
-     "src": "maths/WST01_2025_01/q7_notes_2.webp",
-     "w": 1092,
-     "h": 55,
-     "region": {
-      "page": 15,
-      "x0": 36,
-      "y0": 764.0,
-      "x1": 560,
-      "y1": 790
      }
     }
    ],

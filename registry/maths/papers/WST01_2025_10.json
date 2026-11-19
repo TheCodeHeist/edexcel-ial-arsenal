@@ -939,13 +939,13 @@
       {
        "src": "maths/WST01_2025_10/q5_b.webp",
        "w": 1090,
-       "h": 92,
+       "h": 41,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 392.0,
         "x1": 559,
-        "y1": 435.7
+        "y1": 411.1
        }
       }
      ],
@@ -963,24 +963,24 @@
        }
       }
      ],
-     "text": "(b) Use linear interpolation to estimate the median of x Give your answer to one decimal place. (2)",
+     "text": "(b) Use linear interpolation to estimate the median of x",
      "kindGuessed": "calc"
     },
     {
      "label": "5(c)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
        "src": "maths/WST01_2025_10/q5_c.webp",
        "w": 1090,
-       "h": 292,
+       "h": 343,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 435.7,
+        "y0": 411.1,
         "x1": 559,
         "y1": 575.4
        }
@@ -1012,8 +1012,8 @@
        }
       }
      ],
-     "text": "w 3 200 The weights, w grams, of 300 large apples are coded using y = 2 These coded data are summarised by Σ y = 6000 Σ y 2 = 150 000 (c) Calculate (i) the mean of w (2)",
-     "kindGuessed": "calc"
+     "text": "Give your answer to one decimal place. (2) w 3 200 The weights, w grams, of 300 large apples are coded using y = 2 These coded data are summarised by Σ y = 6000 Σ y 2 = 150 000 (c) Calculate (i) the mean of w (2)",
+     "kindGuessed": "short"
     },
     {
      "label": "5(c)(ii)",
@@ -1091,7 +1091,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(b): text after the marks"
+   ]
   },
   {
    "id": "WST01_2025_10_q6",

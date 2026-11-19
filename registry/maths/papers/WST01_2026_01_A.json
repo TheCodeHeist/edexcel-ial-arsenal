@@ -103,13 +103,13 @@
       {
        "src": "maths/WST01_2026_01_A/q1_b.webp",
        "w": 1090,
-       "h": 89,
+       "h": 12,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 197.2,
         "x1": 559,
-        "y1": 239.1
+        "y1": 202.3
        }
       }
      ],
@@ -139,7 +139,7 @@
        }
       }
      ],
-     "text": "(b) Find E(X ) (2) (c) Find Var(X )",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
@@ -152,11 +152,11 @@
       {
        "src": "maths/WST01_2026_01_A/q1_c.webp",
        "w": 1090,
-       "h": 46,
+       "h": 123,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 239.1,
+        "y0": 202.3,
         "x1": 559,
         "y1": 260.7
        }
@@ -188,14 +188,14 @@
        }
       }
      ],
-     "text": "(3)",
+     "text": "(b) Find E(X ) (2) (c) Find Var(X ) (3)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
     "1(b): text after the marks",
-    "1(c): text doesn't start at its label",
+    "1(b): text doesn't start at its label",
     "MS Q1: no '(n marks)' line after its last row"
    ]
   },

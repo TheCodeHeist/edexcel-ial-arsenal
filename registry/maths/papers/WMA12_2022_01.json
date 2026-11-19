@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q1_a.webp",
@@ -84,8 +86,11 @@
      "label": "1(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.3",
+      "P2.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q1_b.webp",
@@ -144,7 +149,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q2",
@@ -154,13 +159,13 @@
     {
      "src": "maths/WMA12_2022_01/q2_stem.webp",
      "w": 1016,
-     "h": 246,
+     "h": 187,
      "region": {
       "page": 6,
       "x0": 36,
       "y0": 57.0,
       "x1": 523.2,
-      "y1": 174.5
+      "y1": 146.2
      }
     }
    ],
@@ -169,17 +174,19 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q2_a.webp",
        "w": 1016,
-       "h": 97,
+       "h": 156,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 174.5,
+        "y0": 146.2,
         "x1": 523.2,
         "y1": 220.5
        }
@@ -199,26 +206,28 @@
        }
       }
      ],
-     "text": "(a) Find d y x , giving each term in simplest form. d (2)",
+     "text": "1 3 y = 27x 2 – x 2 – 20 x > 0 (a) Find d y x , giving each term in simplest form. d (2)",
      "kindGuessed": "calc"
     },
     {
      "label": "2(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q2_b.webp",
        "w": 1016,
-       "h": 72,
+       "h": 12,
        "region": {
         "page": 6,
         "x0": 36,
         "y0": 223.1,
         "x1": 523.2,
-        "y1": 256.9
+        "y1": 228.2
        }
       }
      ],
@@ -236,24 +245,26 @@
        }
       }
      ],
-     "text": "(b) Hence find the coordinates of the stationary point of C. (4)",
+     "text": "",
      "kindGuessed": "calc"
     },
     {
      "label": "2(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q2_c.webp",
        "w": 1016,
-       "h": 98,
+       "h": 158,
        "region": {
         "page": 6,
         "x0": 36,
-        "y0": 256.9,
+        "y0": 228.2,
         "x1": 523.2,
         "y1": 303.5
        }
@@ -273,7 +284,7 @@
        }
       }
      ],
-     "text": "2 y (c) Find d x and hence determine the nature of the stationary point of C. d 2 (2)",
+     "text": "(b) Hence find the coordinates of the stationary point of C. (4) 2 y (c) Find d x and hence determine the nature of the stationary point of C. d 2 (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -303,7 +314,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(b): text after the marks",
+    "2(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WMA12_2022_01_q3",
@@ -315,8 +330,10 @@
      "label": "3(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q3_a.webp",
@@ -352,8 +369,10 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q3_b.webp",
@@ -400,7 +419,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q4",
@@ -412,8 +431,11 @@
      "label": "4",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.2",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q4.webp",
@@ -432,13 +454,13 @@
       {
        "src": "maths/WMA12_2022_01/q4_ms.webp",
        "w": 1092,
-       "h": 469,
+       "h": 437,
        "region": {
         "page": 12,
         "x0": 36,
         "y0": 74.4,
         "x1": 560,
-        "y1": 299.4
+        "y1": 284.0
        }
       }
      ],
@@ -450,11 +472,11 @@
     {
      "src": "maths/WMA12_2022_01/q4_notes.webp",
      "w": 1092,
-     "h": 904,
+     "h": 936,
      "region": {
       "page": 12,
       "x0": 36,
-      "y0": 296.4,
+      "y0": 281.0,
       "x1": 560,
       "y1": 729.6
      }
@@ -485,8 +507,10 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q5_a.webp",
@@ -522,8 +546,11 @@
      "label": "5(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q5_b.webp",
@@ -559,8 +586,11 @@
      "label": "5(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1",
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q5_c.webp",
@@ -619,7 +649,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q6",
@@ -644,8 +674,10 @@
      "label": "6(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q6_a.webp",
@@ -681,8 +713,10 @@
      "label": "6(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q6_b.webp",
@@ -730,8 +764,11 @@
      "label": "6(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.3.1",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q6_c.webp",
@@ -790,7 +827,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q7",
@@ -815,8 +852,11 @@
      "label": "7(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.6.2",
+      "P2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q7_i.webp",
@@ -852,8 +892,11 @@
      "label": "7(ii)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.6.2",
+      "P2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q7_ii.webp",
@@ -912,7 +955,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q8",
@@ -937,8 +980,10 @@
      "label": "8(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q8_a.webp",
@@ -974,8 +1019,10 @@
      "label": "8(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q8_b.webp",
@@ -1011,8 +1058,10 @@
      "label": "8(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q8_c.webp",
@@ -1048,8 +1097,11 @@
      "label": "8(d)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.4",
+      "P2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q8_d.webp",
@@ -1108,7 +1160,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q9",
@@ -1133,8 +1185,11 @@
      "label": "9(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q9_a.webp",
@@ -1170,8 +1225,11 @@
      "label": "9(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.2",
+      "P2.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q9_b.webp",
@@ -1207,8 +1265,10 @@
      "label": "9(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q9_c.webp",
@@ -1267,7 +1327,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2022_01_q10",
@@ -1279,8 +1339,10 @@
      "label": "10(i)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q10_i.webp",
@@ -1316,8 +1378,10 @@
      "label": "10(ii)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2022_01/q10_ii.webp",
@@ -1366,13 +1430,13 @@
     {
      "src": "maths/WMA12_2022_01/q10_notes_2.webp",
      "w": 1092,
-     "h": 1560,
+     "h": 173,
      "region": {
       "page": 24,
       "x0": 36,
       "y0": 41.3,
       "x1": 560,
-      "y1": 789.7
+      "y1": 124.0
      }
     }
    ],

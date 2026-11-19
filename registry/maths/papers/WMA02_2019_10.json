@@ -186,13 +186,13 @@
       {
        "src": "maths/WMA02_2019_10/q2_a.webp",
        "w": 1016,
-       "h": 97,
+       "h": 35,
        "region": {
         "page": 4,
         "x0": 36,
         "y0": 111.5,
         "x1": 523.2,
-        "y1": 157.8
+        "y1": 128.2
        }
       }
      ],
@@ -222,7 +222,7 @@
        }
       }
      ],
-     "text": "(a) Find the binomial expansion of f(x), in ascending powers of x, up to and including the term in x3, giving each coefficient in its simplest form. (4)",
+     "text": "(a) Find the binomial expansion of f(x), in ascending powers of x, up to and including the",
      "kindGuessed": "calc"
     },
     {
@@ -235,11 +235,11 @@
       {
        "src": "maths/WMA02_2019_10/q2_b.webp",
        "w": 1016,
-       "h": 318,
+       "h": 380,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 158.0,
+        "y0": 128.2,
         "x1": 523.2,
         "y1": 310.1
        }
@@ -271,7 +271,7 @@
        }
       }
      ],
-     "text": "2 − (a + bx) µxµ 1 g(x) = 1 ⎛ ⎞ x − ⎝⎜ ⎠⎟ 3 3 where a and b are constants. Given that, in the series expansion of g(x), the coefficient of x is 3 and the coefficient of x2 is 27 (b) find the value of a and the value of b. (3)",
+     "text": "term in x3, giving each coefficient in its simplest form. (4) 2 − (a + bx) µxµ 1 g(x) = 1 ⎛ ⎞ x − ⎝⎜ ⎠⎟ 3 3 where a and b are constants. Given that, in the series expansion of g(x), the coefficient of x is 3 and the coefficient of x2 is 27 (b) find the value of a and the value of b. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -340,7 +340,8 @@
    ],
    "check": "pending",
    "risks": [
-    "stem: text cut by a crop edge"
+    "stem: text cut by a crop edge",
+    "2(a): text after the marks"
    ]
   },
   {
@@ -845,7 +846,7 @@
        }
       }
      ],
-     "text": "6. (a) Prove that sec sec x x Ł 2 cosec2 x x z nʌ, n \u0003] − 1 sec 1 sec x x + − (3)",
+     "text": "6. (a) Prove that sec sec x x Ł 2 cosec2 x x z nʌ, n  ] − 1 sec 1 sec x x + − (3)",
      "kindGuessed": "calc"
     },
     {

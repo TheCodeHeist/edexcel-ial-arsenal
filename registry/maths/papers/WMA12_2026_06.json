@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q1_a.webp",
@@ -84,8 +86,10 @@
      "label": "1(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q1_b.webp",
@@ -144,7 +148,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q2",
@@ -169,8 +173,11 @@
      "label": "2(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.6.1",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q2_i.webp",
@@ -206,8 +213,11 @@
      "label": "2(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.6.1",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q2_ii.webp",
@@ -266,7 +276,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q3",
@@ -291,8 +301,10 @@
      "label": "3(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q3_a.webp",
@@ -340,8 +352,11 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.1",
+      "P2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q3_b.webp",
@@ -400,7 +415,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q4",
@@ -425,8 +440,10 @@
      "label": "4(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q4_i.webp",
@@ -462,8 +479,11 @@
      "label": "4(ii)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.1.1",
+      "P1.1.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q4_ii.webp",
@@ -522,7 +542,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q5",
@@ -547,8 +567,10 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q5_a.webp",
@@ -583,9 +605,11 @@
     {
      "label": "5(b)",
      "marks": 3,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "P2.8.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q5_b.webp",
@@ -621,8 +645,10 @@
      "label": "5(c)",
      "marks": 1,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q5_c.webp",
@@ -681,7 +707,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q6",
@@ -693,8 +719,10 @@
      "label": "6(i)",
      "marks": 3,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q6_i.webp",
@@ -742,8 +770,11 @@
      "label": "6(i)(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.3",
+      "P2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q6_i_b.webp",
@@ -791,19 +822,21 @@
      "label": "6(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q6_ii.webp",
        "w": 1090,
-       "h": 116,
+       "h": 60,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 322.7,
         "x1": 559,
-        "y1": 377.9
+        "y1": 351.4
        }
       }
      ],
@@ -821,24 +854,26 @@
        }
       }
      ],
-     "text": "(ii) Given that log4 x = a, find in simplest form in terms of a (a) log4 (64x) (2)",
+     "text": "(ii) Given that log4 x = a, find in simplest form in terms of a",
      "kindGuessed": "calc"
     },
     {
      "label": "6(ii)(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q6_ii_b.webp",
        "w": 1090,
-       "h": 89,
+       "h": 144,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 377.9,
+        "y0": 351.4,
         "x1": 559,
         "y1": 420.0
        }
@@ -858,7 +893,7 @@
        }
       }
      ],
-     "text": "2 (b) log4 \u001b\u001a 2 x (3)",
+     "text": "(a) log4 (64x) (2) 2 (b) log4 \u001b\u001a 2 x (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -888,7 +923,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(ii): text after the marks"
+   ]
   },
   {
    "id": "WMA12_2026_06_q7",
@@ -900,19 +938,21 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q7_a.webp",
        "w": 1090,
-       "h": 254,
+       "h": 199,
        "region": {
         "page": 18,
         "x0": 36,
         "y0": 57.0,
         "x1": 559,
-        "y1": 178.5
+        "y1": 151.9
        }
       }
      ],
@@ -930,26 +970,28 @@
        }
       }
      ],
-     "text": "7. (a) Find, in ascending powers of x, up to and including the term in x 2, the binomial expansion of 10 5 \u001b x 1 1 \u001a\u0019 16 fully simplifying each coefficient. (4)",
+     "text": "7. (a) Find, in ascending powers of x, up to and including the term in x 2, the binomial expansion of 10 5 \u001b x 1 1 \u001a\u0019 16",
      "kindGuessed": "calc"
     },
     {
      "label": "7(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q7_b.webp",
        "w": 1090,
-       "h": 245,
+       "h": 241,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 178.5,
+        "y0": 151.9,
         "x1": 559,
-        "y1": 295.2
+        "y1": 267.1
        }
       }
      ],
@@ -967,24 +1009,26 @@
        }
       }
      ],
-     "text": "10 (b) Use x = 1 10 and the answer to part (a) to show that an estimate for 33 \u001b\u001a is 32 1389 k where k is an integer to be found. (3)",
+     "text": "fully simplifying each coefficient. (4) 10 (b) Use x = 1 10 and the answer to part (a) to show that an estimate for 33 \u001b\u001a is 32 1389 k",
      "kindGuessed": "calc"
     },
     {
      "label": "7(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q7_c.webp",
        "w": 1090,
-       "h": 85,
+       "h": 144,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 295.2,
+        "y0": 267.1,
         "x1": 559,
         "y1": 335.9
        }
@@ -1004,7 +1048,7 @@
        }
       }
      ],
-     "text": "10 1389 (c) Hence find a rational estimate for (2)",
+     "text": "where k is an integer to be found. (3) 10 1389 (c) Hence find a rational estimate for (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1034,7 +1078,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(a): text after the marks",
+    "7(b): text after the marks"
+   ]
   },
   {
    "id": "WMA12_2026_06_q8",
@@ -1059,8 +1107,10 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q8_a.webp",
@@ -1096,8 +1146,11 @@
      "label": "8(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.3.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q8_b.webp",
@@ -1133,8 +1186,11 @@
      "label": "8(c)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.8.2",
+      "P2.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q8_c.webp",
@@ -1193,7 +1249,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2026_06_q9",
@@ -1218,8 +1274,10 @@
      "label": "9(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q9_a.webp",
@@ -1255,8 +1313,10 @@
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q9_b.webp",
@@ -1292,19 +1352,21 @@
      "label": "9(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q9_c.webp",
        "w": 1090,
-       "h": 92,
+       "h": 40,
        "region": {
         "page": 24,
         "x0": 36,
         "y0": 598.8,
         "x1": 559,
-        "y1": 642.4
+        "y1": 617.8
        }
       }
      ],
@@ -1322,24 +1384,26 @@
        }
       }
      ],
-     "text": "(c) Use algebraic differentiation to find the value of x that gives the minimum value for P, giving the answer to 3 significant figures. (3)",
+     "text": "(c) Use algebraic differentiation to find the value of x that gives the minimum value",
      "kindGuessed": "calc"
     },
     {
      "label": "9(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2026_06/q9_d.webp",
        "w": 1090,
-       "h": 157,
+       "h": 208,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 642.4,
+        "y0": 617.8,
         "x1": 559,
         "y1": 717.2
        }
@@ -1371,7 +1435,7 @@
        }
       }
      ],
-     "text": "2 P By considering d 2 d x (d) justify that the value for x found in part (c) gives the minimum value for P. (2)",
+     "text": "for P, giving the answer to 3 significant figures. (3) 2 P By considering d 2 d x (d) justify that the value for x found in part (c) gives the minimum value for P. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -1401,7 +1465,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "9(c): text after the marks"
+   ]
   }
  ]
 }

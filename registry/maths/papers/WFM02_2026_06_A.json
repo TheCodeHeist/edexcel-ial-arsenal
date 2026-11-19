@@ -35,8 +35,11 @@
      "label": "1",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_06_A/q1.webp",
@@ -55,13 +58,13 @@
       {
        "src": "maths/WFM02_2026_06_A/q1_ms.webp",
        "w": 1092,
-       "h": 1395,
+       "h": 1363,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 98.1,
         "x1": 560,
-        "y1": 767.4
+        "y1": 752.1
        }
       }
      ],
@@ -71,7 +74,19 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM02_2026_06_A/q1_notes.webp",
+     "src": "maths/WFM02_2026_06_A/q1_notes_1.webp",
+     "w": 1092,
+     "h": 41,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 749.1,
+      "x1": 560,
+      "y1": 768.3
+     }
+    },
+    {
+     "src": "maths/WFM02_2026_06_A/q1_notes_2.webp",
      "w": 1092,
      "h": 801,
      "region": {
@@ -95,8 +110,10 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_06_A/q2_a.webp",
@@ -132,8 +149,10 @@
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_06_A/q2_b.webp",
@@ -169,8 +188,10 @@
      "label": "2(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_06_A/q2_c.webp",
@@ -217,7 +238,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_06_A_q3",
@@ -262,11 +283,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q3_a_ms.webp",
        "w": 1092,
-       "h": 583,
+       "h": 585,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 98.1,
+        "y0": 97.1,
         "x1": 560,
         "y1": 377.3
        }
@@ -345,13 +366,13 @@
       {
        "src": "maths/WFM02_2026_06_A/q4_a.webp",
        "w": 1090,
-       "h": 160,
+       "h": 135,
        "region": {
         "page": 3,
         "x0": 36,
         "y0": 286.9,
         "x1": 559,
-        "y1": 363.1
+        "y1": 351.4
        }
       }
      ],
@@ -359,11 +380,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q4_a_ms_1.webp",
        "w": 1092,
-       "h": 66,
+       "h": 68,
        "region": {
         "page": 13,
         "x0": 36,
-        "y0": 127.9,
+        "y0": 126.8,
         "x1": 560,
         "y1": 159.2
        }
@@ -381,7 +402,7 @@
        }
       }
      ],
-     "text": "4. (a) Determine the general solution of the differential equation 2 y y 1 d d x 4 3 4 1 y O 2 e 2 x 2 x d d (7)",
+     "text": "4. (a) Determine the general solution of the differential equation 2 y y 1 d d x 4 3 4 1 y O 2 e 2 x 2 x d d",
      "kindGuessed": "calc"
     },
     {
@@ -394,11 +415,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q4_b.webp",
        "w": 1090,
-       "h": 155,
+       "h": 179,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 363.1,
+        "y0": 351.4,
         "x1": 559,
         "y1": 436.9
        }
@@ -408,11 +429,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q4_b_ms_1.webp",
        "w": 1092,
-       "h": 66,
+       "h": 68,
        "region": {
         "page": 13,
         "x0": 36,
-        "y0": 127.9,
+        "y0": 126.8,
         "x1": 560,
         "y1": 159.2
        }
@@ -430,7 +451,7 @@
        }
       }
      ],
-     "text": "y 1 Given that y = 1 and d 2 at x = 0 x = e d (b) determine the particular solution of the differential equation. (4)",
+     "text": "(7) y 1 Given that y = 1 and d 2 at x = 0 x = e d (b) determine the particular solution of the differential equation. (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -448,7 +469,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2026_06_A_q5",
@@ -493,11 +517,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q5_a_ms.webp",
        "w": 1092,
-       "h": 957,
+       "h": 959,
        "region": {
         "page": 15,
         "x0": 36,
-        "y0": 129.0,
+        "y0": 127.9,
         "x1": 560,
         "y1": 587.8
        }
@@ -614,11 +638,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q6_a_ms.webp",
        "w": 1092,
-       "h": 302,
+       "h": 305,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 98.6,
+        "y0": 97.3,
         "x1": 560,
         "y1": 243.3
        }
@@ -716,7 +740,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM02_2026_06_A/q6_notes_1.webp",
+     "src": "maths/WFM02_2026_06_A/q6_notes.webp",
      "w": 1092,
      "h": 1201,
      "region": {
@@ -725,18 +749,6 @@
       "y0": 182.7,
       "x1": 560,
       "y1": 758.4
-     }
-    },
-    {
-     "src": "maths/WFM02_2026_06_A/q6_notes_2.webp",
-     "w": 1092,
-     "h": 70,
-     "region": {
-      "page": 20,
-      "x0": 36,
-      "y0": 59.8,
-      "x1": 560,
-      "y1": 92.8
      }
     }
    ],
@@ -772,11 +784,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q7_a_ms.webp",
        "w": 1092,
-       "h": 190,
+       "h": 263,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 92.8,
+        "y0": 58.0,
         "x1": 560,
         "y1": 183.8
        }
@@ -919,11 +931,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q8_a_ms_1.webp",
        "w": 1092,
-       "h": 34,
+       "h": 36,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 98.1,
+        "y0": 97.1,
         "x1": 560,
         "y1": 114.0
        }
@@ -968,11 +980,11 @@
       {
        "src": "maths/WFM02_2026_06_A/q8_b_ms_1.webp",
        "w": 1092,
-       "h": 34,
+       "h": 36,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 98.1,
+        "y0": 97.1,
         "x1": 560,
         "y1": 114.0
        }

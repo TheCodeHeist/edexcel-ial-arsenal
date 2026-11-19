@@ -47,8 +47,10 @@
      "label": "1(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q1_a.webp",
@@ -84,8 +86,10 @@
      "label": "1(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q1_b.webp",
@@ -121,8 +125,10 @@
      "label": "1(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q1_c.webp",
@@ -205,7 +211,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q2",
@@ -230,8 +236,10 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q2_a.webp",
@@ -267,8 +275,11 @@
      "label": "2(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.2",
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q2_b.webp",
@@ -316,8 +327,11 @@
      "label": "2(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.3",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q2_c.webp",
@@ -353,8 +367,11 @@
      "label": "2(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.4",
+      "P3.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q2_d.webp",
@@ -413,7 +430,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q3",
@@ -438,8 +455,11 @@
      "label": "3(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4",
+      "P3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q3_a.webp",
@@ -487,8 +507,10 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q3_b.webp",
@@ -523,9 +545,11 @@
     {
      "label": "3(c)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P3.4.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q3_c.webp",
@@ -572,7 +596,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q4",
@@ -597,8 +621,10 @@
      "label": "4(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q4_a.webp",
@@ -634,8 +660,11 @@
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q4_b.webp",
@@ -682,7 +711,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q5",
@@ -694,8 +723,11 @@
      "label": "5(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.1",
+      "P2.8.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q5_i.webp",
@@ -731,8 +763,10 @@
      "label": "5(ii)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q5_ii.webp",
@@ -791,7 +825,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q6",
@@ -803,8 +837,11 @@
      "label": "6(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q6_i.webp",
@@ -840,8 +877,11 @@
      "label": "6(ii)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q6_ii.webp",
@@ -912,7 +952,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q7",
@@ -937,8 +977,10 @@
      "label": "7(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q7_a.webp",
@@ -974,8 +1016,10 @@
      "label": "7(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q7_b.webp",
@@ -1010,9 +1054,11 @@
     {
      "label": "7(c)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P3.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q7_c.webp",
@@ -1071,7 +1117,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q8",
@@ -1096,8 +1142,10 @@
      "label": "8(a)",
      "marks": 1,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q8_a.webp",
@@ -1133,19 +1181,22 @@
      "label": "8(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.3",
+      "P3.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q8_b.webp",
        "w": 1016,
-       "h": 222,
+       "h": 169,
        "region": {
         "page": 22,
         "x0": 36,
         "y0": 166.2,
         "x1": 523.2,
-        "y1": 272.3
+        "y1": 247.0
        }
       }
      ],
@@ -1163,24 +1214,27 @@
        }
       }
      ],
-     "text": "(b) Given x = 2 sin y, show that y d 1 = x A - x d 2 where A is a constant to be found. (3)",
+     "text": "(b) Given x = 2 sin y, show that y d 1 = x A - x d 2",
      "kindGuessed": "calc"
     },
     {
      "label": "8(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P3.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q8_c.webp",
        "w": 1016,
-       "h": 182,
+       "h": 235,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 272.3,
+        "y0": 247.0,
         "x1": 523.2,
         "y1": 359.3
        }
@@ -1200,7 +1254,7 @@
        }
       }
      ],
-     "text": "π The point P lies on C and has y coordinate 4 (c) Find the equation of the tangent to C at P. Write your answer in the form y = mx + c, where m and c are constants to be found. (3)",
+     "text": "where A is a constant to be found. (3) π The point P lies on C and has y coordinate 4 (c) Find the equation of the tangent to C at P. Write your answer in the form y = mx + c, where m and c are constants to be found. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -1242,7 +1296,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "8(b): text after the marks"
+   ]
   },
   {
    "id": "WMA13_2021_10_q9",
@@ -1267,8 +1324,11 @@
      "label": "9(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.4.1",
+      "P3.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q9_a.webp",
@@ -1304,8 +1364,11 @@
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q9_b.webp",
@@ -1341,8 +1404,10 @@
      "label": "9(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q9_c.webp",
@@ -1401,7 +1466,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA13_2021_10_q10",
@@ -1426,8 +1491,10 @@
      "label": "10(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q10_a.webp",
@@ -1463,8 +1530,11 @@
      "label": "10(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.5.1",
+      "P2.8.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA13_2021_10/q10_b.webp",
@@ -1520,18 +1590,6 @@
       "y0": 66.7,
       "x1": 560,
       "y1": 146.3
-     }
-    },
-    {
-     "src": "maths/WMA13_2021_10/q10_notes_3.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 27,
-      "x0": 36,
-      "y0": 620.1,
-      "x1": 560,
-      "y1": 649.6
      }
     }
    ],

@@ -48,8 +48,10 @@
      "label": "1(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q1_a.webp",
@@ -85,8 +87,10 @@
      "label": "1(b)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q1_b.webp",
@@ -122,8 +126,10 @@
      "label": "1(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q1_c.webp",
@@ -182,7 +188,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2026_01_A_q2",
@@ -194,8 +200,11 @@
      "label": "2",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q2.webp",
@@ -214,13 +223,13 @@
       {
        "src": "maths/WMA14_2026_01_A/q2_ms.webp",
        "w": 1092,
-       "h": 463,
+       "h": 434,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 80.2,
         "x1": 560,
-        "y1": 302.0
+        "y1": 288.2
        }
       }
      ],
@@ -232,11 +241,11 @@
     {
      "src": "maths/WMA14_2026_01_A/q2_notes_1.webp",
      "w": 1092,
-     "h": 993,
+     "h": 1021,
      "region": {
       "page": 9,
       "x0": 36,
-      "y0": 299.0,
+      "y0": 285.2,
       "x1": 560,
       "y1": 774.9
      }
@@ -279,8 +288,10 @@
      "label": "3(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q3_a.webp",
@@ -328,8 +339,10 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q3_b.webp",
@@ -400,7 +413,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2026_01_A_q4",
@@ -412,8 +425,11 @@
      "label": "4",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.2.1",
+      "P4.6.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q4.webp",
@@ -432,13 +448,13 @@
       {
        "src": "maths/WMA14_2026_01_A/q4_ms.webp",
        "w": 1092,
-       "h": 426,
+       "h": 386,
        "region": {
         "page": 13,
         "x0": 36,
         "y0": 88.1,
         "x1": 560,
-        "y1": 291.9
+        "y1": 273.0
        }
       }
      ],
@@ -450,11 +466,11 @@
     {
      "src": "maths/WMA14_2026_01_A/q4_notes_1.webp",
      "w": 1092,
-     "h": 904,
+     "h": 943,
      "region": {
       "page": 13,
       "x0": 36,
-      "y0": 290.3,
+      "y0": 271.2,
       "x1": 560,
       "y1": 723.8
      }
@@ -484,8 +500,11 @@
      "label": "5",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.6",
+      "P4.7.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q5.webp",
@@ -504,13 +523,13 @@
       {
        "src": "maths/WMA14_2026_01_A/q5_ms.webp",
        "w": 1092,
-       "h": 385,
+       "h": 356,
        "region": {
         "page": 15,
         "x0": 36,
         "y0": 90.5,
         "x1": 560,
-        "y1": 274.6
+        "y1": 260.8
        }
       }
      ],
@@ -522,11 +541,11 @@
     {
      "src": "maths/WMA14_2026_01_A/q5_notes.webp",
      "w": 1092,
-     "h": 987,
+     "h": 1029,
      "region": {
       "page": 15,
       "x0": 36,
-      "y0": 278.0,
+      "y0": 257.8,
       "x1": 560,
       "y1": 751.3
      }
@@ -557,8 +576,10 @@
      "label": "6(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q6_a.webp",
@@ -594,8 +615,11 @@
      "label": "6(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.1",
+      "P4.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q6_b.webp",
@@ -654,7 +678,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2026_01_A_q7",
@@ -679,8 +703,10 @@
      "label": "7(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q7_a.webp",
@@ -716,8 +742,11 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.5.1",
+      "P1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q7_b.webp",
@@ -753,8 +782,10 @@
      "label": "7(c)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q7_c.webp",
@@ -790,8 +821,11 @@
      "label": "7(d)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.6.2",
+      "P4.6.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q7_d.webp",
@@ -862,7 +896,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2026_01_A_q8",
@@ -874,8 +908,10 @@
      "label": "8(a)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q8_a.webp",
@@ -911,8 +947,10 @@
      "label": "8(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q8_b.webp",
@@ -971,7 +1009,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA14_2026_01_A_q9",
@@ -996,8 +1034,11 @@
      "label": "9(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.4",
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q9_a.webp",
@@ -1033,8 +1074,10 @@
      "label": "9(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q9_b.webp",
@@ -1070,8 +1113,11 @@
      "label": "9(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.7",
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q9_c.webp",
@@ -1107,8 +1153,10 @@
      "label": "9(d)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P4.7.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA14_2026_01_A/q9_d.webp",
@@ -1167,7 +1215,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

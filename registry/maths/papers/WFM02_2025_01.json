@@ -47,19 +47,21 @@
      "label": "1(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q1_a.webp",
        "w": 1090,
-       "h": 132,
+       "h": 108,
        "region": {
         "page": 2,
         "x0": 36,
         "y0": 132.0,
         "x1": 559,
-        "y1": 195.2
+        "y1": 183.6
        }
       }
      ],
@@ -77,24 +79,26 @@
        }
       }
      ],
-     "text": "(a) Show that an integrating factor for this differential equation is given by 3 x p(x) = cos (2)",
+     "text": "(a) Show that an integrating factor for this differential equation is given by 3 x p(x) = cos",
      "kindGuessed": "calc"
     },
     {
      "label": "1(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q1_b.webp",
        "w": 1090,
-       "h": 212,
+       "h": 236,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 195.2,
+        "y0": 183.6,
         "x1": 559,
         "y1": 296.2
        }
@@ -114,7 +118,7 @@
        }
       }
      ],
-     "text": "Given that y = 4 when x = π 4 (b) determine the particular solution of the differential equation. Give your answer in the form y = f(x). (4)",
+     "text": "(2) Given that y = 4 when x = π 4 (b) determine the particular solution of the differential equation. Give your answer in the form y = f(x). (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -144,7 +148,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2025_01_q2",
@@ -156,8 +163,11 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q2_a.webp",
@@ -193,8 +203,11 @@
      "label": "2(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q2_b.webp",
@@ -230,8 +243,10 @@
      "label": "2(c)",
      "marks": 2,
      "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q2_c.webp",
@@ -290,7 +305,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_01_q3",
@@ -315,8 +330,10 @@
      "label": "3(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q3_a.webp",
@@ -352,8 +369,11 @@
      "label": "3(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.3",
+      "FP2.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q3_b.webp",
@@ -412,7 +432,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_01_q4",
@@ -424,17 +444,20 @@
      "label": "4(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q4_a.webp",
        "w": 1090,
-       "h": 75,
+       "h": 79,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 65.9,
+        "y0": 64.1,
         "x1": 559,
         "y1": 101.5
        }
@@ -461,8 +484,10 @@
      "label": "4(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q4_b.webp",
@@ -533,10 +558,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2025_01_q5",
@@ -561,8 +583,10 @@
      "label": "5(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q5_a.webp",
@@ -598,8 +622,10 @@
      "label": "5(b)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q5_b.webp",
@@ -670,7 +696,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_01_q6",
@@ -682,19 +708,21 @@
      "label": "6(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q6_a.webp",
        "w": 1090,
-       "h": 177,
+       "h": 152,
        "region": {
         "page": 20,
         "x0": 36,
         "y0": 57.0,
         "x1": 559,
-        "y1": 141.4
+        "y1": 129.6
        }
       }
      ],
@@ -712,24 +740,26 @@
        }
       }
      ],
-     "text": "6. (a) Determine the general solution of the differential equation 2 4 d y d y x 5 3 4 1 37 y O 6e 2 x d x d (6)",
+     "text": "6. (a) Determine the general solution of the differential equation 2 4 d y d y x 5 3 4 1 37 y O 6e 2 x d x d",
      "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q6_b.webp",
        "w": 1090,
-       "h": 161,
+       "h": 185,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 141.4,
+        "y0": 129.6,
         "x1": 559,
         "y1": 218.3
        }
@@ -749,7 +779,7 @@
        }
       }
      ],
-     "text": "y Given that y = 0 and d x O when x = 0 0 d (b) determine the particular solution for this differential equation. (5)",
+     "text": "(6) y Given that y = 0 and d x O when x = 0 0 d (b) determine the particular solution for this differential equation. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -779,7 +809,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2025_01_q7",
@@ -791,8 +824,10 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q7_a.webp",
@@ -811,11 +846,11 @@
       {
        "src": "maths/WFM02_2025_01/q7_a_ms.webp",
        "w": 1092,
-       "h": 320,
+       "h": 328,
        "region": {
         "page": 21,
         "x0": 36,
-        "y0": 59.4,
+        "y0": 55.6,
         "x1": 560,
         "y1": 212.6
        }
@@ -828,8 +863,10 @@
      "label": "7(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q7_b.webp",
@@ -865,8 +902,11 @@
      "label": "7(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "P2.6.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q7_c.webp",
@@ -950,8 +990,10 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q8_a.webp",
@@ -1011,8 +1053,11 @@
      "label": "8(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "FP2.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q8_b.webp",
@@ -1060,8 +1105,11 @@
      "label": "8(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.4",
+      "FP2.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2025_01/q8_c.webp",
@@ -1117,18 +1165,6 @@
       "y0": 52.6,
       "x1": 560,
       "y1": 376.2
-     }
-    },
-    {
-     "src": "maths/WFM02_2025_01/q8_notes_3.webp",
-     "w": 1092,
-     "h": 53,
-     "region": {
-      "page": 27,
-      "x0": 36,
-      "y0": 764.8,
-      "x1": 560,
-      "y1": 790
      }
     }
    ],

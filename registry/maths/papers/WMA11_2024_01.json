@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q1.webp",
@@ -82,7 +85,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_01_q2",
@@ -107,8 +110,10 @@
      "label": "2(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q2_a.webp",
@@ -127,11 +132,11 @@
       {
        "src": "maths/WMA11_2024_01/q2_a_ms.webp",
        "w": 1092,
-       "h": 150,
+       "h": 180,
        "region": {
         "page": 5,
         "x0": 36,
-        "y0": 134.5,
+        "y0": 120.2,
         "x1": 560,
         "y1": 206.3
        }
@@ -144,8 +149,11 @@
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.1",
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q2_b.webp",
@@ -229,8 +237,11 @@
      "label": "3(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2",
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q3_a.webp",
@@ -266,8 +277,11 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.3",
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q3_b.webp",
@@ -314,7 +328,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_01_q4",
@@ -339,8 +353,11 @@
      "label": "4(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.1",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q4_a.webp",
@@ -376,8 +393,11 @@
      "label": "4(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3",
+      "P1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q4_b.webp",
@@ -436,7 +456,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_01_q5",
@@ -446,13 +466,13 @@
     {
      "src": "maths/WMA11_2024_01/q5_stem.webp",
      "w": 1090,
-     "h": 820,
+     "h": 781,
      "region": {
       "page": 10,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 450.0
+      "y1": 431.3
      }
     }
    ],
@@ -461,17 +481,19 @@
      "label": "5(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q5_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 144,
        "region": {
         "page": 10,
         "x0": 36,
-        "y0": 450.4,
+        "y0": 431.3,
         "x1": 559,
         "y1": 499.8
        }
@@ -491,15 +513,18 @@
        }
       }
      ],
-     "text": "(a) Find the equation of l1 , giving your answer in the form y = mx + c , where m and c are constants to be found. (3)",
+     "text": "The straight line l1 , shown in Figure 1, passes through the points P(–2, 9) and Q(10, 6). (a) Find the equation of l1 , giving your answer in the form y = mx + c , where m and c are constants to be found. (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.2",
+      "P1.1.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q5_b.webp",
@@ -535,8 +560,11 @@
      "label": "5(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.2.1",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q5_c.webp",
@@ -617,13 +645,13 @@
     {
      "src": "maths/WMA11_2024_01/q6_stem.webp",
      "w": 1090,
-     "h": 912,
+     "h": 872,
      "region": {
       "page": 14,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 494.1
+      "y1": 475.2
      }
     }
    ],
@@ -631,18 +659,20 @@
     {
      "label": "6(a)",
      "marks": 2,
-     "kind": "short",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q6_a.webp",
        "w": 1090,
-       "h": 74,
+       "h": 114,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 494.4,
+        "y0": 475.2,
         "x1": 559,
         "y1": 529.9
        }
@@ -652,25 +682,28 @@
       {
        "src": "maths/WMA11_2024_01/q6_a_ms.webp",
        "w": 1092,
-       "h": 103,
+       "h": 128,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 90.9,
+        "y0": 78.8,
         "x1": 560,
         "y1": 140.0
        }
       }
      ],
-     "text": "(a) State the coordinates of P (2)",
-     "kindGuessed": "short"
+     "text": "The point P, shown in Figure 2, is a minimum point on C1 (a) State the coordinates of P (2)",
+     "kindGuessed": "calc"
     },
     {
      "label": "6(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.3",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q6_b.webp",
@@ -717,7 +750,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA11_2024_01/q6_notes_1.webp",
+     "src": "maths/WMA11_2024_01/q6_notes.webp",
      "w": 1092,
      "h": 1094,
      "region": {
@@ -726,18 +759,6 @@
       "y0": 256.1,
       "x1": 560,
       "y1": 780.7
-     }
-    },
-    {
-     "src": "maths/WMA11_2024_01/q6_notes_2.webp",
-     "w": 1092,
-     "h": 159,
-     "region": {
-      "page": 15,
-      "x0": 36,
-      "y0": 79.8,
-      "x1": 560,
-      "y1": 155.6
      }
     }
    ],
@@ -753,8 +774,11 @@
      "label": "7(a)",
      "marks": 4,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11",
+      "P1.1.12"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q7_a.webp",
@@ -773,11 +797,11 @@
       {
        "src": "maths/WMA11_2024_01/q7_a_ms.webp",
        "w": 1092,
-       "h": 244,
+       "h": 404,
        "region": {
         "page": 15,
         "x0": 36,
-        "y0": 155.6,
+        "y0": 78.8,
         "x1": 560,
         "y1": 272.5
        }
@@ -790,8 +814,11 @@
      "label": "7(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.4",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q7_b.webp",
@@ -875,8 +902,10 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q8_a.webp",
@@ -912,8 +941,10 @@
      "label": "8(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q8_b.webp",
@@ -949,8 +980,10 @@
      "label": "8(c)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q8_c.webp",
@@ -1021,7 +1054,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA11_2024_01_q9",
@@ -1031,13 +1064,13 @@
     {
      "src": "maths/WMA11_2024_01/q9_stem.webp",
      "w": 1090,
-     "h": 250,
+     "h": 211,
      "region": {
       "page": 22,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 176.5
+      "y1": 157.7
      }
     }
    ],
@@ -1046,17 +1079,20 @@
      "label": "9(a)",
      "marks": 2,
      "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.11",
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q9_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 144,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 176.9,
+        "y0": 157.7,
         "x1": 559,
         "y1": 226.3
        }
@@ -1066,25 +1102,27 @@
       {
        "src": "maths/WMA11_2024_01/q9_a_ms.webp",
        "w": 1092,
-       "h": 199,
+       "h": 314,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 134.0,
+        "y0": 78.8,
         "x1": 560,
         "y1": 229.3
        }
       }
      ],
-     "text": "(a) sketch a graph of C1 showing the coordinates of any points where C1 cuts the coordinate axes, (2)",
+     "text": "• C1 passes through the origin (a) sketch a graph of C1 showing the coordinates of any points where C1 cuts the coordinate axes, (2)",
      "kindGuessed": "draw"
     },
     {
      "label": "9(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q9_b.webp",
@@ -1120,8 +1158,11 @@
      "label": "9(c)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.1.6",
+      "P1.1.10"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q9_c.webp",
@@ -1178,18 +1219,6 @@
       "x1": 560,
       "y1": 769.4
      }
-    },
-    {
-     "src": "maths/WMA11_2024_01/q9_notes_3.webp",
-     "w": 1092,
-     "h": 82,
-     "region": {
-      "page": 22,
-      "x0": 36,
-      "y0": 93.7,
-      "x1": 560,
-      "y1": 132.8
-     }
     }
    ],
    "check": "pending"
@@ -1217,8 +1246,11 @@
      "label": "10(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.4.2",
+      "P1.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q10_a.webp",
@@ -1237,11 +1269,11 @@
       {
        "src": "maths/WMA11_2024_01/q10_a_ms.webp",
        "w": 1092,
-       "h": 146,
+       "h": 230,
        "region": {
         "page": 22,
         "x0": 36,
-        "y0": 132.8,
+        "y0": 92.6,
         "x1": 560,
         "y1": 202.4
        }
@@ -1254,8 +1286,11 @@
      "label": "10(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P1.5.1",
+      "P1.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA11_2024_01/q10_b.webp",
@@ -1290,7 +1325,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA11_2024_01/q10_notes_1.webp",
+     "src": "maths/WMA11_2024_01/q10_notes.webp",
      "w": 1092,
      "h": 927,
      "region": {
@@ -1299,18 +1334,6 @@
       "y0": 329.8,
       "x1": 560,
       "y1": 774.4
-     }
-    },
-    {
-     "src": "maths/WMA11_2024_01/q10_notes_2.webp",
-     "w": 1092,
-     "h": 63,
-     "region": {
-      "page": 23,
-      "x0": 36,
-      "y0": 750.6,
-      "x1": 560,
-      "y1": 780.0
      }
     }
    ],

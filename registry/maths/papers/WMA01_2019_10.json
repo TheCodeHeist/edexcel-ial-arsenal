@@ -54,18 +54,32 @@
       {
        "src": "maths/WMA01_2019_10/q1_ms.webp",
        "w": 1092,
-       "h": 852,
+       "h": 822,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 70.6,
         "x1": 560,
-        "y1": 479.2
+        "y1": 464.9
        }
       }
      ],
      "text": "1. Find 1 1 ⎛ ⎞ ∫ G௘x x 0 x + 3 2 − 6 ⎝⎜ ⎠⎟ x 2 3 writing each term as simply as possible. (4)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WMA01_2019_10/q1_notes.webp",
+     "w": 1092,
+     "h": 37,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 461.9,
+      "x1": 560,
+      "y1": 479.2
+     }
     }
    ],
    "check": "pending"
@@ -230,7 +244,7 @@
        }
       }
      ],
-     "text": "(a) show that (x\u0003í\u0003\u0015 \u0003\u0003LV\u0003QRW\u0003D\u0003IDFWRU\u0003RI\u0003\u0003I\u0003 x). (2)",
+     "text": "(a) show that (x í 2) is not a factor of f (x). (2)",
      "kindGuessed": "calc"
     },
     {
@@ -267,7 +281,7 @@
        }
       }
      ],
-     "text": "Given that when f (x) is divided by (2x\u0003í\u0003\u0014 \u0003\u0003WKH\u0003UHPDLQGHU\u0003LV\u0003\u0003 25 4 (b) find the value of k. (3)",
+     "text": "Given that when f (x) is divided by (2x í 1) the remainder is 25 4 (b) find the value of k. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -923,7 +937,7 @@
        }
       }
      ],
-     "text": "(b) Find the radius of C when k\u0003 \u0003í\u0016\u0015 (2)",
+     "text": "(b) Find the radius of C when k í32 (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1493,7 +1507,7 @@
        }
       }
      ],
-     "text": "12. (i) Given that p is a positive constant and log p 2x\u0003í\u0003ORJ\u0003p 5 = 3 + log p 8 find, in its simplest form, an expression for x in terms of p. (4)",
+     "text": "12. (i) Given that p is a positive constant and log p 2x í log p 5 = 3 + log p 8 find, in its simplest form, an expression for x in terms of p. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1530,7 +1544,7 @@
        }
       }
      ],
-     "text": "(ii) Solve the equation 2\u0003\u000e\u0003\u001a\u0003ORJ2 y\u0003í\u0003\u0014\u0018\u0003 \u0003\u0013 2(log2 y) Show each step in your working and write your answers as simplified surds where appropriate. (5)",
+     "text": "(ii) Solve the equation 2 + 7 log2 y í 15 0 2(log2 y) Show each step in your working and write your answers as simplified surds where appropriate. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1590,7 +1604,7 @@
        }
       }
      ],
-     "text": "13. (i) Solve, for 0 - ș 180° , the equation \u001a\u0003VLQ\u0003\u0015ș\u0003= 5 cos 2ș giving your answers, in degrees, to one decimal place. (4)",
+     "text": "13. (i) Solve, for 0 - ș 180° , the equation 7 sin 2ș = 5 cos 2ș giving your answers, in degrees, to one decimal place. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1992,13 +2006,13 @@
     {
      "src": "maths/WMA01_2019_10/q15_notes.webp",
      "w": 1092,
-     "h": 762,
+     "h": 581,
      "region": {
       "page": 39,
       "x0": 36,
       "y0": 380.6,
       "x1": 560,
-      "y1": 746.1
+      "y1": 659.3
      }
     }
    ],

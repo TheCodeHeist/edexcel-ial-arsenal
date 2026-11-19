@@ -876,13 +876,13 @@
       {
        "src": "maths/WST01_2026_01/q5_a.webp",
        "w": 1090,
-       "h": 703,
+       "h": 676,
        "region": {
         "page": 16,
         "x0": 36,
         "y0": 129.1,
         "x1": 559,
-        "y1": 466.2
+        "y1": 453.6
        }
       }
      ],
@@ -900,7 +900,7 @@
        }
       }
      ],
-     "text": "(a) Complete the tree diagram for this information. 1st counter 2nd counter Red ................ Red 4 x ................ 7 x 3 1 Black Red 4 ................ 7 Black ................ Black (3)",
+     "text": "(a) Complete the tree diagram for this information. 1st counter 2nd counter Red ................ Red 4 x ................ 7 x 3 1 Black Red 4 ................ 7 Black ................ Black",
      "kindGuessed": "draw"
     },
     {
@@ -913,11 +913,11 @@
       {
        "src": "maths/WST01_2026_01/q5_b.webp",
        "w": 1090,
-       "h": 150,
+       "h": 176,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 466.2,
+        "y0": 453.6,
         "x1": 559,
         "y1": 538.1
        }
@@ -937,7 +937,7 @@
        }
       }
      ],
-     "text": "The probability that the two counters selected are different colours is 32 63 (b) Find the total number of counters in the box before the two counters are selected. (4)",
+     "text": "(3) The probability that the two counters selected are different colours is 32 63 (b) Find the total number of counters in the box before the two counters are selected. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -992,7 +992,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
   },
   {
    "id": "WST01_2026_01_q6",

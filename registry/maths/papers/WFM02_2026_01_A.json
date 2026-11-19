@@ -35,8 +35,11 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "FP1.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q1.webp",
@@ -83,7 +86,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_A_q2",
@@ -95,8 +98,11 @@
      "label": "2",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.1.1",
+      "P1.1.9"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q2.webp",
@@ -155,7 +161,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_A_q3",
@@ -180,8 +186,10 @@
      "label": "3(a)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q3_a.webp",
@@ -217,8 +225,10 @@
      "label": "3(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.4.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q3_b.webp",
@@ -265,7 +275,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_A_q4",
@@ -277,17 +287,20 @@
      "label": "4(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1",
+      "P4.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q4_a.webp",
        "w": 1090,
-       "h": 94,
+       "h": 101,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 57.6,
+        "y0": 54.0,
         "x1": 559,
         "y1": 102.2
        }
@@ -307,15 +320,17 @@
        }
       }
      ],
-     "text": "r + 4. (a) Express ) in partial fractions. r r + r + ( 1 )( 2 (3)",
+     "text": "r + 4 2 4. (a) Express ) in partial fractions. r r + r + ( 1 )( 2 (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "4(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.2.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q4_b.webp",
@@ -386,10 +401,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM02_2026_01_A_q5",
@@ -414,19 +426,21 @@
      "label": "5(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q5_a.webp",
        "w": 1090,
-       "h": 168,
+       "h": 145,
        "region": {
         "page": 3,
         "x0": 36,
         "y0": 313.4,
         "x1": 559,
-        "y1": 393.6
+        "y1": 382.3
        }
       }
      ],
@@ -480,24 +494,27 @@
        }
       }
      ],
-     "text": "(a) show that \u001b \u0018 2 3 y 2 y y y y d 1 d d d d \u001b \u0018 \u001b \u0018 O x 3 \u0017\u0016 3 \u0017\u0016 1 \u001a\u0019 2 1 5 5 3 \u0017\u0016 \u001a\u0019 \u001a\u0019 . / x 3 x 2 x x x d x 2 d d d d 2 3 (5)",
+     "text": "(a) show that \u001b \u0018 2 3 y 2 y y y y d 1 d d d d \u001b \u0018 \u001b \u0018 O x 3 \u0017\u0016 3 \u0017\u0016 1 \u001a\u0019 2 1 5 5 3 \u0017\u0016 \u001a\u0019 \u001a\u0019 . / x 3 x 2 x x x d x 2 d d d d 2 3",
      "kindGuessed": "calc"
     },
     {
      "label": "5(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.6.2",
+      "FP2.6.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q5_b.webp",
        "w": 1090,
-       "h": 188,
+       "h": 211,
        "region": {
         "page": 3,
         "x0": 36,
-        "y0": 393.6,
+        "y0": 382.3,
         "x1": 559,
         "y1": 483.2
        }
@@ -517,7 +534,7 @@
        }
       }
      ],
-     "text": "Given also that y = 3 and d y x = 1 4 at x = 0 d (b) obtain a series solution for y in ascending powers of x with simplified coefficients, 3 up to and including the term in x (4)",
+     "text": "(5) Given also that y = 3 and d y x = 1 4 at x = 0 d (b) obtain a series solution for y in ascending powers of x with simplified coefficients, 3 up to and including the term in x (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -535,7 +552,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(a): text after the marks"
+   ]
   },
   {
    "id": "WFM02_2026_01_A_q6",
@@ -547,8 +567,10 @@
      "label": "6(a)",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q6_a.webp",
@@ -584,8 +606,10 @@
      "label": "6(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q6_b.webp",
@@ -632,7 +656,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM02_2026_01_A_q7",
@@ -644,8 +668,10 @@
      "label": "7(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q7_a.webp",
@@ -681,8 +707,10 @@
      "label": "7(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q7_b.webp",
@@ -718,8 +746,10 @@
      "label": "7(c)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q7_c.webp",
@@ -738,13 +768,13 @@
       {
        "src": "maths/WFM02_2026_01_A/q7_c_ms.webp",
        "w": 1092,
-       "h": 852,
+       "h": 851,
        "region": {
         "page": 30,
         "x0": 36,
         "y0": 56.7,
         "x1": 560,
-        "y1": 465.3
+        "y1": 464.8
        }
       }
      ],
@@ -755,8 +785,11 @@
      "label": "7(d)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.3.2",
+      "P3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q7_d.webp",
@@ -813,13 +846,13 @@
     {
      "src": "maths/WFM02_2026_01_A/q8_stem.webp",
      "w": 1090,
-     "h": 684,
+     "h": 645,
      "region": {
       "page": 5,
       "x0": 36,
       "y0": 45.7,
       "x1": 559,
-      "y1": 373.8
+      "y1": 355.0
      }
     }
    ],
@@ -828,17 +861,19 @@
      "label": "8(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q8_a.webp",
        "w": 1090,
-       "h": 104,
+       "h": 144,
        "region": {
         "page": 5,
         "x0": 36,
-        "y0": 374.0,
+        "y0": 355.0,
         "x1": 559,
         "y1": 423.4
        }
@@ -858,15 +893,17 @@
        }
       }
      ],
-     "text": "(a) Find, in terms of a, the polar coordinates of the points where the curve C1 meets the circle C2 (3)",
+     "text": "circle C2 with polar equation r = a , 0  θ  2π , where a is a positive constant. (a) Find, in terms of a, the polar coordinates of the points where the curve C1 meets the circle C2 (3)",
      "kindGuessed": "calc"
     },
     {
      "label": "8(b)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP2.7.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM02_2026_01_A/q8_b.webp",

@@ -34,8 +34,11 @@
      "label": "1",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.1.1",
+      "FP3.1.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q1.webp",
@@ -82,7 +85,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2023_06_q2",
@@ -107,8 +110,11 @@
      "label": "2(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.4",
+      "FP3.6.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q2_a.webp",
@@ -156,8 +162,10 @@
      "label": "2(b)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q2_b.webp",
@@ -205,8 +213,11 @@
      "label": "2(c)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.6",
+      "FP3.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q2_c.webp",
@@ -237,18 +248,32 @@
       {
        "src": "maths/WFM03_2023_06/q2_c_ms_2.webp",
        "w": 1092,
-       "h": 640,
+       "h": 211,
        "region": {
         "page": 9,
         "x0": 36,
         "y0": 68.3,
         "x1": 560,
-        "y1": 375.3
+        "y1": 169.2
        }
       }
      ],
      "text": "The plane Π1 has equation 3x – 7y + 2z = –3 (c) Find a Cartesian equation for Π2 Give your answer in the form au + bv + cw = d where a, b, c and d are integers to be determined. (2)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM03_2023_06/q2_notes.webp",
+     "w": 1092,
+     "h": 437,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 166.2,
+      "x1": 560,
+      "y1": 375.8
+     }
     }
    ],
    "check": "pending"
@@ -276,8 +301,10 @@
      "label": "3(a)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q3_a.webp",
@@ -313,8 +340,11 @@
      "label": "3(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.6",
+      "FP3.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q3_b.webp",
@@ -347,7 +377,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2023_06_q4",
@@ -357,11 +387,11 @@
     {
      "src": "maths/WFM03_2023_06/q4_stem.webp",
      "w": 1090,
-     "h": 274,
+     "h": 306,
      "region": {
       "page": 12,
       "x0": 36,
-      "y0": 80.5,
+      "y0": 64.8,
       "x1": 559,
       "y1": 211.2
      }
@@ -372,8 +402,11 @@
      "label": "4(a)",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.1",
+      "FP3.5.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q4_a.webp",
@@ -433,8 +466,10 @@
      "label": "4(b)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.5.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q4_b.webp",
@@ -491,10 +526,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "stem: text cut by a crop edge"
-   ]
+   "check": "pending"
   },
   {
    "id": "WFM03_2023_06_q5",
@@ -506,8 +538,10 @@
      "label": "5",
      "marks": 7,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.6.7"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q5.webp",
@@ -566,7 +600,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2023_06_q6",
@@ -591,8 +625,10 @@
      "label": "6(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q6_a.webp",
@@ -628,8 +664,10 @@
      "label": "6(b)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q6_b.webp",
@@ -665,8 +703,11 @@
      "label": "6(c)",
      "marks": 6,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.2.4",
+      "FP3.2.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q6_c.webp",
@@ -713,7 +754,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2023_06_q7",
@@ -738,8 +779,10 @@
      "label": "7(a)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q7_a.webp",
@@ -775,8 +818,11 @@
      "label": "7(b)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.5",
+      "FP3.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q7_b.webp",
@@ -823,7 +869,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM03_2023_06_q8",
@@ -835,8 +881,10 @@
      "label": "8(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q8_a.webp",
@@ -872,8 +920,11 @@
      "label": "8(b)",
      "marks": 8,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "FP3.4.2",
+      "FP3.3.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WFM03_2023_06/q8_b.webp",
@@ -908,7 +959,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM03_2023_06/q8_notes_1.webp",
+     "src": "maths/WFM03_2023_06/q8_notes.webp",
      "w": 1092,
      "h": 35,
      "region": {
@@ -917,18 +968,6 @@
       "y0": 767.5,
       "x1": 560,
       "y1": 784.2
-     }
-    },
-    {
-     "src": "maths/WFM03_2023_06/q8_notes_2.webp",
-     "w": 1092,
-     "h": 62,
-     "region": {
-      "page": 22,
-      "x0": 36,
-      "y0": 724.0,
-      "x1": 560,
-      "y1": 753.4
      }
     }
    ],

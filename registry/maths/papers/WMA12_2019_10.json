@@ -28,23 +28,36 @@
    "id": "WMA12_2019_10_q1",
    "number": 1,
    "marks": 6,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q1_stem.webp",
+     "w": 1016,
+     "h": 39,
+     "region": {
+      "page": 2,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 78.0
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "1",
+     "label": "1(a)",
      "marks": 4,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q1.webp",
+       "src": "maths/WMA12_2019_10/q1_a.webp",
        "w": 1016,
-       "h": 126,
+       "h": 68,
        "region": {
         "page": 2,
         "x0": 36,
-        "y0": 59.7,
+        "y0": 87.7,
         "x1": 523.2,
         "y1": 120.0
        }
@@ -52,7 +65,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q1_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q1_a_ms.webp",
        "w": 1092,
        "h": 198,
        "region": {
@@ -62,32 +75,20 @@
         "x1": 560,
         "y1": 186.7
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q1_ms_2.webp",
-       "w": 1092,
-       "h": 134,
-       "region": {
-        "page": 8,
-        "x0": 36,
-        "y0": 186.7,
-        "x1": 560,
-        "y1": 250.3
-       }
       }
      ],
-     "text": "1. A curve C has equation y = 2x2(x\u0003í\u0003\u0018 \u0003 D \u0003 )LQG\u000f\u0003XVLQJ\u0003FDOFXOXV\u000f\u0003WKH\u0003x\u0003FRRUGLQDWHV\u0003RI\u0003WKH\u0003VWDWLRQDU\\\u0003SRLQWV\u0003RI\u0003C. (4)",
+     "text": "(a) Find, using calculus, the x coordinates of the stationary points of C. (4)",
      "kindGuessed": "calc"
     },
     {
-     "label": "1",
+     "label": "1(b)",
      "marks": 2,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q1.webp",
+       "src": "maths/WMA12_2019_10/q1_b.webp",
        "w": 1016,
        "h": 68,
        "region": {
@@ -101,19 +102,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q1_ms_1.webp",
-       "w": 1092,
-       "h": 198,
-       "region": {
-        "page": 8,
-        "x0": 36,
-        "y0": 91.8,
-        "x1": 560,
-        "y1": 186.7
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q1_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q1_b_ms.webp",
        "w": 1092,
        "h": 134,
        "region": {
@@ -125,7 +114,7 @@
        }
       }
      ],
-     "text": "\u0003 E \u0003 +HQFH\u0003ILQG\u0003WKH\u0003YDOXHV\u0003RI\u0003x\u0003IRU\u0003ZKLFK\u0003y\u0003LV\u0003LQFUHDVLQJ\u0011\u0003 (2)",
+     "text": "(b) Hence find the values of x for which y is increasing. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -155,34 +144,42 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "1: text doesn't start at its label",
-    "Q1: mark (2) at p2 y145 with no new label",
-    "Q1: repeated part label in ['1', '1']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q2",
    "number": 2,
    "marks": 6,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q2_stem.webp",
+     "w": 1016,
+     "h": 156,
+     "region": {
+      "page": 4,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 134.0
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "2",
+     "label": "2(a)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q2.webp",
+       "src": "maths/WMA12_2019_10/q2_a.webp",
        "w": 1016,
-       "h": 243,
+       "h": 68,
        "region": {
         "page": 4,
         "x0": 36,
-        "y0": 59.7,
+        "y0": 143.7,
         "x1": 523.2,
         "y1": 176.0
        }
@@ -190,7 +187,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q2_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q2_a_ms.webp",
        "w": 1092,
        "h": 129,
        "region": {
@@ -200,32 +197,20 @@
         "x1": 560,
         "y1": 139.5
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q2_ms_2.webp",
-       "w": 1092,
-       "h": 233,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 139.5,
-        "x1": 560,
-        "y1": 250.6
-       }
       }
      ],
-     "text": "2. 7KH\u0003DGXOW\u0003SRSXODWLRQ\u0003RI\u0003D\u0003WRZQ\u0003DW\u0003WKH\u0003VWDUW\u0003RI\u0003\u0015\u0013\u0014 \u0003LV\u0003\u0015\u0018\u0003\u0013\u0013\u0013 $\u0003 PRGHO\u0003 SUHGLFWV\u0003 WKDW\u0003 WKH\u0003 DGXOW\u0003 SRSXODWLRQ\u0003 ZLOO\u0003 LQFUHDVH\u0003 E\\\u0003 \u0015\b\u0003HDFK\u0003 \\HDU\u000f\u0003 VR\u0003 WKDW\u0003 WKH\u0003 QXPEHU\u0003RI\u0003DGXOWV\u0003LQ\u0003WKH\u0003SRSXODWLRQ\u0003DW\u0003WKH\u0003VWDUW\u0003RI\u0003HDFK\u0003\\HDU\u0003IROORZLQJ\u0003\u0015\u0013\u0014 \u0003ZLOO\u0003IRUP\u0003D\u0003 JHRPHWULF\u0003VHTXHQFH\u0011 \u0003 D \u0003 )LQG\u000f\u0003DFFRUGLQJ\u0003WR\u0003WKH\u0003PRGHO\u000f\u0003WKH\u0003DGXOW\u0003SRSXODWLRQ\u0003RI\u0003WKH\u0003WRZQ\u0003DW\u0003WKH\u0003VWDUW\u0003RI\u0003\u0015\u0013\u0016\u0015\u0003 (3)",
+     "text": "(a) Find, according to the model, the adult population of the town at the start of 2032 (3)",
      "kindGuessed": "calc"
     },
     {
-     "label": "2",
+     "label": "2(b)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q2.webp",
+       "src": "maths/WMA12_2019_10/q2_b.webp",
        "w": 1016,
        "h": 214,
        "region": {
@@ -239,19 +224,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q2_ms_1.webp",
-       "w": 1092,
-       "h": 129,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 78.1,
-        "x1": 560,
-        "y1": 139.5
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q2_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q2_b_ms.webp",
        "w": 1092,
        "h": 233,
        "region": {
@@ -263,7 +236,7 @@
        }
       }
      ],
-     "text": ",W\u0003LV\u0003DOVR\u0003PRGHOOHG\u0003WKDW\u0003HYHU\\\u0003PHPEHU\u0003RI\u0003WKH\u0003DGXOW\u0003SRSXODWLRQ\u0003JLYHV\u0003 \u0018\u0003WR\u0003ORFDO\u0003FKDULW\\\u0003DW\u0003 WKH\u0003VWDUW\u0003RI\u0003HDFK\u0003\\HDU\u0011\u0003 \u0003 E \u0003 )LQG\u000f\u0003DFFRUGLQJ\u0003WR\u0003WKHVH\u0003PRGHOV\u000f\u0003WKH\u0003WRWDO\u0003DPRXQW\u0003RI\u0003PRQH\\\u0003WKDW\u0003ZRXOG\u0003EH\u0003JLYHQ\u0003WR\u0003 ORFDO\u0003FKDULW\\\u0003E\\\u0003WKH\u0003DGXOW\u0003SRSXODWLRQ\u0003RI\u0003WKH\u0003WRZQ\u0003IURP\u0003\u0015\u0013\u0014 \u0003WR\u0003\u0015\u0013\u0016\u0015\u0003LQFOXVLYH\u0011\u0003\u0003*LYH\u0003 \\RXU\u0003DQVZHU\u0003WR\u0003WKH\u0003QHDUHVW\u0003 \u0014\u0003\u0013\u0013\u0013\u0003\u0003 (3)",
+     "text": "It is also modelled that every member of the adult population gives 5 to local charity at the start of each year. (b) Find, according to these models, the total amount of money that would be given to local charity by the adult population of the town from 2019 to 2032 inclusive. Give your answer to the nearest 1 000 (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -293,12 +266,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2: text doesn't start at its label",
-    "Q2: mark (3) at p4 y268 with no new label",
-    "Q2: repeated part label in ['2', '2']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q3",
@@ -307,14 +275,14 @@
    "stem": [],
    "parts": [
     {
-     "label": "3",
+     "label": "3(a)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q3.webp",
+       "src": "maths/WMA12_2019_10/q3_a.webp",
        "w": 1016,
        "h": 238,
        "region": {
@@ -328,7 +296,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q3_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q3_a_ms.webp",
        "w": 1092,
        "h": 196,
        "region": {
@@ -338,32 +306,20 @@
         "x1": 560,
         "y1": 172.8
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q3_ms_2.webp",
-       "w": 1092,
-       "h": 333,
-       "region": {
-        "page": 12,
-        "x0": 36,
-        "y0": 172.8,
-        "x1": 560,
-        "y1": 332.0
-       }
       }
      ],
-     "text": "3.\u0003 D \u0003 )LQG\u0003WKH\u0003ILUVW\u0003\u0017\u0003WHUPV\u000f\u0003LQ\u0003DVFHQGLQJ\u0003SRZHUV\u0003RI\u0003x\u000f\u0003LQ\u0003WKH\u0003ELQRPLDO\u0003H[SDQVLRQ\u0003RI\u0003 12 x ⎛ ⎞ + 1 ⎝⎜ ⎠⎟ 4 \u0003 \u0003 JLYLQJ\u0003HDFK\u0003FRHIILFLHQW\u0003LQ\u0003LWV\u0003VLPSOHVW\u0003IRUP\u0011 (3)",
+     "text": "3. (a) Find the first 4 terms, in ascending powers of x, in the binomial expansion of 12 x ⎛ ⎞ + 1 ⎝⎜ ⎠⎟ 4 giving each coefficient in its simplest form. (3)",
      "kindGuessed": "calc"
     },
     {
-     "label": "3",
+     "label": "3(b)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q3.webp",
+       "src": "maths/WMA12_2019_10/q3_b.webp",
        "w": 1016,
        "h": 179,
        "region": {
@@ -377,19 +333,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q3_ms_1.webp",
-       "w": 1092,
-       "h": 196,
-       "region": {
-        "page": 12,
-        "x0": 36,
-        "y0": 79.2,
-        "x1": 560,
-        "y1": 172.8
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q3_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q3_b_ms.webp",
        "w": 1092,
        "h": 333,
        "region": {
@@ -401,7 +345,7 @@
        }
       }
      ],
-     "text": "\u0003 E \u0003 )LQG\u0003WKH\u0003WHUP\u0003LQGHSHQGHQW\u0003RI\u0003x\u0003LQ\u0003WKH\u0003H[SDQVLRQ\u0003RI\u0003 12 x x 2 + 8 ⎛ ⎞ ⎛ ⎞ 1 + ⎝⎜ ⎠⎟ ⎝⎜ ⎠⎟ x 5 4 (3)",
+     "text": "(b) Find the term independent of x in the expansion of 12 x x 2 + 8 ⎛ ⎞ ⎛ ⎞ 1 + ⎝⎜ ⎠⎟ ⎝⎜ ⎠⎟ x 5 4 (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -419,33 +363,42 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "Q3: mark (3) at p6 y252 with no new label",
-    "Q3: repeated part label in ['3', '3']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q4",
    "number": 4,
    "marks": 8,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q4_stem.webp",
+     "w": 1016,
+     "h": 39,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 78.0
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "4",
+     "label": "4(a)",
      "marks": 1,
-     "kind": "calc",
+     "kind": "short",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q4.webp",
+       "src": "maths/WMA12_2019_10/q4_a.webp",
        "w": 1016,
-       "h": 126,
+       "h": 68,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 59.7,
+        "y0": 87.7,
         "x1": 523.2,
         "y1": 120.0
        }
@@ -453,7 +406,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q4_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q4_a_ms.webp",
        "w": 1092,
        "h": 62,
        "region": {
@@ -463,44 +416,20 @@
         "x1": 560,
         "y1": 107.4
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q4_ms_2.webp",
-       "w": 1092,
-       "h": 173,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 107.4,
-        "x1": 560,
-        "y1": 189.7
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q4_ms_3.webp",
-       "w": 1092,
-       "h": 207,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 189.7,
-        "x1": 560,
-        "y1": 288.8
-       }
       }
      ],
-     "text": "4. I௘ x \u0003 \u0003 x\u0003í\u0003\u0016 \u0016[࣠2 + x + a \u0003í\u0003\u0016\u0018\u0003\u0003ZKHUH\u0003a is a constant \u0003 D \u0003 6WDWH\u0003WKH\u0003UHPDLQGHU\u0003ZKHQ\u0003\u0003I௘ x \u0003\u0003LV\u0003GLYLGHG\u0003E\\\u0003\u0003 x\u0003í\u0003\u0016 \u0011 (1)",
-     "kindGuessed": "calc"
+     "text": "(a) State the remainder when f௘(x) is divided by (x í 3). (1)",
+     "kindGuessed": "short"
     },
     {
-     "label": "4",
+     "label": "4(b)",
      "marks": 2,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q4.webp",
+       "src": "maths/WMA12_2019_10/q4_b.webp",
        "w": 1016,
        "h": 126,
        "region": {
@@ -514,19 +443,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q4_ms_1.webp",
-       "w": 1092,
-       "h": 62,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 78.1,
-        "x1": 560,
-        "y1": 107.4
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q4_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q4_b_ms.webp",
        "w": 1092,
        "h": 173,
        "region": {
@@ -536,32 +453,20 @@
         "x1": 560,
         "y1": 189.7
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q4_ms_3.webp",
-       "w": 1092,
-       "h": 207,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 189.7,
-        "x1": 560,
-        "y1": 288.8
-       }
       }
      ],
-     "text": "*LYHQ\u0003\u0003 \u0016x\u0003í\u0003\u0015 \u0003\u0003LV\u0003D\u0003IDFWRU\u0003RI\u0003\u0003I௘ x \u000f \u0003 E \u0003 VKRZ\u0003WKDW\u0003\u0003a\u0003 \u0003í\u0014\u001a (2)",
+     "text": "Given (3x í 2) is a factor of f௘(x \u000f (b) show that a í17 (2)",
      "kindGuessed": "calc"
     },
     {
-     "label": "4",
+     "label": "4(c)",
      "marks": 5,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q4.webp",
+       "src": "maths/WMA12_2019_10/q4_c.webp",
        "w": 1016,
        "h": 69,
        "region": {
@@ -575,31 +480,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q4_ms_1.webp",
-       "w": 1092,
-       "h": 62,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 78.1,
-        "x1": 560,
-        "y1": 107.4
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q4_ms_2.webp",
-       "w": 1092,
-       "h": 173,
-       "region": {
-        "page": 14,
-        "x0": 36,
-        "y0": 107.4,
-        "x1": 560,
-        "y1": 189.7
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q4_ms_3.webp",
+       "src": "maths/WMA12_2019_10/q4_c_ms.webp",
        "w": 1092,
        "h": 207,
        "region": {
@@ -611,7 +492,7 @@
        }
       }
      ],
-     "text": "\u0003 F \u0003 8VLQJ\u0003DOJHEUD\u0003DQG\u0003VKRZLQJ\u0003HDFK\u0003VWHS\u0003RI\u0003\\RXU\u0003ZRUNLQJ\u000f\u0003IXOO\\\u0003IDFWRULVH\u0003\u0003I௘ x \u0011 (5)",
+     "text": "(c) Using algebra and showing each step of your working, fully factorise f௘(x \u0011 (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -641,14 +522,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4: text doesn't start at its label",
-    "4: text doesn't start at its label",
-    "Q4: mark (2) at p8 y173 with no new label",
-    "Q4: mark (5) at p8 y215 with no new label",
-    "Q4: repeated part label in ['4', '4', '4']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q5",
@@ -657,14 +531,14 @@
    "stem": [],
    "parts": [
     {
-     "label": "5",
+     "label": "5(a)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "draw",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q5.webp",
+       "src": "maths/WMA12_2019_10/q5_a.webp",
        "w": 1016,
        "h": 187,
        "region": {
@@ -678,54 +552,30 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q5_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q5_a_ms.webp",
        "w": 1092,
-       "h": 289,
+       "h": 318,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 93.1,
+        "y0": 78.8,
         "x1": 560,
         "y1": 231.1
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q5_ms_2.webp",
-       "w": 1092,
-       "h": 120,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 231.1,
-        "x1": 560,
-        "y1": 288.1
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q5_ms_3.webp",
-       "w": 1092,
-       "h": 180,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 288.1,
-        "x1": 560,
-        "y1": 374.1
-       }
       }
      ],
-     "text": "5.\u0003 D \u0003 *LYHQ\u0003\u0003\u0013\u0003 a \u0003\u0014\u000f\u0003VNHWFK\u0003WKH\u0003FXUYH\u0003ZLWK\u0003HTXDWLRQ y = D࣠x \u0003 \u0003 VKRZLQJ\u0003WKH\u0003FRRUGLQDWHV\u0003RI\u0003WKH\u0003SRLQW\u0003DW\u0003ZKLFK\u0003WKH\u0003FXUYH\u0003FURVVHV\u0003WKH\u0003y-axis. (2)",
-     "kindGuessed": "calc"
+     "text": "5. (a) Given 0 a 1, sketch the curve with equation y = D࣠x showing the coordinates of the point at which the curve crosses the y-axis. (2)",
+     "kindGuessed": "draw"
     },
     {
-     "label": "5",
+     "label": "5(b)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q5.webp",
+       "src": "maths/WMA12_2019_10/q5_b.webp",
        "w": 1016,
        "h": 426,
        "region": {
@@ -739,19 +589,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q5_ms_1.webp",
-       "w": 1092,
-       "h": 289,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 93.1,
-        "x1": 560,
-        "y1": 231.1
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q5_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q5_b_ms.webp",
        "w": 1092,
        "h": 120,
        "region": {
@@ -761,32 +599,20 @@
         "x1": 560,
         "y1": 288.1
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q5_ms_3.webp",
-       "w": 1092,
-       "h": 180,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 288.1,
-        "x1": 560,
-        "y1": 374.1
-       }
       }
      ],
-     "text": "x 2 \u0015\u0011\u0018 \u0016 \u0016\u0011\u0018 \u0017 y \u0017\u0011\u0015\u0018 \u0019\u0011\u0017\u0015\u001a \u0011\u0014\u0015\u0018 \u0014\u0015\u0011\u0016\u0017 \u0014\u0019\u0011\u0013\u0019 x ⎛ 1 ⎞ 7KH\u0003WDEOH\u0003DERYH\u0003VKRZV\u0003FRUUHVSRQGLQJ\u0003YDOXHV\u0003RI\u0003x\u0003DQG\u0003y\u0003IRU\u0003\u0003y = [࣠2 + ⎝⎜ ⎠⎟ 2 7KH\u0003YDOXHV\u0003RI\u0003y\u0003DUH\u0003JLYHQ\u0003WR\u0003\u0017\u0003VLJQLILFDQW\u0003ILJXUHV\u0003DV\u0003DSSURSULDWH\u0011 \u0003 8VLQJ\u0003WKH\u0003WUDSH]LXP\u0003UXOH\u0003ZLWK\u0003DOO\u0003WKH\u0003YDOXHV\u0003RI\u0003y\u0003LQ\u0003WKH\u0003JLYHQ\u0003WDEOH\u000f 4 x \u0003 \u0006 1 \u0003 1 \u0006 \u0003 E \u0003 REWDLQ\u0003DQ\u0003HVWLPDWH\u0003IRU\u0003\u0003 x x 2 \b\b d \u0005\u0005 \u0004\u0005 \u0007\b 2 \u0004 \u0007 2 (3)",
+     "text": "x 2 \u0015\u0011\u0018 \u0016 \u0016\u0011\u0018 \u0017 y \u0017\u0011\u0015\u0018 \u0019\u0011\u0017\u0015\u001a \u0011\u0014\u0015\u0018 \u0014\u0015\u0011\u0016\u0017 \u0014\u0019\u0011\u0013\u0019 x ⎛ 1 ⎞ The table above shows corresponding values of x and y for y = [࣠2 + ⎝⎜ ⎠⎟ 2 The values of y are given to 4 significant figures as appropriate. Using the trapezium rule with all the values of y in the given table, 4 x \u0006 1 1 \u0006 (b) obtain an estimate for x x 2 \b\b d \u0005\u0005 \u0004\u0005 \u0007\b 2 \u0004 \u0007 2 (3)",
      "kindGuessed": "calc"
     },
     {
-     "label": "5",
+     "label": "5(c)",
      "marks": 2,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q5.webp",
+       "src": "maths/WMA12_2019_10/q5_c.webp",
        "w": 1016,
        "h": 176,
        "region": {
@@ -800,31 +626,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q5_ms_1.webp",
-       "w": 1092,
-       "h": 289,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 93.1,
-        "x1": 560,
-        "y1": 231.1
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q5_ms_2.webp",
-       "w": 1092,
-       "h": 120,
-       "region": {
-        "page": 16,
-        "x0": 36,
-        "y0": 231.1,
-        "x1": 560,
-        "y1": 288.1
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q5_ms_3.webp",
+       "src": "maths/WMA12_2019_10/q5_c_ms.webp",
        "w": 1092,
        "h": 180,
        "region": {
@@ -836,7 +638,7 @@
        }
       }
      ],
-     "text": "8VLQJ\u0003\\RXU\u0003DQVZHU\u0003WR\u0003SDUW\u0003 E \u0003DQG\u0003PDNLQJ\u0003\\RXU\u0003PHWKRG\u0003FOHDU\u000f\u0003HVWLPDWH 4 x \u0003 \u0006 1 1 \u0003 \u0006 \u0003 F \u0003 x x x 3 \u0005\u0005 ( 3 ) \b\b d \u0004\u0005 \u0007\b 2 \u0004 \u0007 2 (2)",
+     "text": "Using your answer to part (b) and making your method clear, estimate 4 x \u0006 1 1 \u0006 (c) x x x 3 \u0005\u0005 ( 3 ) \b\b d \u0004\u0005 \u0007\b 2 \u0004 \u0007 2 (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -866,36 +668,42 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "5: text doesn't start at its label",
-    "5: text doesn't start at its label",
-    "Q5: mark (3) at p12 y350 with no new label",
-    "Q5: mark (2) at p12 y444 with no new label",
-    "Q5: repeated part label in ['5', '5', '5']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q6",
    "number": 6,
    "marks": 7,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q6_stem.webp",
+     "w": 1016,
+     "h": 724,
+     "region": {
+      "page": 16,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 523.2,
+      "y1": 406.3
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "6",
+     "label": "6(a)",
      "marks": 2,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q6.webp",
+       "src": "maths/WMA12_2019_10/q6_a.webp",
        "w": 1016,
-       "h": 811,
+       "h": 68,
        "region": {
         "page": 16,
         "x0": 36,
-        "y0": 59.5,
+        "y0": 416.0,
         "x1": 523.2,
         "y1": 448.3
        }
@@ -903,7 +711,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q6_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q6_a_ms.webp",
        "w": 1092,
        "h": 137,
        "region": {
@@ -913,32 +721,20 @@
         "x1": 560,
         "y1": 152.7
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q6_ms_2.webp",
-       "w": 1092,
-       "h": 274,
-       "region": {
-        "page": 18,
-        "x0": 36,
-        "y0": 152.7,
-        "x1": 560,
-        "y1": 283.7
-       }
       }
      ],
-     "text": "6. y l P C x O N Figure 1 )LJXUH\u0003\u0014\u0003VKRZV\u0003D\u0003VNHWFK\u0003RI\u0003D\u0003FLUFOH\u0003C\u0003ZLWK\u0003FHQWUH\u0003\u0003N \u0017\u000f\u0003í\u0014 \u0011 7KH\u0003OLQH\u0003l\u0003ZLWK\u0003HTXDWLRQ\u0003\u0003y = 1 2 x\u0003\u0003LV\u0003D\u0003WDQJHQW\u0003WR\u0003C\u0003DW\u0003WKH\u0003SRLQW\u0003P. )LQG \u0003 D \u0003 WKH\u0003HTXDWLRQ\u0003RI\u0003OLQH\u0003PN\u0003LQ\u0003WKH\u0003IRUP\u0003\u0003y = mx + c\u000f\u0003\u0003ZKHUH\u0003m\u0003DQG\u0003c\u0003DUH\u0003FRQVWDQWV\u000f (2)",
+     "text": "(a) the equation of line PN in the form y = mx + c, where m and c are constants, (2)",
      "kindGuessed": "calc"
     },
     {
-     "label": "6",
+     "label": "6(b)",
      "marks": 5,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q6.webp",
+       "src": "maths/WMA12_2019_10/q6_b.webp",
        "w": 1016,
        "h": 68,
        "region": {
@@ -952,19 +748,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q6_ms_1.webp",
-       "w": 1092,
-       "h": 137,
-       "region": {
-        "page": 18,
-        "x0": 36,
-        "y0": 87.7,
-        "x1": 560,
-        "y1": 152.7
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q6_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q6_b_ms.webp",
        "w": 1092,
        "h": 274,
        "region": {
@@ -976,7 +760,7 @@
        }
       }
      ],
-     "text": "\u0003 E \u0003 WKH\u0003HTXDWLRQ\u0003RI\u0003C. (5)",
+     "text": "(b) the equation of C. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1006,34 +790,42 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6: text doesn't start at its label",
-    "Q6: mark (5) at p16 y473 with no new label",
-    "Q6: repeated part label in ['6', '6']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q7",
    "number": 7,
    "marks": 7,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q7_stem.webp",
+     "w": 1016,
+     "h": 64,
+     "region": {
+      "page": 20,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 90.0
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "7",
+     "label": "7(i)",
      "marks": 2,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q7.webp",
+       "src": "maths/WMA12_2019_10/q7_i.webp",
        "w": 1016,
-       "h": 147,
+       "h": 84,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 59.7,
+        "y0": 90.0,
         "x1": 523.2,
         "y1": 130.0
        }
@@ -1041,54 +833,30 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q7_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q7_i_ms.webp",
        "w": 1092,
-       "h": 115,
+       "h": 117,
        "region": {
         "page": 20,
         "x0": 36,
-        "y0": 74.6,
+        "y0": 73.6,
         "x1": 560,
         "y1": 129.2
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q7_ms_2.webp",
-       "w": 1092,
-       "h": 134,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 129.2,
-        "x1": 560,
-        "y1": 193.4
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q7_ms_3.webp",
-       "w": 1092,
-       "h": 278,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 193.4,
-        "x1": 560,
-        "y1": 326.3
-       }
       }
      ],
-     "text": "7. *LYHQ\u0003\u0003ORJa b = k\u000f\u0003\u0003ILQG\u000f\u0003LQ\u0003VLPSOHVW\u0003IRUP\u0003LQ\u0003WHUPV\u0003RI\u0003k\u000f ⎛ ⎞ a \u0003 L \u0003 ORJa ⎝⎜ ⎠⎟ b (2)",
+     "text": "⎛ ⎞ a (i) ORJa ⎝⎜ ⎠⎟ b (2)",
      "kindGuessed": "calc"
     },
     {
-     "label": "7",
+     "label": "7(ii)",
      "marks": 2,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q7.webp",
+       "src": "maths/WMA12_2019_10/q7_ii.webp",
        "w": 1016,
        "h": 82,
        "region": {
@@ -1102,19 +870,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q7_ms_1.webp",
-       "w": 1092,
-       "h": 115,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 74.6,
-        "x1": 560,
-        "y1": 129.2
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q7_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q7_ii_ms.webp",
        "w": 1092,
        "h": 134,
        "region": {
@@ -1124,32 +880,20 @@
         "x1": 560,
         "y1": 193.4
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q7_ms_3.webp",
-       "w": 1092,
-       "h": 278,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 193.4,
-        "x1": 560,
-        "y1": 326.3
-       }
       }
      ],
-     "text": "a b 2 LL \u0003 log \u0003 a log b 3 (2) a",
+     "text": "a b 2 (ii) log a log b 3 (2) a",
      "kindGuessed": "calc"
     },
     {
-     "label": "7",
+     "label": "7(iii)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q7.webp",
+       "src": "maths/WMA12_2019_10/q7_iii.webp",
        "w": 1016,
        "h": 84,
        "region": {
@@ -1163,31 +907,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q7_ms_1.webp",
-       "w": 1092,
-       "h": 115,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 74.6,
-        "x1": 560,
-        "y1": 129.2
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q7_ms_2.webp",
-       "w": 1092,
-       "h": 134,
-       "region": {
-        "page": 20,
-        "x0": 36,
-        "y0": 129.2,
-        "x1": 560,
-        "y1": 193.4
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q7_ms_3.webp",
+       "src": "maths/WMA12_2019_10/q7_iii_ms.webp",
        "w": 1092,
        "h": 278,
        "region": {
@@ -1199,7 +919,7 @@
        }
       }
      ],
-     "text": "50 =∑ \u0003 LLL \u0003 ( k + log b n ) a (3) n 1",
+     "text": "50 =∑ (iii) ( k + log b n ) a (3) n 1",
      "kindGuessed": "calc"
     }
    ],
@@ -1231,13 +951,8 @@
    ],
    "check": "pending",
    "risks": [
-    "7: text after the marks",
-    "7: text doesn't start at its label",
-    "7: text after the marks",
-    "7: text doesn't start at its label",
-    "Q7: mark (2) at p20 y165 with no new label",
-    "Q7: mark (3) at p20 y217 with no new label",
-    "Q7: repeated part label in ['7', '7', '7']"
+    "7(ii): text after the marks",
+    "7(iii): text after the marks"
    ]
   },
   {
@@ -1249,9 +964,12 @@
     {
      "label": "8",
      "marks": 5,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "draw",
+     "topics": [
+      "P2.8.1",
+      "P2.8.2"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WMA12_2019_10/q8.webp",
@@ -1292,18 +1010,18 @@
        }
       }
      ],
-     "text": "8. Solutions relying on calculator technology are not acceptable in this question. L y R O 2 \u0017 x Figure 2 \u0003 \u0003 )LJXUH\u0003\u0015\u0003VKRZV\u0003D\u0003VNHWFK\u0003RI\u0003SDUW\u0003RI\u0003D\u0003FXUYH\u0003ZLWK\u0003HTXDWLRQ x y = 8 − 5 x \u0003\u0013 x 2 2 \u0003 \u0003 7KH\u0003 UHJLRQ\u0003 R\u000f\u0003 VKRZQ\u0003 VKDGHG\u0003 LQ\u0003 )LJXUH\u0003 \u0015\u000f\u0003 LV\u0003 ERXQGHG\u0003 E\\\u0003 WKH\u0003 FXUYH\u000f\u0003 WKH\u0003 OLQH\u0003 ZLWK\u0003 equation x = \u0015\u000f\u0003\u0003WKH\u0003\u0003x\u0010D[LV\u0003DQG\u0003WKH\u0003OLQH\u0003ZLWK\u0003HTXDWLRQ\u0003\u0003x = \u0017 \u0003 \u0003 )LQG\u0003WKH\u0003H[DFW\u0003DUHD\u0003RI\u0003R. (5)",
-     "kindGuessed": "calc"
+     "text": "8. Solutions relying on calculator technology are not acceptable in this question. L y R O 2 \u0017 x Figure 2 Figure 2 shows a sketch of part of a curve with equation x y = 8 − 5 x 0 x 2 2 The region R, shown shaded in Figure 2, is bounded by the curve, the line with equation x = 2, the x-axis and the line with equation x = \u0017 Find the exact area of R. (5)",
+     "kindGuessed": "draw"
     },
     {
-     "label": "8",
+     "label": "8(ii)",
      "marks": 4,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q8.webp",
+       "src": "maths/WMA12_2019_10/q8_ii.webp",
        "w": 1016,
        "h": 186,
        "region": {
@@ -1317,19 +1035,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q8_ms_1.webp",
-       "w": 1092,
-       "h": 285,
-       "region": {
-        "page": 22,
-        "x0": 36,
-        "y0": 79.2,
-        "x1": 560,
-        "y1": 215.3
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q8_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q8_ii_ms.webp",
        "w": 1092,
        "h": 269,
        "region": {
@@ -1341,7 +1047,7 @@
        }
       }
      ],
-     "text": "\u0003 LL \u0003 )LQG\u0003WKH\u0003YDOXH\u0003RI\u0003WKH\u0003FRQVWDQW\u0003k such that 6 1 3 \u0003 \u0006 x 1 k x O 2 d 55 \u0004\u0005 \u0007\b 2 3 (4)",
+     "text": "(ii) Find the value of the constant k such that 6 1 3 \u0006 x 1 k x O 2 d 55 \u0004\u0005 \u0007\b 2 3 (4)",
      "kindGuessed": "calc"
     }
    ],
@@ -1359,34 +1065,42 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8: text doesn't start at its label",
-    "Q8: mark (4) at p22 y537 with no new label",
-    "Q8: repeated part label in ['8', '8']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q9",
    "number": 9,
    "marks": 12,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q9_stem.webp",
+     "w": 1016,
+     "h": 69,
+     "region": {
+      "page": 26,
+      "x0": 36,
+      "y0": 59.5,
+      "x1": 523.2,
+      "y1": 91.8
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "9",
+     "label": "9(i)",
      "marks": 4,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q9.webp",
+       "src": "maths/WMA12_2019_10/q9_i.webp",
        "w": 1016,
-       "h": 274,
+       "h": 189,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 59.5,
+        "y0": 100.1,
         "x1": 523.2,
         "y1": 190.2
        }
@@ -1394,7 +1108,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q9_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q9_i_ms.webp",
        "w": 1092,
        "h": 197,
        "region": {
@@ -1404,44 +1118,20 @@
         "x1": 560,
         "y1": 172.9
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q9_ms_2.webp",
-       "w": 1092,
-       "h": 153,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 172.9,
-        "x1": 560,
-        "y1": 246.0
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q9_ms_3.webp",
-       "w": 1092,
-       "h": 261,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 246.0,
-        "x1": 560,
-        "y1": 371.0
-       }
       }
      ],
-     "text": "9. Solutions based entirely on graphical or numerical methods are not acceptable in this question. L \u0003 6ROYH\u000f\u0003IRU\u0003\u0003\u0013\u0003- ș \u0003\u0014\u001b\u0013\u000f\u0003\u0003WKH\u0003HTXDWLRQ \u0003 \u0016\u0003VLQ\u0003 \u0015ș í \u0014\u0013 = \u0014 \u0003 \u0003 JLYLQJ\u0003\\RXU\u0003DQVZHUV\u0003WR\u0003RQH\u0003GHFLPDO\u0003SODFH\u0011 (4)",
+     "text": "(i) Solve, for 0 - ș 180, the equation 3 sin (2ș í \u0014\u0013 = \u0014 giving your answers to one decimal place. (4)",
      "kindGuessed": "calc"
     },
     {
-     "label": "9",
+     "label": "9(ii)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q9.webp",
+       "src": "maths/WMA12_2019_10/q9_ii.webp",
        "w": 1016,
        "h": 275,
        "region": {
@@ -1455,19 +1145,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q9_ms_1.webp",
-       "w": 1092,
-       "h": 197,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 79.2,
-        "x1": 560,
-        "y1": 172.9
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q9_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q9_ii_ms_1.webp",
        "w": 1092,
        "h": 153,
        "region": {
@@ -1479,7 +1157,7 @@
        }
       },
       {
-       "src": "maths/WMA12_2019_10/q9_ms_3.webp",
+       "src": "maths/WMA12_2019_10/q9_ii_ms_2.webp",
        "w": 1092,
        "h": 261,
        "region": {
@@ -1491,18 +1169,18 @@
        }
       }
      ],
-     "text": "\u0003 LL \u0003 7KH\u0003ILUVW\u0003WKUHH\u0003WHUPV\u0003RI\u0003DQ\u0003DULWKPHWLF\u0003VHTXHQFH\u0003DUH\u0003 1 sin Į\u000f\u0003\u0003 \u0003\u0003DQG\u0003\u0003\u0015\u0003VLQ\u0003Į tanα \u0003 \u0003 ZKHUH\u0003\u0003Į is a constant. \u0003 \u0003 D \u0003 6KRZ\u0003WKDW\u0003\u0003\u0015\u0003FRV\u0003Į\u0003 \u0003\u0016\u0003VLQ2 Į (3)",
+     "text": "(ii) The first three terms of an arithmetic sequence are 1 sin Į, and 2 sin Į tanα where Į is a constant. (a) Show that 2 cos Į 3 sin2 Į (3)",
      "kindGuessed": "calc"
     },
     {
-     "label": "9",
+     "label": "9(ii)(b)",
      "marks": 5,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q9.webp",
+       "src": "maths/WMA12_2019_10/q9_ii_b.webp",
        "w": 1016,
        "h": 126,
        "region": {
@@ -1516,19 +1194,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q9_ms_1.webp",
-       "w": 1092,
-       "h": 197,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 79.2,
-        "x1": 560,
-        "y1": 172.9
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q9_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q9_ii_b_ms_1.webp",
        "w": 1092,
        "h": 153,
        "region": {
@@ -1540,7 +1206,7 @@
        }
       },
       {
-       "src": "maths/WMA12_2019_10/q9_ms_3.webp",
+       "src": "maths/WMA12_2019_10/q9_ii_b_ms_2.webp",
        "w": 1092,
        "h": 261,
        "region": {
@@ -1552,7 +1218,7 @@
        }
       }
      ],
-     "text": "\u0003 \u0003 *LYHQ\u0003WKDW\u0003\u0003ʌ\u0003 Į \u0003\u0015ʌ\u0003\u000f \u0003 \u0003 E \u0003 ILQG\u000f\u0003VKRZLQJ\u0003DOO\u0003ZRUNLQJ\u000f\u0003WKH\u0003YDOXH\u0003RI\u0003\u0003Į\u0003\u0003WR\u0003\u0016\u0003GHFLPDO\u0003SODFHV\u0011 (5)",
+     "text": "Given that ʌ Į 2ʌ , (b) find, showing all working, the value of Į to 3 decimal places. (5)",
      "kindGuessed": "calc"
     }
    ],
@@ -1582,36 +1248,42 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "9: text doesn't start at its label",
-    "9: text doesn't start at its label",
-    "Q9: mark (3) at p26 y314 with no new label",
-    "Q9: mark (5) at p26 y384 with no new label",
-    "Q9: repeated part label in ['9', '9', '9']"
-   ]
+   "check": "pending"
   },
   {
    "id": "WMA12_2019_10_q10",
    "number": 10,
    "marks": 7,
-   "stem": [],
+   "stem": [
+    {
+     "src": "maths/WMA12_2019_10/q10_stem.webp",
+     "w": 1016,
+     "h": 331,
+     "region": {
+      "page": 30,
+      "x0": 36,
+      "y0": 59.7,
+      "x1": 523.2,
+      "y1": 218.4
+     }
+    }
+   ],
    "parts": [
     {
-     "label": "10",
+     "label": "10(a)",
      "marks": 4,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q10.webp",
+       "src": "maths/WMA12_2019_10/q10_a.webp",
        "w": 1016,
-       "h": 419,
+       "h": 68,
        "region": {
         "page": 30,
         "x0": 36,
-        "y0": 59.7,
+        "y0": 228.1,
         "x1": 523.2,
         "y1": 260.4
        }
@@ -1619,7 +1291,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q10_ms_1.webp",
+       "src": "maths/WMA12_2019_10/q10_a_ms.webp",
        "w": 1092,
        "h": 194,
        "region": {
@@ -1629,32 +1301,20 @@
         "x1": 560,
         "y1": 171.0
        }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q10_ms_2.webp",
-       "w": 1092,
-       "h": 199,
-       "region": {
-        "page": 26,
-        "x0": 36,
-        "y0": 171.0,
-        "x1": 560,
-        "y1": 266.0
-       }
       }
      ],
-     "text": "10. The curve C has equation y = ax\u0016\u0003í\u0003\u0016x2\u0003\u000e\u0003\u0016x + b ZKHUH\u0003a\u0003DQG\u0003b are constants. *LYHQ\u0003WKDW \u0003 \u0003 \u0003 WKH\u0003SRLQW\u0003\u0003 \u0015\u000f\u0003\u0018 \u0003\u0003OLHV\u0003RQ\u0003C \u0003 \u0003 \u0003 WKH\u0003JUDGLHQW\u0003RI\u0003WKH\u0003FXUYH\u0003DW\u0003\u0003 \u0015\u000f\u0003\u0018 \u0003\u0003LV\u0003\u001a \u0003 D \u0003 ILQG\u0003WKH\u0003YDOXH\u0003RI\u0003a\u0003DQG\u0003WKH\u0003YDOXH\u0003RI\u0003b. (4)",
+     "text": "(a) find the value of a and the value of b. (4)",
      "kindGuessed": "calc"
     },
     {
-     "label": "10",
+     "label": "10(b)",
      "marks": 3,
      "kind": "calc",
      "topics": [],
      "tagStatus": "none",
      "qp": [
       {
-       "src": "maths/WMA12_2019_10/q10.webp",
+       "src": "maths/WMA12_2019_10/q10_b.webp",
        "w": 1016,
        "h": 68,
        "region": {
@@ -1668,19 +1328,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2019_10/q10_ms_1.webp",
-       "w": 1092,
-       "h": 194,
-       "region": {
-        "page": 26,
-        "x0": 36,
-        "y0": 78.3,
-        "x1": 560,
-        "y1": 171.0
-       }
-      },
-      {
-       "src": "maths/WMA12_2019_10/q10_ms_2.webp",
+       "src": "maths/WMA12_2019_10/q10_b_ms.webp",
        "w": 1092,
        "h": 199,
        "region": {
@@ -1692,13 +1340,13 @@
        }
       }
      ],
-     "text": "\u0003 E \u0003 3URYH\u0003WKDW\u0003C\u0003KDV\u0003QR\u0003WXUQLQJ\u0003SRLQWV\u0011 (3)",
+     "text": "(b) Prove that C has no turning points. (3)",
      "kindGuessed": "calc"
     }
    ],
    "msNotes": [
     {
-     "src": "maths/WMA12_2019_10/q10_notes_1.webp",
+     "src": "maths/WMA12_2019_10/q10_notes.webp",
      "w": 1092,
      "h": 1061,
      "region": {
@@ -1708,26 +1356,9 @@
       "x1": 560,
       "y1": 771.6
      }
-    },
-    {
-     "src": "maths/WMA12_2019_10/q10_notes_2.webp",
-     "w": 1092,
-     "h": 74,
-     "region": {
-      "page": 27,
-      "x0": 36,
-      "y0": 748.4,
-      "x1": 560,
-      "y1": 783.5
-     }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "10: text doesn't start at its label",
-    "Q10: mark (3) at p30 y285 with no new label",
-    "Q10: repeated part label in ['10', '10']"
-   ]
+   "check": "pending"
   }
  ]
 }

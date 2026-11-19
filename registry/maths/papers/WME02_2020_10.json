@@ -54,18 +54,32 @@
       {
        "src": "maths/WME02_2020_10/q1_ms.webp",
        "w": 1092,
-       "h": 729,
+       "h": 388,
        "region": {
         "page": 7,
         "x0": 36,
         "y0": 96.0,
         "x1": 560,
-        "y1": 445.9
+        "y1": 281.9
        }
       }
      ],
      "text": "1. A particle of mass 2 kg is moving with velocity (5i + 3j) m s–1 when it receives an impulse I N s, such that I = ai + bj Immediately after receiving the impulse, the particle is moving with velocity λ(i + j) m s–1, where λ is a constant. Given that the magnitude of I is 40, find the two possible impulses. (5)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WME02_2020_10/q1_notes.webp",
+     "w": 1092,
+     "h": 348,
+     "region": {
+      "page": 7,
+      "x0": 36,
+      "y0": 278.9,
+      "x1": 560,
+      "y1": 445.9
+     }
     }
    ],
    "check": "pending"
@@ -111,51 +125,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME02_2020_10/q2_ii_ms_1.webp",
+       "src": "maths/WME02_2020_10/q2_ii_ms.webp",
        "w": 1092,
-       "h": 1140,
+       "h": 736,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 96.0,
         "x1": 560,
-        "y1": 642.8
-       }
-      },
-      {
-       "src": "maths/WME02_2020_10/q2_ii_ms_2.webp",
-       "w": 1092,
-       "h": 1426,
-       "region": {
-        "page": 9,
-        "x0": 36,
-        "y0": 89.0,
-        "x1": 560,
-        "y1": 773.2
-       }
-      },
-      {
-       "src": "maths/WME02_2020_10/q2_ii_ms_3.webp",
-       "w": 1092,
-       "h": 1381,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 101.7,
-        "x1": 560,
-        "y1": 764.0
-       }
-      },
-      {
-       "src": "maths/WME02_2020_10/q2_ii_ms_4.webp",
-       "w": 1092,
-       "h": 221,
-       "region": {
-        "page": 11,
-        "x0": 36,
-        "y0": 67.2,
-        "x1": 560,
-        "y1": 173.1
+        "y1": 449.3
        }
       }
      ],
@@ -167,17 +145,53 @@
     {
      "src": "maths/WME02_2020_10/q2_notes_1.webp",
      "w": 1092,
-     "h": 1021,
+     "h": 411,
+     "region": {
+      "page": 8,
+      "x0": 36,
+      "y0": 446.3,
+      "x1": 560,
+      "y1": 642.8
+     }
+    },
+    {
+     "src": "maths/WME02_2020_10/q2_notes_2.webp",
+     "w": 1092,
+     "h": 1426,
+     "region": {
+      "page": 9,
+      "x0": 36,
+      "y0": 89.0,
+      "x1": 560,
+      "y1": 773.2
+     }
+    },
+    {
+     "src": "maths/WME02_2020_10/q2_notes_3.webp",
+     "w": 1092,
+     "h": 1381,
+     "region": {
+      "page": 10,
+      "x0": 36,
+      "y0": 101.7,
+      "x1": 560,
+      "y1": 764.0
+     }
+    },
+    {
+     "src": "maths/WME02_2020_10/q2_notes_4.webp",
+     "w": 1092,
+     "h": 854,
      "region": {
       "page": 11,
       "x0": 36,
-      "y0": 170.1,
+      "y0": 250.2,
       "x1": 560,
       "y1": 659.7
      }
     },
     {
-     "src": "maths/WME02_2020_10/q2_notes_2.webp",
+     "src": "maths/WME02_2020_10/q2_notes_5.webp",
      "w": 1092,
      "h": 967,
      "region": {
@@ -189,7 +203,7 @@
      }
     },
     {
-     "src": "maths/WME02_2020_10/q2_notes_3.webp",
+     "src": "maths/WME02_2020_10/q2_notes_6.webp",
      "w": 1092,
      "h": 1065,
      "region": {
@@ -201,7 +215,7 @@
      }
     },
     {
-     "src": "maths/WME02_2020_10/q2_notes_4.webp",
+     "src": "maths/WME02_2020_10/q2_notes_7.webp",
      "w": 1092,
      "h": 1398,
      "region": {
@@ -213,7 +227,7 @@
      }
     },
     {
-     "src": "maths/WME02_2020_10/q2_notes_5.webp",
+     "src": "maths/WME02_2020_10/q2_notes_8.webp",
      "w": 1092,
      "h": 50,
      "region": {
@@ -222,18 +236,6 @@
       "y0": 67.1,
       "x1": 560,
       "y1": 90.3
-     }
-    },
-    {
-     "src": "maths/WME02_2020_10/q2_notes_6.webp",
-     "w": 1092,
-     "h": 64,
-     "region": {
-      "page": 16,
-      "x0": 36,
-      "y0": 720.2,
-      "x1": 560,
-      "y1": 750.5
      }
     }
    ],
@@ -283,13 +285,13 @@
     {
      "src": "maths/WME02_2020_10/q4_stem.webp",
      "w": 1016,
-     "h": 665,
+     "h": 630,
      "region": {
       "page": 12,
       "x0": 36,
       "y0": 57.5,
       "x1": 523.2,
-      "y1": 376.0
+      "y1": 359.3
      }
     }
    ],
@@ -304,18 +306,18 @@
       {
        "src": "maths/WME02_2020_10/q4_a.webp",
        "w": 1016,
-       "h": 89,
+       "h": 124,
        "region": {
         "page": 12,
         "x0": 36,
-        "y0": 376.2,
+        "y0": 359.3,
         "x1": 523.2,
         "y1": 418.2
        }
       }
      ],
      "ms": [],
-     "text": "(a) Show that the distance of G from the side AD is 42 11 a (5)",
+     "text": "and PQ is a. The centre of mass of L is at the point G. (a) Show that the distance of G from the side AD is 42 11 a (5)",
      "kindGuessed": "calc"
     },
     {
