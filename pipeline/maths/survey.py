@@ -28,13 +28,13 @@ pymupdf.TOOLS.mupdf_display_errors(False)
 
 
 def survey(paper_id):
-    doc = pymupdf.open(S.PDF / f"{paper_id}_qp.pdf")
+    doc = S.open_pdf(S.PDF / f"{paper_id}_qp.pdf")
     lines = S.read_lines(doc)
     items = S.content_items(doc, lines)
     questions = S.outline(lines, items)
     S.regions(questions, items, len(doc))
     problems = S.check(questions)
-    rows, notes, ms_problems, _, _ = S.ms_split(pymupdf.open(S.PDF / f"{paper_id}_ms.pdf"), questions)
+    rows, notes, ms_problems, _, _ = S.ms_split(S.open_pdf(S.PDF / f"{paper_id}_ms.pdf"), questions)
     _, pair_problems = S.pair(questions, rows)
     if not questions:
         problems.insert(0, "no questions found")

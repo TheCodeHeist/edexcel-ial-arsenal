@@ -5042,15 +5042,16 @@
       "unit": "WMA13",
       "series": "2021-06",
       "qp": {
-        "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_P3_QP.pdf",
-        "via": "paperlords",
-        "sha256": "4a47f751282e7153d53616d7a5e44be31d9bd96cda9b5819c452316d9beb05e2",
+        "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Pure/P3/QP/June 2021 QP.pdf",
+        "via": "pmt",
+        "sha256": "5044440f973fbf593d05d9a8b7083f781d0ed1b720ba88565380a6c504334fe7",
         "mirrors": [
           {
-            "url": "https://pmt.physicsandmathstutor.com/download/Maths/A-level/Papers/Edexcel-IAL/Pure/P3/QP/June 2021 QP.pdf",
-            "via": "pmt"
+            "url": "https://archive.paperlords.org/library/IAL/Maths/MayJune%202021/IAL_MATHS_2021_MayJune_P3_QP.pdf",
+            "via": "paperlords"
           }
         ],
+        "note": "PaperLords' copy is an image-only scan (no text to segment); PMT's copy of the same paper (P66007A, as the mark scheme's log number) is used instead",
         "check": {
           "status": "ok",
           "cover": {
@@ -5058,7 +5059,7 @@
             "code": "WMA13",
             "variant": ""
           },
-          "sha256": "4a47f751282e7153d53616d7a5e44be31d9bd96cda9b5819c452316d9beb05e2"
+          "sha256": "5044440f973fbf593d05d9a8b7083f781d0ed1b720ba88565380a6c504334fe7"
         }
       },
       "ms": {

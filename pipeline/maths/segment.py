@@ -47,6 +47,9 @@ COL_Y0, COL_Y1 = 40, 790                    # below 790: barcode, page number, '
 PAD = 4
 
 Q_START = re.compile(r"^(\d{1,2})[.:]\s*(.*)$")          # '5.'; June 2025 papers print '5:'
+# No dot: '6 A particular lift …' (S3 Jun 2022 from question 6 on, S2 Jun 2024), or the number alone on its line
+# with '(a)' on the next (FP3 Jan 2022). Only as the next question's number, bold, in the margin.
+Q_START_BARE = re.compile(r"^(\d{1,2})(?:\s+(?=[A-Z(])(.*))?$")
 ANSWER_BOOK = re.compile(r"^Answer Book$")
 LABEL = re.compile(r"^\(([a-h]|i|ii|iii|iv|v|vi|vii|viii|ix|x)\)\s*")
 MARK = re.compile(r"^\((\d{1,2})\)$")
@@ -113,6 +116,17 @@ def label_of(q, path):
 
 
 # ---------------------------------------------------------------------------------------------- reading
+
+def open_pdf(path):
+    """Open a paper, undoing a tight crop: some A papers (M2 Oct 2025, D1 Jan 2026) are A4 pages cropped to
+    539 x 785 pt, which moves everything 28 pt up and left of where every position threshold here expects
+    it. Showing the whole A4 page puts it back. (Pages that bleed past A4 are left alone.)"""
+    doc = pymupdf.open(path)
+    for page in doc:
+        if page.rect.width < 580 and abs(page.mediabox.width - 595.3) < 2:
+            page.set_cropbox(page.mediabox)
+    return doc
+
 
 def read_lines(doc, skip_cover=True, top=COL_Y0):
     """Text lines in the printed column. `top`: mark-scheme pages have no furniture above the column, and
@@ -184,12 +198,12 @@ def outline(lines, items):
     prev_mark = None    # the last mark line in this question
     first_label = None
     for l in lines:
-        m = Q_START.match(l.text)
+        m = Q_START.match(l.text) or Q_START_BARE.match(l.text)
         if m and l.bold and l.x0 < 60 and int(m[1]) == (q.number + 1 if q else 1):
             q = Question(int(m[1]), l)
             questions.append(q)
             pending, path, level1, prev_mark, first_label = [], (), None, None, None
-            rest = m[2]
+            rest = m[2] or ""
         elif q is None:
             continue
         else:
@@ -199,8 +213,9 @@ def outline(lines, items):
                 q.problems.append(f"total line for question {t[1]} inside question {q.number}")
             q.total, q.total_line = int(t[2]), l
             continue
-        # labels at the start of the line (possibly several: '(a) (i) …')
-        if l.x0 < 100:
+        # labels at the start of the line (possibly several: '(a) (i) …'); a sub-part can sit further in, on
+        # the line of its parent ('(c) Find' then '(i) E(Y)' at x 140, S1 Jan 2021)
+        if l.x0 < 100 or (l.x0 < 150 and (lm0 := LABEL.match(rest)) and lm0[1] in ROMAN and path):
             while lm := LABEL.match(rest):
                 lab = lm[1]
                 kind = "roman" if lab in ROMAN else "letter"
@@ -700,7 +715,7 @@ def preview(doc, questions, out_dir):
 
 def main():
     paper_id = sys.argv[1]
-    doc = pymupdf.open(PDF / f"{paper_id}_qp.pdf")
+    doc = open_pdf(PDF / f"{paper_id}_qp.pdf")
     lines = read_lines(doc)
     items = content_items(doc, lines)
     questions = outline(lines, items)
@@ -714,7 +729,7 @@ def main():
     total = sum(q.total or 0 for q in questions)
     print(f"\n{len(questions)} questions, {total} marks")
 
-    ms_doc = pymupdf.open(PDF / f"{paper_id}_ms.pdf")
+    ms_doc = open_pdf(PDF / f"{paper_id}_ms.pdf")
     rows, notes, ms_problems, ms_lines, ms_items = ms_split(ms_doc, questions)
     matched, pair_problems = pair(questions, rows)
     print(f"mark scheme: {len(rows)} labelled rows, notes for {len(notes)} questions")
