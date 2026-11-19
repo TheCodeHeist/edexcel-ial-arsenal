@@ -43,10 +43,10 @@
       {#each app.labLog as e, i (e.key)}
         {@const r = RX[e.rx]}
         <li class="entry" class:fresh={i === 0}>
-          <div class="e-head"><span class="e-n">#{n - i}</span><span class="e-r">{CP[r.a].n} → {r.p.map((p) => CP[p].n).join(' + ')}</span><span class="badge f-{r.fam}">{FAM[r.fam][0]}</span><CopyButton text={() => rxPlain(r)} label="Copy reaction as text" /></div>
+          <div class="e-head"><span class="e-n">#{n - i}</span><span class="e-r">{CP[r.a].n}{CP[r.b] ? ' + ' + CP[r.b].n : ''} → {r.p.map((p) => CP[p].n).join(' + ')}</span><span class="badge f-{r.fam}">{FAM[r.fam][0]}</span><CopyButton text={() => rxPlain(r)} label="Copy reaction as text" /></div>
           <MiniRx {r} />
           <div class="eq">{@html r.eq.map(chem).join('<br>')}</div>
-          <p class="why"><b>{r.mech}</b> · {@html chem(r.cond)}</p>
+          <p class="why"><b>{r.mech}</b> · {@html chem(r.cond)}{#if r.by.length}{' · by-product' + (r.by.length > 1 ? 's' : '') + ': '}{@html r.by.map(chem).join(', ')}{/if}</p>
         </li>
       {:else}
         <p class="empty2">Every reaction you run is written up here: equation, type and conditions.</p>

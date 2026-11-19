@@ -14,8 +14,15 @@ export type ReagentGroup = 'hal' | 'ox' | 'ab' | 'nu' | 'sp';
 /** st: structural formula (chem() notation) */
 export interface Compound { id: string; n: string; smi: string; st: string; cls: ClassId; note?: string }
 export interface Reagent { id: string; f: string; n: string; g: ReagentGroup }
-/** a + b → p. b is a reagent id or a second compound id. */
-export interface Reaction { id: number; a: string; b: string; p: string[]; fam: Fam; mech: string; cond: string; eq: string[]; unit: Level; note: string }
+/** a + b → p (+ by-products). b is a reagent id or a second compound id. need: conditions the bench must be set to
+    (for reactions whose reagent doesn't already carry them). gen: made by a functional-group rule (kept out of the
+    codex and challenges, which stick to the hand-written examples). */
+export interface Reaction { id: number; a: string; b: string; p: string[]; by: string[]; fam: Fam; mech: string; cond: string; eq: string[]; unit: Level; note: string; need?: Need; gen?: boolean }
+/* Bench conditions: a temperature, one catalyst, UV light and dryness. */
+export type Temp = 'ice' | 'rt' | 'warm' | 'reflux' | 'distil';
+export type Cat = 'h2so4' | 'h3po4' | 'ni' | 'pt' | 'fe' | 'alcl3';
+export interface Bench { temp: Temp; cat: Cat | null; uv: boolean; dry: boolean }
+export interface Need { cat?: Cat[]; temp?: Temp[]; uv?: boolean; dry?: boolean; why: string }
 export interface Test { id: string; n: string; f: string; proc: string; pos: string; obs: string; from: string }
 export interface TestVis { to?: string; ppt?: string; mirror?: boolean; bubbles?: boolean; fumes?: boolean; paper?: [string, string]; waft?: boolean }
 export interface TestResult { pos: boolean; obs: string; vis: TestVis }
@@ -146,10 +153,12 @@ G_('br2fe', 'Br2 / FeBr3', 'bromine + halogen carrier', 'hal');
 G_('hbr', 'HBr', 'hydrogen bromide', 'hal');
 G_('kbr', 'KBr / H2SO4', 'makes HBr in situ', 'hal');
 G_('pcl5', 'PCl5', 'phosphorus(V) chloride', 'hal');
+G_('cr', 'Cr2O7^2- / H^+', 'acidified dichromate · you set the heat', 'ox');
 G_('crdist', 'Cr2O7^2- / H^+', 'acidified dichromate · distil', 'ox');
 G_('crreflux', 'Cr2O7^2- / H^+', 'acidified dichromate · reflux', 'ox');
 G_('kmno4', 'KMnO4 / H^+', 'acidified manganate(VII)', 'ox');
 G_('lialh4', 'LiAlH4', 'in dry ether', 'ox');
+G_('h2', 'H2', 'hydrogen gas · you pick the catalyst', 'ox');
 G_('h2ni', 'H2 / Ni', 'hydrogen, nickel catalyst', 'ox');
 G_('snhcl', 'Sn / HCl', 'tin + conc. HCl, then NaOH', 'ox');
 G_('naoh', 'NaOH(aq)', 'aqueous, warm', 'ab');
@@ -183,7 +192,7 @@ export const FAM: Record<Fam, [string, string]> = {
 export const RX: Reaction[] = [];
 export const UNIT: Record<Level, string> = { AS: 'AS · Units 1–3', A2: 'A2 · Units 4–6' };
 function rx(a: string, b: string, p: string | string[], fam: Fam, mech: string, cond: string, eq: string | string[], unit: Level, note?: string) {
-  RX.push({ id: RX.length, a, b, p: ([] as string[]).concat(p), fam, mech, cond, eq: ([] as string[]).concat(eq), unit, note: note || '' });
+  RX.push({ id: RX.length, a, b, p: ([] as string[]).concat(p), by: [], fam, mech, cond, eq: ([] as string[]).concat(eq), unit, note: note || '' });
 }
 // free-radical substitution
 const FRS = 'Free-radical substitution', FRN = 'Initiation, propagation and termination steps. Further substitution gives a mixture of products.';
@@ -336,6 +345,121 @@ rx('diaz', 'naphenox', 'azo', 'subst', 'Coupling (electrophilic substitution)', 
 });
 [['mgme', 'C1'], ['mget', 'C2'], ['mgph', 'benzene']].forEach(([g, h]) =>
   rx(g, 'water', h, 'cond', 'Hydrolysis', 'any trace of water', `${CP[g].st} + H2O -> ${CP[h].st} + Mg(OH)Br`, 'A2', 'This is why Grignard reactions must be kept completely dry.'));
+const BY_SKIP = new Set<string>(['CH2BrCHBrCH3', 'CH2(OH)CH(OH)CH3']); // products written another way round
+
+/* ===== Functional-group rules =====
+   The reactions above are the hand-written examples. These rules then fill in every other pairing the course covers
+   by functional group, so any carboxylic acid + any primary or secondary alcohol esterifies (phenylmethanol + benzoic
+   acid → benzyl benzoate included), any acyl chloride acylates any alcohol, phenol, ammonia or primary amine, every
+   ester hydrolyses, and every acid and amine makes its salt. Products are built from the parts of each molecule. */
+const CORE_HAND = RX.length;
+// acyl part of each carboxylic acid: [SMILES ending at the C=O carbon, structural formula, name stem]
+const ACYL: Record<string, [string, string, string]> = {
+  acoh: ['CC(=O)', 'CH3CO', 'ethan'], pacoh: ['CCC(=O)', 'CH3CH2CO', 'propan'], bzoh: ['c1ccccc1C(=O)', 'C6H5CO', 'benz'],
+  lact: ['CC(O)C(=O)', 'CH3CH(OH)CO', '2-hydroxypropan'], hba: ['CCC(O)C(=O)', 'CH3CH2CH(OH)CO', '2-hydroxybutan'],
+  hmpa: ['CC(C)(O)C(=O)', '(CH3)2C(OH)CO', '2-hydroxy-2-methylpropan'],
+};
+const ACID_OF: Record<string, string> = { accl: 'acoh', prcl: 'pacoh', bzcl: 'bzoh' };
+// the group on the O of each alcohol or phenol (and on the N of each primary amine): [SMILES from the joining atom, structural, name]
+const ALKYL: Record<string, [string, string, string]> = {
+  meoh: ['C', 'CH3', 'methyl'], etoh: ['CC', 'CH2CH3', 'ethyl'], p1ol: ['CCC', 'CH2CH2CH3', 'propyl'], phmeoh: ['Cc1ccccc1', 'CH2C6H5', 'benzyl'],
+  p2ol: ['C(C)C', 'CH(CH3)2', '1-methylethyl'], b2ol: ['C(C)CC', 'CH(CH3)CH2CH3', '1-methylpropyl'], phetoh: ['C(C)c1ccccc1', 'CH(CH3)C6H5', '1-phenylethyl'],
+  tbuoh: ['C(C)(C)C', 'C(CH3)3', '1,1-dimethylethyl'], mb2ol: ['C(C)(C)CC', 'C(CH3)2CH2CH3', '1,1-dimethylpropyl'], phoh: ['c1ccccc1', 'C6H5', 'phenyl'],
+};
+const AMINE: Record<string, [string, string, string]> = {
+  menh2: ['C', 'CH3', 'methyl'], etnh2: ['CC', 'CH2CH3', 'ethyl'], prnh2: ['CCC', 'CH2CH2CH3', 'propyl'], phnh2: ['c1ccccc1', 'C6H5', 'phenyl'],
+};
+/** pairs on the curated list: these join the codex, the lab's discoveries and the synthesis targets */
+const SHOWCASE = new Set(['bzoh|phmeoh', 'bzoh|meoh', 'bzoh|etoh', 'bzcl|etoh', 'bzcl|phmeoh', 'bzcl|nh3', 'bzoh|naoh', 'bzoh|na2co3']);
+const BYNAME = new Map(Object.values(CP).map((c) => [c.n, c.id]));
+/** the compound with this name, made on first use */
+function cpd(n: string, smi: string, st: string, cls: ClassId) {
+  let id = BYNAME.get(n);
+  if (!id) { id = 'g-' + n.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, ''); M(id, n, smi, st, cls); BYNAME.set(n, id); }
+  return id;
+}
+const ESTER_OF = new Map<string, [string, string]>([['etoac', ['acoh', 'etoh']], ['meoac', ['acoh', 'meoh']], ['etprop', ['pacoh', 'etoh']]]);
+const ester = (acid: string, alc: string) => {
+  const [as, at, an] = ACYL[acid], [ls, lt, ln] = ALKYL[alc];
+  const id = cpd(`${ln} ${an}oate`, as + 'O' + ls, at + 'O' + lt, 'ester');
+  ESTER_OF.set(id, [acid, alc]); return id;
+};
+const salt = (acid: string) => { const [as, at, an] = ACYL[acid]; return cpd(`sodium ${an}oate`, as + '[O-].[Na+]', at + 'O^-Na^+', 'salt'); };
+const amide = (acid: string, am: string | null) => {
+  const [as, at, an] = ACYL[acid];
+  if (!am) return cpd(`${an}amide`, as + 'N', at + 'NH2', 'amide');
+  const [ms, mt, mn] = AMINE[am];
+  return cpd(`N-${mn}${an}amide`, as + 'N' + ms, at + 'NH' + mt, 'amide');
+};
+const amSalt = (am: string) => { const [ms, mt, mn] = AMINE[am]; return cpd(`${mn}ammonium chloride`, ms + '[NH3+].[Cl-]', mt + 'NH3^+Cl^-', 'salt'); };
+const st = (id: string) => CP[id].st;
+const have = new Set(RX.map((r) => r.a + '|' + r.b).concat(RX.map((r) => r.b + '|' + r.a)));
+function grx(a: string, b: string, p: string[], by: string[], fam: Fam, mech: string, cond: string, eq: string, note: string, need?: Need) {
+  if (have.has(a + '|' + b)) return;
+  have.add(a + '|' + b); have.add(b + '|' + a);
+  rx(a, b, p, fam, mech, cond, eq, 'A2', note);
+  const r = RX[RX.length - 1]; r.by = by; r.need = need; r.gen = !SHOWCASE.has(a + '|' + b);
+}
+const HOT: Temp[] = ['reflux', 'warm', 'distil'];
+const NEED_EST: Need = { cat: ['h2so4', 'h3po4'], temp: ['reflux', 'distil', 'warm'], why: 'Esterification needs an acid catalyst (a few drops of concentrated H₂SO₄) and heat — under reflux, because it is slow. (Dropping conc. H₂SO₄ from the rack in with the two compounds counts too.)' };
+const OHCLS = new Set<ClassId>(['alc1', 'alc2']);
+// acid + alcohol ⇌ ester + water
+for (const acid in ACYL) for (const alc in ALKYL) if (OHCLS.has(CP[alc].cls)) {
+  const e = ester(acid, alc);
+  grx(acid, alc, [e], ['H2O'], 'cond', EST, ESC, `${st(acid)} + ${st(alc)} <=> ${st(e)} + H2O`,
+    'Reversible and slow, so the yield is limited. The C–O bond that breaks is in the acid: the –OH of the acid and the H of the alcohol leave as water.', NEED_EST);
+}
+// acyl chloride + alcohol or phenol → ester + HCl; + ammonia or a primary amine → amide
+for (const acl in ACID_OF) {
+  const acid = ACID_OF[acl];
+  for (const alc in ALKYL) {
+    const e = ester(acid, alc);
+    grx(acl, alc, [e], ['HCl'], 'cond', AE, 'room temperature, dry', `${st(acl)} + ${st(alc)} -> ${st(e)} + HCl`,
+      CP[alc].cls === 'phenol' ? 'Phenols don’t esterify with carboxylic acids, but the far more reactive acyl chloride works. Steamy fumes of HCl.' : 'Fast and not reversible: a better yield than using the acid. Steamy fumes of HCl.');
+  }
+  const a0 = amide(acid, null);
+  grx(acl, 'nh3', [a0], ['NH4Cl'], 'cond', AE, 'concentrated aqueous ammonia, room temperature', `${st(acl)} + 2NH3 -> ${st(a0)} + NH4Cl`, 'The second NH₃ neutralises the HCl formed.');
+  for (const am in AMINE) {
+    const a1 = amide(acid, am);
+    grx(acl, am, [a1], ['HCl'], 'cond', AE, 'room temperature', `${st(acl)} + ${st(am)} -> ${st(a1)} + HCl`,
+      'A primary amine gives an N-substituted amide. The HCl reacts with a second amine molecule, giving its ammonium chloride salt.');
+  }
+}
+// every ester hydrolyses: dilute acid (reversible) or NaOH(aq) (to completion)
+for (const [e, [acid, alc]] of ESTER_OF) {
+  const ph = CP[alc].cls === 'phenol', s = salt(acid);
+  grx(e, 'hcl', [acid, alc], [], 'cond', 'Hydrolysis (acid)', 'dilute HCl, heat under reflux', `${st(e)} + H2O <=> ${st(acid)} + ${st(alc)}`, 'Reversible, so hydrolysis is incomplete.');
+  grx(e, 'naoh', ph ? [s, 'naphenox'] : [s, alc], ph ? ['H2O'] : [], 'cond', 'Hydrolysis (alkaline)', 'NaOH(aq), heat under reflux',
+    ph ? `${st(e)} + 2NaOH -> ${st(s)} + ${st('naphenox')} + H2O` : `${st(e)} + NaOH -> ${st(s)} + ${st(alc)}`,
+    ph ? 'Goes to completion; phenol is acidic enough to end up as sodium phenoxide too.' : 'Goes to completion. Acidify afterwards to get the free acid.');
+}
+// every carboxylic acid: salts with NaOH and NaHCO3, and back again with HCl
+for (const acid in ACYL) {
+  const s = salt(acid);
+  grx(acid, 'naoh', [s], ['H2O'], 'acid', 'Neutralisation', 'room temperature', `${st(acid)} + NaOH -> ${st(s)} + H2O`, 'A carboxylic acid is neutralised by an alkali.');
+  grx(acid, 'na2co3', [s], ['CO2', 'H2O'], 'acid', 'Neutralisation', 'room temperature', `${st(acid)} + NaHCO3 -> ${st(s)} + CO2 + H2O`, 'Effervescence of CO₂: the test for a carboxylic acid.');
+  grx(s, 'hcl', [acid], ['NaCl'], 'acid', 'Acid–base (protonation)', 'room temperature', `${st(s)} + HCl -> ${st(acid)} + NaCl`, 'A stronger acid releases the weaker carboxylic acid.');
+}
+// every amine: its hydrochloride salt, and back with NaOH
+for (const am in AMINE) {
+  const s = amSalt(am);
+  grx(am, 'hcl', [s], [], 'acid', 'Acid–base', 'room temperature', `${st(am)} + HCl -> ${st(s)}`, 'The lone pair on N accepts H⁺.');
+  grx(s, 'naoh', [am], ['NaCl', 'H2O'], 'acid', 'Acid–base', 'room temperature', `${st(s)} + NaOH -> ${st(am)} + NaCl + H2O`, 'A strong base frees the amine from its salt.');
+}
+
+/* Conditions the hand-written compound + compound reactions need (a reagent card carries its own). */
+const NEED_FC: Need = { cat: ['alcl3', 'fe'], why: 'Friedel–Crafts reactions need a halogen carrier catalyst, such as AlCl₃, to make the electrophile.' };
+const NEED_GRIG: Need = { dry: true, why: 'Grignard reagents are destroyed by water, so this has to be done dry (in dry ether).' };
+const NEED_COUPLE: Need = { temp: ['ice'], why: 'Coupling is done below 10 °C: a warmer diazonium ion decomposes and gives off N₂.' };
+RX.slice(0, CORE_HAND).forEach((r) => {
+  if (r.mech === EST) r.need = NEED_EST;
+  else if (r.mech.includes('Friedel–Crafts')) r.need = NEED_FC;
+  else if (CP[r.a].cls === 'grignard' && CP[r.b]) r.need = NEED_GRIG;
+  else if (r.mech.startsWith('Coupling')) r.need = NEED_COUPLE;
+  // by-products: whatever the (last) equation makes besides the products
+  const rhs = r.eq[r.eq.length - 1].split(/->|<=>/)[1] || '', ps = new Set(r.p.map(st));
+  r.by = rhs.split(' + ').map((t) => t.trim().replace(/^\d+(?=[A-Z])/, '')).filter((t) => t && !ps.has(t) && !BY_SKIP.has(t));
+});
 
 /* Specific "no reaction" explanations (order-free keys) */
 export const NOREACT: Record<string, string> = {
@@ -362,11 +486,11 @@ export const NOREACT: Record<string, string> = {
 
 /* For unknown combos: does this reagent touch this class at all? */
 export const REACTS: Record<string, ClassId[]> = {
-  cl2uv: ['alkane'], br2uv: ['alkane'], br2: ['alkene', 'phenol'], hbr: ['alkene'], steam: ['alkene'], kmno4: ['alkene'], poly: ['alkene'], h2ni: ['alkene'],
-  naoh: ['halo', 'ester', 'acid', 'phenol', 'acylcl'], kohalc: ['halo'], kcn: ['halo'], nh3: ['halo', 'acylcl'], mg: ['halo'],
+  cl2uv: ['alkane'], br2uv: ['alkane'], br2: ['alkene', 'phenol', 'alkane', 'arene'], h2: ['alkene', 'arene'], cr: ['alc1', 'alc2', 'ald'], hbr: ['alkene'], steam: ['alkene'], kmno4: ['alkene'], poly: ['alkene'], h2ni: ['alkene'],
+  naoh: ['halo', 'ester', 'acid', 'phenol', 'acylcl', 'salt', 'aminoacid'], kohalc: ['halo'], kcn: ['halo'], nh3: ['halo', 'acylcl'], mg: ['halo'],
   crdist: ['alc1', 'alc2', 'ald', 'diol'], crreflux: ['alc1', 'alc2', 'ald', 'diol'], lialh4: ['ald', 'ket', 'acid', 'nitrile', 'hnitrile'], hcn: ['ald', 'ket'],
   pcl5: ['alc1', 'alc2', 'alc3', 'acid', 'diol', 'phenol'], kbr: ['alc1', 'alc2', 'alc3', 'diol'], h2so4: ['alc1', 'alc2', 'alc3'],
-  hcl: ['amine', 'nitrile', 'hnitrile', 'ester', 'salt'], water: ['acylcl', 'grignard'], nitrate: ['arene'], br2fe: ['arene'], co2: ['grignard'], hno2: ['amine'], na2co3: ['acid', 'acylcl'],
+  hcl: ['amine', 'nitrile', 'hnitrile', 'ester', 'salt', 'aminoacid'], water: ['acylcl', 'grignard', 'alkene'], nitrate: ['arene'], br2fe: ['arene'], co2: ['grignard'], hno2: ['amine'], na2co3: ['acid', 'acylcl'],
 };
 
 /* ===== Identification tests ===== */
@@ -578,17 +702,19 @@ export const isCompound = (id: string) => id in CP;
 export const rgName = (id: string) => (RG[id] ? chem(RG[id].f) : esc(CP[id].n));
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
+/** The hand-written reactions plus the showcase ones from the rules: what the codex lists and challenges use. */
+export const CORE = RX.filter((r) => !r.gen);
 const RXMAP = new Map(RX.map((r) => [r.a + '|' + r.b, r]));
 /** The reaction between two things, in either order. */
 export const findRx = (x: string, y: string) => RXMAP.get(x + '|' + y) || RXMAP.get(y + '|' + x) || null;
 
 /** Everything reachable from a set of compounds (up to 9 steps), with the reaction that first made each. */
-export function explore(start: string[]) {
+export function explore(start: string[], list: Reaction[] = CORE) {
   const depth = new Map<string, number>(), par = new Map<string, Reaction>();
   start.forEach((c) => depth.set(c, 0));
   for (let round = 1; round <= 9; round++) {
     const add = new Map<string, Reaction>();
-    RX.forEach((r) => {
+    list.forEach((r) => {
       if (!depth.has(r.a) || depth.get(r.a)! >= round) return;
       if (CP[r.b] && (!depth.has(r.b) || depth.get(r.b)! >= round)) return;
       r.p.forEach((p) => { if (!depth.has(p) && !add.has(p)) add.set(p, r); });
@@ -604,27 +730,116 @@ export function route(target: string, ex: ReturnType<typeof explore>) {
   (function need(c: string) { const r = ex.par.get(c); if (!r) return; need(r.a); if (CP[r.b]) need(r.b); if (!seen.has(r.id)) { seen.add(r.id); out.push(r); } })(target);
   return out;
 }
-/** Compounds the lab can reach from the starters, and the reactions among them. */
+/** Compounds the lab can reach from the starters, and the reactions among them. (Rule-made extras are bonus finds.) */
 export const LABSET = new Set(explore(STARTERS).depth.keys());
-export const LABRX = RX.filter((r) => LABSET.has(r.a) && (RG[r.b] || LABSET.has(r.b)));
+export const LABRX = CORE.filter((r) => LABSET.has(r.a) && (RG[r.b] || LABSET.has(r.b)));
 
+/* ---------- the bench: conditions and mixing ---------- */
+export const BENCH0: Bench = { temp: 'rt', cat: null, uv: false, dry: false };
+export const TEMPS = [['ice', 'Ice bath, below 10 °C', '< 10 °C'], ['rt', 'Room temperature', 'Room'], ['warm', 'Warm', 'Warm'],
+  ['reflux', 'Heat under reflux', 'Reflux'], ['distil', 'Heat and distil', 'Distil']] as const;
+/** catalysts, in chem() notation */
+export const CATS: [Cat, string][] = [['h2so4', 'conc. H2SO4'], ['h3po4', 'H3PO4'], ['ni', 'Ni'], ['pt', 'Pt'], ['fe', 'FeBr3 / Fe'], ['alcl3', 'AlCl3']];
+const CATN = Object.fromEntries(CATS) as Record<Cat, string>;
+const TEMPN = Object.fromEntries(TEMPS.map(([t, n]) => [t, n.charAt(0).toLowerCase() + n.slice(1)])) as Record<Temp, string>;
+/** reagents that double as a catalyst: with two compounds in the flask they catalyse rather than react */
+export const CATALYST_RG: Record<string, [Cat, Temp]> = { h2so4: ['h2so4', 'reflux'], steam: ['h3po4', 'reflux'] };
+const OXWHY = 'Acidified dichromate needs heat: distil to collect an aldehyde as it forms, or heat under reflux to oxidise a primary alcohol all the way to the acid.';
+/** a plain reagent + the right conditions acts as the reagent card that has them built in */
+const UPGRADE: [string, Need, string][] = [
+  ['br2', { uv: true, why: 'Alkanes react with bromine only in UV light (free-radical substitution).' }, 'br2uv'],
+  ['br2', { cat: ['fe'], why: 'Benzene needs a halogen carrier (FeBr₃, or iron filings) before it will substitute with bromine.' }, 'br2fe'],
+  ['h2', { cat: ['ni', 'pt'], why: 'Hydrogen adds across C=C only with a metal catalyst: nickel at about 150 °C, or platinum.' }, 'h2ni'],
+  ['water', { cat: ['h3po4'], temp: HOT, why: 'Alkenes are hydrated by steam with a phosphoric acid catalyst (about 300 °C and 60 atm).' }, 'steam'],
+  ['cr', { temp: ['distil'], why: OXWHY }, 'crdist'],
+  ['cr', { temp: ['reflux'], why: OXWHY }, 'crreflux'],
+];
+interface Env { cats: Set<Cat>; temp: Temp; uv: boolean; dry: boolean }
+const met = (n: Need, e: Env) => (!n.cat || n.cat.some((c) => e.cats.has(c))) && (!n.temp || n.temp.includes(e.temp)) && (!n.uv || e.uv) && (!n.dry || e.dry);
+/** why it didn't go and what to change on the bench (HTML) */
+function fixes(n: Need, e: Env) {
+  const out: string[] = [];
+  if (n.cat && !n.cat.some((c) => e.cats.has(c))) out.push(`choose ${n.cat.slice(0, 2).map((c) => chem(CATN[c])).join(' or ')} under Catalyst`);
+  if (n.temp && !n.temp.includes(e.temp)) out.push(`set Temperature to “${n.temp.slice(0, 2).map((t) => TEMPN[t]).join('” or “')}”`);
+  if (n.uv && !e.uv) out.push('switch on UV light');
+  if (n.dry && !e.dry) out.push('tick Dry');
+  return `${esc(n.why)}<span class="fix">On the bench: ${out.join(', ')}, then press React.</span>`;
+}
+/** the conditions a reaction needs, in a few words (HTML), e.g. “conc. H₂SO₄ catalyst, heat under reflux” */
+export function needText(n: Need) {
+  return [n.cat ? chem(CATN[n.cat[0]]) + ' catalyst' : '', n.temp ? TEMPN[n.temp[0]] : '', n.uv ? 'UV light' : '', n.dry ? 'dry' : '']
+    .filter(Boolean).join(', ');
+}
+export type Mix = { ok: true; r: Reaction; spect: string[] } | { ok: false; title: string; html: string };
+/** Put everything in the flask under the bench conditions and see what (one) reaction happens. Items are 'c:id' / 'r:id'. */
+export function mix(items: string[], bench: Bench): Mix {
+  const cs = items.filter((i) => i[0] === 'c').map((i) => i.slice(2)), rs = items.filter((i) => i[0] === 'r').map((i) => i.slice(2));
+  const no = (title: string, html: string): Mix => ({ ok: false, title, html });
+  if (!cs.length) return no('No reaction', 'Reagents on their own have nothing to work on — add a compound.');
+  if (cs.length > 2) return no('One step at a time', 'Three compounds in one flask is hard to follow. React two at a time, with a reagent or catalyst if it needs one.');
+  const two = cs.length === 2;
+  const env: Env = { cats: new Set(bench.cat ? [bench.cat] : []), temp: bench.temp, uv: bench.uv, dry: bench.dry };
+  for (const r of rs) if (CATALYST_RG[r]) { const [c, t] = CATALYST_RG[r]; env.cats.add(c); if (!HOT.includes(env.temp)) env.temp = t; }
+  const pairs: [string, 'c' | 'r', string, 'c' | 'r'][] = [];
+  if (two) pairs.push([cs[0], 'c', cs[1], 'c']);
+  for (const r of rs) if (!(two && CATALYST_RG[r])) for (const c of cs) pairs.push([c, 'c', r, 'r']);
+  const hits: Reaction[] = [], used: string[][] = [];
+  let miss = '';
+  for (const [x, , y, ky] of pairs) {
+    const t = tryPair(x, y, ky, env);
+    if (t.r) { if (!hits.includes(t.r)) { hits.push(t.r); used.push([x, y]); } }
+    else if (t.miss && !miss) miss = t.miss;
+  }
+  if (hits.length === 1) {
+    const u = used[0];
+    return { ok: true, r: hits[0], spect: items.filter((i) => !u.includes(i.slice(2)) && !(two && CATALYST_RG[i.slice(2)] && i[0] === 'r')) };
+  }
+  if (hits.length > 1) return no('Two reactions compete', `${hits.map((r) => `<b>${productNames(r)}</b> (from ${esc(CP[r.a].n)} + ${CP[r.b] ? esc(CP[r.b].n) : chem(RG[r.b].f)})`).join(' and ')} could both form here. Take one thing out so only one reaction runs.`);
+  if (miss) return no('Almost — check the conditions', miss);
+  const [x, kx, y, ky] = pairs[0];
+  return no('No reaction', whyNot(x, kx, y, ky));
+}
+function tryPair(c: string, y: string, ky: 'c' | 'r', env: Env): { r?: Reaction; miss?: string } {
+  const d = findRx(c, y);
+  if (d) return !d.need || met(d.need, env) ? { r: d } : { miss: fixes(d.need, env) };
+  let want = null as Need | null;   // what the missed upgrades need between them
+  if (ky === 'r') for (const [base, n, to] of UPGRADE) {
+    if (base !== y || !findRx(c, to)) continue;
+    if (met(n, env)) return { r: findRx(c, to)! };
+    want = !want ? { ...n } : { ...want, cat: want.cat && n.cat ? [...want.cat, ...n.cat] : want.cat || n.cat, temp: want.temp && n.temp ? [...want.temp, ...n.temp] : want.temp || n.temp };
+  }
+  return { miss: want ? fixes(want, env) : '' };
+}
+
+/* Kind explanations for compound + compound pairs that don't react, by class. */
+const PAIR_WHY: [ClassId[], ClassId[], string][] = [
+  [['acid'], ['alc3'], 'Tertiary alcohols hardly esterify with carboxylic acids: hot acid dehydrates them to alkenes instead. An acyl chloride works better.'],
+  [['acid'], ['phenol'], 'Phenols don’t form esters with carboxylic acids. Use an acyl chloride (for example ethanoyl chloride) instead.'],
+  [['acid'], ['diol'], 'Both –OH groups of a diol react with acid groups: with a dicarboxylic acid that makes a polyester. This bench only models single esters.'],
+  [['acid'], ['amine'], 'A carboxylic acid and an amine only make a salt (acid–base). To make an amide, use an acyl chloride with the amine.'],
+  [['acid', 'acylcl', 'alc1', 'alc2', 'alc3'], ['ester'], 'An ester doesn’t react further with these. To split it, hydrolyse it with dilute acid or NaOH(aq) under reflux.'],
+  [['ald', 'ket'], ['alc1', 'alc2', 'alc3'], 'Carbonyls and alcohols don’t react together in this course. To make a new C–C bond to a carbonyl, use a Grignard reagent or HCN.'],
+];
 /** Why two things don't react (HTML). kx / ky: 'c' compound or 'r' reagent. */
 export function whyNot(x: string, kx: 'c' | 'r', y: string, ky: 'c' | 'r'): string {
   const n1 = NOREACT[x + '|' + y] || NOREACT[y + '|' + x];
   if (n1) return esc(n1);
   if (kx === 'c' && ky === 'c') {
-    if (x === y) return `Two portions of ${esc(CP[x].n)} won’t react with each other. Add a reagent.`;
-    return `${cap(esc(CP[x].n))} and ${esc(CP[y].n)} don’t react together on the specification. Try a reagent instead.`;
+    if (x === y) return `Two portions of ${esc(CP[x].n)} won’t react with each other. Add a reagent, or a different compound.`;
+    const a = CP[x].cls, b = CP[y].cls;
+    const w = PAIR_WHY.find(([p, q]) => (p.includes(a) && q.includes(b)) || (p.includes(b) && q.includes(a)));
+    if (w) return esc(w[2]);
+    return `${cap(esc(CP[x].n))} and ${esc(CP[y].n)} don’t react together in the Edexcel IAL course (or not in a way this bench can show). Try a reagent with one of them, or look them up in the Codex.`;
   }
   const c = kx === 'c' ? x : y, r = kx === 'r' ? x : y, cls = CP[c].cls, list = REACTS[r] || [];
-  if (list.includes(cls)) return `${cap(CLASSN[cls].toLowerCase())}s do react with ${rgName(r)}, but this lab doesn’t stock that particular product. Try another ${CLASSN[cls].toLowerCase()}.`;
+  if (list.includes(cls)) return `${cap(CLASSN[cls].toLowerCase())}s do react with ${rgName(r)}, but this bench can’t draw the product from ${esc(CP[c].n)} yet. Try another ${CLASSN[cls].toLowerCase()}.`;
   return `No reaction. ${rgName(r)} is used on ${list.map((k) => CLASSN[k].toLowerCase() + 's').join(', ') || 'other compounds'}.`;
 }
 
 /** A reaction as plain text for the Copy button. */
 export function rxPlain(r: Reaction): string {
   const with_ = RG[r.b] ? `${plain(RG[r.b].f)} (${plain(RG[r.b].n)})` : CP[r.b].n;
-  return [`${CP[r.a].n} + ${with_} → ${r.p.map((p) => CP[p].n).join(' + ')}`, ...r.eq.map(plain), `Type: ${FAM[r.fam][0]} — ${r.mech}`, `Conditions: ${plain(r.cond)}`, r.note ? `Note: ${r.note}` : '']
+  return [`${CP[r.a].n} + ${with_} → ${[...r.p.map((p) => CP[p].n), ...r.by.map(plain)].join(' + ')}`, ...r.eq.map(plain), `Type: ${FAM[r.fam][0]} — ${r.mech}`, `Conditions: ${plain(r.cond)}`, r.note ? `Note: ${r.note}` : '']
     .filter(Boolean).join('\n');
 }
 export const productNames = (r: Reaction) => r.p.map((p) => CP[p].n).join(' + ');
@@ -670,7 +885,7 @@ export const TEST_EX: Record<string, string> = { brw: 'chxe', crox: 'etoh', dnph
 /* ---------- codex self-test options ---------- */
 export function rxQuizOptions(r: Reaction): string[] {
   const ans = productNames(r);
-  const alts = shuffle(unique(RX.filter((x) => x !== r && (x.a === r.a || x.fam === r.fam || CP[x.p[0]].cls === CP[r.p[0]].cls)).map(productNames)).filter((n) => n !== ans)).slice(0, 3);
+  const alts = shuffle(unique(CORE.filter((x) => x !== r && (x.a === r.a || x.fam === r.fam || CP[x.p[0]].cls === CP[r.p[0]].cls)).map(productNames)).filter((n) => n !== ans)).slice(0, 3);
   return shuffle([ans, ...alts]);
 }
 export function testQuizOptions(t: Test): string[] {

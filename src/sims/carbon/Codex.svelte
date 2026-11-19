@@ -9,7 +9,7 @@
   import FilterRow from '../../components/ui/FilterRow.svelte';
   import SearchInput from '../../components/ui/SearchInput.svelte';
   import Flowchart, { type FlowEdge } from '../../components/ui/Flowchart.svelte';
-  import { CP, RG, RX, FAM, UNIT, CLASSN, TESTS, TECH, PREPS, FLOWS, type Fam, type Level, type Flow } from './data';
+  import { CP, RG, CORE, FAM, UNIT, CLASSN, TESTS, TECH, PREPS, FLOWS, type Fam, type Level, type Flow } from './data';
   import { APP } from './art';
   import { useCarbon, type CxSub } from './app.svelte';
   import RxCard from './RxCard.svelte';
@@ -26,7 +26,7 @@
 
   const list = $derived.by(() => {
     const s = q.trim().toLowerCase();
-    return RX.filter((r) => (fFam === 'all' || r.fam === fFam) && (fUnit === 'all' || r.unit === fUnit) &&
+    return CORE.filter((r) => (fFam === 'all' || r.fam === fFam) && (fUnit === 'all' || r.unit === fUnit) &&
       (!s || [CP[r.a].n, CP[r.b] ? CP[r.b].n : RG[r.b].f + ' ' + RG[r.b].n, ...r.p.map((p) => CP[p].n), r.mech, CLASSN[CP[r.a].cls]].join(' ').toLowerCase().includes(s)));
   });
   const famOpts = [['all', 'All types', ''] as const, ...(Object.keys(FAM) as Fam[]).map((k) => [k, FAM[k][0], 't-' + k] as const)];
@@ -58,7 +58,7 @@
 </script>
 
 <main class:quiz2={cx.quiz} {hidden}>
-  <SubTabs label="Codex section" options={[['reactions', 'Reactions', RX.length], ['tests', 'Tests', TESTS.length], ['preparation', 'Preparation', TECH.length + PREPS.length]]} bind:value={app.cx.sub} />
+  <SubTabs label="Codex section" options={[['reactions', 'Reactions', CORE.length], ['tests', 'Tests', TESTS.length], ['preparation', 'Preparation', TECH.length + PREPS.length]]} bind:value={app.cx.sub} />
   <div class="cx-head">
     <p>{INTRO[cx.sub][cx.quiz ? 1 : 0]}</p>
     <div class="qscore">
@@ -75,7 +75,7 @@
         <div class="frow"><b>Find</b><SearchInput size="sm" cls="cx-search" bind:value={q} placeholder="Compound, reagent or mechanism" label="Search reactions" oninput={stagger} /></div>
       </div>
       <div class="rxbar">
-        <p class="rcount">{list.length} of {RX.length} reactions</p>
+        <p class="rcount">{list.length} of {CORE.length} reactions</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           <Seg label="Formula style" cls="fmtseg" options={FMTS} bind:value={app.prefs.fmt} />
           <Seg label="Layout" options={[['cards', 'Cards'], ['flow', 'Flowchart']]} bind:value={app.cx.layout} />

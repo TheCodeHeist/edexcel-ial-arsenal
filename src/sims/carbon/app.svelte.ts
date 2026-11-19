@@ -4,7 +4,7 @@
 import { getContext, setContext } from 'svelte';
 import { persisted } from '../../lib/persist.svelte';
 import { shuffle, pick } from '../../lib/util';
-import { CP, RX, STARTERS, LABSET, LABRX, UNKNOWNS, TESTS, PREPS, genChallenge, nextStep, makeOpts, sampleCode, testResult,
+import { CP, CORE, STARTERS, LABSET, LABRX, UNKNOWNS, TESTS, PREPS, genChallenge, nextStep, makeOpts, sampleCode, testResult,
   type Reaction, type Difficulty } from './data';
 import { Circle, type Win } from './circle.svelte';
 
@@ -27,7 +27,7 @@ export class Carbon {
   private logKey = 0;
 
   lab = new Circle({
-    title: 'Transmutation circle', sub: 'Compound + reagent → product', cap: 'Drag a compound and a reagent into the circle · or tap them',
+    title: 'Transmutation circle', sub: 'Compounds + reagent + conditions → products', cap: 'Drag a compound and a reagent into the circle · or tap them',
     onResult: (r) => {
       const found = new Set(this.progress.found);
       const nw = r.p.filter((p) => !found.has(p));
@@ -138,7 +138,7 @@ export class Carbon {
       case 'lab': return [['Discovered', `${this.labFound}/${LABSET.size}`], ['Reactions', `${this.labRxFound}/${LABRX.length}`]];
       case 'synthesis': return [['Solved', s.synSolved], ['Streak', s.synStreak], ['Best', s.synBest]];
       case 'identify': return [['Solved', `${s.idSolved}/${s.idTotal}`], ['Wrong guesses', this.id.tries]];
-      default: return this.cx.quiz ? [['Self-test', `${s.cxRight}/${s.cxTotal}`]] : [['Reactions', RX.length], ['Tests', TESTS.length], ['Compounds', Object.keys(CP).length]];
+      default: return this.cx.quiz ? [['Self-test', `${s.cxRight}/${s.cxTotal}`]] : [['Reactions', CORE.length], ['Tests', TESTS.length], ['Compounds', Object.keys(CP).length]];
     }
   }
 }

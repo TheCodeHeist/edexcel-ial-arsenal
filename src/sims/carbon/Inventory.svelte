@@ -17,7 +17,8 @@
   const found = $derived(new Set(app.progress.found));
   const list = $derived.by(() => {
     const g = GROUPS.find((x) => x[0] === group)![2], s = q.trim().toLowerCase();
-    return ORDER.filter((id) => LABSET.has(id) && (app.prefs.free || found.has(id)))
+    // free play shows the core set; anything else you have made (rule-made esters, amides, salts…) shows once found
+    return ORDER.filter((id) => found.has(id) || (app.prefs.free && LABSET.has(id)))
       .filter((id) => (!g || g.includes(CP[id].cls)) && (!s || CP[id].n.toLowerCase().includes(s) || CP[id].st.toLowerCase().includes(s) || CLASSN[CP[id].cls].toLowerCase().includes(s)));
   });
   const left = $derived(LABSET.size - app.labFound);

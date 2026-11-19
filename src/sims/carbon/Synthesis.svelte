@@ -2,7 +2,7 @@
   /* Synthesis: make the target from the starting materials, one reaction at a time. Par is the shortest route. */
   import { chem, esc } from '../../lib/chem';
   import Seg from '../../components/ui/Seg.svelte';
-  import { CP, RG, RX, CLASSN, FAM, type Reaction } from './data';
+  import { CP, RG, RX, CLASSN, FAM, needText, type Reaction } from './data';
   import { useCarbon } from './app.svelte';
   import Mol from './Mol.svelte';
   import CircleView from './CircleView.svelte';
@@ -13,10 +13,10 @@
   const S = $derived(app.syn);
   const T = $derived(S.target ? CP[S.target] : null);
   const DIFFS = [['easy', 'Easy'], ['medium', 'Medium'], ['hard', 'Hard']] as const;
-  const withWhat = (r: Reaction) => (RG[r.b] ? chem(RG[r.b].f) : esc(CP[r.b].n));
+  const withWhat = (r: Reaction) => (RG[r.b] ? chem(RG[r.b].f) : esc(CP[r.b].n) + (r.need ? ` (${needText(r.need)})` : ''));
   const hint = $derived.by(() => {
     if (S.hintRx === null) return '';
-    const n = RX[S.hintRx], what = RG[n.b] ? `<b>${chem(RG[n.b].f)}</b> (${chem(RG[n.b].n)})` : `<b>${esc(CP[n.b].n)}</b>`;
+    const n = RX[S.hintRx], what = RG[n.b] ? `<b>${chem(RG[n.b].f)}</b> (${chem(RG[n.b].n)})` : `<b>${esc(CP[n.b].n)}</b>${n.need ? ` with ${needText(n.need)}` : ''}`;
     return S.hintFull ? `Next, try ${what} on <b>${esc(CP[n.a].n)}</b>.` : `Next, try ${what}.`;
   });
   let tcard = $state<HTMLElement>();
@@ -24,7 +24,7 @@
 </script>
 
 {#snippet step(r: Reaction)}
-  <b>{CP[r.a].n}</b> <span class="rr">+ {@html withWhat(r)}</span> → <b>{r.p.map((p) => CP[p].n).join(' + ')}</b><br /><span class="rr">{r.mech} · {@html chem(r.cond)}</span>
+  <b>{CP[r.a].n}</b> <span class="rr">+ {@html withWhat(r)}</span> → <b>{r.p.map((p) => CP[p].n).join(' + ')}</b>{#if r.by.length} <span class="rr">+ {@html r.by.map(chem).join(' + ')}</span>{/if}<br /><span class="rr">{r.mech} · {@html chem(r.cond)}</span>
 {/snippet}
 
 <main class="bay3" {hidden}>
