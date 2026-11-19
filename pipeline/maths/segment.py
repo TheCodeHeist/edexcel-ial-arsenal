@@ -161,6 +161,11 @@ def right_edge(doc):
     return _RIGHT[key]
 
 
+# 'First released on AP - Edexcel Discord' + a sites.google.com link, printed over answer lines and mark-scheme
+# tables of some 2023-24 papers (26 files)
+STAMP = re.compile(r"(released (?:first )?on\b.*discord|sites\.google\.com/view/ap-edexcel)", re.I)
+
+
 def read_lines(doc, skip_cover=True, top=COL_Y0):
     """Text lines in the printed column. `top`: mark-scheme pages have no furniture above the column, and
     a table row continued onto a new page can put its label at y≈29 (FP3 Jan 2024), so they read from 20."""
@@ -178,6 +183,8 @@ def read_lines(doc, skip_cover=True, top=COL_Y0):
                 if x1 < COL_X0 or x0 > right or y0 < top or y0 > COL_Y1:
                     continue
                 text = " ".join("".join(s["text"] for s in l["spans"]).split())
+                if STAMP.search(text):
+                    continue                    # a stamp added by whoever first shared the paper, not Pearson's
                 lines.append(Line(pno, x0, y0, x1, y1, text, any("Bold" in s["font"] for s in spans)))
     lines.sort(key=lambda l: (l.page, round(l.y0), l.x0))
     if skip_cover:
