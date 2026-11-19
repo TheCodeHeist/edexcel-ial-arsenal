@@ -8,4 +8,11 @@ export default defineConfig({
   integrations: [svelte()],
   trailingSlash: 'ignore',
   build: { format: 'directory' },
+  // Past papers moved from /<subject>/papers/ to their own section, /papers/<subject>/; keep old links working.
+  redirects: {
+    '/[subject]/papers': '/papers/[subject]',
+    '/[subject]/papers/[paper]': '/papers/[subject]/[paper]',
+    '/[subject]/topics': '/papers/[subject]/topics',
+    '/[subject]/topics/[topic]': '/papers/[subject]/topics/[topic]',
+  },
 });

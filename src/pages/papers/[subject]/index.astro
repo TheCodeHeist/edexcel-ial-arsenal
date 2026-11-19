@@ -2,13 +2,13 @@
 /* Past papers for one subject: each unit as a year-by-series grid, every cell a link to that paper. */
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/papers.css';
-import { SUBJECTS, type Subject } from '../../../data/subjects';
+import { PAPER_SUBJECTS, type PaperSubject } from '../../../data/paperSubjects';
 import { papersFor, papersForUnit, isPublished, paperSlug } from '../../../lib/papers/registry';
 
 export function getStaticPaths() {
-  return SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
+  return PAPER_SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
 }
-const { s } = Astro.props as { s: Subject };
+const { s } = Astro.props as { s: PaperSubject };
 const all = papersFor(s.id);
 const questions = all.reduce((n, p) => n + p.questions.filter(isPublished).length, 0);
 const SERIES = [['01', 'Jan'], ['06', 'Jun'], ['10', 'Oct']];
@@ -22,7 +22,7 @@ function grid(unit: string) {
 <Base
   title={`${s.name} past papers`}
   description={`Edexcel IAL ${s.name} past papers by unit and series, question by question, with mark schemes.`}
-  tab={s.id}
+  tab="papers"
   status={{ label: `${s.name} past papers`, hint: all.length ? 'Pick a unit and a series to open the paper.' : 'Papers are on the way.' }}
   stats={[{ label: 'Papers', value: all.length }, { label: 'Questions', value: questions }]}
 >
@@ -32,7 +32,7 @@ function grid(unit: string) {
         <h2><span class="d">P</span>ast papers</h2>
         <p>Every {s.name} paper since the current specification began, split into questions with their mark schemes.</p>
       </div>
-      <div class="ctas"><a class="btn" href={`/${s.id}/topics/`}>Practice by topic</a><a class="btn" href={`/${s.id}/`}>{s.name} tools</a></div>
+      <div class="ctas"><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>{s.tools && <a class="btn" href={`/${s.id}/`}>{s.name} tools</a>}<a class="btn" href="/papers/">All subjects</a></div>
     </div>
 
     <p class="credit-note panel">
@@ -45,14 +45,14 @@ function grid(unit: string) {
     {all.length === 0 ? (
       <div class="panel empty-state rise">
         <h3>No {s.name} papers yet</h3>
-        <p>Physics came first. {s.name} papers will appear here once they've been split into questions and checked.</p>
+        <p>{s.name} papers will appear here once they've been split into questions and checked.</p>
       </div>
     ) : (
       <div class="paper-units">
         {s.units.map((u, i) => { const rows = grid(u.code); return rows.length > 0 && (
           <article class="glass paper-unit rise" style={`--i:${i}`}>
             <header>
-              <span class="n">{u.n}</span>
+              <span class={`n${u.badge.length > 1 ? ' wide' : ''}`}>{u.badge}</span>
               <div>
                 <span class="code">{u.code}{u.practical && <em>Practical</em>}</span>
                 <h3>{u.title}</h3>
@@ -67,7 +67,7 @@ function grid(unit: string) {
                     {r.cells.map((ps) => (
                       <td>
                         {ps.map((p) => (
-                          <a class={`chip paper-link${p.variant ? ' variant' : ''}`} href={`/${s.id}/papers/${paperSlug(p)}/`}
+                          <a class={`chip paper-link${p.variant ? ' variant' : ''}`} href={`/papers/${s.id}/${paperSlug(p)}/`}
                              title={p.variant ? `Paper ${p.variant}: Pearson's second paper of this series, for another time zone` : undefined}>
                             Paper{p.variant ? ` ${p.variant}` : ''}<span class="sr-only"> {u.code} {r.year}</span>
                           </a>

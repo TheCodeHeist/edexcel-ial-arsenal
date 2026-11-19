@@ -1,0 +1,58 @@
+---
+/* Past papers, across subjects: one card per subject, with its papers by year and its practice by topic. */
+import Base from '../../layouts/Base.astro';
+import '../../styles/papers.css';
+import { PAPER_SUBJECTS } from '../../data/paperSubjects';
+import { papersFor, isPublished, partsByTopic } from '../../lib/papers/registry';
+
+const subjects = PAPER_SUBJECTS.map((s) => {
+  const papers = papersFor(s.id);
+  return { s, papers: papers.length, questions: papers.reduce((n, p) => n + p.questions.filter(isPublished).length, 0),
+           topics: partsByTopic(s.id).size };
+});
+const totalPapers = subjects.reduce((n, x) => n + x.papers, 0);
+const totalQuestions = subjects.reduce((n, x) => n + x.questions, 0);
+---
+<Base
+  title="Past papers"
+  description="Edexcel IAL past papers, question by question with mark schemes, by year or by specification topic."
+  tab="papers"
+  status={{ label: 'Past papers', hint: 'Pick a subject: papers by year, or practice by topic.' }}
+  stats={[{ label: 'Papers', value: totalPapers }, { label: 'Questions', value: totalQuestions }]}
+>
+  <section>
+    <div class="section-h">
+      <div>
+        <h2><span class="d">P</span>ast papers</h2>
+        <p>Every paper of the current specifications, split into questions with their mark schemes.</p>
+      </div>
+    </div>
+
+    <p class="credit-note panel">
+      The papers and mark schemes are © Pearson Education Ltd. We show them question by question for revision and
+      link to the originals on every paper. They were collected and shared for free by{' '}
+      <a href="https://www.paperlords.org/ial">PaperLords</a> and{' '}
+      <a href="https://www.physicsandmathstutor.com/">Physics &amp; Maths Tutor</a>: thank you.
+    </p>
+
+    <div class="paper-subjects">
+      {subjects.map(({ s, papers, questions, topics }, i) => (
+        <article class="glass paper-subject rise" style={`--hue:var(${s.hue});--i:${i}`}>
+          <h3>{s.name}</h3>
+          <p>{s.blurb}</p>
+          {papers > 0 ? (
+            <>
+              <p class="count"><b>{papers}</b> papers · <b>{questions}</b> questions{topics > 0 && <> · <b>{topics}</b> topics</>}</p>
+              <div class="ctas">
+                <a class="btn primary" href={`/papers/${s.id}/`}>Papers by year</a>
+                {topics > 0 && <a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>}
+              </div>
+            </>
+          ) : (
+            <p class="count">On the way: its papers are being split into questions and checked.</p>
+          )}
+        </article>
+      ))}
+    </div>
+  </section>
+</Base>

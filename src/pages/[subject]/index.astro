@@ -28,7 +28,7 @@ const papers = papersFor(s.id).length;
         <h2 id="tools-h"><span class="d">{s.name[0]}</span>{s.name.slice(1)} tools</h2>
         <p>{s.blurb}</p>
       </div>
-      {papers > 0 && <div class="ctas"><a class="btn primary" href={`/${s.id}/papers/`}>Past papers ({papers})</a><a class="btn" href={`/${s.id}/topics/`}>Practice by topic</a></div>}
+      {papers > 0 && <div class="ctas"><a class="btn primary" href={`/papers/${s.id}/`}>Past papers ({papers})</a><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a></div>}
     </div>
     {tools.length ? (
       <div class="tools">

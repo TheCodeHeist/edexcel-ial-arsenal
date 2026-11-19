@@ -1,14 +1,14 @@
 ---
 /* Practice by topic: every spec statement of a subject, unit by unit, with how many past-paper parts test it. */
-import Base from '../../../layouts/Base.astro';
-import '../../../styles/papers.css';
-import { SUBJECTS, type Subject } from '../../../data/subjects';
-import { topicList, partsByTopic } from '../../../lib/papers/registry';
+import Base from '../../../../layouts/Base.astro';
+import '../../../../styles/papers.css';
+import { PAPER_SUBJECTS, type PaperSubject } from '../../../../data/paperSubjects';
+import { topicList, partsByTopic } from '../../../../lib/papers/registry';
 
 export function getStaticPaths() {
-  return SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
+  return PAPER_SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
 }
-const { s } = Astro.props as { s: Subject };
+const { s } = Astro.props as { s: PaperSubject };
 const list = topicList(s.id);
 const parts = partsByTopic(s.id);
 const tagged = list ? list.units.flatMap((u) => u.groups.flatMap((g) => g.points)).filter((p) => parts.has(p.id)).length : 0;
@@ -17,7 +17,7 @@ const total = [...parts.values()].reduce((n, xs) => n + xs.length, 0);
 <Base
   title={`${s.name} practice by topic`}
   description={`Every Edexcel IAL ${s.name} past-paper question, sorted by specification topic, with mark schemes.`}
-  tab={s.id}
+  tab="papers"
   status={{ label: `${s.name} by topic`, hint: list ? 'Pick a spec statement to practise every question on it.' : 'Topics are on the way.' }}
   stats={[{ label: 'Topics', value: tagged }, { label: 'Question parts', value: total }]}
 >
@@ -27,7 +27,7 @@ const total = [...parts.values()].reduce((n, xs) => n + xs.length, 0);
         <h2><span class="d">P</span>ractice by topic</h2>
         <p>Every past-paper question part on a specification point, from every series, with its mark scheme.</p>
       </div>
-      <a class="btn" href={`/${s.id}/papers/`}>Papers by year</a>
+      <a class="btn" href={`/papers/${s.id}/`}>Papers by year</a>
     </div>
 
     <p class="credit-note panel">
@@ -57,7 +57,7 @@ const total = [...parts.values()].reduce((n, xs) => n + xs.length, 0);
                   {g.points.map((p) => { const n = parts.get(p.id)?.length ?? 0; return (
                     <li>
                       {n > 0
-                        ? <a href={`/${s.id}/topics/${p.id}/`} title={p.text}><span class="pid">{p.id}</span>{p.short}<span class="n">{n}</span></a>
+                        ? <a href={`/papers/${s.id}/topics/${p.id}/`} title={p.text}><span class="pid">{p.id}</span>{p.short}<span class="n">{n}</span></a>
                         : <span class="none" title={p.text}><span class="pid">{p.id}</span>{p.short}<span class="n">0</span></span>}
                     </li>
                   ); })}
