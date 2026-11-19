@@ -848,7 +848,9 @@ def clear_edges(doc, questions):
                     nb.bands[ib] = (pb, y, y1b)
 
 
-DIAGRAM_CAPTION = re.compile(r"^(?:Copy of )?Diagram (\d+)$", re.I)
+# 'Diagram 1', 'Copy of Diagram 1', and a spare 'Copy of Figure 2' (FP2 Jan 2022); a plain 'Figure N' on a later
+# page can be the last part's own figure, so it doesn't move
+DIAGRAM_CAPTION = re.compile(r"^(?:(?:Copy of )?Diagram|Copy of Figure) (\d+)$", re.I)
 
 
 def move_diagram_pages(questions, lines):
@@ -865,10 +867,11 @@ def move_diagram_pages(questions, lines):
                 if not caps:
                     continue
                 d = caps[0][1]
+                kind = "Figure" if "figure" in caps[0][0].lower() else "Diagram"
                 others = [(m, text_in(m.bands, lines)) for m in parts if m is not n]
-                use = re.compile(rf"\b(?:On|Using|use)\s+Diagram\s+{d}\b", re.I)
+                use = re.compile(rf"\b(?:On|Using|use)\s+{kind}\s+{d}\b", re.I)
                 target = (next((m for m, s in others if use.search(s)), None)
-                          or next((m for m, s in others if re.search(rf"\bDiagram\s+{d}\b", s)), None))
+                          or next((m for m, s in others if re.search(rf"\b{kind}\s+{d}\b", s)), None))
                 if target is not None:
                     n.bands.remove(band)
                     target.bands.append(band)
