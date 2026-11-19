@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/ial-arsenal-logo-colorful.png" width="128" alt="Edexcel IAL Arsenal logo"></p>
+
 # Edexcel IAL Arsenal
 
 Interactive study tools for Edexcel International A Level Chemistry and Physics. By students, for students.

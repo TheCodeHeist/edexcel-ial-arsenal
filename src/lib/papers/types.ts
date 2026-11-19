@@ -125,3 +125,11 @@ export interface Paper {
   source: { qp: SourceFile; ms: SourceFile };   // the copyright holder is always Pearson; `via` is who shared the file
   questions: Question[];
 }
+
+/** registry/<subject>/notes.json, per paper id: notes for students, shown on the site with a '!'. */
+export interface PaperNotes {
+  /** about the whole paper, e.g. 'No mark scheme was published for this series.' */
+  paper?: string;
+  /** by question number */
+  questions?: Record<string, string>;
+}

@@ -273,10 +273,10 @@
      "kindGuessed": "mcq"
     }
    ],
+   "check": "human",
    "risks": [
     "5: text doesn't start at its label"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH12_2023_06_q6",
@@ -411,13 +411,13 @@
       {
        "src": "physics/WPH12_2023_06/q8_ms.webp",
        "w": 1023,
-       "h": 296,
+       "h": 299,
        "region": {
         "page": 6,
         "x0": 56.1,
         "y0": 182.0,
         "x1": 546.5,
-        "y1": 324.0
+        "y1": 325.4
        }
       }
      ],
@@ -461,11 +461,11 @@
       {
        "src": "physics/WPH12_2023_06/q9_ms.webp",
        "w": 1023,
-       "h": 191,
+       "h": 188,
        "region": {
         "page": 6,
         "x0": 56.1,
-        "y0": 322.0,
+        "y0": 323.4,
         "x1": 546.5,
         "y1": 413.0
        }
@@ -944,10 +944,10 @@
      "kindGuessed": "extended"
     }
    ],
+   "check": "human",
    "risks": [
     "14: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH12_2023_06_q15",
@@ -1088,10 +1088,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "15(b): text doesn't start at its label"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH12_2023_06_q16",

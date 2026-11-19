@@ -614,13 +614,13 @@
       {
        "src": "physics/WPH14_2025_10_A/q11_b_i_ms.webp",
        "w": 1565,
-       "h": 297,
+       "h": 301,
        "region": {
         "page": 7,
         "x0": 52.8,
         "y0": 131.0,
         "x1": 803.2,
-        "y1": 273.0
+        "y1": 274.6
        }
       }
      ],
@@ -672,9 +672,9 @@
        "region": {
         "page": 7,
         "x0": 52.8,
-        "y0": 271.0,
+        "y0": 272.6,
         "x1": 803.2,
-        "y1": 419.0
+        "y1": 420.2
        }
       }
      ],
@@ -682,10 +682,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "11(b)(i): text doesn't start at its label"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2025_10_A_q12",
@@ -1699,7 +1699,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "human"
   },
   {
    "id": "WPH14_2025_10_A_q15",
@@ -2023,10 +2023,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "16: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH14_2025_10_A_q17",
@@ -2326,10 +2326,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "17(b): text doesn't start at its label"
-   ],
-   "check": "human"
+   ]
   }
  ]
 }

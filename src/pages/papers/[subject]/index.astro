@@ -3,7 +3,7 @@
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/papers.css';
 import { PAPER_SUBJECTS, type PaperSubject } from '../../../data/paperSubjects';
-import { papersFor, papersForUnit, isPublished, paperSlug } from '../../../lib/papers/registry';
+import { papersFor, papersForUnit, isPublished, paperSlug, notesFor } from '../../../lib/papers/registry';
 
 export function getStaticPaths() {
   return PAPER_SUBJECTS.map((s) => ({ params: { subject: s.id }, props: { s } }));
@@ -32,7 +32,7 @@ function grid(unit: string) {
         <h2><span class="d">P</span>ast papers</h2>
         <p>Every {s.name} paper since the current specification began, split into questions with their mark schemes.</p>
       </div>
-      <div class="ctas"><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>{s.tools && <a class="btn" href={`/${s.id}/`}>{s.name} tools</a>}<a class="btn" href="/papers/">All subjects</a></div>
+      <div class="ctas"><a class="btn primary" href={`/papers/${s.id}/mock/`}>Mock paper</a><a class="btn" href={`/papers/${s.id}/topics/`}>Practice by topic</a>{s.tools && <a class="btn" href={`/${s.id}/`}>{s.name} tools</a>}<a class="btn" href="/papers/">All subjects</a></div>
     </div>
 
     <p class="credit-note panel">
@@ -70,6 +70,7 @@ function grid(unit: string) {
                           <a class={`chip paper-link${p.variant ? ' variant' : ''}`} href={`/papers/${s.id}/${paperSlug(p)}/`}
                              title={p.variant ? `Paper ${p.variant}: Pearson's second paper of this series, for another time zone` : undefined}>
                             Paper{p.variant ? ` ${p.variant}` : ''}<span class="sr-only"> {u.code} {r.year}</span>
+                            {notesFor(p).paper && <span class="bang" title={notesFor(p).paper}>!<span class="sr-only"> (note: {notesFor(p).paper})</span></span>}
                           </a>
                         ))}
                       </td>

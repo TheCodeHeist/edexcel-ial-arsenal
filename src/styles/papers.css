@@ -80,3 +80,21 @@ img.crop{display:block;max-width:100%;height:auto;border-radius:4px;background:#
 .paper-subject p{margin:0 0 12px;color:var(--muted);font-size:14px}
 .paper-subject .count{font:500 12.5px/1.4 var(--f-mono)}
 .paper-subject .count b{color:var(--ink)}
+
+/* notes for students: where Pearson's own papers disagree, or something is missing */
+.paper-note{display:flex;gap:10px;align-items:flex-start;margin:0 0 10px;padding:8px 12px;border-radius:var(--r-sm);
+  font-size:13.5px;line-height:1.45;color:var(--ink);background:color-mix(in srgb,var(--amph) 12%,transparent);
+  border:1px solid color-mix(in srgb,var(--amph) 35%,transparent)}
+.paper-note b{color:var(--amph);margin-right:4px}
+.bang{flex:none;display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;
+  font:700 12px/1 var(--f-mono);color:var(--solid,#fff);background:var(--amph)}
+.paper-link .bang{width:15px;height:15px;font-size:10.5px;margin-left:5px;vertical-align:1px}
+.paper-head .paper-note{margin:12px 0}
+
+/* printing a paper or a mock: just the questions */
+@media print {
+  .top, .statusbar, .foot, .aurora, .skip, .paper-nav, .ctas, .section-h .btn, .credit-note { display: none !important; }
+  body { background: #fff !important; }
+  .qcard { break-inside: avoid-page; box-shadow: none !important; border: 1px solid #ccc; }
+  img.crop { filter: none !important; }
+}

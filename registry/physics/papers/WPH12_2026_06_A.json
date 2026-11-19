@@ -576,10 +576,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "11: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH12_2026_06_A_q12",
@@ -629,10 +629,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "12: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH12_2026_06_A_q13",
@@ -794,13 +794,13 @@
       {
        "src": "physics/WPH12_2026_06_A/q14_a_i_ms.webp",
        "w": 1525,
-       "h": 138,
+       "h": 142,
        "region": {
         "page": 11,
         "x0": 48.0,
         "y0": 100.0,
         "x1": 779.5,
-        "y1": 166.0
+        "y1": 167.8
        }
       }
      ],
@@ -849,11 +849,11 @@
       {
        "src": "physics/WPH12_2026_06_A/q14_a_ii_ms.webp",
        "w": 1525,
-       "h": 297,
+       "h": 293,
        "region": {
         "page": 11,
         "x0": 48.0,
-        "y0": 164.0,
+        "y0": 165.8,
         "x1": 779.5,
         "y1": 306.0
        }

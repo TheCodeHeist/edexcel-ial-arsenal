@@ -6,7 +6,8 @@
 .top{display:grid;grid-template-columns:minmax(0,1fr) auto auto;grid-template-areas:"brand theme tabs";align-items:end;gap:12px 14px;padding-block:22px 14px;
   border-bottom:1px solid var(--line);view-transition-name:top;position:relative;z-index:20}
 .brand{grid-area:brand;min-width:0}
-.brand h1 a{color:inherit;text-decoration:none}
+.brand h1 a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.28em}
+.brand h1 .logo{flex:none;width:1.05em;height:1.05em;border-radius:.11em;box-shadow:0 4px 14px -6px rgba(0,0,0,.45)}
 .top .theme-wrap{grid-area:theme}
 .top .tabs{grid-area:tabs}
 .home-link{display:inline-flex;align-items:center;gap:4px;color:inherit;text-decoration:none;font-weight:700;border-radius:4px}

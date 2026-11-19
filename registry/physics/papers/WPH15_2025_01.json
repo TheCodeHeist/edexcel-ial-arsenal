@@ -307,13 +307,13 @@
       {
        "src": "physics/WPH15_2025_01/q6_ms.webp",
        "w": 1008,
-       "h": 175,
+       "h": 178,
        "region": {
         "page": 6,
         "x0": 61.6,
         "y0": 408.0,
         "x1": 545.1,
-        "y1": 492.0
+        "y1": 493.4
        }
       }
      ],
@@ -357,11 +357,11 @@
       {
        "src": "physics/WPH15_2025_01/q7_ms.webp",
        "w": 1008,
-       "h": 187,
+       "h": 184,
        "region": {
         "page": 6,
         "x0": 61.6,
-        "y0": 490.0,
+        "y0": 491.4,
         "x1": 545.1,
         "y1": 579.0
        }
@@ -571,10 +571,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "11: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH15_2025_01_q12",
@@ -622,10 +622,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "12: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH15_2025_01_q13",
@@ -826,10 +826,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "14(a): text doesn't start at its label"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH15_2025_01_q15",
@@ -878,10 +878,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "15: text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH15_2025_01_q16",
@@ -1061,10 +1061,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "16(b)(i): runs across pages"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH15_2025_01_q17",
@@ -1204,10 +1204,10 @@
      "kindGuessed": "short"
     }
    ],
+   "check": "human",
    "risks": [
     "17(b)(ii): text after the marks"
-   ],
-   "check": "human"
+   ]
   },
   {
    "id": "WPH15_2025_01_q18",
@@ -1795,13 +1795,13 @@
       {
        "src": "physics/WPH15_2025_01/q21_b_ms.webp",
        "w": 1015,
-       "h": 578,
+       "h": 580,
        "region": {
         "page": 17,
         "x0": 61.6,
         "y0": 454.0,
         "x1": 548.6,
-        "y1": 731.0
+        "y1": 732.0
        }
       }
      ],
@@ -1809,10 +1809,10 @@
      "kindGuessed": "calc"
     }
    ],
+   "check": "human",
    "risks": [
     "21(a)(ii): text after the marks"
-   ],
-   "check": "human"
+   ]
   }
  ]
 }

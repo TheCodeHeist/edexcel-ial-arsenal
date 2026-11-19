@@ -9,8 +9,11 @@ import { TOOLS } from '../data/tools';
   stats={[{ label: 'Tools', value: TOOLS.length }]}
 >
   <article class="panel prose rise">
-    <p class="eyebrow">About</p>
-    <h2>Study tools for Edexcel IAL sciences</h2>
+    <div class="about-head">
+      <img src="/brand/ial-arsenal-logo-colorful.svg" width="84" height="84" alt="Edexcel IAL Arsenal logo" />
+      <div><p class="eyebrow">About</p>
+      <h2>Study tools for Edexcel IAL sciences</h2></div>
+    </div>
     <p>Edexcel IAL Arsenal is a growing set of free tools for students taking Pearson Edexcel International A Levels in Chemistry and Physics. Each one covers part of the specification you would otherwise have to memorise from a page: you run the reactions, test yourself and see what changes.</p>
 
     <h3>What you'll find</h3>
@@ -37,3 +40,9 @@ import { TOOLS } from '../data/tools';
     <p>This is an independent project. It is not produced, endorsed or checked by Pearson Edexcel. Use it alongside the official specification, past papers and mark schemes, not instead of them.</p>
   </article>
 </Base>
+
+<style>
+  .about-head { display: flex; gap: 18px; align-items: center; margin-bottom: 8px; }
+  .about-head img { flex: none; border-radius: 10px; }
+  .about-head h2 { margin: 0; }
+</style>

@@ -41,8 +41,7 @@ const ring = (i: number, r: number) => { const a = (i * 2 * Math.PI) / SUBJECTS.
             const a = (i * Math.PI) / 3; return <circle cx={Math.cos(a) * 104} cy={Math.sin(a) * 104} r="4.5" fill={`var(${c})`} />;
           })}
         </g>
-        <circle r="56" fill="var(--solid)" stroke="var(--rim)" stroke-width="1.4" />
-        <text y="20" text-anchor="middle" font-family="var(--f-display)" font-style="italic" font-weight="700" font-size="62" fill="var(--accent)">E</text>
+        <image href="/brand/ial-arsenal-logo-colorful.svg" x="-58" y="-58" width="116" height="116" />
         <g class="orbit">
           <circle r="150" stroke="transparent" />
           {SUBJECTS.map((s, i) => { const p = ring(i, 150); return (
