@@ -795,6 +795,30 @@ def slug(label, suffix=""):
     return "q" + "_".join(re.findall(r"[0-9]+|[a-z]+", label)) + suffix
 
 
+_MSX = {}
+
+
+def ms_x_range(ms_doc):
+    """How wide a mark scheme's crops are: its tables' rules and body text, with a little room, within the page.
+    A fixed 36-560 clipped the marks column and notes of wider schemes (the 2026 A papers' tables reach x 565,
+    their notes x 578)."""
+    if ms_doc.name not in _MSX:
+        x0, x1 = 36.0, 560.0
+        for page in ms_doc:
+            for d in page.get_drawings():
+                r = d["rect"]
+                if 40 < r.y0 < page.rect.height - 40 and r.width < page.rect.width - 20 and r.x0 > 20 and r.x1 < page.rect.width - 20:
+                    x0, x1 = min(x0, r.x0 - 3), max(x1, r.x1 + 3)
+            for b in page.get_text("dict")["blocks"]:          # printed text only: blocks can carry
+                for ln in b.get("lines", []):                       # trailing spaces far past their words
+                    for s in ln["spans"]:
+                        if s["text"].strip() and 40 < s["bbox"][1] < page.rect.height - 60:
+                            x0, x1 = min(x0, s["bbox"][0] - 3), max(x1, s["bbox"][2] + 3)
+            w = page.rect.width
+        _MSX[ms_doc.name] = (max(4.0, x0), min(w - 4, x1))
+    return _MSX[ms_doc.name]
+
+
 def render_bands(doc, bands, name, out_dir, paper_id, x0=COL_X0, x1=None):
     crops = []
     x1 = x1 if x1 is not None else right_edge(doc)
@@ -987,13 +1011,13 @@ def export(paper_id, doc, questions, lines, ms_doc, rows, notes, ms_lines, ms_it
                 "tagStatus": "none",
                 **({"intro": intro} if intro else {}),
                 "qp": render_bands(doc, n.bands, slug(n.label), crops, paper_id),
-                "ms": render_bands(ms_doc, ms_crop_bands, slug(n.label, "_ms"), crops, paper_id, 36, 560),
+                "ms": render_bands(ms_doc, ms_crop_bands, slug(n.label, "_ms"), crops, paper_id, *ms_x_range(ms_doc)),
                 "text": text,
             })
         note = []
         if q.number in notes:
             note = render_bands(ms_doc, ms_bands(*notes[q.number], ms_items, ms_lines),
-                                slug(str(q.number), "_notes"), crops, paper_id, 36, 560)
+                                slug(str(q.number), "_notes"), crops, paper_id, *ms_x_range(ms_doc))
         qs.append({"id": f"{paper_id}_q{q.number}", "number": q.number, "marks": q.total,
                    "stem": render_bands(doc, stem.bands, slug(stem.label, "_stem"), crops, paper_id) if stem else [],
                    "parts": parts,
