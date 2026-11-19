@@ -424,6 +424,7 @@ MS_NUM_LEAD = re.compile(r"^(\d{1,2})\s*\.\s+(?=\S)")
 MS_TOTAL = re.compile(r"^(?:[(\[]?(?:Total\s+)?(\d{1,2})\s*marks?[)\]]?|[(\[]?Total\s+(\d{1,2})(?:\s+marks?)?[)\]]?"
                       r"|(?:(?:d{0,2}[MABE]\d\*?\s*)+)?[(\[](\d{1,2})[)\]])$",
                       re.I)
+MARK_CODES = re.compile(r"^(?:d{0,2}[MABE]\d\*?\s*,?\s*)+(?:ft)?$")
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 
 
@@ -563,6 +564,13 @@ def ms_split(ms_doc, questions):
     if not starts:
         return [], {}, ["mark scheme: no 'Question Number' table header found"], lines, items
     first_page = min(starts)
+    # where each page prints its mark codes (M1, A1, B1 …): a question's plain '(9)' total sits in that column
+    codes = [l for l in lines if MARK_CODES.match(l.text)]
+    by_page = {}
+    for l in codes:
+        by_page.setdefault(l.page, []).append(l.x0)
+    marks_x = {pg: sorted(xs)[len(xs) // 2] for pg, xs in by_page.items()}
+    marks_x_all = sorted(l.x0 for l in codes)[len(codes) // 2] if codes else 0
     rows, notes, problems = [], {}, []
     cur_q, path = None, ()
     expected = 1
@@ -572,8 +580,9 @@ def ms_split(ms_doc, questions):
             continue
         col = columns.get(l.page) or fallback
         t = MS_TOTAL.match(l.text) if rows and col and l.x0 > col[1] + 120 else None
-        if t and t[3] and int(t[3]) != totals.get(rows[-1].q):
-            t = None                                        # a part's '(3)', not the question's total
+        if t and t[3] and (int(t[3]) != totals.get(rows[-1].q)
+                           or (not l.bold and l.x0 < marks_x.get(l.page, marks_x_all) - 40)):
+            t = None    # a part's '(3)', or a '(9)' in the scheme's working (P4 Jan 2026), not the question's total
         if (not t and rows and col and l.bold and l.x0 > 480 and re.fullmatch(r"\d{1,2}", l.text)
                 and int(l.text) == totals.get(rows[-1].q)):
             t = True    # the total alone, bold, at the foot of the Marks column (S1 Oct 2023, FP3 Jun 2025)
