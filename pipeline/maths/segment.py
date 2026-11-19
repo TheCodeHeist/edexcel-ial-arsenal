@@ -166,6 +166,15 @@ def right_edge(doc):
 STAMP = re.compile(r"(released (?:first )?on\b.*discord|sites\.google\.com/view/ap-edexcel)", re.I)
 
 
+def unshift(text):
+    """Undo the +29 shift of fonts with no character map (P2 Oct 2019, as in some 2019 Physics papers):
+    ')LQG' -> 'Find', 'D' -> 'a'. Such spans always contain chr(3), their space, which never occurs in real
+    text; an ordinary space or tab in them is a real one."""
+    if "\x03" not in text:
+        return text
+    return "".join(chr(ord(c) + 29) if ord(c) < 94 and c not in " \t" else c for c in text)
+
+
 def read_lines(doc, skip_cover=True, top=COL_Y0):
     """Text lines in the printed column. `top`: mark-scheme pages have no furniture above the column, and
     a table row continued onto a new page can put its label at y≈29 (FP3 Jan 2024), so they read from 20."""
@@ -182,7 +191,7 @@ def read_lines(doc, skip_cover=True, top=COL_Y0):
                 x0, y0, x1, y1 = l["bbox"]
                 if x1 < COL_X0 or x0 > right or y0 < top or y0 > COL_Y1:
                     continue
-                text = " ".join("".join(s["text"] for s in l["spans"]).split())
+                text = " ".join("".join(unshift(s["text"]) for s in l["spans"]).split())
                 if STAMP.search(text):
                     continue                    # a stamp added by whoever first shared the paper, not Pearson's
                 lines.append(Line(pno, x0, y0, x1, y1, text, any("Bold" in s["font"] for s in spans)))
