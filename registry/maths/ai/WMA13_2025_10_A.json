@@ -1,20 +1,24 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ecc0206a99ac",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(i)(a): MARK SCHEME rows show the whole (i) table - the (i)(b) row (5x/(4x^2+1) integral, M1 A1) is included as well as (a), so marks shown are 2+2, not (a)'s 2.",
+    "1(i)(b): MARK SCHEME rows likewise start with the (i)(a) row ((2x+3)^12, M1 A1) before the (b) row, so the (a) row is duplicated into (b)."
+   ],
+   "fingerprint": "f59ce317f3ee",
    "kinds": {
-    "1(i)": "calc",
+    "1(i)(a)": "calc",
     "1(i)(b)": "calc",
     "1(ii)": "calc"
    },
    "topics": {
-    "1(i)": [
+    "1(i)(a)": [
      "P3.5.2"
     ],
     "1(i)(b)": [
-     "P3.5.2"
+     "P3.5.2",
+     "P3.5.1"
     ],
     "1(ii)": [
      "P3.5.1",
@@ -149,9 +153,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "8fd27d286359",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(a): the MARK SCHEME rows crop includes a second Notes box that belongs to 8(c) (Uses H = 18 ... cos(30t+16.70) = k ... dM1 ... A1 awrt 3.61), placed after the (a) notes, so (c) examiners notes sit under 8(a)."
+   ],
+   "fingerprint": "680bdbe0d77f",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

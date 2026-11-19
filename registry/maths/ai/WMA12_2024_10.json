@@ -57,9 +57,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d97cb57b7519",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(b): the question crop starts with clipped stray fragments at the top (the tail of the 2(a) question line and a loose (3) mark) that belong to 2(a)",
+    "2(c): a clipped sliver of text shows along the bottom edge of the mark-scheme rows, below Total 7"
+   ],
+   "fingerprint": "1a48e4eb50e9",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",

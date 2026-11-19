@@ -547,7 +547,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2025_06_A_q5",
@@ -750,9 +750,11 @@
     {
      "label": "6(ii)(a)",
      "marks": 1,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "P1.3.3"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2025_06_A/q6_ii_intro.webp",
@@ -931,7 +933,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2025_06_A_q7",

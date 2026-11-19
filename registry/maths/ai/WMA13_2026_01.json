@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(c): no mark-scheme rows paired (mark scheme splits into 1(c)(i) and 1(c)(ii))"
+    "1(c): there is no MARK SCHEME rows crop at all for 1(c) (3 marks) - the question crop is followed directly by the examiners notes, so the mark-scheme rows (x2 = 0.7866, alpha = 0.7589) are missing and the paired marks total only 3 of the 6 marks."
    ],
-   "fingerprint": "e6458ac12a80",
+   "fingerprint": "2ff0b03b7de5",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -24,9 +24,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "852d0c3747cd",
+   "fingerprint": "ee89e800db96",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -66,21 +66,21 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(ii): the mark-scheme crop for 3(ii)(a) also contains the rows for part (b) (the integral, 126+8ln2) and the whole-question \"(10 marks)\" total, so the marks shown are not just this part's 4; the same combined (a)+(b) block is repeated under 3(ii)(b), which is a 4-mark part."
+    "3(ii)(b): MARK SCHEME rows begin with the whole 3(ii)(a) table (division, remainder, M1 A1 M1 A1, 4 marks) before the (b) rows, so (a) rows are duplicated into (b) and the crop shows 4+4 marks."
    ],
-   "fingerprint": "1bc5ba7a09db",
+   "fingerprint": "4fc769c75459",
    "kinds": {
     "3(i)": "calc",
-    "3(ii)": "calc",
+    "3(ii)(a)": "calc",
     "3(ii)(b)": "calc"
    },
    "topics": {
     "3(i)": [
      "P3.5.2"
     ],
-    "3(ii)": [
+    "3(ii)(a)": [
      "P3.1.1"
     ],
     "3(ii)(b)": [

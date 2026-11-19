@@ -1,9 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "54df7ee6fa62",
+   "at": "2026-11-20",
+   "concerns": [
+    "Examiners notes block: it contains another question mark-scheme rows, not Q1 notes - the note Allow column vectors throughout apart from in the answers to (a) and (b) and then the row 2a (Use of 1/3(10i+4j-(-5i+16j)), M1 A1, answer (5i-4j) m/s, (2)) which is Question 2(a); the Q1 crop ends with a different question mark scheme",
+    "1(b): mark-scheme rows start with a thin empty strip at the top edge; harmless"
+   ],
+   "fingerprint": "cc6439b3a86b",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -40,9 +43,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "6466b3b31934",
+   "fingerprint": "baf55a3f947b",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -92,9 +95,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "2269875be054",
+   "at": "2026-11-20",
+   "concerns": [
+    "Examiners notes block: only a single cut-off line (Allow column vectors throughout apart from in the answers to (b) and (c)) is shown at the very bottom; this is a vectors-question note that looks like it belongs to another question, not Q6 (Q6 has no vectors), and it is cut off"
+   ],
+   "fingerprint": "992d3635d248",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -116,9 +121,14 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "cb936c4591c8",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(c): mis-paired mark scheme - the 7(c) purple block also contains the whole mark-scheme rows of 7(d) (4 marks, T1 = (-1+sqrt17)/2) and 7(e) (3 marks, 3T2^2-14T2+4=0) and the question total (13), so 7(c) rows add up to 9 marks, not 2",
+    "7(d): no mark-scheme rows under 7(d); its rows (7d: M1 M1 A1ft A1) sit inside the 7(c) block above",
+    "7(e): no mark-scheme rows under 7(e); its rows (7e: M1 A1ft A1*) sit inside the 7(c) block above",
+    "7(a),(b),(c): the rows themselves are fine and complete; no examiners notes block is shown"
+   ],
+   "fingerprint": "1545899f0d0a",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -148,9 +158,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "0efa60e4bc02",
+   "fingerprint": "af47b497e57b",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

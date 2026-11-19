@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "cec9fd26fa4c",
+   "fingerprint": "8d5ebd2f9584",
    "kinds": {
     "1": "calc"
    },
@@ -71,9 +71,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "046266d7f8e3",
+   "fingerprint": "23993204d45d",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -113,14 +113,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "6(ii): the mark-scheme rows run on into parts (b) and (c) (B1 then M1 A1 A1 then M1 A1 dM1 A1), so they show 8 marks (and \"12 marks\") for a 1-mark part (a)"
-   ],
-   "fingerprint": "46270e07c160",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "2d1e64b0b951",
    "kinds": {
     "6(i)": "calc",
-    "6(ii)": "short",
+    "6(ii)(a)": "short",
     "6(ii)(b)": "calc",
     "6(ii)(c)": "calc"
    },
@@ -128,7 +126,7 @@
     "6(i)": [
      "P2.6.1"
     ],
-    "6(ii)": [
+    "6(ii)(a)": [
      "P1.3.3"
     ],
     "6(ii)(b)": [
@@ -181,9 +179,12 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ae67a80288de",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(a): the question crop is missing Diagram 1 (the blank axes the student must sketch on); the diagram appears in the 9(b) question crop instead",
+    "9(b): the question crop contains the Diagram 1 axes that belong to 9(a) (and (b) does not use it)"
+   ],
+   "fingerprint": "367b833d604c",
    "kinds": {
     "9(a)": "draw",
     "9(b)": "calc"

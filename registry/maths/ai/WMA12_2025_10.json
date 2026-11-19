@@ -31,12 +31,14 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ac490cd0f070",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(b)(ii): the mark-scheme rows also repeat the 3(b)(i) rows (B1, M1 A1), so the marks shown are 5 rather than the 2 for this part"
+   ],
+   "fingerprint": "fa66e8f6a90a",
    "kinds": {
     "3(a)": "calc",
-    "3(b)": "calc",
+    "3(b)(i)": "calc",
     "3(b)(ii)": "calc"
    },
    "topics": {
@@ -44,11 +46,12 @@
      "P2.5.3",
      "P2.5.2"
     ],
-    "3(b)": [
+    "3(b)(i)": [
      "P2.8.3"
     ],
     "3(b)(ii)": [
-     "P2.8.3"
+     "P2.8.3",
+     "P2.8.1"
     ]
    }
   },
@@ -133,12 +136,14 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "3ab8c93aa602",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(ii)(b): the mark-scheme rows also repeat the 8(ii)(a) rows (M1 A1*), so the marks shown are 5 rather than the 3 for this part"
+   ],
+   "fingerprint": "6c92eca5a821",
    "kinds": {
     "8(i)": "calc",
-    "8(ii)": "calc",
+    "8(ii)(a)": "calc",
     "8(ii)(b)": "calc"
    },
    "topics": {
@@ -146,7 +151,7 @@
      "P2.4.4",
      "P2.1.1"
     ],
-    "8(ii)": [
+    "8(ii)(a)": [
      "P2.4.4"
     ],
     "8(ii)(b)": [
@@ -155,19 +160,21 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "21dedeae1a38",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(ii)(b): the mark-scheme rows also repeat the 9(ii)(a) rows (B1, M1 A1*), so the marks shown are 5 rather than the 2 for this part"
+   ],
+   "fingerprint": "a122f4e85380",
    "kinds": {
     "9(i)": "calc",
-    "9(ii)": "calc",
+    "9(ii)(a)": "calc",
     "9(ii)(b)": "short"
    },
    "topics": {
     "9(i)": [
      "P2.5.2"
     ],
-    "9(ii)": [
+    "9(ii)(a)": [
      "P2.5.2"
     ],
     "9(ii)(b)": [

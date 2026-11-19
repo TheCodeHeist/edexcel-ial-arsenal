@@ -543,7 +543,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "P2.8.3"
+      "P2.8.3",
+      "P2.8.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -759,8 +760,10 @@
      "label": "7(i)(a)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P2.4.4"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA12_2025_06/q7_i_intro.webp",
@@ -950,7 +953,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2025_06_q8",
@@ -1242,7 +1245,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WMA12_2025_06_q10",

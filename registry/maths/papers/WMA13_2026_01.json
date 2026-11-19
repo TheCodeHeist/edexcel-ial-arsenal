@@ -321,8 +321,10 @@
      "label": "3(ii)(a)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "P3.1.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WMA13_2026_01/q3_ii_intro.webp",
@@ -1520,7 +1522,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

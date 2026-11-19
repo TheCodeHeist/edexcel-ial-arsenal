@@ -22,12 +22,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2: mark-scheme crop cut off at the right edge — marking-guidance column clipped mid-word (\"Seen or implied e.g\", \"Condone 15 in plac\")",
-    "2: the question's examiners' NOTES section contains only a stray table header row (\"Q | Mark Scheme | Marks | Marking guidance\") with no notes — fragment from the mark-scheme page"
+    "2: mark-scheme rows are clipped at the right edge - the guidance column is cut mid-word (e.g. F = 15.., Condone.., Unsimplified equation in .., Correct unsimplified equa..)",
+    "2: examiners NOTES block holds only a table header fragment (Q / Mark Scheme / Marks / Marking guidance) with no content - stray header"
    ],
-   "fingerprint": "cb94d2bee0e8",
+   "fingerprint": "c5253fced85b",
    "kinds": {
     "2": "calc"
    },
@@ -39,12 +39,12 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3: mark-scheme crop is cut off at the right edge — the marking-guidance column is clipped mid-word on every row (\"Accept equivalent e\", \"Dimensionally corr\", \"Correct use of Pyth\")",
-    "3: mark-scheme crop has garbled maths (missing operators/minus signs, e.g. \"0.2(v− + =4i3j)\", \"x² + =y² 49\") and the 3 alt rows end with a stray table header row (\"Q | Mark Scheme | Marks | Marking guidance\") from the next mark-scheme page"
+    "3: mark-scheme rows and notes are clipped at the right edge - the guidance column is cut mid-word on nearly every row (Accept equivalent e.g. I+.., Correct unsimplified vecto.., Dependent on both previo.. etc.); some equations garbled (0.2(v- + =4i3j), x2 + =y2 49)",
+    "3: stray table header fragment (Q / Mark Scheme / Marks / Marking guidance) at the very bottom of the notes block"
    ],
-   "fingerprint": "927b53cb04a7",
+   "fingerprint": "7c5c963092bb",
    "kinds": {
     "3": "calc"
    },
@@ -55,12 +55,13 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a)/4(b): mark-scheme crops are cut off at the right edge — marking-guidance column clipped mid-word (\"Set j component =\", \"Attempt integral of\"), and the maths in the rows is garbled (missing operators, empty boxes in the 4(b) s = ... lines)",
-    "4(b): the question's examiners' NOTES section is wrong: it starts with a table header row (\"Q | Mark Scheme | Marks | Marking guidance\") followed by the figure of the rod/hemisphere diagram — the start of question 5's mark scheme, not notes for question 4"
+    "4(a) and 4(b): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Set j component = 0 and s.., Attempt derivative of both.., Attempt integral of both c..)",
+    "4(a) and 4(b): equations in the mark-scheme rows are garbled by the PDF font (stray boxes and missing symbols, e.g. the lambda quadratic line and the s = ... i + ... j integral lines)",
+    "4: examiners NOTES block starts with a Q/Mark Scheme/Marks/Marking guidance header and then a rod-and-semicircle equilibrium diagram (AB 4a, 3a, a, 2a, N, V, H, w) that belongs to a different question (statics, not question 4)"
    ],
-   "fingerprint": "ed3dd99ea90e",
+   "fingerprint": "f64054702a3a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -76,12 +77,13 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(a)/5(b)/5(c): mark-scheme crops are cut off at the right edge — marking-guidance column clipped mid-word (\"Correct use of Pyth\", \"Dimensionally corr\", \"Requires all relevan\") and some maths glyphs are garbled (empty boxes round V = 9W/29)",
-    "5(c): mark-scheme rows do not add up to 8 marks — only M1 A1 (resolve vertically), M1 (resolve horizontally) and A1 (tan α = 9/8) are shown; the A1 for the horizontal equation, the value of k (part i) and the method/accuracy marks leading to k and tan α are missing from the crop"
+    "5(a), 5(b), 5(c): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Correct use of Pythagoras.., Dimensionally correct equ.., Requires all relevant term..); the 5(c) preamble row is cut mid-sentence",
+    "5(c): mark-scheme rows show only M1 A1 M1 A1 (4 marks, for the V and tan alpha equations) with no rows for finding k / the rest; marks shown do not add up to the 8 marks of the part (a row/page seems missing)",
+    "5(c): equation V = 9W/29 is garbled by the font (stray boxes)"
    ],
-   "fingerprint": "1ea7f692bcf9",
+   "fingerprint": "8850646d1816",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -102,12 +104,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a)/6(b): mark-scheme crops are cut off at the right edge — marking-guidance column clipped mid-word (\"Allow use of a paral\", \"Obtain given answe\"), and the maths in the rows is garbled (empty boxes, missing operators) — rows hard to read",
-    "6(b): mark-scheme has a large empty gap in the middle of the rows (a blank block after the y = (k+2)a/4 row, mark column empty) where a diagram/working was presumably dropped"
+    "6(a) and 6(b): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Allow use of a parallel axi.., Correct unsimplified equat.., Accept distance from VU =..)",
+    "6(a) and 6(b): equations in the mark-scheme rows are garbled by the PDF font (stray boxes, missing symbols, e.g. the moments equations and the 7/15 ratio line)"
    ],
-   "fingerprint": "d32248db4382",
+   "fingerprint": "b625c34c2132",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -123,12 +125,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a)/7(b): mark-scheme crops are cut off at the right edge — marking-guidance column clipped mid-word (\"Check their diagram\", \"Need all terms. Di\", \"Substitute e=1/2 and\")",
-    "7(b): maths in the mark-scheme rows is garbled (empty boxes and missing operators in the distance/time rows, e.g. \"d □ 2u □ 5ut □\") — rows hard to read"
+    "7(a) and 7(b): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Need all terms. Dimensio.., Correct unsimplified equa.., Obtain given answer from..)",
+    "7(b): equations in the mark-scheme rows are garbled by the PDF font (stray boxes in the distance/time lines, e.g. d/2u, 5ut, 3d/10u)"
    ],
-   "fingerprint": "09be8471bb84",
+   "fingerprint": "783b09103e50",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

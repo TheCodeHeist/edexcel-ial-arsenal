@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "635703c10245",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(b): mark-scheme rows include the main and alternative method (3 + 3) plus a question total (5), so the marks shown exceed the part 3; stray (5) belongs to the whole question"
+   ],
+   "fingerprint": "cefa6784a041",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"

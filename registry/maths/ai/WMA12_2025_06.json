@@ -84,9 +84,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "b78f6f0b7682",
+   "fingerprint": "cdef63b0b0e4",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -96,7 +96,8 @@
      "P2.8.3"
     ],
     "5(b)": [
-     "P2.8.3"
+     "P2.8.3",
+     "P2.8.1"
     ]
    }
   },
@@ -119,18 +120,16 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(i): the mark-scheme rows include the (b) rows too (M1 M1 A1 after M1 A1), so they show 5 marks for a 2-mark part"
-   ],
-   "fingerprint": "ebeabadca6e6",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "9dda3a2d37e3",
    "kinds": {
-    "7(i)": "calc",
+    "7(i)(a)": "calc",
     "7(i)(b)": "calc",
     "7(ii)": "calc"
    },
    "topics": {
-    "7(i)": [
+    "7(i)(a)": [
      "P2.4.4"
     ],
     "7(i)(b)": [
@@ -161,12 +160,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [
-    "9(b): contains question text for 9(c)",
-    "9(c): question text missing from crop, only marks indicator and blank lines remain"
-   ],
-   "fingerprint": "0a1b57762c64",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "0538b0cd6dbd",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

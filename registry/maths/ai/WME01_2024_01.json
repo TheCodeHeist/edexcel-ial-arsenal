@@ -119,9 +119,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "1dafcf5c46af",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(c): mark-scheme rows include the alternative methods with their own mark totals (7), (5) and the question total (11) at the end, so the marks shown add up to more than the 7 of the part; the stray (11) belongs to the whole question",
+    "Examiners notes: the crop ends with a stray page-header fragment (QUESTION NUMBER / SCHEME / MARKS) cut through at the bottom"
+   ],
+   "fingerprint": "0076216c61aa",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -136,7 +139,8 @@
     ],
     "7(c)": [
      "M1.2.1",
-     "M1.2.2"
+     "M1.2.2",
+     "P1.1.3"
     ]
    }
   },
