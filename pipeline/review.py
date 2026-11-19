@@ -5,7 +5,8 @@ Usage:  pipeline/.venv/bin/python pipeline/review.py            then open http:/
 
 It shows every question the way the site will (stem, part intro, part) with its mark-scheme rows, plus what
 the pipeline decided: labels, marks, kind, MCQ answer. You mark each question "looks right" or flag it with a
-note, and can correct a part's kind or MCQ answer. Verdicts go to registry/<subject>/reviews/<id>.json (see
+note, and can correct a part's kind or MCQ answer. A "note for students" (where Pearson's own papers disagree,
+or something is missing) is shown on the site with a '!' (registry/<subject>/notes.json). Verdicts go to registry/<subject>/reviews/<id>.json (see
 reviews.py) and the paper's registry file is updated at once, so `check` is always current.
 
 You don't review everything. By default only questions that need a person are shown: those with a risk signal
@@ -88,13 +89,17 @@ def summary():
 
 def with_reviews(paper):
     rv = decorate(paper)
-    return {"paper": paper, "parts": rv["parts"], "counts": counts(paper)}
+    return {"paper": paper, "parts": rv["parts"], "counts": counts(paper),
+            "notes": reviews.load_notes(paper["subject"], paper["id"])}
 
 
 def update(paper_id, change):
     """Apply one change from the page, save the review file and rewrite the registry file."""
     paper, f = load_paper(paper_id)
     rv = reviews.load(paper["subject"], paper_id)
+    if change["action"] == "note":                  # a note for students: no verdict, no registry change
+        reviews.set_note(paper["subject"], paper_id, change.get("number"), change.get("text", ""))
+        return with_reviews(paper)
     if change["action"] == "judge":
         q = next(q for q in paper["questions"] if q["number"] == change["number"])
         reviews.judge(rv, q, change["status"], change.get("note", ""))

@@ -33,6 +33,42 @@ def load_ai(subject, paper_id):
     return json.loads(p.read_text()) if p.exists() else {"questions": {}}
 
 
+def notes_file(subject):
+    """Notes for students, shown on the site with a '!': where Pearson's own papers disagree (the question paper
+    prints 3 marks, the mark scheme caps it at 2) or something is missing (no mark scheme for this series).
+    {paper id: {"paper": "…", "questions": {"14": "…"}}}. They are not part of any check: editing one never
+    makes a question lapse."""
+    return ROOT / "registry" / subject / "notes.json"
+
+
+def load_notes(subject, paper_id):
+    f = notes_file(subject)
+    allnotes = json.loads(f.read_text()) if f.exists() else {}
+    return allnotes.get(paper_id, {})
+
+
+def set_note(subject, paper_id, number, text):
+    """Set (or with empty text, remove) a question's note; number None is the paper's own note."""
+    f = notes_file(subject)
+    allnotes = json.loads(f.read_text()) if f.exists() else {}
+    entry = allnotes.setdefault(paper_id, {})
+    text = " ".join(text.split())
+    if number is None:
+        entry["paper"] = text
+        if not text:
+            del entry["paper"]
+    else:
+        qs = entry.setdefault("questions", {})
+        qs[str(number)] = text
+        if not text:
+            del qs[str(number)]
+        if not qs:
+            del entry["questions"]
+    if not entry:
+        del allnotes[paper_id]
+    f.write_text(json.dumps(dict(sorted(allnotes.items())), indent=1, ensure_ascii=False) + "\n")
+
+
 def load(subject, paper_id):
     p = path(subject, paper_id)
     return json.loads(p.read_text()) if p.exists() else {"questions": {}, "parts": {}}

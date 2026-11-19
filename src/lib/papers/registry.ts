@@ -1,10 +1,11 @@
 /* The past-paper registry, read at build time: every registry/<subject>/papers/*.json the pipeline wrote, and each
    subject's topic list. Pages built from it are fully static; the question images come from the data repo
    (see crops.ts). */
-import type { Paper, Question, Subject, TopicList, TopicPoint } from './types';
+import type { Paper, PaperNotes, Question, Subject, TopicList, TopicPoint } from './types';
 
 const PAPER_FILES = import.meta.glob<Paper>('/registry/*/papers/*.json', { eager: true, import: 'default' });
 const TOPIC_FILES = import.meta.glob<TopicList>('/registry/*/topics.json', { eager: true, import: 'default' });
+const NOTE_FILES = import.meta.glob<Record<string, PaperNotes>>('/registry/*/notes.json', { eager: true, import: 'default' });
 
 const MONTHS: Record<string, string> = { '01': 'January', '06': 'June', '10': 'October' };
 const SHORT_MONTHS: Record<string, string> = { '01': 'Jan', '06': 'Jun', '10': 'Oct' };
@@ -80,4 +81,14 @@ export function partsByTopic(subject: Subject): Map<string, TaggedPart[]> {
     }
   }
   return out;
+}
+
+/** Notes for students on a paper (registry/<subject>/notes.json): where Pearson's own papers disagree, or
+    something is missing. Shown with a '!'. */
+export function notesFor(p: Paper): PaperNotes {
+  return NOTE_FILES[`/registry/${p.subject}/notes.json`]?.[p.id] ?? {};
+}
+
+export function questionNote(p: Paper, q: Question): string | undefined {
+  return notesFor(p).questions?.[String(q.number)];
 }

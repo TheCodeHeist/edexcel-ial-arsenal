@@ -74,6 +74,9 @@
   button { font: inherit; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
   button.ok { border-color: var(--ok); color: var(--ok); } button.flag { border-color: var(--flag); color: var(--flag); }
   .note { font-size: 13px; color: var(--flag); }
+  .pubnote { background: var(--risk-bg); color: var(--risk); border-radius: 6px; padding: 6px 10px; margin: 0 0 8px; font-size: 13px; }
+  .pubnote b { margin-right: 6px; }
+  button.linkish { font-size: 12px; padding: 2px 8px; margin-left: 8px; }
   .empty { color: var(--muted); padding: 40px 0; }
   .credit { font-size: 12px; color: var(--muted); }
 </style>
@@ -96,7 +99,9 @@
   <header>
     <h2 id="title">Pick a paper</h2>
     <span class="credit" id="credit"></span>
-    <span class="keys"><kbd>J</kbd>/<kbd>K</kbd> move · <kbd>R</kbd> looks right · <kbd>F</kbd> flag · <kbd>U</kbd> clear · <kbd>N</kbd> next paper</span>
+    <button class="linkish" id="paper-note" hidden title="A note for students about the whole paper, e.g. 'No mark scheme was published for this series.'">✎ Paper note</button>
+    <div class="pubnote" id="paper-note-text" hidden></div>
+    <span class="keys"><kbd>J</kbd>/<kbd>K</kbd> move · <kbd>R</kbd> looks right · <kbd>F</kbd> flag · <kbd>U</kbd> clear · <kbd>E</kbd> note for students · <kbd>N</kbd> next paper</span>
   </header>
   <div id="questions"><p class="empty">Choose a paper on the left. You only see the questions the pipeline isn't sure of; the orange box says why. Check each against its mark scheme: are the crops complete and cut in the right places, the marks and labels right, the MCQ answer right?</p></div>
 </main>
@@ -171,6 +176,10 @@ function renderPaper() {
   $('#title').textContent = `${P.unit} · ${seriesName(P)} · ${P.totalMarks} marks · ${P.durationMin ?? '?'} min`;
   $('#credit').innerHTML = `QP via <a href="${P.source.qp.via.url}" target="_blank">${P.source.qp.via.name}</a>,
     MS via <a href="${P.source.ms.via.url}" target="_blank">${P.source.ms.via.name}</a>`;
+  const pn = (current.notes || {}).paper;
+  $('#paper-note').hidden = false;
+  $('#paper-note-text').hidden = !pn;
+  $('#paper-note-text').innerHTML = pn ? `<b>! For students:</b>${escapeHtml(pn)}` : '';
   const box = $('#questions'); box.innerHTML = '';
   const mine = $('#mine').checked;
   // keep a question on screen once judged here, so R doesn't make it vanish under the cursor
@@ -189,6 +198,8 @@ function renderQuestion(q, i) {
     <span class="status ${state === 'ok' ? 'ok' : state === 'flagged' ? 'flagged' : q.queue === 'machine' ? 'machine' : ''}">${label}</span></div><div class="qbody">`;
   const why = [...(q.risks || []), ...q.concerns.map(c => 'AI: ' + c)];
   if (why.length) html += `<div class="risks">Look closely at:<ul>${why.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul></div>`;
+  const pub = ((current.notes || {}).questions || {})[q.number];
+  if (pub) html += `<div class="pubnote"><b>! For students:</b>${escapeHtml(pub)}</div>`;
   html += q.stem.map(c => crop(c, 'qp')).join('');
   let lastIntro = null;
   for (const p of q.parts) {
@@ -209,12 +220,14 @@ function renderQuestion(q, i) {
   }
   html += `</div><div class="actions"><button class="ok" data-act="ok">✓ Looks right</button><button class="flag" data-act="flag">⚑ Flag…</button>
     ${q.verdict ? '<button data-act="clear">Clear</button>' : ''}
+    <button data-act="note" title="Shown on the site with a '!', e.g. where Pearson's question paper and mark scheme disagree (E)">✎ Note for students…</button>
     ${q.verdict && q.verdict.note ? `<span class="note">${escapeHtml(q.verdict.note)}</span>` : ''}</div>`;
   el.innerHTML = html;
   el.addEventListener('click', e => {
     const act = e.target.dataset && e.target.dataset.act;
     setFocus(posOf(i), false);
     if (act === 'ok') judge(i, 'ok'); else if (act === 'flag') flag(i); else if (act === 'clear') clear(i);
+    else if (act === 'note') note(current.paper.questions[i].number);
   });
   el.querySelectorAll('select').forEach(s => s.addEventListener('change', () => correct(s.dataset.label, s.dataset.field, s.value)));
   return el;
@@ -254,6 +267,15 @@ async function flag(i) {
   const note = prompt('What is wrong with this question? (crop cut off, wrong mark-scheme rows, wrong marks…)');
   if (note !== null) await judge(i, 'flagged', note.trim());
 }
+async function note(number) {
+  const notes = current.notes || {};
+  const old = number == null ? notes.paper : (notes.questions || {})[number];
+  const text = prompt(number == null
+    ? 'Note for students about the whole paper (shown with a "!"; empty removes it):'
+    : `Note for students on question ${number} (shown with a "!"; empty removes it).\nE.g. "Pearson's question paper gives 14(c) 3 marks, but its mark scheme awards at most 2."`, old || '');
+  if (text !== null) await change({ action: 'note', number, text });
+}
+$('#paper-note').onclick = () => note(null);
 async function clear(i) { await change({ action: 'clear', number: current.paper.questions[i].number }); }
 async function correct(label, field, value) { await change({ action: 'part', label, [field]: value }); }
 
@@ -272,6 +294,7 @@ document.addEventListener('keydown', e => {
   else if (k === 'f' && qAt(focusIdx) >= 0) flag(qAt(focusIdx));
   else if (k === 'u' && qAt(focusIdx) >= 0) clear(qAt(focusIdx));
   else if (k === 'n') nextPaper();
+  else if (k === 'e' && qAt(focusIdx) >= 0) note(current.paper.questions[qAt(focusIdx)].number);
   else return;
   e.preventDefault();
 });
