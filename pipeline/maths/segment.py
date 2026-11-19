@@ -520,7 +520,7 @@ def join_totals(lines):
 
 def ms_split(ms_doc, questions):
     """Mark-scheme segments, one per label in the 'Question Number' column, and each question's notes."""
-    lines = join_totals(read_lines(ms_doc, skip_cover=False, top=20))
+    lines = join_totals(read_lines(ms_doc, skip_cover=False, top=8))   # a row label can sit at y 11 (FP3 Jan 2021)
     items = content_items(ms_doc, lines)
     columns = fix_columns(label_columns(ms_doc), lines)
     fallback = label_x(lines)
