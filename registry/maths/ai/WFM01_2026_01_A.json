@@ -2,8 +2,10 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "20a21060809c",
+   "concerns": [
+    "1: examiners NOTES block is clipped at the left and right edges (labels like M1:/A1: and ends of lines cut off); the mark-scheme marks column is also clipped at the right edge"
+   ],
+   "fingerprint": "c0aa89ec98d9",
    "kinds": {
     "1": "calc"
    },
@@ -15,14 +17,17 @@
   },
   "10": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "509167bb2c71",
+   "concerns": [
+    "10: examiners NOTES block is clipped at the left and right edges (M1:/A1: labels and ends of lines cut off); marks column clipped at the right edge"
+   ],
+   "fingerprint": "4c78bb702c61",
    "kinds": {
     "10": "calc"
    },
    "topics": {
     "10": [
-     "FP1.8.1"
+     "FP1.8.1",
+     "FP1.7.1"
     ]
    }
   },
@@ -63,8 +68,10 @@
   },
   "4": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "505aab6f76ac",
+   "concerns": [
+    "4: examiners NOTES block is clipped at the left edge (mark labels M1:/A1: and \"Alternative\" headings cut off) and the marks column is clipped at the right edge of the mark-scheme rows"
+   ],
+   "fingerprint": "604f863c8158",
    "kinds": {
     "4": "calc"
    },
@@ -161,8 +168,10 @@
   },
   "9": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ed6edd84bc0a",
+   "concerns": [
+    "Question 9 examiners NOTES block is clipped at the left edge (part labels (a)/(b)/(c) and M1:/A1: labels cut off) and the marks column is clipped at the right edge of the mark-scheme rows"
+   ],
+   "fingerprint": "fbd5ce7bce1c",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

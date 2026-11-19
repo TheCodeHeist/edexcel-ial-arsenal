@@ -2,15 +2,17 @@
  "questions": {
   "1": {
    "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "efcc196c4dc4",
+   "concerns": [
+    "1: the examiners NOTES block holds only a stray \"Total 5\" fragment and the mark-scheme rows end with a cut-off fragment (\"Total 5\") at the bottom edge"
+   ],
+   "fingerprint": "79084d6eecef",
    "kinds": {
     "1": "calc"
    },
    "topics": {
     "1": [
-     "FP1.1.2",
-     "FP1.1.1"
+     "FP1.1.5",
+     "FP1.1.2"
     ]
    }
   },

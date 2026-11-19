@@ -48,6 +48,110 @@
      "M1.2.1"
     ]
    }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(a): mark-scheme crop is cut off at the top — the first row (M1 moments about PQ) is sliced through, with the equation not visible",
+    "3(a): mark-scheme crop ends with the diagram that belongs to 3(b) (folded lamina hanging from P), which is a 3(b) row",
+    "3(b): mark-scheme crop ends with the start of question 4 mark scheme (collision diagram, P 3m and Q 5m) — content belonging to Q4"
+   ],
+   "fingerprint": "05e3660dae65",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "M2.2.2",
+     "M2.2.1"
+    ],
+    "3(b)": [
+     "M2.2.3",
+     "M2.2.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): mark-scheme crop ends with the first M1 row of 4(b) (Impulse-momentum for Q or use of CLM) cut through at the bottom — a 4(b) row under the 4(a) bar",
+    "4(b): mark-scheme crop is cut off at the top (the M1 row is not shown, only A1 A1 = 2 of 3 marks) and ends with the 4(c) M1 row (use of impact law) which belongs to 4(c)",
+    "4(c): mark-scheme crop is cut off at the top (the M1 row is missing, only A1ft A1 = 2 of 3 marks) and ends with the 4(d) M1 row (change in KE) belonging to 4(d)",
+    "4(d): mark-scheme crop is cut off at the top (the M1 row is missing) and ends with the diagram of a ladder (R_A, F_A, R_B, F_B, 75°) from question 5's mark scheme — content belonging to Q5"
+   ],
+   "fingerprint": "0bf3db442bdf",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(c)": "calc",
+    "4(d)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "M2.4.1"
+    ],
+    "4(b)": [
+     "M2.4.2",
+     "M2.4.1"
+    ],
+    "4(c)": [
+     "M2.4.2"
+    ],
+    "4(d)": [
+     "M2.4.2",
+     "M2.3.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a): mark-scheme crop runs on into 5(b): after the (5) row it shows the 5(b) guidance and the first rows (resolve horizontally M1 A1, F_A = R_B) under the 5(a) bar, cut through at the bottom",
+    "5(b): mark-scheme crop starts with the second equation (resolve vertically) — the first-equation rows are in the 5(a) crop; and its end holds the start of question 6 mark scheme (Equation of motion, F - 600 = 900 x 2, M1 A1) cut through at the bottom — content belonging to Q6"
+   ],
+   "fingerprint": "c852d5c9151f",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "M2.5.2",
+     "M2.5.1"
+    ],
+    "5(b)": [
+     "M2.5.2",
+     "M1.5.3"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [
+    "6(a): mark-scheme crop is cut off at the top (first M1 row sliced through, only M1 A1 visible for 4 marks) and ends with the first M1 row of 6(b) (equation of motion, guidance clipped at bottom) — a 6(b) row under the 6(a) bar",
+    "6(b): mark-scheme crop is cut off at the top (the M1 row for the combined equation is sliced through) and ends with the M1 row of 6(c) (work-energy equation, clipped mid-guidance) belonging to 6(c)",
+    "6(c): mark-scheme crop is cut off at the top (the M1 row is split from the previous crop; text 'duplication of terms and no extras' clipped) and ends with the first row of question 7 mark scheme (Energy equation M1, Q requires energy) — content belonging to Q7"
+   ],
+   "fingerprint": "356ffd4be4fe",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "M2.3.1",
+     "M1.4.1"
+    ],
+    "6(b)": [
+     "M2.3.1",
+     "M1.4.2"
+    ],
+    "6(c)": [
+     "M2.3.1"
+    ]
+   }
   }
  }
 }

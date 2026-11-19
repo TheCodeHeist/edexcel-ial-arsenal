@@ -1,0 +1,108 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [
+    "1(a): mark scheme strip is cut through at the top: the first row(s) of the bubble sort (first pass(es)) are sliced and the M1 mark is missing, so only A1 A1 of the 3 marks are visible.",
+    "1(b): the mark scheme strip shows the last bold-text rows correctly; the examiners notes at the bottom are cut through (the bi1A1 note is cut mid-sentence and bi2M1/bii notes are missing) so the notes are incomplete."
+   ],
+   "fingerprint": "ca52f0b12d61",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "D1.1.2"
+    ],
+    "1(b)": [
+     "D1.2.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [
+    "Notes: the end of the examiners notes shows a stray fragment of another question: a bin-packing mark scheme row (\"Totals in bins are 47, 50, 49 so n >= 50 or considers bin 2\", \"n >= 15+24+11 => n >= 50\", with a B1) that belongs to question 3, cut through at the bottom of the image."
+   ],
+   "fingerprint": "fe46474b92e1",
+   "kinds": {
+    "2(a)": "draw",
+    "2(b)": "short"
+   },
+   "topics": {
+    "2(a)": [
+     "D1.4.1",
+     "D1.4.2"
+    ],
+    "2(b)": [
+     "D1.4.3"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [
+    "3(a): mark scheme strip runs on into the (b) working (the n=51 bin packing M1 row, then the start of \"or considers n=50\") which is cut through at the bottom; the (a) strip shows 4 marks against 3 and the rest of the (b) working is cut.",
+    "3(b): mark scheme strip starts cut through the n=50 packing (first rows sliced, only a sliver of \"28 20\" visible) and only A1 of its 2 marks is visible; the M1 and the first rows are in the (a) strip.",
+    "Notes: the b1M1/b1A1 notes row at the end is fine; the stray bin-packing fragment of this question appears at the end of question 2 notes instead."
+   ],
+   "fingerprint": "0c61ea89a622",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "D1.1.2"
+    ],
+    "3(b)": [
+     "D1.1.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): mark scheme strip runs on into the Dijkstra labelled network for (b) (top half: J, B, A, I, G, D, C boxes with M1 A1 marks) which is cut through at the bottom; that diagram belongs to 4(b), so (a) shows 2+ marks that are not its own.",
+    "4(b): mark scheme strip starts cut through the same labelled network (bottom half: H, F, E boxes and a sliver of A1 marks), so the diagram is split across the (a) and (b) strips and the M1 and first A1s are in the (a) strip."
+   ],
+   "fingerprint": "2750ea6d4025",
+   "kinds": {
+    "4(a)": "short",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "D1.2.2"
+    ],
+    "4(b)": [
+     "D1.2.2"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "Notes: the end of the examiners notes shows a stray fragment of another question: the top of an early/late-times activity network (boxes 0, 14, 19, 22, 38 with B(6), G(5), L(3) arcs and M1 A1 marks) that belongs to question 6, cut through at the bottom of the image."
+   ],
+   "fingerprint": "f60d86496539",
+   "kinds": {
+    "5(a)": "short",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "D1.3.1"
+    ],
+    "5(b)": [
+     "D1.3.1"
+    ],
+    "5(c)": [
+     "D1.3.1"
+    ]
+   }
+  }
+ }
+}
