@@ -656,7 +656,24 @@ def ms_split(ms_doc, questions):
                 path = (path[0], lab)
             else:
                 path = (lab,)
-        rows.append(MsRow(cur_q, path, (l.page, cut_above(l, items))))
+        # A row starts at its cell's top rule, which can sit well above the label: the first M1 row's text is
+        # top-aligned, the label lower down (M3 2025: part (b)'s first row went into (a)'s crop)
+        start = cut_above(l, items)
+        floor = rows[-1].start[1] if rows and rows[-1].start[0] == l.page else 0
+        # the previous part's subtotal '(3)' ends it: this part's rows begin right under it (the label can sit
+        # in the middle of a tall cell, below this part's first rows: M3 Jun 2025 4(b))
+        sub = [m for m in lines if m.page == l.page and floor < m.y0 < l.y0 and MS_PART_TOTAL.match(m.text)
+               and col and m.x0 > col[1] + 120] if rows and rows[-1].q == cur_q else []
+        if sub:
+            after = sub[-1].y1 + 1
+            nxt = min((ry for ry in rule_ys(ms_doc, l.page) if after - 2 <= ry < l.y0 + 2), default=after)
+            start = min(start, nxt - 1 if nxt - after < 12 else after)
+        else:
+            top = max((ry for ry in rule_ys(ms_doc, l.page) if floor + 2 < ry <= l.y0 + 2 and l.y0 - ry < 40),
+                      default=None)
+            if top is not None and top - 1 < start:
+                start = top - 1
+        rows.append(MsRow(cur_q, path, (l.page, start)))
     # each row runs to the next row's start; a question's last row to its '(n marks)' line
     for i, r in enumerate(rows):
         nxt = rows[i + 1] if i + 1 < len(rows) else None
@@ -705,6 +722,11 @@ _RULES = {}
 
 def rule_above(doc, pno, y, gap=14):
     """Is there a full-width table rule just above y? A question's first row starts under one; notes don't."""
+    return any(0 <= y - ry < gap for ry in rule_ys(doc, pno))
+
+
+def rule_ys(doc, pno):
+    """Heights of a page's full-width table rules."""
     key = (doc.name, pno)
     if key not in _RULES:
         width = {}                      # rules are often drawn cell by cell: pool the pieces at each height
@@ -716,7 +738,7 @@ def rule_above(doc, pno, y, gap=14):
             if r.height < 2.5:
                 width[round(r.y0)] = width.get(round(r.y0), 0) + r.width
         _RULES[key] = [y for y, w in width.items() if w > 300]
-    return any(0 <= y - ry < gap for ry in _RULES[key])
+    return _RULES[key]
 
 
 def table_top(page, y_first, floor, headers=()):
