@@ -255,7 +255,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(e): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2025_06_q2",
@@ -513,7 +516,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "2(c): text doesn't start at its label",
+    "2(f): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2025_06_q3",
@@ -672,7 +679,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(b): text doesn't start at its label",
+    "3(c): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2025_06_q4",
@@ -782,7 +793,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2025_06_q5",
@@ -941,7 +955,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(c): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2025_06_q6",
@@ -1162,7 +1179,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(e): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2025_06_q7",
@@ -1383,7 +1403,12 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(c): text doesn't start at its label",
+    "7(d): text doesn't start at its label",
+    "7(e): text doesn't start at its label"
+   ]
   }
  ]
 }

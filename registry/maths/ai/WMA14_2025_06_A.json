@@ -1,0 +1,190 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "645678314a1b",
+   "kinds": {
+    "1": "calc"
+   },
+   "topics": {
+    "1": [
+     "P4.6.2",
+     "P3.3.2"
+    ]
+   }
+  },
+  "10": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "2aa826df2b75",
+   "kinds": {
+    "10": "calc"
+   },
+   "topics": {
+    "10": [
+     "P4.1.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "0db82a1d6a93",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "P4.5.2",
+     "P3.4.2"
+    ],
+    "2(b)": [
+     "P4.5.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "607928e1a31f",
+   "kinds": {
+    "3": "calc"
+   },
+   "topics": {
+    "3": [
+     "P4.6.4",
+     "P3.3.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "08ccd5aeeb59",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "short",
+    "4(c)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "P4.4.1"
+    ],
+    "4(b)": [
+     "P4.4.1"
+    ],
+    "4(c)": [
+     "P4.4.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "501314b8e720",
+   "kinds": {
+    "5": "calc"
+   },
+   "topics": {
+    "5": [
+     "P4.5.1",
+     "P1.4.3"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "040151d81eaf",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "P4.5.1"
+    ],
+    "6(b)": [
+     "P4.5.1",
+     "P1.4.3"
+    ],
+    "6(c)": [
+     "P4.3.1",
+     "P2.6.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): bottom edge cuts through the numerator 12u + 5 of part 7(b)",
+    "7(b): the numerator 12u + 5 is cut horizontally by the top crop edge, with the top half in 7(a)"
+   ],
+   "fingerprint": "f4fce9eddb04",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "P4.6.2"
+    ],
+    "7(b)": [
+     "P4.2.1"
+    ],
+    "7(c)": [
+     "P4.6.3",
+     "P3.3.2"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [
+    "8(a): the top of the vector arrow above AB is clipped at the top crop edge (with its tip in the stem crop)"
+   ],
+   "fingerprint": "bb3b29fc77b1",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "P4.7.6",
+     "P4.7.4"
+    ],
+    "8(b)": [
+     "P4.7.7"
+    ],
+    "8(c)": [
+     "P4.7.7",
+     "P4.7.5"
+    ]
+   }
+  },
+  "9": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "d0bb9ba7691f",
+   "kinds": {
+    "9(a)": "calc",
+    "9(b)": "calc"
+   },
+   "topics": {
+    "9(a)": [
+     "P4.6.1",
+     "P3.5.2"
+    ],
+    "9(b)": [
+     "P4.6.1",
+     "P3.3.1"
+    ]
+   }
+  }
+ }
+}

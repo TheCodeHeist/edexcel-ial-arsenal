@@ -170,7 +170,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_06_A_q2",
@@ -393,7 +396,8 @@
    ],
    "check": "pending",
    "risks": [
-    "2(a): text cut by a crop edge"
+    "2(a): text cut by a crop edge",
+    "2(a): text doesn't start at its label"
    ]
   },
   {
@@ -627,7 +631,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(d): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_06_A_q4",
@@ -848,7 +855,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(d): text doesn't start at its label",
+    "4(e): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_06_A_q5",
@@ -1032,7 +1043,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(d): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_06_A_q6",
@@ -1203,7 +1217,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(b): text doesn't start at its label",
+    "6(b)(ii): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_06_A_q7",
@@ -1362,7 +1380,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(b): text doesn't start at its label",
+    "7(c): text doesn't start at its label"
+   ]
   }
  ]
 }

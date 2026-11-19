@@ -228,10 +228,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q2: no '(n marks)' line after its last row"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME01_2026_01_A_q3",
@@ -341,7 +338,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WME01_2026_01_A_q4",
@@ -510,10 +510,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q4: no '(n marks)' line after its last row"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME01_2026_01_A_q5",
@@ -929,7 +926,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WME01_2026_01_A_q8",
@@ -1112,7 +1112,8 @@
    ],
    "check": "pending",
    "risks": [
-    "MS Q8: no '(n marks)' line after its last row"
+    "8(b): text doesn't start at its label",
+    "8(c): text doesn't start at its label"
    ]
   }
  ]

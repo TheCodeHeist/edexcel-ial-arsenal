@@ -1,0 +1,171 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "1e68ca22b984",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "FP2.1.1",
+     "P1.1.6"
+    ],
+    "1(b)": [
+     "FP2.1.1",
+     "P1.1.9"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "3302a7362f90",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "FP2.4.2"
+    ],
+    "2(b)": [
+     "FP2.4.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "98bad3b31f50",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc",
+    "3(c)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "FP2.6.1"
+    ],
+    "3(b)": [
+     "FP2.6.2"
+    ],
+    "3(c)": [
+     "FP2.6.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "d6073b5365ab",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc",
+    "4(c)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "FP2.3.3"
+    ],
+    "4(b)": [
+     "FP2.3.3"
+    ],
+    "4(c)": [
+     "FP2.3.3"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(a): the numerator 2 of the fraction 2/(2r + 5) is cut off at the top edge of the question crop"
+   ],
+   "fingerprint": "184ca9d1bfd6",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc",
+    "5(c)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "FP2.2.1",
+     "P3.1.1"
+    ],
+    "5(b)": [
+     "FP2.2.1",
+     "P2.5.2"
+    ],
+    "5(c)": [
+     "FP2.2.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "5bc2eb6984f2",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "FP2.7.1"
+    ],
+    "6(b)": [
+     "FP2.7.2"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(c): the sentence \"Give the answer in the form y = f(x)...\" belonging to 7(b) is cut across between 7(b) and 7(c)"
+   ],
+   "fingerprint": "2be03b768717",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "FP2.5.2"
+    ],
+    "7(b)": [
+     "FP2.5.1",
+     "FP2.5.2"
+    ],
+    "7(c)": [
+     "FP2.5.1",
+     "FP2.5.2"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "431023128cc9",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "FP2.3.2"
+    ],
+    "8(b)": [
+     "FP2.3.2"
+    ],
+    "8(c)": [
+     "FP2.3.2",
+     "P4.6.1"
+    ]
+   }
+  }
+ }
+}

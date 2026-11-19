@@ -1,0 +1,178 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "53980ee088b5",
+   "kinds": {
+    "1": "calc"
+   },
+   "topics": {
+    "1": [
+     "P4.1.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "98c05088d924",
+   "kinds": {
+    "2": "calc"
+   },
+   "topics": {
+    "2": [
+     "P4.6.2",
+     "P3.3.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "a4cb65778864",
+   "kinds": {
+    "3": "calc"
+   },
+   "topics": {
+    "3": [
+     "P4.5.1",
+     "P2.5.1"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): the top of the numerator 1 in the fraction 1/sqrt(1-2x) is cut off at the top crop edge"
+   ],
+   "fingerprint": "70d670457cd4",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "P4.4.1"
+    ],
+    "4(b)": [
+     "P4.4.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "178b57a14dd5",
+   "kinds": {
+    "5": "calc"
+   },
+   "topics": {
+    "5": [
+     "P4.5.2",
+     "P3.4.2"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "5bf68d8c7d38",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "P4.6.1",
+     "P4.6.5"
+    ],
+    "6(b)": [
+     "P4.6.2",
+     "P4.6.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [
+    "7(a): the top of the numerator 1 in the fraction is cut off at the top crop edge"
+   ],
+   "fingerprint": "df5545fa6c90",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "P4.2.1"
+    ],
+    "7(b)": [
+     "P4.6.4",
+     "P4.6.3"
+    ],
+    "7(c)": [
+     "P4.6.4"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "68ce618c1a52",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc",
+    "8(c)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "P4.3.1"
+    ],
+    "8(b)": [
+     "P4.5.1",
+     "P1.4.3"
+    ],
+    "8(c)": [
+     "P4.3.1",
+     "P1.1.6"
+    ]
+   }
+  },
+  "9": {
+   "at": "2026-11-19",
+   "concerns": [
+    "9(b): the top of the vector arrow above AB is clipped at the top crop edge (with its tip in 9(a))"
+   ],
+   "fingerprint": "bc8a7f7235e1",
+   "kinds": {
+    "9(a)": "calc",
+    "9(b)": "calc",
+    "9(c)": "calc",
+    "9(d)": "calc",
+    "9(e)": "calc"
+   },
+   "topics": {
+    "9(a)": [
+     "P4.7.6"
+    ],
+    "9(b)": [
+     "P4.7.4",
+     "P4.7.3"
+    ],
+    "9(c)": [
+     "P4.7.7"
+    ],
+    "9(d)": [
+     "P4.7.7",
+     "P1.3.1"
+    ],
+    "9(e)": [
+     "P4.7.6",
+     "P4.7.3"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "8914d4a48549",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "FP1.3.1"
+    ],
+    "1(b)": [
+     "P1.4.2"
+    ],
+    "1(c)": [
+     "FP1.3.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "68aeb84d3409",
+   "kinds": {
+    "2(a)": "short",
+    "2(b)": "calc",
+    "2(c)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "FP1.2.1"
+    ],
+    "2(b)": [
+     "FP1.2.2"
+    ],
+    "2(c)": [
+     "FP1.2.3",
+     "FP1.2.2"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "02aa66c4c1c2",
+   "kinds": {
+    "3(a)": "short",
+    "3(b)": "draw",
+    "3(c)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "FP1.1.6",
+     "FP1.1.1"
+    ],
+    "3(b)": [
+     "FP1.1.3"
+    ],
+    "3(c)": [
+     "FP1.1.6",
+     "FP1.1.2"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): superscript n on the summation symbol is cut off at the top edge of the crop"
+   ],
+   "fingerprint": "99f53fea696f",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "FP1.7.1"
+    ],
+    "4(b)": [
+     "FP1.7.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "82e7998f52fb",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "FP1.4.4",
+     "FP1.4.1"
+    ],
+    "5(b)": [
+     "FP1.4.4",
+     "FP1.4.1"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "c4dc5ea7f7d8",
+   "kinds": {
+    "6(i)": "short",
+    "6(i)(b)": "calc",
+    "6(i)(c)": "calc",
+    "6(ii)": "calc"
+   },
+   "topics": {
+    "6(i)": [
+     "FP1.6.2",
+     "FP1.6.1"
+    ],
+    "6(i)(b)": [
+     "FP1.6.2"
+    ],
+    "6(i)(c)": [
+     "FP1.6.3",
+     "FP1.5.3"
+    ],
+    "6(ii)": [
+     "FP1.5.4",
+     "FP1.6.1"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "612b3a0d93a5",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc",
+    "7(c)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "FP1.4.4",
+     "FP1.4.1"
+    ],
+    "7(b)": [
+     "FP1.4.4",
+     "FP1.4.1"
+    ],
+    "7(c)": [
+     "FP1.4.3",
+     "FP1.4.1"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "acc5f1531844",
+   "kinds": {
+    "8(i)": "calc",
+    "8(ii)": "calc"
+   },
+   "topics": {
+    "8(i)": [
+     "FP1.8.1"
+    ],
+    "8(ii)": [
+     "FP1.8.1"
+    ]
+   }
+  }
+ }
+}

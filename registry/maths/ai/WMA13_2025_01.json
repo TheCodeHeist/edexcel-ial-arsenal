@@ -1,0 +1,209 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "4ff0321a9f7c",
+   "kinds": {
+    "1(a)": "calc",
+    "1(b)": "calc",
+    "1(c)": "calc"
+   },
+   "topics": {
+    "1(a)": [
+     "P3.6.1"
+    ],
+    "1(b)": [
+     "P3.6.2"
+    ],
+    "1(c)": [
+     "P3.6.2"
+    ]
+   }
+  },
+  "10": {
+   "at": "2026-11-19",
+   "concerns": [
+    "10(a): crop cut through dx/dy at the top edge, leaving dx in the question stem"
+   ],
+   "fingerprint": "17c669832ea1",
+   "kinds": {
+    "10(a)": "calc",
+    "10(b)": "calc",
+    "10(c)": "calc"
+   },
+   "topics": {
+    "10(a)": [
+     "P3.4.1"
+    ],
+    "10(b)": [
+     "P3.4.3",
+     "P3.2.2"
+    ],
+    "10(c)": [
+     "P3.4.3",
+     "P3.2.1"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "b24fd5780b4d",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "P3.4.2"
+    ],
+    "2(b)": [
+     "P2.7.1"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "9fc4e8925e7f",
+   "kinds": {
+    "3": "calc"
+   },
+   "topics": {
+    "3": [
+     "P3.4.2",
+     "P1.1.9"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "6d3000e7f40e",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "P3.1.1"
+    ],
+    "4(b)": [
+     "P3.5.1",
+     "P2.8.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [
+    "5(b): Diagram 1 is missing (cropped into 5(d) instead)",
+    "5(d): contains Diagram 1, which belongs to 5(b)"
+   ],
+   "fingerprint": "e7f89f256bba",
+   "kinds": {
+    "5(a)": "calc",
+    "5(b)": "draw",
+    "5(c)": "calc",
+    "5(d)": "calc"
+   },
+   "topics": {
+    "5(a)": [
+     "P3.4.4"
+    ],
+    "5(b)": [
+     "P3.4.4"
+    ],
+    "5(c)": [
+     "P3.3.2"
+    ],
+    "5(d)": [
+     "P3.4.1",
+     "P3.4.4"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "e1bb4be94a63",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "P3.1.2"
+    ],
+    "6(b)": [
+     "P3.1.2"
+    ],
+    "6(c)": [
+     "P3.1.4"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "ae8ceed7af1d",
+   "kinds": {
+    "7(a)": "draw",
+    "7(b)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "P3.1.3",
+     "P3.1.4"
+    ],
+    "7(b)": [
+     "P3.1.3"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "b6a34bd91e3a",
+   "kinds": {
+    "8(i)": "calc",
+    "8(ii)": "calc"
+   },
+   "topics": {
+    "8(i)": [
+     "P3.2.1",
+     "P3.2.3"
+    ],
+    "8(ii)": [
+     "P3.2.3",
+     "P2.6.2"
+    ]
+   }
+  },
+  "9": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "41bbe415e379",
+   "kinds": {
+    "9(a)": "short",
+    "9(b)": "calc",
+    "9(c)": "calc"
+   },
+   "topics": {
+    "9(a)": [
+     "P3.3.2"
+    ],
+    "9(b)": [
+     "P3.4.2",
+     "P3.4.1"
+    ],
+    "9(c)": [
+     "P3.1.2",
+     "P3.1.4"
+    ]
+   }
+  }
+ }
+}

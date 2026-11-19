@@ -218,7 +218,12 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "1(c): text doesn't start at its label",
+    "1(d): text doesn't start at its label",
+    "1(a): mark scheme pairing by fallback (the mark scheme calls it 1(a)(i))"
+   ]
   },
   {
    "id": "WST02_2026_01_q2",
@@ -721,7 +726,12 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "3(b): text doesn't start at its label",
+    "3(d): text doesn't start at its label",
+    "3(a): mark scheme pairing by fallback (the mark scheme calls it 3(a)(i))"
+   ]
   },
   {
    "id": "WST02_2026_01_q4",
@@ -843,7 +853,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "4(b): text doesn't start at its label",
+    "4(a): mark scheme pairing by fallback (the mark scheme calls it 4(a)(i))"
+   ]
   },
   {
    "id": "WST02_2026_01_q5",
@@ -1027,7 +1041,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "5(b): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_01_q6",
@@ -1285,7 +1302,11 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "6(d): text doesn't start at its label",
+    "6(f): text doesn't start at its label"
+   ]
   },
   {
    "id": "WST02_2026_01_q7",
@@ -1395,7 +1416,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "7(b): text doesn't start at its label"
+   ]
   }
  ]
 }

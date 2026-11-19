@@ -1,0 +1,150 @@
+{
+ "questions": {
+  "1": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "9c35fe6d7d8e",
+   "kinds": {
+    "1": "calc"
+   },
+   "topics": {
+    "1": [
+     "FP3.1.1",
+     "FP3.1.2"
+    ]
+   }
+  },
+  "2": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "d694e5ea8dc4",
+   "kinds": {
+    "2(a)": "calc",
+    "2(b)": "calc",
+    "2(c)": "calc"
+   },
+   "topics": {
+    "2(a)": [
+     "FP3.6.4",
+     "FP3.6.5"
+    ],
+    "2(b)": [
+     "FP3.6.6"
+    ],
+    "2(c)": [
+     "FP3.6.6",
+     "FP3.5.3"
+    ]
+   }
+  },
+  "3": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "cdc8326507d2",
+   "kinds": {
+    "3(a)": "calc",
+    "3(b)": "calc"
+   },
+   "topics": {
+    "3(a)": [
+     "FP3.4.6"
+    ],
+    "3(b)": [
+     "FP3.4.6",
+     "FP3.4.3"
+    ]
+   }
+  },
+  "4": {
+   "at": "2026-11-19",
+   "concerns": [
+    "4(a): stem crop cuts off the top entry (-1) of the normal vector to plane Pi1 at the top edge"
+   ],
+   "fingerprint": "dd720fcd69d1",
+   "kinds": {
+    "4(a)": "calc",
+    "4(b)": "calc"
+   },
+   "topics": {
+    "4(a)": [
+     "FP3.5.1",
+     "FP3.5.2"
+    ],
+    "4(b)": [
+     "FP3.5.1"
+    ]
+   }
+  },
+  "5": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "d87e3ef9cec8",
+   "kinds": {
+    "5": "calc"
+   },
+   "topics": {
+    "5": [
+     "FP3.6.7"
+    ]
+   }
+  },
+  "6": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "b247dbedcf02",
+   "kinds": {
+    "6(a)": "calc",
+    "6(b)": "calc",
+    "6(c)": "calc"
+   },
+   "topics": {
+    "6(a)": [
+     "FP3.2.3"
+    ],
+    "6(b)": [
+     "FP3.2.3"
+    ],
+    "6(c)": [
+     "FP3.2.4",
+     "FP3.2.3"
+    ]
+   }
+  },
+  "7": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "749c8192a208",
+   "kinds": {
+    "7(a)": "calc",
+    "7(b)": "calc"
+   },
+   "topics": {
+    "7(a)": [
+     "FP3.4.5"
+    ],
+    "7(b)": [
+     "FP3.4.5",
+     "FP3.4.1"
+    ]
+   }
+  },
+  "8": {
+   "at": "2026-11-19",
+   "concerns": [],
+   "fingerprint": "450164718478",
+   "kinds": {
+    "8(a)": "calc",
+    "8(b)": "calc"
+   },
+   "topics": {
+    "8(a)": [
+     "FP3.3.2"
+    ],
+    "8(b)": [
+     "FP3.4.2",
+     "FP3.3.2"
+    ]
+   }
+  }
+ }
+}
