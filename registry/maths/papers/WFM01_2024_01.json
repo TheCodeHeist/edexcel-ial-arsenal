@@ -975,19 +975,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2024_01/q6_i_b_ms_1.webp",
-       "w": 1099,
-       "h": 70,
-       "region": {
-        "page": 14,
-        "x0": 32.9,
-        "y0": 78.2,
-        "x1": 560.0,
-        "y1": 111
-       }
-      },
-      {
-       "src": "maths/WFM01_2024_01/q6_i_b_ms_2.webp",
+       "src": "maths/WFM01_2024_01/q6_i_b_ms.webp",
        "w": 1099,
        "h": 174,
        "region": {
@@ -1105,19 +1093,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2024_01/q6_ii_b_ms_1.webp",
-       "w": 1099,
-       "h": 80,
-       "region": {
-        "page": 14,
-        "x0": 32.9,
-        "y0": 265,
-        "x1": 560.0,
-        "y1": 303
-       }
-      },
-      {
-       "src": "maths/WFM01_2024_01/q6_ii_b_ms_2.webp",
+       "src": "maths/WFM01_2024_01/q6_ii_b_ms.webp",
        "w": 1099,
        "h": 217,
        "region": {
@@ -1147,7 +1123,7 @@
      }
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WFM01_2024_01_q7",
@@ -1263,7 +1239,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM01_2024_01/q7_notes.webp",
+     "src": "maths/WFM01_2024_01/q7_notes_1.webp",
      "w": 1099,
      "h": 470,
      "region": {
@@ -1273,9 +1249,21 @@
       "x1": 560.0,
       "y1": 772.6
      }
+    },
+    {
+     "src": "maths/WFM01_2024_01/q7_notes_2.webp",
+     "w": 1099,
+     "h": 67,
+     "region": {
+      "page": 16,
+      "x0": 32.9,
+      "y0": 52.6,
+      "x1": 560.0,
+      "y1": 84.1
+     }
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WFM01_2024_01_q8",
@@ -1364,7 +1352,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WFM01_2024_01/q8_notes.webp",
+     "src": "maths/WFM01_2024_01/q8_notes_1.webp",
      "w": 1099,
      "h": 525,
      "region": {
@@ -1374,9 +1362,21 @@
       "x1": 560.0,
       "y1": 770.2
      }
+    },
+    {
+     "src": "maths/WFM01_2024_01/q8_notes_2.webp",
+     "w": 1099,
+     "h": 111,
+     "region": {
+      "page": 17,
+      "x0": 32.9,
+      "y0": 52.6,
+      "x1": 560.0,
+      "y1": 105.2
+     }
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WFM01_2024_01_q9",

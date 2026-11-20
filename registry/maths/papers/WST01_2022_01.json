@@ -1256,37 +1256,13 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WST01_2022_01/q6_e_1.webp",
+       "src": "maths/WST01_2022_01/q6_e.webp",
        "w": 1016,
-       "h": 46,
-       "region": {
-        "page": 22,
-        "x0": 36,
-        "y0": 755.7,
-        "x1": 523.2,
-        "y1": 777.3
-       }
-      },
-      {
-       "src": "maths/WST01_2022_01/q6_e_2.webp",
-       "w": 1016,
-       "h": 53,
-       "region": {
-        "page": 23,
-        "x0": 36,
-        "y0": 761.7,
-        "x1": 523.2,
-        "y1": 786.3
-       }
-      },
-      {
-       "src": "maths/WST01_2022_01/q6_e_3.webp",
-       "w": 1016,
-       "h": 110,
+       "h": 104,
        "region": {
         "page": 24,
         "x0": 36,
-        "y0": 78.0,
+        "y0": 81.0,
         "x1": 523.2,
         "y1": 130.4
        }
@@ -1306,7 +1282,7 @@
        }
       }
      ],
-     "text": "Question 6 continues on page 24. Question 6 continues on page 24. (e) Find the range of values of p for which this regression model, f = 10.8 + 0.748 p, predicts a greater number of marks on the final exam than on the pre‑test. (3)",
+     "text": "(e) Find the range of values of p for which this regression model, f = 10.8 + 0.748 p, predicts a greater number of marks on the final exam than on the pre‑test. (3)",
      "kindGuessed": "calc"
     },
     {
@@ -1363,10 +1339,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(e): runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WST01_2022_01_q7",

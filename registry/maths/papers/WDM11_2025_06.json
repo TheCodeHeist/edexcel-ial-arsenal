@@ -1318,25 +1318,13 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WDM11_2025_06/q8_b_1.webp",
+       "src": "maths/WDM11_2025_06/q8_b.webp",
        "w": 1090,
-       "h": 46,
-       "region": {
-        "page": 10,
-        "x0": 36,
-        "y0": 619.8,
-        "x1": 559,
-        "y1": 641.4
-       }
-      },
-      {
-       "src": "maths/WDM11_2025_06/q8_b_2.webp",
-       "w": 1090,
-       "h": 484,
+       "h": 478,
        "region": {
         "page": 11,
         "x0": 36,
-        "y0": 42.9,
+        "y0": 45.9,
         "x1": 559,
         "y1": 274.9
        }
@@ -1356,7 +1344,7 @@
        }
       }
      ],
-     "text": "Question 8 continues on page 11 The five vertices of the feasible region are labelled A, B, C, D and E An objective function is of the form P = ax + by where a and b are integers. This objective function has a minimum value of 202 5 • 7 at vertex E a maximum value of 576 2 • 3 at vertex C (b) Determine the value of a and the value of b, making your working clear. (4)",
+     "text": "The five vertices of the feasible region are labelled A, B, C, D and E An objective function is of the form P = ax + by where a and b are integers. This objective function has a minimum value of 202 5 • 7 at vertex E a maximum value of 576 2 • 3 at vertex C (b) Determine the value of a and the value of b, making your working clear. (4)",
      "kindGuessed": "calc"
     },
     {
@@ -1425,10 +1413,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "8(b): runs across pages"
-   ]
+   "check": "pending"
   }
  ]
 }

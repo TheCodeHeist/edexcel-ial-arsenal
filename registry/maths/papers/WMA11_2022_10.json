@@ -1311,25 +1311,13 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WMA11_2022_10/q9_d_1.webp",
+       "src": "maths/WMA11_2022_10/q9_d.webp",
        "w": 1090,
-       "h": 46,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 727.8,
-        "x1": 559,
-        "y1": 749.4
-       }
-      },
-      {
-       "src": "maths/WMA11_2022_10/q9_d_2.webp",
-       "w": 1090,
-       "h": 802,
+       "h": 796,
        "region": {
         "page": 25,
         "x0": 36,
-        "y0": 79.8,
+        "y0": 82.8,
         "x1": 559,
         "y1": 464.6
        }
@@ -1349,7 +1337,7 @@
        }
       }
      ],
-     "text": "Question 9 continues on the next page y C l P O x R M Figure 4 Figure 4 is a copy of Figure 3. The finite region R, shown shaded in Figure 4, is bounded by l, C and the line through M parallel to the y‑axis. (d) Identify the inequalities that define R. (3)",
+     "text": "y C l P O x R M Figure 4 Figure 4 is a copy of Figure 3. The finite region R, shown shaded in Figure 4, is bounded by l, C and the line through M parallel to the y‑axis. (d) Identify the inequalities that define R. (3)",
      "kindGuessed": "calc"
     }
    ],
@@ -1379,10 +1367,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "9(d): runs across pages"
-   ]
+   "check": "pending"
   }
  ]
 }

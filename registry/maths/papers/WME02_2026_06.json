@@ -866,25 +866,13 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2026_06/q7_b_1.webp",
+       "src": "maths/WME02_2026_06/q7_b.webp",
        "w": 1090,
-       "h": 46,
-       "region": {
-        "page": 24,
-        "x0": 36,
-        "y0": 512.5,
-        "x1": 559,
-        "y1": 534.1
-       }
-      },
-      {
-       "src": "maths/WME02_2026_06/q7_b_2.webp",
-       "w": 1090,
-       "h": 750,
+       "h": 744,
        "region": {
         "page": 26,
         "x0": 36,
-        "y0": 80.8,
+        "y0": 83.8,
         "x1": 559,
         "y1": 440.2
        }
@@ -904,14 +892,11 @@
        }
       }
      ],
-     "text": "Question 7 continues on page 26 2 m s–1 θ Figure 5 On another occasion, the van and the trailer are reversing up the same straight road. The towbar is again parallel to the direction of motion of the van and the trailer, as shown in Figure 5. • the resistance to the motion of the van from non-gravitational forces is again modelled as a constant force of magnitude 400 N • the resistance to the motion of the trailer from non-gravitational forces is again modelled as a constant force of magnitude 200 N • the towbar is modelled as a light rod The engine of the van is working at a constant rate of 4 kW. (b) Find the thrust in the towbar at the instant when the speed of the van up the road –1 is 2 m s (6)",
+     "text": "2 m s–1 θ Figure 5 On another occasion, the van and the trailer are reversing up the same straight road. The towbar is again parallel to the direction of motion of the van and the trailer, as shown in Figure 5. • the resistance to the motion of the van from non-gravitational forces is again modelled as a constant force of magnitude 400 N • the resistance to the motion of the trailer from non-gravitational forces is again modelled as a constant force of magnitude 200 N • the towbar is modelled as a light rod The engine of the van is working at a constant rate of 4 kW. (b) Find the thrust in the towbar at the instant when the speed of the van up the road –1 is 2 m s (6)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(b): runs across pages"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2026_06_q8",

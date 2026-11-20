@@ -1063,13 +1063,13 @@
       {
        "src": "maths/WFM02_2023_01/q9_a.webp",
        "w": 1090,
-       "h": 152,
+       "h": 211,
        "region": {
         "page": 32,
         "x0": 36,
         "y0": 51.3,
         "x1": 559,
-        "y1": 123.8
+        "y1": 151.9
        }
       }
      ],
@@ -1099,7 +1099,7 @@
        }
       }
      ],
-     "text": "2 , determine, in terms of y and t, 9. (a) Given that x = t (i) d y d x",
+     "text": "2 , determine, in terms of y and t, 9. (a) Given that x = t (i) d y d x 2 y (ii) d x 2 d",
      "kindGuessed": "calc"
     },
     {
@@ -1114,11 +1114,11 @@
       {
        "src": "maths/WFM02_2023_01/q9_b.webp",
        "w": 1090,
-       "h": 458,
+       "h": 400,
        "region": {
         "page": 32,
         "x0": 36,
-        "y0": 123.8,
+        "y0": 151.9,
         "x1": 559,
         "y1": 343.6
        }
@@ -1150,7 +1150,7 @@
        }
       }
      ],
-     "text": "2 y (ii) d x 2 d (5) 1 2 , where t > 0, transforms the (b) Hence show that the transformation x = t differential equation 2 d y ( ) d y ( ) 2 3 5 x − 6 x + 1 + 9 x y = x I 2 x d x d into the differential equation 2 d y d y ( ) − + y = t 4 12 9 II 2 t d t d (2)",
+     "text": "(5) 1 2 , where t > 0, transforms the (b) Hence show that the transformation x = t differential equation 2 d y ( ) d y ( ) 2 3 5 x − 6 x + 1 + 9 x y = x I 2 x d x d into the differential equation 2 d y d y ( ) − + y = t 4 12 9 II 2 t d t d (2)",
      "kindGuessed": "calc"
     },
     {
@@ -1234,6 +1234,8 @@
    ],
    "check": "pending",
    "risks": [
+    "9(a): text cut by a crop edge",
+    "9(b): text cut by a crop edge",
     "9(a): text after the marks"
    ]
   }

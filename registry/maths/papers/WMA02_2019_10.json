@@ -336,7 +336,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA02_2019_10/q2_notes.webp",
+     "src": "maths/WMA02_2019_10/q2_notes_1.webp",
      "w": 1201,
      "h": 138,
      "region": {
@@ -345,6 +345,18 @@
       "y0": 723.9,
       "x1": 580.2,
       "y1": 790
+     }
+    },
+    {
+     "src": "maths/WMA02_2019_10/q2_notes_2.webp",
+     "w": 1201,
+     "h": 92,
+     "region": {
+      "page": 8,
+      "x0": 4.0,
+      "y0": 45.6,
+      "x1": 580.2,
+      "y1": 88.8
      }
     }
    ],
@@ -531,7 +543,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WMA02_2019_10/q3_notes.webp",
+     "src": "maths/WMA02_2019_10/q3_notes_1.webp",
      "w": 1201,
      "h": 99,
      "region": {
@@ -541,9 +553,21 @@
       "x1": 580.2,
       "y1": 790
      }
+    },
+    {
+     "src": "maths/WMA02_2019_10/q3_notes_2.webp",
+     "w": 1201,
+     "h": 139,
+     "region": {
+      "page": 9,
+      "x0": 4.0,
+      "y0": 43.6,
+      "x1": 580.2,
+      "y1": 109.8
+     }
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WMA02_2019_10_q4",
@@ -777,20 +801,6 @@
      ],
      "text": "(b) Hence find, according to the model, the limit of the height of the shrub. (2)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WMA02_2019_10/q5_notes.webp",
-     "w": 1201,
-     "h": 73,
-     "region": {
-      "page": 11,
-      "x0": 4.0,
-      "y0": 142.0,
-      "x1": 580.2,
-      "y1": 176.5
-     }
     }
    ],
    "check": "pending"
