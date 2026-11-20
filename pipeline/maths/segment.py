@@ -60,7 +60,7 @@ LABEL = re.compile(r"^\(([a-h]|i|ii|iii|iv|v|vi|vii|viii|ix|x)\)\s*")
 MARK = re.compile(r"^\((\d{1,2})\)$")
 # '(Total for Question 5 is 10 marks)'; papers up to about 2022 print just '(Total 10 marks)'
 TOTAL = re.compile(r"^\(Total (?:for Question (\d{1,2}) is )?(\d{1,2}) marks?\)")
-CONTINUED = re.compile(r"^Question \d{1,2} continued")
+CONTINUED = re.compile(r"^Question \d{1,2} (?:continued|continues on (?:the next )?page)")
 RULED = re.compile(r"^_{10,}$")
 NOT_CONTENT = re.compile(r"^(BLANK PAGE|TOTAL FOR PAPER|END)\b", re.I)
 ROMAN = {"i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"}
@@ -711,6 +711,12 @@ def ms_split(ms_doc, questions):
             if top < first.start[1] - 1:
                 first.start = (first.start[0], top)
             end = first.start
+            # the next table's 'Question | Scheme | Marks' header row is neither these notes nor that question
+            # (it ended the notes of WME02 Jun 2026 A and WME02 Jan 2026 A 4)
+            head = [h for h in headers if h.page == end[0] and h.y1 <= end[1] + 2 and end[1] - h.y1 < 40
+                    and (h.page, h.y0) > start]
+            if head:
+                end = (end[0], min(h.y0 for h in head) - 4)
         else:
             foot = next((l for l in lines if (l.page, l.y0) > start and FOOTER.match(l.text)), None)
             end = (foot.page, foot.y0 - 4) if foot else (len(ms_doc) - 1, COL_Y1)
