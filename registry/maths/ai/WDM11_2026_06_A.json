@@ -1,12 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "1(a): mark-scheme rows start mid-table - the first rows of the left-to-right bubble sort and the M1 are cut off at the top (only a sliced row of digits above 13 17 14 ... remains), so the model answer and first mark are missing",
-    "Notes: examiners notes for 1(b) are cut off at the bottom (the b(i)A1 row is truncated mid-sentence)"
+    "1(a): mark-scheme crop is cut at the top: the first rows of the left-to-right bubble-sort working (starting 18 13 21 17 ..., and the first mark M1) are missing/sliced through, only a clipped half-row shows; only A1 A1 are visible so the 3 marks cannot be seen to add up."
    ],
-   "fingerprint": "10c84a8087e7",
+   "fingerprint": "c4789a308782",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -41,12 +40,12 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "3(a): mark-scheme rows run on into (b)s working (Either considers n=51 ... or considers n=50 with an M1), clipped at the bottom, so (a) rows carry (b)s M1 beyond its 3",
-    "3(b): mark-scheme rows start mid-working - the first lines (28 20 ...) are sliced at the top and the M1 and the n=51 packing are in the (a) rows, so (b) shows only the A1"
+    "3(a): mark-scheme crop is cut through the working at the bottom (the n=50 packing under \"or considers n = 50\" is sliced, only a clipped line shows); the rest continues in 3(b).",
+    "3(b): mark-scheme crop starts with the sliced tail of 3(a)'s working (clipped \"28 20\", then 24 16 7 / 15 13 12 / 11 which belong to the n=50 alternative of 3(a)), so only the A1 for 3(b) is shown; and a clipped grey sliver of the notes header shows under \"5 marks\"."
    ],
-   "fingerprint": "e7d50938bfcf",
+   "fingerprint": "b89ca3e2789f",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"

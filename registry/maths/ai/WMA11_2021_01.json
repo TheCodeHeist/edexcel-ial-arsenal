@@ -103,9 +103,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "3467755fb0c9",
+   "at": "2026-11-21",
+   "concerns": [
+    "6(a): the mark-scheme rows end with a row belonging to part (b) (the B1ft row \"Graph is part (a) translated up\" with a cut-off graph strip), so 6(a) shows 3 marks of rows instead of 2",
+    "6(b): its mark-scheme rows show only B1, B1 (2 marks); the B1ft row that should open it sits at the bottom of the 6(a) rows, so the marks do not add up to 3"
+   ],
+   "fingerprint": "9952e6ad8ff4",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "draw",
@@ -127,9 +130,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "d6bc05a3c9d3",
+   "fingerprint": "7d6eeb8cd854",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
