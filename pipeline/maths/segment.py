@@ -431,11 +431,12 @@ MS_NUM_LEAD = re.compile(r"^(\d{1,2})\s*\.\s+(?=\S)")
 # total as printed on the question paper.
 # Also '7 marks', '[7 marks]', '(7marks)', '7 Marks' in other series.
 # Also '[Total 14]' (S2 2023), and the total run on after the last row's mark codes, 'A1A1 (8)' (FP2 2022).
-MS_TOTAL = re.compile(r"^(?:[(\[]?(?:Total\s+)?(\d{1,2})\s*marks?[)\]]?|[(\[]?Total\s+(\d{1,2})(?:\s+marks?)?[)\]]?"
+MS_TOTAL = re.compile(r"^(?:[(\[]?(?:Total\s+)?(\d{1,2})\s*marks?[)\]]?|[(\[]?Total\s*:?\s*(\d{1,2})(?:\s+marks?)?[)\]]?"
                       r"|(?:(?:d{0,2}[MABE]\d\*?\s*)+)?[(\[](\d{1,2})[)\]])$",
                       re.I)
 MARK_CODES = re.compile(r"^(?:d{0,2}[MABE]\d\*?\s*,?\s*)+(?:ft)?$")
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
+ALT_LEAD = re.compile(r"^(?:ALT\b|Alt\b|ALTERNATIVE\b|Alternative\b|Way\s*\d|Example\b)")
 
 
 @dataclass
@@ -664,6 +665,13 @@ def ms_split(ms_doc, questions):
         # in the middle of a tall cell, below this part's first rows: M3 Jun 2025 4(b))
         sub = [m for m in lines if m.page == l.page and floor < m.y0 < l.y0 and MS_PART_TOTAL.match(m.text)
                and col and m.x0 > col[1] + 120] if rows and rows[-1].q == cur_q else []
+        # ...unless an alternative method ('ALT', 'Way 2', 'Alternative', 'Example') follows that subtotal: it's
+        # still the previous part's, and this part starts at its own cell's top rule (FP3 Oct 2020 4, M2 Jan 2026 1)
+        alt = [m for m in lines if sub and m.page == l.page and sub[-1].y1 < m.y0 < l.y0 - 2
+               and ALT_LEAD.match(m.text)]
+        if alt:
+            floor = alt[-1].y1
+            sub = []
         if sub:
             after = sub[-1].y1 + 1
             nxt = min((ry for ry in rule_ys(ms_doc, l.page) if after - 2 <= ry < l.y0 + 2), default=after)
