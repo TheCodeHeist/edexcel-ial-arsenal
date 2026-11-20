@@ -23,11 +23,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(a): the question crop is clipped at the top: the numerator 1 of the fraction in k = 1/1728 is partly hidden under the blue caption bar (the lead-in line above it is fine)."
+    "2(a): question crop is cut at the top, the numerator 1 of the fraction 1/1728 in \"show that k = 1/1728\" is clipped by the blue caption bar",
+    "2(e): a sliver of cut-off text from the next row shows under the Notes header at the bottom of the mark scheme crop"
    ],
-   "fingerprint": "9eb5f654c598",
+   "fingerprint": "d7e5ea1fedf1",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -149,14 +150,13 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [
-    "6(b): the purple mark-scheme block holds the rows for both (b)(i) and (b)(ii) (3+3 marks, ending Total 10) although this part is 3 marks, so the rows do not match this part alone; the (b)(ii) rows (P(Y<5), 5-3/39-3, 1/18) belong to 6(b)(ii).",
-    "6(b)(ii): the mark-scheme block repeats the whole (b)(i)+(ii) scheme (duplicate of the 6(b) block, marks add to 6 not 3), so the (b)(i) rows (c^2+3c-1638=0, c=39) are stray here.",
-    "Notes: the question-6 examiners NOTES are clipped at the bottom: the final A1 rows for (b)(ii) (the 1/18 note) are missing after the M1 for 5-3/c-3."
+    "6(b)(ii): mark scheme block also repeats all of the 6(b)(i) rows (M1 M1 A1, 3 marks) above the (ii) rows, so it shows 6 marks for a 3-mark part",
+    "Examiners notes: the notes end after the (ii) second M1 row; the final A1 line for (ii) is missing, cut off at the bottom edge of the image"
    ],
-   "fingerprint": "f4b6fd75f4c9",
+   "fingerprint": "1941dc1d474b",
    "kinds": {
     "6(a)": "calc",
-    "6(b)": "calc",
+    "6(b)(i)": "calc",
     "6(b)(ii)": "calc"
    },
    "topics": {
@@ -164,7 +164,7 @@
      "S2.3.1",
      "S2.2.4"
     ],
-    "6(b)": [
+    "6(b)(i)": [
      "S2.3.1",
      "S2.2.4"
     ],

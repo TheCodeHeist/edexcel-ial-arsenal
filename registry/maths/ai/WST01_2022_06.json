@@ -1,14 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): mark-scheme rows include the top of the box-plot answer picture (belongs to 1(c), its M1 mark), so the rows carry an extra M1 beyond the 2 marks of part (b).",
-    "1(c): mark-scheme crop starts mid-way through the box-plot picture (box top cut off; the diagram is split across the (b)/(c) boundary) and the M1 mark for the box plot sits in the rows of 1(b).",
-    "1(e): question crop includes two blank box-plot answer grids (the grid for 1(c) and the spare grid, plus the notice about a spare grid) which belong to 1(c), not to (e).",
-    "1(a)-1(e): the right edge of the mark-scheme rows is trimmed so the part mark in brackets and the Total are partly cut off (e.g. 1(e) shows only the start of Total 11)."
+    "1(c): the part says to draw the box plot on the grid opposite, but the grid (with the Hours axis) is not in the 1(c) crop; it appears at the bottom of the 1(e) crop together with the spare grid, and 1(e) (a one-line written answer) is shown with those grids"
    ],
-   "fingerprint": "a45d8d67f444",
+   "fingerprint": "0b440bc18833",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -38,18 +35,17 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(e): mark-scheme rows include the (ii) row (B1) as well as (i), so the rows show 3 marks for a 2-mark part; the same rows are repeated for 2(e)(ii), which therefore also contains the (i) M1 A1.",
-    "2(f): bottom of the mark-scheme crop runs into the Notes header and a sliver of the notes row, and the right edge trims the mark brackets."
+    "2(e)(ii): mark-scheme rows also include the (e)(i) rows (M1 A1, 2 marks), so the purple block totals 3 marks for a 1-mark part"
    ],
-   "fingerprint": "d0e55137e35a",
+   "fingerprint": "c66607bae5d3",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
     "2(c)": "calc",
     "2(d)": "short",
-    "2(e)": "calc",
+    "2(e)(i)": "calc",
     "2(e)(ii)": "short",
     "2(f)": "calc"
    },
@@ -67,7 +63,7 @@
      "S1.4.1",
      "S1.4.2"
     ],
-    "2(e)": [
+    "2(e)(i)": [
      "S1.4.1"
     ],
     "2(e)(ii)": [
@@ -79,19 +75,18 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(e): mark-scheme rows contain both (i) and (ii) (6 marks and the Total 14 row) for a 3-mark part; the same rows are repeated under 3(e)(ii).",
-    "3(e)(ii): same combined rows as 3(e) (includes the (i) M1 M1 A1 rows).",
-    "Notes: the examiners notes at the bottom end after the 2nd M1 of (e)(ii); the final A1 line (awrt 144) looks cut off at the bottom edge."
+    "3(e)(ii): mark-scheme rows also include the (e)(i) rows (M1 M1 A1, 3 marks), so the purple block totals 6 marks for a 3-mark part",
+    "Question 3 examiners notes: the last row (e)(ii) ends at the bottom edge after the second M1 (variance of w); the final A1 line (awrt 144) appears to be cut off"
    ],
-   "fingerprint": "6c560329f2ff",
+   "fingerprint": "daa2bb8ca83c",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
     "3(c)": "calc",
     "3(d)": "calc",
-    "3(e)": "calc",
+    "3(e)(i)": "calc",
     "3(e)(ii)": "calc"
    },
    "topics": {
@@ -109,7 +104,7 @@
      "S1.3.1",
      "S1.3.4"
     ],
-    "3(e)": [
+    "3(e)(i)": [
      "S1.2.2"
     ],
     "3(e)(ii)": [
@@ -118,12 +113,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(b): mark-scheme rows end with the top half of the Venn-diagram answer (belongs to 4(c)), cut off at the bottom edge of the crop.",
-    "4(c): mark-scheme crop starts in the middle of the Venn diagram (tops of the circles missing, 1/12 and N labels partly cut) and the marks column (B1 M1 M1 M1 A1) is cut off at the top, so the part cannot be marked from this crop; the diagram is split across the 4(b)/4(c) boundary."
-   ],
-   "fingerprint": "8123ca60b65a",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "30635bc18a9d",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",

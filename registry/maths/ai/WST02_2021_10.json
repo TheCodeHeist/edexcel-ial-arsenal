@@ -27,24 +27,28 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "15bea3a6f445",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(i)(b): mark scheme block also includes the 2(i)(a) row (B1, 1 mark) above the (b) rows, so it shows 5 marks for a 4-mark part",
+    "2(ii)(b): mark scheme block also includes the 2(ii)(a) row (B1, 1 mark) above the (b) rows, so it shows 3 marks for a 2-mark part",
+    "2(ii)(c): mark scheme block also includes the 2(ii)(a) row (B1, 1 mark) above the (c) rows, so it shows 4 marks for a 3-mark part"
+   ],
+   "fingerprint": "80ac157f01c6",
    "kinds": {
-    "2(i)": "short",
+    "2(i)(a)": "calc",
     "2(i)(b)": "calc",
-    "2(ii)": "short",
+    "2(ii)(a)": "short",
     "2(ii)(b)": "calc",
     "2(ii)(c)": "calc"
    },
    "topics": {
-    "2(i)": [
+    "2(i)(a)": [
      "S2.3.1"
     ],
     "2(i)(b)": [
      "S2.3.1"
     ],
-    "2(ii)": [
+    "2(ii)(a)": [
      "S2.3.1"
     ],
     "2(ii)(b)": [
@@ -140,9 +144,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "8ff30e2ee77e",
+   "fingerprint": "a7bd80e2e69b",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc",
@@ -153,7 +157,7 @@
    },
    "topics": {
     "6(a)": [
-     "S2.2.2"
+     "S2.2.1"
     ],
     "6(b)": [
      "S2.2.4"

@@ -1274,7 +1274,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST01_2021_10_q6",
@@ -1377,8 +1377,10 @@
      "label": "6(c)(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.6.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST01_2021_10/q6_c_intro.webp",
@@ -1544,7 +1546,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

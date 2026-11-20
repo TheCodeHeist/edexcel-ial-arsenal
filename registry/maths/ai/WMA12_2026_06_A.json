@@ -22,11 +22,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [
-    "10(ii): the question crop opens with \"You may use the table on page 30 of the answer book to illustrate your answer. The first 2 rows have been completed for you.\", which is the end of part (i)'s wording; it is missing from the 10(i) crop and sits at the top of (ii)"
-   ],
-   "fingerprint": "4687a6ed3329",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "dc93a23dc1d6",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -123,22 +121,21 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(ii): the mark-scheme rows run on into part (b) (M1 A1 A1 added), so they show 6 marks (and \"8 marks\") for a 3-mark part",
-    "6(ii)(b): the mark-scheme rows repeat the whole (ii)(a) scheme (M1 dM1 A1*) before the (b) rows, 6 marks shown for a 3-mark part"
+    "6(ii)(b): mark scheme rows block starts with the 6(ii)(a) rows (M1 dM1 A1*, 3 marks) repeated before the real (b) rows, so the crop shows 6 marks for a 3-mark part"
    ],
-   "fingerprint": "2b355bce0925",
+   "fingerprint": "6adaba932fd5",
    "kinds": {
     "6(i)": "calc",
-    "6(ii)": "calc",
+    "6(ii)(a)": "calc",
     "6(ii)(b)": "calc"
    },
    "topics": {
     "6(i)": [
      "P2.5.3"
     ],
-    "6(ii)": [
+    "6(ii)(a)": [
      "P2.5.2"
     ],
     "6(ii)(b)": [

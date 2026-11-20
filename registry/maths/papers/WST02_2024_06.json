@@ -393,7 +393,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2024_06_q3",
@@ -1038,7 +1038,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "S2.2.1"
+      "S2.2.1",
+      "S2.2.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1076,8 +1077,10 @@
      "label": "6(b)(i)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.2.4"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2024_06/q6_b_i.webp",
@@ -1165,7 +1168,7 @@
      "marks": 2,
      "kind": "draw",
      "topics": [
-      "S2.2.2"
+      "S2.2.1"
      ],
      "tagStatus": "suggested",
      "qp": [

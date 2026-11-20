@@ -1,12 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): every part mark scheme crop (1(a) to 1(f)) begins with the paper general marking guidance page (1. The total number of marks for the paper is 75, 2. types of marks, 3. Abbreviations, 4-6 notes on cao/misreads/multiple attempts) before the real rows, so each MS crop is mostly boilerplate that belongs to no question; the real rows are at the bottom of each crop and are correct and complete.",
-    "1(f): the examiners notes are cut off at the bottom edge: the last note, the (f)(ii) B1 text, ends mid-sentence (...Condone extra non-relevant comments is truncated)."
+    "1(a)-1(f): in every part the mark scheme rows are preceded by a full page of the generic Edexcel marking guidance (1. total marks 75, 2. types of marks, 3. abbreviations, 4-6. general rules) which is not part of the question mark scheme; the real rows come only after it, so each purple section is hugely oversized (whole image is 12139 px tall).",
+    "1(b)-1(f): each part also repeats the earlier parts rows (the 1(a) row appears again at the start of the 1(b) rows and so on), so the mark scheme crops overlap earlier parts."
    ],
-   "fingerprint": "70007895c00c",
+   "fingerprint": "34cab1f5f901",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -69,11 +69,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(d): the right edge of the mark scheme and notes crops is clipped: the marks column of the 3(d) mark scheme reads B1B1B1ft / B1ft with the last characters cut, the Total cell is cut to Total, and several notes lines (3(c) M1, B1ft; 3(d) B1ft) run off the right edge, so the marks cannot be checked against the 3 marks of the part."
+    "3(c): the question crop has no blank grid to draw the Eastyou box plot on (the question refers to the grid on page 11 of the Answer Book), so there is nothing to draw on in the crop."
    ],
-   "fingerprint": "6461f41c42b1",
+   "fingerprint": "9fb5411fa62e",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -179,11 +179,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(c): mark scheme rows end with the opening lines of the 7(d) answer (896-836 = 836-776 = 60 < 79.9/84.2 or (896-836)^2 = 3600 < 6384 ...); that text belongs to 7(d) and is repeated there only from the 5920 line on, so the (d) answer is split across the two parts."
-   ],
-   "fingerprint": "8595edf9e626",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "44f58a24b8b6",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

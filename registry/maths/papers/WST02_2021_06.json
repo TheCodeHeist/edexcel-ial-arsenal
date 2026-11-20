@@ -138,7 +138,8 @@
      "marks": 1,
      "kind": "short",
      "topics": [
-      "S2.4.3"
+      "S2.4.3",
+      "S2.4.5"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -227,7 +228,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2021_06_q2",
@@ -459,7 +460,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2021_06_q3",
@@ -485,6 +486,7 @@
      "marks": 2,
      "kind": "draw",
      "topics": [
+      "S2.2.1",
       "S2.2.2"
      ],
      "tagStatus": "suggested",
@@ -641,7 +643,8 @@
      "marks": 4,
      "kind": "calc",
      "topics": [
-      "S2.2.2"
+      "S2.2.2",
+      "S2.2.5"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -765,7 +768,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2021_06_q5",
@@ -909,8 +912,8 @@
      "marks": 4,
      "kind": "calc",
      "topics": [
-      "S2.2.2",
-      "S2.1.1"
+      "S2.1.1",
+      "S2.2.2"
      ],
      "tagStatus": "suggested",
      "qp": [

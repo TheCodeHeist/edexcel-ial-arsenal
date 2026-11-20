@@ -43,12 +43,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "3(c): mark scheme rows end with a stray, cut-off fragment (\"dimensionally consistent, condone sign errors and missing g throughout ...\") that is the guidance for 3(d) M1 and is clipped at the bottom.",
-    "3(d): the first mark-scheme note is clipped at the top (\"The equation should be of the form ...\" is half cut off)."
-   ],
-   "fingerprint": "d046b6cd9a51",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "96e7674100a5",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -60,7 +57,8 @@
      "M2.2.2"
     ],
     "3(b)": [
-     "M2.2.2"
+     "M2.2.2",
+     "P1.1.9"
     ],
     "3(c)": [
      "M2.2.3"
@@ -93,11 +91,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Question 5 examiners notes bar at the bottom contains only a clipped stray fragment of a diagram (an arrow labelled S and the corner of a wall/B) that belongs to the next question, not to Q5."
+    "5: examiners NOTES block holds only a cut-off fragment of a diagram (an arrow labelled S and a B label) with no content - stray fragment from another question (looks like the next question diagram)"
    ],
-   "fingerprint": "61157f2fdbee",
+   "fingerprint": "91b300dc5642",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -113,11 +111,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): mark scheme rows end with a stray clipped fragment of a diagram (an arrow labelled N and the end of the rod at B) that is the top of the 6(b) mark-scheme diagram, not part of 6(a)s rows."
+    "6(a): mark-scheme crop ends with a small fragment of a diagram (arrow labelled N and B) below the (6) total - stray fragment, harmless"
    ],
-   "fingerprint": "8e93a338b6f1",
+   "fingerprint": "e2f71e1e926c",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"

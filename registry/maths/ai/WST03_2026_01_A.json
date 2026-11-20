@@ -19,11 +19,13 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Shared opening (stem): last line \"The mean of a random sample of size n is denoted by X-bar\" is clipped at the bottom, and a sliver of that line shows again just above the 2(a) question text."
+    "Shared opening (stem): the last line (The mean of a random sample of size n is denoted by X-bar) is clipped at the bottom edge, letters cut through, and a sliver of the next text line shows at the top of the 2(a) question crop (stray fragment).",
+    "2(b) and 2(c) mark-scheme rows: each starts with a repeated header row from the mark scheme (X follows a continuous uniform distribution over [alpha-3, 2alpha+3]) that is not marking content; the actual rows and marks (1 and 3) are complete.",
+    "Examiners NOTES: the 2(c) notes end at the note 2(13)+3 = 39 is M0M0A0 and look cut off at the bottom edge; the A1 note for 2(c) is missing."
    ],
-   "fingerprint": "4c74aa854c4b",
+   "fingerprint": "b5c9fc1ad534",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -80,11 +82,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(a): mark scheme crop also contains the examiners notes rows for (a) (M1/A1 notes) at its bottom, and the question has no examiners NOTES bar for (a): the notes for (a) are in the 5(a) crop while only (b) notes appear in the final NOTES section."
-   ],
-   "fingerprint": "29fb78faf3e8",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "846ef0054248",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -140,19 +140,16 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(i): the part is really 7(i)(a) (only part (a) text, 4 marks) but its mark scheme crop also includes the 7(i)(b) rows (E(A-B), 0.0655 answer), which repeat in the 7(i)(b) mark scheme.",
-    "7(i): label is 7(i) rather than 7(i)(a), and 7(i)(b) question crop shows only (b) without the shared set-up (A,B,C distributions) which sits in the 7(i) crop."
-   ],
-   "fingerprint": "3412ccfdf41d",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "dcc2edd5373f",
    "kinds": {
-    "7(i)": "calc",
+    "7(i)(a)": "calc",
     "7(i)(b)": "calc",
     "7(ii)": "calc"
    },
    "topics": {
-    "7(i)": [
+    "7(i)(a)": [
      "S3.1.1"
     ],
     "7(i)(b)": [

@@ -512,8 +512,11 @@
      "label": "3(d)(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.3.1",
+      "S1.3.3"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST02_2022_06/q3_d_intro.webp",
@@ -628,7 +631,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2022_06_q4",
@@ -1075,7 +1078,7 @@
      "kind": "calc",
      "topics": [
       "S2.1.2",
-      "S1.3.1"
+      "S2.1.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1226,7 +1229,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

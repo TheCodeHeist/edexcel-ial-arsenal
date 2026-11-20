@@ -354,9 +354,11 @@
     {
      "label": "2(iii)(a)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "S2.4.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST02_2025_01/q2_iii_intro.webp",
@@ -405,7 +407,7 @@
     {
      "label": "2(iii)(b)",
      "marks": 2,
-     "kind": "calc",
+     "kind": "short",
      "topics": [
       "S2.4.2"
      ],
@@ -844,8 +846,10 @@
      "label": "4(i)(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.2.4"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST02_2025_01/q4_i_intro.webp",
@@ -960,8 +964,11 @@
      "label": "4(ii)(a)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.1.1",
+      "S2.2.5"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST02_2025_01/q4_ii_intro.webp",
@@ -1484,7 +1491,7 @@
      "marks": 2,
      "kind": "draw",
      "topics": [
-      "S2.2.2"
+      "S2.2.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1561,8 +1568,11 @@
      "label": "7(c)(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.2.1",
+      "S2.2.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST02_2025_01/q7_c_intro.webp",
@@ -1613,7 +1623,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "S2.2.5"
+      "S2.2.5",
+      "S2.2.2"
      ],
      "tagStatus": "suggested",
      "intro": [

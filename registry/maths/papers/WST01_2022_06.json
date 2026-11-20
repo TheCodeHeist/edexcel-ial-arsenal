@@ -466,8 +466,10 @@
      "label": "2(e)(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.4.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST01_2022_06/q2_e_i.webp",
@@ -787,8 +789,10 @@
      "label": "3(e)(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.2.2"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST01_2022_06/q3_e_intro.webp",
@@ -1069,7 +1073,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST01_2022_06_q5",

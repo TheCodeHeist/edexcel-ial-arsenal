@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): the QUESTION crop is empty (only a clipped sliver at the top); the text (b) Find E(X) appears instead at the start of the 1(c) QUESTION crop together with (c) Find Var(X), so 1(c) shows both parts and 1(b) shows none.",
-    "1(a): the mark scheme rows are followed inside the same crop by the examiners note for (a) (B1 for 5/6 or exact equivalents); likewise 1(b) shows its note rows and 1(c) shows its notes, so the notes sit in the part crops and there is no separate question NOTES section at the bottom; the 1(c) mark scheme crop also has a clipped line of text overlapping the Notes/Total 6 bar.",
-    "1(c): mark scheme rows include the (b) rows? no: they show only (c) and its Alt(c) method correctly, but the examiners note text is cut off at the left in places and the 1(c) crop ends with blank space."
+    "1(b): its mark scheme crop also contains the examiners notes for 1(a) (B1 for 5/6, labelled (a)) below the (b) rows, i.e. part of the notes block is cut into the marks rows of the wrong part; the 1(a) crop itself ends at a Notes / Total 6 bar with no notes under it.",
+    "1(c): the mark scheme crop includes the question 1 notes text for (c) after the rows (examiner notes inside the part crop, no separate NOTES section at the end)."
    ],
-   "fingerprint": "108a1e8baada",
+   "fingerprint": "ca6c3f6b2d06",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -26,9 +25,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "7b891ef4b92a",
+   "fingerprint": "82d4218bfb48",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -53,9 +52,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "fba0f77730b1",
+   "fingerprint": "4bba8d51baa4",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -88,11 +87,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(b): the notes shown in the 4(b) mark scheme crop begin with the (a) B1 cao note (a line belonging to 4(a)) before the (b) notes; minor stray line from the previous part."
+    "4(a): the mark scheme rows also include the Alt(e) row (P(S=5) = 1 - P(2<=S<=4) = 2/5, B1M1A1) which belongs to part 4(e), so the marks shown (1 + 3) do not match the part marks (1)."
    ],
-   "fingerprint": "3b8d73598054",
+   "fingerprint": "360b5074ffca",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -123,9 +122,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "6b240392a3fb",
+   "fingerprint": "7b4f89e779d6",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "short",
@@ -159,9 +158,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "dae8bc45b5a6",
+   "fingerprint": "ccc6b6ecde99",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -178,9 +177,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "68e0845f1db6",
+   "fingerprint": "6e5aaf0a82fd",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -82,16 +82,18 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "34b5cece1cce",
+   "at": "2026-11-20",
+   "concerns": [
+    "4(i)(b): mark scheme block also repeats the 4(i)(a) rows (M1M1 A1, 3 marks) above the (b) rows, so it shows 5 marks for a 2-mark part"
+   ],
+   "fingerprint": "07f3d2e339bf",
    "kinds": {
-    "4(i)": "calc",
+    "4(i)(a)": "calc",
     "4(i)(b)": "calc",
     "4(ii)": "calc"
    },
    "topics": {
-    "4(i)": [
+    "4(i)(a)": [
      "S2.3.1"
     ],
     "4(i)(b)": [

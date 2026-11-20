@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): the question crop does not contain the tree diagram it asks the student to complete (page 3); the partly-filled blank tree diagram appears in the 1(e) question crop instead.",
-    "1(a): the mark-scheme crop is cut off at the top (the top of the tree, the 0.7/win branch and the upper branch labels are clipped) and only two of the three B1 marks are visible in the marks column.",
-    "1(e): question crop contains the blank tree diagram (1st/2nd/3rd game) that belongs to part (a)."
+    "1(a): the blank tree diagram to be completed is not in the 1(a) crop; it sits at the bottom of the 1(e) crop",
+    "1(a): the mark-scheme row shows only part of the completed tree - the top of the diagram (the win branches from the first game, 0.7/0.6 labels and upper branches) is cut off at the top edge of the purple crop"
    ],
-   "fingerprint": "19780a359aab",
+   "fingerprint": "b29468708edc",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -35,13 +34,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(c): the question crop does not contain Figure 1 (the grid with the February box plot and the empty December row to draw on); it is in the 2(d) question crop instead.",
-    "2(d): question crop contains Figure 1 and the spare-grid copy (with the notice about redrawing) that belong to part (c), not (d); the figure is needed for (d) too (February box plot) so it is not wrong to show, but the (c) answer space is attached to (d).",
-    "2(a)/2(b)/2(c)/2(d): the marks column of the mark-scheme crops is trimmed at the right edge (mark totals in brackets and Total 13 partly cut)."
+    "2(c): the part asks to draw the December box plot on Figure 1, but the Figure 1 grid (with the February box plot) is not in the 2(c) crop; it appears at the bottom of the 2(d) crop together with the spare grid"
    ],
-   "fingerprint": "072e4b936f95",
+   "fingerprint": "cd4cf3be10c4",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -66,23 +63,25 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(i): mark-scheme rows contain (a), (b) and (c) together (7 marks) for the 4-mark part (a); 3(i)(b) and 3(i)(c) show the same lumped rows (each shows all of (a), (b) and (c) or (a) and (b)), so no part has just its own rows.",
-    "3(ii): mark-scheme rows contain (a), (b) and (c) together (6 marks) for the 1-mark part (a); 3(ii)(b) shows (a) and (b) rows and 3(ii)(c) shows (a) and (c) rows only, i.e. each includes rows from other parts.",
-    "Notes: the examiners notes at the bottom end part-way through (ii)(b) (after the A1 for 19/40); the remaining (ii)(c) note line is cut off at the bottom edge."
+    "3(i)(b): mark-scheme rows also include the (i)(a) rows (4 x B1), so the block totals 5 marks for a 1-mark part",
+    "3(i)(c): mark-scheme rows also include the (i)(a) rows (4 x B1), so the block totals 6 marks for a 2-mark part",
+    "3(ii)(b): mark-scheme rows also include the (ii)(a) row (B1), so the block totals 4 marks for a 3-mark part",
+    "3(ii)(c): mark-scheme rows also include the (ii)(a) row (B1), so the block totals 2 marks for a 1-mark part",
+    "Question 3 examiners notes: the last lines (for (ii)(b) A1 and (ii)(c)) are cut off at the bottom edge of the image"
    ],
-   "fingerprint": "1a329ff5fe7d",
+   "fingerprint": "51a1a817e62d",
    "kinds": {
-    "3(i)": "calc",
+    "3(i)(a)": "calc",
     "3(i)(b)": "calc",
     "3(i)(c)": "calc",
-    "3(ii)": "calc",
+    "3(ii)(a)": "calc",
     "3(ii)(b)": "calc",
     "3(ii)(c)": "calc"
    },
    "topics": {
-    "3(i)": [
+    "3(i)(a)": [
      "S1.3.1",
      "S1.3.4"
     ],
@@ -92,7 +91,7 @@
     "3(i)(c)": [
      "S1.3.3"
     ],
-    "3(ii)": [
+    "3(ii)(a)": [
      "S1.3.4"
     ],
     "3(ii)(b)": [
@@ -105,11 +104,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): the question crop clips the top of the formula: the numerator 1 of 1/X and the top of the fraction 2/5 in E(1/X) = 2/5 are cut off at the upper edge."
+    "4(a): the crop is cut off at the top - the numerators of the fractions in E(1/X) = 2/5 (the 1 and the 2) are clipped by the caption bar"
    ],
-   "fingerprint": "56ff0d45a99c",
+   "fingerprint": "6d874517a2f8",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",

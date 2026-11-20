@@ -61,17 +61,16 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Notes: the examiners notes block is far too long (about 5000 px): after the Q3 notes it runs on into the mark schemes and notes for Questions 4, 5, 6 and 7 of the paper (Q4 CDF table, Q5 normal, Q6 Venn/probabilities, Q7 discrete variable), so everything after the 3(c)(ii) notes belongs to other questions.",
-    "3(c): mark-scheme rows contain both (c)(i) and (c)(ii), and the same rows are repeated under 3(c)(ii).",
-    "3(c): bottom of the mark-scheme crop shows a sliver of the first notes row under the Notes/Total 10 line."
+    "Question 3 examiners notes: after the Q3 notes (a)-(c)(ii) the notes block carries on with the notes and mark scheme tables for questions 4, 5, 6 and 7 (E(W), P(Z>...), Venn/probability, (a)-(f) of Q7, Total 14 etc.), which belong to other questions; the notes crop should stop after 3(c)(ii)",
+    "3(c)(ii): mark-scheme rows also include the (c)(i) row (M1 A1, 2 marks), so the purple block totals 4 marks for a 2-mark part"
    ],
-   "fingerprint": "85c762ef7c94",
+   "fingerprint": "01f454c27994",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
-    "3(c)": "calc",
+    "3(c)(i)": "calc",
     "3(c)(ii)": "calc"
    },
    "topics": {
@@ -81,9 +80,8 @@
     "3(b)": [
      "S1.2.3"
     ],
-    "3(c)": [
-     "S1.2.2",
-     "S1.2.3"
+    "3(c)(i)": [
+     "S1.2.2"
     ],
     "3(c)(ii)": [
      "S1.2.3"

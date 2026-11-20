@@ -86,12 +86,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(a): the question crop does not contain the tree diagram it asks the student to complete (opposite page); the partly-filled blank tree diagram appears instead in the 4(d) question crop.",
-    "4(d): question crop contains the blank tree diagram (Label/Colour, 0.3, 0.02) that belongs to part (a), which looks like part of (d)."
+    "4(a): the part asks to complete the tree diagram on the opposite page, but the blank tree diagram is not in the 4(a) crop; it sits at the bottom of the 4(d) crop instead"
    ],
-   "fingerprint": "21fd12aecedf",
+   "fingerprint": "3abfef13d1d5",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "calc",
@@ -168,20 +167,19 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): mark-scheme rows contain both (i) and (ii) (5 marks) for the 2-mark part (i); the same combined rows are repeated under 7(a)(ii).",
-    "7(a)(ii): see 7(a): the rows include the (i) M1 A1* rows as well as (ii)."
+    "7(a)(ii): mark-scheme rows also include the (a)(i) rows (M1 A1*, 2 marks), so the purple block totals 5 marks for a 3-mark part"
    ],
-   "fingerprint": "67dbe16fec5a",
+   "fingerprint": "dbb769ec134a",
    "kinds": {
-    "7(a)": "calc",
+    "7(a)(i)": "calc",
     "7(a)(ii)": "calc",
     "7(b)": "calc",
     "7(c)": "calc"
    },
    "topics": {
-    "7(a)": [
+    "7(a)(i)": [
      "S1.6.1"
     ],
     "7(a)(ii)": [

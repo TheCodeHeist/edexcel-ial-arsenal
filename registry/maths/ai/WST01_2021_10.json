@@ -58,9 +58,13 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "98fa075990c9",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(d): the question asks to draw on the Figure 1 grid, but the grid (with the female box plot) is not in the 3(d) crop; it appears at the bottom of the 3(f) crop",
+    "3(e): refers to the female box plot in Figure 1, which is only in the 3(f) crop, not in the 3(e) crop",
+    "3(a): the mark-scheme crop ends with a stray fragment of the Notes header and the question total [14]"
+   ],
+   "fingerprint": "6d7e970d61ab",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -124,9 +128,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "8a3750a577bb",
+   "fingerprint": "7050e8c822e2",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -151,13 +155,13 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d574dd0f3b57",
+   "fingerprint": "92c7d997c771",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
-    "6(c)": "calc",
+    "6(c)(i)": "calc",
     "6(c)(ii)": "calc",
     "6(d)": "calc"
    },
@@ -168,7 +172,7 @@
     "6(b)": [
      "S1.6.1"
     ],
-    "6(c)": [
+    "6(c)(i)": [
      "S1.6.1"
     ],
     "6(c)(ii)": [

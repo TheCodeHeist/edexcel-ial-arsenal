@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): mark scheme rows are cut off at the top: the model tree diagram shows only its lower part (the second Not win branch 0.65 and the third attempt 0.5 Win/Not win); the first attempt branches (p, 1-p) and the 0.35 second attempt Win branch are missing, and the first line of the diagram is clipped at the top edge."
+    "1(a): mark scheme rows are cut off at the top: the model tree diagram is sliced through, so the first-attempt branches (p, Win / Not win, 1-p) and the first part of the second-attempt branches are missing; only the lower right part of the tree (0.65, 0.5, 0.5) is visible."
    ],
-   "fingerprint": "239c3ab1999c",
+   "fingerprint": "f8567a1e0455",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -113,15 +113,15 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(b): mark scheme rows include both the (i) rows (4 marks) and the (ii) rows (B1ft M1A1, 3 marks, Total 9 shown) so the crop shows 7 marks for a 4 mark part; the 5(b)(ii) mark scheme rows repeat the (i) rows as well.",
-    "5(b): clipped slivers of text sit under the Notes/Total 9 bar of both mark scheme crops, and a notes line ends at the right edge (...May be embedded in an equation to find the P(D cut off)."
+    "5(b)(i): its mark scheme rows also include the 5(b)(ii) rows (P(C and D) = 3/10, P(D given not C) = 7/9, B1ft M1A1) after the (i) rows, so the crop overlaps part (ii) and its marks (4 + 3) exceed the part marks (4).",
+    "5(b)(ii): its mark scheme rows also include the 5(b)(i) rows (P(D) = 13/20, M1 M1 M1 A1) above the (ii) rows, so the crop overlaps part (i)."
    ],
-   "fingerprint": "b5a079a1d11c",
+   "fingerprint": "7bee98eaf39e",
    "kinds": {
     "5(a)": "calc",
-    "5(b)": "calc",
+    "5(b)(i)": "calc",
     "5(b)(ii)": "calc"
    },
    "topics": {
@@ -129,7 +129,7 @@
      "S1.3.3",
      "P1.1.3"
     ],
-    "5(b)": [
+    "5(b)(i)": [
      "S1.3.4",
      "S1.3.2"
     ],

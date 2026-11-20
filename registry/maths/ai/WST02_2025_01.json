@@ -30,14 +30,18 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "dd7ae7bb7b4b",
+   "at": "2026-11-20",
+   "concerns": [
+    "2(iii)(b): mark scheme block also repeats the 2(iii)(a) row (B1, 1 mark) above the (b) rows, so it shows 3 marks for a 2-mark part",
+    "2(iii)(c): mark scheme block also repeats the 2(iii)(a) row (B1, 1 mark) above the (c) rows, so it shows 4 marks for a 3-mark part",
+    "2(i): mark scheme crop starts with the clipped table header (Scheme / Marks cut through at the top edge)"
+   ],
+   "fingerprint": "a0294d22497f",
    "kinds": {
     "2(i)": "short",
     "2(ii)": "calc",
-    "2(iii)": "short",
-    "2(iii)(b)": "calc",
+    "2(iii)(a)": "short",
+    "2(iii)(b)": "short",
     "2(iii)(c)": "calc"
    },
    "topics": {
@@ -47,7 +51,7 @@
     "2(ii)": [
      "S2.4.2"
     ],
-    "2(iii)": [
+    "2(iii)(a)": [
      "S2.4.2"
     ],
     "2(iii)(b)": [
@@ -95,23 +99,26 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "054059d1992d",
+   "at": "2026-11-20",
+   "concerns": [
+    "4(i)(b): mark scheme block also repeats all of the 4(i)(a) rows (M1 A1 A1, 3 marks) above the (b) rows, so it shows 5 marks for a 2-mark part",
+    "4(ii)(b): mark scheme block also repeats the 4(ii)(a) rows (B1 M1 A1, 3 marks) above the (b) rows, so it shows 5 marks for a 2-mark part"
+   ],
+   "fingerprint": "23fbc6b42650",
    "kinds": {
-    "4(i)": "calc",
+    "4(i)(a)": "calc",
     "4(i)(b)": "calc",
-    "4(ii)": "calc",
+    "4(ii)(a)": "calc",
     "4(ii)(b)": "calc"
    },
    "topics": {
-    "4(i)": [
+    "4(i)(a)": [
      "S2.2.4"
     ],
     "4(i)(b)": [
      "S2.2.4"
     ],
-    "4(ii)": [
+    "4(ii)(a)": [
      "S2.1.1",
      "S2.2.5"
     ],
@@ -169,27 +176,31 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "0d25bb8beb6e",
+   "at": "2026-11-20",
+   "concerns": [
+    "7(c)(ii): mark scheme block also repeats all of the 7(c)(i) rows (M1 M1 dM1 A1, 4 marks) above the (ii) rows, so it shows 7 marks for a 3-mark part"
+   ],
+   "fingerprint": "09290d70727e",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "short",
-    "7(c)": "calc",
+    "7(c)(i)": "calc",
     "7(c)(ii)": "calc"
    },
    "topics": {
     "7(a)": [
-     "S2.2.2"
+     "S2.2.1"
     ],
     "7(b)": [
      "S2.2.5"
     ],
-    "7(c)": [
-     "S2.2.1"
+    "7(c)(i)": [
+     "S2.2.1",
+     "S2.2.2"
     ],
     "7(c)(ii)": [
-     "S2.2.5"
+     "S2.2.5",
+     "S2.2.2"
     ]
    }
   }

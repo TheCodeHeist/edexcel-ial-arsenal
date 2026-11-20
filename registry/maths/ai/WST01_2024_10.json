@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [
-    "1(e): at the very end of the examiners notes, the table of example comments (Statistic / A / C / Comment) is clipped at the left edge: the first column reads tatistic, edian, ean, ode, QR, ange, D with the first letters cut off."
-   ],
-   "fingerprint": "1b1372d82352",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "a91ac0723167",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -66,16 +64,15 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(a): the question crop lacks the blank Venn diagram it refers to (complete the Venn diagram on page 11); the blank Venn diagram (Cooking/Travel/Sport) appears instead at the end of the 3(c) QUESTION crop where it does not belong.",
-    "3(b): mark scheme rows contain both the (i) row (14/200, B1ft) and the (ii) row (118/200, M1 A1), so they do not match this part marks (1); and 3(b)(ii) mark scheme rows repeat the (i) row as well, so each of the two parts shows the other part rows.",
-    "3(c): a clipped sliver of text is visible between the Notes/Total 8 bar and the examiners notes caption (stray fragment at an edge)."
+    "3(c): the question crop ends with the blank three-set Venn diagram (page 11 answer space) which belongs to 3(a), not 3(c); 3(a) itself has no blank diagram to complete.",
+    "3(b)(ii): its mark scheme rows also include the 3(b)(i) row (14/200, B1ft) above the (ii) rows, so the crop overlaps part (i)."
    ],
-   "fingerprint": "f36076dde6f8",
+   "fingerprint": "bb6f21958668",
    "kinds": {
     "3(a)": "draw",
-    "3(b)": "calc",
+    "3(b)(i)": "calc",
     "3(b)(ii)": "calc",
     "3(c)": "calc"
    },
@@ -83,7 +80,7 @@
     "3(a)": [
      "S1.3.1"
     ],
-    "3(b)": [
+    "3(b)(i)": [
      "S1.3.1"
     ],
     "3(b)(ii)": [
@@ -138,11 +135,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(f): the examiners notes block at the very bottom of the image ends with a stray fragment of another question (part of a tree diagram: \"n-1 / 2n\", \"Red\" and the start of a second branch) after the 6(f) A1 Cao note; it belongs to Q7 and should be trimmed from Q6 notes."
+    "Examiners NOTES: at the very bottom, below the 6(f) notes, there is a stray fragment of another question (a diagram with \"n-1 / 2n\" and \"Red\" labels) cut off at the bottom edge."
    ],
-   "fingerprint": "6aaac02ff49f",
+   "fingerprint": "9204fbdbdbcb",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -175,11 +172,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): mark scheme rows are cut off at the top: the model tree diagram loses its first Red branch (the Red then Red, n-1/2n branch is missing, only part of the top Black branch shows) and the first B1 cell text (n/(2n+1) and (n+1)/(2n+1)) is clipped at the top edge."
+    "7(a): mark scheme rows are cut off at the top: the top branch of the model tree (the Red/Black branches after 1st Red, with the (n-1)/2n probability) is sliced through, and the first B1 row text (n/(2n+1) and (n+1)/(2n+1)) is clipped at its upper edge."
    ],
-   "fingerprint": "1a43a62ad318",
+   "fingerprint": "3f49122914a4",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",

@@ -23,9 +23,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "2f10753a1771",
+   "fingerprint": "35491add8570",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -76,14 +76,14 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "fa2e2296aef1",
+   "fingerprint": "7d58bda4ff52",
    "kinds": {
     "4(a)": "short",
-    "4(b)": "calc",
+    "4(b)(i)": "calc",
     "4(b)(ii)": "calc",
-    "4(c)": "calc",
+    "4(c)(i)": "calc",
     "4(c)(ii)": "calc",
     "4(d)": "calc",
     "4(e)": "calc"
@@ -92,7 +92,7 @@
     "4(a)": [
      "S1.5.4"
     ],
-    "4(b)": [
+    "4(b)(i)": [
      "S1.5.4",
      "S1.5.3"
     ],
@@ -100,7 +100,7 @@
      "S1.5.4",
      "S1.5.3"
     ],
-    "4(c)": [
+    "4(c)(i)": [
      "S1.5.3"
     ],
     "4(c)(ii)": [
@@ -116,12 +116,17 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "b432ba1078b6",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(g): the question needs Figure 1 (scatter diagram) to plot the line on, but the figure is not in the 5(g) crop; it only appears in the 5(h)(i) crop",
+    "5(h): the part needs the scatter diagram to circle a point, but the figure is missing from the 5(h) crop (it sits in the 5(h)(i) crop)",
+    "5(h)(i): this is really question part 5(i) (Estimate salary, score of 30); it is mislabelled as 5(h)(i), and the 5(h) mark-scheme rows include the (i) rows (M1 A1) so 5(h) shows 3 marks vs 1, while the 5(h)(i) rows repeat the (h) B1",
+    "5(b)(ii): mark-scheme rows also include the (b)(i) row (B1cso, 1 mark), so marks total 3 for a 2-mark part"
+   ],
+   "fingerprint": "46fc02a61862",
    "kinds": {
     "5(a)": "short",
-    "5(b)": "calc",
+    "5(b)(i)": "calc",
     "5(b)(ii)": "calc",
     "5(c)": "calc",
     "5(d)": "short",
@@ -135,7 +140,7 @@
     "5(a)": [
      "S1.4.3"
     ],
-    "5(b)": [
+    "5(b)(i)": [
      "S1.4.3"
     ],
     "5(b)(ii)": [

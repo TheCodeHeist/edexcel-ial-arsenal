@@ -1,12 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(e): mark scheme rows end with the opening of the 1(f) answer (The 1st estimate is more reliable estimate since... interpolation / extrapolation bullet); that text belongs to 1(f), whose own mark scheme rows then start mid-answer with the second bullet (153 within data range ...), so the (f) answer is split across the two parts.",
-    "1(f): the examiners notes end at the bottom edge with the (f) note cut off (for 2nd/3rd reason, do not allow comments that refer to weights ... is truncated)."
+    "Examiners NOTES: cut off at the bottom edge, the 1(f) note ends mid-sentence (for 2nd/3rd reason, do not allow comments that refer to weights ...)."
    ],
-   "fingerprint": "4cccc181c238",
+   "fingerprint": "8013ba401505",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -37,13 +36,12 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(c): the question crop lacks Figure 1 (the grid with the club B box plot that the part says to draw club A on); the Figure 1 grids (main grid and the spare grid) appear instead at the end of the 2(d) QUESTION crop.",
-    "2(b): mark scheme rows end with a sliver of the top of the model box plot grid (Club A label and part of the grid) that belongs to 2(c); the 2(c) mark scheme rows then start with the lower part of the same figure, so the model box plot is cut horizontally across two parts and its upper half and Club A label are cut off in 2(c).",
-    "2(d): the examiners notes end at the bottom edge with the last A1 note cut off (...indicating that there is greater variation above the median) at the right edge."
+    "2(c): the question crop has no Figure 1 grid (Club A / Club B axes) that the student must draw the box plot on; the figure and the spare grid both appear at the end of the 2(d) crop instead, so the figure sits under the wrong part.",
+    "2(c): in the mark scheme rows the Club A label box overlaps the part label (c) and the box plot image is cramped at the left edge."
    ],
-   "fingerprint": "feca902d9724",
+   "fingerprint": "2003e9b69524",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -114,15 +112,17 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "5(c): mark scheme rows include both the (i) rows (M1 A1, 2 marks) and the (ii) rows (M1 M1A1, 3 marks), so they do not match this part marks (2); 5(c)(ii) mark scheme rows repeat the (i) rows as well."
+    "5(c)(i): its mark scheme rows also include the 5(c)(ii) rows (Var(y), Var(w), M1 M1A1) after the (i) rows, so the crop overlaps part (ii) and its marks (5) exceed the part marks (2).",
+    "5(c)(ii): its mark scheme rows also include the 5(c)(i) rows (mean of w, M1 A1) above the (ii) rows, so the crop overlaps part (i).",
+    "Examiners NOTES: the last item (SC for part (ii), the sqrt(150000/300 - 20^2) expression) is cut off at the bottom edge and its SC note text is incomplete."
    ],
-   "fingerprint": "9ec4eef3c6e9",
+   "fingerprint": "4e71f283c0d8",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
-    "5(c)": "calc",
+    "5(c)(i)": "calc",
     "5(c)(ii)": "calc"
    },
    "topics": {
@@ -132,7 +132,7 @@
     "5(b)": [
      "S1.2.2"
     ],
-    "5(c)": [
+    "5(c)(i)": [
      "S1.2.2"
     ],
     "5(c)(ii)": [
@@ -190,12 +190,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8(c): mark scheme rows are cut off at the top: the model tree diagram shows only its Not late half (13/15 and the Car/Bicycle/Walk branches 6/13, 9/52, 19/52); the Late half (2/15 branch, 3/4, 1/8, 1/8) is missing and the marks column (B1B1 M1A1) is clipped at the top edge.",
-    "8(b): a clipped sliver of text shows at the bottom of the mark scheme crop, and the examiners notes caption is followed by a clipped duplicate Notes label at the top."
-   ],
-   "fingerprint": "26864d8160ae",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "cd6196b93ee1",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

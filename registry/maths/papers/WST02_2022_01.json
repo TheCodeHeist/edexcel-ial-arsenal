@@ -626,7 +626,7 @@
      "marks": 2,
      "kind": "draw",
      "topics": [
-      "S2.2.2"
+      "S2.2.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -665,7 +665,8 @@
      "marks": 2,
      "kind": "calc",
      "topics": [
-      "S2.2.1"
+      "S2.2.1",
+      "S2.2.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -782,7 +783,8 @@
      "marks": 2,
      "kind": "short",
      "topics": [
-      "S2.2.5"
+      "S2.2.5",
+      "S1.2.4"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -843,7 +845,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2022_01_q5",

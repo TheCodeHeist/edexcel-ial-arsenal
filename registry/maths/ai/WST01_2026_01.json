@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(b): the question crop lacks the blank grid on page 3 that the part says to draw the box plot on; both blank box-plot grids (the main grid and the spare grid) appear instead at the end of the 1(c) QUESTION crop."
+    "1(b): the question crop has no blank grid to draw the box plot on; the page 3 grid and the spare grid both appear in the 1(c) crop instead, so the grids sit under the wrong part (1(c) is not a drawing part)."
    ],
-   "fingerprint": "54dabf7d535c",
+   "fingerprint": "e84c1d0c6d4a",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "draw",
@@ -60,12 +60,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [
-    "3(a): mark scheme rows run on past the (2) marks into the 3(b) answer: the model Venn diagram for 3(b) starts under 3(a) (cut off after its top, with a stray B1 mark) and continues, cut across a horizontal line, at the top of the 3(b) mark scheme rows, so the diagram is split in two crops and each half is clipped.",
-    "3(b): mark scheme rows show only the lower part of the model Venn diagram (5, 7, 9, 16, 22) with the top of the F and G circles and the 36, 4, 21 values missing, and the marks column is clipped at the top (M1 cut)."
-   ],
-   "fingerprint": "3837d29f25bb",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "28b23dde7ddb",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "draw",
@@ -86,14 +83,15 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(b): mark scheme rows include both the (i) rows (3 marks) and the (ii) rows (4 marks, Total 13 shown) so the crop shows 7 marks for a 3 mark part; the 4(b)(ii) mark scheme rows repeat the (i) rows as well."
+    "4(b)(ii): its mark scheme rows also include the 4(b)(i) rows (E(X), E(12X+4), M1 M1 A1) above the (ii) rows, so the crop overlaps part (i).",
+    "Examiners NOTES: the final A1 note for 4(b)(ii) is clipped at the bottom edge (only Cao partly visible)."
    ],
-   "fingerprint": "8e55bcef0a31",
+   "fingerprint": "d41387aaf9dc",
    "kinds": {
     "4(a)": "calc",
-    "4(b)": "calc",
+    "4(b)(i)": "calc",
     "4(b)(ii)": "calc"
    },
    "topics": {
@@ -101,7 +99,7 @@
      "S1.5.2",
      "S1.5.1"
     ],
-    "4(b)": [
+    "4(b)(i)": [
      "S1.5.3"
     ],
     "4(b)(ii)": [
@@ -155,15 +153,15 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(c): mark scheme rows include both the (i) rows (M1 A1, 2 marks) and the (ii) rows (M1 A1*, 2 marks), so 4 marks are shown for a 2 mark part; the 7(c)(ii) mark scheme rows repeat the (i) rows as well."
+    "7(c)(ii): its mark scheme rows also include the 7(c)(i) rows (P(Y<mu-5 | Y<mu) = 0.4066, M1 A1) above the (ii) rows, so the crop overlaps part (i)."
    ],
-   "fingerprint": "70956c92e54d",
+   "fingerprint": "8574dea9ac93",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
-    "7(c)": "calc",
+    "7(c)(i)": "calc",
     "7(c)(ii)": "calc"
    },
    "topics": {
@@ -173,7 +171,7 @@
     "7(b)": [
      "S1.6.1"
     ],
-    "7(c)": [
+    "7(c)(i)": [
      "S1.6.1",
      "S1.3.2"
     ],

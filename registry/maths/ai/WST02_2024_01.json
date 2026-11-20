@@ -106,12 +106,14 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "37adca0238be",
+   "at": "2026-11-20",
+   "concerns": [
+    "5(b)(ii): mark scheme block also repeats the 5(b)(i) rows (M1 A1, 2 marks) above the (ii) rows, so it shows 4 marks for a 2-mark part"
+   ],
+   "fingerprint": "7adca9d6b76b",
    "kinds": {
     "5(a)": "calc",
-    "5(b)": "calc",
+    "5(b)(i)": "calc",
     "5(b)(ii)": "calc",
     "5(c)": "calc"
    },
@@ -119,7 +121,7 @@
     "5(a)": [
      "S2.3.1"
     ],
-    "5(b)": [
+    "5(b)(i)": [
      "S2.3.1"
     ],
     "5(b)(ii)": [

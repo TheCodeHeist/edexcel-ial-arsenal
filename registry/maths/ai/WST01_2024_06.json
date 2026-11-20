@@ -1,14 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(d): the question crop does not contain the grid with the Maple box plot where the Birch box plot is to be drawn; the grid (and the spare grid with its notice) is in the 1(f) question crop instead.",
-    "1(f): question crop contains the Birch/Maple answer grid and the spare grid for part (d), not part (f) content.",
-    "1(d): mark-scheme rows end with the first row of the (e) mark scheme (A correct difference of the medians ... 48 > 45, or), cut off at the bottom edge; the (e) rows then start with the spread alternative, so the (e) B1ft alternatives are split across the (d)/(e) boundary.",
-    "Notes: the examiners notes end at the A1 row of (f) (final A1 for Allow 36 to 40 ... clipped at the bottom edge)."
+    "1(d): the part asks to draw on the grid showing the Maple box plot, but that grid (and the spare grid) is not in the 1(d) crop; it appears under the 1(f) crop",
+    "1(f): the crop carries the Figure grid and the spare grid, which belong to 1(d); the mark-scheme notes at the very bottom of the image also end at the bottom edge (last A1 line partly cut off)"
    ],
-   "fingerprint": "16614fc02d03",
+   "fingerprint": "7bbb79888872",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -69,11 +67,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Notes: the examiners notes end at the 3(e) ddB1 line, which is clipped at the bottom edge (reason text cut off)."
+    "Question 3 examiners notes: the last row (e)(ii) ddB1 is cut off at the bottom edge of the image (only the first line of its text is visible)"
    ],
-   "fingerprint": "1b7b23e20691",
+   "fingerprint": "8eab68fd10f0",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -157,13 +155,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(d): the question crop is empty (only the caption bar, no question text or image); the question text for (d)(i) and (d)(ii) is only in the 6(d)(ii) crop.",
-    "6(d): mark-scheme rows contain both (d)(i) and (d)(ii) (3 marks) for the 1-mark part (i); the same combined rows are repeated under 6(d)(ii), which therefore also contains the (i) B1.",
-    "6(a): bottom of the mark-scheme crop shows the start of a notes line (Mark parts (b) and (c) together ...) cut off at the bottom edge, which is a marking instruction for (b)/(c), not for (a)."
+    "6(d): the mark-scheme rows also include the (ii) rows (M1 A1), so the block totals 3 marks for a 1-mark part (d)(i)",
+    "6(d)(ii): the mark-scheme rows also include the (d)(i) row (B1), so the block totals 3 marks for a 2-mark part"
    ],
-   "fingerprint": "56947ab80073",
+   "fingerprint": "3b43f2b7a322",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

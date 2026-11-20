@@ -27,9 +27,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "b31972cbcae6",
+   "fingerprint": "29ebee74edd5",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -132,28 +132,31 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "366cda8b8e6e",
+   "at": "2026-11-20",
+   "concerns": [
+    "6(b)(ii): mark scheme block also repeats all of the 6(b)(i) rows (M1A1 dM1 M1A1, 5 marks) above the (ii) rows, so it shows 7 marks for a 2-mark part"
+   ],
+   "fingerprint": "b999076776b4",
    "kinds": {
     "6(a)": "calc",
-    "6(b)": "calc",
+    "6(b)(i)": "calc",
     "6(b)(ii)": "calc",
     "6(c)": "draw",
     "6(d)": "calc"
    },
    "topics": {
     "6(a)": [
-     "S2.2.1"
+     "S2.2.1",
+     "S2.2.2"
     ],
-    "6(b)": [
+    "6(b)(i)": [
      "S2.2.4"
     ],
     "6(b)(ii)": [
      "S2.2.4"
     ],
     "6(c)": [
-     "S2.2.2"
+     "S2.2.1"
     ],
     "6(d)": [
      "S2.2.2"

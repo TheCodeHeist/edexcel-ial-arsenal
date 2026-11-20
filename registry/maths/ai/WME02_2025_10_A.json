@@ -15,11 +15,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Question 2 examiners notes end, after a large blank gap, with a stray table header row (Question Number / Scheme / Marks) from the next mark scheme page."
+    "2: the image ends with a large blank area and a table header fragment (Question Number / Scheme / Marks) with no content - stray header after the notes (harmless)"
    ],
-   "fingerprint": "1fc680f453f1",
+   "fingerprint": "25d9ff0167e5",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -51,30 +51,30 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "Question 4 examiners notes end part-way through the Alt3 (M1) entry: the notes for Alt4, Alt5, Alt6 and for 4(b) are missing (crop cut off at the bottom)."
+    "4: examiners NOTES block ends abruptly mid-list (last visible entry Alt3 M1 Moments equation about axis parallel to FB...) - the notes for Alt3 onward (A1s, Alt4, Alt5, Alt6, 4(b)) appear cut off at the bottom of the image"
    ],
-   "fingerprint": "6f6d1b6f6632",
+   "fingerprint": "9169e9a9f3c1",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
    },
    "topics": {
     "4(a)": [
-     "M2.2.2"
+     "M2.2.2",
+     "P1.3.1"
     ],
     "4(b)": [
-     "M2.2.3"
+     "M2.2.3",
+     "M2.2.2"
     ]
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [
-    "5(b): the mark scheme rows begin with a clipped sliver of a previous row (a cut-off line at the very top of the purple 5(b) table, above the 5(b) label); minor."
-   ],
-   "fingerprint": "3a0b8680024e",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d6c71f46ed5d",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -91,7 +91,7 @@
     ],
     "5(c)": [
      "M2.5.2",
-     "M1.5.1"
+     "M1.2.1"
     ]
    }
   },
@@ -140,21 +140,22 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f78183b96e65",
+   "at": "2026-11-20",
+   "concerns": [
+    "8(a): the mark-scheme crop includes the examiners Notes table for the whole question (a) and 8(b) is in the same block - notes are mixed into the part blocks (no separate NOTES section); this is only a layout quirk for this paper"
+   ],
+   "fingerprint": "bd9dd7d73c81",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
    },
    "topics": {
     "8(a)": [
-     "M2.4.2",
-     "M2.4.1"
+     "M2.4.2"
     ],
     "8(b)": [
      "M2.4.2",
-     "M2.4.3"
+     "P1.1.9"
     ]
    }
   }

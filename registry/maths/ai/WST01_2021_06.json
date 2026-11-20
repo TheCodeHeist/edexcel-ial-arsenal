@@ -41,13 +41,15 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "397e5812147a",
+   "at": "2026-11-20",
+   "concerns": [
+    "3(c)(ii): mark-scheme rows also include the (c)(i) rows (M1 A1, 2 marks), so the purple block totals 5 marks for a 3-mark part"
+   ],
+   "fingerprint": "2d9359350d94",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
-    "3(c)": "calc",
+    "3(c)(i)": "calc",
     "3(c)(ii)": "calc",
     "3(d)": "calc",
     "3(e)": "calc"
@@ -59,7 +61,7 @@
     "3(b)": [
      "S1.2.2"
     ],
-    "3(c)": [
+    "3(c)(i)": [
      "S1.2.2"
     ],
     "3(c)(ii)": [

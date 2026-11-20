@@ -1,12 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [
-    "1(d): mark-scheme rows run on into the first (e) rows (the [LQ =] 10 + 15/16(14-10) working), the second one cut through at the bottom (the fractions 1/16 and 0.75/16 are sliced), so (d) shows rows that belong to (e).",
-    "1(e): mark-scheme crop starts cut through the first (e) row (top of the line is clipped, fractions with 16 cut off) and the first M1 sits in clipped rows; the (e) rows are split across the (d)/(e) boundary."
-   ],
-   "fingerprint": "9ec3dc3dc4ca",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "f12425a3dda1",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -35,12 +32,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(a): the part refers to the tree diagram on page 7 but the 2(a) question crop does not contain it; the partly-filled blank tree diagram (the thing to complete) sits instead in the 2(d) question crop.",
-    "2(d): question crop contains the large partly-completed tree diagram (1st/2nd/3rd marble) that belongs to part (a), making it look like part of (d)."
+    "2(a): the part asks to complete the tree diagram on page 7, but the blank tree diagram is not in the 2(a) crop; it appears at the bottom of the 2(d) crop instead (and 2(d) itself needs no diagram)"
    ],
-   "fingerprint": "5178ffa15c63",
+   "fingerprint": "849bf01a3a79",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "calc",
@@ -87,19 +83,19 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(i): mark-scheme rows contain both (i)(a) and (i)(b) (9 marks) for the 4-mark part (a); and 4(i)(b) shows the same combined rows, i.e. includes the (a) rows too.",
-    "4(ii): there is a sliver of the first notes row at the bottom of the mark-scheme crop, under the Notes/Total 13 line."
+    "4(i)(a): the mark-scheme rows also include the (i)(b) rows (M1 A1 A1 A1 A1), so the block totals 9 marks for a 4-mark part",
+    "4(i)(b): the mark-scheme rows also include the (i)(a) rows (M1 M1 M1 A1*), so the block totals 9 marks for a 5-mark part (the same two-part table is repeated for both)"
    ],
-   "fingerprint": "74b1e4838dad",
+   "fingerprint": "e6ef9a29833e",
    "kinds": {
-    "4(i)": "calc",
+    "4(i)(a)": "calc",
     "4(i)(b)": "calc",
     "4(ii)": "calc"
    },
    "topics": {
-    "4(i)": [
+    "4(i)(a)": [
      "S1.3.1",
      "S1.3.4"
     ],

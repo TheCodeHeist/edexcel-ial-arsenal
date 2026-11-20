@@ -1,19 +1,21 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "a9c64f12786d",
+   "at": "2026-11-20",
+   "concerns": [
+    "1(b)(ii): mark scheme block also repeats the 1(b)(i) rows (M1 A1, 2 marks) above the (ii) rows, so it shows 6 marks for a 4-mark part"
+   ],
+   "fingerprint": "33a391155b91",
    "kinds": {
     "1(a)": "calc",
-    "1(b)": "calc",
+    "1(b)(i)": "calc",
     "1(b)(ii)": "calc"
    },
    "topics": {
     "1(a)": [
      "S2.1.1"
     ],
-    "1(b)": [
+    "1(b)(i)": [
      "S2.1.2"
     ],
     "1(b)(ii)": [
@@ -22,9 +24,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "a4d000873969",
+   "fingerprint": "785b948f9630",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -43,7 +45,7 @@
      "S2.2.2"
     ],
     "2(d)": [
-     "S2.2.2"
+     "S2.2.1"
     ]
    }
   },
@@ -121,9 +123,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "90dddd4d850f",
+   "fingerprint": "19d15d67b515",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -135,10 +137,12 @@
      "S1.3.2"
     ],
     "6(b)": [
-     "S2.2.2"
+     "S2.2.2",
+     "S2.2.3"
     ],
     "6(c)": [
-     "S2.2.4"
+     "S2.2.4",
+     "S2.2.3"
     ]
    }
   },

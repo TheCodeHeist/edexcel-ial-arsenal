@@ -643,8 +643,11 @@
      "label": "4(b)(i)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.5.4",
+      "S1.5.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST01_2021_01/q4_b_i.webp",
@@ -720,8 +723,10 @@
      "label": "4(c)(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.5.3"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST01_2021_01/q4_c_intro.webp",
@@ -914,7 +919,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST01_2021_01_q5",
@@ -978,8 +983,10 @@
      "label": "5(b)(i)",
      "marks": 1,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST01_2021_01/q5_b_i.webp",

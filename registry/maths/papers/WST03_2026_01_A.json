@@ -1009,9 +1009,11 @@
     {
      "label": "7(i)(a)",
      "marks": 4,
-     "kind": "draw",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "calc",
+     "topics": [
+      "S3.1.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST03_2026_01_A/q7_i_intro.webp",
@@ -1175,7 +1177,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   }
  ]
 }

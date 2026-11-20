@@ -47,8 +47,10 @@
      "label": "1(a)(i)",
      "marks": 2,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.1.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST02_2023_06/q1_a_intro.webp",
@@ -204,8 +206,11 @@
      "label": "1(b)(i)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.3.2",
+      "S2.1.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2023_06/q1_b_i.webp",
@@ -291,7 +296,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2023_06_q2",
@@ -431,7 +436,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2023_06_q3",
@@ -457,7 +462,8 @@
      "marks": 3,
      "kind": "calc",
      "topics": [
-      "S2.2.1"
+      "S2.2.1",
+      "S2.2.2"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -662,7 +668,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST02_2023_06_q4",
@@ -752,8 +758,11 @@
      "label": "4(c)(i)",
      "marks": 5,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.4.6",
+      "S2.4.5"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2023_06/q4_c_i.webp",
@@ -790,6 +799,7 @@
      "marks": 1,
      "kind": "short",
      "topics": [
+      "S2.4.4",
       "S2.4.3"
      ],
      "tagStatus": "suggested",
@@ -839,9 +849,10 @@
     {
      "label": "4(d)",
      "marks": 2,
-     "kind": "short",
+     "kind": "calc",
      "topics": [
-      "S2.4.3"
+      "S2.4.4",
+      "S2.4.6"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -1185,8 +1196,10 @@
      "label": "6(b)(i)",
      "marks": 4,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S2.3.1"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST02_2023_06/q6_b_i.webp",
@@ -1313,7 +1326,8 @@
      "marks": 2,
      "kind": "calc",
      "topics": [
-      "S2.3.1"
+      "S2.3.1",
+      "S2.2.4"
      ],
      "tagStatus": "suggested",
      "qp": [

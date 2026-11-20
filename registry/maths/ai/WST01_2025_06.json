@@ -145,20 +145,20 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): mark scheme rows include both the (i) rows (M1 A1, 2 marks) and the (ii) rows (M1 A1ft, 2 marks), so they do not match this part marks (2); 6(a)(ii) mark scheme rows repeat the (i) rows as well."
+    "6(a)(ii): its mark scheme rows also include the 6(a)(i) rows (P(X>508) = 0.0228, M1 A1) above the (ii) rows, so the crop overlaps part (i)."
    ],
-   "fingerprint": "6cc609dd23d4",
+   "fingerprint": "0d0da07c1004",
    "kinds": {
-    "6(a)": "calc",
+    "6(a)(i)": "calc",
     "6(a)(ii)": "calc",
     "6(b)": "calc",
     "6(c)": "calc",
     "6(d)": "calc"
    },
    "topics": {
-    "6(a)": [
+    "6(a)(i)": [
      "S1.6.1"
     ],
     "6(a)(ii)": [
@@ -178,11 +178,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): the question crop only shows the text Complete the tree diagram on page 21 and lacks the blank tree diagram (1st bead/2nd bead, White/Yellow) that the part asks to complete; that blank tree diagram appears instead at the end of the 7(e) QUESTION crop where it does not belong."
+    "7(e): the question crop ends with the blank 1st bead / 2nd bead tree diagram (page 21 answer space) which belongs to 7(a), not 7(e); 7(a) itself has no blank diagram to complete."
    ],
-   "fingerprint": "81f5368b969d",
+   "fingerprint": "eacfdba46399",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",
