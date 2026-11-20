@@ -908,12 +908,14 @@ def page_ink(doc, pno):
     return _INK[key]
 
 
-def clear_of_ink(doc, pno, y, limit=16):
+def clear_of_ink(doc, pno, y, limit=16, lines=()):
     """y, or a row above it with nothing printed across the column, so a crop edge there cuts no glyph. Only
     stacked maths moves an edge: a numerator, the n over a Σ, matrix brackets, π/2, a column vector's entries
     (FP3 Jun 2023), which sit above their line's box in narrow pieces. The edge climbs past such narrow ink, up
     to 30 pt, but never through a line of text (ink spread across the column): there it stays where it was,
-    so a sentence is never split between two crops (an earlier version did that, FP2 2025-26)."""
+    so a sentence is never split between two crops (an earlier version did that, FP2 2025-26). Nor into a line
+    of `lines` that ends above y: that's the line before, whose denominator (the 4 of π/4) is narrow ink too
+    (P3 Jan 2021 10, Jan 2025 10)."""
     w, h, stride, s = page_ink(doc, pno)
     k = 100 / 72
     x0, x1 = int(COL_X0 * k), int(right_edge(doc) * k) - 2
@@ -928,8 +930,12 @@ def clear_of_ink(doc, pno, y, limit=16):
     if r >= h:
         return y
     top, rr = r, (r if spread(r) > 0 else -1)      # -1: nothing to climb past
+    blocked = False
     while rr > 0 and r - rr <= 30 * k:
         if spread(rr) == 0:                     # a clear row: a candidate edge
+            if any(l.page == pno and l.y1 <= y + 1 and l.y0 + 1 < rr / k < l.y1 - 3 for l in lines):
+                blocked = True                  # inside the line before (its descender space is fine)
+                break
             top = rr
             above = [a for a in range(rr - 1, max(0, rr - int(8 * k)), -1) if spread(a) > 0]
             if not above:
@@ -939,6 +945,17 @@ def clear_of_ink(doc, pno, y, limit=16):
         if spread(rr) > 0.4:                    # a line of text: don't cut into it or past it
             break
         rr -= 1
+    if lines and (top == r or (blocked and r - top <= 2 * k)) and 0 < spread(r) <= 0.4:
+        # No way up without entering the line before: the edge is in that line's stacked maths (the 4 of π/4,
+        # P3 Jan 2021 10; d²y/dx² with a part's mark beside it, FP2 Jan 2023 9). Go down past it to a clear row
+        # instead, if there is one before the next line's text starts.
+        nxt = min((l.y0 for l in lines if l.page == pno and l.y0 > y - 0.5 and l.x0 < MARKS_X
+                   and l.y1 > y + 1), default=1e9)
+        for rd in range(r + 1, min(h, r + int(12 * k) + 1)):
+            if spread(rd) > 0.4 or rd / k > nxt + 3:
+                break
+            if spread(rd) == 0:
+                return rd / k
     return top / k if top != r else y
 
 
@@ -960,7 +977,7 @@ def mark_bottom(doc, pno, y):
     return None
 
 
-def clear_edges(doc, questions):
+def clear_edges(doc, questions, lines=()):
     """Move each question's crop boundaries off printed ink: the top of its first crop, and every boundary two
     of its crops share (both move, so nothing is lost or shown twice)."""
     for q in questions:
@@ -974,8 +991,8 @@ def clear_edges(doc, questions):
             pa, y0a, y1a = na.bands[ia]
             pb, y0b, y1b = nb.bands[ib]
             if pa == pb and abs(y1a - y0b) < 0.6:
-                y = clear_of_ink(doc, pb, y0b)
-                if y0a + 5 < y < y0b:
+                y = clear_of_ink(doc, pb, y0b, lines=lines)
+                if y0a + 5 < y < y1b - 5 and y != y0b:
                     na.bands[ia] = (pa, y0a, y)
                     nb.bands[ib] = (pb, y, y1b)
                 elif (yb := mark_bottom(doc, pb, y0b)) is not None and yb < y1b - 5:
@@ -1019,7 +1036,7 @@ def move_diagram_pages(questions, lines):
 
 def export(paper_id, doc, questions, lines, ms_doc, rows, notes, ms_lines, ms_items, matched):
     move_diagram_pages(questions, lines)
-    clear_edges(doc, questions)
+    clear_edges(doc, questions, lines)
     out = CACHE / "segments" / paper_id
     crops = out / "crops"
     crops.mkdir(parents=True, exist_ok=True)
