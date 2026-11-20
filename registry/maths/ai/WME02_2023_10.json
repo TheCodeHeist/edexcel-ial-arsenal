@@ -18,11 +18,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2(c): the question's examiners' NOTES section contains only a stray table header row (\"Question | Scheme | Mark | Notes\") with no notes — fragment from the next question's mark-scheme page (probably the start of Q3)"
+    "2: examiners NOTES block holds only a table header fragment (Question / Scheme / Mark / Notes) with no content - stray header"
    ],
-   "fingerprint": "68c15eb85f03",
+   "fingerprint": "8d73f38f5557",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -43,11 +43,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3: the mark-scheme crop ends with the top sliver of the next row (a half-cut line of text just under the [6] row) and the examiners' NOTES section ends with a stray table header row (\"Question | Scheme | Mark | Notes\") from the next question's mark scheme page — fragments, no content"
+    "3: examiners NOTES block ends with a table header fragment (Question / Scheme / Mark / Notes) with no content - stray header"
    ],
-   "fingerprint": "9b1e948ac6a5",
+   "fingerprint": "634c8a7da934",
    "kinds": {
     "3": "calc"
    },
@@ -59,11 +59,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "4(d): the question's examiners' NOTES section contains only a stray table header row (\"Question | Scheme | Mark | Notes\") with no notes — fragment from the next question's mark-scheme page"
+    "4: examiners NOTES block holds only a table header fragment (Question / Scheme / Mark / Notes) with no content - stray header"
    ],
-   "fingerprint": "468260d1f7d6",
+   "fingerprint": "f1a74f4b1117",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -112,11 +112,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [
-    "6(a): the 6(a) mark-scheme crop begins with a large mark-scheme diagram of the rod (forces T, W, W/4, V, H) split off from the bar by a thin empty 6a row; the first bar shows only an empty row stub at the bottom of the first image slice — cosmetic (marks M1 A1 A1* = 3 are all present)"
-   ],
-   "fingerprint": "dc7dc8d709be",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "18029cc82aa4",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -133,11 +131,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [
-    "7(b)/7(c): mark-scheme crops start with a sliver (top few pixels) of the previous part's [3] total row — cosmetic"
-   ],
-   "fingerprint": "70ed8a90ffdb",
+   "at": "2026-11-20",
+   "concerns": [],
+   "fingerprint": "d8f57ba97129",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -18,9 +18,12 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "679b7a30310c",
+   "at": "2026-11-20",
+   "concerns": [
+    "10(c): the mark-scheme rows begin with a stray loose (4) mark total that belongs to 10(b), above the (c) row",
+    "10(b): the mark-scheme rows are cut off at the bottom through the (4) total (the total sits at the top of the 10(c) rows instead)"
+   ],
+   "fingerprint": "74a4eacc9dda",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",

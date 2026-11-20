@@ -1,13 +1,13 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "1(a): the mark-scheme crop ends with the first row of 1(b)s scheme (Impulse equation for A or B, M1) cut through its bottom, after the (3)",
-    "1(b): the mark-scheme crop starts below the M1 row (Impulse equation for A or B), with a sliver cut off at the top, so only A1ft and A1 are visible and the marks shown (2) do not add up to 3; the M1 row is at the foot of 1(a)",
-    "1: the examiners notes crop ends with a stray table header (QUESTION NUMBER / SCHEME / MARKS) from the next page"
+    "1(a): mark-scheme block ends with the first row of 1(b) (Impulse equation for A or B, M1) cut through at the bottom edge, so it does not belong to 1(a)",
+    "1(b): mark-scheme block is missing its first row (Impulse equation for A or B, M1) - it sits cut off at the bottom of the 1(a) block - and starts with a cut-through sliver, so only A1ft A1 (2 of 3 marks) show",
+    "Examiners notes: the crop ends with a stray page-header fragment (QUESTION NUMBER / SCHEME / MARKS) at the bottom, and a grey notes heading strip is cut at the top"
    ],
-   "fingerprint": "e434cd3f58c2",
+   "fingerprint": "e4cd0c2f190c",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -22,11 +22,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "2: the examiners notes crop ends with the top of the next question mark scheme (a QUESTION NUMBER / SCHEME / MARKS header and the start of a speed-time graph, Q3s), which does not belong to this question"
+    "Examiners notes: the crop ends with the top of another question mark scheme - a QUESTION NUMBER / SCHEME / MARKS header and a speed-time graph (speed 50, times 200, 300, 450, 700, T) - which belongs to a different question (Q3) and is cut off at the bottom"
    ],
-   "fingerprint": "4448fb3da497",
+   "fingerprint": "dfc1895dcf5b",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -48,14 +48,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "3(b): the mark-scheme crop ends with the first row of 3(c)s scheme (Distance, 50x15x60 (=45000) seen or implied, B1) cut through its bottom, after the (2)",
-    "3(c): the mark-scheme crop starts below that B1 row (a sliver is cut at the top), so only M1, A1, A1 = 3 marks are visible and they do not add up to 4; the B1 row is at the foot of 3(b)",
-    "3(d): a sliver of the previous row is cut off at the top of the mark-scheme crop (minor)",
-    "3: the examiners notes crop ends with a stray QUESTION NUMBER / SCHEME / MARKS header from the next question"
+    "Examiners notes: the crop ends with a stray page-header fragment (QUESTION NUMBER / SCHEME / MARKS) cut through at the bottom, and a sliver of the next heading is cut at the end of the 3(d) mark-scheme block"
    ],
-   "fingerprint": "81849c4a821d",
+   "fingerprint": "1e205f8ddeb0",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "draw",

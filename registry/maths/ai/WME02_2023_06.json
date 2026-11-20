@@ -121,13 +121,12 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "6(a): mark-scheme crop is cut off at the top (first M1 row sliced through, only M1 A1 visible for 4 marks) and ends with the first M1 row of 6(b) (equation of motion, guidance clipped at bottom) — a 6(b) row under the 6(a) bar",
-    "6(b): mark-scheme crop is cut off at the top (the M1 row for the combined equation is sliced through) and ends with the M1 row of 6(c) (work-energy equation, clipped mid-guidance) belonging to 6(c)",
-    "6(c): mark-scheme crop is cut off at the top (the M1 row is split from the previous crop; text 'duplication of terms and no extras' clipped) and ends with the first row of question 7 mark scheme (Energy equation M1, Q requires energy) — content belonging to Q7"
+    "6(a): mark-scheme crop is cut off at the top - the first row (M1 for the equation of motion, F - 600 = 900 x 2 line header) is missing, only a sliver shows, so only A1 M1 A1 (3 marks) are visible for the 4-mark part",
+    "6(c): mark-scheme block ends with the top of another question rows (Energy equation, M1, Q requires energy...) cut off at the bottom - stray fragment from question 7 after the 6(c) total of (4)"
    ],
-   "fingerprint": "356ffd4be4fe",
+   "fingerprint": "87616f112a52",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -148,14 +147,13 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [
-    "7(a): mark-scheme crop is cut off at the top (first M1 row for the energy equation missing; only A1 A1 visible for 3 marks) and ends with the 7(b) M1/A1ft rows (direction as an angle, cos α = 3/their(a)) belonging to 7(b)",
-    "7(b): mark-scheme crop starts mid-row (A1ft guidance sliced through) and ends with the first 7(c) M1 row (Form an equation in t)",
-    "7(c): mark-scheme crop is cut off at the top (the M1 row is in the 7(b) crop) and ends with the 7(d) rows (perpendicular velocity B1 M1 A1) which belong to 7(d)",
-    "7(d): mark-scheme crop ends with the Pearson Education footer (\"Pearson Education Limited. Registered company number...\") — stray page footer text"
+    "7(a): mark-scheme rows start at the A1 - the first row (Energy equation, M1) is missing here (it was placed at the bottom of the 6(c) mark scheme), so only A1 A1 (2 of 3 marks) are visible",
+    "7(d): mark-scheme crop ends with the page footer (Pearson Education Limited. Registered company number 872828, with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom) - stray footer text",
+    "7(b)/7(c): thick border lines and a clipped sliver at the top of the 7(c) mark-scheme block are crop artefacts (harmless)"
    ],
-   "fingerprint": "50fb86619166",
+   "fingerprint": "c1d6f5621f40",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -642,7 +642,7 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST01_2019_10_q4",
@@ -745,8 +745,10 @@
      "label": "4(c)(i)",
      "marks": 3,
      "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "topics": [
+      "S1.4.3"
+     ],
+     "tagStatus": "suggested",
      "qp": [
       {
        "src": "maths/WST01_2019_10/q4_c_i.webp",
@@ -1151,9 +1153,11 @@
     {
      "label": "5(e)(i)",
      "marks": 1,
-     "kind": "calc",
-     "topics": [],
-     "tagStatus": "none",
+     "kind": "short",
+     "topics": [
+      "S1.3.1"
+     ],
+     "tagStatus": "suggested",
      "intro": [
       {
        "src": "maths/WST01_2019_10/q5_e_intro.webp",

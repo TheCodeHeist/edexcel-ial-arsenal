@@ -94,24 +94,28 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "95844d9c20c5",
+   "at": "2026-11-20",
+   "concerns": [
+    "6(i)(b): the mark-scheme rows also repeat the 6(i)(a) sketch and rows (M1 A1 B1), so the marks shown are 5 rather than the 2 for this part",
+    "6(ii)(a): the mark-scheme rows are the whole 6(ii) block, so they also contain the (b) rows (marks shown 5 rather than 2; the 10 marks total also shown)",
+    "6(ii)(b): the mark-scheme rows are the whole 6(ii) block, so they also contain the (a) rows (marks shown 5 rather than 3)"
+   ],
+   "fingerprint": "ffb23a8593ad",
    "kinds": {
-    "6(i)": "draw",
+    "6(i)(a)": "draw",
     "6(i)(b)": "calc",
-    "6(ii)": "calc",
+    "6(ii)(a)": "calc",
     "6(ii)(b)": "calc"
    },
    "topics": {
-    "6(i)": [
+    "6(i)(a)": [
      "P2.5.1"
     ],
     "6(i)(b)": [
      "P2.5.3",
      "P2.5.2"
     ],
-    "6(ii)": [
+    "6(ii)(a)": [
      "P2.5.2"
     ],
     "6(ii)(b)": [

@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "7f831f5f9afd",
+   "fingerprint": "cd3733fc8f47",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -159,9 +159,13 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c0093e67f72b",
+   "at": "2026-11-20",
+   "concerns": [
+    "9(c): the mark-scheme rows are cut through the (3) total at the bottom",
+    "9(d): the mark-scheme rows have a clipped stray sliver at the top edge (tail of the 9(c) total)",
+    "Question 9 examiners notes: a stray loose ] bracket opens the notes"
+   ],
+   "fingerprint": "fc59cace4802",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
