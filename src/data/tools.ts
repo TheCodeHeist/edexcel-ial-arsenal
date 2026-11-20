@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star';
 
 export interface Tool {
   slug: string;
@@ -68,6 +68,18 @@ export const TOOLS: Tool[] = [
     art: 'projectile',
     href: '/physics/projectile-lab/',
     added: '2026-11-18',
+  },
+  {
+    slug: 'star-lab',
+    subject: 'physics',
+    title: 'Star Lab',
+    blurb: 'Follow a star of any mass in 3D from collapsing nebula to brown dwarf, white dwarf, neutron star or black hole, through blue supergiants and pulsing Cepheids, with its path on the HR diagram. Watch binary stars eclipse and Doppler-shift, then measure distances by parallax, standard candles and redshift.',
+    kind: 'Simulation',
+    units: ['WPH15'],
+    topics: ['Life cycle of stars', 'HR diagram', 'Cepheid variables', 'Binary stars', 'Black-body radiation', 'Parallax and standard candles', 'Redshift and Hubble’s law', 'Dark matter'],
+    art: 'star',
+    href: '/physics/star-lab/',
+    added: '2026-11-21',
   },
 ];
 

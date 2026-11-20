@@ -159,6 +159,16 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Set-up labels** (u, θ, h) are drawn on the scene, the unknown shown as “?”; dimension lines and their pills are `--amph`. A target is a `--acidbase` strip with a flag; walls and platforms are `--solid` with an ink outline; the cliff is `--solid` with a faint hatch.
 - **Exam conventions**: g = 9.81 m s⁻², no air resistance in Predict and Target; units written m s⁻¹; given values without trailing zeros, answers to 3 significant figures.
 
+## 9d · Physics rules (Star Lab)
+
+- **Space is always dark.** The 3D views (life cycle, binaries) and the galaxy are on near-black in every theme; their HUD chips are dark glass with light text. Everything else follows the palette.
+- **Two colour scales for stars.** 2D diagrams (HR dots, swatches, spectra) use the true black-body colour (`bbCss`), which is pale. The 3D view uses a saturated ramp in the same order (red → orange → yellow → white → blue) so stars don't all look white on screen.
+- **3D sizes are compressed** (radius^0.28) in the life cycle, and binaries are drawn to scale with their orbit when they can be; the HUD always says which. Point sprites are capped at 72 px, and any non-finite value snaps back to its target, so the view can't black out; a lost WebGL context rebuilds itself on a new canvas.
+- **The timeline is not to scale; the strip under it is.** Stage segments take the stage's colour; the current one is ringed.
+- **HR diagrams** put hotter stars on the left, both axes logarithmic, spectral classes along the top, dashed lines of equal radius, the instability strip in amber, and labels for blue and red supergiants.
+- **Every stage and system has Key facts**: the points an exam answer needs, in an accent-tinted box.
+- **Exam conventions**: σ = 5.67 × 10⁻⁸, Wien 2.898 × 10⁻³ m K, L☉ = 3.83 × 10²⁶ W, 1 pc = 3.08 × 10¹⁶ m, answers to 3 s.f. with powers of ten written out.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.

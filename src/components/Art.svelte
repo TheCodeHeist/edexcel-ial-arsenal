@@ -66,6 +66,17 @@
     <path d="M23 -5 V17 M19 13 L23 17 L27 13" stroke="var(--redox)" stroke-width="2.4" />
     <circle cx="23" cy="-5" r="5" fill="var(--amph)" />
     <path d="M-40 22 l9 -11" stroke="var(--ink)" stroke-opacity=".8" stroke-width="5" />
+  {:else if name === 'star'}
+    <!-- a glowing star inside a tilted accretion ring (back half behind it), a white dwarf companion, distant stars -->
+    <g transform="rotate(-18)"><ellipse rx="50" ry="13" stroke="var(--accent)" stroke-opacity=".45" stroke-width="2.2" /></g>
+    <circle r="30" fill="var(--amph)" fill-opacity=".16" stroke="none" />
+    <circle r="19" fill="color-mix(in srgb, var(--amph) 70%, var(--surf))" stroke="var(--ink)" stroke-opacity=".7" stroke-width="2.4" />
+    <path d="M-8 -5 a5 5 0 0 1 7 -3 M4 7 a3.5 3.5 0 0 0 5 -3" stroke="var(--redox)" stroke-opacity=".7" stroke-width="2" />
+    <g transform="rotate(-18)"><path d="M-50 0 A50 13 0 0 0 50 0" stroke="var(--accent)" stroke-width="2.8" /></g>
+    <circle cx="40" cy="36" r="4.2" fill="var(--surf)" stroke="var(--accent)" stroke-width="2" />
+    {#each [[-46, -38, 2.2], [40, -46, 1.8], [-50, 44, 1.6], [12, 52, 1.4], [52, 6, 1.4], [-20, -52, 1.2]] as [x, y, r]}
+      <circle cx={x} cy={y} r={r} fill="var(--ink)" fill-opacity=".55" />
+    {/each}
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

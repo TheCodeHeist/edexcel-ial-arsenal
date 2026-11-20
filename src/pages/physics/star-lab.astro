@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/stars/App.svelte';
+import '../../sims/stars/stars.css';
+---
+<Sim title="Star Lab" description="Follow a star’s life in 3D from nebula to white dwarf, neutron star or black hole; explore the HR diagram, parallax, standard candles, redshift and Hubble’s law, for Edexcel IAL Physics Unit 5.">
+  <App client:only="svelte" />
+</Sim>
