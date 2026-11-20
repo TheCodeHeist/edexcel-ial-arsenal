@@ -1,12 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "1(i)(a): MARK SCHEME rows show the whole (i) table - the (i)(b) row (5x/(4x^2+1) integral, M1 A1) is included as well as (a), so marks shown are 2+2, not (a)'s 2.",
-    "1(i)(b): MARK SCHEME rows likewise start with the (i)(a) row ((2x+3)^12, M1 A1) before the (b) row, so the (a) row is duplicated into (b)."
+    "1(i)(a): its mark-scheme rows also contain the row for part (b) (the integral of 5x/(4x^2+1) = 5/8 ln(4x^2+1), M1 A1, (2)), followed by the (i)(a) notes, so 4 marks of rows are shown against a 2-mark part",
+    "1(i)(b): the purple mark-scheme block holds only the (i)(b) examiners notes text, not the scheme row (5/8 ln(4x^2+1), M1 A1), which sits under 1(i)(a) instead"
    ],
-   "fingerprint": "f59ce317f3ee",
+   "fingerprint": "25611d3c090d",
    "kinds": {
     "1(i)(a)": "calc",
     "1(i)(b)": "calc",

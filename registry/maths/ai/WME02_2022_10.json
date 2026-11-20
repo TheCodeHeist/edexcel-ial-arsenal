@@ -22,12 +22,11 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "2: mark-scheme rows are clipped at the right edge - the guidance column is cut mid-word (e.g. F = 15.., Condone.., Unsimplified equation in .., Correct unsimplified equa..)",
-    "2: examiners NOTES block holds only a table header fragment (Q / Mark Scheme / Marks / Marking guidance) with no content - stray header"
+    "2 mark-scheme rows: the crop is cut off at the right edge - the right-hand comments column (e.g. \"Seen or implied e.g. F = 15..\", \"Condone 15 in place of 15..\", \"Need all terms. Condone ...\", \"Correct unsimplified equa...\") is clipped mid-word on every row; no examiners notes shown."
    ],
-   "fingerprint": "c5253fced85b",
+   "fingerprint": "5a4d5e3a1dac",
    "kinds": {
     "2": "calc"
    },
@@ -39,18 +38,18 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "3: mark-scheme rows and notes are clipped at the right edge - the guidance column is cut mid-word on nearly every row (Accept equivalent e.g. I+.., Correct unsimplified vecto.., Dependent on both previo.. etc.); some equations garbled (0.2(v- + =4i3j), x2 + =y2 49)",
-    "3: stray table header fragment (Q / Mark Scheme / Marks / Marking guidance) at the very bottom of the notes block"
+    "3 mark-scheme rows and the notes (alternative method table): the crop is cut off at the right edge - the right-hand comments column is clipped mid-word on every row (\"Accept equivalent e.g. I+..\", \"Dependent on both previo..\", \"Correct use of Pythagoras..\", \"Dimensionally correct. A..\")."
    ],
-   "fingerprint": "7c5c963092bb",
+   "fingerprint": "f2dc483d927c",
    "kinds": {
     "3": "calc"
    },
    "topics": {
     "3": [
-     "M2.4.1"
+     "M2.4.1",
+     "P1.1.3"
     ]
    }
   },

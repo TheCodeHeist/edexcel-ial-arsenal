@@ -121,9 +121,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "3339a14bbaa6",
+   "at": "2026-11-21",
+   "concerns": [
+    "Notes: the last notes row (d) A1 is cut at the bottom edge of the image (the 99/250 fraction and the end of the line are clipped)"
+   ],
+   "fingerprint": "c239a01d6553",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -148,12 +150,11 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "6(b)(ii): mark scheme block also repeats all of the 6(b)(i) rows (M1 M1 A1, 3 marks) above the (ii) rows, so it shows 6 marks for a 3-mark part",
-    "Examiners notes: the notes end after the (ii) second M1 row; the final A1 line for (ii) is missing, cut off at the bottom edge of the image"
+    "Notes: the last notes row (b)(ii) A1 is cut at the bottom edge of the image (\"Or exact equivalent e.g. 0.05...\" is clipped)"
    ],
-   "fingerprint": "1941dc1d474b",
+   "fingerprint": "4b7bfd28690a",
    "kinds": {
     "6(a)": "calc",
     "6(b)(i)": "calc",

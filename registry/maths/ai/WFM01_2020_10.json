@@ -103,13 +103,14 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "6(i)(b): mark-scheme crop starts with the whole 6(i)(a) row (stretch scale factor 3, B1 B1, (2)) before the (b) row, and the (b) matrix row is clipped at its bottom edge; the part-(a) rows do not answer (b) and the rows total 3 not 1.",
-    "6(i)(c): mark-scheme crop starts with the 6(i)(a) row and the tail of the (b) row ((1)) before the (c) rows; they do not answer (c) so the marks do not add up to 2.",
-    "6(i)(a): mark-scheme crop is clipped at the bottom (last line \"send to Review\" half cut off)."
+    "6(i)(a): mark-scheme crop is cut through the last note at the bottom (\"If additional transformations are included, send to Review\" sliced); the line continues at the top of the 6(i)(b) crop.",
+    "6(i)(b): mark-scheme crop starts with a sliced sliver of 6(i)(a)'s note (\"included, send to Review\", and a (2) total) and is cut through the bottom row of the matrix B (the lower row of the sqrt2/2 entries is clipped).",
+    "6(i)(c): mark-scheme crop starts with a clipped sliver of the bottom of matrix B from part (b) and a stray (1) total, and the bottom row of the answer matrix C is slightly clipped.",
+    "6(ii): a thin clipped sliver of the previous part shows along the top edge of the mark-scheme crop."
    ],
-   "fingerprint": "699f65c911be",
+   "fingerprint": "9b99bba4811e",
    "kinds": {
     "6(i)(a)": "short",
     "6(i)(b)": "calc",

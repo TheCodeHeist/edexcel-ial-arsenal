@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "ac15d0d1c528",
+   "fingerprint": "f1f97d7bb0de",
    "kinds": {
     "1": "calc"
    },
@@ -14,9 +14,9 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "819d228c8cec",
+   "fingerprint": "ae4bdd6c924b",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -72,9 +72,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "887f179b32c2",
+   "at": "2026-11-21",
+   "concerns": [
+    "5(b): in the examiners notes, the B1 line of the last block (\"For those who don't read the instruction in (b)...\", the integral of (3+2x+ln x)/x^2) has its numerator sliced through at the top by a crop edge, and the notes stop right after the following M1 line, so the remaining marks of that alternative (dM1/A1) are not shown"
+   ],
+   "fingerprint": "71658cd6122a",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -110,9 +112,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "7ef18910d580",
+   "at": "2026-11-21",
+   "concerns": [
+    "7(ii): in the examiners notes, the line near the bottom (6x^2-16)/((x+1)(2x-3)) = B/(x+1) + C/(2x-3) and its \"a correct\" continuation are sliced through at the top by a crop edge, so the numerators are cut off"
+   ],
+   "fingerprint": "7326095c5ac8",
    "kinds": {
     "7(i)": "calc",
     "7(ii)": "calc"

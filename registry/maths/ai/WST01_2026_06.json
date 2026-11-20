@@ -129,12 +129,13 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "6(a): the question crop has no Venn diagram to shade (just the text); the blank two-circle A/B Venn diagram it refers to appears at the top of the 6(b) crop instead, so the figure sits under the wrong part.",
-    "6(a): the mark scheme image of the shaded Venn diagram is tiny (a thumbnail about 110 px wide) and hard to read."
+    "6(a): the part asks to shade A' ∩ B' on the Venn diagram below but its question crop has no Venn diagram; the blank A/B Venn diagram sits at the top of the 6(b) crop instead",
+    "6(b): the question crop begins with the blank A/B Venn diagram that belongs to 6(a)",
+    "Notes: the examiners notes image is cut off at the bottom; the last row (e) A1 note is clipped mid-line (\"evaluated then it must be correct (allow to be rounded)\")"
    ],
-   "fingerprint": "e6e8c90dbbef",
+   "fingerprint": "c6f644f6bdcd",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc",
@@ -163,11 +164,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "Examiners NOTES: cut off at the bottom edge, the 7(d) notes end after the M1 note (the A1 note for 7(d) is not visible)."
+    "Notes: the examiners notes image is cut off at the bottom; the (d) A1 note is only partly visible (last line \"Note that M0A1 is not possible\" is clipped)"
    ],
-   "fingerprint": "1ae80d464bdc",
+   "fingerprint": "e3eae5b102b7",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

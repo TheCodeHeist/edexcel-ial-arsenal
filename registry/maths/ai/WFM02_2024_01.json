@@ -113,9 +113,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f764c3b37f2c",
+   "at": "2026-11-21",
+   "concerns": [
+    "7(a): in the mark-scheme Way 1 boxed alternative, the line \"(3+v)(u+1+v) = -(u+3)(u+1-v) => 3u+3+3v+uv+v+v^2 = -u^2 - u + uv - 3u - 3 + 3v...\" runs off the right edge of the crop and is cut through at the end (the last term(s) after 3v are missing)."
+   ],
+   "fingerprint": "ccc4d1fc0f11",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw"

@@ -71,12 +71,12 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "5(b): mark scheme crop opens with the ALT method rows for 5(a) (M1 B1 dM1 A1 ddM1 A1cso, a proof of the reduction formula) followed by a large blank gap before the real 5(b) rows; those rows belong to 5(a)",
-    "Notes: crop ends with a stray table header row (Question Number / Scheme / Notes / Marks) at the bottom"
+    "5(b): in the mark-scheme crop the second row (\"I6 = 1/5 tan x sec^4 x ... + 4/5 I4\", above \"or e.g.\") is garbled: a clipped line overprints the formula so \"tan x sec^4 x\" is overlaid with fragments and partly unreadable.",
+    "5(b): the examiners' NOTES block ends with the header row of the next table (\"Question Number | Scheme | Notes | Marks\"), which does not belong to this question."
    ],
-   "fingerprint": "7cd1517538e4",
+   "fingerprint": "810a31299d4e",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"

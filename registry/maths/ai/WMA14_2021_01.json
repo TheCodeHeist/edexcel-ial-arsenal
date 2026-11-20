@@ -1,11 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "1(b): the mark-scheme rows open with the \"Alternative by direct expansion\" box (B1M1A1 / A1A1), which is the alternative method for part (a), not (b)"
+    "1(a): the mark-scheme rows end part-way through the boxed \"Alternative by direct expansion\" table: only its first row (B1M1A1) is shown and the last row (=1/2-5x-25x^2-250x^3+..., A1A1) is cut off",
+    "1(b): its mark-scheme rows open with the A1A1 row (=1/2-5x-25x^2-250x^3+...) that is the tail of 1(a)'s alternative-method table, so 1(b) shows 4 marks of rows against 2"
    ],
-   "fingerprint": "e1ec0a3e6de3",
+   "fingerprint": "aba806ec326a",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -113,9 +114,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "f6d9f0a5c4e2",
+   "at": "2026-11-21",
+   "concerns": [
+    "6(b): in the examiners notes, the dM1 line is sliced through: only the tail \"x = 0 to form the equation of the normal. Depends on the previous M.\" shows under a clipped glyph fragment, so the start of that note (the negative reciprocal / normal gradient) is lost"
+   ],
+   "fingerprint": "d91f729c9319",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"

@@ -103,11 +103,12 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "6(a): mark-scheme rows start mid-diagram - the model event-times diagram is cut through its top row (boxes 0, 19, 28, 38 with arc labels sliced) and only the lower half is shown; the upper half (with earlier boxes 14 etc.) sits at the bottom of Question 5s notes"
+    "6(a): mark-scheme crop is cut through the top of the answer network: the upper row of event boxes and the arc labels are sliced off, so the early/late times at the top nodes are only partly visible.",
+    "6(c), 6(d), 6(e): a thin clipped sliver of text/line shows along the top edge of each mark-scheme crop."
    ],
-   "fingerprint": "145a9d210a9d",
+   "fingerprint": "bc795f006309",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "short",

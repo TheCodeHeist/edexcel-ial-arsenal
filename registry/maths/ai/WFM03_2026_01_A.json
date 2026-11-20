@@ -17,12 +17,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "2(b): mark scheme crop opens with the Example by Substitution rows for 2(a) (completes the square B1, x+2=3tan t, M1A1, dM1A1; answer pi/12), which belong to 2(a); a clipped sliver of the row above also sits at its top edge",
-    "2(b): mark scheme crop is cut off at the bottom through the final A1 row: the note line under 1/2 ln(3+2sqrt2) (Notation... must include limits...) is clipped, and the (7) subtotal / Total 12 is missing"
+    "2(a): the mark-scheme crop is cut through the last row of the \"Example by substitution\" block at the bottom (the [t/3] limits line and its note are sliced top and bottom), so the closing A1/(5) subtotal for that method is not visible.",
+    "2(b): the mark-scheme crop is cut through at the bottom: the last row (answer 1/2 ln(3+2sqrt2), A1) is followed by a sliced line (\"Notice that ...\") and the (7) subtotal/Total are missing; a clipped sliver of text also shows at the top edge above the first row. The marks visible (M1A1, M1A1, ddM1, ddM1, A1) do not reach the 7 marks."
    ],
-   "fingerprint": "f5b17b89c666",
+   "fingerprint": "dae11928654e",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"

@@ -23,11 +23,9 @@
    }
   },
   "10": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Stem (shared opening): crop is cut through the bottom of the condition 0 <= y <= pi/2 - the denominator 2 is clipped at the bottom edge, so the range of y reads as pi over a half-cut 2."
-   ],
-   "fingerprint": "dd4a4d174a77",
+   "at": "2026-11-21",
+   "concerns": [],
+   "fingerprint": "dfd21c3388a4",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",

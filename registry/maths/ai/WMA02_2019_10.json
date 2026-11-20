@@ -132,9 +132,11 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "78f98b1402ab",
+   "at": "2026-11-21",
+   "concerns": [
+    "2(c): the last note in the mark-scheme A1 row is cut at the bottom (\"Note that 135x^2 is A0 ... the question demands the coefficient,\" ends mid-sentence) (minor)."
+   ],
+   "fingerprint": "afc232de2348",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -153,9 +155,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "9ee9c65e0242",
+   "fingerprint": "75b47ea7a527",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -195,11 +197,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "Examiners NOTES: the notes strip holds only a repeated table header row (Question Number / Scheme / Notes / Marks) with no actual notes - either nothing to show or the real notes were cut off"
+    "5(b): in the mark-scheme crop the A1 row (\"25/16 oe following h = 25t^2/(1+4t)^2 oe\") is cut at the bottom: the denominator (1+4t)^2 of the fraction is sliced through, and a thin clipped sliver shows at the top-right above the M1 row."
    ],
-   "fingerprint": "4f0a6a1bde01",
+   "fingerprint": "2f35a8ac8134",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"

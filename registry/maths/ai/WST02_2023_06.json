@@ -82,11 +82,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [
-    "4(c)(ii): mark scheme block also repeats all of the 4(c)(i) rows (B1 M1 A1 M1 A1, 5 marks) above the (ii) row, so it shows 6 marks for a 1-mark part"
-   ],
-   "fingerprint": "87367d120213",
+   "at": "2026-11-21",
+   "concerns": [],
+   "fingerprint": "dc50d5622f95",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -147,13 +145,13 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "6(a): mark scheme row is cut at the bottom edge, the denominators of 53/60 and 1/12 are clipped",
-    "6(b)(i): mark scheme rows end with a stray sliver of the top of the (ii) row (cut-off text at the bottom edge)",
-    "6(b)(ii): mark scheme block also repeats all of the 6(b)(i) rows (B1 B1 M1 A1, 4 marks) above the (ii) rows, so it shows 6 marks for a 2-mark part"
+    "6(a): the mark scheme row is cut at the bottom; the 60 and 5 of the fractions 53/60 and 1/5 are clipped by the crop edge",
+    "6(b)(i): the mark scheme crop is cut through a row at the bottom; a following line of working (b-17 / 53 / 23 / -7) is sliced in half and unreadable, so the second method for k is cut",
+    "6(b)(ii): the mark scheme first line (P(W<k) = (k-(-7))/(23-(-7)) = 53/60 ...) is cut at the top, with numerators clipped by the crop edge"
    ],
-   "fingerprint": "1e41f5bb3508",
+   "fingerprint": "490fae83df0b",
    "kinds": {
     "6(a)": "calc",
     "6(b)(i)": "calc",

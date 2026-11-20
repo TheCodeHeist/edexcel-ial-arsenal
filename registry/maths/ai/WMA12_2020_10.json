@@ -170,13 +170,11 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "9(ii)(a): the mark-scheme rows begin with an \"Alternative for first 3 marks\" block and a boxed \"(a) Special Case\" block (log3(x+5)-log3(2x-1)=4 ... x=86/161) that belong to 9(i), not 9(ii)(a)",
-    "9(ii)(b): the mark-scheme rows repeat the whole of the 9(ii)(a) rows (including the 9(i) alternative/special-case blocks) before the 9(ii)(b) rows, so the marks shown are far more than the 2 for this part",
-    "9(i): the mark-scheme rows lack the Alternative/Special Case blocks that ended up under 9(ii)(a)"
+    "9(ii)(a): the mark-scheme rows open with two blocks that belong to part (i): \"Alternative for first 3 marks\" (log3(x+5)-4=log3(2x-1) ... x+5/81=2x-1) and the boxed \"(a) Special Case\" (x=86/161); these are alternative methods after 9(i)'s subtotal and should stay with 9(i), not (ii)(a)"
    ],
-   "fingerprint": "173c1e4151a7",
+   "fingerprint": "437e787c6a96",
    "kinds": {
     "9(i)": "calc",
     "9(ii)(a)": "calc",

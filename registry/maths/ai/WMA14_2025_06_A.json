@@ -28,9 +28,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "921c29393604",
+   "at": "2026-11-21",
+   "concerns": [
+    "2(a): the mark-scheme rows end mid-table inside the boxed \"Alternative 2\": the last row (dx/dt = 5/(3x^2), A1) is cut off at the bottom of the crop",
+    "2(b): its mark-scheme rows open with the A1 row (dx/dt = 5/(3x^2)) that is the tail of 2(a)'s Alternative 2, so 2(b) shows 3 marks of rows against 2"
+   ],
+   "fingerprint": "556366710db6",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"

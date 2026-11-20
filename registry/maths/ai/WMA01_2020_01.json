@@ -213,9 +213,11 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "79a24b327cca",
+   "at": "2026-11-21",
+   "concerns": [
+    "4: a stray clipped fragment \"(1\" (the start of another question's mark total) shows at the bottom-left edge of the examiners' notes crop."
+   ],
+   "fingerprint": "180c4dbe07a6",
    "kinds": {
     "4": "calc"
    },
@@ -283,11 +285,9 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Examiners NOTES: cut off at the bottom - the differentiation alternative (Way One) ends mid-sentence (\"Score M1 for the complete attempt, the A1 for the\") and any further Way/lines after it are missing"
-   ],
-   "fingerprint": "932ea4b2fbb6",
+   "at": "2026-11-21",
+   "concerns": [],
+   "fingerprint": "71c8f2b298d4",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

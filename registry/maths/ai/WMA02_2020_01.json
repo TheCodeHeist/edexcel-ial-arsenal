@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "1(b): the mark scheme rows begin with the boxed \"Alternative for dM1 A1 in (a)\" (cube both sides, dM1 A1) which belongs to part (a); the 1(a) rows end at its (3) subtotal without it, so 1(b) rows show 2 extra marks beyond its 2"
-   ],
-   "fingerprint": "930da7feef59",
+   "at": "2026-11-21",
+   "concerns": [],
+   "fingerprint": "c227cc0b1610",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -42,9 +40,12 @@
    }
   },
   "11": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "58dd7cbdd1fa",
+   "at": "2026-11-21",
+   "concerns": [
+    "11(b): the examiners' NOTES block under the caption holds only two clipped lines (\"and candidates are unlikely to get very far and will gain no marks. If they reach Ax + B ln x + C ln(x-4), A,B,C != 0 send to review.\"), which belong to a different question (an integration/partial-fractions question), not Q11; the first line is also cut off at the top.",
+    "11(a): the mark-scheme Way 2 box contains a nested boxed note (cos2θ(sin²θ+cos²θ)/(2sinθcosθ) = ... ) and the outer box line is slightly cut at the left edge (minor)."
+   ],
+   "fingerprint": "17b3c80cacbb",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -74,9 +75,11 @@
    }
   },
   "13": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "020fb749bdbc",
+   "at": "2026-11-21",
+   "concerns": [
+    "13(b): a note after the (4) subtotal (\"If 2x-7y-48=0 is obtained fortuitously in (b) all the marks are available in (c) apart from the A1cso\") is part of the 13(b) crop but is really guidance for (c) (minor); a clipped sliver of text also shows at the top-right edge of the 13(b) mark-scheme crop."
+   ],
+   "fingerprint": "17fc7dc04ed4",
    "kinds": {
     "13(a)": "calc",
     "13(b)": "calc",

@@ -116,14 +116,13 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "5(g): the question needs Figure 1 (scatter diagram) to plot the line on, but the figure is not in the 5(g) crop; it only appears in the 5(h)(i) crop",
-    "5(h): the part needs the scatter diagram to circle a point, but the figure is missing from the 5(h) crop (it sits in the 5(h)(i) crop)",
-    "5(h)(i): this is really question part 5(i) (Estimate salary, score of 30); it is mislabelled as 5(h)(i), and the 5(h) mark-scheme rows include the (i) rows (M1 A1) so 5(h) shows 3 marks vs 1, while the 5(h)(i) rows repeat the (h) B1",
-    "5(b)(ii): mark-scheme rows also include the (b)(i) row (B1cso, 1 mark), so marks total 3 for a 2-mark part"
+    "5(g): the part asks to plot on Figure 1 but its crop has no scatter diagram; Figure 1 only appears inside the 5(h)(i) crop (below the question text, after 5(h))",
+    "5(h)(i): the part is really question 5(i) (label mis-read as (h)(i)); its crop carries Figure 1, a block of blank answer lines and the spare copy of the scatter diagram",
+    "5(h): the mark scheme rows for (h) also contain the (i) rows and the [17 marks] total, which then repeat under 5(h)(i), so the (h) marks do not add up to 1"
    ],
-   "fingerprint": "46fc02a61862",
+   "fingerprint": "7c6805e97a93",
    "kinds": {
     "5(a)": "short",
     "5(b)(i)": "calc",

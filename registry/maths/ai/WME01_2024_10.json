@@ -18,9 +18,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d399677e3883",
+   "at": "2026-11-21",
+   "concerns": [
+    "Question 2 examiners NOTES: the notes block at the very bottom contains only a fragment \"Allow use of column vectors apart from in given answer.\", which belongs to a vectors question, not this moments question; the real notes for Q2 (if any) are missing."
+   ],
+   "fingerprint": "1ec62b3058e4",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"

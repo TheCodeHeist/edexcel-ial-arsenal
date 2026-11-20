@@ -138,12 +138,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
-   "concerns": [
-    "7(i)(b): mark-scheme crop begins with the whole 7(i)(a) row (stretch scale factor 3, M1 A1, (2)) before the (b) row; marks shown total 3 not 1.",
-    "7(i)(c): mark-scheme crop begins with the whole 7(i)(a) row (M1 A1, (2)) before the (c) rows; marks shown total 4 not 2."
-   ],
-   "fingerprint": "3ea8d11252d8",
+   "at": "2026-11-21",
+   "concerns": [],
+   "fingerprint": "3d3baf5ef7a4",
    "kinds": {
     "7(i)(a)": "short",
     "7(i)(b)": "calc",
@@ -181,13 +178,13 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "9(c): mark-scheme crop begins with the Way 2 and Way 3 rows (substituting Q into the normal, giving p^3 q = -1) which are alternative methods for part (b), not (c); marks shown exceed the 5 for (c).",
-    "9(c): mark-scheme crop is cut off at the bottom: Total 12 marks is followed by a sliced strip (the Alt label cut through), and the Alt method for (c) (M1 dM1 A1 ddM1 A1) plus the annotated figure appear under the examiners NOTES heading rather than in the mark-scheme crop.",
-    "9(b): the mark scheme shown is only Way 1 (grad PQ); Way 2 and Way 3 for (b) were placed in the 9(c) crop instead."
+    "9(b): mark-scheme crop is cut through the bottom: the Way 3 row is sliced through (only its first line shows, \"Sub. ...\"), and its remainder is at the top of the 9(c) crop.",
+    "9(c): mark-scheme crop starts with the sliced tail of 9(b)'s Way 3 working (clipped \"Sub. xy=c^2 into normal ...\" and \"Number\" fragment) before the 9(c) rows.",
+    "9(c): the Alt rows of the 9(c) scheme (introducing r, gradient PR = -1/p^10, the last M1 dM1 A1 ddM1 A1) and the diagram of H, P, Q, R are placed after the Total 12 marks, under the examiners' NOTES caption, so the notes block holds mark-scheme rows/figure instead of notes and the 9(c) rows do not end with the visible marks."
    ],
-   "fingerprint": "714efb536214",
+   "fingerprint": "a0552c8a0b40",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -196,15 +193,15 @@
    "topics": {
     "9(a)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ],
     "9(b)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ],
     "9(c)": [
      "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.2"
     ]
    }
   }

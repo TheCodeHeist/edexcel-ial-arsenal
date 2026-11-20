@@ -72,9 +72,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "824ed28dc590",
+   "at": "2026-11-21",
+   "concerns": [
+    "4(b): in the examiners notes, the \"Example 2\" line (50 = 80x2.4e^0.15T / (2.4e^0.15T + 4) => 72e^0.15T = 200) is sliced through its top, the numerator and exponent are cut, because a crop edge falls inside that line"
+   ],
+   "fingerprint": "24bd6e4037fc",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -94,9 +96,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "aa5ea1eca7ef",
+   "at": "2026-11-21",
+   "concerns": [
+    "5(c): in the examiners notes, the A1 line (cso x = (-3+sqrt105)/4 or awrt 1.81 ONLY. If x = ... -3.31 is also written down) has the numerators of both fractions sliced through at the top by a crop edge, so the surds are unreadable"
+   ],
+   "fingerprint": "392218a7b670",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -116,9 +120,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ad8a7505849a",
+   "at": "2026-11-21",
+   "concerns": [
+    "6(b): in the examiners notes, the (b) A1 line (f^-1(x) = (4x-3)/(x-5) ...) and the B1 line (x>5, domain) are sliced through by a crop edge and mostly lost; the notes jump straight from the M1 line to (c)(i) (the B1 for the domain only appears later in the alternative-method block)"
+   ],
+   "fingerprint": "17fef7d54379",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -137,11 +143,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Examiners notes (end): the last line (alternative squaring method, M1: Squares and attempts to solve ...) is clipped at the bottom edge through the formula, so the notes end mid-sentence."
-   ],
-   "fingerprint": "691a3dcc0392",
+   "at": "2026-11-21",
+   "concerns": [],
+   "fingerprint": "8fb0c3a5c5fa",
    "kinds": {
     "7(a)": "short",
     "7(b)": "calc",

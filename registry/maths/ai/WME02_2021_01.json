@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "87e24a8dfbfc",
+   "at": "2026-11-21",
+   "concerns": [
+    "1 examiners NOTES: the notes crop ends with a clipped table header row (\"Notes\") at the bottom edge and nothing under it, so the question's actual notes text (if any) is cut off."
+   ],
+   "fingerprint": "6f4fc10b60a2",
    "kinds": {
     "1": "calc"
    },
@@ -79,9 +81,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "55d702fd43b0",
+   "fingerprint": "1c766e6fc47a",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

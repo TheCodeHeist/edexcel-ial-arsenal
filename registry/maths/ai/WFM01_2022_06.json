@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "185c1b931314",
+   "fingerprint": "203107a015f5",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -174,13 +174,12 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-21",
    "concerns": [
-    "8(a): mark-scheme crop is cut off at the bottom in the middle of the Way 2 box (ends at the May obtain a cubic... row); the final A1* row of Way 2 is missing.",
-    "8(b): mark-scheme crop starts with the stem row and the A1* row from part (a) ((1/3)(n+1)(n+2)(n+3)*), which do not belong to (b); the last row (= 343 070) is clipped at the bottom edge.",
-    "Question 8 examiners NOTES: contains only the empty table header (Question Number / Scheme / Notes / Marks) with no notes, and the rest of the Way 2 scheme is missing."
+    "8(a): mark-scheme crop ends part-way through the \"Way 2\" box: its last row (the final answer 1/3(n+1)(n+2)(n+3)* with A1*) is missing and ends up at the top of the 8(b) crop; the Way 2 box is open at the bottom.",
+    "8(b): mark-scheme crop starts with the A1* row (and the heavy Way 2 box border) that belongs to 8(a), and is cut through the final line at the bottom (\"= 343 070\" is sliced through, the 3 marks end below it)."
    ],
-   "fingerprint": "f354e6cdd218",
+   "fingerprint": "ea6d28913d35",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
