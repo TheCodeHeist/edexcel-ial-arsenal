@@ -9,8 +9,10 @@
      0.08–0.5 M☉    red dwarf: burns for a trillion years, never a giant, ends as a white dwarf (none has yet)
      0.5–8 M☉        red giant → planetary nebula → white dwarf (core below 1.4 M☉);
                      from about 3 M☉ the star loops back across the instability strip as a Cepheid variable
-     8–25 M☉         blue supergiant → (Cepheid) → red giant → red supergiant → supernova → neutron star
-     above 25 M☉     blue supergiant → red giant → red supergiant → supernova → black hole (core above about 3 M☉)
+     8–25 M☉         main sequence → red giant → red supergiant → supernova → neutron star
+     above 25 M☉     blue supergiant (its main sequence) → red supergiant → supernova → black hole (core above about 3 M☉)
+   Only the very massive stars are blue supergiants: so hot and large on the main sequence that they are supergiants from
+   the start. They skip the red-giant stage and swell straight into red supergiants, all within a few million years.
    Every stage carries the facts an exam answer needs (Stage.facts). */
 
 import { radius, TSUN, cepheidP } from './data';
@@ -146,8 +148,20 @@ export function track(M: number): Track {
     return { M, fate, stages, life: stages.reduce((a, x) => a + x.dur, 0), msLife: 0, remnant: { name: 'Brown dwarf', M, R: 0.1 } };
   }
 
-  /* the main sequence */
-  stages.push({
+  /* the main sequence; for a very massive star that is its blue-supergiant phase */
+  if (fate === 'blackhole') stages.push({
+    id: 'ms', name: 'Blue supergiant', visual: 'bluegiant', dur: tMS, weight: 3,
+    keys: [[0, T0, L0], [1, T1, L1]],
+    what: `A star this massive is a blue supergiant from the moment fusion starts: its main sequence is spent hot, blue-white and huge, like Rigel, ${L1 > 1e5 ? 'hundreds of thousands' : 'tens of thousands'} of times as luminous as the Sun. Fierce winds blow its outer layers away.`,
+    why: `It burns hydrogen so furiously (L ∝ M^3.5) that, for all its fuel, it lasts only about ${Number((tMS / 1e6).toPrecision(2))} million years: a brilliant, short life, over while the Sun would barely have formed. Lifetime ∝ M/L, so the bigger the star, the shorter its life.`,
+    facts: [
+      'Only very massive stars (above about 25 M☉) are blue supergiants: for them it is the main-sequence stage, and hydrogen still fuses to helium in the core.',
+      'Very hot (about 20 000–50 000 K) and very luminous (L = σ4πr²T⁴ with r and T both large): top left of the HR diagram. Examples: Rigel, Deneb.',
+      'The shortest lives of all: a few million years, against about 10 billion for the Sun, because L rises much faster than M.',
+      'It never becomes a red giant: when the core’s hydrogen runs out it swells straight into a red supergiant.',
+    ],
+  });
+  else stages.push({
     id: 'ms', name: 'Main sequence', visual: 'star', dur: tMS, weight: 3,
     keys: [[0, T0, L0], [1, T1, L1]],
     what: fate === 'reddwarf'
@@ -249,38 +263,27 @@ export function track(M: number): Track {
     });
     remnant = { name: 'White dwarf', M: Mwd, R: Rwd };
   } else {
-    // massive: blue supergiant, (Cepheid), red giant, red supergiant, then core collapse
+    // massive: red giant then red supergiant; very massive: straight from blue supergiant (its main sequence) to red supergiant
     const Lsg = L1 * 1.3;
     const bh = fate === 'blackhole';
-    const Tb = Math.min(T1 * 0.75, 22000);
-    stages.push({
-      id: 'bsg', name: 'Blue supergiant', visual: 'bluegiant', dur: tMS * 0.02, weight: 1.4,
-      keys: [[0, T1, L1], [1, Tb, Lsg]],
-      what: `The core runs out of hydrogen and the star starts to swell, still very hot: a blue supergiant like Rigel, tens of times the Sun’s radius and ${Lsg > 1e5 ? 'hundreds of thousands' : 'tens of thousands'} of times as luminous. Fierce winds blow its outer layers away.`,
-      why: 'Hot (blue-white) and huge, so enormously luminous: L = σ4πr²T⁴ with both r and T large. That puts blue supergiants at the very top left of the HR diagram.',
+    if (!bh) stages.push({
+      id: 'rg', name: 'Red giant', visual: 'giant', dur: tMS * 0.02, weight: 1.2,
+      keys: [[0, T1, L1], [0.2, 5200, Lsg * 0.95], [1, 4300, Lsg]],
+      what: 'The core runs out of hydrogen. Just like a Sun-like star, it swells and cools into a red giant: hydrogen fuses in a shell around a contracting core, which heats up until helium fusion starts. But a star this massive does not stop there.',
+      why: 'The swelling is the same process as in smaller stars; the difference is that the core of a massive star gets hot enough to go on fusing heavier and heavier elements, so it keeps growing into a red supergiant.',
       facts: [
-        'Very hot (about 10 000–50 000 K) and very luminous: top left of the HR diagram.',
-        'Only massive stars (above about 8 M☉) become supergiants. Examples: Rigel, Deneb.',
-        'Strong stellar winds carry mass away from the surface.',
-      ],
-    });
-    if (!bh && M < 20) stages.push(cepheidStage(M, cepheidP(Lsg), [[0, Tb, Lsg], [0.45, 6100, Lsg], [1, 5300, Lsg]], tMS * 0.005, 'supergiant'));
-    stages.push({
-      id: 'rg', name: 'Red giant', visual: 'giant', dur: tMS * 0.01, weight: 1.1,
-      keys: [[0, bh || M >= 20 ? Tb : 5300, Lsg], [1, 4100, Lsg * 1.02]],
-      what: 'Just like a Sun-like star, it swells and cools into a red giant: hydrogen fuses in a shell around a contracting helium core. But a star this massive does not stop there.',
-      why: 'The swelling is the same process as in smaller stars; the difference is that the core of a massive star gets hot enough to fuse helium and then heavier and heavier elements.',
-      facts: [
-        'Massive stars also pass through a red giant stage before becoming red supergiants.',
+        'A massive star (about 8–25 M☉) leaves the main sequence as a red giant, then grows into a red supergiant.',
         'Hydrogen fuses in a shell; the core contracts and heats until helium fusion starts.',
+        'Only the very massive stars skip this stage: they start as blue supergiants and swell straight into red supergiants.',
       ],
     });
     stages.push({
       id: 'rsg', name: 'Red supergiant', visual: 'giant', dur: tMS * 0.08, weight: 2,
-      keys: [[0, 4100, Lsg * 1.02], [0.5, 3550, Lsg * 1.05], [1, 3450, Lsg * 1.1]],
-      what: `It keeps swelling to hundreds of times the Sun’s radius, like Betelgeuse. ${bh ? 'Very massive stars blow so much of their envelope away that some never get this red (Wolf–Rayet stars). ' : ''}The core fuses heavier and heavier elements: helium → carbon → neon → oxygen → silicon → iron, in shells like an onion.`,
+      keys: bh ? [[0, T1, L1], [0.25, 4100, Lsg * 1.02], [0.6, 3550, Lsg * 1.05], [1, 3450, Lsg * 1.1]] : [[0, 4300, Lsg], [0.5, 3550, Lsg * 1.05], [1, 3450, Lsg * 1.1]],
+      what: `${bh ? 'Its core’s hydrogen gone, the blue supergiant swells and cools straight into a red supergiant (no red-giant stage)' : 'The red giant keeps swelling into a red supergiant'} to hundreds of times the Sun’s radius, like Betelgeuse. ${bh ? 'Very massive stars blow so much of their envelope away that some never get this red (Wolf–Rayet stars). ' : ''}The core fuses heavier and heavier elements: helium → carbon → neon → oxygen → silicon → iron, in shells like an onion.`,
       why: 'Each new fuel lasts a shorter time than the last: helium for about a million years, silicon for about a day. Iron is the end: fusing iron takes in energy instead of releasing it, so the core can no longer support itself.',
       facts: [
+        bh ? 'A very massive star goes from blue supergiant straight to red supergiant: it is never a red giant.' : 'A massive star becomes a red supergiant after its red-giant stage, as heavier elements start to fuse.',
         'The largest stars of all: hundreds to about 1000 R☉ (Betelgeuse, Antares). Top right of the HR diagram.',
         'Fusion goes on in shells: H → He → C → Ne → O → Si → Fe, the heaviest at the centre.',
         'Iron has the highest binding energy per nucleon, so fusing it releases no energy: fusion stops and the core collapses.',

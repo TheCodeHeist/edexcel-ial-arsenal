@@ -160,7 +160,7 @@ export const STARS: Star[] = [
   { id: 'hde226868', name: 'HDE 226868', T: 31000, R: 22, M: 41, d: 2220, type: 'O9.7 Iab', group: 'supergiant', where: 'Cygnus X-1',
     note: 'A blue supergiant orbiting an unseen 21 M☉ companion every 5.6 days. The companion is too massive to be a neutron star: Cygnus X-1, the first black hole discovered.' },
   { id: 'rigel', name: 'Rigel', T: 12100, R: 79, M: 21, d: 260, type: 'B8 Ia', group: 'supergiant', where: 'Orion',
-    note: 'A blue supergiant at the top left of the HR diagram: hot and huge, about 100 000 times the Sun’s luminosity. A massive star that has left the main sequence; it will become a red supergiant and then a supernova.' },
+    note: 'A blue supergiant at the top left of the HR diagram: hot and huge, about 100 000 times the Sun’s luminosity. For a star this massive the blue supergiant is its main-sequence stage; it will swell straight into a red supergiant, then explode as a supernova.' },
   { id: 'deneb', name: 'Deneb', T: 8525, R: 203, M: 19, d: 800, type: 'A2 Ia', group: 'supergiant', where: 'Cygnus',
     note: 'One of the most luminous stars visible to the naked eye; its distance is uncertain because its parallax is so small.' },
 ];

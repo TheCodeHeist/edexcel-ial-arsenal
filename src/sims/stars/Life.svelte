@@ -55,8 +55,8 @@
     { range: '0.08–0.5 M☉', M: 0.2, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Main sequence (red dwarf)'], ['wd', 'White dwarf']] },
     { range: '0.5–3 M☉', M: 1, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Main sequence'], ['giant', 'Red giant'], ['pn', 'Planetary nebula'], ['wd', 'White dwarf'], ['bd', 'Black dwarf']] },
     { range: '3–8 M☉', M: 5, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Main sequence'], ['giant', 'Red giant'], ['cep', 'Cepheid'], ['giant2', 'Red giant'], ['pn', 'Planetary nebula'], ['wd', 'White dwarf'], ['bd', 'Black dwarf']] },
-    { range: '8–25 M☉', M: 15, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Main sequence'], ['bsg', 'Blue supergiant'], ['cep', 'Cepheid*'], ['rg', 'Red giant'], ['rsg', 'Red supergiant'], ['sn', 'Supernova (type II)'], ['ns', 'Neutron star']] },
-    { range: 'above 25 M☉', M: 40, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Main sequence'], ['bsg', 'Blue supergiant'], ['rg', 'Red giant'], ['rsg', 'Red supergiant'], ['sn', 'Supernova (type II)'], ['bh', 'Black hole']] },
+    { range: '8–25 M☉', M: 15, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Main sequence'], ['rg', 'Red giant'], ['rsg', 'Red supergiant'], ['sn', 'Supernova (type II)'], ['ns', 'Neutron star']] },
+    { range: 'above 25 M☉', M: 40, chips: [['cloud', 'Nebula'], ['protostar', 'Protostar'], ['ms', 'Blue supergiant (main sequence)'], ['rsg', 'Red supergiant'], ['sn', 'Supernova (type II)'], ['bh', 'Black hole']] },
   ];
   const laneOf = (M: number) => (M < 0.08 ? 0 : M < 0.5 ? 1 : M < 3 ? 2 : M < 8 ? 3 : M < 25 ? 4 : 5);
   function goTo(lane: number, id: string) {
@@ -234,7 +234,7 @@
         </div>
       {/each}
     </div>
-    <p class="why pad2">* Stars of about 8–20 M☉ pulsate as Cepheids while crossing the instability strip. A core left below 1.4 M☉ becomes a white dwarf, 1.4–3 M☉ a neutron star, above 3 M☉ a black hole. Click any stage to jump there.</p>
+    <p class="why pad2">Only the very massive stars are blue supergiants on the main sequence; they skip the red-giant stage. A core left below 1.4 M☉ becomes a white dwarf, 1.4–3 M☉ a neutron star, above 3 M☉ a black hole. Click any stage to jump there.</p>
   </section>
 
   <section class="panel explain" aria-label="What is happening">
