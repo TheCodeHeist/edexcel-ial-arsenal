@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/particles/App.svelte';
+import '../../sims/particles/particles.css';
+---
+<Sim title="Particle Lab" description="Accelerate particles in a linac and a cyclotron, read tracks in cloud and bubble chambers, scatter α particles off gold, explore every quark, lepton, baryon and meson, and check particle reactions against the conservation laws, in 3D, for Edexcel IAL Physics Unit 4.">
+  <App client:only="svelte" />
+</Sim>

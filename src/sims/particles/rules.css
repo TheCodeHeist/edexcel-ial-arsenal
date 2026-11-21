@@ -1,0 +1,67 @@
+/* Particle Lab: reactions. The equation is big and tappable (tap a particle to remove it; tap a side to add to it);
+   the table under it checks one conservation law per row, each term written out. */
+.layout.rules{grid-template-areas:"bench side" "energy side"}
+.layout.rules>.side{grid-row:1 / span 2}
+.layout.rules>.rbench{grid-area:bench;padding-bottom:14px}
+.layout.rules>.side{grid-area:side}
+.layout.rules>.full{grid-area:energy}
+.equation{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto minmax(0,1fr);align-items:center;gap:8px;margin:0 14px 10px;padding:14px;
+  border-radius:var(--r-md);background:color-mix(in srgb,var(--ink) 4%,transparent);border:1px solid var(--rim)}
+.eside{border:1px dashed var(--rim);background:none;border-radius:var(--r-sm);padding:6px 8px;cursor:pointer;color:var(--muted);font:700 10px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;writing-mode:vertical-rl;transform:rotate(180deg);min-height:60px}
+.eside.active{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.terms{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;min-height:56px;padding:4px 8px;border-radius:var(--r-sm);border:1.5px solid transparent}
+.terms.active{border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+.terms .empty{font-size:12.5px;color:var(--muted);font-style:italic}
+.tok{border:1px solid var(--rim);background:var(--raised);border-radius:var(--r-sm);padding:4px 10px;cursor:pointer;color:var(--ink);min-width:44px;min-height:46px;display:grid;place-items:center}
+.tok:hover{border-color:var(--bad)}
+.plus{font:600 20px var(--f-mono);color:var(--muted)}
+.arrow{font:700 26px var(--f-mono);color:var(--ink);padding:0 4px}
+.rpal{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:0 14px 14px}
+.rpal small{font-size:12.5px;color:var(--muted);margin-right:4px}
+.ptok{border:1px solid var(--rim);background:var(--raised);border-radius:999px;min-width:40px;height:34px;padding:0 9px;cursor:pointer;color:var(--ink);display:inline-grid;place-items:center}
+.ptok:hover:not(:disabled){border-color:var(--accent)}
+.ptok:disabled{opacity:.45;cursor:default}
+
+.ctable{width:calc(100% - 28px);margin:0 14px;border-collapse:separate;border-spacing:0 4px;font-size:13px}
+.ctable th,.ctable td{padding:7px 10px;text-align:left;vertical-align:middle}
+.ctable thead th{font:700 10.5px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-block:2px}
+.ctable tbody tr{background:color-mix(in srgb,var(--ink) 4.5%,transparent)}
+.ctable tbody th{font-weight:650;border-radius:var(--r-sm) 0 0 var(--r-sm);white-space:nowrap}
+.ctable tbody th .beyond{margin-left:6px;font-size:8px;padding:3px 5px}
+.ctable tbody td:last-child{border-radius:0 var(--r-sm) var(--r-sm) 0}
+.ctable td{font-family:var(--f-mono);font-variant-numeric:tabular-nums;-webkit-user-select:text;user-select:text}
+.ctable td.txt{font-family:var(--f-body);color:var(--muted)}
+.ctable .terms-s{color:var(--muted);margin-right:8px;font-size:12px}
+.ctable tr.bad{background:color-mix(in srgb,var(--bad) 11%,transparent)}
+.ctable tr.soft{opacity:.8}
+.ctable .mark{text-align:center;width:80px;white-space:nowrap}
+.tick{color:var(--good);font-weight:800;font-size:16px}
+.cross{color:var(--bad);font-weight:800;font-size:16px}
+.maybe{font:700 10px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--amph)}
+.rverdict{margin:12px 14px 0;padding:12px 14px;border-radius:var(--r-md);border:1px solid color-mix(in srgb,var(--bad) 35%,transparent);background:color-mix(in srgb,var(--bad) 7%,transparent)}
+.rverdict.ok{border-color:color-mix(in srgb,var(--good) 35%,transparent);background:color-mix(in srgb,var(--good) 7%,transparent)}
+.rverdict p{margin:0 0 6px;font-size:14px;line-height:1.5;-webkit-user-select:text;user-select:text}
+.rverdict p:last-child{margin-bottom:0}
+.rverdict .big{font:700 19px/1.2 var(--f-display);color:var(--bad);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.rverdict.ok .big{color:var(--good)}
+.rverdict .force{font:600 12px/1 var(--f-mono);color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.rverdict .pnote{color:var(--ink)}
+.plist{display:flex;flex-direction:column;gap:8px;padding:0 14px 14px}
+.pgh{font:700 10.5px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.pchips{display:flex;flex-wrap:wrap;gap:6px}
+.conv{display:flex;flex-direction:column;gap:10px;min-width:0}
+.convrow{display:flex;gap:8px;flex-wrap:wrap}
+.conv .num{width:150px;height:36px;border:1px solid var(--rim);background:var(--raised);border-radius:999px;text-align:center;font:700 14px/1 var(--f-mono);color:var(--ink)}
+.conv .presets{display:flex;flex-wrap:wrap;gap:6px}
+
+@media (max-width:900px){ .layout.rules{grid-template-areas:"bench" "side" "energy"} .layout.rules>.side{grid-row:auto} }
+@media (max-width:620px){
+  .equation{grid-template-columns:minmax(0,1fr);margin-inline:8px;padding:10px}
+  .eside{writing-mode:horizontal-tb;transform:none;min-height:0;justify-self:start}
+  .arrow{justify-self:center;transform:rotate(90deg)}
+  .rpal{margin-inline:8px}
+  .ctable{width:calc(100% - 16px);margin:0 8px;font-size:12px}
+  .ctable .terms-s{display:block;margin:0 0 2px}
+  .ctable th,.ctable td{padding:6px}
+  .ctable .mark{width:auto}
+}

@@ -1,0 +1,106 @@
+/* Particle Lab. Shared layout: the 3D stage on the left, controls and readings on the right, explanation and graphs
+   below. Each tab adds its own rules in its own file. The 3D views are always dark (as in Star Lab); everything
+   else follows the palette. */
+@import './accel.css';
+@import './detect.css';
+@import './scatter.css';
+@import './zoo.css';
+@import './rules.css';
+
+.layout{display:grid;gap:16px;align-items:start;grid-template-columns:minmax(0,1fr) minmax(300px,370px)}
+.layout.wide{grid-template-columns:minmax(0,1fr)}
+.layout.practice{grid-template-columns:minmax(0,1fr) minmax(260px,340px)}
+.side{display:flex;flex-direction:column;gap:16px;min-width:0}
+.stage{padding-bottom:14px}
+.full{grid-column:1/-1}
+[hidden]{display:none !important}
+.scope{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:-4px 0 14px;overflow-x:auto;scrollbar-width:none}
+.scope .seg{flex:none}
+
+/* ===== the 3D view ===== */
+.spacebox{margin:0 14px}
+.space{position:relative;aspect-ratio:16/10;border-radius:var(--r-md);overflow:hidden;background:#03040a;border:1px solid var(--rim);
+  box-shadow:inset 0 2px 14px -4px rgba(0,0,0,.6);-webkit-user-select:none;user-select:none}
+.space canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab}
+.space canvas:active{cursor:grabbing}
+.nogl{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px;color:#c9cfe6;margin:0}
+.hud{position:absolute;font:600 11.5px/1.35 var(--f-mono);color:#dfe4f5;background:rgba(6,8,18,.55);border:1px solid rgba(255,255,255,.1);
+  padding:6px 10px;border-radius:10px;pointer-events:none;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);max-width:calc(100% - 24px)}
+.hud.tl{top:10px;left:10px;display:flex;flex-direction:column;gap:2px}
+.hud.tl b{font:700 15px/1.2 var(--f-display);letter-spacing:0;color:#fff}
+.hud.bl{bottom:10px;left:10px;font-size:10.5px;color:#aab2cc}
+.hud.tr{top:10px;right:10px;display:flex;flex-direction:column;gap:2px;text-align:right}
+.hud.warn{color:#ffd58a;border-color:rgba(255,213,138,.35)}
+.hud.go{pointer-events:auto}
+.zoom{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px}
+.zb{width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.16);background:rgba(10,12,24,.6);color:#e6e9f6;
+  font:600 18px/1 var(--f-mono);cursor:pointer;display:grid;place-items:center;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.zb:hover{border-color:var(--accent)}
+.zb svg{width:16px;height:16px}
+
+/* ===== controls ===== */
+.picker{display:flex;flex-wrap:wrap;gap:6px;margin:0 14px 10px}
+.playbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:12px 14px 0}
+.playbtn{min-width:96px;justify-content:center}
+.scrub{flex:1 1 160px;min-width:120px}
+.ctls{display:flex;flex-direction:column;gap:14px;padding:6px 16px 16px}
+.ctls.row{flex-direction:row;flex-wrap:wrap;align-items:flex-end;padding:8px 16px 12px;gap:14px 20px}
+.ctls.row .ctl{flex:1 1 200px}
+.sel{height:36px;border:1px solid var(--rim);background:var(--raised);color:var(--ink);border-radius:999px;padding:0 12px;font:600 13.5px var(--f-body);max-width:100%}
+.sel:focus{outline:2px solid var(--accent);outline-offset:1px}
+.reads.pad{margin:0 14px 12px}
+.reads .wide{grid-column:1/-1}
+.reads dd.txt{font:600 13.5px/1.35 var(--f-body)}
+
+/* ===== text ===== */
+.note.pad{margin:14px 16px 4px;font-size:14px;line-height:1.55;-webkit-user-select:text;user-select:text}
+.facts{margin:10px 0 4px;padding:10px 14px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--accent) 7%,transparent);border:1px solid color-mix(in srgb,var(--accent) 18%,transparent)}
+.facts.pad{margin:8px 14px 14px}
+.facts b{font:700 10.5px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.facts ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.facts li{font-size:14px;line-height:1.45;-webkit-user-select:text;user-select:text}
+.beyond{display:inline-block;font:700 9.5px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:999px;
+  color:var(--muted);border:1px dashed color-mix(in srgb,var(--ink) 30%,transparent);vertical-align:middle;white-space:nowrap}
+.work{display:flex;flex-direction:column;gap:6px;margin:0 14px 14px}
+.work .eq{font-size:12.5px;overflow-wrap:anywhere;white-space:normal;overflow:visible;margin:0}
+.why.pad2,.work.pad2{margin:0 16px 14px}
+.gh{margin:6px 0 2px;font:700 12px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+.explain{padding:6px 0}
+.ex-body{padding:12px 18px}
+.ex-body h3{margin:0 0 8px;font:700 21px/1.2 var(--f-display);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.ex-body h3 small{font:600 11px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ex-body p{margin:0 0 8px;max-width:76ch;line-height:1.55;-webkit-user-select:text;user-select:text}
+.cols2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 24px;padding:0 16px 8px}
+.plotbox{padding:0 14px}
+
+/* a particle symbol: base, superscript, subscript, bar for antiparticles */
+.psym{font-family:var(--f-display);font-weight:700;white-space:nowrap;display:inline-block;line-height:1.1}
+.psym .b.bar{text-decoration:overline;text-decoration-thickness:.07em;text-decoration-skip-ink:none;text-underline-offset:0}
+.psym sup,.psym sub{font-size:.58em;line-height:0;position:relative;vertical-align:baseline}
+.psym sup{top:-.75em}
+.psym sub{top:.3em}
+.psym .ss{display:inline-flex;flex-direction:column;line-height:1;margin-left:.04em;vertical-align:-.18em}
+.psym .ss sup,.psym .ss sub{top:0;line-height:1}
+
+/* ===== practice ===== */
+.qprompt{font-size:16px;line-height:1.55;margin:0;-webkit-user-select:text;user-select:text}
+.qbody .btn{align-self:flex-start}
+.qbody .btn.big{align-self:stretch;justify-content:center}
+.qbody .opts button{white-space:normal;text-align:left;line-height:1.35}
+.reveal .eq{-webkit-user-select:text;user-select:text}
+.figure{padding:16px;display:flex;align-items:center;justify-content:center;min-height:220px}
+
+.space,.picker{-webkit-user-select:none;user-select:none}
+
+@media (max-width:1180px){ .layout{grid-template-columns:minmax(0,1fr) minmax(280px,320px)} }
+@media (max-width:900px){
+  .layout,.layout.practice{grid-template-columns:minmax(0,1fr)}
+  .cols2{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:760px){
+  .space{aspect-ratio:1/1.05}
+  .spacebox,.plotbox{margin-inline:8px;padding-inline:0}
+  .playbar,.picker{margin-inline:8px}
+  .scope{justify-content:flex-start}
+  .hud.bl{display:none}
+}

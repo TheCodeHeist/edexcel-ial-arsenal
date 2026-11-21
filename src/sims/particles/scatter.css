@@ -1,0 +1,26 @@
+/* Particle Lab: Nucleus tab (α scattering). Log-scale counts graph, the three conclusions, nuclide notation. */
+.picker.flat{margin:0}
+.logplot{display:block;width:100%;height:auto;font-family:var(--f-mono);overflow:visible}
+.logplot .gl{stroke:color-mix(in srgb,var(--ink) 8%,transparent);stroke-width:1}
+.logplot .ax{stroke:var(--ink);stroke-width:1.6}
+.logplot .tk{font:500 11px var(--f-mono);fill:var(--muted);dominant-baseline:central}
+.logplot .al{font:700 12px var(--f-mono);fill:var(--ink);letter-spacing:.04em}
+.logplot .pred{fill:none;stroke:color-mix(in srgb,var(--accent) 60%,transparent);stroke-width:2.4;stroke-dasharray:7 6}
+.logplot .pt{stroke:var(--ink);stroke-width:2.2;stroke-linecap:round}
+.logplot .det{stroke:var(--good);stroke-width:1.6;stroke-dasharray:3 4;opacity:.8}
+.logplot .msg{font:700 13px var(--f-body);fill:var(--muted)}
+.why.lg{margin:6px 0 10px}
+.concl ol{margin:8px 0 12px;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.concl li{font-size:14px;line-height:1.45;-webkit-user-select:text;user-select:text}
+.concl li b{display:block}
+.concl li span{color:var(--muted)}
+.ncols{padding-top:12px;align-items:start}
+.nuclides{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 10px}
+.nuc{flex:1 1 220px;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;align-items:center;padding:10px 12px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--ink) 5%,transparent)}
+.nuc small{grid-column:1/-1;font:600 11px/1.3 var(--f-mono);color:var(--muted);letter-spacing:.04em}
+.nsym{font:700 34px/1 var(--f-display);display:inline-flex;align-items:center}
+.nsym .az{display:inline-flex;flex-direction:column;align-items:flex-end;font:700 13px/1.1 var(--f-mono);margin-right:3px}
+.nsym .az .a{color:var(--accent)} .nsym .az .z{color:var(--redox)}
+.nuc dl{margin:0;display:flex;flex-direction:column;gap:2px;min-width:0}
+.nuc dl div{display:flex;justify-content:space-between;gap:10px;font-size:12.5px}
+.nuc dt{color:var(--muted)} .nuc dd{margin:0;font:700 13px var(--f-mono)}

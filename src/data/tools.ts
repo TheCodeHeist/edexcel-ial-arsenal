@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom';
 
 export interface Tool {
   slug: string;
@@ -79,6 +79,18 @@ export const TOOLS: Tool[] = [
     topics: ['Life cycle of stars', 'HR diagram', 'Cepheid variables', 'Binary stars', 'Black-body radiation', 'Parallax and standard candles', 'Redshift and Hubble’s law', 'Dark matter'],
     art: 'star',
     href: '/physics/star-lab/',
+    added: '2026-11-21',
+  },
+  {
+    slug: 'particle-lab',
+    subject: 'physics',
+    title: 'Particle Lab',
+    blurb: 'Accelerate electrons, protons and α particles in an electron gun, a linac and a cyclotron in 3D, read the tracks in cloud and bubble chambers, and fire α particles at gold. Explore every quark, lepton, baryon and meson in a particle table, build hadrons from quarks and check reactions against the conservation laws.',
+    kind: 'Simulation',
+    units: ['WPH14'],
+    topics: ['Particle accelerators', 'Particle detectors', 'r = p/BQ', 'Alpha-particle scattering', 'Quarks and leptons', 'Baryons and mesons', 'Antiparticles', 'Conservation laws', 'E = mc² and MeV'],
+    art: 'atom',
+    href: '/physics/particle-lab/',
     added: '2026-11-21',
   },
 ];

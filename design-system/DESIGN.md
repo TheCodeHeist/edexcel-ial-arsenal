@@ -169,6 +169,16 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Every stage and system has Key facts**: the points an exam answer needs, in an accent-tinted box.
 - **Exam conventions**: σ = 5.67 × 10⁻⁸, Wien 2.898 × 10⁻³ m K, L☉ = 3.83 × 10²⁶ W, 1 pc = 3.08 × 10¹⁶ m, answers to 3 s.f. with powers of ten written out.
 
+## 9e · Physics rules (Particle Lab)
+
+- **One 3D engine.** Every 3D view extends `Stage3D` (`src/sims/particles/gl.ts`) inside `View3D.svelte`: lazy-loaded three.js, capped point sprites, non-finite camera values reset, a lost WebGL context rebuilt on a new canvas, wheel zoom only after a click. A tab mounts its view the first time it is shown. Apparatus is always on near-black, like space in Star Lab.
+- **Family colours, everywhere:** quarks `--redox`, leptons `--acidbase`, force carriers `--amph`, baryons `--accent`, mesons `--ligand`. Antiquarks are drawn with a dashed ring.
+- **Symbols are typeset, not typed.** `Sym.svelte` draws the bar over the letter only (Σ̄⁻), stacks two scripts (Λc⁺), and is used for every particle shown as a symbol.
+- **Antiparticles are computed** (`anti()` in `data.ts`) from the particle's record, never stored twice, so a card and its antiparticle always agree.
+- **The specification marks the boundary.** Anything the spec doesn't name (strangeness, spin, interaction type, synchrotrons, collider detectors, nuclear radius) carries a dashed `beyond` chip; it is there for completeness, never needed for an answer.
+- **Conservation checks show every term**: Q, B and L (and each lepton family) are added up particle by particle before the ✓ or ✗; energy and momentum get their own rows.
+- **Exam conventions**: data-sheet constants (e = 1.60 × 10⁻¹⁹ C, mₑ = 9.11 × 10⁻³¹ kg, mₚ = 1.67 × 10⁻²⁷ kg, h = 6.63 × 10⁻³⁴ J s, k = 8.99 × 10⁹ N m² C⁻²), 1 MeV = 1.60 × 10⁻¹³ J, Newtonian formulas as the course uses them, with the relativistic value shown beside them when they differ.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.

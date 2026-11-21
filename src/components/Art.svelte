@@ -77,6 +77,14 @@
     {#each [[-46, -38, 2.2], [40, -46, 1.8], [-50, 44, 1.6], [12, 52, 1.4], [52, 6, 1.4], [-20, -52, 1.2]] as [x, y, r]}
       <circle cx={x} cy={y} r={r} fill="var(--ink)" fill-opacity=".55" />
     {/each}
+  {:else if name === 'atom'}
+    <!-- a cyclotron spiral leaving the dees, with a bubble-chamber pair (e⁺ e⁻) curling apart -->
+    <path d="M-44 -6 A44 44 0 0 1 0 -50 H6 M-44 6 A44 44 0 0 0 0 50 H6" stroke="var(--ink)" stroke-opacity=".35" stroke-width="2.2" />
+    <path d="M0 0 a4 4 0 0 1 8 0 a8 8 0 0 1 -16 0 a12 12 0 0 1 24 0 a16 16 0 0 1 -32 0 a20 20 0 0 1 40 0 a24 24 0 0 1 -48 0 a28 28 0 0 1 56 0" stroke="var(--accent)" stroke-width="2.4" />
+    <path d="M28 0 H54" stroke="var(--accent)" stroke-width="2.4" stroke-dasharray="3 4" />
+    <path d="M30 34 q10 -6 18 2 a7 7 0 1 1 -8 6" stroke="var(--redox)" stroke-width="2.2" />
+    <path d="M30 34 q10 6 4 15 a6 6 0 1 1 -9 -5" stroke="var(--amph)" stroke-width="2.2" />
+    <circle cx="30" cy="34" r="3" fill="var(--ink)" fill-opacity=".7" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />
