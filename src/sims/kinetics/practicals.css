@@ -1,0 +1,25 @@
+/* Kinetics Lab: Core practicals tab. Every rule is scoped under .kn-cp (all tab CSS is global on the page). */
+.kn-cp .cols2.bare{padding:0}
+.kn-cp .playbar .ctl{flex:1 1 260px;min-width:0}
+.kn-cp .playbar .picker{margin:4px 0 0}
+.kn-cp .rtab{width:100%;border-collapse:collapse;font-size:13px}
+.kn-cp .rtab.pad{width:calc(100% - 28px);margin:0 14px 10px}
+.kn-cp .rtab th,.kn-cp .rtab td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.kn-cp .rtab th{font:600 10.5px/1.2 var(--f-mono);letter-spacing:.04em;color:var(--muted);text-transform:none;white-space:normal}
+.kn-cp .rtab td{font-family:var(--f-mono)}
+.kn-cp .rtab td.lft{text-align:left;white-space:normal}
+.kn-cp .rtab td.empty{text-align:left;color:var(--muted);font-family:var(--f-body);white-space:normal;padding:12px 8px}
+.kn-cp .rtab tr.cur td{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.kn-cp .tabwrap{overflow-x:auto;min-width:0}
+.kn-cp .concl{padding:4px 16px 14px}
+.kn-cp .concl p{margin:0;max-width:96ch;line-height:1.55;font-size:14.5px;-webkit-user-select:text;user-select:text}
+.kn-cp .method{margin:6px 0 10px;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.kn-cp .method li{font-size:14px;line-height:1.45}
+.kn-cp .alt{margin:4px 0 12px;font-size:14px;line-height:1.5}
+.kn-cp .safety{margin:4px 0 12px;padding:9px 12px;border-radius:var(--r-sm);font-size:13.5px;line-height:1.45;
+  background:color-mix(in srgb,var(--amph) 12%,transparent);border:1px solid color-mix(in srgb,var(--amph) 30%,transparent)}
+.kn-cp .reads.nocase dt{text-transform:none;letter-spacing:.02em;font-size:11px}
+.kn-cp .work .eq small{color:var(--muted);font-size:11px}
+@media (max-width:760px){
+  .kn-cp .rtab th,.kn-cp .rtab td{padding:5px 5px;font-size:12px}
+}

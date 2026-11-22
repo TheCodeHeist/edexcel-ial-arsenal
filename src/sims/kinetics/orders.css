@@ -1,0 +1,70 @@
+/* Kinetics Lab: Rate equations. Every rule is scoped under .kn-orders (all tab CSS is global on the page). */
+.kn-orders .picker.flat{margin:0}
+.kn-orders .reads.nocase dt{text-transform:none;letter-spacing:.02em;font-size:11px}
+.kn-orders .check{display:flex;align-items:center;gap:8px;font:600 13.5px var(--f-body);cursor:pointer}
+.kn-orders .check input{width:18px;height:18px;accent-color:var(--accent)}
+.kn-orders .field{height:38px;border:1px solid var(--rim);background:var(--raised);color:var(--ink);border-radius:var(--r-sm);padding:0 12px;
+  font:600 14px var(--f-mono);width:100%;max-width:260px}
+.kn-orders .field:focus{outline:2px solid var(--accent);outline-offset:1px}
+.kn-orders .gh{margin:4px 0 6px}
+.kn-orders .eqn{margin:0 0 8px;font:600 13.5px/1.45 var(--f-mono);overflow-wrap:anywhere}
+.kn-orders .hud .sw{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle}
+.kn-orders .hud .sw.y{background:#ffe08a}
+.kn-orders .hud .sw.p{background:#ff9ac8}
+.kn-orders .oplot{display:block;width:100%;height:auto;overflow:visible;font-family:var(--f-mono)}
+.kn-orders .oplot .gl{stroke:color-mix(in srgb,var(--ink) 8%,transparent);stroke-width:1}
+.kn-orders .oplot .ax{stroke:var(--ink);stroke-width:1.6}
+.kn-orders .oplot .tk{font:500 11px var(--f-mono);fill:var(--muted);dominant-baseline:central}
+.kn-orders .oplot .al{font:700 11.5px var(--f-mono);fill:var(--ink);letter-spacing:.03em}
+.kn-orders .oplot .cva{fill:none;stroke:var(--ch1);stroke-width:2.6;stroke-linejoin:round}
+.kn-orders .oplot .cvb{fill:none;stroke:var(--ch2);stroke-width:2.2;stroke-dasharray:6 5}
+.kn-orders .oplot .hl{fill:none;stroke:var(--amph);stroke-width:1.4;stroke-dasharray:4 4}
+.kn-orders .oplot .hlt{font:700 11px var(--f-mono);fill:var(--amph)}
+.kn-orders .oplot .hlc{font:600 10px var(--f-mono);fill:var(--muted)}
+.kn-orders .oplot .now{fill:var(--accent-soft);stroke:var(--accent);stroke-width:2.2}
+.kn-orders .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font:600 11.5px var(--f-mono);color:var(--muted);margin:6px 0 10px}
+.kn-orders .legend i{display:inline-block;width:18px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.kn-orders .legend i.a{background:var(--ch1)}
+.kn-orders .legend i.b{background:var(--ch2)}
+.kn-orders .legend i.h{background:var(--amph)}
+.kn-orders .rtab{width:100%;border-collapse:collapse;font-size:13px;margin:4px 0 8px}
+.kn-orders .rtab th,.kn-orders .rtab td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.kn-orders .rtab th{font:600 10.5px/1.2 var(--f-mono);letter-spacing:.04em;color:var(--muted)}
+.kn-orders .rtab td{font-family:var(--f-mono);white-space:nowrap}
+.kn-orders .rtab td.empty{text-align:left;color:var(--muted);font-family:var(--f-body);white-space:normal}
+.kn-orders .rtab.units td:nth-child(2){text-align:left}
+.kn-orders .rtab tr.on td{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--ink);font-weight:700}
+.kn-orders .fps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:0 16px 16px}
+.kn-orders .fp{padding:12px;border-radius:var(--r-sm);border:1px solid var(--line);transition:border-color .2s,background .2s}
+.kn-orders .fp.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 7%,transparent)}
+.kn-orders .fp b{font:700 14px/1.3 var(--f-body)}
+.kn-orders .fprow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 4px}
+.kn-orders .fprow svg{width:100%;height:auto;overflow:visible}
+.kn-orders .fprow text{font:600 9px var(--f-mono);fill:var(--muted)}
+.kn-orders .fax{fill:none;stroke:var(--ink);stroke-width:1.2}
+.kn-orders .fcv{fill:none;stroke:var(--ch1);stroke-width:2.2}
+.kn-orders .fcv.r{stroke:var(--ch2)}
+.kn-orders .fp p{margin:4px 0 0;font-size:12.5px;line-height:1.4}
+.kn-orders .ctls.ir{padding:6px 0 4px}
+.kn-orders .ctls.ir .picker.flat{flex-wrap:wrap}
+.kn-orders .btns{display:flex;flex-wrap:wrap;gap:8px}
+.kn-orders .fchip.right{border-color:var(--acidbase);color:var(--acidbase)}
+.kn-orders .fchip.wrong{border-color:var(--redox);color:var(--redox)}
+.kn-orders b.good{color:var(--acidbase)}
+.kn-orders b.bad{color:var(--redox)}
+.kn-orders .verdict{font-weight:700;margin:0 0 8px;color:var(--redox)}
+.kn-orders .verdict.ok{color:var(--acidbase)}
+.kn-orders .work.flat{margin:0 0 10px}
+.kn-orders .terms{display:flex;flex-direction:column;gap:8px;margin:0}
+.kn-orders .terms div{padding:6px 0;border-bottom:1px solid var(--line)}
+.kn-orders .terms dt{font:700 13.5px var(--f-body)}
+.kn-orders .terms dt small{font:700 10px var(--f-mono);color:var(--muted);margin-right:6px;letter-spacing:.06em}
+.kn-orders .terms dd{margin:3px 0 0;font-size:13px;line-height:1.45}
+.kn-orders .cols2.bare{padding:0}
+@media (max-width:900px){ .kn-orders .fps{grid-template-columns:minmax(0,1fr)} }
+@media (max-width:760px){
+  .kn-orders .rtab th,.kn-orders .rtab td{padding:5px 4px;font-size:11.5px}
+  .kn-orders .hud.tr{display:none}
+}
+.kn-orders dl.terms{align-items:stretch;text-align:left}
+.kn-orders dl.terms>div{width:auto;max-width:none;margin:0}

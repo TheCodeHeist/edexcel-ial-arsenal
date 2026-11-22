@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics';
 
 export interface Tool {
   slug: string;
@@ -44,6 +44,18 @@ export const TOOLS: Tool[] = [
     art: 'sigil',
     href: '/chemistry/carbon-alchemy/',
     added: '2026-11-17',
+  },
+  {
+    slug: 'kinetics-lab',
+    subject: 'chemistry',
+    title: 'Kinetics Lab',
+    blurb: 'Every kinetics and equilibria idea in Units 2 and 4, in 3D: collisions and the Maxwell–Boltzmann distribution, catalysts and reaction profiles, measuring rates, rate equations, orders and half-life, rate-determining steps and SN1/SN2, dynamic equilibrium and Le Chatelier, Kc and Kp, and the industrial compromise. Core Practicals 9a, 9b and 10 included.',
+    kind: 'Simulation',
+    units: ['WCH12', 'WCH14', 'WCH16'],
+    topics: ['Collision theory', 'Maxwell–Boltzmann', 'Catalysts', 'Rate equations', 'Half-life', 'Arrhenius', 'Mechanisms', 'Le Chatelier', 'Kc and Kp', 'ΔS = R ln K'],
+    art: 'kinetics',
+    href: '/chemistry/kinetics-lab/',
+    added: '2026-11-22',
   },
   {
     slug: 'circuit-builder',

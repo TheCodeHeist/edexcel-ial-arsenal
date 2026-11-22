@@ -1,0 +1,51 @@
+/* Kinetics Lab: Measuring rates. Every rule is scoped under .kn-measure (all tab CSS is global on the page). */
+.kn-measure .picker.flat{margin:0}
+.kn-measure .picker.col{display:flex;flex-wrap:wrap;gap:6px}
+.kn-measure .eqn{margin:0;font:600 13px/1.45 var(--f-mono);color:var(--ink);overflow-wrap:anywhere}
+.kn-measure .eqn.big{font-size:14px;margin:6px 0 10px}
+.kn-measure .why.sm{font-size:12.5px;margin:0}
+.kn-measure .spd{flex:1 1 220px;display:flex;align-items:center;gap:10px}
+.kn-measure .spd .ctl-l{margin:0}
+.kn-measure .reads.pad0{margin:0 0 10px}
+.kn-measure .reads.nocase dt{text-transform:none;letter-spacing:.02em;font-size:11px}
+.kn-measure .reads dd.good{color:var(--ok, #2f9e6a)}
+.kn-measure .ctls.row.tight{padding:4px 0 12px;gap:8px}
+.kn-measure .work.flat{margin:0 0 10px}
+.kn-measure .mplot{display:block;width:100%;height:auto;overflow:visible;touch-action:none;font-family:var(--f-mono);-webkit-user-select:none;user-select:none}
+.kn-measure .mplot .gl{stroke:color-mix(in srgb,var(--ink) 8%,transparent);stroke-width:1}
+.kn-measure .mplot .ax{stroke:var(--ink);stroke-width:1.6}
+.kn-measure .mplot .tk{font:500 11px var(--f-mono);fill:var(--muted);dominant-baseline:central}
+.kn-measure .mplot .al{font:700 11.5px var(--f-mono);fill:var(--ink);letter-spacing:.03em}
+.kn-measure .mplot .msg{font:600 13px var(--f-body);fill:var(--muted)}
+.kn-measure .mplot .cv{fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round;opacity:.75}
+.kn-measure .mplot .pt{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
+.kn-measure .mplot .ruler{stroke:var(--redox);stroke-width:2.6;stroke-linecap:round}
+.kn-measure .mplot .ruler.truth{stroke:var(--acidbase)}
+.kn-measure .mplot .tri{fill:none;stroke:var(--amph);stroke-width:1.6;stroke-dasharray:5 4}
+.kn-measure .mplot .tt{font:700 11px var(--f-mono);fill:var(--amph)}
+.kn-measure .mplot .h{cursor:grab;stroke-width:2.4}
+.kn-measure .mplot .h:active{cursor:grabbing}
+.kn-measure .mplot .h:focus-visible{outline:none;stroke:var(--ink);stroke-width:3.4}
+.kn-measure .mplot .pt0{fill:var(--redox);stroke:var(--solid)}
+.kn-measure .mplot .rot{fill:var(--solid);stroke:var(--redox)}
+.kn-measure .rtab{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:6px}
+.kn-measure .rtab th,.kn-measure .rtab td{padding:6px 7px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.kn-measure .rtab th{font:600 10.5px/1.2 var(--f-mono);letter-spacing:.04em;color:var(--muted);white-space:normal}
+.kn-measure .rtab td{font-family:var(--f-mono)}
+.kn-measure .rtab td.empty{text-align:left;color:var(--muted);font-family:var(--f-body);white-space:normal;padding:12px 8px}
+.kn-measure .plotbox .seg{margin-bottom:8px}
+.kn-measure .techs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.kn-measure .tech{padding:10px 12px;border-radius:var(--r-sm);border:1px solid var(--line);background:color-mix(in srgb,var(--ink) 3%,transparent)}
+.kn-measure .tech b{font:700 13.5px/1.25 var(--f-body)}
+.kn-measure .tech p{margin:5px 0 0;font-size:12.5px;line-height:1.4}
+.kn-measure .tech .snag{color:var(--muted)}
+.kn-measure .tq .picker{margin:0 0 10px}
+.kn-measure .fchip.right{border-color:var(--acidbase);color:var(--acidbase)}
+.kn-measure .fchip.wrong{border-color:var(--redox);color:var(--redox)}
+.kn-measure .verdict{font-weight:700;margin:4px 0;color:var(--redox)}
+.kn-measure .verdict.ok{color:var(--acidbase)}
+.kn-measure .cols2.bare{padding:0}
+@media (max-width:760px){
+  .kn-measure .techs{grid-template-columns:minmax(0,1fr)}
+  .kn-measure .rtab th,.kn-measure .rtab td{padding:5px 4px;font-size:11.5px}
+}

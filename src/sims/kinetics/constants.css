@@ -1,0 +1,33 @@
+/* Kinetics Lab: Kc and Kp tab. Every rule is scoped under .kn-k (all tab CSS is global on the page). */
+.kn-k .picker.flat{margin:0 14px 10px}
+.kn-k .hud .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.kn-k .kexpr{display:flex;align-items:center;gap:10px;padding:8px 16px 14px;font:700 20px/1.2 var(--f-display);flex-wrap:wrap}
+.kn-k .kexpr .kk sub{font-size:.62em}
+.kn-k .frac{display:inline-flex;flex-direction:column;align-items:center;text-align:center}
+.kn-k .frac .nu{padding:0 6px 4px;border-bottom:2px solid var(--ink)}
+.kn-k .frac .de{padding:4px 6px 0}
+.kn-k .kbar{position:relative;height:44px;margin:4px 18px 10px}
+.kn-k .kbar .track{position:absolute;left:0;right:0;top:10px;height:8px;border-radius:99px;
+  background:linear-gradient(90deg,color-mix(in srgb,var(--ch2) 70%,transparent),color-mix(in srgb,var(--ink) 15%,transparent) 50%,color-mix(in srgb,var(--ch1) 70%,transparent))}
+.kn-k .kbar .mark{position:absolute;top:4px;width:4px;height:20px;margin-left:-2px;border-radius:3px;background:var(--ink)}
+.kn-k .kbar span{position:absolute;top:26px;font:600 10.5px/1 var(--f-mono);color:var(--muted)}
+.kn-k .kbar .lo{left:0}.kn-k .kbar .mid{left:50%;transform:translateX(-50%)}.kn-k .kbar .hi{right:0}
+.kn-k .num{width:100%;min-width:70px;height:34px;border:1px solid var(--rim);background:var(--raised);color:var(--ink);border-radius:var(--r-sm);
+  padding:0 8px;font:600 13.5px var(--f-mono);font-variant-numeric:tabular-nums}
+.kn-k .num:focus{outline:2px solid var(--accent);outline-offset:1px}
+.kn-k .ctls.row .ctl{max-width:340px}
+.kn-k .tscroll{overflow-x:auto;margin:0 14px 12px}
+.kn-k .ice{width:100%;border-collapse:collapse;font-size:13px;min-width:460px}
+.kn-k .ice th,.kn-k .ice td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.kn-k .ice thead th{font:700 12.5px/1.2 var(--f-body)}
+.kn-k .ice tbody th{text-align:left;font:600 11px/1.2 var(--f-mono);color:var(--muted)}
+.kn-k .ice td{font-family:var(--f-mono)}
+.kn-k .ice td .num{width:100px;text-align:right}
+.kn-k .ice td.meas{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.kn-k .ice .neg{color:var(--redox);font-weight:700}
+.kn-k .eq.big{font-size:14px}
+.kn-k .eq.big b{color:var(--accent)}
+.kn-k .eq.warn{color:var(--redox);font-weight:700}
+.kn-k .method{margin:0;padding:0 0 0 20px;display:flex;flex-direction:column;gap:6px;font-size:14px;line-height:1.5}
+.kn-k .ph .btn{height:30px;font-size:12.5px}
+@media (max-width:560px){ .kn-k .hud.tr{display:none} }

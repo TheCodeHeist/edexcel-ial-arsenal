@@ -189,6 +189,14 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Phase is written both ways**: radians as multiples of π and degrees, with “in phase” or “antiphase” where it applies.
 - **Exam conventions**: h = 6.63 × 10⁻³⁴ J s, c = 3.00 × 10⁸ m s⁻¹, e = 1.60 × 10⁻¹⁹ C, mₑ = 9.11 × 10⁻³¹ kg, g = 9.81 N kg⁻¹; the electronvolt beside joules; answers to 3 s.f.
 
+## 9g · Chemistry rules (Kinetics Lab)
+
+- **Same engine as the physics labs.** The 3D views extend Particle Lab's `Stage3D` inside `View3D.svelte` (re-exported from `src/sims/kinetics/`); layout, HUD chips, readings and practice styles come from `particles.css`, with one CSS file per tab scoped under its root class (`kn-collide`, `kn-catalyst`, `kn-measure`, `kn-orders`, `kn-cp`, `kn-mech`, `kn-equil`, `kn-k`, `kn-industry`, `kn-practice`).
+- **Every spec statement has a home.** Topic 9 (Unit 2), Topics 11 and 13 (Unit 4): Collisions (9.1, 9.2, 9.4, 9.8), Catalysts (9.5–9.8, 11.1ix, 11.11), Measuring rates (9.3, 11.3, 11.4), Rate equations (11.1, 11.2, 11.4, 11.5), Core practicals (9a, 9b, 10; 11.10, 11.12, 11.13), Mechanisms (11.6–11.9), Equilibrium (9.9, 9.10, 13.4, 13.5, 13.7), Kc and Kp (13.1–13.3, 13.9), Industry (9.11, 13.6, 13.8). Anything further carries the dashed `beyond` chip.
+- **Ten tabs**: short labels from 1240 px, two rows of five on phones (four below 440 px).
+- **Particles really react.** Collision and equilibrium views count real collisions with energies drawn from a Maxwell–Boltzmann distribution; nothing is faked to look right.
+- **Exam conventions**: R = 8.31 J mol⁻¹ K⁻¹, T/K = θ/°C + 273, molar gas volume 24.0 dm³ mol⁻¹ at RTP, partial pressures in atm; units of k and K are always worked out, never copied.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.

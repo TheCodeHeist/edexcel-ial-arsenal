@@ -1,0 +1,57 @@
+/* Kinetics Lab: Catalysts tab. Every rule is scoped under .kn-catalyst (all tab CSS is global on the page). */
+.kn-catalyst .reads.pad0{margin:0 0 10px}
+.kn-catalyst .cols2.bare{padding:0}
+.kn-catalyst .stages{flex-wrap:nowrap}
+.kn-catalyst .caption{margin:12px 16px 0;font-size:14.5px;line-height:1.55;min-height:3.1em;-webkit-user-select:text;user-select:text}
+.kn-catalyst .kinds{display:flex;flex-direction:column;gap:10px;padding:0 16px 4px}
+.kn-catalyst .kinds h4{margin:0 0 4px;font:700 15px/1.2 var(--f-display)}
+.kn-catalyst .kinds p{margin:0;font-size:13.5px;line-height:1.5}
+.kn-catalyst .kinds p.eg{margin-top:5px;font:600 11.5px/1.5 var(--f-mono);color:var(--muted)}
+.kn-catalyst .phrow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+.kn-catalyst .phctl{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.kn-catalyst .prof{display:block;width:100%;height:auto;overflow:visible;font-family:var(--f-mono)}
+.kn-catalyst .prof .ax{stroke:var(--ink);stroke-width:1.6}
+.kn-catalyst .prof .ah{fill:var(--ink)}
+.kn-catalyst .prof .ahc{fill:var(--acidbase)}
+.kn-catalyst .prof .al{font-size:11.5px;font-weight:700;fill:var(--ink)}
+.kn-catalyst .prof .lvl{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:4 4}
+.kn-catalyst .prof .route{fill:none;stroke:var(--ink);stroke-width:2.8;stroke-linejoin:round;opacity:.85}
+.kn-catalyst .prof .route.cat{stroke:var(--acidbase);opacity:1}
+.kn-catalyst .prof .arr{stroke:var(--ink);stroke-width:1.6}
+.kn-catalyst .prof .arr.cat{stroke:var(--acidbase)}
+.kn-catalyst .prof .lab{font-size:12px;fill:var(--muted)}
+.kn-catalyst .prof .lab.b{fill:var(--ink);font-weight:700;font-size:13px}
+.kn-catalyst .prof .lab.c{fill:var(--acidbase);font-weight:700;font-size:13px}
+.kn-catalyst .prof .idot{fill:var(--acidbase)}
+.kn-catalyst .prof .lab.sm{font-size:11px;font-weight:600}
+.kn-catalyst .tctl{margin-top:10px}
+.kn-catalyst .codemo{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.kn-catalyst .beaker{width:200px;max-width:46%;height:auto;flex:none}
+.kn-catalyst .beaker .glass{fill:color-mix(in srgb,var(--ink) 4%,transparent);stroke:var(--ink);stroke-width:2.4;stroke-linejoin:round}
+.kn-catalyst .beaker .liquid{transition:fill 1.2s ease}
+.kn-catalyst .beaker .foam{fill:#f6fbf4;opacity:.85}
+.kn-catalyst .beaker .hot{fill:var(--redox);opacity:.75}
+.kn-catalyst .beaker .tt{font:700 12px var(--f-mono);fill:var(--muted)}
+.kn-catalyst .beaker .bub circle{fill:rgba(255,255,255,.75);stroke:rgba(0,0,0,.15);stroke-width:.6;animation:kn-rise 1.6s linear infinite}
+.kn-catalyst .beaker .bub.still circle{animation:none;opacity:.6;transform:translateY(-40px)}
+@keyframes kn-rise{from{transform:translateY(0);opacity:.9}to{transform:translateY(-100px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.kn-catalyst .beaker .bub circle{animation:none;transform:translateY(-40px)}}
+.kn-catalyst .costeps{display:flex;flex-direction:column;gap:10px;flex:1 1 220px;min-width:0}
+.kn-catalyst .sh{margin:0 0 6px;font:700 16px/1.2 var(--f-display)}
+.kn-catalyst .why.big{font-size:14.5px;color:var(--ink);margin-bottom:8px}
+.kn-catalyst .safety{margin:10px 0 0;font-size:13px;line-height:1.5;color:var(--muted)}
+.kn-catalyst .cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;padding:0 16px 14px}
+.kn-catalyst .cases article{padding:12px 14px;border-radius:var(--r-sm);border:1px solid var(--rim);background:color-mix(in srgb,var(--ink) 3%,transparent)}
+.kn-catalyst .cases h4{margin:0 0 4px;font:700 15px/1.2 var(--f-display)}
+.kn-catalyst .cases p{margin:0;font-size:13.5px;line-height:1.5}
+.kn-catalyst .cases p.meta{font-size:12.5px;color:var(--muted);margin-bottom:4px}
+.kn-catalyst .cases p.eqn{font:600 12.5px/1.5 var(--f-mono);margin-bottom:6px}
+.kn-catalyst .tag{display:inline-block;font:700 9.5px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:999px;margin-right:4px;
+  color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent)}
+.kn-catalyst .tag.homo,.kn-catalyst .tag.both{color:var(--acidbase);border-color:color-mix(in srgb,var(--acidbase) 40%,transparent)}
+.kn-catalyst .tag.enzyme{color:var(--amph);border-color:color-mix(in srgb,var(--amph) 40%,transparent)}
+@media (max-width:760px){
+  .kn-catalyst .stages .fchip{padding:5px 9px}
+  .kn-catalyst .beaker{max-width:40%}
+  .kn-catalyst .playbar .step{display:none}
+}

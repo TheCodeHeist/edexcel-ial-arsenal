@@ -1,0 +1,17 @@
+/* Kinetics Lab: Industry tab. Every rule is scoped under .kn-industry (all tab CSS is global on the page). */
+.kn-industry .ctls.row{padding-top:12px}
+.kn-industry .ctls.row .ctl{flex:0 1 auto}
+.kn-industry .ph .btn{height:30px;font-size:12.5px}
+.kn-industry .ph .tag{font:600 10.5px/1 var(--f-mono);color:var(--muted);margin-left:6px;letter-spacing:.04em}
+.kn-industry .said{margin:0 14px 14px;padding:10px 12px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--accent) 7%,transparent);
+  border:1px solid color-mix(in srgb,var(--accent) 18%,transparent);display:flex;flex-direction:column;gap:6px}
+.kn-industry .said p{margin:0;font-size:13.5px;line-height:1.5}
+.kn-industry .real{margin:0 16px 8px;font-size:14px;line-height:1.5}
+.kn-industry .real b{font-family:var(--f-mono);font-size:13px;color:var(--accent)}
+.kn-industry .whys{margin:0 16px 16px;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:13.5px;line-height:1.5;-webkit-user-select:text;user-select:text}
+.kn-industry .cap{margin:4px 4px 12px;font-size:13px;color:var(--muted);line-height:1.45}
+.kn-industry .legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:4px 4px 0;font:600 12px/1.2 var(--f-mono)}
+.kn-industry .legend i{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:6px;vertical-align:3px}
+.kn-industry .work .why{margin:4px 0 0}
+.kn-industry .reads dd.txt{font-size:12.5px}
+@media (max-width:560px){ .kn-industry .hud.tr{display:none} .kn-industry .ctls.row .ctl{flex:1 1 100%} }

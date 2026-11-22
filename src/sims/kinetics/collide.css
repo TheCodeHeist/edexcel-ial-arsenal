@@ -1,0 +1,20 @@
+/* Kinetics Lab: Collisions tab. Every rule is scoped under .kn-collide (all tab CSS is global on the page). */
+.kn-collide .reads.pad0{margin:0 0 10px}
+.kn-collide .cols2.bare{padding:0}
+.kn-collide .hud.tr span{display:flex;align-items:center;gap:6px;justify-content:flex-end}
+.kn-collide .dot{display:inline-block;width:9px;height:9px;border-radius:50%}
+.kn-collide .dot.a{background:#4f8cff}
+.kn-collide .dot.b{background:#ffa63d}
+.kn-collide .dot.p{background:#4fe0a0}
+.kn-collide .dot.s{background:#d8d2c4;border-radius:2px}
+.kn-collide .mbctl{margin:10px 0 0}
+.kn-collide .t2ctl{margin-top:10px}
+.kn-collide .factors{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;padding:0 16px 16px}
+.kn-collide .factors article{padding:12px 14px;border-radius:var(--r-sm);border:1px solid var(--rim);background:color-mix(in srgb,var(--ink) 3%,transparent);transition:border-color .2s,background .2s}
+.kn-collide .factors article.on{border-color:color-mix(in srgb,var(--accent) 55%,transparent);background:color-mix(in srgb,var(--accent) 8%,transparent)}
+.kn-collide .factors h4{margin:0 0 6px;font:700 15px/1.2 var(--f-display)}
+.kn-collide .factors p{margin:0;font-size:13.5px;line-height:1.5;color:var(--ink);-webkit-user-select:text;user-select:text}
+@media (max-width:760px){
+  .kn-collide .hud.tr{top:auto;bottom:10px;left:10px;right:auto;flex-direction:row;gap:10px;font-size:10.5px;padding:5px 8px}
+  .kn-collide .hud.tl b{font-size:13px}
+}

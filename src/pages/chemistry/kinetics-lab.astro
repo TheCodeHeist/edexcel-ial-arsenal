@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/kinetics/App.svelte';
+import '../../sims/kinetics/kinetics.css';
+---
+<Sim title="Kinetics Lab" description="Collision theory and the Maxwell–Boltzmann distribution in 3D, catalysts, measuring rates, rate equations and orders, half-life, Core Practicals 9a, 9b and 10, rate-determining steps and SN1/SN2, dynamic equilibrium and Le Chatelier, Kc and Kp, and the industrial compromise, for Edexcel IAL Chemistry Units 2 and 4.">
+  <App client:only="svelte" />
+</Sim>

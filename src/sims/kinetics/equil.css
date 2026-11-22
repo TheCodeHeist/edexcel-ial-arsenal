@@ -1,0 +1,10 @@
+/* Kinetics Lab: Equilibrium tab. Every rule is scoped under .kn-equil (all tab CSS is global on the page). */
+.kn-equil .btns{display:flex;flex-wrap:wrap;gap:8px;padding:4px 14px 14px}
+.kn-equil .btns .btn{flex:1 1 140px;justify-content:center}
+.kn-equil .btns .btn[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.kn-equil .said{margin:0 14px 14px;padding:10px 12px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--accent) 7%,transparent);
+  border:1px solid color-mix(in srgb,var(--accent) 18%,transparent);display:flex;flex-direction:column;gap:6px}
+.kn-equil .said b{font:700 13px/1.3 var(--f-body);color:var(--accent)}
+.kn-equil .said p{margin:0;font-size:13.5px;line-height:1.5;-webkit-user-select:text;user-select:text}
+.kn-equil .reads dt{font-weight:700}
+@media (max-width:560px){ .kn-equil .hud.tr{display:none} .kn-equil .hud.tl span{font-size:10px} }
