@@ -422,7 +422,19 @@ HEADER = re.compile(r"^(?:Question\b(?! Paper)|Q$|Q\s+(?=[A-Z]))", re.I)
 MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*|(?:i|ii|iii|iv|v|vi))$")   # M2: '1a', '2b(ii)'; P1 Oct 2023: '7ai'
 # A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …',
 # S1 Oct 2021: '1 (a) [Sum of probs …', no dot).
-MS_LABEL_LEAD = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)(?=\S)")
+# Greedy, and only when text follows: a bare '(b)(i)' must not backtrack to '(b)' with '(i)' as its "text"
+# (nested (i)/(ii) rows then lost their (i)); text that itself opens with '(' ('(a) (0.2 + …)', S1) still counts.
+MS_LABEL_LEAD_RE = re.compile(r"^(?:(\d{1,2})\s*\.?\s*)?((?:\(\s*[a-z]{1,4}\s*\)\s*)+)")
+
+
+class _Lead:
+    @staticmethod
+    def match(text):
+        m = MS_LABEL_LEAD_RE.match(text)
+        return m if m and text[m.end():].strip() else None
+
+
+MS_LABEL_LEAD = _Lead
 # A question with no parts, its number running on into the scheme (S1 Jan 2020: '1. [Sum of probs = 1 gives]').
 MS_NUM_LEAD = re.compile(r"^(\d{1,2})\s*\.\s+(?=\S)")
 # A question's closing total, in each unit's style: '(7 marks)' (P), '(Total 5 marks)' (FP), 'Total 8' (S1),
@@ -614,8 +626,9 @@ def ms_split(ms_doc, questions):
         nlead = MS_NUM_LEAD.match(l.text) if long_line and not lead else None
         if nlead and not (int(nlead[1]) == expected and under_header(l)):
             nlead = None                                    # only right under a header, as the next question
-        if long_line and not lead and not nlead:
+        if long_line and not lead and not nlead and not (MS_LABEL.match(l.text) and "(" in l.text):
             continue                                        # a line of scheme text that merely starts here
+            #                                                 (a bare '(a)(ii)' whose box overhangs: P1 Jan 2026)
         if nlead:
             num, labs = nlead[1], []
         elif lead:
@@ -725,7 +738,107 @@ def ms_split(ms_doc, questions):
     for a, b in zip(rows, rows[1:]):
         if a.q == b.q and a.end != b.start:
             a.end = b.start
+    clear_ms_edges(ms_doc, rows, notes, lines)
     return rows, notes, problems, lines, items
+
+
+def ms_safe_y(doc, pno, y, lo, hi, lines=(), reach=5, rule_reach=10):
+    """Where a mark-scheme crop edge near y should sit so it cuts no printed glyph (strictly between lo and hi).
+    The readers' commonest complaint: a part's rows sliced through a line of working, a '(Total 5)' or '(2)'
+    split between two crops. In order: y itself if it is on a table rule or cuts no ink; else the nearest table
+    rule within `rule_reach` pt (the cells' real borders); else the nearest ink-free pixel row within `reach`.
+    Never by handing a whole line of text to the other crop: a line the edge cuts goes with the side its middle
+    is on, and a part's total ('(3)') always stays with the rows above it."""
+    rules = [ry for ry in rule_ys(doc, pno) if lo + 3 < ry < hi - 3]
+    if any(abs(ry - y) <= 3 for ry in rule_ys(doc, pno)):
+        return y
+    w, h, stride, s = page_ink(doc, pno)
+    k = 100 / 72
+    x0, x1 = ms_x_range(doc)
+    c0, c1 = max(0, int(x0 * k)), min(w, int(x1 * k))
+    r0 = max(0, int((y - rule_reach - 4) * k))
+    r1 = min(h - 1, int((y + rule_reach + 4) * k))
+    if r1 - r0 < 4:
+        return y
+    # a vertical rule: a pixel column inked down (nearly) the whole window
+    counts = [0] * (c1 - c0)
+    for r in range(r0, r1 + 1):
+        row = s[r * stride + c0: r * stride + c1]
+        for i, v in enumerate(row):
+            if v < 140:
+                counts[i] += 1
+    n = r1 - r0 + 1
+    vert = {i for i, c in enumerate(counts) if c > 0.85 * n}
+    vert |= {i + d for i in vert for d in (-2, -1, 1, 2)}
+
+    def safe(r):
+        row = s[r * stride + c0: r * stride + c1]
+        ink = [i for i, v in enumerate(row) if v < 140 and i not in vert]
+        return not ink or len(ink) > 0.6 * (c1 - c0)       # blank, or a horizontal rule across the table
+
+    r = int(round(y * k))
+    if 0 <= r < h and safe(r):
+        return y
+    mine = [l for l in lines if l.page == pno]
+    cut = [l for l in mine if l.y0 + 0.5 < y < l.y1 - 0.5]
+    down_only = any(MS_PART_TOTAL.match(l.text) or MS_TOTAL.match(l.text) for l in cut)
+
+    def ok(ny):
+        if down_only and ny < y:
+            return False
+        a, b = min(y, ny), max(y, ny)
+        for l in mine:
+            if l in cut:
+                if not down_only and a < l.mid < b:
+                    return False                # a cut line stays with the side its middle is on
+            elif a < l.mid < b:
+                return False                    # never hand a whole line to the other crop
+        return True
+
+    for ry in sorted(rules, key=lambda ry: abs(ry - y)):
+        if abs(ry - y) > rule_reach:
+            break
+        if ok(ry):
+            return ry - 1                       # just above the rule, as row starts are
+    for d in range(1, int(reach * k) + 1):
+        for rr in (r - d, r + d):
+            if 0 <= rr < h and lo + 3 < rr / k < hi - 3 and safe(rr) and ok(rr / k):
+                return rr / k
+    return y
+
+
+def clear_ms_edges(doc, rows, notes, lines=()):
+    """Move the mark-scheme boundaries two crops share off printed ink: between a question's rows, between its
+    last row and its notes, and between its notes and the next question's first row (both sides move together,
+    so nothing is lost or shown twice)."""
+    for a, b in zip(rows, rows[1:]):
+        if a.q == b.q and a.end == b.start and a.end[0] == b.start[0]:
+            pno = a.end[0]
+            lo = a.start[1] if a.start[0] == pno else COL_Y0 - 30
+            hi = b.end[1] if b.end and b.end[0] == pno else COL_Y1 + 30
+            y = ms_safe_y(doc, pno, a.end[1], lo, hi, lines)
+            a.end = b.start = (pno, y)
+    by_q = {}
+    for r in rows:
+        by_q.setdefault(r.q, []).append(r)
+    for qn, (ns, ne) in list(notes.items()):
+        last = by_q[qn][-1]
+        # the row's end (under its total line) and the notes' start: one edge
+        if last.end and last.end[0] == ns[0] and 0 <= ns[1] - last.end[1] < 1 or (
+                last.end and last.end[0] == ns[0] and 0 <= last.end[1] - ns[1] <= PAD):
+            pno = ns[0]
+            lo = last.start[1] if last.start[0] == pno else COL_Y0 - 30
+            hi = ne[1] if ne[0] == pno else COL_Y1 + 30
+            y = ms_safe_y(doc, pno, last.end[1], lo, hi, lines)
+            last.end, ns = (pno, y), (pno, y)
+        nxt = by_q.get(qn + 1)
+        if nxt and nxt[0].start == ne:
+            pno = ne[0]
+            lo = ns[1] if ns[0] == pno else COL_Y0 - 30
+            hi = nxt[0].end[1] if nxt[0].end and nxt[0].end[0] == pno else COL_Y1 + 30
+            y = ms_safe_y(doc, pno, ne[1], lo, hi, lines)
+            ne = nxt[0].start = (pno, y)
+        notes[qn] = (ns, ne)
 
 
 FOOTER = re.compile(r"^Pearson Education Limited\. Registered company", re.I)
