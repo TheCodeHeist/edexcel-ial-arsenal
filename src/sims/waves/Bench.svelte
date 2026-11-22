@@ -79,7 +79,8 @@
   /* ---------- 3D ---------- */
   let scene: BenchScene | null = null;
   function onscene(s: Stage3D<BLook> | null) { scene = s as BenchScene | null; scene?.setTime(t); }
-  $effect(() => { scene?.setTime(t); });
+  // read t first: with scene still null, `scene?.setTime(t)` would skip t, leaving the effect with no dependency
+  $effect(() => { const now = t; scene?.setTime(now); });
   const look = $derived<BLook>({ medium: prefs.medium, L: M.L, w, gain, P, Q, pressure: prefs.pressure, ghost: prefs.ghost });
 
   /* ---------- phase between P and Q ---------- */

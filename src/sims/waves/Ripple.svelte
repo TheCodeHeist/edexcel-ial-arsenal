@@ -74,7 +74,8 @@
     scene = s as RippleScene | null;
     if (scene) { scene.onPick = (x, z) => { prefs.probe = [+x.toFixed(2), +z.toFixed(2)]; }; scene.setPhase(ph, extra); }
   }
-  $effect(() => { scene?.setPhase(ph, $state.snapshot(extra)); });
+  // read ph and extra first: with scene still null, `scene?.setPhase(...)` would skip them and the effect would never rerun
+  $effect(() => { const p = ph, e = $state.snapshot(extra); scene?.setPhase(p, e); });
   const look = $derived<RLook>({
     mode: prefs.mode, lambda, d: prefs.d, phi, gap: prefs.gap, obs: prefs.obs,
     src: src.list, rmin: src.rmin, obl: src.obl,
