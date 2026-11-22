@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple';
 
 export interface Tool {
   slug: string;
@@ -85,13 +85,25 @@ export const TOOLS: Tool[] = [
     slug: 'particle-lab',
     subject: 'physics',
     title: 'Particle Lab',
-    blurb: 'Accelerate electrons, protons and α particles in an electron gun, a linac and a cyclotron in 3D, read the tracks in cloud and bubble chambers, and fire α particles at gold. Explore every quark, lepton, baryon and meson in a particle table, build hadrons from quarks and check reactions against the conservation laws.',
+    blurb: 'Accelerate electrons, protons and α particles in an electron gun, a linac and a cyclotron in 3D, read the tracks in cloud and bubble chambers, and fire α particles at gold. Explore every quark, lepton, baryon and meson in a particle table, build hadrons from quarks, check reactions against the conservation laws, and watch annihilation and pair production turn mass into energy and back.',
     kind: 'Simulation',
     units: ['WPH14'],
-    topics: ['Particle accelerators', 'Particle detectors', 'r = p/BQ', 'Alpha-particle scattering', 'Quarks and leptons', 'Baryons and mesons', 'Antiparticles', 'Conservation laws', 'E = mc² and MeV'],
+    topics: ['Particle accelerators', 'Particle detectors', 'r = p/BQ', 'Alpha-particle scattering', 'Quarks and leptons', 'Baryons and mesons', 'Antiparticles', 'Annihilation and pair production', 'Conservation laws', 'E = mc² and MeV'],
     art: 'atom',
     href: '/physics/particle-lab/',
     added: '2026-11-21',
+  },
+  {
+    slug: 'waves-lab',
+    subject: 'physics',
+    title: 'Waves Lab',
+    blurb: 'Every wave idea in Unit 2, in 3D: transverse and longitudinal waves, phase and path difference, interference and Huygens diffraction in a ripple tank, standing waves on a string, refraction, total internal reflection and polarisation, the diffraction grating and electron diffraction, pulse–echo, the photoelectric effect and line spectra. Core Practicals 4, 5 and 6 included.',
+    kind: 'Simulation',
+    units: ['WPH12', 'WPH13'],
+    topics: ['v = fλ', 'Transverse and longitudinal', 'Superposition and interference', 'Standing waves', 'Refraction and TIR', 'Polarisation', 'Diffraction grating', 'de Broglie', 'Pulse–echo', 'Photoelectric effect', 'Line spectra'],
+    art: 'ripple',
+    href: '/physics/waves-lab/',
+    added: '2026-11-22',
   },
 ];
 

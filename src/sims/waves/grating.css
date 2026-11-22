@@ -1,0 +1,8 @@
+/* Waves Lab: Diffraction tab. Laser swatches, the safety note, the readings under the results table. */
+.fchip.lz{display:inline-flex;align-items:center;gap:6px}
+.fchip.lz i{width:10px;height:10px;border-radius:50%;flex:none;box-shadow:0 0 6px currentColor}
+.safety{margin:4px 0 12px;padding:9px 12px;border-radius:var(--r-sm);font-size:13.5px;line-height:1.45;
+  background:color-mix(in srgb,var(--amph) 12%,transparent);border:1px solid color-mix(in srgb,var(--amph) 30%,transparent)}
+.reads.pad0{margin:0 0 10px}
+.picker.flat .why{margin:0}
+.reads.nocase dt{text-transform:none;letter-spacing:.02em;font-size:11px}

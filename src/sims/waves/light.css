@@ -1,0 +1,43 @@
+/* Waves Lab: Light tab. The TIR reasoning, the 2D ray diagram, interfaces, the method and its table. */
+.wv-light .tick{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13.5px;font-weight:650;cursor:pointer}
+.wv-light .tick input{width:17px;height:17px;accent-color:var(--accent);margin:0}
+.tirq{margin:4px 16px 8px;padding-left:22px;display:flex;flex-direction:column;gap:8px}
+.tirq li{font-size:13.5px;line-height:1.4}
+.tirq li b{display:block}
+.tirq li span{color:var(--muted);font-family:var(--f-mono);font-size:12.5px}
+.tirq li.ok::marker{color:var(--good)} .tirq li.no::marker{color:var(--bad)}
+.tirq li.ok b::after{content:' ✓';color:var(--good)} .tirq li.no b::after{content:' ✗';color:var(--bad)}
+p.verdict{margin:0 16px 16px;padding:9px 12px;border-radius:var(--r-sm);font-weight:700;font-size:14px}
+p.verdict.tir{background:color-mix(in srgb,var(--amph) 16%,transparent);color:color-mix(in srgb,var(--amph) 60%,var(--ink))}
+p.verdict.ref{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+
+.raydia{display:block;width:100%;height:auto;border-radius:var(--r-sm);background:color-mix(in srgb,var(--ink) 4%,transparent);font-family:var(--f-mono)}
+.raydia .blk{fill:color-mix(in srgb,var(--accent) 10%,transparent);stroke:var(--ink);stroke-opacity:.55;stroke-width:2}
+.raydia .blk.core{fill:color-mix(in srgb,var(--accent) 18%,transparent)}
+.raydia .ray{stroke:var(--amph);stroke-width:2.2;stroke-linecap:round}
+.raydia .ray.main{stroke-width:3.4}
+.raydia .nrm{stroke:var(--ink);stroke-opacity:.5;stroke-width:1.4;stroke-dasharray:6 5}
+.raydia .arc{fill:none;stroke-width:2}
+.raydia .arc.ai{stroke:var(--accent)} .raydia .arc.ar{stroke:var(--redox)} .raydia .arc.at{stroke:var(--amph)}
+.raydia .atx{font-size:15px;font-weight:700;text-anchor:middle;dominant-baseline:central;paint-order:stroke;stroke:var(--surf);stroke-width:4px}
+.raydia .atx.ai{fill:var(--accent)} .raydia .atx.ar{fill:var(--redox)} .raydia .atx.at{fill:color-mix(in srgb,var(--amph) 70%,var(--ink))}
+.raydia .lamp{fill:var(--amph)}
+.raydia .rbox{fill:var(--ink);fill-opacity:.7}
+.ifaces{display:flex;flex-direction:column;gap:6px;margin:8px 0 12px}
+.iface{padding:7px 10px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--ink) 5%,transparent);display:flex;flex-direction:column;gap:2px;font-size:13.5px}
+.iface span{font-family:var(--f-mono);font-size:12.5px}
+.iface small{color:var(--muted);font-size:12px}
+.iface.tir{background:color-mix(in srgb,var(--amph) 14%,transparent)}
+.ifaces .more{color:var(--muted)}
+.work.flat{margin:6px 0 10px}
+.cols2.bare{padding:0}
+.method{margin:6px 0 10px;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.method li{font-size:14px;line-height:1.45}
+.ctls.row .btn{flex:none}
+.wv-light .rtab{width:100%;border-collapse:collapse;font:13px var(--f-mono);margin:4px 0 12px}
+.wv-light .rtab th{font:700 11px var(--f-mono);letter-spacing:.06em;color:var(--muted);text-align:right;padding:6px 8px;border-bottom:1.5px solid var(--line)}
+.wv-light .rtab td{text-align:right;padding:5px 8px;border-bottom:1px dashed var(--line);font-variant-numeric:tabular-nums}
+.wv-light .rtab td.empty{text-align:left;color:var(--muted);font-family:var(--f-body)}
+@media (max-width:760px){ .tirq{margin-inline:10px} p.verdict{margin-inline:10px} }
+.wv-light .tick{color:var(--ink)}
+@media (max-width:760px){ .raydia .atx{font-size:24px;stroke-width:6px} .raydia .ray{stroke-width:3.2} .raydia .ray.main{stroke-width:4.6} }

@@ -1,0 +1,74 @@
+/* Waves Lab: Photons tab. Metal chips, the Eₖ–f graph, the models table and timeline, the energy-level diagram,
+   the spectrum strip and the EM-spectrum calculator. */
+.photon .fchip .phi{font:600 11px var(--f-mono);opacity:.7;margin-left:2px}
+.photon .reads dd small.j{display:block;font:600 11px/1.3 var(--f-mono);color:var(--muted);margin-top:2px}
+.photon .reads dd .rec{margin-top:8px;display:flex}
+.btn.sm{height:30px;padding:0 12px;font-size:12.5px}
+.photon .spectrum-slider::-webkit-slider-runnable-track{background:linear-gradient(90deg,#4b2a6e 0%,#5a2fa0 25%,#3a5cff 33%,#00c8ff 40%,#20d060 47%,#f0e020 56%,#ff8a00 63%,#e02020 70%,#5a1a1a 80%,#3a2020 100%)}
+.photon .spectrum-slider::-moz-range-track{background:linear-gradient(90deg,#4b2a6e 0%,#5a2fa0 25%,#3a5cff 33%,#00c8ff 40%,#20d060 47%,#f0e020 56%,#ff8a00 63%,#e02020 70%,#5a1a1a 80%,#3a2020 100%)}
+.photon .spectrum-slider::-moz-range-progress{background:transparent}
+
+.ekplot,.specstrip,.bandstrip,.levels{display:block;width:100%;height:auto;font-family:var(--f-mono);overflow:visible}
+.ekplot .gl{stroke:color-mix(in srgb,var(--ink) 8%,transparent);stroke-width:1}
+.ekplot .ax{stroke:var(--ink);stroke-width:1.6}
+.ekplot .tk,.specstrip .tk,.bandstrip .tk{font:500 11px var(--f-mono);fill:var(--muted);dominant-baseline:central}
+.ekplot .al{font:700 12px var(--f-mono);fill:var(--ink);letter-spacing:.04em}
+.ekplot .vis{fill:color-mix(in srgb,var(--amph) 10%,transparent)}
+.ekplot .vt{font-size:10px}
+.ekplot .mline path{fill:none;stroke:color-mix(in srgb,var(--ink) 22%,transparent);stroke-width:1.4}
+.ekplot .mline .dash{stroke-dasharray:4 5}
+.ekplot .mline.on path{stroke:var(--accent);stroke-width:2.6}
+.ekplot .lab{font:700 11.5px var(--f-mono);fill:var(--accent)}
+.ekplot .pt{stroke:var(--redox);stroke-width:2.2;stroke-linecap:round}
+.ekplot .pt.dim{stroke:color-mix(in srgb,var(--ink) 35%,transparent)}
+.ekplot .now{stroke:var(--ink);stroke-width:1.4;stroke-dasharray:3 4;opacity:.8}
+
+.models{overflow-x:auto;padding:0 16px}
+.mtable{width:100%;border-collapse:separate;border-spacing:0;font-size:13.5px;line-height:1.4;min-width:640px}
+.mtable th,.mtable td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rim)}
+.mtable thead th{font:700 10.5px/1.2 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mtable tbody th{font-weight:700}
+.mtable td.win{background:color-mix(in srgb,var(--good) 12%,transparent);border-radius:6px}
+.mtable td.win::before{content:'✓ ';color:var(--good);font-weight:800}
+.tl-h{margin:16px 16px 6px}
+.timeline{list-style:none;margin:0;padding:4px 16px 16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.timeline li{display:flex;flex-direction:column;gap:3px;padding:10px 12px;border-radius:var(--r-sm);border-left:3px solid var(--muted);background:color-mix(in srgb,var(--ink) 4%,transparent);font-size:13px;line-height:1.4}
+.timeline li.m-wave{border-left-color:var(--accent)}
+.timeline li.m-particle{border-left-color:var(--redox)}
+.timeline li.m-both{border-left-color:var(--ligand)}
+.timeline .yr{font:700 12px var(--f-mono);color:var(--muted)}
+.timeline b{font-size:14px}
+
+.levels{max-width:380px;margin:0 auto;padding:0 8px}
+.levels .lv{stroke:color-mix(in srgb,var(--ink) 55%,transparent);stroke-width:2}
+.levels .lv.ion{stroke-dasharray:5 4}
+.levels .lvg.on .lv{stroke:var(--accent);stroke-width:3}
+.levels .lt{font:600 10.5px var(--f-mono);fill:var(--muted);dominant-baseline:central}
+.levels .ln{font:600 10.5px var(--f-mono);fill:var(--ink);dominant-baseline:central}
+.levels .hit{fill:transparent;cursor:pointer}
+.levels .hit:hover{fill:color-mix(in srgb,var(--accent) 12%,transparent)}
+.levels .hit:focus-visible{outline:2px solid var(--accent)}
+.levels .eball{fill:var(--accent);stroke:var(--surf);stroke-width:2}
+.levels .tarrow{stroke:var(--ink);stroke-width:2.4}
+.levels .ahd{fill:var(--ink)}
+.levels .squig{fill:none;stroke:var(--ink);stroke-width:2;stroke-linejoin:round}
+.photon .lam{display:flex;align-items:center;gap:8px}
+.photon .sw{width:16px;height:16px;border-radius:4px;flex:none;border:1px solid var(--rim)}
+.photon .sw.inv{background:repeating-linear-gradient(45deg,transparent 0 3px,color-mix(in srgb,var(--ink) 30%,transparent) 3px 5px)}
+
+.specstrip{max-width:760px;margin:0 auto}
+.specstrip .eline{filter:drop-shadow(0 0 3px currentColor)}
+.specstrip .hot{fill:var(--ink)}
+.specstrip .tick{stroke:var(--muted)}
+.specstrip .mute{font-size:10px}
+
+.bandstrip{max-width:760px;margin:0 auto}
+.bandstrip .band{fill:color-mix(in srgb,var(--ink) 7%,transparent);stroke:var(--surf);stroke-width:1.5}
+.bandstrip .band.b3{fill:url(#none);fill:color-mix(in srgb,var(--amph) 40%,transparent)}
+.bandstrip .band.on{fill:color-mix(in srgb,var(--accent) 30%,transparent)}
+.bandstrip .bt{font:700 10px var(--f-mono);fill:var(--ink);pointer-events:none}
+.bandstrip .mark{stroke:var(--redox);stroke-width:3;stroke-linecap:round}
+.photon .bandstrip + .slider{max-width:760px;display:block;margin:4px auto 10px}
+.reads.four{grid-template-columns:repeat(4,minmax(0,1fr));max-width:760px;margin:0 auto 14px}
+@media (max-width:760px){ .reads.four{grid-template-columns:1fr 1fr} .mtable{font-size:12.5px} }
+@media (max-width:760px){ .photon .hud.tr span{display:none} .photon .hud.tl span{font-size:10.5px} }

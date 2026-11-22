@@ -1,0 +1,33 @@
+/* Waves Lab · Pulse–echo tab. Base styles for plots, tables and small buttons are the same as Standing waves’ (each tab scoped to its own root). */
+.wv-echo .btn.sm{height:30px;padding:0 10px;font-size:12.5px}
+.wv-echo .plot{display:block;width:100%;height:auto;font-family:var(--f-mono);overflow:visible;margin:6px 0}
+.wv-echo .plot .gl{stroke:color-mix(in srgb,var(--ink) 8%,transparent);stroke-width:1}
+.wv-echo .plot .ax{stroke:var(--ink);stroke-width:1.6}
+.wv-echo .plot .tk{font:500 11px var(--f-mono);fill:var(--muted);dominant-baseline:central}
+.wv-echo .plot .tk.an{fill:var(--amph);font-weight:700}
+.wv-echo .plot .al{font:700 11.5px var(--f-mono);fill:var(--ink);letter-spacing:.03em}
+.wv-echo .plot .msg{font:700 13px var(--f-body);fill:var(--muted)}
+.wv-echo .tscroll{overflow-x:auto;min-width:0}
+.wv-echo .rtab,.wv-echo .ctab{width:100%;border-collapse:collapse;font-size:13px}
+.wv-echo .rtab th,.wv-echo .rtab td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.wv-echo .rtab th{font:600 10.5px/1.2 var(--f-mono);letter-spacing:.06em;color:var(--muted);text-transform:none}
+.wv-echo .rtab td{font-family:var(--f-mono)}
+.wv-echo .rtab td.empty{text-align:left;color:var(--muted);font-family:var(--f-body);white-space:normal;padding:12px 8px}
+.hud .k.dn{color:#7fd8ff} .hud .k.upk{color:#ffc46b}
+.reads dd.badc,.wv-echo .plot .badc{color:var(--bad);fill:var(--bad)}
+.wv-echo .plot .okc{fill:var(--good)}
+.ascan{cursor:crosshair;touch-action:none;-webkit-user-select:none;user-select:none}
+.wv-echo .plot .scan{fill:none;stroke:var(--accent);stroke-width:1.6;stroke-linejoin:round}
+.wv-echo .plot .sweep{stroke:var(--good);stroke-width:1.5;opacity:.8}
+.wv-echo .plot .elab{font:700 10.5px var(--f-mono);fill:var(--ink);opacity:.8}
+.wv-echo .plot .cursor{stroke:var(--redox);stroke-width:1.6;stroke-dasharray:5 3}
+.wv-echo .plot .cl{font:700 12px var(--f-mono);fill:var(--redox)}
+.wv-echo .plot .rf{fill:none;stroke:color-mix(in srgb,var(--ink) 35%,transparent);stroke-width:1.2}
+.wv-echo .plot .envl{fill:none;stroke:var(--accent);stroke-width:2.4}
+.wv-echo .plot .pmark{stroke:var(--amph);stroke-width:1.4;stroke-dasharray:4 4}
+.wv-echo .plot .verd{font:700 13px var(--f-body)}
+.why.pad2{margin:0 16px 14px;max-width:none}
+.wv-echo .rtab td.lft{text-align:left;font-family:var(--f-body)}
+.wv-echo .ph.phwrap{flex-wrap:wrap}
+.ascan-wrap{overflow-x:auto}
+@media (max-width:760px){ .ascan{min-width:620px} }

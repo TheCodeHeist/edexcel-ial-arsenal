@@ -254,6 +254,23 @@ const ENERGY: (() => Question)[] = [
   () => { const Emin = 2 * 0.511 * MEV, lam = (H * C) / Emin;
     return { topic: 'energy', prompt: 'What is the longest wavelength of a γ-ray photon that can produce an electron–positron pair?', ...opts(lam, [(H * C) / (0.511 * MEV), Emin / H, (H * C) / (2 * 0.511 * E)], 'm'),
       working: ['The photon must supply the rest energy of both: E ≥ 2 × 0.511 MeV = 1.022 MeV', `E = 1.022 × 1.60 × 10⁻¹³ = ${sci(Emin)} J`, `λ = hc/E = ${sci(lam)} m`], why: 'Longest wavelength ↔ lowest energy. Any extra energy becomes the kinetic energy of the pair.' }; },
+  () => { const K = pick([0.2, 0.35, 0.5, 1.2, 2.0]); const Eg = 0.511 + K, Ej = Eg * MEV;
+    return { topic: 'energy', prompt: `An electron and a positron, each with kinetic energy ${K} MeV, collide head-on and annihilate into two photons. What is the energy of each photon, in joules?`,
+      ...opts(Ej, [0.511 * MEV, 2 * Ej, K * MEV, (0.511 + 2 * K) * MEV], 'J'),
+      working: [`Total energy = 2 × (rest energy + kinetic energy) = 2 × (0.511 + ${K}) MeV = ${short(2 * Eg, 4)} MeV`, `Momentum before is zero, so the two photons share it equally: ${short(Eg, 4)} MeV each`, `E = ${short(Eg, 4)} × 1.60 × 10⁻¹³ = ${sci(Ej)} J`],
+      why: 'The kinetic energy is not lost: it adds to the photons’ energy, along with all the rest energy.', figure: { kind: 'reaction', lhs: ['e', 'anti-e'], rhs: ['gamma', 'gamma'] } }; },
+  () => { const w = pick([['a proton–antiproton', 938.3], ['a muon–antimuon', 105.7], ['a neutron–antineutron', 939.6]] as const);
+    const Emin = 2 * w[1] * MEV, f = Emin / H;
+    return { topic: 'energy', prompt: `What is the minimum frequency of a photon that could produce ${w[0]} pair? (Rest mass of each: ${w[1]} MeV/c².)`,
+      ...opts(f, [Emin / 2 / H, (2 * w[1] * E) / H, Emin * H], 'Hz'),
+      working: [`E ≥ 2mc² = 2 × ${w[1]} MeV = ${short(2 * w[1], 4)} MeV`, `E = ${short(2 * w[1], 4)} × 1.60 × 10⁻¹³ = ${sci(Emin)} J`, `f = E/h = ${sci(Emin)} ÷ 6.63 × 10⁻³⁴ = ${sci(f)} Hz`],
+      why: 'The photon must provide the rest energy of both particles: matter is always made together with its antimatter.' }; },
+  () => ({ topic: 'energy', prompt: 'Why does pair production only happen when a γ-ray photon passes close to a nucleus?', ...choice('The nucleus takes some momentum, so energy and momentum can both be conserved', [
+      'The nucleus supplies the extra mass needed for the pair', 'The photon must be absorbed by the nucleus first', 'The strong force from the nucleus creates the particles', 'The nucleus provides the charge of the positron', 'Only nuclei can emit positrons']),
+      working: ['A photon alone has momentum p = E/c', 'An electron–positron pair with total energy E always has less momentum than E/c', 'A nearby nucleus recoils and takes up the difference (with almost no energy)'], why: 'The nucleus doesn’t provide energy or charge; it is there to conserve momentum.' }),
+  () => ({ topic: 'energy', prompt: 'An electron and a positron at rest annihilate. Why are two photons produced rather than one?', ...choice('Momentum is zero before, so it must be zero after: two photons going in opposite directions', [
+      'Charge must be conserved', 'Each particle becomes one photon', 'One photon could not carry 1.022 MeV', 'Lepton number must be conserved', 'Two photons are needed to conserve baryon number']),
+      working: ['Total momentum before = 0 (both at rest)', 'A single photon always carries momentum E/c ≠ 0', 'Two equal photons back to back: total momentum 0 ✓'], why: 'Charge, baryon and lepton number are zero either way; it is momentum that rules out a single photon.', figure: { kind: 'reaction', lhs: ['e', 'anti-e'], rhs: ['gamma', 'gamma'] } }),
   () => { const MeV = pick([0.78, 2.5, 17.6, 200]); const J = MeV * MEV;
     return { topic: 'energy', prompt: `Convert ${MeV} MeV into joules.`, ...opts(J, [MeV * E, MeV * 1e6, J * 1e3], 'J'),
       working: [`1 MeV = 10⁶ × 1.60 × 10⁻¹⁹ J = 1.60 × 10⁻¹³ J`, `${MeV} MeV = ${sci(J)} J`], why: '1 eV is the energy gained by one electron charge through 1 V.' }; },

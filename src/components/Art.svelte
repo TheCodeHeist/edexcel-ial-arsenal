@@ -85,6 +85,16 @@
     <path d="M30 34 q10 -6 18 2 a7 7 0 1 1 -8 6" stroke="var(--redox)" stroke-width="2.2" />
     <path d="M30 34 q10 6 4 15 a6 6 0 1 1 -9 -5" stroke="var(--amph)" stroke-width="2.2" />
     <circle cx="30" cy="34" r="3" fill="var(--ink)" fill-opacity=".7" />
+  {:else if name === 'ripple'}
+    <!-- two coherent sources in a ripple tank: circular wavefronts crossing, with a refracted ray through a block -->
+    {#each [10, 22, 34, 46] as r}
+      <circle cx="-16" cy="-14" r={r} stroke="var(--accent)" stroke-opacity={0.75 - r / 90} stroke-width="2" />
+      <circle cx="16" cy="-14" r={r} stroke="var(--redox)" stroke-opacity={0.75 - r / 90} stroke-width="2" />
+    {/each}
+    <circle cx="-16" cy="-14" r="3" fill="var(--accent)" />
+    <circle cx="16" cy="-14" r="3" fill="var(--redox)" />
+    <rect x="-50" y="22" width="100" height="26" rx="2" stroke="var(--ink)" stroke-opacity=".45" stroke-width="2" fill="color-mix(in srgb, var(--accent) 8%, transparent)" />
+    <path d="M-48 2 L-26 22 L-14 48 L-2 58" stroke="var(--amph)" stroke-width="2.6" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

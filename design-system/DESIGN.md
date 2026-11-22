@@ -176,8 +176,18 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Symbols are typeset, not typed.** `Sym.svelte` draws the bar over the letter only (Σ̄⁻), stacks two scripts (Λc⁺), and is used for every particle shown as a symbol.
 - **Antiparticles are computed** (`anti()` in `data.ts`) from the particle's record, never stored twice, so a card and its antiparticle always agree.
 - **The specification marks the boundary.** Anything the spec doesn't name (strangeness, spin, interaction type, synchrotrons, collider detectors, nuclear radius) carries a dashed `beyond` chip; it is there for completeness, never needed for an answer.
+- **Annihilation and pair production** run on the same real-but-slowed clock as the accelerators. Blue is matter and red antimatter (in a field: red positive, blue negative); photons are wavy lines, dashed where they cross a chamber, since they leave no track. Energy bars show before and after to one scale.
 - **Conservation checks show every term**: Q, B and L (and each lepton family) are added up particle by particle before the ✓ or ✗; energy and momentum get their own rows.
 - **Exam conventions**: data-sheet constants (e = 1.60 × 10⁻¹⁹ C, mₑ = 9.11 × 10⁻³¹ kg, mₚ = 1.67 × 10⁻²⁷ kg, h = 6.63 × 10⁻³⁴ J s, k = 8.99 × 10⁹ N m² C⁻²), 1 MeV = 1.60 × 10⁻¹³ J, Newtonian formulas as the course uses them, with the relativistic value shown beside them when they differ.
+
+## 9f · Physics rules (Waves Lab)
+
+- **Same engine as Particle Lab.** The 3D views extend `Stage3D` and sit in `View3D.svelte` (re-exported from `src/sims/waves/`); the layout, HUD chips, readings and practice styles come from `particles.css`, with one CSS file per tab. Apparatus is on near-black; graphs and panels follow the palette.
+- **Every spec statement has a home.** Section 2.3 (statements 33–63) maps onto the tabs: Waves (33–37, 40), Ripple tank (39, 40, 50), Standing waves (37, 41–43, Core Practicals 4 and 5), Refraction (44–49, 55), Diffraction (50–54, Core Practical 6), Pulse–echo (55, 56), Photons (57–63). Anything further carries the dashed `beyond` chip.
+- **Light has its true colour.** A laser, a spectral line or a photon is drawn in the colour of its wavelength (`lambdaRGB` in `consts.ts`); ultraviolet and infrared get a dim violet or red so they are never invisible.
+- **Waves move in real time, slowed on request.** Every animated view has a slow-motion control rather than changing the physics to make it watchable.
+- **Phase is written both ways**: radians as multiples of π and degrees, with “in phase” or “antiphase” where it applies.
+- **Exam conventions**: h = 6.63 × 10⁻³⁴ J s, c = 3.00 × 10⁸ m s⁻¹, e = 1.60 × 10⁻¹⁹ C, mₑ = 9.11 × 10⁻³¹ kg, g = 9.81 N kg⁻¹; the electronvolt beside joules; answers to 3 s.f.
 
 ## 10 · Voice
 

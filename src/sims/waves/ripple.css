@@ -1,0 +1,25 @@
+/* Waves Lab: Ripple tank tab. The superposition strip, the Huygens figures and the probe's verdict colours. */
+.hud.rp-incoh{top:64px}
+.reads dd.v-constructive{color:var(--good)}
+.reads dd.v-destructive{color:var(--bad)}
+.rcols{padding-top:12px;align-items:start}
+.rp-sup{margin:8px 0 6px}
+.sup .p1,.sup .p2,.sup .ps{fill:none;stroke-linejoin:round}
+.sup .p1{stroke:var(--accent);stroke-width:2;stroke-dasharray:6 5}
+.sup .p2{stroke:var(--redox);stroke-width:2;stroke-dasharray:6 5}
+.sup .ps{stroke:var(--ink);stroke-width:3}
+.huy{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:8px 0 4px}
+.huy figure{margin:0;display:flex;flex-direction:column;gap:6px}
+.huy figcaption{font-size:12.5px;color:var(--muted);line-height:1.35}
+.hfig{width:100%;height:auto;background:color-mix(in srgb,var(--accent) 5%,transparent);border-radius:var(--r-sm)}
+.hfig .front{stroke:var(--accent);stroke-width:2}
+.hfig .bar{stroke:var(--ink);stroke-width:4;stroke-linecap:round}
+.hfig .wl{fill:none;stroke:var(--muted);stroke-width:1;opacity:.55}
+.hfig .env{fill:none;stroke:var(--accent);stroke-width:2.2}
+.hfig .hs{fill:var(--redox)}
+@media (max-width:520px){ .huy{grid-template-columns:1fr} }
+@media (max-width:760px){
+  .ripple .hud.tr:not(.rp-incoh){display:none}
+  .ripple .hud.rp-incoh{top:auto;bottom:10px;right:54px}
+  .ripple .hud.tl span{display:none}
+}

@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/waves/App.svelte';
+import '../../sims/waves/waves.css';
+---
+<Sim title="Waves Lab" description="Waves on a rope and a slinky, interference and diffraction in a 3D ripple tank, standing waves on a string, refraction, total internal reflection and polarisation, the diffraction grating and electron diffraction, pulse–echo, the photoelectric effect and line spectra, for Edexcel IAL Physics Unit 2.">
+  <App client:only="svelte" />
+</Sim>

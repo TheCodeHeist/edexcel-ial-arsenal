@@ -1,0 +1,18 @@
+/* Particle Lab: Annihilation tab. Pair chips carry the pair's total rest energy; the energy bars compare before and after. */
+.fchip .mz{margin-left:6px;font:600 10.5px var(--f-mono);color:var(--muted)}
+.fchip[aria-pressed="true"] .mz{color:inherit;opacity:.75}
+.ebars{display:flex;flex-direction:column;gap:10px;margin:4px 0 8px}
+.erow{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:10px}
+.erow .bl{font:700 12px var(--f-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.etrack{display:flex;gap:3px;height:38px;min-width:0}
+.etrack .bit{flex-basis:0;min-width:3px;border-radius:7px;display:grid;place-items:center;overflow:hidden;padding:0 6px}
+.etrack .bit i{font:700 12px var(--f-mono);font-style:normal;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.etrack .gap{flex-basis:0;border:1px dashed color-mix(in srgb,var(--ink) 25%,transparent);border-radius:7px}
+.etrack .bit.rest{background:color-mix(in srgb,var(--accent) 45%,transparent)}
+.etrack .bit.rest.anti{background:color-mix(in srgb,var(--redox) 45%,transparent)}
+.etrack .bit.ke{background:color-mix(in srgb,var(--amph) 55%,transparent)}
+.etrack .bit.ph{background:color-mix(in srgb,var(--ligand) 45%,transparent)}
+@media (max-width:560px){ .erow{grid-template-columns:minmax(0,1fr)} .erow .bl{font-size:11px} }
+.matter .clock{margin:10px 14px 0;display:flex;flex-direction:column;gap:4px}
+.matter .clock .tt{color:var(--accent);font:700 13px/1 var(--f-mono)}
+.matter .clock .why{margin:0;font-size:12.5px}

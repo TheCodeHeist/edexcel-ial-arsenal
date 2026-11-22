@@ -6,6 +6,7 @@
 @import './scatter.css';
 @import './zoo.css';
 @import './rules.css';
+@import './matter.css';
 
 .layout{display:grid;gap:16px;align-items:start;grid-template-columns:minmax(0,1fr) minmax(300px,370px)}
 .layout.wide{grid-template-columns:minmax(0,1fr)}
@@ -104,3 +105,21 @@
   .scope{justify-content:flex-start}
   .hud.bl{display:none}
 }
+
+/* Many tabs (shared with Waves Lab). Once the header stacks, each tab is as wide as its label (never narrower) and
+   they share what is left over; where the full names can't fit (up to 1000 px) the short ones are used, with tighter
+   padding on small screens; on phones, two rows of four. Checked at every width from 340 to 1600 px. */
+@media (max-width:1440px){
+  .top .tabs{display:flex}
+  .top .tabs>button{flex:1 0 auto;padding:0 8px}
+}
+@media (max-width:1000px){ .top .tabs .lg{display:none} .top .tabs .sm{display:inline} }
+@media (max-width:760px){ .top .tabs>button{padding:0 5px} }
+@media (max-width:560px){
+  .top{grid-template-areas:"brand theme" "tabs tabs"}
+  .top .tabs{display:grid;grid-auto-flow:row;grid-template-columns:repeat(4,minmax(0,1fr));height:auto;border-radius:20px}
+  .top .tabs>button{height:36px;font-size:13px;padding:0 2px}
+}
+
+/* Reading labels hold symbols (λ, f = E/h, θ): never uppercase them, or λ becomes Λ and f becomes F. */
+.reads dt{text-transform:none;letter-spacing:.02em;font-size:11px}

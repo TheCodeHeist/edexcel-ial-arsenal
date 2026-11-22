@@ -1,0 +1,16 @@
+/* Waves Lab. The shared layout, 3D frame, HUD chips, readings, notes and practice styles come from Particle Lab
+   (particles.css). Each tab adds its own rules in its own file, imported here. */
+@import '../particles/particles.css';
+@import './bench.css';
+@import './ripple.css';
+@import './standing.css';
+@import './light.css';
+@import './grating.css';
+@import './echo.css';
+@import './photon.css';
+@import './practice.css';
+
+/* Eight tabs: stack the header earlier than the site default (the tab-sizing rules are in particles.css). */
+@media (max-width:1440px){
+  .top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand brand" "tabs theme";gap:14px 10px}
+}
