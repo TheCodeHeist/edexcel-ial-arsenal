@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c74a40247035",
+   "fingerprint": "4ceb3018d259",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -30,9 +30,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "724167fcc568",
+   "fingerprint": "439c123ab642",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -52,9 +52,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ca5be872adbd",
+   "at": "2026-11-22",
+   "concerns": [
+    "3(b): the Madison set-up and summary statistics (w = 11.5d, Stt, Stw, sums) are printed only inside 3(b)s question crop, not in the shared opening, so parts 3(c)-3(h), which all use these data, are shown without them."
+   ],
+   "fingerprint": "c4fb8a94d638",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -70,7 +72,7 @@
      "S1.1.1"
     ],
     "3(b)": [
-     "S1.4.1"
+     "S1.4.3"
     ],
     "3(c)": [
      "S1.4.3"
@@ -93,9 +95,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "76ca3b17e145",
+   "fingerprint": "4a7cd5c509d0",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -110,9 +112,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c8659099a014",
+   "fingerprint": "07c7d5d36f68",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -145,11 +147,9 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
-   "concerns": [
-    "6(d): the mark scheme crop ends with the \"Notes\" header row and a sliver of the next row below the Total 14 line"
-   ],
-   "fingerprint": "807c34cc9fb1",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "ae07a1255b08",
    "kinds": {
     "6(a)(i)": "calc",
     "6(a)(ii)": "calc",
@@ -172,17 +172,14 @@
      "S1.6.1"
     ],
     "6(d)": [
-     "S1.6.1",
-     "P1.1.6"
+     "S1.6.1"
     ]
    }
   },
   "7": {
-   "at": "2026-11-20",
-   "concerns": [
-    "7(e): the question crop ends with the blank 1st bead / 2nd bead tree diagram (page 21 answer space) which belongs to 7(a), not 7(e); 7(a) itself has no blank diagram to complete."
-   ],
-   "fingerprint": "eacfdba46399",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "3cb568fe665d",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",

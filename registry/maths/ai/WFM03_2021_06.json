@@ -91,13 +91,11 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "6(a): mark scheme crop ends mid-ALT; the final A1 (3x+y-z=3*, Given answer) row of the ALT is missing here",
-    "6(b): mark scheme crop starts with the stray 3x+y-z=3* A1 row that belongs to the 6(a) ALT, so its rows total 2 marks not 1",
-    "6(c): mark scheme crop has a sliver of a stray line fragment at the very top edge"
+    "6(b): mark-scheme rows start with a leftover row from part (a) (\"3x+y-z=3* Given answer. No errors seen. A1\") before the real 6(b) row (s=-3, B1), so marks shown are A1+B1 = 2 against a 1-mark part"
    ],
-   "fingerprint": "2c4b48a2d096",
+   "fingerprint": "8ddf8d313f8d",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -117,7 +115,6 @@
      "FP3.5.2"
     ],
     "6(d)": [
-     "FP3.5.2",
      "FP3.5.3"
     ]
    }

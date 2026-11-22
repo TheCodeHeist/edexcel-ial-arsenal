@@ -1,23 +1,23 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "994ca58687d6",
+   "fingerprint": "0a5e0bacba5a",
    "kinds": {
     "1": "calc"
    },
    "topics": {
     "1": [
-     "P1.5.1",
-     "P1.5.2"
+     "P1.5.2",
+     "P1.5.1"
     ]
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f25faa1244dc",
+   "fingerprint": "f44f1a4c5a8f",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -36,7 +36,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7658e6211c30",
+   "fingerprint": "c8c4979c86cc",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -51,15 +51,11 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(i)(a): mark-scheme rows also include the (i)(b) rows (5/(3a^(1-x))^-2 = 45a^2/y^2, B1 M1 A1 (3)), which do not answer this part; the shown marks (1 and 3) do not match the part’s 1 mark.",
-    "4(i)(b): mark-scheme rows also include the (i)(a) row (ay^3, B1 (1)) above the (i)(b) rows, which does not answer this part.",
-    "4(ii)(a): mark-scheme rows also include the (ii)(b) rows (solves quadratic, B1 M1 A1 (3), 9 marks total), which do not answer this part; shown marks do not add up to the part’s 2.",
-    "4(ii)(b): mark-scheme rows also include the (ii)(a) rows (M1 A1* (2)) above the (ii)(b) rows, which do not answer this part.",
-    "Examiners notes: in the (i)(b) notes the A1 line (45a^2/y^2 ...) is clipped/overlapped by the next heading so it is cut through horizontally and unreadable; the notes for the final A1 of (ii)(b) at the bottom also look cut at the bottom edge (ends at \"quadratic in p\")."
+    "4(i)(b): in the examiners notes the A1 line (45a^2/y^2 ...) for part (i)(b) is partly cut off by the next heading, so the note text is clipped at the bottom of the (i) section. Minor; crops and mark scheme rows are fine."
    ],
-   "fingerprint": "580324b17e6e",
+   "fingerprint": "a7d8103cf902",
    "kinds": {
     "4(i)(a)": "calc",
     "4(i)(b)": "calc",
@@ -86,7 +82,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "e0b4a2f487e6",
+   "fingerprint": "fc1295c0545e",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -109,7 +105,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "429e4bb2ccd4",
+   "fingerprint": "5a50483e133f",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -130,9 +126,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5b907da9495c",
+   "fingerprint": "dcfe5ce9566c",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc"
@@ -144,14 +140,15 @@
     ],
     "7(b)": [
      "P1.1.4",
+     "P1.1.6",
      "P1.1.9"
     ]
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "eebef7aaa70a",
+   "fingerprint": "ca54799eefa5",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -160,12 +157,10 @@
    },
    "topics": {
     "8(a)": [
-     "P1.3.1",
-     "P1.3.2"
+     "P1.3.1"
     ],
     "8(b)": [
-     "P1.3.1",
-     "P1.3.2"
+     "P1.3.1"
     ],
     "8(c)": [
      "P1.3.2"
@@ -179,7 +174,7 @@
   "9": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "0774b05211f0",
+   "fingerprint": "4b25bec433b8",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "short",

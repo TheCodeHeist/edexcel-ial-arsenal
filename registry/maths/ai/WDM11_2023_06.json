@@ -28,9 +28,9 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "4d92c644b288",
+   "fingerprint": "279c79d4c0db",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -49,9 +49,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8dca13fcc118",
+   "fingerprint": "862a1997b3ca",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -66,9 +66,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "999e3d5e7802",
+   "fingerprint": "362789ac2aaf",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -92,9 +92,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "ab0fb63a185f",
+   "fingerprint": "681e5c7b9c35",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc"
@@ -110,9 +110,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a4eaa8a35efb",
+   "fingerprint": "fc1518aff677",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -139,9 +139,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e7bcdab917b4",
+   "fingerprint": "ae1a05185452",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -168,12 +168,11 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(a): mark-scheme rows are cut through the list of final constraints - the line 2x-5y>=0 is sliced at the bottom edge and the last constraints (x-4y<=0, x>=0, y>=0) are missing from (a)",
-    "8(b): mark-scheme rows start with a sliced line (2x-5y>=0) and the leftover constraints x-4y<=0, x>=0, y>=0 that belong to (a)s answer, before the (b) working"
+    "8(a)/8(b): the 8(a) mark-scheme crop ends too early, cutting through the final answer: its last two constraints (x - 4y <= 0, x >= 0, y >= 0) are lost from 8(a) and appear at the top of the 8(b) MS crop (with a clipped line above), so (a) lacks part of its final A1 A1 rows and (b) starts with a fragment of (a)."
    ],
-   "fingerprint": "f7e13ad9be78",
+   "fingerprint": "d5bbb63c9c7b",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

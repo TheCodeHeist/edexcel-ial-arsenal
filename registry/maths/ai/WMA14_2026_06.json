@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "251ef7736ad4",
+   "fingerprint": "d178ceb07e8d",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -14,7 +14,8 @@
      "P4.2.1"
     ],
     "1(b)": [
-     "P4.4.1"
+     "P4.4.1",
+     "P4.2.1"
     ],
     "1(c)": [
      "P4.4.1"
@@ -24,7 +25,7 @@
   "2": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "da511887fd57",
+   "fingerprint": "0843a53aebec",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc"
@@ -42,7 +43,7 @@
   "3": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "4155e200f6d8",
+   "fingerprint": "52a098050d60",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -62,9 +63,9 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "63760bfc2447",
+   "fingerprint": "bd72e4355f6a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -82,7 +83,7 @@
   "5": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "80dc5ae7582e",
+   "fingerprint": "1a631e2d50e1",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -103,9 +104,9 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "906085ab04c7",
+   "fingerprint": "a5532fa951dd",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -121,41 +122,46 @@
    }
   },
   "7": {
-   "at": "2026-11-21",
-   "concerns": [],
-   "fingerprint": "43360b7344b9",
+   "at": "2026-11-22",
+   "concerns": [
+    "7(i): the \"Way Two\" alternative mark-scheme table (M1 A1, dM1 A1, ddM1 A1) is placed under the examiners NOTES caption bar rather than with the purple mark-scheme rows for 7(i)"
+   ],
+   "fingerprint": "e9660f268df8",
    "kinds": {
     "7(i)": "calc",
     "7(ii)": "calc"
    },
    "topics": {
     "7(i)": [
-     "P4.6.2"
+     "P4.6.2",
+     "P3.3.1"
     ],
     "7(ii)": [
      "P4.6.2",
-     "P3.2.1"
+     "P3.2.2"
     ]
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "41a9d7c041ce",
+   "fingerprint": "12a11e712866",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
-    "8(c)": "calc"
+    "8(c)": "short"
    },
    "topics": {
     "8(a)": [
-     "P4.5.2"
+     "P4.5.2",
+     "P3.3.2"
     ],
     "8(b)": [
      "P4.6.4"
     ],
     "8(c)": [
-     "P4.6.4"
+     "P4.6.4",
+     "P3.3.1"
     ]
    }
   }

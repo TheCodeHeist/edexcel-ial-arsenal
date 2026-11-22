@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a872ce27b7bd",
+   "fingerprint": "d10a59c762d6",
    "kinds": {
     "1": "calc"
    },
@@ -17,7 +17,7 @@
   "10": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "f1699ea2e22f",
+   "fingerprint": "45e74d885959",
    "kinds": {
     "10": "calc"
    },
@@ -28,12 +28,11 @@
    }
   },
   "2": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "2(a): the mark-scheme rows end mid-table inside the boxed \"Alternative 2\": the last row (dx/dt = 5/(3x^2), A1) is cut off at the bottom of the crop",
-    "2(b): its mark-scheme rows open with the A1 row (dx/dt = 5/(3x^2)) that is the tail of 2(a)'s Alternative 2, so 2(b) shows 3 marks of rows against 2"
+    "2(a): mark-scheme rows end partway through \"Alternative 2\" (its last formula row and the A1 for dx/dt = 5/(3x^2) are missing from the end of the 2(a) rows), and that A1 row (dx/dt = 5/(3x^2), A1, inside a thick box) appears instead at the top of the 2(b) rows, so 2(b) opens with a stray row belonging to 2(a)"
    ],
-   "fingerprint": "556366710db6",
+   "fingerprint": "32401164bb4b",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -63,12 +62,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [
-    "4(a): the purple MARK SCHEME crop does not stop at the 5-mark table (B1, M1A1, A1A1 = 5, then \"(5)\") but runs on into the examiners notes for (a) (B1/M1/A1 explanations and the \"(a) Alternative by direct expansion\" box, about 70% of that crop); those notes then are not repeated under the end-of-question NOTES, which start at (b). Mark rows themselves are complete and add up",
-    "4: minor, the end-of-question examiners NOTES therefore cover only (b) and (c) (first note line at the top of the notes is cut through)"
-   ],
-   "fingerprint": "4768db5972fe",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "745650be7cec",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short",
@@ -89,7 +85,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "1d15179ccd3b",
+   "fingerprint": "5346b018520e",
    "kinds": {
     "5": "calc"
    },
@@ -103,7 +99,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7e0ff1ed627c",
+   "fingerprint": "a77c05c13448",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -126,7 +122,7 @@
   "7": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "fdfa03a09f6d",
+   "fingerprint": "5908030e9235",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -146,13 +142,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [
-    "8(a): the purple MARK SCHEME crop runs on past the 3-mark table (M1, A1, A1ft = 3, then \"(3)\") into the examiners notes for (a) (M1/A1/A1ft explanations with the column-vector examples, about 65% of that crop); the end-of-question NOTES then start at (b). Mark rows (3) are complete",
-    "8(a): minor, a stray sliver of text (\"Number\" fragment) sits just above the first mark scheme row; 8(c) mark scheme crop likewise starts with a stray sliver of the (b) \"(4)\" mark above its first row",
-    "8: the examiners notes end with a \"For reference\" triangle diagram and a vector-product alternative for (c); all complete. Question parts and marks (3, 4, 4 = 11) are complete"
-   ],
-   "fingerprint": "aa29d71affac",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "b04844c4e87e",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -175,7 +167,7 @@
   "9": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "a02bd4b11138",
+   "fingerprint": "ff3cbeadb84c",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

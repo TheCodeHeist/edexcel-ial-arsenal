@@ -84,7 +84,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a1e63b6ea52e",
+   "fingerprint": "8490cc07f84a",
    "kinds": {
     "5": "calc"
    },
@@ -121,14 +121,13 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(c): mis-paired mark scheme - the 7(c) purple block also contains the whole mark-scheme rows of 7(d) (4 marks, T1 = (-1+sqrt17)/2) and 7(e) (3 marks, 3T2^2-14T2+4=0) and the question total (13), so 7(c) rows add up to 9 marks, not 2",
-    "7(d): no mark-scheme rows under 7(d); its rows (7d: M1 M1 A1ft A1) sit inside the 7(c) block above",
-    "7(e): no mark-scheme rows under 7(e); its rows (7e: M1 A1ft A1*) sit inside the 7(c) block above",
-    "7(a),(b),(c): the rows themselves are fine and complete; no examiners notes block is shown"
+    "7(c): the 7(c) MARK SCHEME block also contains the rows for 7(d) (M1 A1ft A1, 4 marks) and 7(e) (M1 A1ft A1*, 3 marks) with a (13) total, i.e. the mark scheme for (d) and (e) is stitched inside the 7(c) block",
+    "7(d): the 7(d) MARK SCHEME bar is missing entirely - the image ends straight after the 7(d) and 7(e) QUESTION crops (the answers are in the 7(c) block)",
+    "7(e): no MARK SCHEME bar for 7(e) and no examiners NOTES section at the end of the image at all"
    ],
-   "fingerprint": "1545899f0d0a",
+   "fingerprint": "1fc086cfc7b2",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

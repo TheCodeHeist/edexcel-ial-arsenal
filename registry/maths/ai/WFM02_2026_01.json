@@ -19,9 +19,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "e38806d86cd1",
+   "at": "2026-11-22",
+   "concerns": [
+    "2(c): bottom line of the examiners' notes (Alternative for (b) & (c) by series expansions) is cut horizontally through a formula."
+   ],
+   "fingerprint": "3b03feb8f0de",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -40,11 +42,12 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3(b)/3(c): a notes row in the mark scheme (\"If a 2nd order method is used, CF: {A}e^-x (B1), PF: lambda x + mu (M1), valid method for lambda and mu (dM1), A marks as above\") is split across the boundary: its first half is clipped at the bottom of the 3(b) rows and the second half sits at the top of the 3(c) rows"
+    "3(b): final note line of 3(b) mark scheme (2nd order method continuation) is split off into 3(c) mark scheme rows.",
+    "3(c): mark scheme rows begin with a continuation row belonging to 3(b) (valid method for lambda and mu...)."
    ],
-   "fingerprint": "f4725bfd56bf",
+   "fingerprint": "2820c3571c55",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -85,7 +88,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d9dee050a2e0",
+   "fingerprint": "a6148ef42bb2",
    "kinds": {
     "5": "calc"
    },

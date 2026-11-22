@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a3d7224ad9e7",
+   "fingerprint": "c22be374f0e0",
    "kinds": {
     "1": "calc"
    },
@@ -17,7 +17,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a319200f372f",
+   "fingerprint": "34a6505552ec",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -37,9 +37,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "4773a4addbba",
+   "fingerprint": "18a1504050a9",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -59,14 +59,12 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(a): mark-scheme row is clipped at the bottom, the denominator 120 of the fraction is cut through.",
-    "4(b): mark-scheme rows are cut at both edges: a stray top fragment of the previous formula (120) shows above, and the bottom cuts through the second (or) method, leaving only the top of a bracket visible.",
-    "4(c): the mark-scheme rows start with the rest of the 4(b) alternative method (s = 120 - (20.85+36.49+31.93+120 x e^-1.75 1.75^3/3! + 3.95) = 8.15*), which belongs to 4(b); only the [r=]18.63 B1 line is 4(c). The 4(b) alternative is split across the 4(b) and 4(c) crops.",
-    "Examiners NOTES: last line (Condone Po(1.75) ... independent of the hypotheses) is touching/slightly clipped at the bottom edge."
+    "4(b): MARK SCHEME rows is cut off mid-formula at the bottom below 'or', splitting the alternative method for s into 4(c).",
+    "4(c): MARK SCHEME rows includes the alternative method row for s from 4(b) at the top, cut across the top edge."
    ],
-   "fingerprint": "58e6f37b1818",
+   "fingerprint": "deff6fbb857b",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -93,7 +91,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "e4ca1a43232a",
+   "fingerprint": "0c97ab5e3f03",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "short"
@@ -110,9 +108,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "78fc5a6e72f1",
+   "fingerprint": "b3001272c30a",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -132,9 +130,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f2e74274cca5",
+   "fingerprint": "480d2a0a55d9",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

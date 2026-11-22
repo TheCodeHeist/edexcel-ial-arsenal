@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "bdf210d9e37a",
+   "at": "2026-11-22",
+   "concerns": [
+    "1(a): the question crop looks clipped at the top: the numerator 2 of the fraction 2/(r(r^2-1)) is cut off at the upper edge."
+   ],
+   "fingerprint": "26857f9782be",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -19,9 +21,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "5fc3cd2643ee",
+   "at": "2026-11-22",
+   "concerns": [
+    "2(ii): only one part was found; part (i) (the centre of C) sits at the end of the stem and part (ii) carries all 8 marks, with a single mark scheme covering (i) and (ii). Not a crop error, but (i) has no label of its own."
+   ],
+   "fingerprint": "8d88c05de87e",
    "kinds": {
     "2(ii)": "calc"
    },
@@ -33,9 +37,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a57669777efa",
+   "fingerprint": "df96c00dafc0",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -70,7 +74,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a2160d1f7e2e",
+   "fingerprint": "ee28ddde49ec",
    "kinds": {
     "5": "calc"
    },
@@ -81,9 +85,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "190a3ad55ad3",
+   "at": "2026-11-22",
+   "concerns": [
+    "6(a): the examiners notes for part (a) (M1 A1 B1 ...) are inside the 6(a) mark-scheme crop, so the final NOTES block only shows (b); minor misplacement, nothing missing."
+   ],
+   "fingerprint": "12efd3fc089e",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -98,11 +104,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
-   "concerns": [
-    "7(b): a tiny clipped sliver of text (top of the notes label) shows at the bottom edge of the 7(b) mark-scheme rows under [9]; minor stray fragment"
-   ],
-   "fingerprint": "cd4156af38bf",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "31fd54fa32a4",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -117,11 +121,11 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(b): a tiny clipped sliver of text (top of the notes label) shows at the bottom edge of the 8(b) mark-scheme rows under [11]; minor stray fragment"
+    "8(a): the notes for (a) (All Methods B1 M1 A1 dM1 A1*) sit at the bottom of the 8(a) mark-scheme crop and the final NOTES block only covers (b); minor misplacement, nothing missing."
    ],
-   "fingerprint": "d498910f6807",
+   "fingerprint": "957a7dd12470",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

@@ -1,13 +1,14 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(b): mark-scheme rows are cut through the packing - the top line (10) and the bottom line (Bin 4: 2.4) are sliced, and Bin 4 / Bin 5 (7.8) fall at the top of the (c) rows, so the first-fit answer is incomplete",
-    "1(c): mark-scheme rows start with the sliced tail of (b)s bins (Bin 4, Bin 5: 7.8) and end with the middle-right sort clipped at the last pass (final rows and the last pivots cut off, rest in (d) rows)",
-    "1(d): mark-scheme rows begin with the tail of (c)s middle-right sort (7.8 6.2 5.0 ... (1.8)) and the whole middle-left alternative for (c) before the (d) bins; only the last block (Bin 1-4, M1 A1) answers (d)"
+    "1(a): Bottom of 10 in 38.2/10 is slightly clipped at the bottom edge of 1(a)'s mark scheme row.",
+    "1(b): Mark scheme has a clipped fragment at the top from 1(a), and is missing Bin 5: 7.8 at the bottom (which appears at the top of 1(c)'s mark scheme rows).",
+    "1(c): Mark scheme rows include Bin 5: 7.8 from 1(b) at the top, while the final sorted line and the e.g. Middle Left quick sort table belonging to 1(c) appear at the top of 1(d)'s mark scheme rows.",
+    "1(d): Mark scheme rows include the final sorted line and e.g. Middle Left quick sort table belonging to 1(c) at the top."
    ],
-   "fingerprint": "d981cb979594",
+   "fingerprint": "08a5e40b802c",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -32,7 +33,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "44a18695726d",
+   "fingerprint": "2c69cec3f5bd",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -96,12 +97,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "5(b): mark-scheme rows cut the model graph off at y=200 (lower part of the graph with the feasible region R and x-axis is missing), so the graph is incomplete",
-    "Notes: examiners notes end with a stray fragment of the next question (top of an activity network with A(4), E(7), J(8), M1 A1) at the bottom edge"
+    "5(d): Examiners' notes section at the bottom includes a stray clipped fragment of Question 6's mark scheme (part of an activity network diagram with A(4), E(7), J(8) and M1 A1)."
    ],
-   "fingerprint": "f45d2fee4fd2",
+   "fingerprint": "bc582d19be31",
    "kinds": {
     "5(a)": "short",
     "5(b)": "draw",
@@ -159,12 +159,12 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(a): mark-scheme rows end with the first line of (b)s working (Use x=100, z=25 to obtain two values of y, leading to ... M1), clipped at the bottom, so (a) rows carry (b)s M1 beyond its 6",
-    "7(b): mark-scheme rows lack the opening line and M1 (it sits at the bottom of the (a) rows), so (b) rows show only the A1ft and A1 results"
+    "7(a): Mark scheme rows include the first M1 row of 7(b) (Use x = 100, z = 25 to obtain two values of y, leading to) at the bottom.",
+    "7(b): Mark scheme is missing its first M1 row (Use x = 100, z = 25...), which appears at the bottom of 7(a)'s mark scheme rows (only A1ft and A1 are shown for a 3-mark part)."
    ],
-   "fingerprint": "e0a5f8609d15",
+   "fingerprint": "76f807690eae",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

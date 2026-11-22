@@ -1,12 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-21",
-   "concerns": [
-    "1(i)(a): its mark-scheme rows also contain the row for part (b) (the integral of 5x/(4x^2+1) = 5/8 ln(4x^2+1), M1 A1, (2)), followed by the (i)(a) notes, so 4 marks of rows are shown against a 2-mark part",
-    "1(i)(b): the purple mark-scheme block holds only the (i)(b) examiners notes text, not the scheme row (5/8 ln(4x^2+1), M1 A1), which sits under 1(i)(a) instead"
-   ],
-   "fingerprint": "25611d3c090d",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "315922c7b3d1",
    "kinds": {
     "1(i)(a)": "calc",
     "1(i)(b)": "calc",
@@ -27,9 +24,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d4e19457cbb1",
+   "fingerprint": "ee6c88331e31",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -38,7 +35,8 @@
    "topics": {
     "2(a)": [
      "P3.4.2",
-     "P3.4.1"
+     "P3.4.1",
+     "P3.2.3"
     ],
     "2(b)": [
      "P3.6.2"
@@ -49,9 +47,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a47eb5fb9ce7",
+   "fingerprint": "c4c22184f2f7",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -67,9 +65,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "2c61b6e8c086",
+   "fingerprint": "10258dd22f79",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -86,9 +84,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "31021fa34cf7",
+   "fingerprint": "9c5f617cc303",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -105,9 +103,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "81cfba0ed553",
+   "fingerprint": "848f048e749d",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "short",
@@ -130,9 +128,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5f720b176feb",
+   "fingerprint": "e649ec60ed15",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -153,11 +151,11 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(a): the MARK SCHEME rows crop includes a second Notes box that belongs to 8(c) (Uses H = 18 ... cos(30t+16.70) = k ... dM1 ... A1 awrt 3.61), placed after the (a) notes, so (c) examiners notes sit under 8(a)."
+    "8(a): MARK SCHEME rows contains examiners' notes for part 8(c) (from 'Uses H = 18 in their answer to part (a)...' through the radians reference for (a)) misplaced under 8(a) instead of 8(c)/Question 8 notes."
    ],
-   "fingerprint": "680bdbe0d77f",
+   "fingerprint": "b6018e8e7862",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

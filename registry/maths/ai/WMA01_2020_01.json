@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "Examiners NOTES: bottom edge clips the last line (\"A1 30+6 sqrt10 ONLY\" of the squaring approach) - only its top half is visible, and any further notes may be missing"
+    "Examiners notes (end of question 1): cut off at the bottom; the last line (\"A1 30+6√10 ONLY\" of the squaring approach) is sliced through at the image edge"
    ],
-   "fingerprint": "59587cd478d1",
+   "fingerprint": "7f9818415b5f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -22,7 +22,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c717133585cf",
+   "fingerprint": "10c54e675d48",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -45,7 +45,7 @@
   "11": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "ed771b6a2757",
+   "fingerprint": "1ee96377a0d1",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -84,7 +84,7 @@
   "13": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "41e36997e43f",
+   "fingerprint": "6f26b8576f5e",
    "kinds": {
     "13(i)": "calc",
     "13(ii)": "calc"
@@ -100,12 +100,9 @@
    }
   },
   "14": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Examiners NOTES: end at the 14(b) final A1 line, with the 14(c) notes (and anything after) not shown, so the notes may be cut off at the bottom",
-    "14(b): mark scheme rows start with a stray sliver of the previous part (1) subtotal at the top edge (harmless)"
-   ],
-   "fingerprint": "b2ff1cabafeb",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "033aa8d398b7",
    "kinds": {
     "14(a)": "short",
     "14(b)": "calc",
@@ -126,11 +123,12 @@
    }
   },
   "15": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "15(b): mark scheme rows stop after M1 A1 M1 (3 of 4 marks); the final A1 row (P = 4 sqrt(15/2) + ... = 4 sqrt30, subtotal (4)) sits at the top of the 15(c) rows instead, so 15(c) rows show 4+... marks and do not add to (2)"
+    "15(b): Final A1 row (P = 4*sqrt(30) and mark total (4)) is missing from 15(b) mark scheme rows and appears at the top of 15(c) mark scheme rows; 15(b) only shows 3 of 4 marks.",
+    "15(c): Top mark-scheme row (A1 for P = 4*sqrt(30), mark total (4)) belongs to 15(b)."
    ],
-   "fingerprint": "93b127345811",
+   "fingerprint": "f648663c618d",
    "kinds": {
     "15(a)": "calc",
     "15(b)": "calc",
@@ -151,7 +149,7 @@
   "16": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "804b8dcc1ea3",
+   "fingerprint": "bac89c36e1ae",
    "kinds": {
     "16(a)": "calc",
     "16(b)": "calc",
@@ -175,7 +173,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "e318f09b1dd9",
+   "fingerprint": "3de512816f34",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -191,9 +189,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "2ff1841e106f",
+   "fingerprint": "a32979c7a23b",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -213,11 +211,11 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "4: a stray clipped fragment \"(1\" (the start of another question's mark total) shows at the bottom-left edge of the examiners' notes crop."
+    "Examiners notes (end of question 4): a stray clipped fragment \"(1\" (the start of a mark-total from the next question) sits at the very bottom-left edge"
    ],
-   "fingerprint": "180c4dbe07a6",
+   "fingerprint": "ff49aed31d01",
    "kinds": {
     "4": "calc"
    },
@@ -231,7 +229,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "b222b2978744",
+   "fingerprint": "f96d84ae53b4",
    "kinds": {
     "5(i)": "calc",
     "5(ii)": "calc"
@@ -248,7 +246,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "507bca5c10f8",
+   "fingerprint": "fddf11212275",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -270,7 +268,7 @@
   "7": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "470eaa82cf4e",
+   "fingerprint": "67c1157b21df",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -285,9 +283,9 @@
    }
   },
   "8": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "71c8f2b298d4",
+   "fingerprint": "0fe001e0027d",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -303,9 +301,9 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c1ba71e1ffc0",
+   "fingerprint": "44e9ebab7581",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "30ba01d1e703",
+   "fingerprint": "5e62c7e92170",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -23,9 +23,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "991e084e5087",
+   "fingerprint": "6fa961068e03",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short"
@@ -40,9 +40,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f66f3010a239",
+   "fingerprint": "86bb9faaf69c",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -63,7 +63,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "035c6852b4c6",
+   "fingerprint": "143e3f4144cb",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -84,9 +84,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5addd5d8592b",
+   "fingerprint": "555fa257fd95",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc",
@@ -106,9 +106,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d1d082baf15d",
+   "fingerprint": "108a03c002a4",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -127,9 +127,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "4fc0cf755322",
+   "at": "2026-11-22",
+   "concerns": [
+    "7(e): the ALTERNATIVE for final 3 marks header is at the bottom of 7(e) mark-scheme rows while its 3 mark-scheme rows appear at the top of the examiners NOTES section"
+   ],
+   "fingerprint": "0e36718cbcbf",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

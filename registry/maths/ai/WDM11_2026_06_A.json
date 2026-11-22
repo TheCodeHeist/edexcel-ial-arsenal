@@ -40,12 +40,12 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "3(a): mark-scheme crop is cut through the working at the bottom (the n=50 packing under \"or considers n = 50\" is sliced, only a clipped line shows); the rest continues in 3(b).",
-    "3(b): mark-scheme crop starts with the sliced tail of 3(a)'s working (clipped \"28 20\", then 24 16 7 / 15 13 12 / 11 which belong to the n=50 alternative of 3(a)), so only the A1 for 3(b) is shown; and a clipped grey sliver of the notes header shows under \"5 marks\"."
+    "3(a): Mark scheme rows include the first M1 row of 3(b) (Either considers n = 51 ... or considers n = 50) at the bottom.",
+    "3(b): Mark scheme is missing its first M1 row (Either considers n = 51 ... or considers n = 50), which appears at the bottom of 3(a)'s mark scheme rows (only A1 is shown)."
    ],
-   "fingerprint": "b89ca3e2789f",
+   "fingerprint": "cce7b5219109",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -80,11 +80,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: examiners notes end with a stray fragment of the next question (top of an event-times diagram with boxes 0, 14, 19, 22, 38 and M1 A1) at the bottom edge"
+    "5(c): Examiners' notes section at the bottom includes a stray clipped fragment of Question 6's mark scheme (bottom of a Dijkstra diagram with 0, B(6), G(5), I(3) and M1 A1)."
    ],
-   "fingerprint": "2a794ff8736b",
+   "fingerprint": "66d9ecfa64ae",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -172,13 +172,13 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(d): the QUESTION crop is wrong - after the (d) text it includes the whole Pearson answer-book cover page and every answer page (candidate details, barcode, flowcharts/network diagrams for other questions, blank answer pages, tables), making the image about 17000 px tall; it should be only the two lines of (d), and the (d) question text is clipped to the first line at the crop edge",
-    "8(b): mark-scheme rows run on into (c)s first working (2x+7y=70 and 7x+3y=105 giving (12.2, 6.5), C=119.7 with M1 A1), so (b) rows carry (c) content and marks beyond its 3",
-    "8(c): mark-scheme rows end with the first rows of (d)s test table ((12,7) 73 Y 105 Y 123 with a dM1) clipped at the bottom, so (c) rows carry (d) content/marks beyond its 4; the rest of that table and the d1A1 mark are in the (d) rows"
+    "8(b): Mark scheme rows include the first M1 and A1 lines of 8(c) (vertex calculations for 2x+7y=70, 7x+3y=105 and 6x+7y=210) at the bottom.",
+    "8(c): Mark scheme is missing its first M1 and A1 lines (which appear at the bottom of 8(b)'s mark scheme rows), and includes the first M1 table row of 8(d) ((12, 6), (13, 7), (13, 8)) at the bottom.",
+    "8(d): Question crop contains the entire WDM11/01A Answer Book (cover page and answer-book pages for Questions 1-8) appended after the question text; also 8(d)'s mark scheme is missing its first M1 table row (which appears at the bottom of 8(c)'s mark scheme rows)."
    ],
-   "fingerprint": "f8df9fdfec66",
+   "fingerprint": "dfa3f2031fd7",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "draw",

@@ -98,9 +98,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "be04ede442a8",
+   "fingerprint": "a56312d80866",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -165,12 +165,11 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "9(a): question crop cuts the top of the e = sqrt113/8 fraction, so the radical bar is clipped at the top edge",
-    "9(e): mark scheme crop is stitched badly at the page break around the Foci are at (+-ae,0) row: the row appears twice, the first copy is clipped through the text, and the label cell reads only a cut-off final M1A1"
+    "9(e): mark-scheme rows have a page-seam glitch about two-thirds of the way down the first table: the \"Foci are at (+-ae,0) = ...\" line appears twice, the second copy with its top clipped/overprinted and the row label (\"ALT for final M1A1\") cut to a fragment, so the main scheme and its alternative run together; all the marks are still present"
    ],
-   "fingerprint": "acfdb75f3c0c",
+   "fingerprint": "2bb48e82b4b9",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

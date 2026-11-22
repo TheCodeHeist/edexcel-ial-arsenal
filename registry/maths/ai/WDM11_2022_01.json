@@ -1,12 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(c): mark-scheme rows run on into the start of (d)s binary-search working (6 reject 13-28, 3 reject 4-8, with the first M1 mark) which is cut off at the crop bottom, so (c) rows contain (d) content and the marks do not match (c)s 3",
-    "1(d): mark-scheme rows start mid-formula (only the bottom of the 8 reject 4-8 line and its A1 visible), so the first lines and M1 of (d) are missing"
+    "1(c)/1(d): mark-scheme split is wrong: the first two binary-search rows of (d) (ceil((1+10)/2)=6 reject 13-28, M1 and ceil((1+5)/2)=3 reject 4-8) sit at the bottom of the 1(c) MS crop, with the second cut through its formula; the 1(d) MS crop then starts mid-formula (only A1 A1 and 9 found visible, M1 missing), so (d) rows lack its M1 and marks do not total 3."
    ],
-   "fingerprint": "936836477bc5",
+   "fingerprint": "2ed863b3daf4",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -29,9 +28,9 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3b516b3cbe7b",
+   "fingerprint": "615bdfb3169a",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -58,11 +57,11 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3: mark-scheme rows cut through the model network diagram - the top (activities A, D, H and dummies) is in the purple MARK SCHEME bar and the lower half (B, C, E, F, G, I, J) falls under the NOTES caption, so the diagram is split in two and the 5 marks rows are incomplete"
+    "3: the mark-scheme network diagram is cut through horizontally: the MS rows crop ends partway through the diagram (only the top halves of A, D, H and the dashed dummies are shown) and the rest (B, E, J, C, F, G, I, the lower dummies and the \"5 marks\" row) sits under the examiners NOTES caption bar; the MS crop ends too early."
    ],
-   "fingerprint": "72cbab2f8184",
+   "fingerprint": "200e55082438",
    "kinds": {
     "3": "draw"
    },
@@ -74,12 +73,11 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(a): mark-scheme rows also contain the top of (b)s cascade chart (activities A,G,I,L,B,C,D with an M1 and A1), so (a) rows carry extra marks beyond its 4",
-    "4(b): mark-scheme rows start mid-chart (cascade chart cut through at activities D/E, top rows A,G,I,L,B,C,D missing) so the model cascade chart is split between the (a) and (b) rows"
+    "4(a)/4(b): the cascade chart in the mark scheme is cut across the part boundary: its top half (time axis, A, G, I, L, B, C, D bars and the first M1 A1 marks) is at the bottom of the 4(a) MS crop, cut through the D bar, and the 4(b) MS crop starts mid-chart (E, F, H, J, K, M, with a sliver of the row above), so 4(a) rows include (b) rows and 4(b) rows lack the M1 and first A1."
    ],
-   "fingerprint": "f25cd8673cf7",
+   "fingerprint": "b8b7676d1584",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "draw",
@@ -98,9 +96,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "98c4af8b89fd",
+   "fingerprint": "17b9c442fe15",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -119,11 +117,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
-   "concerns": [
-    "6(c): mark-scheme rows clip the (c)(ii) row (29 + 7(AB) + 8(AC) = 44 km and its M1 A1) at the bottom edge, cutting the text in half; a thin sliver of the same row reappears at the top of 6(d)s rows"
-   ],
-   "fingerprint": "7ce21af81170",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "e1b160b8a3c0",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -147,13 +143,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(b): mark-scheme rows continue into the top of (c)s model graph (y-axis 30-40 with a line and two B1 marks), so (b) rows carry content and marks belonging to (c)",
-    "7(c): mark-scheme rows start mid-graph (graph cut through at y=20 with the upper part and first B1 left in the (b) rows), so the model graph is split across the (b) and (c) rows",
-    "7(d): last mark-scheme row (V correctly labelled B1) is clipped at the bottom edge, text partly cut"
+    "7(b)/7(c): the mark-scheme graph for (c) is cut across the part boundary: its upper part (y from 30 to 40, with the first two B1 marks) is at the bottom of the 7(b) MS crop (so (b) shows M1 A1 A1 plus two stray B1s, 5 marks for a 3-mark part), and the 7(c) MS crop starts lower down the graph (y=20 and below) showing only B1 B1 and the part total (4); the graph is cut through and the 7(c) rows are incomplete."
    ],
-   "fingerprint": "7852bda32536",
+   "fingerprint": "4a2d372e308f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

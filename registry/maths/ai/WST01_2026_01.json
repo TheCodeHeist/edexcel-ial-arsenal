@@ -1,11 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(b): the question crop has no blank grid to draw the box plot on; the page 3 grid and the spare grid both appear in the 1(c) crop instead, so the grids sit under the wrong part (1(c) is not a drawing part)."
+    "1(b): the box plot answer grid referenced by part (b) (On the grid provided on page 3) is missing from 1(b) crop and appears under 1(c) instead",
+    "1(c): includes the box plot answer grid for part (b) and the spare grid below part (c) question text"
    ],
-   "fingerprint": "e84c1d0c6d4a",
+   "fingerprint": "4e95a0935a66",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "draw",
@@ -27,9 +28,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8bb7e2ca6cee",
+   "fingerprint": "dc1ec8ea78cd",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -60,9 +61,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "28b23dde7ddb",
+   "fingerprint": "fc30921ed97f",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "draw",
@@ -83,9 +84,9 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "81c4364c0422",
+   "fingerprint": "7629dc4a2bfd",
    "kinds": {
     "4(a)": "calc",
     "4(b)(i)": "calc",
@@ -105,9 +106,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "fc7b94172172",
+   "fingerprint": "087363fd7445",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc",
@@ -127,9 +128,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "1ed6f403326e",
+   "fingerprint": "7c282e7e35ca",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -150,9 +151,9 @@
    }
   },
   "7": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "0837a7ab2ad8",
+   "fingerprint": "090fbce57690",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

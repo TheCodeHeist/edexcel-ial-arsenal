@@ -35,7 +35,8 @@
      "marks": 4,
      "kind": "calc",
      "topics": [
-      "P1.5.2"
+      "P1.5.2",
+      "P1.1.1"
      ],
      "tagStatus": "suggested",
      "qp": [
@@ -56,32 +57,18 @@
       {
        "src": "maths/WMA01_2019_10/q1_ms.webp",
        "w": 1126,
-       "h": 822,
+       "h": 839,
        "region": {
         "page": 9,
         "x0": 33.6,
         "y0": 70.6,
         "x1": 574.0,
-        "y1": 464.9
+        "y1": 473
        }
       }
      ],
      "text": "1. Find 1 1 ⎛ ⎞ ∫ G௘x x 0 x + 3 2 − 6 ⎝⎜ ⎠⎟ x 2 3 writing each term as simply as possible. (4)",
      "kindGuessed": "calc"
-    }
-   ],
-   "msNotes": [
-    {
-     "src": "maths/WMA01_2019_10/q1_notes.webp",
-     "w": 1126,
-     "h": 37,
-     "region": {
-      "page": 9,
-      "x0": 33.6,
-      "y0": 461.9,
-      "x1": 574.0,
-      "y1": 479.2
-     }
     }
    ],
    "check": "machine"

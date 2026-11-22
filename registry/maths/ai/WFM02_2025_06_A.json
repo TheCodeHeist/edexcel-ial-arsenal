@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "b877e73c6dc0",
+   "fingerprint": "349f03deb5e4",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,9 +20,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d9b0251af8ed",
+   "fingerprint": "63d5f647abd3",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -37,9 +37,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "449386d731f4",
+   "fingerprint": "45115dedcc68",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -79,9 +79,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "3652c93eb9f0",
+   "at": "2026-11-22",
+   "concerns": [
+    "5(a): top of the numerator '2' in the fraction 2/(2r+5) is slightly clipped at the top edge of the question crop."
+   ],
+   "fingerprint": "eb3f970063ee",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -120,9 +122,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c5525aeb4eaf",
+   "fingerprint": "a89f43f83a82",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -143,9 +145,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "4817bbad1081",
+   "fingerprint": "ace2b70da0db",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

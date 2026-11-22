@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "cfb437d35bbf",
+   "fingerprint": "e25022e198e9",
    "kinds": {
     "1(a)(i)": "calc",
     "1(a)(ii)": "calc",
@@ -33,7 +33,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "5514c07e1a22",
+   "fingerprint": "3285e91fb0f2",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -52,9 +52,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "819bec4091b9",
+   "fingerprint": "783bc2603a25",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -82,9 +82,9 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "dc50d5622f95",
+   "fingerprint": "1691fb1c3d04",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -114,11 +114,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [
-    "5(c): mark scheme answer 1/4 is cut through at the bottom edge of the 5(c) rows (denominator 4 missing) and the stray 4 appears at the top edge of the 5(d) mark scheme crop; 5(c) rows also start with a stray fragment of the (2) from 5(b)"
-   ],
-   "fingerprint": "7d5cccb18d32",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "62eff7a62bdd",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -145,13 +143,12 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "6(a): the mark scheme row is cut at the bottom; the 60 and 5 of the fractions 53/60 and 1/5 are clipped by the crop edge",
-    "6(b)(i): the mark scheme crop is cut through a row at the bottom; a following line of working (b-17 / 53 / 23 / -7) is sliced in half and unreadable, so the second method for k is cut",
-    "6(b)(ii): the mark scheme first line (P(W<k) = (k-(-7))/(23-(-7)) = 53/60 ...) is cut at the top, with numerators clipped by the crop edge"
+    "6(b)(i): top edge of part (b)(ii) mark scheme row is clipped into the bottom edge of the (b)(i) mark scheme crop",
+    "6(b)(ii): top of the first mark scheme line (numerators of the probability equations) is clipped at the top edge of the (b)(ii) mark scheme crop"
    ],
-   "fingerprint": "490fae83df0b",
+   "fingerprint": "33d05edb7d67",
    "kinds": {
     "6(a)": "calc",
     "6(b)(i)": "calc",
@@ -181,7 +178,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ec3b31b7afee",
+   "fingerprint": "62626ae7ef6f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

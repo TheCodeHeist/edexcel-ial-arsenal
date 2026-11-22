@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "52631cd9b111",
+   "at": "2026-11-22",
+   "concerns": [
+    "1: examiners notes include a stray cut-off fragment of Q2(a) mark scheme tree diagram at the bottom"
+   ],
+   "fingerprint": "08a9baccf9c2",
    "kinds": {
     "1": "calc"
    },
@@ -16,9 +18,11 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "82713b88334f",
+   "at": "2026-11-22",
+   "concerns": [
+    "2(a): mark-scheme rows have the top half of the tree diagram (Meat branch 0.40, p, 1-p and Fish q) cut off at the top"
+   ],
+   "fingerprint": "05871ab6d16a",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "calc",
@@ -45,9 +49,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f07047c1690f",
+   "fingerprint": "7872a7786ad5",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -72,13 +76,13 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(b): crop ends at the grid and omits its axis scale (0-60, Marks), which appears instead as a stray fragment at the top of the 4(c) crop",
-    "4(d): same problem - the grid axis numbers/Marks label are cut off the bottom of 4(d) and appear as a stray fragment at the top of the 4(e) crop",
-    "4(c)/4(d) mark scheme rows: a clipped fragment of the previous part mark total \"(3)\" shows at the top edge"
+    "4(b): x-axis scale and label (0 10 20 30 40 50 60 Marks) for the 4(b) grid are cut off from 4(b) and appear at the top of 4(c)",
+    "4(d): x-axis scale and label (0 10 20 30 40 50 60 Marks) for the 4(d) grid are cut off from 4(d) and appear at the top of 4(e)",
+    "4(e): includes the spare copy grids for parts 4(b) and 4(d) at the bottom"
    ],
-   "fingerprint": "e663f89b275d",
+   "fingerprint": "69216be6eec5",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "draw",
@@ -108,9 +112,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3350051333ba",
+   "fingerprint": "18ec182430a4",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -141,9 +145,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8145eee337f3",
+   "fingerprint": "2adc1e8538ed",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d8a036bdbb71",
+   "fingerprint": "d10f13d53a7d",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -18,9 +18,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "195ed4d1b746",
+   "fingerprint": "88323c671879",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -35,9 +35,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "115f84b0dba2",
+   "fingerprint": "89e8a7eb6190",
    "kinds": {
     "3": "calc"
    },
@@ -49,9 +49,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "9f0aab6c105f",
+   "fingerprint": "0905fc36fdb2",
    "kinds": {
     "4": "calc"
    },
@@ -62,9 +62,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "26a225a02197",
+   "fingerprint": "36798f457272",
    "kinds": {
     "5": "calc"
    },
@@ -76,9 +76,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e1abcc0dd06d",
+   "fingerprint": "6c4793c7db97",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -102,12 +102,12 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(b): mark-scheme crop cuts the sketch graph off at the bottom - the t-axis and its labels (2.5, 2.5+T, 20) appear instead at the top of the 7(c) mark-scheme rows, so 7(b) shows a graph without its time axis and 7(c) starts with stray axis labels",
-    "7(a): mark-scheme row text slightly clipped at the bottom edge (Allow 2.5g), still readable"
+    "7(b): the horizontal axis line and time labels (2.5, 2.5+T, 20) at the bottom of the mark-scheme sketch are cut off from 7(b) mark-scheme crop",
+    "7(c): stray horizontal axis line and labels (2.5, 2.5+T, 20) from 7(b) mark-scheme sketch appear at the top of 7(c) mark-scheme crop"
    ],
-   "fingerprint": "2f42768b8715",
+   "fingerprint": "2e3b33b664d7",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw",
@@ -132,7 +132,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "934ade436a1e",
+   "fingerprint": "2e1e45ac9ea0",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

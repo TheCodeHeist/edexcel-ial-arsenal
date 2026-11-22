@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "3a38c9e8be60",
+   "fingerprint": "ebc4228bddbd",
    "kinds": {
     "1": "calc"
    },
@@ -15,9 +15,9 @@
    }
   },
   "10": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7157ec99a15a",
+   "fingerprint": "c6b635f850f0",
    "kinds": {
     "10(a)(i)": "short",
     "10(a)(ii)": "calc",
@@ -48,9 +48,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "39df7f6ce0af",
+   "fingerprint": "a47ba8cc6a51",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -70,9 +70,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e63807c524b2",
+   "fingerprint": "72b5fab236d0",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "draw"
@@ -89,9 +89,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c64ebe4696ae",
+   "fingerprint": "b3eb7df36982",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -108,7 +108,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "840ed3b52664",
+   "fingerprint": "201ee88dd06c",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -131,7 +131,7 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "389a0a40d29c",
+   "fingerprint": "89db7442c014",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -153,7 +153,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "997ac63ae695",
+   "fingerprint": "4613a60bec2c",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -170,9 +170,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "1f8fa9140ed5",
+   "at": "2026-11-22",
+   "concerns": [
+    "8(a): Top of 8(a) mark-scheme block contains examiners notes from Question 7(b) (Any two of the three correct inequalities...) before Question 8 general guidance and 8(a) rows.",
+    "8(b): Top of 8(b) mark-scheme block duplicates Question 7(b) examiners notes and Question 8 general guidance before 8(b) rows."
+   ],
+   "fingerprint": "df08948653f0",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -190,9 +193,9 @@
    }
   },
   "9": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "b808bae51e84",
+   "fingerprint": "95462e2cdf66",
    "kinds": {
     "9(i)(a)": "short",
     "9(i)(b)": "draw",

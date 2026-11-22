@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "4b77898e2933",
+   "fingerprint": "72e512a2e8bd",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "short",
@@ -24,7 +24,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "3cd8524e3238",
+   "fingerprint": "a7a4393b5595",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -39,25 +39,25 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2: the mark-scheme rows start with stray text from other questions (a B1 |x|<2/5 binomial-validity note and a part (c) B1ft note on (4/(2+5x))^2 expansion) before the real row for this question; the question and the rows are otherwise fine and the volume rows (B1 M1A1 M1A1 = 5) are all present"
+    "2: the mark-scheme rows start with stray text from another question (examiners notes about binomial \"|x| < 2/5\" and \"(c) B1ft: (4/(2+5x))^2 ≈ 4-20x+75x^2\"), above the real Q2 table; the real rows follow, and the table bottom edge/(5) total is slightly cut off"
    ],
-   "fingerprint": "3b436108bfad",
+   "fingerprint": "a232db83e186",
    "kinds": {
     "2": "calc"
    },
    "topics": {
     "2": [
      "P4.6.1",
-     "P3.5.2"
+     "P1.5.2"
     ]
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "1caff0de8f3b",
+   "fingerprint": "021e0c14e164",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -73,9 +73,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7d0bf0892f42",
+   "fingerprint": "dcb492ebbd48",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -93,7 +93,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "060f4716e8c8",
+   "fingerprint": "c2a8430c6f90",
    "kinds": {
     "5": "calc"
    },
@@ -119,9 +119,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "ef202bd3da76",
+   "fingerprint": "d6a2c9af344d",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -138,12 +138,12 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a19991c871a9",
+   "fingerprint": "24ca89d9bca2",
    "kinds": {
     "8(a)": "calc",
-    "8(b)": "calc"
+    "8(b)": "short"
    },
    "topics": {
     "8(a)": [
@@ -151,21 +151,23 @@
      "P4.6.4"
     ],
     "8(b)": [
-     "P4.6.4"
+     "P4.6.4",
+     "P3.3.1"
     ]
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "76cc766a525b",
+   "fingerprint": "a92ad043015b",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"
    },
    "topics": {
     "9(a)": [
-     "P4.5.1"
+     "P4.5.1",
+     "P4.3.1"
     ],
     "9(b)": [
      "P4.6.5",

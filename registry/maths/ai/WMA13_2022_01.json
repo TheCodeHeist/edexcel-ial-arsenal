@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "117d64327c3b",
+   "fingerprint": "01a4e5610677",
    "kinds": {
     "1": "calc"
    },
@@ -18,7 +18,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7778dece82d3",
+   "fingerprint": "20c5124ae7e4",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -37,7 +37,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "050441be9ec9",
+   "fingerprint": "2100e985c7a6",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -54,9 +54,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "304941a2ef1a",
+   "at": "2026-11-22",
+   "concerns": [
+    "3(ii): very bottom edge of examiners notes slightly clips the bottom of the integral expression"
+   ],
+   "fingerprint": "62edd5958e50",
    "kinds": {
     "3(i)": "calc",
     "3(ii)": "calc"
@@ -72,11 +74,11 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "4(b): in the examiners notes, the \"Example 2\" line (50 = 80x2.4e^0.15T / (2.4e^0.15T + 4) => 72e^0.15T = 200) is sliced through its top, the numerator and exponent are cut, because a crop edge falls inside that line"
+    "4(b): in examiners notes under Students lacking work in part (b), Example 2 numerator 80 x 2.4 e^(0.15T) has its top half sliced off horizontally"
    ],
-   "fingerprint": "24bd6e4037fc",
+   "fingerprint": "eef14ea0260b",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -96,11 +98,11 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "5(c): in the examiners notes, the A1 line (cso x = (-3+sqrt105)/4 or awrt 1.81 ONLY. If x = ... -3.31 is also written down) has the numerators of both fractions sliced through at the top by a crop edge, so the surds are unreadable"
+    "5(c): in examiners notes A1 line, the numerators -3 + sqrt(105) and -3 - sqrt(105) are sliced off horizontally"
    ],
-   "fingerprint": "392218a7b670",
+   "fingerprint": "6165fd063f1c",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -120,11 +122,11 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "6(b): in the examiners notes, the (b) A1 line (f^-1(x) = (4x-3)/(x-5) ...) and the B1 line (x>5, domain) are sliced through by a crop edge and mostly lost; the notes jump straight from the M1 line to (c)(i) (the B1 for the domain only appears later in the alternative-method block)"
+    "6(b): in examiners notes for (b), the A1 line is sliced horizontally across its bottom half and the B1 (domain x > 5) note appears cropped out"
    ],
-   "fingerprint": "17fef7d54379",
+   "fingerprint": "1d309af105c5",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -145,7 +147,7 @@
   "7": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "8fb0c3a5c5fa",
+   "fingerprint": "348295a968ca",
    "kinds": {
     "7(a)": "short",
     "7(b)": "calc",
@@ -186,9 +188,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "367984eda642",
+   "fingerprint": "6c6cea551d22",
    "kinds": {
     "9(i)": "calc",
     "9(ii)": "calc"

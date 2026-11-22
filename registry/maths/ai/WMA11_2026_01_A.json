@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ffa4dfad48c1",
+   "fingerprint": "a6b637259940",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -24,9 +24,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7bf9dcc6a8cb",
+   "fingerprint": "2d0116003ee4",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -46,7 +46,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ff26782ed4ca",
+   "fingerprint": "341db0c1f3e3",
    "kinds": {
     "2(i)": "calc",
     "2(ii)": "calc"
@@ -61,9 +61,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f2814d611176",
+   "fingerprint": "e8951e53acb2",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -82,7 +82,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a716867b8bb5",
+   "fingerprint": "166fb29304b0",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -103,13 +103,13 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e19fe5c8c1fe",
+   "fingerprint": "5e321ef686d6",
    "kinds": {
-    "5(a)": "calc",
+    "5(a)": "short",
     "5(b)": "short",
-    "5(c)": "calc",
+    "5(c)": "short",
     "5(d)": "draw"
    },
    "topics": {
@@ -130,12 +130,11 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "6(a): the mark-scheme rows also include the boxed (b) Alternative 1, 2 and 3 schemes for part (b) (M1 A1, M1 A1, M1 A1 rows for finding AO), which do not answer part (a); the (2) mark total is also clipped at the row boundary.",
-    "6(b): the mark-scheme crop starts with a stray bracket sliver at the top edge and the (3) total at the bottom is clipped."
+    "6(a): the 6(a) MARK SCHEME rows include three boxed rows headed \"(b) Alternative 1/2/3\" (cosine-rule and right-angled methods for finding AO) which belong to part (b), not (a); the actual 6(a) marks are only the first M1A1 row."
    ],
-   "fingerprint": "3ab0ce3a85c6",
+   "fingerprint": "4347aa396e48",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -144,8 +143,7 @@
    },
    "topics": {
     "6(a)": [
-     "P1.3.1",
-     "P1.3.2"
+     "P1.3.1"
     ],
     "6(b)": [
      "P1.3.1",
@@ -156,23 +154,22 @@
      "P1.3.1"
     ],
     "6(d)": [
-     "P1.3.2",
-     "P1.3.1"
+     "P1.3.2"
     ]
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "51958daed793",
+   "fingerprint": "5a813e352217",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
    },
    "topics": {
     "7(a)": [
-     "P1.5.1",
-     "P1.5.2"
+     "P1.5.2",
+     "P1.5.1"
     ],
     "7(b)": [
      "P1.4.3",
@@ -181,11 +178,9 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
-   "concerns": [
-    "8: the end of the mark-scheme table is cut across the notes caption: the 6 marks total row appears below the examiners NOTES bar (with a clipped sliver of it above the bar) instead of ending the mark-scheme rows."
-   ],
-   "fingerprint": "e8c8982d0802",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "bf72af1c5253",
    "kinds": {
     "8": "calc"
    },
@@ -198,9 +193,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "b64aa3144f64",
+   "fingerprint": "6a807aab1413",
    "kinds": {
     "9": "calc"
    },

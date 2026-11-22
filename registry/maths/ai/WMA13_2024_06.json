@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "99a14e63ac0f",
+   "fingerprint": "53dc06811586",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -25,7 +25,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "27cf9e78b4f4",
+   "fingerprint": "9ca55665a6f4",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -41,12 +41,12 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3(i): MARK SCHEME rows crop cuts the mark-scheme sketch (log10 y against log10 x) through the middle - the x-axis, its intercept (2,0) and the log10 x label are missing from the bottom of the 3(i) rows.",
-    "3(ii): MARK SCHEME rows crop starts with the lower part of that same 3(i) sketch (a stray axis line and the label log10 x) at the top edge, belonging to 3(i)."
+    "3(i): mark scheme sketch graph is split at the bottom — the x-axis (with x-intercept (2, 0) and log10 x label) is cut off from 3(i) mark scheme rows and appears clipped at the top of 3(ii) mark scheme rows",
+    "3(ii): top of mark scheme rows contains stray bottom portion of 3(i) sketch graph"
    ],
-   "fingerprint": "30abb4ec9f41",
+   "fingerprint": "e749cceff3bd",
    "kinds": {
     "3(i)": "draw",
     "3(ii)": "calc"
@@ -65,7 +65,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "2a80df0d6943",
+   "fingerprint": "dd57e4ce0ed8",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -86,7 +86,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "18cf5364ee03",
+   "fingerprint": "4c8ca2dae436",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -111,7 +111,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ca1f4bd433b4",
+   "fingerprint": "bf1d06c7b305",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -130,7 +130,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "054906ef07fc",
+   "fingerprint": "8a1a0e63d731",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -146,9 +146,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5345c6618fd9",
+   "fingerprint": "6ac2303bb447",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -170,7 +170,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "1fa3416ba92e",
+   "fingerprint": "d8b729aae9e4",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

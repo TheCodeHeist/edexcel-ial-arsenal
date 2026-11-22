@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "0e67b570d885",
+   "fingerprint": "f90e2cc48b21",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -19,9 +19,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8d3872514aff",
+   "fingerprint": "ecb08c3cc765",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -29,33 +29,35 @@
    "topics": {
     "10(a)": [
      "P1.4.3",
-     "P1.1.6"
+     "P1.1.6",
+     "P1.2.2"
     ],
     "10(b)": [
      "P1.4.3",
-     "P1.1.3"
+     "P1.1.3",
+     "P1.2.2"
     ]
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d2db951d0f16",
+   "fingerprint": "de882fbf4f48",
    "kinds": {
     "2": "calc"
    },
    "topics": {
     "2": [
-     "P1.5.1",
      "P1.5.2",
+     "P1.5.1",
      "P1.1.10"
     ]
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7f6ddd7b39ae",
+   "fingerprint": "7cbaf2da45c8",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -70,9 +72,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f387c436381c",
+   "fingerprint": "601bf4dc5999",
    "kinds": {
     "4(i)": "calc",
     "4(ii)": "calc"
@@ -88,9 +90,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "9b7c597df749",
+   "fingerprint": "51ea22d966cf",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -98,8 +100,7 @@
    },
    "topics": {
     "5(a)": [
-     "P1.1.5",
-     "P1.1.3"
+     "P1.1.5"
     ],
     "5(b)": [
      "P1.1.6",
@@ -111,9 +112,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "786fa24a0de2",
+   "fingerprint": "7a85fe9c862e",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc"
@@ -125,17 +126,15 @@
     ],
     "6(b)": [
      "P1.1.4",
+     "P1.1.6",
      "P1.1.9"
     ]
    }
   },
   "7": {
-   "at": "2026-11-20",
-   "concerns": [
-    "7(b): the bottom of the mark-scheme rows is clipped through the (3) mark total at the lower edge.",
-    "7(c): the mark-scheme rows start with a thin sliver of the previous rows (a stray bracket fragment) along the top edge, and a stray text sliver under (9 marks) at the bottom edge."
-   ],
-   "fingerprint": "c1d6ce2ec315",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "7e10e2ca2c8f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -154,9 +153,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "78950530df72",
+   "fingerprint": "9992974fbf92",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -164,25 +163,23 @@
    },
    "topics": {
     "8(a)": [
-     "P1.4.1",
+     "P1.4.3",
      "P1.1.2"
     ],
     "8(b)": [
      "P1.4.3",
-     "P1.2.1"
+     "P1.2.2"
     ],
     "8(c)": [
-     "P1.5.1",
-     "P1.5.2"
+     "P1.5.2",
+     "P1.5.1"
     ]
    }
   },
   "9": {
-   "at": "2026-11-20",
-   "concerns": [
-    "9(b)(ii): mark-scheme rows also include the (b)(i) row (5pi/3, 4, B1 B1 (2)) above the (ii) row, which does not answer this part."
-   ],
-   "fingerprint": "6d2294d3a253",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "56384d1d4ff4",
    "kinds": {
     "9(a)": "short",
     "9(b)(i)": "short",
@@ -190,7 +187,8 @@
    },
    "topics": {
     "9(a)": [
-     "P1.3.3"
+     "P1.3.3",
+     "P1.1.12"
     ],
     "9(b)(i)": [
      "P1.1.12",

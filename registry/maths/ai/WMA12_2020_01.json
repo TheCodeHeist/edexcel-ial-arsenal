@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c36d04f65b1c",
+   "fingerprint": "0566ed74ef3a",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -19,9 +19,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "562611293590",
+   "fingerprint": "59ff18b9e4cf",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -40,9 +40,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "9aacf50de5b1",
+   "fingerprint": "94191ce9c839",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -57,9 +57,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "85e2ead8ec03",
+   "at": "2026-11-22",
+   "concerns": [
+    "3(a): the bottom half of the (2) mark total in the mark scheme crop is clipped and appears at the top right of 3(b) mark scheme crop."
+   ],
+   "fingerprint": "dc678b8f2870",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -79,9 +81,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "adf8a85c1262",
+   "fingerprint": "f9c1f4274335",
    "kinds": {
     "4": "calc"
    },
@@ -93,9 +95,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3806b92c572f",
+   "fingerprint": "772c91437cf9",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -114,7 +116,7 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "7a328a61f795",
+   "fingerprint": "3e35b7c0c47b",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -134,9 +136,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "611c7c176386",
+   "fingerprint": "1b761f2c3fbb",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -152,12 +154,12 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(ii)(a): the mark-scheme rows also include the 8(ii)(b) working (M1 B1 A1, sum = 8847), so the marks shown are 4 rather than the 1 for this part",
-    "8(ii)(b): the mark-scheme rows also include the 8(ii)(a) row (u5 = 22, B1), so the marks shown are 4 rather than the 3 for this part"
+    "8(ii)(a): mark scheme crop includes the rows for 8(ii)(b) as well (4 marks shown instead of 1).",
+    "8(ii)(b): mark scheme crop includes the row for 8(ii)(a) as well (4 marks shown instead of 3)."
    ],
-   "fingerprint": "a29626849678",
+   "fingerprint": "c1467ba01ab1",
    "kinds": {
     "8(i)": "calc",
     "8(ii)(a)": "calc",
@@ -178,12 +180,11 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "9(a): the mark-scheme sketch is cut off at the bottom (the origin label O and the lower edge of the diagram are missing, only a clipped sliver shows)",
-    "9(b): the top of the mark-scheme rows starts with a stray clipped fragment (the O origin label) that belongs to the 9(a) sketch"
+    "9(b): stray clipped characters (O1) appear at the top edge of the mark scheme crop."
    ],
-   "fingerprint": "be77ef2d7ade",
+   "fingerprint": "f4ea0e4441ef",
    "kinds": {
     "9(a)": "draw",
     "9(b)": "calc"

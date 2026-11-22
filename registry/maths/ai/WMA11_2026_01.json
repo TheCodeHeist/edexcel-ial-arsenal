@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "63c4f67ff311",
+   "at": "2026-11-22",
+   "concerns": [
+    "Shared stem (affects 1(a) and 1(b)): the top of the crop cuts through the numerator of the fraction 3/(2 sqrt x) in y = 4x^3 + 3/(2 sqrt x) - 8; only the bottom of the 3 is visible."
+   ],
+   "fingerprint": "c29033844c36",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -14,35 +16,36 @@
      "P1.1.1"
     ],
     "1(b)": [
-     "P1.5.1",
-     "P1.5.2"
+     "P1.5.2",
+     "P1.5.1"
     ]
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a82d611c5e16",
+   "fingerprint": "ba62ca37bf48",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
    },
    "topics": {
     "2(a)": [
-     "P1.1.6",
-     "P1.1.3"
+     "P1.1.6"
     ],
     "2(b)": [
      "P1.1.6",
-     "P1.1.2",
-     "P1.1.5"
+     "P1.1.5",
+     "P1.1.2"
     ]
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "c233f156572a",
+   "at": "2026-11-22",
+   "concerns": [
+    "3(ii): a clipped fragment of the printed heading \"Question 3 continued\" sits between the question text and Diagram 1 (half of the line is cut off at the edge). Harmless, but it is stray text."
+   ],
+   "fingerprint": "092a8fa1c92d",
    "kinds": {
     "3(i)": "calc",
     "3(ii)": "draw"
@@ -59,9 +62,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "0e92377166f6",
+   "fingerprint": "c76256f8d792",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -84,7 +87,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "da661ce1aafc",
+   "fingerprint": "2ef430067966",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -106,11 +109,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "ab08403968fd",
+   "fingerprint": "09c1091e6031",
    "kinds": {
-    "6(a)": "calc",
+    "6(a)": "short",
     "6(b)": "calc",
     "6(c)": "calc"
    },
@@ -130,12 +133,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "50e6830faed7",
+   "fingerprint": "ae16159c30d0",
    "kinds": {
     "7(a)": "calc",
-    "7(b)": "calc",
+    "7(b)": "short",
     "7(c)": "calc"
    },
    "topics": {
@@ -154,11 +157,9 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Examiners notes: the notes end mid-sentence at the bottom edge (last line: \"A1: States 4/3 x^3 - 6/x - 4x + 6 sqrt3 It is not necessary to have the f(x) or the y\"), so the bottom of the notes crop looks cut off."
-   ],
-   "fingerprint": "0dff256cd5bd",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "0d25bbca1acb",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -167,26 +168,24 @@
    "topics": {
     "8(a)": [
      "P1.4.3",
-     "P1.1.3",
-     "P1.1.2"
+     "P1.1.3"
     ],
     "8(b)": [
      "P1.4.3",
      "P1.2.2"
     ],
     "8(c)": [
-     "P1.5.1",
-     "P1.5.2"
+     "P1.5.2",
+     "P1.5.1"
     ]
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "9(b): the question crop runs on through the answer pages: it includes Diagram 1, its copy, Diagram 2 and its copy and the (c)(i)/(c)(ii) answer lines, which belong to part (c).",
-    "9(c): the question crop does not include Diagram 2 (the graph axes the part says to sketch on); the Diagram 2 axes appear only inside the 9(b) crop."
+    "9(b): the 9(b) QUESTION crop also contains Diagram 2 and its Copy of Diagram 2 (the figures belonging to part (c)), plus the blank answer-space labels (a), (b)(i), (b)(ii), (c)(i), (c)(ii) between the diagrams. 9(c) refers to Diagram 2 but its own crop has no figure, so the diagram it needs sits only in the 9(b) crop."
    ],
-   "fingerprint": "d2321addff40",
+   "fingerprint": "21fb1b5d11c6",
    "kinds": {
     "9(a)": "short",
     "9(b)": "draw",

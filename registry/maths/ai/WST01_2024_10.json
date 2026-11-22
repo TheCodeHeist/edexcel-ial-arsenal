@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "a91ac0723167",
+   "fingerprint": "6acbedffeed9",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -36,7 +36,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "b0a4a7828d9d",
+   "fingerprint": "407e686c7f0a",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -64,12 +64,9 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
-   "concerns": [
-    "3(a): the part asks to complete the Venn diagram on page 11 but its question crop has no blank Venn diagram; the blank Cooking/Travel/Sport diagram appears at the end of the 3(c) question crop instead",
-    "3(c): the question crop includes the blank Venn diagram that belongs to 3(a)"
-   ],
-   "fingerprint": "ca7081cf4d60",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "a7e6643c91ce",
    "kinds": {
     "3(a)": "draw",
     "3(b)(i)": "calc",
@@ -94,7 +91,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0a00338d1448",
+   "fingerprint": "0969b95b8184",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -111,7 +108,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "756f9f76c793",
+   "fingerprint": "51e16e46eb9f",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -135,11 +132,11 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "Examiners NOTES: at the very bottom, below the 6(f) notes, there is a stray fragment of another question (a diagram with \"n-1 / 2n\" and \"Red\" labels) cut off at the bottom edge."
+    "Examiners notes (bottom): the notes end with a stray cut-off fragment of the next question (a table with fractions (n-1)/2n and the word Red, which looks like Q7 notes) below the 6(f) rows; it does not belong to Q6."
    ],
-   "fingerprint": "9204fbdbdbcb",
+   "fingerprint": "d932b48ae252",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -172,11 +169,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(a): mark scheme rows are cut off at the top: the top branch of the model tree (the Red/Black branches after 1st Red, with the (n-1)/2n probability) is sliced through, and the first B1 row text (n/(2n+1) and (n+1)/(2n+1)) is clipped at its upper edge."
+    "7(a): the mark-scheme image (completed tree diagram) is clipped at the top: the first-counter Red branch and its 2nd-counter Red/Black labels and the top of the n/(2n+1) and (n+1)/2n probabilities are cut off, so the top half of the answer tree is not fully visible."
    ],
-   "fingerprint": "3f49122914a4",
+   "fingerprint": "107d97cf555d",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",
@@ -200,9 +197,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "afefe264e4de",
+   "fingerprint": "802559155b6d",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

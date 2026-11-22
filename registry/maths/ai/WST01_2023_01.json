@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f12425a3dda1",
+   "fingerprint": "3beb2d8d1eba",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -32,11 +32,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(a): the part asks to complete the tree diagram on page 7, but the blank tree diagram is not in the 2(a) crop; it appears at the bottom of the 2(d) crop instead (and 2(d) itself needs no diagram)"
+    "2(a): partially completed tree diagram needed for 2(a) is missing from 2(a) and appears at the bottom of 2(d)",
+    "2(d): includes the partially completed tree diagram belonging to 2(a) at the bottom"
    ],
-   "fingerprint": "849bf01a3a79",
+   "fingerprint": "2d1440df8f0a",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "calc",
@@ -60,9 +61,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "fd90c44be042",
+   "fingerprint": "217c11fe958c",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -83,12 +84,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [
-    "4(i)(a): the mark-scheme rows also include the (i)(b) rows (M1 A1 A1 A1 A1), so the block totals 9 marks for a 4-mark part",
-    "4(i)(b): the mark-scheme rows also include the (i)(a) rows (M1 M1 M1 A1*), so the block totals 9 marks for a 5-mark part (the same two-part table is repeated for both)"
-   ],
-   "fingerprint": "e6ef9a29833e",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "4fae14678d6d",
    "kinds": {
     "4(i)(a)": "calc",
     "4(i)(b)": "calc",
@@ -110,9 +108,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3640d91ed89f",
+   "fingerprint": "b3b31a1ed8e3",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -142,9 +140,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "fd39e827ca5e",
+   "fingerprint": "519d158802e5",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",

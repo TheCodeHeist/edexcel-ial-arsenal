@@ -1,12 +1,13 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(a): the blank tree diagram to be completed is not in the 1(a) crop; it sits at the bottom of the 1(e) crop",
-    "1(a): the mark-scheme row shows only part of the completed tree - the top of the diagram (the win branches from the first game, 0.7/0.6 labels and upper branches) is cut off at the top edge of the purple crop"
+    "1(a): partially completed tree diagram needed for 1(a) is missing from 1(a) and appears at the bottom of 1(e)",
+    "1(a): mark-scheme rows have the top half of the tree diagram (first branch 0.7/win and upper second/third branches) cut off at the top",
+    "1(e): includes the partially completed tree diagram belonging to 1(a) at the bottom"
    ],
-   "fingerprint": "b29468708edc",
+   "fingerprint": "a442f323f338",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -34,11 +35,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(c): the part asks to draw the December box plot on Figure 1, but the Figure 1 grid (with the February box plot) is not in the 2(c) crop; it appears at the bottom of the 2(d) crop together with the spare grid"
+    "2(c): Figure 1 (the box plot grid needed for 2(c)) is missing from 2(c) and appears inside 2(d)",
+    "2(d): includes Figure 1 (belonging to 2(c)) and its spare copy grid"
    ],
-   "fingerprint": "cd4cf3be10c4",
+   "fingerprint": "9a1943b8453a",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -63,11 +65,11 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes image is cut off at the bottom; the notes for (ii)(c) are only a sliver (top of a row showing 19/140) and the row is not readable"
+    "3(ii)(c): examiners notes row for 3(ii)(c) at the very bottom of the Notes table is cut off horizontally"
    ],
-   "fingerprint": "d012274159c1",
+   "fingerprint": "83dd6f7ebd4a",
    "kinds": {
     "3(i)(a)": "calc",
     "3(i)(b)": "calc",
@@ -100,11 +102,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [
-    "4(a): the crop is cut off at the top - the numerators of the fractions in E(1/X) = 2/5 (the 1 and the 2) are clipped by the caption bar"
-   ],
-   "fingerprint": "6d874517a2f8",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "e9a058324caa",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -128,9 +128,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "2f41e448a4b0",
+   "fingerprint": "a9c08824a610",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -158,9 +158,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a84b93670f26",
+   "fingerprint": "593008b25c43",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

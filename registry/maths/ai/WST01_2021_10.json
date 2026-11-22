@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "efc968251fcc",
+   "fingerprint": "67e3310386b1",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -28,9 +28,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "cc568745b295",
+   "fingerprint": "63f03ad7fd49",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -98,9 +98,12 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "353964456665",
+   "at": "2026-11-22",
+   "concerns": [
+    "4(a): partially completed tree diagram needed for 4(a) is missing from 4(a) and appears at the bottom of 4(e)",
+    "4(e): includes the partially completed tree diagram belonging to 4(a) at the bottom"
+   ],
+   "fingerprint": "db37e01280ca",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "calc",
@@ -128,9 +131,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7050e8c822e2",
+   "fingerprint": "10cbcb573947",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -155,9 +158,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "92c7d997c771",
+   "fingerprint": "6c69660dcdd1",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

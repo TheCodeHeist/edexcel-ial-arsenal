@@ -1,11 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(c): the part says to draw the box plot on the grid opposite, but the grid (with the Hours axis) is not in the 1(c) crop; it appears at the bottom of the 1(e) crop together with the spare grid, and 1(e) (a one-line written answer) is shown with those grids"
+    "1(c): the box plot grid needed for 1(c) is missing from 1(c) and appears at the bottom of 1(e)",
+    "1(e): includes both the main box plot grid belonging to 1(c) and the spare copy grid at the bottom"
    ],
-   "fingerprint": "0b440bc18833",
+   "fingerprint": "6246a1d0fdba",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -35,11 +36,9 @@
    }
   },
   "2": {
-   "at": "2026-11-21",
-   "concerns": [
-    "2(f): the mark scheme crop ends with the \"Notes\" header row and a sliver of the next row below the Total 14 line"
-   ],
-   "fingerprint": "57dc6ed3ca71",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "2c5ead3969ab",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -75,12 +74,9 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
-   "concerns": [
-    "3(e)(ii): the mark scheme crop ends with the \"Notes\" header row and a sliver of the next row below the Total 14 line",
-    "Notes: the last examiners notes row for (e)(ii) (A1 awrt 144) is cut off at the bottom edge of the notes image"
-   ],
-   "fingerprint": "dcc558329392",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "1ba9f5f4a3ae",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -113,9 +109,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "30635bc18a9d",
+   "fingerprint": "d50590d7ca52",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -136,9 +132,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a628a6413cbc",
+   "fingerprint": "7df6eebbcebd",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -172,9 +168,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8832b67bf30f",
+   "fingerprint": "4e28ef5f190e",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

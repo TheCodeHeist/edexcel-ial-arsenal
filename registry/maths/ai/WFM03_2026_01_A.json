@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Notes: the crop under the NOTES caption starts with a clipped repeat of the last line of the main mark scheme (processed exact answers. Condone missing brackets.) and the Total 7 row, which belong to the mark scheme above"
-   ],
-   "fingerprint": "0227a7001508",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "e42ac8b4d428",
    "kinds": {
     "1": "calc"
    },
@@ -62,9 +60,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "572d1a90ce08",
+   "at": "2026-11-22",
+   "concerns": [
+    "Examiners notes (end of question 4): the image is cut off at the bottom; the last line of the Substitution working (u = tan x => integral of sec^2 x (1+u^2) du/..., u^3/3 + u = tan^3 x/3 + tan x) is sliced through its fractions and anything that follows it is missing"
+   ],
+   "fingerprint": "b0cf5f9ccc91",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -79,12 +79,12 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "5(b): mark scheme crop is cut through the dddM1 A1 row: the A1 note line (e.g. 2z-10y+22x-8=0 A0 if given in e.g. x, y, z ...) is clipped half-way, the (6) subtotal / Total 11 is missing, and what follows is the start of the alternative-methods notes (M^-1 = ... matrix row, There are obviously a lot of possible alternatives here...) which look stitched on, so the (b) marks cannot be checked as one table",
-    "Notes: crop ends cut through a line of text at the bottom edge (But note that this approach needs a point on Pi_2 ... there must be work to achieve the 4 (which just ..., clipped)"
+    "5(b): mark-scheme rows have a page-seam glitch just after the A1 note: the next line (\"e.g. 2z-10y+22x-8=0, A0 if given in e.g. x, y, z or a, b & c etc\") is clipped through its upper half and overprinted by the repeated page-header matrix line (M^-1 = ..., M = ...)",
+    "Examiners notes (end of question 5): cut off at the bottom; the last line (\"But note that this approach needs a point on Pi1 i.e. there must be work to achieve the 4 (which just...\") is sliced through and the sentence is missing its end"
    ],
-   "fingerprint": "9882186cdfe1",
+   "fingerprint": "fd2b3ab233b7",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -103,7 +103,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "3e6d61b972a7",
+   "fingerprint": "c62c6fe08feb",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

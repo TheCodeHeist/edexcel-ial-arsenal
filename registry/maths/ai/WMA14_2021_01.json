@@ -1,12 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "1(a): the mark-scheme rows end part-way through the boxed \"Alternative by direct expansion\" table: only its first row (B1M1A1) is shown and the last row (=1/2-5x-25x^2-250x^3+..., A1A1) is cut off",
-    "1(b): its mark-scheme rows open with the A1A1 row (=1/2-5x-25x^2-250x^3+...) that is the tail of 1(a)'s alternative-method table, so 1(b) shows 4 marks of rows against 2"
+    "1(b): first mark-scheme row (\"= 1/2 - 5x - 25x^2 - 250x^3 + ... | A1A1\") belongs to 1(a) Alternative by direct expansion, not 1(b)"
    ],
-   "fingerprint": "aba806ec326a",
+   "fingerprint": "c5b4c305c1a4",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,11 +20,9 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [
-    "10: minor, the mark scheme crops are clipped at the right edge (the part totals \"(3)\", \"(7)\", \"(3)\", \"(1)\" and \"(14 marks)\" are cut to \"(3\", \"(7\", \"(1\", \"(14 marks\") and the examiners notes lose line ends at the right edge (e.g. the 10(b) M1 \"...with or without the integral signs\" and \"depends on some attempt at integration\"); a few stray accent marks sit above the (a) notes line \"correctly stated fractions\". Questions, figures and mark rows (3, 7, 3, 1) are complete"
-   ],
-   "fingerprint": "b7e869f594f9",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "6074595fb57d",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -50,9 +47,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "cefb87bd8d40",
+   "fingerprint": "c5ee977ba8b0",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -71,7 +68,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "efd2e36c6dc9",
+   "fingerprint": "50c278ddb635",
    "kinds": {
     "3": "calc"
    },
@@ -82,9 +79,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "9dd5f815ebfd",
+   "fingerprint": "e62dc175a70c",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "short"
@@ -102,7 +99,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "484e281c4185",
+   "fingerprint": "f89637fa2665",
    "kinds": {
     "5": "calc"
    },
@@ -114,11 +111,9 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
-   "concerns": [
-    "6(b): in the examiners notes, the dM1 line is sliced through: only the tail \"x = 0 to form the equation of the normal. Depends on the previous M.\" shows under a clipped glyph fragment, so the start of that note (the negative reciprocal / normal gradient) is lost"
-   ],
-   "fingerprint": "d91f729c9319",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "16d1e3f3fcbe",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -135,9 +130,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "89f0baee7d5e",
+   "fingerprint": "16e06092d7ac",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -153,11 +148,9 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
-   "concerns": [
-    "8: examiners notes start with the alternative mark-scheme table, and the text under it is cut at the top (the first note lines, up to the M1 note, are missing and the dM1 line is half clipped)"
-   ],
-   "fingerprint": "41de14630795",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "6984cb140eb0",
    "kinds": {
     "8": "calc"
    },
@@ -169,9 +162,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "69f908118f7c",
+   "fingerprint": "c0a6de89585a",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

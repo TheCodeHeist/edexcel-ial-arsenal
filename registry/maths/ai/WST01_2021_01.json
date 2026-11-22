@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "6494fd4e71f3",
+   "fingerprint": "75ba914104e9",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -25,7 +25,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "35491add8570",
+   "fingerprint": "cc54547abc24",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -49,9 +49,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3a3de9c131cd",
+   "fingerprint": "fe196ddbbca1",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -76,9 +76,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7d58bda4ff52",
+   "fingerprint": "c4f87d5b7215",
    "kinds": {
     "4(a)": "short",
     "4(b)(i)": "calc",
@@ -116,13 +116,13 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "5(g): the part asks to plot on Figure 1 but its crop has no scatter diagram; Figure 1 only appears inside the 5(h)(i) crop (below the question text, after 5(h))",
-    "5(h)(i): the part is really question 5(i) (label mis-read as (h)(i)); its crop carries Figure 1, a block of blank answer lines and the spare copy of the scatter diagram",
-    "5(h): the mark scheme rows for (h) also contain the (i) rows and the [17 marks] total, which then repeat under 5(h)(i), so the (h) marks do not add up to 1"
+    "5(a): Figure 1 (scatter diagram needed for 5(a), 5(g), and 5(h)) is missing from the stem and appears only at the bottom of 5(h)(i)",
+    "5(h): mark-scheme rows also include 5(i) (3 marks shown instead of 1)",
+    "5(h)(i): part label should be 5(i), and its question crop contains Figure 1 and the spare scatter diagram for parts 5(a), 5(g), and 5(h)"
    ],
-   "fingerprint": "7c6805e97a93",
+   "fingerprint": "a55be90d27d9",
    "kinds": {
     "5(a)": "short",
     "5(b)(i)": "calc",
@@ -172,7 +172,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f5b4a2a10c60",
+   "fingerprint": "6d43747dce07",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

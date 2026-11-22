@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "abc7423b349c",
+   "fingerprint": "058d31adfdce",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -86,7 +86,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d924d4d2118b",
+   "fingerprint": "b919753842a3",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -103,14 +103,12 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "6(i)(a): mark-scheme crop is cut through the last note at the bottom (\"If additional transformations are included, send to Review\" sliced); the line continues at the top of the 6(i)(b) crop.",
-    "6(i)(b): mark-scheme crop starts with a sliced sliver of 6(i)(a)'s note (\"included, send to Review\", and a (2) total) and is cut through the bottom row of the matrix B (the lower row of the sqrt2/2 entries is clipped).",
-    "6(i)(c): mark-scheme crop starts with a clipped sliver of the bottom of matrix B from part (b) and a stray (1) total, and the bottom row of the answer matrix C is slightly clipped.",
-    "6(ii): a thin clipped sliver of the previous part shows along the top edge of the mark-scheme crop."
+    "6(i)(b): bottom of the denominators in the bottom row of the mark scheme matrix is slightly clipped",
+    "6(i)(c): stray fragment from the bottom of the 6(i)(b) mark scheme matrix appears at the top of the mark scheme crop"
    ],
-   "fingerprint": "9b99bba4811e",
+   "fingerprint": "69d8f823ebea",
    "kinds": {
     "6(i)(a)": "short",
     "6(i)(b)": "calc",
@@ -138,7 +136,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c9277b8a95dc",
+   "fingerprint": "4e2454c13dc8",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

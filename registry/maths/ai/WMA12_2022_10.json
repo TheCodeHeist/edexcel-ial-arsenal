@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "97715475afe6",
+   "at": "2026-11-22",
+   "concerns": [
+    "1: examiners notes crop is cut off at the bottom mid-sentence after \"is not sufficient –\"."
+   ],
+   "fingerprint": "f82526995fd4",
    "kinds": {
     "1": "calc"
    },
@@ -14,12 +16,9 @@
    }
   },
   "10": {
-   "at": "2026-11-20",
-   "concerns": [
-    "10(i): the mark-scheme crop also carries the examiners notes for 10(i) (B1 2a; M1 A1 ...) as loose text under the table, outside the rows (content is right but sits in the rows area)",
-    "Question 10 examiners notes: in the first alternative (not requiring the addition law) the A1 line is clipped at the bottom, running into the next heading"
-   ],
-   "fingerprint": "10bca130d34f",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "f8740a56a87f",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -57,9 +56,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a62ef6ebe80e",
+   "fingerprint": "b0aac86abde8",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -76,12 +75,12 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(b): the boxed ALT mark-scheme block is cut through: its last row (t = 1.072^(w+log_1.072 4) - 5, A1) is missing from 4(b) and appears at the top of the 4(c) rows",
-    "4(c): the mark-scheme rows start with that stray boxed A1 row from the 4(b) ALT, so the marks shown are 3 rather than 2 for this part"
+    "4(b): mark scheme crop cuts off the final A1 row of (b) ALT, which appears at the top of 4(c) mark scheme crop.",
+    "4(c): mark scheme crop includes the stray A1 row from 4(b) ALT at the top."
    ],
-   "fingerprint": "53a0418e1e98",
+   "fingerprint": "3aade1266df5",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -138,9 +137,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "685e55c18d2f",
+   "fingerprint": "a382bfff426c",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -161,9 +160,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "27bcac86f639",
+   "fingerprint": "b89b93d264dc",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -180,7 +179,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "058f5ef020ef",
+   "fingerprint": "b061a422a0be",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

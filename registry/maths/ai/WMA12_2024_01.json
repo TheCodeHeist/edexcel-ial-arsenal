@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ba43ff7d42a5",
+   "fingerprint": "1ac9355b6b0a",
    "kinds": {
     "1": "calc"
    },
@@ -14,9 +14,11 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "15c825565ee4",
+   "at": "2026-11-22",
+   "concerns": [
+    "10(a): in the examiners notes under A1*, the line dM0A0 is clipped horizontally across its bottom half (and the top of the -5/2 exponent on the line below is slightly clipped)."
+   ],
+   "fingerprint": "d6a2cae95f6d",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -34,7 +36,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "e90d9971aef3",
+   "fingerprint": "ec80e09ce829",
    "kinds": {
     "2": "calc"
    },
@@ -47,7 +49,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "bcae31a36440",
+   "fingerprint": "0ef216608fe3",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -63,9 +65,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "9a4f592912a5",
+   "fingerprint": "f964b6d433ff",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "calc",
@@ -84,14 +86,13 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "5(i): the mark-scheme crop is cut through the (3) mark total at the bottom",
-    "5(ii)(a): the mark-scheme rows are the whole 5(ii) block, so they also contain the (b) and (c) rows (marks shown 8 rather than 2)",
-    "5(ii)(b): the mark-scheme rows are the whole 5(ii) block, so they also contain the (a) and (c) rows (marks shown 8 rather than 1)",
-    "5(ii)(c): the mark-scheme rows are the whole 5(ii) block, so they also contain the (a) and (b) rows (marks shown 8 rather than 2)"
+    "5(ii)(a): mark scheme crop includes the rows for 5(ii)(b) and 5(ii)(c) as well (5 marks shown instead of 2).",
+    "5(ii)(b): mark scheme crop includes the rows for 5(ii)(a) and 5(ii)(c) as well (5 marks shown instead of 1).",
+    "5(ii)(c): mark scheme crop includes the rows for 5(ii)(a) and 5(ii)(b) as well (5 marks shown instead of 2)."
    ],
-   "fingerprint": "dc38ed637b2d",
+   "fingerprint": "c69e366d874d",
    "kinds": {
     "5(i)": "calc",
     "5(ii)(a)": "calc",
@@ -137,9 +138,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "de7e50f2ea0a",
+   "at": "2026-11-22",
+   "concerns": [
+    "7(b): in the examiners notes, the (b) label and the first line of the M1 note (Look for 4000 = 300r^11...) are clipped horizontally across the top, cutting off the M1 label and upper part of the formula."
+   ],
+   "fingerprint": "4fd88fdca901",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -159,9 +162,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "61fe4e13d4ac",
+   "fingerprint": "259277ce25ee",
    "kinds": {
     "8(i)": "calc",
     "8(ii)": "calc"

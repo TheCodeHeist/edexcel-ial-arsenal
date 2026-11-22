@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "7fdd70f48d64",
+   "fingerprint": "12a2e240d065",
    "kinds": {
     "1": "calc"
    },
@@ -14,9 +14,11 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "87afc78d0ae1",
+   "at": "2026-11-22",
+   "concerns": [
+    "2(ii): 'Find (i) the value of P,' was placed in the shared opening stem instead of the question part, so part 2(i) is missing from parts while the 9-mark scheme covers both P and R."
+   ],
+   "fingerprint": "360e4bf2aa0f",
    "kinds": {
     "2(ii)": "calc"
    },
@@ -28,9 +30,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c3c014417759",
+   "fingerprint": "d662095f81ef",
    "kinds": {
     "3": "calc"
    },

@@ -1,12 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(a): mark-scheme rows show only a thin horizontal slice of the model event-times diagram (boxes 0, 13, 18, 24 with the arc labels sliced), cut through at top and bottom, so the completed early/late times are mostly missing",
-    "1(d): mark-scheme cascade chart is cut off at the bottom - the K row is sliced through and activity L (and the bottom of the chart) is missing"
+    "1(a): the mark-scheme network diagram is cut off at top and bottom: the 1(a) MS crop is only a thin strip showing the lower halves of the event boxes (13, 18, 24 and 0) with arc labels clipped through, so the completed early/late times for the upper boxes are not visible; the rest of the diagram is missing.",
+    "1(d): the cascade chart in the mark scheme is cut off at the bottom: the K bar is cut through and the L row (and the end of the chart) is missing from the 1(d) MS crop, so the solution chart is incomplete."
    ],
-   "fingerprint": "2038db8136d2",
+   "fingerprint": "e729006a0451",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -33,9 +33,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "536a23a22fd1",
+   "fingerprint": "8a642cfc2d7f",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -62,9 +62,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "37b3d5af9789",
+   "fingerprint": "f3c4b8b8f902",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -83,9 +83,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "37b05cfe0ddf",
+   "fingerprint": "f6eea5a6821f",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "short"
@@ -103,7 +103,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ae6435636af9",
+   "fingerprint": "118adfbcc2a7",
    "kinds": {
     "5": "calc"
    },
@@ -114,12 +114,11 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "6(c): mark-scheme rows begin with the middle-left quick-sort table (pivots 35, 18, 11 25 ... 28) which is the alternative answer to (b), not (c); the top of the rows is also clipped, so only the last two (c) rows (reason about the 18 and n=72) answer this part",
-    "6(b): its alternative (middle-left) model answer is not in the (b) rows - it sits in the (c) rows"
+    "6(b)/6(c): the 6(c) mark-scheme crop starts with the alternative middle-left quick-sort table (pivots 35, 18, 11 25, ...), which belongs to 6(b); the 6(b) MS crop ends after the middle-right table and only 6(c) rows B1, dB1 follow, so part of (b)'s solution sits under (c) (the (c) rows themselves, B1 dB1 = 2 marks, are complete)."
    ],
-   "fingerprint": "7f15118b144f",
+   "fingerprint": "0491566ae254",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -138,12 +137,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(c): mark-scheme rows cut the model graph off at y=40 (lower part of the feasible region, R label, x-axis missing), so the graph is incomplete and the rest sits in the (d) rows",
-    "7(d): mark-scheme rows begin with the bottom of (c)s model graph (y 30-0 and the x axis, R label) before the (d) working"
+    "7(c)/7(d): the mark-scheme graph for (c) is cut through horizontally: its upper part (y from 130 down to about 35) is at the bottom of the 7(c) MS crop and the lower part (y from 30 to 0, x-axis, feasible region R) is at the top of the 7(d) MS crop, so (c) shows an incomplete graph and (d) starts with a fragment of (c)'s graph above its own rows."
    ],
-   "fingerprint": "79cde645fd60",
+   "fingerprint": "2f1dd7717edc",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

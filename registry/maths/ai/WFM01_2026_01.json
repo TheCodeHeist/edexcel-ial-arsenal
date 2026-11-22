@@ -1,12 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "1(b)(i): mark-scheme crop also contains the 1(b)(ii) Newton-Raphson rows (M1 A1, (2), Total 8) after the (i) row; marks shown total 4 not 2.",
-    "1(b)(ii): mark-scheme crop begins with the 1(b)(i) derivative row (M1 A1, (2)) before the (ii) rows; marks shown total 4 not 2. Both (b) crops also show a sliced fragment of the next table header at the bottom edge beside Total 8."
-   ],
-   "fingerprint": "b66381c93fc1",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "ef5c802fa125",
    "kinds": {
     "1(a)": "calc",
     "1(b)(i)": "calc",
@@ -27,7 +24,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "72b9d52e9a30",
+   "fingerprint": "b1616eb78b38",
    "kinds": {
     "10": "calc"
    },
@@ -39,46 +36,47 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8245b0e4d57b",
+   "fingerprint": "ec9128935efe",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
    },
    "topics": {
     "2(a)": [
-     "FP1.1.5"
+     "FP1.1.6"
     ],
     "2(b)": [
-     "FP1.1.5",
+     "FP1.1.6",
      "P1.1.4"
     ]
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "bf5e3ccc6bd7",
+   "fingerprint": "bbed936b305f",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
    },
    "topics": {
     "3(a)": [
-     "FP1.5.3",
-     "FP1.5.1"
+     "FP1.5.5",
+     "FP1.5.3"
     ],
     "3(b)": [
-     "FP1.5.3",
-     "FP1.5.1"
+     "FP1.5.5",
+     "FP1.5.4",
+     "FP1.5.3"
     ]
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a8540ea10962",
+   "fingerprint": "b78d7e981664",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -86,7 +84,8 @@
    "topics": {
     "4(a)": [
      "FP1.4.1",
-     "FP1.4.2"
+     "FP1.4.3",
+     "P1.1.6"
     ],
     "4(b)": [
      "FP1.4.3",
@@ -95,9 +94,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "bf7cdce7b9f6",
+   "fingerprint": "49de35082f86",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -112,14 +111,15 @@
     ],
     "5(c)": [
      "FP1.6.3",
-     "FP1.5.4"
+     "FP1.5.4",
+     "FP1.5.1"
     ]
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c56f69fcf890",
+   "fingerprint": "51e17ab78f2a",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -131,7 +131,7 @@
     ],
     "6(b)": [
      "FP1.2.2",
-     "FP1.2.3"
+     "FP1.2.1"
     ],
     "6(c)": [
      "FP1.2.3"
@@ -139,11 +139,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(a): mark-scheme crop starts with a sliced strip of the table header text (Number) at its top edge; minor, the rows themselves are complete."
+    "7(a): table column header \"Number\" is half-clipped at the top edge of the mark scheme crop"
    ],
-   "fingerprint": "dfd839bc5558",
+   "fingerprint": "720adf022417",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -160,9 +160,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "de58b6bc4ab3",
+   "fingerprint": "9f0fd215c08d",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -177,9 +177,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "9d509a5cbaea",
+   "fingerprint": "767452813674",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -189,19 +189,22 @@
    "topics": {
     "9(a)": [
      "FP1.4.4",
+     "FP1.4.2",
      "FP1.4.1"
     ],
     "9(b)": [
      "FP1.4.4",
+     "FP1.4.2",
      "FP1.4.1"
     ],
     "9(c)": [
      "FP1.4.4",
+     "FP1.4.2",
      "FP1.4.1"
     ],
     "9(d)": [
-     "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.1",
+     "FP1.4.2"
     ]
    }
   }

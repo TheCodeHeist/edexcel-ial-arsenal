@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "9e0090c6b79d",
+   "at": "2026-11-22",
+   "concerns": [
+    "1(e): in the examiners notes the 1(e) M1 note is cut through mid-line at the bottom (\"...implied by correct answer with no\" is clipped) before the 1(f) row starts."
+   ],
+   "fingerprint": "960fac20461a",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -38,9 +40,9 @@
    }
   },
   "2": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5e6d49ed4735",
+   "fingerprint": "f04840bc6e21",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -72,12 +74,11 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes image ends with a stray fragment of the next question (top of a Venn diagram with A, 13, 7, 16, B) below the (ii) notes",
-    "3(b)(ii): the mark scheme crop ends with the \"Notes\" header row and a sliver of the next row below the Total 6 line"
+    "Examiners notes (bottom): the notes end with a stray cut-off fragment of the next question (the top of a Venn diagram with labels A, B, 13, 7, 16) below the 3(b)(ii) rows; it does not belong to Q3."
    ],
-   "fingerprint": "0aaf7548ba2c",
+   "fingerprint": "73ffca28106b",
    "kinds": {
     "3(a)": "draw",
     "3(b)(i)": "calc",
@@ -96,13 +97,11 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "4(a): the mark scheme crop cuts the top of the answer Venn diagram; the tops of circles A and B are missing and the values 7, 13 and 16 are not visible (only 12, 8, 10, 20, 14 show)",
-    "4(c)(i): the mark scheme crop starts with a clipped sliver of the previous rows above the (c)(i) row",
-    "Notes: the examiners notes image is cut off at the bottom, the A1 note for (c)(ii) is missing"
+    "4(a): the mark-scheme Venn diagram is clipped at the top: the tops of circles A and B are cut off and the A-only (13), B-only (16) and A∩B-only (7) values are not visible (only 12, 8, 10, 20, 14 show). Examiners notes at the bottom are also cut off after the 4(c)(ii) M1 row, so the final A1 note is missing."
    ],
-   "fingerprint": "b820a9be9a68",
+   "fingerprint": "ae12dcd7a7b5",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "calc",
@@ -125,11 +124,9 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
-   "concerns": [
-    "Notes: a clipped sliver of text sits between the Total 13 row and the notes header, and the last notes line (awrt mu = 620 ... sigma = 40) is cut off at the bottom edge of the image"
-   ],
-   "fingerprint": "930c75048fe0",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "ce511b9ed251",
    "kinds": {
     "5(a)(i)": "calc",
     "5(a)(ii)": "calc",
@@ -147,15 +144,14 @@
      "S1.6.1"
     ],
     "5(b)(ii)": [
-     "S1.6.1",
-     "P1.1.6"
+     "S1.6.1"
     ]
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "12ebbaaa63cd",
+   "fingerprint": "7bc27e312e08",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "short",
@@ -184,9 +180,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e3d7829872e9",
+   "fingerprint": "037bf7d04696",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes stop after the first (c) M1 line and then show a stray page-footer block (\"X015461 July 2004 Issue 1 Question\") in a mostly empty table; the rest of the (c) notes are missing and the footer fragment does not belong"
+    "Examiners notes: end of notes is cut off after the first (c) row (M1 for N(56,56)); remaining (c) notes missing and stray page-footer fragments (X015461 July 2004 Issue 1 Question) sit at the bottom edge"
    ],
-   "fingerprint": "4745803ae2c4",
+   "fingerprint": "3b11a92b590a",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -24,11 +24,11 @@
    }
   },
   "2": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: after the (d) SC note the notes image ends with a stray page-footer table (\"Comparison of key skills specifications\", Scheme/Marks header, \"2000/2002 with 2004 standards X015461 July 2004 Issue 1 Question\") that does not belong to this question"
+    "Examiners notes: bottom of the notes has a stray page-footer/table-header fragment (Comparison of key skills specifications, 2000/2002 with 2004 standards X015461 July 2004 Issue 1 Question) after the (d) rows"
    ],
-   "fingerprint": "fc84839f279f",
+   "fingerprint": "90e15502a32f",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -40,7 +40,8 @@
      "S2.1.1"
     ],
     "2(b)": [
-     "S2.1.2"
+     "S2.1.2",
+     "S1.5.3"
     ],
     "2(c)": [
      "S2.1.1"
@@ -51,11 +52,11 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes stop after the (d) A1 note, and end in a stray page-footer fragment (\"X015461 July 2004 Issue 1 Question\"); the notes for (e) and (f) are missing"
+    "Examiners notes: notes are cut off after the (d) A1 row; notes for (e) and (f) are missing, and stray page-footer fragments (X015461 July 2004 Issue 1 Question) sit at the bottom edge"
    ],
-   "fingerprint": "3610c1dfa3a6",
+   "fingerprint": "ff2614df3c10",
    "kinds": {
     "3(a)": "short",
     "3(b)": "short",
@@ -72,7 +73,8 @@
      "S2.1.1"
     ],
     "3(c)": [
-     "S2.4.3"
+     "S2.4.3",
+     "S2.4.5"
     ],
     "3(d)": [
      "S2.4.4",
@@ -80,7 +82,7 @@
      "S2.4.5"
     ],
     "3(e)": [
-     "S2.4.3"
+     "S2.4.4"
     ],
     "3(f)": [
      "S2.4.3"
@@ -88,11 +90,11 @@
    }
   },
   "4": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes image ends with a stray page-footer fragment (\"X015461 July 2004 Issue 1 Question\") in an empty table below the (ii) A1 note"
+    "Examiners notes: stray page-footer fragment (X015461 July 2004 Issue 1 Question) at the bottom edge after the (ii) A1 row"
    ],
-   "fingerprint": "186a11bf8648",
+   "fingerprint": "9a10818a8178",
    "kinds": {
     "4(i)(a)": "calc",
     "4(i)(b)": "calc",
@@ -111,11 +113,11 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes image ends with a stray page-footer table (\"Comparison of key skills specifications 2000/2002 with 2004 standards X015461 July 2004 Issue 1 Question\", Scheme/Marks) below the (c) A1 note"
+    "Examiners notes: stray page-footer/table-header fragment (Comparison of key skills specifications 2000/2002 with 2004 standards X015461 July 2004 Issue 1 Question) at the bottom after the (c) A1 row"
    ],
-   "fingerprint": "64137609bcbd",
+   "fingerprint": "eb1d8bd036e9",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -134,18 +136,19 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes image ends with a stray page-footer fragment (\"X015461 July 2004 Issue 1 Question\") below the (b) A1 note"
+    "Examiners notes: stray page-footer fragment (X015461 July 2004 Issue 1 Question) at the bottom edge after the (b) A1 row"
    ],
-   "fingerprint": "d5efd5fb5dec",
+   "fingerprint": "250c6a310c23",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
    },
    "topics": {
     "6(a)": [
-     "S2.4.2"
+     "S2.4.2",
+     "S1.3.4"
     ],
     "6(b)": [
      "S2.4.2"
@@ -153,9 +156,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "fecd7cee2f9f",
+   "fingerprint": "dca22f906df9",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

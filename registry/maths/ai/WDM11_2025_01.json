@@ -1,14 +1,13 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(a): mark-scheme rows include the first two passes of (b)s middle-right quick sort (pivots 30, 33 18) with an M1, so (a) rows carry (b) content and marks",
-    "1(b): mark-scheme rows start mid-sort (first lines cut through at the top, only passes 3-5 shown) so the middle-right model answer is split between the (a) and (b) rows",
-    "1(c): mark-scheme rows begin with a clipped fragment and the middle-left quick-sort table that belongs to (b) before the (c) bins; only the last block (Bin 1-4, M1 A1) answers (c)",
-    "Notes: examiners notes end with a stray fragment of another question (top of a tree diagram with weights 70, 77, 91, 84, 56, 203 and M1, A1 (ADBCE)) at the bottom edge"
+    "1(a)/1(b): mark-scheme rows split wrongly: the first two lines of the middle-right quick-sort table (pivot 30; 33, 18; M1) sit at the bottom of the 1(a) MS crop, and the 1(b) MS crop starts at the third line of that table, so (a) carries part of (b) and the (b) table is cut through.",
+    "1(c): the 1(c) MS crop starts with the middle-left quick-sort table (pivots 30; 31, 14; ... sort), which belongs to 1(b), above the real 1(c) rows (M1 A1, 2 marks).",
+    "Examiners' notes at the bottom (end of image): a fragment of another question's mark scheme (a network diagram with arc labels 70, 77, 91, 84, 56, 203 and marks M1, A1 (ADBCE)), i.e. the start of Q2's MS, is included under the notes for Question 1."
    ],
-   "fingerprint": "6336e2e80625",
+   "fingerprint": "8cd1ab3d0ac8",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -27,12 +26,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(a): mark-scheme rows start mid-diagram - the Dijkstra model diagram is cut off through its top row of boxes (nodes A, B, C, E, F, G etc. and the first M1 A1 A1 marks missing); the upper half of this diagram appears at the bottom of Question 1s notes instead",
-    "Notes: examiners notes for Question 2 end with a stray fragment of the next question (a table with columns a-h, values 1 980, 462, 914 760 and an M1) at the bottom edge"
+    "2(a): the mark-scheme Dijkstra diagram is cut off at the top: the 2(a) MS crop shows only the lower strip of the network (boxes (0), 182 154 147, 231 161, 294 287 273, 427 420 357, D and H) with labels clipped through, so the working values at B, C, E, F, G and the first marks (M1, A1, A1) are missing; only A1 (HF), A1ft (GJ), A1 and A1ft rows are visible, so the marks do not add up to 6.",
+    "End of image: a fragment of the next question's mark scheme (a table with values 1 980, 462, 914 760, 30/7, 7/2 ... and M1) appears under the examiners' notes for Question 2; it belongs to Q3."
    ],
-   "fingerprint": "91f3714f0b84",
+   "fingerprint": "f9c8083221ac",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -51,12 +50,12 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3(a): mark-scheme table is cut through at the top - only the third row (132, 66, (914 760), 2, 2, 132, 0, 13 860) is shown, the first two rows and the first mark(s) are at the bottom of Question 2s notes",
-    "Notes: examiners notes for Question 3 end with a stray fragment of the next question (top of an activity network diagram with D, A, E, H, B, I and M1 A1 A1) at the bottom edge"
+    "3(a): Mark scheme table is cut off at the top, missing the column headers, the first two rows of the trace table, and the first M1 mark (only A1, A1ft, A1 are shown for a 4-mark part).",
+    "3(b): Examiners' notes section at the bottom includes a stray cropped fragment of Question 4's mark scheme (top of an activity network diagram with M1 A1 A1)."
    ],
-   "fingerprint": "7ce4844c3e66",
+   "fingerprint": "a14010267254",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -71,12 +70,12 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(a): mark-scheme rows start mid-diagram - only the bottom of the model network (arcs C, G, J, K and dummies) is shown with two A1 marks; the top half of the diagram and the M1/first A1 are at the bottom of Question 3s notes",
-    "Notes: the a4A1 line (exactly five dummies) is cut through at the bottom of its row, text half-clipped"
+    "4(a): Mark scheme diagram is cropped at the top, missing the upper half of the activity network (activities A, B, D, E, H, I and M1, A1, A1 marks, which appear at the bottom of Q3's notes).",
+    "4(a): Examiners' notes row a4A1 is sliced horizontally through the last line of text (five dummies ...) at the page break."
    ],
-   "fingerprint": "c9347998bfcc",
+   "fingerprint": "96d3c04ca458",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "short"
@@ -94,7 +93,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d6231830cb80",
+   "fingerprint": "7a692b5c7d96",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",

@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5457afed9573",
+   "fingerprint": "92684cfb7ae1",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc"
@@ -19,11 +19,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(c): the question crop ends with the partly filled blank tree diagram (First/Second/Third game, the opposite-page answer space) which belongs to 2(a), not 2(c); 2(a) itself has no tree diagram to complete."
+    "2(a): the incomplete tree diagram referenced by part (a) (on the opposite page) is missing from 2(a) crop and appears under 2(c) instead",
+    "2(c): includes the incomplete tree diagram for part (a) below part (c) question text"
    ],
-   "fingerprint": "10b49e84dade",
+   "fingerprint": "c46924af0647",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "calc",
@@ -43,9 +44,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "ba6963e4c71a",
+   "fingerprint": "86f1bd5a03f3",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -73,9 +74,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "612be23bdeda",
+   "fingerprint": "7bf69a482a40",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -99,9 +100,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "1b7ff21df645",
+   "fingerprint": "167b95dd67a3",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -129,13 +130,13 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "6(a): the part asks to shade A' ∩ B' on the Venn diagram below but its question crop has no Venn diagram; the blank A/B Venn diagram sits at the top of the 6(b) crop instead",
-    "6(b): the question crop begins with the blank A/B Venn diagram that belongs to 6(a)",
-    "Notes: the examiners notes image is cut off at the bottom; the last row (e) A1 note is clipped mid-line (\"evaluated then it must be correct (allow to be rounded)\")"
+    "6(a): the Venn diagram for events A and B (on the Venn diagram below) is missing from 6(a) crop and appears at the top of 6(b) instead",
+    "6(b): includes the Venn diagram for events A and B belonging to part (a) at the top of 6(b) crop",
+    "6(e): the last line of examiners notes for 6(e) A1 at the bottom of the image is horizontally cut off through the text"
    ],
-   "fingerprint": "c6f644f6bdcd",
+   "fingerprint": "b1423ffcfb5d",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "calc",
@@ -164,11 +165,11 @@
    }
   },
   "7": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: the examiners notes image is cut off at the bottom; the (d) A1 note is only partly visible (last line \"Note that M0A1 is not possible\" is clipped)"
+    "7(d): the last line of examiners notes for 7(d) A1 at the bottom of the image (Note that M0A1 is not possible) is horizontally cut off through the text"
    ],
-   "fingerprint": "e3eae5b102b7",
+   "fingerprint": "3d6ae7109e0a",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",
@@ -191,9 +192,9 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "22d0faed9ac5",
+   "fingerprint": "eb7a8a7ba44f",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

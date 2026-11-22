@@ -1,9 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "0e7a6776a4e7",
+   "at": "2026-11-22",
+   "concerns": [
+    "1(b): the final examiners NOTES row (N.B. only penalise over-accuracy after g=9.8 once / omission of g is an A error not an M error) is clipped at the bottom edge of the image, and there are several empty rows before it"
+   ],
+   "fingerprint": "57b4478897ac",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -18,12 +20,11 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(a): mark-scheme rows are cut short - the last row of 2(a) (T_Q = 170 or 172 (N) isw, A1, total (3)) is missing from the 2(a) block, so only M1A1 (2 marks) is shown for the 3 marks; also a sliver of a line is cut through at the top edge of the 2(a) rows",
-    "2(b): mark-scheme rows start with the stray last row of 2(a) (T_Q = 170 or 172 (N) isw, A1 (3)) before the real 2(b) rows; 2(b) own rows then total M1A1 A1 = 3, and the part total (6) at the bottom is the question total"
+    "2(a): the 2(a) mark scheme is missing its final A1 row (T_Q = 170 or 172 N isw, the (3) total); that row sits at the top of the 2(b) mark scheme block, so 2(a) shows only M1A1 and 2(b) shows an extra A1 (3) row before its own M1A1 A1"
    ],
-   "fingerprint": "d1233cd3b801",
+   "fingerprint": "e137a15b0615",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -40,14 +41,14 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3(a): no mark-scheme block of its own - its row (3(a) 0 (m), B1 (1)) is inside the 3(b) block",
-    "3(b): the mark-scheme block holds both the 3(a) row and the 3(b) row (1 (m), B1 (1)), and the 3(b) row is cut through at the bottom edge",
-    "3(c): mark-scheme graph (velocity-time sketch) is cut off at the top and bottom - the v axis is cut, the t axis and its labels are cut through at the bottom, and the lower part of the graph (negative velocity line at -2.5, labels 0.1, 0.3, 0.5, t (s)) sits at the top of the 3(d) rows; only the first two lines of the graph are visible in 3(c)",
-    "3(d): mark-scheme block starts with the lower half of the 3(c) graph (axis labels 0.1 0.3 0.5, -2.5 and the third line) before the real 3(d) rows"
+    "3(a): there is no 3(a) MARK SCHEME bar at all; the 3(a) row (0 m, B1) sits inside the 3(b) mark scheme block",
+    "3(b): the 3(b) mark scheme row (1 m, B1) is clipped at the bottom edge of its block",
+    "3(c): the 3(c) mark scheme velocity-time graph is cut through: its top (v axis label, upper edge) is clipped and the lower half (t-axis labels 0.1, 0.3, 0.5, the -2.5 level and the third line) appears at the top of the 3(d) mark scheme block",
+    "3(d): the 3(d) mark scheme block starts with the lower part of the 3(c) graph before its own M1A1 A1B1 rows"
    ],
-   "fingerprint": "436e9bee7cd6",
+   "fingerprint": "185dbdf9f552",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -73,7 +74,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d03860f8ecfb",
+   "fingerprint": "fda62b2c35fe",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -88,11 +89,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [
-    "5: a line of text is cut through at the top edge of the mark-scheme rows (a note above the first row, unreadable), harmless to the marks"
-   ],
-   "fingerprint": "9d8888753e2c",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "a59051658505",
    "kinds": {
     "5": "calc"
    },
@@ -104,9 +103,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5ed5848bd405",
+   "fingerprint": "a17d572ab869",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -126,13 +125,13 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(b): mark-scheme rows are cut short - the last row (3.6 (hours) oe, A1, total (4)) is missing from the 7(b) block and sits at the top of the 7(c) block, so 7(b) shows only M1 A1 M1 (3 of 4 marks)",
-    "7(c): mark-scheme block starts with the stray last row of 7(b) (3.6 (hours) oe, A1 (4)); the final row (t=16) is also cut through at the bottom edge",
-    "7(d): mark-scheme block starts with a sliver of cut-through text (the end of the 7(c) rows) and the first rows of the 7(d) scheme (the method for finding t) are partly cut at the top; the rest is complete (6 marks shown)"
+    "7(b): the 7(b) mark scheme is missing its final A1 row (3.6 hours oe, the (4) total); that row sits at the top of the 7(c) mark scheme block, so 7(b) shows only M1 A1 M1 (3 of 4 marks) and 7(c) shows an extra A1 (4) row before its own M1 A1 (2)",
+    "7(c): the top of the 7(c) mark scheme block is clipped (partial row above 3.6 hours)",
+    "7(d): the top edge of the 7(d) mark scheme block has a clipped fragment of a row above the 14-2t / (2+t) = 1/2 row"
    ],
-   "fingerprint": "c9e826f6e1c6",
+   "fingerprint": "77e70797d277",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -158,15 +157,14 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(a): mark-scheme block shows only the first row (R = 3mg cos alpha, M1A1); its last row (F = 1/4 x 3mg x 4/5 = 3mg/5, A1, total (3)) is missing here and sits at the top of the 8(b) block, so only 2 of 3 marks shown",
-    "8(b): mark-scheme block starts with the stray last row of 8(a) (F = ... = 3mg/5, A1 (3)) and its own row (T = 2ma, B1 (1)) is cut through at the bottom edge",
-    "8(c): mark-scheme rows are cut short - the last row (T = 12mg/25 *, A1* (4)) sits at the top of the 8(d) block, and a sliver of the first row is cut at the top, so 8(c) shows only M1A1 M1 (3 of 4 marks)",
-    "8(d): mark-scheme block starts with the stray last row of 8(c) (T = 12mg/25, A1* (4)) before its own row (Same acceleration for both particles, B1 (1))",
-    "8(a)-(f): every mark-scheme block repeats the table header and the N.B. note (parts (a) and (c) g = 9.8 ... ma term) which is harmless"
+    "8(a): the 8(a) mark scheme shows only the first row (R = 3mg cos alpha, M1A1); its remaining row (F = 1/4 x 3mg x 4/5 = 3mg/5, A1, (3) total) sits in the 8(b) mark scheme block",
+    "8(b): the 8(b) mark scheme row (T = 2ma, B1 (1)) is clipped at the bottom edge of its block, after the stray 8(a) row",
+    "8(c): the top of the 8(c) mark scheme block is clipped and its final row ((T =) 12mg/25 *, A1*, (4) total) sits in the 8(d) mark scheme block instead",
+    "8(a)-(f): every mark scheme block repeats the page header (Question Number / Scheme / Marks) and the general N.B. about g = 9.8, taking up most of each block (minor)"
    ],
-   "fingerprint": "8949c30e0473",
+   "fingerprint": "1508d727fc73",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "short",

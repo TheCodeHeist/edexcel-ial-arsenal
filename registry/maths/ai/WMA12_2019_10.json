@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "59ce21447c78",
+   "fingerprint": "45ea379a427f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,7 +21,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "1fc560a48756",
+   "fingerprint": "f63a8a4fa46f",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -57,7 +57,7 @@
   "3": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "3a3edb593eba",
+   "fingerprint": "847bfa0e13b1",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -74,7 +74,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "3d86c5d06d5f",
+   "fingerprint": "c869e2df5755",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -94,9 +94,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "4df653c8a905",
+   "fingerprint": "bc454ac4aa9c",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "calc",
@@ -116,9 +116,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "2fb76d13fb9a",
+   "fingerprint": "a1c3a59f98dc",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -156,11 +156,11 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8: the part is labelled 8 (should be 8(i)); its mark-scheme rows also include the 8(ii) rows (M1 A1 dM1 A1 for the integral of x^2/2 + k), so the marks shown are 9 rather than the 5 for this part"
+    "8: mark scheme crop includes the rows for 8(ii) as well as 8(i) (9 marks shown instead of 5)."
    ],
-   "fingerprint": "7392e51ea72a",
+   "fingerprint": "6cab84e921ae",
    "kinds": {
     "8": "calc",
     "8(ii)": "calc"
@@ -178,7 +178,7 @@
   "9": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "aa05cae54cc5",
+   "fingerprint": "361642233bd6",
    "kinds": {
     "9(i)": "calc",
     "9(ii)(a)": "calc",

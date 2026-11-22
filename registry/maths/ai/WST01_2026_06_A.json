@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1(a): mark scheme rows are cut off at the top: the model tree diagram is sliced through, so the first-attempt branches (p, Win / Not win, 1-p) and the first part of the second-attempt branches are missing; only the lower right part of the tree (0.65, 0.5, 0.5) is visible."
+    "1(a): the top of the tree diagram in the mark scheme rows (first attempt branches and upper second-attempt branch) is cut off at the top edge"
    ],
-   "fingerprint": "f8567a1e0455",
+   "fingerprint": "8385a137f014",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -30,9 +30,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "99898a2bbd56",
+   "fingerprint": "69f503d388b8",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "draw",
@@ -54,9 +54,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d64c3a193ddf",
+   "fingerprint": "fffd9d5b2417",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -81,9 +81,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "b00499a0e8dd",
+   "fingerprint": "b3b870b497fe",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -113,12 +113,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [
-    "5(b)(i): its mark scheme rows also include the 5(b)(ii) rows (P(C and D) = 3/10, P(D given not C) = 7/9, B1ft M1A1) after the (i) rows, so the crop overlaps part (ii) and its marks (4 + 3) exceed the part marks (4).",
-    "5(b)(ii): its mark scheme rows also include the 5(b)(i) rows (P(D) = 13/20, M1 M1 M1 A1) above the (ii) rows, so the crop overlaps part (i)."
-   ],
-   "fingerprint": "7bee98eaf39e",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "d320e3a30750",
    "kinds": {
     "5(a)": "calc",
     "5(b)(i)": "calc",
@@ -139,9 +136,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a74a08da8ec8",
+   "fingerprint": "158b2ce87e75",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -162,9 +159,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "10b6777419a1",
+   "fingerprint": "edfe409c209d",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

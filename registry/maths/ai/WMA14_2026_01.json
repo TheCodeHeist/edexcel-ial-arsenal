@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d891b87a2057",
+   "fingerprint": "2b8029983e03",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -22,9 +22,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3f3fc9c48a3e",
+   "fingerprint": "6cfa59806ff2",
    "kinds": {
     "2": "calc"
    },
@@ -38,7 +38,7 @@
   "3": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "842f8ead2d30",
+   "fingerprint": "2bfd0ea10799",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -53,16 +53,17 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "22f738114298",
+   "fingerprint": "764311a88bc2",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
    },
    "topics": {
     "4(a)": [
-     "P4.6.2"
+     "P4.6.2",
+     "P3.3.1"
     ],
     "4(b)": [
      "P4.2.1",
@@ -73,7 +74,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "9bc0340c3547",
+   "fingerprint": "5c736911d5bb",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -99,7 +100,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "2b20e0b44cc0",
+   "fingerprint": "efa031336dfb",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -119,9 +120,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "cdb13b0ed098",
+   "fingerprint": "baaf5ed39e55",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -144,7 +145,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "727ceb4e32a1",
+   "fingerprint": "769caeeaf177",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -164,9 +165,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5f4a6f2a1031",
+   "fingerprint": "8e4b1349af1d",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"
@@ -174,11 +175,11 @@
    "topics": {
     "9(a)": [
      "P4.6.1",
-     "P4.6.5"
+     "P3.2.3"
     ],
     "9(b)": [
      "P4.6.1",
-     "P4.6.2"
+     "P3.5.2"
     ]
    }
   }

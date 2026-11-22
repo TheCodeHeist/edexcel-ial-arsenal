@@ -64,7 +64,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c9ac3bd05520",
+   "fingerprint": "ad5adc2f6f97",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -111,7 +111,7 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "3d5a10b597c9",
+   "fingerprint": "03d1e6669524",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -178,13 +178,12 @@
    }
   },
   "9": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "9(b): mark-scheme crop is cut through the bottom: the Way 3 row is sliced through (only its first line shows, \"Sub. ...\"), and its remainder is at the top of the 9(c) crop.",
-    "9(c): mark-scheme crop starts with the sliced tail of 9(b)'s Way 3 working (clipped \"Sub. xy=c^2 into normal ...\" and \"Number\" fragment) before the 9(c) rows.",
-    "9(c): the Alt rows of the 9(c) scheme (introducing r, gradient PR = -1/p^10, the last M1 dM1 A1 ddM1 A1) and the diagram of H, P, Q, R are placed after the Total 12 marks, under the examiners' NOTES caption, so the notes block holds mark-scheme rows/figure instead of notes and the 9(c) rows do not end with the visible marks."
+    "9(b): Way 3 at the bottom of the mark scheme crop is cut off mid-line through the equations",
+    "9(c): remainder of 9(b) Way 3 (cut at the top edge) appears at the top of 9(c)'s mark scheme crop"
    ],
-   "fingerprint": "a0552c8a0b40",
+   "fingerprint": "697e71ca4936",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

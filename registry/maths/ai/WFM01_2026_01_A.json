@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "1: the Total 4 line is sliced across the boundary (only its top edge is visible at the bottom of the mark-scheme crop; Total 4 appears at the top of the examiners NOTES crop); the rows and notes are otherwise complete."
+    "1: \"Total 4\" line at the bottom of the mark scheme table is sliced across the boundary into the examiners' notes crop"
    ],
-   "fingerprint": "e6f37bfdd993",
+   "fingerprint": "e019fc3afbec",
    "kinds": {
     "1": "calc"
    },
@@ -16,11 +16,9 @@
    }
   },
   "10": {
-   "at": "2026-11-20",
-   "concerns": [
-    "10: the (Total 5) line is sliced across the boundary: its top edge is visible at the bottom of the mark-scheme crop and it reappears at the top of the examiners NOTES crop; rows and notes otherwise complete."
-   ],
-   "fingerprint": "1d7b0e627191",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "0664c02369e6",
    "kinds": {
     "10": "calc"
    },
@@ -49,11 +47,11 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3(b): mark-scheme crop begins with the boxed (a) Alternative rows (M1A1, dM1, ddM1 A1, points (3,16/3) and (-8,-2)) before the (b) midpoint row; those rows belong to part (a), marks shown total 7 not 2."
+    "3(b): mark scheme crop includes \"(a) Alternative\" (5 marks) which belongs to 3(a)"
    ],
-   "fingerprint": "9f5246d2b7bd",
+   "fingerprint": "b2ba5f51f6d5",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -61,6 +59,7 @@
    "topics": {
     "3(a)": [
      "FP1.4.1",
+     "FP1.4.2",
      "P1.1.6"
     ],
     "3(b)": [
@@ -69,11 +68,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [
-    "4: mark-scheme crop ends after the main scheme with Total 6 sliced at the bottom edge; Alternatives 1, 2 and 3 of the mark scheme appear under the examiners NOTES heading (the real notes follow below them), so the NOTES section is mixed with mark-scheme rows."
-   ],
-   "fingerprint": "bfe136ffa3db",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "0bbbdc668609",
    "kinds": {
     "4": "calc"
    },
@@ -85,9 +82,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "af081f364778",
+   "fingerprint": "69e9a00d7d15",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -106,7 +103,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "01d6528fb8b9",
+   "fingerprint": "9209f71d45d0",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -122,11 +119,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(a): mark-scheme crop shows a stray table-header cell (Number) at its top-left corner; the rows themselves are complete. Minor."
+    "7(a): In the shared opening formula f(x) = 30 + 7/sqrt(x) - x^5, the top horizontal bar of the numerator 7 is clipped off at the top edge of the crop."
    ],
-   "fingerprint": "07b451a37ee8",
+   "fingerprint": "58d9d0463a7a",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -169,9 +166,9 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c4106749b33b",
+   "fingerprint": "04b672247905",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

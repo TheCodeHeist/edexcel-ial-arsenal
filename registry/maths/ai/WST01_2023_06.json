@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "869d94e8db74",
+   "fingerprint": "d5bc7a41f7ab",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -22,9 +22,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "20cb806e125e",
+   "fingerprint": "9bf40d63aa86",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -60,9 +60,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "eee5923dbfb5",
+   "fingerprint": "ede0ecd55e65",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -86,11 +86,12 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "4(a): the part asks to complete the tree diagram on the opposite page, but the blank tree diagram is not in the 4(a) crop; it sits at the bottom of the 4(d) crop instead"
+    "4(a): partially completed tree diagram needed for 4(a) is missing from 4(a) and appears at the bottom of 4(d)",
+    "4(d): includes the partially completed tree diagram belonging to 4(a) at the bottom"
    ],
-   "fingerprint": "3abfef13d1d5",
+   "fingerprint": "4b45b9998dac",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "calc",
@@ -114,9 +115,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "95d464723575",
+   "fingerprint": "297d80121ebe",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -144,9 +145,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "95e84e8a4abd",
+   "fingerprint": "27f42e45a1e4",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -167,11 +168,9 @@
    }
   },
   "7": {
-   "at": "2026-11-21",
-   "concerns": [
-    "7(c): the mark scheme crop ends with the \"Notes\" header row and a sliver of the next row below the Total 14 line"
-   ],
-   "fingerprint": "6853cd94b768",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "223986581584",
    "kinds": {
     "7(a)(i)": "calc",
     "7(a)(ii)": "calc",

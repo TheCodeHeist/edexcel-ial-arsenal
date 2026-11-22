@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "73bb72dabab9",
+   "fingerprint": "9c4c35b310a3",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,12 +20,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(a): no mark-scheme rows of its own (there is no 2(a) MARK SCHEME bar). Its rows are cut through: the first row (Use v = integral a dt ... M1) ended up at the bottom of question 1 notes, and the remaining rows (3t - 4ln(2t+3) A1, Use t=0 v=2ln3 DM1, v=3t-4ln(2t+3)+6ln3 A1*, (4)) sit at the top of the 2(b) mark-scheme crop.",
-    "2(b): the mark-scheme rows start with the tail of the 2(a) rows (A1, DM1, A1*, (4)) before the real 2(b) rows, so the crop contains marks from 2(a) as well as 2(b)'s own 4."
+    "2(a): 2(a) mark scheme section is missing; its first M1 row is missing entirely and its remaining 3 rows (A1, DM1, A1*) appear at the top of 2(b)'s mark scheme rows.",
+    "2(b): 2(b) mark scheme rows begin with the trailing 3 rows (A1, DM1, A1*) and subtotal (4) from part 2(a)."
    ],
-   "fingerprint": "acef64592c2a",
+   "fingerprint": "6977aee213b3",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -44,7 +44,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "66e68d2dcd90",
+   "fingerprint": "f1f46de8987e",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -61,9 +61,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8a6bba954822",
+   "fingerprint": "233c5897792b",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -72,7 +72,7 @@
    "topics": {
     "4(a)": [
      "M3.2.1",
-     "M3.3.3"
+     "M1.4.1"
     ],
     "4(b)": [
      "M3.2.2"
@@ -83,9 +83,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "b9b7cc8945dd",
+   "fingerprint": "1dee0ac73de2",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -102,13 +102,12 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "6(a): the bottom of the 6(a) mark-scheme crop runs on into the examiners notes (a \"Notes for Question 6\" header and rows \"6(a) M1 N2L with circular form...\", A1, M1, A1, cut through mid-row at the bottom).",
-    "6(b): the 6(b) mark-scheme crop likewise contains examiners notes rows (\"6(b) M1 Equations for conservation of energy and circular motion at E...\", M1, A1*) plus a cut-through garbled row near the bottom of the real mark-scheme rows.",
-    "6(c): the 6(c) mark-scheme crop contains examiners notes rows (\"6(c) B1ft Use u^2=12ga ..., M1, M1, A1\") after the real rows, and a fragment (\"throughout.\") at the top of them; there is no separate examiners NOTES section for question 6 - the notes are spread through the three part mark-scheme crops."
+    "6(b): The last word (\"throughout.\") of 6(b)'s A1* examiner note is cut off at the bottom of 6(b): MARK SCHEME rows, leaving only clipped letter tops under \"(3)\".",
+    "6(c): Contains the stray fragment \"throughout.\" from 6(b)'s A1* examiner note between the 6(c) mark scheme table and the 6(c) examiner notes."
    ],
-   "fingerprint": "a41e9c5c78bd",
+   "fingerprint": "998982a28ccb",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -128,9 +127,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "4aa6316b284c",
+   "fingerprint": "5f2d93fe8495",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

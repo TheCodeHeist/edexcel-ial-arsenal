@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "8c91a11466c5",
+   "fingerprint": "96224a0056dc",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc"
@@ -20,7 +20,7 @@
   "2": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "d6526b4de8e7",
+   "fingerprint": "d711b721786a",
    "kinds": {
     "2": "calc"
    },
@@ -31,14 +31,11 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
+   "at": "2026-11-22",
    "concerns": [
-    "3(i)(b): mark-scheme crop is cut through text at both edges: a clipped line (and mark letters) shows at the top above \"BJ add\", and the last row \"GH add\" is sliced through at the bottom; it continues in the (c) crop.",
-    "3(i)(c): mark-scheme crop starts with the sliced remainder of the previous part's rows (\"GH add\" cut at top, then \"(DE FJ reject)\") before the actual answer \"207 (metres)\"; those rows belong to 3(i)(b).",
-    "3(ii)(a): a clipped sliver of the previous row/text shows along the top edge of the mark-scheme crop above \"Consider all pairings\".",
-    "3(ii)(b): a clipped sliver of text shows along the top edge of the mark-scheme crop above \"Must now consider B, D, H and J\"."
+    "3(i)(c): Mark scheme rows include the (DE FJ reject) row (with a clipped border/fragment above it) at the top, which belongs to 3(i)(b) rather than 3(i)(c)."
    ],
-   "fingerprint": "30e8279c8726",
+   "fingerprint": "a36352e2c2ec",
    "kinds": {
     "3(i)(a)": "short",
     "3(i)(b)": "calc",
@@ -67,7 +64,7 @@
   "4": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "72c8e23a0e0a",
+   "fingerprint": "75b64b676fe6",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -88,7 +85,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7b7613844110",
+   "fingerprint": "59b1c581e61e",
    "kinds": {
     "5": "calc"
    },
@@ -101,7 +98,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "589e062da303",
+   "fingerprint": "a56a61218650",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "short",
@@ -125,16 +122,16 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(a): mark-scheme table is cut through - rows G and H (IPA B / B C) and the right-hand rows P, Q (J K L M / K L) are at the top of the (b) rows instead of in (a), so the answer table is incomplete",
-    "7(b): mark-scheme rows start with the last two rows (G, H, P, Q) of (a)s precedence table before the event-times diagram",
-    "7(d): mark-scheme rows run on into the top of (e)s model schedule (rows A D I M P with M1 A1), so (d) rows carry (e) content and marks beyond its 2",
-    "7(e): mark-scheme rows start mid-schedule (only the lower rows B G J / C E K N / F H L Q shown with A1 A1), the upper rows and the M1/first A1 are in the (d) rows"
+    "7(a): Mark scheme table is incomplete at the bottom; the rows for activities G, H, P and Q appear at the top of 7(b)'s mark scheme rows.",
+    "7(b): Mark scheme rows include the two leftover IPA table rows (G, H, P, Q) belonging to 7(a) at the top.",
+    "7(d): Mark scheme rows include the top half of 7(e)'s scheduling diagram (time axis 0-40, first worker row A D I M P, and M1 A1 marks) at the bottom.",
+    "7(e): Mark scheme diagram is incomplete at the top; the time axis, first worker row (A D I M P), and M1 A1 marks are missing (they appear at the bottom of 7(d)'s mark scheme rows)."
    ],
-   "fingerprint": "770d8d0221d0",
+   "fingerprint": "1371f76d7506",
    "kinds": {
-    "7(a)": "draw",
+    "7(a)": "short",
     "7(b)": "draw",
     "7(c)": "short",
     "7(d)": "calc",
@@ -159,12 +156,12 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(a): mark-scheme rows run on into the first rows of (b)s vertex table (y<=3x+10 / y>=15 vertex (5/3,15) value 85; x+4y<=162 vertex value 247 1/13) with M1 A1, so (a) rows carry (b) content and marks beyond its 3",
-    "8(b): mark-scheme rows start mid-table - the vertex table is cut through (first two rows and M1 A1 are in the (a) rows) and begin with a dangling A1, so the (b) working is split between (a) and (b)"
+    "8(a): Mark scheme rows include the first two vertex rows ((5/3, 15) and (122/13, 496/13)) and M1 A1 marks belonging to 8(b) at the bottom.",
+    "8(b): Mark scheme table is incomplete at the top; the first two vertex rows ((5/3, 15) and (122/13, 496/13)) and M1 A1 marks are missing (they appear at the bottom of 8(a)'s mark scheme rows)."
    ],
-   "fingerprint": "a6d132457e1a",
+   "fingerprint": "7fdb2729db85",
    "kinds": {
     "8(a)": "draw",
     "8(b)": "calc",

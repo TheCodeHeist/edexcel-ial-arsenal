@@ -31,7 +31,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "e73a59d3388b",
+   "fingerprint": "0438d9ba56d5",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short"
@@ -46,12 +46,12 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "3(a): mark-scheme rows run on into the top of (b)s Dijkstra model diagram (nodes C, F, H, G, E with M1 A1 A1 marks), so (a) rows carry (b) content and marks beyond its 1",
-    "3(b): mark-scheme rows start mid-diagram - the model Dijkstra diagram is cut through (only the lower nodes B, D, I, A, J visible, first marks M1 A1 A1 and the upper nodes are in the (a) rows), so the diagram is split between (a) and (b)"
+    "3(a): Mark scheme rows include the upper half of 3(b)'s Dijkstra diagram (nodes C, F, G, H, partial E, and M1 A1) at the bottom, sliced across node E and arc GI.",
+    "3(b): Mark scheme diagram is incomplete at the top; the upper half of the Dijkstra diagram (nodes C, F, G, H, most of E, and M1 A1) is missing and appears at the bottom of 3(a)'s mark scheme rows."
    ],
-   "fingerprint": "2319de911f3e",
+   "fingerprint": "76f1ec2fa613",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -70,11 +70,11 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "Notes: examiners notes end with a stray fragment of the next question (top of an activity network with A, C, D, G and M1 A1 A1) at the bottom edge"
+    "4(d): Examiners' notes section at the bottom includes a stray fragment of Question 5's mark scheme (left portion of an activity network diagram with A, C, D, G and M1 A1 A1)."
    ],
-   "fingerprint": "49ca0fea02df",
+   "fingerprint": "f8c4a8f36a76",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -98,11 +98,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "5(a): mark-scheme rows start mid-diagram - only the lower half of the model network (B, E, F, H, I, J, K, L and dummies) is shown with two A1 marks; the top half (A, C, D, G) and the M1 and first A1 are at the bottom of Question 4s notes"
+    "5(a): Mark scheme diagram is cropped at the top, missing the upper portion of the activity network (activities A, C, D, G and M1 A1 A1 marks, which appear at the bottom of Q4's notes) and slicing through the top dummy/event nodes."
    ],
-   "fingerprint": "b6c1982c8320",
+   "fingerprint": "8b6bb117785d",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "short"
@@ -147,15 +147,15 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "7(b): mark-scheme rows begin with the top half of the model event-times diagram (a repeat of (a)s answer, with M1 A1 marks) before the float calculation, so (b) rows carry (a)s marks beyond its 1",
-    "7(c): mark-scheme rows begin with the same repeated top half of the event-times diagram (M1 A1) and end with the top of (d)s model Gantt chart (rows A E J / B / C / D / F with M1 A1), so (c) rows carry extra content and marks beyond its 2",
-    "7(d): mark-scheme rows begin with the repeated top half of the event-times diagram (M1 A1) and the model Gantt chart is cut through (only rows G H K L shown, with A1 A1 A1), the top rows and the first marks being in the (c) rows",
-    "7(e): mark-scheme rows begin with the repeated top half of the event-times diagram (M1 A1) before the (e) statement",
-    "7(f): mark-scheme rows begin with the repeated top half of the event-times diagram (M1 A1) before the (f) answer, so (f) rows carry extra marks beyond its 2"
+    "7(b): Mark scheme rows include a clipped repeat of 7(a)'s activity network (cut off at the bottom through C, H, M and showing M1 A1 from 7(a)).",
+    "7(c): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top, and the top half of 7(d)'s Gantt chart (time axis 0-22, activities A-F sliced through F, and M1 A1 marks) at the bottom.",
+    "7(d): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top, while the top half of 7(d)'s Gantt chart (time axis 0-22, activities A-F, and M1 A1) is missing (appearing at the bottom of 7(c)'s mark scheme rows), leaving only G, H, K, L and A1 A1.",
+    "7(e): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top.",
+    "7(f): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top."
    ],
-   "fingerprint": "a8d53490ec7e",
+   "fingerprint": "c4938daca1e1",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",
@@ -189,7 +189,7 @@
   "8": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "4cde285309da",
+   "fingerprint": "e629d0cd1662",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

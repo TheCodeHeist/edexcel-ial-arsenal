@@ -85,7 +85,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "915ce8de0f1c",
+   "fingerprint": "5b44d446361f",
    "kinds": {
     "5": "calc"
    },
@@ -132,9 +132,11 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "5305dc202945",
+   "at": "2026-11-22",
+   "concerns": [
+    "8(b): the mark scheme is split: Way 1 is in the 8(b) mark-scheme crop but Way 2 (a full mark-scheme table with its marks) appears under the NOTES bar, so the question-level notes block is mostly the second mark scheme and there are no actual examiners notes text beyond it. Nothing missing, just misfiled."
+   ],
+   "fingerprint": "4a9c3aaa3176",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

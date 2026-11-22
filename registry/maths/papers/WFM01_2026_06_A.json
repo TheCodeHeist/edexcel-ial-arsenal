@@ -58,13 +58,13 @@
       {
        "src": "maths/WFM01_2026_06_A/q1_ms.webp",
        "w": 1104,
-       "h": 1337,
+       "h": 1352,
        "region": {
         "page": 7,
         "x0": 33.0,
         "y0": 75.4,
         "x1": 562.3,
-        "y1": 716.7
+        "y1": 724
        }
       }
      ],
@@ -72,21 +72,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WFM01_2026_06_A/q1_notes.webp",
-     "w": 1104,
-     "h": 37,
-     "region": {
-      "page": 7,
-      "x0": 33.0,
-      "y0": 713.7,
-      "x1": 562.3,
-      "y1": 730.7
-     }
-    }
-   ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2026_06_A_q2",
@@ -1098,6 +1084,7 @@
      "kind": "calc",
      "topics": [
       "FP1.4.4",
+      "FP1.4.2",
       "FP1.4.1"
      ],
      "tagStatus": "suggested",
@@ -1149,7 +1136,8 @@
      "marks": 4,
      "kind": "calc",
      "topics": [
-      "FP1.4.4",
+      "FP1.4.3",
+      "FP1.4.2",
       "FP1.4.1"
      ],
      "tagStatus": "suggested",
@@ -1226,6 +1214,7 @@
      "kind": "calc",
      "topics": [
       "FP1.4.4",
+      "FP1.4.2",
       "FP1.4.1"
      ],
      "tagStatus": "suggested",
@@ -1290,6 +1279,7 @@
      "kind": "calc",
      "topics": [
       "FP1.4.4",
+      "FP1.4.2",
       "FP1.4.1"
      ],
      "tagStatus": "suggested",
@@ -1323,13 +1313,13 @@
       {
        "src": "maths/WFM01_2026_06_A/q9_d_ms_2.webp",
        "w": 1104,
-       "h": 346,
+       "h": 333,
        "region": {
         "page": 21,
         "x0": 33.0,
         "y0": 582.4,
         "x1": 562.3,
-        "y1": 747.9
+        "y1": 742
        }
       }
      ],
@@ -1341,11 +1331,11 @@
     {
      "src": "maths/WFM01_2026_06_A/q9_notes.webp",
      "w": 1104,
-     "h": 37,
+     "h": 43,
      "region": {
       "page": 21,
       "x0": 33.0,
-      "y0": 744.9,
+      "y0": 742,
       "x1": 562.3,
       "y1": 761.9
      }

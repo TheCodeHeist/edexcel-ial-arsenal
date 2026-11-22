@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8290a670c82a",
+   "fingerprint": "08fa46c1d412",
    "kinds": {
     "1": "calc"
    },
@@ -15,13 +15,11 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(a): mark scheme crop is cut through the last line of text at the bottom (Work to obtain Adj(M) must be seen ... sight of the matrix of, clipped); the rest of that note is missing",
-    "2(b): mark scheme crop opens with a clipped repeat of the header row (Condone poor notation ... Note that B0 M1 A1 is possible), with its text cut through at the top",
-    "2(c): mark scheme crop opens with the clipped Condone poor notation header row and ends with a sliver of the next row cut through at the bottom, below Total 8"
+    "2(a): mark-scheme rows are cut off at the bottom, the last note (\"Work to obtain Adj(M) must be seen but it may be minimal, e.g., sight of the matrix of ...\") is truncated mid-sentence; the marks (B1 M1 A1ft = 3) are all present"
    ],
-   "fingerprint": "6bbcb1b1546e",
+   "fingerprint": "ebe29d414668",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -94,7 +92,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0b017bc8bfc4",
+   "fingerprint": "db16123b35a6",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -116,7 +114,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c2407a9f738d",
+   "fingerprint": "b7dfb3ef4d02",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -132,12 +130,11 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(a): mark scheme crop is cut through the (2) subtotal at the bottom edge, and the top edge of 8(b) mark scheme shows a stray sliver of the same (2)",
-    "Notes: no notes text; the crop under the NOTES caption holds only the PAPER TOTAL: 75 row, whose top half is a clipped sliver at the bottom of the 8(b) mark scheme"
+    "Examiners notes: the notes section contains only a stray \"PAPER TOTAL: 75\" footer (no real notes for this question)"
    ],
-   "fingerprint": "9444f67158b9",
+   "fingerprint": "829b252c8ec4",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

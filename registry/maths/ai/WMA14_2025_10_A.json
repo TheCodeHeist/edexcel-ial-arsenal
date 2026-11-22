@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "343ff4af0d94",
+   "fingerprint": "8f5f51d8343f",
    "kinds": {
     "1": "calc"
    },
@@ -16,7 +16,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "3ed1079656ad",
+   "fingerprint": "9c65cddc9cb8",
    "kinds": {
     "2": "calc"
    },
@@ -30,7 +30,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f53086344921",
+   "fingerprint": "773c9c34a6fc",
    "kinds": {
     "3": "calc"
    },
@@ -42,11 +42,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [
-    "4(a): the top of the numerator 1 in the fraction 1/sqrt(1-2x) is cut off at the top crop edge"
+    "4(a): top edge of the question crop clips the formula: the numerator 1 (and top of the fraction bar) of 1/sqrt(1-2x) in the first line is cut off"
    ],
-   "fingerprint": "70d670457cd4",
+   "fingerprint": "028ccb4794f5",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -61,9 +61,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ab46458b74a3",
+   "at": "2026-11-22",
+   "concerns": [
+    "5: the mark-scheme rows are split: the main-method rows end above the \"examiners NOTES\" caption bar, and the \"Alt\" mark-scheme table (B1, B1 B1, M1, dM1A1, 6 marks) plus a boxed M1 note sit below the NOTES caption instead of with the purple mark-scheme rows"
+   ],
+   "fingerprint": "f62273bdb8ef",
    "kinds": {
     "5": "calc"
    },
@@ -77,7 +79,7 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "b82b8e0ab284",
+   "fingerprint": "5bfc27d06ffb",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -119,7 +121,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0806e04e7374",
+   "fingerprint": "546944460c98",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -142,7 +144,7 @@
   "9": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "a3c62435c4ba",
+   "fingerprint": "2c542e233418",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

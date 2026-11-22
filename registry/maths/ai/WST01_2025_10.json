@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Examiners NOTES: cut off at the bottom edge, the 1(f) note ends mid-sentence (for 2nd/3rd reason, do not allow comments that refer to weights ...)."
-   ],
-   "fingerprint": "8013ba401505",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "5c4bbe14a129",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -36,12 +34,11 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "2(c): the question crop has no Figure 1 grid (Club A / Club B axes) that the student must draw the box plot on; the figure and the spare grid both appear at the end of the 2(d) crop instead, so the figure sits under the wrong part.",
-    "2(c): in the mark scheme rows the Club A label box overlaps the part label (c) and the box plot image is cramped at the left edge."
+    "2(c): the Figure 1 grid with the Club B box plot that 2(c) asks the student to draw on is only present in the 2(d) crop (with the spare grid); the 2(c) question crop itself has no grid."
    ],
-   "fingerprint": "2003e9b69524",
+   "fingerprint": "a9df4ad9a196",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -65,9 +62,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "178b06bf8c21",
+   "fingerprint": "ad43c1380915",
    "kinds": {
     "3(a)": "short",
     "3(b)": "short",
@@ -86,9 +83,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "5a78696119f8",
+   "fingerprint": "02d6551cd343",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -112,13 +109,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [
-    "5(c)(i): its mark scheme rows also include the 5(c)(ii) rows (Var(y), Var(w), M1 M1A1) after the (i) rows, so the crop overlaps part (ii) and its marks (5) exceed the part marks (2).",
-    "5(c)(ii): its mark scheme rows also include the 5(c)(i) rows (mean of w, M1 A1) above the (ii) rows, so the crop overlaps part (i).",
-    "Examiners NOTES: the last item (SC for part (ii), the sqrt(150000/300 - 20^2) expression) is cut off at the bottom edge and its SC note text is incomplete."
-   ],
-   "fingerprint": "4e71f283c0d8",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "70b5d7678409",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -141,9 +134,9 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8f385df2d742",
+   "fingerprint": "c0494f3d77a7",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -167,9 +160,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "39494f818496",
+   "fingerprint": "16ce58b74b69",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -184,15 +177,14 @@
      "S1.3.2"
     ],
     "7(c)": [
-     "S1.6.1",
-     "P1.1.6"
+     "S1.6.1"
     ]
    }
   },
   "8": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "cd6196b93ee1",
+   "fingerprint": "a712eeb3ae11",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

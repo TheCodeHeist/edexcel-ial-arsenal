@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "11835aec058f",
+   "fingerprint": "dddf6b395788",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,7 +20,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "e4efb746b75c",
+   "fingerprint": "fda68b7eea20",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -43,7 +43,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "e2063f1add6b",
+   "fingerprint": "bcf7fe295781",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -61,7 +61,7 @@
   "4": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "8b8595b4f36a",
+   "fingerprint": "506a371cfc8a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -76,11 +76,9 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
-   "concerns": [
-    "5(b): the \"Alt for first 5 marks\" scheme rows (M1 M1 M1A1 M1 with its working) are in the examiners' NOTES block rather than with the 5(b) mark-scheme rows (minor: they are the second half of the notes table)."
-   ],
-   "fingerprint": "5da92e3b8ade",
+   "at": "2026-11-22",
+   "concerns": [],
+   "fingerprint": "1f60391219f6",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -97,7 +95,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f0ad4efcbd62",
+   "fingerprint": "7ecc01bccf71",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -112,9 +110,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8c1a1cbaecc1",
+   "fingerprint": "4016dfe8290e",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -134,12 +132,12 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "8(b): the Alt (i) mark-scheme row at the bottom of the 8(b) rows is cut through a formula (the |w - (...)| = |w - (...)| line is clipped)",
-    "8(c): the 8(c) mark-scheme rows start with a clipped fragment of 8(b)s Alt (i) (\"So perp bisector of ... => v = sqrt3 u o.e.\" M1A1) that belongs to 8(b), so (c) shows 7 marks for a 5-mark part"
+    "8(b): final M1A1 row of (b) Alt (i) mark scheme is split off into 8(c) mark scheme rows.",
+    "8(c): mark scheme rows begin with the final M1A1 row belonging to 8(b) Alt (i)."
    ],
-   "fingerprint": "54e5cb4729cf",
+   "fingerprint": "9fd3e6a6f965",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

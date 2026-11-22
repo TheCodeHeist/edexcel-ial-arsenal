@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "d9e09ce5f322",
+   "fingerprint": "9aa94ff61dcf",
    "kinds": {
     "1": "calc"
    },
@@ -34,7 +34,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a3f0c07fde6b",
+   "fingerprint": "dcf54b25caf7",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -52,7 +52,7 @@
   "4": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "3e12df090b20",
+   "fingerprint": "0e182ce77a58",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -71,7 +71,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c4605081832d",
+   "fingerprint": "f94d31c36a56",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -117,7 +117,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c2923ecb5914",
+   "fingerprint": "77a7af295b2f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -136,7 +136,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "4caa7ee07eaf",
+   "fingerprint": "2255523e993f",
    "kinds": {
     "8": "calc"
    },
@@ -148,11 +148,11 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
+   "at": "2026-11-22",
    "concerns": [
-    "9(a): the boxed \"(a) Alt\" mark-scheme is cut through its last line at the bottom of the 9(a) rows (the dy/dx quotient line is clipped and its A1 row is missing); the remainder (a sliver of that formula plus the A1 row) shows at the top of the 9(b) mark-scheme rows"
+    "9(a): mark-scheme rows end with the \"(a) Alt\" box cut through its last formula (the dy/dx working is sliced mid-line at the bottom of the 9(a) rows), and the rest of that Alt box (final line and its A1) is repeated at the top of the 9(b) rows, also sliced; the 9(b) rows therefore start with a fragment belonging to 9(a)"
    ],
-   "fingerprint": "3ee61d93c3fa",
+   "fingerprint": "5d4b8e597cf8",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -161,7 +161,7 @@
    "topics": {
     "9(a)": [
      "P4.5.1",
-     "P3.2.1"
+     "P3.4.1"
     ],
     "9(b)": [
      "P4.5.1",
@@ -169,7 +169,8 @@
     ],
     "9(c)": [
      "P4.3.1",
-     "P3.2.3"
+     "P3.2.3",
+     "P3.2.2"
     ]
    }
   }
