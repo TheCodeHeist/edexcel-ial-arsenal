@@ -1,0 +1,94 @@
+/* Atoms & Bonding Lab. Shared 3D frame, HUD chips, readings and layout come from Particle Lab (particles.css).
+   All tab-specific rules below are scoped under their root classes (.ab-*). */
+@import '../particles/particles.css';
+
+/* ===== shared SVG graph styling (IE, IMF, Mass Spec) ===== */
+.ab-svg{width:100%;height:auto;display:block;font-family:var(--f-mono);overflow:visible}
+.ab-svg .ax{stroke:var(--ink);stroke-width:1.4}
+.ab-svg .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:3 4}
+.ab-svg .axlbl{font-size:11px;fill:var(--muted)}
+.ab-svg .sym{font-size:11px;font-weight:700;fill:var(--ink)}
+.ab-svg .ieline{fill:none;stroke:var(--accent);stroke-width:2.6;stroke-linejoin:round}
+.ab-svg .radline{fill:none;stroke:var(--amph);stroke-width:2;stroke-dasharray:5 4;opacity:.8}
+.ab-svg .pt{fill:var(--solid);stroke:var(--accent);stroke-width:2.2;cursor:pointer;transition:r .15s}
+.ab-svg .pt.dip{stroke:var(--redox);fill:color-mix(in srgb,var(--redox) 25%,var(--solid))}
+.ab-svg .pt.sel{fill:var(--accent);stroke:var(--ink);stroke-width:2}
+.ab-svg .ptg{cursor:pointer;outline:none}
+.ab-svg .jumpband{fill:color-mix(in srgb,var(--redox) 14%,transparent)}
+.ab-svg .jumplbl{font-size:11px;font-weight:700;fill:var(--redox)}
+
+/* ===== Shapes ===== */
+.ab-shapes .ab-tag{font:700 9px/1 var(--f-mono);text-transform:uppercase;opacity:.7;margin-left:3px}
+
+/* ===== Orbitals ===== */
+.ab-orbitals .ab-quick{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.ab-orbitals .ab-lbl{font:700 11px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:2px}
+.ab-orbitals .ab-headtools{display:flex;align-items:center;gap:6px}
+.ab-orbitals .ab-cfg{margin:0 14px 12px;padding:12px 14px;border-radius:var(--r-sm);background:var(--raised);border:1px solid var(--rim);
+  font:600 15px/1.4 var(--f-mono);color:var(--ink);-webkit-user-select:text;user-select:text;overflow-wrap:anywhere}
+.ab-orbitals .ab-alert{margin:0 14px 12px;padding:9px 12px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--amph) 14%,transparent);
+  border:1px solid color-mix(in srgb,var(--amph) 35%,transparent);font-size:13px;line-height:1.45;color:var(--ink)}
+.ab-orbitals .ab-boxes{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 14px 14px}
+.ab-orbitals .ab-sub{display:flex;flex-direction:column;gap:4px}
+.ab-orbitals .ab-sname{font:700 11px/1 var(--f-mono);color:var(--muted)}
+.ab-orbitals .ab-row{display:flex;gap:3px}
+.ab-orbitals .ab-box{width:30px;height:30px;display:grid;place-items:center;border:1.5px solid var(--line);border-radius:6px;
+  background:var(--solid);font:700 14px/1 var(--f-mono);color:var(--accent)}
+.ab-orbitals .ab-box.filled{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+
+/* ===== Ionisation Energy ===== */
+.ab-ie .ab-mystery{margin:12px 14px 4px;padding:12px 14px;border-radius:var(--r-sm);background:color-mix(in srgb,var(--accent) 7%,transparent);border:1px solid color-mix(in srgb,var(--accent) 20%,transparent)}
+.ab-ie .ab-mystery .picker{margin:8px 0 6px}
+.ab-ie .ab-mystery .chip.right{background:color-mix(in srgb,var(--good) 24%,var(--raised));border-color:var(--good);color:var(--ink)}
+.ab-ie .ab-mystery .chip.wrong{background:color-mix(in srgb,var(--bad) 22%,var(--raised));border-color:var(--bad);color:var(--ink)}
+
+/* ===== Lattices ===== */
+.ab-lattices .ab-warn{color:#fca5a5;font-weight:700}
+
+/* ===== IMF ===== */
+.ab-imf .ab-trend{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+.ab-imf .ab-bars{display:flex;flex-direction:column;gap:12px;padding:6px 16px 10px}
+.ab-imf .ab-bar-head{display:flex;justify-content:space-between;gap:8px;font-size:13.5px;margin-bottom:4px}
+.ab-imf .ab-track{height:10px;border-radius:999px;background:color-mix(in srgb,var(--ink) 10%,transparent);overflow:hidden}
+.ab-imf .ab-fill{height:100%;border-radius:999px;background:var(--accent)}
+
+/* ===== Mass Spec ===== */
+.ab-mass .ab-spec{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+
+/* ===== Practice (3-column layout matching Kinetics Lab) ===== */
+.ab-practice .qprompt{white-space:pre-line}
+.abfig{width:100%;max-width:320px;height:auto;font-family:var(--f-mono);overflow:visible}
+.abfig .ax{stroke:var(--ink);stroke-width:1.4}
+.abfig .curve{fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round}
+.abfig .pt{fill:var(--accent)}
+.abfig .ft{font-size:10px;fill:var(--muted)}
+.abfig .ft.mid{text-anchor:middle}
+.ab-practice .fig-q{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.ab-practice .fig-q small{color:var(--muted);font-size:12px}
+.ab-practice .big-glyph{font:700 46px var(--f-display);color:var(--accent)}
+.layout.practice.ab-practice{grid-template-columns:minmax(220px,260px) minmax(0,1fr) minmax(260px,340px)}
+.ab-practice .topics{padding-bottom:8px;position:sticky;top:12px}
+.ab-practice .tlist{list-style:none;margin:0;padding:2px 8px 4px;display:flex;flex-direction:column;gap:2px}
+.ab-practice .titem{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;border:0;background:none;
+  color:var(--ink);padding:9px 10px;border-radius:var(--r-sm);cursor:pointer;font:600 14px/1.25 var(--f-body)}
+.ab-practice .titem:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.ab-practice .titem[aria-pressed="true"]{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--ink);box-shadow:inset 3px 0 0 var(--accent)}
+.ab-practice .titem:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.ab-practice .tm{display:flex;justify-content:space-between;width:100%;gap:8px;font:600 10.5px/1.2 var(--f-mono);color:var(--muted);letter-spacing:.03em}
+.ab-practice .tm b{color:var(--accent);font-weight:700}
+.ab-practice .topicsel{display:none;padding:0 14px 12px}
+.ab-practice .topicsel .sel{width:100%}
+.ab-practice .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+@media (max-width:1180px){
+  .layout.practice.ab-practice{grid-template-columns:minmax(200px,230px) minmax(0,1fr)}
+  .ab-practice .topics{grid-row:span 2}
+  .ab-practice .figure{grid-column:2}
+}
+@media (max-width:900px){
+  .layout.practice.ab-practice{grid-template-columns:minmax(0,1fr)}
+  .ab-practice .figure{grid-column:auto}
+  .ab-practice .topics{position:static;grid-row:auto}
+  .ab-practice .tlist{display:none}
+  .ab-practice .topicsel{display:block}
+}

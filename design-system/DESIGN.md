@@ -197,6 +197,13 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Particles really react.** Collision and equilibrium views count real collisions with energies drawn from a Maxwell–Boltzmann distribution; nothing is faked to look right.
 - **Exam conventions**: R = 8.31 J mol⁻¹ K⁻¹, T/K = θ/°C + 273, molar gas volume 24.0 dm³ mol⁻¹ at RTP, partial pressures in atm; units of k and K are always worked out, never copied.
 
+## 9h · Chemistry rules (Atoms & Bonding Lab)
+
+- **Same 3D engine as Particle, Waves and Kinetics Labs.** Every 3D view (`shapes3d.ts`, `orbitals3d.ts`, `lattices3d.ts`, `imf3d.ts`, `massspec3d.ts`) extends `Stage3D` inside `View3D.svelte`; layout, HUD chips, readings and practice styles come from `particles.css`, with all tab-specific rules scoped under `.ab-*` in `atoms.css`.
+- **Every Unit 1 (WCH11) structure & bonding statement has a home**, plus Topic 8 intermolecular forces: Shapes & polarity (3.13–3.18, 3.22–3.24), Orbitals & filling (2.9–2.14), Ionisation energy (2.6–2.8, 2.15–2.18), Crystal lattices (3.1–3.12, 3.19–3.21), Intermolecular forces (3.25–3.29), Mass spectrometer (2.3–2.5), and Practice. Beyond-spec shapes (`XeF₄`, seesaw, T-shaped) and 3d orbital shapes carry the dashed `beyond` chip.
+- **CPK-inspired 3D atom colours** read crisply on the near-black stage (`#03040a`); lone pairs are translucent purple lobes with two electron dots; positive/negative orbital wavefunction phases use blue and rose-pink.
+- **Exam conventions**: Pauling electronegativities, 1st and successive ionisation energies in kJ mol⁻¹ from the Edexcel Data Booklet, Cr (`[Ar] 3d⁵ 4s¹`) and Cu (`[Ar] 3d¹⁰ 4s¹`) exceptions, 4s emptied before 3d in transition-metal ions, and Edexcel spellings throughout (`sulfur`, `aluminium`).
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.

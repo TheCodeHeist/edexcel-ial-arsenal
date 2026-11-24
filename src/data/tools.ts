@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms';
 
 export interface Tool {
   slug: string;
@@ -56,6 +56,18 @@ export const TOOLS: Tool[] = [
     art: 'kinetics',
     href: '/chemistry/kinetics-lab/',
     added: '2026-11-22',
+  },
+  {
+    slug: 'atoms-bonding-lab',
+    subject: 'chemistry',
+    title: 'Atoms & Bonding Lab',
+    blurb: 'Structure, bonding and periodicity in 3D: VSEPR shapes, lone-pair repulsion and dipoles, quantum orbital clouds and electron-in-box filling (with Cr/Cu exceptions and ions), first and successive ionisation energies, 3D crystal lattices with shear tests, intermolecular forces and boiling-point trends, and a 3D mass spectrometer.',
+    kind: 'Simulation',
+    units: ['WCH11', 'WCH12'],
+    topics: ['VSEPR shapes', 'Electronegativity & polarity', 'Orbitals & electron config', 'Ionisation energy', 'Crystal lattices', 'Intermolecular forces', 'Mass spectrometry'],
+    art: 'atoms',
+    href: '/chemistry/atoms-bonding-lab/',
+    added: '2026-11-24',
   },
   {
     slug: 'circuit-builder',

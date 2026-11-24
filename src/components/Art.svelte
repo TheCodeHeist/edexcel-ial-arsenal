@@ -103,6 +103,18 @@
     <circle cx="16" cy="-14" r="3" fill="var(--redox)" />
     <rect x="-50" y="22" width="100" height="26" rx="2" stroke="var(--ink)" stroke-opacity=".45" stroke-width="2" fill="color-mix(in srgb, var(--accent) 8%, transparent)" />
     <path d="M-48 2 L-26 22 L-14 48 L-2 58" stroke="var(--amph)" stroke-width="2.6" />
+  {:else if name === 'atoms'}
+    <!-- tetrahedral molecule inside crossed orbital ellipses, with lone-pair dots -->
+    <g transform="rotate(-24)"><ellipse rx="48" ry="18" stroke="var(--ligand)" stroke-opacity=".45" stroke-width="1.8" /></g>
+    <g transform="rotate(24)"><ellipse rx="48" ry="18" stroke="var(--accent)" stroke-opacity=".45" stroke-width="1.8" /></g>
+    <path d="M0 -4 L0 -38 M0 -4 L32 20 M0 -4 L-32 20 M0 -4 L-12 34" stroke="var(--ink)" stroke-opacity=".7" stroke-width="2.4" />
+    <circle cx="0" cy="-4" r="10" fill="color-mix(in srgb, var(--accent) 70%, var(--surf))" stroke="var(--ink)" stroke-opacity=".75" stroke-width="2.2" />
+    <circle cx="0" cy="-38" r="6.5" fill="var(--solid)" stroke="var(--redox)" stroke-width="2.2" />
+    <circle cx="32" cy="20" r="6.5" fill="var(--solid)" stroke="var(--acidbase)" stroke-width="2.2" />
+    <circle cx="-32" cy="20" r="6.5" fill="var(--solid)" stroke="var(--acidbase)" stroke-width="2.2" />
+    <circle cx="-12" cy="34" r="5.5" fill="var(--solid)" stroke="var(--amph)" stroke-width="2.2" />
+    <circle cx="22" cy="-28" r="2.6" fill="var(--ligand)" />
+    <circle cx="29" cy="-23" r="2.6" fill="var(--ligand)" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

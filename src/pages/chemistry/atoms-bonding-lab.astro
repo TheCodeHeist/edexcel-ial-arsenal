@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/atoms/App.svelte';
+import '../../sims/atoms/atoms.css';
+---
+<Sim title="Atoms & Bonding Lab" description="3D VSEPR molecular shapes and polarity, quantum orbitals and electron-in-box filling (with Cr/Cu exceptions and ions), first and successive ionisation energies, 3D crystal lattices with shear tests, intermolecular forces and boiling-point trends, and a 3D mass spectrometer, for Edexcel IAL Chemistry Unit 1 (WCH11).">
+  <App client:only="svelte" />
+</Sim>
