@@ -1,0 +1,56 @@
+/* Fields Lab. Shared 3D frame, HUD chips, readings and layout come from Particle Lab (particles.css).
+   All tab-specific rules below are scoped under .fl-* classes and respect global flat-UI / text-scale tokens. */
+@import '../particles/particles.css';
+
+/* ===== shared SVG styling ===== */
+.fl-svg{width:100%;height:auto;display:block;font-family:var(--f-mono);overflow:visible}
+.fl-svg .ax{stroke:var(--ink);stroke-width:1.4}
+.fl-svg .axlbl{font-size:11px;fill:var(--muted)}
+
+/* ===== Induction ===== */
+.fl-ind .fl-trace{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+
+/* ===== Gravity comparison table ===== */
+.fl-grav .fl-cmp{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+.fl-grav .fl-tblwrap{overflow-x:auto;padding:0 14px 8px}
+.fl-grav .fl-tbl{width:100%;border-collapse:collapse;font-size:13px;line-height:1.4}
+.fl-grav .fl-tbl th,.fl-grav .fl-tbl td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.fl-grav .fl-tbl thead th{font:700 11px/1.2 var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.fl-grav .fl-tbl tbody th{font-weight:600;color:var(--ink);white-space:nowrap}
+
+/* ===== Practice (3-column layout matching Kinetics / Atoms / Energetics Labs) ===== */
+.fl-practice .qprompt{white-space:pre-line}
+.flfig{width:100%;max-width:320px;height:auto;font-family:var(--f-mono);overflow:visible}
+.flfig .ax{stroke:var(--ink);stroke-width:1.4}
+.flfig .curve{fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round}
+.flfig .ft{font-size:10px;fill:var(--muted)}
+.flfig .ft.mid{text-anchor:middle}
+.fl-practice .fig-q{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.fl-practice .fig-q small{color:var(--muted);font-size:12px}
+.fl-practice .big-glyph{font:700 54px var(--f-display);color:var(--accent)}
+.layout.practice.fl-practice{grid-template-columns:minmax(220px,260px) minmax(0,1fr) minmax(260px,340px)}
+.fl-practice .topics{padding-bottom:8px;position:sticky;top:12px}
+.fl-practice .tlist{list-style:none;margin:0;padding:2px 8px 4px;display:flex;flex-direction:column;gap:2px}
+.fl-practice .titem{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;border:0;background:none;
+  color:var(--ink);padding:9px 10px;border-radius:var(--r-sm);cursor:pointer;font:600 14px/1.25 var(--f-body)}
+.fl-practice .titem:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.fl-practice .titem[aria-pressed="true"]{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--ink);box-shadow:inset 3px 0 0 var(--accent)}
+.fl-practice .titem:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.fl-practice .tm{display:flex;justify-content:space-between;width:100%;gap:8px;font:600 10.5px/1.2 var(--f-mono);color:var(--muted);letter-spacing:.03em}
+.fl-practice .tm b{color:var(--accent);font-weight:700}
+.fl-practice .topicsel{display:none;padding:0 14px 12px}
+.fl-practice .topicsel .sel{width:100%}
+.fl-practice .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+@media (max-width:1180px){
+  .layout.practice.fl-practice{grid-template-columns:minmax(200px,230px) minmax(0,1fr)}
+  .fl-practice .topics{grid-row:span 2}
+  .fl-practice .figure{grid-column:2}
+}
+@media (max-width:900px){
+  .layout.practice.fl-practice{grid-template-columns:minmax(0,1fr)}
+  .fl-practice .figure{grid-column:auto}
+  .fl-practice .topics{position:static;grid-row:auto}
+  .fl-practice .tlist{display:none}
+  .fl-practice .topicsel{display:block}
+}

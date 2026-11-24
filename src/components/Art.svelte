@@ -123,6 +123,15 @@
     <path d="M24 -30 V36 M20 32 L24 36 L28 32" stroke="var(--accent)" stroke-width="2.6" />
     <path d="M-32 22 V38 H10" stroke="var(--acidbase)" stroke-width="2.2" stroke-dasharray="3 4" />
     <path d="M-40 -26 q8 -14 0 -22 q-8 8 0 22 Z" fill="color-mix(in srgb, var(--amph) 60%, transparent)" stroke="var(--amph)" stroke-width="2" />
+  {:else if name === 'fields'}
+    <!-- electric dipole field lines curving between + and − charges with dashed equipotentials -->
+    <path d="M-26 0 C-26 -38 26 -38 26 0 M-26 0 C-26 -18 26 -18 26 0 M-26 0 C-26 18 26 18 26 0 M-26 0 C-26 38 26 38 26 0 M-26 0 H26" stroke="var(--accent)" stroke-width="2" />
+    <circle cx="-26" cy="0" r="18" stroke="var(--amph)" stroke-opacity=".5" stroke-width="1.6" stroke-dasharray="3 4" />
+    <circle cx="26" cy="0" r="18" stroke="var(--amph)" stroke-opacity=".5" stroke-width="1.6" stroke-dasharray="3 4" />
+    <circle cx="-26" cy="0" r="9" fill="color-mix(in srgb, var(--redox) 70%, var(--surf))" stroke="var(--redox)" stroke-width="2.2" />
+    <path d="M-30 0 H-22 M-26 -4 V4" stroke="var(--ink)" stroke-width="2" />
+    <circle cx="26" cy="0" r="9" fill="color-mix(in srgb, var(--accent) 70%, var(--surf))" stroke="var(--accent)" stroke-width="2.2" />
+    <path d="M22 0 H30" stroke="var(--ink)" stroke-width="2" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

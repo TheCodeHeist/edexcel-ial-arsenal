@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields';
 
 export interface Tool {
   slug: string;
@@ -140,6 +140,18 @@ export const TOOLS: Tool[] = [
     art: 'ripple',
     href: '/physics/waves-lab/',
     added: '2026-11-22',
+  },
+  {
+    slug: 'fields-lab',
+    subject: 'physics',
+    title: 'Fields Lab',
+    blurb: 'Electric, magnetic and gravitational fields in 3D: radial dipoles, equipotentials and parallel plates (E = V/d), Fleming’s Left-Hand Rule (F = BIL sin θ), circular charged-particle tracks (r = mv/BQ) and velocity selectors (v = E/B), Faraday and Lenz electromagnetic induction, and a 3D gravitational potential well.',
+    kind: 'Simulation',
+    units: ['WPH14', 'WPH15'],
+    topics: ['Electric fields', 'Equipotentials', 'F = BIL sin θ', 'Fleming’s Left-Hand Rule', 'r = mv/BQ', 'Velocity selector', 'Faraday & Lenz', 'AC generator', 'Gravitational fields'],
+    art: 'fields',
+    href: '/physics/fields-lab/',
+    added: '2026-11-24',
   },
 ];
 

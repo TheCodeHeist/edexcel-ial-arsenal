@@ -33,6 +33,7 @@ const KEY_FOR: Record<string, string> = {
   'star-lab': 'stars-score',
   'particle-lab': 'particles-score',
   'waves-lab': 'waves-score',
+  'fields-lab': 'fields-score',
 };
 
 export function readProgress(): ProgressSummary {

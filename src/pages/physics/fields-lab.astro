@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/fields/App.svelte';
+import '../../sims/fields/fields.css';
+---
+<Sim title="Fields Lab" description="3D electric fields, equipotentials and parallel plates (E = V/d), magnetic fields and Fleming's Left-Hand Rule (F = BIL sin θ), charged-particle orbits (r = mv/BQ) and velocity selectors (v = E/B), Faraday and Lenz electromagnetic induction, and a 3D gravitational potential well, for Edexcel IAL Physics Units 4 and 5.">
+  <App client:only="svelte" />
+</Sim>

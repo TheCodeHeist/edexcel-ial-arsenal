@@ -211,6 +211,13 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Colour coding for enthalpy direction**: endothermic steps (bond breaking, atomisation, IE, 2nd EA) use `--redox` (red/coral); exothermic steps (bond making, 1st EA, lattice energy) use `--accent` (blue) or `--good` (green) for feasible $\Delta G \le 0$.
 - **Exam conventions**: $c = 4.18\text{ J g}^{-1}\text{ K}^{-1}$, standard conditions 298 K / 100 kPa, explicit sign on every $\Delta H$, $\Delta S$ and $\Delta G$, and unit conversion ($\div 1000$) shown between $\text{J K}^{-1}\text{ mol}^{-1}$ and $\text{kJ mol}^{-1}$.
 
+## 9j · Physics rules (Fields Lab)
+
+- **Same 3D engine & global perf integration.** Every 3D view (`electric3d.ts`, `magnetic3d.ts`, `lorentz3d.ts`, `induction3d.ts`, `gravity3d.ts`) extends `Stage3D` inside `View3D.svelte`, inheriting lazy bloom, resolution scaling, FPS cap and `FpsMeter`. Custom animation loops (`Induction.svelte`) gate frames with `frameReady()` and respect `isReducedMotion()`; score progress is registered in `src/lib/progress.ts`.
+- **Every Unit 4 fields statement has a home**, plus Unit 5 gravitational comparison: Electric fields & equipotentials (`#electric`), Magnetic fields & `F = BIL sin θ` (`#magnetic`), Charged particles `r = mv/BQ` & velocity selector `v = E/B` (`#lorentz`), Faraday & Lenz EM induction (`#induction`), Gravitational potential well & Gravity vs Electric comparison (`#gravity`), and Practice (`#practice`).
+- **Vector colour conventions**: positive charge / North pole = red, negative charge / South pole / B-field = blue, current / velocity = amber, magnetic / centripetal force = green.
+- **Exam conventions**: data-sheet constants ($k = 8.99 \times 10^9\text{ N m}^2\text{ C}^{-2}$, $G = 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$, $e = 1.60 \times 10^{-19}\text{ C}$, $m_e = 9.11 \times 10^{-31}\text{ kg}$, $m_p = 1.67 \times 10^{-27}\text{ kg}$), SI units throughout (`V m⁻¹`, `N C⁻¹`, `N kg⁻¹`, `Wb`).
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.
