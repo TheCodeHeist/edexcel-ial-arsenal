@@ -1,0 +1,23 @@
+{
+  "name": "Edexcel IAL Arsenal",
+  "short_name": "IAL Arsenal",
+  "description": "Interactive 3D simulations, drills and past papers for Edexcel International A Level Chemistry, Physics and Maths.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1e1e2e",
+  "theme_color": "#1e66f5",
+  "icons": [
+    {
+      "src": "/brand/ial-arsenal-logo-colorful.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/brand/ial-arsenal-logo-colorful.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

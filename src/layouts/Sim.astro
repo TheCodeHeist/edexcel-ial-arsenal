@@ -19,8 +19,12 @@ const { title, description } = Astro.props;
   <meta name="twitter:card" content="summary" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/brand/ial-arsenal-logo-colorful.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#1e66f5" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" /></noscript>
   <script is:inline>
     /* Before first paint: the saved palette + mode (same keys as src/lib/theme.ts), and the first-load rise-in. */
     (function () {
@@ -47,5 +51,6 @@ const { title, description } = Astro.props;
     <slot />
   </div>
   <noscript><p style="text-align:center">This simulation needs JavaScript.</p></noscript>
+  <script is:inline>if ('serviceWorker' in navigator) addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });</script>
 </body>
 </html>

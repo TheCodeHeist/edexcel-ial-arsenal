@@ -4,6 +4,8 @@
 import '../styles/global.css';
 import ThemePicker from '../components/ui/ThemePicker.svelte';
 import PerfPicker from '../components/ui/PerfPicker.svelte';
+import CommandPalette from '../components/ui/CommandPalette.svelte';
+import DataBooklet from '../components/ui/DataBooklet.svelte';
 import { SUBJECTS, type SubjectId } from '../data/subjects';
 
 export interface Stat { label: string; value: string | number }
@@ -33,8 +35,12 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
   <meta name="twitter:card" content="summary" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/brand/ial-arsenal-logo-colorful.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#1e66f5" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" /></noscript>
   <script is:inline>
     /* Before first paint: restore the saved palette + mode so the page never flashes the default theme.
        Same keys as src/scripts/theme.ts and the simulations. */
@@ -67,6 +73,8 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
         <h1><a href="/"><img class="logo" src="/brand/ial-arsenal-logo-colorful.svg" width="44" height="44" alt="" /><span><span class="d">E</span>dexcel IAL Arsenal</span></a></h1>
       </div>
       <div class="top-tools">
+        <CommandPalette client:load />
+        <DataBooklet client:load />
         <ThemePicker client:load />
         <PerfPicker client:load />
       </div>
@@ -96,6 +104,7 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
   <script>
     import { glint } from '../lib/motion';
     glint('.card,.subject,.panel');
+    if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
   </script>
 </body>
 </html>

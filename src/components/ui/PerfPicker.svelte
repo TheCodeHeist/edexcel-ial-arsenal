@@ -5,6 +5,7 @@
   import { initTheme, onTheme, getTheme, setTheme, type ThemeState } from '../../lib/theme';
   import { initPerf, onPerf, getPerf, setPerf, setPreset, resetPerf, type PerfState, type ResScale, type FpsCap, type TextScale } from '../../lib/perf';
   import { indicator } from '../../lib/motion';
+  import ProgressModal from './ProgressModal.svelte';
 
   let t = $state<ThemeState | null>(null);
   let p = $state<PerfState | null>(null);
@@ -223,8 +224,11 @@
       </div>
 
       <div class="pp-foot">
+        <button type="button" class="pp-reset" onclick={() => { open = false; window.dispatchEvent(new CustomEvent('arsenal-progress')); }}>Progress &amp; backup</button>
         <button type="button" class="pp-reset" onclick={resetAll}>Reset defaults</button>
       </div>
     </div>
   {/if}
 </div>
+
+<ProgressModal />

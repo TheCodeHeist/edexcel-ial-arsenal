@@ -7,10 +7,7 @@
 
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
-import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
-import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { createBloomRig, type BloomRig } from '../../lib/bloom';
 import { FpsMeter, getDpr, getMinFrameMs, getPerf, isReducedMotion, onPerf } from '../../lib/perf';
 
 export { THREE };
@@ -127,7 +124,9 @@ export abstract class Stage3D<L> {
   protected zoom = 1;
   protected readonly small: boolean;
   protected readonly tex = glowTexture();
-  readonly #composer: EffectComposer;
+  #rig: BloomRig | null = null;
+  #rigLoading = false;
+  #bloomOpts: [number, number, number];
   #bloomOn = true;
   #minMs = 0;
   #fps: FpsMeter;
@@ -164,11 +163,8 @@ export abstract class Stage3D<L> {
     this.controls.rotateSpeed = 0.6;
     this.controls.update();
 
-    this.#composer = new EffectComposer(this.renderer);
-    this.#composer.addPass(new RenderPass(this.scene, this.camera));
-    const [bs, br, bt] = o.bloom ?? [0.6, 0.45, 0.72];
-    this.#composer.addPass(new UnrealBloomPass(new THREE.Vector2(256, 256), bs, br, bt));
-    this.#composer.addPass(new OutputPass());
+    this.#bloomOpts = o.bloom ?? [0.6, 0.45, 0.72];
+    if (this.#bloomOn) this.#ensureBloom();
 
     this.#ro = new ResizeObserver(() => this.resize());
     this.#ro.observe(canvas);
@@ -181,11 +177,25 @@ export abstract class Stage3D<L> {
     this.#fps = new FpsMeter(canvas.parentElement);
     this.#offPerf = onPerf((p) => {
       this.#bloomOn = p.bloom;
+      if (this.#bloomOn) this.#ensureBloom();
       this.#minMs = getMinFrameMs();
       const dpr = getDpr(this.small);
       if (this.renderer.getPixelRatio() !== dpr) { this.renderer.setPixelRatio(dpr); this.resize(); }
       this.kick();
     });
+  }
+
+  #ensureBloom() {
+    if (this.#rig || this.#rigLoading || this.#dead) return;
+    this.#rigLoading = true;
+    createBloomRig(this.renderer, this.scene, this.camera, this.#bloomOpts, this.canvas.clientWidth, this.canvas.clientHeight)
+      .then((rig) => {
+        if (this.#dead) { rig.composer.dispose(); return; }
+        this.#rig = rig;
+        this.resize();
+      })
+      .catch(() => {})
+      .finally(() => { this.#rigLoading = false; });
   }
 
   /** Call at the end of the subclass constructor. */
@@ -214,7 +224,7 @@ export abstract class Stage3D<L> {
     const w = this.canvas.clientWidth, h = this.canvas.clientHeight;
     if (!w || !h) return;
     this.renderer.setSize(w, h, false);
-    this.#composer.setSize(w, h);
+    this.#rig?.composer.setSize(w, h);
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
     MAXPT.value = 64 * this.renderer.getPixelRatio();
@@ -248,7 +258,7 @@ export abstract class Stage3D<L> {
     if (!Number.isFinite(p.x + p.y + p.z)) this.resetView();
     this.controls.autoRotate = this.autoRotate && !isReducedMotion();
     this.controls.update(dt);
-    if (this.#bloomOn) this.#composer.render(dt); else this.renderer.render(this.scene, this.camera);
+    if (this.#bloomOn && this.#rig) this.#rig.composer.render(dt); else this.renderer.render(this.scene, this.camera);
     this.#fps.tick(now);
     if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
   };
@@ -277,7 +287,7 @@ export abstract class Stage3D<L> {
       if (Array.isArray(mat)) mat.forEach(each); else if (mat) each(mat);
     });
     this.tex.dispose();
-    this.#composer.dispose();
+    this.#rig?.composer.dispose();
     this.renderer.dispose();
   }
 }

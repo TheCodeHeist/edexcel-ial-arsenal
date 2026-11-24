@@ -3,6 +3,8 @@
      the subject page on the hub. Tabs are [value, long label, short label for phones?]. */
   import ThemePicker from './ThemePicker.svelte';
   import PerfPicker from './PerfPicker.svelte';
+  import CommandPalette from './CommandPalette.svelte';
+  import DataBooklet from './DataBooklet.svelte';
   import { indicator } from '../../lib/motion';
   let { title, accent = 1, eyebrow, back, tabs, value, onselect }: {
     title: string; accent?: number; eyebrow: string; back: { href: string; label: string };
@@ -19,6 +21,8 @@
     <h1><span class="d">{title.slice(0, accent)}</span>{title.slice(accent)}</h1>
   </div>
   <div class="top-tools">
+    <CommandPalette />
+    <DataBooklet />
     <ThemePicker />
     <PerfPicker />
   </div>

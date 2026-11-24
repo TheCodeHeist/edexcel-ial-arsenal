@@ -9,10 +9,7 @@
 
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
-import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
-import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { createBloomRig, type BloomRig } from '../../lib/bloom';
 import { FpsMeter, getDpr, getMinFrameMs, getPerf, isReducedMotion, onPerf } from '../../lib/perf';
 import { STAR_V, STAR_F, SOFT_F, SHELL_V, DISC_V, FIELD_V, MAXPT, points, glowTexture, vivid, rand, gauss, sphereDir } from './cosmos';
 import { bbColor, RSUN, AU } from './data';
@@ -53,8 +50,8 @@ export class BinaryScene {
   readonly controls: OrbitControls;
   autoRotate = false;
   toScale = true;
-  #composer: EffectComposer;
-  #bloom: UnrealBloomPass;
+  #rig: BloomRig | null = null;
+  #rigLoading = false;
   #small: boolean;
   #bloomOn = true;
   #minMs = 0;
@@ -147,11 +144,7 @@ export class BinaryScene {
       this.scene.add(this.#flash);
     }
 
-    this.#composer = new EffectComposer(this.renderer);
-    this.#composer.addPass(new RenderPass(this.scene, this.camera));
-    this.#bloom = new UnrealBloomPass(new THREE.Vector2(256, 256), 0.7, 0.5, 0.7);
-    this.#composer.addPass(this.#bloom);
-    this.#composer.addPass(new OutputPass());
+    if (this.#bloomOn) this.#ensureBloom();
 
     this.#ro = new ResizeObserver(() => this.resize());
     this.#ro.observe(canvas);
@@ -164,12 +157,26 @@ export class BinaryScene {
     this.#fps = new FpsMeter(canvas.parentElement);
     this.#offPerf = onPerf((p) => {
       this.#bloomOn = p.bloom;
+      if (this.#bloomOn) this.#ensureBloom();
       this.#minMs = getMinFrameMs();
       const dpr = getDpr(this.#small);
       if (this.renderer.getPixelRatio() !== dpr) { this.renderer.setPixelRatio(dpr); this.resize(); }
       this.#kick();
     });
     this.resize();
+  }
+
+  #ensureBloom() {
+    if (this.#rig || this.#rigLoading || this.#dead) return;
+    this.#rigLoading = true;
+    createBloomRig(this.renderer, this.scene, this.camera, [0.7, 0.5, 0.7], this.canvas.clientWidth, this.canvas.clientHeight)
+      .then((rig) => {
+        if (this.#dead) { rig.composer.dispose(); return; }
+        this.#rig = rig;
+        this.resize();
+      })
+      .catch(() => {})
+      .finally(() => { this.#rigLoading = false; });
   }
 
   #arm = () => { this.#armed = true; };
@@ -184,7 +191,7 @@ export class BinaryScene {
     const w = this.canvas.clientWidth, h = this.canvas.clientHeight;
     if (!w || !h) return;
     this.renderer.setSize(w, h, false);
-    this.#composer.setSize(w, h);
+    this.#rig?.composer.setSize(w, h);
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
     MAXPT.value = 72 * this.renderer.getPixelRatio();
@@ -210,7 +217,7 @@ export class BinaryScene {
     this.#update(dt);
     this.controls.autoRotate = this.autoRotate && !isReducedMotion();
     this.controls.update(dt);
-    if (this.#bloomOn) this.#composer.render(dt); else this.renderer.render(this.scene, this.camera);
+    if (this.#bloomOn && this.#rig) this.#rig.composer.render(dt); else this.renderer.render(this.scene, this.camera);
     this.#fps.tick(now);
     if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
   };
@@ -365,7 +372,7 @@ export class BinaryScene {
       if (Array.isArray(mat)) mat.forEach((x) => x.dispose()); else mat?.dispose();
     });
     this.#tex.dispose();
-    this.#composer.dispose();
+    this.#rig?.composer.dispose();
     this.renderer.dispose();
   }
 }

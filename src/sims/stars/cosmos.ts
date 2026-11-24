@@ -17,10 +17,7 @@
 
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
-import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
-import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { createBloomRig, type BloomRig } from '../../lib/bloom';
 import { FpsMeter, getDpr, getMinFrameMs, getPerf, isReducedMotion, onPerf } from '../../lib/perf';
 import { bbColor } from './data';
 import type { Visual, Fate } from './evolve';
@@ -343,8 +340,8 @@ export class Cosmos {
   readonly scene = new THREE.Scene();
   readonly camera: THREE.PerspectiveCamera;
   readonly controls: OrbitControls;
-  #composer: EffectComposer;
-  #bloom: UnrealBloomPass;
+  #rig: BloomRig | null = null;
+  #rigLoading = false;
   #small: boolean;
   #bloomOn = true;
   #minMs = 0;
@@ -537,12 +534,8 @@ export class Cosmos {
       this.scene.add(this.#pulsar);
     }
 
-    /* post-processing: bloom makes hot things glow */
-    this.#composer = new EffectComposer(this.renderer);
-    this.#composer.addPass(new RenderPass(this.scene, this.camera));
-    this.#bloom = new UnrealBloomPass(new THREE.Vector2(256, 256), 0.7, 0.5, 0.7);
-    this.#composer.addPass(this.#bloom);
-    this.#composer.addPass(new OutputPass());
+    /* post-processing: bloom makes hot things glow (lazy-loaded only when Bloom is enabled) */
+    if (this.#bloomOn) this.#ensureBloom();
 
     this.#ro = new ResizeObserver(() => this.resize());
     this.#ro.observe(canvas);
@@ -558,6 +551,7 @@ export class Cosmos {
     this.#fps = new FpsMeter(canvas.parentElement);
     this.#offPerf = onPerf((p) => {
       this.#bloomOn = p.bloom;
+      if (this.#bloomOn) this.#ensureBloom();
       this.#minMs = getMinFrameMs();
       this.quality = this.#small || p.resolution === 'eco' ? 'low' : 'high';
       const dpr = getDpr(this.#small);
@@ -566,6 +560,19 @@ export class Cosmos {
     });
     this.resize();
     this.#kick();
+  }
+
+  #ensureBloom() {
+    if (this.#rig || this.#rigLoading || this.#dead) return;
+    this.#rigLoading = true;
+    createBloomRig(this.renderer, this.scene, this.camera, [0.7, 0.5, 0.7], this.canvas.clientWidth, this.canvas.clientHeight)
+      .then((rig) => {
+        if (this.#dead) { rig.composer.dispose(); return; }
+        this.#rig = rig;
+        this.resize();
+      })
+      .catch(() => {})
+      .finally(() => { this.#rigLoading = false; });
   }
 
   #timeU: { value: number };
@@ -603,8 +610,8 @@ export class Cosmos {
     const w = this.canvas.clientWidth, h = this.canvas.clientHeight;
     if (!w || !h) return;
     this.renderer.setSize(w, h, false);
-    this.#composer.setSize(w, h);
-    this.#bloom.resolution.set(w / 2, h / 2);
+    this.#rig?.composer.setSize(w, h);
+    this.#rig?.bloom.resolution.set(w / 2, h / 2);
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
     // point sizes in world units: pixels per unit at distance 1
@@ -637,7 +644,7 @@ export class Cosmos {
     this.controls.autoRotate = this.autoRotate && !isReducedMotion() && performance.now() - this.#userAt > 4000;
     this.controls.autoRotateSpeed = 0.35;
     this.controls.update(dt);
-    if (this.#bloomOn) this.#composer.render(dt); else this.renderer.render(this.scene, this.camera);
+    if (this.#bloomOn && this.#rig) this.#rig.composer.render(dt); else this.renderer.render(this.scene, this.camera);
     this.#fps.tick(now);
     if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
   };
@@ -807,7 +814,7 @@ export class Cosmos {
     if (!isFinite(this.#dist)) this.#dist = want;
     if (!isFinite(dir.x + dir.y + dir.z)) { dir.set(0, 0.28, 1); this.controls.target.set(0, 0, 0); }
     this.camera.position.copy(this.controls.target).add(dir.normalize().multiplyScalar(this.#dist));
-    this.#bloom.strength = this.quality === "low" ? 0.55 : 0.7;
+    if (this.#rig) this.#rig.bloom.strength = this.quality === "low" ? 0.55 : 0.7;
   }
 
   dispose() {
@@ -828,7 +835,7 @@ export class Cosmos {
       const mat = m.material as THREE.Material | THREE.Material[] | undefined;
       if (Array.isArray(mat)) mat.forEach((x) => x.dispose()); else mat?.dispose();
     });
-    this.#composer.dispose();
+    this.#rig?.composer.dispose();
     this.renderer.dispose();
   }
 }
