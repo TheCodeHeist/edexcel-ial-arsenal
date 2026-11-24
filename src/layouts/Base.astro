@@ -3,6 +3,7 @@
    Standalone simulations in public/ have their own copy of this chrome. */
 import '../styles/global.css';
 import ThemePicker from '../components/ui/ThemePicker.svelte';
+import PerfPicker from '../components/ui/PerfPicker.svelte';
 import { SUBJECTS, type SubjectId } from '../data/subjects';
 
 export interface Stat { label: string; value: string | number }
@@ -41,8 +42,18 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
       var r = document.documentElement, g = function (k, d) { try { var v = localStorage.getItem('arsenal-' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } };
       var m = g('mode', 'auto'); if (m !== 'light' && m !== 'dark') m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
       r.setAttribute('data-palette', g('palette', 'catppuccin')); r.setAttribute('data-mode', m);
+      var pf = g('perf', null);
+      if (pf && typeof pf === 'object') {
+        if (pf.glass === false) r.setAttribute('data-glass', 'off');
+        if (pf.aurora === false) r.setAttribute('data-aurora', 'off');
+        if (pf.reducedMotion === true) r.setAttribute('data-motion', 'reduced');
+        if (pf.textScale === 'compact' || pf.textScale === 'large') r.setAttribute('data-text', pf.textScale);
+      } else {
+        var n = navigator, low = (n.connection && n.connection.saveData) || (n.deviceMemory && n.deviceMemory <= 4) || (n.hardwareConcurrency && n.hardwareConcurrency <= 4);
+        if (low) { r.setAttribute('data-glass', 'off'); r.setAttribute('data-aurora', 'off'); }
+      }
       /* the big rise-in plays on the first page of a visit only */
-      try { if (!sessionStorage.getItem('arsenal-booted')) { r.classList.add('booting'); sessionStorage.setItem('arsenal-booted', '1'); setTimeout(function () { r.classList.remove('booting'); }, 1600); } } catch (e) {}
+      try { if (!(pf && pf.reducedMotion) && !sessionStorage.getItem('arsenal-booted')) { r.classList.add('booting'); sessionStorage.setItem('arsenal-booted', '1'); setTimeout(function () { r.classList.remove('booting'); }, 1600); } } catch (e) {}
     })();
   </script>
 </head>
@@ -55,7 +66,10 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
         <p class="eyebrow">Edexcel International A Level · Sciences</p>
         <h1><a href="/"><img class="logo" src="/brand/ial-arsenal-logo-colorful.svg" width="44" height="44" alt="" /><span><span class="d">E</span>dexcel IAL Arsenal</span></a></h1>
       </div>
-      <ThemePicker client:load />
+      <div class="top-tools">
+        <ThemePicker client:load />
+        <PerfPicker client:load />
+      </div>
       <nav class="tabs" aria-label="Subjects">
         {tabs.map((t) => (
           <a href={t.href} aria-label={t.name} aria-current={tab === t.id ? 'page' : undefined}>

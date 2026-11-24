@@ -22,6 +22,7 @@
   import { P9, mix9, iodine, sample9, titreOf, CLK, clockTime, observed, kAt, I2_NEEDED, fit, gauss, type Sample } from './practicals';
   import { R, sci, plain } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: CPPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -158,6 +159,8 @@
     if (!busy) return;
     let raf = 0, last = performance.now();
     const loop = (now: number) => {
+      const g = frameReady(now, last);
+      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(loop); return; }
       const dt = Math.min(0.25, (now - last) / 1000); last = now;
       if (run9 && prefs.view === 'cp9a') step9(dt);
       if (prefs.view !== 'cp9a') stepClock(dt);

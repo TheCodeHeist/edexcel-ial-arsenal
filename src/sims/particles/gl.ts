@@ -11,6 +11,7 @@ import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { FpsMeter, getDpr, getMinFrameMs, getPerf, isReducedMotion, onPerf } from '../../lib/perf';
 
 export { THREE };
 
@@ -127,6 +128,10 @@ export abstract class Stage3D<L> {
   protected readonly small: boolean;
   protected readonly tex = glowTexture();
   readonly #composer: EffectComposer;
+  #bloomOn = true;
+  #minMs = 0;
+  #fps: FpsMeter;
+  #offPerf: () => void;
   #raf = 0;
   #last = 0;
   #visible = true;
@@ -139,8 +144,12 @@ export abstract class Stage3D<L> {
 
   constructor(readonly canvas: HTMLCanvasElement, small = false, o: StageOpts = {}) {
     this.small = small;
-    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: !small, powerPreference: 'high-performance' });
-    this.renderer.setPixelRatio(Math.min(devicePixelRatio, small ? 1.5 : 2));
+    const perf = getPerf();
+    this.#bloomOn = perf.bloom;
+    this.#minMs = getMinFrameMs();
+    const eco = perf.resolution === 'eco';
+    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: !small && !eco, powerPreference: eco ? 'low-power' : 'high-performance' });
+    this.renderer.setPixelRatio(getDpr(small));
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.scene.background = new THREE.Color(o.bg ?? 0x03040a);
     this.camera = new THREE.PerspectiveCamera(o.fov ?? 45, 1, 0.01, 4000);
@@ -169,6 +178,14 @@ export abstract class Stage3D<L> {
     canvas.addEventListener('wheel', this.#wheel, { passive: false });
     canvas.addEventListener('pointerdown', this.#arm);
     canvas.addEventListener('pointerleave', this.#disarm);
+    this.#fps = new FpsMeter(canvas.parentElement);
+    this.#offPerf = onPerf((p) => {
+      this.#bloomOn = p.bloom;
+      this.#minMs = getMinFrameMs();
+      const dpr = getDpr(this.small);
+      if (this.renderer.getPixelRatio() !== dpr) { this.renderer.setPixelRatio(dpr); this.resize(); }
+      this.kick();
+    });
   }
 
   /** Call at the end of the subclass constructor. */
@@ -219,15 +236,20 @@ export abstract class Stage3D<L> {
   #frame = (now: number) => {
     this.#raf = 0;
     if (this.#dead || this.renderer.getContext().isContextLost()) return;
+    if (this.#minMs > 0 && now - this.#last < this.#minMs) {
+      if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
+      return;
+    }
     const dt = Math.min(0.05, Math.max(0, (now - this.#last) / 1000));
     this.#last = now;
     this.time.value += dt;
     if (this.look) this.update(dt);
     const p = this.camera.position;
     if (!Number.isFinite(p.x + p.y + p.z)) this.resetView();
-    this.controls.autoRotate = this.autoRotate;
+    this.controls.autoRotate = this.autoRotate && !isReducedMotion();
     this.controls.update(dt);
-    this.#composer.render(dt);
+    if (this.#bloomOn) this.#composer.render(dt); else this.renderer.render(this.scene, this.camera);
+    this.#fps.tick(now);
     if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
   };
 
@@ -237,6 +259,8 @@ export abstract class Stage3D<L> {
 
   dispose() {
     this.#dead = true;
+    this.#offPerf();
+    this.#fps.dispose();
     cancelAnimationFrame(this.#raf);
     this.#io.disconnect();
     this.#ro.disconnect();

@@ -6,7 +6,7 @@
      context can't always be restored on the old one), so it never needs a page refresh. */
   import { onMount } from 'svelte';
   import type { Cosmos, Look } from './cosmos';
-  import { RM } from '../../lib/util';
+  import { isReducedMotion, onPerf } from '../../lib/perf';
 
   let { look, spin = true, children }: { look: Look; spin?: boolean; children?: import('svelte').Snippet } = $props();
 
@@ -18,10 +18,12 @@
   let Ctor: typeof Cosmos | null = null;
   let lastM = NaN;
 
+  let reduced = $state(isReducedMotion());
   onMount(() => {
     let dead = false;
+    const offPerf = onPerf(() => { reduced = isReducedMotion(); });
     import('./cosmos').then((m) => { if (!dead) { Ctor = m.Cosmos; build(); } }).catch(() => { failed = true; });
-    return () => { dead = true; cosmos?.dispose(); cosmos = null; };
+    return () => { dead = true; offPerf(); cosmos?.dispose(); cosmos = null; };
   });
 
   function build() {
@@ -65,7 +67,7 @@
     lastM = look.M;
     cosmos.set({ ...look }, snap);
   });
-  $effect(() => { if (cosmos) cosmos.autoRotate = spin && !RM; });
+  $effect(() => { if (cosmos) cosmos.autoRotate = spin && !reduced; });
 </script>
 
 <div class="space">

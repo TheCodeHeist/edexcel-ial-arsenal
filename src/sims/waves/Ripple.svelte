@@ -34,6 +34,7 @@
   import { ZS, ZB, V, sources, ampAt, lineSet, hyperbola, lamText, type Setup } from './ripple';
   import { plain } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: RipplePrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -54,6 +55,8 @@
   const scale = $derived(10 ** prefs.slow);
   let raf = 0, last = 0;
   function frame(now: number) {
+    const g = frameReady(now, last);
+    if (g !== 'go') { if (g === 'hidden') last = now; raf = off ? 0 : requestAnimationFrame(frame); return; }
     const dt = Math.min(0.05, (now - last) / 1000); last = now;
     if (playing) {
       t += dt * scale;

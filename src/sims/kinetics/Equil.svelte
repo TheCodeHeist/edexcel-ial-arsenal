@@ -16,6 +16,7 @@
   import { Gas, UTube, SYSTEMS, kc, kcUnits, dn, pStar, ICL } from './equil';
   import { sci, plain } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: EquilPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -43,6 +44,8 @@
   onMount(() => {
     let raf = 0, last = performance.now(), acc = 0;
     const loop = (now: number) => {
+      const g = frameReady(now, last);
+      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(loop); return; }
       const dt = Math.min(0.05, (now - last) / 1000); last = now;
       if (!off && playing) { if (prefs.sys === 'icl') tube.step(dt); else gas.step(dt); }
       acc += dt;

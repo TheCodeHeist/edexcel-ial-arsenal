@@ -14,6 +14,7 @@
   import { bbCss, sci, plain, short, years, LSUN, RSUN, peak, STARS, lumOf, spectral, TSUN } from './data';
   import type { Look } from './cosmos';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false }: { prefs: LifePrefs; hidden?: boolean } = $props();
 
@@ -31,6 +32,8 @@
   let raf = 0, last = 0;
   const SECONDS = 70; // the whole bar at ×1
   function step(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = requestAnimationFrame(step); return; }
     const dt = Math.min(0.05, (t - last) / 1000);
     last = t;
     prefs.x = Math.min(1, prefs.x + (dt * prefs.speed) / SECONDS);

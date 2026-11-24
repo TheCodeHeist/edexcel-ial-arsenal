@@ -34,7 +34,7 @@ p{text-wrap:pretty}
 @keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6vmax,-4vmax) scale(1.12)}100%{transform:translate(-5vmax,5vmax) scale(.94)}}
 
 /* Liquid Glass: translucent fill + blur + 1px rim + inset top highlight + soft shadow + 155° sheen */
-.glass,.panel,.tabs,.seg,.theme-btn,.theme-pop,.search,.flow,.at,.rx,.ask{
+.glass,.panel,.tabs,.seg,.theme-btn,.theme-pop,.perf-btn,.perf-pop,.search,.flow,.at,.rx,.ask{
   background:linear-gradient(155deg,var(--sheen),transparent 42%),var(--panel);
   -webkit-backdrop-filter:blur(22px) saturate(175%);backdrop-filter:blur(22px) saturate(175%);
   border:1px solid var(--rim);
@@ -43,13 +43,50 @@ p{text-wrap:pretty}
 }
 .at,.rx{-webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%)}
 .panel,.glass,.flow{border-radius:var(--r-xl);position:relative;min-width:0}
-.at,.rx,.ask,.theme-pop{border-radius:var(--r-lg)}
-@supports (corner-shape: squircle){ .panel,.glass,.flow,.at,.rx,.ask,.theme-pop,.tp-row,.chip,.eq,.unit{corner-shape:squircle} }
+.at,.rx,.ask,.theme-pop,.perf-pop{border-radius:var(--r-lg)}
+@supports (corner-shape: squircle){ .panel,.glass,.flow,.at,.rx,.ask,.theme-pop,.perf-pop,.tp-row,.pp-row,.chip,.eq,.unit{corner-shape:squircle} }
 
 /* glint: a soft accent light follows a mouse pointer across glass cards */
 .glint::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s;
   background:radial-gradient(240px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--accent) 13%,transparent),transparent 65%)}
 .glint:hover::after{opacity:1}
 @supports (corner-shape: squircle){ .glint::after{corner-shape:squircle} }
+
+/* Performance modes (toggled via PerfPicker → data-aurora / data-glass on <html>) */
+:root[data-aurora="off"] .aurora{display:none}
+:root[data-glass="off"]{
+  --panel:var(--surf);
+  --raised:color-mix(in srgb,var(--surf) 86%,var(--bg));
+  --solid:var(--surf);
+  --rim:var(--line);
+  --sheen:transparent;
+  --hl:transparent;
+}
+:root[data-glass="off"] :is(.glass,.panel,.tabs,.seg,.theme-btn,.theme-pop,.perf-btn,.perf-pop,.search,.flow,.at,.rx,.ask,.dock,.sheet){
+  -webkit-backdrop-filter:none!important;backdrop-filter:none!important;
+  background:var(--panel);
+  border-color:var(--line);
+  box-shadow:0 1px 2px color-mix(in srgb,var(--ink) 6%,transparent);
+}
+:root[data-glass="off"] :is(.tabs,.seg,.theme-btn,.perf-btn,.search){background:var(--surf)}
+:root[data-glass="off"] :is(.theme-pop,.perf-pop,.dock,.sheet){
+  background:var(--surf);
+  box-shadow:0 12px 28px -10px var(--shadow),0 1px 3px color-mix(in srgb,var(--ink) 8%,transparent);
+}
+:root[data-glass="off"] :is(.hud,.zb){-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+:root[data-glass="off"] .glint::after{display:none}
+
+/* Text size scale (compact / large) — scales readable copy without breaking canvas/SVG coordinates */
+:root[data-text="compact"]{--ts:0.91}
+:root[data-text="large"]{--ts:1.12}
+:root[data-text] body{font-size:calc(15px * var(--ts,1))}
+:root[data-text] :is(.sb-l,.why,.card p,.subject p,.rx-looks,.flow-tip,.prose p,.prose li){font-size:calc(13.5px * var(--ts,1))}
+:root[data-text] :is(.eq,.opts button){font-size:calc(14px * var(--ts,1))}
+:root[data-text] .qprompt{font-size:calc(19px * var(--ts,1))}
+
+/* Live 3D FPS badge (FpsMeter in perf.ts) */
+.fps-pill{position:absolute;top:10px;right:10px;z-index:5;padding:3px 8px;border-radius:999px;pointer-events:none;
+  font:600 10.5px/1.2 var(--f-mono);letter-spacing:.04em;font-variant-numeric:tabular-nums;
+  background:rgba(10,12,20,.65);color:#eef2ff;border:1px solid rgba(255,255,255,.16)}
 
 @media (min-width:1600px){ .wrap{max-width:1480px} }

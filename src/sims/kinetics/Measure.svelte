@@ -23,6 +23,7 @@
   import { RX, METHOD_NAME, simulate, readAt, thioConc, THIO0, S_CROSS, EPS, MASS0, TECHS, TECH_Q, type Setup, type Tech } from './measure';
   import { sci, plain } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
   import { untrack } from 'svelte';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: MeasurePrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
@@ -46,6 +47,8 @@
     if (!running) return;
     let raf = 0, last = performance.now();
     const step = (now: number) => {
+      const g = frameReady(now, last);
+      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(step); return; }
       const dt = Math.min(0.25, (now - last) / 1000); last = now;
       const nt = Math.min(run.tEnd, t + dt * prefs.speed);
       t = nt;

@@ -21,6 +21,7 @@ import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { FpsMeter, getDpr, getMinFrameMs, getPerf, isReducedMotion, onPerf } from '../../lib/perf';
 import { bbColor } from './data';
 import type { Visual, Fate } from './evolve';
 
@@ -344,6 +345,11 @@ export class Cosmos {
   readonly controls: OrbitControls;
   #composer: EffectComposer;
   #bloom: UnrealBloomPass;
+  #small: boolean;
+  #bloomOn = true;
+  #minMs = 0;
+  #fps: FpsMeter;
+  #offPerf: () => void;
   #raf = 0;
   #last = 0;
   #time = 0;
@@ -379,9 +385,14 @@ export class Cosmos {
   #discGroup = new THREE.Group();
 
   constructor(readonly canvas: HTMLCanvasElement, small = false) {
-    this.quality = small ? 'low' : 'high';
-    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: !small, powerPreference: 'high-performance' });
-    this.renderer.setPixelRatio(Math.min(devicePixelRatio, small ? 1.5 : 2));
+    this.#small = small;
+    const perf = getPerf();
+    this.#bloomOn = perf.bloom;
+    this.#minMs = getMinFrameMs();
+    const eco = perf.resolution === 'eco';
+    this.quality = small || eco ? 'low' : 'high';
+    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: !small && !eco, powerPreference: eco ? 'low-power' : 'high-performance' });
+    this.renderer.setPixelRatio(getDpr(small));
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.0;
     this.scene.background = new THREE.Color(0x03040a);
@@ -544,6 +555,15 @@ export class Cosmos {
     canvas.addEventListener('touchstart', this.#pinchStart, { passive: true });
     canvas.addEventListener('touchmove', this.#pinchMove, { passive: true });
     this.controls.addEventListener('start', () => { this.#userAt = performance.now(); });
+    this.#fps = new FpsMeter(canvas.parentElement);
+    this.#offPerf = onPerf((p) => {
+      this.#bloomOn = p.bloom;
+      this.#minMs = getMinFrameMs();
+      this.quality = this.#small || p.resolution === 'eco' ? 'low' : 'high';
+      const dpr = getDpr(this.#small);
+      if (this.renderer.getPixelRatio() !== dpr) { this.renderer.setPixelRatio(dpr); this.resize(); }
+      this.#kick();
+    });
     this.resize();
     this.#kick();
   }
@@ -605,15 +625,20 @@ export class Cosmos {
     this.#raf = 0;
     // never draw into a lost context (the loss event can arrive a frame late) or after dispose
     if (this.#dead || this.renderer.getContext().isContextLost()) return;
+    if (this.#minMs > 0 && now - this.#last < this.#minMs) {
+      if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
+      return;
+    }
     const dt = Math.min(0.05, Math.max(0, (now - this.#last) / 1000));
     this.#last = now;
     this.#time += dt;
     this.#timeU.value = this.#time;
     this.#update(dt);
-    this.controls.autoRotate = this.autoRotate && performance.now() - this.#userAt > 4000;
+    this.controls.autoRotate = this.autoRotate && !isReducedMotion() && performance.now() - this.#userAt > 4000;
     this.controls.autoRotateSpeed = 0.35;
     this.controls.update(dt);
-    this.#composer.render(dt);
+    if (this.#bloomOn) this.#composer.render(dt); else this.renderer.render(this.scene, this.camera);
+    this.#fps.tick(now);
     if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
   };
 
@@ -787,6 +812,8 @@ export class Cosmos {
 
   dispose() {
     this.#dead = true;
+    this.#offPerf();
+    this.#fps.dispose();
     cancelAnimationFrame(this.#raf);
     this.#io.disconnect();
     this.#ro.disconnect();

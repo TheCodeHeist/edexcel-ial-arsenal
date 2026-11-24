@@ -19,6 +19,7 @@
   import { EXAMPLES, IOD_RUNS, IOD_STEPS, IOD_K, iodRate, type Panel } from './mechanism';
   import { sci, plain } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: MechPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -34,6 +35,8 @@
     if (!playing || off) return;
     let raf = 0, last = performance.now();
     const loop = (now: number) => {
+      const g = frameReady(now, last);
+      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(loop); return; }
       const dt = Math.min(0.25, (now - last) / 1000); last = now;
       p = Math.min(1, p + dt / 9);
       if (p >= 1) { playing = false; return; }

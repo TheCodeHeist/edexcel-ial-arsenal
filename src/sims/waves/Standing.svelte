@@ -32,6 +32,7 @@
   import { scopePaths, micAmp, DIV_X, DIV_Y } from './standingScope';
   import { sci, plain, short } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: StandPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -58,6 +59,8 @@
     raf = requestAnimationFrame(tickSweep);
   }
   function tickSweep(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = requestAnimationFrame(tickSweep); return; }
     const dt = Math.min(0.05, (t - last) / 1000); last = t;
     if (!sweeping || off) { sweeping = false; return; }
     const step = Math.max(0.01, Math.min(0.5, f1 * 0.003)) * (RM ? 3 : 1);

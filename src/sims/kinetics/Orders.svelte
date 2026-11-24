@@ -15,6 +15,7 @@
   import { runOrders, rateOf, kUnits, kUnitsWorking, newProblem, UNIT_CHOICES, TERMS, type IRProblem } from './orders';
   import { sci, plain, parseNum } from './consts';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: OrdersPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -40,6 +41,8 @@
     if (!running) return;
     let raf = 0, last = performance.now();
     const step = (now: number) => {
+      const g = frameReady(now, last);
+      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(step); return; }
       const dt = Math.min(0.25, (now - last) / 1000); last = now;
       t = Math.min(run.tEnd, t + (dt * run.tEnd) / 10);
       if (t >= run.tEnd) { running = false; return; }

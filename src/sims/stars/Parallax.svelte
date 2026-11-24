@@ -10,6 +10,7 @@
   import { onDestroy } from 'svelte';
   import { STARS, starById, short, sci, plain, AU, PC, LY, bbCss } from './data';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false }: { prefs: PxPrefs; hidden?: boolean } = $props();
 
@@ -25,6 +26,8 @@
   let playing = $state(false);
   let raf = 0, last = 0;
   function loop(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = requestAnimationFrame(loop); return; }
     const dt = Math.min(0.05, (t - last) / 1000); last = t;
     prefs.month = (prefs.month + dt * 1.6) % 12;
     raf = requestAnimationFrame(loop);

@@ -5,6 +5,7 @@
   import { onMount, tick } from 'svelte';
   import { persisted } from '../../lib/persist.svelte';
   import { glint, fadeIn } from '../../lib/motion';
+  import { getMinFrameMs } from '../../lib/perf';
   import SimHeader from '../../components/ui/SimHeader.svelte';
   import StatusLine from '../../components/ui/StatusLine.svelte';
   import Build from './Build.svelte';
@@ -45,8 +46,11 @@
     if (!timed || mode !== 'build' || frozen) return;
     let raf = 0, last = performance.now();
     const loop = (now: number) => {
+      if (document.hidden) { last = now; raf = requestAnimationFrame(loop); return; }
+      const minMs = getMinFrameMs();
+      if (minMs > 0 && now - last < minMs) { raf = requestAnimationFrame(loop); return; }
       try {
-        clock.tick($state.snapshot(board) as CircuitData, (now - last) / 1000, ed.sel?.t === 'part' ? ed.sel.id : null);
+        clock.tick($state.snapshot(board) as CircuitData, Math.min(0.05, (now - last) / 1000), ed.sel?.t === 'part' ? ed.sel.id : null);
       } catch (e) {
         // never let a bad step take the page down: stop time and say so
         console.error(e); clock.playing = false; tickError = 'The simulation hit a problem and was paused. Undo the last change, or press Play to try again.';

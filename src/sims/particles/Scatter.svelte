@@ -23,6 +23,7 @@
   import { TARGETS, ALPHA, closest, nucRadius, touches, pMore, perSr, thomsonRms, sample, BIN, NBIN, shell, fm } from './scatter';
   import { E, K, MEV, sci, plain, short } from './data';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: ScatPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -55,6 +56,8 @@
 
   let raf = 0, last = 0;
   function step(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = off ? 0 : requestAnimationFrame(step); return; }
     const dt = Math.min(0.1, (t - last) / 1000); last = t;
     if (playing && prefs.view === 'exp') fireSome(dt);
     raf = off ? 0 : requestAnimationFrame(step);

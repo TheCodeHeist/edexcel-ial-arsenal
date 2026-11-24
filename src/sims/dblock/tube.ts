@@ -3,6 +3,7 @@
    An imperative animation loop; the bench (bench.svelte.ts) drives it through the methods below. */
 
 import { RM, hex2rgb, rgba } from '../../lib/util';
+import { getMinFrameMs } from '../../lib/perf';
 import { SP, liqOf, laOf, type Species, type Transition } from './data';
 
 type RGB = [number, number, number];
@@ -23,14 +24,33 @@ export class Tube {
   private G = { w: 0, h: 0, cx: 0, R: 44, top: 120, bot: 0, cy: 0, ri: 0, floor: 0, usable: 0 };
   private last = performance.now();
   private raf = 0;
+  private dead = false;
 
   constructor(private cv: HTMLCanvasElement, private tile: HTMLElement) {
     this.ctx = cv.getContext('2d')!;
     this.resize();
-    const loop = (now: number) => { this.frame(now); this.raf = requestAnimationFrame(loop); };
-    this.raf = requestAnimationFrame(loop);
+    document.addEventListener('visibilitychange', this.onVis);
+    this.kick();
   }
-  destroy() { cancelAnimationFrame(this.raf); }
+  private onVis = () => { if (!document.hidden) this.kick(); };
+  private kick() {
+    if (this.dead || this.raf || document.hidden) return;
+    this.last = performance.now();
+    this.raf = requestAnimationFrame(this.loop);
+  }
+  private loop = (now: number) => {
+    this.raf = 0;
+    if (this.dead || document.hidden) return;
+    const minMs = getMinFrameMs();
+    if (minMs > 0 && now - this.last < minMs) { this.raf = requestAnimationFrame(this.loop); return; }
+    this.frame(now);
+    this.raf = requestAnimationFrame(this.loop);
+  };
+  destroy() {
+    this.dead = true;
+    document.removeEventListener('visibilitychange', this.onVis);
+    cancelAnimationFrame(this.raf);
+  }
 
   resize() {
     const G = this.G, w = Math.min(this.tile.clientWidth - 2, 340);

@@ -5,6 +5,7 @@
 
 import { PALETTES, type PaletteId } from '../data/palettes';
 import { store } from './util';
+import { isReducedMotion } from './perf';
 
 export type Mode = 'auto' | 'light' | 'dark';
 export interface ThemeState { palette: PaletteId; mode: Mode; effective: 'light' | 'dark'; name: string; variant: string }
@@ -47,8 +48,7 @@ export function setTheme(next: { palette?: PaletteId; mode?: Mode }, ev?: MouseE
     if (next.mode) state.mode = next.mode;
     apply(); store.set('palette', state.palette); store.set('mode', state.mode);
   };
-  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!ev || !document.startViewTransition || RM) { go(); return; }
+  if (!ev || !document.startViewTransition || isReducedMotion()) { go(); return; }
   const root = document.documentElement;
   const x = ev.clientX, y = ev.clientY;
   const rad = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));

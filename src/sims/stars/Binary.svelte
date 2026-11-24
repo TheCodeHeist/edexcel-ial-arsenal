@@ -12,6 +12,7 @@
   import { SYSTEMS, periodYears, periodSeconds, speeds, radial, brightness, massFromOrbit, shifted, HALPHA, radii, lumW, toScale, type Sys } from './binary';
   import { sci, plain, short, MSUN, AU, SN_IA_L, nmColor } from './data';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false }: { prefs: BinPrefs; hidden?: boolean } = $props();
 
@@ -27,6 +28,8 @@
   let playing = $state(!RM);
   let raf = 0, last = 0;
   function step(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = off ? 0 : requestAnimationFrame(step); return; }
     const dt = Math.min(0.05, (t - last) / 1000); last = t;
     if (playing) {
       phi = (phi + (dt * prefs.speed) / 8) % 1;

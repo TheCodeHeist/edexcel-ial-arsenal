@@ -25,6 +25,7 @@
   import { C, H, E, sci, plain, short, lambdaRGB, lambdaCss } from './consts';
   import { METALS, metal, photonEV, photonJ, freq, f0, nm0, ekMax, vMax, reachFrac, QE, BANDS, bandOf, ATOMS, atom, linesOf, isObserved, lineNm, visible, seriesOf, MODELS, HISTORY } from './photon';
   import { RM } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: { prefs: PhotonPrefs; hidden?: boolean; stats?: [string, string | number][] } = $props();
 
@@ -51,6 +52,8 @@
   let playing = $state(!RM);
   let raf = 0, last = 0;
   function step(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = off ? 0 : requestAnimationFrame(step); return; }
     const dt = Math.min(0.1, (t - last) / 1000); last = t;
     if (prefs.mode === 'pe' && prefs.app === 'scope' && playing && emits && charge < 0 && prefs.I > 0) charge = Math.min(0, charge + dt * 0.11 * prefs.I);
     raf = off ? 0 : requestAnimationFrame(step);

@@ -27,7 +27,17 @@ const { title, description } = Astro.props;
       var r = document.documentElement, g = function (k, d) { try { var v = localStorage.getItem('arsenal-' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } };
       var m = g('mode', 'auto'); if (m !== 'light' && m !== 'dark') m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
       r.setAttribute('data-palette', g('palette', 'catppuccin')); r.setAttribute('data-mode', m);
-      r.classList.add('booting'); setTimeout(function () { r.classList.remove('booting'); }, 1400);
+      var pf = g('perf', null);
+      if (pf && typeof pf === 'object') {
+        if (pf.glass === false) r.setAttribute('data-glass', 'off');
+        if (pf.aurora === false) r.setAttribute('data-aurora', 'off');
+        if (pf.reducedMotion === true) r.setAttribute('data-motion', 'reduced');
+        if (pf.textScale === 'compact' || pf.textScale === 'large') r.setAttribute('data-text', pf.textScale);
+      } else {
+        var n = navigator, low = (n.connection && n.connection.saveData) || (n.deviceMemory && n.deviceMemory <= 4) || (n.hardwareConcurrency && n.hardwareConcurrency <= 4);
+        if (low) { r.setAttribute('data-glass', 'off'); r.setAttribute('data-aurora', 'off'); }
+      }
+      if (!(pf && pf.reducedMotion)) { r.classList.add('booting'); setTimeout(function () { r.classList.remove('booting'); }, 1400); }
     })();
   </script>
 </head>

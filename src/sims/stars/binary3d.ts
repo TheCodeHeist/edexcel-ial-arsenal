@@ -13,6 +13,7 @@ import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { FpsMeter, getDpr, getMinFrameMs, getPerf, isReducedMotion, onPerf } from '../../lib/perf';
 import { STAR_V, STAR_F, SOFT_F, SHELL_V, DISC_V, FIELD_V, MAXPT, points, glowTexture, vivid, rand, gauss, sphereDir } from './cosmos';
 import { bbColor, RSUN, AU } from './data';
 import { positions, type Sys } from './binary';
@@ -54,6 +55,11 @@ export class BinaryScene {
   toScale = true;
   #composer: EffectComposer;
   #bloom: UnrealBloomPass;
+  #small: boolean;
+  #bloomOn = true;
+  #minMs = 0;
+  #fps: FpsMeter;
+  #offPerf: () => void;
   #raf = 0;
   #last = 0;
   #time = { value: 0 };
@@ -76,8 +82,13 @@ export class BinaryScene {
   #armed = false;
 
   constructor(readonly canvas: HTMLCanvasElement, small = false) {
-    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: !small, powerPreference: 'high-performance' });
-    this.renderer.setPixelRatio(Math.min(devicePixelRatio, small ? 1.5 : 2));
+    this.#small = small;
+    const perf = getPerf();
+    this.#bloomOn = perf.bloom;
+    this.#minMs = getMinFrameMs();
+    const eco = perf.resolution === 'eco';
+    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: !small && !eco, powerPreference: eco ? 'low-power' : 'high-performance' });
+    this.renderer.setPixelRatio(getDpr(small));
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.scene.background = new THREE.Color(0x03040a);
     this.camera = new THREE.PerspectiveCamera(45, 1, 0.01, 4000);
@@ -150,6 +161,14 @@ export class BinaryScene {
     canvas.addEventListener('wheel', this.#wheel, { passive: false });
     canvas.addEventListener('pointerdown', this.#arm);
     canvas.addEventListener('pointerleave', this.#disarm);
+    this.#fps = new FpsMeter(canvas.parentElement);
+    this.#offPerf = onPerf((p) => {
+      this.#bloomOn = p.bloom;
+      this.#minMs = getMinFrameMs();
+      const dpr = getDpr(this.#small);
+      if (this.renderer.getPixelRatio() !== dpr) { this.renderer.setPixelRatio(dpr); this.resize(); }
+      this.#kick();
+    });
     this.resize();
   }
 
@@ -181,13 +200,18 @@ export class BinaryScene {
   #frame = (now: number) => {
     this.#raf = 0;
     if (this.#dead || this.renderer.getContext().isContextLost()) return;
+    if (this.#minMs > 0 && now - this.#last < this.#minMs) {
+      if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
+      return;
+    }
     const dt = Math.min(0.05, Math.max(0, (now - this.#last) / 1000));
     this.#last = now;
     this.#time.value += dt;
     this.#update(dt);
-    this.controls.autoRotate = this.autoRotate;
+    this.controls.autoRotate = this.autoRotate && !isReducedMotion();
     this.controls.update(dt);
-    this.#composer.render(dt);
+    if (this.#bloomOn) this.#composer.render(dt); else this.renderer.render(this.scene, this.camera);
+    this.#fps.tick(now);
     if (this.#visible && !document.hidden) this.#raf = requestAnimationFrame(this.#frame);
   };
 
@@ -324,6 +348,8 @@ export class BinaryScene {
 
   dispose() {
     this.#dead = true;
+    this.#offPerf();
+    this.#fps.dispose();
     cancelAnimationFrame(this.#raf);
     this.#io.disconnect();
     this.#ro.disconnect();

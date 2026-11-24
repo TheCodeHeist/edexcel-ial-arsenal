@@ -11,6 +11,7 @@
   import { fit, niceMax } from './lab';
   import { meter, num, ohms, si, sig } from './format';
   import { pick } from '../../lib/util';
+  import { frameReady } from '../../lib/perf';
   import type { Solution } from './solve';
 
   let { flow, hidden: off = false, oncap }: { flow: Flow; hidden?: boolean; oncap?: () => void } = $props();
@@ -67,7 +68,9 @@
     if (off) return;
     let raf = 0, last = performance.now();
     const loop = (now: number) => {
-      clock.tick($state.snapshot(c), (now - last) / 1000, capId, onStep);
+      const g = frameReady(now, last);
+      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(loop); return; }
+      clock.tick($state.snapshot(c), Math.min(0.05, (now - last) / 1000), capId, onStep);
       if (buf.length !== curve.length) curve = buf.slice();
       last = now; raf = requestAnimationFrame(loop);
     };

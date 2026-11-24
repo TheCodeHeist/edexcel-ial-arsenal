@@ -13,6 +13,7 @@
   import Plot from '../circuit/Plot.svelte';
   import { G, MSUN, MPC, YEAR, sci, plain, short, PC } from './data';
   import { RM } from '../../lib/util';
+  import { frameReady, isReducedMotion } from '../../lib/perf';
 
   let { prefs, hidden: off = false }: { prefs: FatePrefs; hidden?: boolean } = $props();
 
@@ -108,8 +109,10 @@
   }
   let last = 0;
   function frame(t: number) {
+    const g = frameReady(t, last);
+    if (g !== 'go') { if (g === 'hidden') last = t; raf = visible && !off ? requestAnimationFrame(frame) : 0; return; }
     const dt = Math.min(0.05, (t - last) / 1000); last = t;
-    draw(RM ? 0 : dt);
+    draw(isReducedMotion() ? 0 : dt);
     raf = visible && !off ? requestAnimationFrame(frame) : 0;
   }
   function kick() { if (!raf && visible && !off) { last = performance.now(); raf = requestAnimationFrame(frame); } }
