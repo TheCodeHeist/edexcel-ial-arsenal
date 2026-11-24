@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics';
 
 export interface Tool {
   slug: string;
@@ -67,6 +67,18 @@ export const TOOLS: Tool[] = [
     topics: ['VSEPR shapes', 'Electronegativity & polarity', 'Orbitals & electron config', 'Ionisation energy', 'Crystal lattices', 'Intermolecular forces', 'Mass spectrometry'],
     art: 'atoms',
     href: '/chemistry/atoms-bonding-lab/',
+    added: '2026-11-24',
+  },
+  {
+    slug: 'energetics-lab',
+    subject: 'chemistry',
+    title: 'Energetics Lab',
+    blurb: 'Thermodynamics and energetics across Units 2 and 4 in 3D: calorimetry with cooling-curve extrapolation (Core Practicals 4 & 5), Hess’s law cycles, mean bond enthalpies, a 3D Born–Haber staircase with covalent-character polarisation, and entropy & ΔG = ΔH − TΔS feasibility.',
+    kind: 'Simulation',
+    units: ['WCH12', 'WCH13', 'WCH14'],
+    topics: ['Calorimetry', 'Cooling curves', 'Hess’s law', 'Mean bond enthalpies', 'Born–Haber cycles', 'Lattice energy', 'Polarisation', 'Entropy', 'Gibbs free energy'],
+    art: 'energetics',
+    href: '/chemistry/energetics-lab/',
     added: '2026-11-24',
   },
   {

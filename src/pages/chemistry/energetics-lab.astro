@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/energetics/App.svelte';
+import '../../sims/energetics/energetics.css';
+---
+<Sim title="Energetics Lab" description="Calorimetry and cooling-curve extrapolation in 3D (Core Practicals 4 and 5), Hess's law cycles, mean bond enthalpies, a 3D Born–Haber staircase with lattice energy and polarisation, and entropy and ΔG = ΔH − TΔS feasibility, for Edexcel IAL Chemistry Units 2 and 4.">
+  <App client:only="svelte" />
+</Sim>

@@ -1,0 +1,81 @@
+/* Energetics Lab. Shared 3D frame, HUD chips, readings and layout come from Particle Lab (particles.css).
+   All tab-specific rules below are scoped under .en-* classes. */
+@import '../particles/particles.css';
+
+/* ===== shared SVG & equation box ===== */
+.en-svg{width:100%;height:auto;display:block;font-family:var(--f-mono);overflow:visible}
+.en-svg .ax{stroke:var(--ink);stroke-width:1.4}
+.en-svg .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:3 4}
+.en-svg .axlbl{font-size:11px;fill:var(--muted)}
+.en-svg .sym{font-size:11px;font-weight:700;fill:var(--ink)}
+.en-eq{margin:0 14px 12px;padding:10px 12px;border-radius:var(--r-sm);background:var(--raised);border:1px solid var(--rim);
+  font:600 13.5px/1.45 var(--f-mono);color:var(--ink);-webkit-user-select:text;user-select:text;overflow-wrap:anywhere}
+
+/* ===== Calorimetry ===== */
+.en-cal .en-curve{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+
+/* ===== Hess ===== */
+.en-hess .hbox{fill:var(--solid);stroke:var(--rim);stroke-width:1.6}
+.en-hess .htag{font-size:9.5px;font-weight:700;letter-spacing:.08em;fill:var(--muted)}
+.en-hess .hval{font-size:12.5px;font-weight:700;fill:var(--ink)}
+.en-hess .hmath{font-size:12px;font-weight:700;fill:var(--ink)}
+.en-hess .hsub{font-size:11px;fill:var(--muted)}
+
+/* ===== Bonds ===== */
+.en-bonds .en-tally{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 14px 12px}
+.en-bonds .en-th{margin:0 0 6px;font:700 11px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase}
+.en-bonds .en-th.red{color:var(--redox)}
+.en-bonds .en-th.blue{color:var(--accent)}
+.en-bonds .en-row{display:flex;justify-content:space-between;gap:8px;font:500 12.5px/1.45 var(--f-mono);padding:3px 0;border-bottom:1px solid var(--line)}
+.en-bonds .en-row.tot{border-bottom:0;padding-top:6px;font-weight:700;color:var(--ink)}
+
+/* ===== Born–Haber ===== */
+.en-bh .en-steps{display:flex;flex-wrap:wrap;gap:6px;margin:12px 14px 0}
+.en-bh .en-step{display:flex;align-items:center;gap:8px;padding:7px 11px;border-radius:999px;border:1px solid var(--rim);
+  background:var(--raised);color:var(--ink);cursor:pointer;font:600 12px/1 var(--f-mono)}
+.en-bh .en-step.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 16%,var(--raised))}
+.en-bh .st-val.endo{color:var(--redox)}
+.en-bh .st-val.exo{color:var(--accent)}
+
+/* ===== Entropy ===== */
+.en-ent .en-dg{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+
+/* ===== Practice (3-column layout matching Kinetics & Atoms Labs) ===== */
+.en-practice .qprompt{white-space:pre-line}
+.enfig{width:100%;max-width:320px;height:auto;font-family:var(--f-mono);overflow:visible}
+.enfig .ax{stroke:var(--ink);stroke-width:1.4}
+.enfig .curve{fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round}
+.enfig .ft{font-size:10px;fill:var(--muted)}
+.enfig .ft.mid{text-anchor:middle}
+.en-practice .fig-q{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.en-practice .fig-q small{color:var(--muted);font-size:12px}
+.en-practice .big-glyph{font:700 52px var(--f-display);color:var(--accent)}
+.layout.practice.en-practice{grid-template-columns:minmax(220px,260px) minmax(0,1fr) minmax(260px,340px)}
+.en-practice .topics{padding-bottom:8px;position:sticky;top:12px}
+.en-practice .tlist{list-style:none;margin:0;padding:2px 8px 4px;display:flex;flex-direction:column;gap:2px}
+.en-practice .titem{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;border:0;background:none;
+  color:var(--ink);padding:9px 10px;border-radius:var(--r-sm);cursor:pointer;font:600 14px/1.25 var(--f-body)}
+.en-practice .titem:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.en-practice .titem[aria-pressed="true"]{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--ink);box-shadow:inset 3px 0 0 var(--accent)}
+.en-practice .titem:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.en-practice .tm{display:flex;justify-content:space-between;width:100%;gap:8px;font:600 10.5px/1.2 var(--f-mono);color:var(--muted);letter-spacing:.03em}
+.en-practice .tm b{color:var(--accent);font-weight:700}
+.en-practice .topicsel{display:none;padding:0 14px 12px}
+.en-practice .topicsel .sel{width:100%}
+.en-practice .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+@media (max-width:1180px){
+  .layout.practice.en-practice{grid-template-columns:minmax(200px,230px) minmax(0,1fr)}
+  .en-practice .topics{grid-row:span 2}
+  .en-practice .figure{grid-column:2}
+}
+@media (max-width:900px){
+  .layout.practice.en-practice{grid-template-columns:minmax(0,1fr)}
+  .en-practice .figure{grid-column:auto}
+  .en-practice .topics{position:static;grid-row:auto}
+  .en-practice .tlist{display:none}
+  .en-practice .topicsel{display:block}
+}
+@media (max-width:560px){
+  .en-bonds .en-tally{grid-template-columns:minmax(0,1fr)}
+}

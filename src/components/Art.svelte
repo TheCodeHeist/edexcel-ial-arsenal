@@ -115,6 +115,14 @@
     <circle cx="-12" cy="34" r="5.5" fill="var(--solid)" stroke="var(--amph)" stroke-width="2.2" />
     <circle cx="22" cy="-28" r="2.6" fill="var(--ligand)" />
     <circle cx="29" cy="-23" r="2.6" fill="var(--ligand)" />
+  {:else if name === 'energetics'}
+    <!-- Born–Haber energy staircase with rising endothermic and falling exothermic arrows -->
+    <path d="M-46 18 H-16 M-24 -6 H6 M-2 -34 H30 M16 40 H48" stroke="var(--ink)" stroke-opacity=".75" stroke-width="2.6" />
+    <path d="M-30 14 V-4 M-34 0 L-30 -4 L-26 0" stroke="var(--redox)" stroke-width="2.4" />
+    <path d="M-10 -10 V-32 M-14 -28 L-10 -32 L-6 -28" stroke="var(--redox)" stroke-width="2.4" />
+    <path d="M24 -30 V36 M20 32 L24 36 L28 32" stroke="var(--accent)" stroke-width="2.6" />
+    <path d="M-32 22 V38 H10" stroke="var(--acidbase)" stroke-width="2.2" stroke-dasharray="3 4" />
+    <path d="M-40 -26 q8 -14 0 -22 q-8 8 0 22 Z" fill="color-mix(in srgb, var(--amph) 60%, transparent)" stroke="var(--amph)" stroke-width="2" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

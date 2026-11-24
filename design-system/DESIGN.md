@@ -204,6 +204,13 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **CPK-inspired 3D atom colours** read crisply on the near-black stage (`#03040a`); lone pairs are translucent purple lobes with two electron dots; positive/negative orbital wavefunction phases use blue and rose-pink.
 - **Exam conventions**: Pauling electronegativities, 1st and successive ionisation energies in kJ mol⁻¹ from the Edexcel Data Booklet, Cr (`[Ar] 3d⁵ 4s¹`) and Cu (`[Ar] 3d¹⁰ 4s¹`) exceptions, 4s emptied before 3d in transition-metal ions, and Edexcel spellings throughout (`sulfur`, `aluminium`).
 
+## 9i · Chemistry rules (Energetics Lab)
+
+- **Same 3D engine.** Every 3D view (`calorimetry3d.ts`, `bonds3d.ts`, `bornhaber3d.ts`, `entropy3d.ts`) extends `Stage3D` inside `View3D.svelte`; shared layout, HUD chips, readings and practice styles come from `particles.css`, with all tab rules scoped under `.en-*` in `energetics.css`.
+- **Every energetics and thermodynamics statement has a home**: Calorimetry & cooling-curve extrapolation (6.4–6.7, Core Practicals 4 & 5), Hess's law cycles (6.8–6.9), Mean bond enthalpies (6.10–6.12), Born–Haber staircase, lattice energy, polarisation and enthalpy of solution (12.1–12.7), Entropy and $\Delta G = \Delta H - T\Delta S$ feasibility (12.8–12.14), and Practice.
+- **Colour coding for enthalpy direction**: endothermic steps (bond breaking, atomisation, IE, 2nd EA) use `--redox` (red/coral); exothermic steps (bond making, 1st EA, lattice energy) use `--accent` (blue) or `--good` (green) for feasible $\Delta G \le 0$.
+- **Exam conventions**: $c = 4.18\text{ J g}^{-1}\text{ K}^{-1}$, standard conditions 298 K / 100 kPa, explicit sign on every $\Delta H$, $\Delta S$ and $\Delta G$, and unit conversion ($\div 1000$) shown between $\text{J K}^{-1}\text{ mol}^{-1}$ and $\text{kJ mol}^{-1}$.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.
