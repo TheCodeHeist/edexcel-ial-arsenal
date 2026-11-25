@@ -608,7 +608,7 @@ def ms_split(ms_doc, questions):
 
     # the table starts on the first page whose 'Question' header sits in the first column
     # the first column's heading: 'Question Number', 'QUESTION', '1Question', or just 'Q' (M2 2021–22)
-    hdr_other = {l.page for l in lines if l.x0 >= 120 and re.match(r"^(?:Scheme|Marks|Answer|Solution)\b", l.text, re.I)}
+    hdr_other = {l.page for l in lines if l.x0 >= 100 and re.match(r"^(?:Scheme|Marks|Answer|Solution)\b", l.text, re.I)}
 
     def is_table_header(l):
         if l.x0 >= 160:
@@ -619,7 +619,7 @@ def ms_split(ms_doc, questions):
         if not HEADER.match(l.text):
             return False
         if l.text == "Q":
-            return any(abs(o.mid - l.mid) < 16 and o.x0 >= 120
+            return any(abs(o.mid - l.mid) < 16 and o.x0 > l.x1 + 2
                        and re.match(r"^(?:Scheme|Marks|Answer|Solution)\b", o.text, re.I) for o in pl)
         return True
 
@@ -830,8 +830,8 @@ def ms_split(ms_doc, questions):
         # the previous part's subtotal '(3)' ends it: this part's rows begin right under it (the label can sit
         # in the middle of a tall cell, below this part's first rows: M3 Jun 2025 4(b))
         mx_cut = marks_x.get(l.page, marks_x_all) - 25 if (marks_x or marks_x_all) else col[1] + 120
-        sub = [m for m in plines if floor < m.y0 < l.y0 and MS_PART_SUB.match(m.text)
-               and m.x0 >= mx_cut] if rows and rows[-1].q == cur_q else []
+        sub = [m for m in plines if floor - 3 <= m.y0 < l.y0 and m.y1 > floor + 6
+               and MS_PART_SUB.match(m.text) and m.x0 >= mx_cut] if rows and rows[-1].q == cur_q else []
         # ...unless an alternative method ('ALT', 'Way 2', 'Alternative', 'Example') follows that subtotal: it's
         # still the previous part's, and this part starts at its own cell's top rule (FP3 Oct 2020 4, M2 Jan 2026 1)
         alt = [m for m in plines if sub and sub[-1].y1 < m.y0 < l.y0 - 2
@@ -866,6 +866,9 @@ def ms_split(ms_doc, questions):
                 if (gap < 40 or tall_cell) and top - 0.5 < start:
                     start = top - 0.5
         prev_label = l
+        if rows and rows[-1].q == cur_q and rows[-1].path and rows[-1].start[0] == l.page and start <= rows[-1].start[1] + 2:
+            mid = [ry for ry in rys if rows[-1].start[1] + 2 < ry <= l.y0 + 4]
+            start = (mid[-1] - 0.5) if mid else max(rows[-1].start[1] + 2, l.y0 - 1)
         rows.append(MsRow(cur_q, path, (l.page, start)))
     # Drop an empty question-number banner row ('7.') when the question's first part sits right under it
     filtered = []
