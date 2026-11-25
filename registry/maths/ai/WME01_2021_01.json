@@ -20,7 +20,7 @@
   "2": {
    "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "b6a4ea946355",
+   "fingerprint": "ace40498e836",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -78,7 +78,7 @@
   "6": {
    "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "eca1226c5b1f",
+   "fingerprint": "5339858d5cde",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -104,10 +104,10 @@
   "7": {
    "at": "2026-11-25",
    "concerns": [
-    "7(b): speed-time graph in mark scheme is cut off at the bottom, missing the t-axis labels (2.5, 2.5+T, 20)",
-    "7(c): mark-scheme rows start with the cut-off t-axis and labels (2.5, 2.5+T, 20) from 7(b) graph"
+    "7(b): mark scheme speed-time graph is missing its x-axis time labels (2.5, 2.5+T, 20), which were cut off below the axis and placed in 7(c).",
+    "7(c): mark scheme rows include the x-axis labels (2.5, 2.5+T, 20) from 7(b)’s speed-time graph at the very top."
    ],
-   "fingerprint": "5afa293e5f91",
+   "fingerprint": "a3d69721d908",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw",

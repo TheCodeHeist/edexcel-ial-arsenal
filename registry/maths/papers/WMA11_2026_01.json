@@ -395,7 +395,6 @@
    ],
    "check": "pending",
    "risks": [
-    "3(ii): text after the marks",
     "3(ii): runs across pages"
    ]
   },
@@ -562,21 +561,9 @@
       "x1": 591.4,
       "y1": 759.8
      }
-    },
-    {
-     "src": "maths/WMA11_2026_01/q4_notes_3.webp",
-     "w": 1199,
-     "h": 544,
-     "region": {
-      "page": 14,
-      "x0": 16.7,
-      "y0": 48.3,
-      "x1": 591.4,
-      "y1": 309.1
-     }
     }
    ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WMA11_2026_01_q5",
@@ -1465,9 +1452,7 @@
    ],
    "check": "pending",
    "risks": [
-    "9(b): text after the marks",
     "9(b): runs across pages",
-    "9(c): text after the marks",
     "9(c): runs across pages"
    ]
   }

@@ -161,10 +161,10 @@
   "8": {
    "at": "2026-11-25",
    "concerns": [
-    "8(c): last mark-scheme row (integer testing table header and (12, 7) row, dM1) belongs to 8(d), giving 8(c) 5 marks instead of 4",
-    "8(d): missing the first row of its mark scheme (integer testing table for (12, 7), dM1), which is placed under 8(c)"
+    "8(c): mark scheme rows include the first two rows of 8(d)’s integer-testing table ((12, 7) and (13, 6) with dM1) at the bottom, and the bottom edge cuts through the A1 mark label.",
+    "8(d): mark scheme rows start mid-table at (13, 7) with the A1 label clipped at the top, missing the (12, 7) and (13, 6) rows and dM1 (which appear in 8(c))."
    ],
-   "fingerprint": "d9bb658e8cae",
+   "fingerprint": "3e2ba6e64fbd",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "draw",

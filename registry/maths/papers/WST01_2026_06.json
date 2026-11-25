@@ -305,7 +305,6 @@
    ],
    "check": "pending",
    "risks": [
-    "2(a): text after the marks",
     "2(a): runs across pages"
    ]
   },
@@ -1280,10 +1279,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "6(a): text after the marks"
-   ]
+   "check": "machine"
   },
   {
    "id": "WST01_2026_06_q7",

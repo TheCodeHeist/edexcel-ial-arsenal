@@ -383,7 +383,6 @@
    ],
    "check": "pending",
    "risks": [
-    "2(d): text after the marks",
     "2(d): runs across pages"
    ]
   },
@@ -1358,7 +1357,7 @@
    ],
    "msNotes": [
     {
-     "src": "maths/WST01_2021_01/q5_notes_1.webp",
+     "src": "maths/WST01_2021_01/q5_notes.webp",
      "w": 1098,
      "h": 635,
      "region": {
@@ -1368,23 +1367,10 @@
       "x1": 562.9,
       "y1": 788.4
      }
-    },
-    {
-     "src": "maths/WST01_2021_01/q5_notes_2.webp",
-     "w": 1098,
-     "h": 1052,
-     "region": {
-      "page": 10,
-      "x0": 36.0,
-      "y0": 58.0,
-      "x1": 562.9,
-      "y1": 562.5
-     }
     }
    ],
    "check": "pending",
    "risks": [
-    "5(g): text after the marks",
     "5(g): runs across pages"
    ]
   },
