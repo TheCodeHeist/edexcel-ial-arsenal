@@ -66,6 +66,30 @@ def text_risks(q):
     return out
 
 
+BENIGN_TAIL = re.compile(r"Diagram|Figure|grid|redraw|this table|Venn|axes|tree diagram", re.I)
+
+
+def benign_after_marks(part):
+    """Is a part's 'text after the marks' harmless? As the module notes say, it's fine for a drawing question
+    (the blank diagram, grid or axes to draw on is printed after the '(n)'). Elsewhere: answer lines
+    ('____', '....'), a spare 'Copy of Diagram 1' / redraw grid, or one or two scraps of maths ('(6) 2', the
+    n over a sum) that the text extraction put after the mark. Text with no '(n)' at all is never harmless.
+    Used by the Maths registry writer, where the AI reader looks at every risky question as well."""
+    t = part.get("text", "").strip()
+    m = list(re.finditer(r"\((\d{1,2})\)", t))
+    if not m:
+        return part.get("kind") == "draw"
+    if part.get("kind") == "draw":
+        return True
+    tail = t[m[-1].end():].strip()
+    if not re.sub(r"[_.\s`\-]", "", tail):
+        return True
+    if BENIGN_TAIL.search(tail):
+        return True
+    toks = tail.split()
+    return len(toks) <= 2 and all(len(x) <= 3 for x in toks)
+
+
 class Pages:
     """What's printed on each page of a question paper, as rectangles, read once per page."""
 

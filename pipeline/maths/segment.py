@@ -659,7 +659,9 @@ def ms_split(ms_doc, questions):
         return [], {}, ["mark scheme: no 'Question Number' table header found"], lines, items
     first_page = min(starts)
     # where each page prints its mark codes (M1, A1, B1 …): a question's plain '(9)' total sits in that column
-    codes = [l for l in lines if MARK_CODES.match(l.text)]
+    # (not the notes' 'M1' / 'A1' printed at the left margin, x≈92 in S1 Jan 2024, which outnumbered the Marks
+    # column's on p6 and let '[13]' of the working pass as a part's subtotal)
+    codes = [l for l in lines if MARK_CODES.match(l.text) and l.x0 > 150]
     by_page = {}
     for l in codes:
         by_page.setdefault(l.page, []).append(l.x0)
@@ -940,6 +942,24 @@ def ms_split(ms_doc, questions):
             foot = next((l for l in lines if ((l.page, l.y0) > start and FOOTER.match(l.text))
                          or ((l.page, l.y0) > (start[0], start[1] - 6) and terminal_paper_total(l))), None)
             end = max(start, (foot.page, foot.y0 - 4)) if foot else (len(ms_doc) - 1, ms_doc[-1].rect.height - 6)
+        # The 2026 A mark schemes reprint each question, as a picture of the question paper's page, between one
+        # question's notes and the next one's table: the notes stop before such a page (no text, only an image)
+        # (WFM02 Jan 2026 A, WME01 Jun 2026 A, WME03 Jan/Jun 2026 A)
+        def reprint_page(pg):
+            ims = [pymupdf.Rect(i["bbox"]) for i in ms_doc[pg].get_image_info()]
+            if not ims:
+                return False
+            if not lines_by_page.get(pg):
+                return True
+            # or the reprint heads the page, full width, with the next question's own notes under it (WFM02 Jan
+            # 2026 A p19: Q5's picture, then 'Note that part (a) is now being marked as …')
+            top = min(ims, key=lambda r: r.y0)
+            return (top.width > 450 and top.y0 < 90
+                    and all(l.y0 > top.y1 - 5 for l in lines_by_page[pg]))
+
+        reprint = next((pg for pg in range(start[0] + 1, end[0] + 1) if reprint_page(pg)), None)
+        if reprint is not None:
+            end = max(start, (reprint - 1, ms_doc[reprint - 1].rect.height - 6))
         notes[qn] = (start, end)
     # a row's end is the next row's start: keep the row before a moved start in step
     for a, b in zip(rows, rows[1:]):
@@ -957,8 +977,7 @@ def ms_safe_y(doc, pno, y, lo, hi, lines=(), reach=5, rule_reach=10):
     Never by handing a whole line of text to the other crop: a line the edge cuts goes with the side its middle
     is on, and a part's total ('(3)') always stays with the rows above it."""
     rules = [ry for ry in rule_ys(doc, pno) if lo + 3 < ry < hi - 3]
-    if any(abs(ry - y) <= 3 for ry in rule_ys(doc, pno)):
-        return y
+    on_rule = min((ry for ry in rule_ys(doc, pno) if abs(ry - y) <= 3), key=lambda ry: abs(ry - y), default=None)
     w, h, stride, s = page_ink(doc, pno)
     k = 100 / 72
     x0, x1 = ms_x_range(doc)
@@ -983,12 +1002,43 @@ def ms_safe_y(doc, pno, y, lo, hi, lines=(), reach=5, rule_reach=10):
         ink = [i for i, v in enumerate(row) if v < 140 and i not in vert]
         return not ink or len(ink) > 0.6 * (c1 - c0)       # blank, or a horizontal rule across the table
 
+    mine = [l for l in lines if l.page == pno]
+    if on_rule is not None:
+        # On a table rule, the cells' border: the usual case. But a denominator or a bracket of the row above
+        # can hang over the rule (dx³ over its rule in FP2 Oct 2020 1(a), (1½, π/3) in Jun 2021 3(a)): then
+        # the edge goes down past that overhang to the first clear row, handing no line of the next row over.
+        below = [rr for rr in range(int((on_rule + 1.5) * k), min(h, int((on_rule + 8) * k)))]
+        if not below or safe(below[0]) or below[0] / k > hi - 3:
+            return y
+        # only ink that crosses the rule: the same columns inked just above it too (else it's the next row's
+        # own tall first line starting under its border, WST01 Jan 2024 1(b))
+        ra = int((on_rule - 1.5) * k)
+
+        def cols(r):
+            return {i for i, v in enumerate(s[r * stride + c0: r * stride + c1]) if v < 140 and i not in vert}
+        if ra < 0 or not (cols(ra) & cols(below[0])):
+            return y
+        for rr in below[1:]:
+            if rr / k > hi - 3:
+                break
+            if safe(rr):
+                ny = rr / k
+                if any(y < l.mid < ny for l in mine):
+                    return y
+                return ny
+        return y
     r = int(round(y * k))
     if 0 <= r < h and safe(r):
         return y
-    mine = [l for l in lines if l.page == pno]
     cut = [l for l in mine if l.y0 + 0.5 < y < l.y1 - 0.5]
-    down_only = any(MS_PART_TOTAL.match(l.text) or MS_TOTAL.match(l.text) for l in cut)
+    # a denominator: a cut line sitting right under another line it overlaps (the dx³ of d³y/dx³, FP2 Oct
+    # 2020 1(a)); the text is read as two lines, but the fraction is one thing and belongs to the row above
+    def under(l, m):            # l sits right under m and mostly within it, as a denominator under its numerator
+        ov = min(l.x1, m.x1) - max(l.x0, m.x0)
+        return m is not l and m.y1 <= l.y0 + 3 and l.y0 - m.y1 < 2.5 and ov > 0.5 * (l.x1 - l.x0)
+
+    denoms = [l for l in cut if any(under(l, m) for m in mine)]
+    down_only = bool(denoms) or any(MS_PART_TOTAL.match(l.text) or MS_TOTAL.match(l.text) for l in cut)
 
     def ok(ny):
         if down_only and ny < y:
@@ -996,7 +1046,7 @@ def ms_safe_y(doc, pno, y, lo, hi, lines=(), reach=5, rule_reach=10):
         a, b = min(y, ny), max(y, ny)
         for l in mine:
             if l in cut:
-                if not down_only and a < l.mid < b:
+                if l not in denoms and not (down_only and ny > y) and a < l.mid < b:
                     return False                # a cut line stays with the side its middle is on
             elif a < l.mid < b:
                 return False                    # never hand a whole line to the other crop
@@ -1007,7 +1057,7 @@ def ms_safe_y(doc, pno, y, lo, hi, lines=(), reach=5, rule_reach=10):
             break
         if ok(ry):
             return ry - 1                       # just above the rule, as row starts are
-    for d in range(1, int(reach * k) + 1):
+    for d in range(1, int((reach + (3 if denoms else 0)) * k) + 1):
         for rr in (r - d, r + d):
             if 0 <= rr < h and lo + 3 < rr / k < hi - 3 and safe(rr) and ok(rr / k):
                 return rr / k
@@ -1611,9 +1661,12 @@ def write_registry(paper_id, doc, ms_doc, out_dir, problems):
         # A Maths part often opens with its set-up ('Given that θ > 90 (b) find …'): that's its own text, so
         # only a label missing from the part altogether is a risk.
         texts = {p["label"]: p.get("text", "") for p in q["parts"]}
+        parts = {p["label"]: p for p in q["parts"]}
         shared = [r for r in risks.text_risks(q) if not (
             r.endswith("text doesn't start at its label")
-            and any(h in texts.get(r.split(":")[0], "") for h in risks.label_heads(q["number"], r.split(":")[0])))]
+            and any(h in texts.get(r.split(":")[0], "") for h in risks.label_heads(q["number"], r.split(":")[0])))
+            and not (r.endswith("text after the marks") and r.split(":")[0] in parts
+                     and risks.benign_after_marks(parts[r.split(":")[0]]))]
         found = risks.edge_risks(q, pages) + shared + by_q.get(q["number"], [])
         if found:
             q["risks"] = found
