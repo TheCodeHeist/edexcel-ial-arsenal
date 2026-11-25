@@ -3,7 +3,7 @@
  "subject": "maths",
  "unit": "WME02",
  "series": "2023-06",
- "totalMarks": 0,
+ "totalMarks": 75,
  "durationMin": 90,
  "source": {
   "qp": {
@@ -27,7 +27,7 @@
   {
    "id": "WME02_2023_06_q1",
    "number": 1,
-   "marks": null,
+   "marks": 7,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q1_stem.webp",
@@ -70,13 +70,13 @@
       {
        "src": "maths/WME02_2023_06/q1_a_ms.webp",
        "w": 1101,
-       "h": 211,
+       "h": 212,
        "region": {
         "page": 7,
         "x0": 31.8,
-        "y0": 127,
+        "y0": 127.5,
         "x1": 560.0,
-        "y1": 228
+        "y1": 228.5
        }
       }
      ],
@@ -94,7 +94,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q1_b_1.webp",
+       "src": "maths/WME02_2023_06/q1_b.webp",
        "w": 1090,
        "h": 103,
        "region": {
@@ -104,29 +104,17 @@
         "x1": 559,
         "y1": 220.9
        }
-      },
-      {
-       "src": "maths/WME02_2023_06/q1_b_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 3,
-        "x0": 36,
-        "y0": 758.3,
-        "x1": 559,
-        "y1": 782.3
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME02_2023_06/q1_b_ms_1.webp",
        "w": 1101,
-       "h": 393,
+       "h": 392,
        "region": {
         "page": 7,
         "x0": 31.8,
-        "y0": 228,
+        "y0": 228.5,
         "x1": 560.0,
         "y1": 416.2
        }
@@ -134,32 +122,29 @@
       {
        "src": "maths/WME02_2023_06/q1_b_ms_2.webp",
        "w": 1101,
-       "h": 182,
+       "h": 180,
        "region": {
         "page": 8,
         "x0": 31.8,
         "y0": 89.2,
         "x1": 560.0,
-        "y1": 176
+        "y1": 175.0
        }
       }
      ],
-     "text": "(b) Find the angle between the direction of I and the direction of motion of P immediately before receiving the impulse. (3) (Total for Question 1 = 7 marks)",
+     "text": "(b) Find the angle between the direction of I and the direction of motion of P immediately before receiving the impulse. (3)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "1(b): text after the marks",
-    "1(b): runs across pages",
-    "Q1: no '(Total for Question …)' line",
     "MS Q1: no '(n marks)' line after its last row"
    ]
   },
   {
    "id": "WME02_2023_06_q2",
    "number": 2,
-   "marks": null,
+   "marks": 10,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q2_stem.webp",
@@ -201,13 +186,13 @@
       {
        "src": "maths/WME02_2023_06/q2_a_ms.webp",
        "w": 1101,
-       "h": 251,
+       "h": 254,
        "region": {
         "page": 8,
         "x0": 31.8,
-        "y0": 176,
+        "y0": 175.0,
         "x1": 560.0,
-        "y1": 296
+        "y1": 296.5
        }
       }
      ],
@@ -244,9 +229,9 @@
        "region": {
         "page": 8,
         "x0": 31.8,
-        "y0": 296,
+        "y0": 296.5,
         "x1": 560.0,
-        "y1": 454
+        "y1": 454.5
        }
       }
      ],
@@ -264,7 +249,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q2_c_1.webp",
+       "src": "maths/WME02_2023_06/q2_c.webp",
        "w": 1090,
        "h": 73,
        "region": {
@@ -274,29 +259,17 @@
         "x1": 559,
         "y1": 366.7
        }
-      },
-      {
-       "src": "maths/WME02_2023_06/q2_c_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 7,
-        "x0": 36,
-        "y0": 758.3,
-        "x1": 559,
-        "y1": 782.3
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME02_2023_06/q2_c_ms_1.webp",
        "w": 1101,
-       "h": 362,
+       "h": 361,
        "region": {
         "page": 8,
         "x0": 31.8,
-        "y0": 454,
+        "y0": 454.5,
         "x1": 560.0,
         "y1": 627.2
        }
@@ -304,32 +277,29 @@
       {
        "src": "maths/WME02_2023_06/q2_c_ms_2.webp",
        "w": 1101,
-       "h": 438,
+       "h": 312,
        "region": {
         "page": 9,
         "x0": 31.8,
         "y0": 89.2,
         "x1": 560.0,
-        "y1": 298.8
+        "y1": 238.5
        }
       }
      ],
-     "text": "(c) Find the exact magnitude of the acceleration of P when t = 2.5 (3) (Total for Question 2 = 10 marks)",
+     "text": "(c) Find the exact magnitude of the acceleration of P when t = 2.5 (3)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "2(c): text after the marks",
-    "2(c): runs across pages",
-    "Q2: no '(Total for Question …)' line",
     "MS Q2: no '(n marks)' line after its last row"
    ]
   },
   {
    "id": "WME02_2023_06_q3",
    "number": 3,
-   "marks": null,
+   "marks": 8,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q3_stem.webp",
@@ -372,11 +342,11 @@
       {
        "src": "maths/WME02_2023_06/q3_a_ms_1.webp",
        "w": 1101,
-       "h": 792,
+       "h": 924,
        "region": {
         "page": 9,
         "x0": 31.8,
-        "y0": 301.7,
+        "y0": 238.5,
         "x1": 560.0,
         "y1": 681.1
        }
@@ -384,13 +354,13 @@
       {
        "src": "maths/WME02_2023_06/q3_a_ms_2.webp",
        "w": 1101,
-       "h": 265,
+       "h": 266,
        "region": {
         "page": 10,
         "x0": 31.8,
         "y0": 89.2,
         "x1": 560.0,
-        "y1": 216
+        "y1": 216.1
        }
       }
      ],
@@ -408,7 +378,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q3_b_1.webp",
+       "src": "maths/WME02_2023_06/q3_b.webp",
        "w": 1090,
        "h": 203,
        "region": {
@@ -417,18 +387,6 @@
         "y0": 596.1,
         "x1": 559,
         "y1": 693.0
-       }
-      },
-      {
-       "src": "maths/WME02_2023_06/q3_b_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 11,
-        "x0": 36,
-        "y0": 758.3,
-        "x1": 559,
-        "y1": 782.3
        }
       }
      ],
@@ -440,7 +398,7 @@
        "region": {
         "page": 10,
         "x0": 31.8,
-        "y0": 216,
+        "y0": 216.1,
         "x1": 560.0,
         "y1": 389.2
        }
@@ -454,26 +412,23 @@
         "x0": 31.8,
         "y0": 68.0,
         "x1": 560.0,
-        "y1": 163
+        "y1": 163.0
        }
       }
      ],
-     "text": "The folded lamina is suspended from P and hangs freely in equilibrium with PQ at an angle α to the downward vertical. Given that tan α O 64 81 (b) find x in terms of y (3) (Total for Question 3 = 8 marks)",
+     "text": "The folded lamina is suspended from P and hangs freely in equilibrium with PQ at an angle α to the downward vertical. Given that tan α O 64 81 (b) find x in terms of y (3)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "3(b): text after the marks",
-    "3(b): runs across pages",
-    "Q3: no '(Total for Question …)' line",
     "MS Q3: no '(n marks)' line after its last row"
    ]
   },
   {
    "id": "WME02_2023_06_q4",
    "number": 4,
-   "marks": null,
+   "marks": 12,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q4_stem.webp",
@@ -515,13 +470,13 @@
       {
        "src": "maths/WME02_2023_06/q4_a_ms_1.webp",
        "w": 1101,
-       "h": 405,
+       "h": 406,
        "region": {
         "page": 11,
         "x0": 31.8,
-        "y0": 163,
+        "y0": 163.0,
         "x1": 560.0,
-        "y1": 357
+        "y1": 357.5
        }
       },
       {
@@ -531,9 +486,9 @@
        "region": {
         "page": 11,
         "x0": 31.8,
-        "y0": 357,
+        "y0": 357.5,
         "x1": 560.0,
-        "y1": 476
+        "y1": 476.5
        }
       }
      ],
@@ -571,9 +526,9 @@
        "region": {
         "page": 11,
         "x0": 31.8,
-        "y0": 476,
+        "y0": 476.5,
         "x1": 560.0,
-        "y1": 585
+        "y1": 585.5
        }
       }
      ],
@@ -606,11 +561,11 @@
       {
        "src": "maths/WME02_2023_06/q4_c_ms_1.webp",
        "w": 1101,
-       "h": 237,
+       "h": 236,
        "region": {
         "page": 11,
         "x0": 31.8,
-        "y0": 585,
+        "y0": 585.5,
         "x1": 560.0,
         "y1": 698.2
        }
@@ -624,7 +579,7 @@
         "x0": 31.8,
         "y0": 68.0,
         "x1": 560.0,
-        "y1": 127
+        "y1": 127.2
        }
       }
      ],
@@ -642,7 +597,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q4_d_1.webp",
+       "src": "maths/WME02_2023_06/q4_d.webp",
        "w": 1090,
        "h": 124,
        "region": {
@@ -651,18 +606,6 @@
         "y0": 343.1,
         "x1": 559,
         "y1": 402.2
-       }
-      },
-      {
-       "src": "maths/WME02_2023_06/q4_d_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 15,
-        "x0": 36,
-        "y0": 758.3,
-        "x1": 559,
-        "y1": 782.3
        }
       }
      ],
@@ -674,7 +617,7 @@
        "region": {
         "page": 12,
         "x0": 31.8,
-        "y0": 127,
+        "y0": 127.2,
         "x1": 560.0,
         "y1": 241.9
        }
@@ -682,32 +625,29 @@
       {
        "src": "maths/WME02_2023_06/q4_d_ms_2.webp",
        "w": 1101,
-       "h": 340,
+       "h": 342,
        "region": {
         "page": 13,
         "x0": 31.8,
         "y0": 89.2,
         "x1": 560.0,
-        "y1": 252
+        "y1": 252.5
        }
       }
      ],
-     "text": "The total kinetic energy lost in the collision is λmv2 (d) Find the value of λ. (3) (Total for Question 4 = 12 marks)",
+     "text": "The total kinetic energy lost in the collision is λmv2 (d) Find the value of λ. (3)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "4(d): text after the marks",
-    "4(d): runs across pages",
-    "Q4: no '(Total for Question …)' line",
     "MS Q4: no '(n marks)' line after its last row"
    ]
   },
   {
    "id": "WME02_2023_06_q5",
    "number": 5,
-   "marks": null,
+   "marks": 11,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q5_stem.webp",
@@ -754,9 +694,9 @@
        "region": {
         "page": 13,
         "x0": 31.8,
-        "y0": 252,
+        "y0": 252.5,
         "x1": 560.0,
-        "y1": 467
+        "y1": 467.5
        }
       }
      ],
@@ -774,7 +714,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q5_b_1.webp",
+       "src": "maths/WME02_2023_06/q5_b.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -784,29 +724,17 @@
         "x1": 559,
         "y1": 597.2
        }
-      },
-      {
-       "src": "maths/WME02_2023_06/q5_b_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 19,
-        "x0": 36,
-        "y0": 758.3,
-        "x1": 559,
-        "y1": 782.3
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME02_2023_06/q5_b_ms_1.webp",
        "w": 1101,
-       "h": 611,
+       "h": 610,
        "region": {
         "page": 13,
         "x0": 31.8,
-        "y0": 467,
+        "y0": 467.5,
         "x1": 560.0,
         "y1": 759.6
        }
@@ -814,32 +742,29 @@
       {
        "src": "maths/WME02_2023_06/q5_b_ms_2.webp",
        "w": 1101,
-       "h": 51,
+       "h": 52,
        "region": {
         "page": 14,
         "x0": 31.8,
         "y0": 89.2,
         "x1": 560.0,
-        "y1": 113
+        "y1": 113.5
        }
       }
      ],
-     "text": "(b) Find the value of μ (6) (Total for Question 5 = 11 marks)",
+     "text": "(b) Find the value of μ (6)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "5(b): text after the marks",
-    "5(b): runs across pages",
-    "Q5: no '(Total for Question …)' line",
     "MS Q5: no '(n marks)' line after its last row"
    ]
   },
   {
    "id": "WME02_2023_06_q6",
    "number": 6,
-   "marks": null,
+   "marks": 12,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q6_stem.webp",
@@ -886,9 +811,9 @@
        "region": {
         "page": 14,
         "x0": 31.8,
-        "y0": 113,
+        "y0": 113.5,
         "x1": 560.0,
-        "y1": 214
+        "y1": 214.5
        }
       }
      ],
@@ -926,9 +851,9 @@
        "region": {
         "page": 14,
         "x0": 31.8,
-        "y0": 214,
+        "y0": 214.5,
         "x1": 560.0,
-        "y1": 501
+        "y1": 501.5
        }
       }
      ],
@@ -945,7 +870,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q6_c_1.webp",
+       "src": "maths/WME02_2023_06/q6_c.webp",
        "w": 1090,
        "h": 261,
        "region": {
@@ -955,29 +880,17 @@
         "x1": 559,
         "y1": 753.2
        }
-      },
-      {
-       "src": "maths/WME02_2023_06/q6_c_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 23,
-        "x0": 36,
-        "y0": 758.3,
-        "x1": 559,
-        "y1": 782.3
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME02_2023_06/q6_c_ms_1.webp",
        "w": 1101,
-       "h": 518,
+       "h": 517,
        "region": {
         "page": 14,
         "x0": 31.8,
-        "y0": 501,
+        "y0": 501.5,
         "x1": 560.0,
         "y1": 749.2
        }
@@ -985,32 +898,29 @@
       {
        "src": "maths/WME02_2023_06/q6_c_ms_2.webp",
        "w": 1101,
-       "h": 72,
+       "h": 73,
        "region": {
         "page": 15,
         "x0": 31.8,
         "y0": 58.7,
         "x1": 560.0,
-        "y1": 93
+        "y1": 93.5
        }
       }
      ],
-     "text": "At the instant when the van and the trailer are moving up the road at 9 ms−, the towbar 1 breaks. The trailer continues to move in a straight line up the road until it comes to instantaneous rest. The distance moved by the trailer as it slows from a speed of 9 ms− to instantaneous 1 rest is d metres. (c) Use the work-energy principle to find the value of d. (4) (Total for Question 6 = 12 marks)",
+     "text": "At the instant when the van and the trailer are moving up the road at 9 ms−, the towbar 1 breaks. The trailer continues to move in a straight line up the road until it comes to instantaneous rest. The distance moved by the trailer as it slows from a speed of 9 ms− to instantaneous 1 rest is d metres. (c) Use the work-energy principle to find the value of d. (4)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "6(c): text after the marks",
-    "6(c): runs across pages",
-    "Q6: no '(Total for Question …)' line",
     "MS Q6: no '(n marks)' line after its last row"
    ]
   },
   {
    "id": "WME02_2023_06_q7",
    "number": 7,
-   "marks": null,
+   "marks": 15,
    "stem": [
     {
      "src": "maths/WME02_2023_06/q7_stem.webp",
@@ -1057,9 +967,9 @@
        "region": {
         "page": 15,
         "x0": 31.8,
-        "y0": 93,
+        "y0": 93.5,
         "x1": 560.0,
-        "y1": 161
+        "y1": 161.5
        }
       }
      ],
@@ -1097,9 +1007,9 @@
        "region": {
         "page": 15,
         "x0": 31.8,
-        "y0": 161,
+        "y0": 161.5,
         "x1": 560.0,
-        "y1": 302
+        "y1": 302.5
        }
       },
       {
@@ -1109,9 +1019,9 @@
        "region": {
         "page": 15,
         "x0": 31.8,
-        "y0": 302,
+        "y0": 302.5,
         "x1": 560.0,
-        "y1": 393
+        "y1": 393.5
        }
       }
      ],
@@ -1149,9 +1059,9 @@
        "region": {
         "page": 15,
         "x0": 31.8,
-        "y0": 393,
+        "y0": 393.5,
         "x1": 560.0,
-        "y1": 505
+        "y1": 505.5
        }
       }
      ],
@@ -1170,7 +1080,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME02_2023_06/q7_d_1.webp",
+       "src": "maths/WME02_2023_06/q7_d.webp",
        "w": 1090,
        "h": 159,
        "region": {
@@ -1180,29 +1090,17 @@
         "x1": 559,
         "y1": 667.3
        }
-      },
-      {
-       "src": "maths/WME02_2023_06/q7_d_2.webp",
-       "w": 1090,
-       "h": 51,
-       "region": {
-        "page": 28,
-        "x0": 36,
-        "y0": 698.3,
-        "x1": 559,
-        "y1": 722.3
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME02_2023_06/q7_d_ms_1.webp",
        "w": 1101,
-       "h": 571,
+       "h": 570,
        "region": {
         "page": 15,
         "x0": 31.8,
-        "y0": 505,
+        "y0": 505.5,
         "x1": 560.0,
         "y1": 778.6
        }
@@ -1220,15 +1118,12 @@
        }
       }
      ],
-     "text": ". / the i j At the instant when the direction of motion of the ball is perpendicular to 3 1 2 ball is h metres above the ground. (d) Find the value of h. (6) (Total for Question 7 = 15 marks)",
+     "text": ". / the i j At the instant when the direction of motion of the ball is perpendicular to 3 1 2 ball is h metres above the ground. (d) Find the value of h. (6)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
-    "7(d): text after the marks",
-    "7(d): runs across pages",
-    "Q7: no '(Total for Question …)' line",
     "MS Q7: no '(n marks)' line after its last row"
    ]
   }

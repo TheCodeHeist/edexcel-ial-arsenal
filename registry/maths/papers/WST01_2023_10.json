@@ -54,7 +54,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WST01_2023_10/q1_a.webp",
+       "src": "maths/WST01_2023_10/q1_a_1.webp",
        "w": 1090,
        "h": 75,
        "region": {
@@ -64,23 +64,35 @@
         "x1": 559,
         "y1": 236.5
        }
+      },
+      {
+       "src": "maths/WST01_2023_10/q1_a_2.webp",
+       "w": 1090,
+       "h": 567,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 77.8,
+        "x1": 559,
+        "y1": 349.9
+       }
       }
      ],
      "ms": [
       {
        "src": "maths/WST01_2023_10/q1_a_ms.webp",
        "w": 1154,
-       "h": 190,
+       "h": 326,
        "region": {
         "page": 6,
         "x0": 22.6,
-        "y0": 163.6,
+        "y0": 99.5,
         "x1": 576.4,
-        "y1": 254.3
+        "y1": 255.5
        }
       }
      ],
-     "text": "(a) Use this information to complete the tree diagram on page 3 (3)",
+     "text": "(a) Use this information to complete the tree diagram on page 3 (3) 1st game 2nd game 3rd game win 0.6 win win ............... 0.7 lose ............... lose ............... win ............... win ............... lose lose ............... ............... lose ...............",
      "kindGuessed": "draw"
     },
     {
@@ -109,13 +121,13 @@
       {
        "src": "maths/WST01_2023_10/q1_b_ms.webp",
        "w": 1154,
-       "h": 63,
+       "h": 61,
        "region": {
         "page": 6,
         "x0": 22.6,
-        "y0": 254.3,
+        "y0": 255.5,
         "x1": 576.4,
-        "y1": 284.0
+        "y1": 284.5
        }
       }
      ],
@@ -152,9 +164,9 @@
        "region": {
         "page": 6,
         "x0": 22.6,
-        "y0": 284.0,
+        "y0": 284.5,
         "x1": 576.4,
-        "y1": 315
+        "y1": 315.5
        }
       }
      ],
@@ -191,9 +203,9 @@
        "region": {
         "page": 6,
         "x0": 22.6,
-        "y0": 315,
+        "y0": 315.5,
         "x1": 576.4,
-        "y1": 361
+        "y1": 361.5
        }
       }
      ],
@@ -210,7 +222,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WST01_2023_10/q1_e_1.webp",
+       "src": "maths/WST01_2023_10/q1_e.webp",
        "w": 1090,
        "h": 125,
        "region": {
@@ -220,35 +232,23 @@
         "x1": 559,
         "y1": 436.4
        }
-      },
-      {
-       "src": "maths/WST01_2023_10/q1_e_2.webp",
-       "w": 1090,
-       "h": 567,
-       "region": {
-        "page": 3,
-        "x0": 36,
-        "y0": 77.8,
-        "x1": 559,
-        "y1": 349.9
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WST01_2023_10/q1_e_ms.webp",
        "w": 1154,
-       "h": 126,
+       "h": 125,
        "region": {
         "page": 6,
         "x0": 22.6,
-        "y0": 361,
+        "y0": 361.5,
         "x1": 576.4,
         "y1": 421
        }
       }
      ],
-     "text": "Given that Sally won the first game in a turn, (e) find the probability that she won 2 games. (2) 1st game 2nd game 3rd game win 0.6 win win ............... 0.7 lose ............... lose ............... win ............... win ............... lose lose ............... ............... lose ...............",
+     "text": "Given that Sally won the first game in a turn, (e) find the probability that she won 2 games. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -268,8 +268,8 @@
    ],
    "check": "pending",
    "risks": [
-    "1(e): text after the marks",
-    "1(e): runs across pages"
+    "1(a): text after the marks",
+    "1(a): runs across pages"
    ]
   },
   {
@@ -317,25 +317,25 @@
       {
        "src": "maths/WST01_2023_10/q2_a_ms_1.webp",
        "w": 1154,
-       "h": 38,
+       "h": 39,
        "region": {
         "page": 7,
         "x0": 22.6,
-        "y0": 100,
+        "y0": 100.1,
         "x1": 576.4,
-        "y1": 118
+        "y1": 118.4
        }
       },
       {
        "src": "maths/WST01_2023_10/q2_a_ms_2.webp",
        "w": 1154,
-       "h": 69,
+       "h": 70,
        "region": {
         "page": 7,
         "x0": 22.6,
-        "y0": 118,
+        "y0": 118.4,
         "x1": 576.4,
-        "y1": 150.7
+        "y1": 151.5
        }
       }
      ],
@@ -368,13 +368,13 @@
       {
        "src": "maths/WST01_2023_10/q2_b_ms.webp",
        "w": 1154,
-       "h": 129,
+       "h": 128,
        "region": {
         "page": 7,
         "x0": 22.6,
-        "y0": 150.7,
+        "y0": 151.5,
         "x1": 576.4,
-        "y1": 212
+        "y1": 212.5
        }
       }
      ],
@@ -392,7 +392,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WST01_2023_10/q2_c.webp",
+       "src": "maths/WST01_2023_10/q2_c_1.webp",
        "w": 1090,
        "h": 179,
        "region": {
@@ -402,49 +402,9 @@
         "x1": 559,
         "y1": 625.1
        }
-      }
-     ],
-     "ms": [
-      {
-       "src": "maths/WST01_2023_10/q2_c_ms.webp",
-       "w": 1154,
-       "h": 159,
-       "region": {
-        "page": 7,
-        "x0": 22.6,
-        "y0": 212,
-        "x1": 576.4,
-        "y1": 288
-       }
-      }
-     ],
-     "text": "Figure 1 on page 7 shows a box plot for the weights of the same 33 red kangaroos taken in February, earlier in the year. (c) In the space on Figure 1, draw a box plot to represent the weights of these red kangaroos in December. (4)",
-     "kindGuessed": "draw"
-    },
-    {
-     "label": "2(d)",
-     "marks": 3,
-     "kind": "short",
-     "topics": [
-      "S1.2.2",
-      "S1.2.3"
-     ],
-     "tagStatus": "suggested",
-     "qp": [
-      {
-       "src": "maths/WST01_2023_10/q2_d_1.webp",
-       "w": 1090,
-       "h": 133,
-       "region": {
-        "page": 6,
-        "x0": 36,
-        "y0": 627.7,
-        "x1": 559,
-        "y1": 691.1
-       }
       },
       {
-       "src": "maths/WST01_2023_10/q2_d_2.webp",
+       "src": "maths/WST01_2023_10/q2_c_2.webp",
        "w": 1090,
        "h": 574,
        "region": {
@@ -456,7 +416,7 @@
        }
       },
       {
-       "src": "maths/WST01_2023_10/q2_d_3.webp",
+       "src": "maths/WST01_2023_10/q2_c_3.webp",
        "w": 1090,
        "h": 586,
        "region": {
@@ -470,20 +430,60 @@
      ],
      "ms": [
       {
-       "src": "maths/WST01_2023_10/q2_d_ms.webp",
+       "src": "maths/WST01_2023_10/q2_c_ms.webp",
        "w": 1154,
-       "h": 367,
+       "h": 160,
        "region": {
         "page": 7,
         "x0": 22.6,
-        "y0": 288,
+        "y0": 212.5,
+        "x1": 576.4,
+        "y1": 288.5
+       }
+      }
+     ],
+     "text": "Figure 1 on page 7 shows a box plot for the weights of the same 33 red kangaroos taken in February, earlier in the year. (c) In the space on Figure 1, draw a box plot to represent the weights of these red kangaroos in December. (4) February 0 10 20 30 40 50 60 70 80 90 100 December 0 10 20 30 40 50 60 70 80 90 100 Figure 1 Turn over for a spare grid if you need to redraw your box plot. Only use this grid if you need to redraw your box plot. February 0 10 20 30 40 50 60 70 80 90 100 December 0 10 20 30 40 50 60 70 80 90 100 Figure 1",
+     "kindGuessed": "draw"
+    },
+    {
+     "label": "2(d)",
+     "marks": 3,
+     "kind": "short",
+     "topics": [
+      "S1.2.2",
+      "S1.2.3"
+     ],
+     "tagStatus": "suggested",
+     "qp": [
+      {
+       "src": "maths/WST01_2023_10/q2_d.webp",
+       "w": 1090,
+       "h": 133,
+       "region": {
+        "page": 6,
+        "x0": 36,
+        "y0": 627.7,
+        "x1": 559,
+        "y1": 691.1
+       }
+      }
+     ],
+     "ms": [
+      {
+       "src": "maths/WST01_2023_10/q2_d_ms.webp",
+       "w": 1154,
+       "h": 366,
+       "region": {
+        "page": 7,
+        "x0": 22.6,
+        "y0": 288.5,
         "x1": 576.4,
         "y1": 464
        }
       }
      ],
-     "text": "(d) Compare the distribution of the weights of red kangaroos taken in February with the distribution of the weights of red kangaroos taken in December of the same year. You should interpret your comparisons in the context of the question. (3) February 0 10 20 30 40 50 60 70 80 90 100 December 0 10 20 30 40 50 60 70 80 90 100 Figure 1 Turn over for a spare grid if you need to redraw your box plot. Only use this grid if you need to redraw your box plot. February 0 10 20 30 40 50 60 70 80 90 100 December 0 10 20 30 40 50 60 70 80 90 100 Figure 1",
-     "kindGuessed": "draw"
+     "text": "(d) Compare the distribution of the weights of red kangaroos taken in February with the distribution of the weights of red kangaroos taken in December of the same year. You should interpret your comparisons in the context of the question. (3)",
+     "kindGuessed": "calc"
     }
    ],
    "msNotes": [
@@ -502,8 +502,8 @@
    ],
    "check": "pending",
    "risks": [
-    "2(d): text after the marks",
-    "2(d): runs across pages"
+    "2(c): text after the marks",
+    "2(c): runs across pages"
    ]
   },
   {
@@ -553,13 +553,13 @@
       {
        "src": "maths/WST01_2023_10/q3_i_a_ms.webp",
        "w": 1154,
-       "h": 159,
+       "h": 161,
        "region": {
         "page": 8,
         "x0": 22.6,
         "y0": 67.9,
         "x1": 576.4,
-        "y1": 143.7
+        "y1": 144.5
        }
       }
      ],
@@ -606,13 +606,13 @@
       {
        "src": "maths/WST01_2023_10/q3_i_b_ms.webp",
        "w": 1154,
-       "h": 62,
+       "h": 61,
        "region": {
         "page": 8,
         "x0": 22.6,
-        "y0": 143.7,
+        "y0": 144.5,
         "x1": 576.4,
-        "y1": 173
+        "y1": 173.5
        }
       }
      ],
@@ -663,9 +663,9 @@
        "region": {
         "page": 8,
         "x0": 22.6,
-        "y0": 173,
+        "y0": 173.5,
         "x1": 576.4,
-        "y1": 233
+        "y1": 233.5
        }
       }
      ],
@@ -716,9 +716,9 @@
        "region": {
         "page": 8,
         "x0": 22.6,
-        "y0": 233,
+        "y0": 233.5,
         "x1": 576.4,
-        "y1": 296
+        "y1": 296.5
        }
       }
      ],
@@ -770,9 +770,9 @@
        "region": {
         "page": 8,
         "x0": 22.6,
-        "y0": 296,
+        "y0": 296.5,
         "x1": 576.4,
-        "y1": 434
+        "y1": 434.5
        }
       }
      ],
@@ -819,11 +819,11 @@
       {
        "src": "maths/WST01_2023_10/q3_ii_c_ms.webp",
        "w": 1154,
-       "h": 161,
+       "h": 160,
        "region": {
         "page": 8,
         "x0": 22.6,
-        "y0": 434,
+        "y0": 434.5,
         "x1": 576.4,
         "y1": 511
        }
@@ -837,17 +837,17 @@
     {
      "src": "maths/WST01_2023_10/q3_notes.webp",
      "w": 1154,
-     "h": 582,
+     "h": 635,
      "region": {
       "page": 8,
       "x0": 22.6,
       "y0": 511,
       "x1": 576.4,
-      "y1": 790
+      "y1": 815.1
      }
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WST01_2023_10_q4",
@@ -880,11 +880,11 @@
       {
        "src": "maths/WST01_2023_10/q4_a.webp",
        "w": 1090,
-       "h": 82,
+       "h": 96,
        "region": {
         "page": 14,
         "x0": 36,
-        "y0": 190.3,
+        "y0": 183.7,
         "x1": 559,
         "y1": 229.2
        }
@@ -898,9 +898,9 @@
        "region": {
         "page": 9,
         "x0": 22.6,
-        "y0": 71,
+        "y0": 71.2,
         "x1": 576.4,
-        "y1": 119
+        "y1": 119.5
        }
       }
      ],
@@ -933,13 +933,13 @@
       {
        "src": "maths/WST01_2023_10/q4_b_ms.webp",
        "w": 1154,
-       "h": 188,
+       "h": 191,
        "region": {
         "page": 9,
         "x0": 22.6,
-        "y0": 119,
+        "y0": 119.5,
         "x1": 576.4,
-        "y1": 208.5
+        "y1": 210.5
        }
       }
      ],
@@ -972,25 +972,25 @@
       {
        "src": "maths/WST01_2023_10/q4_c_ms_1.webp",
        "w": 1154,
-       "h": 48,
+       "h": 44,
        "region": {
         "page": 9,
         "x0": 22.6,
-        "y0": 208.5,
+        "y0": 210.5,
         "x1": 576.4,
-        "y1": 231
+        "y1": 231.3
        }
       },
       {
        "src": "maths/WST01_2023_10/q4_c_ms_2.webp",
        "w": 1154,
-       "h": 101,
+       "h": 102,
        "region": {
         "page": 9,
         "x0": 22.6,
-        "y0": 231,
+        "y0": 231.3,
         "x1": 576.4,
-        "y1": 279
+        "y1": 279.5
        }
       }
      ],
@@ -1024,11 +1024,11 @@
       {
        "src": "maths/WST01_2023_10/q4_d_ms.webp",
        "w": 1154,
-       "h": 315,
+       "h": 314,
        "region": {
         "page": 9,
         "x0": 22.6,
-        "y0": 279,
+        "y0": 279.5,
         "x1": 576.4,
         "y1": 430
        }
@@ -1052,10 +1052,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(a): text cut by a crop edge"
-   ]
+   "check": "machine"
   },
   {
    "id": "WST01_2023_10_q5",
@@ -1102,13 +1099,13 @@
       {
        "src": "maths/WST01_2023_10/q5_a_ms.webp",
        "w": 1154,
-       "h": 169,
+       "h": 170,
        "region": {
         "page": 10,
         "x0": 22.6,
         "y0": 70.5,
         "x1": 576.4,
-        "y1": 151
+        "y1": 151.5
        }
       }
      ],
@@ -1141,13 +1138,13 @@
       {
        "src": "maths/WST01_2023_10/q5_b_ms.webp",
        "w": 1154,
-       "h": 161,
+       "h": 162,
        "region": {
         "page": 10,
         "x0": 22.6,
-        "y0": 151,
+        "y0": 151.5,
         "x1": 576.4,
-        "y1": 228
+        "y1": 228.5
        }
       }
      ],
@@ -1184,9 +1181,9 @@
        "region": {
         "page": 10,
         "x0": 22.6,
-        "y0": 228,
+        "y0": 228.5,
         "x1": 576.4,
-        "y1": 289
+        "y1": 289.5
        }
       }
      ],
@@ -1219,13 +1216,13 @@
       {
        "src": "maths/WST01_2023_10/q5_d_ms.webp",
        "w": 1154,
-       "h": 127,
+       "h": 128,
        "region": {
         "page": 10,
         "x0": 22.6,
-        "y0": 289,
+        "y0": 289.5,
         "x1": 576.4,
-        "y1": 349.7
+        "y1": 350.5
        }
       }
      ],
@@ -1259,11 +1256,11 @@
       {
        "src": "maths/WST01_2023_10/q5_e_ms.webp",
        "w": 1154,
-       "h": 297,
+       "h": 295,
        "region": {
         "page": 10,
         "x0": 22.6,
-        "y0": 349.7,
+        "y0": 350.5,
         "x1": 576.4,
         "y1": 492
        }
@@ -1277,13 +1274,13 @@
     {
      "src": "maths/WST01_2023_10/q5_notes.webp",
      "w": 1154,
-     "h": 621,
+     "h": 633,
      "region": {
       "page": 10,
       "x0": 22.6,
       "y0": 492,
       "x1": 576.4,
-      "y1": 790
+      "y1": 795.4
      }
     }
    ],
@@ -1335,13 +1332,13 @@
       {
        "src": "maths/WST01_2023_10/q6_a_ms_1.webp",
        "w": 1154,
-       "h": 114,
+       "h": 115,
        "region": {
         "page": 11,
         "x0": 22.6,
         "y0": 67.0,
         "x1": 576.4,
-        "y1": 121
+        "y1": 121.5
        }
       },
       {
@@ -1351,9 +1348,9 @@
        "region": {
         "page": 11,
         "x0": 22.6,
-        "y0": 121,
+        "y0": 121.5,
         "x1": 576.4,
-        "y1": 167
+        "y1": 167.5
        }
       }
      ],
@@ -1391,9 +1388,9 @@
        "region": {
         "page": 11,
         "x0": 22.6,
-        "y0": 167,
+        "y0": 167.5,
         "x1": 576.4,
-        "y1": 251
+        "y1": 251.5
        }
       }
      ],
@@ -1427,11 +1424,11 @@
       {
        "src": "maths/WST01_2023_10/q6_c_ms.webp",
        "w": 1154,
-       "h": 364,
+       "h": 363,
        "region": {
         "page": 11,
         "x0": 22.6,
-        "y0": 251,
+        "y0": 251.5,
         "x1": 576.4,
         "y1": 425
        }
@@ -1457,11 +1454,11 @@
     {
      "src": "maths/WST01_2023_10/q6_notes_2.webp",
      "w": 1154,
-     "h": 478,
+     "h": 479,
      "region": {
       "page": 12,
       "x0": 22.6,
-      "y0": 40,
+      "y0": 39.7,
       "x1": 576.4,
       "y1": 269.0
      }

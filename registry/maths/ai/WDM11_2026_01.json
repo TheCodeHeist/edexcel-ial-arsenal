@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "96224a0056dc",
+   "fingerprint": "661c2debdf44",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc"
@@ -20,7 +20,7 @@
   "2": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "d711b721786a",
+   "fingerprint": "e7a282de3346",
    "kinds": {
     "2": "calc"
    },
@@ -31,11 +31,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(i)(c): Mark scheme rows include the (DE FJ reject) row (with a clipped border/fragment above it) at the top, which belongs to 3(i)(b) rather than 3(i)(c)."
-   ],
-   "fingerprint": "a36352e2c2ec",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "16931966f90b",
    "kinds": {
     "3(i)(a)": "short",
     "3(i)(b)": "calc",
@@ -62,9 +60,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "75b64b676fe6",
+   "fingerprint": "1c02bad0410f",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -85,7 +83,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "59b1c581e61e",
+   "fingerprint": "1f9d75e6fcb7",
    "kinds": {
     "5": "calc"
    },
@@ -98,7 +96,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a56a61218650",
+   "fingerprint": "8eda22b86045",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "short",
@@ -122,14 +120,12 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "7(a): Mark scheme table is incomplete at the bottom; the rows for activities G, H, P and Q appear at the top of 7(b)'s mark scheme rows.",
-    "7(b): Mark scheme rows include the two leftover IPA table rows (G, H, P, Q) belonging to 7(a) at the top.",
-    "7(d): Mark scheme rows include the top half of 7(e)'s scheduling diagram (time axis 0-40, first worker row A D I M P, and M1 A1 marks) at the bottom.",
-    "7(e): Mark scheme diagram is incomplete at the top; the time axis, first worker row (A D I M P), and M1 A1 marks are missing (they appear at the bottom of 7(d)'s mark scheme rows)."
+    "7(a): mark scheme table is incomplete — rows for activities G, H, P and Q are placed at the top of 7(b) instead",
+    "7(b): mark scheme includes extra rows at the top (activities G, H, P and Q from 7(a) precedence table)"
    ],
-   "fingerprint": "1371f76d7506",
+   "fingerprint": "701a789fc2e8",
    "kinds": {
     "7(a)": "short",
     "7(b)": "draw",
@@ -156,12 +152,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
-   "concerns": [
-    "8(a): Mark scheme rows include the first two vertex rows ((5/3, 15) and (122/13, 496/13)) and M1 A1 marks belonging to 8(b) at the bottom.",
-    "8(b): Mark scheme table is incomplete at the top; the first two vertex rows ((5/3, 15) and (122/13, 496/13)) and M1 A1 marks are missing (they appear at the bottom of 8(a)'s mark scheme rows)."
-   ],
-   "fingerprint": "7fdb2729db85",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "8c819ef9e5b7",
    "kinds": {
     "8(a)": "draw",
     "8(b)": "calc",

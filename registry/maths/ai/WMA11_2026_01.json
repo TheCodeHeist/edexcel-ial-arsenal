@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
-   "concerns": [
-    "Shared stem (affects 1(a) and 1(b)): the top of the crop cuts through the numerator of the fraction 3/(2 sqrt x) in y = 4x^3 + 3/(2 sqrt x) - 8; only the bottom of the 3 is visible."
-   ],
-   "fingerprint": "c29033844c36",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "132503b0d97f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -24,7 +22,7 @@
   "2": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "ba62ca37bf48",
+   "fingerprint": "d7e2a7e34d6a",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -41,11 +39,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(ii): a clipped fragment of the printed heading \"Question 3 continued\" sits between the question text and Diagram 1 (half of the line is cut off at the edge). Harmless, but it is stray text."
-   ],
-   "fingerprint": "092a8fa1c92d",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "cd1f7c018363",
    "kinds": {
     "3(i)": "calc",
     "3(ii)": "draw"
@@ -62,9 +58,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c76256f8d792",
+   "fingerprint": "01f04e04f06f",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -87,7 +83,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "2ef430067966",
+   "fingerprint": "d086652e3171",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -111,7 +107,7 @@
   "6": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "09c1091e6031",
+   "fingerprint": "6faa2788f48e",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -135,7 +131,7 @@
   "7": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "ae16159c30d0",
+   "fingerprint": "bc85fb4b6b26",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",
@@ -159,7 +155,7 @@
   "8": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "0d25bbca1acb",
+   "fingerprint": "16fe59a55876",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -181,11 +177,9 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
-   "concerns": [
-    "9(b): the 9(b) QUESTION crop also contains Diagram 2 and its Copy of Diagram 2 (the figures belonging to part (c)), plus the blank answer-space labels (a), (b)(i), (b)(ii), (c)(i), (c)(ii) between the diagrams. 9(c) refers to Diagram 2 but its own crop has no figure, so the diagram it needs sits only in the 9(b) crop."
-   ],
-   "fingerprint": "21fb1b5d11c6",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "f6393ce12726",
    "kinds": {
     "9(a)": "short",
     "9(b)": "draw",

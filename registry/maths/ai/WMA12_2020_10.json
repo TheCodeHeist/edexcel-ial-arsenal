@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f6c062611a04",
+   "fingerprint": "b6627d7b3fc1",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,7 +20,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7f5ffc3ea4d8",
+   "fingerprint": "313e36bb82df",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc"
@@ -37,7 +37,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "6e3b22277b03",
+   "fingerprint": "6968e61b35df",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -63,7 +63,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "030efc30efda",
+   "fingerprint": "283b11df149a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -83,9 +83,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "b76f7a82bc74",
+   "fingerprint": "0902911403db",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -115,7 +115,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ed6b3b791f2b",
+   "fingerprint": "bc7cc8de1d70",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -134,7 +134,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c79a7b6b9a64",
+   "fingerprint": "35a92afdcc77",
    "kinds": {
     "7(i)": "calc",
     "7(ii)": "calc"
@@ -149,9 +149,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "d1036f2441a8",
+   "fingerprint": "9820bc5282d3",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -170,11 +170,11 @@
    }
   },
   "9": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [
-    "9(ii)(a): the mark-scheme rows open with two blocks that belong to part (i): \"Alternative for first 3 marks\" (log3(x+5)-4=log3(2x-1) ... x+5/81=2x-1) and the boxed \"(a) Special Case\" (x=86/161); these are alternative methods after 9(i)'s subtotal and should stay with 9(i), not (ii)(a)"
+    "9(ii)(a): mark scheme rows include Alternative for first 3 marks and (a) Special Case for part 9(i) (the log_3 equation), which belong to part 9(i)."
    ],
-   "fingerprint": "437e787c6a96",
+   "fingerprint": "45930147e7cd",
    "kinds": {
     "9(i)": "calc",
     "9(ii)(a)": "calc",

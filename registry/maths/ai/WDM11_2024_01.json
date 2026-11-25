@@ -1,12 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
-   "concerns": [
-    "1(a): the mark-scheme network diagram is cut off at top and bottom: the 1(a) MS crop is only a thin strip showing the lower halves of the event boxes (13, 18, 24 and 0) with arc labels clipped through, so the completed early/late times for the upper boxes are not visible; the rest of the diagram is missing.",
-    "1(d): the cascade chart in the mark scheme is cut off at the bottom: the K bar is cut through and the L row (and the end of the chart) is missing from the 1(d) MS crop, so the solution chart is incomplete."
-   ],
-   "fingerprint": "e729006a0451",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "f523b031cc80",
    "kinds": {
     "1(a)": "draw",
     "1(b)": "calc",
@@ -35,7 +32,7 @@
   "2": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "8a642cfc2d7f",
+   "fingerprint": "13a89f565083",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -64,7 +61,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f3c4b8b8f902",
+   "fingerprint": "08a446f66260",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -83,9 +80,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "f6eea5a6821f",
+   "fingerprint": "bd8432af1b67",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "short"
@@ -101,9 +98,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "118adfbcc2a7",
+   "fingerprint": "8dd56bafd9b1",
    "kinds": {
     "5": "calc"
    },
@@ -114,11 +111,12 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "6(b)/6(c): the 6(c) mark-scheme crop starts with the alternative middle-left quick-sort table (pivots 35, 18, 11 25, ...), which belongs to 6(b); the 6(b) MS crop ends after the middle-right table and only 6(c) rows B1, dB1 follow, so part of (b)'s solution sits under (c) (the (c) rows themselves, B1 dB1 = 2 marks, are complete)."
+    "6(a): mark scheme includes the first row (M1, middle right pivot 18) belonging to 6(b)",
+    "6(b): mark scheme is missing its first row (M1, middle right pivot 18), which is placed in 6(a)"
    ],
-   "fingerprint": "0491566ae254",
+   "fingerprint": "17e5c670c0b5",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -137,11 +135,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
-   "concerns": [
-    "7(c)/7(d): the mark-scheme graph for (c) is cut through horizontally: its upper part (y from 130 down to about 35) is at the bottom of the 7(c) MS crop and the lower part (y from 30 to 0, x-axis, feasible region R) is at the top of the 7(d) MS crop, so (c) shows an incomplete graph and (d) starts with a fragment of (c)'s graph above its own rows."
-   ],
-   "fingerprint": "2f1dd7717edc",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "6946ee475e00",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "2035feefc85f",
+   "fingerprint": "824a247b1f04",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -24,7 +24,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "cfa645ea4413",
+   "fingerprint": "8e0107209760",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -40,9 +40,9 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "07457ffb13b2",
+   "fingerprint": "14c0770c2ad5",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -68,9 +68,9 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "7e465d13304d",
+   "fingerprint": "d3e5f9b8c1a0",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -92,7 +92,7 @@
   "4": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "f64c0fa58a2a",
+   "fingerprint": "81f7bdb878b2",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -108,16 +108,19 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "64ce045697ff",
+   "at": "2026-11-25",
+   "concerns": [
+    "5(i): MARK SCHEME rows includes the \"Alt(ii)\" row (substitution method for integrating x(x^2+3)^7), which belongs to 5(ii).",
+    "5(ii): MARK SCHEME rows is missing its \"Alt(ii)\" row, which was placed under 5(i) instead."
+   ],
+   "fingerprint": "6baaccfd9b64",
    "kinds": {
     "5(i)": "calc",
     "5(ii)": "calc"
    },
    "topics": {
     "5(i)": [
-     "P3.5.1",
+     "P3.5.2",
      "P2.8.1"
     ],
     "5(ii)": [
@@ -128,7 +131,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "b5517330445c",
+   "fingerprint": "99517148fa8d",
    "kinds": {
     "6(i)": "calc",
     "6(ii)": "calc"
@@ -147,7 +150,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0a75e5755c86",
+   "fingerprint": "9da8f539d942",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -166,9 +169,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "acaf2b5a195b",
+   "fingerprint": "adb8049aa0da",
    "kinds": {
     "8(a)": "draw",
     "8(b)": "calc",
@@ -191,7 +194,7 @@
   "9": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "bdfc7f9fd9a4",
+   "fingerprint": "eaff46fef003",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

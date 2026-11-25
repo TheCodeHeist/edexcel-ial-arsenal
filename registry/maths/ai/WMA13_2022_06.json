@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d58aae2bb255",
+   "fingerprint": "40990c38d8aa",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,7 +21,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "58500b6c0d8c",
+   "fingerprint": "86fbb0cadfd6",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -43,7 +43,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "baf75e5f5c0d",
+   "fingerprint": "5815fa9c4cd4",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -61,7 +61,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "778e80804ec2",
+   "fingerprint": "f910b2db6c75",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -81,9 +81,11 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
-   "concerns": [],
-   "fingerprint": "cb2b6cfe244c",
+   "at": "2026-11-25",
+   "concerns": [
+    "5(c): examiners' notes at the bottom cut off after the first A1 note (A1 (k =) 3.6 oe), missing the note for the second A1 mark"
+   ],
+   "fingerprint": "19eaff0b9bb2",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -103,11 +105,11 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "6(a): first line of examiners notes (A1 k > 3.6 or eg k > 18/5...) belongs to Question 5"
+    "6(a): top of Question 6 examiners notes contains a stray line from Q5(c) (A1 k > 3.6 or eg k > 18/5...)"
    ],
-   "fingerprint": "fc0d06e98a1f",
+   "fingerprint": "6e568a482e55",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -132,9 +134,9 @@
    }
   },
   "7": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "aa21deb46251",
+   "fingerprint": "b498209ebe08",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -152,9 +154,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "7d88ac5c0423",
+   "fingerprint": "368713a478d9",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -178,7 +180,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7dfe1eabc421",
+   "fingerprint": "c24a2978a51e",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

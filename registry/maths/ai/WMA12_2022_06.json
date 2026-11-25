@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "44ad8edaaaf5",
+   "fingerprint": "116b83f5200a",
    "kinds": {
     "1": "calc"
    },
@@ -14,9 +14,11 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "18801825702d",
+   "at": "2026-11-25",
+   "concerns": [
+    "10(c): mark-scheme rows crop includes Q10 notes and then stray \"Some more unusual methods for 3ii\" (Way 5, Way 6, Way 7) belonging to Question 3(ii); Question 10 examiners NOTES block only contains the end of 3(ii) Way 7"
+   ],
+   "fingerprint": "488f6abb86b2",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -40,7 +42,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "172e2b67689a",
+   "fingerprint": "b38acdcc9975",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -60,11 +62,11 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "3(ii): the mark-scheme rows begin with the \"Notes for part (i)\" block (M1/A1 guidance for the counterexample), which belongs to 3(i), not 3(ii)"
+    "3(ii): missing the unusual methods section (Way 5, Way 6, Way 7) for 3(ii), which was placed at the end of Question 10 instead"
    ],
-   "fingerprint": "63d33c33dbf4",
+   "fingerprint": "3557893923f2",
    "kinds": {
     "3(i)": "short",
     "3(ii)": "calc"
@@ -80,9 +82,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "3d059fda14f0",
+   "fingerprint": "bc0736e2ec1c",
    "kinds": {
     "4": "calc"
    },
@@ -95,9 +97,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c7f6b2db63e2",
+   "fingerprint": "16831055e56a",
    "kinds": {
     "5": "calc"
    },
@@ -109,9 +111,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "3e3fbc1aa51b",
+   "fingerprint": "5ff416f2bccf",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -130,9 +132,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "e8c74cdc8154",
+   "fingerprint": "e30a806325b6",
    "kinds": {
     "7": "calc"
    },
@@ -146,7 +148,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "618f775cdef8",
+   "fingerprint": "91aa17e8e83f",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -163,7 +165,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "82bb07cff3c0",
+   "fingerprint": "6307da7fd998",
    "kinds": {
     "9(a)": "draw",
     "9(b)": "calc",

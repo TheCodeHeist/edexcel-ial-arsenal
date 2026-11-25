@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "2b8029983e03",
+   "fingerprint": "060bede58944",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -24,7 +24,7 @@
   "2": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "6cfa59806ff2",
+   "fingerprint": "dc53e5095359",
    "kinds": {
     "2": "calc"
    },
@@ -38,7 +38,7 @@
   "3": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "2bfd0ea10799",
+   "fingerprint": "c57a0d1c7734",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -55,7 +55,7 @@
   "4": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "764311a88bc2",
+   "fingerprint": "d9030e51dcb0",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -72,9 +72,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "5c736911d5bb",
+   "fingerprint": "6589e33a554e",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -98,9 +98,11 @@
    }
   },
   "6": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "efa031336dfb",
+   "at": "2026-11-25",
+   "concerns": [
+    "6(c): mark-scheme rows include 6(a) ALT way which belongs to 6(a)"
+   ],
+   "fingerprint": "72fe73fcf8f2",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -120,9 +122,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "baaf5ed39e55",
+   "fingerprint": "12b4e3689703",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -145,7 +147,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "769caeeaf177",
+   "fingerprint": "b6c438f6fbe4",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -165,9 +167,9 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "8e4b1349af1d",
+   "fingerprint": "ccd379dc19ab",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

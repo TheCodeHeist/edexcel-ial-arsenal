@@ -1,13 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "1(a)/1(b): mark-scheme rows split wrongly: the first two lines of the middle-right quick-sort table (pivot 30; 33, 18; M1) sit at the bottom of the 1(a) MS crop, and the 1(b) MS crop starts at the third line of that table, so (a) carries part of (b) and the (b) table is cut through.",
-    "1(c): the 1(c) MS crop starts with the middle-left quick-sort table (pivots 30; 31, 14; ... sort), which belongs to 1(b), above the real 1(c) rows (M1 A1, 2 marks).",
-    "Examiners' notes at the bottom (end of image): a fragment of another question's mark scheme (a network diagram with arc labels 70, 77, 91, 84, 56, 203 and marks M1, A1 (ADBCE)), i.e. the start of Q2's MS, is included under the notes for Question 1."
+    "1(a): mark scheme includes the first row (M1, middle right pivot 30) belonging to 1(b)",
+    "1(b): mark scheme is missing its first row (M1, middle right pivot 30), which is placed in 1(a)"
    ],
-   "fingerprint": "8cd1ab3d0ac8",
+   "fingerprint": "b61b6bac8c6f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -26,12 +25,9 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
-   "concerns": [
-    "2(a): the mark-scheme Dijkstra diagram is cut off at the top: the 2(a) MS crop shows only the lower strip of the network (boxes (0), 182 154 147, 231 161, 294 287 273, 427 420 357, D and H) with labels clipped through, so the working values at B, C, E, F, G and the first marks (M1, A1, A1) are missing; only A1 (HF), A1ft (GJ), A1 and A1ft rows are visible, so the marks do not add up to 6.",
-    "End of image: a fragment of the next question's mark scheme (a table with values 1 980, 462, 914 760, 30/7, 7/2 ... and M1) appears under the examiners' notes for Question 2; it belongs to Q3."
-   ],
-   "fingerprint": "f9c8083221ac",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "a301aaf618d9",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -50,12 +46,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(a): Mark scheme table is cut off at the top, missing the column headers, the first two rows of the trace table, and the first M1 mark (only A1, A1ft, A1 are shown for a 4-mark part).",
-    "3(b): Examiners' notes section at the bottom includes a stray cropped fragment of Question 4's mark scheme (top of an activity network diagram with M1 A1 A1)."
-   ],
-   "fingerprint": "a14010267254",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "a1fd0013d80b",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -70,12 +63,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
-   "concerns": [
-    "4(a): Mark scheme diagram is cropped at the top, missing the upper half of the activity network (activities A, B, D, E, H, I and M1, A1, A1 marks, which appear at the bottom of Q3's notes).",
-    "4(a): Examiners' notes row a4A1 is sliced horizontally through the last line of text (five dummies ...) at the page break."
-   ],
-   "fingerprint": "96d3c04ca458",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "0602982ce8fd",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "short"
@@ -93,7 +83,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "7a692b5c7d96",
+   "fingerprint": "2f21435e0729",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -114,7 +104,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "9e092706b45c",
+   "fingerprint": "3aa166220dc7",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -149,14 +139,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
-   "concerns": [
-    "7(a): mark-scheme rows run on into the top of (b)s model event-times diagram (boxes 8, 27, D(17) with M1 A1), so (a) rows carry (b) content and marks beyond its 1",
-    "7(b): mark-scheme rows start mid-diagram (diagram cut through at the top, upper boxes and arcs sliced), the upper part is in the (a) rows",
-    "7(d): mark-scheme rows run on into the top of (e)s model Gantt chart (rows A,F,I,L,P / B / C / D / E with M1 A1), so (d) rows carry (e) content and marks beyond its 2",
-    "7(e): mark-scheme rows start mid-chart (only lower rows G,H,J,K,M shown, top cut through) with the remaining marks; the upper part of the Gantt chart is in the (d) rows"
-   ],
-   "fingerprint": "be9b815d6391",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "5d3faf71e8c8",
    "kinds": {
     "7(a)": "short",
     "7(b)": "draw",
@@ -187,9 +172,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "855b84449888",
+   "fingerprint": "d486f7ac9bf1",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

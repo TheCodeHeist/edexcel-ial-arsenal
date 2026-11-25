@@ -73,9 +73,9 @@
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 56,
+        "y0": 56.5,
         "x1": 560.0,
-        "y1": 176
+        "y1": 176.5
        }
       },
       {
@@ -85,9 +85,9 @@
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 176,
+        "y0": 176.5,
         "x1": 560.0,
-        "y1": 351
+        "y1": 351.5
        }
       }
      ],
@@ -124,19 +124,19 @@
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 56,
+        "y0": 56.5,
         "x1": 560.0,
-        "y1": 176
+        "y1": 176.5
        }
       },
       {
        "src": "maths/WME01_2024_10/q1_b_ms_2.webp",
        "w": 1092,
-       "h": 459,
+       "h": 458,
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 351,
+        "y0": 351.5,
         "x1": 560.0,
         "y1": 571.1
        }
@@ -194,13 +194,13 @@
       {
        "src": "maths/WME01_2024_10/q2_a_ms.webp",
        "w": 1092,
-       "h": 1434,
+       "h": 1435,
        "region": {
         "page": 8,
         "x0": 36.0,
-        "y0": 56,
+        "y0": 56.5,
         "x1": 560.0,
-        "y1": 744
+        "y1": 744.5
        }
       }
      ],
@@ -233,11 +233,11 @@
       {
        "src": "maths/WME01_2024_10/q2_b_ms_1.webp",
        "w": 1092,
-       "h": 70,
+       "h": 69,
        "region": {
         "page": 8,
         "x0": 36.0,
-        "y0": 744,
+        "y0": 744.5,
         "x1": 560.0,
         "y1": 777.4
        }
@@ -245,11 +245,11 @@
       {
        "src": "maths/WME01_2024_10/q2_b_ms_2.webp",
        "w": 1092,
-       "h": 776,
+       "h": 779,
        "region": {
         "page": 9,
         "x0": 36.0,
-        "y0": 40,
+        "y0": 38.6,
         "x1": 560.0,
         "y1": 412.1
        }
@@ -263,13 +263,13 @@
     {
      "src": "maths/WME01_2024_10/q2_notes.webp",
      "w": 1092,
-     "h": 59,
+     "h": 66,
      "region": {
       "page": 10,
       "x0": 36.0,
-      "y0": 40,
+      "y0": 38.6,
       "x1": 560.0,
-      "y1": 67.7
+      "y1": 70
      }
     }
    ],
@@ -324,9 +324,9 @@
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 84,
+        "y0": 84.5,
         "x1": 560.0,
-        "y1": 393
+        "y1": 393.5
        }
       }
      ],
@@ -359,13 +359,13 @@
       {
        "src": "maths/WME01_2024_10/q3_b_ms.webp",
        "w": 1092,
-       "h": 161,
+       "h": 162,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 393,
+        "y0": 393.5,
         "x1": 560.0,
-        "y1": 469.5
+        "y1": 470.5
        }
       }
      ],
@@ -398,11 +398,11 @@
       {
        "src": "maths/WME01_2024_10/q3_c_ms_1.webp",
        "w": 1092,
-       "h": 634,
+       "h": 632,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 469.5,
+        "y0": 470.5,
         "x1": 560.0,
         "y1": 773.4
        }
@@ -410,11 +410,11 @@
       {
        "src": "maths/WME01_2024_10/q3_c_ms_2.webp",
        "w": 1092,
-       "h": 325,
+       "h": 328,
        "region": {
         "page": 11,
         "x0": 36.0,
-        "y0": 40,
+        "y0": 38.6,
         "x1": 560.0,
         "y1": 195.6
        }
@@ -424,21 +424,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WME01_2024_10/q3_notes.webp",
-     "w": 1092,
-     "h": 558,
-     "region": {
-      "page": 12,
-      "x0": 36.0,
-      "y0": 59.8,
-      "x1": 560.0,
-      "y1": 327
-     }
-    }
-   ],
-   "check": "machine"
+   "check": "pending"
   },
   {
    "id": "WME01_2024_10_q4",
@@ -481,7 +467,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2024_10/q4_a_ms.webp",
+       "w": 1092,
+       "h": 566,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 56.5,
+        "x1": 560.0,
+        "y1": 327.5
+       }
+      }
+     ],
      "text": "(a) show that V = 3.2 (3)",
      "kindGuessed": "calc"
     },
@@ -515,9 +514,9 @@
        "region": {
         "page": 12,
         "x0": 36.0,
-        "y0": 327,
+        "y0": 327.5,
         "x1": 560.0,
-        "y1": 404
+        "y1": 404.5
        }
       }
      ],
@@ -548,6 +547,18 @@
       {
        "src": "maths/WME01_2024_10/q4_c_2.webp",
        "w": 1090,
+       "h": 524,
+       "region": {
+        "page": 11,
+        "x0": 36,
+        "y0": 78.9,
+        "x1": 559,
+        "y1": 329.8
+       }
+      },
+      {
+       "src": "maths/WME01_2024_10/q4_c_3.webp",
+       "w": 1090,
        "h": 526,
        "region": {
         "page": 13,
@@ -562,17 +573,17 @@
       {
        "src": "maths/WME01_2024_10/q4_c_ms.webp",
        "w": 1092,
-       "h": 706,
+       "h": 705,
        "region": {
         "page": 12,
         "x0": 36.0,
-        "y0": 404,
+        "y0": 404.5,
         "x1": 560.0,
         "y1": 742.4
        }
       }
      ],
-     "text": "Cyclist P continues to cycle along the road in the same direction at the same constant speed, V m s –1 When t = 6, a second cyclist Q sets off from A and travels in the same direction as P along the same road. She accelerates for T seconds until her speed is 3.6 m s –1 She then travels at constant speed 3.6 m s –1 Cyclist Q catches up with P when t = 54 (c) On Figure 2, on page 11, sketch a speed-time graph showing the journeys of both cyclists, for the interval 0 t  54 (3) Only use this copy of Figure 2 if you need to redraw your answer to part (c). speed –1) (m s V O 9 42 t (seconds) Copy of Figure 2",
+     "text": "Cyclist P continues to cycle along the road in the same direction at the same constant speed, V m s –1 When t = 6, a second cyclist Q sets off from A and travels in the same direction as P along the same road. She accelerates for T seconds until her speed is 3.6 m s –1 She then travels at constant speed 3.6 m s –1 Cyclist Q catches up with P when t = 54 (c) On Figure 2, on page 11, sketch a speed-time graph showing the journeys of both cyclists, for the interval 0 t  54 (3) speed –1) (m s V O 9 42 t (seconds) Figure 2 A copy of Figure 2 is on page 13 if you need to redraw your answer to part (c). Only use this copy of Figure 2 if you need to redraw your answer to part (c). speed –1) (m s V O 9 42 t (seconds) Copy of Figure 2",
      "kindGuessed": "draw"
     },
     {
@@ -585,7 +596,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME01_2024_10/q4_d_1.webp",
+       "src": "maths/WME01_2024_10/q4_d.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -594,18 +605,6 @@
         "y0": 470.9,
         "x1": 559,
         "y1": 506.4
-       }
-      },
-      {
-       "src": "maths/WME01_2024_10/q4_d_2.webp",
-       "w": 1090,
-       "h": 524,
-       "region": {
-        "page": 11,
-        "x0": 36,
-        "y0": 78.9,
-        "x1": 559,
-        "y1": 329.8
        }
       }
      ],
@@ -623,17 +622,14 @@
        }
       }
      ],
-     "text": "(d) Find the value of T (5) speed –1) (m s V O 9 42 t (seconds) Figure 2 A copy of Figure 2 is on page 13 if you need to redraw your answer to part (c).",
+     "text": "(d) Find the value of T (5)",
      "kindGuessed": "calc"
     }
    ],
    "check": "pending",
    "risks": [
     "4(c): text after the marks",
-    "4(c): runs across pages",
-    "4(d): text after the marks",
-    "4(d): runs across pages",
-    "4(a): no mark-scheme rows (scheme has ['4(b)', '4(c)', '4(d)'])"
+    "4(c): runs across pages"
    ]
   },
   {
@@ -686,9 +682,9 @@
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 56,
+        "y0": 56.5,
         "x1": 560.0,
-        "y1": 212
+        "y1": 212.5
        }
       }
      ],
@@ -726,9 +722,9 @@
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 212,
+        "y0": 212.5,
         "x1": 560.0,
-        "y1": 459.9
+        "y1": 460.5
        }
       }
      ],
@@ -766,9 +762,9 @@
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 459.9,
+        "y0": 460.5,
         "x1": 560.0,
-        "y1": 548
+        "y1": 548.5
        }
       }
      ],
@@ -802,11 +798,11 @@
       {
        "src": "maths/WME01_2024_10/q5_d_ms.webp",
        "w": 1092,
-       "h": 476,
+       "h": 475,
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 548,
+        "y0": 548.5,
         "x1": 560.0,
         "y1": 776.0
        }
@@ -864,13 +860,13 @@
       {
        "src": "maths/WME01_2024_10/q6_a_ms.webp",
        "w": 1092,
-       "h": 1078,
+       "h": 1020,
        "region": {
         "page": 15,
         "x0": 36.0,
-        "y0": 78,
+        "y0": 78.5,
         "x1": 560.0,
-        "y1": 595
+        "y1": 567.5
        }
       }
      ],
@@ -905,11 +901,11 @@
       {
        "src": "maths/WME01_2024_10/q6_b_ms_1.webp",
        "w": 1092,
-       "h": 395,
+       "h": 452,
        "region": {
         "page": 15,
         "x0": 36.0,
-        "y0": 595,
+        "y0": 567.5,
         "x1": 560.0,
         "y1": 784.2
        }
@@ -917,11 +913,11 @@
       {
        "src": "maths/WME01_2024_10/q6_b_ms_2.webp",
        "w": 1092,
-       "h": 395,
+       "h": 398,
        "region": {
         "page": 16,
         "x0": 36.0,
-        "y0": 40,
+        "y0": 38.6,
         "x1": 560.0,
         "y1": 229.0
        }
@@ -982,9 +978,9 @@
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 56,
+        "y0": 56.5,
         "x1": 560.0,
-        "y1": 190
+        "y1": 190.5
        }
       }
      ],
@@ -1022,9 +1018,9 @@
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 190,
+        "y0": 190.5,
         "x1": 560.0,
-        "y1": 373
+        "y1": 373.5
        }
       }
      ],
@@ -1057,11 +1053,11 @@
       {
        "src": "maths/WME01_2024_10/q7_c_ms_1.webp",
        "w": 1092,
-       "h": 854,
+       "h": 853,
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 373,
+        "y0": 373.5,
         "x1": 560.0,
         "y1": 782.6
        }
@@ -1069,11 +1065,11 @@
       {
        "src": "maths/WME01_2024_10/q7_c_ms_2.webp",
        "w": 1092,
-       "h": 658,
+       "h": 661,
        "region": {
         "page": 18,
         "x0": 36.0,
-        "y0": 40,
+        "y0": 38.6,
         "x1": 560.0,
         "y1": 355.3
        }

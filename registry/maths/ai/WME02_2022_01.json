@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
-   "concerns": [
-    "1(a): examiners' NOTES section contains Question 2a (Equation of motion for car and trailer), which belongs to Question 2."
-   ],
-   "fingerprint": "3b32d8f5a56d",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "da44961d17d3",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,12 +19,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "2(a): no MARK SCHEME rows at all for this part (marks 5 unaccounted); its rows (M1 A1 A1 M1 A1, P=12.6) were wrongly placed in question 1 examiners NOTES block instead",
-    "No examiners notes block on this question"
+    "2(a): mark-scheme rows (2.a, 5 marks) are missing from 2(a) and placed at the top of 2(b) mark-scheme rows",
+    "2(b): mark-scheme crop includes 2(a) mark-scheme rows at the top"
    ],
-   "fingerprint": "c214b0016d4f",
+   "fingerprint": "eeaa0705c925",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -42,9 +40,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "24bbff871874",
+   "fingerprint": "af8e3224572f",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -62,7 +60,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "65b45a1ae789",
+   "fingerprint": "d30552f5a25c",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -78,9 +76,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c1f926be9cfb",
+   "fingerprint": "bd4112278920",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -101,29 +99,27 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
-   "concerns": [
-    "6(a): question crop is cut off at the top - the numerator 53 of the fraction d = 53a/(2(7+pi)) is clipped (only the bottom of the digits shows)"
-   ],
-   "fingerprint": "240d88e043da",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "6abb52301e04",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
    },
    "topics": {
     "6(a)": [
-     "M2.2.1"
+     "M2.2.2"
     ],
     "6(b)": [
      "M2.2.3",
-     "M2.2.1"
+     "M2.2.2"
     ]
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "dedbb966489f",
+   "fingerprint": "bb343840b829",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

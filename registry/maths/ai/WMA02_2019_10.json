@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Examiners NOTES: bottom edge clips Extra Note 3 (\"Answers without working can score all marks ...\") mid-line, so the note is cut off"
-   ],
-   "fingerprint": "8fc195ae284e",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "f17ac68a8a0f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,11 +18,11 @@
    }
   },
   "10": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "Examiners NOTES: the strip shows only the top of a table header row (Question / Scheme / Notes / Marks), cut off at the bottom, with no actual notes visible"
+    "10: examiners notes section contains only a stray empty \"Question Number | Scheme | Notes | Marks\" table header"
    ],
-   "fingerprint": "c4a72e08a9b4",
+   "fingerprint": "31914a3d8cda",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -39,9 +37,11 @@
    }
   },
   "11": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "4bb18f8e5401",
+   "at": "2026-11-25",
+   "concerns": [
+    "11: stray empty \"Question Number | Scheme | Notes | Marks\" table header at the bottom of the examiners notes"
+   ],
+   "fingerprint": "35ae6250972d",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -58,7 +58,7 @@
   "12": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "4a845bd9d2f2",
+   "fingerprint": "074d4649ef66",
    "kinds": {
     "12(a)": "calc",
     "12(b)": "calc",
@@ -85,7 +85,7 @@
   "13": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "559cb6d1123d",
+   "fingerprint": "dfabf04aafb3",
    "kinds": {
     "13(a)": "short",
     "13(b)": "calc",
@@ -108,12 +108,9 @@
    }
   },
   "14": {
-   "at": "2026-11-20",
-   "concerns": [
-    "14(a): below its mark scheme (after the (5) subtotal) sit stray lines from the examiners notes for (b) - a clipped \"using sqrt(a^2+b^2)\", \"A1: a = sqrt137\", \"A1: -sqrt137 < a < sqrt137\" - and the Pearson Education Limited page footer; none belongs to 14(a)",
-    "14(b): after the three Ways, the rows run into the examiners note text (Via Cartesian coordinates ... \"Alternatively ... distance from (12.5,15) to ax+by+c=0 using |a alpha+b beta+c|\") which is cut off at the bottom edge; no separate NOTES section, so the end of the notes is missing"
-   ],
-   "fingerprint": "f0f94188c050",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "7ffe41c40b88",
    "kinds": {
     "14(a)": "calc",
     "14(b)": "calc"
@@ -130,11 +127,9 @@
    }
   },
   "2": {
-   "at": "2026-11-21",
-   "concerns": [
-    "2(c): the last note in the mark-scheme A1 row is cut at the bottom (\"Note that 135x^2 is A0 ... the question demands the coefficient,\" ends mid-sentence) (minor)."
-   ],
-   "fingerprint": "afc232de2348",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "3b75af8dd5b2",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -153,9 +148,9 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "38a9f66ce2e8",
+   "fingerprint": "437b2f33ca14",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -180,7 +175,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0531e770379d",
+   "fingerprint": "20ac761d6fd9",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -195,11 +190,9 @@
    }
   },
   "5": {
-   "at": "2026-11-21",
-   "concerns": [
-    "5(b): in the mark-scheme crop the A1 row (\"25/16 oe following h = 25t^2/(1+4t)^2 oe\") is cut at the bottom: the denominator (1+4t)^2 of the fraction is sliced through, and a thin clipped sliver shows at the top-right above the M1 row."
-   ],
-   "fingerprint": "2f35a8ac8134",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "32f2a85a5c27",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -214,11 +207,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
-   "concerns": [
-    "6(b): mark scheme rows run on into the Extra Notes text and end at the clipped top of a \"6 alt 1\" table header, so the alternative (b) schemes are cut off at the bottom and no examiners NOTES section appears; the (6) subtotal row of (b) is not shown"
-   ],
-   "fingerprint": "0534ebf416a1",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "d02cc61923d7",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -235,9 +226,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "f414aacb4481",
+   "fingerprint": "d886049d516b",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -253,9 +244,11 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "2fa41f3556b5",
+   "at": "2026-11-25",
+   "concerns": [
+    "8: stray empty \"Question Number | Scheme | Notes | Marks\" table header at the bottom of the examiners notes"
+   ],
+   "fingerprint": "6c1dc44f4298",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -275,9 +268,11 @@
    }
   },
   "9": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "aca2ebbf63bc",
+   "at": "2026-11-25",
+   "concerns": [
+    "9: stray empty \"Question Number | Scheme | Notes | Marks\" table header at the bottom of the examiners notes"
+   ],
+   "fingerprint": "71cdbd2d9b7d",
    "kinds": {
     "9(a)": "draw",
     "9(b)": "calc"

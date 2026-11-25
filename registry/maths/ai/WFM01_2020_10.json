@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "058d31adfdce",
+   "fingerprint": "b1e8a7b7515e",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -24,7 +24,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "f421b6d87dea",
+   "fingerprint": "865def153eba",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc",
@@ -44,9 +44,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "61743e1f5821",
+   "fingerprint": "c28de463925c",
    "kinds": {
     "3(a)": "short",
     "3(b)": "draw",
@@ -69,7 +69,7 @@
   "4": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "3fbbb8de5194",
+   "fingerprint": "5f8ed9439dbe",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -84,9 +84,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "b919753842a3",
+   "fingerprint": "23c6e90ae502",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -103,12 +103,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
-   "concerns": [
-    "6(i)(b): bottom of the denominators in the bottom row of the mark scheme matrix is slightly clipped",
-    "6(i)(c): stray fragment from the bottom of the 6(i)(b) mark scheme matrix appears at the top of the mark scheme crop"
-   ],
-   "fingerprint": "69d8f823ebea",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "c7a4f1280255",
    "kinds": {
     "6(i)(a)": "short",
     "6(i)(b)": "calc",
@@ -134,9 +131,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "4e2454c13dc8",
+   "at": "2026-11-25",
+   "concerns": [
+    "7(a): last mark-scheme row (follows (a)Way2, M1 A1 for x=16, y=24) belongs to 7(b), not 7(a)",
+    "7(b): (b) Way 2 mark-scheme block at the bottom is cut off mid-row (clipping text and missing its remaining rows/marks)"
+   ],
+   "fingerprint": "89bccc9a8272",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -158,9 +158,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "cce4223e5de0",
+   "fingerprint": "00aeb6aa1a30",
    "kinds": {
     "8(i)": "calc",
     "8(ii)": "calc"

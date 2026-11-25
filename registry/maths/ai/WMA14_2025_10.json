@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "72e512a2e8bd",
+   "fingerprint": "d301f2aa4e72",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "short",
@@ -24,7 +24,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a7a4393b5595",
+   "fingerprint": "e2612250eeaa",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc"
@@ -39,11 +39,9 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
-   "concerns": [
-    "2: the mark-scheme rows start with stray text from another question (examiners notes about binomial \"|x| < 2/5\" and \"(c) B1ft: (4/(2+5x))^2 ≈ 4-20x+75x^2\"), above the real Q2 table; the real rows follow, and the table bottom edge/(5) total is slightly cut off"
-   ],
-   "fingerprint": "a232db83e186",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "d58fb935104c",
    "kinds": {
     "2": "calc"
    },
@@ -57,7 +55,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "021e0c14e164",
+   "fingerprint": "256688086f09",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short"
@@ -75,7 +73,7 @@
   "4": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "dcb492ebbd48",
+   "fingerprint": "05682843292e",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -91,9 +89,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c2a8430c6f90",
+   "fingerprint": "30146f290ee0",
    "kinds": {
     "5": "calc"
    },
@@ -107,7 +105,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "fbb76d078aef",
+   "fingerprint": "5ec30f61a23c",
    "kinds": {
     "6": "calc"
    },
@@ -121,7 +119,7 @@
   "7": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d6a2c9af344d",
+   "fingerprint": "920fb7ae9128",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -138,9 +136,11 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "24ca89d9bca2",
+   "at": "2026-11-25",
+   "concerns": [
+    "8(b): bottom of mark-scheme box clips the question total (6 marks) below (1) leaving a stray fragment"
+   ],
+   "fingerprint": "df79b615093f",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "short"
@@ -159,7 +159,7 @@
   "9": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a92ad043015b",
+   "fingerprint": "24b282bb0255",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

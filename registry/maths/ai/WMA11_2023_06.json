@@ -1,23 +1,23 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "ebc4228bddbd",
+   "fingerprint": "b9ab4c42d89c",
    "kinds": {
     "1": "calc"
    },
    "topics": {
     "1": [
      "P1.1.9",
-     "P1.1.4"
+     "P1.1.3"
     ]
    }
   },
   "10": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c6b635f850f0",
+   "fingerprint": "28dfb5925519",
    "kinds": {
     "10(a)(i)": "short",
     "10(a)(ii)": "calc",
@@ -50,7 +50,7 @@
   "2": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "a47ba8cc6a51",
+   "fingerprint": "1ac0aedaf5ae",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -72,7 +72,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "72b5fab236d0",
+   "fingerprint": "1bc3c6ff2cbf",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "draw"
@@ -91,7 +91,7 @@
   "4": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "b3eb7df36982",
+   "fingerprint": "b016c60c42c7",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -108,7 +108,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "201ee88dd06c",
+   "fingerprint": "0996cb16d8d1",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -131,7 +131,7 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "89db7442c014",
+   "fingerprint": "06e7e2c51b83",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -151,9 +151,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "4613a60bec2c",
+   "at": "2026-11-25",
+   "concerns": [
+    "7(b): examiners' notes at the bottom include Question 8's general guidance (\"Question 8 – General Guidance for marking\" and \"8. Scheme - No Misread\") which belongs to Question 8"
+   ],
+   "fingerprint": "b157f77cd121",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -170,12 +172,11 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "8(a): Top of 8(a) mark-scheme block contains examiners notes from Question 7(b) (Any two of the three correct inequalities...) before Question 8 general guidance and 8(a) rows.",
-    "8(b): Top of 8(b) mark-scheme block duplicates Question 7(b) examiners notes and Question 8 general guidance before 8(b) rows."
+    "8(a): examiners' notes omit \"Question 8 – General Guidance for marking\" (present in Q7 notes), leaving the second mark-scheme table for the x^(1/2) misread without its heading"
    ],
-   "fingerprint": "df08948653f0",
+   "fingerprint": "ef526e3792a6",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -195,7 +196,7 @@
   "9": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "95462e2cdf66",
+   "fingerprint": "b42c9b774a1e",
    "kinds": {
     "9(i)(a)": "short",
     "9(i)(b)": "draw",

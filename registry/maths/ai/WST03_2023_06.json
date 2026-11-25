@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "e8aa778c4623",
+   "fingerprint": "78603a04df9b",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -26,7 +26,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0a8ce3d05a04",
+   "fingerprint": "797d49f48df1",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -42,9 +42,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "ed82810ecb55",
+   "fingerprint": "d49fc84fecbf",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -71,11 +71,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
-   "concerns": [
-    "4(b): examiners' NOTES on the mark scheme is cut off at the bottom edge through the final line of text for dA1."
-   ],
-   "fingerprint": "1c39145a590c",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "08d3c3bf7d0c",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -94,7 +92,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "89b6d49b82ec",
+   "fingerprint": "6bf66dbd4577",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -116,7 +114,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "64aa82a59388",
+   "fingerprint": "9476bec141a0",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -140,9 +138,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ee6f97566cd0",
+   "at": "2026-11-25",
+   "concerns": [
+    "7(a): mark scheme crop includes the first row of 7(b) (E(A+B+D) = 85, M1) at the bottom",
+    "7(b): mark scheme crop is missing its first row (E(A+B+D) = 85, M1), which appears in 7(a) instead"
+   ],
+   "fingerprint": "3332e108c37c",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

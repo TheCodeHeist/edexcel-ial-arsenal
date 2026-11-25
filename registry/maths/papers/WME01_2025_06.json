@@ -73,9 +73,9 @@
        "region": {
         "page": 8,
         "x0": 36.0,
-        "y0": 105,
+        "y0": 105.5,
         "x1": 565.0,
-        "y1": 273
+        "y1": 273.5
        }
       }
      ],
@@ -108,11 +108,11 @@
       {
        "src": "maths/WME01_2025_06/q1_b_ms.webp",
        "w": 1102,
-       "h": 598,
+       "h": 597,
        "region": {
         "page": 8,
         "x0": 36.0,
-        "y0": 273,
+        "y0": 273.5,
         "x1": 565.0,
         "y1": 559.7
        }
@@ -122,21 +122,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WME01_2025_06/q1_notes.webp",
-     "w": 1102,
-     "h": 304,
-     "region": {
-      "page": 9,
-      "x0": 36.0,
-      "y0": 136.6,
-      "x1": 565.0,
-      "y1": 282
-     }
-    }
-   ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME01_2025_06_q2",
@@ -179,7 +165,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2025_06/q2_a_ms.webp",
+       "w": 1102,
+       "h": 280,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 133.5,
+        "x1": 565.0,
+        "y1": 267.5
+       }
+      }
+     ],
      "text": "(a) Find, in terms of i and j, the velocity of A. (2)",
      "kindGuessed": "calc"
     },
@@ -209,13 +208,13 @@
       {
        "src": "maths/WME01_2025_06/q2_b_ms.webp",
        "w": 1102,
-       "h": 659,
+       "h": 263,
        "region": {
         "page": 9,
         "x0": 36.0,
-        "y0": 282,
+        "y0": 267.5,
         "x1": 565.0,
-        "y1": 597.7
+        "y1": 393.5
        }
       }
      ],
@@ -245,16 +244,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2025_06/q2_c_ms.webp",
+       "w": 1102,
+       "h": 427,
+       "region": {
+        "page": 9,
+        "x0": 36.0,
+        "y0": 393.5,
+        "x1": 565.0,
+        "y1": 597.7
+       }
+      }
+     ],
      "text": "At time t seconds, the position vector of B is given by s metres where s = –5i + 7j + t(2i – 3j) (c) Find, to the nearest degree, the bearing of B from A when t = 5 (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): no mark-scheme rows (scheme has ['2(b)'])",
-    "2(c): no mark-scheme rows (scheme has ['2(b)'])"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME01_2025_06_q3",
@@ -305,9 +313,9 @@
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 116,
+        "y0": 116.5,
         "x1": 565.0,
-        "y1": 221
+        "y1": 221.5
        }
       }
      ],
@@ -344,9 +352,9 @@
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 221,
+        "y0": 221.5,
         "x1": 565.0,
-        "y1": 500
+        "y1": 500.5
        }
       }
      ],
@@ -379,11 +387,11 @@
       {
        "src": "maths/WME01_2025_06/q3_c_ms.webp",
        "w": 1102,
-       "h": 476,
+       "h": 475,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 500,
+        "y0": 500.5,
         "x1": 565.0,
         "y1": 727.9
        }
@@ -440,13 +448,13 @@
       {
        "src": "maths/WME01_2025_06/q4_a_ms.webp",
        "w": 1102,
-       "h": 1269,
+       "h": 383,
        "region": {
         "page": 11,
         "x0": 36.0,
-        "y0": 93,
+        "y0": 93.5,
         "x1": 565.0,
-        "y1": 701.4
+        "y1": 276.5
        }
       }
      ],
@@ -476,15 +484,25 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2025_06/q4_b_ms.webp",
+       "w": 1102,
+       "h": 886,
+       "region": {
+        "page": 11,
+        "x0": 36.0,
+        "y0": 276.5,
+        "x1": 565.0,
+        "y1": 701.4
+       }
+      }
+     ],
      "text": "The mass of the barge is 15 tonnes and the resistance to the motion of the barge is a constant force of magnitude 750 N. (b) Find the acceleration of the barge. (4)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "4(b): no mark-scheme rows (scheme has ['4(a)'])"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME01_2025_06_q5",
@@ -518,11 +536,11 @@
       {
        "src": "maths/WME01_2025_06/q5_ms.webp",
        "w": 1102,
-       "h": 1286,
+       "h": 1285,
        "region": {
         "page": 12,
         "x0": 36.0,
-        "y0": 93,
+        "y0": 93.5,
         "x1": 565.0,
         "y1": 709.5
        }
@@ -599,9 +617,9 @@
        "region": {
         "page": 13,
         "x0": 36.0,
-        "y0": 93,
+        "y0": 93.5,
         "x1": 565.0,
-        "y1": 619
+        "y1": 619.5
        }
       }
      ],
@@ -634,11 +652,11 @@
       {
        "src": "maths/WME01_2025_06/q6_b_ms.webp",
        "w": 1102,
-       "h": 335,
+       "h": 334,
        "region": {
         "page": 13,
         "x0": 36.0,
-        "y0": 619,
+        "y0": 619.5,
         "x1": 565.0,
         "y1": 779.5
        }
@@ -674,11 +692,11 @@
       {
        "src": "maths/WME01_2025_06/q6_c_ms.webp",
        "w": 1102,
-       "h": 376,
+       "h": 375,
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 71,
+        "y0": 71.5,
         "x1": 565.0,
         "y1": 250.6
        }
@@ -688,21 +706,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WME01_2025_06/q6_notes.webp",
-     "w": 1102,
-     "h": 67,
-     "region": {
-      "page": 15,
-      "x0": 36.0,
-      "y0": 90.5,
-      "x1": 565.0,
-      "y1": 122
-     }
-    }
-   ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME01_2025_06_q7",
@@ -750,13 +754,13 @@
       {
        "src": "maths/WME01_2025_06/q7_a_ms.webp",
        "w": 1102,
-       "h": 324,
+       "h": 385,
        "region": {
         "page": 15,
         "x0": 36.0,
-        "y0": 122,
+        "y0": 93.5,
         "x1": 565.0,
-        "y1": 277
+        "y1": 277.5
        }
       }
      ],
@@ -793,9 +797,9 @@
        "region": {
         "page": 15,
         "x0": 36.0,
-        "y0": 277,
+        "y0": 277.5,
         "x1": 565.0,
-        "y1": 365
+        "y1": 365.5
        }
       }
      ],
@@ -826,27 +830,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2025_06/q7_c_ms_1.webp",
+       "src": "maths/WME01_2025_06/q7_c_ms.webp",
        "w": 1102,
-       "h": 867,
+       "h": 291,
        "region": {
         "page": 15,
         "x0": 36.0,
-        "y0": 365,
+        "y0": 365.5,
         "x1": 565.0,
-        "y1": 780.6
-       }
-      },
-      {
-       "src": "maths/WME01_2025_06/q7_c_ms_2.webp",
-       "w": 1102,
-       "h": 468,
-       "region": {
-        "page": 16,
-        "x0": 36.0,
-        "y0": 67.9,
-        "x1": 565.0,
-        "y1": 292
+        "y1": 504.5
        }
       }
      ],
@@ -876,7 +868,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2025_06/q7_d_ms.webp",
+       "w": 1102,
+       "h": 469,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 504.5,
+        "x1": 565.0,
+        "y1": 729.5
+       }
+      }
+     ],
      "text": "At time T1 hours after noon, both boats are moving with the same speed. (d) Find the exact value of T1 (4)",
      "kindGuessed": "calc"
     },
@@ -903,16 +908,37 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME01_2025_06/q7_e_ms_1.webp",
+       "w": 1102,
+       "h": 108,
+       "region": {
+        "page": 15,
+        "x0": 36.0,
+        "y0": 729.5,
+        "x1": 565.0,
+        "y1": 780.6
+       }
+      },
+      {
+       "src": "maths/WME01_2025_06/q7_e_ms_2.webp",
+       "w": 1102,
+       "h": 468,
+       "region": {
+        "page": 16,
+        "x0": 36.0,
+        "y0": 67.9,
+        "x1": 565.0,
+        "y1": 292
+       }
+      }
+     ],
      "text": "At time T2 hours after noon, both boats are moving in the same direction. 2 + pT2 + q = 0 , where p and q are integers to be found. (e) Show that 3T 2 (3)",
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "7(d): no mark-scheme rows (scheme has ['7(a)', '7(b)', '7(c)'])",
-    "7(e): no mark-scheme rows (scheme has ['7(a)', '7(b)', '7(c)'])"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME01_2025_06_q8",
@@ -960,13 +986,13 @@
       {
        "src": "maths/WME01_2025_06/q8_a_ms.webp",
        "w": 1102,
-       "h": 390,
+       "h": 451,
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 122,
+        "y0": 93.5,
         "x1": 565.0,
-        "y1": 309
+        "y1": 309.5
        }
       }
      ],
@@ -1004,9 +1030,9 @@
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 309,
+        "y0": 309.5,
         "x1": 565.0,
-        "y1": 488
+        "y1": 488.5
        }
       }
      ],
@@ -1044,9 +1070,9 @@
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 488,
+        "y0": 488.5,
         "x1": 565.0,
-        "y1": 665
+        "y1": 665.5
        }
       }
      ],
@@ -1080,11 +1106,11 @@
       {
        "src": "maths/WME01_2025_06/q8_d_ms_1.webp",
        "w": 1102,
-       "h": 208,
+       "h": 207,
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 665,
+        "y0": 665.5,
         "x1": 565.0,
         "y1": 764.5
        }
@@ -1092,13 +1118,13 @@
       {
        "src": "maths/WME01_2025_06/q8_d_ms_2.webp",
        "w": 1102,
-       "h": 309,
+       "h": 311,
        "region": {
         "page": 18,
         "x0": 36.0,
         "y0": 68.0,
         "x1": 565.0,
-        "y1": 216
+        "y1": 216.5
        }
       }
      ],
@@ -1131,11 +1157,11 @@
       {
        "src": "maths/WME01_2025_06/q8_e_ms.webp",
        "w": 1102,
-       "h": 890,
+       "h": 889,
        "region": {
         "page": 18,
         "x0": 36.0,
-        "y0": 216,
+        "y0": 216.5,
         "x1": 565.0,
         "y1": 643.0
        }

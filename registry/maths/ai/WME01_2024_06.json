@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "67d079a81947",
+   "fingerprint": "148dce6b708d",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,7 +21,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "70abc2dd5c0d",
+   "fingerprint": "7c75bbd27040",
    "kinds": {
     "2": "calc"
    },
@@ -47,9 +47,11 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "260b9c578f59",
+   "at": "2026-11-25",
+   "concerns": [
+    "4(b): top block of 4(b): MARK SCHEME rows (Other possible equations: Y = 4g + 1.2g + Mg ...) belongs to 4(a), not 4(b)"
+   ],
+   "fingerprint": "f32829420688",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -65,9 +67,11 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "fe8a6c516632",
+   "at": "2026-11-25",
+   "concerns": [
+    "5(c): top row of 5(c): MARK SCHEME rows (N.B. They may do (c) first and then use their t value to obtain v...) is an alternative note for 5(b), not 5(c)"
+   ],
+   "fingerprint": "dc3f9a0341b0",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -93,7 +97,7 @@
   "6": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "4a8e1c35def0",
+   "fingerprint": "eef62664c088",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -112,9 +116,12 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "2297d586ab17",
+   "at": "2026-11-25",
+   "concerns": [
+    "7(b): mark-scheme row is sliced horizontally at the bottom of 7(b): MARK SCHEME rows, cutting off the expression and second row (A1 ft (2))",
+    "7(c): top row of 7(c): MARK SCHEME rows contains the sliced second row from 7(b)s mark scheme"
+   ],
+   "fingerprint": "35dd4b5c8731",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -143,9 +150,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "a8a79b5e9d37",
+   "fingerprint": "1a6721bf293e",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "short",

@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "53dc06811586",
+   "fingerprint": "14ef69932278",
    "kinds": {
     "1(a)": "short",
     "1(b)": "calc",
@@ -23,9 +23,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "9ca55665a6f4",
+   "fingerprint": "43cdc9b75885",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -41,12 +41,12 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "3(i): mark scheme sketch graph is split at the bottom — the x-axis (with x-intercept (2, 0) and log10 x label) is cut off from 3(i) mark scheme rows and appears clipped at the top of 3(ii) mark scheme rows",
-    "3(ii): top of mark scheme rows contains stray bottom portion of 3(i) sketch graph"
+    "3(i): the sketch graph in the 3(i) mark scheme is cut off at the bottom (missing the horizontal log_10 x axis and (2, 0) intercept)",
+    "3(ii): the top of the 3(ii) mark scheme row contains the cut-off bottom fragment (log_10 x axis) of the sketch from 3(i)"
    ],
-   "fingerprint": "e749cceff3bd",
+   "fingerprint": "3a9a60397e5b",
    "kinds": {
     "3(i)": "draw",
     "3(ii)": "calc"
@@ -63,9 +63,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "dd57e4ce0ed8",
+   "fingerprint": "494d7d845336",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -84,9 +84,9 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "4c8ca2dae436",
+   "fingerprint": "d562bfeec3eb",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -111,7 +111,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "bf1d06c7b305",
+   "fingerprint": "fd47b82a56b6",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -128,9 +128,9 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "8a1a0e63d731",
+   "fingerprint": "1a113b2befff",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -146,9 +146,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "6ac2303bb447",
+   "fingerprint": "bcbcf6fe8373",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -168,9 +168,9 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "d8b729aae9e4",
+   "fingerprint": "77e285376af9",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",
@@ -178,7 +178,7 @@
    },
    "topics": {
     "9(a)": [
-     "P3.2.1"
+     "P1.3.2"
     ],
     "9(b)": [
      "P3.4.3",

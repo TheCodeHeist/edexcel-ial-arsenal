@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "d7e315f54860",
+   "fingerprint": "97d0d773b9ea",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -18,9 +18,11 @@
    }
   },
   "10": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "11a254600b13",
+   "at": "2026-11-25",
+   "concerns": [
+    "10(ii): mark-scheme rows crop includes examiners notes for 10(i) and 10(ii) before the examiners NOTES header"
+   ],
+   "fingerprint": "0d90593f8b72",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -38,7 +40,7 @@
   "2": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e5a70c0f41ab",
+   "fingerprint": "814f79f6215e",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -56,7 +58,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "9bf1324fce25",
+   "fingerprint": "147e4f4b7683",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short",
@@ -76,9 +78,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "2137b995952a",
+   "fingerprint": "add8719dd705",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -100,7 +102,7 @@
   "5": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "cba2716946ee",
+   "fingerprint": "77a973b81a64",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -119,9 +121,9 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "f1a78fa89ad7",
+   "fingerprint": "b0f19f8e845e",
    "kinds": {
     "6(i)(a)": "calc",
     "6(i)(b)": "calc",
@@ -140,11 +142,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
-   "concerns": [
-    "7(ii)(c): the bottom half of the (1) mark total in the mark scheme crop is clipped and appears at the top right of 7(ii)(d) mark scheme crop."
-   ],
-   "fingerprint": "97c7ad848a11",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "c5d0a09ba4aa",
    "kinds": {
     "7(i)": "calc",
     "7(ii)(a)": "calc",
@@ -174,7 +174,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "ab4c14ad4683",
+   "fingerprint": "5db6e0d402f8",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -195,9 +195,9 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "f2a7af785137",
+   "fingerprint": "615c80133e96",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "short"

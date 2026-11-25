@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
-   "concerns": [
-    "Examiners notes (end of question 1): cut off at the bottom; the last line (\"A1 30+6√10 ONLY\" of the squaring approach) is sliced through at the image edge"
-   ],
-   "fingerprint": "7f9818415b5f",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "7ba784546a99",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -22,7 +20,7 @@
   "10": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "10c54e675d48",
+   "fingerprint": "80e8c29fd117",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -45,7 +43,7 @@
   "11": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "1ee96377a0d1",
+   "fingerprint": "169c0f396007",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -63,7 +61,7 @@
   "12": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d7e244b57b06",
+   "fingerprint": "6e951dbfef97",
    "kinds": {
     "12(a)": "calc",
     "12(b)": "calc",
@@ -84,7 +82,7 @@
   "13": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "6f26b8576f5e",
+   "fingerprint": "2724c12c5fb7",
    "kinds": {
     "13(i)": "calc",
     "13(ii)": "calc"
@@ -100,9 +98,11 @@
    }
   },
   "14": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "033aa8d398b7",
+   "at": "2026-11-25",
+   "concerns": [
+    "14: stray empty \"Question | Scheme | Marks\" table header at the bottom of the examiners notes"
+   ],
+   "fingerprint": "6f6c6665f22a",
    "kinds": {
     "14(a)": "short",
     "14(b)": "calc",
@@ -123,12 +123,12 @@
    }
   },
   "15": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "15(b): Final A1 row (P = 4*sqrt(30) and mark total (4)) is missing from 15(b) mark scheme rows and appears at the top of 15(c) mark scheme rows; 15(b) only shows 3 of 4 marks.",
-    "15(c): Top mark-scheme row (A1 for P = 4*sqrt(30), mark total (4)) belongs to 15(b)."
+    "15(b): final A1 row (P = 4\\sqrt{30} and (4) subtotal) is missing from 15(b) mark scheme and placed in 15(c) mark scheme",
+    "15(c): first row of mark scheme is the final A1 row belonging to 15(b)"
    ],
-   "fingerprint": "f648663c618d",
+   "fingerprint": "4db51e0ca600",
    "kinds": {
     "15(a)": "calc",
     "15(b)": "calc",
@@ -149,7 +149,7 @@
   "16": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "bac89c36e1ae",
+   "fingerprint": "fe307c27cb88",
    "kinds": {
     "16(a)": "calc",
     "16(b)": "calc",
@@ -173,7 +173,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "3de512816f34",
+   "fingerprint": "16f546c97bea",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -189,9 +189,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "a32979c7a23b",
+   "fingerprint": "a47ee29ce302",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -211,11 +211,11 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "Examiners notes (end of question 4): a stray clipped fragment \"(1\" (the start of a mark-total from the next question) sits at the very bottom-left edge"
+    "4: stray \"(i)\" text at the bottom edge of the examiners notes"
    ],
-   "fingerprint": "ff49aed31d01",
+   "fingerprint": "da402b34dd84",
    "kinds": {
     "4": "calc"
    },
@@ -229,7 +229,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "f96d84ae53b4",
+   "fingerprint": "b975640886d4",
    "kinds": {
     "5(i)": "calc",
     "5(ii)": "calc"
@@ -246,7 +246,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "fddf11212275",
+   "fingerprint": "1bfd5e4f7860",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -266,9 +266,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "67c1157b21df",
+   "fingerprint": "1003821767b0",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -283,9 +283,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "0fe001e0027d",
+   "fingerprint": "85dadd339675",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"
@@ -301,9 +301,9 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "44e9ebab7581",
+   "fingerprint": "f930adf6cc45",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

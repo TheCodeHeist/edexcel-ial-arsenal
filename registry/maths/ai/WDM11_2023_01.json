@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "13bdc306fb68",
+   "fingerprint": "1b575c202d56",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -23,9 +23,9 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c34d6e36faa4",
+   "fingerprint": "2228fbc388a4",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short",
@@ -48,11 +48,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(b)/3(c): the mark-scheme rows are misassigned: the 3(b) MS crop contains the quick-sort table (middle right, pivots 1.4, 1.6 0.8 ... sort complete) with its marks M1 A1 A1ft A1, which belong to 3(c), so (b) shows B1 B1 B1 plus those four marks (7 marks for a 3-mark part); the 3(c) MS crop shows only the second (middle-left) quick-sort table with an empty marks column, so (c) has no marks shown (should total 4)."
-   ],
-   "fingerprint": "26cf7670a38e",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "5571c6d13ba8",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -75,12 +73,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
-   "concerns": [
-    "4(a)/4(b): the mark-scheme network diagram for (b) is cut through horizontally: its top (early times 9, 23, 29 and the M1 A1 marks) is at the bottom of the 4(a) MS crop, and the 4(b) MS crop starts mid-diagram (lower half, with a sliver of the arcs above), so (a) carries (b) rows and (b) rows are only half the diagram.",
-    "4(e)/4(f): the scheduling-diagram solution for (f) is cut through: the top rows (C, E, G, K, N, A, D, I, L with M1 A1) sit at the bottom of the 4(e) MS crop and the 4(f) MS crop starts mid-diagram (B, F, H, J, M, P, Q, R) with the last A1 A1, so (e) carries (f) rows and the (f) diagram is split."
-   ],
-   "fingerprint": "7908f983e061",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "6928d6dc1ecb",
    "kinds": {
     "4(a)": "short",
     "4(b)": "draw",
@@ -111,9 +106,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "31fc0a45551c",
+   "fingerprint": "ecae7afe3238",
    "kinds": {
     "5(a)": "short",
     "5(b)": "short",
@@ -140,12 +135,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
-   "concerns": [
-    "6(b): mark-scheme rows run on into the top of (c)s model graph (y-axis 14-26 with two constraint lines and two B1 marks), so (b) rows carry content and marks belonging to (c)",
-    "6(c): mark-scheme rows start mid-graph - the model graph is cut through at y=12-14, with its upper part and first marks in the (b) rows, so the graph is split in two"
-   ],
-   "fingerprint": "f27c18bee1b6",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "740c1c39367a",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "short",

@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e25022e198e9",
+   "fingerprint": "efe2d58c8daf",
    "kinds": {
     "1(a)(i)": "calc",
     "1(a)(ii)": "calc",
@@ -33,7 +33,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "3285e91fb0f2",
+   "fingerprint": "ae24acf27928",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -54,7 +54,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "783bc2603a25",
+   "fingerprint": "190f45dac6ff",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -84,7 +84,7 @@
   "4": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "1691fb1c3d04",
+   "fingerprint": "5388eb51b700",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc",
@@ -114,9 +114,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "62eff7a62bdd",
+   "fingerprint": "1e917d6f0ea4",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -143,12 +143,12 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "6(b)(i): top edge of part (b)(ii) mark scheme row is clipped into the bottom edge of the (b)(i) mark scheme crop",
-    "6(b)(ii): top of the first mark scheme line (numerators of the probability equations) is clipped at the top edge of the (b)(ii) mark scheme crop"
+    "6(b)(i): mark scheme crop includes a stray cut-off top edge of the first line of 6(b)(ii) at the bottom",
+    "6(b)(ii): mark scheme crop is cut off at the top edge through the numerators of the fractions on the first line"
    ],
-   "fingerprint": "33d05edb7d67",
+   "fingerprint": "3f21d78826a8",
    "kinds": {
     "6(a)": "calc",
     "6(b)(i)": "calc",
@@ -178,7 +178,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "62626ae7ef6f",
+   "fingerprint": "bc84715f0c4a",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "75ba914104e9",
+   "fingerprint": "541e2eb1f1fa",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -25,7 +25,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "cc54547abc24",
+   "fingerprint": "931a179b9730",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -51,7 +51,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "fe196ddbbca1",
+   "fingerprint": "87d3d78aca39",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -76,9 +76,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c4f87d5b7215",
+   "fingerprint": "d61fce9d7945",
    "kinds": {
     "4(a)": "short",
     "4(b)(i)": "calc",
@@ -116,13 +116,12 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "5(a): Figure 1 (scatter diagram needed for 5(a), 5(g), and 5(h)) is missing from the stem and appears only at the bottom of 5(h)(i)",
-    "5(h): mark-scheme rows also include 5(i) (3 marks shown instead of 1)",
-    "5(h)(i): part label should be 5(i), and its question crop contains Figure 1 and the spare scatter diagram for parts 5(a), 5(g), and 5(h)"
+    "5(b)(i): mark-scheme bottom edge cuts through the denominators (15, 15) of both fractions (465x562/15 and 261330/15).",
+    "5(b)(ii): mark-scheme top includes stray denominators \"15 15\" cut off from the bottom of 5(b)(i) mark scheme."
    ],
-   "fingerprint": "a55be90d27d9",
+   "fingerprint": "123ba494ceca",
    "kinds": {
     "5(a)": "short",
     "5(b)(i)": "calc",
@@ -172,7 +171,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "6d43747dce07",
+   "fingerprint": "806d311d7ba1",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",

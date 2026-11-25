@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "c227cc0b1610",
+   "fingerprint": "7ce6393714b6",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -40,12 +40,11 @@
    }
   },
   "11": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [
-    "11(b): the examiners' NOTES block under the caption holds only two clipped lines (\"and candidates are unlikely to get very far and will gain no marks. If they reach Ax + B ln x + C ln(x-4), A,B,C != 0 send to review.\"), which belong to a different question (an integration/partial-fractions question), not Q11; the first line is also cut off at the top.",
-    "11(a): the mark-scheme Way 2 box contains a nested boxed note (cos2θ(sin²θ+cos²θ)/(2sinθcosθ) = ... ) and the outer box line is slightly cut at the left edge (minor)."
+    "11(b): Question 11 examiners' notes at the bottom belong to Question 12 (mentioning integration by parts and Ax + B ln x + C ln(x - 4)), not Question 11."
    ],
-   "fingerprint": "17b3c80cacbb",
+   "fingerprint": "4bd0acf89262",
    "kinds": {
     "11(a)": "calc",
     "11(b)": "calc"
@@ -75,11 +74,11 @@
    }
   },
   "13": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [
-    "13(b): a note after the (4) subtotal (\"If 2x-7y-48=0 is obtained fortuitously in (b) all the marks are available in (c) apart from the A1cso\") is part of the 13(b) crop but is really guidance for (c) (minor); a clipped sliver of text also shows at the top-right edge of the 13(b) mark-scheme crop."
+    "13(a): Shared opening (stem) is cut through the fraction y = 2t/(1 - t), leaving y = 2t and the fraction bar in the stem and placing the denominator (1 - t) at the top of 13(a)."
    ],
-   "fingerprint": "17fc7dc04ed4",
+   "fingerprint": "9b4faecb5c27",
    "kinds": {
     "13(a)": "calc",
     "13(b)": "calc",
@@ -100,9 +99,9 @@
    }
   },
   "14": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c2984ae97fa9",
+   "fingerprint": "b9b1fd5e2153",
    "kinds": {
     "14(a)": "calc",
     "14(b)": "short",
@@ -130,7 +129,7 @@
   "15": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "d93b816b827a",
+   "fingerprint": "a12747975a0a",
    "kinds": {
     "15(a)": "calc",
     "15(b)": "calc",
@@ -153,11 +152,9 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
-   "concerns": [
-    "2(a): the boxed Way 2 (Direct Expansion) is cut off at the bottom of the 2(a) rows (its A1 row is clipped mid-text) and its last two A1 rows (any 2 correct simplified terms / all correct and simplified) appear at the top of the 2(b) rows inside the box edge, so the 2(b) rows show 2 extra marks beyond its 2"
-   ],
-   "fingerprint": "48225c05e294",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "a8b7f54ea7e2",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -174,7 +171,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "1bacf9ae84af",
+   "fingerprint": "b0b40b450fe7",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -192,7 +189,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c7a5fc6da4e0",
+   "fingerprint": "1be2146cb1cd",
    "kinds": {
     "4(a)": "draw",
     "4(b)": "calc",
@@ -213,7 +210,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "48911dabba6f",
+   "fingerprint": "72f89f2cc18d",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -232,9 +229,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "c297e2457d56",
+   "fingerprint": "8090e1f673c7",
    "kinds": {
     "6": "calc"
    },
@@ -248,7 +245,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a7c849314836",
+   "fingerprint": "20b2e5d9398f",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -265,7 +262,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "8b1dacdd2431",
+   "fingerprint": "75fdf53b8821",
    "kinds": {
     "8": "calc"
    },
@@ -277,9 +274,9 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "831f3861cbac",
+   "fingerprint": "72b51b2ed90b",
    "kinds": {
     "9": "calc"
    },

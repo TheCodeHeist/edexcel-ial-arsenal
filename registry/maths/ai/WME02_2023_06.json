@@ -1,12 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "1(a): mark-scheme crop is cut off at the top - the first row (M1 for use of I = mv - mu) is missing/only a sliver of text shows, so only A1 M1 A1 (3 marks) are visible for the 4-mark part",
-    "1(b): the mark-scheme crop ends with rows from another question (Accept column vectors throughout; Use of r = integral v dt, M1; r = (4/3 t^3 - 5/2 t^2 + A)i + ... A1) - stray content from a later question (kinematics, integration of velocity) after the 1(b) total of (3)"
+    "1(a): First mark scheme row (M1) is missing at the top (only 3 marks shown out of 4).",
+    "1(b): Mark scheme crop includes two rows from Question 2(a) at the bottom."
    ],
-   "fingerprint": "f68810054a63",
+   "fingerprint": "ddec6ba14dc0",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -23,11 +23,12 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "2(c): the mark-scheme crop ends with rows from another question (a bold note about a dissection of a trapezium and a table of Large tri / Small tri / Whole with Dist PQ and Mass ratio, B1 B1 ... - centre of mass of a lamina) which is cut off at the bottom - stray content from a later question after the 2(c) total of (3)"
+    "2(a): First two mark scheme rows (M1, A1 for integrating v) are missing at the top (only 2 marks shown out of 4).",
+    "2(c): Mark scheme crop includes two rows from Question 3(a) (lamina dissection table) at the bottom."
    ],
-   "fingerprint": "96f3d6fdd844",
+   "fingerprint": "0db4dbcd67a7",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -47,13 +48,12 @@
    }
   },
   "3": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "3(a): mark-scheme crop is cut off at the top - the first rows (the two B1 B1 for the mass ratio / distance table) are missing (they ended up at the bottom of question 2(c) mark scheme) and the M1 row is clipped through its text (Moments about PQ), so only M1 A1 A1* are visible for the 5-mark part",
-    "3(a): the 3(a) mark-scheme crop ends with the equilibrium diagram (alpha, 2x, 16y/9) that belongs to the 3(b) solution",
-    "3(b): mark-scheme crop ends with a collision diagram (P 3m, Q 5m, u, ku, 2v, v) from a later question - stray content from another question"
+    "3(a): First two mark scheme rows (B1, B1 dissection table) are missing at the top (only 3 marks shown out of 5), and the diagram for 3(b) appears at the bottom.",
+    "3(b): Mark scheme crop is missing its diagram (which is in 3(a)) and includes the particle collision diagram for Question 4 at the bottom."
    ],
-   "fingerprint": "6d6bfad0f9ec",
+   "fingerprint": "3b195c4ae7fe",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -70,12 +70,12 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "4(c): mark-scheme block ends with the first row of the 4(d) scheme (Change in KE, M1) - it belongs to 4(d), so 4(d) shows only A1 A1 (2 of its 3 marks) and the M1 is under 4(c)",
-    "4(d): mark-scheme block ends with a rod/ladder statics diagram (R_A, R_B, F_A, F_B, 15g, 75 degrees) from the next question - stray content from another question"
+    "4(c): Mark scheme crop includes the first row (M1 Change in KE) of 4(d) at the bottom.",
+    "4(d): First mark scheme row (M1 Change in KE) is missing at the top (only 2 marks shown out of 3), and the beam diagram for Question 5 appears at the bottom."
    ],
-   "fingerprint": "3a83ffd46328",
+   "fingerprint": "34e8d5e3b610",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -100,11 +100,11 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "5(b): mark-scheme crop ends with the top of another question rows (Equation of motion, M1, Need all terms and dimensionally correct) cut off at the bottom - stray fragment from question 6 after the 5(b) total of (6)"
+    "5(b): Mark scheme crop includes the first row of Question 6(a) (Equation of motion, M1) at the bottom."
    ],
-   "fingerprint": "ec7826391078",
+   "fingerprint": "e28831d30ac2",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -121,12 +121,12 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "6(a): mark-scheme crop is cut off at the top - the first row (M1 for the equation of motion, F - 600 = 900 x 2 line header) is missing, only a sliver shows, so only A1 M1 A1 (3 marks) are visible for the 4-mark part",
-    "6(c): mark-scheme block ends with the top of another question rows (Energy equation, M1, Q requires energy...) cut off at the bottom - stray fragment from question 7 after the 6(c) total of (4)"
+    "6(a): First mark scheme row (M1 Equation of motion) is missing at the top (only 3 marks shown out of 4).",
+    "6(c): Mark scheme crop includes the first row of Question 7(a) (Energy equation, M1) at the bottom."
    ],
-   "fingerprint": "87616f112a52",
+   "fingerprint": "ff75b1d86b9e",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -147,13 +147,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "7(a): mark-scheme rows start at the A1 - the first row (Energy equation, M1) is missing here (it was placed at the bottom of the 6(c) mark scheme), so only A1 A1 (2 of 3 marks) are visible",
-    "7(d): mark-scheme crop ends with the page footer (Pearson Education Limited. Registered company number 872828, with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom) - stray footer text",
-    "7(b)/7(c): thick border lines and a clipped sliver at the top of the 7(c) mark-scheme block are crop artefacts (harmless)"
+    "7(a): First mark scheme row (M1 Energy equation) is missing at the top (only 2 marks shown out of 3)."
    ],
-   "fingerprint": "c1d6f5621f40",
+   "fingerprint": "dcd94eaa2432",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

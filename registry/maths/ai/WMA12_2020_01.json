@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "0566ed74ef3a",
+   "fingerprint": "229ee61e5f8f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -19,9 +19,9 @@
    }
   },
   "10": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "59ff18b9e4cf",
+   "fingerprint": "d83fabcf1cf8",
    "kinds": {
     "10(a)": "calc",
     "10(b)": "calc",
@@ -40,9 +40,9 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "94191ce9c839",
+   "fingerprint": "7259f91cb5fa",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -57,11 +57,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(a): the bottom half of the (2) mark total in the mark scheme crop is clipped and appears at the top right of 3(b) mark scheme crop."
-   ],
-   "fingerprint": "dc678b8f2870",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "8ed03c3d633a",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -81,9 +79,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "f9c1f4274335",
+   "fingerprint": "7f92e1178848",
    "kinds": {
     "4": "calc"
    },
@@ -95,9 +93,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "772c91437cf9",
+   "fingerprint": "37b1922970ca",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -114,9 +112,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "3e35b7c0c47b",
+   "fingerprint": "a8b9030b89dc",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -136,9 +134,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "1b761f2c3fbb",
+   "fingerprint": "2c6500003d40",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -154,12 +152,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
-   "concerns": [
-    "8(ii)(a): mark scheme crop includes the rows for 8(ii)(b) as well (4 marks shown instead of 1).",
-    "8(ii)(b): mark scheme crop includes the row for 8(ii)(a) as well (4 marks shown instead of 3)."
-   ],
-   "fingerprint": "c1467ba01ab1",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "ffdbe7fb46d8",
    "kinds": {
     "8(i)": "calc",
     "8(ii)(a)": "calc",
@@ -180,11 +175,12 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "9(b): stray clipped characters (O1) appear at the top edge of the mark scheme crop."
+    "9(a): tiny clipped text fragment at the bottom edge of the mark scheme crop.",
+    "9(b): stray clipped \"01\" fragment at the top edge of the mark scheme crop."
    ],
-   "fingerprint": "f4ea0e4441ef",
+   "fingerprint": "a6fdd834df41",
    "kinds": {
     "9(a)": "draw",
     "9(b)": "calc"

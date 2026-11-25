@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "c22be374f0e0",
+   "fingerprint": "02576be4403c",
    "kinds": {
     "1": "calc"
    },
@@ -17,7 +17,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "34a6505552ec",
+   "fingerprint": "8a423230c4e7",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -39,7 +39,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "18a1504050a9",
+   "fingerprint": "bd9458f3965d",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -59,12 +59,12 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "4(b): MARK SCHEME rows is cut off mid-formula at the bottom below 'or', splitting the alternative method for s into 4(c).",
-    "4(c): MARK SCHEME rows includes the alternative method row for s from 4(b) at the top, cut across the top edge."
+    "4(b): mark scheme crop cuts off the alternative method line at the bottom edge",
+    "4(c): mark scheme crop includes the alternative method line for 4(b) ([s =] 120 - ... [= 8.15]*) at the top, clipped horizontally across its top edge"
    ],
-   "fingerprint": "deff6fbb857b",
+   "fingerprint": "aa2ad3e6a18b",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -91,7 +91,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "0c97ab5e3f03",
+   "fingerprint": "6596e4fe78a2",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "short"
@@ -108,9 +108,12 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "b3001272c30a",
+   "at": "2026-11-25",
+   "concerns": [
+    "6(a): mark scheme crop is cut horizontally through the 3rd row and omits the final two rows (M1 A1 (5) for the 99% CI)",
+    "6(b): mark scheme crop includes the bottom half of the clipped 3rd row and the final two rows (M1 A1 (5)) from 6(a) at the top"
+   ],
+   "fingerprint": "d2617a5fb206",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -132,7 +135,7 @@
   "7": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "480d2a0a55d9",
+   "fingerprint": "1ede50082fea",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
-   "concerns": [
-    "1(b): examiners NOTES section under (b) cuts off the first line of the first M1 note (only descenders are visible above It may be implied by their answer...)."
-   ],
-   "fingerprint": "b5badcd7f3d6",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "81a4acf3e16f",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -22,9 +20,9 @@
    }
   },
   "2": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "0dec376a414e",
+   "fingerprint": "0a70f6de1d4e",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -41,9 +39,11 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "4759fd93f2a9",
+   "at": "2026-11-25",
+   "concerns": [
+    "3(c): Mark scheme rows include the Alt(a) row (which belongs to part 3(a)) at the bottom of 3(c)."
+   ],
+   "fingerprint": "de5e511f295d",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -77,9 +77,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "54d536a07625",
+   "fingerprint": "3217fa296def",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "short",
@@ -104,9 +104,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "814eafdea94c",
+   "fingerprint": "596fd7548cae",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -123,9 +123,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "200543a6b168",
+   "fingerprint": "a9cba24a17e1",
    "kinds": {
     "7(a)": "short",
     "7(b)": "calc",
@@ -150,9 +150,9 @@
    }
   },
   "8": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "3924ca571546",
+   "fingerprint": "83878d60ac1d",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -174,9 +174,11 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "0214f5db2959",
+   "at": "2026-11-25",
+   "concerns": [
+    "9(c): tiny stray clipped fragment at the top-right edge of the question crop above 1/x"
+   ],
+   "fingerprint": "7f03107aa47a",
    "kinds": {
     "9(a)": "short",
     "9(b)": "draw",

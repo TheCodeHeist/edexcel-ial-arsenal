@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "bfbdc7f891de",
+   "fingerprint": "d5ee9f01f8aa",
    "kinds": {
     "1(i)(a)": "calc",
     "1(i)(b)": "calc",
@@ -24,7 +24,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "44acc5b3543b",
+   "fingerprint": "ac5f9f36b595",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc",
@@ -47,11 +47,9 @@
    }
   },
   "3": {
-   "at": "2026-11-21",
-   "concerns": [
-    "3(c): the question crop keeps about eleven blank answer lines (plus a stray dash fragment at the bottom left) below the question text; this answer-space page could be trimmed."
-   ],
-   "fingerprint": "1a7e5dbcef2e",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "d94a9e053d0c",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",
@@ -70,11 +68,12 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "4(b): the question crop is cut at the bottom through the (3) mark label; a clipped fragment of it appears as a stray at the very top of the 4(c) question crop."
+    "4(b): the (3) mark label at the bottom right is missing from 4(b) and was cropped into the top right of 4(c)",
+    "4(c): stray (3) mark label from 4(b) appears at the top right above (c)"
    ],
-   "fingerprint": "35fb5699e28d",
+   "fingerprint": "867bc96267f9",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -96,7 +95,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "7af9c1f53609",
+   "fingerprint": "edf7921a65d5",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -115,7 +114,7 @@
   "6": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "0128da3e82d7",
+   "fingerprint": "6544fdf9900e",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -138,7 +137,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "fdc4a8d3b0b8",
+   "fingerprint": "0203692bdb8b",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -153,11 +152,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
-   "concerns": [
-    "8: tiny clipped top-of-text fragment from Way 2 appears at the bottom edge of the mark scheme crop"
-   ],
-   "fingerprint": "76808cddc56c",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "5eb09373ee5e",
    "kinds": {
     "8": "calc"
    },
@@ -168,9 +165,9 @@
    }
   },
   "9": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "7df579dfd001",
+   "fingerprint": "d113ff345e81",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

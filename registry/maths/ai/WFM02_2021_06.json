@@ -1,11 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
-   "concerns": [
-    "1(a): the question crop looks clipped at the top: the numerator 2 of the fraction 2/(r(r^2-1)) is cut off at the upper edge."
-   ],
-   "fingerprint": "26857f9782be",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "e5fa8cb90f8b",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -21,11 +19,11 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "2(ii): only one part was found; part (i) (the centre of C) sits at the end of the stem and part (ii) carries all 8 marks, with a single mark scheme covering (i) and (ii). Not a crop error, but (i) has no label of its own."
+    "2(ii): sub-part (i) (\"Find (i) the centre of C,\") is placed in the shared opening stem rather than with (ii), though the 8 marks cover both (i) and (ii)"
    ],
-   "fingerprint": "8d88c05de87e",
+   "fingerprint": "27a9cdc036e4",
    "kinds": {
     "2(ii)": "calc"
    },
@@ -37,9 +35,12 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "df96c00dafc0",
+   "at": "2026-11-25",
+   "concerns": [
+    "3(a): mark-scheme bottom line A is (1 1/2, pi/3) is horizontally sliced through the fraction denominators at the bottom edge",
+    "3(b): stray clipped fraction denominator fragments from 3(a) appear at the top edge of the mark-scheme rows"
+   ],
+   "fingerprint": "dae22f7eea03",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -54,9 +55,11 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "e047e2a39c84",
+   "at": "2026-11-25",
+   "concerns": [
+    "4(b): examiners notes for Question 4 (mislabelled 5(a)/5(b) in the source mark scheme) are missing here and were attached to Question 5"
+   ],
+   "fingerprint": "2f9b93a98529",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -72,9 +75,11 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "ee28ddde49ec",
+   "at": "2026-11-25",
+   "concerns": [
+    "5: mark-scheme rows start with Question 4 examiners notes (mislabelled 5(a)/5(b) in the source mark scheme) before Question 5 mark scheme"
+   ],
+   "fingerprint": "2e44d569019b",
    "kinds": {
     "5": "calc"
    },
@@ -85,11 +90,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
-   "concerns": [
-    "6(a): the examiners notes for part (a) (M1 A1 B1 ...) are inside the 6(a) mark-scheme crop, so the final NOTES block only shows (b); minor misplacement, nothing missing."
-   ],
-   "fingerprint": "12efd3fc089e",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "8f2095173e5a",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -104,9 +107,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "31fd54fa32a4",
+   "fingerprint": "79b00a46ff75",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"
@@ -121,11 +124,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
-   "concerns": [
-    "8(a): the notes for (a) (All Methods B1 M1 A1 dM1 A1*) sit at the bottom of the 8(a) mark-scheme crop and the final NOTES block only covers (b); minor misplacement, nothing missing."
-   ],
-   "fingerprint": "957a7dd12470",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "81f5d50ff9f4",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc"

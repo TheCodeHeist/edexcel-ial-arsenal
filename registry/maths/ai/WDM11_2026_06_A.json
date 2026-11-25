@@ -1,11 +1,11 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-21",
+   "at": "2026-11-25",
    "concerns": [
-    "1(a): mark-scheme crop is cut at the top: the first rows of the left-to-right bubble-sort working (starting 18 13 21 17 ..., and the first mark M1) are missing/sliced through, only a clipped half-row shows; only A1 A1 are visible so the 3 marks cannot be seen to add up."
+    "1(b): first mark-scheme row (e.g. right to left bubble sort table) belongs to 1(a), not 1(b)"
    ],
-   "fingerprint": "c4789a308782",
+   "fingerprint": "52a08c8a84ca",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -20,11 +20,9 @@
    }
   },
   "2": {
-   "at": "2026-11-20",
-   "concerns": [
-    "Notes: examiners notes end with a stray fragment of the next question (a mark-scheme row \"Totals in bins are 47, 50, 49 so n >= 50 ... n >= 15 + 24 + 11\" with a B1) at the bottom edge"
-   ],
-   "fingerprint": "f895055354ca",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "63726ce76097",
    "kinds": {
     "2(a)": "draw",
     "2(b)": "short"
@@ -40,12 +38,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(a): Mark scheme rows include the first M1 row of 3(b) (Either considers n = 51 ... or considers n = 50) at the bottom.",
-    "3(b): Mark scheme is missing its first M1 row (Either considers n = 51 ... or considers n = 50), which appears at the bottom of 3(a)'s mark scheme rows (only A1 is shown)."
-   ],
-   "fingerprint": "cce7b5219109",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "8951cfa29e79",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -60,12 +55,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [
-    "4(a): mark-scheme rows run on into the top of (b)s Dijkstra model diagram (nodes J, B, A, I, G, D, C with M1 A1 A1 marks), clipped at the bottom, so (a) rows carry (b) content and marks beyond its 2",
-    "4(b): mark-scheme rows start mid-diagram - the model Dijkstra diagram is cut through (only the lower nodes H, F, E with the tail of the A1 marks) and the upper half with the M1 is in the (a) rows, so the diagram is split between (a) and (b)"
-   ],
-   "fingerprint": "240332e6465b",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "8a1304c83ca8",
    "kinds": {
     "4(a)": "short",
     "4(b)": "calc"
@@ -80,11 +72,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
-   "concerns": [
-    "5(c): Examiners' notes section at the bottom includes a stray clipped fragment of Question 6's mark scheme (bottom of a Dijkstra diagram with 0, B(6), G(5), I(3) and M1 A1)."
-   ],
-   "fingerprint": "66d9ecfa64ae",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "b99af37ad41a",
    "kinds": {
     "5(a)": "short",
     "5(b)": "calc",
@@ -103,12 +93,9 @@
    }
   },
   "6": {
-   "at": "2026-11-21",
-   "concerns": [
-    "6(a): mark-scheme crop is cut through the top of the answer network: the upper row of event boxes and the arc labels are sliced off, so the early/late times at the top nodes are only partly visible.",
-    "6(c), 6(d), 6(e): a thin clipped sliver of text/line shows along the top edge of each mark-scheme crop."
-   ],
-   "fingerprint": "bc795f006309",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "594e93720f88",
    "kinds": {
     "6(a)": "draw",
     "6(b)": "short",
@@ -135,9 +122,9 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "a11a977f99ab",
+   "fingerprint": "1c58a58af341",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "draw",
@@ -172,13 +159,12 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "8(b): Mark scheme rows include the first M1 and A1 lines of 8(c) (vertex calculations for 2x+7y=70, 7x+3y=105 and 6x+7y=210) at the bottom.",
-    "8(c): Mark scheme is missing its first M1 and A1 lines (which appear at the bottom of 8(b)'s mark scheme rows), and includes the first M1 table row of 8(d) ((12, 6), (13, 7), (13, 8)) at the bottom.",
-    "8(d): Question crop contains the entire WDM11/01A Answer Book (cover page and answer-book pages for Questions 1-8) appended after the question text; also 8(d)'s mark scheme is missing its first M1 table row (which appears at the bottom of 8(c)'s mark scheme rows)."
+    "8(c): last mark-scheme row (integer testing table header and (12, 7) row, dM1) belongs to 8(d), giving 8(c) 5 marks instead of 4",
+    "8(d): missing the first row of its mark scheme (integer testing table for (12, 7), dM1), which is placed under 8(c)"
    ],
-   "fingerprint": "dfa3f2031fd7",
+   "fingerprint": "d9bb658e8cae",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "draw",

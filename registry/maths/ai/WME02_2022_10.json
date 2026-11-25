@@ -1,12 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "1(a) and 1(b): mark-scheme rows are clipped at the right edge - the notes column is cut mid-word (Dimensio, Accept as part of a vector, Correct unsimplified equa, Use their y and x + =2y...); the equations in the rows are also garbled (missing symbols/boxes in 2m x ... = 9m x-bar and the y-bar line)",
-    "No examiners notes block on this question (not a problem)"
-   ],
-   "fingerprint": "08e1f7d1acea",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "56f2e2e35506",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -22,11 +19,9 @@
    }
   },
   "2": {
-   "at": "2026-11-21",
-   "concerns": [
-    "2 mark-scheme rows: the crop is cut off at the right edge - the right-hand comments column (e.g. \"Seen or implied e.g. F = 15..\", \"Condone 15 in place of 15..\", \"Need all terms. Condone ...\", \"Correct unsimplified equa...\") is clipped mid-word on every row; no examiners notes shown."
-   ],
-   "fingerprint": "5a4d5e3a1dac",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "162273cd46da",
    "kinds": {
     "2": "calc"
    },
@@ -38,11 +33,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3: right edge of the mark scheme table (both main MS and 3 alt in examiners' NOTES) is clipped, cutting off text in the right-hand notes column."
-   ],
-   "fingerprint": "74bc4675d693",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "629ef317879b",
    "kinds": {
     "3": "calc"
    },
@@ -54,13 +47,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
-   "concerns": [
-    "4(a) and 4(b): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Set j component = 0 and s.., Attempt derivative of both.., Attempt integral of both c..)",
-    "4(a) and 4(b): equations in the mark-scheme rows are garbled by the PDF font (stray boxes and missing symbols, e.g. the lambda quadratic line and the s = ... i + ... j integral lines)",
-    "4: examiners NOTES block starts with a Q/Mark Scheme/Marks/Marking guidance header and then a rod-and-semicircle equilibrium diagram (AB 4a, 3a, a, 2a, N, V, H, w) that belongs to a different question (statics, not question 4)"
-   ],
-   "fingerprint": "f64054702a3a",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "3913113fdfdf",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -76,13 +65,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
-   "concerns": [
-    "5(a), 5(b), 5(c): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Correct use of Pythagoras.., Dimensionally correct equ.., Requires all relevant term..); the 5(c) preamble row is cut mid-sentence",
-    "5(c): mark-scheme rows show only M1 A1 M1 A1 (4 marks, for the V and tan alpha equations) with no rows for finding k / the rest; marks shown do not add up to the 8 marks of the part (a row/page seems missing)",
-    "5(c): equation V = 9W/29 is garbled by the font (stray boxes)"
-   ],
-   "fingerprint": "8850646d1816",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "e72586ebaaae",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -103,12 +88,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
-   "concerns": [
-    "6(a) and 6(b): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Allow use of a parallel axi.., Correct unsimplified equat.., Accept distance from VU =..)",
-    "6(a) and 6(b): equations in the mark-scheme rows are garbled by the PDF font (stray boxes, missing symbols, e.g. the moments equations and the 7/15 ratio line)"
-   ],
-   "fingerprint": "b625c34c2132",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "cf05893e2727",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -124,12 +106,11 @@
    }
   },
   "7": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [
-    "7(a) and 7(b): mark-scheme rows clipped at the right edge - guidance column cut mid-word on every row (Need all terms. Dimensio.., Correct unsimplified equa.., Obtain given answer from..)",
-    "7(b): equations in the mark-scheme rows are garbled by the PDF font (stray boxes in the distance/time lines, e.g. d/2u, 5ut, 3d/10u)"
+    "7(b): Question 7 examiners notes section at the bottom actually contains the mark scheme for Question 8 (8(a)-8(d))."
    ],
-   "fingerprint": "783b09103e50",
+   "fingerprint": "9a099f767790",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc"

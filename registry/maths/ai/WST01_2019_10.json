@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "806311354eeb",
+   "fingerprint": "04ca6e950b0c",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -27,9 +27,11 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "93e13265f9d1",
+   "at": "2026-11-25",
+   "concerns": [
+    "2(b)(ii): mark-scheme crop includes the (1) subtotal cell from 2(b)(i) at the top right"
+   ],
+   "fingerprint": "794f2aa9ccae",
    "kinds": {
     "2(a)": "calc",
     "2(b)(i)": "calc",
@@ -63,7 +65,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "750b499ac783",
+   "fingerprint": "48bb94b4f88e",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -82,7 +84,7 @@
   "4": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "22a0c41fcd1b",
+   "fingerprint": "a1e5fc467373",
    "kinds": {
     "4(a)": "short",
     "4(b)": "short",
@@ -105,11 +107,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
-   "concerns": [
-    "5(a): mark-scheme rows also include 5(a)(ii) and 5(a)(iii) (4 marks shown instead of 1)"
-   ],
-   "fingerprint": "cb8dd0c813b7",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "af802123fee8",
    "kinds": {
     "5(a)": "calc",
     "5(a)(ii)": "calc",
@@ -151,7 +151,7 @@
   "6": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "3c27acaae4bf",
+   "fingerprint": "6591f34c8dec",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -169,7 +169,7 @@
   "7": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "62d2719ad404",
+   "fingerprint": "ae8f084f1400",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",

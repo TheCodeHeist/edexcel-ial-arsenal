@@ -1,11 +1,12 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "1(c)/1(d): mark-scheme split is wrong: the first two binary-search rows of (d) (ceil((1+10)/2)=6 reject 13-28, M1 and ceil((1+5)/2)=3 reject 4-8) sit at the bottom of the 1(c) MS crop, with the second cut through its formula; the 1(d) MS crop then starts mid-formula (only A1 A1 and 9 found visible, M1 missing), so (d) rows lack its M1 and marks do not total 3."
+    "1(b): mark scheme includes the first row (M1, middle right pivot 13) belonging to 1(c)",
+    "1(c): mark scheme is missing its first row (M1, middle right pivot 13), which is placed in 1(b)"
    ],
-   "fingerprint": "2ed863b3daf4",
+   "fingerprint": "cc20ec84e4b6",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -28,9 +29,9 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "615bdfb3169a",
+   "fingerprint": "7b5cec52ff60",
    "kinds": {
     "2(a)": "short",
     "2(b)": "short",
@@ -57,11 +58,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3: the mark-scheme network diagram is cut through horizontally: the MS rows crop ends partway through the diagram (only the top halves of A, D, H and the dashed dummies are shown) and the rest (B, E, J, C, F, G, I, the lower dummies and the \"5 marks\" row) sits under the examiners NOTES caption bar; the MS crop ends too early."
-   ],
-   "fingerprint": "200e55082438",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "34104a310224",
    "kinds": {
     "3": "draw"
    },
@@ -73,11 +72,11 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [
-    "4(a)/4(b): the cascade chart in the mark scheme is cut across the part boundary: its top half (time axis, A, G, I, L, B, C, D bars and the first M1 A1 marks) is at the bottom of the 4(a) MS crop, cut through the D bar, and the 4(b) MS crop starts mid-chart (E, F, H, J, K, M, with a sliver of the row above), so 4(a) rows include (b) rows and 4(b) rows lack the M1 and first A1."
+    "4(a): mark scheme includes an extra table row at the top (the precedence table belonging to Q3 notes)"
    ],
-   "fingerprint": "b8b7676d1584",
+   "fingerprint": "ca2a86a4ffb5",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "draw",
@@ -96,9 +95,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "17b9c442fe15",
+   "fingerprint": "a1b51a7053ff",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -119,7 +118,7 @@
   "6": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "e1b160b8a3c0",
+   "fingerprint": "0973d40c40f2",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc",
@@ -143,11 +142,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
-   "concerns": [
-    "7(b)/7(c): the mark-scheme graph for (c) is cut across the part boundary: its upper part (y from 30 to 40, with the first two B1 marks) is at the bottom of the 7(b) MS crop (so (b) shows M1 A1 A1 plus two stray B1s, 5 marks for a 3-mark part), and the 7(c) MS crop starts lower down the graph (y=20 and below) showing only B1 B1 and the part total (4); the graph is cut through and the 7(c) rows are incomplete."
-   ],
-   "fingerprint": "4a2d372e308f",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "8051accfc16d",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "short",

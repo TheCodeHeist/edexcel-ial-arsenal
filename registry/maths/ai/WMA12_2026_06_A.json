@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "16c4aa48e939",
+   "fingerprint": "5fe997d15d86",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -22,9 +22,12 @@
    }
   },
   "10": {
-   "at": "2026-11-20",
-   "concerns": [],
-   "fingerprint": "dc0d699ccbef",
+   "at": "2026-11-25",
+   "concerns": [
+    "10(i) is missing the two sentences about the answer book table (\"You may use the table on page 30... The first 2 rows have been completed for you.\"), which were placed at the top of 10(ii) instead.",
+    "10(ii) begins with two sentences about the answer book table that belong to 10(i)."
+   ],
+   "fingerprint": "1c42f3ccc65d",
    "kinds": {
     "10(i)": "calc",
     "10(ii)": "calc"
@@ -42,7 +45,7 @@
   "2": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "1fb1dcba64f4",
+   "fingerprint": "50df803d0c32",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -60,7 +63,7 @@
   "3": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "690727b77126",
+   "fingerprint": "fa89eb81a232",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "short",
@@ -82,7 +85,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "a77ddada447f",
+   "fingerprint": "4a9537a84294",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -100,7 +103,7 @@
   "5": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "c3f02f3dc978",
+   "fingerprint": "746ea92a5063",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc",
@@ -123,7 +126,7 @@
   "6": {
    "at": "2026-11-21",
    "concerns": [],
-   "fingerprint": "df462ee97f9d",
+   "fingerprint": "17dee9516846",
    "kinds": {
     "6(i)": "calc",
     "6(ii)(a)": "calc",
@@ -145,7 +148,7 @@
   "7": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "055cb4bbf685",
+   "fingerprint": "7d7143049214",
    "kinds": {
     "7(a)": "short",
     "7(b)": "calc",
@@ -166,7 +169,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "30f30ff8186e",
+   "fingerprint": "eaf55a2402d4",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -188,7 +191,7 @@
   "9": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "6cd39ccf368c",
+   "fingerprint": "361e3002aedc",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

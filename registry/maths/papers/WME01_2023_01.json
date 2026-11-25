@@ -53,7 +53,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME01_2023_01/q1_a.webp",
+       "src": "maths/WME01_2023_01/q1_a_1.webp",
        "w": 1090,
        "h": 577,
        "region": {
@@ -62,6 +62,18 @@
         "y0": 195.5,
         "x1": 559,
         "y1": 472.1
+       }
+      },
+      {
+       "src": "maths/WME01_2023_01/q1_a_2.webp",
+       "w": 1090,
+       "h": 467,
+       "region": {
+        "page": 3,
+        "x0": 36,
+        "y0": 535.7,
+        "x1": 559,
+        "y1": 759.8
        }
       }
      ],
@@ -73,13 +85,13 @@
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 99,
+        "y0": 99.5,
         "x1": 560.0,
-        "y1": 277
+        "y1": 277.5
        }
       }
      ],
-     "text": "(a) On the axes below, sketch a speed–time graph to illustrate the motion of the train as it moves from station A to station B. speed (m s−1) O time (s) If you need to redraw your graph, use the axes on page 3 (3)",
+     "text": "(a) On the axes below, sketch a speed–time graph to illustrate the motion of the train as it moves from station A to station B. speed (m s−1) O time (s) If you need to redraw your graph, use the axes on page 3 (3) Only use these axes if you need to redraw your graph. speed (m s−1) O time (s)",
      "kindGuessed": "draw"
     },
     {
@@ -112,9 +124,9 @@
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 277,
+        "y0": 277.5,
         "x1": 560.0,
-        "y1": 561
+        "y1": 561.5
        }
       }
      ],
@@ -131,7 +143,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WME01_2023_01/q1_c_1.webp",
+       "src": "maths/WME01_2023_01/q1_c.webp",
        "w": 1090,
        "h": 74,
        "region": {
@@ -141,35 +153,23 @@
         "x1": 559,
         "y1": 572.0
        }
-      },
-      {
-       "src": "maths/WME01_2023_01/q1_c_2.webp",
-       "w": 1090,
-       "h": 467,
-       "region": {
-        "page": 3,
-        "x0": 36,
-        "y0": 535.7,
-        "x1": 559,
-        "y1": 759.8
-       }
       }
      ],
      "ms": [
       {
        "src": "maths/WME01_2023_01/q1_c_ms.webp",
        "w": 1092,
-       "h": 185,
+       "h": 184,
        "region": {
         "page": 7,
         "x0": 36.0,
-        "y0": 561,
+        "y0": 561.5,
         "x1": 560.0,
         "y1": 649
        }
       }
      ],
-     "text": "(c) Find the acceleration of the train during the first T seconds of its motion. (2) Only use these axes if you need to redraw your graph. speed (m s−1) O time (s)",
+     "text": "(c) Find the acceleration of the train during the first T seconds of its motion. (2)",
      "kindGuessed": "calc"
     }
    ],
@@ -201,8 +201,8 @@
    ],
    "check": "pending",
    "risks": [
-    "1(c): text after the marks",
-    "1(c): runs across pages"
+    "1(a): text after the marks",
+    "1(a): runs across pages"
    ]
   },
   {
@@ -254,9 +254,9 @@
        "region": {
         "page": 9,
         "x0": 36.0,
-        "y0": 99,
+        "y0": 99.5,
         "x1": 560.0,
-        "y1": 366
+        "y1": 366.5
        }
       }
      ],
@@ -289,11 +289,11 @@
       {
        "src": "maths/WME01_2023_01/q2_b_ms.webp",
        "w": 1092,
-       "h": 251,
+       "h": 250,
        "region": {
         "page": 9,
         "x0": 36.0,
-        "y0": 366,
+        "y0": 366.5,
         "x1": 560.0,
         "y1": 486
        }
@@ -364,27 +364,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q3_a_ms_1.webp",
+       "src": "maths/WME01_2023_01/q3_a_ms.webp",
        "w": 1092,
-       "h": 342,
+       "h": 346,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 99,
+        "y0": 97.5,
         "x1": 560.0,
-        "y1": 263
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q3_a_ms_2.webp",
-       "w": 1092,
-       "h": 299,
-       "region": {
-        "page": 10,
-        "x0": 36.0,
-        "y0": 531,
-        "x1": 560.0,
-        "y1": 674.0
+        "y1": 263.5
        }
       }
      ],
@@ -416,27 +404,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q3_b_ms_1.webp",
+       "src": "maths/WME01_2023_01/q3_b_ms.webp",
        "w": 1092,
        "h": 243,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 263,
+        "y0": 263.5,
         "x1": 560.0,
-        "y1": 379
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q3_b_ms_2.webp",
-       "w": 1092,
-       "h": 207,
-       "region": {
-        "page": 10,
-        "x0": 36.0,
-        "y0": 674.0,
-        "x1": 560.0,
-        "y1": 772.8
+        "y1": 379.5
        }
       }
      ],
@@ -468,27 +444,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q3_c_ms_1.webp",
+       "src": "maths/WME01_2023_01/q3_c_ms.webp",
        "w": 1092,
-       "h": 318,
+       "h": 346,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 379,
+        "y0": 379.5,
         "x1": 560.0,
-        "y1": 531
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q3_c_ms_2.webp",
-       "w": 1092,
-       "h": 332,
-       "region": {
-        "page": 11,
-        "x0": 36.0,
-        "y0": 71,
-        "x1": 560.0,
-        "y1": 229.6
+        "y1": 545
        }
       }
      ],
@@ -496,10 +460,33 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q3: no '(n marks)' line after its last row"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WME01_2023_01/q3_notes_1.webp",
+     "w": 1092,
+     "h": 476,
+     "region": {
+      "page": 10,
+      "x0": 36.0,
+      "y0": 545,
+      "x1": 560.0,
+      "y1": 772.8
+     }
+    },
+    {
+     "src": "maths/WME01_2023_01/q3_notes_2.webp",
+     "w": 1092,
+     "h": 338,
+     "region": {
+      "page": 11,
+      "x0": 36.0,
+      "y0": 68.0,
+      "x1": 560.0,
+      "y1": 229.6
+     }
+    }
+   ],
+   "check": "machine"
   },
   {
    "id": "WME01_2023_01_q4",
@@ -534,11 +521,11 @@
       {
        "src": "maths/WME01_2023_01/q4_ms.webp",
        "w": 1092,
-       "h": 626,
+       "h": 625,
        "region": {
         "page": 12,
         "x0": 36.0,
-        "y0": 99,
+        "y0": 99.5,
         "x1": 560.0,
         "y1": 399
        }
@@ -576,13 +563,13 @@
     {
      "src": "maths/WME01_2023_01/q4_notes_3.webp",
      "w": 1092,
-     "h": 56,
+     "h": 60,
      "region": {
       "page": 14,
       "x0": 36.0,
       "y0": 66.5,
       "x1": 560.0,
-      "y1": 93.1
+      "y1": 95
      }
     }
    ],
@@ -631,27 +618,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q5_a_ms_1.webp",
+       "src": "maths/WME01_2023_01/q5_a_ms.webp",
        "w": 1092,
        "h": 424,
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 123,
+        "y0": 123.5,
         "x1": 560.0,
-        "y1": 326
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q5_a_ms_2.webp",
-       "w": 1092,
-       "h": 162,
-       "region": {
-        "page": 14,
-        "x0": 36.0,
-        "y0": 537,
-        "x1": 560.0,
-        "y1": 614.2
+        "y1": 326.5
        }
       }
      ],
@@ -682,27 +657,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q5_b_ms_1.webp",
+       "src": "maths/WME01_2023_01/q5_b_ms.webp",
        "w": 1092,
        "h": 182,
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 326,
+        "y0": 326.5,
         "x1": 560.0,
-        "y1": 413
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q5_b_ms_2.webp",
-       "w": 1092,
-       "h": 144,
-       "region": {
-        "page": 14,
-        "x0": 36.0,
-        "y0": 614.2,
-        "x1": 560.0,
-        "y1": 682.7
+        "y1": 413.5
        }
       }
      ],
@@ -733,27 +696,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q5_c_ms_1.webp",
+       "src": "maths/WME01_2023_01/q5_c_ms.webp",
        "w": 1092,
-       "h": 259,
+       "h": 287,
        "region": {
         "page": 14,
         "x0": 36.0,
-        "y0": 413,
+        "y0": 413.5,
         "x1": 560.0,
-        "y1": 537
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q5_c_ms_2.webp",
-       "w": 1092,
-       "h": 184,
-       "region": {
-        "page": 14,
-        "x0": 36.0,
-        "y0": 682.7,
-        "x1": 560.0,
-        "y1": 770.5
+        "y1": 551
        }
       }
      ],
@@ -761,10 +712,21 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q5: no '(n marks)' line after its last row"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WME01_2023_01/q5_notes.webp",
+     "w": 1092,
+     "h": 459,
+     "region": {
+      "page": 14,
+      "x0": 36.0,
+      "y0": 551,
+      "x1": 560.0,
+      "y1": 770.5
+     }
+    }
+   ],
+   "check": "machine"
   },
   {
    "id": "WME01_2023_01_q6",
@@ -799,11 +761,11 @@
       {
        "src": "maths/WME01_2023_01/q6_ms.webp",
        "w": 1092,
-       "h": 917,
+       "h": 916,
        "region": {
         "page": 15,
         "x0": 36.0,
-        "y0": 123,
+        "y0": 123.5,
         "x1": 560.0,
         "y1": 563
        }
@@ -891,9 +853,9 @@
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 107,
+        "y0": 107.5,
         "x1": 560.0,
-        "y1": 284
+        "y1": 284.5
        }
       }
      ],
@@ -927,11 +889,11 @@
       {
        "src": "maths/WME01_2023_01/q7_b_ms.webp",
        "w": 1092,
-       "h": 299,
+       "h": 298,
        "region": {
         "page": 17,
         "x0": 36.0,
-        "y0": 284,
+        "y0": 284.5,
         "x1": 560.0,
         "y1": 427
        }
@@ -957,13 +919,13 @@
     {
      "src": "maths/WME01_2023_01/q7_notes_2.webp",
      "w": 1092,
-     "h": 37,
+     "h": 41,
      "region": {
       "page": 18,
       "x0": 36.0,
       "y0": 68.0,
       "x1": 560.0,
-      "y1": 85.4
+      "y1": 87
      }
     }
    ],
@@ -1014,27 +976,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q8_a_ms_1.webp",
+       "src": "maths/WME01_2023_01/q8_a_ms.webp",
        "w": 1092,
-       "h": 351,
+       "h": 352,
        "region": {
         "page": 18,
         "x0": 36.0,
-        "y0": 116,
+        "y0": 116.0,
         "x1": 560.0,
-        "y1": 284
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q8_a_ms_2.webp",
-       "w": 1092,
-       "h": 512,
-       "region": {
-        "page": 18,
-        "x0": 36.0,
-        "y0": 527,
-        "x1": 560.0,
-        "y1": 772.1
+        "y1": 284.5
        }
       }
      ],
@@ -1065,27 +1015,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q8_b_ms_1.webp",
+       "src": "maths/WME01_2023_01/q8_b_ms.webp",
        "w": 1092,
-       "h": 134,
+       "h": 135,
        "region": {
         "page": 18,
         "x0": 36.0,
-        "y0": 284,
+        "y0": 284.5,
         "x1": 560.0,
-        "y1": 348
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q8_b_ms_2.webp",
-       "w": 1092,
-       "h": 262,
-       "region": {
-        "page": 19,
-        "x0": 36.0,
-        "y0": 71,
-        "x1": 560.0,
-        "y1": 196.2
+        "y1": 348.5
        }
       }
      ],
@@ -1117,39 +1055,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME01_2023_01/q8_c_ms_1.webp",
+       "src": "maths/WME01_2023_01/q8_c_ms.webp",
        "w": 1092,
-       "h": 373,
+       "h": 412,
        "region": {
         "page": 18,
         "x0": 36.0,
-        "y0": 348,
+        "y0": 348.5,
         "x1": 560.0,
-        "y1": 527
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q8_c_ms_2.webp",
-       "w": 1092,
-       "h": 213,
-       "region": {
-        "page": 19,
-        "x0": 36.0,
-        "y0": 196.2,
-        "x1": 560.0,
-        "y1": 297.8
-       }
-      },
-      {
-       "src": "maths/WME01_2023_01/q8_c_ms_3.webp",
-       "w": 1092,
-       "h": 63,
-       "region": {
-        "page": 20,
-        "x0": 36.0,
-        "y0": 740.0,
-        "x1": 560.0,
-        "y1": 769.5
+        "y1": 545.9
        }
       }
      ],
@@ -1157,10 +1071,33 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q8: no '(n marks)' line after its last row"
-   ]
+   "msNotes": [
+    {
+     "src": "maths/WME01_2023_01/q8_notes_1.webp",
+     "w": 1092,
+     "h": 472,
+     "region": {
+      "page": 18,
+      "x0": 36.0,
+      "y0": 545.9,
+      "x1": 560.0,
+      "y1": 772.1
+     }
+    },
+    {
+     "src": "maths/WME01_2023_01/q8_notes_2.webp",
+     "w": 1092,
+     "h": 480,
+     "region": {
+      "page": 19,
+      "x0": 36.0,
+      "y0": 68.0,
+      "x1": 560.0,
+      "y1": 297.8
+     }
+    }
+   ],
+   "check": "machine"
   }
  ]
 }

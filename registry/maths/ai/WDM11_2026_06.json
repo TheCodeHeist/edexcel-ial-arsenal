@@ -1,12 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
-   "concerns": [
-    "1(b): mark-scheme rows run on into (c)s bubble-sort table (passes 24 16 34 ... 38 34 31 24 23 21 16 14 12 9 5) with M1 A1 A1ft A1, so (b) rows carry (c)s 4 marks beyond its 3",
-    "1(c): mark-scheme rows start mid-table with the rows of the bubble sort cut off at the top and the M1 A1 A1ft A1 marks left in the (b) rows, so the marks column of (c) is empty"
-   ],
-   "fingerprint": "d3dce329e83f",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "4a60871793db",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc",
@@ -31,7 +28,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "0438d9ba56d5",
+   "fingerprint": "66ecaff514ca",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "short"
@@ -46,12 +43,9 @@
    }
   },
   "3": {
-   "at": "2026-11-22",
-   "concerns": [
-    "3(a): Mark scheme rows include the upper half of 3(b)'s Dijkstra diagram (nodes C, F, G, H, partial E, and M1 A1) at the bottom, sliced across node E and arc GI.",
-    "3(b): Mark scheme diagram is incomplete at the top; the upper half of the Dijkstra diagram (nodes C, F, G, H, most of E, and M1 A1) is missing and appears at the bottom of 3(a)'s mark scheme rows."
-   ],
-   "fingerprint": "76f1ec2fa613",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "264037cbdd65",
    "kinds": {
     "3(a)": "short",
     "3(b)": "calc",
@@ -70,11 +64,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
-   "concerns": [
-    "4(d): Examiners' notes section at the bottom includes a stray fragment of Question 5's mark scheme (left portion of an activity network diagram with A, C, D, G and M1 A1 A1)."
-   ],
-   "fingerprint": "f8c4a8f36a76",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "99be6253b68a",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -98,11 +90,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
-   "concerns": [
-    "5(a): Mark scheme diagram is cropped at the top, missing the upper portion of the activity network (activities A, C, D, G and M1 A1 A1 marks, which appear at the bottom of Q4's notes) and slicing through the top dummy/event nodes."
-   ],
-   "fingerprint": "8b6bb117785d",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "477cca7a5b53",
    "kinds": {
     "5(a)": "draw",
     "5(b)": "short"
@@ -118,12 +108,9 @@
    }
   },
   "6": {
-   "at": "2026-11-20",
-   "concerns": [
-    "6(a): mark-scheme rows run on into the top of (b)s model graph (y-axis 35 down to 18 with constraint lines and a B1), so (a) rows carry (b) content and a mark beyond its 3",
-    "6(b): mark-scheme rows start mid-graph - the model graph is cut through at y=15 with its upper part and first B1 in the (a) rows, so the graph is split between (a) and (b)"
-   ],
-   "fingerprint": "bd7b7ec6b6d7",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "01918d4570d0",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "draw",
@@ -147,15 +134,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
-   "concerns": [
-    "7(b): Mark scheme rows include a clipped repeat of 7(a)'s activity network (cut off at the bottom through C, H, M and showing M1 A1 from 7(a)).",
-    "7(c): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top, and the top half of 7(d)'s Gantt chart (time axis 0-22, activities A-F sliced through F, and M1 A1 marks) at the bottom.",
-    "7(d): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top, while the top half of 7(d)'s Gantt chart (time axis 0-22, activities A-F, and M1 A1) is missing (appearing at the bottom of 7(c)'s mark scheme rows), leaving only G, H, K, L and A1 A1.",
-    "7(e): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top.",
-    "7(f): Mark scheme rows include a clipped repeat of 7(a)'s activity network at the top."
-   ],
-   "fingerprint": "c4938daca1e1",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "b273bfb20633",
    "kinds": {
     "7(a)": "draw",
     "7(b)": "calc",
@@ -187,9 +168,9 @@
    }
   },
   "8": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "e629d0cd1662",
+   "fingerprint": "3c5bfc24fc56",
    "kinds": {
     "8(a)": "short",
     "8(b)": "calc",

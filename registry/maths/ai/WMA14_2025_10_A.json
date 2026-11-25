@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "8f5f51d8343f",
+   "fingerprint": "1b43f63830c4",
    "kinds": {
     "1": "calc"
    },
@@ -16,7 +16,7 @@
   "2": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "9c65cddc9cb8",
+   "fingerprint": "d6408f6e5edd",
    "kinds": {
     "2": "calc"
    },
@@ -28,9 +28,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "773c9c34a6fc",
+   "fingerprint": "c373f5890457",
    "kinds": {
     "3": "calc"
    },
@@ -42,11 +42,9 @@
    }
   },
   "4": {
-   "at": "2026-11-22",
-   "concerns": [
-    "4(a): top edge of the question crop clips the formula: the numerator 1 (and top of the fraction bar) of 1/sqrt(1-2x) in the first line is cut off"
-   ],
-   "fingerprint": "028ccb4794f5",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "fbe883383893",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -61,11 +59,9 @@
    }
   },
   "5": {
-   "at": "2026-11-22",
-   "concerns": [
-    "5: the mark-scheme rows are split: the main-method rows end above the \"examiners NOTES\" caption bar, and the \"Alt\" mark-scheme table (B1, B1 B1, M1, dM1A1, 6 marks) plus a boxed M1 note sit below the NOTES caption instead of with the purple mark-scheme rows"
-   ],
-   "fingerprint": "f62273bdb8ef",
+   "at": "2026-11-25",
+   "concerns": [],
+   "fingerprint": "2e339f7c579f",
    "kinds": {
     "5": "calc"
    },
@@ -79,7 +75,7 @@
   "6": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "5bfc27d06ffb",
+   "fingerprint": "1871a2871d35",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -96,9 +92,11 @@
    }
   },
   "7": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "409d719bf5b5",
+   "at": "2026-11-25",
+   "concerns": [
+    "7(c): examiners notes near the bottom (SC: Answers without sufficient working) slice a bullet-point line horizontally in half"
+   ],
+   "fingerprint": "0619b6ad5861",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -121,7 +119,7 @@
   "8": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "546944460c98",
+   "fingerprint": "cb179ff89404",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -144,7 +142,7 @@
   "9": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "2c542e233418",
+   "fingerprint": "54f7dbe40d4d",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc",

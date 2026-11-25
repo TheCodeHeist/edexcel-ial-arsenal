@@ -3,7 +3,7 @@
   "1": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "80866d00d639",
+   "fingerprint": "f19dc1ce6722",
    "kinds": {
     "1": "calc"
    },
@@ -14,9 +14,11 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "86d9ce7fd1d6",
+   "at": "2026-11-25",
+   "concerns": [
+    "2(b): stray clipped text fragments appear along the very top edge of the mark-scheme rows"
+   ],
+   "fingerprint": "e55a710e583e",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -34,7 +36,7 @@
   "3": {
    "at": "2026-11-22",
    "concerns": [],
-   "fingerprint": "02c8a23c9e56",
+   "fingerprint": "ac4eed5175bc",
    "kinds": {
     "3": "calc"
    },
@@ -47,7 +49,7 @@
   "4": {
    "at": "2026-11-19",
    "concerns": [],
-   "fingerprint": "9ae3d58b45c8",
+   "fingerprint": "c980168a9d8c",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc",
@@ -66,9 +68,12 @@
    }
   },
   "5": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "d0989e76a455",
+   "at": "2026-11-25",
+   "concerns": [
+    "5(a): ALT 2 in the mark-scheme rows is missing its final A1* row (cut off at the bottom and placed in 5(b))",
+    "5(b): mark-scheme rows start with a clipped denominator and the final A1* row belonging to 5(a) ALT 2"
+   ],
+   "fingerprint": "0139dfe79793",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -84,9 +89,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "b4ea2674fb03",
+   "fingerprint": "539c6a5452da",
    "kinds": {
     "6(a)": "calc",
     "6(b)": "calc"
@@ -101,9 +106,12 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "7e226447789c",
+   "at": "2026-11-25",
+   "concerns": [
+    "7(b): mark-scheme bottom line R = ... has the bottoms of the sqrt(3) denominators clipped at the bottom edge",
+    "7(c): stray clipped sqrt(3) fragments from 7(b) appear at the top edge of the mark-scheme rows"
+   ],
+   "fingerprint": "79ff95de0b96",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -122,9 +130,9 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "1f8d1d24387d",
+   "fingerprint": "f74373113363",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",

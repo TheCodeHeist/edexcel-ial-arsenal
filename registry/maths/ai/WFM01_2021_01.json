@@ -1,9 +1,9 @@
 {
  "questions": {
   "1": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "efb6bf486466",
+   "fingerprint": "8bab1295ae9b",
    "kinds": {
     "1(a)": "calc",
     "1(b)": "calc"
@@ -18,9 +18,12 @@
    }
   },
   "2": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "138a587eea86",
+   "at": "2026-11-25",
+   "concerns": [
+    "2(a): mark-scheme row is cut through the denominators 8 of 3/8 - sqrt(71)/8 i",
+    "2(b): stray clipped fragment (8 8) from 2(a) denominators appears at the top of the mark-scheme rows"
+   ],
+   "fingerprint": "be08c88ba824",
    "kinds": {
     "2(a)": "short",
     "2(b)": "calc"
@@ -37,9 +40,9 @@
    }
   },
   "3": {
-   "at": "2026-11-19",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "32da7e74b18f",
+   "fingerprint": "4010c98e753b",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -54,9 +57,9 @@
    }
   },
   "4": {
-   "at": "2026-11-20",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "91d3058eb937",
+   "fingerprint": "2fdc59fc0443",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"
@@ -74,7 +77,7 @@
   "5": {
    "at": "2026-11-20",
    "concerns": [],
-   "fingerprint": "f24edb75e74d",
+   "fingerprint": "735554d33f1e",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -89,9 +92,9 @@
    }
   },
   "6": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "2aa4ba771273",
+   "fingerprint": "85362e3176c8",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -114,9 +117,9 @@
    }
   },
   "7": {
-   "at": "2026-11-22",
+   "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "830b12074b4a",
+   "fingerprint": "15e944a04e88",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -141,9 +144,12 @@
    }
   },
   "8": {
-   "at": "2026-11-22",
-   "concerns": [],
-   "fingerprint": "10507a1d20de",
+   "at": "2026-11-25",
+   "concerns": [
+    "8(a): bottom of the final coordinate answer (5/2, 10) in mark-scheme row is cut off through the denominator 2",
+    "8(b): stray clipped bottom fragment of (5/2, 10) from 8(a) appears at the top of the mark-scheme rows"
+   ],
+   "fingerprint": "293d2feb6b58",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -165,9 +171,12 @@
    }
   },
   "9": {
-   "at": "2026-11-19",
-   "concerns": [],
-   "fingerprint": "34bda09dc35e",
+   "at": "2026-11-25",
+   "concerns": [
+    "9(i): bottom of the fraction (2/3)^n in the concluding line of the mark-scheme row is cut off through the denominator 3",
+    "9(ii): stray clipped bottom fragment of (2/3) from 9(i) appears at the top of the mark-scheme rows"
+   ],
+   "fingerprint": "0fdd4ecadf73",
    "kinds": {
     "9(i)": "calc",
     "9(ii)": "calc"
