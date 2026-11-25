@@ -112,7 +112,7 @@ class Writer {
   page!: PDFPage;
   y = 0;                    // distance from the top of the page
   pages: PDFPage[] = [];
-  constructor(public doc: Doc, public f: { roman: PDFFont; bold: PDFFont; sans: PDFFont }) {}
+  constructor(public doc: Doc, public f: Fonts) {}
   newPage() {
     this.page = this.doc.addPage([A4.w, A4.h]);
     this.pages.push(this.page);
@@ -193,13 +193,35 @@ function duration(min: number) {
 
 const ascii = (s: string) => s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/[^\x20-\x7e·–—é]/g, '');
 
-async function fonts(doc: Doc) {
+/* The covers are set in the site's own type (design-system/DESIGN.md): PT Serif for headings, Geist for text,
+   JetBrains Mono for labels and figures. Their TTFs (all SIL Open Font License) are in public/fonts/, fetched
+   only when a PDF is made, and subset so only the letters used go into the file. The question pages keep Times
+   and Helvetica, as Pearson's papers do. If the fonts can't be loaded, the cover falls back to those. */
+interface Fonts {
+  roman: PDFFont; bold: PDFFont; sans: PDFFont;
+  display: PDFFont; serif: PDFFont; text: PDFFont; semi: PDFFont; mono: PDFFont;
+}
+
+async function fonts(doc: Doc): Promise<Fonts> {
   const { StandardFonts } = lib;
-  return {
-    roman: await doc.embedFont(StandardFonts.TimesRoman),
-    bold: await doc.embedFont(StandardFonts.TimesRomanBold),
-    sans: await doc.embedFont(StandardFonts.Helvetica),
-  };
+  const roman = await doc.embedFont(StandardFonts.TimesRoman);
+  const bold = await doc.embedFont(StandardFonts.TimesRomanBold);
+  const sans = await doc.embedFont(StandardFonts.Helvetica);
+  const std = { roman, bold, sans, display: bold, serif: roman, text: sans,
+    semi: await doc.embedFont(StandardFonts.HelveticaBold), mono: await doc.embedFont(StandardFonts.Courier) };
+  try {
+    doc.registerFontkit((await import('@pdf-lib/fontkit')).default);
+    const get = async (name: string) => {
+      const r = await fetch(`/fonts/${name}.ttf`);
+      if (!r.ok) throw new Error(`couldn't load ${name}`);
+      return doc.embedFont(await r.arrayBuffer(), { subset: true });
+    };
+    const [display, serif, text, semi, mono] = await Promise.all(
+      ['PT_Serif-Web-Bold', 'PT_Serif-Web-Regular', 'Geist-Regular', 'Geist-SemiBold', 'JetBrainsMono-Medium'].map(get));
+    return { roman, bold, sans, display, serif, text, semi, mono };
+  } catch {
+    return std;
+  }
 }
 
 /** The frame, the site in the margins, page numbers and 'Turn over' below the frame. */
@@ -208,17 +230,17 @@ function footers(w: Writer, label: string, from: number, turnOver: boolean) {
   w.pages.forEach((p, i) => {
     p.drawRectangle({ x: FRAME.x0, y: FRAME.bottom, width: FRAME.x1 - FRAME.x0, height: A4.h - FRAME.top - FRAME.bottom,
       borderColor: grey(0.55), borderWidth: 0.7 });
-    const sw = w.f.sans.widthOfTextAtSize(side, 7);
+    const sw = w.f.mono.widthOfTextAtSize(side, 6.5);
     const mid = (A4.h - FRAME.top + FRAME.bottom) / 2;
-    p.drawText(side, { x: FRAME.x0 - 10, y: mid - sw / 2, size: 7, font: w.f.sans, color: grey(0.5), rotate: lib.degrees(90) });
-    p.drawText(side, { x: FRAME.x1 + 10, y: mid + sw / 2, size: 7, font: w.f.sans, color: grey(0.5), rotate: lib.degrees(-90) });
+    p.drawText(side, { x: FRAME.x0 - 10, y: mid - sw / 2, size: 6.5, font: w.f.mono, color: grey(0.5), rotate: lib.degrees(90) });
+    p.drawText(side, { x: FRAME.x1 + 10, y: mid + sw / 2, size: 6.5, font: w.f.mono, color: grey(0.5), rotate: lib.degrees(-90) });
     if (i < from) return;
     const n = String(i + 1);
-    p.drawText(n, { x: A4.w / 2 - w.f.roman.widthOfTextAtSize(n, 11) / 2, y: FRAME.bottom - 22, size: 11, font: w.f.roman });
-    p.drawText(label, { x: FRAME.x0, y: FRAME.bottom - 21, size: 7.5, font: w.f.sans, color: grey(0.45) });
+    p.drawText(n, { x: A4.w / 2 - w.f.mono.widthOfTextAtSize(n, 10) / 2, y: FRAME.bottom - 22, size: 10, font: w.f.mono });
+    p.drawText(label, { x: FRAME.x0, y: FRAME.bottom - 21, size: 7.5, font: w.f.text, color: grey(0.45) });
     if (turnOver && i < w.pages.length - 1) {
       const t = 'Turn over';
-      p.drawText(t, { x: FRAME.x1 - w.f.bold.widthOfTextAtSize(t, 10), y: FRAME.bottom - 22, size: 10, font: w.f.bold });
+      p.drawText(t, { x: FRAME.x1 - w.f.semi.widthOfTextAtSize(t, 9.5), y: FRAME.bottom - 22, size: 9.5, font: w.f.semi });
     }
   });
 }
@@ -232,16 +254,31 @@ async function logo(w: Writer) {
     const img = await w.doc.embedPng(await r.arrayBuffer());
     w.page.drawImage(img, { x: M.left, y: A4.h - w.y - s, width: s, height: s });
   }
-  w.text('Edexcel IAL Arsenal', M.left + s + 10, 15, w.f.bold, { y: w.y + 7 });
-  w.text(SITE, M.left + s + 10, 8.5, w.f.sans, { grey: true, y: w.y + 25 });
+  w.text('Edexcel IAL Arsenal', M.left + s + 10, 15, w.f.display, { y: w.y + 6 });
+  w.text(SITE, M.left + s + 10, 8, w.f.mono, { grey: true, y: w.y + 25 });
+  await pearson(w);
   w.y += s + 14;
+}
+
+/** Pearson's logo at the top right of a cover, as on its own papers, with a note under it: the questions are
+    Pearson's, the mock isn't. Pearson's current wordmark, cropped from the cover of WMA13 October 2026
+    (assets/pearson-logo, served from /brand/), drawn at its own aspect ratio, never stretched. */
+async function pearson(w: Writer) {
+  const r = await fetch('/brand/pearson-logo.png');
+  if (!r.ok) return;
+  const img = await w.doc.embedPng(await r.arrayBuffer());
+  const wd = 96, h = wd * (img.height / img.width);   // a wide wordmark: sized by its width
+  const right = A4.w - M.right, top = w.y + 6;       // level with the site's name on the left
+  w.page.drawImage(img, { x: right - wd, y: A4.h - top - h, width: wd, height: h });
+  w.text('Questions © Pearson Education Ltd.', right, 6.2, w.f.text, { right: true, grey: true, y: top + h + 6 });
+  w.text('Not produced or endorsed by Pearson.', right, 6.2, w.f.text, { right: true, grey: true, y: top + h + 13.5 });
 }
 
 function credit(w: Writer, meta: MockMeta) {
   w.y = A4.h - M.bottom - 58;
   w.page.drawLine({ start: { x: M.left, y: A4.h - w.y + 6 }, end: { x: A4.w - M.right, y: A4.h - w.y + 6 }, thickness: 0.5, color: grey(0.6) });
   w.para(`Questions and mark schemes © Pearson Education Ltd, from Pearson Edexcel International A Level past papers (each question's paper is listed in the mark scheme), collected and shared for free by PaperLords and Physics & Maths Tutor. Put together with Edexcel IAL Arsenal (ial-arsenal.thecodeheist.is-a.dev), an independent, non-commercial revision site; not produced or endorsed by Pearson.`,
-    M.left, A4.w - M.left - M.right, 7.5, w.f.sans, 1.4);
+    M.left, A4.w - M.left - M.right, 7.2, w.f.text, 1.45);
   void meta;
 }
 
@@ -266,39 +303,39 @@ export async function questionPaper(questions: MockQuestion[], meta: MockMeta, p
   w.newPage();
   await logo(w);
   const box = (label: string, x: number, wd: number) => {
-    w.text(label, x, 9, f.sans, { grey: true });
+    w.text(label, x, 8.5, f.text, { grey: true });
     w.page.drawRectangle({ x, y: A4.h - w.y - 34, width: wd, height: 20, borderColor: grey(0.4), borderWidth: 0.8 });
   };
   box('Candidate name', M.left, 300); box('Class', M.left + 312, 90); box('Date', M.left + 414, width - 414);
   w.y += 64;
-  w.text(`${meta.subjectName}`, M.left, 13, f.sans, { grey: true }); w.y += 20;
-  w.text(`${meta.unitLabel}: ${ascii(meta.unitTitle)}`, M.left, 22, f.bold); w.y += 32;
-  w.text(`Mock paper made from past ${meta.unit} questions`, M.left, 14, f.roman); w.y += 34;
+  w.text(meta.subjectName.toUpperCase(), M.left, 11, f.mono, { grey: true }); w.y += 20;
+  w.text(`${meta.unitLabel}: ${ascii(meta.unitTitle)}`, M.left, 22, f.display); w.y += 32;
+  w.text(`Mock paper made from past ${meta.unit} questions`, M.left, 14, f.serif); w.y += 34;
   w.page.drawLine({ start: { x: M.left, y: A4.h - w.y }, end: { x: A4.w - M.right, y: A4.h - w.y }, thickness: 1.2 });
   w.y += 14;
-  w.text(`Time: ${duration(meta.minutes)}`, M.left, 13, f.bold);
-  w.text(`Total marks: ${total}`, A4.w - M.right, 13, f.bold, { right: true }); w.y += 22;
-  w.text('You may need: a scientific calculator and a ruler.', M.left, 11, f.roman); w.y += 18;
-  if (meta.topics.length) { w.y += 4; w.para(`Topics: ${meta.topics.map(ascii).join('; ')}.`, M.left, width, 10, f.roman); }
+  w.text(`Time: ${duration(meta.minutes)}`, M.left, 12.5, f.semi);
+  w.text(`Total marks: ${total}`, A4.w - M.right, 12.5, f.semi, { right: true }); w.y += 22;
+  w.text('You may need: a scientific calculator and a ruler.', M.left, 10.5, f.text); w.y += 18;
+  if (meta.topics.length) { w.y += 4; w.para(`Topics: ${meta.topics.map(ascii).join('; ')}.`, M.left, width, 9.5, f.text); }
   w.y += 14;
-  w.text('Instructions', M.left, 12, f.bold); w.y += 18;
+  w.text('Instructions', M.left, 13, f.display); w.y += 18;
   for (const s of [
     'Use black ink or ball-point pen.',
     'Answer all questions, in the spaces provided.',
     'For a multiple-choice question, put a cross in the box next to your answer (or circle its letter where there are no boxes). If you change your mind, put a line through it and then mark your new answer.',
     'Show your working in calculations, and include units where appropriate.',
-  ]) { w.text('•', M.left + 4, 11, f.roman); w.para(s, M.left + 16, width - 16, 11, f.roman); w.y += 3; }
+  ]) { w.text('•', M.left + 4, 10.5, f.text); w.para(s, M.left + 16, width - 16, 10.5, f.text); w.y += 3; }
   w.y += 10;
-  w.text('Information', M.left, 12, f.bold); w.y += 18;
+  w.text('Information', M.left, 13, f.display); w.y += 18;
   for (const s of [
     `The total mark for this paper is ${total}.`,
     'The marks for each question are shown in brackets: use this as a guide to how much time to spend on it.',
     ...(questions.some((q) => q.parts.some((p) => p.kind === 'extended'))
       ? ['Questions marked with an asterisk (*) are where your answer is marked on how clear and well structured it is, as well as on its physics.'] : []),
-  ]) { w.text('•', M.left + 4, 11, f.roman); w.para(s, M.left + 16, width - 16, 11, f.roman); w.y += 3; }
+  ]) { w.text('•', M.left + 4, 10.5, f.text); w.para(s, M.left + 16, width - 16, 10.5, f.text); w.y += 3; }
   // a marks grid for the teacher
   w.y += 14;
-  w.text('For the marker', M.left, 10, f.sans, { grey: true }); w.y += 14;
+  w.text('FOR THE MARKER', M.left, 8.5, f.mono, { grey: true }); w.y += 14;
   const cols = Math.min(10, questions.length + 1), cw = width / cols, rh = 16;
   const cells = [...questions.map((q, i) => [`Q${i + 1}`, `/${q.marks}`]), ['Total', `/${total}`]];
   for (let i = 0; i < cells.length; i++) {
@@ -306,8 +343,8 @@ export async function questionPaper(questions: MockQuestion[], meta: MockMeta, p
     const x = M.left + c * cw, y = w.y + r * rh * 2.4;
     w.page.drawRectangle({ x, y: A4.h - y - rh, width: cw, height: rh, borderColor: grey(0.4), borderWidth: 0.6, color: grey(0.93) });
     w.page.drawRectangle({ x, y: A4.h - y - rh * 2.2, width: cw, height: rh * 1.2, borderColor: grey(0.4), borderWidth: 0.6 });
-    w.text(cells[i][0], x + 4, 8.5, f.sans, { y: y + 4 });
-    w.text(cells[i][1], x + cw - 4, 8.5, f.sans, { right: true, grey: true, y: y + rh + 8 });
+    w.text(cells[i][0], x + 4, 8.5, f.semi, { y: y + 4 });
+    w.text(cells[i][1], x + cw - 4, 8.5, f.mono, { right: true, grey: true, y: y + rh + 8 });
   }
   credit(w, meta);
 
@@ -425,37 +462,37 @@ export async function markScheme(questions: MockQuestion[], meta: MockMeta, prog
 
   w.newPage();
   await logo(w);
-  w.text(`${meta.subjectName} · ${meta.unitLabel}: ${ascii(meta.unitTitle)}`, M.left, 12, f.sans, { grey: true }); w.y += 20;
-  w.text('Mock paper: mark scheme', M.left, 22, f.bold); w.y += 30;
-  w.text(`Total marks: ${total}    Time: ${duration(meta.minutes)}`, M.left, 12, f.roman); w.y += 26;
+  w.text(`${meta.subjectName.toUpperCase()} · ${meta.unitLabel.toUpperCase()}: ${ascii(meta.unitTitle)}`, M.left, 10, f.mono, { grey: true }); w.y += 20;
+  w.text('Mock paper: mark scheme', M.left, 22, f.display); w.y += 30;
+  w.text(`Total marks: ${total}    Time: ${duration(meta.minutes)}`, M.left, 12, f.semi); w.y += 26;
   w.para(`Each question is a whole question from a past ${meta.unit} paper; its original number and paper are listed below. The mark-scheme rows are Pearson's, so they show the original question number.`,
-    M.left, width, 10.5, f.roman);
+    M.left, width, 10, f.text);
   w.y += 10;
   const head = (y: number) => {
     for (const [t, x] of [['Question', M.left], ['From', M.left + 70], ['Original number', M.left + 260], ['Marks', M.left + 370], ['Answer', M.left + 420]] as const)
-      w.text(t, x, 9.5, f.bold, { y });
+      w.text(t, x, 9, f.semi, { y });
   };
   head(w.y); w.y += 16;
   for (const [i, q] of questions.entries()) {
     w.need(16);
     const mcq = q.parts.length === 1 && q.parts[0].kind === 'mcq' ? q.parts[0].answer ?? '' : '';
-    w.text(String(i + 1), M.left, 10, f.roman);
-    w.text(longSource(q.source), M.left + 70, 10, f.roman);
-    w.text(`Q${q.number}`, M.left + 260, 10, f.roman);
-    w.text(String(q.marks), M.left + 370, 10, f.roman);
-    w.text(mcq, M.left + 420, 10, f.bold);
+    w.text(String(i + 1), M.left, 9.5, f.mono);
+    w.text(longSource(q.source), M.left + 70, 9.5, f.text);
+    w.text(`Q${q.number}`, M.left + 260, 9.5, f.mono);
+    w.text(String(q.marks), M.left + 370, 9.5, f.mono);
+    w.text(mcq, M.left + 420, 9.5, f.semi);
     w.y += 15;
   }
   w.y += 8;
-  w.text(`Total: ${total}`, M.left + 370, 10, f.bold);
+  w.text(`Total: ${total}`, M.left + 370, 9.5, f.semi);
   credit(w, meta);
 
   w.newPage();
   for (const [i, q] of questions.entries()) {
     w.need(80);
     if (i > 0) w.y += 12;
-    w.text(`Question ${i + 1}`, M.left, 13, f.bold);
-    w.text(`${longSource(q.source)}, question ${q.number} · ${q.marks} mark${q.marks === 1 ? '' : 's'}`, A4.w - M.right, 10, f.roman, { right: true, grey: true, y: w.y + 3 });
+    w.text(`Question ${i + 1}`, M.left, 13, f.display);
+    w.text(`${longSource(q.source)}, question ${q.number} · ${q.marks} mark${q.marks === 1 ? '' : 's'}`, A4.w - M.right, 9, f.text, { right: true, grey: true, y: w.y + 3 });
     w.y += 20;
     for (const p of q.parts) {
       if (p.kind === 'mcq' && p.answer) { w.need(18); w.text(`Answer: ${p.answer}`, M.left, 11, f.bold); w.y += 16; }
