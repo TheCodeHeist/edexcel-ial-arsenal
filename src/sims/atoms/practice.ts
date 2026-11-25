@@ -3,6 +3,7 @@
 import { MOLECULES } from './shapes';
 import { FIRST_IE, SUCCESSIVE_IE, firstJump } from './ie';
 import { SAMPLES, calcAr } from './massspec';
+import { plain } from '../../lib/chem';
 
 export type Topic = 'shapes' | 'orbitals' | 'ie' | 'lattices' | 'imf' | 'massspec';
 
@@ -64,12 +65,16 @@ function shuffle<T>(a: T[]): T[] {
 function qShapes(): Question {
   const specMols = MOLECULES.filter((m) => !m.beyond);
   const m = pick(specMols);
-  if (Math.random() < 0.55) {
+  const fText = plain(m.formula);
+  const speciesDesc = m.id === 'nh4'
+    ? `an ammonium ion (${fText})`
+    : `a ${m.name.toLowerCase()} (${fText}) molecule`;
+  if (Math.random() < 0.55 || m.id === 'nh4') {
     const ans = `${m.shape}, ${m.angle}`;
     const pool = Array.from(new Set(specMols.map((x) => `${x.shape}, ${x.angle}`))).filter((x) => x !== ans);
     return {
       topic: 'shapes',
-      prompt: `What are the shape and bond angle of a ${m.name.toLowerCase()} (${m.formula}) molecule?`,
+      prompt: `What are the shape and bond angle of ${speciesDesc}?`,
       options: shuffle([ans, ...shuffle(pool).slice(0, 3)]),
       answer: ans,
       working: [
@@ -84,7 +89,7 @@ function qShapes(): Question {
   const ans = m.polar ? 'Polar' : 'Non-polar';
   return {
     topic: 'shapes',
-    prompt: `A ${m.name.toLowerCase()} (${m.formula}) molecule has shape "${m.shape}". Is the molecule polar or non-polar, and why?`,
+    prompt: `A ${m.name.toLowerCase()} (${fText}) molecule has shape "${m.shape}". Is the molecule polar or non-polar, and why?`,
     options: shuffle([
       m.polar ? 'Polar — its bond dipoles do not cancel by symmetry' : 'Non-polar — its equal bond dipoles cancel by symmetry',
       m.polar ? 'Non-polar — all bonds are identical so dipoles cancel' : 'Polar — its bonds are polar, so the whole molecule must be polar',
@@ -105,13 +110,13 @@ function qOrbitals(): Question {
       options: shuffle(['[Ar] 3d⁵ 4s¹', '[Ar] 3d⁴ 4s²', '[Ar] 3d⁶', '[Ar] 3d⁴ 4s¹ 4p¹']),
       answer: '[Ar] 3d⁵ 4s¹',
       working: ['Ar has 18 electrons; 6 remain.', 'Cr is an exception: a half-filled 3d⁵ sub-shell with 4s¹ is more stable than 3d⁴ 4s².'],
-      why: 'Both Cr ([Ar] 3d⁵ 4s¹) and Cu ([Ar] 3d¹⁰ 4s¹) promote one 4s electron into 3d.',
+      why: 'Cr ([Ar] 3d⁵ 4s¹) and Cu ([Ar] 3d¹⁰ 4s¹) are lower in energy with half-filled or full 3d sub-shells because this minimises electron–electron repulsion in the 4s orbital.',
     },
     {
       prompt: 'Which is the correct electron configuration of a copper atom, Cu (Z = 29)?',
       options: shuffle(['[Ar] 3d¹⁰ 4s¹', '[Ar] 3d⁹ 4s²', '[Ar] 3d¹⁰ 4s²', '[Ar] 3d⁸ 4s² 4p¹']),
       answer: '[Ar] 3d¹⁰ 4s¹',
-      working: ['Ar has 18 electrons; 11 remain.', 'Cu promotes one 4s electron to complete the 3d¹⁰ sub-shell.'],
+      working: ['Ar has 18 electrons; 11 remain.', 'Cu adopts 3d¹⁰ 4s¹ because a filled 3d¹⁰ sub-shell with one 4s electron is lower in energy than 3d⁹ 4s².'],
       why: 'A full 3d¹⁰ sub-shell with 4s¹ has lower energy than 3d⁹ 4s².',
     },
     {
@@ -167,6 +172,7 @@ function qIE(): Question {
         'Boron has two paired electrons in the same 2p orbital causing spin-pair repulsion',
         'Boron has an extra complete inner shell of electrons',
       ],
+      working: [`Be: ${FIRST_IE[3].config}`, `B: ${FIRST_IE[4].config}`],
       why: 'Be is 1s² 2s² while B is 1s² 2s² 2p¹. The 2p electron is higher in energy and shielded by 2s².',
     },
     {
@@ -177,6 +183,7 @@ function qIE(): Question {
         'Oxygen has fewer protons in its nucleus than nitrogen',
         'Oxygen has a larger atomic radius than nitrogen',
       ],
+      working: [`N: ${FIRST_IE[6].config}`, `O: ${FIRST_IE[7].config}`],
       why: 'N is 2p³ (all unpaired) whereas O is 2p⁴ (one orbital paired → repulsion lowers the energy required).',
     },
   ];
@@ -186,7 +193,7 @@ function qIE(): Question {
     prompt: d.prompt,
     options: shuffle([d.ans, ...d.wrong]),
     answer: d.ans,
-    working: [FIRST_IE[4].config + ' vs ' + FIRST_IE[3].config, FIRST_IE[7].config + ' vs ' + FIRST_IE[6].config],
+    working: d.working,
     why: d.why,
   };
 }
@@ -337,7 +344,9 @@ function qMassSpec(): Question {
     working: isCl
       ? ['P(35,35) = ¾ × ¾ = 9/16', 'P(35,37 or 37,35) = 2 × ¾ × ¼ = 6/16', 'P(37,37) = ¼ × ¼ = 1/16 → 9 : 6 : 1']
       : ['P(79,79) = ½ × ½ = ¼', 'P(79,81 or 81,79) = 2 × ½ × ½ = ½', 'P(81,81) = ½ × ½ = ¼ → 1 : 2 : 1'],
-    why: `Aᵣ(${s.formula}) = ${calcAr(s.isotopes).toFixed(1)}; the middle molecular peak can form in two ways (AB or BA).`,
+    why: isCl
+      ? `Aᵣ(Cl) = ${calcAr(s.isotopes).toFixed(1)}, so Mᵣ(Cl₂) = ${(2 * calcAr(s.isotopes)).toFixed(1)}; the middle molecular peak forms in two ways (³⁵Cl³⁷Cl or ³⁷Cl³⁵Cl).`
+      : `Aᵣ(Br) = ${calcAr(s.isotopes).toFixed(1)}, so Mᵣ(Br₂) = ${(2 * calcAr(s.isotopes)).toFixed(1)}; the middle molecular peak forms in two ways (⁷⁹Br⁸¹Br or ⁸¹Br⁷⁹Br).`,
     figure: { kind: 'spectrum', peaks: s.peaks.map((p) => ({ mz: p.mz, rel: p.rel })) },
   };
 }

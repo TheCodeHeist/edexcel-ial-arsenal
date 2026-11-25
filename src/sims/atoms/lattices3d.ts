@@ -197,13 +197,20 @@ export class LatticesScene extends Stage3D<LatticeLook> {
       }
       this.#initElectrons(id === 'graphite' ? 140 : 90, 2.3, 0.1, 2.3, ys);
     } else if (id === 'copper') {
-      const sp = 1.25;
+      // ABAB hexagonal close-packed metal cations inside the delocalised electron sea
+      const a = 1.22;
+      const dy = a * Math.sqrt(2 / 3);
       for (let iy = -1; iy <= 1; iy++) {
         const grp = iy === 1 ? this.#topLayer : this.#botLayer;
-        for (let ix = -1; ix <= 1; ix++) {
-          for (let iz = -1; iz <= 1; iz++) {
-            const p = new THREE.Vector3(ix * sp + (iy === 0 ? 0.2 : 0), iy * sp, iz * sp);
-            this.#sphere(grp, p, 0.36, 0xe88b5a, 0.72);
+        const isB = iy === 0;
+        const bOffX = isB ? a * 0.5 : 0;
+        const bOffZ = isB ? a / (2 * Math.sqrt(3)) : 0;
+        for (let iz = -1; iz <= 1; iz++) {
+          const rowShift = (Math.abs(iz) % 2) * (a * 0.5);
+          for (let ix = -1; ix <= 1; ix++) {
+            const x = ix * a + rowShift + bOffX - a * 0.35;
+            const z = iz * a * (Math.sqrt(3) / 2) + bOffZ;
+            this.#sphere(grp, new THREE.Vector3(x, iy * dy, z), 0.36, 0xe88b5a, 0.72);
           }
         }
       }
@@ -225,13 +232,13 @@ export class LatticesScene extends Stage3D<LatticeLook> {
         }
       }
     } else if (id === 'ice') {
-      // Open hexagonal ice cage: two puckered rings stacked
+      // Open hexagonal ice cage: two puckered rings stacked tetrahedrally (each O is H2O)
       const R = 1.65;
       const oxygens: THREE.Vector3[] = [];
-      for (const layerY of [-0.95, 0.95]) {
+      for (const layerY of [-0.85, 0.85]) {
         for (let k = 0; k < 6; k++) {
           const ang = (k * Math.PI) / 3;
-          const pucker = (k % 2 ? 0.22 : -0.22);
+          const pucker = (layerY < 0 ? 1 : -1) * (k % 2 ? 0.22 : -0.22);
           oxygens.push(new THREE.Vector3(Math.cos(ang) * R, layerY + pucker, Math.sin(ang) * R));
         }
       }
@@ -241,14 +248,37 @@ export class LatticesScene extends Stage3D<LatticeLook> {
       for (let k = 0; k < 6; k++) {
         pairs.push([k, (k + 1) % 6]);
         pairs.push([6 + k, 6 + ((k + 1) % 6)]);
-        if (k % 2 === 0) pairs.push([k, 6 + k]);
+        if (k % 2 === 1) {
+          pairs.push(k === 5 ? [11, 5] : [k, 6 + k]);
+        }
       }
+      const covVecs: THREE.Vector3[][] = Array.from({ length: 12 }, () => []);
+      const allVecs: THREE.Vector3[][] = Array.from({ length: 12 }, () => []);
       for (const [i, j] of pairs) {
         const a = oxygens[i], b = oxygens[j];
         const hPos = a.clone().lerp(b, 0.35);
         this.#sphere(this.#botLayer, hPos, 0.17, 0xf1f5f9, 0.1);
         this.#bond(this.#botLayer, a, hPos, 0.055, 0xe2e8f0);
         this.#bond(this.#botLayer, hPos, b, 0.03, 0x38bdf8, true);
+        covVecs[i].push(b.clone().sub(a).normalize());
+        allVecs[i].push(b.clone().sub(a).normalize());
+        allVecs[j].push(a.clone().sub(b).normalize());
+      }
+      // Give every O a second covalent O-H so there are no bare OH groups
+      for (let i = 0; i < oxygens.length; i++) {
+        if (covVecs[i].length >= 2) continue;
+        const o = oxygens[i];
+        let dir: THREE.Vector3;
+        if (allVecs[i].length >= 3) {
+          dir = allVecs[i].reduce((s, v) => s.add(v), new THREE.Vector3()).multiplyScalar(-1).normalize();
+        } else {
+          const rad = new THREE.Vector3(o.x, 0, o.z).normalize();
+          const dySign = i < 6 ? 1 : -1;
+          dir = rad.multiplyScalar(0.85).add(new THREE.Vector3(0, dySign * 0.42, 0)).normalize();
+        }
+        const h2Pos = o.clone().addScaledVector(dir, 0.58);
+        this.#sphere(this.#botLayer, h2Pos, 0.17, 0xf1f5f9, 0.1);
+        this.#bond(this.#botLayer, o, h2Pos, 0.055, 0xe2e8f0);
       }
     }
   }

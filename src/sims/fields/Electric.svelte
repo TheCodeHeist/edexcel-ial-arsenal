@@ -46,10 +46,12 @@
 
   $effect(() => {
     if (preset.mode === 'radial') {
-      stats = [
-        ['|E| at probe', `${sci(probe.eMag, 3)} N C⁻¹`],
-        ['V at probe', `${sci(probe.v, 3)} V`],
-      ];
+      stats = probe.insideCharge
+        ? [['|E| at probe', '—'], ['V at probe', '—']]
+        : [
+            ['|E| at probe', `${sci(probe.eMag, 3)} N C⁻¹`],
+            ['V at probe', `${sci(probe.v, 3)} V`],
+          ];
     } else {
       stats = [
         ['E = V / d', `${sci(plateE, 3)} V m⁻¹`],
@@ -88,7 +90,11 @@
             <b>{preset.name}</b>
             <span>
               {#if preset.mode === 'radial'}
-                |E| = {sci(probe.eMag, 3)} N C⁻¹ · V = {sci(probe.v, 3)} V
+                {#if probe.insideCharge}
+                  Probe inside charge sphere
+                {:else}
+                  |E| = {sci(probe.eMag, 3)} N C⁻¹ · V = {sci(probe.v, 3)} V
+                {/if}
               {:else}
                 E = V / d = {sci(plateE, 3)} V m⁻¹
               {/if}
@@ -119,7 +125,9 @@
             <span class="ctl-l">Probe y <b>{signed(prefs.probeY * 10, 0)} cm</b></span>
             <input class="slider" type="range" min="-1.8" max="1.8" step="0.1" bind:value={prefs.probeY} />
           </label>
-          <button type="button" class="btn" onclick={() => { prefs.probeX = 0; prefs.probeY = 0; }}>Place at midpoint (0, 0)</button>
+          {#if preset.charges.length >= 2}
+            <button type="button" class="btn" onclick={() => { prefs.probeX = 0; prefs.probeY = 0; }}>Place at midpoint (0, 0)</button>
+          {/if}
         {:else}
           <label class="ctl">
             <span class="ctl-l">Potential difference V <b>{prefs.plateV.toFixed(1)} kV</b></span>
@@ -137,8 +145,8 @@
       <div class="ph"><h2>Readings &amp; key facts</h2></div>
       {#if preset.mode === 'radial'}
         <dl class="reads pad">
-          <div><dt>Field strength |E|</dt><dd>{sci(probe.eMag, 3)} N C⁻¹</dd></div>
-          <div><dt>Potential V</dt><dd>{sci(probe.v, 3)} V</dd></div>
+          <div><dt>Field strength |E|</dt><dd>{probe.insideCharge ? '— (inside charge)' : `${sci(probe.eMag, 3)} N C⁻¹`}</dd></div>
+          <div><dt>Potential V</dt><dd>{probe.insideCharge ? '— (inside charge)' : `${sci(probe.v, 3)} V`}</dd></div>
         </dl>
       {:else}
         <dl class="reads pad">

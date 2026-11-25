@@ -1,5 +1,7 @@
 /* Fields Lab: Generated WPH14 / WPH15 exam-style practice questions across all 5 topics. */
 
+import { sci } from './consts';
+
 export type Topic = 'electric' | 'magnetic' | 'lorentz' | 'induction' | 'gravity';
 
 export const TOPICS: [Topic | 'all', string][] = [
@@ -21,11 +23,11 @@ export const TOPIC_NAME: Record<Topic, string> = {
 
 export const SPEC: Record<Topic | 'all', string> = {
   all: 'WPH14 / 15',
-  electric: '4.3.1',
-  magnetic: '4.3.2',
-  lorentz: '4.3.2',
-  induction: '4.3.3',
-  gravity: '5.4',
+  electric: '4.4 · 92–99',
+  magnetic: '4.4 · 105, 107',
+  lorentz: '4.4 · 106',
+  induction: '4.4 · 105, 108–110',
+  gravity: '5.6 · 154–160',
 };
 
 export type Figure =
@@ -94,21 +96,19 @@ function qMagnetic(): Question {
   const I = pick([2.0, 3.0, 5.0]);
   const L = pick([0.25, 0.5]);
   const deg = pick([30, 90]);
-  const F = B * I * L * Math.sin((deg * Math.PI) / 180);
-  const ans = `${F.toFixed(2)} N`;
+  const sinVal = deg === 30 ? 0.5 : 1;
+  const F = B * I * L * sinVal;
+  const fmtF = (v: number) => `${v.toPrecision(2)} N`;
+  const ans = fmtF(F);
+  const wrongs = [fmtF(B * I * L), fmtF(F / 2), fmtF(B * I / L), fmtF(F * 2)].filter((w, i, a) => w !== ans && a.indexOf(w) === i);
   return {
     topic: 'magnetic',
-    prompt: `A straight wire of length ${L} m carrying ${I.toFixed(1)} A sits at ${deg}° to a uniform magnetic field of flux density ${B} T. Calculate the magnetic force on the wire.`,
-    options: shuffle([
-      ans,
-      `${(B * I * L).toFixed(2) === F.toFixed(2) ? (F * 2).toFixed(2) : (B * I * L).toFixed(2)} N`,
-      `${(F / 2).toFixed(2)} N`,
-      `${(B * I / L).toFixed(2)} N`,
-    ]),
+    prompt: `A straight wire of length ${L.toFixed(2)} m carrying ${I.toFixed(1)} A sits at ${deg}° to a uniform magnetic field of flux density ${B.toFixed(1)} T. Calculate the magnetic force on the wire.`,
+    options: shuffle([ans, ...wrongs.slice(0, 3)]),
     answer: ans,
     working: [
       `F = B I L sin θ`,
-      `F = ${B} × ${I.toFixed(1)} × ${L} × sin(${deg}°) = ${ans}`,
+      `F = ${B.toFixed(1)} × ${I.toFixed(1)} × ${L.toFixed(2)} × sin(${deg}°) = ${ans}`,
     ],
     why: 'Only the component of current perpendicular to the magnetic field experiences a force (sin 30° = 0.5, sin 90° = 1).',
   };
@@ -134,13 +134,14 @@ function qLorentz(): Question {
   const E = pick([2000, 4000, 6000]);
   const B = pick([0.02, 0.04, 0.05]);
   const v = E / B;
-  const ans = `${(v / 1e5).toFixed(1)} × 10⁵ m s⁻¹`;
+  const ans = `${sci(v, 2)} m s⁻¹`;
+  const wrongs = [`${sci(v / 2, 2)} m s⁻¹`, `${sci(v * 2, 2)} m s⁻¹`, `${sci(E * B, 2)} m s⁻¹`].filter((w, i, a) => w !== ans && a.indexOf(w) === i);
   return {
     topic: 'lorentz',
     prompt: `In a crossed-field velocity selector, E = ${E} V m⁻¹ and B = ${B} T. What speed passes straight through undeflected?`,
-    options: shuffle([ans, `${(v / 2e5).toFixed(1)} × 10⁵ m s⁻¹`, `${(v * 2 / 1e5).toFixed(1)} × 10⁵ m s⁻¹`, `${(E * B).toFixed(1)} m s⁻¹`]),
+    options: shuffle([ans, ...wrongs.slice(0, 3)]),
     answer: ans,
-    working: ['Undeflected when FE = FB → EQ = BQv → v = E / B', `v = ${E} / ${B} = ${v.toExponential(1)} m s⁻¹ = ${ans}`],
+    working: ['Undeflected when FE = FB → EQ = BQv → v = E / B', `v = ${E} / ${B} = ${ans}`],
     why: 'Both charge Q and mass m cancel in v = E / B — every particle with that speed goes straight through!',
   };
 }
@@ -171,7 +172,6 @@ function qInduction(): Question {
       answer: 'The induced current creates a North pole at the near end of the coil that repels the incoming magnet, conserving energy',
       working: ['Work done pushing against the opposing magnetic force transfers mechanical energy into electrical energy.'],
       why: 'If the induced pole attracted the magnet, it would accelerate forever and violate conservation of energy.',
-      figure: { kind: 'flux' },
     },
   ];
   return { topic: 'induction', ...pick(bank) };

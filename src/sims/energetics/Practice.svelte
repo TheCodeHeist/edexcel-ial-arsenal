@@ -90,15 +90,28 @@
     {:else if q.figure?.kind === 'hess'}
       {@const f = q.figure}
       <svg viewBox="0 0 230 165" class="enfig" role="img" aria-label="Hess cycle triangle">
+        <defs>
+          <marker id="en-arr-acc" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0 1 L9 5 L0 9 Z" fill="var(--accent)" />
+          </marker>
+          <marker id="en-arr-mut" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0 1 L9 5 L0 9 Z" fill="var(--muted)" />
+          </marker>
+        </defs>
         <rect x="12" y="20" width="66" height="28" rx="6" fill="var(--solid)" stroke="var(--line)" />
         <text class="ft mid" x="45" y="38">Reactants</text>
         <rect x="152" y="20" width="66" height="28" rx="6" fill="var(--solid)" stroke="var(--line)" />
         <text class="ft mid" x="185" y="38">Products</text>
         <rect x="65" y="124" width="100" height="28" rx="6" fill="var(--solid)" stroke="var(--line)" />
         <text class="ft mid" x="115" y="142">{f.dir === 'up' ? 'Elements' : 'CO₂ + H₂O'}</text>
-        <line x1="80" y1="34" x2="148" y2="34" stroke="var(--accent)" stroke-width="2" />
-        <line x1="48" y1="50" x2="95" y2="120" stroke="var(--muted)" stroke-width="1.8" />
-        <line x1="182" y1="50" x2="135" y2="120" stroke="var(--muted)" stroke-width="1.8" />
+        <line x1="80" y1="34" x2="147" y2="34" stroke="var(--accent)" stroke-width="2" marker-end="url(#en-arr-acc)" />
+        {#if f.dir === 'up'}
+          <line x1="95" y1="120" x2="50" y2="53" stroke="var(--muted)" stroke-width="1.8" marker-end="url(#en-arr-mut)" />
+          <line x1="135" y1="120" x2="180" y2="53" stroke="var(--muted)" stroke-width="1.8" marker-end="url(#en-arr-mut)" />
+        {:else}
+          <line x1="48" y1="50" x2="93" y2="117" stroke="var(--muted)" stroke-width="1.8" marker-end="url(#en-arr-mut)" />
+          <line x1="182" y1="50" x2="137" y2="117" stroke="var(--muted)" stroke-width="1.8" marker-end="url(#en-arr-mut)" />
+        {/if}
         <text class="ft mid" x="115" y="27">ΔrH = ?</text>
         <text class="ft" x="20" y="96">{f.dh1}</text>
         <text class="ft" x="172" y="96">{f.dh2}</text>

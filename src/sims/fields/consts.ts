@@ -12,11 +12,16 @@ export function sci(v: number, sf = 3): string {
   if (!Number.isFinite(v)) return '—';
   if (v === 0) return '0';
   const a = Math.abs(v);
-  if (a >= 1e-2 && a < 1e4) return Number(v.toPrecision(sf)).toString();
-  const exp = Math.floor(Math.log10(a));
-  const man = v / 10 ** exp;
+  const sign = v < 0 ? '−' : '';
+  if (a >= 1e-2 && a < 1e4) return sign + Number(a.toPrecision(sf)).toString();
+  let exp = Math.floor(Math.log10(a));
+  let man = Number((a / 10 ** exp).toPrecision(sf));
+  if (man >= 10) {
+    man /= 10;
+    exp += 1;
+  }
   const sup = String(exp).replace('-', '−').split('').map((c) => '⁰¹²³⁴⁵⁶⁷⁸⁹'['0123456789'.indexOf(c)] ?? c).join('');
-  return `${man.toPrecision(sf)} × 10${sup}`;
+  return `${sign}${man.toPrecision(sf)} × 10${sup}`;
 }
 
 export function signed(v: number, dp = 1): string {

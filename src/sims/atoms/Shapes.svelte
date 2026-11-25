@@ -55,6 +55,9 @@
     lp: mol.lp,
     shape: mol.shape,
     angle: mol.angle,
+    arcPair: mol.arcPair,
+    secondArc: mol.secondArc,
+    ethene: !!mol.ethene,
     polar: mol.polar,
     polarWhy: mol.polarWhy,
     bonds: mol.bonds,
@@ -70,6 +73,9 @@
     lp: prefs.lp,
     shape: built.shape,
     angle: built.angle,
+    arcPair: built.arcPair,
+    secondArc: built.secondArc,
+    ethene: false,
     polar: built.polar,
     polarWhy: built.polar ? 'Asymmetrical arrangement of bonds leaves a net dipole.' : 'Symmetrical arrangement cancels equal bond dipoles.',
     bonds: built.bonds,
@@ -79,15 +85,26 @@
   });
 
   const dip = $derived(netDipole(active.central, active.bonds));
-  const outerEl = $derived(active.bonds[0]?.el ?? 'X');
+  const uniqueOuter = $derived([...new Set(active.bonds.map((b) => b.el))].filter((e) => EN[e] !== undefined && e !== active.central));
   const enC = $derived(EN[active.central]);
-  const enO = $derived(EN[outerEl]);
+  const maxDeltaPair = $derived.by(() => {
+    if (!enC || !uniqueOuter.length) return '';
+    let best = uniqueOuter[0], bestD = -1;
+    for (const o of uniqueOuter) {
+      const d = Math.abs(EN[o] - enC);
+      if (d > bestD) { bestD = d; best = o; }
+    }
+    return uniqueOuter.length > 1 ? ` (${active.central}–${best})` : '';
+  });
 
   const look = $derived<ShapeLook>({
     key: active.key,
     central: active.central,
     bonds: active.bonds,
     lones: active.lones,
+    arcPair: active.arcPair,
+    secondArc: active.secondArc,
+    ethene: active.ethene,
     showLP: prefs.showLP,
     showAngles: prefs.showAngles,
     showDipoles: prefs.showDipoles,
@@ -121,8 +138,8 @@
     {#if prefs.mode === 'preset'}
       <div class="picker" role="group" aria-label="Choose a molecule">
         {#each MOLECULES as m (m.id)}
-          <button type="button" class="chip" class:on={prefs.preset === m.id} onclick={() => (prefs.preset = m.id)}>
-            {@html chem(m.formula)}{#if m.beyond} <span class="ab-tag">ext</span>{/if}
+          <button type="button" class="chip" class:on={prefs.preset === m.id} aria-pressed={prefs.preset === m.id} aria-label={m.name} title={m.name} onclick={() => (prefs.preset = m.id)}>
+            <span>{@html chem(m.formula)}</span>{#if m.beyond} <span class="ab-tag">ext</span>{/if}
           </button>
         {/each}
       </div>
@@ -137,8 +154,8 @@
           </div>
           <div class="hud tr">
             <span>{active.polar ? 'Polar molecule' : 'Non-polar molecule'}</span>
-            {#if prefs.mode === 'preset' && enC && enO}
-              <span>ΔEN = {dip.deltaEN.toFixed(2)}</span>
+            {#if prefs.mode === 'preset' && enC && uniqueOuter.length}
+              <span>{uniqueOuter.length > 1 ? 'max ' : ''}ΔEN = {dip.deltaEN.toFixed(2)}{maxDeltaPair}</span>
             {/if}
           </div>
           <div class="hud bl">Drag to rotate · click then scroll to zoom · purple lobes are lone pairs</div>
@@ -180,9 +197,11 @@
         <div><dt>Bond angle</dt><dd>{active.angle}</dd></div>
         <div><dt>Bonding pairs</dt><dd>{active.bp}</dd></div>
         <div><dt>Lone pairs</dt><dd>{active.lp}</dd></div>
-        {#if prefs.mode === 'preset' && enC && enO}
+        {#if prefs.mode === 'preset' && enC && uniqueOuter.length}
           <div><dt>EN ({active.central})</dt><dd>{enC.toFixed(2)}</dd></div>
-          <div><dt>EN ({outerEl})</dt><dd>{enO.toFixed(2)}</dd></div>
+          {#each uniqueOuter as el (el)}
+            <div><dt>EN ({el})</dt><dd>{EN[el].toFixed(2)}</dd></div>
+          {/each}
         {/if}
         <div class="wide"><dt>Molecular polarity</dt><dd class="txt">{active.polar ? 'Polar' : 'Non-polar'} — {active.polarWhy}</dd></div>
       </dl>

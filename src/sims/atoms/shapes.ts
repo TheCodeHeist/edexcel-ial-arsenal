@@ -8,6 +8,7 @@ export interface BondSpec {
   dir: Vec3;       // unit direction vector from central atom
   el: string;      // outer atom symbol
   order: 1 | 2 | 3;
+  dative?: boolean;
 }
 
 export interface MoleculePreset {
@@ -20,6 +21,9 @@ export interface MoleculePreset {
   shape: string;
   angle: string;
   angleDeg: number;
+  arcPair?: [number, number];
+  secondArc?: { pair: [number, number]; label: string };
+  ethene?: boolean;
   polar: boolean;
   polarWhy: string;
   bonds: BondSpec[];
@@ -198,20 +202,45 @@ export const MOLECULES: MoleculePreset[] = [
     ],
   },
   {
+    id: 'nh4', formula: 'NH4^+', name: 'Ammonium ion (dative)', central: 'N', bp: 4, lp: 0,
+    shape: 'Tetrahedral', angle: '109.5°', angleDeg: 109.5, polar: false,
+    polarWhy: 'All four N–H bonds are identical in length and strength once formed, arranged symmetrically at 109.5° (charged ion, zero net dipole).',
+    bonds: TET.map((dir, i) => ({ dir, el: 'H', order: 1, dative: i === 0 })),
+    lones: [],
+    facts: [
+      'Formed when NH₃ donates its lone pair to H⁺ via a dative (coordinate) covalent bond (both shared electrons come from N).',
+      'Once formed, all four N–H bonds are identical; the lone-pair compression disappears, widening the angle from 107° (NH₃) to 109.5° (NH₄⁺).',
+      '4 bonding pairs, 0 lone pairs around N → tetrahedral (109.5°).',
+    ],
+  },
+  {
+    id: 'c2h4', formula: 'C2H4', name: 'Ethene (σ + π bond)', central: 'C', bp: 3, lp: 0,
+    shape: 'Trigonal planar (each C)', angle: '120°', angleDeg: 120, ethene: true, polar: false,
+    polarWhy: 'C–H bonds are almost non-polar (ΔEN = 0.35) and cancel symmetrically in a flat planar molecule.',
+    bonds: TP.map((dir, i) => ({ dir, el: i === 0 ? 'C' : 'H', order: i === 0 ? 2 : 1 })),
+    lones: [],
+    facts: [
+      'Each carbon has 3 bonding regions (two C–H single bonds and one C=C double bond) and 0 lone pairs → trigonal planar (120°).',
+      'The C=C double bond consists of 1 σ (sigma) bond (head-on orbital overlap along the axis) + 1 π (pi) bond (sideways p-orbital overlap above and below the plane).',
+      'Sideways π-overlap locks the molecule planar and prevents free rotation around the C=C bond.',
+    ],
+  },
+  {
     id: 'pcl5', formula: 'PCl5', name: 'Phosphorus(V) chloride', central: 'P', bp: 5, lp: 0,
-    shape: 'Trigonal bipyramidal', angle: '90° and 120°', angleDeg: 90, polar: false,
+    shape: 'Trigonal bipyramidal', angle: '90° and 120°', angleDeg: 90,
+    arcPair: [0, 2], secondArc: { pair: [2, 3], label: '120°' }, polar: false,
     polarWhy: 'The two axial P–Cl dipoles cancel vertically, and the three equatorial P–Cl dipoles cancel at 120° in the horizontal plane.',
     bonds: [...TBP_AX, ...TBP_EQ].map((dir) => ({ dir, el: 'Cl', order: 1 })),
     lones: [],
     facts: [
-      '5 bonding pairs, 0 lone pairs (phosphorus expands its octet using 3d orbitals).',
+      '5 bonding pairs, 0 lone pairs around phosphorus (10 outer electrons — expanded octet).',
       '3 equatorial bonds at 120° to each other; 2 axial bonds at 90° to the equatorial plane.',
       'Fully symmetrical → non-polar molecule (in the gas phase).',
     ],
   },
   {
     id: 'sf6', formula: 'SF6', name: 'Sulfur hexafluoride', central: 'S', bp: 6, lp: 0,
-    shape: 'Octahedral', angle: '90°', angleDeg: 90, polar: false,
+    shape: 'Octahedral', angle: '90°', angleDeg: 90, arcPair: [0, 2], polar: false,
     polarWhy: 'Six strongly polar S–F bonds (ΔEN = 1.40) sit in three opposite pairs along x, y and z and cancel completely.',
     bonds: OCT.map((dir) => ({ dir, el: 'F', order: 1 })),
     lones: [],
@@ -223,7 +252,7 @@ export const MOLECULES: MoleculePreset[] = [
   },
   {
     id: 'xef4', formula: 'XeF4', name: 'Xenon tetrafluoride', central: 'Xe', bp: 4, lp: 2,
-    shape: 'Square planar', angle: '90°', angleDeg: 90, polar: false, beyond: true,
+    shape: 'Square planar', angle: '90°', angleDeg: 90, arcPair: [0, 2], polar: false, beyond: true,
     polarWhy: 'The 2 lone pairs sit opposite each other (180°) to minimise LP–LP repulsion, leaving 4 Xe–F bonds in a flat square that cancel.',
     bonds: [OCT[0], OCT[1], OCT[4], OCT[5]].map((dir) => ({ dir, el: 'F', order: 1 })),
     lones: [OCT[2], OCT[3]],
@@ -237,11 +266,23 @@ export const MOLECULES: MoleculePreset[] = [
 
 /** Build a generic VSEPR geometry for any valid (bp, lp) with 2 <= bp + lp <= 6 and bp >= 1. */
 export function buildVsepr(bp: number, lp: number): {
-  shape: string; angle: string; angleDeg: number; bonds: BondSpec[]; lones: Vec3[]; polar: boolean; beyond?: boolean; note: string;
+  shape: string; angle: string; angleDeg: number; arcPair?: [number, number]; secondArc?: { pair: [number, number]; label: string };
+  bonds: BondSpec[]; lones: Vec3[]; polar: boolean; beyond?: boolean; note: string;
 } {
   const tot = bp + lp;
-  const make = (dirs: Vec3[], lones: Vec3[], shape: string, angle: string, angleDeg: number, polar: boolean, note: string, beyond = false) => ({
-    shape, angle, angleDeg, polar, beyond, note,
+  const make = (
+    dirs: Vec3[],
+    lones: Vec3[],
+    shape: string,
+    angle: string,
+    angleDeg: number,
+    polar: boolean,
+    note: string,
+    beyond = false,
+    arcPair?: [number, number],
+    secondArc?: { pair: [number, number]; label: string },
+  ) => ({
+    shape, angle, angleDeg, polar, beyond, note, arcPair, secondArc,
     bonds: dirs.map((dir) => ({ dir, el: 'X', order: 1 as const })),
     lones,
   });
@@ -268,15 +309,33 @@ export function buildVsepr(bp: number, lp: number): {
     return make(g.bonds, g.lones, 'V-shaped (non-linear)', '104.5°', 104.5, true, '2 lone pairs compress the bond angle twice: 109.5° → 107° → 104.5°.');
   }
   if (tot === 5) {
-    if (lp === 0) return make([...TBP_AX, ...TBP_EQ], [], 'Trigonal bipyramidal', '90° and 120°', 90, false, '3 equatorial bonds at 120° and 2 axial bonds at 90°.');
-    if (lp === 1) return make([...TBP_AX, TBP_EQ[1], TBP_EQ[2]], [TBP_EQ[0]], 'Seesaw', '~88° and ~117°', 88, true, 'The lone pair takes an equatorial position (only two 90° neighbours instead of three).', true);
-    if (lp === 2) return make([...TBP_AX, TBP_EQ[0]], [TBP_EQ[1], TBP_EQ[2]], 'T-shaped', '~87.5°', 87.5, true, 'Both lone pairs occupy equatorial positions to minimise 90° repulsions.', true);
+    if (lp === 0) {
+      return make([...TBP_AX, ...TBP_EQ], [], 'Trigonal bipyramidal', '90° and 120°', 90, false,
+        '3 equatorial bonds at 120° and 2 axial bonds at 90°.', false, [0, 2], { pair: [2, 3], label: '120°' });
+    }
+    if (lp === 1) {
+      return make([...TBP_AX, TBP_EQ[1], TBP_EQ[2]], [TBP_EQ[0]], 'Seesaw', '<90° and <120°', 88, true,
+        'The lone pair takes an equatorial position (only two 90° neighbours instead of three), compressing both axial (<90°) and equatorial (<120°) angles.',
+        true, [0, 2], { pair: [2, 3], label: '<120°' });
+    }
+    if (lp === 2) {
+      return make([...TBP_AX, TBP_EQ[0]], [TBP_EQ[1], TBP_EQ[2]], 'T-shaped', '<90°', 88, true,
+        'Both lone pairs occupy equatorial positions to minimise 90° repulsions, pushing axial bonds below 90°.', true, [0, 2]);
+    }
     return make(TBP_AX, TBP_EQ, 'Linear', '180°', 180, false, 'All 3 lone pairs sit around the equator at 120°, leaving 2 axial bonds at 180°.', true);
   }
   // tot === 6
-  if (lp === 0) return make(OCT, [], 'Octahedral', '90°', 90, false, '6 equal bonding pairs sit along ±x, ±y, ±z at 90°.');
-  if (lp === 1) return make([OCT[0], OCT[1], OCT[2], OCT[4], OCT[5]], [OCT[3]], 'Square pyramidal', '~89°', 89, true, '1 lone pair sits at one apex and pushes the four equatorial bonds slightly away.', true);
-  return make([OCT[0], OCT[1], OCT[4], OCT[5]], [OCT[2], OCT[3]], 'Square planar', '90°', 90, false, '2 lone pairs sit opposite each other (180° apart), leaving 4 bonds in a flat square.', true);
+  if (lp === 0) return make(OCT, [], 'Octahedral', '90°', 90, false, '6 equal bonding pairs sit along ±x, ±y, ±z at 90°.', false, [0, 2]);
+  if (lp === 1) {
+    return make([OCT[0], OCT[1], OCT[2], OCT[4], OCT[5]], [OCT[3]], 'Square pyramidal', '<90°', 89, true,
+      '1 lone pair sits at one apex and pushes the four equatorial bonds slightly away (<90°).', true, [0, 2]);
+  }
+  if (lp === 2) {
+    return make([OCT[0], OCT[1], OCT[4], OCT[5]], [OCT[2], OCT[3]], 'Square planar', '90°', 90, false,
+      '2 lone pairs sit opposite each other (180° apart), leaving 4 bonds in a flat square at 90°.', true, [0, 2]);
+  }
+  return make([OCT[0], OCT[1], OCT[4]], [OCT[2], OCT[3], OCT[5]], 'T-shaped', '<90°', 89, true,
+    '3 lone pairs sit in a T-plane around the central atom, leaving 3 bonding pairs in a T-shape (<90°).', true, [0, 2]);
 }
 
 /** Compute net dipole vector from central atom and bonds using Pauling electronegativity differences. */

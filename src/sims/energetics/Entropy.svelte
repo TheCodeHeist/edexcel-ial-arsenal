@@ -153,11 +153,11 @@
         <div class="ctls">
           <label class="ctl">
             <span class="ctl-l">ΔH <b>{signed(prefs.dh, 0)} kJ mol⁻¹</b></span>
-            <input class="slider" type="range" min="-300" max="300" step="10" bind:value={prefs.dh} />
+            <input class="slider" type="range" min="-1000" max="3000" step="1" bind:value={prefs.dh} />
           </label>
           <label class="ctl">
             <span class="ctl-l">ΔSsystem <b>{signed(prefs.ds, 0)} J K⁻¹ mol⁻¹</b></span>
-            <input class="slider" type="range" min="-300" max="300" step="10" bind:value={prefs.ds} />
+            <input class="slider" type="range" min="-300" max="300" step="1" bind:value={prefs.ds} />
           </label>
         </div>
       {:else}
@@ -181,7 +181,7 @@
       <div class="facts pad">
         <b>Key facts</b>
         <ul>
-          <li>A reaction is thermodynamically feasible when <b>ΔStotal &gt; 0</b> (equivalently <b>ΔG ≤ 0</b>).</li>
+          <li>A reaction is thermodynamically feasible when <b>ΔStotal ≥ 0</b> (equivalently <b>ΔG ≤ 0</b>).</li>
           <li>Always convert ΔS from J K⁻¹ mol⁻¹ to kJ K⁻¹ mol⁻¹ (÷ 1000) before using ΔG = ΔH − TΔS!</li>
           <li>Thermodynamic feasibility does NOT tell you the rate — a reaction with ΔG &lt; 0 can still be kinetically inert if Ea is very high.</li>
         </ul>

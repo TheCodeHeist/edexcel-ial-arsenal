@@ -1,4 +1,4 @@
-/* Energetics Lab: Calorimetry & Cooling Curves (Spec 6.4–6.7, Core Practicals 4 & 5). */
+/* Energetics Lab: Calorimetry & Cooling Curves (Spec 6.4–6.7, Topic 6). */
 
 import { C_WATER } from './consts';
 
@@ -9,9 +9,10 @@ export interface CalReaction {
   mode: CalMode;
   name: string;
   eq: string;
-  dhLit: number;      // kJ mol⁻¹ (Data Booklet / literature value)
+  dhLit: number;       // kJ mol⁻¹ (Data Booklet / literature value)
   defaultMass: number; // g of water / solution
   defaultMol: number;  // mol of limiting reagent
+  molarMass?: number;  // g mol⁻¹ (for burner fuels / solid mass display)
   liquidHex: number;   // initial liquid colour
   endHex: number;      // final liquid colour
   note: string;
@@ -24,7 +25,7 @@ export const CAL_REACTIONS: CalReaction[] = [
     eq: 'Zn(s) + CuSO4(aq) -> ZnSO4(aq) + Cu(s)',
     dhLit: -217, defaultMass: 50, defaultMol: 0.025,
     liquidHex: 0x38bdf8, endHex: 0xdbeafe,
-    note: 'Excess zinc powder added to 50 cm³ of 0.50 mol dm⁻³ CuSO₄(aq) at t = 4 min. Blue colour fades as Cu²⁺ is displaced.',
+    note: 'Excess zinc powder added to CuSO₄(aq) at t = 4 min. Blue colour fades as Cu²⁺ is displaced.',
     facts: [
       'Assume density of aqueous solution = 1.00 g cm⁻³ and specific heat capacity c = 4.18 J g⁻¹ K⁻¹.',
       'Extrapolate the cooling line back to t = 4 min (time of mixing) to correct for heat lost to the surroundings during the reaction.',
@@ -36,7 +37,7 @@ export const CAL_REACTIONS: CalReaction[] = [
     eq: 'HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)',
     dhLit: -57.3, defaultMass: 50, defaultMol: 0.05,
     liquidHex: 0xcbd5e1, endHex: 0xe2e8f0,
-    note: '25 cm³ of 2.0 mol dm⁻³ HCl mixed with 25 cm³ of 2.0 mol dm⁻³ NaOH (total mass 50 g, 0.050 mol H₂O formed).',
+    note: 'Equal volumes of strong acid and alkali mixed in a polystyrene cup at t = 4 min.',
     facts: [
       'Standard enthalpy of neutralisation of any strong acid with a strong base is ≈ −57.3 kJ mol⁻¹ because the ionic equation is always H⁺(aq) + OH⁻(aq) → H₂O(l).',
       'Use the TOTAL volume of both solutions combined for m in q = mcΔT.',
@@ -46,9 +47,9 @@ export const CAL_REACTIONS: CalReaction[] = [
   {
     id: 'nh4no3', mode: 'cup', name: 'NH₄NO₃ dissolving (endothermic)',
     eq: 'NH4NO3(s) + aq -> NH4+(aq) + NO3-(aq)',
-    dhLit: 25.7, defaultMass: 50, defaultMol: 0.10,
+    dhLit: 25.7, defaultMass: 50, defaultMol: 0.10, molarMass: 80.0,
     liquidHex: 0xdbeafe, endHex: 0x93c5fd,
-    note: '8.0 g (0.10 mol) ammonium nitrate dissolves in 50 cm³ water: temperature drops, so ΔH is positive (endothermic).',
+    note: 'Solid ammonium nitrate dissolves in water at t = 4 min: temperature drops, so ΔH is positive (endothermic).',
     facts: [
       'For an endothermic change, the solution cools (ΔT < 0) and then warms back up toward room temperature.',
       'Extrapolate the warming curve back to t = 4 min to find the true maximum temperature drop.',
@@ -58,9 +59,9 @@ export const CAL_REACTIONS: CalReaction[] = [
   {
     id: 'ethanol', mode: 'burner', name: 'Ethanol combustion',
     eq: 'C2H5OH(l) + 3O2(g) -> 2CO2(g) + 3H2O(l)',
-    dhLit: -1367, defaultMass: 100, defaultMol: 0.012,
+    dhLit: -1367, defaultMass: 100, defaultMol: 0.012, molarMass: 46.0,
     liquidHex: 0x60a5fa, endHex: 0xfb923c,
-    note: 'Spirit burner heats 100 g water in a copper calorimeter; mass of ethanol burned gives n = Δm / 46.0.',
+    note: 'Spirit burner heats water in a copper calorimeter; weigh the burner before and after to find mass burned Δm and n = Δm / 46.0.',
     facts: [
       'Experimental |ΔcH| is always much smaller than the Data Booklet value (−1367 kJ mol⁻¹) due to heat loss to the air and calorimeter, incomplete combustion (soot), and evaporation of alcohol from the wick.',
       'Use a draught shield and place the flame close to the copper can to minimise heat loss.',
@@ -70,9 +71,9 @@ export const CAL_REACTIONS: CalReaction[] = [
   {
     id: 'propanol', mode: 'burner', name: 'Propan-1-ol combustion',
     eq: 'C3H7OH(l) + 4.5O2(g) -> 3CO2(g) + 4H2O(l)',
-    dhLit: -2021, defaultMass: 100, defaultMol: 0.010,
+    dhLit: -2021, defaultMass: 100, defaultMol: 0.010, molarMass: 60.0,
     liquidHex: 0x60a5fa, endHex: 0xf87171,
-    note: 'Longer alcohol chain releases more energy per mole (~650 kJ mol⁻¹ per extra –CH₂– group).',
+    note: 'Longer alcohol chain releases more energy per mole (~650 kJ mol⁻¹ per extra –CH₂– group); weigh burner before and after for Δm.',
     facts: [
       'Each extra –CH₂– group adds 1 C–C and 2 C–H bonds broken, and 1 extra CO₂ + 1 H₂O formed → ΔcH becomes more exothermic by a steady increment.',
       'Weigh the spirit burner with its cap on before and after heating to prevent evaporation error.',
@@ -88,39 +89,59 @@ export interface CoolingPoint {
 export interface CalResult {
   t0: number;
   idealDeltaT: number;    // theoretical ΔT with zero heat loss
-  peakDeltaT: number;     // raw max/min observed ΔT
-  extrapDeltaT: number;   // extrapolated ΔT at t = 4 min
-  qExp: number;           // J (from extrapolated ΔT)
+  peakDeltaT: number;     // raw max/min observed ΔT (or measured ΔT for burner)
+  extrapDeltaT: number;   // extrapolated ΔT at t = 4 min (or measured ΔT for burner)
+  massFuel: number | null;// g burned (for burner mode)
+  qExp: number;           // J
   dhExp: number;          // kJ mol⁻¹
-  points: CoolingPoint[]; // simulated thermometer readings 0..10 min
+  points: CoolingPoint[]; // simulated thermometer readings 0..10 min (cup mode only)
   extrapLine: { t1: number; T1: number; t2: number; T2: number };
 }
 
-/** Generate realistic calorimeter readings (0..10 min, mixing at t = 4) with heat loss and cooling-curve extrapolation. */
+/** Generate realistic calorimeter readings: cooling-curve extrapolation (0..10 min) for cup mode, or ΔT + Δm for spirit burners. */
 export function simulateCal(rxn: CalReaction, massWater: number, mol: number, heatLossFrac: number): CalResult {
   const t0 = 20.0;
   // Ideal ΔT from literature ΔH: q = -ΔH * 1000 * mol = m * c * ΔT
   const idealDeltaT = (-rxn.dhLit * 1000 * mol) / (massWater * C_WATER);
-  // Efficiency factor (cup has lower loss than burner)
-  const baseEff = rxn.mode === 'burner' ? 0.62 : 0.96;
-  const eff = Math.max(0.3, baseEff * (1 - heatLossFrac * 0.45));
+
+  if (rxn.mode === 'burner') {
+    // Spirit burner: record initial T, final T and Δm of fuel burned (no cooling-curve extrapolation)
+    const eff = Math.max(0.25, 0.72 * (1 - heatLossFrac * 0.55));
+    const deltaT = idealDeltaT * eff;
+    const qExp = massWater * C_WATER * deltaT;
+    const dhExp = -(qExp / 1000) / Math.max(1e-6, mol);
+    const massFuel = mol * (rxn.molarMass ?? 46.0);
+    return {
+      t0,
+      idealDeltaT,
+      peakDeltaT: deltaT,
+      extrapDeltaT: deltaT,
+      massFuel,
+      qExp,
+      dhExp,
+      points: [],
+      extrapLine: { t1: 0, T1: t0, t2: 0, T2: t0 },
+    };
+  }
+
+  // Cup calorimetry: most heat loss appears as faster cooling k, which extrapolation recovers cleanly
+  const eff = 0.99 - heatLossFrac * 0.04;
   const trueDeltaT = idealDeltaT * eff;
-  // Cooling rate k (per minute)
-  const k = rxn.mode === 'burner' ? 0.045 + heatLossFrac * 0.05 : 0.025 + heatLossFrac * 0.06;
+  const k = 0.012 + heatLossFrac * 0.08;
 
   const points: CoolingPoint[] = [];
   for (let t = 0; t <= 10; t++) {
     if (t <= 3) {
       points.push({ t, T: t0 });
     } else if (t === 4) {
-      // Mixing happens at t = 4 (no reading plotted at mixing instant in CP 4, or partial rise)
+      // Mixing instant at t = 4 (no thermometer reading plotted)
       continue;
     } else if (t === 5) {
-      // Reaction nearly complete, slight heat loss already occurred
-      const T = t0 + trueDeltaT * (1 - k * 1.15);
+      // Reaction nearly complete; finite mixing time means raw peak undershoots when k is large
+      const T = t0 + trueDeltaT * Math.exp(-k * 2.3);
       points.push({ t, T });
     } else {
-      // Exponential/linear Newton cooling back toward t0
+      // Post-reaction cooling/warming toward t0
       const T = t0 + trueDeltaT * Math.exp(-k * (t - 4));
       points.push({ t, T });
     }
@@ -151,6 +172,7 @@ export function simulateCal(rxn: CalReaction, massWater: number, mol: number, he
     idealDeltaT,
     peakDeltaT,
     extrapDeltaT,
+    massFuel: null,
     qExp,
     dhExp,
     points,

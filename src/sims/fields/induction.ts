@@ -2,25 +2,25 @@
 
 export type IndMode = 'magnet' | 'generator';
 
-/** For a rotating AC generator coil: flux linkage NΦ(t) = BAN cos(ωt) and emf ε(t) = BANω sin(ωt). */
-export function genState(B: number, A: number, N: number, freq: number, t: number) {
+/** For a rotating AC generator coil: flux linkage NΦ(θ) = BAN cos(θ) and emf ε(θ) = BANω sin(θ). */
+export function genState(B: number, A: number, N: number, freq: number, phase: number) {
   const omega = 2 * Math.PI * freq;
-  const theta = omega * t;
+  const theta = phase;
   const fluxLink = B * A * N * Math.cos(theta);
   const emf = B * A * N * omega * Math.sin(theta);
   const peakEmf = B * A * N * omega;
   return { theta, fluxLink, emf, peakEmf };
 }
 
-/** For a bar magnet oscillating sinusoidally through a coil: x(t) = x0 cos(ωt). */
-export function magnetState(N: number, freq: number, t: number) {
+/** For a bar magnet oscillating sinusoidally through a coil: x(θ) = x0 cos(θ). */
+export function magnetState(N: number, freq: number, phase: number) {
   const omega = 2 * Math.PI * freq;
-  const x = Math.cos(omega * t); // -1 .. +1 (0 = magnet centred inside coil)
+  const x = Math.cos(phase); // -1 .. +1 (0 = magnet centred inside coil)
   // Gaussian flux peak when magnet is inside coil (x = 0)
   const flux = Math.exp(-3.2 * x * x);
-  const dxdt = -omega * Math.sin(omega * t);
+  const dxdt = -omega * Math.sin(phase);
   const dFluxDt = flux * (-6.4 * x) * dxdt;
-  const emf = -N * 0.0025 * dFluxDt; // scaled to readable mV / V
+  const emf = -N * 0.0025 * dFluxDt; // scaled to readable V
   return { x, fluxLink: N * 0.0025 * flux, emf };
 }
 

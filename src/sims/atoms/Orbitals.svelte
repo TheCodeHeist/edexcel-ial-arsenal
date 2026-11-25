@@ -16,7 +16,7 @@
   import View3D from './View3D.svelte';
   import CopyButton from '../../components/ui/CopyButton.svelte';
   import type { OrbitalLook } from './orbitals3d';
-  import { ELEMENTS, SUBSHELLS, ORBITAL_DEFS, fillConfig, formatConfig, boxStates, type OrbitalKind } from './orbitals';
+  import { ELEMENTS, SUBSHELLS, ORBITAL_DEFS, fillConfig, formatConfig, boxStates, sup, type OrbitalKind } from './orbitals';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: {
     prefs: OrbitalsPrefs; hidden?: boolean; stats?: [string, string | number][];
@@ -33,11 +33,17 @@
   const eTotal = $derived(Object.values(occ).reduce((a, b) => a + b, 0));
   const orbDef = $derived(ORBITAL_DEFS.find((o) => o.id === prefs.orbital) ?? ORBITAL_DEFS[0]);
 
+  $effect(() => {
+    if (prefs.charge > el.z || (el.z === 1 && prefs.charge < -1) || (el.group === 18 && prefs.charge !== 0)) {
+      prefs.charge = 0;
+    }
+  });
+
   const ionLabel = $derived(
     prefs.charge === 0 ? el.sym :
     prefs.charge === 1 ? `${el.sym}⁺` :
     prefs.charge === -1 ? `${el.sym}⁻` :
-    prefs.charge > 0 ? `${el.sym}${prefs.charge}⁺` : `${el.sym}${-prefs.charge}⁻`
+    prefs.charge > 0 ? `${el.sym}${sup(prefs.charge)}⁺` : `${el.sym}${sup(-prefs.charge)}⁻`
   );
 
   const look = $derived<OrbitalLook>({ orbital: prefs.orbital, showAxes: prefs.showAxes });
@@ -113,7 +119,9 @@
         <div class="ab-quick">
           <span class="ab-lbl">Charge:</span>
           {#each [-2, -1, 0, 1, 2, 3] as q (q)}
-            <button type="button" class="chip" class:on={prefs.charge === q} onclick={() => (prefs.charge = q)}>
+            <button type="button" class="chip" class:on={prefs.charge === q}
+              disabled={q > el.z || (el.z === 1 && q < -1) || (el.group === 18 && q !== 0)}
+              onclick={() => (prefs.charge = q)}>
               {q === 0 ? 'Atom (0)' : q > 0 ? `+${q}` : `${q}`}
             </button>
           {/each}

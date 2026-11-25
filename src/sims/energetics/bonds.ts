@@ -29,8 +29,8 @@ export const BOND_REACTIONS: BondReaction[] = [
       { bond: 'C=O', count: 2, be: 805 },
       { bond: 'O–H', count: 4, be: 464 },
     ],
-    dhLit: -890,
-    whyDiff: 'Mean bond enthalpies give ΔH for H₂O(g) (−818 kJ mol⁻¹); standard ΔcH⊖ forms H₂O(l) (−890 kJ mol⁻¹) and releases extra latent heat of condensation.',
+    dhLit: -802,
+    whyDiff: 'Two separate effects: (1) mean bond enthalpies are averaged across many molecules, giving −818 vs the true gas-phase ΔrH of −802 kJ mol⁻¹; (2) standard ΔcH⊖ (−890 kJ mol⁻¹) forms liquid H₂O(l), releasing an extra 2 × 44 = 88 kJ mol⁻¹ of enthalpy of condensation.',
     facts: [
       'Bond breaking is ALWAYS endothermic (+); bond making is ALWAYS exothermic (−).',
       'ΔH = Σ(bonds broken) − Σ(bonds made).',
@@ -83,7 +83,7 @@ export const BOND_REACTIONS: BondReaction[] = [
       { bond: 'N–H', count: 6, be: 391 },
     ],
     dhLit: -92,
-    whyDiff: 'The huge N≡N triple bond (945 kJ mol⁻¹) causes a very high activation energy even though the overall reaction is exothermic.',
+    whyDiff: 'The mean bond enthalpy estimate (−93 kJ mol⁻¹) agrees very closely with the actual ΔrH⊖ (−92 kJ mol⁻¹); the 1 kJ mol⁻¹ difference arises from using a mean N–H bond enthalpy (391 kJ mol⁻¹).',
     facts: [
       'Broken: 945 + 3(436) = +2253 kJ mol⁻¹; Made: 6(391) = 2346 kJ mol⁻¹ → ΔH = −93 kJ mol⁻¹.',
       'Strong N≡N triple bond explains why N₂ is unreactive at room temperature and needs an iron catalyst.',

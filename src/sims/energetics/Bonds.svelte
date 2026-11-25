@@ -67,7 +67,7 @@
           </div>
           <div class="hud tr">
             <span>Mean BE: {signed(dhEst, 0)} kJ mol⁻¹</span>
-            <span>Actual ΔrH⊖: {signed(rxn.dhLit, 0)} kJ mol⁻¹</span>
+            <span>Actual ΔrH: {signed(rxn.dhLit, 0)} kJ mol⁻¹</span>
           </div>
           <div class="hud bl">Scrub reaction progress below: red bonds break (endothermic), blue bonds form (exothermic)</div>
         </View3D>
@@ -112,7 +112,7 @@
       <div class="work">
         <div class="eq">ΔH = Σ(broken) − Σ(made) = {broken} − {made} = {signed(dhEst, 0)} kJ mol⁻¹</div>
       </div>
-      <p class="note pad"><b>Why it differs from actual ΔrH⊖ ({signed(rxn.dhLit, 0)} kJ mol⁻¹):</b> {rxn.whyDiff}</p>
+      <p class="note pad"><b>Why it differs from actual ΔrH ({signed(rxn.dhLit, 0)} kJ mol⁻¹):</b> {rxn.whyDiff}</p>
       <div class="facts pad">
         <b>Key facts</b>
         <ul>

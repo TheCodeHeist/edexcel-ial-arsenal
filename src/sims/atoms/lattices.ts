@@ -80,7 +80,7 @@ export const LATTICES: LatticeInfo[] = [
   {
     id: 'copper', name: 'Copper (metal)', formula: 'Cu',
     structure: 'Giant metallic lattice',
-    bonding: 'Strong electrostatic attraction between positive Cu²⁺/Cu⁺ ions and a sea of delocalised electrons',
+    bonding: 'Strong electrostatic attraction between positive metal ions and a sea of delocalised electrons',
     mp: '1085 °C (high)',
     conductSolid: 'Yes — delocalised electrons move freely through the lattice',
     conductMolten: 'Yes — delocalised electrons remain mobile',

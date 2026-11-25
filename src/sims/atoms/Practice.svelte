@@ -118,14 +118,25 @@
         {/each}
       </svg>
     {:else if q.figure?.kind === 'hydrides'}
+      {@const y0C = 135 - (180 / 300) * 112}
       <svg viewBox="0 0 230 165" class="abfig" role="img" aria-label="Hydride boiling points">
+        <line x1="30" x2="215" y1={y0C} y2={y0C} stroke="var(--line)" stroke-dasharray="3 3" stroke-width="1" />
+        <text class="ft" x="215" y={y0C - 3} text-anchor="end">0 °C</text>
         <line class="ax" x1="30" x2="215" y1="140" y2="140" /><line class="ax" x1="30" x2="30" y1="16" y2="140" />
         <text class="ft" x="6" y="12">b.p. / °C</text>
         <text class="ft" x="215" y="158" text-anchor="end">Period 2 → 5</text>
         {#each HYDRIDES as s (s.group)}
           <path fill="none" stroke={s.colorVar} stroke-width="2"
             d={s.points.map((pt, i) => `${i ? 'L' : 'M'}${(42 + (pt.period - 2) * 54).toFixed(1)} ${(135 - ((pt.bp + 180) / 300) * 112).toFixed(1)}`).join(' ')} />
+          {#each s.points.slice(0, s.group === 'Group 6' ? 2 : 1) as pt (pt.formula)}
+            <circle cx={42 + (pt.period - 2) * 54} cy={135 - ((pt.bp + 180) / 300) * 112} r="2.6" fill={s.colorVar} />
+          {/each}
         {/each}
+        <text class="ft" x="47" y="28">H₂O</text>
+        <text class="ft" x="47" y="57">HF</text>
+        <text class="ft" x="47" y="83">NH₃</text>
+        <text class="ft" x="47" y="131">CH₄</text>
+        <text class="ft mid" x="96" y="85">H₂S</text>
       </svg>
     {:else}
       <div class="fig-q">

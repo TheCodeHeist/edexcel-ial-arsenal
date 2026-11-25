@@ -17,7 +17,8 @@
   import View3D from './View3D.svelte';
   import Seg from '../../components/ui/Seg.svelte';
   import type { MassSpecLook } from './massspec3d';
-  import { SAMPLES, calcAr, type Peak } from './massspec';
+  import { SAMPLES, PEAK_HEX, calcAr, type Peak } from './massspec';
+  import { supN } from '../../lib/chem';
   import { RM } from '../../lib/util';
 
   let { prefs, hidden: off = false, stats = $bindable([]) }: {
@@ -33,13 +34,15 @@
 
   const isotopes = $derived(prefs.custom
     ? [
-        { mass: prefs.m1, pct: prefs.p1, label: `${prefs.m1}X⁺` },
-        { mass: prefs.m2, pct: Math.max(0, 100 - prefs.p1), label: `${prefs.m2}X⁺` },
+        { mass: prefs.m1, pct: prefs.p1, label: `${supN(prefs.m1)}X⁺` },
+        { mass: prefs.m2, pct: Math.max(0, 100 - prefs.p1), label: `${supN(prefs.m2)}X⁺` },
       ]
     : preset.isotopes);
 
   const peaks = $derived<Peak[]>(prefs.custom
-    ? isotopes.map((x) => ({ mz: x.mass, rel: x.pct, label: x.label }))
+    ? (prefs.m1 === prefs.m2
+        ? [{ mz: prefs.m1, rel: 100, label: `${supN(prefs.m1)}X⁺` }]
+        : isotopes.map((x) => ({ mz: x.mass, rel: x.pct, label: x.label })))
     : preset.peaks);
 
   const ar = $derived(calcAr(isotopes));
@@ -79,7 +82,10 @@
     <div class="stage-head">
       <div class="label-chip">
         <small>{prefs.mode === 'tof' ? 'Time-of-flight (TOF)' : 'Magnetic sector'}</small>
-        <span>{prefs.custom ? 'Custom isotope mix' : `${preset.name} (${preset.formula})`}</span>
+        <span>
+          {prefs.custom ? 'Custom isotope mix' : `${preset.name} (${preset.formula})`}
+          {#if prefs.mode === 'mag'}<span class="beyond">beyond spec</span>{/if}
+        </span>
       </div>
       <div class="stage-tools">
         <Seg label="Analyser" options={[['tof', 'TOF drift tube', 'TOF'], ['mag', 'Magnetic deflection', 'Magnetic']]} bind:value={prefs.mode} />
@@ -120,6 +126,11 @@
 
     <div class="ab-spec">
       <div class="ph"><h2>Mass spectrum</h2></div>
+      <div class="ab-pkleg" aria-label="Ion pulse colour key">
+        {#each peaks as pk, i (i)}
+          <span class="ab-pkitem"><i style:background={PEAK_HEX[i % PEAK_HEX.length]}></i>{pk.label} (m/z {pk.mz})</span>
+        {/each}
+      </div>
       <div class="plotbox">
         <svg viewBox="0 0 560 236" class="ab-svg" role="img" aria-label="Mass spectrum">
           <line class="ax" x1={X0} x2={X1} y1={Y0} y2={Y0} />
@@ -127,10 +138,10 @@
           <text class="axlbl" x="10" y="16">Relative abundance</text>
           <text class="axlbl" x={X1} y="226" text-anchor="end">m/z</text>
 
-          {#each peaks as pk, i (pk.mz)}
+          {#each peaks as pk, i (i)}
             {@const x = xMz(pk.mz)}
             {@const y = yRel(pk.rel)}
-            <line x1={x} x2={x} y1={Y0} y2={y} stroke="var(--accent)" stroke-width="5" stroke-linecap="round" />
+            <line x1={x} x2={x} y1={Y0} y2={y} stroke={PEAK_HEX[i % PEAK_HEX.length]} stroke-width="5" stroke-linecap="round" />
             <text class="sym" x={x} y={labelY[i]} text-anchor="middle">{pk.label}</text>
             <text class="axlbl" x={x} y={Y0 + 15} text-anchor="middle">{pk.mz}</text>
           {/each}
@@ -164,7 +175,7 @@
       <div class="ph"><h2>Relative atomic mass (A<sub>r</sub>)</h2></div>
       <dl class="reads pad">
         <div><dt>Calculated A<sub>r</sub></dt><dd>{ar.toFixed(1)}</dd></div>
-        <div><dt>Unrounded</dt><dd>{ar.toFixed(3)}</dd></div>
+        <div><dt>To 3 d.p.</dt><dd>{ar.toFixed(3)}</dd></div>
       </dl>
 
       <div class="work">

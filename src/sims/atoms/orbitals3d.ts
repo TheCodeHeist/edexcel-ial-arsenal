@@ -67,12 +67,13 @@ export class OrbitalsScene extends Stage3D<OrbitalLook> {
 
   #sample(kind: OrbitalKind) {
     const R = kind === '1s' ? 2.6 : kind.startsWith('2') ? 4.0 : 4.6;
-    // Estimate max |psi|^2 for rejection sampling
-    let maxP = 1e-6;
-    for (let i = 0; i < 600; i++) {
-      const x = (rand() * 2 - 1) * R, y = (rand() * 2 - 1) * R, z = (rand() * 2 - 1) * R;
-      const p = psi(kind, x, y, z);
-      if (p * p > maxP) maxP = p * p;
+    let maxP = kind === '1s' ? 1 : kind === '2s' ? 4 : 1e-6;
+    if (maxP < 1) {
+      for (let i = 0; i < 2000; i++) {
+        const x = (rand() * 2 - 1) * R, y = (rand() * 2 - 1) * R, z = (rand() * 2 - 1) * R;
+        const p = psi(kind, x, y, z);
+        if (p * p > maxP) maxP = p * p;
+      }
     }
 
     let placed = 0;
@@ -84,7 +85,7 @@ export class OrbitalsScene extends Stage3D<OrbitalLook> {
       const y = (rand() * 2 - 1) * R;
       const z = (rand() * 2 - 1) * R;
       const v = psi(kind, x, y, z);
-      const prob = (v * v) / maxP;
+      const prob = Math.min(1, (v * v) / maxP);
       if (rand() < prob) {
         const i3 = placed * 3;
         this.#cloud.pos[i3] = x;

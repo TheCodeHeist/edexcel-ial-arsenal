@@ -79,12 +79,17 @@
     {#if q.figure?.kind === 'plates'}
       {@const f = q.figure}
       <svg viewBox="0 0 230 165" class="flfig" role="img" aria-label="Parallel plates">
+        <defs>
+          <marker id="fl-arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0 1 L9 5 L0 9 Z" fill="var(--accent)" />
+          </marker>
+        </defs>
         <rect x="35" y="28" width="160" height="8" rx="2" fill="var(--redox)" />
         <rect x="35" y="128" width="160" height="8" rx="2" fill="var(--accent)" />
         <text class="ft mid" x="115" y="20">+{f.v} V</text>
         <text class="ft mid" x="115" y="152">0 V (d = {f.d} cm)</text>
         {#each [60, 95, 130, 165] as x (x)}
-          <line x1={x} y1="42" x2={x} y2="120" stroke="var(--accent)" stroke-width="1.6" stroke-dasharray="3 3" />
+          <line x1={x} y1="40" x2={x} y2="122" stroke="var(--accent)" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#fl-arr)" />
         {/each}
       </svg>
     {:else if q.figure?.kind === 'orbit'}
@@ -97,11 +102,22 @@
         <text class="ft mid" x="115" y="150">{f.rText}</text>
       </svg>
     {:else if q.figure?.kind === 'flux'}
-      <svg viewBox="0 0 230 165" class="flfig" role="img" aria-label="Flux linkage and emf waveforms">
+      {@const cosPath = Array.from({ length: 49 }, (_, i) => {
+        const u = i / 48, ph = u * Math.PI * 2;
+        return `${i ? 'L' : 'M'}${(24 + u * 188).toFixed(1)} ${(84 - Math.cos(ph) * 46).toFixed(1)}`;
+      }).join(' ')}
+      {@const sinPath = Array.from({ length: 49 }, (_, i) => {
+        const u = i / 48, ph = u * Math.PI * 2;
+        return `${i ? 'L' : 'M'}${(24 + u * 188).toFixed(1)} ${(84 - Math.sin(ph) * 46).toFixed(1)}`;
+      }).join(' ')}
+      <svg viewBox="0 0 230 165" class="flfig" role="img" aria-label="Flux linkage and emf waveforms over one cycle">
         <line class="ax" x1="24" x2="215" y1="84" y2="84" /><line class="ax" x1="24" x2="24" y1="22" y2="146" />
         <text class="ft" x="8" y="15">NΦ / ε</text>
-        <path fill="none" stroke="var(--accent)" stroke-width="2.2" d="M24 38 Q72 38 118 84 T212 130" />
-        <path fill="none" stroke="var(--redox)" stroke-width="2.2" stroke-dasharray="4 3" d="M24 84 Q72 30 118 84 T212 84" />
+        <text class="ft" x="215" y="158" text-anchor="end">0 → 2π</text>
+        <text class="ft" x="150" y="20" fill="var(--accent)">— NΦ</text>
+        <text class="ft" x="184" y="20" fill="var(--redox)">-- ε</text>
+        <path fill="none" stroke="var(--accent)" stroke-width="2.2" d={cosPath} />
+        <path fill="none" stroke="var(--redox)" stroke-width="2.2" stroke-dasharray="4 3" d={sinPath} />
       </svg>
     {:else if q.figure?.kind === 'invsq'}
       <svg viewBox="0 0 230 165" class="flfig" role="img" aria-label="Inverse square law curve">

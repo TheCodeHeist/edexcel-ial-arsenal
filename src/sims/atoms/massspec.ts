@@ -1,5 +1,8 @@
 /* Atoms & Bonding Lab: Mass spectrometry, isotope peaks, molecular ion peaks & Ar calculations (Spec 2.3–2.5). */
 
+export const PEAK_COLS = [0x60a5fa, 0xf87171, 0x4ade80, 0xfbbf24, 0xc084fc] as const;
+export const PEAK_HEX = ['#60a5fa', '#f87171', '#4ade80', '#fbbf24', '#c084fc'] as const;
+
 export interface Peak {
   mz: number;
   rel: number;   // relative abundance (percentage or relative height)

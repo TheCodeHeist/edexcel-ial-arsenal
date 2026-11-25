@@ -78,12 +78,17 @@ export const ELECTRIC_PRESETS: ElectricPreset[] = [
   },
 ];
 
+export const chargeRadius = (qMicro: number) => 0.28 + Math.min(0.14, Math.abs(qMicro) * 0.03);
+
 /** Evaluate E (N C⁻¹) and V (V) at world point (px, py) for radial charges (1 world unit = 0.10 m). */
-export function evalRadial(charges: PointCharge[], px: number, py: number): { ex: number; ey: number; eMag: number; v: number } {
-  let ex = 0, ey = 0, v = 0;
+export function evalRadial(charges: PointCharge[], px: number, py: number): { ex: number; ey: number; eMag: number; v: number; insideCharge: boolean } {
+  let ex = 0, ey = 0, v = 0, insideCharge = false;
   for (const c of charges) {
-    const dx = (px - c.x) * 0.1;
-    const dy = (py - c.y) * 0.1;
+    const dxW = px - c.x;
+    const dyW = py - c.y;
+    if (Math.hypot(dxW, dyW) < chargeRadius(c.qMicro) + 0.04) insideCharge = true;
+    const dx = dxW * 0.1;
+    const dy = dyW * 0.1;
     const r2 = dx * dx + dy * dy;
     const r = Math.sqrt(Math.max(r2, 1e-4));
     const q = c.qMicro * 1e-6;
@@ -92,5 +97,5 @@ export function evalRadial(charges: PointCharge[], px: number, py: number): { ex
     ey += e * (dy / r);
     v += (K_E * q) / r;
   }
-  return { ex, ey, eMag: Math.hypot(ex, ey), v };
+  return { ex, ey, eMag: Math.hypot(ex, ey), v, insideCharge };
 }

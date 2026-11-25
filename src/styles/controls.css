@@ -5,6 +5,8 @@
 /* view-transition-name makes .top a stacking context, so it needs its own z-index for the theme popover to sit above main */
 .top{display:grid;grid-template-columns:minmax(0,1fr) auto auto;grid-template-areas:"brand theme tabs";align-items:end;gap:12px 14px;padding-block:22px 14px;
   border-bottom:1px solid var(--line);view-transition-name:top;position:relative;z-index:20}
+body.sim .top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand theme" "tabs tabs";align-items:end;gap:12px 14px}
+body.sim .top .tabs{justify-self:start;max-width:100%}
 .brand{grid-area:brand;min-width:0}
 .brand h1 a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.28em}
 .brand h1 .logo{flex:none;width:1.05em;height:1.05em;border-radius:.11em;box-shadow:0 4px 14px -6px rgba(0,0,0,.45)}
@@ -115,8 +117,8 @@
 .perf-btn svg{width:18px;height:18px}
 .perf-btn.active{border-color:color-mix(in srgb,var(--accent) 55%,var(--rim));color:var(--accent)}
 .perf-dot{position:absolute;top:8px;right:8px;width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 2px var(--solid)}
-.perf-pop{position:absolute;right:0;top:calc(100% + 10px);width:min(340px,calc(100vw - 32px));max-height:min(80dvh,620px);overflow-y:auto;padding:12px;z-index:30;
-  background:linear-gradient(155deg,var(--sheen),transparent 42%),color-mix(in srgb,var(--surf) 78%,transparent);
+.perf-pop{position:absolute;right:0;top:calc(100% + 10px);width:min(340px,calc(100vw - 32px));max-height:min(80dvh,620px);overflow-y:auto;padding:12px;z-index:60;
+  background:linear-gradient(155deg,var(--sheen),transparent 38%),color-mix(in srgb,var(--surf) 96%,var(--bg));
   -webkit-backdrop-filter:blur(30px) saturate(190%);backdrop-filter:blur(30px) saturate(190%)}
 .tp-h{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:2px 4px 10px}
 .tp-h b{font:600 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -220,6 +222,7 @@
 .pt-cell.cat-halogen{border-color:color-mix(in srgb,var(--acidbase) 38%,var(--rim))}
 .pt-cell.cat-alkali{border-color:color-mix(in srgb,var(--redox) 38%,var(--rim))}
 .db-empty{text-align:center;color:var(--muted);padding:24px 0;margin:0;font-size:13.5px}
+.db-note{margin:0 0 12px;padding:9px 12px;border-radius:var(--r-sm);border:1px solid color-mix(in srgb,var(--accent) 28%,var(--rim));background:var(--accent-soft);font-size:12.5px;line-height:1.4;color:var(--ink)}
 
 /* Revision Progress Modal */
 .pr-modal{width:min(620px,100%)}
@@ -246,8 +249,9 @@
 
 /* ===== Responsive ===== */
 @media (max-width:1180px){
-  .top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand brand" "tabs theme";gap:14px 10px}
-  .top .tabs{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr)}
+  .top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand theme" "tabs tabs";gap:12px 10px}
+  .top .tabs{justify-self:stretch;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr)}
+  body.sim .top .tabs{justify-self:stretch}
   .tabs>a,.tabs>button{padding:0 6px}
 }
 @media (max-width:760px){
@@ -257,9 +261,15 @@
   .eyebrow{font-size:10px;letter-spacing:.1em;margin-bottom:6px}
   .frow b{width:100%}
 }
+@media (max-width:640px){
+  .top, body.sim .top{grid-template-columns:minmax(0,1fr);grid-template-areas:"brand" "theme" "tabs";gap:10px}
+  .top .top-tools{justify-content:flex-start;width:100%}
+  .top .top-tools .mode-seg{margin-left:auto}
+  .top .tabs, body.sim .top .tabs{justify-self:stretch}
+}
 @media (max-width:560px){
   .tabs>a,.tabs>button{font-size:13px;padding:0 4px}
-  h1{font-size:30px}
+  h1{font-size:clamp(24px,6.8vw,30px)}
   .top{gap:10px;--ctl:42px}
   .top .top-tools{gap:6px}
   .statusbar{padding-block:8px}

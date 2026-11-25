@@ -30,11 +30,17 @@
   const look = $derived<BHLook>({ cycle, selectedStep: safeStep });
 
   $effect(() => {
-    stats = [
-      ['Compound', cycle.formula],
-      ['ΔLEH (exp)', `${cycle.leExp} kJ mol⁻¹`],
-      ['ΔsolH', `${signed(dSol, 0)} kJ mol⁻¹`],
-    ];
+    stats = dSol !== null
+      ? [
+          ['Compound', cycle.formula],
+          ['ΔlattH⊖ (cycle)', `${cycle.leExp} kJ mol⁻¹`],
+          ['ΔsolH', `${signed(dSol, 0)} kJ mol⁻¹`],
+        ]
+      : [
+          ['Compound', cycle.formula],
+          ['ΔlattH⊖ (cycle)', `${cycle.leExp} kJ mol⁻¹`],
+          ['In water', 'Reacts'],
+        ];
   });
 </script>
 
@@ -51,7 +57,7 @@
       {#each BH_CYCLES as c (c.id)}
         <button type="button" class="chip" class:on={prefs.id === c.id}
           onclick={() => { prefs.id = c.id; prefs.step = c.steps.length - 1; }}>
-          {@html chem(c.formula)}
+          <span>{@html chem(c.formula)}</span>
         </button>
       {/each}
     </div>
@@ -89,8 +95,8 @@
     <section class="panel" aria-label="Lattice energy and polarisation">
       <div class="ph"><h2>Lattice energy &amp; covalent character</h2></div>
       <dl class="reads pad">
-        <div><dt>ΔLEH (experimental)</dt><dd>{cycle.leExp} kJ mol⁻¹</dd></div>
-        <div><dt>ΔLEH (theoretical)</dt><dd>{cycle.leTheo} kJ mol⁻¹</dd></div>
+        <div><dt>ΔlattH⊖ (from cycle)</dt><dd>{signed(cycle.leExp, 0)} kJ mol⁻¹</dd></div>
+        <div><dt>ΔlattH⊖ (theoretical)</dt><dd>{signed(cycle.leTheo, 0)} kJ mol⁻¹</dd></div>
         <div><dt>Discrepancy</dt><dd>{diffLE} kJ mol⁻¹</dd></div>
         <div><dt>ΔfH⊖</dt><dd>{cycle.dfH} kJ mol⁻¹</dd></div>
       </dl>
@@ -99,10 +105,14 @@
 
     <section class="panel" aria-label="Enthalpy of solution">
       <div class="ph"><h2>Enthalpy of solution (ΔsolH)</h2></div>
-      <div class="work">
-        <div class="eq">ΔsolH = −ΔLEH + ΔhydH(cation) + {cycle.nAn > 1 ? `${cycle.nAn}×` : ''}ΔhydH(anion)</div>
-        <div class="eq">ΔsolH = +{-cycle.leExp} + ({cycle.hydCat}) + {cycle.nAn > 1 ? `${cycle.nAn}(${cycle.hydAn})` : `(${cycle.hydAn})`} = {signed(dSol, 0)} kJ mol⁻¹</div>
-      </div>
+      {#if dSol !== null}
+        <div class="work">
+          <div class="eq">ΔsolH = −ΔlattH⊖ + ΔhydH(cation) + {cycle.nAn > 1 ? `${cycle.nAn}×` : ''}ΔhydH(anion)</div>
+          <div class="eq">ΔsolH = +{-cycle.leExp} + ({cycle.hydCat}) + {cycle.nAn > 1 ? `${cycle.nAn}(${cycle.hydAn})` : `(${cycle.hydAn})`} = {signed(dSol, 0)} kJ mol⁻¹</div>
+        </div>
+      {:else if cycle.solNote}
+        <p class="note pad">{cycle.solNote}</p>
+      {/if}
       <div class="facts pad">
         <b>Key facts</b>
         <ul>

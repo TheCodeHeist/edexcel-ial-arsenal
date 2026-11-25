@@ -144,6 +144,9 @@
             <p class="db-empty">No matching physics equations.</p>
           {/each}
         {:else if tab === 'chem'}
+          <p class="db-note">
+            <b>Quick revision reference only:</b> in Edexcel IAL Chemistry exams, only the Periodic Table is supplied (this data sheet is not provided in the exam).
+          </p>
           {#each chemGroups as [group, rows]}
             <div class="db-sec">
               <div class="db-sh"><b>{group}</b></div>

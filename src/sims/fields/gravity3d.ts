@@ -18,7 +18,7 @@ export class GravityScene extends Stage3D<GravityLook> {
   #lastKey = '';
 
   constructor(canvas: HTMLCanvasElement, small: boolean) {
-    super(canvas, small, { cam: [0, 4.4, 7.2], target: [0, -0.3, 0], bloom: [0.42, 0.4, 0.76] });
+    super(canvas, small, { cam: [0, 4.8, 8.2], target: [0, -0.3, 0], bloom: [0.42, 0.4, 0.76] });
     this.scene.add(new THREE.AmbientLight(0xdbe4ff, 0.78));
     const k = new THREE.DirectionalLight(0xffffff, 1.35);
     k.position.set(5, 9, 6);
@@ -45,31 +45,32 @@ export class GravityScene extends Stage3D<GravityLook> {
   }
 
   #orbitR(rRatio: number): number {
-    return 1.15 + ((rRatio - 1.3) / 5.7) * 2.55;
+    // Strictly proportional to r / R (planet radius drawn as 0.50 world units)
+    return rRatio * 0.5;
   }
 
   #build(L: GravityLook) {
     this.#clear();
 
-    // Central planet
+    // Central planet (radius R = 0.50 world units so r = rRatio * R is directly proportional)
     const planet = new THREE.Mesh(
-      new THREE.SphereGeometry(0.75, 28, 20),
+      new THREE.SphereGeometry(0.5, 28, 20),
       new THREE.MeshStandardMaterial({ color: L.bodyHex, roughness: 0.42, metalness: 0.08 }),
     );
     this.#root.add(planet);
 
     const lBody = label(L.bodyName, 0.3, '#e2e8f0');
-    lBody.position.set(0, 1.05, 0);
+    lBody.position.set(0, 0.85, 0);
     this.#root.add(lBody);
 
-    // 3D Gravitational potential well wireframe (y = -1.6 / r) underneath
-    const wellGeo = new THREE.PlaneGeometry(7.6, 7.6, 26, 26);
+    // 3D Gravitational potential well wireframe (y = -1.35 / r → approaches V = 0 at rim)
+    const wellGeo = new THREE.PlaneGeometry(8.4, 8.4, 28, 28);
     wellGeo.rotateX(-Math.PI / 2);
     const pos = wellGeo.attributes.position as THREE.BufferAttribute;
     for (let i = 0; i < pos.count; i++) {
       const x = pos.getX(i), z = pos.getZ(i);
       const d = Math.hypot(x, z);
-      const y = -0.35 - 1.75 / Math.max(0.65, d);
+      const y = -1.35 / Math.max(0.55, d);
       pos.setY(i, y);
     }
     wellGeo.computeVertexNormals();
@@ -78,6 +79,10 @@ export class GravityScene extends Stage3D<GravityLook> {
       new THREE.MeshBasicMaterial({ color: 0x38bdf8, wireframe: true, transparent: true, opacity: 0.22 }),
     );
     this.#root.add(well);
+
+    const lZero = label('V → 0 at ∞', 0.24, '#93c5fd');
+    lZero.position.set(3.4, 0.14, 0);
+    this.#root.add(lZero);
 
     // Orbit ring
     const orbR = this.#orbitR(L.rRatio);

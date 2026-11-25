@@ -12,15 +12,10 @@
 @import './industry.css';
 @import './practice.css';
 
-/* Ten tabs: stack the header earlier than the site default (the tab-sizing rules are in particles.css). */
-@media (max-width:1600px){
-  .top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand brand" "tabs theme";gap:14px 10px}
-}
-/* …and with ten tabs, short labels sooner, tighter padding sooner, and two rows of five on phones (four below 440px). */
+/* Ten tabs: short labels sooner, tighter padding sooner, and two rows of five on phones (four below 440px). */
 @media (max-width:1240px){ .top .tabs .lg{display:none} .top .tabs .sm{display:inline} }
 @media (max-width:840px){ .top .tabs>button{padding:0 5px} }
 @media (max-width:640px){
-  .top{grid-template-areas:"brand theme" "tabs tabs"}
   .top .tabs{display:grid;grid-auto-flow:row;grid-template-columns:repeat(5,minmax(0,1fr));height:auto;border-radius:20px}
   .top .tabs>button{height:36px;font-size:13px;padding:0 2px}
 }

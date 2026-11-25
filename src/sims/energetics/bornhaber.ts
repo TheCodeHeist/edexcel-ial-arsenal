@@ -17,11 +17,12 @@ export interface BHCycle {
   elements: string;
   steps: BHStep[];   // ordered from Elements (0) up to gaseous ions, then down via Lattice Energy to ionic solid
   dfH: number;       // experimental ΔfH⊖ (Elements -> Solid)
-  leExp: number;     // experimental lattice energy (always negative, gaseous ions -> solid)
+  leExp: number;     // experimental lattice energy from this cycle (always negative, gaseous ions -> solid)
   leTheo: number;    // theoretical ionic-model lattice energy (kJ mol⁻¹)
-  hydCat: number;    // ΔhydH of cation (kJ mol⁻¹)
-  hydAn: number;     // ΔhydH of anion (per mole of anion, kJ mol⁻¹)
+  hydCat?: number;   // ΔhydH of cation (kJ mol⁻¹)
+  hydAn?: number;    // ΔhydH of anion (per mole of anion, kJ mol⁻¹)
   nAn: number;       // number of anions per formula unit
+  solNote?: string;  // note when ΔsolH cannot be measured via simple hydration (e.g. MgO)
   polarNote: string;
   facts: string[];
 }
@@ -30,8 +31,8 @@ export const BH_CYCLES: BHCycle[] = [
   {
     id: 'nacl', formula: 'NaCl', name: 'Sodium chloride',
     elements: 'Na(s) + ½Cl₂(g)',
-    dfH: -411, leExp: -780, leTheo: -770,
-    hydCat: -406, hydAn: -364, nAn: 1,
+    dfH: -411, leExp: -787, leTheo: -770,
+    hydCat: -406, hydAn: -378, nAn: 1,
     steps: [
       { id: 'atM', name: 'Atomisation of Na', symbol: 'ΔatH(Na)', dh: 107, stateAfter: 'Na(g) + ½Cl₂(g)',
         note: 'Endothermic: breaks metallic bonds in solid Na to form 1 mol of gaseous Na atoms.' },
@@ -41,21 +42,21 @@ export const BH_CYCLES: BHCycle[] = [
         note: 'Endothermic: breaks ½ mol of Cl–Cl covalent bonds (½ × 244 = +122 kJ mol⁻¹).' },
       { id: 'ea1', name: '1st electron affinity of Cl', symbol: '1st EA(Cl)', dh: -349, stateAfter: 'Na⁺(g) + Cl⁻(g)',
         note: 'Exothermic: incoming electron is attracted to the positive nucleus of Cl(g).' },
-      { id: 'le', name: 'Lattice energy of NaCl', symbol: 'ΔLEH(NaCl)', dh: -787, stateAfter: 'NaCl(s)',
+      { id: 'le', name: 'Lattice energy of NaCl', symbol: 'ΔlattH⊖(NaCl)', dh: -787, stateAfter: 'NaCl(s)',
         note: 'Strongly exothermic: gaseous Na⁺ and Cl⁻ ions come together to form 1 mol of solid ionic lattice.' },
     ],
-    polarNote: 'Experimental (−780) and theoretical (−770 kJ mol⁻¹) values agree within ~1%: NaCl is almost purely ionic with very little polarisation.',
+    polarNote: 'Experimental (−787) and theoretical (−770 kJ mol⁻¹) values agree within ~2%: NaCl is almost purely ionic with very little polarisation.',
     facts: [
-      'ΔfH = ΔatH(Na) + 1st IE(Na) + ΔatH(Cl) + 1st EA(Cl) + ΔLEH(NaCl).',
+      'ΔfH⊖ = ΔatH(Na) + 1st IE(Na) + ΔatH(Cl) + 1st EA(Cl) + ΔlattH⊖(NaCl).',
       'Always include state symbols (s), (g) and electrons e⁻ on every horizontal level of a Born–Haber diagram.',
-      'ΔsolH(NaCl) = −ΔLEH + ΔhydH(Na⁺) + ΔhydH(Cl⁻) = +780 − 406 − 364 = +10 kJ mol⁻¹ (slightly endothermic, yet soluble because ΔS > 0).',
+      'ΔsolH(NaCl) = −ΔlattH⊖ + ΔhydH(Na⁺) + ΔhydH(Cl⁻) = +787 − 406 − 378 = +3 kJ mol⁻¹ (slightly endothermic, yet soluble because ΔS > 0).',
     ],
   },
   {
     id: 'mgcl2', formula: 'MgCl2', name: 'Magnesium chloride',
     elements: 'Mg(s) + Cl₂(g)',
-    dfH: -641, leExp: -2526, leTheo: -2326,
-    hydCat: -1920, hydAn: -364, nAn: 2,
+    dfH: -641, leExp: -2524, leTheo: -2326,
+    hydCat: -1920, hydAn: -378, nAn: 2,
     steps: [
       { id: 'atM', name: 'Atomisation of Mg', symbol: 'ΔatH(Mg)', dh: 148, stateAfter: 'Mg(g) + Cl₂(g)',
         note: 'Forms 1 mol of gaseous Mg atoms.' },
@@ -67,21 +68,22 @@ export const BH_CYCLES: BHCycle[] = [
         note: 'Multiply by 2 because 2 mol of Cl(g) atoms are needed for MgCl₂!' },
       { id: 'ea1', name: '2 × 1st EA of Cl', symbol: '2 × 1st EA(Cl)', dh: -698, stateAfter: 'Mg²⁺(g) + 2Cl⁻(g)',
         note: 'Multiply 1st EA (−349) by 2 for two Cl⁻ ions.' },
-      { id: 'le', name: 'Lattice energy of MgCl₂', symbol: 'ΔLEH(MgCl₂)', dh: -2524, stateAfter: 'MgCl₂(s)',
+      { id: 'le', name: 'Lattice energy of MgCl₂', symbol: 'ΔlattH⊖(MgCl₂)', dh: -2524, stateAfter: 'MgCl₂(s)',
         note: 'Much more exothermic than NaCl because Mg²⁺ has a higher charge (+2) and smaller ionic radius.' },
     ],
-    polarNote: 'Experimental (−2526) is ~200 kJ mol⁻¹ more exothermic than theoretical (−2326): small, high-charge Mg²⁺ polarises Cl⁻, adding covalent character.',
+    polarNote: 'Experimental (−2524) is ~198 kJ mol⁻¹ more exothermic than theoretical (−2326): small, high-charge Mg²⁺ polarises Cl⁻, adding covalent character.',
     facts: [
       'Remember to multiply BOTH ΔatH(Cl) and 1st EA(Cl) by 2 for MgCl₂!',
-      'Higher charge density on Mg²⁺ makes ΔLEH(MgCl₂) over three times more exothermic than NaCl.',
-      'ΔsolH(MgCl₂) = +2526 − 1920 + 2(−364) = −122 kJ mol⁻¹ (strongly exothermic dissolving).',
+      'Higher charge density on Mg²⁺ makes ΔlattH⊖(MgCl₂) over three times more exothermic than NaCl.',
+      'ΔsolH(MgCl₂) = +2524 − 1920 + 2(−378) = −152 kJ mol⁻¹ (strongly exothermic dissolving).',
     ],
   },
   {
     id: 'mgo', formula: 'MgO', name: 'Magnesium oxide',
     elements: 'Mg(s) + ½O₂(g)',
-    dfH: -602, leExp: -3791, leTheo: -3795,
-    hydCat: -1920, hydAn: -1000, nAn: 1,
+    dfH: -602, leExp: -3845, leTheo: -3795,
+    nAn: 1,
+    solNote: 'MgO does not dissolve into simple hydrated Mg²⁺ and O²⁻ ions — oxide ions react immediately with water (O²⁻ + H₂O → 2OH⁻), so ΔhydH(O²⁻) and a simple ΔsolH cycle do not apply.',
     steps: [
       { id: 'atM', name: 'Atomisation of Mg', symbol: 'ΔatH(Mg)', dh: 148, stateAfter: 'Mg(g) + ½O₂(g)',
         note: 'Forms 1 mol of Mg(g) atoms.' },
@@ -95,20 +97,20 @@ export const BH_CYCLES: BHCycle[] = [
         note: 'Exothermic: neutral O attracts an electron.' },
       { id: 'ea2', name: '2nd EA of O (ENDOTHERMIC!)', symbol: '2nd EA(O)', dh: 798, stateAfter: 'Mg²⁺(g) + O²⁻(g)',
         note: 'Strongly ENDOTHERMIC (+798): forcing a negatively charged electron onto a negative O⁻ ion requires energy to overcome electrostatic repulsion!' },
-      { id: 'le', name: 'Lattice energy of MgO', symbol: 'ΔLEH(MgO)', dh: -3845, stateAfter: 'MgO(s)',
+      { id: 'le', name: 'Lattice energy of MgO', symbol: 'ΔlattH⊖(MgO)', dh: -3845, stateAfter: 'MgO(s)',
         note: 'Huge exothermic lattice energy from +2 and −2 small ions overcomes the endothermic 2nd IE and 2nd EA.' },
     ],
     polarNote: 'Both Mg²⁺ and O²⁻ are small, doubly charged ions → massive electrostatic attraction (melting point 2852 °C).',
     facts: [
       '2nd electron affinity of oxygen is ALWAYS endothermic (+798 kJ mol⁻¹) because the incoming electron is repelled by the negative O⁻ ion.',
-      'MgO is still stable because its huge exothermic lattice energy (−3791 kJ mol⁻¹) outweighs the endothermic IE and 2nd EA steps.',
+      'MgO is still stable because its huge exothermic lattice energy (−3845 kJ mol⁻¹) outweighs the endothermic IE and 2nd EA steps.',
     ],
   },
   {
     id: 'agcl', formula: 'AgCl', name: 'Silver chloride (polarisation)',
     elements: 'Ag(s) + ½Cl₂(g)',
-    dfH: -127, leExp: -905, leTheo: -770,
-    hydCat: -464, hydAn: -364, nAn: 1,
+    dfH: -127, leExp: -916, leTheo: -833,
+    hydCat: -464, hydAn: -378, nAn: 1,
     steps: [
       { id: 'atM', name: 'Atomisation of Ag', symbol: 'ΔatH(Ag)', dh: 285, stateAfter: 'Ag(g) + ½Cl₂(g)',
         note: 'Stronger metallic bonding in Ag than Na.' },
@@ -118,18 +120,19 @@ export const BH_CYCLES: BHCycle[] = [
         note: 'Forms 1 mol of gaseous Cl atoms.' },
       { id: 'ea1', name: '1st EA of Cl', symbol: '1st EA(Cl)', dh: -349, stateAfter: 'Ag⁺(g) + Cl⁻(g)',
         note: 'Exothermic electron gain.' },
-      { id: 'le', name: 'Lattice energy of AgCl', symbol: 'ΔLEH(AgCl)', dh: -916, stateAfter: 'AgCl(s)',
-        note: 'Significantly more exothermic than the purely ionic theoretical prediction (−770 kJ mol⁻¹)!' },
+      { id: 'le', name: 'Lattice energy of AgCl', symbol: 'ΔlattH⊖(AgCl)', dh: -916, stateAfter: 'AgCl(s)',
+        note: 'Significantly more exothermic than the purely ionic theoretical prediction (−833 kJ mol⁻¹)!' },
     ],
-    polarNote: 'Big discrepancy (−905 vs −770 kJ mol⁻¹ = 135 kJ mol⁻¹ difference!): Ag⁺ strongly polarises the Cl⁻ electron cloud, giving significant covalent character and extra bond strength.',
+    polarNote: 'Big discrepancy: −916 kJ mol⁻¹ from this cycle (data books often quote −905) vs −833 kJ mol⁻¹ from the ionic model, a gap of roughly 70–80 kJ mol⁻¹. Ag⁺ polarises the large Cl⁻ electron cloud, giving the bonding significant covalent character.',
     facts: [
       'The theoretical model assumes perfectly spherical, point-charge ions with 100% ionic bonding.',
-      'When experimental |ΔLEH| is much larger than theoretical |ΔLEH|, the compound has covalent character due to cation polarisation of the anion.',
+      'When experimental |ΔlattH⊖| is much larger than theoretical |ΔlattH⊖|, the compound has covalent character due to cation polarisation of the anion.',
       'Polarisation is greatest with a small, high-charge cation (high charge density) and a large, easily distorted anion (like I⁻).',
     ],
   },
 ];
 
-export function solEnthalpy(c: BHCycle): number {
+export function solEnthalpy(c: BHCycle): number | null {
+  if (c.hydCat === undefined || c.hydAn === undefined) return null;
   return -c.leExp + c.hydCat + c.nAn * c.hydAn;
 }

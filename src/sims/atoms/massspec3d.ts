@@ -1,7 +1,7 @@
 /* Atoms & Bonding Lab: 3D Mass Spectrometer (TOF drift tube & Magnetic sector modes). */
 
 import { Stage3D, THREE, label } from '../particles/gl';
-import type { Peak } from './massspec';
+import { PEAK_COLS, type Peak } from './massspec';
 
 export interface MassSpecLook {
   mode: 'tof' | 'mag';
@@ -17,8 +17,6 @@ interface IonPulse {
   progress: number; // 0..1
   color: number;
 }
-
-const PEAK_COLS = [0x60a5fa, 0xf87171, 0x4ade80, 0xfbbf24, 0xc084fc];
 
 export class MassSpecScene extends Stage3D<MassSpecLook> {
   #apparatus = new THREE.Group();
@@ -158,7 +156,7 @@ export class MassSpecScene extends Stage3D<MassSpecLook> {
   protected update(dt: number): void {
     const L = this.look;
     if (!L) return;
-    const key = `${L.mode}:${L.peaks.map((p) => p.mz).join(',')}:${L.seq}`;
+    const key = `${L.mode}:${L.peaks.map((p) => `${p.mz}@${p.rel.toFixed(1)}`).join(',')}:${L.seq}`;
     if (key !== this.#lastKey) {
       this.#lastKey = key;
       this.#buildApparatus(L.mode);

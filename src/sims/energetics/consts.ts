@@ -5,8 +5,9 @@ export const R_GAS = 8.31;   // J mol⁻¹ K⁻¹
 
 export function signed(v: number, dp = 1): string {
   if (!Number.isFinite(v)) return '—';
-  const s = Math.abs(v) < 0.05 && dp <= 1 ? '0.0' : Math.abs(v).toFixed(dp);
-  return (v >= 0 ? '+' : '−') + s;
+  const r = Number(v.toFixed(dp));
+  if (r === 0) return (0).toFixed(dp);
+  return (r > 0 ? '+' : '−') + Math.abs(r).toFixed(dp);
 }
 
 export function fixed(v: number, dp = 1): string {

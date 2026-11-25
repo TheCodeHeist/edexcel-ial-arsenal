@@ -36,7 +36,7 @@
   $effect(() => {
     stats = [
       ['Structure', info.structure],
-      ['Melting point', info.mp.split(' ')[0] + ' ' + (info.mp.split(' ')[1] ?? '')],
+      ['Melting point', info.mp.replace(/\s*\([^)]*\)$/, '')],
       ['Conducts (s)', info.conductSolid.startsWith('Yes') ? 'Yes' : 'No'],
     ];
   });
@@ -75,6 +75,19 @@
           </div>
           <div class="hud tr">
             <span>{info.shearTitle}</span>
+            {#if prefs.id === 'nacl'}
+              <span class="ab-key">Purple Na⁺ · Green Cl⁻</span>
+            {:else if prefs.id === 'ice'}
+              <span class="ab-key">Red O · White H · Blue dashed H-bond</span>
+            {:else if prefs.id === 'copper'}
+              <span class="ab-key">Copper metal⁺ ions · Blue e⁻</span>
+            {:else if prefs.id === 'graphite' || prefs.id === 'graphene'}
+              <span class="ab-key">Grey C · {prefs.id === 'graphite' ? 'Amber London · ' : ''}Blue delocalised e⁻</span>
+            {:else if prefs.id === 'diamond'}
+              <span class="ab-key">Grey C · Cyan covalent bonds</span>
+            {:else if prefs.id === 'iodine'}
+              <span class="ab-key">Purple I₂ molecules</span>
+            {/if}
             {#if prefs.id === 'nacl' && prefs.shear > 0.55}
               <span class="ab-warn">Like charges align → repulsion!</span>
             {/if}

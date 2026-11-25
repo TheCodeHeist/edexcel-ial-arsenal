@@ -37,7 +37,7 @@
   const views: Record<Mode, HTMLElement | undefined> = $state({ wave: undefined, ripple: undefined, standing: undefined, light: undefined, grating: undefined, echo: undefined, photon: undefined, practice: undefined });
   const TABS = [
     ['wave', 'Waves', 'Waves'], ['ripple', 'Ripple tank', 'Ripple'], ['standing', 'Standing waves', 'Standing'], ['light', 'Light', 'Light'],
-    ['grating', 'Diffraction', 'Diffract'], ['echo', 'Pulse–echo', 'Echo'], ['photon', 'Photons', 'Photons'], ['practice', 'Practice', 'Quiz'],
+    ['grating', 'Diffraction', 'Grating'], ['echo', 'Pulse–echo', 'Echo'], ['photon', 'Photons', 'Photons'], ['practice', 'Practice', 'Quiz'],
   ] as const;
   const INFO: Record<Mode, [string, string]> = {
     wave: ['Waves', 'Set the amplitude, frequency and speed; drag the view to turn it; move the two markers to compare their phase.'],

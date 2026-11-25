@@ -10,7 +10,6 @@
 
 <script lang="ts">
   /* Electromagnetic Induction: 3D Magnet+Coil & AC Generator + live Faraday/Lenz flux & emf trace (WPH14). */
-  import { onMount } from 'svelte';
   import View3D from './View3D.svelte';
   import Seg from '../../components/ui/Seg.svelte';
   import type { IndLook } from './induction3d';
@@ -25,16 +24,22 @@
   let seen = $state(false);
   $effect(() => { if (!off) seen = true; });
   let playing = $state(!isReducedMotion());
-  let t = $state(0);
+  let phase = $state(0);
 
-  onMount(() => {
-    let raf = 0, last = performance.now();
+  $effect(() => {
+    if (off || !playing) return;
+    let raf = 0;
+    let last = performance.now();
     const loop = (now: number) => {
       const g = frameReady(now, last);
-      if (g !== 'go') { if (g === 'hidden') last = now; raf = requestAnimationFrame(loop); return; }
-      const dt = Math.min(0.05, (now - last) / 1000);
-      last = now;
-      if (!off && playing) t += dt;
+      if (g === 'go') {
+        const dt = Math.min(0.05, (now - last) / 1000);
+        last = now;
+        const speedMul = prefs.mode === 'generator' ? 1 : 0.7;
+        phase += 2 * Math.PI * prefs.freq * speedMul * dt;
+      } else if (g === 'hidden') {
+        last = now;
+      }
       raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);
@@ -42,29 +47,33 @@
   });
 
   const AREA = 0.015; // m²
-  const gen = $derived(genState(prefs.B, AREA, prefs.N, prefs.freq, t));
-  const mag = $derived(magnetState(prefs.N, prefs.freq * 0.7, t));
+  const gen = $derived(genState(prefs.B, AREA, prefs.N, prefs.freq, phase));
+  const mag = $derived(magnetState(prefs.N, prefs.freq * 0.7, phase));
 
   const fluxNow = $derived(prefs.mode === 'generator' ? gen.fluxLink : mag.fluxLink);
   const emfNow = $derived(prefs.mode === 'generator' ? gen.emf : mag.emf);
-  const phase = $derived(prefs.mode === 'generator' ? gen.theta : 2 * Math.PI * prefs.freq * 0.7 * t);
   const emfNorm = $derived(prefs.mode === 'generator' ? gen.emf / Math.max(0.1, gen.peakEmf) : Math.max(-1, Math.min(1, mag.emf / 2)));
 
   const look = $derived<IndLook>({ mode: prefs.mode, phase, emfSign: emfNorm, turns: prefs.N });
 
   $effect(() => {
-    stats = [
-      ['NΦ', `${fluxNow.toFixed(2)} Wb`],
-      ['Induced ε', `${signed(emfNow, 2)} V`],
-      ['Peak ε₀', `${gen.peakEmf.toFixed(1)} V`],
-    ];
+    stats = prefs.mode === 'generator'
+      ? [
+          ['NΦ', `${fluxNow.toFixed(2)} Wb`],
+          ['Induced ε', `${signed(emfNow, 2)} V`],
+          ['Peak ε₀', `${gen.peakEmf.toFixed(1)} V`],
+        ]
+      : [
+          ['NΦ', `${fluxNow.toFixed(2)} Wb`],
+          ['Induced ε', `${signed(emfNow, 2)} V`],
+        ];
   });
 
   // Dual trace SVG (NΦ and ε over one full cycle 0..2π)
   const X0 = 48, X1 = 532, YMID = 112, AMP = 68;
   const fluxPath = $derived(Array.from({ length: 81 }, (_, i) => {
     const u = i / 80, ph = u * Math.PI * 2;
-    const val = prefs.mode === 'generator' ? Math.cos(ph) : Math.exp(-3.2 * Math.cos(ph) ** 2) * 2 - 1;
+    const val = prefs.mode === 'generator' ? Math.cos(ph) : Math.exp(-3.2 * Math.cos(ph) ** 2);
     return `${i ? 'L' : 'M'}${(X0 + u * (X1 - X0)).toFixed(1)} ${(YMID - val * AMP).toFixed(1)}`;
   }).join(' '));
   const emfPath = $derived(Array.from({ length: 81 }, (_, i) => {
@@ -99,7 +108,7 @@
             <span>Flux linkage NΦ = {fluxNow.toFixed(2)} Wb</span>
           </div>
           <div class="hud tr">
-            <span>Blue / amber coil glow = + / − induced current</span>
+            <span>{prefs.mode === 'magnet' ? 'Blue (+ε): induced N on right · Amber (−ε): induced N on left' : 'Blue (+ε): + direction · Amber (−ε): reversed'}</span>
           </div>
           <div class="hud bl">Peak e.m.f. occurs where flux linkage changes fastest (steepest gradient d(NΦ)/dt)</div>
         </View3D>
@@ -123,6 +132,7 @@
           <line class="ax" x1={X0} x2={X1} y1={YMID} y2={YMID} />
           <line class="ax" x1={X0} x2={X0} y1="28" y2="194" />
           <text class="axlbl" x="10" y="16">NΦ / ε</text>
+          <text class="axlbl" x={X0 - 8} y={YMID + 4} text-anchor="end">0</text>
           <text class="axlbl" x={X1} y="204" text-anchor="end">One cycle (0 → 2π)</text>
 
           <path d={fluxPath} fill="none" stroke="var(--accent)" stroke-width="2.4" />

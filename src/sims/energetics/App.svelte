@@ -1,5 +1,5 @@
 <script lang="ts">
-  /* Energetics Lab: Edexcel IAL Chemistry Unit 2 (Topic 6, CP 4 & 5) and Unit 4 (Topic 12: Born–Haber, Entropy & ΔG).
+  /* Energetics Lab: Edexcel IAL Chemistry Unit 2 (Topic 6, CP 2) and Unit 4 (Topic 12: Born–Haber, Entropy & ΔG).
      Tabs with hash routes: #calorimetry, #hess, #bonds, #bornhaber, #entropy, #practice. */
   import { onMount, tick } from 'svelte';
   import { persisted } from '../../lib/persist.svelte';
@@ -32,7 +32,7 @@
   });
 
   const TABS = [
-    ['calorimetry', 'Calorimetry', 'Calorim'],
+    ['calorimetry', 'Calorimetry', 'Heat'],
     ['hess', 'Hess’s law', 'Hess'],
     ['bonds', 'Bond enthalpies', 'Bonds'],
     ['bornhaber', 'Born–Haber', 'Lattice'],
@@ -41,8 +41,8 @@
   ] as const;
 
   const INFO: Record<Mode, [string, string]> = {
-    calorimetry: ['Calorimetry', 'Run Core Practicals 4 & 5 in 3D, adjust heat loss, and extrapolate the cooling curve back to t = 4 min.'],
-    hess: ['Hess’s law', 'Follow formation, combustion and CP 5 cycles; see which arrows reverse sign along the indirect route.'],
+    calorimetry: ['Calorimetry', 'Run solution and combustion calorimetry in 3D, adjust heat loss, and extrapolate the cooling curve back to t = 4 min.'],
+    hess: ['Hess’s law', 'Follow formation, combustion and Core Practical 2 cycles; see which arrows reverse sign along the indirect route.'],
     bonds: ['Bond enthalpies', 'Scrub from reactants through gaseous atoms to products and compare mean bond enthalpy estimates with ΔrH⊖.'],
     bornhaber: ['Born–Haber & lattice', 'Climb the 3D Born–Haber staircase, inspect covalent character via polarisation, and compute ΔsolH.'],
     entropy: ['Entropy & ΔG', 'Explore solid/liquid/gas disorder in 3D and slide temperature T across the ΔG = ΔH − TΔS feasibility threshold.'],

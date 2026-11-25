@@ -1,7 +1,7 @@
 /* Fields Lab: 3D Electric Field stage (RK2-traced 3D field lines, equipotentials, test probe & parallel-plate parabola). */
 
 import { Stage3D, THREE, label } from '../particles/gl';
-import type { PointCharge } from './electric';
+import { chargeRadius, type PointCharge } from './electric';
 
 export interface ElectricLook {
   key: string;
@@ -61,6 +61,111 @@ export class ElectricScene extends Stage3D<ElectricLook> {
     return out;
   }
 
+  #potentialAt(charges: PointCharge[], x: number, y: number): number {
+    let v = 0;
+    for (const c of charges) {
+      const r = Math.hypot(x - c.x, y - c.y);
+      v += c.qMicro / Math.max(r, 0.16);
+    }
+    return v;
+  }
+
+  #addEquipotentials(L: ElectricLook) {
+    const levels = L.key === 'pos'
+      ? [0.9, 1.4, 2.3]
+      : L.key === 'neg'
+        ? [-0.9, -1.4, -2.3]
+        : L.key === 'dipole'
+          ? [-2.4, -1.3, -0.6, 0, 0.6, 1.3, 2.4]
+          : L.key === 'like'
+            ? [1.5, 2.1, 2.5, 3.3, 4.6]
+            : [-1.6, -0.6, 0, 0.8, 1.8, 3.2, 5.0];
+
+    const nx = 68, ny = 48;
+    const xMin = -3.8, xMax = 3.8, yMin = -2.6, yMax = 2.6;
+    const dx = (xMax - xMin) / nx;
+    const dy = (yMax - yMin) / ny;
+    const grid = new Float32Array((nx + 1) * (ny + 1));
+    const masked = new Uint8Array((nx + 1) * (ny + 1));
+
+    for (let iy = 0; iy <= ny; iy++) {
+      const y = yMin + iy * dy;
+      for (let ix = 0; ix <= nx; ix++) {
+        const x = xMin + ix * dx;
+        const idx = iy * (nx + 1) + ix;
+        grid[idx] = this.#potentialAt(L.charges, x, y);
+        if (L.charges.some((c) => Math.hypot(x - c.x, y - c.y) < chargeRadius(c.qMicro) + 0.08)) {
+          masked[idx] = 1;
+        }
+      }
+    }
+
+    const interp = (x1: number, y1: number, v1: number, x2: number, y2: number, v2: number, lvl: number): [number, number] => {
+      const d = v2 - v1;
+      const t = Math.abs(d) < 1e-9 ? 0.5 : THREE.MathUtils.clamp((lvl - v1) / d, 0, 1);
+      return [x1 + t * (x2 - x1), y1 + t * (y2 - y1)];
+    };
+
+    for (const lvl of levels) {
+      const pos: number[] = [];
+      for (let iy = 0; iy < ny; iy++) {
+        const y0 = yMin + iy * dy, y1 = y0 + dy;
+        for (let ix = 0; ix < nx; ix++) {
+          const i00 = iy * (nx + 1) + ix;
+          const i10 = i00 + 1;
+          const i01 = i00 + (nx + 1);
+          const i11 = i01 + 1;
+          if (masked[i00] || masked[i10] || masked[i01] || masked[i11]) continue;
+
+          const v00 = grid[i00], v10 = grid[i10], v11 = grid[i11], v01 = grid[i01];
+          const mask = (v00 >= lvl ? 1 : 0) | (v10 >= lvl ? 2 : 0) | (v11 >= lvl ? 4 : 0) | (v01 >= lvl ? 8 : 0);
+          if (mask === 0 || mask === 15) continue;
+
+          const x0 = xMin + ix * dx, x1 = x0 + dx;
+          const e0 = () => interp(x0, y0, v00, x1, y0, v10, lvl);
+          const e1 = () => interp(x1, y0, v10, x1, y1, v11, lvl);
+          const e2 = () => interp(x0, y1, v01, x1, y1, v11, lvl);
+          const e3 = () => interp(x0, y0, v00, x0, y1, v01, lvl);
+
+          const pushSeg = (a: [number, number], b: [number, number]) => {
+            pos.push(a[0], a[1], 0, b[0], b[1], 0);
+          };
+
+          const centerAbove = (v00 + v10 + v11 + v01) * 0.25 >= lvl;
+          switch (mask) {
+            case 1: case 14: pushSeg(e3(), e0()); break;
+            case 2: case 13: pushSeg(e0(), e1()); break;
+            case 3: case 12: pushSeg(e3(), e1()); break;
+            case 4: case 11: pushSeg(e1(), e2()); break;
+            case 6: case 9: pushSeg(e0(), e2()); break;
+            case 7: case 8: pushSeg(e3(), e2()); break;
+            case 5:
+              if (centerAbove) { pushSeg(e3(), e2()); pushSeg(e0(), e1()); }
+              else { pushSeg(e3(), e0()); pushSeg(e1(), e2()); }
+              break;
+            case 10:
+              if (centerAbove) { pushSeg(e3(), e0()); pushSeg(e1(), e2()); }
+              else { pushSeg(e0(), e1()); pushSeg(e3(), e2()); }
+              break;
+          }
+        }
+      }
+      if (pos.length) {
+        const geo = new THREE.BufferGeometry();
+        geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+        const col = lvl === 0 ? 0xe2e8f0 : lvl > 0 ? 0xfbbf24 : 0x38bdf8;
+        const opacity = lvl === 0 ? 0.65 : 0.44;
+        this.#equiGroup.add(new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: col, transparent: true, opacity })));
+      }
+    }
+
+    if (L.key === 'dipole') {
+      const lV0 = label('V = 0', 0.24, '#e2e8f0');
+      lV0.position.set(0, 2.25, 0);
+      this.#equiGroup.add(lV0);
+    }
+  }
+
   #buildRadial(L: ElectricLook) {
     this.#clear(this.#root);
     this.#equiGroup = new THREE.Group();
@@ -69,7 +174,7 @@ export class ElectricScene extends Stage3D<ElectricLook> {
     // Draw point charges
     for (const c of L.charges) {
       const pos = c.qMicro > 0;
-      const r = 0.28 + Math.min(0.14, Math.abs(c.qMicro) * 0.03);
+      const r = chargeRadius(c.qMicro);
       const mesh = new THREE.Mesh(
         new THREE.SphereGeometry(r, 24, 18),
         new THREE.MeshStandardMaterial({
@@ -85,20 +190,15 @@ export class ElectricScene extends Stage3D<ElectricLook> {
       const lb = label(`${pos ? '+' : ''}${c.qMicro} μC`, 0.28, pos ? '#fecaca' : '#bfdbfe');
       lb.position.set(c.x, c.y + r + 0.34, 0);
       this.#root.add(lb);
-
-      // Equipotential rings around each charge
-      for (const rad of [0.85, 1.45, 2.2]) {
-        const ring = new THREE.Mesh(
-          new THREE.TorusGeometry(rad, 0.015, 8, 48),
-          new THREE.MeshBasicMaterial({ color: pos ? 0xfbbf24 : 0x38bdf8, transparent: true, opacity: 0.38 }),
-        );
-        ring.position.set(c.x, c.y, 0);
-        this.#equiGroup.add(ring);
-      }
     }
 
-    // RK2 field-line streamlines seeded around each charge
+    this.#addEquipotentials(L);
+
+    // RK2 field-line streamlines seeded around each charge + directional arrowheads
     const lineMat = new THREE.LineBasicMaterial({ color: 0x93c5fd, transparent: true, opacity: 0.72 });
+    const coneGeo = new THREE.ConeGeometry(0.068, 0.2, 8);
+    const coneMat = new THREE.MeshBasicMaterial({ color: 0x93c5fd });
+    const up = new THREE.Vector3(0, 1, 0);
     const hasPos = L.charges.some((c) => c.qMicro > 0);
     for (const c of L.charges) {
       if (hasPos && c.qMicro < 0) continue; // trace from + charges (or from - if only - exists)
@@ -123,6 +223,17 @@ export class ElectricScene extends Stage3D<ElectricLook> {
         }
         const geo = new THREE.BufferGeometry().setFromPoints(pts);
         this.#root.add(new THREE.Line(geo, lineMat));
+
+        if (pts.length >= 6) {
+          const ai = Math.max(1, Math.min(pts.length - 2, Math.floor(pts.length * 0.42)));
+          const dir = pts[ai + 1].clone().sub(pts[ai]).multiplyScalar(sign);
+          if (dir.lengthSq() > 1e-8) {
+            const cone = new THREE.Mesh(coneGeo, coneMat);
+            cone.position.copy(pts[ai]);
+            cone.quaternion.setFromUnitVectors(up, dir.normalize());
+            this.#root.add(cone);
+          }
+        }
       }
     }
 
@@ -187,14 +298,25 @@ export class ElectricScene extends Stage3D<ElectricLook> {
       this.#equiGroup.add(plane);
     }
 
-    // Parabolic electron deflection path (deflected UP toward + plate!)
+    // Parabolic electron deflection path (deflected UP toward + plate; stops at impact!)
     const accel = 0.22 * (L.plateV / (L.plateD * 0.25));
+    const yHit = halfD - 0.16;
+    const uImpact = Math.sqrt(Math.max(0, (yHit + 0.3) / (accel * 1.8)));
+    const uEnd = Math.min(1, uImpact);
     this.#beamCurve = [];
     for (let i = 0; i <= 40; i++) {
-      const u = i / 40;
+      const u = (i / 40) * uEnd;
       const x = -2.6 + u * 5.2;
-      const y = Math.min(halfD - 0.18, -0.3 + accel * u * u * 1.8);
+      const y = -0.3 + accel * u * u * 1.8;
       this.#beamCurve.push(new THREE.Vector3(x, y, 0.4));
+    }
+    if (uImpact < 1) {
+      const hitSpot = new THREE.Mesh(
+        new THREE.SphereGeometry(0.11, 14, 10),
+        new THREE.MeshBasicMaterial({ color: 0xfef08a }),
+      );
+      hitSpot.position.copy(this.#beamCurve[this.#beamCurve.length - 1]);
+      this.#root.add(hitSpot);
     }
     const pathGeo = new THREE.BufferGeometry().setFromPoints(this.#beamCurve);
     this.#root.add(new THREE.Line(pathGeo, new THREE.LineBasicMaterial({ color: 0x4ade80 })));
@@ -220,9 +342,10 @@ export class ElectricScene extends Stage3D<ElectricLook> {
     if (L.mode === 'radial' && this.#probeDot && this.#probeArrow) {
       const pos = new THREE.Vector3(L.probeX, L.probeY, 0);
       this.#probeDot.position.copy(pos);
+      const inside = L.charges.some((c) => Math.hypot(L.probeX - c.x, L.probeY - c.y) < chargeRadius(c.qMicro) + 0.04);
       const e = this.#fieldAt(L.charges, pos);
       const mag = e.length();
-      if (mag > 0.02) {
+      if (!inside && mag > 0.02) {
         this.#probeArrow.visible = true;
         this.#probeArrow.position.copy(pos);
         this.#probeArrow.setDirection(e.normalize());

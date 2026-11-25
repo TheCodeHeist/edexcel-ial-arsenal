@@ -1,7 +1,14 @@
 /* Energetics Lab: Generated exam-style practice questions across WCH12 (Topic 6) & WCH14 (Topic 12). */
 
-import { C_WATER } from './consts';
+import { C_WATER, signed } from './consts';
 import { BOND_REACTIONS, sumBonds } from './bonds';
+import { plain } from '../../lib/chem';
+
+function signed3sf(v: number): string {
+  const r = Number(Math.abs(v).toPrecision(3));
+  if (r === 0) return '0';
+  return (v >= 0 ? '+' : '−') + r.toPrecision(3);
+}
 
 export type Topic = 'calorimetry' | 'hess' | 'bonds' | 'bornhaber' | 'entropy';
 
@@ -15,8 +22,8 @@ export const TOPICS: [Topic | 'all', string][] = [
 ];
 
 export const TOPIC_NAME: Record<Topic, string> = {
-  calorimetry: 'Calorimetry (CP 4 & 5)',
-  hess: 'Hess’s law cycles',
+  calorimetry: 'Calorimetry (Topic 6)',
+  hess: 'Hess’s law cycles (CP 2)',
   bonds: 'Mean bond enthalpies',
   bornhaber: 'Born–Haber & lattice energy',
   entropy: 'Entropy & Gibbs free energy',
@@ -63,27 +70,30 @@ function qCal(): Question {
     const mol = pick([0.025, 0.05]);
     const qJ = m * C_WATER * dT;
     const dh = -(qJ / 1000) / mol;
-    const ans = `${dh.toFixed(1)} kJ mol⁻¹`;
-    const w1 = `+${Math.abs(dh).toFixed(1)} kJ mol⁻¹`;
-    const w2 = `${(dh / 2).toFixed(1)} kJ mol⁻¹`;
-    const w3 = `${(dh * 1000).toFixed(0)} kJ mol⁻¹`;
+    const ans = `${signed3sf(dh)} kJ mol⁻¹`;
+    const w1 = `${signed3sf(Math.abs(dh))} kJ mol⁻¹`;
+    const w2 = `${signed3sf(dh / 2)} kJ mol⁻¹`;
+    const w3 = `${signed3sf(-(qJ / 1000))} kJ mol⁻¹`;
+    const mStr = m === 50 ? '50.0' : '100';
+    const dTStr = dT < 10 ? dT.toFixed(2) : dT.toFixed(1);
+    const molStr = mol === 0.025 ? '0.0250' : '0.0500';
     return {
       topic: 'calorimetry',
-      prompt: `Mixing 0.0${mol === 0.025 ? '25' : '50'} mol of limiting reagent in ${m} g of water raises the temperature by ${dT.toFixed(1)} °C. Calculate ΔH (c = 4.18 J g⁻¹ K⁻¹).`,
+      prompt: `Mixing ${molStr} mol of limiting reagent in ${mStr} g of water raises the temperature by ${dTStr} °C. Calculate ΔH to 3 s.f. (c = 4.18 J g⁻¹ K⁻¹).`,
       options: shuffle([ans, w1, w2, w3]),
       answer: ans,
       working: [
-        `q = mcΔT = ${m} × 4.18 × ${dT.toFixed(1)} = ${qJ.toFixed(0)} J = ${(qJ / 1000).toFixed(2)} kJ`,
+        `q = mcΔT = ${mStr} × 4.18 × ${dTStr} = ${qJ.toFixed(0)} J = ${(qJ / 1000).toPrecision(3)} kJ`,
         `Temperature rose → exothermic (negative ΔH).`,
-        `ΔH = −${(qJ / 1000).toFixed(2)} / ${mol} = ${ans}`,
+        `ΔH = −${(qJ / 1000).toPrecision(3)} / ${molStr} = ${ans}`,
       ],
-      why: 'Always convert J to kJ (÷ 1000), divide by moles of limiting reagent, and give the minus sign for an exothermic temperature rise.',
+      why: 'Always convert J to kJ (÷ 1000), divide by moles of limiting reagent, match 3 s.f. to the data, and include the minus sign for an exothermic rise.',
       figure: { kind: 'cooling', exo: true },
     };
   }
   return {
     topic: 'calorimetry',
-    prompt: 'In Core Practical 4 (polystyrene cup), why do we extrapolate the cooling curve back to the time of mixing (t = 4 min)?',
+    prompt: 'In a polystyrene cup calorimetry experiment, why do we extrapolate the cooling curve back to the time of mixing (t = 4 min)?',
     options: shuffle([
       'To compensate for heat lost to the surroundings while the reaction is taking place',
       'To find the activation energy of the reaction',
@@ -102,23 +112,23 @@ function qHess(): Question {
   const dh1 = pick([-1207, -890, -394, -635]);
   const dh2 = pick([-1029, -1367, -572, -286]);
   const ansVal = isForm ? -dh1 + dh2 : dh1 - dh2;
-  const ans = `${ansVal >= 0 ? '+' : '−'}${Math.abs(ansVal)} kJ mol⁻¹`;
-  const wrong1 = `${-ansVal >= 0 ? '+' : '−'}${Math.abs(ansVal)} kJ mol⁻¹`;
-  const wrong2 = `${dh1 + dh2 >= 0 ? '+' : '−'}${Math.abs(dh1 + dh2)} kJ mol⁻¹`;
-  const wrong3 = `${ansVal + 120 >= 0 ? '+' : '−'}${Math.abs(ansVal + 120)} kJ mol⁻¹`;
+  const ans = `${signed(ansVal, 0)} kJ mol⁻¹`;
+  const wrong1 = `${signed(-ansVal, 0)} kJ mol⁻¹`;
+  const wrong2 = `${signed(dh1 + dh2, 0)} kJ mol⁻¹`;
+  const wrong3 = `${signed(ansVal + 120, 0)} kJ mol⁻¹`;
   const opts = Array.from(new Set([ans, wrong1, wrong2, wrong3]));
-  while (opts.length < 4) opts.push(`${ansVal - 95} kJ mol⁻¹`);
+  while (opts.length < 4) opts.push(`${signed(ansVal - 95, 0)} kJ mol⁻¹`);
 
   return {
     topic: 'hess',
     prompt: isForm
-      ? `In a Hess cycle using enthalpies of formation (arrows UP from elements), ΣΔfH(reactants) = ${dh1} kJ mol⁻¹ and ΣΔfH(products) = ${dh2} kJ mol⁻¹. Find ΔrH.`
-      : `In a Hess cycle using enthalpies of combustion (arrows DOWN to oxides), ΣΔcH(reactants) = ${dh1} kJ mol⁻¹ and ΣΔcH(products) = ${dh2} kJ mol⁻¹. Find ΔrH.`,
+      ? `In a Hess cycle using enthalpies of formation (arrows UP from elements), ΣΔfH(reactants) = ${signed(dh1, 0)} kJ mol⁻¹ and ΣΔfH(products) = ${signed(dh2, 0)} kJ mol⁻¹. Find ΔrH.`
+      : `In a Hess cycle using enthalpies of combustion (arrows DOWN to oxides), ΣΔcH(reactants) = ${signed(dh1, 0)} kJ mol⁻¹ and ΣΔcH(products) = ${signed(dh2, 0)} kJ mol⁻¹. Find ΔrH.`,
     options: shuffle(opts.slice(0, 4)),
     answer: ans,
     working: isForm
-      ? ['ΔrH = ΣΔfH(products) − ΣΔfH(reactants)', `ΔrH = (${dh2}) − (${dh1}) = ${ans}`]
-      : ['ΔrH = ΣΔcH(reactants) − ΣΔcH(products)', `ΔrH = (${dh1}) − (${dh2}) = ${ans}`],
+      ? ['ΔrH = ΣΔfH(products) − ΣΔfH(reactants)', `ΔrH = (${signed(dh2, 0)}) − (${signed(dh1, 0)}) = ${ans}`]
+      : ['ΔrH = ΣΔcH(reactants) − ΣΔcH(products)', `ΔrH = (${signed(dh1, 0)}) − (${signed(dh2, 0)}) = ${ans}`],
     why: isForm
       ? 'Formation arrows point UP from elements, so going reactants → elements reverses ΔH₁.'
       : 'Combustion arrows point DOWN to CO₂ + H₂O, so going oxides → products reverses ΔH₂.',
@@ -134,7 +144,7 @@ function qBonds(): Question {
   const ans = `${dh >= 0 ? '+' : '−'}${Math.abs(dh)} kJ mol⁻¹`;
   return {
     topic: 'bonds',
-    prompt: `For ${rxn.eq}, Σ(bonds broken) = +${broken} kJ mol⁻¹ and Σ(bonds made) = ${made} kJ mol⁻¹. Calculate ΔH using mean bond enthalpies.`,
+    prompt: `For ${plain(rxn.eq)}, Σ(bonds broken) = +${broken} kJ mol⁻¹ and Σ(bonds made) = ${made} kJ mol⁻¹. Calculate ΔH using mean bond enthalpies.`,
     options: shuffle([
       ans,
       `+${Math.abs(dh)} kJ mol⁻¹`,
@@ -165,7 +175,7 @@ function qBornHaber(): Question {
       why: 'Every second electron affinity is endothermic because you are forcing an electron onto an already negative ion.',
     },
     {
-      prompt: 'The experimental lattice energy of AgCl (−905 kJ mol⁻¹) is much more exothermic than the theoretical ionic value (−770 kJ mol⁻¹). What does this show?',
+      prompt: 'The experimental lattice energy of AgCl (−905 kJ mol⁻¹) is more exothermic than the theoretical ionic value (−833 kJ mol⁻¹). What does this show?',
       options: shuffle([
         'Ag⁺ polarises the Cl⁻ ion, giving significant covalent character and extra bond strength',
         'AgCl is a simple molecular compound with London forces',
@@ -173,15 +183,15 @@ function qBornHaber(): Question {
         'The chloride ion is too small to be polarised',
       ]),
       answer: 'Ag⁺ polarises the Cl⁻ ion, giving significant covalent character and extra bond strength',
-      working: ['Difference = 135 kJ mol⁻¹ → distortion of Cl⁻ electron cloud by Ag⁺.'],
-      why: 'A large gap between experimental and theoretical ΔLEH is the classic Edexcel proof of covalent character via polarisation.',
+      working: ['Difference = 72 kJ mol⁻¹ → distortion of Cl⁻ electron cloud by Ag⁺.'],
+      why: 'A gap between experimental and theoretical ΔlattH⊖ is the classic Edexcel proof of covalent character via polarisation.',
     },
     {
       prompt: 'Which ionic compound has the MOST exothermic lattice energy?',
       options: shuffle(['MgO', 'NaCl', 'KBr', 'NaF']),
       answer: 'MgO',
       working: ['Lattice energy is more exothermic for higher ionic charges (+2/−2 vs +1/−1) and smaller ionic radii.'],
-      why: 'Mg²⁺ and O²⁻ are both small, doubly charged ions → ΔLEH(MgO) ≈ −3791 kJ mol⁻¹.',
+      why: 'Mg²⁺ and O²⁻ are both small, doubly charged ions → ΔlattH⊖(MgO) ≈ −3845 kJ mol⁻¹.',
     },
   ];
   return { topic: 'bornhaber', ...pick(bank) };

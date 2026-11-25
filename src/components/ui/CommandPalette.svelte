@@ -28,7 +28,7 @@
     { title: '3D Crystal Lattices', sub: 'Atoms & Bonding Lab', tag: 'Chem', keywords: 'lattice diamond graphite nacl metallic shear', href: '/chemistry/atoms-bonding-lab/#lattices' },
     { title: 'Intermolecular Forces', sub: 'Atoms & Bonding Lab', tag: 'Chem', keywords: 'imf hydrogen bonding london dispersion boiling point', href: '/chemistry/atoms-bonding-lab/#imf' },
     { title: '3D Mass Spectrometer', sub: 'Atoms & Bonding Lab', tag: 'Chem', keywords: 'mass spec isotope m/z fragmentation', href: '/chemistry/atoms-bonding-lab/#ms' },
-    { title: 'Calorimetry & Cooling Curves', sub: 'Energetics Lab', tag: 'Chem', keywords: 'calorimetry cp4 cp5 q=mcdt enthalpy', href: '/chemistry/energetics-lab/#cal' },
+    { title: 'Calorimetry & Cooling Curves', sub: 'Energetics Lab', tag: 'Chem', keywords: 'calorimetry cp2 q=mcdt enthalpy cooling curve', href: '/chemistry/energetics-lab/#calorimetry' },
     { title: 'Hess’s Law Cycles', sub: 'Energetics Lab', tag: 'Chem', keywords: 'hess formation combustion cycle', href: '/chemistry/energetics-lab/#hess' },
     { title: 'Born–Haber Staircase', sub: 'Energetics Lab', tag: 'Chem', keywords: 'born haber lattice energy polarisation covalent character', href: '/chemistry/energetics-lab/#bh' },
     { title: 'Entropy & Gibbs Free Energy (ΔG)', sub: 'Energetics Lab', tag: 'Chem', keywords: 'entropy gibbs dg dh tds feasible', href: '/chemistry/energetics-lab/#entropy' },

@@ -15,6 +15,14 @@ export class InductionScene extends Stage3D<IndLook> {
   #magnet: THREE.Group | null = null;
   #coilRingMat: THREE.MeshStandardMaterial | null = null;
   #rotor: THREE.Group | null = null;
+  #indArrow: THREE.ArrowHelper | null = null;
+  #curCones: { mesh: THREE.Mesh; posDir: THREE.Vector3; posPos: THREE.Vector3 }[] = [];
+  #poleLabels: {
+    leftN: THREE.Sprite;
+    leftS: THREE.Sprite;
+    rightN: THREE.Sprite;
+    rightS: THREE.Sprite;
+  } | null = null;
   #lastMode: IndMode | null = null;
 
   constructor(canvas: HTMLCanvasElement, small: boolean) {
@@ -42,6 +50,9 @@ export class InductionScene extends Stage3D<IndLook> {
     this.#magnet = null;
     this.#coilRingMat = null;
     this.#rotor = null;
+    this.#indArrow = null;
+    this.#curCones = [];
+    this.#poleLabels = null;
   }
 
   #buildMagnet() {
@@ -57,9 +68,37 @@ export class InductionScene extends Stage3D<IndLook> {
     const coil = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 200, 0.065, 10, false), this.#coilRingMat);
     this.#root.add(coil);
 
-    const lCoil = label('Copper coil (glows with induced I)', 0.26, '#fed7aa');
-    lCoil.position.set(0, 1.45, 0);
+    const lCoil = label('Copper coil (Lenz’s law poles & induced I)', 0.24, '#fed7aa');
+    lCoil.position.set(0, 1.58, 0);
     this.#root.add(lCoil);
+
+    // Induced B_ind arrow inside coil (opposes flux change)
+    this.#indArrow = new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(-0.7, 0, 0), 1.4, 0x38bdf8, 0.32, 0.16);
+    this.#indArrow.visible = false;
+    this.#root.add(this.#indArrow);
+
+    // Induced current direction cones on top and bottom windings (right-hand grip rule for B_ind)
+    const coneGeo = new THREE.ConeGeometry(0.11, 0.28, 10);
+    for (const wx of [-0.65, 0.65]) {
+      const topMesh = new THREE.Mesh(coneGeo, new THREE.MeshBasicMaterial({ color: 0x38bdf8 }));
+      topMesh.position.set(wx, 0.98, 0);
+      this.#root.add(topMesh);
+      this.#curCones.push({ mesh: topMesh, posDir: new THREE.Vector3(0, 0, 1), posPos: new THREE.Vector3(wx, 0.98, 0) });
+
+      const botMesh = new THREE.Mesh(coneGeo, new THREE.MeshBasicMaterial({ color: 0x38bdf8 }));
+      botMesh.position.set(wx, -0.98, 0);
+      this.#root.add(botMesh);
+      this.#curCones.push({ mesh: botMesh, posDir: new THREE.Vector3(0, 0, -1), posPos: new THREE.Vector3(wx, -0.98, 0) });
+    }
+
+    // Dynamic Lenz pole labels at coil ends
+    const leftN = label('Induced N', 0.25, '#fecaca'); leftN.position.set(-1.55, 1.12, 0);
+    const leftS = label('Induced S', 0.25, '#bfdbfe'); leftS.position.set(-1.55, 1.12, 0);
+    const rightN = label('Induced N', 0.25, '#fecaca'); rightN.position.set(1.55, 1.12, 0);
+    const rightS = label('Induced S', 0.25, '#bfdbfe'); rightS.position.set(1.55, 1.12, 0);
+    leftN.visible = leftS.visible = rightN.visible = rightS.visible = false;
+    this.#root.add(leftN, leftS, rightN, rightS);
+    this.#poleLabels = { leftN, leftS, rightN, rightS };
 
     // Moving bar magnet (N red on right, S blue on left)
     const mag = new THREE.Group();
@@ -91,22 +130,33 @@ export class InductionScene extends Stage3D<IndLook> {
       this.#root.add(a);
     }
 
-    // Rotating rectangular coil
+    // Rotating rectangular coil built in yz-plane so at θ = 0 its normal (+x) is parallel to B (+x) → max flux
     const rotor = new THREE.Group();
     this.#coilRingMat = new THREE.MeshStandardMaterial({ color: 0xe88b5a, emissive: 0x000000, metalness: 0.65, roughness: 0.25 });
     const pts = [
-      new THREE.Vector3(-1.25, 0, -1.0),
-      new THREE.Vector3(1.25, 0, -1.0),
-      new THREE.Vector3(1.25, 0, 1.0),
-      new THREE.Vector3(-1.25, 0, 1.0),
-      new THREE.Vector3(-1.25, 0, -1.0),
+      new THREE.Vector3(0, -1.25, -1.0),
+      new THREE.Vector3(0, 1.25, -1.0),
+      new THREE.Vector3(0, 1.25, 1.0),
+      new THREE.Vector3(0, -1.25, 1.0),
+      new THREE.Vector3(0, -1.25, -1.0),
     ];
     const loop = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 80, 0.07, 10, false), this.#coilRingMat);
     rotor.add(loop);
 
-    // Normal vector arrow (to visualise angle θ between normal and B)
-    const normArr = new THREE.ArrowHelper(new THREE.Vector3(0, 1, 0), new THREE.Vector3(0, 0, 0), 1.35, 0xfbbf24, 0.28, 0.14);
-    rotor.add(normArr);
+    // Normal vector arrow (+x at θ = 0, parallel to B)
+    const normArr = new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(0, 0, 0), 1.35, 0xfbbf24, 0.28, 0.14);
+    const lNorm = label('Normal', 0.22, '#fde68a');
+    lNorm.position.set(1.58, 0, 0);
+    rotor.add(normArr, lNorm);
+
+    // Induced current direction cones along the two active sides (y = ±1.25, along z)
+    const coneGeo = new THREE.ConeGeometry(0.11, 0.28, 10);
+    for (const [py, dirZ] of [[1.25, 1], [-1.25, -1]] as const) {
+      const cm = new THREE.Mesh(coneGeo, new THREE.MeshBasicMaterial({ color: 0x38bdf8 }));
+      cm.position.set(0, py, 0);
+      rotor.add(cm);
+      this.#curCones.push({ mesh: cm, posDir: new THREE.Vector3(0, 0, dirZ), posPos: new THREE.Vector3(0, py, 0) });
+    }
 
     this.#root.add(rotor);
     this.#rotor = rotor;
@@ -128,10 +178,44 @@ export class InductionScene extends Stage3D<IndLook> {
       this.#rotor.rotation.z = L.phase;
     }
 
+    const active = Math.abs(L.emfSign) > 0.08;
+    const sign = L.emfSign >= 0 ? 1 : -1;
+    const colHex = sign > 0 ? 0x38bdf8 : 0xfbbf24;
+
     if (this.#coilRingMat) {
       const mag = Math.min(1, Math.abs(L.emfSign));
-      this.#coilRingMat.emissive.setHex(L.emfSign >= 0 ? 0x38bdf8 : 0xfbbf24);
+      this.#coilRingMat.emissive.setHex(colHex);
       this.#coilRingMat.emissiveIntensity = mag * 0.85;
+    }
+
+    const up = new THREE.Vector3(0, 1, 0);
+    for (const c of this.#curCones) {
+      c.mesh.visible = active;
+      if (active) {
+        const d = c.posDir.clone().multiplyScalar(sign);
+        c.mesh.quaternion.setFromUnitVectors(up, d);
+        (c.mesh.material as THREE.MeshBasicMaterial).color.setHex(colHex);
+      }
+    }
+
+    if (this.#indArrow) {
+      this.#indArrow.visible = active;
+      if (active) {
+        const bDir = new THREE.Vector3(sign, 0, 0);
+        this.#indArrow.position.set(-0.7 * sign, 0, 0);
+        this.#indArrow.setDirection(bDir);
+        const len = 0.7 + Math.min(1, Math.abs(L.emfSign)) * 0.9;
+        this.#indArrow.setLength(len, 0.3, 0.16);
+        this.#indArrow.setColor(colHex);
+      }
+    }
+
+    if (this.#poleLabels) {
+      const { leftN, leftS, rightN, rightS } = this.#poleLabels;
+      leftS.visible = active && sign > 0;
+      rightN.visible = active && sign > 0;
+      leftN.visible = active && sign < 0;
+      rightS.visible = active && sign < 0;
     }
     void dt;
   }

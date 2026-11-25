@@ -1,4 +1,4 @@
-/* Fields Lab: Gravitational fields, potential well, orbits & Gravity vs Electric comparison (WPH14 + WPH15). */
+/* Fields Lab: Gravitational fields, potential well, orbits (WPH15, Topic 12) & Gravity vs Electric comparison (WPH14/WPH15). */
 
 import { G_CONST } from './consts';
 

@@ -128,10 +128,11 @@ export class ImfScene extends Stage3D<ImfLook> {
         };
         if (!flip) {
           addH(1.05, 0); // H pointing right towards neighbour's lone pair!
-          addH(-0.27, 1.01);
+          addH(-0.263, 1.017);
         } else {
-          addH(0.75, 0.72);
-          addH(0.75, -0.72);
+          // 104.5° H-O-H bond angle on the acceptor water
+          addH(0.643, 0.830);
+          addH(0.643, -0.830);
           // Visible lone pair dots facing left towards the incoming Hδ+
           for (const dy of [-0.14, 0.14]) {
             const e = new THREE.Mesh(new THREE.SphereGeometry(0.085, 12, 10), new THREE.MeshBasicMaterial({ color: 0xf5d0fe }));

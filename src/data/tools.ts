@@ -73,7 +73,7 @@ export const TOOLS: Tool[] = [
     slug: 'energetics-lab',
     subject: 'chemistry',
     title: 'Energetics Lab',
-    blurb: 'Thermodynamics and energetics across Units 2 and 4 in 3D: calorimetry with cooling-curve extrapolation (Core Practicals 4 & 5), Hess’s law cycles, mean bond enthalpies, a 3D Born–Haber staircase with covalent-character polarisation, and entropy & ΔG = ΔH − TΔS feasibility.',
+    blurb: 'Thermodynamics and energetics across Units 2 and 4 in 3D: calorimetry with cooling-curve extrapolation, Hess’s law cycles (Core Practical 2), mean bond enthalpies, a 3D Born–Haber staircase with covalent-character polarisation, and entropy & ΔG = ΔH − TΔS feasibility.',
     kind: 'Simulation',
     units: ['WCH12', 'WCH13', 'WCH14'],
     topics: ['Calorimetry', 'Cooling curves', 'Hess’s law', 'Mean bond enthalpies', 'Born–Haber cycles', 'Lattice energy', 'Polarisation', 'Entropy', 'Gibbs free energy'],

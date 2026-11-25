@@ -12,7 +12,7 @@
 </script>
 
 <script lang="ts">
-  /* Hess's Law: Formation, combustion & Core Practical 5 indirect cycles with route highlighter (Spec 6.8–6.9). */
+  /* Hess's Law: Formation, combustion & Core Practical 2 indirect cycles with route highlighter (Spec 6.8–6.9). */
   import Seg from '../../components/ui/Seg.svelte';
   import { HESS_CYCLES, calcHess } from './hess';
   import { signed } from './consts';
@@ -37,7 +37,7 @@
 
   $effect(() => {
     stats = [
-      ['Cycle', cyc.kind === 'formation' ? 'ΔfH (up)' : cyc.kind === 'combustion' ? 'ΔcH (down)' : 'CP 5 (down)'],
+      ['Cycle', cyc.kind === 'formation' ? 'ΔfH (up)' : cyc.kind === 'combustion' ? 'ΔcH (down)' : 'CP 2 (down)'],
       ['ΔrH', `${signed(dhr, 1)} kJ mol⁻¹`],
     ];
   });
@@ -113,6 +113,9 @@
             stroke-width={prefs.route === 'indirect' ? 3.2 : 2.2}
             marker-end={prefs.route === 'indirect' ? 'url(#arr-acc)' : 'url(#arr-mut)'} />
         {/if}
+        {#if cyc.arrowReagent}
+          <text x="168" y="156" text-anchor="end" class="hsub" fill="var(--accent)">{cyc.arrowReagent}</text>
+        {/if}
         <text x="168" y="176" text-anchor="end" class="hmath">{cyc.dh1Label}</text>
         <text x="168" y="194" text-anchor="end" class="hsub">{signed(dh1, 1)} kJ mol⁻¹ {prefs.route === 'indirect' && cyc.arrowDir === 'up' ? '(reversed!)' : ''}</text>
 
@@ -127,6 +130,9 @@
             stroke={prefs.route === 'indirect' ? 'var(--redox)' : 'var(--muted)'}
             stroke-width={prefs.route === 'indirect' ? 3.2 : 2.2}
             marker-end={prefs.route === 'indirect' ? 'url(#arr-red)' : 'url(#arr-mut)'} />
+        {/if}
+        {#if cyc.arrowReagent}
+          <text x="452" y="156" text-anchor="start" class="hsub" fill="var(--accent)">{cyc.arrowReagent}</text>
         {/if}
         <text x="452" y="176" text-anchor="start" class="hmath">{cyc.dh2Label}</text>
         <text x="452" y="194" text-anchor="start" class="hsub">{signed(dh2, 1)} kJ mol⁻¹ {prefs.route === 'indirect' && cyc.arrowDir === 'down' ? '(reversed!)' : ''}</text>

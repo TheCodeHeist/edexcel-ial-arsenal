@@ -63,7 +63,7 @@ export class BornHaberScene extends Stage3D<BHLook> {
     for (let i = 0; i < levels.length; i++) {
       const y = toY(levels[i].E);
       const x = xOf(i);
-      const isHighlight = i - 1 === selectedStep || (i === 0 && selectedStep === 0);
+      const isHighlight = i - 1 === selectedStep;
       const isSolid = i === levels.length - 1;
       const isElem = i === 0;
 

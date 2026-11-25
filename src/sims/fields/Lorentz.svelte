@@ -29,10 +29,10 @@
   let playing = $state(!isReducedMotion());
 
   const p = $derived(PARTICLES[prefs.particle]);
-  // Realistic physical scales: v = vScale × 10^6 m/s (10^7 for electron), B = bScale × 0.05 T, E = eScale × 5e4 V/m
-  const vPhys = $derived(prefs.vScale * (prefs.particle === 'electron' ? 1e7 : 1e6));
+  // One unified physical scale across all particles (v = vScale × 10⁶ m/s, B = bScale × 0.05 T, E = eScale × 5×10⁴ V/m)
+  const vPhys = $derived(prefs.vScale * 1e6);
   const bPhys = $derived(prefs.bScale * 0.05);
-  const ePhys = $derived(prefs.eScale * (prefs.particle === 'electron' ? 5e5 : 5e4));
+  const ePhys = $derived(prefs.eScale * 5e4);
   const cyc = $derived(cyclotron(p, vPhys, bPhys));
   const vSel = $derived(ePhys / bPhys);
   const matched = $derived(Math.abs(prefs.eScale - prefs.vScale * prefs.bScale) < 0.08);
@@ -76,6 +76,7 @@
           </div>
           <div class="hud tr">
             <span>{p.q > 0 ? 'Positive charge' : 'Negative charge (curves opposite way!)'}</span>
+            <span>{prefs.mode === 'orbit' ? 'Orbit radius not to scale (e⁻/p⁺ ≈ 1/1836)' : 'Top +V · Bottom −V → E ↓ · B ⊗'}</span>
           </div>
           <div class="hud bl">F = BQv acts perpendicular to v, so speed and kinetic energy stay constant</div>
         </View3D>
@@ -87,7 +88,7 @@
     <div class="playbar">
       <button type="button" class="btn primary playbtn" onclick={() => (playing = !playing)}>{playing ? 'Pause' : 'Play'}</button>
       {#if prefs.mode === 'selector'}
-        <button type="button" class="btn" onclick={() => (prefs.eScale = Number((prefs.vScale * prefs.bScale).toFixed(2)))}>Balance (v = E/B)</button>
+        <button type="button" class="btn" onclick={() => (prefs.eScale = Math.min(4.0, Math.max(0.15, Number((prefs.vScale * prefs.bScale).toFixed(2)))))}>Balance (v = E/B)</button>
       {/if}
     </div>
   </section>
@@ -107,7 +108,7 @@
         {#if prefs.mode === 'selector'}
           <label class="ctl">
             <span class="ctl-l">Electric field E <b>{sci(ePhys, 3)} V m⁻¹</b></span>
-            <input class="slider" type="range" min="0.4" max="2.0" step="0.05" bind:value={prefs.eScale} />
+            <input class="slider" type="range" min="0.15" max="4.0" step="0.05" bind:value={prefs.eScale} />
           </label>
         {/if}
       </div>

@@ -15,11 +15,12 @@ export const IMF_INFO: Record<ImfKind, ImfInfo> = {
   london: {
     id: 'london',
     name: 'London (dispersion) forces',
-    strength: 'Weakest (1–15 kJ mol⁻¹), but grows with electron count',
+    strength: 'Typically 1–15 kJ mol⁻¹, but scales with electron count and can exceed permanent dipoles',
     occursIn: 'ALL simple molecules and noble gas atoms',
     summary: 'Random movement of electrons creates an instantaneous dipole, which induces a dipole in a neighbouring molecule, causing a weak electrostatic attraction.',
     facts: [
       'More electrons (higher Mr) → larger instantaneous dipoles → stronger London forces → higher boiling point (e.g. F₂ < Cl₂ < Br₂ < I₂).',
+      'Large molecules with many electrons have stronger London forces than small polar molecules (e.g. HI boils at −35 °C vs HCl at −85 °C; I₂ is a solid at room temperature).',
       'Straight-chain alkanes pack closer with a larger surface area of contact than branched isomers → stronger London forces and higher boiling point.',
       'Present in EVERY molecular substance, even polar and hydrogen-bonded ones.',
     ],
@@ -27,7 +28,7 @@ export const IMF_INFO: Record<ImfKind, ImfInfo> = {
   dipole: {
     id: 'dipole',
     name: 'Permanent dipole–dipole forces',
-    strength: 'Moderate (5–25 kJ mol⁻¹)',
+    strength: 'Moderate (5–25 kJ mol⁻¹, for comparable electron counts)',
     occursIn: 'Polar molecules (asymmetrical distribution of polar bonds)',
     summary: 'The δ+ end of one polar molecule attracts the δ− end of a neighbouring polar molecule.',
     facts: [
@@ -39,7 +40,7 @@ export const IMF_INFO: Record<ImfKind, ImfInfo> = {
   hbond: {
     id: 'hbond',
     name: 'Hydrogen bonding',
-    strength: 'Strongest intermolecular force (15–40 kJ mol⁻¹)',
+    strength: 'Strongest intermolecular force in small molecules (15–40 kJ mol⁻¹)',
     occursIn: 'Molecules with H covalently bonded to N, O or F',
     summary: 'A strong electrostatic attraction between an electron-deficient Hδ+ (bonded to N, O or F) and a lone pair of electrons on an N, O or F atom in another molecule.',
     facts: [

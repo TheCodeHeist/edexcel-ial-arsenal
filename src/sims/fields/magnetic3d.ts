@@ -92,7 +92,7 @@ export class MagneticScene extends Stage3D<MagLook> {
     // Magnetic force F = I × B (right-hand cross product = Fleming's Left-Hand Rule!)
     const fVec = iVec.clone().cross(bDir);
     const fMag = L.B * L.I * Math.sin(rad);
-    if (fVec.lengthSq() > 1e-4 && fMag > 0.05) {
+    if (fVec.lengthSq() > 1e-4 && L.angle > 0) {
       fVec.normalize();
       const len = Math.min(2.3, 0.5 + fMag * 0.16);
       const fArr = new THREE.ArrowHelper(fVec, new THREE.Vector3(0, 0, 0), len, 0x4ade80, 0.38, 0.22);
@@ -154,6 +154,32 @@ export class MagneticScene extends Stage3D<MagLook> {
       const a = new THREE.ArrowHelper(bDir, new THREE.Vector3(-2.6 * iSign, y, 0), 5.2, 0x60a5fa, 0.32, 0.16);
       this.#root.add(a);
     }
+
+    // Current-direction arrowheads on windings (right-hand grip rule: fingers along I -> thumb along B)
+    const up = new THREE.Vector3(0, 1, 0);
+    const coneGeo = new THREE.ConeGeometry(0.11, 0.28, 10);
+    const coneMat = new THREE.MeshBasicMaterial({ color: 0xfbbf24 });
+    const frontDir = new THREE.Vector3(0, -iSign, 0);
+    const topDir = new THREE.Vector3(0, 0, iSign);
+    for (let k = 1; k <= 7; k += 2) {
+      const uFront = (k + 0.25) / turns;
+      const xFront = -2.4 + uFront * 4.8;
+      const cFront = new THREE.Mesh(coneGeo, coneMat);
+      cFront.position.set(xFront, 0, 0.95);
+      cFront.quaternion.setFromUnitVectors(up, frontDir);
+      this.#root.add(cFront);
+
+      const uTop = k / turns;
+      const xTop = -2.4 + uTop * 4.8;
+      const cTop = new THREE.Mesh(coneGeo, coneMat);
+      cTop.position.set(xTop, 0.95, 0);
+      cTop.quaternion.setFromUnitVectors(up, topDir);
+      this.#root.add(cTop);
+    }
+    const lI = label('Current I', 0.26, '#fde68a');
+    lI.position.set(0, 1.38, 0);
+    this.#root.add(lI);
+
     const lN = label('N pole', 0.3, '#fecaca'); lN.position.set(2.85 * iSign, 0.9, 0);
     const lS = label('S pole', 0.3, '#bfdbfe'); lS.position.set(-2.85 * iSign, 0.9, 0);
     this.#root.add(lN, lS);

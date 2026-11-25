@@ -116,9 +116,12 @@
 @media (max-width:1000px){ .top .tabs .lg{display:none} .top .tabs .sm{display:inline} }
 @media (max-width:760px){ .top .tabs>button{padding:0 5px} }
 @media (max-width:560px){
-  .top{grid-template-areas:"brand theme" "tabs tabs"}
   .top .tabs{display:grid;grid-auto-flow:row;grid-template-columns:repeat(4,minmax(0,1fr));height:auto;border-radius:20px}
+  .top .tabs:has(> button:nth-of-type(6):last-of-type){grid-template-columns:repeat(3,minmax(0,1fr))}
   .top .tabs>button{height:36px;font-size:13px;padding:0 2px}
+  .hud{font-size:10px;padding:4px 8px}
+  .hud.tl b{font-size:13px}
+  .hud.tr{top:auto;right:auto;bottom:10px;left:10px;text-align:left;max-width:calc(100% - 58px)}
 }
 
 /* Reading labels hold symbols (λ, f = E/h, θ): never uppercase them, or λ becomes Λ and f becomes F. */

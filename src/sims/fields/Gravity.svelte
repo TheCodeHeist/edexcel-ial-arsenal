@@ -7,7 +7,7 @@
 </script>
 
 <script lang="ts">
-  /* Gravitational Fields: 3D potential well & orbital mechanics + Gravity vs Electric comparison (WPH14 + WPH15). */
+  /* Gravitational Fields: 3D potential well & orbital mechanics (WPH15) + Gravity vs Electric synoptic comparison. */
   import View3D from './View3D.svelte';
   import type { GravityLook } from './gravity3d';
   import { BODIES, orbitMetrics, COMPARE_ROWS } from './gravity';

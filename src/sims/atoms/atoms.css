@@ -8,8 +8,12 @@
 .ab-svg .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:3 4}
 .ab-svg .axlbl{font-size:11px;fill:var(--muted)}
 .ab-svg .sym{font-size:11px;font-weight:700;fill:var(--ink)}
+.ab-svg .leader{stroke:var(--muted);stroke-width:1;opacity:.65}
+.ab-svg .leglbl{font-size:10.5px;font-weight:700;fill:var(--ink)}
 .ab-svg .ieline{fill:none;stroke:var(--accent);stroke-width:2.6;stroke-linejoin:round}
-.ab-svg .radline{fill:none;stroke:var(--amph);stroke-width:2;stroke-dasharray:5 4;opacity:.8}
+.ab-svg .radline{fill:none;stroke:var(--amph);stroke-width:2;stroke-dasharray:5 4;opacity:.85}
+.ab-svg .radtick{stroke:var(--amph);stroke-width:1.3}
+.ab-svg .radlbl{fill:var(--amph)}
 .ab-svg .pt{fill:var(--solid);stroke:var(--accent);stroke-width:2.2;cursor:pointer;transition:r .15s}
 .ab-svg .pt.dip{stroke:var(--redox);fill:color-mix(in srgb,var(--redox) 25%,var(--solid))}
 .ab-svg .pt.sel{fill:var(--accent);stroke:var(--ink);stroke-width:2}
@@ -22,6 +26,7 @@
 
 /* ===== Orbitals ===== */
 .ab-orbitals .ab-quick{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.ab-orbitals .chip:disabled{opacity:.36;cursor:not-allowed;pointer-events:none}
 .ab-orbitals .ab-lbl{font:700 11px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:2px}
 .ab-orbitals .ab-headtools{display:flex;align-items:center;gap:6px}
 .ab-orbitals .ab-cfg{margin:0 14px 12px;padding:12px 14px;border-radius:var(--r-sm);background:var(--raised);border:1px solid var(--rim);
@@ -54,6 +59,9 @@
 
 /* ===== Mass Spec ===== */
 .ab-mass .ab-spec{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+.ab-mass .ab-pkleg{display:flex;flex-wrap:wrap;gap:8px 14px;padding:0 16px 8px;font:600 12px/1.3 var(--f-mono);color:var(--muted)}
+.ab-mass .ab-pkitem{display:inline-flex;align-items:center;gap:6px}
+.ab-mass .ab-pkitem i{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
 
 /* ===== Practice (3-column layout matching Kinetics Lab) ===== */
 .ab-practice .qprompt{white-space:pre-line}
