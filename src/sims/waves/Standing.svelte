@@ -182,6 +182,21 @@
   const ORD = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th'];
   const STROBE = [['0', 'Strobe off', 'Off'], ['0.25', '0.25 Hz', '¼'], ['0.5', '0.5 Hz', '½'], ['1', '1 Hz', '1']] as const;
   const fmtMs = (s: string) => `${s} ms/div`;
+
+  /* Kernel hooks */
+  export async function kSweep(maxMs = 15000): Promise<boolean> {
+    if (!sweeping) sweep();
+    const endAt = performance.now() + maxMs;
+    while (sweeping && performance.now() < endAt) await new Promise((r) => setTimeout(r, 40));
+    return !sweeping;
+  }
+  export function kRecord(): boolean { const before = prefs.reads.length; record(); return prefs.reads.length > before; }
+  export function kClearReads() { prefs.reads = []; }
+  export function kMark(): boolean { const before = prefs.marks.length; mark(); return prefs.marks.length > before; }
+  export function kClearMarks() { prefs.marks = []; }
+  export function kReadouts() {
+    return { wire, mu, T, v, f1, near, lam, amp, sweeping, line, theory, vs, lamS, lag, inPhase, lamMeas, markFit, tubeRes, tNear, tLabel };
+  }
 </script>
 
 <main class="layout wv-standing" hidden={off}>

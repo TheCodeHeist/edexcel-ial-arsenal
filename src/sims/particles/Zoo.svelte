@@ -45,6 +45,7 @@
   function pick(id: string) { prefs.sel = id; }
   // flipping the table flips the selected card too
   function setAnti(on: boolean) { if (on !== prefs.anti) { prefs.anti = on; prefs.sel = anti(sel).id; } }
+  export function setAntiMode(on: boolean) { setAnti(on); }
 
   const COUNT = ALL.length + ALL.filter((p) => !p.self).length;
   $effect(() => { stats = [['Particles', COUNT], ['Card', sel.name]]; });

@@ -61,6 +61,9 @@
     if (checked) prefs.solved++;
   }
   function next() { prefs.seed = Math.floor(Math.random() * 1e6); pIn = ''; dIn = ''; checked = null; shown = false; }
+  export function nextObject() { next(); }
+  export function setShowWorking(v: boolean) { shown = v; }
+  export function getState() { return { obj, shown, checked, fmtD: fmtD(obj.d), Lw }; }
   $effect(() => { void prefs.kind; pIn = ''; dIn = ''; checked = null; shown = false; });
   $effect(() => { unit = obj.d > 1e5 ? 'Mpc' : 'pc'; });
 

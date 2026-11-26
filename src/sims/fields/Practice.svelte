@@ -28,6 +28,11 @@
   }
   function next() { q = newQuestion(topic); picked = null; }
   const ok = $derived(picked === q.answer);
+
+  /* Kernel hooks */
+  export function kAnswer(o: string) { answer(o); }
+  export function kNext() { next(); }
+  export function kSnapshot() { return { q, picked, ok }; }
 </script>
 
 <main class="layout practice fl-practice" hidden={off}>

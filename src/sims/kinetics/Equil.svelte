@@ -180,6 +180,72 @@
       ? [['T', `${plain(R.T, 3)} K`], ['Kc', `${sci(R.K)}${dN ? ' ' + kcUnits(dN) : ''}`], ['Qc/Kc', plain(R.ratio, 3)]]
       : [['T', `${plain(U.T, 3)} K`], ['p(Cl₂)', `${plain(U.gas, 2)} atm`], ['p*', `${sci(U.ps)} atm`]];
   });
+
+  /** Kernel helper: apply Le Chatelier disturbances through the exact button handlers and wait for settling. */
+  export async function disturb(opts: {
+    T?: number; deltaT?: number; V?: number; pressure?: 'increase' | 'decrease';
+    add?: boolean; cat?: boolean; chlorine?: 'flow' | 'stop' | 'vent'; reset?: boolean;
+  }) {
+    playing = true;
+    if (opts.reset) {
+      if (isGas) resetGas();
+      else { tube.liq = 1; tube.sol = 0; tube.gas = 0; tube.flow = false; tube.Tset = 293; Tset = 293; msg = null; frame++; }
+    }
+    if (isGas) {
+      if (opts.T !== undefined) setT(Math.max(S.T[0], Math.min(S.T[2], opts.T)));
+      else if (opts.deltaT !== undefined) setT(Math.max(S.T[0], Math.min(S.T[2], gas.Tset + opts.deltaT)));
+      if (opts.V !== undefined) setV(Math.max(40, Math.min(100, opts.V)));
+      else if (opts.pressure === 'increase') setV(Math.max(40, Math.round(Vcm / 2)));
+      else if (opts.pressure === 'decrease') setV(Math.min(100, Vcm * 2));
+      if (opts.add) add();
+      if (typeof opts.cat === 'boolean') setCat(opts.cat);
+      const disturbed = opts.T !== undefined || opts.deltaT !== undefined || opts.V !== undefined || opts.pressure !== undefined || opts.add;
+      if (disturbed) {
+        if (RM) {
+          for (let i = 0; i < 120; i++) gas.step(0.05);
+          frame++;
+        } else {
+          const end = performance.now() + 2600;
+          await new Promise((r) => setTimeout(r, 300));
+          while (performance.now() < end && !off && (Math.abs(Math.log(gas.q() / gas.kc())) > 0.03 || Math.abs(gas.T - gas.Tset) > 1.5)) {
+            await new Promise((r) => setTimeout(r, 80));
+          }
+          frame++;
+        }
+      }
+    } else {
+      if (opts.T !== undefined) setT(Math.max(273, Math.min(360, opts.T)));
+      else if (opts.deltaT !== undefined) setT(Math.max(273, Math.min(360, tube.Tset + opts.deltaT)));
+      if (opts.chlorine === 'flow') flow(true);
+      else if (opts.chlorine === 'stop') flow(false);
+      else if (opts.chlorine === 'vent') vent();
+      if (opts.T !== undefined || opts.deltaT !== undefined || opts.chlorine !== undefined) {
+        if (RM) {
+          for (let i = 0; i < 80; i++) tube.step(0.05);
+          frame++;
+        } else {
+          await new Promise((r) => setTimeout(r, 1800));
+          frame++;
+        }
+      }
+    }
+  }
+
+  export function getState() {
+    if (isGas) {
+      const c = gas.conc(), { rf, rb } = gas.rates(), K = gas.kc(), Q = gas.q();
+      return {
+        isGas: true as const, id: S.id, name: S.name, eq: S.eq, Tmin: S.T[0], Tmax: S.T[2],
+        T: gas.T, Tset, Vcm, P: gas.p(), cat, status,
+        species: S.sp.map((sp, i) => ({ f: sp.f, conc: c[i] })),
+        rf, rb, K, Q, units: dN ? kcUnits(dN) : 'no units', msg,
+      };
+    }
+    return {
+      isGas: false as const, id: 'icl', eq: 'ICl(l) + Cl₂(g) ⇌ ICl₃(s)', Tmin: 273, Tmax: 360,
+      T: tube.T, Tset, liq: tube.liq, sol: tube.sol, gasP: tube.gas, ps: pStar(tube.T), flow: tube.flow, status: uStatus, msg,
+    };
+  }
 </script>
 
 <main class="layout kn-equil" hidden={off}>

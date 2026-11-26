@@ -142,6 +142,16 @@
       ? [['Photon', `${plain(Eph)} eV`], ['φ', `${plain(mt.phi)} eV`], [prefs.app === 'cell' ? 'Current' : 'Leaf', prefs.app === 'cell' ? ampText(amps) : charge < -0.02 ? 'open' : charge > 0.02 ? 'open (+)' : 'closed']]
       : [['Atom', at.name], ['Ionisation', `${plain(-EMIN)} eV`], ['Last photon', trans ? `${short(trans.nm)} nm` : '–']];
   });
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kRecord(): boolean { if (!emits) return false; record(); return true; }
+  export function kCharge(sign: -1 | 1) { charge = sign * 0.9; }
+  export function kGoLevel(i: number) { go(i); }
+  export function kClearBars() { scene?.clearBars(); }
+  export function kReadouts() {
+    return { playing, mt, Eph, f, ek, emits, vs, nPh, nE, amps, charge, pts, at, lvl, last2, trans, visLines, invis, cm, cband, cJ, cEV };
+  }
 </script>
 
 <main class="layout photon" hidden={off}>

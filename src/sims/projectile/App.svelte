@@ -12,6 +12,7 @@
   import Seg from '../../components/ui/Seg.svelte';
   import type { Launch } from './physics';
   import type { Course, TMode } from './target';
+  import { provideProjectileTools } from './kernel';
 
   type Mode = 'launch' | 'predict' | 'target';
 
@@ -24,6 +25,9 @@
 
   let mode = $state<Mode>('launch');
   const views: Record<Mode, HTMLElement | undefined> = $state({ launch: undefined, predict: undefined, target: undefined });
+  let launchCmp = $state<LaunchView>();
+  let predictCmp = $state<Predict>();
+  let targetCmp = $state<TargetView>();
   const TABS = [['launch', 'Launch'], ['predict', 'Predict'], ['target', 'Target']] as const;
   const INFO: Record<Mode, [string, string]> = {
     launch: ['Launch', 'Set the speed, angle and height, fire, and compare the shots.'],
@@ -53,7 +57,11 @@
   onMount(() => {
     addEventListener('hashchange', fromHash);
     glint('.exbtn,.qpanel,.shot button');
-    return () => removeEventListener('hashchange', fromHash);
+    const unprovide = provideProjectileTools({
+      getMode: () => mode, setMode, prefs, tprefs, getShots: () => saved.shots, score, tscore,
+      launch: () => launchCmp, target: () => targetCmp, predict: () => predictCmp,
+    });
+    return () => { removeEventListener('hashchange', fromHash); unprovide(); };
   });
 </script>
 
@@ -67,6 +75,6 @@
   </div>
 {/if}
 
-<div bind:this={views.launch}><LaunchView {prefs} bind:shots={saved.shots} hidden={mode !== 'launch'} /></div>
-<div bind:this={views.predict}><Predict {score} hidden={mode !== 'predict'} /></div>
-<div bind:this={views.target}><TargetView score={tscore} prefs={tprefs} hidden={mode !== 'target'} /></div>
+<div bind:this={views.launch}><LaunchView bind:this={launchCmp} {prefs} bind:shots={saved.shots} hidden={mode !== 'launch'} /></div>
+<div bind:this={views.predict}><Predict bind:this={predictCmp} {score} hidden={mode !== 'predict'} /></div>
+<div bind:this={views.target}><TargetView bind:this={targetCmp} score={tscore} prefs={tprefs} hidden={mode !== 'target'} /></div>

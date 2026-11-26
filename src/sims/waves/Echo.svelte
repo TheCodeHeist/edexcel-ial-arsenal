@@ -139,6 +139,24 @@
 
   const arrived = $derived(list.filter((e) => e.t <= ts).length);
   const maxPRF = $derived(1 / (2 * (Math.max(...list.map((e) => e.t)) / 2)));
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export async function kSend(maxMs = 6000): Promise<boolean> {
+    send();
+    const endAt = performance.now() + maxMs;
+    while (playing && ts < tend && performance.now() < endAt) await new Promise((r) => setTimeout(r, 40));
+    return ts >= tend;
+  }
+  export function kSetCursors(t1?: number, t2?: number) {
+    if (t1 !== undefined) c1 = Number.isFinite(t1) ? Math.max(0, Math.min(tend, t1)) : NaN;
+    if (t2 !== undefined) c2 = Number.isFinite(t2) ? Math.max(0, Math.min(tend, t2)) : NaN;
+  }
+  export function kSnap(which: 1 | 2) { snap(which); }
+  export function kClearCursors() { c1 = NaN; c2 = NaN; }
+  export function kReadouts() {
+    return { playing, sc, f, gap, tau, lam, plen, res, pairDt, list, tend, ts, c1, c2, maxPRF };
+  }
 </script>
 
 <main class="layout wv-echo" hidden={off}>

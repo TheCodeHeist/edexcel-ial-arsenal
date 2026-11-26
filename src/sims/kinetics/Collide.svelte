@@ -60,6 +60,10 @@
   const eas = $derived(prefs.cat ? [{ E: EA, name: 'Ea', tone: 'a' as const }, { E: EA_CAT, name: 'Ea (catalysed)', tone: 'b' as const }] : [{ E: EA, name: 'Ea', tone: 'a' as const }]);
   const T2 = $derived(prefs.T2 ? prefs.T2 : null);
   $effect.pre(() => { if (prefs.T2 && prefs.T2 === prefs.T) prefs.T2 = prefs.T + 100 > 700 ? prefs.T - 100 : prefs.T + 100; });
+
+  /** Restart the particle box and read live collision counts (used by Kernel tools). */
+  export function restart() { playing = true; seq++; }
+  export function getLive() { return { ...live, playing }; }
 </script>
 
 <main class="layout kn-collide" hidden={off}>

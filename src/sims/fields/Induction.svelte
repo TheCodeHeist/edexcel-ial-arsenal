@@ -86,6 +86,10 @@
     return `${i ? 'L' : 'M'}${(X0 + u * (X1 - X0)).toFixed(1)} ${(YMID - val * AMP).toFixed(1)}`;
   }).join(' '));
   const cursorX = $derived(X0 + (((phase % (Math.PI * 2)) + Math.PI * 2) % (Math.PI * 2)) / (Math.PI * 2) * (X1 - X0));
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kReadouts() { return { playing, phase, gen, mag, fluxNow, emfNow }; }
 </script>
 
 <main class="layout fl-ind" hidden={off}>

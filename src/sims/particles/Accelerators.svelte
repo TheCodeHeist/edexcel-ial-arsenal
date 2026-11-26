@@ -58,6 +58,10 @@
   let epoch = $state(0);
   let live = $state<ALive | null>(null);
   function setBeam(b: 'p' | 'e') { if (b !== prefs.linBeam) { prefs.linBeam = b; prefs.slow = { ...prefs.slow, linac: LIN_SLOW[b] }; } }
+  export function setLinacBeam(b: 'p' | 'e') { setBeam(b); }
+  export function restart() { epoch += 1; playing = true; }
+  export function setPlaying(on: boolean) { playing = on; }
+  export function startRamp() { if (!ramping) ramp(); }
   function onscene(sc: Stage3D<ALook> | null) { if (sc) (sc as AccelScene).onTick = (x) => { live = x; }; }
 
   const look = $derived<ALook>({

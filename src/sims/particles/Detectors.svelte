@@ -89,6 +89,12 @@
   function clear() { picked = null; if (prefs.det === 'cloud') scene?.clearCloud(); else scene?.clearShots(); }
   function shoot(id: Shot) { const f = fire.find((x) => x.id === id); if (f) f.n++; playing = true; }
   function shootAll() { for (const f of fire) f.n++; playing = true; }
+  export function fireEvent(seed?: number) { fireCollision(seed); return result; }
+  export function selectEvent(i: number) { chooseEv(i); }
+  export function replayCurrent() { replay(); }
+  export function clearView() { clear(); }
+  export function shootParticle(id: Shot | 'all') { if (id === 'all') shootAll(); else shoot(id); }
+  export function getState() { return { result, fired }; }
   function toggleSrc(id: string) {
     prefs.srcs = prefs.srcs.includes(id) ? prefs.srcs.filter((x) => x !== id) : [...prefs.srcs, id];
     prefs.info = id;

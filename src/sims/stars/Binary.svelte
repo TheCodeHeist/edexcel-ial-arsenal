@@ -45,6 +45,11 @@
   onDestroy(() => cancelAnimationFrame(raf));
   function choose(id: string) { prefs.sys = id; feed = 0; boom = 0; phi = 0.15; }
   function restartIa() { feed = 0; boom = 0; playing = true; }
+  export function selectSystem(id: string) { choose(id); }
+  export function setPhase(p: number) { phi = ((p % 1) + 1) % 1; }
+  export function setPlaying(on: boolean) { playing = on; if (on && !off) kick(); }
+  export function restart() { restartIa(); }
+  export function getState() { return { phi, feed, boom, playing }; }
 
   /* ---------- 3D ---------- */
   let canvas = $state<HTMLCanvasElement>();

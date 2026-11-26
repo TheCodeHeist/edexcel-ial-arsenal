@@ -55,6 +55,7 @@
   let convText = $state(String(RULES.conv));
   let synced = false;
   $effect(() => { if (!synced) { synced = true; convText = String(prefs.conv); } });
+  export function syncConv() { convText = String(prefs.conv); }
   const isMass = $derived(MUNITS.some((u) => u[0] === prefs.unit));
   const baseVal = $derived.by(() => {
     const list = isMass ? MUNITS : UNITS;

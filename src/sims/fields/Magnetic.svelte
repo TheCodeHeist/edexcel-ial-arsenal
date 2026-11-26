@@ -42,6 +42,9 @@
       ? [['Force F', `${F.toFixed(2)} N`], ['Angle θ', `${prefs.angle}°`], ['Direction', fDirLabel]]
       : [['Mode', prefs.mode === 'wire' ? 'Straight wire' : 'Solenoid'], ['Current', prefs.revI ? 'Reversed' : 'Forward']];
   });
+
+  /* Kernel hooks */
+  export function kReadouts() { return { F, fDirLabel }; }
 </script>
 
 <main class="layout fl-mag" hidden={off}>

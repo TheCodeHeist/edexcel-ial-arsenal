@@ -26,6 +26,19 @@
     player.play(end);
   }
   function next() { player.reset(); q = newQuestion(); picked = null; }
+
+  /* Kernel hooks */
+  export function kAnswer(o: string) { answer(o); }
+  export function kNext() { next(); }
+  export function kReplay() { if (picked) player.play(end); }
+  export async function kWaitFlight(maxMs = 12000): Promise<boolean> {
+    const endAt = performance.now() + maxMs;
+    while (player.playing && performance.now() < endAt) await new Promise((r) => setTimeout(r, 40));
+    return !player.playing;
+  }
+  export function kSnapshot() {
+    return { q, picked, ok, landed, playing: player.playing };
+  }
 </script>
 
 <main class="layout predict" hidden={off}>

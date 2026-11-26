@@ -13,6 +13,7 @@
   import Gravity, { GRAVITY_PREFS, type GravityPrefs } from './Gravity.svelte';
   import Practice, { type PScore } from './Practice.svelte';
   import type { Topic } from './practice';
+  import { provideFieldsTools } from './kernel';
 
   type Mode = 'electric' | 'magnetic' | 'lorentz' | 'induction' | 'gravity' | 'practice';
   type Stats = [string, string | number][];
@@ -30,6 +31,8 @@
   const views: Record<Mode, HTMLElement | undefined> = $state({
     electric: undefined, magnetic: undefined, lorentz: undefined, induction: undefined, gravity: undefined, practice: undefined,
   });
+  let elecCmp = $state<Electric>(), magCmp = $state<Magnetic>(), lorCmp = $state<Lorentz>();
+  let indCmp = $state<Induction>(), gravCmp = $state<Gravity>(), practiceCmp = $state<Practice>();
 
   const TABS = [
     ['electric', 'Electric fields', 'Electric'],
@@ -76,7 +79,14 @@
   onMount(() => {
     addEventListener('hashchange', fromHash);
     glint('.panel,.qpanel');
-    return () => removeEventListener('hashchange', fromHash);
+    const unprovide = provideFieldsTools({
+      getMode: () => mode, setMode, elec, mag, lor, ind, grav, score, topic,
+      cmp: {
+        elec: () => elecCmp, mag: () => magCmp, lor: () => lorCmp,
+        ind: () => indCmp, grav: () => gravCmp, practice: () => practiceCmp,
+      },
+    });
+    return () => { removeEventListener('hashchange', fromHash); unprovide(); };
   });
 </script>
 
@@ -84,9 +94,9 @@
   back={{ href: '/physics/', label: 'Arsenal' }} tabs={TABS} value={mode} onselect={setMode} />
 <StatusLine label={INFO[mode][0]} hint={INFO[mode][1]} stats={shown} />
 
-<div bind:this={views.electric}><Electric prefs={elec} hidden={mode !== 'electric'} bind:stats={stats.electric} /></div>
-<div bind:this={views.magnetic}><Magnetic prefs={mag} hidden={mode !== 'magnetic'} bind:stats={stats.magnetic} /></div>
-<div bind:this={views.lorentz}><Lorentz prefs={lor} hidden={mode !== 'lorentz'} bind:stats={stats.lorentz} /></div>
-<div bind:this={views.induction}><Induction prefs={ind} hidden={mode !== 'induction'} bind:stats={stats.induction} /></div>
-<div bind:this={views.gravity}><Gravity prefs={grav} hidden={mode !== 'gravity'} bind:stats={stats.gravity} /></div>
-<div bind:this={views.practice}><Practice {score} bind:topic={topic.t} hidden={mode !== 'practice'} /></div>
+<div bind:this={views.electric}><Electric bind:this={elecCmp} prefs={elec} hidden={mode !== 'electric'} bind:stats={stats.electric} /></div>
+<div bind:this={views.magnetic}><Magnetic bind:this={magCmp} prefs={mag} hidden={mode !== 'magnetic'} bind:stats={stats.magnetic} /></div>
+<div bind:this={views.lorentz}><Lorentz bind:this={lorCmp} prefs={lor} hidden={mode !== 'lorentz'} bind:stats={stats.lorentz} /></div>
+<div bind:this={views.induction}><Induction bind:this={indCmp} prefs={ind} hidden={mode !== 'induction'} bind:stats={stats.induction} /></div>
+<div bind:this={views.gravity}><Gravity bind:this={gravCmp} prefs={grav} hidden={mode !== 'gravity'} bind:stats={stats.gravity} /></div>
+<div bind:this={views.practice}><Practice bind:this={practiceCmp} {score} bind:topic={topic.t} hidden={mode !== 'practice'} /></div>

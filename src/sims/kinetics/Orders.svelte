@@ -132,6 +132,24 @@
   $effect(() => {
     stats = [['Rate equation', eqn('A', 'B', prefs.m, prefs.n)], ['Overall order', o], ['k', `${sci(k)} ${kUnits(o)}`]];
   });
+
+  /** Kernel helpers: animate the rate-surface run and read half-lives / initial-rates problem. */
+  export async function playRun(animate = true) {
+    if (!animate || RM) { running = false; t = run.tEnd; return; }
+    t = 0; running = true;
+    const end = performance.now() + 2400;
+    while (running && t < run.tEnd && !off && performance.now() < end) {
+      await new Promise((r) => setTimeout(r, 50));
+    }
+  }
+  export function newInitialRates() { another(); }
+  export function getState() {
+    return {
+      eq: eqn('A', 'B', prefs.m, prefs.n), order: o, k, units: kUnits(o),
+      r0, kp: run.kp, t, tEnd: run.tEnd, halves: [...hl], pattern,
+      prob: { eq: prob.sys.eq, A: prob.sys.A, B: prob.sys.B, rows: prob.rows },
+    };
+  }
 </script>
 
 <main class="layout kn-orders" hidden={off}>

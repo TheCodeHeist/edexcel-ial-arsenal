@@ -49,6 +49,11 @@
     for (let i = 1; i < ys.length; i++) ys[i] = Math.min(ys[i], ys[i - 1] - 13);   // keep labels apart
     return ys[lv.indexOf(e)] ?? 28;
   };
+
+  /* Kernel hooks */
+  export function kAnswer(o: string) { answer(o); }
+  export function kNext() { next(); }
+  export function kSnapshot() { return { q, picked, ok }; }
 </script>
 
 <main class="layout practice wv-practice" hidden={off}>

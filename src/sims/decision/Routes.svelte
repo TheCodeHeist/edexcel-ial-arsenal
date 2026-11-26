@@ -9,18 +9,19 @@
   import Seg from '../../components/ui/Seg.svelte';
   import StepBar from './StepBar.svelte';
   import GraphView from './GraphView.svelte';
-  import { NETS, graphFor, routeInspection, inspectionSteps, pathArcs, distanceTable, nearestNeighbour, lowerBoundTSP, degree } from './graph';
+  import { NETS, graphFor, routeInspection, inspectionSteps, pathArcs, distanceTable, nearestNeighbour, lowerBoundTSP, degree, type Graph } from './graph';
 
-  let { prefs, hidden = false, stats = $bindable([]), onscore }: {
-    prefs: RoutePrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void;
+  let { prefs, hidden = false, stats = $bindable([]), onscore, customGraph = null }: {
+    prefs: RoutePrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void; customGraph?: Graph | null;
   } = $props();
 
   let i = $state(0);
-  const g = $derived(graphFor(prefs.net, prefs.seed, true));
+  const g = $derived(prefs.net === 'custom' && customGraph ? customGraph : graphFor(prefs.net, prefs.seed, true));
+  const netOpts = $derived(customGraph ? ([...NETS, ['custom', 'Custom']] as const) : NETS);
   const ids = $derived(g.v.map((v) => v.id));
   const res = $derived(routeInspection(g));
   const steps = $derived(inspectionSteps(g, prefs.open));
-  $effect(() => { void prefs.net; void prefs.seed; void prefs.open; i = 0; });
+  $effect(() => { void prefs.net; void prefs.seed; void prefs.open; void customGraph; i = 0; });
   const cur = $derived(steps[Math.min(i, steps.length - 1)].s);
   // repeated arcs: each walk of an arc on a repeated path draws one extra line beside it
   const extra = $derived.by(() => {
@@ -44,6 +45,9 @@
       : [['Upper', nn.length], ['Lower', lb.bound], ['Best range', `${bestLower}–${bestUpper}`]];
   });
   function newNet() { prefs.net = 'random'; prefs.seed = (Math.random() * 1e9) | 0; }
+  export function getStep() { return { i, total: steps.length }; }
+  export function setStep(idx: number) { i = Math.max(0, Math.min(steps.length - 1, idx)); }
+  export function getGraph() { return { g, nnFrom, delV }; }
 </script>
 
 <main class="layout dec-two" {hidden}>
@@ -88,7 +92,7 @@
   <aside class="panel side">
     <div class="ph"><h2>Network</h2></div>
     <div class="ctls">
-      <Seg label="Network" options={NETS} bind:value={prefs.net} />
+      <Seg label="Network" options={netOpts} bind:value={prefs.net} />
       <button class="btn" type="button" onclick={newNet}>New random network</button>
     </div>
     {#if prefs.mode === 'inspect'}

@@ -118,6 +118,28 @@
   const anyDrag = $derived(flights.some((x) => x.L.k > 0));
 
   const fmtShot = (s: Launch) => `${sig(s.u, 3).replace(/\.0+$/, '')} m s⁻¹ · ${s.deg}°${s.h ? ` · ${s.h} m up` : ''}${s.g !== 9.81 ? ` · g ${s.g}` : ''}${s.k ? ' · drag' : ''}`;
+
+  /* Kernel hooks: drive the exact same handlers as the buttons */
+  export function kFire() { fire(); }
+  export function kReplayAll() { replayAll(); }
+  export function kClear() { clear(); }
+  export function kSelect(i: number) { select(i); }
+  export function kRemove(i: number) { remove(i); }
+  export function kExample(id: string) { example(id); }
+  export function kSeek(t: number) { if (!f) return; if (!moving.length) moving = [sel]; player.seek(t); }
+  export function kSetPlaying(on: boolean) {
+    if (!f) return;
+    if (on && !player.playing) toggle();
+    else if (!on && player.playing) player.pause();
+  }
+  export async function kWaitFlight(maxMs = 9000): Promise<boolean> {
+    const endAt = performance.now() + maxMs;
+    while (player.playing && performance.now() < endAt) await new Promise((r) => setTimeout(r, 40));
+    return !player.playing;
+  }
+  export function kSnapshot() {
+    return { sel, flights, f, tNow, p, ideal, playing: player.playing };
+  }
 </script>
 
 <main class="layout launch" hidden={off}>

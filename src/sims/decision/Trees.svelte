@@ -8,18 +8,19 @@
   import Seg from '../../components/ui/Seg.svelte';
   import StepBar from './StepBar.svelte';
   import GraphView from './GraphView.svelte';
-  import { NETS, graphFor, kruskalSteps, primSteps, primMatrixSteps, arcName, totalWeight, type TreeState, type MatrixState } from './graph';
+  import { NETS, graphFor, kruskalSteps, primSteps, primMatrixSteps, arcName, totalWeight, type Graph, type TreeState, type MatrixState } from './graph';
   import type { Step } from './util';
 
-  let { prefs, hidden = false, stats = $bindable([]), onscore }: {
-    prefs: TreePrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void;
+  let { prefs, hidden = false, stats = $bindable([]), onscore, customGraph = null }: {
+    prefs: TreePrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void; customGraph?: Graph | null;
   } = $props();
 
   let i = $state(0);
-  const g = $derived(graphFor(prefs.net, prefs.seed));
+  const g = $derived(prefs.net === 'custom' && customGraph ? customGraph : graphFor(prefs.net, prefs.seed));
+  const netOpts = $derived(customGraph ? ([...NETS, ['custom', 'Custom']] as const) : NETS);
   const start = $derived(g.v.some((v) => v.id === prefs.start) ? prefs.start : g.v[0].id);
   const steps = $derived<Step<TreeState | MatrixState>[]>(prefs.algo === 'kruskal' ? kruskalSteps(g) : prefs.algo === 'prim' ? primSteps(g, start) : primMatrixSteps(g, start));
-  $effect(() => { void prefs.algo; void prefs.net; void prefs.seed; void prefs.start; i = 0; });
+  $effect(() => { void prefs.algo; void prefs.net; void prefs.seed; void prefs.start; void customGraph; i = 0; });
   const cur = $derived(steps[Math.min(i, steps.length - 1)].s);
   const ts = $derived(prefs.algo === 'matrix' ? null : (cur as TreeState));
   const ms = $derived(prefs.algo === 'matrix' ? (cur as MatrixState) : null);
@@ -27,6 +28,9 @@
   const weight = $derived(ts ? totalWeight(ts.tree) : ms ? ms.circled.reduce((t, [a, b]) => t + (ms.m[ms.ids.indexOf(a)][ms.ids.indexOf(b)] ?? 0), 0) : 0);
   $effect(() => { stats = [['Arcs', `${treeArcs.length}/${g.v.length - 1}`], ['Weight', weight], ['Vertices', g.v.length]]; });
   function newNet() { prefs.net = 'random'; prefs.seed = (Math.random() * 1e9) | 0; }
+  export function getStep() { return { i, total: steps.length }; }
+  export function setStep(idx: number) { i = Math.max(0, Math.min(steps.length - 1, idx)); }
+  export function getGraph() { return { g, start }; }
 </script>
 
 <main class="layout dec-two" {hidden}>
@@ -64,7 +68,7 @@
   <aside class="panel side">
     <div class="ph"><h2>Network</h2></div>
     <div class="ctls">
-      <Seg label="Network" options={NETS} bind:value={prefs.net} />
+      <Seg label="Network" options={netOpts} bind:value={prefs.net} />
       <button class="btn" type="button" onclick={newNet}>New random network</button>
       {#if prefs.algo !== 'kruskal'}
         <label class="ctl"><span class="ctl-l">Start vertex</span>

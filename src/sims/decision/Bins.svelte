@@ -14,8 +14,9 @@
     prefs: BinPrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void;
   } = $props();
 
-  let text = $state(prefs.items.join(', '));
+  let text = $state(BIN_PREFS.items.join(', '));
   let i = $state(0);
+  $effect(() => { text = prefs.items.join(', '); });
   function apply() {
     const l = text.split(/[\s,]+/).map(Number).filter((x) => Number.isFinite(x) && x > 0 && x <= prefs.cap).slice(0, 16);
     if (l.length) { prefs.items = l; i = 0; }
@@ -29,6 +30,8 @@
   const lb = $derived(lowerBound(prefs.items, prefs.cap));
   const BIN_H = 180;
   $effect(() => { stats = [['Bins', cur.bins.length], ['Lower bound', lb], ['Total', sum(prefs.items)]]; });
+  export function getStep() { return { i, total: steps.length }; }
+  export function setStep(idx: number) { i = Math.max(0, Math.min(steps.length - 1, idx)); }
 </script>
 
 <main class="layout dec-two" {hidden}>
@@ -62,7 +65,7 @@
     <div class="ctls">
       <label class="ctl"><span class="ctl-l">Items (comma-separated)</span><input class="inp" type="text" bind:value={text} onchange={apply} /></label>
       <label class="ctl"><span class="ctl-l">Bin capacity <b>{prefs.cap}</b></span>
-        <input class="slider" type="range" min="5" max="40" bind:value={prefs.cap} onchange={apply} /></label>
+        <input class="slider" type="range" min={Math.min(5, prefs.cap)} max={Math.max(40, prefs.cap)} bind:value={prefs.cap} onchange={apply} /></label>
       <button class="btn" type="button" onclick={fresh}>New random items</button>
     </div>
     <div class="ph"><h2>Lower bound</h2></div>

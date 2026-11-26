@@ -85,6 +85,18 @@
       ? [['d', `${sci(d)} m`], ['Orders', white ? `up to ${nmx} (violet)` : `n ≤ ${nmx}`], ['λ', white ? '400–700 nm' : `${nm} nm`]]
       : [['V', `${plain(prefs.kV, 2)} kV`], ['λ', `${sci(el.lam)} m`], ['Inner ring', `${plain(el.rings[0].r * 1000, 3)} mm`]];
   });
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kMeasure(n?: number) {
+    if (n !== undefined) nPick = n;
+    measure();
+    return readings.find((r) => r.n === nPick) ?? null;
+  }
+  export function kClearReadings() { readings = []; }
+  export function kReadouts() {
+    return { playing, white, nm, d, ords, nmx, onScreen, whiteOn, overlap, readings, meanLam, el, body, speed, dbP, dbL, scaleWord };
+  }
 </script>
 
 <main class="layout wv-grating" hidden={off}>

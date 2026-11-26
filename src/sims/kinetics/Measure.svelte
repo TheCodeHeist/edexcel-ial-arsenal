@@ -181,6 +181,36 @@
     stats = [['Reaction', rxi.short], ['t', `${Math.floor(t)} s`], [isCross ? 'Cross' : run.yLabel.split(' (')[0], isCross ? (run.crossT !== null && t >= run.crossT ? `gone at ${Math.round(run.crossT)} s` : 'visible') : `${fmtY(reading)}${run.yUnit ? ' ' + run.yUnit : ''}`]];
   });
   const SPEEDS = [1, 5, 20, 60];
+
+  /** Kernel helpers: run the bench reaction with animation, reset, or place the true tangent. */
+  export async function runToEnd(animate = true) {
+    if (!animate || RM) { finish(); return; }
+    t = 0; tan = null; recorded = false;
+    if (run.tEnd / prefs.speed > 4) prefs.speed = 60;
+    running = true;
+    const end = performance.now() + 3600;
+    while (running && t < run.tEnd && !off && performance.now() < end) {
+      await new Promise((r) => setTimeout(r, 50));
+    }
+    if (t < run.tEnd) finish();
+  }
+  export function resetRun() { reset(); }
+  export function clearTable() { rows = []; }
+  export function showTrueTangent(atTime: number) {
+    if (isCross) return;
+    if (t === 0) finish();
+    const x = Math.max(0, Math.min(t, atTime));
+    tan = { x, g: run.dy(x) };
+    truth = true;
+  }
+  export function getState() {
+    return {
+      rx: rxi, method: setup.method, t, tEnd: run.tEnd, running, isCross,
+      reading: fmtY(reading), yLabel: run.yLabel, yUnit: run.yUnit, massShown,
+      rate0, rateNow, uRate, crossT: run.crossT, ext, note: run.note,
+      rows: [...rows], tan: tan ? { x: tan.x, g: tan.g, trueG: tanTrue } : null,
+    };
+  }
 </script>
 
 <main class="layout kn-measure" hidden={off}>

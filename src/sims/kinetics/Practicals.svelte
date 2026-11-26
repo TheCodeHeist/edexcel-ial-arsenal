@@ -187,6 +187,50 @@
   });
 
   const name = (v: CPPrefs['vary']) => (v === 'KI' ? 'KI' : 'H₂O₂');
+
+  /** Kernel helpers: run the active core practical on screen and return its results. */
+  export async function runPractical() {
+    if (prefs.view === 'cp9a') {
+      reset9();
+      if (RM) { skip9(); return; }
+      while (t9 < END9) {
+        step9(2);
+        await new Promise((r) => setTimeout(r, 60));
+      }
+      return;
+    }
+    startClock();
+    const end = performance.now() + 8500;
+    while ((clk.phase === 'mix' || clk.phase === 'time') && !off && performance.now() < end) {
+      await new Promise((r) => setTimeout(r, 60));
+    }
+    let guard = 0;
+    while ((clk.phase === 'mix' || clk.phase === 'time') && guard++ < 400) stepClock(0.25);
+  }
+  export function resetPractical() {
+    if (prefs.view === 'cp9a') { reset9(); runs9 = []; }
+    else if (prefs.view === 'cp9b') { rows9b = {}; clk = { ...clk, phase: 'idle', clock: 0, blue: 0, mixT: 0 }; }
+    else { hot = []; clk = { ...clk, phase: 'idle', clock: 0, blue: 0, mixT: 0 }; }
+  }
+  export function getState() {
+    return {
+      view: prefs.view,
+      cp9a: {
+        follow: prefs.follow, tMin: Math.floor(t9 / 60), cProp: prefs.cProp, cAcid: prefs.cAcid,
+        P: m9.P, Hp: m9.Hp, I0: m9.I0, samples: samples.map((s) => ({ min: s.min, titre: s.titre })),
+        readsCount: reads.length, fit: fit9, runs: [...runs9], ordP: ordP?.n ?? null, ordH: ordH?.n ?? null,
+      },
+      cp9b: {
+        vary: prefs.vary, vol: prefs.vol, lastT: clk.phase === 'done' ? clk.tObs : null,
+        rows: rows9bList.filter((r) => r.ts.length).map((r) => ({ v: r.v, c: r.c, mean: r.mean, ts: [...r.ts] })),
+        order: ord9b,
+      },
+      cp10: {
+        T: prefs.T, lastT: clk.phase === 'done' ? clk.tObs : null,
+        hot: [...hot], Ea: Number.isFinite(Ea10) ? Ea10 : null, twoEa: two?.Ea ?? null,
+      },
+    };
+  }
 </script>
 
 <main class="layout kn-cp" hidden={off}>

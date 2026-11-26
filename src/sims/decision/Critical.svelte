@@ -8,19 +8,19 @@
      path, the precedence table, a cascade (Gantt) chart with "must be happening at time t", and a workers bound. */
   import Seg from '../../components/ui/Seg.svelte';
   import StepBar from './StepBar.svelte';
-  import { PROJECTS, times, activityTable, criticalPaths, precedence, workersLowerBound, mustHappen, passSteps } from './cpa';
+  import { PROJECTS, times, activityTable, criticalPaths, precedence, workersLowerBound, mustHappen, passSteps, type Project } from './cpa';
   import { sum } from './util';
 
-  let { prefs, hidden = false, stats = $bindable([]), onscore }: {
-    prefs: CpaPrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void;
+  let { prefs, hidden = false, stats = $bindable([]), onscore, customProject = null }: {
+    prefs: CpaPrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void; customProject?: Project | null;
   } = $props();
 
   let i = $state(0);
-  const p = $derived(PROJECTS[prefs.project] ?? PROJECTS[0]);
+  const p = $derived(prefs.project === -1 && customProject ? customProject : PROJECTS[prefs.project] ?? PROJECTS[0]);
   const t = $derived(times(p));
   const rows = $derived(activityTable(p, t));
   const steps = $derived(passSteps(p));
-  $effect(() => { void prefs.project; i = 0; });
+  $effect(() => { void prefs.project; void customProject; i = 0; });
   const cur = $derived(steps[Math.min(i, steps.length - 1)].s);
   const done = $derived(cur.phase === 'done');
   const crit = $derived(new Set(rows.filter((r) => r.critical).map((r) => r.a.id)));
@@ -44,6 +44,9 @@
   const GW = 620, ROW = 24;
   const gx = (v: number) => 46 + (v / t.T) * (GW - 60);
   const ticks = $derived(Array.from({ length: t.T + 1 }, (_, k) => k).filter((k) => t.T <= 24 || k % 2 === 0));
+  export function getStep() { return { i, total: steps.length }; }
+  export function setStep(idx: number) { i = Math.max(0, Math.min(steps.length - 1, idx)); }
+  export function getProject() { return { p, T: t.T }; }
 </script>
 
 <main class="layout dec-two" {hidden}>
@@ -112,7 +115,10 @@
   <aside class="panel side">
     <div class="ph"><h2>Project</h2></div>
     <div class="ctls">
-      <select class="inp" bind:value={prefs.project}>{#each PROJECTS as pr, k (k)}<option value={k}>{pr.name}</option>{/each}</select>
+      <select class="inp" bind:value={prefs.project}>
+        {#each PROJECTS as pr, k (k)}<option value={k}>{pr.name}</option>{/each}
+        {#if customProject}<option value={-1}>{customProject.name}</option>{/if}
+      </select>
       <p class="why">{p.story}</p>
     </div>
     <div class="ph"><h2>Results</h2></div>

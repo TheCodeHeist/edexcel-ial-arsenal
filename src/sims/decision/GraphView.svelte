@@ -55,10 +55,15 @@
           {#each bx?.working ?? [] as w, k}<tspan class:struck={k < (bx?.working.length ?? 0) - 1}>{w}</tspan>{k < (bx?.working.length ?? 0) - 1 ? '  ' : ''}{/each}
         </text>
       </g>
+    {:else if pick}
+      <g class="vx clickable" class:on class:odd={odd.includes(v.id)} class:picked={picked?.includes(v.id)}
+        transform="translate({X(v.x)} {Y(v.y)})" role="button" tabindex="0"
+        onclick={() => pick(v.id)} onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && pick(v.id)}>
+        <circle r="15" /><text>{v.id}</text>
+      </g>
     {:else}
-      <g class="vx" class:on class:odd={odd.includes(v.id)} class:picked={picked?.includes(v.id)} class:clickable={!!pick}
-        transform="translate({X(v.x)} {Y(v.y)})" role={pick ? 'button' : undefined} tabindex={pick ? 0 : undefined}
-        onclick={() => pick?.(v.id)} onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && pick?.(v.id)}>
+      <g class="vx" class:on class:odd={odd.includes(v.id)} class:picked={picked?.includes(v.id)}
+        transform="translate({X(v.x)} {Y(v.y)})">
         <circle r="15" /><text>{v.id}</text>
       </g>
     {/if}

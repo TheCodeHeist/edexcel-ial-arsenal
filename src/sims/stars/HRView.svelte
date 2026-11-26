@@ -30,6 +30,7 @@
   // pick a sensible star to compare with: Sirius B goes with Sirius A, Procyon B with Procyon A, else the Sun
   const PAIR: Record<string, string> = { 'sirius-b': 'sirius-a', 'sirius-a': 'sirius-b', 'procyon-b': 'procyon-a', 'procyon-a': 'procyon-b', betelgeuse: 'rigel', rigel: 'betelgeuse' };
   function pick(id: string) { prefs.sel = id; prefs.vs = PAIR[id] ?? (id === 'sun' ? 'sirius-b' : 'sun'); }
+  export function pickStar(id: string) { pick(id); }
 
   const rT = $derived(s.T / v.T), rL = $derived(L / Lv), rR = $derived(s.R / v.R);
 </script>

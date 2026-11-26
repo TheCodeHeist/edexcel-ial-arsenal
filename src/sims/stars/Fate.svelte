@@ -77,6 +77,7 @@
   const obs = [2, 4, 6, 8, 10, 13, 16, 19, 22, 25, 28, 31, 34].map((r, i) => ({ x: r, y: speed(mVis(r) + mHalo(r, TRUE_HALO), r) * (1 + 0.035 * Math.sin(i * 2.7)) }));
   const fitErr = $derived(Math.sqrt(obs.reduce((s, p) => { const v = speed(mVis(p.x) + mHalo(p.x, prefs.halo), p.x); return s + ((v - p.y) / p.y) ** 2; }, 0) / obs.length));
   const darkFrac = $derived((prefs.halo * 1e11) / (prefs.halo * 1e11 + mVis(30)));
+  export function getState() { return { hub, ageGyr: mine.age * hub, rhoC, verdict, fitErr, darkFrac }; }
 
   /* ---------- the galaxy, turning at the speeds above ---------- */
   let cv = $state<HTMLCanvasElement>();

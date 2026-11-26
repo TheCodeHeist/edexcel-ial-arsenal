@@ -18,6 +18,7 @@
   import Photon, { PHOTON, type PhotonPrefs } from './Photon.svelte';
   import Practice, { type PScore } from './Practice.svelte';
   import type { Topic } from './practice';
+  import { provideWavesTools } from './kernel';
 
   type Mode = 'wave' | 'ripple' | 'standing' | 'light' | 'grating' | 'echo' | 'photon' | 'practice';
   type Stats = [string, string | number][];
@@ -35,6 +36,8 @@
 
   let mode = $state<Mode>('wave');
   const views: Record<Mode, HTMLElement | undefined> = $state({ wave: undefined, ripple: undefined, standing: undefined, light: undefined, grating: undefined, echo: undefined, photon: undefined, practice: undefined });
+  let benchCmp = $state<Bench>(), rippleCmp = $state<Ripple>(), standCmp = $state<Standing>(), lightCmp = $state<Light>();
+  let grateCmp = $state<Grating>(), echoCmp = $state<Echo>(), photonCmp = $state<Photon>(), practiceCmp = $state<Practice>();
   const TABS = [
     ['wave', 'Waves', 'Waves'], ['ripple', 'Ripple tank', 'Ripple'], ['standing', 'Standing waves', 'Standing'], ['light', 'Light', 'Light'],
     ['grating', 'Diffraction', 'Grating'], ['echo', 'Pulse–echo', 'Echo'], ['photon', 'Photons', 'Photons'], ['practice', 'Practice', 'Quiz'],
@@ -68,7 +71,14 @@
   onMount(() => {
     addEventListener('hashchange', fromHash);
     glint('.exbtn,.qpanel');
-    return () => removeEventListener('hashchange', fromHash);
+    const unprovide = provideWavesTools({
+      getMode: () => mode, setMode, bench, ripple, stand, light, grate, echo, photon, score, topic,
+      cmp: {
+        bench: () => benchCmp, ripple: () => rippleCmp, standing: () => standCmp, light: () => lightCmp,
+        grating: () => grateCmp, echo: () => echoCmp, photon: () => photonCmp, practice: () => practiceCmp,
+      },
+    });
+    return () => { removeEventListener('hashchange', fromHash); unprovide(); };
   });
 </script>
 
@@ -76,11 +86,11 @@
   back={{ href: '/physics/', label: 'Arsenal' }} tabs={TABS} value={mode} onselect={setMode} />
 <StatusLine label={INFO[mode][0]} hint={INFO[mode][1]} stats={shown} />
 
-<div bind:this={views.wave}><Bench prefs={bench} hidden={mode !== 'wave'} bind:stats={stats.wave} /></div>
-<div bind:this={views.ripple}><Ripple prefs={ripple} hidden={mode !== 'ripple'} bind:stats={stats.ripple} /></div>
-<div bind:this={views.standing}><Standing prefs={stand} hidden={mode !== 'standing'} bind:stats={stats.standing} /></div>
-<div bind:this={views.light}><Light prefs={light} hidden={mode !== 'light'} bind:stats={stats.light} /></div>
-<div bind:this={views.grating}><Grating prefs={grate} hidden={mode !== 'grating'} bind:stats={stats.grating} /></div>
-<div bind:this={views.echo}><Echo prefs={echo} hidden={mode !== 'echo'} bind:stats={stats.echo} /></div>
-<div bind:this={views.photon}><Photon prefs={photon} hidden={mode !== 'photon'} bind:stats={stats.photon} /></div>
-<div bind:this={views.practice}><Practice {score} bind:topic={topic.t} hidden={mode !== 'practice'} /></div>
+<div bind:this={views.wave}><Bench bind:this={benchCmp} prefs={bench} hidden={mode !== 'wave'} bind:stats={stats.wave} /></div>
+<div bind:this={views.ripple}><Ripple bind:this={rippleCmp} prefs={ripple} hidden={mode !== 'ripple'} bind:stats={stats.ripple} /></div>
+<div bind:this={views.standing}><Standing bind:this={standCmp} prefs={stand} hidden={mode !== 'standing'} bind:stats={stats.standing} /></div>
+<div bind:this={views.light}><Light bind:this={lightCmp} prefs={light} hidden={mode !== 'light'} bind:stats={stats.light} /></div>
+<div bind:this={views.grating}><Grating bind:this={grateCmp} prefs={grate} hidden={mode !== 'grating'} bind:stats={stats.grating} /></div>
+<div bind:this={views.echo}><Echo bind:this={echoCmp} prefs={echo} hidden={mode !== 'echo'} bind:stats={stats.echo} /></div>
+<div bind:this={views.photon}><Photon bind:this={photonCmp} prefs={photon} hidden={mode !== 'photon'} bind:stats={stats.photon} /></div>
+<div bind:this={views.practice}><Practice bind:this={practiceCmp} {score} bind:topic={topic.t} hidden={mode !== 'practice'} /></div>

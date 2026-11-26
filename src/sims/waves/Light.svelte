@@ -152,6 +152,20 @@
       : prefs.mode === 'polar' ? [['Through', `${plain(share * 100, 3)}%`], ['Plane', planeNow]]
       : [['I', `${sci(Iat)} W m⁻²`], ['Distance', `${plain(prefs.r, 2)} m`]];
   });
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kTakeReading(iDeg?: number) {
+    if (iDeg !== undefined) iSet = Math.max(5, Math.min(80, Math.round(iDeg / 5) * 5));
+    take();
+    return readings[readings.findIndex((x) => x.i === iSet)] ?? null;
+  }
+  export function kClearReadings() { readings = []; }
+  export function kCrossPol() { prefs.pol = true; prefs.ana = true; prefs.anaA = (prefs.polA + 90) % 180; }
+  export function kAlignPol() { prefs.pol = true; prefs.ana = true; prefs.anaA = prefs.polA; }
+  export function kReadouts() {
+    return { playing, nBlock, nOut, vIn, Ck, willTir, key, hits: tr.hits, fibreAccept, readings, grad, iSet, share, delta, planeNow, Iat, sphere, Pdet, laser };
+  }
 </script>
 
 <main class="layout wv-light" hidden={off}>

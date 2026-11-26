@@ -38,6 +38,10 @@
       ['Period T', `${tHours.toFixed(1)} h`],
     ];
   });
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kReadouts() { return { playing, body, orb, tHours, isGeo }; }
 </script>
 
 <main class="layout fl-grav" hidden={off}>

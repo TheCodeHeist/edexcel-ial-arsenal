@@ -111,6 +111,11 @@
       return [`M${x1 + ox} ${y1 + oy} L${x2 + ox} ${y2 + oy}`, `M${x1 - ox} ${y1 - oy} L${x2 - ox} ${y2 - oy}`];
     }).flat();
   }
+
+  /** Kernel helpers: scrub or play the SN1/SN2 3D mechanism. */
+  export function setProgress(v: number) { playing = false; p = Math.max(0, Math.min(1, v)); }
+  export function playSn() { p = 0; playing = !RM; if (RM) p = 1; }
+  export function getState() { return { p, playing, stage: [...stage], ex: ex.name, exOverall: ex.overall, exRate: ex.rate, iodTitle: iod.title, iodSpeed: iod.speed, iodSay: iod.say }; }
 </script>
 
 <main class="layout kn-mech" hidden={off}>

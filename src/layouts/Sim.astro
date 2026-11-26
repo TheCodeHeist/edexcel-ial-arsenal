@@ -2,6 +2,7 @@
 /* Layout for a simulation page: head, the no-flash theme script, background glow and one Svelte app. The app
    draws its own top bar (title | theme | mode tabs) and status line from src/components/ui/. */
 import '../styles/sim.css';
+import Kernel from '../components/kernel/Kernel.svelte';
 
 interface Props { title: string; description: string }
 const { title, description } = Astro.props;
@@ -50,6 +51,7 @@ const { title, description } = Astro.props;
   <div class="wrap">
     <slot />
   </div>
+  <Kernel client:load />
   <noscript><p style="text-align:center">This simulation needs JavaScript.</p></noscript>
   <script is:inline>if ('serviceWorker' in navigator) addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });</script>
 </body>

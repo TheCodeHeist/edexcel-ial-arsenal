@@ -47,6 +47,12 @@
   }
   function stop() { playing = false; cancelAnimationFrame(raf); }
   function jump(i: number) { stop(); prefs.x = bnds[i][0] + 0.0005; }
+  export function setPlaying(on: boolean, fromStart = false) {
+    if (on) { if (fromStart || prefs.x >= 0.999) prefs.x = 0; if (!playing) { playing = true; last = performance.now(); raf = requestAnimationFrame(step); } }
+    else stop();
+  }
+  export function jumpTo(i: number) { jump(Math.max(0, Math.min(bnds.length - 1, i))); }
+  export function isPlaying() { return playing; }
   $effect(() => { if (off) stop(); });
   onDestroy(stop);
 

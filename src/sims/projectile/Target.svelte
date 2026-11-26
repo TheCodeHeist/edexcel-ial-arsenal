@@ -64,6 +64,31 @@
   const given = $derived(c.mode === 'angle' ? `Launch speed ${c.u} m s⁻¹ · you choose the angle` : `Launch angle ${c.deg}° · you choose the speed`);
   const lines = $derived(working(c));
   fresh();
+
+  /* Kernel hooks: drive the exact same handlers as the buttons */
+  export function kSetAngle(deg: number) {
+    const lo = c.h > 0 ? -30 : 0;
+    setDeg = Math.round(Math.max(lo, Math.min(85, deg)) * 2) / 2;
+    return setDeg;
+  }
+  export function kSetSpeed(u: number) {
+    setU = Math.round(Math.max(1, Math.min(45, u)) * 10) / 10;
+    return setU;
+  }
+  export function kFire() { fire(); }
+  export function kFresh() { fresh(); }
+  export function kSetWorking(show: boolean) {
+    showWork = show;
+    if (showWork && !solved) helped = true;
+  }
+  export async function kWaitFlight(maxMs = 15000): Promise<boolean> {
+    const endAt = performance.now() + maxMs;
+    while ((player.playing || flying !== null) && performance.now() < endAt) await new Promise((r) => setTimeout(r, 40));
+    return !player.playing && flying === null;
+  }
+  export function kSnapshot() {
+    return { c, setDeg, setU, tries, last, solved, helped, showWork, lines, playing: player.playing };
+  }
 </script>
 
 <main class="layout predict target" hidden={off}>

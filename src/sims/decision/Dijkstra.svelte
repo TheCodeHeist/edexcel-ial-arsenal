@@ -8,24 +8,28 @@
   import Seg from '../../components/ui/Seg.svelte';
   import StepBar from './StepBar.svelte';
   import GraphView from './GraphView.svelte';
-  import { NETS, graphFor, dijkstraSteps } from './graph';
+  import { NETS, graphFor, dijkstraSteps, type Graph } from './graph';
 
-  let { prefs, hidden = false, stats = $bindable([]), onscore }: {
-    prefs: DijPrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void;
+  let { prefs, hidden = false, stats = $bindable([]), onscore, customGraph = null }: {
+    prefs: DijPrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void; customGraph?: Graph | null;
   } = $props();
 
   let i = $state(0);
-  const g = $derived(graphFor(prefs.net, prefs.seed));
+  const g = $derived(prefs.net === 'custom' && customGraph ? customGraph : graphFor(prefs.net, prefs.seed));
+  const netOpts = $derived(customGraph ? ([...NETS, ['custom', 'Custom']] as const) : NETS);
   const ids = $derived(g.v.map((v) => v.id));
   const from = $derived(ids.includes(prefs.from) ? prefs.from : ids[0]);
   const to = $derived(ids.includes(prefs.to) && prefs.to !== from ? prefs.to : ids.at(-1)!);
   const steps = $derived(dijkstraSteps(g, from, to));
-  $effect(() => { void prefs.net; void prefs.seed; void prefs.from; void prefs.to; i = 0; });
+  $effect(() => { void prefs.net; void prefs.seed; void prefs.from; void prefs.to; void customGraph; i = 0; });
   const cur = $derived(steps[Math.min(i, steps.length - 1)].s);
   const routeArcs = $derived(cur.route ? cur.route.slice(1).map((v, k) => [cur.route![k], v].sort().join('')) : []);
   const permanent = $derived(Object.values(cur.box).filter((b) => b.final !== undefined).length);
   $effect(() => { stats = [['Permanent', `${permanent}/${ids.length}`], ['Shortest', cur.done ? cur.box[to].final ?? '–' : '–']]; });
   function newNet() { prefs.net = 'random'; prefs.seed = (Math.random() * 1e9) | 0; }
+  export function getStep() { return { i, total: steps.length }; }
+  export function setStep(idx: number) { i = Math.max(0, Math.min(steps.length - 1, idx)); }
+  export function getGraph() { return { g, from, to }; }
 </script>
 
 <main class="layout dec-two" {hidden}>
@@ -43,7 +47,7 @@
   <aside class="panel side">
     <div class="ph"><h2>Network</h2></div>
     <div class="ctls">
-      <Seg label="Network" options={NETS} bind:value={prefs.net} />
+      <Seg label="Network" options={netOpts} bind:value={prefs.net} />
       <button class="btn" type="button" onclick={newNet}>New random network</button>
       <div class="row2">
         <label class="ctl"><span class="ctl-l">From</span><select class="inp" bind:value={prefs.from}>{#each ids as v (v)}<option value={v}>{v}</option>{/each}</select></label>

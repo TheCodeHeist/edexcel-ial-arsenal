@@ -85,6 +85,10 @@
     scene?.fire(show.slice(0, 40));
   }
   function kick() { if (!raf && !off) { last = performance.now(); raf = requestAnimationFrame(step); } }
+  export function resetCounts() { reset(); }
+  export function setPlaying(on: boolean) { playing = on; if (on && !off) kick(); }
+  export function burst(seconds = 0.5) { if (prefs.view === 'exp') fireSome(seconds); }
+  export function getState() { return { fired, over90, back, atObs, atPred }; }
   $effect(() => { if (!off) kick(); });
   onDestroy(() => cancelAnimationFrame(raf));
 

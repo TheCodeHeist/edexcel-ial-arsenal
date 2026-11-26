@@ -203,7 +203,7 @@ export class ElectricScene extends Stage3D<ElectricLook> {
     for (const c of L.charges) {
       if (hasPos && c.qMicro < 0) continue; // trace from + charges (or from - if only - exists)
       const sign = c.qMicro > 0 ? 1 : -1;
-      const nSeeds = Math.round(Math.abs(c.qMicro) * 6);
+      const nSeeds = Math.max(6, Math.min(36, Math.round(Math.abs(c.qMicro) * 6)));
       for (let i = 0; i < nSeeds; i++) {
         const ang = (i / nSeeds) * Math.PI * 2;
         const zTilt = (i % 3 - 1) * 0.28;

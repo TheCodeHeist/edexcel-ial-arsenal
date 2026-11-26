@@ -47,6 +47,11 @@
       ? [['Particle', p.sym], ['Radius r', `${sci(cyc.r, 3)} m`], ['Period T', `${sci(cyc.T, 3)} s`]]
       : [['v', `${sci(vPhys, 3)} m s⁻¹`], ['E / B', `${sci(vSel, 3)} m s⁻¹`], ['Slit', matched ? 'Passes!' : 'Deflected']];
   });
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kBalance() { prefs.eScale = Math.min(4.0, Math.max(0.15, Number((prefs.vScale * prefs.bScale).toFixed(2)))); }
+  export function kReadouts() { return { playing, p, vPhys, bPhys, ePhys, cyc, vSel, matched }; }
 </script>
 
 <main class="layout fl-lor" hidden={off}>

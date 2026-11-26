@@ -68,6 +68,25 @@
     stats = [['Surface', `${S.metal}: stage ${si + 1}/${S.stages.length}`], ['Ea', `${EA} → ${EA_CAT} kJ mol⁻¹`], ['E ≥ Ea', `${plain(fracAbove(EA, prefs.T) * 100, 2)}% → ${plain(fracAbove(EA_CAT, prefs.T) * 100, 2)}%`]];
   });
   const kindName = { hetero: 'heterogeneous', homo: 'homogeneous', both: 'homogeneous and heterogeneous', enzyme: 'enzyme' };
+
+  /** Kernel helpers: drive 3D surface stages and the Co²⁺ homogeneous catalysis demo. */
+  export function setStage(v: number | 'play') {
+    if (v === 'play') playing = true;
+    else go(v);
+  }
+  export function setCoStep(i: number) {
+    clearTimeout(coRun);
+    co = Math.max(0, Math.min(CO_STEPS.length - 1, Math.round(i)));
+  }
+  export async function runCoDemo() {
+    runCo();
+    const end = performance.now() + 9500;
+    while (co < CO_STEPS.length - 1 && performance.now() < end) {
+      await new Promise((r) => setTimeout(r, 100));
+    }
+    if (co < CO_STEPS.length - 1) { clearTimeout(coRun); co = CO_STEPS.length - 1; }
+  }
+  export function getState() { return { stage: si, playing, co }; }
 </script>
 
 <main class="layout kn-catalyst" hidden={off}>

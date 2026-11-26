@@ -6,6 +6,7 @@ import '../../../styles/papers.css';
 import { PAPER_SUBJECTS } from '../../../data/paperSubjects';
 import type { Crop, Paper, Question } from '../../../lib/papers/types';
 import { cropUrl } from '../../../lib/papers/crops';
+import { questionContext } from '../../../lib/kernel/context';
 import { papersFor, papersForUnit, isPublished, seriesName, paperSlug, topicIndex, safeUrl, notesFor, questionNote } from '../../../lib/papers/registry';
 
 export function getStaticPaths() {
@@ -66,6 +67,7 @@ const sameIntro = (a: Crop[] | undefined, b: Crop[] | undefined) => JSON.stringi
         <div class="qhead">
           <h3><a href={`#q${q.number}`}>Question {q.number}</a></h3>
           <span class="marks">{q.marks} mark{q.marks === 1 ? '' : 's'}</span>
+          {isPublished(q) && <button type="button" class="btn kx-ask" data-kernel={questionContext(p, q, s.id, unit?.title)}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z" /></svg>Ask Kernel</button>}
         </div>
         {questionNote(p, q) && <p class="paper-note"><span class="bang" aria-hidden="true">!</span><span><b>Note</b> {questionNote(p, q)}</span></p>}
         {isPublished(q) ? (

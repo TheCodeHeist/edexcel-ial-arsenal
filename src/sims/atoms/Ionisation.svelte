@@ -35,6 +35,16 @@
     guess = null;
   }
 
+  /** Start a fresh mystery challenge and expose mystery state for Kernel without leaking hidden answers. */
+  export function startMystery() { prefs.mystery = true; newMystery(); }
+  export function getMysteryInfo() {
+    return {
+      hidden: prefs.mystery && guess === null,
+      sym: activeSucc.sym, name: activeSucc.name, group: activeSucc.group,
+      values: activeSucc.values, shells: activeSucc.shells,
+    };
+  }
+
   const hideMystery = $derived(prefs.mystery && guess === null);
 
   $effect(() => {

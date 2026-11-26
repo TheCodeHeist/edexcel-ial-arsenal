@@ -14,8 +14,9 @@
     prefs: SortPrefs; hidden?: boolean; stats?: [string, string | number][]; onscore: (ok: boolean) => void;
   } = $props();
 
-  let text = $state(prefs.list.join(', '));
+  let text = $state(SORT_PREFS.list.join(', '));
   let i = $state(0);
+  $effect(() => { text = prefs.list.join(', '); });
   const parse = (t: string) => t.split(/[\s,]+/).map(Number).filter((x) => Number.isFinite(x)).slice(0, 14);
   function apply() { const l = parse(text); if (l.length >= 2) { prefs.list = l; i = 0; } text = prefs.list.join(', '); }
   function fresh() { prefs.list = randomList(prefs.algo === 'binary' ? 11 : 8); text = prefs.list.join(', '); i = 0; if (prefs.algo === 'binary') prefs.target = [...prefs.list].sort((a, b) => a - b)[Math.floor(Math.random() * 11)]; }
@@ -39,6 +40,9 @@
       : prefs.algo === 'quick' ? [['Pass', (cur.s as QuickState).pass], ['Items', prefs.list.length]]
       : [['Target', prefs.target], ['Compared', steps.slice(1, i + 1).filter((x) => (x.s as BinState).mid !== undefined).length]];
   });
+
+  export function getStep() { return { i, total: steps.length, stops: prefs.algo === 'bubble' ? bubble!.passEnds : undefined }; }
+  export function setStep(idx: number) { i = Math.max(0, Math.min(steps.length - 1, idx)); }
 </script>
 
 <main class="layout dec-two" {hidden}>

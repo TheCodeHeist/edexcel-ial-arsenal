@@ -106,6 +106,28 @@
 
   $effect(() => { stats = [['Reaction', rx.name], [prefs.mode, bad ? '—' : `${sci(Q.K)} ${units === 'no units' ? '' : units}`.trim()], ['T', `${rx.T} K`]]; });
   const num = (x: number) => (Number.isFinite(x) ? x : 0);
+
+  /** Kernel helpers: pick a reaction/mode via the preset solver and read back the ICE table & K. */
+  export function selectPreset(id: string, mode?: 'Kc' | 'Kp') {
+    const r = RXNS.find((x) => x.id === id);
+    if (!r) return;
+    const m: 'Kc' | 'Kp' = mode ? (mode === 'Kp' && !r.kp ? 'Kc' : mode) : r.pre.mode;
+    preset(r, m);
+  }
+  export function resetData() { preset(rx, prefs.mode); }
+  export function getState() {
+    const expr = `${prefs.mode} = ${bottom.length ? `(${top.join(' ') || '1'}) / (${bottom.join(' ')})` : (top.join(' ') || '1')}`;
+    return {
+      id: rx.id, name: rx.name, eqn, T: rx.T, mode: prefs.mode, kcOk: rx.kc, kpOk: rx.kp,
+      expr, units, lit, K: Q.K, bad, V: prefs.V, P: prefs.P, prog: prefs.prog,
+      meas: rx.sp[prefs.meas]?.f ?? '', neq: prefs.neq,
+      rows: rx.sp.map((s, i) => ({
+        f: s.f, st: s.st, n0: prefs.n0[i] ?? 0, neq: neqAll[i],
+        val: Q.val[i], inK: inK(s),
+      })),
+      extentText: extent(lit), note: rx.note,
+    };
+  }
 </script>
 
 <main class="layout kn-k" hidden={off}>

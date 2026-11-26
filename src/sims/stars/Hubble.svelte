@@ -47,6 +47,11 @@
   function choose(i: number) { prefs.sel = i; vIn = ''; tried = null; }
   function fresh() { prefs.seed = Math.floor(Math.random() * 1e6); prefs.done = []; prefs.sel = 0; vIn = ''; tried = null; }
   function all() { prefs.done = set.gal.map((_, i) => i); }
+  export function selectGalaxy(i: number) { choose(Math.max(0, Math.min(set.gal.length - 1, i))); }
+  export function plotCurrent() { if (!isDone(prefs.sel)) prefs.done = [...prefs.done, prefs.sel]; }
+  export function plotAll() { all(); }
+  export function newGalaxies() { fresh(); }
+  export function getState() { return { gal: set.gal, sel: prefs.sel, done: prefs.done, g, ha, fit, H0si, age }; }
 
   /* ---------- spectra ---------- */
   const SW = 520, lo = 370, hi = 790;

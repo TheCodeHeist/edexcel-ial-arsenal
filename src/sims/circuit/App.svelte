@@ -18,6 +18,8 @@
   import { Clock, hasCaps, hasAC } from './transient.svelte';
   import Seg from '../../components/ui/Seg.svelte';
   import type { CircuitData } from './parts';
+  import { provideKernelTools } from '../../lib/kernel/live';
+  import { kernelTools } from './kernel-tools';
 
   type Mode = 'build' | 'predict' | 'lab';
 
@@ -101,7 +103,16 @@
   onMount(() => {
     addEventListener('hashchange', fromHash);
     glint('.pbtn,.exbtn,.tp-row,.qpanel');
-    return () => removeEventListener('hashchange', fromHash);
+    // Kernel, the site's AI tutor, can build and change circuits on the Build board while this page is open
+    const unprovide = provideKernelTools('circuit', 'The Circuit Builder lab is open. With the circuit_ tools you can read the board and its meters, build a circuit on it from a loop expression, change, add or remove parts, load an example, run time for capacitors, and switch tabs; the student sees every change on screen and can Undo it.',
+      kernelTools({
+        ed, board, prefs, clock, EXAMPLES,
+        sol: () => (timed ? clock.still(board) : solve(board)),
+        timed: () => timed,
+        view: () => ({ mode, sub }),
+        go: (m, s) => { if (s) sub = s; setMode(m); },
+      }));
+    return () => { unprovide(); removeEventListener('hashchange', fromHash); };
   });
 </script>
 

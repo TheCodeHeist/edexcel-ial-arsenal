@@ -52,6 +52,8 @@
 
   const look = $derived<MLook>({ mode: prefs.mode, who, K, Eg, B: prefs.B, slow: prefs.slow, playing, seq });
   function onscene(s: Stage3D<MLook> | null) { const sc = s as MatterScene | null; if (sc) sc.onevent = (e) => (ev = e); }
+  export function triggerEvent() { seq += 1; playing = true; }
+  export function getEvent() { return ev; }
 
   /* the last event's split of the kinetic energy (pair production) */
   const kp = $derived(ev?.kp ?? Kt / 2), km = $derived(ev?.km ?? Kt / 2);

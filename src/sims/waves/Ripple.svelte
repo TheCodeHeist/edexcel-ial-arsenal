@@ -164,6 +164,13 @@
     return { gap, cx, by, src, arcs, env, fronts: [by - lam, by - 2 * lam, by - 3 * lam] };
   }
   const HUY = [huy(96), huy(14)];
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kSnap(kind: 'max' | 'min') { snap(kind); }
+  export function kReadouts() {
+    return { playing, lambda, r1, r2, D, cyc, verdict, here, one, theta, ahead, linesMax: lines.max.length, firstMin };
+  }
 </script>
 
 <main class="layout ripple" hidden={off}>

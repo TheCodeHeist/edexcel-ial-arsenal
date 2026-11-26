@@ -146,6 +146,16 @@
   });
 
   const slowLabel = $derived(scale >= 0.999 ? 'real speed' : scale >= 0.01 ? `${plain(scale, 2)} × real speed` : `slowed ${Math.round(1 / scale).toLocaleString()} times`);
+
+  /* Kernel hooks */
+  export function kSetPlaying(on: boolean) { playing = on; }
+  export function kStep() { step(); }
+  export function kRestart() { restart(); }
+  export function kSendPulse() { sendPulse(); }
+  export function kSetQ(frac: number) { setQ(frac); }
+  export function kReadouts() {
+    return { playing, M, S, A, aMax, lam, T, P, Q, dx, phi, words, pAmp };
+  }
 </script>
 
 <main class="layout bench" hidden={off}>

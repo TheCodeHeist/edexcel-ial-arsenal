@@ -37,6 +37,11 @@
     if (RM) { prefs.month = prefs.month < 6 ? 6 : 0; return; }
     playing = true; last = performance.now(); raf = requestAnimationFrame(loop);
   }
+  export function setOrbiting(on: boolean) {
+    if (on === playing) return;
+    toggle();
+  }
+  export function isOrbiting() { return playing; }
   $effect(() => { if (off && playing) { playing = false; cancelAnimationFrame(raf); } });
   onDestroy(() => cancelAnimationFrame(raf));
 

@@ -9,6 +9,7 @@
   import { LABSET } from './data';
   import { Carbon, provide, type Tab } from './app.svelte';
   import { installDnd } from './dnd';
+  import { provideCarbonTools } from './kernel';
   import Lab from './Lab.svelte';
   import Synthesis from './Synthesis.svelte';
   import Identify from './Identify.svelte';
@@ -66,7 +67,8 @@
     addEventListener('hashchange', fromHash);
     glint('.cc,.rgc,.rxc,.tcx,.tech,.proc,.flow,.tp-row,.opt,.tbtn');
     const off = installDnd({ active: () => app.active, closeDrawer: (fast) => drawer?.close(fast) });
-    return () => { mq.removeEventListener('change', set); removeEventListener('hashchange', fromHash); off(); document.documentElement.classList.remove('docked'); };
+    const offKernel = provideCarbonTools(app, setTab);   // Kernel, the site's AI tutor, can drive the lab while it is open
+    return () => { mq.removeEventListener('change', set); removeEventListener('hashchange', fromHash); off(); offKernel(); document.documentElement.classList.remove('docked'); };
   });
 </script>
 

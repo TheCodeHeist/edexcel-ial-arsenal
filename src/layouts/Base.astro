@@ -4,6 +4,7 @@
 import '../styles/global.css';
 import ThemePicker from '../components/ui/ThemePicker.svelte';
 import PerfPicker from '../components/ui/PerfPicker.svelte';
+import Kernel from '../components/kernel/Kernel.svelte';
 import CommandPalette from '../components/ui/CommandPalette.svelte';
 import DataBooklet from '../components/ui/DataBooklet.svelte';
 import { SUBJECTS, type SubjectId } from '../data/subjects';
@@ -101,6 +102,7 @@ const tabs = [{ id: 'home', name: 'Home', short: 'Home', href: '/' }, ...SUBJECT
       <nav aria-label="Site"><a href="/about/">About</a><a href="https://github.com/TheCodeHeist/edexcel-ial-arsenal">GitHub</a></nav>
     </footer>
   </div>
+  <Kernel client:load />
   <script>
     import { glint } from '../lib/motion';
     glint('.card,.subject,.panel');

@@ -38,6 +38,18 @@
     playing = true;
   }
 
+  /** Replay the 3D mixing/heating animation and wait for it to finish (used by Kernel tools). */
+  export async function runAnimation() {
+    if (isReducedMotion()) { progress = 1; playing = false; return; }
+    progress = 0;
+    playing = true;
+    const end = performance.now() + 3800;
+    while (progress < 1 && playing && !off && performance.now() < end) {
+      await new Promise((r) => setTimeout(r, 50));
+    }
+    if (progress < 1) progress = 1;
+  }
+
   function pickRxn(id: string) {
     const r = CAL_REACTIONS.find((x) => x.id === id);
     if (!r) return;

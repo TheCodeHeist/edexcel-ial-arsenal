@@ -30,6 +30,9 @@
   let playing = $state(!RM);
   let seq = $state(0);
 
+  /** Fire a fresh ion pulse on screen (used by Kernel tools). */
+  export function firePulse() { playing = true; seq++; }
+
   const preset = $derived(SAMPLES.find((s) => s.id === prefs.sample) ?? SAMPLES[1]);
 
   const isotopes = $derived(prefs.custom
