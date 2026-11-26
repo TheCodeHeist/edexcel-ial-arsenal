@@ -23,6 +23,8 @@
   let inputEl = $state<HTMLInputElement>();
 
   const SUBTABS: Omit<CmdItem, 'id'>[] = [
+    { title: '2D Grapher, Presets & Equation Tester', sub: 'Graph Lab', tag: 'Maths', keywords: '2d graph curve cubic trig parametric polar implicit asymptotes roots turning points test equation geogebra photo', href: '/maths/graph-lab/#2d' },
+    { title: '3D Grapher (Vectors, Planes & Surfaces)', sub: 'Graph Lab', tag: 'Maths', keywords: '3d graph vector line plane surface fp3 p4 intersection geogebra', href: '/maths/graph-lab/#3d' },
     { title: 'Bubble Sort, Quick Sort & Binary Search', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 sorting bubble quick sort pivot binary search algorithm', href: '/maths/decision-lab/#sort' },
     { title: 'Bin Packing', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 bin packing first fit decreasing full bin lower bound', href: '/maths/decision-lab/#bins' },
     { title: 'Kruskal & Prim (Minimum Spanning Tree)', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 mst minimum spanning tree kruskal prim matrix', href: '/maths/decision-lab/#trees' },
@@ -91,7 +93,7 @@
     {
       id: 'act-progress',
       title: 'Open Revision Progress & Backup',
-      sub: 'Scores across all 10 labs + JSON export/import',
+      sub: `Scores across all ${TOOLS.length} labs + JSON export/import`,
       tag: 'Action',
       keywords: 'progress scores stats mastery export import backup',
       run: () => window.dispatchEvent(new CustomEvent('arsenal-progress')),

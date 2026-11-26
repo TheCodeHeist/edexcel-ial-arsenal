@@ -165,6 +165,18 @@ export const TOOLS: Tool[] = [
     href: '/maths/decision-lab/',
     added: '2026-11-26',
   },
+  {
+    slug: 'graph-lab',
+    subject: 'maths',
+    title: 'Graph Lab',
+    blurb: 'Plot 2D and 3D curves, implicit equations, polar graphs, vector lines and planes with GeoGebra. Inspect exact roots, turning points and asymptotes, check guessed equations against exam coordinates, or upload a sketch photo for Kernel to plot.',
+    kind: 'Calculator',
+    units: ['WMA11', 'WMA12', 'WMA13', 'WMA14', 'WFM01', 'WFM02', 'WFM03'],
+    topics: ['Curve sketching', 'Transformations', 'Parametric & polar', 'Implicit curves', 'Integration', '3D vectors & planes'],
+    art: 'graph',
+    href: '/maths/graph-lab/',
+    added: '2026-11-27',
+  },
 ];
 
 export const toolsFor = (subject: SubjectId) => TOOLS.filter((t) => t.subject === subject);

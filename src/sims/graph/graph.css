@@ -1,0 +1,154 @@
+/* Graph Lab (Edexcel IAL Maths 2D & 3D graphing powered by GeoGebra).
+   Every rule is scoped under .gl-two so generic names never leak into other labs.
+   All surface/text/border colours use design tokens from tokens.css. */
+
+.layout{display:grid;gap:16px;align-items:start}
+.layout.gl-two{grid-template-columns:minmax(0,1fr) minmax(300px,380px)}
+@media (max-width:960px){ .layout.gl-two{grid-template-columns:minmax(0,1fr)} }
+
+.gl-two .stage,.gl-two .side{min-width:0}
+.gl-two .stage{padding-bottom:12px;-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--solid);contain:layout style}
+.gl-two .stage::after{display:none}
+.gl-two .side{padding-bottom:14px}
+.gl-two .pad{margin:0 16px 12px}
+.gl-two .muted{color:var(--muted);font-size:12.5px}
+.gl-two .btn.sm{padding:5px 10px;font-size:12.5px;gap:5px}
+.gl-two .btn .gl-twinkle{width:14px;height:14px;flex:none;color:var(--accent)}
+.gl-two .btn.primary .gl-twinkle{color:currentColor}
+.gl-two .btn.active{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+
+/* ---------- GeoGebra canvas frame ---------- */
+.gl-stage-wrap{position:relative;margin:0 14px;height:clamp(420px,64vh,640px);border-radius:var(--r-md);border:1px solid var(--rim);
+  background:var(--tile);box-shadow:inset 0 2px 10px -4px var(--shadow);overflow:hidden;contain:strict}
+.gl-ggb{width:100%;height:100%}
+.gl-ggb .ggb-host{width:100%;height:100%}
+
+.gl-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:24px;text-align:center;
+  background:color-mix(in srgb,var(--surf) 88%,var(--bg));z-index:4}
+.gl-overlay p{margin:0;max-width:44ch;font-size:14px;color:var(--muted)}
+.gl-overlay b{color:var(--ink)}
+.gl-spin{width:28px;height:28px;border-radius:50%;border:2.5px solid var(--line);border-top-color:var(--accent);animation:glSpin .85s linear infinite}
+@keyframes glSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){ .gl-spin{animation:none;border-color:var(--accent)} }
+
+.gl-notice{margin:10px 14px 0;padding:8px 12px;border-radius:var(--r-sm);border:1px solid color-mix(in srgb,var(--accent) 35%,var(--rim));
+  background:var(--accent-soft);font-size:12.5px;color:var(--ink);display:flex;align-items:center;justify-content:space-between;gap:10px}
+.gl-notice button{border:0;background:none;color:var(--muted);cursor:pointer;font-weight:700;padding:2px 6px}
+
+.gl-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px;margin:10px 14px 0}
+.gl-win{font:600 11.5px/1.3 var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.gl-qwin{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.gl-attrib{font:500 11px/1.2 var(--f-mono);color:var(--muted)}
+.gl-attrib a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.gl-attrib a:hover{color:var(--accent)}
+
+/* ---------- Side panel ---------- */
+.gl-ph-right{display:flex;align-items:center;gap:8px}
+.gl-side-tabs{padding:0 14px;margin-top:4px}
+.gl-side-tabs .subtabs{margin-bottom:12px}
+.gl-body{padding:0 14px;display:flex;flex-direction:column;gap:12px;min-width:0}
+
+/* ---------- Equations tab ---------- */
+.gl-add{display:flex;gap:6px;align-items:center}
+.gl-inp{width:100%;min-width:0;padding:8px 10px;border-radius:var(--r-sm);border:1px solid var(--line);background:var(--surf);color:var(--ink);
+  font:600 13.5px/1.25 var(--f-mono);-webkit-user-select:text;user-select:text}
+.gl-inp:focus{border-color:var(--accent);outline:none}
+.gl-inp.sm{padding:6px 8px;font-size:13px}
+.gl-syms{display:flex;flex-wrap:wrap;gap:4px}
+.gl-sym{border:1px solid var(--rim);background:var(--raised);color:var(--ink);border-radius:var(--r-sm);padding:4px 8px;cursor:pointer;
+  font:600 11.5px/1.1 var(--f-mono)}
+.gl-sym:hover{border-color:var(--accent);color:var(--accent)}
+.gl-sym.more{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 40%,var(--rim));background:var(--accent-soft)}
+
+.gl-preview{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:var(--r-sm);border:1px dashed var(--line);
+  background:color-mix(in srgb,var(--surf) 75%,transparent);overflow-x:auto;min-height:34px}
+.gl-preview-lbl{flex:none;font:600 10px/1 var(--f-mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.gl-preview-math{font-size:14.5px;color:var(--ink);white-space:nowrap}
+
+.gl-exprs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.gl-expr{padding:10px;border-radius:var(--r-md);border:1px solid var(--rim);background:var(--raised);display:flex;flex-direction:column;gap:7px;min-width:0;overflow:hidden}
+.gl-expr.hidden{opacity:.6}
+.gl-expr.has-err{border-color:color-mix(in srgb,var(--bad) 55%,var(--rim))}
+.gl-expr-top{display:grid;grid-template-columns:22px minmax(0,1fr) auto auto;gap:7px;align-items:center;min-width:0}
+.gl-swatch{width:20px;height:20px;border-radius:50%;border:2px solid rgba(0,0,0,.18);cursor:pointer;padding:0;flex:none;transition:transform .2s var(--spring)}
+.gl-swatch:hover{transform:scale(1.12)}
+.gl-swatch.off{opacity:.35}
+.gl-icon-btn{width:28px;height:28px;border-radius:var(--r-sm);border:1px solid var(--rim);background:var(--surf);color:var(--muted);
+  display:grid;place-items:center;cursor:pointer;font:700 13px/1 var(--f-mono)}
+.gl-icon-btn:hover{color:var(--ink);border-color:var(--accent)}
+.gl-icon-btn.del:hover{color:var(--bad);border-color:var(--bad)}
+.gl-expr-meta{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font:600 11.5px/1.3 var(--f-mono);color:var(--muted);width:100%;min-width:0}
+.gl-expr-val{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gl-expr-meta>span:last-child{flex:none}
+.gl-expr-err{font:600 11.5px/1.3 var(--f-body);color:var(--bad)}
+
+.gl-slider-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;min-width:0}
+.gl-slider-row .slider{min-width:0}
+.gl-slider-row b{font:700 12px/1 var(--f-mono);color:var(--accent);font-variant-numeric:tabular-nums;min-width:0;text-align:right;white-space:nowrap}
+
+/* ---------- Presets tab ---------- */
+.gl-ufilter{display:flex;flex-wrap:wrap;gap:5px}
+.gl-presets{display:flex;flex-direction:column;gap:8px;max-height:460px;overflow-y:auto;padding-right:2px}
+.gl-preset{display:flex;flex-direction:column;gap:4px;text-align:left;padding:10px 12px;border-radius:var(--r-md);border:1px solid var(--rim);
+  background:var(--raised);cursor:pointer;color:var(--ink);transition:border-color .2s,background-color .2s}
+.gl-preset:hover{border-color:var(--accent)}
+.gl-preset.active{border-color:var(--accent);background:var(--accent-soft)}
+.gl-preset-top{display:flex;align-items:center;gap:7px}
+.gl-ubadge{font:700 10.5px/1 var(--f-mono);padding:3px 6px;border-radius:999px;background:color-mix(in srgb,var(--cond) 20%,transparent);color:var(--ink);border:1px solid color-mix(in srgb,var(--cond) 45%,var(--rim))}
+.gl-3dbadge{font:700 10px/1 var(--f-mono);padding:3px 6px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.gl-preset-top b{font-size:13.5px;line-height:1.25}
+.gl-preset small{font-size:12px;line-height:1.35;color:var(--muted)}
+
+/* ---------- Inspect tab ---------- */
+.gl-insp-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.gl-fcard{padding:10px 12px;border-radius:var(--r-md);border:1px solid var(--rim);background:var(--raised);display:flex;flex-direction:column;gap:6px}
+.gl-fcard h3{font:700 13.5px/1.2 var(--f-mono);margin:0;color:var(--ink)}
+.gl-frows{display:grid;grid-template-columns:86px minmax(0,1fr);gap:4px 8px;margin:0;font-size:12.5px;line-height:1.4}
+.gl-frows dt{font:600 10.5px/1.4 var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.gl-frows dd{margin:0;font:600 12px/1.4 var(--f-mono);color:var(--ink);overflow-wrap:anywhere;-webkit-user-select:text;user-select:text}
+
+/* ---------- Test my equation tab ---------- */
+.gl-field{display:flex;flex-direction:column;gap:5px}
+.gl-field label{font:600 11px/1.2 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.gl-picks{display:flex;flex-wrap:wrap;gap:5px}
+.gl-check{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:var(--ink);cursor:pointer}
+.gl-results{display:flex;flex-direction:column;gap:6px}
+.gl-rbox{padding:9px 11px;border-radius:var(--r-sm);border:1px solid var(--rim);font-size:12.5px;line-height:1.4}
+.gl-rbox.ok{border-color:color-mix(in srgb,var(--good) 50%,var(--rim));background:color-mix(in srgb,var(--good) 12%,transparent)}
+.gl-rbox.no{border-color:color-mix(in srgb,var(--bad) 50%,var(--rim));background:color-mix(in srgb,var(--bad) 12%,transparent)}
+.gl-rsum{font:700 13px/1.3 var(--f-mono);color:var(--ink)}
+.gl-rsum.ok{color:var(--good)}
+.gl-rsum.no{color:var(--bad)}
+
+@media (max-width:640px){
+  .gl-stage-wrap{margin:0 10px;height:clamp(340px,54vh,480px)}
+  .gl-foot{margin:10px 10px 0}
+  .gl-notice{margin:10px 10px 0}
+}
+
+/* ---------- GeoGebra Functions Guide modal ---------- */
+.gl-guide-modal{width:min(860px,100%);max-height:min(86dvh,780px)}
+.gl-guide-bar{display:flex;flex-direction:column;gap:8px;padding:10px 16px;border-bottom:1px solid var(--line);flex:none}
+.gl-guide-cats{display:flex;flex-wrap:wrap;gap:5px}
+.gl-qs-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.gl-qs-card{padding:10px 12px;border-radius:var(--r-md);border:1px solid color-mix(in srgb,var(--accent) 28%,var(--rim));
+  background:color-mix(in srgb,var(--accent) 7%,var(--raised));display:flex;flex-direction:column;gap:4px}
+.gl-qs-card b{font-size:13px;color:var(--ink)}
+.gl-qs-card p{margin:0;font-size:12px;line-height:1.4;color:var(--muted)}
+.gl-qs-card code{align-self:flex-start;margin-top:2px;font:600 11.5px/1.2 var(--f-mono);padding:3px 7px;border-radius:6px;background:var(--surf);border:1px solid var(--line);color:var(--accent);-webkit-user-select:text;user-select:text}
+
+.gl-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.gl-gcard{padding:11px 12px;border-radius:var(--r-md);border:1px solid var(--rim);background:var(--raised);display:flex;flex-direction:column;gap:6px;min-width:0}
+.gl-gcard-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.gl-gcard-head b{font-size:13.5px;line-height:1.25;color:var(--ink)}
+.gl-gbadges{display:flex;flex-wrap:wrap;gap:4px;flex:none}
+.gl-gsyntax{display:block;font:600 12px/1.35 var(--f-mono);padding:5px 8px;border-radius:var(--r-sm);background:var(--surf);border:1px solid var(--line);color:var(--accent);overflow-wrap:anywhere;-webkit-user-select:text;user-select:text}
+.gl-gdesc{margin:0;font-size:12.5px;line-height:1.4;color:var(--ink)}
+.gl-gtip{margin:0;font-size:11.5px;line-height:1.35;color:var(--amph)}
+.gl-gfoot{margin-top:auto;padding-top:6px;border-top:1px dashed var(--line);display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.gl-gex{font:600 11.5px/1.3 var(--f-mono);color:var(--muted);overflow-wrap:anywhere;-webkit-user-select:text;user-select:text;flex:1 1 140px;min-width:0}
+.gl-gcard-acts{display:flex;gap:5px;flex:none}
+
+@media (max-width:680px){
+  .gl-qs-grid,.gl-guide-grid{grid-template-columns:minmax(0,1fr)}
+}

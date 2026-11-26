@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/graph/App.svelte';
+import '../../sims/graph/graph.css';
+---
+<Sim title="Graph Lab" description="Interactive 2D & 3D GeoGebra graphing calculator for Edexcel IAL Mathematics (P1–P4, FP1–FP3) with presets, exact roots and turning-point inspection, equation testing, and Kernel AI photo-to-graph.">
+  <App client:only="svelte" />
+</Sim>

@@ -69,6 +69,7 @@ Everything runs in your browser. No sign-ups, no ads, no paywalls, no "unlock pr
 | | Tool | What you do |
 |---|---|---|
 | 🕸️ | **[Decision Lab](https://ial-arsenal.thecodeheist.is-a.dev/maths/decision-lab/)** | Every D1 algorithm, stepped through the way the mark scheme wants it written: sorts and binary search, bin packing, Kruskal and Prim, Dijkstra on the exam's boxes, route inspection, TSP bounds, critical path with cascade charts, and linear programming. Turn on *Quiz me* to predict each step. *(WDM11)* |
+| 📈 | **[Graph Lab](https://ial-arsenal.thecodeheist.is-a.dev/maths/graph-lab/)** | 2D and 3D graphing powered by GeoGebra with Edexcel P1–P4 & FP1–FP3 presets, exact roots/turning-point/asymptote inspection, an exact "Test my equation" checker, and Kernel AI photo-to-graph plotting. *(WMA11–14, WFM01–03)* |
 
 Maths is a full subject here: its own page and unit map (P1–P4, FP1–FP3, M1–M3, S1–S3, D1), thousands of past-paper questions, and the formula book in the booklet. More tools will follow.
 
@@ -201,6 +202,7 @@ We collected the papers from their public archives ourselves. They didn't hand t
 
 - **[Astro](https://astro.build)** builds the site, **[Svelte 5](https://svelte.dev)** powers every interactive bit, and **[TypeScript](https://www.typescriptlang.org)** keeps it all in check.
 - **[three.js](https://threejs.org)** draws the 3D in Star Lab and Particle Lab.
+- **[GeoGebra](https://www.geogebra.org)** powers the 2D and 3D graphing engine in Graph Lab.
 - **[pdf-lib](https://pdf-lib.js.org)** turns your mock papers into downloadable PDFs.
 - **[KaTeX](https://katex.org)**, **[marked](https://marked.js.org)** and **[DOMPurify](https://github.com/cure53/DOMPurify)** render Kernel's answers safely, maths and all.
 - **[Puter.js](https://puter.com)** and **[Google Gemini](https://ai.google.dev)** power Kernel, on the student's own account or key.
