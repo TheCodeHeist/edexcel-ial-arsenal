@@ -1,12 +1,13 @@
 /* Cross-lab revision progress aggregator + JSON backup/restore for localStorage (arsenal-*). */
 
 import { TOOLS } from '../data/tools';
+import type { SubjectId } from '../data/subjects';
 import { store } from './util';
 
 export interface LabProgress {
   slug: string;
   title: string;
-  subject: 'chemistry' | 'physics';
+  subject: SubjectId;
   href: string;
   right: number;
   total: number;

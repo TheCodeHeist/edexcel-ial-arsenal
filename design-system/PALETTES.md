@@ -1,6 +1,6 @@
 # Palettes
 
-Six palettes, each with a light and a dark variant. Every variant sets the same tokens, so a page written against `var(--…)` works in all twelve. Switch with `<html data-palette="<id>" data-mode="light|dark">` (`Playground.setTheme` does it). Catppuccin is the default.
+Seven palettes, each with a light and a dark variant. Every variant sets the same tokens, so a page written against `var(--…)` works in all fourteen. Switch with `<html data-palette="<id>" data-mode="light|dark">` (`Playground.setTheme` does it). Catppuccin is the default.
 
 ## Catppuccin · `catppuccin`
 
@@ -115,6 +115,27 @@ Six palettes, each with a light and a dark variant. Every variant sets the same 
 | `--b1` | `#93b259` | `#a7c080` |
 | `--b2` | `#35a77c` | `#83c092` |
 | `--b3` | `#e66868` | `#e69875` |
+
+## Monochrome · `mono`
+
+Our own pure-grayscale palette (no tint at all), for students who find colour distracting or want an e-ink feel. The semantic tokens are told apart by lightness alone, darkest to lightest: accent, redox, cond, ligand, acidbase, amph. Physical colours inside the sims (solution colours, flame tests, spectra) are real data and stay in colour.
+
+| token | Paper (light) | Ink (dark) |
+|---|---|---|
+| `--bg` | `#ededed` | `#141414` |
+| `--surf` | `#fafafa` | `#212121` |
+| `--ink` | `#1c1c1c` | `#e8e8e8` |
+| `--muted` | `#5e5e5e` | `#a0a0a0` |
+| `--line` | `#d0d0d0` | `#383838` |
+| `--accent` | `#262626` | `#f0f0f0` |
+| `--redox` | `#3a3a3a` | `#d6d6d6` |
+| `--ligand` | `#636363` | `#adadad` |
+| `--acidbase` | `#767676` | `#999999` |
+| `--amph` | `#8a8a8a` | `#858585` |
+| `--cond` | `#505050` | `#c2c2c2` |
+| `--b1` | `#4a4a4a` | `#bdbdbd` |
+| `--b2` | `#7a7a7a` | `#8a8a8a` |
+| `--b3` | `#a3a3a3` | `#5c5c5c` |
 
 ## Notes
 

@@ -1,9 +1,12 @@
 <script lang="ts">
-  /* Interactive Edexcel IAL Formula & Data Booklet modal (Alt+B or top-bar button). */
+  /* Interactive Edexcel IAL Formula & Data Booklet modal (Alt+B or top-bar button). On Maths pages it opens on the
+     Maths formulae; the 'arsenal-booklet' event can name a tab in its detail ('maths' or 'stats'). */
   import { onMount, tick } from 'svelte';
   import { CONSTANTS, PHYS_EQNS, CHEM_DATA, ELEMENTS } from '../../data/databooklet';
+  import { MATHS_UNITS, MATHS_BOOKLET_URL } from '../../data/mathsbooklet';
+  import MathsTables from './MathsTables.svelte';
 
-  type Tab = 'const' | 'phys' | 'chem' | 'pt';
+  type Tab = 'const' | 'phys' | 'chem' | 'pt' | 'maths' | 'stats';
   let open = $state(false);
   let tab = $state<Tab>('const');
   let q = $state('');
@@ -15,7 +18,10 @@
     ['phys', 'Physics'],
     ['chem', 'Chemistry'],
     ['pt', 'Periodic'],
+    ['maths', 'Maths'],
+    ['stats', 'Stat tables'],
   ];
+  let mUnit = $state('all');
 
   const needle = $derived(q.trim().toLowerCase());
 
@@ -42,11 +48,25 @@
     }
     return [...map.entries()];
   });
+  const fMaths = $derived(
+    MATHS_UNITS.filter((u) => mUnit === 'all' || u.badge === mUnit).map((u) => {
+      const head = `${u.badge} ${u.code} ${u.title}`;
+      const sections = u.sections.map((sec) => ({
+        ...sec,
+        items: needle ? sec.items.filter((i) => `${head} ${sec.title} ${i.label} ${i.eq}`.toLowerCase().includes(needle)) : sec.items,
+      })).filter((sec) => sec.items.length > 0);
+      return { ...u, sections };
+    }).filter((u) => u.sections.length > 0 || (!needle && u.note))
+  );
   const fEl = $derived(
     needle ? ELEMENTS.filter((e) => `${e.z} ${e.sym} ${e.name} ${e.ar}`.toLowerCase().includes(needle)) : ELEMENTS
   );
 
-  async function show() {
+  const onMaths = () => /^\/(papers\/)?maths(\/|$)/.test(location.pathname);
+
+  async function show(want?: Tab) {
+    if (want) tab = want;
+    else if (!open && onMaths() && tab !== 'stats') tab = 'maths';
     open = true;
     await tick();
     inputEl?.focus();
@@ -61,7 +81,7 @@
   }
 
   onMount(() => {
-    const onOpen = () => { show(); };
+    const onOpen = (e: Event) => { const d = (e as CustomEvent).detail; show(d === 'maths' || d === 'stats' ? d : undefined); };
     const onKey = (e: KeyboardEvent) => {
       if (e.altKey && e.key.toLowerCase() === 'b') { e.preventDefault(); open ? close() : show(); }
       else if (e.key === 'Escape' && open) close();
@@ -80,7 +100,7 @@
   type="button"
   aria-label="Formula and Data Booklet (Alt+B)"
   title="Formula & Data Booklet (Alt+B)"
-  onclick={show}
+  onclick={() => show()}
 >
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
@@ -105,12 +125,14 @@
             <button type="button" aria-pressed={tab === id} onclick={() => (tab = id)}>{label}</button>
           {/each}
         </div>
+        {#if tab !== 'stats'}
         <div class="search sm db-search">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
           </svg>
-          <input bind:this={inputEl} type="search" bind:value={q} placeholder="Filter constants, equations, elements…" aria-label="Filter data booklet" />
+          <input bind:this={inputEl} type="search" bind:value={q} placeholder={tab === 'maths' ? 'Filter formulae…' : 'Filter constants, equations, elements…'} aria-label="Filter data booklet" />
         </div>
+        {/if}
       </div>
 
       <div class="modal-body db-body">
@@ -160,6 +182,37 @@
           {:else}
             <p class="db-empty">No matching chemistry data.</p>
           {/each}
+        {:else if tab === 'maths'}
+          <p class="db-note">
+            From Pearson's <a href={MATHS_BOOKLET_URL} target="_blank" rel="noopener">Mathematical Formulae and Statistical Tables</a> (Issue 2), the booklet you get in IAL Maths exams.
+            A unit may also need the formulae of the units before it.
+          </p>
+          <div class="seg db-units" role="group" aria-label="Maths unit">
+            <button type="button" aria-pressed={mUnit === 'all'} onclick={() => (mUnit = 'all')}>All</button>
+            {#each MATHS_UNITS as u}
+              <button type="button" aria-pressed={mUnit === u.badge} onclick={() => (mUnit = u.badge)} title={u.title}>{u.badge}</button>
+            {/each}
+          </div>
+          {#each fMaths as u}
+            <div class="db-sec db-unit">
+              <div class="db-sh"><span class="chip">{u.badge}</span><b>{u.title}</b><small class="db-code">{u.code}</small></div>
+              {#if u.also}<p class="db-also">May also need the formulae for {u.also}.</p>{/if}
+              {#if u.note}<p class="db-also">{u.note}</p>{/if}
+              {#each u.sections as sec}
+                <div class="db-sub">{sec.title}</div>
+                {#each sec.items as it}
+                  <div class="db-eqrow">
+                    <span class="db-elbl">{it.label}</span>
+                    <code class="db-eq">{it.eq}</code>
+                  </div>
+                {/each}
+              {/each}
+            </div>
+          {:else}
+            <p class="db-empty">No matching formulae.</p>
+          {/each}
+        {:else if tab === 'stats'}
+          <MathsTables />
         {:else}
           <div class="pt-grid">
             {#each fEl as el}

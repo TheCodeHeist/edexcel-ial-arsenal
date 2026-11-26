@@ -1,6 +1,7 @@
 <script lang="ts">
   /* Cross-lab Revision Progress & JSON Backup/Restore modal (opened via Settings or Ctrl+K). */
   import { onMount } from 'svelte';
+  import { SUBJECTS } from '../../data/subjects';
   import { readProgress, exportArsenalData, importArsenalData, clearAllProgress, type ProgressSummary } from '../../lib/progress';
 
   let open = $state(false);
@@ -69,6 +70,7 @@
 
 {#if open && summary}
   {@const acc = summary.totalAttempted > 0 ? Math.round((summary.totalRight / summary.totalAttempted) * 100) : 0}
+  {@const labs = summary.labs}
   <div class="modal-bg" role="presentation" onclick={close}>
     <div class="modal-box glass pr-modal" role="dialog" aria-modal="true" aria-label="Revision progress and backup" tabindex="-1" onclick={(e) => e.stopPropagation()} onkeydown={(e) => e.key === 'Escape' && close()}>
       <div class="modal-head">
@@ -82,16 +84,16 @@
       <div class="pr-stats">
         <div class="pr-stat"><small>Answered</small><b>{summary.totalAttempted}</b></div>
         <div class="pr-stat"><small>Accuracy</small><b>{summary.totalAttempted ? `${acc}%` : '—'}</b></div>
-        <div class="pr-stat"><small>Labs tried</small><b>{summary.practised}/10</b></div>
+        <div class="pr-stat"><small>Labs tried</small><b>{summary.practised}/{labs.length}</b></div>
         <div class="pr-stat"><small>Best streak</small><b>{summary.bestStreak}</b></div>
       </div>
 
       <div class="modal-body pr-body">
-        {#each (['chemistry', 'physics'] as const) as subj}
+        {#each SUBJECTS.filter((s) => labs.some((l) => l.subject === s.id)) as subj}
           <div class="pr-sec">
-            <span class="pp-lbl">{subj === 'chemistry' ? 'Chemistry' : 'Physics'}</span>
+            <span class="pp-lbl">{subj.name}</span>
             <div class="pr-list">
-              {#each summary.labs.filter((l) => l.subject === subj) as lab}
+              {#each labs.filter((l) => l.subject === subj.id) as lab}
                 {@const pct = lab.total > 0 ? Math.round((lab.right / lab.total) * 100) : 0}
                 <a class="pr-row" href={lab.href}>
                   <div class="pr-top">

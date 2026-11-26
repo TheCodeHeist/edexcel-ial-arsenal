@@ -1,6 +1,6 @@
 # Edexcel IAL Visual Playground
 
-The shared look of every Edexcel IAL simulation — Chemistry (d-Block Colour Bench, Carbon Alchemy) and beyond — and of the parent website that links them. Liquid Glass on a drifting palette glow, squircle corners, three typefaces, six themes in light and dark, and calm, springy motion.
+The shared look of every Edexcel IAL simulation — Chemistry (d-Block Colour Bench, Carbon Alchemy) and beyond — and of the parent website that links them. Liquid Glass on a drifting palette glow, squircle corners, three typefaces, seven themes in light and dark, and calm, springy motion.
 
 This book lists the **baseline** first (the rules every page starts from), then the rules added while building the simulations. The baseline is the minimum: build on it, never below it.
 
@@ -24,7 +24,7 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 
 ## 1 · Baseline
 
-1. **A range of popular UI themes, each with a light and a dark variant.** Six palettes, twelve variants (see Palettes). Catppuccin is the default.
+1. **A range of popular UI themes, each with a light and a dark variant.** Seven palettes, fourteen variants (see Palettes), including our own grayscale Monochrome. Catppuccin is the default.
 2. **Liquid Glass with squircle corners.** Translucent glass panels over a slow coloured glow; `corner-shape: squircle` wherever the browser supports it.
 3. **Three fonts.** **PT Serif** (serif, display), **Geist** (sans, UI and body), **JetBrains Mono** (mono, labels and data).
 4. **Consistent across similar simulations.** Same header, status line, controls, cards and motion everywhere; a new page reuses these components before inventing new ones.

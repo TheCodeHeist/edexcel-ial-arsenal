@@ -1,7 +1,7 @@
-/* The six palettes, each with a light and a dark variant. Copied from the design system (design-system/js/playground.js).
+/* The seven palettes (six community schemes and our own grayscale Monochrome), each with a light and a dark variant. Copied from the design system (design-system/js/playground.js).
    Colours reach the page through CSS variables in src/styles/palettes.css; this file feeds the theme picker swatches. */
 
-export type PaletteId = "catppuccin" | "tokyo" | "nord" | "rosepine" | "gruvbox" | "everforest";
+export type PaletteId = "catppuccin" | "tokyo" | "nord" | "rosepine" | "gruvbox" | "everforest" | "mono";
 export interface Variant { v: string; bg: string; surf: string; ink: string; muted: string; line: string; accent: string; redox: string; ligand: string; acidbase: string; amph: string; cond: string; b1: string; b2: string; b3: string }
 export interface Palette { name: string; light: Variant; dark: Variant }
 
@@ -226,6 +226,43 @@ export const PALETTES: Record<PaletteId, Palette> = {
       "b1": "#a7c080",
       "b2": "#83c092",
       "b3": "#e69875"
+    }
+  },
+  "mono": {
+    "name": "Monochrome",
+    "light": {
+      "v": "Paper",
+      "bg": "#ededed",
+      "surf": "#fafafa",
+      "ink": "#1c1c1c",
+      "muted": "#5e5e5e",
+      "line": "#d0d0d0",
+      "accent": "#262626",
+      "redox": "#3a3a3a",
+      "ligand": "#636363",
+      "acidbase": "#767676",
+      "amph": "#8a8a8a",
+      "cond": "#505050",
+      "b1": "#4a4a4a",
+      "b2": "#7a7a7a",
+      "b3": "#a3a3a3"
+    },
+    "dark": {
+      "v": "Ink",
+      "bg": "#141414",
+      "surf": "#212121",
+      "ink": "#e8e8e8",
+      "muted": "#a0a0a0",
+      "line": "#383838",
+      "accent": "#f0f0f0",
+      "redox": "#d6d6d6",
+      "ligand": "#adadad",
+      "acidbase": "#999999",
+      "amph": "#858585",
+      "cond": "#c2c2c2",
+      "b1": "#bdbdbd",
+      "b2": "#8a8a8a",
+      "b3": "#5c5c5c"
     }
   }
 };

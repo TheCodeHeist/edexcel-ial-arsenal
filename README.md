@@ -57,6 +57,10 @@ Everything runs in your browser. No sign-ups, no ads, no paywalls, no "unlock pr
 | 🌟 | **[Star Lab](https://ial-arsenal.thecodeheist.is-a.dev/physics/star-lab/)** | Follow a star of any mass in 3D, from nebula to white dwarf, neutron star or black hole, with its path traced on the HR diagram. Then eclipse some binaries and climb the distance ladder. *(WPH15)* |
 | ⚛️ | **[Particle Lab](https://ial-arsenal.thecodeheist.is-a.dev/physics/particle-lab/)** | Accelerate particles in a linac and a cyclotron, read cloud and bubble chamber tracks, fire α particles at gold, build hadrons from quarks and check reactions against the conservation laws. *(WPH14)* |
 
+### 📐 Maths
+
+No Maths labs yet, but Maths is a full subject here: its own page and unit map (P1–P4, FP1–FP3, M1–M3, S1–S3, D1), thousands of past-paper questions, and the formula book in the booklet. Tools will follow.
+
 ### 📚 Past papers
 
 A searchable library of real Edexcel IAL past-paper questions, cut out question by question with their mark schemes:
@@ -68,7 +72,8 @@ A searchable library of real Edexcel IAL past-paper questions, cut out question 
 
 ### 🎨 And the little things
 
-- **Six colour themes** (Catppuccin, Tokyo Night, Nord, Rosé Pine, Gruvbox and Everforest), each with light and dark modes. Pick one once and every tool follows it.
+- **Seven colour themes** (Catppuccin, Tokyo Night, Nord, Rosé Pine, Gruvbox, Everforest and our own grayscale **Monochrome**), each with light and dark modes. Pick one once and every tool follows it.
+- **A formula and data booklet** one keypress away (Alt+B): Physics equations, Chemistry data, the periodic table, and the full IAL Maths formula book with its statistical tables (normal, binomial, Poisson, χ², correlation).
 - **Edexcel spellings and notation** throughout: sulfur, aluminium, colourless, the works.
 - **Works on your phone**, because let's be honest, that's where most revision happens.
 

@@ -3,6 +3,7 @@
      Jump to any simulation, topic/sub-tab, past paper hub, or quick action. */
   import { onMount, tick } from 'svelte';
   import { TOOLS } from '../../data/tools';
+  import { SUBJECTS } from '../../data/subjects';
   import { getPerf, setPerf, setPreset } from '../../lib/perf';
   import { getTheme, setTheme } from '../../lib/theme';
 
@@ -57,8 +58,10 @@
     { title: 'Physics Past Papers & Mock Generator', sub: 'WPH11 – WPH16', tag: 'Papers', keywords: 'physics papers wph11 wph12 wph13 wph14 wph15 wph16 mock', href: '/papers/physics/' },
     { title: 'Chemistry Past Papers & Mock Generator', sub: 'WCH11 – WCH16', tag: 'Papers', keywords: 'chemistry papers wch11 wch12 wch13 wch14 wch15 wch16 mock', href: '/papers/chemistry/' },
     { title: 'Maths Past Papers & Mock Generator', sub: 'WMA, WFM, WME, WST, WDM', tag: 'Papers', keywords: 'maths papers wma11 wma12 wma13 wma14 pure mechanics stats mock', href: '/papers/maths/' },
-    { title: 'Chemistry Hub', sub: 'All 5 Chemistry labs & unit map', tag: 'Hub', keywords: 'chemistry subject units', href: '/chemistry/' },
-    { title: 'Physics Hub', sub: 'All 5 Physics labs & unit map', tag: 'Hub', keywords: 'physics subject units', href: '/physics/' },
+    ...SUBJECTS.map((s) => {
+      const n = TOOLS.filter((t) => t.subject === s.id).length;
+      return { title: `${s.name} Hub`, sub: n ? `All ${n} ${s.name} ${n === 1 ? 'tool' : 'tools'} & unit map` : 'Unit map & past papers (tools on the way)', tag: 'Hub', keywords: `${s.id} ${s.short} subject units`, href: `/${s.id}/` };
+    }),
   ];
 
   const ITEMS: CmdItem[] = [
@@ -69,6 +72,14 @@
       tag: 'Action',
       keywords: 'formula data booklet constants periodic table equations',
       run: () => window.dispatchEvent(new CustomEvent('arsenal-booklet')),
+    },
+    {
+      id: 'act-maths-booklet',
+      title: 'Open Maths Formulae & Statistical Tables',
+      sub: 'P1–P4, FP1–FP3, M1–M3, S1–S3 formulae, normal, binomial, Poisson & χ² tables',
+      tag: 'Action',
+      keywords: 'maths formula book formulae statistical tables normal binomial poisson chi squared critical values pure further mechanics statistics',
+      run: () => window.dispatchEvent(new CustomEvent('arsenal-booklet', { detail: 'maths' })),
     },
     {
       id: 'act-progress',

@@ -5,7 +5,7 @@
   import Art from './Art.svelte';
   let { tool, i = 0 }: { tool: Tool; i?: number } = $props();
   const subject = $derived(subjectById(tool.subject)!);
-  const unitNs = $derived(tool.units.map((c) => subject.units.find((u) => u.code === c)?.n).filter(Boolean));
+  const unitNs = $derived(tool.units.map((c) => subject.units.find((u) => u.code === c)?.badge).filter(Boolean));
   const unitLabel = $derived(unitNs.length === 1 ? `Unit ${unitNs[0]}` : `Units ${unitNs.slice(0, -1).join(', ')} & ${unitNs.at(-1)}`);
 </script>
 

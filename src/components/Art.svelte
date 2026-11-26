@@ -132,6 +132,14 @@
     <path d="M-30 0 H-22 M-26 -4 V4" stroke="var(--ink)" stroke-width="2" />
     <circle cx="26" cy="0" r="9" fill="color-mix(in srgb, var(--accent) 70%, var(--surf))" stroke="var(--accent)" stroke-width="2.2" />
     <path d="M22 0 H30" stroke="var(--ink)" stroke-width="2" />
+  {:else if name === 'graph'}
+    <!-- a cubic on axes, the area under one stretch of it shaded, and a tangent touching it at a point -->
+    <path d="M-4 30 L-4 -23.1 -2 -20.6 0 -17.7 2 -14.7 4 -11.6 6 -8.4 8 -5.3 10 -2.3 12 0.6 14 3.1 16 5.4 18 7.3 20 8.8 22 9.7 24 10 L24 30 Z" fill="color-mix(in srgb, var(--cond) 28%, transparent)" stroke="none" />
+    <path d="M-4 30 V-23.1 M24 30 V10" stroke="var(--cond)" stroke-opacity=".7" stroke-width="1.6" stroke-dasharray="3 4" />
+    <path d="M-50 30 H52 M-36 48 V-52 M47 25 L52 30 L47 35 M-41 -47 L-36 -52 L-31 -47" stroke="var(--ink)" stroke-opacity=".5" stroke-width="2" />
+    <path d="M-30 -2.8 L-27 -12.8 -24 -20.2 -21 -25.4 -18 -28.6 -15 -29.9 -12 -29.7 -9 -28.1 -6 -25.4 -3 -21.9 0 -17.7 3 -13.1 6 -8.4 9 -3.8 12 0.6 15 4.3 18 7.3 21 9.3 24 10 27 9.2 30 6.7 33 2.2 36 -4.5 39 -13.6 42 -25.4 45 -40.2 46 -45.7" stroke="var(--cond)" stroke-width="2.8" />
+    <path d="M24 27 L46 -30.8" stroke="var(--accent)" stroke-width="2.4" />
+    <circle cx="36" cy="-4.5" r="4" fill="var(--amph)" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

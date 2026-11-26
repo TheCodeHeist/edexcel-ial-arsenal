@@ -55,6 +55,7 @@ body{line-height:1.55}
 .units{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr));gap:12px}
 .unit{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;padding:14px 16px;border-radius:var(--r-lg)}
 .unit .n{grid-row:span 2;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font:700 19px/1 var(--f-display);color:var(--hue);background:color-mix(in srgb,var(--hue) 13%,transparent)}
+.unit .n.wide{font-size:14px;letter-spacing:-.02em}
 .unit .code{font:600 11px/1.3 var(--f-mono);letter-spacing:.08em;color:var(--muted)}
 .unit .code em{font-style:normal;margin-left:6px;color:var(--amph)}
 .unit h3{font-size:16.5px;line-height:1.25}

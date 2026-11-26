@@ -49,7 +49,7 @@ const papers = papersFor(s.id).length;
     <div class="units">
       {s.units.map((u, i) => { const ts = toolsForUnit(u.code); return (
         <article class="unit glass rise" style={`--i:${i + 2}`}>
-          <span class="n">{u.n}</span>
+          <span class={`n${u.badge.length > 1 ? ' wide' : ''}`}>{u.badge}</span>
           <span class="code">{u.code}{u.practical && <em>Practical</em>}</span>
           <h3>{u.title}</h3>
           <div class="covered">

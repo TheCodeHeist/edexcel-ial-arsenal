@@ -1,5 +1,5 @@
 /* Design tokens (design book §3, §4). Every colour on the site is one of these variables; never hard-code a hex in a
-   page or component, or the palette switcher breaks. The six palettes × light/dark are in palettes.css. */
+   page or component, or the palette switcher breaks. The seven palettes × light/dark are in palettes.css. */
 
 /* Fonts are loaded non-blocking via <link media="print" onload="this.media='all'"> in Base.astro / Sim.astro. */
 @import "./palettes.css";

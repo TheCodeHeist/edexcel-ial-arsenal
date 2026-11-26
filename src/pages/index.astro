@@ -4,10 +4,12 @@ import Art from '../components/Art.svelte';
 import ToolFinder from '../components/ToolFinder.svelte';
 import { SUBJECTS } from '../data/subjects';
 import { TOOLS, toolsFor } from '../data/tools';
+import { papersFor } from '../lib/papers/registry';
 
-const motif = { chemistry: 'hex', physics: 'wave' } as const;
+const motif = { chemistry: 'hex', physics: 'wave', maths: 'graph' } as const;
 const REPO = 'https://github.com/TheCodeHeist/edexcel-ial-arsenal';
 const allUnits = SUBJECTS.flatMap((s) => s.units);
+const papers = Object.fromEntries(SUBJECTS.map((s) => [s.id, papersFor(s.id).length]));
 const covered = allUnits.filter((u) => TOOLS.some((t) => t.units.includes(u.code))).length;
 // The hero's first button goes to the subject with the most tools.
 const lead = [...SUBJECTS].sort((a, b) => toolsFor(b.id).length - toolsFor(a.id).length)[0];
@@ -15,14 +17,14 @@ const lead = [...SUBJECTS].sort((a, b) => toolsFor(b.id).length - toolsFor(a.id)
 const ring = (i: number, r: number) => { const a = (i * 2 * Math.PI) / SUBJECTS.length - Math.PI / 2; return { x: Math.cos(a) * r, y: Math.sin(a) * r }; };
 ---
 <Base
-  description="Interactive simulations, drills and references for Edexcel International A Level Chemistry and Physics. By students, for students."
+  description="Interactive simulations, drills and references for Edexcel International A Level Chemistry, Physics and Maths. By students, for students."
   tab="home"
   status={{ label: 'Home', hint: 'Pick a subject, or search every tool below.' }}
   stats={[{ label: 'Tools', value: TOOLS.length }, { label: 'Subjects', value: SUBJECTS.length }, { label: 'Units covered', value: `${covered}/${allUnits.length}` }]}
 >
   <section class="panel hero rise" aria-labelledby="hero-h">
     <div>
-      <p class="eyebrow">Chemistry · Physics</p>
+      <p class="eyebrow">Chemistry · Physics · Maths</p>
       <h2 id="hero-h">Revise by <span class="d">doing</span>, not rereading.</h2>
       <p class="lede">Interactive simulations, drills and references built around the Edexcel IAL specifications. By students, for students, and free for everyone.</p>
       <div class="ctas">
@@ -56,14 +58,14 @@ const ring = (i: number, r: number) => { const a = (i * 2 * Math.PI) / SUBJECTS.
   </section>
 
   <section class="section" aria-labelledby="subjects-h">
-    <div class="section-h"><div><h2 id="subjects-h">Subjects</h2><p>Six units each, from the 2018 specifications.</p></div></div>
+    <div class="section-h"><div><h2 id="subjects-h">Subjects</h2><p>Every unit, from the 2018 specifications.</p></div></div>
     <div class="subjects">
       {SUBJECTS.map((s, i) => { const n = toolsFor(s.id).length; return (
         <a class="subject glass rise" href={`/${s.id}/`} style={`--hue:var(${s.hue});--i:${i + 1}`}>
           <span class="art"><Art name={motif[s.id]} size={60} /></span>
           <h3>{s.name}</h3>
           <p>{s.blurb}</p>
-          <span class="count"><b>{n}</b> {n === 1 ? 'tool' : 'tools'} · {s.units.length} units</span>
+          <span class="count"><b>{n}</b> {n === 1 ? 'tool' : 'tools'} · {papers[s.id] ? `${papers[s.id]} past papers` : `${s.units.length} units`}</span>
         </a>
       ); })}
       <a class="subject glass wanted rise" href={REPO} style={`--hue:var(--acidbase);--i:${SUBJECTS.length + 1}`}>
