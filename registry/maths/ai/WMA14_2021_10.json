@@ -46,12 +46,12 @@
    }
   },
   "3": {
-   "at": "2026-11-25",
+   "at": "2026-11-26",
    "concerns": [
-    "3(b): MARK SCHEME rows is cut horizontally through the first line of part 3(b) ('(b) g(x) = 3x - 1 - 2/x + 2/(x+3)'), leaving the top half at the bottom of 3(a): MARK SCHEME rows.",
-    "3(c): MARK SCHEME rows includes the '3(a) ALT (Via division)' block, which belongs to part 3(a)."
+    "3(a): mark-scheme crop includes a horizontally sliced fragment of part (b)'s first row (g(x) = 3x - 1 - 2/x + 2/(x+3)) at the bottom edge above 3(a) ALT",
+    "3(b): mark-scheme crop is cut horizontally through the first line (g(x) = 3x - 1 - 2/x + 2/(x+3)), cutting off the top of the text and the numerators 2 at the top edge"
    ],
-   "fingerprint": "9322662a6371",
+   "fingerprint": "bb3bb579dcc9",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc",

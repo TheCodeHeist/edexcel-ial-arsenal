@@ -37,9 +37,9 @@
    }
   },
   "3": {
-   "at": "2026-11-25",
+   "at": "2026-11-26",
    "concerns": [],
-   "fingerprint": "4010c98e753b",
+   "fingerprint": "17e1fdd08563",
    "kinds": {
     "3(a)": "calc",
     "3(b)": "calc"
@@ -72,9 +72,9 @@
    }
   },
   "5": {
-   "at": "2026-11-20",
+   "at": "2026-11-26",
    "concerns": [],
-   "fingerprint": "735554d33f1e",
+   "fingerprint": "d037214d4af3",
    "kinds": {
     "5(a)": "calc",
     "5(b)": "calc"
@@ -91,7 +91,7 @@
   "6": {
    "at": "2026-11-25",
    "concerns": [],
-   "fingerprint": "85362e3176c8",
+   "fingerprint": "3bcbb281ed70",
    "kinds": {
     "6(a)": "short",
     "6(b)": "calc",
@@ -114,9 +114,9 @@
    }
   },
   "7": {
-   "at": "2026-11-25",
+   "at": "2026-11-26",
    "concerns": [],
-   "fingerprint": "15e944a04e88",
+   "fingerprint": "77eb1047010c",
    "kinds": {
     "7(a)": "calc",
     "7(b)": "calc",
@@ -141,12 +141,9 @@
    }
   },
   "8": {
-   "at": "2026-11-25",
-   "concerns": [
-    "8(a): bottom of the final coordinate answer (5/2, 10) in mark-scheme row is cut off through the denominator 2",
-    "8(b): stray clipped bottom fragment of (5/2, 10) from 8(a) appears at the top of the mark-scheme rows"
-   ],
-   "fingerprint": "293d2feb6b58",
+   "at": "2026-11-26",
+   "concerns": [],
+   "fingerprint": "76254107d636",
    "kinds": {
     "8(a)": "calc",
     "8(b)": "calc",
@@ -154,8 +151,8 @@
    },
    "topics": {
     "8(a)": [
-     "FP1.4.4",
-     "FP1.4.1"
+     "FP1.4.1",
+     "FP1.4.2"
     ],
     "8(b)": [
      "FP1.4.4",
