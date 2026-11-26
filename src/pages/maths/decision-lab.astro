@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/decision/App.svelte';
+import '../../sims/decision/decision.css';
+---
+<Sim title="Decision Lab" description="Step through every Edexcel IAL Decision Mathematics D1 algorithm the way the mark scheme wants it: sorting, bin packing, Kruskal, Prim, Dijkstra, route inspection, the travelling salesman, critical path analysis and linear programming.">
+  <App client:only="svelte" />
+</Sim>

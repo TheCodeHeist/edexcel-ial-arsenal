@@ -23,6 +23,13 @@
   let inputEl = $state<HTMLInputElement>();
 
   const SUBTABS: Omit<CmdItem, 'id'>[] = [
+    { title: 'Bubble Sort, Quick Sort & Binary Search', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 sorting bubble quick sort pivot binary search algorithm', href: '/maths/decision-lab/#sort' },
+    { title: 'Bin Packing', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 bin packing first fit decreasing full bin lower bound', href: '/maths/decision-lab/#bins' },
+    { title: 'Kruskal & Prim (Minimum Spanning Tree)', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 mst minimum spanning tree kruskal prim matrix', href: '/maths/decision-lab/#trees' },
+    { title: 'Dijkstra’s Algorithm', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 dijkstra shortest path working values', href: '/maths/decision-lab/#dijkstra' },
+    { title: 'Route Inspection & Travelling Salesman', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 chinese postman route inspection odd vertices tsp nearest neighbour lower bound', href: '/maths/decision-lab/#routes' },
+    { title: 'Critical Path Analysis & Gantt Charts', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 cpa critical path float early late event gantt cascade', href: '/maths/decision-lab/#cpa' },
+    { title: 'Linear Programming', sub: 'Decision Lab', tag: 'Maths', keywords: 'd1 lp linear programming feasible region objective line vertex method', href: '/maths/decision-lab/#lp' },
     { title: 'VSEPR Shapes & Polarity', sub: 'Atoms & Bonding Lab', tag: 'Chem', keywords: 'vsepr bond angle lone pair dipole tetrahedral', href: '/chemistry/atoms-bonding-lab/#shapes' },
     { title: 'Quantum Orbitals & Electron Config', sub: 'Atoms & Bonding Lab', tag: 'Chem', keywords: 'orbitals s p d cr cu aufbau hunds', href: '/chemistry/atoms-bonding-lab/#orbitals' },
     { title: 'Ionisation Energies', sub: 'Atoms & Bonding Lab', tag: 'Chem', keywords: 'ionisation ie successive period 3', href: '/chemistry/atoms-bonding-lab/#ie' },
@@ -125,7 +132,7 @@
       id: `tool-${t.slug}`,
       title: t.title,
       sub: `${t.units.join(' · ')} — ${t.topics.slice(0, 3).join(', ')}`,
-      tag: t.subject === 'chemistry' ? 'Chem' : 'Phys',
+      tag: t.subject === 'chemistry' ? 'Chem' : t.subject === 'maths' ? 'Maths' : 'Phys',
       keywords: `${t.title} ${t.subject} ${t.units.join(' ')} ${t.topics.join(' ')}`,
       href: t.href,
     })),

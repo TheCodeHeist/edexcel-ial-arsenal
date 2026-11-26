@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields' | 'graph';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields' | 'graph' | 'network';
 
 export interface Tool {
   slug: string;
@@ -152,6 +152,18 @@ export const TOOLS: Tool[] = [
     art: 'fields',
     href: '/physics/fields-lab/',
     added: '2026-11-24',
+  },
+  {
+    slug: 'decision-lab',
+    subject: 'maths',
+    title: 'Decision Lab',
+    blurb: 'Every D1 algorithm, stepped through the way the mark scheme wants it written: bubble and quick sort, binary search, bin packing, Kruskal and Prim (on the network and the matrix), Dijkstra on the exam’s boxes, route inspection, travelling-salesman bounds, critical path analysis with cascade charts, and linear programming by the ruler and vertex methods. Turn on Quiz me to predict each step.',
+    kind: 'Simulation',
+    units: ['WDM11'],
+    topics: ['Bubble sort', 'Quick sort', 'Binary search', 'Bin packing', 'Kruskal and Prim', 'Dijkstra', 'Route inspection', 'Travelling salesman', 'Critical path analysis', 'Linear programming'],
+    art: 'network',
+    href: '/maths/decision-lab/',
+    added: '2026-11-26',
   },
 ];
 

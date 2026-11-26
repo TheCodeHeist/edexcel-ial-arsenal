@@ -140,6 +140,15 @@
     <path d="M-30 -2.8 L-27 -12.8 -24 -20.2 -21 -25.4 -18 -28.6 -15 -29.9 -12 -29.7 -9 -28.1 -6 -25.4 -3 -21.9 0 -17.7 3 -13.1 6 -8.4 9 -3.8 12 0.6 15 4.3 18 7.3 21 9.3 24 10 27 9.2 30 6.7 33 2.2 36 -4.5 39 -13.6 42 -25.4 45 -40.2 46 -45.7" stroke="var(--cond)" stroke-width="2.8" />
     <path d="M24 27 L46 -30.8" stroke="var(--accent)" stroke-width="2.4" />
     <circle cx="36" cy="-4.5" r="4" fill="var(--amph)" />
+  {:else if name === 'network'}
+    <!-- a weighted network with its minimum spanning tree picked out, one rejected arc dashed -->
+    <path d="M-40 -26 L-36 22 M-2 -40 L4 4 M38 -18 L44 30" stroke="var(--ink)" stroke-opacity=".35" stroke-width="2.2" />
+    <path d="M-36 22 L4 4" stroke="var(--redox)" stroke-opacity=".7" stroke-width="2.2" stroke-dasharray="4 5" />
+    <path d="M-40 -26 L-2 -40 L38 -18 M-2 -40 L-36 22 M4 4 L38 -18 M4 4 L44 30 M-36 22 L2 44" stroke="var(--cond)" stroke-width="3.2" />
+    {#each [[-40, -26], [-2, -40], [38, -18], [-36, 22], [4, 4], [44, 30], [2, 44]] as [x, y]}
+      <circle cx={x} cy={y} r="6.5" fill="var(--solid)" stroke="var(--ink)" stroke-opacity=".8" stroke-width="2.2" />
+    {/each}
+    <circle cx="4" cy="4" r="6.5" fill="var(--amph)" stroke="var(--ink)" stroke-opacity=".8" stroke-width="2.2" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

@@ -5,7 +5,7 @@
 const STATIC_CACHE = 'ial-static-v2';
 const RUNTIME_CACHE = 'ial-runtime-v2';
 const MAX_RUNTIME_ITEMS = 120;
-const PRECACHE = ['/', '/offline.html', '/chemistry/', '/physics/', '/papers/', '/favicon.svg', '/manifest.webmanifest'];
+const PRECACHE = ['/', '/offline.html', '/chemistry/', '/physics/', '/maths/', '/papers/', '/favicon.svg', '/manifest.webmanifest'];
 
 async function trimCache(cacheName, maxItems) {
   const cache = await caches.open(cacheName);
