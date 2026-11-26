@@ -481,7 +481,7 @@ MS_TOTAL = re.compile(
 MARK_CODES = re.compile(r"^(?:d{0,2}[MABE]\d(?:\*|ft|cao|cso|oe)?\s*,?\s*)+(?:ft)?$", re.I)
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 MS_PART_SUB = re.compile(r"^(?:(?:d{0,2}[MABE]\d(?:\*|ft|cao|cso|oe)?\s*,?\s*)+)?[(\[](\d{1,2})[)\]]$", re.I)
-ALT_LEAD = re.compile(r"^(?:(?:\d{1,2}\s*\.?\s*)?\(\s*[a-h]\s*\)\s*(?:ALT|Alt|Alternative|ALTERNATIVE)\b|ALT\b|Alt\b|ALTERNATIVE\b|Alternative\b|Aliter\b|SC\s*:|Other\s+possible\b|N\.\s?B\.|or\s*$|Way\s*(?:\d|One|Two|Three)|Example\b|(?:e\.g\.?\s*)?Middle\s+(?:Left|Right)\b|Notes\s+for\s+part\b)", re.I)
+ALT_LEAD = re.compile(r"^(?:(?:\d{1,2}\s*\.?\s*)?\(\s*[a-h]\s*\)\s*(?:ALT|Alt|Alternative|ALTERNATIVE)\b|ALT\b|Alt\b|ALTERNATIVE\b|Alternative\b|Aliter\b|SC\s*:|Other\s+possible\b|N\.\s?B\.|or\s*$|Way\s*(?:\d|One|Two|Three)|Example\b|(?:e\.g\.?\s*)?Middle\s+(?:Left|Right)\b|e\.g\.?\s*(?:Left|Right)\s+to\s+(?:Left|Right)\b|Notes\s+for\s+part\b)", re.I)
 POST_ALT = re.compile(r"^(?:(?:Alt|ALT|Alternative|Aliter|Way\s*(?:\d|One|Two|Three))\s*(?:\(\s*([a-h]|i|ii|iii)\s*\))?|(?:(?:\d{1,2}\s*\.?\s*)?\(\s*([a-h]|i|ii|iii)\s*\)\s*(?:Alt|ALT|Alternative|Aliter|Way\s*(?:\d|One|Two|Three))))\s*:?\s*$", re.I)
 PROSE_NOTE = re.compile(r"^(?:M\d|A\d|B\d|dM\d|ddM\d|Main\s+method|Notes?\b|\([a-h]\)\s*(?:Ignore|Accept|Condone|Allow|Do not|Must))", re.I)
 
@@ -1298,6 +1298,8 @@ def rule_ys(doc, pno):
                 spans.setdefault(ry, []).append((r.x0, r.x1))
         _RULES[key] = [y for y, w in width.items() if w > 300]
         cover = {}
+        _RULE_X[key] = {y: (min(a for a, _ in spans[y]), max(b for _, b in spans[y]))
+                        for y in _RULES[key] if spans.get(y)}
         for y in _RULES[key]:
             tot, end = 0.0, -1e9
             for a, b in sorted(spans.get(y, ())):
@@ -1310,6 +1312,7 @@ def rule_ys(doc, pno):
 
 
 _RULE_W = {}
+_RULE_X = {}
 
 
 def row_rule_ys(doc, pno):
@@ -1381,6 +1384,11 @@ def table_top(doc, pno, y_first, floor, headers=(), items=(), col=None):
         if gap >= 90 and not (gap < 260 and any(it.y0 < top - 4 and it.y1 > y + 4 for it in p_media)):
             break
         if col is not None and not col_rule_spans(doc, pno, col, y, top):
+            break
+        # a separate table stacked just above, both its edges elsewhere (D1 Jan 2022 4: Q3's notes end with a
+        # precedence table 4pt over Q4's table)
+        ex = _RULE_X.get((doc.name, pno), {})
+        if y in ex and top in ex and abs(ex[y][0] - ex[top][0]) > 3 and abs(ex[y][1] - ex[top][1]) > 3:
             break
         top = y
     return min(top - 0.5, y_first)
