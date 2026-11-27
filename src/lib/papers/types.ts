@@ -58,8 +58,9 @@ export interface Crop {
   region: Region;       // where it came from, so the review tool can re-cut it
 }
 
-/** Who stands behind a tag: nobody yet, a model's guess, or a human who checked it. */
-export type TagStatus = 'none' | 'suggested' | 'reviewed';
+/** Who stands behind a tag: nobody yet, a model's guess, a second model pass that checked it spec point by spec
+    point (pipeline/tag_audit.py), or a human who checked it. */
+export type TagStatus = 'none' | 'suggested' | 'audited' | 'reviewed';
 
 export type PartKind =
   | 'mcq'               // Section A, one of A–D

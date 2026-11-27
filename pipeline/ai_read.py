@@ -190,7 +190,7 @@ DRAWS_ON = {"WPH11": ["WPH11"], "WPH12": ["WPH12", "WPH11"], "WPH13": ["WPH13", 
             # Maths: each unit, then the units it builds on. C12/C34 (WMA01/02, before 2019) and D1 before 2019
             # (WDM01) take the 2018 spec's tags.
             "WMA11": ["WMA11"], "WMA12": ["WMA12", "WMA11"], "WMA13": ["WMA13", "WMA12", "WMA11"],
-            "WMA14": ["WMA14", "WMA13", "WMA12", "WMA11"], "WMA01": ["WMA11", "WMA12"], "WMA02": ["WMA13", "WMA14"],
+            "WMA14": ["WMA14", "WMA13", "WMA12", "WMA11"], "WMA01": ["WMA11", "WMA12"], "WMA02": ["WMA13", "WMA14", "WMA11", "WMA12"],
             "WFM01": ["WFM01", "WMA11", "WMA12"], "WFM02": ["WFM02", "WFM01", "WMA11", "WMA12", "WMA13", "WMA14"],
             "WFM03": ["WFM03", "WFM02", "WFM01", "WMA13", "WMA14"],
             "WME01": ["WME01", "WMA11", "WMA12"], "WME02": ["WME02", "WME01", "WMA11", "WMA12", "WMA13"],

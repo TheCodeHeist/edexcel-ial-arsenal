@@ -30,6 +30,7 @@ const s = PAPER_SUBJECTS.find((x) => x.id === subjectId)!;
 const topics = topicIndex(s.id);
 const marks = items.reduce((n, x) => n + x.part.marks, 0);
 const papers = new Set(items.map((x) => x.paper.id)).size;
+const allChecked = items.every((x) => x.part.tagStatus === 'audited' || x.part.tagStatus === 'reviewed');
 
 const size = (c: Crop) => ({ width: Math.round((c.w * 96) / 150), height: Math.round((c.h * 96) / 150) });
 /* The lead-in a part needs: its question's opening (if the part isn't the whole question) and its own intro. */
@@ -51,7 +52,7 @@ const context = (x: TaggedPart) => [...x.question.stem, ...(x.part.intro ?? [])]
     <h2>{point.short}</h2>
     <p class="credit">{point.text}</p>
     <p class="credit">{items.length} question part{items.length === 1 ? '' : 's'} from {papers} paper{papers === 1 ? '' : 's'},
-      newest first. Topics were suggested by an AI reader and are being checked.</p>
+      newest first. Topics were suggested by an AI reader{allChecked ? ' and checked a second time, spec point by spec point' : ' and are being checked'}.</p>
   </header>
 
   <ol class="questions">

@@ -114,6 +114,9 @@ def apply(paper, reviews, ai=None):
     (the question changed since it was judged)."""
     if ai is None:
         ai = load_ai(paper["subject"], paper["id"])
+    # the topic-tag audit (tag_audit.py): a second reader's checked tag list for a part
+    tf = path(paper["subject"], paper["id"], "tags")
+    tagged = json.loads(tf.read_text())["parts"] if tf.exists() else {}
     lapsed = 0
     for q in paper["questions"]:
         for p in q["parts"]:
@@ -133,6 +136,8 @@ def apply(paper, reviews, ai=None):
             ai_topics = read.get("topics", {}).get(p["label"])
             if "topics" in fix:
                 p["topics"], p["tagStatus"] = fix["topics"], "reviewed"
+            elif p["label"] in tagged:
+                p["topics"], p["tagStatus"] = tagged[p["label"]]["topics"], "audited"
             elif ai_topics:
                 p["topics"], p["tagStatus"] = ai_topics, "suggested"
             else:

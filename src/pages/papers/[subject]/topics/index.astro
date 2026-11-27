@@ -13,6 +13,10 @@ const list = topicList(s.id);
 const parts = partsByTopic(s.id);
 const tagged = list ? list.units.flatMap((u) => u.groups.flatMap((g) => g.points)).filter((p) => parts.has(p.id)).length : 0;
 const total = [...parts.values()].reduce((n, xs) => n + xs.length, 0);
+/* how many distinct parts have had their tags checked (by the spec-point audit or a person) */
+const uniq = new Map([...parts.values()].flat().map((x) => [`${x.paper.id} ${x.part.label}`, x.part]));
+const checked = [...uniq.values()].filter((p) => p.tagStatus === 'audited' || p.tagStatus === 'reviewed').length;
+const share = uniq.size ? Math.min(99, Math.round((100 * checked) / uniq.size)) : 0;
 ---
 <Base
   title={`${s.name} practice by topic`}
@@ -31,8 +35,11 @@ const total = [...parts.values()].reduce((n, xs) => n + xs.length, 0);
     </div>
 
     <p class="credit-note panel">
-      Topics were suggested by an AI reader from each question and its mark scheme and are being checked, so a
-      question can sit under a neighbouring point. The questions and mark schemes are © Pearson Education Ltd,
+      Topics were suggested by an AI reader from each question and its mark scheme.{' '}
+      {uniq.size > 0 && checked === uniq.size ? 'All of them have since been checked a second time, spec point by spec point,'
+        : share > 0 ? `${share}% of them have since been checked a second time, spec point by spec point; the rest are being checked,`
+        : 'They are being checked,'}{' '}
+      but a question can still sit under a neighbouring point. The questions and mark schemes are © Pearson Education Ltd,
       shared for free by{' '}<a href="https://www.paperlords.org/ial">PaperLords</a> and{' '}
       <a href="https://www.physicsandmathstutor.com/">Physics &amp; Maths Tutor</a>.
     </p>
