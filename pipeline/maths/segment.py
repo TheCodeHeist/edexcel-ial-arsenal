@@ -824,6 +824,8 @@ def ms_split(ms_doc, questions):
         ltext = l.text.replace("©", "(c)")
         if (closed and cur_q is not None and l.page in columns
                 and ((am := POST_ALT.match(ltext))
+                     # 'Alt1' run on with its scheme text in one line ('Alt1 Using N2L parallel and ...': M3 Jan 2024 4)
+                     or (am := re.match(r"^(?:Alt|ALT)\s*\d\s+()()(?=[A-Za-z])", ltext))
                      # or the question's own part label opening a marked table after its total: an alternative
                      # for that part ('9(a)' at a page foot, then 'Example Alt' over the page: P3 Oct 2022 9)
                      or ((am := re.fullmatch(rf"{cur_q}\s*\(\s*([a-h])\s*\)()", ltext))

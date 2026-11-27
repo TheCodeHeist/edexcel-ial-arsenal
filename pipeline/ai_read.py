@@ -121,6 +121,11 @@ def show(paper_id, number):
         prev = None                     # read as it is cut now: nothing to carry
     image = OUT / f"{paper_id}_q{q['number']}.png"
     stitch(pieces, image)
+    # the site's own note for students on this question (registry/<subject>/notes.json): a fault of the source
+    # PDF it already explains is not a cutting problem
+    nf = ROOT / "registry" / paper["subject"] / "notes.json"
+    site_note = (json.loads(nf.read_text()).get(paper_id, {}).get("questions", {}).get(str(q["number"]))
+                 if nf.exists() else None)
     print(json.dumps({
         "paper": paper_id, "question": q["number"], "image": str(image), "marks": q["marks"],
         "parts": [{"label": p["label"], "marks": p["marks"], "kind_guessed": p.get("kindGuessed", p["kind"]),
@@ -129,6 +134,7 @@ def show(paper_id, number):
         # an earlier reading of this question before it was re-cut: its kinds and topics still hold (they don't
         # depend on the cut); only the crops need checking again
         **({"previous_reading": {k: prev[k] for k in ("kinds", "topics") if k in prev}} if prev else {}),
+        **({"site_note": site_note} if site_note else {}),
     }, indent=1, ensure_ascii=False))
 
 
