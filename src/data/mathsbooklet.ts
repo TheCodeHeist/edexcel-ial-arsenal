@@ -1,12 +1,23 @@
 /* Pearson Edexcel IAL Mathematics "Mathematical Formulae and Statistical Tables" (Issue 2, January 2021), for P1–P4,
-   FP1–FP3, M1–M3 and S1–S3. Copied from the booklet unit by unit, in its order and wording; only the layout is ours
-   (fractions and roots are written on one line). The normal, binomial and Poisson tables are computed in
+   FP1–FP3, M1–M3 and S1–S3. Copied from the booklet unit by unit, in its order and wording; only the layout is ours.
+   Each item keeps a plain-text `eq` (search, fallback) beside the KaTeX `tex` the booklet modal renders. The normal, binomial and Poisson tables are computed in
    src/lib/stats.ts; the χ² and correlation tables are typed in below exactly as printed (ν = 1, 10%: 2.705). */
 
 export const MATHS_BOOKLET_URL =
   'https://qualifications.pearson.com/content/dam/pdf/International%20Advanced%20Level/Mathematics/2018/Specification-and-Sample-Assessment/IAL-Mathematics-Formula-Book.pdf';
 
-export interface MathsItem { label: string; eq: string }
+/** LaTeX source, written with String.raw so backslashes stay literal. */
+const t = String.raw;
+
+export interface MathsItem {
+  label: string;
+  /** Plain-text form: used for search and as the fallback before KaTeX loads. */
+  eq: string;
+  /** KaTeX source; several entries render as separate pieces that wrap independently. */
+  tex: string[];
+  /** KaTeX source for the label, when the label itself is maths (f(x) columns, Σ r², …). */
+  ltex?: string;
+}
 export interface MathsSection { title: string; items: MathsItem[] }
 export interface MathsUnit {
   badge: string;       // P1, FP2, S3…
@@ -17,64 +28,69 @@ export interface MathsUnit {
   sections: MathsSection[];
 }
 
+const BINOM_1PX = t`(1+x)^n = 1 + nx + \frac{n(n-1)}{1\times 2}x^2 + \cdots + \frac{n(n-1)\cdots(n-r+1)}{1\times 2\times\cdots\times r}x^r + \cdots \quad (|x|<1,\ n\in\mathbb{R})`;
+
 export const MATHS_UNITS: MathsUnit[] = [
   {
     badge: 'P1', code: 'WMA11', title: 'Pure Mathematics 1',
     sections: [
       { title: 'Mensuration', items: [
-        { label: 'Surface area of sphere', eq: '4πr²' },
-        { label: 'Area of curved surface of cone', eq: 'πr × slant height' },
+        { label: 'Surface area of sphere', eq: '4πr²', tex: [t`S = 4\pi r^2`] },
+        { label: 'Area of curved surface of cone', eq: 'πr × slant height', tex: [t`S = \pi r \times \text{slant height}`] },
       ] },
-      { title: 'Cosine rule', items: [{ label: 'Cosine rule', eq: 'a² = b² + c² − 2bc cos A' }] },
+      { title: 'Cosine rule', items: [{ label: 'Cosine rule', eq: 'a² = b² + c² − 2bc cos A', tex: [t`a^2 = b^2 + c^2 - 2bc\cos A`] }] },
     ],
   },
   {
     badge: 'P2', code: 'WMA12', title: 'Pure Mathematics 2',
     sections: [
       { title: 'Arithmetic series', items: [
-        { label: 'nth term', eq: 'uₙ = a + (n − 1)d' },
-        { label: 'Sum', eq: 'Sₙ = ½n(a + l) = ½n[2a + (n − 1)d]' },
+        { label: 'nth term', eq: 'uₙ = a + (n − 1)d', tex: [t`u_n = a + (n-1)d`] },
+        { label: 'Sum', eq: 'Sₙ = ½n(a + l) = ½n[2a + (n − 1)d]', tex: [t`S_n = \tfrac12 n(a+l) = \tfrac12 n\left[2a + (n-1)d\right]`] },
       ] },
       { title: 'Geometric series', items: [
-        { label: 'nth term', eq: 'uₙ = arⁿ⁻¹' },
-        { label: 'Sum', eq: 'Sₙ = a(1 − rⁿ) / (1 − r)' },
-        { label: 'Sum to infinity', eq: 'S∞ = a / (1 − r)   for |r| < 1' },
+        { label: 'nth term', eq: 'uₙ = arⁿ⁻¹', tex: [t`u_n = ar^{n-1}`] },
+        { label: 'Sum', eq: 'Sₙ = a(1 − rⁿ) / (1 − r)', tex: [t`S_n = \frac{a(1-r^n)}{1-r}`] },
+        { label: 'Sum to infinity', eq: 'S∞ = a / (1 − r)   for |r| < 1', tex: [t`S_\infty = \frac{a}{1-r} \quad \text{for } |r|<1`] },
       ] },
-      { title: 'Logarithms and exponentials', items: [{ label: 'Change of base', eq: 'logₐ x = log_b x / log_b a' }] },
+      { title: 'Logarithms and exponentials', items: [{ label: 'Change of base', eq: 'logₐ x = log_b x / log_b a', tex: [t`\log_a x = \frac{\log_b x}{\log_b a}`] }] },
       { title: 'Binomial series', items: [
-        { label: '(a + b)ⁿ', eq: '(a + b)ⁿ = aⁿ + ⁿC₁ aⁿ⁻¹b + ⁿC₂ aⁿ⁻²b² + … + ⁿCᵣ aⁿ⁻ʳbʳ + … + bⁿ   (n ∈ ℕ)' },
-        { label: 'ⁿCᵣ', eq: 'ⁿCᵣ = (n r) = n! / (r!(n − r)!)' },
-        { label: '(1 + x)ⁿ', eq: '(1 + x)ⁿ = 1 + nx + n(n − 1)/(1×2) x² + … + n(n − 1)…(n − r + 1)/(1×2×…×r) xʳ + …   (|x| < 1, n ∈ ℝ)' },
+        { label: '(a + b)ⁿ', eq: '(a + b)ⁿ = aⁿ + ⁿC₁ aⁿ⁻¹b + ⁿC₂ aⁿ⁻²b² + … + ⁿCᵣ aⁿ⁻ʳbʳ + … + bⁿ   (n ∈ ℕ)', ltex: t`(a+b)^n`,
+          tex: [t`(a+b)^n = a^n + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^2 + \cdots + \binom{n}{r}a^{n-r}b^r + \cdots + b^n \quad (n\in\mathbb{N})`] },
+        { label: 'ⁿCᵣ', eq: 'ⁿCᵣ = (n r) = n! / (r!(n − r)!)', ltex: t`{}^nC_r`, tex: [t`\binom{n}{r} = {}^nC_r = \frac{n!}{r!\,(n-r)!}`] },
+        { label: '(1 + x)ⁿ', eq: '(1 + x)ⁿ = 1 + nx + n(n − 1)/(1×2) x² + … + n(n − 1)…(n − r + 1)/(1×2×…×r) xʳ + …   (|x| < 1, n ∈ ℝ)', ltex: t`(1+x)^n`, tex: [BINOM_1PX] },
       ] },
       { title: 'Numerical integration', items: [
-        { label: 'The trapezium rule', eq: '∫ₐᵇ y dx ≈ ½h{(y₀ + yₙ) + 2(y₁ + y₂ + … + yₙ₋₁)},  where h = (b − a)/n' },
+        { label: 'The trapezium rule', eq: '∫ₐᵇ y dx ≈ ½h{(y₀ + yₙ) + 2(y₁ + y₂ + … + yₙ₋₁)},  where h = (b − a)/n',
+          tex: [t`\int_a^b y\,dx \approx \tfrac12 h\{(y_0+y_n) + 2(y_1+y_2+\cdots+y_{n-1})\}`, t`\text{where } h = \frac{b-a}{n}`] },
       ] },
     ],
   },
   {
     badge: 'P3', code: 'WMA13', title: 'Pure Mathematics 3', also: 'P1 and P2',
     sections: [
-      { title: 'Logarithms and exponentials', items: [{ label: 'aˣ', eq: 'e^(x ln a) = aˣ' }] },
+      { title: 'Logarithms and exponentials', items: [{ label: 'aˣ', ltex: t`a^x`, eq: 'e^(x ln a) = aˣ', tex: [t`e^{x\ln a} = a^x`] }] },
       { title: 'Trigonometric identities', items: [
-        { label: 'sin (A ± B)', eq: 'sin(A ± B) ≡ sin A cos B ± cos A sin B' },
-        { label: 'cos (A ± B)', eq: 'cos(A ± B) ≡ cos A cos B ∓ sin A sin B' },
-        { label: 'tan (A ± B)', eq: 'tan(A ± B) ≡ (tan A ± tan B) / (1 ∓ tan A tan B)   (A ± B ≠ (k + ½)π)' },
-        { label: 'sin A + sin B', eq: 'sin A + sin B ≡ 2 sin ½(A + B) cos ½(A − B)' },
-        { label: 'sin A − sin B', eq: 'sin A − sin B ≡ 2 cos ½(A + B) sin ½(A − B)' },
-        { label: 'cos A + cos B', eq: 'cos A + cos B ≡ 2 cos ½(A + B) cos ½(A − B)' },
-        { label: 'cos A − cos B', eq: 'cos A − cos B ≡ −2 sin ½(A + B) sin ½(A − B)' },
+        { label: 'sin (A ± B)', ltex: t`\sin(A\pm B)`, eq: 'sin(A ± B) ≡ sin A cos B ± cos A sin B', tex: [t`\sin(A\pm B) \equiv \sin A\cos B \pm \cos A\sin B`] },
+        { label: 'cos (A ± B)', ltex: t`\cos(A\pm B)`, eq: 'cos(A ± B) ≡ cos A cos B ∓ sin A sin B', tex: [t`\cos(A\pm B) \equiv \cos A\cos B \mp \sin A\sin B`] },
+        { label: 'tan (A ± B)', ltex: t`\tan(A\pm B)`, eq: 'tan(A ± B) ≡ (tan A ± tan B) / (1 ∓ tan A tan B)   (A ± B ≠ (k + ½)π)',
+          tex: [t`\tan(A\pm B) \equiv \frac{\tan A \pm \tan B}{1 \mp \tan A\tan B}`, t`\left(A\pm B \neq (k+\tfrac12)\pi\right)`] },
+        { label: 'sin A + sin B', ltex: t`\sin A + \sin B`, eq: 'sin A + sin B ≡ 2 sin ½(A + B) cos ½(A − B)', tex: [t`\sin A + \sin B \equiv 2\sin\frac{A+B}{2}\cos\frac{A-B}{2}`] },
+        { label: 'sin A − sin B', ltex: t`\sin A - \sin B`, eq: 'sin A − sin B ≡ 2 cos ½(A + B) sin ½(A − B)', tex: [t`\sin A - \sin B \equiv 2\cos\frac{A+B}{2}\sin\frac{A-B}{2}`] },
+        { label: 'cos A + cos B', ltex: t`\cos A + \cos B`, eq: 'cos A + cos B ≡ 2 cos ½(A + B) cos ½(A − B)', tex: [t`\cos A + \cos B \equiv 2\cos\frac{A+B}{2}\cos\frac{A-B}{2}`] },
+        { label: 'cos A − cos B', ltex: t`\cos A - \cos B`, eq: 'cos A − cos B ≡ −2 sin ½(A + B) sin ½(A − B)', tex: [t`\cos A - \cos B \equiv -2\sin\frac{A+B}{2}\sin\frac{A-B}{2}`] },
       ] },
       { title: 'Differentiation: f(x) → f′(x)', items: [
-        { label: 'tan kx', eq: 'k sec² kx' },
-        { label: 'sec x', eq: 'sec x tan x' },
-        { label: 'cot x', eq: '−cosec² x' },
-        { label: 'cosec x', eq: '−cosec x cot x' },
-        { label: 'f(x) / g(x)', eq: '(f′(x)g(x) − f(x)g′(x)) / (g(x))²' },
+        { label: 'tan kx', ltex: t`\tan kx`, eq: 'k sec² kx', tex: [t`k\sec^2 kx`] },
+        { label: 'sec x', ltex: t`\sec x`, eq: 'sec x tan x', tex: [t`\sec x\tan x`] },
+        { label: 'cot x', ltex: t`\cot x`, eq: '−cosec² x', tex: [t`-\operatorname{cosec}^2 x`] },
+        { label: 'cosec x', ltex: t`\operatorname{cosec} x`, eq: '−cosec x cot x', tex: [t`-\operatorname{cosec} x\cot x`] },
+        { label: 'f(x) / g(x)', ltex: t`\dfrac{f(x)}{g(x)}`, eq: '(f′(x)g(x) − f(x)g′(x)) / (g(x))²', tex: [t`\frac{f'(x)g(x) - f(x)g'(x)}{\left(g(x)\right)^2}`] },
       ] },
       { title: 'Integration (+ constant): f(x) → ∫ f(x) dx', items: [
-        { label: 'sec² kx', eq: '(1/k) tan kx' },
-        { label: 'tan x', eq: 'ln |sec x|' },
-        { label: 'cot x', eq: 'ln |sin x|' },
+        { label: 'sec² kx', ltex: t`\sec^2 kx`, eq: '(1/k) tan kx', tex: [t`\frac1k\tan kx`] },
+        { label: 'tan x', ltex: t`\tan x`, eq: 'ln |sec x|', tex: [t`\ln|\sec x|`] },
+        { label: 'cot x', ltex: t`\cot x`, eq: 'ln |sin x|', tex: [t`\ln|\sin x|`] },
       ] },
     ],
   },
@@ -82,12 +98,12 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'P4', code: 'WMA14', title: 'Pure Mathematics 4', also: 'P1, P2 and P3',
     sections: [
       { title: 'Binomial series', items: [
-        { label: '(1 + x)ⁿ', eq: '(1 + x)ⁿ = 1 + nx + n(n − 1)/(1×2) x² + … + n(n − 1)…(n − r + 1)/(1×2×…×r) xʳ + …   (|x| < 1, n ∈ ℝ)' },
+        { label: '(1 + x)ⁿ', ltex: t`(1+x)^n`, eq: '(1 + x)ⁿ = 1 + nx + n(n − 1)/(1×2) x² + … + n(n − 1)…(n − r + 1)/(1×2×…×r) xʳ + …   (|x| < 1, n ∈ ℝ)', tex: [BINOM_1PX] },
       ] },
       { title: 'Integration (+ constant): f(x) → ∫ f(x) dx', items: [
-        { label: 'cosec x', eq: '−ln |cosec x + cot x|,   ln |tan ½x|' },
-        { label: 'sec x', eq: 'ln |sec x + tan x|,   ln |tan(½x + ¼π)|' },
-        { label: 'By parts', eq: '∫ u (dv/dx) dx = uv − ∫ v (du/dx) dx' },
+        { label: 'cosec x', ltex: t`\operatorname{cosec} x`, eq: '−ln |cosec x + cot x|,   ln |tan ½x|', tex: [t`-\ln|\operatorname{cosec} x + \cot x|,`, t`\ln\left|\tan\tfrac12 x\right|`] },
+        { label: 'sec x', ltex: t`\sec x`, eq: 'ln |sec x + tan x|,   ln |tan(½x + ¼π)|', tex: [t`\ln|\sec x + \tan x|,`, t`\ln\left|\tan\left(\tfrac12 x + \tfrac14\pi\right)\right|`] },
+        { label: 'By parts', eq: '∫ u (dv/dx) dx = uv − ∫ v (du/dx) dx', tex: [t`\int u\frac{dv}{dx}\,dx = uv - \int v\frac{du}{dx}\,dx`] },
       ] },
     ],
   },
@@ -95,40 +111,42 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'FP1', code: 'WFM01', title: 'Further Pure Mathematics 1', also: 'P1 and P2',
     sections: [
       { title: 'Summations', items: [
-        { label: 'Σ r²', eq: 'Σᵣ₌₁ⁿ r² = ⅙n(n + 1)(2n + 1)' },
-        { label: 'Σ r³', eq: 'Σᵣ₌₁ⁿ r³ = ¼n²(n + 1)²' },
+        { label: 'Σ r²', ltex: t`\sum r^2`, eq: 'Σᵣ₌₁ⁿ r² = ⅙n(n + 1)(2n + 1)', tex: [t`\sum_{r=1}^{n} r^2 = \tfrac16 n(n+1)(2n+1)`] },
+        { label: 'Σ r³', ltex: t`\sum r^3`, eq: 'Σᵣ₌₁ⁿ r³ = ¼n²(n + 1)²', tex: [t`\sum_{r=1}^{n} r^3 = \tfrac14 n^2(n+1)^2`] },
       ] },
       { title: 'Numerical solution of equations', items: [
-        { label: 'Newton–Raphson for f(x) = 0', eq: 'xₙ₊₁ = xₙ − f(xₙ) / f′(xₙ)' },
+        { label: 'Newton–Raphson for f(x) = 0', eq: 'xₙ₊₁ = xₙ − f(xₙ) / f′(xₙ)', tex: [t`x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}`] },
       ] },
       { title: 'Conics', items: [
-        { label: 'Parabola', eq: 'y² = 4ax  ·  parametric (at², 2at)  ·  focus (a, 0)  ·  directrix x = −a' },
-        { label: 'Rectangular hyperbola', eq: 'xy = c²  ·  parametric (ct, c/t)  ·  foci and directrices not required' },
+        { label: 'Parabola', eq: 'y² = 4ax  ·  parametric (at², 2at)  ·  focus (a, 0)  ·  directrix x = −a',
+          tex: [t`y^2 = 4ax`, t`\text{parametric } (at^2,\ 2at)`, t`\text{focus } (a,0)`, t`\text{directrix } x = -a`] },
+        { label: 'Rectangular hyperbola', eq: 'xy = c²  ·  parametric (ct, c/t)  ·  foci and directrices not required',
+          tex: [t`xy = c^2`, t`\text{parametric } \left(ct,\ \tfrac{c}{t}\right)`, t`\text{foci and directrices not required}`] },
       ] },
       { title: 'Matrix transformations', items: [
-        { label: 'Anticlockwise rotation through θ about O', eq: '( cos θ   −sin θ ;  sin θ   cos θ )' },
-        { label: 'Reflection in the line y = (tan θ)x', eq: '( cos 2θ   sin 2θ ;  sin 2θ   −cos 2θ )' },
+        { label: 'Anticlockwise rotation through θ about O', eq: '( cos θ   −sin θ ;  sin θ   cos θ )', tex: [t`\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}`] },
+        { label: 'Reflection in the line y = (tan θ)x', eq: '( cos 2θ   sin 2θ ;  sin 2θ   −cos 2θ )', tex: [t`\begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}`] },
       ] },
     ],
   },
   {
     badge: 'FP2', code: 'WFM02', title: 'Further Pure Mathematics 2', also: 'FP1, and P1, P2, P3 and P4',
     sections: [
-      { title: 'Area of a sector', items: [{ label: 'Polar coordinates', eq: 'A = ½ ∫ r² dθ' }] },
+      { title: 'Area of a sector', items: [{ label: 'Polar coordinates', eq: 'A = ½ ∫ r² dθ', tex: [t`A = \frac12\int r^2\,d\theta`] }] },
       { title: 'Complex numbers', items: [
-        { label: 'Euler', eq: 'e^(iθ) = cos θ + i sin θ' },
-        { label: 'de Moivre', eq: '{r(cos θ + i sin θ)}ⁿ = rⁿ(cos nθ + i sin nθ)' },
-        { label: 'Roots of zⁿ = 1', eq: 'z = e^(2πki/n),  for k = 0, 1, 2, …, n − 1' },
+        { label: 'Euler', eq: 'e^(iθ) = cos θ + i sin θ', tex: [t`e^{i\theta} = \cos\theta + i\sin\theta`] },
+        { label: 'de Moivre', eq: '{r(cos θ + i sin θ)}ⁿ = rⁿ(cos nθ + i sin nθ)', tex: [t`\{r(\cos\theta + i\sin\theta)\}^n = r^n(\cos n\theta + i\sin n\theta)`] },
+        { label: 'Roots of zⁿ = 1', eq: 'z = e^(2πki/n),  for k = 0, 1, 2, …, n − 1', tex: [t`z = e^{\frac{2\pi k i}{n}},`, t`\text{for } k = 0, 1, 2, \ldots, n-1`] },
       ] },
       { title: 'Maclaurin’s and Taylor’s series', items: [
-        { label: 'Maclaurin', eq: 'f(x) = f(0) + x f′(0) + x²/2! f″(0) + … + xʳ/r! f⁽ʳ⁾(0) + …' },
-        { label: 'Taylor about a', eq: 'f(x) = f(a) + (x − a) f′(a) + (x − a)²/2! f″(a) + … + (x − a)ʳ/r! f⁽ʳ⁾(a) + …' },
-        { label: 'Taylor, f(a + x)', eq: 'f(a + x) = f(a) + x f′(a) + x²/2! f″(a) + … + xʳ/r! f⁽ʳ⁾(a) + …' },
-        { label: 'eˣ', eq: 'eˣ = exp(x) = 1 + x + x²/2! + … + xʳ/r! + …   for all x' },
-        { label: 'ln(1 + x)', eq: 'ln(1 + x) = x − x²/2 + x³/3 − … + (−1)ʳ⁺¹ xʳ/r + …   (−1 < x ≤ 1)' },
-        { label: 'sin x', eq: 'sin x = x − x³/3! + x⁵/5! − … + (−1)ʳ x²ʳ⁺¹/(2r + 1)! + …   for all x' },
-        { label: 'cos x', eq: 'cos x = 1 − x²/2! + x⁴/4! − … + (−1)ʳ x²ʳ/(2r)! + …   for all x' },
-        { label: 'arctan x', eq: 'arctan x = x − x³/3 + x⁵/5 − … + (−1)ʳ x²ʳ⁺¹/(2r + 1) + …   (−1 ≤ x ≤ 1)' },
+        { label: 'Maclaurin', eq: 'f(x) = f(0) + x f′(0) + x²/2! f″(0) + … + xʳ/r! f⁽ʳ⁾(0) + …', tex: [t`f(x) = f(0) + xf'(0) + \frac{x^2}{2!}f''(0) + \cdots + \frac{x^r}{r!}f^{(r)}(0) + \cdots`] },
+        { label: 'Taylor about a', eq: 'f(x) = f(a) + (x − a) f′(a) + (x − a)²/2! f″(a) + … + (x − a)ʳ/r! f⁽ʳ⁾(a) + …', tex: [t`f(x) = f(a) + (x-a)f'(a) + \frac{(x-a)^2}{2!}f''(a) + \cdots + \frac{(x-a)^r}{r!}f^{(r)}(a) + \cdots`] },
+        { label: 'Taylor, f(a + x)', eq: 'f(a + x) = f(a) + x f′(a) + x²/2! f″(a) + … + xʳ/r! f⁽ʳ⁾(a) + …', tex: [t`f(a+x) = f(a) + xf'(a) + \frac{x^2}{2!}f''(a) + \cdots + \frac{x^r}{r!}f^{(r)}(a) + \cdots`] },
+        { label: 'eˣ', ltex: t`e^x`, eq: 'eˣ = exp(x) = 1 + x + x²/2! + … + xʳ/r! + …   for all x', tex: [t`e^x = \exp(x) = 1 + x + \frac{x^2}{2!} + \cdots + \frac{x^r}{r!} + \cdots`, t`\text{for all } x`] },
+        { label: 'ln(1 + x)', ltex: t`\ln(1+x)`, eq: 'ln(1 + x) = x − x²/2 + x³/3 − … + (−1)ʳ⁺¹ xʳ/r + …   (−1 < x ≤ 1)', tex: [t`\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{r+1}\frac{x^r}{r} + \cdots`, t`(-1 < x \leq 1)`] },
+        { label: 'sin x', ltex: t`\sin x`, eq: 'sin x = x − x³/3! + x⁵/5! − … + (−1)ʳ x²ʳ⁺¹/(2r + 1)! + …   for all x', tex: [t`\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^r\frac{x^{2r+1}}{(2r+1)!} + \cdots`, t`\text{for all } x`] },
+        { label: 'cos x', ltex: t`\cos x`, eq: 'cos x = 1 − x²/2! + x⁴/4! − … + (−1)ʳ x²ʳ/(2r)! + …   for all x', tex: [t`\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^r\frac{x^{2r}}{(2r)!} + \cdots`, t`\text{for all } x`] },
+        { label: 'arctan x', ltex: t`\arctan x`, eq: 'arctan x = x − x³/3 + x⁵/5 − … + (−1)ʳ x²ʳ⁺¹/(2r + 1) + …   (−1 ≤ x ≤ 1)', tex: [t`\arctan x = x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots + (-1)^r\frac{x^{2r+1}}{2r+1} + \cdots`, t`(-1 \leq x \leq 1)`] },
       ] },
     ],
   },
@@ -136,58 +154,65 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'FP3', code: 'WFM03', title: 'Further Pure Mathematics 3', also: 'FP1, and P1, P2, P3 and P4',
     sections: [
       { title: 'Vectors', items: [
-        { label: 'Resolved part of a in the direction of b', eq: 'a.b / |b|' },
-        { label: 'Point dividing AB in the ratio λ : μ', eq: '(μa + λb) / (λ + μ)' },
-        { label: 'Vector product', eq: 'a × b = |a||b| sin θ n̂ = | i  j  k ; a₁  a₂  a₃ ; b₁  b₂  b₃ | = (a₂b₃ − a₃b₂, a₃b₁ − a₁b₃, a₁b₂ − a₂b₁)' },
-        { label: 'Scalar triple product', eq: 'a.(b × c) = | a₁ a₂ a₃ ; b₁ b₂ b₃ ; c₁ c₂ c₃ | = b.(c × a) = c.(a × b)' },
-        { label: 'Line through A with direction b', eq: '(x − a₁)/b₁ = (y − a₂)/b₂ = (z − a₃)/b₃  (= λ)' },
-        { label: 'Plane through A with normal n', eq: 'n₁x + n₂y + n₃z + d = 0,  where d = −a.n' },
-        { label: 'Plane through non-collinear A, B, C', eq: 'r = a + λ(b − a) + μ(c − a) = (1 − λ − μ)a + λb + μc' },
-        { label: 'Plane through a, parallel to b and c', eq: 'r = a + sb + tc' },
-        { label: 'Distance of (α, β, γ) from n₁x + n₂y + n₃z + d = 0', eq: '|n₁α + n₂β + n₃γ + d| / √(n₁² + n₂² + n₃²)' },
+        { label: 'Resolved part of a in the direction of b', eq: 'a.b / |b|', tex: [t`\frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{b}|}`] },
+        { label: 'Point dividing AB in the ratio λ : μ', eq: '(μa + λb) / (λ + μ)', tex: [t`\frac{\mu\mathbf{a} + \lambda\mathbf{b}}{\lambda + \mu}`] },
+        { label: 'Vector product', eq: 'a × b = |a||b| sin θ n̂ = | i  j  k ; a₁  a₂  a₃ ; b₁  b₂  b₃ | = (a₂b₃ − a₃b₂, a₃b₁ − a₁b₃, a₁b₂ − a₂b₁)',
+          tex: [t`\mathbf{a}\times\mathbf{b} = |\mathbf{a}||\mathbf{b}|\sin\theta\,\hat{\mathbf{n}} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}`, t`= \begin{pmatrix} a_2b_3 - a_3b_2 \\ a_3b_1 - a_1b_3 \\ a_1b_2 - a_2b_1 \end{pmatrix}`] },
+        { label: 'Scalar triple product', eq: 'a.(b × c) = | a₁ a₂ a₃ ; b₁ b₂ b₃ ; c₁ c₂ c₃ | = b.(c × a) = c.(a × b)',
+          tex: [t`\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}`, t`= \mathbf{b}\cdot(\mathbf{c}\times\mathbf{a}) = \mathbf{c}\cdot(\mathbf{a}\times\mathbf{b})`] },
+        { label: 'Line through A with direction b', eq: '(x − a₁)/b₁ = (y − a₂)/b₂ = (z − a₃)/b₃  (= λ)', tex: [t`\frac{x-a_1}{b_1} = \frac{y-a_2}{b_2} = \frac{z-a_3}{b_3} \ (=\lambda)`] },
+        { label: 'Plane through A with normal n', eq: 'n₁x + n₂y + n₃z + d = 0,  where d = −a.n', tex: [t`n_1x + n_2y + n_3z + d = 0,`, t`\text{where } d = -\mathbf{a}\cdot\mathbf{n}`] },
+        { label: 'Plane through non-collinear A, B, C', eq: 'r = a + λ(b − a) + μ(c − a) = (1 − λ − μ)a + λb + μc', tex: [t`\mathbf{r} = \mathbf{a} + \lambda(\mathbf{b}-\mathbf{a}) + \mu(\mathbf{c}-\mathbf{a})`, t`= (1-\lambda-\mu)\mathbf{a} + \lambda\mathbf{b} + \mu\mathbf{c}`] },
+        { label: 'Plane through a, parallel to b and c', eq: 'r = a + sb + tc', tex: [t`\mathbf{r} = \mathbf{a} + s\mathbf{b} + t\mathbf{c}`] },
+        { label: 'Distance of (α, β, γ) from n₁x + n₂y + n₃z + d = 0', eq: '|n₁α + n₂β + n₃γ + d| / √(n₁² + n₂² + n₃²)', tex: [t`\frac{|n_1\alpha + n_2\beta + n_3\gamma + d|}{\sqrt{n_1^2 + n_2^2 + n_3^2}}`] },
       ] },
       { title: 'Hyperbolic functions', items: [
-        { label: 'Identity', eq: 'cosh² x − sinh² x ≡ 1' },
-        { label: 'sinh 2x', eq: 'sinh 2x ≡ 2 sinh x cosh x' },
-        { label: 'cosh 2x', eq: 'cosh 2x ≡ cosh² x + sinh² x' },
-        { label: 'arcosh x', eq: 'arcosh x ≡ ln{x + √(x² − 1)}   (x ≥ 1)' },
-        { label: 'arsinh x', eq: 'arsinh x ≡ ln{x + √(x² + 1)}' },
-        { label: 'artanh x', eq: 'artanh x ≡ ½ ln((1 + x)/(1 − x))   (|x| < 1)' },
+        { label: 'Identity', eq: 'cosh² x − sinh² x ≡ 1', tex: [t`\cosh^2 x - \sinh^2 x \equiv 1`] },
+        { label: 'sinh 2x', ltex: t`\sinh 2x`, eq: 'sinh 2x ≡ 2 sinh x cosh x', tex: [t`\sinh 2x \equiv 2\sinh x\cosh x`] },
+        { label: 'cosh 2x', ltex: t`\cosh 2x`, eq: 'cosh 2x ≡ cosh² x + sinh² x', tex: [t`\cosh 2x \equiv \cosh^2 x + \sinh^2 x`] },
+        { label: 'arcosh x', ltex: t`\operatorname{arcosh} x`, eq: 'arcosh x ≡ ln{x + √(x² − 1)}   (x ≥ 1)', tex: [t`\operatorname{arcosh} x \equiv \ln\left\{x + \sqrt{x^2-1}\right\} \quad (x \geq 1)`] },
+        { label: 'arsinh x', ltex: t`\operatorname{arsinh} x`, eq: 'arsinh x ≡ ln{x + √(x² + 1)}', tex: [t`\operatorname{arsinh} x \equiv \ln\left\{x + \sqrt{x^2+1}\right\}`] },
+        { label: 'artanh x', ltex: t`\operatorname{artanh} x`, eq: 'artanh x ≡ ½ ln((1 + x)/(1 − x))   (|x| < 1)', tex: [t`\operatorname{artanh} x \equiv \frac12\ln\left(\frac{1+x}{1-x}\right) \quad (|x|<1)`] },
       ] },
       { title: 'Conics', items: [
-        { label: 'Ellipse', eq: 'x²/a² + y²/b² = 1  ·  (a cos θ, b sin θ)  ·  e < 1, b² = a²(1 − e²)  ·  foci (±ae, 0)  ·  directrices x = ±a/e  ·  no asymptotes' },
-        { label: 'Parabola', eq: 'y² = 4ax  ·  (at², 2at)  ·  e = 1  ·  focus (a, 0)  ·  directrix x = −a  ·  no asymptotes' },
-        { label: 'Hyperbola', eq: 'x²/a² − y²/b² = 1  ·  (a sec θ, b tan θ) or (±a cosh θ, b sinh θ)  ·  e > 1, b² = a²(e² − 1)  ·  foci (±ae, 0)  ·  directrices x = ±a/e  ·  asymptotes x/a = ±y/b' },
-        { label: 'Rectangular hyperbola', eq: 'xy = c²  ·  (ct, c/t)  ·  e = √2  ·  foci (±√2 c, ±√2 c)  ·  directrices x + y = ±√2 c  ·  asymptotes x = 0, y = 0' },
+        { label: 'Ellipse', eq: 'x²/a² + y²/b² = 1  ·  (a cos θ, b sin θ)  ·  e < 1, b² = a²(1 − e²)  ·  foci (±ae, 0)  ·  directrices x = ±a/e  ·  no asymptotes',
+          tex: [t`\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1`, t`(a\cos\theta,\ b\sin\theta)`, t`e<1,\ b^2 = a^2(1-e^2)`, t`\text{foci } (\pm ae, 0)`, t`\text{directrices } x = \pm\frac{a}{e}`, t`\text{no asymptotes}`] },
+        { label: 'Parabola', eq: 'y² = 4ax  ·  (at², 2at)  ·  e = 1  ·  focus (a, 0)  ·  directrix x = −a  ·  no asymptotes',
+          tex: [t`y^2 = 4ax`, t`(at^2,\ 2at)`, t`e = 1`, t`\text{focus } (a,0)`, t`\text{directrix } x = -a`, t`\text{no asymptotes}`] },
+        { label: 'Hyperbola', eq: 'x²/a² − y²/b² = 1  ·  (a sec θ, b tan θ) or (±a cosh θ, b sinh θ)  ·  e > 1, b² = a²(e² − 1)  ·  foci (±ae, 0)  ·  directrices x = ±a/e  ·  asymptotes x/a = ±y/b',
+          tex: [t`\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1`, t`(a\sec\theta,\ b\tan\theta) \text{ or } (\pm a\cosh\theta,\ b\sinh\theta)`, t`e>1,\ b^2 = a^2(e^2-1)`, t`\text{foci } (\pm ae, 0)`, t`\text{directrices } x = \pm\frac{a}{e}`, t`\text{asymptotes } \frac{x}{a} = \pm\frac{y}{b}`] },
+        { label: 'Rectangular hyperbola', eq: 'xy = c²  ·  (ct, c/t)  ·  e = √2  ·  foci (±√2 c, ±√2 c)  ·  directrices x + y = ±√2 c  ·  asymptotes x = 0, y = 0',
+          tex: [t`xy = c^2`, t`\left(ct,\ \tfrac{c}{t}\right)`, t`e = \sqrt2`, t`\text{foci } (\pm\sqrt2\,c,\ \pm\sqrt2\,c)`, t`\text{directrices } x + y = \pm\sqrt2\,c`, t`\text{asymptotes } x = 0,\ y = 0`] },
       ] },
       { title: 'Differentiation: f(x) → f′(x)', items: [
-        { label: 'arcsin x', eq: '1 / √(1 − x²)' },
-        { label: 'arccos x', eq: '−1 / √(1 − x²)' },
-        { label: 'arctan x', eq: '1 / (1 + x²)' },
-        { label: 'sinh x', eq: 'cosh x' },
-        { label: 'cosh x', eq: 'sinh x' },
-        { label: 'tanh x', eq: 'sech² x' },
-        { label: 'arsinh x', eq: '1 / √(1 + x²)' },
-        { label: 'arcosh x', eq: '1 / √(x² − 1)' },
-        { label: 'artanh x', eq: '1 / (1 − x²)' },
+        { label: 'arcsin x', ltex: t`\arcsin x`, eq: '1 / √(1 − x²)', tex: [t`\frac{1}{\sqrt{1-x^2}}`] },
+        { label: 'arccos x', ltex: t`\arccos x`, eq: '−1 / √(1 − x²)', tex: [t`-\frac{1}{\sqrt{1-x^2}}`] },
+        { label: 'arctan x', ltex: t`\arctan x`, eq: '1 / (1 + x²)', tex: [t`\frac{1}{1+x^2}`] },
+        { label: 'sinh x', ltex: t`\sinh x`, eq: 'cosh x', tex: [t`\cosh x`] },
+        { label: 'cosh x', ltex: t`\cosh x`, eq: 'sinh x', tex: [t`\sinh x`] },
+        { label: 'tanh x', ltex: t`\tanh x`, eq: 'sech² x', tex: [t`\operatorname{sech}^2 x`] },
+        { label: 'arsinh x', ltex: t`\operatorname{arsinh} x`, eq: '1 / √(1 + x²)', tex: [t`\frac{1}{\sqrt{1+x^2}}`] },
+        { label: 'arcosh x', ltex: t`\operatorname{arcosh} x`, eq: '1 / √(x² − 1)', tex: [t`\frac{1}{\sqrt{x^2-1}}`] },
+        { label: 'artanh x', ltex: t`\operatorname{artanh} x`, eq: '1 / (1 − x²)', tex: [t`\frac{1}{1-x^2}`] },
       ] },
       { title: 'Integration (+ constant; a > 0 where relevant): f(x) → ∫ f(x) dx', items: [
-        { label: 'sinh x', eq: 'cosh x' },
-        { label: 'cosh x', eq: 'sinh x' },
-        { label: 'tanh x', eq: 'ln cosh x' },
-        { label: '1 / √(a² − x²)', eq: 'arcsin(x/a)   (|x| < a)' },
-        { label: '1 / (a² + x²)', eq: '(1/a) arctan(x/a)' },
-        { label: '1 / √(x² − a²)', eq: 'arcosh(x/a),   ln{x + √(x² − a²)}   (x > a)' },
-        { label: '1 / √(a² + x²)', eq: 'arsinh(x/a),   ln{x + √(x² + a²)}' },
-        { label: '1 / (a² − x²)', eq: '(1/2a) ln((a + x)/(a − x)) = (1/a) artanh(x/a)   (|x| < a)' },
-        { label: '1 / (x² − a²)', eq: '(1/2a) ln((x − a)/(x + a))' },
+        { label: 'sinh x', ltex: t`\sinh x`, eq: 'cosh x', tex: [t`\cosh x`] },
+        { label: 'cosh x', ltex: t`\cosh x`, eq: 'sinh x', tex: [t`\sinh x`] },
+        { label: 'tanh x', ltex: t`\tanh x`, eq: 'ln cosh x', tex: [t`\ln\cosh x`] },
+        { label: '1 / √(a² − x²)', ltex: t`\dfrac{1}{\sqrt{a^2-x^2}}`, eq: 'arcsin(x/a)   (|x| < a)', tex: [t`\arcsin\left(\frac{x}{a}\right) \quad (|x|<a)`] },
+        { label: '1 / (a² + x²)', ltex: t`\dfrac{1}{a^2+x^2}`, eq: '(1/a) arctan(x/a)', tex: [t`\frac1a\arctan\left(\frac{x}{a}\right)`] },
+        { label: '1 / √(x² − a²)', ltex: t`\dfrac{1}{\sqrt{x^2-a^2}}`, eq: 'arcosh(x/a),   ln{x + √(x² − a²)}   (x > a)', tex: [t`\operatorname{arcosh}\left(\frac{x}{a}\right),`, t`\ln\left\{x + \sqrt{x^2-a^2}\right\} \quad (x>a)`] },
+        { label: '1 / √(a² + x²)', ltex: t`\dfrac{1}{\sqrt{a^2+x^2}}`, eq: 'arsinh(x/a),   ln{x + √(x² + a²)}', tex: [t`\operatorname{arsinh}\left(\frac{x}{a}\right),`, t`\ln\left\{x + \sqrt{x^2+a^2}\right\}`] },
+        { label: '1 / (a² − x²)', ltex: t`\dfrac{1}{a^2-x^2}`, eq: '(1/2a) ln((a + x)/(a − x)) = (1/a) artanh(x/a)   (|x| < a)', tex: [t`\frac{1}{2a}\ln\left(\frac{a+x}{a-x}\right) = \frac1a\operatorname{artanh}\left(\frac{x}{a}\right) \quad (|x|<a)`] },
+        { label: '1 / (x² − a²)', ltex: t`\dfrac{1}{x^2-a^2}`, eq: '(1/2a) ln((x − a)/(x + a))', tex: [t`\frac{1}{2a}\ln\left(\frac{x-a}{x+a}\right)`] },
       ] },
       { title: 'Arc length', items: [
-        { label: 'Cartesian coordinates', eq: 's = ∫ √(1 + (dy/dx)²) dx' },
-        { label: 'Parametric form', eq: 's = ∫ √((dx/dt)² + (dy/dt)²) dt' },
+        { label: 'Cartesian coordinates', eq: 's = ∫ √(1 + (dy/dx)²) dx', tex: [t`s = \int\sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx`] },
+        { label: 'Parametric form', eq: 's = ∫ √((dx/dt)² + (dy/dt)²) dt', tex: [t`s = \int\sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt`] },
       ] },
       { title: 'Surface area of revolution', items: [
-        { label: 'About the x-axis', eq: 'Sₓ = 2π ∫ y ds = 2π ∫ y √(1 + (dy/dx)²) dx = 2π ∫ y √((dx/dt)² + (dy/dt)²) dt' },
+        { label: 'About the x-axis', eq: 'Sₓ = 2π ∫ y ds = 2π ∫ y √(1 + (dy/dx)²) dx = 2π ∫ y √((dx/dt)² + (dy/dt)²) dt',
+          tex: [t`S_x = 2\pi\int y\,ds = 2\pi\int y\sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx`, t`= 2\pi\int y\sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt`] },
       ] },
     ],
   },
@@ -200,9 +225,9 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'M2', code: 'WME02', title: 'Mechanics 2', also: 'P1, P2, P3 and P4',
     sections: [
       { title: 'Centres of mass (uniform bodies)', items: [
-        { label: 'Triangular lamina', eq: '⅔ along median from vertex' },
-        { label: 'Circular arc, radius r, angle at centre 2α', eq: '(r sin α) / α from centre' },
-        { label: 'Sector of circle, radius r, angle at centre 2α', eq: '(2r sin α) / (3α) from centre' },
+        { label: 'Triangular lamina', eq: '⅔ along median from vertex', tex: [t`\tfrac23 \text{ along median from vertex}`] },
+        { label: 'Circular arc, radius r, angle at centre 2α', eq: '(r sin α) / α from centre', tex: [t`\frac{r\sin\alpha}{\alpha} \text{ from centre}`] },
+        { label: 'Sector of circle, radius r, angle at centre 2α', eq: '(2r sin α) / (3α) from centre', tex: [t`\frac{2r\sin\alpha}{3\alpha} \text{ from centre}`] },
       ] },
     ],
   },
@@ -210,42 +235,44 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'M3', code: 'WME03', title: 'Mechanics 3', also: 'M2, and P1, P2, P3 and P4',
     sections: [
       { title: 'Motion in a circle', items: [
-        { label: 'Transverse velocity', eq: 'v = rθ̇' },
-        { label: 'Transverse acceleration', eq: 'v̇ = rθ̈' },
-        { label: 'Radial acceleration', eq: '−rθ̇² = −v²/r' },
+        { label: 'Transverse velocity', eq: 'v = rθ̇', tex: [t`v = r\dot\theta`] },
+        { label: 'Transverse acceleration', eq: 'v̇ = rθ̈', tex: [t`\dot v = r\ddot\theta`] },
+        { label: 'Radial acceleration', eq: '−rθ̇² = −v²/r', tex: [t`-r\dot\theta^2 = -\frac{v^2}{r}`] },
       ] },
       { title: 'Centres of mass (uniform bodies)', items: [
-        { label: 'Solid hemisphere, radius r', eq: '⅜r from centre' },
-        { label: 'Hemispherical shell, radius r', eq: '½r from centre' },
-        { label: 'Solid cone or pyramid of height h', eq: '¼h above the base on the line from centre of base to vertex' },
-        { label: 'Conical shell of height h', eq: '⅓h above the base on the line from centre of base to vertex' },
+        { label: 'Solid hemisphere, radius r', eq: '⅜r from centre', tex: [t`\tfrac38 r \text{ from centre}`] },
+        { label: 'Hemispherical shell, radius r', eq: '½r from centre', tex: [t`\tfrac12 r \text{ from centre}`] },
+        { label: 'Solid cone or pyramid of height h', eq: '¼h above the base on the line from centre of base to vertex', tex: [t`\tfrac14 h \text{ above the base}`, t`\text{on the line from centre}`, t`\text{of base to vertex}`] },
+        { label: 'Conical shell of height h', eq: '⅓h above the base on the line from centre of base to vertex', tex: [t`\tfrac13 h \text{ above the base}`, t`\text{on the line from centre}`, t`\text{of base to vertex}`] },
       ] },
-      { title: 'Universal law of gravitation', items: [{ label: 'Force', eq: 'F = Gm₁m₂ / d²' }] },
+      { title: 'Universal law of gravitation', items: [{ label: 'Force', eq: 'F = Gm₁m₂ / d²', tex: [t`F = \frac{Gm_1m_2}{d^2}`] }] },
     ],
   },
   {
     badge: 'S1', code: 'WST01', title: 'Statistics 1', also: 'P1 and P2',
     sections: [
       { title: 'Probability', items: [
-        { label: 'Addition', eq: 'P(A ∪ B) = P(A) + P(B) − P(A ∩ B)' },
-        { label: 'Multiplication', eq: 'P(A ∩ B) = P(A) P(B | A)' },
-        { label: 'Bayes', eq: 'P(A | B) = P(B | A) P(A) / [P(B | A) P(A) + P(B | A′) P(A′)]' },
+        { label: 'Addition', eq: 'P(A ∪ B) = P(A) + P(B) − P(A ∩ B)', tex: [t`P(A\cup B) = P(A) + P(B) - P(A\cap B)`] },
+        { label: 'Multiplication', eq: 'P(A ∩ B) = P(A) P(B | A)', tex: [t`P(A\cap B) = P(A)\,P(B\mid A)`] },
+        { label: 'Bayes', eq: 'P(A | B) = P(B | A) P(A) / [P(B | A) P(A) + P(B | A′) P(A′)]', tex: [t`P(A\mid B) = \frac{P(B\mid A)\,P(A)}{P(B\mid A)\,P(A) + P(B\mid A')\,P(A')}`] },
       ] },
       { title: 'Discrete distributions', items: [
-        { label: 'Expectation (mean)', eq: 'E(X) = μ = Σ xᵢ P(X = xᵢ)' },
-        { label: 'Variance', eq: 'Var(X) = σ² = Σ (xᵢ − μ)² P(X = xᵢ) = Σ xᵢ² P(X = xᵢ) − μ²' },
-        { label: 'For a function g(X)', eq: 'E(g(X)) = Σ g(xᵢ) P(X = xᵢ)' },
+        { label: 'Expectation (mean)', eq: 'E(X) = μ = Σ xᵢ P(X = xᵢ)', tex: [t`E(X) = \mu = \sum x_i\,P(X = x_i)`] },
+        { label: 'Variance', eq: 'Var(X) = σ² = Σ (xᵢ − μ)² P(X = xᵢ) = Σ xᵢ² P(X = xᵢ) − μ²', tex: [t`\operatorname{Var}(X) = \sigma^2 = \sum (x_i-\mu)^2\,P(X = x_i)`, t`= \sum x_i^2\,P(X = x_i) - \mu^2`] },
+        { label: 'For a function g(X)', eq: 'E(g(X)) = Σ g(xᵢ) P(X = xᵢ)', tex: [t`E(g(X)) = \sum g(x_i)\,P(X = x_i)`] },
       ] },
       { title: 'Continuous distributions', items: [
-        { label: 'Normal N(μ, σ²)', eq: 'p.d.f. (1 / (σ√(2π))) e^(−½((x − μ)/σ)²)  ·  mean μ  ·  variance σ²' },
+        { label: 'Normal N(μ, σ²)', eq: 'p.d.f. (1 / (σ√(2π))) e^(−½((x − μ)/σ)²)  ·  mean μ  ·  variance σ²',
+          tex: [t`f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac12\left(\frac{x-\mu}{\sigma}\right)^2}`, t`\text{mean } \mu`, t`\text{variance } \sigma^2`] },
       ] },
       { title: 'Correlation and regression (n pairs (xᵢ, yᵢ))', items: [
-        { label: 'Sₓₓ', eq: 'Sₓₓ = Σ(xᵢ − x̄)² = Σ xᵢ² − (Σ xᵢ)²/n' },
-        { label: 'Sᵧᵧ', eq: 'Sᵧᵧ = Σ(yᵢ − ȳ)² = Σ yᵢ² − (Σ yᵢ)²/n' },
-        { label: 'Sₓᵧ', eq: 'Sₓᵧ = Σ(xᵢ − x̄)(yᵢ − ȳ) = Σ xᵢyᵢ − (Σ xᵢ)(Σ yᵢ)/n' },
-        { label: 'Product moment correlation coefficient', eq: 'r = Sₓᵧ / √(Sₓₓ Sᵧᵧ) = Σ(xᵢ − x̄)(yᵢ − ȳ) / √{Σ(xᵢ − x̄)² Σ(yᵢ − ȳ)²}' },
-        { label: 'Regression coefficient of y on x', eq: 'b = Sₓᵧ / Sₓₓ = Σ(xᵢ − x̄)(yᵢ − ȳ) / Σ(xᵢ − x̄)²' },
-        { label: 'Least squares regression line of y on x', eq: 'y = a + bx,  where a = ȳ − bx̄' },
+        { label: 'Sₓₓ', ltex: t`S_{xx}`, eq: 'Sₓₓ = Σ(xᵢ − x̄)² = Σ xᵢ² − (Σ xᵢ)²/n', tex: [t`S_{xx} = \sum(x_i-\bar x)^2 = \sum x_i^2 - \frac{\left(\sum x_i\right)^2}{n}`] },
+        { label: 'Sᵧᵧ', ltex: t`S_{yy}`, eq: 'Sᵧᵧ = Σ(yᵢ − ȳ)² = Σ yᵢ² − (Σ yᵢ)²/n', tex: [t`S_{yy} = \sum(y_i-\bar y)^2 = \sum y_i^2 - \frac{\left(\sum y_i\right)^2}{n}`] },
+        { label: 'Sₓᵧ', ltex: t`S_{xy}`, eq: 'Sₓᵧ = Σ(xᵢ − x̄)(yᵢ − ȳ) = Σ xᵢyᵢ − (Σ xᵢ)(Σ yᵢ)/n', tex: [t`S_{xy} = \sum(x_i-\bar x)(y_i-\bar y) = \sum x_iy_i - \frac{\left(\sum x_i\right)\left(\sum y_i\right)}{n}`] },
+        { label: 'Product moment correlation coefficient', eq: 'r = Sₓᵧ / √(Sₓₓ Sᵧᵧ) = Σ(xᵢ − x̄)(yᵢ − ȳ) / √{Σ(xᵢ − x̄)² Σ(yᵢ − ȳ)²}',
+          tex: [t`r = \frac{S_{xy}}{\sqrt{S_{xx}S_{yy}}} = \frac{\sum(x_i-\bar x)(y_i-\bar y)}{\sqrt{\left\{\sum(x_i-\bar x)^2\right\}\left\{\sum(y_i-\bar y)^2\right\}}}`] },
+        { label: 'Regression coefficient of y on x', eq: 'b = Sₓᵧ / Sₓₓ = Σ(xᵢ − x̄)(yᵢ − ȳ) / Σ(xᵢ − x̄)²', tex: [t`b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i-\bar x)(y_i-\bar y)}{\sum(x_i-\bar x)^2}`] },
+        { label: 'Least squares regression line of y on x', eq: 'y = a + bx,  where a = ȳ − bx̄', tex: [t`y = a + bx,`, t`\text{where } a = \bar y - b\bar x`] },
       ] },
     ],
   },
@@ -253,15 +280,15 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'S2', code: 'WST02', title: 'Statistics 2', also: 'S1, and P1, P2, P3 and P4',
     sections: [
       { title: 'Discrete distributions', items: [
-        { label: 'Binomial B(n, p)', eq: 'P(X = x) = (n x) pˣ(1 − p)ⁿ⁻ˣ  ·  mean np  ·  variance np(1 − p)' },
-        { label: 'Poisson Po(λ)', eq: 'P(X = x) = e^(−λ) λˣ / x!  ·  mean λ  ·  variance λ' },
+        { label: 'Binomial B(n, p)', eq: 'P(X = x) = (n x) pˣ(1 − p)ⁿ⁻ˣ  ·  mean np  ·  variance np(1 − p)', tex: [t`P(X = x) = \binom{n}{x}p^x(1-p)^{n-x}`, t`\text{mean } np`, t`\text{variance } np(1-p)`] },
+        { label: 'Poisson Po(λ)', eq: 'P(X = x) = e^(−λ) λˣ / x!  ·  mean λ  ·  variance λ', tex: [t`P(X = x) = e^{-\lambda}\frac{\lambda^x}{x!}`, t`\text{mean } \lambda`, t`\text{variance } \lambda`] },
       ] },
       { title: 'Continuous distributions (p.d.f. f)', items: [
-        { label: 'Expectation (mean)', eq: 'E(X) = μ = ∫ x f(x) dx' },
-        { label: 'Variance', eq: 'Var(X) = σ² = ∫ (x − μ)² f(x) dx = ∫ x² f(x) dx − μ²' },
-        { label: 'For a function g(X)', eq: 'E(g(X)) = ∫ g(x) f(x) dx' },
-        { label: 'Cumulative distribution function', eq: 'F(x₀) = P(X ≤ x₀) = ∫₋∞^x₀ f(t) dt' },
-        { label: 'Uniform (rectangular) on [a, b]', eq: 'p.d.f. 1/(b − a)  ·  mean ½(a + b)  ·  variance (b − a)²/12' },
+        { label: 'Expectation (mean)', eq: 'E(X) = μ = ∫ x f(x) dx', tex: [t`E(X) = \mu = \int x\,f(x)\,dx`] },
+        { label: 'Variance', eq: 'Var(X) = σ² = ∫ (x − μ)² f(x) dx = ∫ x² f(x) dx − μ²', tex: [t`\operatorname{Var}(X) = \sigma^2 = \int (x-\mu)^2 f(x)\,dx = \int x^2 f(x)\,dx - \mu^2`] },
+        { label: 'For a function g(X)', eq: 'E(g(X)) = ∫ g(x) f(x) dx', tex: [t`E(g(X)) = \int g(x)\,f(x)\,dx`] },
+        { label: 'Cumulative distribution function', eq: 'F(x₀) = P(X ≤ x₀) = ∫₋∞^x₀ f(t) dt', tex: [t`F(x_0) = P(X \leq x_0) = \int_{-\infty}^{x_0} f(t)\,dt`] },
+        { label: 'Uniform (rectangular) on [a, b]', eq: 'p.d.f. 1/(b − a)  ·  mean ½(a + b)  ·  variance (b − a)²/12', tex: [t`f(x) = \frac{1}{b-a}`, t`\text{mean } \tfrac12(a+b)`, t`\text{variance } \frac{(b-a)^2}{12}`] },
       ] },
     ],
   },
@@ -269,20 +296,20 @@ export const MATHS_UNITS: MathsUnit[] = [
     badge: 'S3', code: 'WST03', title: 'Statistics 3', also: 'S1 and S2, and P1, P2, P3 and P4',
     sections: [
       { title: 'Expectation algebra (X, Y independent)', items: [
-        { label: 'E(XY)', eq: 'E(XY) = E(X) E(Y)' },
-        { label: 'Var(aX ± bY)', eq: 'Var(aX ± bY) = a² Var(X) + b² Var(Y)' },
+        { label: 'E(XY)', ltex: t`E(XY)`, eq: 'E(XY) = E(X) E(Y)', tex: [t`E(XY) = E(X)\,E(Y)`] },
+        { label: 'Var(aX ± bY)', ltex: t`\operatorname{Var}(aX\pm bY)`, eq: 'Var(aX ± bY) = a² Var(X) + b² Var(Y)', tex: [t`\operatorname{Var}(aX\pm bY) = a^2\operatorname{Var}(X) + b^2\operatorname{Var}(Y)`] },
       ] },
       { title: 'Sampling distributions', items: [
-        { label: 'X̄ (sample of n, mean μ, variance σ²)', eq: 'X̄ is an unbiased estimator of μ, with Var(X̄) = σ²/n' },
-        { label: 'S²', eq: 'S² is an unbiased estimator of σ², where S² = Σ(Xᵢ − X̄)² / (n − 1)' },
-        { label: 'Sample of n from N(μ, σ²)', eq: '(X̄ − μ) / (σ/√n) ∼ N(0, 1)' },
-        { label: 'Two independent samples from N(μₓ, σₓ²), N(μᵧ, σᵧ²)', eq: '((X̄ − Ȳ) − (μₓ − μᵧ)) / √(σₓ²/nₓ + σᵧ²/nᵧ) ∼ N(0, 1)' },
+        { label: 'X̄ (sample of n, mean μ, variance σ²)', eq: 'X̄ is an unbiased estimator of μ, with Var(X̄) = σ²/n', tex: [t`\bar X \text{ is an unbiased estimator of } \mu,`, t`\operatorname{Var}(\bar X) = \frac{\sigma^2}{n}`] },
+        { label: 'S²', ltex: t`S^2`, eq: 'S² is an unbiased estimator of σ², where S² = Σ(Xᵢ − X̄)² / (n − 1)', tex: [t`S^2 \text{ is an unbiased estimator of } \sigma^2,`, t`S^2 = \frac{\sum(X_i-\bar X)^2}{n-1}`] },
+        { label: 'Sample of n from N(μ, σ²)', eq: '(X̄ − μ) / (σ/√n) ∼ N(0, 1)', tex: [t`\frac{\bar X - \mu}{\sigma/\sqrt n} \sim N(0, 1)`] },
+        { label: 'Two independent samples from N(μₓ, σₓ²), N(μᵧ, σᵧ²)', eq: '((X̄ − Ȳ) − (μₓ − μᵧ)) / √(σₓ²/nₓ + σᵧ²/nᵧ) ∼ N(0, 1)', tex: [t`\frac{(\bar X - \bar Y) - (\mu_x - \mu_y)}{\sqrt{\dfrac{\sigma_x^2}{n_x} + \dfrac{\sigma_y^2}{n_y}}} \sim N(0, 1)`] },
       ] },
       { title: 'Correlation and regression', items: [
-        { label: 'Spearman’s rank correlation coefficient', eq: 'rₛ = 1 − 6Σd² / (n(n² − 1))' },
+        { label: 'Spearman’s rank correlation coefficient', eq: 'rₛ = 1 − 6Σd² / (n(n² − 1))', tex: [t`r_s = 1 - \frac{6\sum d^2}{n(n^2-1)}`] },
       ] },
       { title: 'Non-parametric tests', items: [
-        { label: 'Goodness-of-fit and contingency tables', eq: 'Σ (Oᵢ − Eᵢ)² / Eᵢ ∼ χ²_ν' },
+        { label: 'Goodness-of-fit and contingency tables', eq: 'Σ (Oᵢ − Eᵢ)² / Eᵢ ∼ χ²_ν', tex: [t`\sum\frac{(O_i - E_i)^2}{E_i} \sim \chi^2_\nu`] },
       ] },
     ],
   },

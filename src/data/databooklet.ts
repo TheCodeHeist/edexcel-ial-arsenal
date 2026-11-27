@@ -8,16 +8,22 @@ export interface ConstantItem {
   sub: 'phys' | 'chem' | 'both';
 }
 
+/** LaTeX source, written with String.raw so backslashes stay literal. */
+const t = String.raw;
+
 export interface EqnGroup {
   unit: string;
   title: string;
-  items: { label: string; eq: string; note?: string }[];
+  /** eq: plain text for search and the pre-KaTeX fallback; tex: KaTeX pieces that wrap independently. */
+  items: { label: string; eq: string; tex: string[]; note?: string }[];
 }
 
 export interface ChemDataRow {
   group: string;
   key: string;
   val: string;
+  /** KaTeX pieces for rows that are equations. */
+  tex?: string[];
   note?: string;
 }
 
@@ -58,62 +64,62 @@ export const PHYS_EQNS: EqnGroup[] = [
     unit: 'WPH11',
     title: 'Mechanics & Materials',
     items: [
-      { label: 'SUVAT', eq: 'v = u + at  ·  s = ut + ½at²  ·  v² = u² + 2as' },
-      { label: 'Momentum & Force', eq: 'p = mv  ·  F = Δp / Δt' },
-      { label: 'Work, Power, Efficiency', eq: 'ΔW = FΔs cos θ  ·  P = ΔE / Δt = Fv' },
-      { label: 'Energy', eq: 'Eₖ = ½mv² = p² / 2m  ·  ΔEₚ = mgΔh' },
-      { label: 'Hooke & Young modulus', eq: 'F = kΔx  ·  Eₑₗ = ½FΔx  ·  E = σ / ε = FL / (AΔx)' },
-      { label: 'Stokes’ law & Upthrust', eq: 'F = 6πηrv  ·  U = ρVg' },
+      { label: 'SUVAT', eq: 'v = u + at  ·  s = ut + ½at²  ·  v² = u² + 2as', tex: [t`v = u + at`, t`s = ut + \tfrac12 at^2`, t`v^2 = u^2 + 2as`] },
+      { label: 'Momentum & Force', eq: 'p = mv  ·  F = Δp / Δt', tex: [t`p = mv`, t`F = \frac{\Delta p}{\Delta t}`] },
+      { label: 'Work, Power, Efficiency', eq: 'ΔW = FΔs cos θ  ·  P = ΔE / Δt = Fv', tex: [t`\Delta W = F\Delta s\cos\theta`, t`P = \frac{\Delta E}{\Delta t} = Fv`] },
+      { label: 'Energy', eq: 'Eₖ = ½mv² = p² / 2m  ·  ΔE_grav = mgΔh', tex: [t`E_k = \tfrac12 mv^2 = \frac{p^2}{2m}`, t`\Delta E_{grav} = mg\Delta h`] },
+      { label: 'Hooke & Young modulus', eq: 'F = kΔx  ·  Eₑₗ = ½FΔx  ·  E = σ / ε = FL / (AΔx)', tex: [t`F = k\Delta x`, t`E_{el} = \tfrac12 F\Delta x`, t`E = \frac{\sigma}{\varepsilon} = \frac{FL}{A\Delta x}`] },
+      { label: 'Stokes’ law & Upthrust', eq: 'F = 6πηrv  ·  U = ρVg', tex: [t`F = 6\pi\eta rv`, t`U = \rho Vg`] },
     ],
   },
   {
     unit: 'WPH12',
     title: 'Waves & Electricity',
     items: [
-      { label: 'Wave speed & string', eq: 'v = fλ  ·  v = √(T / μ)' },
-      { label: 'Refraction & TIR', eq: 'n₁ sin θ₁ = n₂ sin θ₂  ·  sin C = 1 / n' },
-      { label: 'Diffraction grating', eq: 'nλ = d sin θ' },
-      { label: 'Photon & Photoelectric', eq: 'E = hf = hc/λ  ·  hf = φ + ½mv²ₘₐₓ' },
-      { label: 'de Broglie wavelength', eq: 'λ = h / p = h / mv' },
-      { label: 'Current, Drift & Power', eq: 'I = ΔQ/Δt = nqvA  ·  P = VI = I²R = V²/R' },
-      { label: 'Resistivity & EMF', eq: 'R = ρL / A  ·  ε = V + Ir' },
+      { label: 'Wave speed & string', eq: 'v = fλ  ·  v = √(T / μ)', tex: [t`v = f\lambda`, t`v = \sqrt{\frac{T}{\mu}}`] },
+      { label: 'Refraction & TIR', eq: 'n₁ sin θ₁ = n₂ sin θ₂  ·  sin C = 1 / n', tex: [t`n_1\sin\theta_1 = n_2\sin\theta_2`, t`\sin C = \frac1n`] },
+      { label: 'Diffraction grating', eq: 'nλ = d sin θ', tex: [t`n\lambda = d\sin\theta`] },
+      { label: 'Photon & Photoelectric', eq: 'E = hf = hc/λ  ·  hf = φ + ½mv²ₘₐₓ', tex: [t`E = hf = \frac{hc}{\lambda}`, t`hf = \phi + \tfrac12 mv_{max}^2`] },
+      { label: 'de Broglie wavelength', eq: 'λ = h / p = h / mv', tex: [t`\lambda = \frac{h}{p} = \frac{h}{mv}`] },
+      { label: 'Current, Drift & Power', eq: 'I = ΔQ/Δt = nqvA  ·  P = VI = I²R = V²/R', tex: [t`I = \frac{\Delta Q}{\Delta t} = nqvA`, t`P = VI = I^2R = \frac{V^2}{R}`] },
+      { label: 'Resistivity & EMF', eq: 'R = ρl / A  ·  ε = V + Ir', tex: [t`R = \frac{\rho l}{A}`, t`\varepsilon = V + Ir`] },
     ],
   },
   {
     unit: 'WPH14',
     title: 'Further Mechanics, Fields & Particles',
     items: [
-      { label: 'Circular motion', eq: 'v = ωr  ·  a = v²/r = rω²  ·  F = mv²/r' },
-      { label: 'Electric field & Coulomb', eq: 'E = F/Q = V/d  ·  F = Q₁Q₂ / (4πε₀r²)' },
-      { label: 'Capacitors', eq: 'C = Q/V  ·  W = ½QV = ½CV²  ·  Q = Q₀ e^(−t/RC)' },
-      { label: 'Magnetic force & radius', eq: 'F = BIL sin θ  ·  F = BQv sin θ  ·  r = p / BQ' },
-      { label: 'Faraday’s law', eq: 'Φ = BA  ·  ε = −d(NΦ) / dt' },
-      { label: 'Mass–energy', eq: 'ΔE = c² Δm' },
+      { label: 'Circular motion', eq: 'v = ωr  ·  a = v²/r = rω²  ·  F = mv²/r', tex: [t`v = \omega r`, t`a = \frac{v^2}{r} = r\omega^2`, t`F = \frac{mv^2}{r}`] },
+      { label: 'Electric field & Coulomb', eq: 'E = F/Q = V/d  ·  F = Q₁Q₂ / (4πε₀r²)', tex: [t`E = \frac{F}{Q} = \frac{V}{d}`, t`F = \frac{Q_1Q_2}{4\pi\varepsilon_0 r^2}`] },
+      { label: 'Capacitors', eq: 'C = Q/V  ·  W = ½QV = ½CV²  ·  Q = Q₀ e^(−t/RC)', tex: [t`C = \frac{Q}{V}`, t`W = \tfrac12 QV = \tfrac12 CV^2`, t`Q = Q_0\,e^{-t/RC}`] },
+      { label: 'Magnetic force & radius', eq: 'F = BIl sin θ  ·  F = BQv sin θ  ·  r = p / BQ', tex: [t`F = BIl\sin\theta`, t`F = BQv\sin\theta`, t`r = \frac{p}{BQ}`] },
+      { label: 'Faraday’s law', eq: 'Φ = BA  ·  ε = −d(NΦ) / dt', tex: [t`\Phi = BA`, t`\varepsilon = -\frac{d(N\Phi)}{dt}`] },
+      { label: 'Mass–energy', eq: 'ΔE = c² Δm', tex: [t`\Delta E = c^2\,\Delta m`] },
     ],
   },
   {
     unit: 'WPH15',
     title: 'Thermodynamics, Oscillations & Cosmology',
     items: [
-      { label: 'Thermal & Ideal gas', eq: 'ΔE = mcΔθ  ·  pV = NkT = nRT  ·  ½m⟨c²⟩ = ³⁄₂ kT' },
-      { label: 'SHM', eq: 'a = −ω²x  ·  T = 2π/ω  ·  T = 2π√(m/k) = 2π√(l/g)' },
-      { label: 'Gravity & Orbits', eq: 'F = Gm₁m₂/r²  ·  V_grav = −GM/r  ·  T² ∝ r³' },
-      { label: 'Nuclear decay', eq: 'A = λN  ·  N = N₀ e^(−λt)  ·  t₁/₂ = ln 2 / λ' },
-      { label: 'Stars & Stefan–Boltzmann', eq: 'L = σAT⁴ = 4πr²σT⁴  ·  I = L / (4πd²)' },
-      { label: 'Redshift & Hubble', eq: 'z = Δλ/λ ≈ Δf/f ≈ v/c  ·  v = H₀d' },
+      { label: 'Thermal & Ideal gas', eq: 'ΔE = mcΔθ  ·  pV = NkT = nRT  ·  ½m⟨c²⟩ = ³⁄₂ kT', tex: [t`\Delta E = mc\Delta\theta`, t`pV = NkT = nRT`, t`\tfrac12 m\langle c^2\rangle = \tfrac32 kT`] },
+      { label: 'SHM', eq: 'a = −ω²x  ·  T = 2π/ω  ·  T = 2π√(m/k) = 2π√(l/g)', tex: [t`a = -\omega^2 x`, t`T = \frac{2\pi}{\omega}`, t`T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{l}{g}}`] },
+      { label: 'Gravity & Orbits', eq: 'F = Gm₁m₂/r²  ·  V_grav = −GM/r  ·  T² ∝ r³', tex: [t`F = \frac{Gm_1m_2}{r^2}`, t`V_{grav} = -\frac{GM}{r}`, t`T^2 \propto r^3`] },
+      { label: 'Nuclear decay', eq: 'A = λN  ·  N = N₀ e^(−λt)  ·  t₁/₂ = ln 2 / λ', tex: [t`A = \lambda N`, t`N = N_0\,e^{-\lambda t}`, t`t_{1/2} = \frac{\ln 2}{\lambda}`] },
+      { label: 'Stars & Stefan–Boltzmann', eq: 'L = σAT⁴ = 4πr²σT⁴  ·  I = L / (4πd²)', tex: [t`L = \sigma AT^4 = 4\pi r^2\sigma T^4`, t`I = \frac{L}{4\pi d^2}`] },
+      { label: 'Redshift & Hubble', eq: 'z = Δλ/λ ≈ Δf/f ≈ v/c  ·  v = H₀d', tex: [t`z = \frac{\Delta\lambda}{\lambda} \approx \frac{\Delta f}{f} \approx \frac{v}{c}`, t`v = H_0 d`] },
     ],
   },
 ];
 
 export const CHEM_DATA: ChemDataRow[] = [
   // Core Equations
-  { group: 'Equations', key: 'Moles & Gas', val: 'n = m/M = cV  ·  pV = nRT (p in Pa, V in m³)' },
-  { group: 'Equations', key: 'Calorimetry', val: 'q = mcΔT  ·  ΔH = −q / n' },
-  { group: 'Equations', key: 'Entropy & Gibbs', val: 'ΔS_tot = ΔS_sys + ΔS_surr  ·  ΔG = ΔH − TΔS_sys (feasible if ΔG ≤ 0)' },
-  { group: 'Equations', key: 'Arrhenius', val: 'k = A e^(−Ea / RT)  ·  ln k = −Ea/(RT) + ln A' },
-  { group: 'Equations', key: 'Equilibrium & Entropy', val: 'ΔS_tot = R ln K  ·  p(A) = x(A) × P_total' },
-  { group: 'Equations', key: 'Acids & Buffers', val: 'pH = −log₁₀[H⁺]  ·  Ka = [H⁺][A⁻]/[HA]  ·  pKa = −log₁₀ Ka' },
-  { group: 'Equations', key: 'Cell potential', val: 'E°_cell = E°(reduction / RHS) − E°(oxidation / LHS)' },
+  { group: 'Equations', key: 'Moles & Gas', val: 'n = m/M = cV  ·  pV = nRT (p in Pa, V in m³)', tex: [t`n = \frac{m}{M} = cV`, t`pV = nRT \ (p \text{ in Pa},\ V \text{ in m}^3)`] },
+  { group: 'Equations', key: 'Calorimetry', val: 'q = mcΔT  ·  ΔH = −q / n', tex: [t`q = mc\Delta T`, t`\Delta H = -\frac{q}{n}`] },
+  { group: 'Equations', key: 'Entropy & Gibbs', val: 'ΔS_tot = ΔS_sys + ΔS_surr  ·  ΔG = ΔH − TΔS_sys (feasible if ΔG ≤ 0)', tex: [t`\Delta S_{total} = \Delta S_{system} + \Delta S_{surroundings}`, t`\Delta G = \Delta H - T\Delta S_{system}`, t`(\text{feasible if } \Delta G \leq 0)`] },
+  { group: 'Equations', key: 'Arrhenius', val: 'k = A e^(−Ea / RT)  ·  ln k = −Ea/(RT) + ln A', tex: [t`k = A\,e^{-E_a/RT}`, t`\ln k = -\frac{E_a}{RT} + \ln A`] },
+  { group: 'Equations', key: 'Equilibrium & Entropy', val: 'ΔS_tot = R ln K  ·  p(A) = x(A) × P_total', tex: [t`\Delta S_{total} = R\ln K`, t`p(A) = x(A) \times P_{total}`] },
+  { group: 'Equations', key: 'Acids & Buffers', val: 'pH = −log₁₀[H⁺]  ·  Ka = [H⁺][A⁻]/[HA]  ·  pKa = −log₁₀ Ka', tex: [t`\text{pH} = -\log_{10}[\text{H}^+]`, t`K_a = \frac{[\text{H}^+][\text{A}^-]}{[\text{HA}]}`, t`\text{p}K_a = -\log_{10} K_a`] },
+  { group: 'Equations', key: 'Cell potential', val: 'E°_cell = E°(reduction / RHS) − E°(oxidation / LHS)', tex: [t`E^\circ_{cell} = E^\circ_{\text{reduction (RHS)}} - E^\circ_{\text{oxidation (LHS)}}`] },
 
   // IR Spectroscopy
   { group: 'IR Peaks (cm⁻¹)', key: 'O–H (alcohol)', val: '3230 – 3550', note: 'Broad, strong' },

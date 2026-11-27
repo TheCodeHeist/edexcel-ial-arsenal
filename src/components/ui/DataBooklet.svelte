@@ -13,6 +13,27 @@
   let copied = $state('');
   let inputEl = $state<HTMLInputElement>();
 
+  /* KaTeX is loaded the first time the booklet opens; until then each formula shows its plain-text fallback. */
+  type Katex = typeof import('katex').default;
+  let katex = $state<Katex | null>(null);
+  let katexLoading = false;
+  function loadKatex() {
+    if (katex || katexLoading) return;
+    katexLoading = true;
+    Promise.all([import('katex'), import('katex/dist/katex.min.css')])
+      .then(([m]) => { katex = m.default ?? (m as unknown as Katex); })
+      .catch(() => { katexLoading = false; });
+  }
+  const texCache = new Map<string, string>();
+  function tex(src: string): string {
+    let html = texCache.get(src);
+    if (html === undefined && katex) {
+      html = katex.renderToString(src, { displayMode: false, throwOnError: false, strict: 'ignore', output: 'htmlAndMathml' });
+      texCache.set(src, html);
+    }
+    return html ?? '';
+  }
+
   const TABS: readonly [Tab, string][] = [
     ['const', 'Constants'],
     ['phys', 'Physics'],
@@ -68,6 +89,7 @@
     if (want) tab = want;
     else if (!open && onMaths() && tab !== 'stats') tab = 'maths';
     open = true;
+    loadKatex();
     await tick();
     inputEl?.focus();
   }
@@ -107,6 +129,14 @@
     <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
   </svg>
 </button>
+
+{#snippet formula(plain: string, parts: string[])}
+  {#if katex}
+    <span class="db-tex">{#each parts as p}<span class="db-tp">{@html tex(p)}</span>{/each}</span>
+  {:else}
+    <code class="db-eq">{plain}</code>
+  {/if}
+{/snippet}
 
 {#if open}
   <div class="modal-bg" role="presentation" onclick={close}>
@@ -158,7 +188,7 @@
               {#each g.items as it}
                 <div class="db-eqrow">
                   <span class="db-elbl">{it.label}</span>
-                  <code class="db-eq">{it.eq}</code>
+                  {@render formula(it.eq, it.tex)}
                 </div>
               {/each}
             </div>
@@ -175,7 +205,7 @@
               {#each rows as r}
                 <div class="db-eqrow">
                   <span class="db-elbl">{r.key}{#if r.note} <small>({r.note})</small>{/if}</span>
-                  <code class="db-eq">{r.val}</code>
+                  {#if r.tex}{@render formula(r.val, r.tex)}{:else}<code class="db-eq">{r.val}</code>{/if}
                 </div>
               {/each}
             </div>
@@ -202,8 +232,8 @@
                 <div class="db-sub">{sec.title}</div>
                 {#each sec.items as it}
                   <div class="db-eqrow">
-                    <span class="db-elbl">{it.label}</span>
-                    <code class="db-eq">{it.eq}</code>
+                    <span class="db-elbl">{#if it.ltex && katex}<span class="db-ltex">{@html tex(it.ltex)}</span>{:else}{it.label}{/if}</span>
+                    {@render formula(it.eq, it.tex)}
                   </div>
                 {/each}
               {/each}
