@@ -308,6 +308,12 @@ def outline(lines, items):
             while lm := LABEL.match(rest):
                 lab = lm[1]
                 kind = "roman" if lab in ROMAN else "letter"
+                # '(i)' after '(h)' is the letter i, unless an '(ii)' follows (S1 Jan 2021 5(i))
+                if (lab == "i" and level1 == "letter" and path == ("h",)
+                        and not any(o.page in (l.page, l.page + 1) and (o.page, o.y0) > (l.page, l.y0)
+                                    and (o.page, o.y0) < (l.page, l.y0 + 400) and re.match(r"^\(ii\)", o.text)
+                                    for o in lines)):
+                    kind = "letter"
                 level1 = level1 or kind
                 if kind == level1:
                     path = (lab,)
@@ -316,8 +322,14 @@ def outline(lines, items):
                 else:
                     q.problems.append(f"Q{q.number}: label ({lab}) with no outer label")
                     path = (lab,)
-                pending.append((path, l))
-                first_label = first_label or l
+                # '(ii)' whose '(i)' sits inside the line above ('Find (i) the centre of C,' then '(ii) the radius of
+                # C.', one mark for both: FP2 Jun 2021 2): the part starts at that line
+                at = l
+                if lab == "ii" and not pending:
+                    at = next((o for o in lines if o.page == l.page and l.y0 - 40 < o.y0 < l.y0 - 4 and o.x0 < 100
+                               and re.search(r"\S\s*\(i\)\s", o.text)), l)
+                pending.append((path, at))
+                first_label = first_label or at
                 rest = rest[lm.end():]
         mm = MARK.match(l.text)
         if mm and l.bold and l.x0 > 470:
@@ -449,7 +461,7 @@ HEADER = re.compile(
     r"|QUESTION(?:\s+(?:NUMBER|SCHEME|MARKS|ANSWER|SOLUTION)\b.*)?"
     r"|Q(?:\s+(?:Scheme|Answer|Solution|Marks)\b.*)?)$"
 )
-MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*|(?:i|ii|iii|iv|v|vi))$")   # M2: '1a', '2b(ii)'; P1 Oct 2023: '7ai'
+MS_LABEL_BARE = re.compile(r"^(\d{1,2})\s*\.?\s*([a-h])\s*((?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\)\s*)*|(?:i|ii|iii|iv|v|vi))$")   # M2: '1a', '2b(ii)'; P1 Oct 2023: '7ai'; M2 Jan 2022: '2.a'
 MS_LABEL_BARE_LEAD = re.compile(r"^(\d{1,2})\s*([a-h])\s+(?=\S)")    # M1/M2: '7a Use of ...', '3b Resolve ...'
 # A label at the start of a line, with the scheme's text after it on the same line (S3: '2. (a) Number all …',
 # S1 Oct 2021: '1 (a) [Sum of probs …', no dot).
@@ -482,7 +494,7 @@ MARK_CODES = re.compile(r"^(?:d{0,2}[MABE]\d(?:\*|ft|cao|cso|oe)?\s*,?\s*)+(?:ft
 MS_PART_TOTAL = re.compile(r"^\((\d{1,2})\)$")
 MS_PART_SUB = re.compile(r"^(?:(?:d{0,2}[MABE]\d(?:\*|ft|cao|cso|oe)?\s*,?\s*)+)?[(\[](\d{1,2})[)\]]$", re.I)
 ALT_LEAD = re.compile(r"^(?:(?:\d{1,2}\s*\.?\s*)?\(\s*[a-h]\s*\)\s*(?:ALT|Alt|Alternative|ALTERNATIVE)\b|ALT\b|Alt\b|ALTERNATIVE\b|Alternative\b|Aliter\b|SC\s*:|Other\s+possible\b|N\.\s?B\.|or\s*$|Way\s*(?:\d|One|Two|Three)|Example\b|(?:e\.g\.?\s*)?Middle\s+(?:Left|Right)\b|e\.g\.?\s*(?:Left|Right)\s+to\s+(?:Left|Right)\b|Notes\s+for\s+part\b)", re.I)
-POST_ALT = re.compile(r"^(?:(?:Alt|ALT|Alternative|Aliter|Way\s*(?:\d|One|Two|Three))\s*(?:\(\s*([a-h]|i|ii|iii)\s*\))?|(?:(?:\d{1,2}\s*\.?\s*)?\(\s*([a-h]|i|ii|iii)\s*\)\s*(?:Alt|ALT|Alternative|Aliter|Way\s*(?:\d|One|Two|Three))))\s*:?\s*$", re.I)
+POST_ALT = re.compile(r"^(?:(?:Alt|ALT|Alternative|Aliter|Way\s*(?:\d|One|Two|Three))\s*(?:(?:\d|I{1,3}|IV)\s+(?=\())?(?:\(\s*([a-h]|i|ii|iii)\s*\))?|(?:(?:\d{1,2}\s*\.?\s*)?\(\s*([a-h]|i|ii|iii)\s*\)\s*(?:Alt|ALT|Alternative|Aliter|Way\s*(?:\d|One|Two|Three))))\s*:?\s*$", re.I)
 PROSE_NOTE = re.compile(r"^(?:M\d|A\d|B\d|dM\d|ddM\d|Main\s+method|Notes?\b|\([a-h]\)\s*(?:Ignore|Accept|Condone|Allow|Do not|Must))", re.I)
 
 
@@ -503,6 +515,7 @@ class MsRow:
     start: tuple        # (page, y)
     end: tuple = None
     total_line: Line = None
+    masks: list = None      # [(page, x0, y0, x1, y1)] painted white in this row's crops (a stepped edge)
 
 
 def label_columns(ms_doc):
@@ -589,7 +602,21 @@ def join_totals(lines):
 def ms_split(ms_doc, questions):
     """Mark-scheme segments, one per label in the 'Question Number' column, and each question's notes."""
     lines = join_totals(read_lines(ms_doc, skip_cover=False, top=8, ms=True))   # a row label can sit at y 11 (FP3 Jan 2021)
+    # an appendix of more methods for an earlier question after the last one ('Some more unusual methods for 3ii':
+    # WMA12 Jun 2022): its 'Way 5' rows are no part of the last question; it goes after that question's notes
+    qnos = {q.number for q in questions}
+    app_head = next((l for l in lines if (am := APP_HEAD.match(l.text)) and int(am[1]) in qnos
+                     and int(am[1]) < max(qnos)), None)
+    app_pos = app_end = None
+    full_lines = lines
+    if app_head is not None:
+        app_pos = (app_head.page, app_head.y0 - 3)
+        foot = next((l for l in lines if (l.page, l.y0) > app_pos and FOOTER.match(l.text)), None)
+        app_end = (foot.page, foot.y0 - 4) if foot else (len(ms_doc) - 1, ms_doc[-1].rect.height - 6)
+        lines = [l for l in lines if (l.page, l.y0) < app_pos]
     items = content_items(ms_doc, lines, ms=True)
+    all_lines, all_items = (full_lines, content_items(ms_doc, full_lines, ms=True)) if app_head is not None \
+        else (lines, items)
     columns = fix_columns(label_columns(ms_doc), lines)
     fallback = label_x(lines)
     level1 = {}
@@ -669,17 +696,21 @@ def ms_split(ms_doc, questions):
     marks_x = {pg: sorted(xs)[len(xs) // 2] for pg, xs in by_page.items()}
     marks_x_all = sorted(l.x0 for l in codes)[len(codes) // 2] if codes else 0
     rows, notes, problems = [], {}, []
+    notes_head_cut = {}     # id(total line) -> y where its 'Notes | Total n' heading row starts
     cur_q, path = None, ()
     expected = 1
     closed = False          # the current question's '(n marks)' line has passed: what follows is its notes
     prev_label = None
     post_alt_prose_y = None
     post_alt_rule_end = None
+    post_alt_page = None
 
     def resolve_path(qn, labs):
         nonlocal path
         for lab in expand_labs(labs):
             kind = "roman" if lab in ROMAN else "letter"
+            if lab == "i" and tuple(path) == ("h",) and ("i",) in part_order.get(qn, []):
+                kind = "letter"                     # the letter after (h), as the question paper reads it
             outer = level1.get(qn) or kind
             if kind == outer:
                 path = (lab,)
@@ -692,9 +723,21 @@ def ms_split(ms_doc, questions):
     for l in lines:
         if l.page < first_page:
             continue
-        if post_alt_prose_y is not None and (l.page != rows[-1].start[0] or l.y0 >= post_alt_prose_y - 1):
+        if post_alt_prose_y is not None and l.page != post_alt_page and not closed and rows and l.page == post_alt_page + 1:
+            # the alternative runs on over the page: it goes on while that page's marked rows come before any prose
+            # (P4 Jun 2026 7's 'Way Two:')
+            cl2 = columns.get(l.page) or fallback
+            pl2 = lines_by_page.get(l.page, ())
+            prose2 = min((o.y0 for o in pl2 if cl2 and PROSE_NOTE.match(o.text) and o.x0 < cl2[1] + 10
+                          and not any(m is not o and m.x0 > cl2[1] + 120 and MARK_CODES.match(m.text)
+                                      and abs(m.mid - o.mid) < 9 for m in pl2)), default=None)
+            if cl2 and prose2 is not None and any(o.x0 > cl2[1] + 120 and MARK_CODES.match(o.text) and o.y0 < prose2
+                                                  for o in pl2):
+                post_alt_page, post_alt_prose_y = l.page, prose2
+                post_alt_rule_end = max((ry for ry in rule_ys(ms_doc, l.page) if ry <= prose2 + 2), default=None)
+        if post_alt_prose_y is not None and (l.page != post_alt_page or l.y0 >= post_alt_prose_y - 1):
             if not closed and rows:
-                rows[-1].end = (rows[-1].start[0], post_alt_rule_end or post_alt_prose_y - 1)
+                rows[-1].end = (post_alt_page, post_alt_rule_end or post_alt_prose_y - 1)
                 closed = True
             post_alt_prose_y = post_alt_rule_end = None
         col = columns.get(l.page) or fallback
@@ -729,6 +772,22 @@ def ms_split(ms_doc, questions):
             r = rows[-1]
             r.total_line = l
             r.end = (l.page, l.y1 + PAD)
+            # the same total printed again right under it ('(6)' then '[6]': M2 Jun 2021 4 Alt 2)
+            num = re.search(r"\d{1,2}", l.text)
+            dup = [o for o in plines if o is not l and l.y0 < o.y0 < l.y1 + 4 and num
+                   and re.fullmatch(rf"[(\[]\s*{num[0]}\s*(?:marks?)?[)\]]", o.text.strip())]
+            if dup:
+                r.end = (l.page, max(o.y1 for o in dup) + PAD)
+                r.total_line = max(dup, key=lambda o: o.y1)
+            # printed in the notes' own heading row ('Notes | Total 12': S3 Jan 2025 4): the rows end above that
+            # row, and the notes start with it
+            nh = [o for o in plines if re.fullmatch(r"Notes?:?", o.text) and abs(o.mid - l.mid) < 4 and o.x1 < l.x0]
+            if nh:
+                top = min(nh[0].y0, l.y0)
+                ra = [ry for ry in rule_ys(ms_doc, l.page) if top - 8 <= ry <= top + 1]
+                cut = (max(ra) - 0.5) if ra else top - 2
+                r.end = (l.page, cut)
+                notes_head_cut[id(l)] = cut
             closed = True
             post_alt_prose_y = post_alt_rule_end = None
             continue
@@ -754,8 +813,16 @@ def ms_split(ms_doc, questions):
         if (closed and cur_q is not None and l.page in columns
                 and (am := POST_ALT.match(ltext))):
             after = [o for o in plines if o.y0 > l.y0 - 2]
-            prose_y = min((o.y0 for o in after if o.x0 < col[1] + 10 and (
-                PROSE_NOTE.match(o.text) or re.match(rf"^{expected}(?:\s*\.|\s*\(?[a-h]\)?|\s|$)", o.text))), default=1e9)
+            # (the next question's number sits inside the label column: '4 + I² − 4I cos120° = 9' just right of a
+            # narrow one is the scheme's maths, M2 Oct 2023 3 alt)
+            prose_y = min((o.y0 for o in after if (
+                (PROSE_NOTE.match(o.text) and o.x0 < col[1] + 10
+                 # (a scheme line has its mark in the Marks column beside it; a prose note has none: FP1 Jun 2026
+                 # 8's Way 2 'If 1: f(k+1) ...' with its M1)
+                 and not any(m is not o and m.x0 > col[1] + 120 and MARK_CODES.match(m.text)
+                             and abs(m.mid - o.mid) < 9 for m in after))
+                or (o.x0 < col[1] - 2 and re.match(rf"^{expected}(?:\s*\.|\s*\(?[a-h]\)?|\s|$)", o.text)))),
+                default=1e9)
             has_marks = any(o.y0 < prose_y and o.x0 > col[1] + 120 and MARK_CODES.match(o.text) for o in after)
             has_rule = any(l.y0 < ry <= prose_y + 5 for ry in rule_ys(ms_doc, l.page))
             if has_marks and has_rule:
@@ -774,10 +841,19 @@ def ms_split(ms_doc, questions):
                     above_lab = [ry for ry in rule_ys(ms_doc, l.page) if tot_y < ry <= lab_above[-1].y0 + 4]
                     if above_lab:
                         start_y = max(above_lab) - 0.5
+                if not alt_tok:
+                    # the notes' latest part label above it ('(i) Condone ...' then 'Alternative scheme ...',
+                    # 'Way Two:': P4 Jun 2026 7)
+                    nl = [o for o in plines if o.y0 < l.y0 - 2 and o.y0 > tot_y and o.x0 < col[1] + 50
+                          and (nm := re.match(r"^\(\s*([a-h]|i|ii|iii|iv)\s*\)", o.text))
+                          and nm[1] in part_labels.get(cur_q, ())]
+                    if nl:
+                        alt_tok = re.match(r"^\(\s*([a-h]|i|ii|iii|iv)\s*\)", max(nl, key=lambda o: o.y0).text)[1]
                 alt_path = resolve_path(cur_q, [alt_tok]) if alt_tok else rows[-1].path
                 rows.append(MsRow(cur_q, alt_path, (l.page, start_y)))
                 closed = False
                 post_alt_prose_y = prose_y
+                post_alt_page = l.page
                 post_alt_rule_end = max((ry for ry in rule_ys(ms_doc, l.page) if l.y0 < ry <= prose_y + 2), default=None)
                 prev_label = l
                 continue
@@ -789,8 +865,12 @@ def ms_split(ms_doc, questions):
             prev_path = rows[-1].path
             alt_path = resolve_path(cur_q, [alt_tok])
             same_pg = rows[-1].start[0] == l.page
+            # (a row border, not a long fraction bar beside the label: P3 Jun 2023 10's Alt II (a))
+            rx_a = _RULE_X.get((ms_doc.name, l.page), {})
+            mx_a = marks_x.get(l.page, marks_x_all) - 25 if (marks_x or marks_x_all) else col[1] + 120
             above = [ry for ry in rule_ys(ms_doc, l.page)
-                     if (not same_pg or ry > rows[-1].start[1] + 2) and ry <= l.y0 + 4]
+                     if (not same_pg or ry > rows[-1].start[1] + 2) and ry <= l.y0 + 4
+                     and not (ry in rx_a and rx_a[ry][1] < min(ms_x_range(ms_doc)[1] - 60, mx_a - 10))]
             start_y = (max(above) - 0.5) if above else cut_above(l, items)
             # only as the first thing in its cell: '(a)Way2' in '(b) Way 2 follows (a)Way2' describes (b)'s
             # method (FP1 Oct 2020 7)
@@ -852,6 +932,12 @@ def ms_split(ms_doc, questions):
                 pass                                        # '3(b)' after '3(a)': the same question (M1)
             elif n != expected:
                 continue                                    # a stray number, not the next question
+            elif (labs and n in part_order and not part_order[n] and any(
+                    l.page < o.page <= l.page + 2 and o.x0 <= (columns.get(o.page) or fallback or (0, 120))[1] + 5
+                    and re.fullmatch(rf"{n}\.?", o.text)
+                    and any(h.page == o.page and 0 < o.y0 - h.y1 < 30 for h in headers) for o in lines)):
+                continue    # '5(a)' for a question with no parts, which starts later at its own '5': the notes
+                #             before it are the last question's, mislabelled (FP2 Jun 2021 p15)
             else:
                 cur_q, path, expected, closed = n, (), n + 1, False
                 post_alt_prose_y = post_alt_rule_end = None
@@ -873,6 +959,13 @@ def ms_split(ms_doc, questions):
             prev_label = l
             rows.append(MsRow(cur_q, path, (l.page, start)))
             continue
+        def lone_axis(it, pno):
+            """A graph's thin vertical axis inside the scheme column: not one of a table's column rules, which
+            come in sets drawn over the same heights."""
+            return (it.kind == "drawing" and it.width < 4 and it.y1 - it.y0 > 60 and col[1] + 10 < it.x0 < mx_cut - 10
+                    and not any(o is not it and o.page == pno and o.kind == "drawing" and o.width < 4
+                                and abs(o.y0 - it.y0) < 3 and abs(o.y1 - it.y1) < 3 for o in items))
+
         # A row starts at its cell's top rule, which can sit well above the label: the first M1 row's text is
         # top-aligned, the label lower down (M3 2025: part (b)'s first row went into (a)'s crop)
         start = cut_above(l, items)
@@ -880,7 +973,9 @@ def ms_split(ms_doc, questions):
         # the previous part's subtotal '(3)' ends it: this part's rows begin right under it (the label can sit
         # in the middle of a tall cell, below this part's first rows: M3 Jun 2025 4(b))
         mx_cut = marks_x.get(l.page, marks_x_all) - 25 if (marks_x or marks_x_all) else col[1] + 120
-        sub = [m for m in plines if floor - 3 <= m.y0 < l.y0 and m.y1 > floor + 6
+        # (a label merged into a line with a tall root sign has a tall box: WST01 Oct 2019 2(b)(ii))
+        l_top = l.y0 if l.y1 - l.y0 < 30 else l.mid - 8
+        sub = [m for m in plines if floor - 3 <= m.y0 < l_top and m.y1 > floor + 6
                and (MS_PART_SUB.match(m.text) and m.x0 >= mx_cut
                     # or merged onto the end of the row's last line: '(awrt 44.4, awrt 55.2) A1 (5)' (S3 Jan 2024 6)
                     or (re.search(r"\s[(\[]\d{1,2}[)\]]$", m.text) and m.x1 >= mx_cut + 45 and m.x0 > col[1] + 100))
@@ -900,6 +995,14 @@ def ms_split(ms_doc, questions):
         rys = rule_ys(ms_doc, l.page)
         if sub:
             sub_y = sub[-1].y1
+            # a subtotal printed level with the middle of the part's own graph ends the part under the graph (M1
+            # Jun 2026 3(c)'s (4) beside the t-axis, its negative velocities further down; P1 Jun 2025 7(b))
+            m = sub[-1]
+            fig = [it.y1 for it in items if it.page == l.page and it.kind in ("drawing", "image") and it.y0 < m.y0 - 5
+                   and it.y1 > m.y1 + 20 and 30 < it.y1 - it.y0 < 400 and it.x0 + it.width < m.x0 and it.y1 < l.y0
+                   and (it.width > 60 or lone_axis(it, l.page))]
+            if fig:
+                sub_y = max(fig)
             rys = row_rule_ys(ms_doc, l.page)
             near = [ry for ry in rys if sub_y - 4 <= ry <= sub_y + 6 and ry <= l.y0 + 4]
             if near:
@@ -911,17 +1014,35 @@ def ms_split(ms_doc, questions):
                     start = mid_rules[0] - 0.5
                 else:
                     start = sub_y + 1
+                    # ...below whatever of the part still hangs under its subtotal: a graph's 'O' (P2 Jan 2020 9(a))
+                    for _ in range(2):
+                        hang = ([o.y1 for o in plines if o.y0 < start - 1 and o.y1 > start + 1 and o.y1 < l.y0 - 6
+                                 and o.y0 >= sub[-1].y0 - 2 and o.x1 < sub[-1].x0 - 3 and o.y1 - o.y0 < 20
+                                 # a label of the figure it hangs under, not the next part's first line
+                                 and any(it.page == l.page and it.kind in ("image", "drawing") and it.width > 30
+                                         and it.x0 - 4 <= o.x0 <= it.x0 + it.width + 4
+                                         and it.y0 < o.y0 and it.y1 > o.y0 - 6 for it in items)]
+                                + [im1 for im0, im1 in page_imgs.get(l.page, ()) if im0 < start - 1 < start + 1 < im1
+                                   and im1 < l.y0 - 2])
+                        if hang:
+                            start = max(hang) + 1
         else:
             prev_lim = (prev_label.y1 - 2) if (prev_label and prev_label.page == l.page and not alt) else 0
             floor_lim = max(floor + 2, prev_lim)
-            cands = [ry for ry in rys if floor_lim < ry <= l.y0 + 4 and ry < l.mid]
+            # (a row border reaches the Marks column: a long fraction bar is no border, FP2 Jan 2021 5(b))
+            rx = _RULE_X.get((ms_doc.name, l.page), {})
+            tx1 = ms_x_range(ms_doc)[1]
+            cands = [ry for ry in rys if floor_lim < ry <= l.y0 + 4 and ry < l.mid
+                     and not (ry in rx and rx[ry][1] < min(tx1 - 60, mx_cut - 10))]
             if cands:
                 top = max(cands)
                 gap = l.y0 - top
                 tall_cell = gap < 260 and (
                     not rows or rows[-1].start[0] != l.page
                     or any(im0 < l.y0 and im1 > top - 4 for im0, im1 in page_imgs.get(l.page, ()))
-                    or any(MARK_CODES.match(m.text) and top < m.y0 < l.y0 - 4 for m in plines))
+                    or any(MARK_CODES.match(m.text) and top < m.y0 < l.y0 - 4 for m in plines)
+                    # under the question's bare number row, the part's table above its centred label (S3 Oct 2020 3)
+                    or (rows[-1].q == cur_q and not rows[-1].path and rows[-1].start[1] < top))
                 if (gap < 40 or tall_cell) and top - 0.5 < start:
                     start = top - 0.5
         # a question whose first label is already a part's ('1a', with no question-number row) centred in a tall
@@ -940,8 +1061,34 @@ def ms_split(ms_doc, questions):
             band_rows = any(MARK_CODES.match(o.text) and o.x0 >= mx_new and tt <= o.y0 < start for o in plines)
             band_fig = any(it.page == l.page and it.kind in ("image", "drawing") and it.y1 - it.y0 > 30
                            and tt <= it.y0 and it.y1 <= start + 2 for it in items)
-            if tt < start - 1 and (band_rows or band_fig):
-                start = tt
+            # or a lead note under the header of a new page when the page before ended on the last question's
+            # final subtotal with nothing after it (M2 Jun 2023 3, whose Q2 prints no total)
+            band_lead = False
+            hb = [h for h in headers if h.page == l.page and h.y1 < start]
+            if rows and rows[-1].start[0] < l.page and hb and prev_y == 0:
+                # the header row's foot: its lowest word ('Number' under 'Question', 'Marks', 'Notes')
+                h_bot = max([h.y1 for h in hb] + [o.y1 for o in plines if o.y0 < max(h.y1 for h in hb) + 4
+                                                  and HDR_WORD.fullmatch(o.text)])
+                lead = [o for o in plines if h_bot < o.y0 and o.y1 < min(tt, start) + 2 and not HDR_WORD.fullmatch(o.text)]
+                pp = [o for o in lines_by_page.get(l.page - 1, ()) if not FOOTER.match(o.text)
+                      and not re.fullmatch(r"\d{1,3}", o.text)]
+                lastp = max(pp, key=lambda o: o.y1, default=None)
+                if (lead and lastp is not None and MS_PART_SUB.match(lastp.text)
+                        and not any(MS_PART_SUB.match(o.text) or MS_TOTAL.match(o.text)
+                                    or re.fullmatch(r"\d{1,2}", o.text) for o in lead)):
+                    band_lead = True
+                    tt = min((ry - 0.5 for ry in rule_ys(ms_doc, l.page) if h_bot - 6 <= ry <= h_bot + 10),
+                             default=h_bot + 1)
+            if tt < start - 1 and (band_rows or band_fig or band_lead):
+                # the label printed is a later part's ('2(b)'), the first part's own label missing (M3 Jun 2026 A
+                # 2): the marked rows above it are the first part's
+                order = part_order.get(cur_q, [])
+                if (band_rows and order and tuple(path) in order and order.index(tuple(path)) > 0
+                        and len(order[0]) == 1 and len(path) == 1 and path[0] > order[0][0]
+                        and any(MS_PART_SUB.match(o.text) and o.x0 >= mx_new and tt <= o.y0 < start for o in plines)):
+                    rows.append(MsRow(cur_q, order[0], (l.page, tt)))
+                else:
+                    start = tt
         # the first label on a page, centred in its cell, after the previous part closed with its subtotal on the
         # page before: this part's rows start at the top of this page's table (M2 Jun 2023 3(b)'s diagram)
         elif (labs and rows and rows[-1].q == cur_q and rows[-1].start[0] < l.page and rows[-1].path != path
@@ -986,6 +1133,38 @@ def ms_split(ms_doc, questions):
             mid = [ry for ry in rys if rows[-1].start[1] + 2 < ry <= l.y0 + 4]
             start = (mid[-1] - 0.5) if mid else max(rows[-1].start[1] + 2, l.y0 - 1)
         rows.append(MsRow(cur_q, path, (l.page, start)))
+    # A combined label '(b)/(c)' heads one cell marking two parts in turn (FP1 Jun 2022 4: 'With (b) first' ...
+    # '(5)' ... '(2)'): its first subtotal ends the first part, the second part's rows follow it
+    for l in lines:
+        cm = re.match(r"^\(([a-h])\)\s*/\s*\(([a-h])\)", l.text)
+        if not cm or not (l.page in columns or fallback) or l.x0 > ((columns.get(l.page) or fallback or (0, 120))[1] + 5):
+            continue
+        i = next((i for i, r in enumerate(rows) if r.start[0] == l.page and l.y0 - 60 < r.start[1] <= l.y0 + 2
+                  and r.path and r.path[-1] == cm[1]), None)
+        if i is None:
+            # a second such cell, an alternative order ('With (c) first'), inside the second part's rows: it opens
+            # the first part again
+            j = max((j for j, r in enumerate(rows) if r.start <= (l.page, l.y0)), default=None)
+            if j is None or not rows[j].path or rows[j].path[-1] != cm[2]:
+                continue
+            path0 = tuple(rows[j].path[:-1]) + (cm[1],)
+            if path0 not in part_order.get(rows[j].q, []):
+                continue
+            ra = [ry for ry in rule_ys(ms_doc, l.page) if l.y0 - 15 <= ry <= l.y0 + 2]
+            rows.insert(j + 1, MsRow(rows[j].q, path0, (l.page, (max(ra) - 0.5) if ra else l.y0 - 2)))
+            i = j + 1
+        r = rows[i]
+        nxt = rows[i + 1] if i + 1 < len(rows) else None
+        lim = nxt.start[1] if nxt is not None and nxt.start[0] == l.page else 1e9
+        mx = marks_x.get(l.page, marks_x_all) - 25 if (marks_x or marks_x_all) else 400
+        subs = sorted((m for m in lines_by_page.get(l.page, ()) if MS_PART_SUB.match(m.text) and m.x0 >= mx
+                       and l.y0 < m.y0 and m.y1 < lim), key=lambda m: m.y0)
+        if subs and (nxt is None or tuple(nxt.path) != tuple(r.path[:-1]) + (cm[2],) or nxt.start[1] > subs[0].y1):
+            new = MsRow(r.q, tuple(r.path[:-1]) + (cm[2],), (l.page, subs[0].y1 + 1))
+            # the question's total, read while the first part's row was the open one, closes the second
+            if r.total_line is not None and (r.total_line.page, r.total_line.y0) > new.start:
+                new.total_line, new.end, r.total_line, r.end = r.total_line, r.end, None, None
+            rows.insert(i + 1, new)
     # Drop an empty question-number banner row ('7.') when the question's first part sits right under it
     filtered = []
     for i, r in enumerate(rows):
@@ -1001,11 +1180,34 @@ def ms_split(ms_doc, questions):
         filtered.append(r)
     rows = filtered
     # each row runs to the next row's start; a question's last row to its '(n marks)' line
+    gaps = {}
+    totaled = set()     # questions whose total was printed before an alternative that follows it
     for i, r in enumerate(rows):
         nxt = rows[i + 1] if i + 1 < len(rows) else None
-        if nxt is not None and nxt.q == r.q:
+        if (nxt is not None and nxt.q == r.q and r.total_line is not None and r.end is not None
+                and nxt.start > (r.end[0], r.end[1] + 4)):
+            # the question closed with its total, then an alternative reopened a part after the notes ('(7 marks)',
+            # notes, 'Alt (b)': P4 Oct 2021 8): this row ends at the total, the notes are what lies between
+            gaps[r.q] = (r.end, nxt.start)
+            r.total_line = None
+        elif nxt is not None and nxt.q == r.q:
+            if r.total_line is not None:
+                totaled.add(r.q)
             r.end = nxt.start
             r.total_line = None
+        elif r.end is None and (r.q in gaps or r.q in totaled):
+            r.end = nxt.start if nxt else (len(ms_doc) - 1, ms_doc[-1].rect.height - 6)
+        elif r.end is None and nxt is not None and nxt.start[0] > r.start[0] and (lastp := max(
+                (o for o in lines_by_page.get(nxt.start[0] - 1, ()) if (o.page, o.y0) >= r.start
+                 and not FOOTER.match(o.text) and not re.fullmatch(r"\d{1,3}", o.text)),
+                key=lambda o: o.y1, default=None)) is not None and MS_PART_SUB.match(lastp.text) and not any(
+                o.page == nxt.start[0] and o.y0 < nxt.start[1] - 2 and not HDR_WORD.fullmatch(o.text)
+                and (MS_PART_SUB.match(o.text) or MS_TOTAL.match(o.text) or re.fullmatch(r"\d{1,2}", o.text)
+                     or any(MARK_CODES.match(w) for w in o.text.split()))
+                for o in lines_by_page.get(nxt.start[0], ())):
+            # no '(n marks)' printed, but its last part's subtotal ends the page before the next question's
+            # (M2 Jun 2023 2)
+            r.end = (lastp.page, lastp.y1 + PAD)
         elif r.end is None:
             problems.append(f"MS Q{r.q}: no '(n marks)' line after its last row")
             r.end = nxt.start if nxt else (len(ms_doc) - 1, ms_doc[-1].rect.height - 6)
@@ -1021,6 +1223,8 @@ def ms_split(ms_doc, questions):
         if last.total_line is None and last.end is None:
             continue
         start = (last.total_line.page, last.total_line.y1 + 1) if last.total_line is not None else last.end
+        if last.total_line is not None and id(last.total_line) in notes_head_cut:
+            start = (last.total_line.page, notes_head_cut[id(last.total_line)])
         if i + 1 < len(qnums):
             first = by_q[qnums[i + 1]][0]
             floor = start[1] if first.start[0] == start[0] else 0
@@ -1041,6 +1245,32 @@ def ms_split(ms_doc, questions):
                 hy = min(h.y0 for h in head)
                 top_rule = max((ry for ry in rule_ys(ms_doc, end[0]) if hy - win < ry <= hy + 2), default=None)
                 end = (end[0], (top_rule - 1) if top_rule is not None and hy - top_rule < (220 if extra else 25) else hy - 1)
+                # a short note printed right on top of the next question's header, first thing on its page, is
+                # that question's ('Allow column vectors ... throughout.': WME01 Oct 2024 3, Oct 2025 3)
+                if end[0] > start[0]:
+                    blk = [l for l in lines_by_page.get(end[0], ()) if l.y1 <= hy + 1
+                           and not FOOTER.match(l.text) and not re.fullmatch(r"\d{1,3}", l.text)]
+                    nq0 = qnums[i + 1]
+                    if blk and not any(l in headers for l in blk) and (
+                            (len({round(l.y0) for l in blk}) <= 3 and hy - max(l.y1 for l in blk) < 4
+                             # a sentence, not the last notes row running on ('A1  awrt 144') or a stray label
+                             and not any(MARK_CODES.match(w) for l in blk for w in l.text.split())
+                             and any(len(l.text.split()) >= 4 for l in blk))
+                            # or a page-top note that names it ('Note that it is possible to answer Q12 ...':
+                            # WMA02 Jan 2020 12)
+                            or (re.search(rf"\bQ(?:uestion)?\s*{nq0}\b", min(blk, key=lambda o: o.y0).text) and min(l.y0 for l in blk) < 60
+                                and hy - max(l.y1 for l in blk) < 25)):
+                        bt = min(l.y0 for l in blk) - 2
+                        first.start = (end[0], bt)
+                        end = (end[0], bt)
+            # a heading naming the next question ('Question 8 – General Guidance for marking', '8. Scheme - No
+            # Misread') starts that question's part of the scheme (WMA11 Jun 2023 7/8)
+            nq = qnums[i + 1]
+            hd = next((l for l in lines if start < (l.page, l.y0) < end and len(l.text.split()) <= 8
+                       and re.match(rf"^(?:Question\s+{nq}\b(?!\s*\()|{nq}\s*\.\s+Scheme\b)", l.text)), None)
+            if hd is not None:
+                end = (hd.page, hd.y0 - 3)
+                first.start = end
         else:
             def terminal_paper_total(l):
                 if not PAPER_TOTAL.match(l.text):
@@ -1056,6 +1286,18 @@ def ms_split(ms_doc, questions):
             foot = next((l for l in lines if ((l.page, l.y0) > start and FOOTER.match(l.text))
                          or ((l.page, l.y0) > (start[0], start[1] - 6) and terminal_paper_total(l))), None)
             end = max(start, (foot.page, foot.y0 - 4)) if foot else (len(ms_doc) - 1, ms_doc[-1].rect.height - 6)
+            # an appendix of other methods for an earlier question, after the last one's notes ('Some more unusual
+            # methods for 3ii': WMA12 Jun 2022; 'Question 9(a) and (b) using right angled triangles:' WMA11 Jun
+            # 2025 A): it goes after that question's own notes
+            for l in lines:
+                if not (start < (l.page, l.y0) < end) or len(l.text.split()) > 10:
+                    continue
+                am = re.match(r"^(?:Question\s+(\d{1,2})\s*\(|Some\s+(?:more\s+)?(?:other\s+)?(?:more\s+)?unusual\s+"
+                              r"methods\s+for\s+(?:Q(?:uestion)?\s*)?(\d{1,2}))", l.text, re.I)
+                if am and int(am[1] or am[2]) in by_q and int(am[1] or am[2]) < qn:
+                    APPENDIX_NOTES.setdefault(ms_doc.name, {})[int(am[1] or am[2])] = ((l.page, l.y0 - 3), end)
+                    end = (l.page, l.y0 - 3)
+                    break
         # The 2026 A mark schemes reprint each question, as a picture of the question paper's page, between one
         # question's notes and the next one's table: the notes stop before such a page (no text, only an image)
         # (WFM02 Jan 2026 A, WME01 Jun 2026 A, WME03 Jan/Jun 2026 A)
@@ -1063,9 +1305,55 @@ def ms_split(ms_doc, questions):
         if reprint is not None:
             end = max(start, (reprint - 1, ms_doc[reprint - 1].rect.height - 6))
         notes[qn] = (start, end)
+    for qn, (ga, gb) in gaps.items():
+        # the notes between the total and the reopened alternative; any notes after the alternative too
+        if not any(ga < (o.page, o.y0) and (o.page, o.y1) < gb and not FOOTER.match(o.text)
+                   and not HDR_WORD.fullmatch(o.text) and not re.fullmatch(r"\d{1,3}", o.text) for o in lines):
+            continue                                # nothing between: the notes are after the alternative
+        if qn in notes and notes[qn][1] > notes[qn][0]:
+            APPENDIX_NOTES.setdefault(ms_doc.name, {}).setdefault(qn, notes[qn])
+        notes[qn] = (ga, gb)
+    # the previous question's last note printed at the head of this one's notes, before their first part label
+    # ('A1 k > 3.6 ...' above Q6's '(a)' notes: WMA13 Jun 2022 5)
+    for qn, (ns, ne) in list(notes.items()):
+        if qn - 1 not in notes or not any(len(p) == 1 and p[0] in "abcdefgh" for p in part_order.get(qn, [])):
+            continue
+        pl = [o for o in lines if ns < (o.page, o.y0) < ne and o.page == ns[0]]
+        cl = columns.get(ns[0]) or fallback or (0, 120)
+        lab = next((o for o in sorted(pl, key=lambda o: o.y0) if o.x0 <= cl[1] + 5
+                    and re.fullmatch(r"\(a\)|a|%d\s*\(?a\)?" % qn, o.text)), None)
+        if lab is None:
+            continue
+        head = [o for o in pl if o.y1 <= lab.y0 + 1]
+        if not head or lab.y0 - min(o.y0 for o in head) > 60:
+            continue
+        if any(re.match(r"^Notes?\b", o.text, re.I) or LABELISH.match(o.text) for o in head) or any(
+                o.page == ns[0] and ns[1] - 15 < o.y0 < lab.y0 and re.match(r"^Notes?\b", o.text, re.I) for o in lines):
+            continue
+        real = [o for o in head if len(o.text.strip()) > 2 or re.match(r"^d?[MAB]\d", o.text)]
+        if not real:
+            continue
+        y_first = min(o.y0 for o in real)
+        top = min((o for o in real if o.y0 < y_first + 3), key=lambda o: o.x0)
+        if re.match(r"^(?:d?[MAB]\d)\b", top.text) and not APPENDIX_NOTES.get(ms_doc.name, {}).get(qn - 1):
+            cut = (ns[0], lab.y0 - 3)
+            APPENDIX_NOTES.setdefault(ms_doc.name, {})[qn - 1] = (ns, cut)
+            notes[qn] = (cut, ne)
+    if app_pos is not None:
+        for r in rows:
+            if r.end is not None and r.end > app_pos:
+                r.end = app_pos
+        for qn, (ns, ne) in list(notes.items()):
+            if ne > app_pos:
+                notes[qn] = (min(ns, app_pos), app_pos)
+        problems[:] = [p for p in problems if not p.startswith(f"MS Q{max(qnos)}: no '(n marks)'")]
+        for qn, (a, b) in list(APPENDIX_NOTES.get(ms_doc.name, {}).items()):
+            if b > app_pos:
+                APPENDIX_NOTES[ms_doc.name][qn] = (a, max(a, app_pos))
+        APPENDIX_NOTES.setdefault(ms_doc.name, {})[int(APP_HEAD.match(app_head.text)[1])] = (app_pos, app_end)
     # a row's end is the next row's start: keep the row before a moved start in step
     for a, b in zip(rows, rows[1:]):
-        if a.q == b.q and a.end != b.start:
+        if a.q == b.q and a.end != b.start and not (a.q in gaps and a.end == gaps[a.q][0]):
             a.end = b.start
     # nor does a row run through a reprinted question page (M3 Jun 2026 A 6, whose '(13)' never closed it)
     for r in rows:
@@ -1074,7 +1362,7 @@ def ms_split(ms_doc, questions):
             if rp is not None:
                 r.end = max(r.start, (rp - 1, ms_doc[rp - 1].rect.height - 6))
     clear_ms_edges(ms_doc, rows, notes, lines)
-    return rows, notes, problems, lines, items
+    return rows, notes, problems, all_lines, all_items
 
 
 def reprint_page(ms_doc, pg, lines_by_page):
@@ -1238,6 +1526,30 @@ def clear_ms_edges(doc, rows, notes, lines=()):
             hi = b.end[1] if b.end and b.end[0] == pno else doc[pno].rect.height - 6
             y = ms_safe_y(doc, pno, a.end[1], lo, hi, lines)
             a.end = b.start = (pno, y)
+            # the upper part's subtotal '(5)' is level with the top of the next part's first line (a stacked
+            # fraction), so no straight cut separates them (P4 Oct 2021 3): the upper crop runs to the subtotal's
+            # foot with the text side below the step painted out, the lower one starts above that line with the
+            # marks side painted out
+            pl = [l for l in lines if l.page == pno]
+            sub = [l for l in pl if MS_PART_SUB.match(l.text) and l.y1 - 1 <= y <= l.y1 + 4]
+            cross = [l for l in pl if sub and l.y0 < y - 1 and l.y1 > y - 1.5 and l.x1 < sub[-1].x0 - 3
+                     and l.y0 >= sub[-1].y0 - 6]
+            # (its glyphs well above the edge, not just a line box's padding over a rule)
+            cross = cross if any(l.y1 > y + 1 for l in cross) and y - min(l.y0 for l in cross) > 5 else []
+            if sub and cross and not glyph_cut(doc, pno, y, min(l.x0 for l in cross) - 1, max(l.x1 for l in cross) + 1):
+                cross = []
+            if sub and cross:
+                s0 = sub[-1]
+                ytop = min(l.y0 for l in cross) - 1.5
+                if (s0.y0 - 6 < ytop + 1.5 and ytop > lo + 5
+                        and not any(l.x1 < s0.x0 - 3 and ytop < l.y1 <= y and l not in cross
+                                    and l.y0 < ytop for l in pl)):
+                    ybot = max(y, s0.y1 + 1.5)
+                    a.end = (pno, ybot)
+                    b.start = (pno, ytop)
+                    cx0, cx1 = min(l.x0 for l in cross) - 1.5, max(l.x1 for l in cross) + 1.5
+                    a.masks = (a.masks or []) + [(pno, cx0, ytop, cx1, ybot + 3)]
+                    b.masks = (b.masks or []) + [(pno, s0.x0 - 2, ytop - 3, s0.x1 + 2, ybot)]
     by_q = {}
     for r in rows:
         by_q.setdefault(r.q, []).append(r)
@@ -1265,6 +1577,22 @@ def clear_ms_edges(doc, rows, notes, lines=()):
             if hi > ne[1] + 2:
                 y = ms_safe_y(doc, pno, ne[1], lo, hi, lines)
                 ne = (pno, y)
+        # notes printed between the question's total and an alternative after them (a gap): the row before
+        # ends where they start, the alternative starts where they end: those seams move off ink too
+        for r in by_q[qn][:-1]:
+            if r.end and r.end[0] == ns[0] and abs(r.end[1] - ns[1]) < 1:
+                pno = ns[0]
+                lo = r.start[1] if r.start[0] == pno else 8
+                hi = ne[1] if ne[0] == pno else doc[pno].rect.height - 6
+                y = ms_safe_y(doc, pno, ns[1], lo, hi, lines)
+                r.end, ns = (pno, y), (pno, y)
+        for r in by_q[qn][1:]:
+            if r.start[0] == ne[0] and abs(r.start[1] - ne[1]) < 1:
+                pno = ne[0]
+                lo = ns[1] if ns[0] == pno else 8
+                hi = r.end[1] if r.end and r.end[0] == pno else doc[pno].rect.height - 6
+                y = ms_safe_y(doc, pno, ne[1], lo, hi, lines)
+                ne = r.start = (pno, y)
         notes[qn] = (ns, ne)
 
 
@@ -1312,6 +1640,9 @@ def rule_ys(doc, pno):
 
 
 _RULE_W = {}
+HDR_WORD = re.compile(r"Question(?:\s+Number)?|Number|Scheme|Notes?|Marks?|Answer|Q", re.I)
+APP_HEAD = re.compile(r"^Some\s+(?:more\s+|other\s+)*unusual\s+methods\s+for\s+(?:Q(?:uestion)?\s*)?(\d{1,2})", re.I)
+APPENDIX_NOTES = {}     # ms file -> {question: (start, end)} of methods printed after the last question
 _RULE_X = {}
 
 
@@ -1371,6 +1702,11 @@ def table_top(doc, pno, y_first, floor, headers=(), items=(), col=None):
         h_bot = max(h.y1 for h in hdr_below)
         cand = min((y for y in ys if h_bot - 6 <= y <= h_bot + 10), default=h_bot)
         if col is None or col_rule_spans(doc, pno, col, cand, y_first):
+            return min(cand - 0.5, y_first)
+        # ...or a merged full-width cell of nothing but the question's diagrams (WME01 Jan 2026 7)
+        gap_items = [it for it in items if it.page == pno and cand + 1 < it.y0 and it.y1 < y_first + 1]
+        if (gap_items and any(it.kind == "image" and it.y1 - it.y0 > 30 for it in gap_items)
+                and not any(it.kind == "text" for it in gap_items)):
             return min(cand - 0.5, y_first)
         floor = max(floor, cand)
     above = sorted((y for y in ys if floor < y <= y_first + 3), reverse=True)
@@ -1506,9 +1842,10 @@ def render_bands(doc, bands, name, out_dir, paper_id, x0=COL_X0, x1=None):
         clip = pymupdf.Rect(x0, y0, px1, y1)
         pix = doc[page].get_pixmap(dpi=DPI, clip=clip, colorspace=pymupdf.csGRAY)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
-        if (page, y0, y1) in MASKS:
+        mk = MASKS.get((page, y0, y1), []) + MASKS.get((doc.name, page, y0, y1), [])
+        if mk:
             draw, sc = ImageDraw.Draw(img), DPI / 72
-            for mx0, my0, mx1, my1 in MASKS[(page, y0, y1)]:
+            for mx0, my0, mx1, my1 in mk:
                 draw.rectangle([(mx0 - x0) * sc, (my0 - y0) * sc, (mx1 - x0) * sc, (my1 - y0) * sc], fill=255)
         buf = io.BytesIO()
         img.save(buf, "WEBP", quality=QUALITY, method=6)
@@ -1537,6 +1874,24 @@ def guess_kind(text):
 
 
 _INK = {}
+
+
+def glyph_cut(doc, pno, y, x0, x1):
+    """True when a horizontal edge at y runs through printed glyphs between x0 and x1 (not along a table rule,
+    nor only across the column's vertical rules)."""
+    w, h, stride, s = page_ink(doc, pno)
+    k = 100 / 72
+    a, b = max(0, int(x0 * k)), min(w, int(x1 * k))
+    for r in (int(y * k), int(y * k) + 1):
+        if r < 0 or r >= h or b <= a:
+            continue
+        row = s[r * stride + a: r * stride + b]
+        dark = sum(1 for v in row if v < 160)
+        if dark > 0.6 * (b - a):
+            return False            # on a rule
+        if dark > 8:
+            return True
+    return False
 
 
 def page_ink(doc, pno):
@@ -1617,6 +1972,55 @@ def mark_bottom(doc, pno, y):
     return None
 
 
+def gap_cut(doc, pno, y, lab):
+    """Where a part's crop should start, given the line carrying its label ('(a) ...') and a current edge y:
+    the middle of the widest blank strip between the last full-width row of text above the label and the
+    label's own ink. A denominator under the line above (1 − t of y = 2t/(1 − t): P2 Jan 2020 13) stays above
+    it, a numerator over the label's line (the 1 of p^½: P1 Jun 2025 1; the bar of X̄: S3 Jan 2025 6) below.
+    None when the edge at y is already in that strip."""
+    w, h, stride, s = page_ink(doc, pno)
+    k = 100 / 72
+    x0, xm = int(COL_X0 * k), min(int(right_edge(doc) * k) - 2, int(MARKS_X * k))
+
+    def spread(r):
+        row = s[r * stride + x0: r * stride + xm]
+        ink = [i for i, v in enumerate(row) if v < 140]
+        return (ink[-1] - ink[0]) / max(1, xm - x0) if ink else 0.0
+
+    # the label's own ink top: the first inked row at the label's left edge, scanning down from its box top
+    lx0, lx1 = int(lab.x0 * k), int(min(lab.x0 + 14, lab.x1) * k)
+    ltop = None
+    for r in range(max(0, int((lab.y0 - 2) * k)), min(h, int((lab.y1 + 2) * k))):
+        if any(v < 140 for v in s[r * stride + lx0: r * stride + lx1]):
+            ltop = r
+            break
+    if ltop is None:
+        return None
+    r_edge = int(y * k)
+    # up from the label to the last wide row of text, or 20 pt above the edge
+    lo = max(0, min(r_edge, ltop) - int(20 * k))
+    for r in range(ltop - 1, lo, -1):
+        if spread(r) > 0.4:
+            lo = r
+            break
+    best, run, start = (0, None), 0, None
+    def blank(r):
+        return not any(v < 140 for v in s[r * stride + x0: r * stride + xm])
+
+    for r in range(lo + 1, ltop):
+        if blank(r):
+            if run == 0:
+                start = r
+            run += 1
+            if run > best[0]:
+                best = (run, start)
+        else:
+            run = 0
+    if best[0] < 2 or best[1] <= r_edge < best[1] + best[0]:
+        return None                                 # the edge is already in the widest blank strip
+    return (best[1] + best[0] / 2) / k
+
+
 def clear_edges(doc, questions, lines=()):
     """Move each question's crop boundaries off printed ink: the top of its first crop, every non-adjacent
     band top (so stacked first-line numerators are never clipped), and every boundary two crops share."""
@@ -1627,6 +2031,32 @@ def clear_edges(doc, questions, lines=()):
         n, i = refs[0]
         p, y0, y1 = n.bands[i]
         n.bands[i] = (p, clear_of_ink(doc, p, y0), y1)
+        # a part's first band under the band before it on the same page, its label line just below the edge:
+        # cut in the blank strip between them (both crops move together)
+        for (na, ia), (nb, ib) in zip(refs, refs[1:]):
+            pa, y0a, y1a = na.bands[ia]
+            pb, y0b, y1b = nb.bands[ib]
+            if pa != pb or y1a - y0b > 6 or y0b - y1a > 6:
+                continue
+            # an answer-book instruction printed after the part's mark is still that part's ('You may use the table
+            # on page 30 of the answer book ... The first 2 rows have been completed for you.': P2 Jun 2026 A 10(i))
+            lab2 = next((l for l in sorted(lines, key=lambda o: o.y0) if l.page == pb and y0b < l.y0 < y1b
+                         and re.match(r"^\(?(?:[a-h]|i{1,3}|iv|v|vi)\)", re.sub(r"^\d{1,2}\.\s*", "", l.text))), None)
+            inst = [l for l in lines if l.page == pb and lab2 is not None and y0b - 2 < l.y0 and l.y1 < lab2.y0 + 1]
+            if inst and re.match(r"^(?:You (?:may|must|should) use|The first \d+ rows?)", min(inst, key=lambda o: o.y0).text) \
+                    and all(re.match(r"^(?:You |The first|answer book|of the answer)", o.text) or o.x0 > 60 for o in inst):
+                yb = max(o.y1 for o in inst) + 1
+                if y0b < yb < lab2.y0:
+                    na.bands[ia] = (pa, y0a, yb)
+                    nb.bands[ib] = (pb, yb, y1b)
+                    y1a, y0b = yb, yb
+            lab = next((l for l in lines if l.page == pb and LABEL.match(l.text) and y0b - 8 < l.y0 < y0b + 25), None)
+            if lab is None:
+                continue
+            g = gap_cut(doc, pb, (y1a + y0b) / 2, lab)
+            if g is not None and y0a + 5 < g < y1b - 5 and abs(g - (y1a + y0b) / 2) < 20:
+                na.bands[ia] = (pa, y0a, g)
+                nb.bands[ib] = (pb, g, y1b)
         for (na, ia), (nb, ib) in zip(refs, refs[1:]):
             pa, y0a, y1a = na.bands[ia]
             pb, y0b, y1b = nb.bands[ib]
@@ -1686,6 +2116,23 @@ def move_diagram_pages(questions, lines):
                             last.bands[-1] = (p, y0, split_y)
                             target.bands.append((p, split_y, y1))
                             target.bands.sort()
+        # a spare page of grids captioned 'Copy of grid for part (b)', 'Copy of grid for part (d)': each copy goes
+        # to the part it names (S1 Oct 2020 4)
+        by_letter = {n.path[-1]: n for n in parts if n.path}
+        for n in parts:
+            for band in list(n.bands[1:]):
+                p, y0, y1 = band
+                caps = sorted((l for l in lines if l.page == p and y0 <= l.y0 <= y1
+                               and (cm := re.match(r"^Copy of (?:the )?(?:grid|graph|diagram|table|Figure \d+)"
+                                                   r" for part \(([a-h])\)", l.text, re.I))), key=lambda l: l.y0)
+                if not caps or not all(re.search(r"\(([a-h])\)", c.text)[1] in by_letter for c in caps):
+                    continue
+                n.bands.remove(band)
+                cuts = [y0] + [c.y0 - 4 for c in caps[1:]] + [y1]
+                for c, a, b in zip(caps, cuts, cuts[1:]):
+                    tgt = by_letter[re.search(r"\(([a-h])\)", c.text)[1]]
+                    tgt.bands.append((p, a, b))
+                    tgt.bands.sort()
         part_first = [(m, text_in(m.bands[:1], lines)) for m in parts]
         for n in parts:
             for band in list(n.bands[1:]):              # a continuation page, never a part's own first crop
@@ -1709,6 +2156,14 @@ def move_diagram_pages(questions, lines):
                 n_txt = text_in(n.bands[:1], lines)
                 if fm := re.search(r"\bFigure\s+(\d+)\b", ptxt, re.I):
                     using = [m for m, s in part_first if re.search(rf"\bFigure\s+{fm[1]}\b", s, re.I)]
+                    # the stem presents it ('The results are shown on the scatter diagram in Figure 1 on the next
+                    # page': S1 Jan 2021 5): it goes with the stem, above every part that uses it
+                    if (stem is not None and not SPARE_CAPTION.search(ptxt)
+                            and re.search(rf"\bFigure\s+{fm[1]}\b", text_in(stem.bands, lines), re.I)):
+                        n.bands.remove(band)
+                        stem.bands.append(band)
+                        stem.bands.sort()
+                        continue
                     if n not in using and using:
                         if SPARE_CAPTION.search(ptxt):
                             target = next((m for m in using if KIND_DRAW.search(text_in(m.bands[:1], lines))), using[0])
@@ -1759,7 +2214,12 @@ def export(paper_id, doc, questions, lines, ms_doc, rows, notes, ms_lines, ms_it
                 intro = rendered_intros[key]
             ms_crop_bands = []
             for r in matched.get(n.label, []):
-                ms_crop_bands += ms_bands(r.start, r.end, ms_items, ms_lines, ms_doc)
+                rb = ms_bands(r.start, r.end, ms_items, ms_lines, ms_doc)
+                for bp, by0, by1 in rb:
+                    mk = [m[1:] for m in (r.masks or []) if m[0] == bp and m[2] < by1 and m[4] > by0]
+                    if mk:
+                        MASKS[(ms_doc.name, bp, by0, by1)] = mk
+                ms_crop_bands += rb
             text = text_in(n.bands, lines)
             parts.append({
                 "label": n.label,
@@ -1773,9 +2233,11 @@ def export(paper_id, doc, questions, lines, ms_doc, rows, notes, ms_lines, ms_it
                 "text": text,
             })
         note = []
-        if q.number in notes:
-            note = render_bands(ms_doc, ms_bands(*notes[q.number], ms_items, ms_lines, ms_doc),
-                                slug(str(q.number), "_notes"), crops, paper_id, *ms_x_range(ms_doc))
+        app = APPENDIX_NOTES.get(ms_doc.name, {}).get(q.number)
+        if q.number in notes or app:
+            nb = ms_bands(*notes[q.number], ms_items, ms_lines, ms_doc) if q.number in notes else []
+            nb += ms_bands(*app, ms_items, ms_lines, ms_doc) if app else []
+            note = render_bands(ms_doc, nb, slug(str(q.number), "_notes"), crops, paper_id, *ms_x_range(ms_doc))
         qs.append({"id": f"{paper_id}_q{q.number}", "number": q.number, "marks": q.total,
                    "stem": render_bands(doc, stem.bands, slug(stem.label, "_stem"), crops, paper_id) if stem else [],
                    "parts": parts,

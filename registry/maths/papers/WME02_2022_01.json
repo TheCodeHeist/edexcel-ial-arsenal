@@ -179,7 +179,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME02_2022_01/q2_a_ms.webp",
+       "w": 1135,
+       "h": 436,
+       "region": {
+        "page": 8,
+        "x0": 25.3,
+        "y0": 46.8,
+        "x1": 569.4,
+        "y1": 255.5
+       }
+      }
+     ],
      "text": "(a) Find the value of P. (5)",
      "kindGuessed": "calc"
     },
@@ -209,11 +222,11 @@
       {
        "src": "maths/WME02_2022_01/q2_b_ms.webp",
        "w": 1135,
-       "h": 780,
+       "h": 349,
        "region": {
         "page": 8,
         "x0": 25.3,
-        "y0": 48.5,
+        "y0": 255.5,
         "x1": 569.4,
         "y1": 422.7
        }
@@ -223,10 +236,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): no mark-scheme rows (scheme has ['2(b)'])"
-   ]
+   "check": "pending"
   },
   {
    "id": "WME02_2022_01_q3",
@@ -414,13 +424,13 @@
       {
        "src": "maths/WME02_2022_01/q4_b_ms.webp",
        "w": 1135,
-       "h": 594,
+       "h": 486,
        "region": {
         "page": 10,
         "x0": 25.3,
         "y0": 334.5,
         "x1": 569.4,
-        "y1": 619.1
+        "y1": 566.9
        }
       }
      ],
@@ -428,10 +438,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
-   "risks": [
-    "MS Q4: no '(n marks)' line after its last row"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME02_2022_01_q5",

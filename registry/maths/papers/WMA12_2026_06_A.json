@@ -1004,7 +1004,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WMA12_2026_06_A/q7_c_ms.webp",
+       "src": "maths/WMA12_2026_06_A/q7_c_ms_1.webp",
        "w": 1132,
        "h": 317,
        "region": {
@@ -1013,6 +1013,18 @@
         "y0": 212.5,
         "x1": 570.7,
         "y1": 364.3
+       }
+      },
+      {
+       "src": "maths/WMA12_2026_06_A/q7_c_ms_2.webp",
+       "w": 1132,
+       "h": 163,
+       "region": {
+        "page": 15,
+        "x0": 28.2,
+        "y0": 107.5,
+        "x1": 570.7,
+        "y1": 185
        }
       }
      ],
@@ -1036,11 +1048,23 @@
     {
      "src": "maths/WMA12_2026_06_A/q7_notes_2.webp",
      "w": 1132,
-     "h": 1424,
+     "h": 115,
      "region": {
       "page": 15,
       "x0": 28.2,
       "y0": 52.7,
+      "x1": 570.7,
+      "y1": 107.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06_A/q7_notes_3.webp",
+     "w": 1132,
+     "h": 1148,
+     "region": {
+      "page": 15,
+      "x0": 28.2,
+      "y0": 185,
       "x1": 570.7,
       "y1": 735.4
      }
@@ -1385,13 +1409,13 @@
       {
        "src": "maths/WMA12_2026_06_A/q10_i.webp",
        "w": 1090,
-       "h": 225,
+       "h": 297,
        "region": {
         "page": 8,
         "x0": 36,
         "y0": 45.7,
         "x1": 559,
-        "y1": 153.2
+        "y1": 187.9
        }
       }
      ],
@@ -1409,7 +1433,7 @@
        }
       }
      ],
-     "text": "10. (i) Given that • n O n 3 3 n 2 f( ) 168 119 24 • n is a positive integer less than 7 use proof by exhaustion to show that f( ) n is always a perfect square. (3)",
+     "text": "10. (i) Given that • n O n 3 3 n 2 f( ) 168 119 24 • n is a positive integer less than 7 use proof by exhaustion to show that f( ) n is always a perfect square. (3) You may use the table on page 30 of the answer book to illustrate your answer. The first 2 rows have been completed for you.",
      "kindGuessed": "calc"
     },
     {
@@ -1425,11 +1449,11 @@
       {
        "src": "maths/WMA12_2026_06_A/q10_ii.webp",
        "w": 1090,
-       "h": 401,
+       "h": 334,
        "region": {
         "page": 8,
         "x0": 36,
-        "y0": 155.8,
+        "y0": 187.9,
         "x1": 559,
         "y1": 347.9
        }
@@ -1439,29 +1463,17 @@
       {
        "src": "maths/WMA12_2026_06_A/q10_ii_ms_1.webp",
        "w": 1132,
-       "h": 963,
+       "h": 799,
        "region": {
         "page": 20,
         "x0": 28.2,
         "y0": 336.5,
         "x1": 570.7,
-        "y1": 798.3
+        "y1": 720.0
        }
       },
       {
        "src": "maths/WMA12_2026_06_A/q10_ii_ms_2.webp",
-       "w": 1132,
-       "h": 465,
-       "region": {
-        "page": 21,
-        "x0": 28.2,
-        "y0": 52.7,
-        "x1": 570.7,
-        "y1": 275.5
-       }
-      },
-      {
-       "src": "maths/WMA12_2026_06_A/q10_ii_ms_3.webp",
        "w": 1132,
        "h": 505,
        "region": {
@@ -1473,13 +1485,37 @@
        }
       }
      ],
-     "text": "You may use the table on page 30 of the answer book to illustrate your answer. The first 2 rows have been completed for you. , use the formula (ii) Given n is an integer with n r n ! n C O r r n 3 r !( )! to prove that n n n 1 1 C 1 C O C r r 1 1 r 1 1 You must show all stages of your working. (4)",
+     "text": ", use the formula (ii) Given n is an integer with n r n ! n C O r r n 3 r !( )! to prove that n n n 1 1 C 1 C O C r r 1 1 r 1 1 You must show all stages of your working. (4)",
      "kindGuessed": "calc"
     }
    ],
    "msNotes": [
     {
-     "src": "maths/WMA12_2026_06_A/q10_notes.webp",
+     "src": "maths/WMA12_2026_06_A/q10_notes_1.webp",
+     "w": 1132,
+     "h": 165,
+     "region": {
+      "page": 20,
+      "x0": 28.2,
+      "y0": 720.0,
+      "x1": 570.7,
+      "y1": 798.3
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06_A/q10_notes_2.webp",
+     "w": 1132,
+     "h": 465,
+     "region": {
+      "page": 21,
+      "x0": 28.2,
+      "y0": 52.7,
+      "x1": 570.7,
+      "y1": 275.5
+     }
+    },
+    {
+     "src": "maths/WMA12_2026_06_A/q10_notes_3.webp",
      "w": 1132,
      "h": 334,
      "region": {
@@ -1491,7 +1527,10 @@
      }
     }
    ],
-   "check": "pending"
+   "check": "pending",
+   "risks": [
+    "10(i): text after the marks"
+   ]
   }
  ]
 }

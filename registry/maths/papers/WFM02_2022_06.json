@@ -109,30 +109,44 @@
       {
        "src": "maths/WFM02_2022_06/q1_b_ms_1.webp",
        "w": 1092,
-       "h": 868,
+       "h": 396,
        "region": {
         "page": 7,
         "x0": 36.0,
         "y0": 172.5,
         "x1": 560.0,
-        "y1": 588.5
+        "y1": 362.0
        }
       },
       {
        "src": "maths/WFM02_2022_06/q1_b_ms_2.webp",
        "w": 1092,
-       "h": 249,
+       "h": 258,
        "region": {
         "page": 7,
         "x0": 36.0,
         "y0": 588.5,
         "x1": 560.0,
-        "y1": 708
+        "y1": 712.0
        }
       }
      ],
      "text": "(b) Hence show that, for n  5 n =∑ 2 r + 1 n + an + b 2 = ( ) ( ) 2 2 r r + c n + 1 1 2 r 5 where a, b and c are integers to be determined. (4)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2022_06/q1_notes.webp",
+     "w": 1092,
+     "h": 473,
+     "region": {
+      "page": 7,
+      "x0": 36.0,
+      "y0": 362.0,
+      "x1": 560.0,
+      "y1": 588.5
+     }
     }
    ],
    "check": "machine"

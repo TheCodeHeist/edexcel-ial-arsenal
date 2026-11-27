@@ -176,9 +176,11 @@
    }
   },
   "9": {
-   "at": "2026-11-25",
-   "concerns": [],
-   "fingerprint": "c5853c92363f",
+   "at": "2026-11-27",
+   "concerns": [
+    "9(b): Mark scheme rows include \"Example Alt\" (4 marks) which belongs to 9(a) rather than 9(b), and its first row (9(a) M1) is separated into the examiners notes section below (b) notes."
+   ],
+   "fingerprint": "60f561bd5b7b",
    "kinds": {
     "9(a)": "calc",
     "9(b)": "calc"

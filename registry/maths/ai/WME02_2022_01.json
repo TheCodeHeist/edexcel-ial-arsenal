@@ -19,12 +19,11 @@
    }
   },
   "2": {
-   "at": "2026-11-25",
+   "at": "2026-11-27",
    "concerns": [
-    "2(a): mark-scheme rows (2.a, 5 marks) are missing from 2(a) and placed at the top of 2(b) mark-scheme rows",
-    "2(b): mark-scheme crop includes 2(a) mark-scheme rows at the top"
+    "2(b): mark-scheme crop has a stray horizontally clipped bottom fragment of 2(a)s [5] total row at the top edge"
    ],
-   "fingerprint": "eeaa0705c925",
+   "fingerprint": "2220b8fc7ca0",
    "kinds": {
     "2(a)": "calc",
     "2(b)": "calc"
@@ -58,9 +57,9 @@
    }
   },
   "4": {
-   "at": "2026-11-19",
+   "at": "2026-11-27",
    "concerns": [],
-   "fingerprint": "d30552f5a25c",
+   "fingerprint": "d6dfe21b9a6b",
    "kinds": {
     "4(a)": "calc",
     "4(b)": "calc"

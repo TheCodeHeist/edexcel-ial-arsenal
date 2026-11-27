@@ -613,13 +613,25 @@
       {
        "src": "maths/WFM01_2022_06/q4_b_ms_2.webp",
        "w": 1177,
-       "h": 788,
+       "h": 590,
        "region": {
         "page": 10,
         "x0": 15.2,
         "y0": 151.5,
         "x1": 579.6,
-        "y1": 529
+        "y1": 434.4
+       }
+      },
+      {
+       "src": "maths/WFM01_2022_06/q4_b_ms_3.webp",
+       "w": 1177,
+       "h": 278,
+       "region": {
+        "page": 10,
+        "x0": 15.2,
+        "y0": 529.5,
+        "x1": 579.6,
+        "y1": 662.4
        }
       }
      ],
@@ -651,7 +663,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM01_2022_06/q4_c_ms.webp",
+       "src": "maths/WFM01_2022_06/q4_c_ms_1.webp",
        "w": 1177,
        "h": 67,
        "region": {
@@ -661,27 +673,37 @@
         "x1": 579.6,
         "y1": 109.4
        }
+      },
+      {
+       "src": "maths/WFM01_2022_06/q4_c_ms_2.webp",
+       "w": 1177,
+       "h": 200,
+       "region": {
+        "page": 10,
+        "x0": 15.2,
+        "y0": 434.4,
+        "x1": 579.6,
+        "y1": 529.5
+       }
+      },
+      {
+       "src": "maths/WFM01_2022_06/q4_c_ms_3.webp",
+       "w": 1177,
+       "h": 195,
+       "region": {
+        "page": 10,
+        "x0": 15.2,
+        "y0": 662.4,
+        "x1": 579.6,
+        "y1": 755.7
+       }
       }
      ],
      "text": "(c) Determine the value of A and the value of B. (2)",
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WFM01_2022_06/q4_notes.webp",
-     "w": 1177,
-     "h": 473,
-     "region": {
-      "page": 10,
-      "x0": 15.2,
-      "y0": 529,
-      "x1": 579.6,
-      "y1": 755.7
-     }
-    }
-   ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WFM01_2022_06_q5",

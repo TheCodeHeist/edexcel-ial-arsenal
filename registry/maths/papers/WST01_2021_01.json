@@ -926,7 +926,7 @@
    "marks": 17,
    "stem": [
     {
-     "src": "maths/WST01_2021_01/q5_stem.webp",
+     "src": "maths/WST01_2021_01/q5_stem_1.webp",
      "w": 1016,
      "h": 162,
      "region": {
@@ -935,6 +935,18 @@
       "y0": 57.6,
       "x1": 523.2,
       "y1": 135.0
+     }
+    },
+    {
+     "src": "maths/WST01_2021_01/q5_stem_2.webp",
+     "w": 1016,
+     "h": 1472,
+     "region": {
+      "page": 15,
+      "x0": 36,
+      "y0": 79.9,
+      "x1": 523.2,
+      "y1": 786.2
      }
     }
    ],
@@ -1004,13 +1016,13 @@
       {
        "src": "maths/WST01_2021_01/q5_b_i_ms.webp",
        "w": 1098,
-       "h": 59,
+       "h": 66,
        "region": {
         "page": 9,
         "x0": 36.0,
         "y0": 105.2,
         "x1": 562.9,
-        "y1": 133.2
+        "y1": 136.6
        }
       }
      ],
@@ -1043,11 +1055,11 @@
       {
        "src": "maths/WST01_2021_01/q5_b_ii_ms.webp",
        "w": 1098,
-       "h": 135,
+       "h": 128,
        "region": {
         "page": 9,
         "x0": 36.0,
-        "y0": 133.2,
+        "y0": 136.6,
         "x1": 562.9,
         "y1": 197.7
        }
@@ -1237,18 +1249,6 @@
       {
        "src": "maths/WST01_2021_01/q5_g_2.webp",
        "w": 1016,
-       "h": 1472,
-       "region": {
-        "page": 15,
-        "x0": 36,
-        "y0": 79.9,
-        "x1": 523.2,
-        "y1": 786.2
-       }
-      },
-      {
-       "src": "maths/WST01_2021_01/q5_g_3.webp",
-       "w": 1016,
        "h": 907,
        "region": {
         "page": 17,
@@ -1273,7 +1273,7 @@
        }
       }
      ],
-     "text": "(g) Plot your regression line on the scatter diagram in Figure 1 (2) y 60 50 40 Annual salary 30 (£1000) 20 10 O x 10 20 30 40 50 Performance score Figure 1 Turn over for a spare copy of the scatter diagram if you need to redraw your line. Only use this scatter diagram if you need to redraw your line. y 60 50 40 Annual salary 30 (£1000) 20 10 x O 10 20 30 40 50 Performance score",
+     "text": "(g) Plot your regression line on the scatter diagram in Figure 1 (2) Only use this scatter diagram if you need to redraw your line. y 60 50 40 Annual salary 30 (£1000) 20 10 x O 10 20 30 40 50 Performance score",
      "kindGuessed": "draw"
     },
     {
@@ -1316,7 +1316,7 @@
      "kindGuessed": "calc"
     },
     {
-     "label": "5(h)(i)",
+     "label": "5(i)",
      "marks": 2,
      "kind": "calc",
      "topics": [
@@ -1325,7 +1325,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WST01_2021_01/q5_h_i.webp",
+       "src": "maths/WST01_2021_01/q5_i.webp",
        "w": 1016,
        "h": 183,
        "region": {
@@ -1339,7 +1339,7 @@
      ],
      "ms": [
       {
-       "src": "maths/WST01_2021_01/q5_h_i_ms.webp",
+       "src": "maths/WST01_2021_01/q5_i_ms.webp",
        "w": 1098,
        "h": 117,
        "region": {

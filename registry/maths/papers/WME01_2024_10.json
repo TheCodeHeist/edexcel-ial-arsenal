@@ -259,21 +259,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WME01_2024_10/q2_notes.webp",
-     "w": 1092,
-     "h": 66,
-     "region": {
-      "page": 10,
-      "x0": 36.0,
-      "y0": 38.6,
-      "x1": 560.0,
-      "y1": 70
-     }
-    }
-   ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME01_2024_10_q3",
@@ -320,11 +306,11 @@
       {
        "src": "maths/WME01_2024_10/q3_a_ms.webp",
        "w": 1092,
-       "h": 644,
+       "h": 734,
        "region": {
         "page": 10,
         "x0": 36.0,
-        "y0": 84.5,
+        "y0": 41.5,
         "x1": 560.0,
         "y1": 393.5
        }
@@ -424,7 +410,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending"
+   "check": "machine"
   },
   {
    "id": "WME01_2024_10_q4",
@@ -432,7 +418,7 @@
    "marks": 13,
    "stem": [
     {
-     "src": "maths/WME01_2024_10/q4_stem.webp",
+     "src": "maths/WME01_2024_10/q4_stem_1.webp",
      "w": 1090,
      "h": 333,
      "region": {
@@ -441,6 +427,18 @@
       "y0": 57.0,
       "x1": 559,
       "y1": 216.3
+     }
+    },
+    {
+     "src": "maths/WME01_2024_10/q4_stem_2.webp",
+     "w": 1090,
+     "h": 524,
+     "region": {
+      "page": 11,
+      "x0": 36,
+      "y0": 78.9,
+      "x1": 559,
+      "y1": 329.8
      }
     }
    ],
@@ -547,18 +545,6 @@
       {
        "src": "maths/WME01_2024_10/q4_c_2.webp",
        "w": 1090,
-       "h": 524,
-       "region": {
-        "page": 11,
-        "x0": 36,
-        "y0": 78.9,
-        "x1": 559,
-        "y1": 329.8
-       }
-      },
-      {
-       "src": "maths/WME01_2024_10/q4_c_3.webp",
-       "w": 1090,
        "h": 526,
        "region": {
         "page": 13,
@@ -583,7 +569,7 @@
        }
       }
      ],
-     "text": "Cyclist P continues to cycle along the road in the same direction at the same constant speed, V m s –1 When t = 6, a second cyclist Q sets off from A and travels in the same direction as P along the same road. She accelerates for T seconds until her speed is 3.6 m s –1 She then travels at constant speed 3.6 m s –1 Cyclist Q catches up with P when t = 54 (c) On Figure 2, on page 11, sketch a speed-time graph showing the journeys of both cyclists, for the interval 0 t  54 (3) speed –1) (m s V O 9 42 t (seconds) Figure 2 A copy of Figure 2 is on page 13 if you need to redraw your answer to part (c). Only use this copy of Figure 2 if you need to redraw your answer to part (c). speed –1) (m s V O 9 42 t (seconds) Copy of Figure 2",
+     "text": "Cyclist P continues to cycle along the road in the same direction at the same constant speed, V m s –1 When t = 6, a second cyclist Q sets off from A and travels in the same direction as P along the same road. She accelerates for T seconds until her speed is 3.6 m s –1 She then travels at constant speed 3.6 m s –1 Cyclist Q catches up with P when t = 54 (c) On Figure 2, on page 11, sketch a speed-time graph showing the journeys of both cyclists, for the interval 0 t  54 (3) Only use this copy of Figure 2 if you need to redraw your answer to part (c). speed –1) (m s V O 9 42 t (seconds) Copy of Figure 2",
      "kindGuessed": "draw"
     },
     {
@@ -626,7 +612,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
+   "check": "pending",
    "risks": [
     "4(c): runs across pages"
    ]
@@ -821,13 +807,13 @@
     {
      "src": "maths/WME01_2024_10/q6_stem.webp",
      "w": 1090,
-     "h": 646,
+     "h": 651,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 56.8,
       "x1": 559,
-      "y1": 366.5
+      "y1": 369.0
      }
     }
    ],
@@ -845,11 +831,11 @@
       {
        "src": "maths/WME01_2024_10/q6_a.webp",
        "w": 1090,
-       "h": 74,
+       "h": 69,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 366.5,
+        "y0": 369.0,
         "x1": 559,
         "y1": 401.5
        }

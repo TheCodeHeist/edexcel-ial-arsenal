@@ -110,13 +110,13 @@
       {
        "src": "maths/WME02_2023_06/q1_b_ms.webp",
        "w": 1101,
-       "h": 392,
+       "h": 391,
        "region": {
         "page": 7,
         "x0": 31.8,
         "y0": 228.5,
         "x1": 560.0,
-        "y1": 416.2
+        "y1": 415.7
        }
       }
      ],
@@ -124,10 +124,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
-   "risks": [
-    "MS Q1: no '(n marks)' line after its last row"
-   ]
+   "check": "human"
   },
   {
    "id": "WME02_2023_06_q2",
@@ -251,27 +248,15 @@
      ],
      "ms": [
       {
-       "src": "maths/WME02_2023_06/q2_c_ms_1.webp",
+       "src": "maths/WME02_2023_06/q2_c_ms.webp",
        "w": 1101,
-       "h": 361,
+       "h": 360,
        "region": {
         "page": 8,
         "x0": 31.8,
         "y0": 454.5,
         "x1": 560.0,
-        "y1": 627.2
-       }
-      },
-      {
-       "src": "maths/WME02_2023_06/q2_c_ms_2.webp",
-       "w": 1101,
-       "h": 81,
-       "region": {
-        "page": 9,
-        "x0": 31.8,
-        "y0": 89.2,
-        "x1": 560.0,
-        "y1": 127.5
+        "y1": 626.6
        }
       }
      ],
@@ -279,10 +264,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "pending",
-   "risks": [
-    "MS Q2: no '(n marks)' line after its last row"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME02_2023_06_q3",
@@ -330,11 +312,11 @@
       {
        "src": "maths/WME02_2023_06/q3_a_ms.webp",
        "w": 1101,
-       "h": 1155,
+       "h": 1242,
        "region": {
         "page": 9,
         "x0": 31.8,
-        "y0": 127.5,
+        "y0": 85.5,
         "x1": 560.0,
         "y1": 681.1
        }
@@ -370,13 +352,13 @@
       {
        "src": "maths/WME02_2023_06/q3_b_ms.webp",
        "w": 1101,
-       "h": 633,
+       "h": 632,
        "region": {
         "page": 10,
         "x0": 31.8,
         "y0": 85.5,
         "x1": 560.0,
-        "y1": 389.2
+        "y1": 388.7
        }
       }
      ],
@@ -384,10 +366,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
-   "risks": [
-    "MS Q3: no '(n marks)' line after its last row"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME02_2023_06_q4",
@@ -565,13 +544,13 @@
       {
        "src": "maths/WME02_2023_06/q4_d_ms.webp",
        "w": 1101,
-       "h": 356,
+       "h": 355,
        "region": {
         "page": 12,
         "x0": 31.8,
         "y0": 71.5,
         "x1": 560.0,
-        "y1": 241.9
+        "y1": 241.3
        }
       }
      ],
@@ -579,10 +558,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
-   "risks": [
-    "MS Q4: no '(n marks)' line after its last row"
-   ]
+   "check": "human"
   },
   {
    "id": "WME02_2023_06_q5",
@@ -670,13 +646,13 @@
       {
        "src": "maths/WME02_2023_06/q5_b_ms.webp",
        "w": 1101,
-       "h": 610,
+       "h": 609,
        "region": {
         "page": 13,
         "x0": 31.8,
         "y0": 467.5,
         "x1": 560.0,
-        "y1": 759.6
+        "y1": 759.1
        }
       }
      ],
@@ -684,10 +660,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
-   "risks": [
-    "MS Q5: no '(n marks)' line after its last row"
-   ]
+   "check": "human"
   },
   {
    "id": "WME02_2023_06_q6",
@@ -814,13 +787,13 @@
       {
        "src": "maths/WME02_2023_06/q6_c_ms.webp",
        "w": 1101,
-       "h": 517,
+       "h": 516,
        "region": {
         "page": 14,
         "x0": 31.8,
         "y0": 501.5,
         "x1": 560.0,
-        "y1": 749.2
+        "y1": 748.6
        }
       }
      ],
@@ -828,10 +801,7 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "human",
-   "risks": [
-    "MS Q6: no '(n marks)' line after its last row"
-   ]
+   "check": "human"
   },
   {
    "id": "WME02_2023_06_q7",

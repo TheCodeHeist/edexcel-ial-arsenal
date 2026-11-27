@@ -608,13 +608,13 @@
       {
        "src": "maths/WST01_2020_10/q4_b_3.webp",
        "w": 1016,
-       "h": 646,
+       "h": 359,
        "region": {
         "page": 15,
         "x0": 36,
         "y0": 442.5,
         "x1": 523.2,
-        "y1": 751.8
+        "y1": 613.9
        }
       }
      ],
@@ -632,7 +632,7 @@
        }
       }
      ],
-     "text": "(b) On the grid below draw a box plot for these data, indicating clearly any outliers. (3) 0 10 20 30 40 50 60 Marks Turn over for spare grids if you need to redraw your answer for part (b) or part (d). Only use these grids if you need to redraw your answer for part (b) or part (d). Copy of grid for part (b) 0 10 20 30 40 50 60 Marks Copy of grid for part (d) 0 10 20 30 40 50 60 Marks",
+     "text": "(b) On the grid below draw a box plot for these data, indicating clearly any outliers. (3) 0 10 20 30 40 50 60 Marks Turn over for spare grids if you need to redraw your answer for part (b) or part (d). Only use these grids if you need to redraw your answer for part (b) or part (d). Copy of grid for part (b) 0 10 20 30 40 50 60 Marks",
      "kindGuessed": "draw"
     },
     {
@@ -685,7 +685,7 @@
      "tagStatus": "suggested",
      "qp": [
       {
-       "src": "maths/WST01_2020_10/q4_d.webp",
+       "src": "maths/WST01_2020_10/q4_d_1.webp",
        "w": 1016,
        "h": 456,
        "region": {
@@ -694,6 +694,18 @@
         "y0": 494.1,
         "x1": 523.2,
         "y1": 712.8
+       }
+      },
+      {
+       "src": "maths/WST01_2020_10/q4_d_2.webp",
+       "w": 1016,
+       "h": 288,
+       "region": {
+        "page": 15,
+        "x0": 36,
+        "y0": 613.9,
+        "x1": 523.2,
+        "y1": 751.8
        }
       }
      ],
@@ -711,7 +723,7 @@
        }
       }
      ],
-     "text": "Two more students also took the tests. Their average marks, which were both less than 45, are added to the data and the box plot redrawn. The median and the upper quartile are the same but the lower quartile is now 26 (d) Redraw the box plot on the grid below. (3) 0 10 20 30 40 50 60 Marks",
+     "text": "Two more students also took the tests. Their average marks, which were both less than 45, are added to the data and the box plot redrawn. The median and the upper quartile are the same but the lower quartile is now 26 (d) Redraw the box plot on the grid below. (3) 0 10 20 30 40 50 60 Marks Copy of grid for part (d) 0 10 20 30 40 50 60 Marks",
      "kindGuessed": "draw"
     },
     {
@@ -771,7 +783,8 @@
    ],
    "check": "pending",
    "risks": [
-    "4(b): runs across pages"
+    "4(b): runs across pages",
+    "4(d): runs across pages"
    ]
   },
   {

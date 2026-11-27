@@ -195,7 +195,20 @@
        }
       }
      ],
-     "ms": [],
+     "ms": [
+      {
+       "src": "maths/WME03_2026_06_A/q2_a_ms.webp",
+       "w": 1092,
+       "h": 252,
+       "region": {
+        "page": 12,
+        "x0": 36.0,
+        "y0": 95.5,
+        "x1": 560.0,
+        "y1": 216
+       }
+      }
+     ],
      "text": "(a) Use algebraic integration to show that v = pt + q ln (2t + 3) + r ln 3 , where p, q and r are constants to be found. (4)",
      "kindGuessed": "calc"
     },
@@ -226,11 +239,11 @@
       {
        "src": "maths/WME03_2026_06_A/q2_b_ms.webp",
        "w": 1092,
-       "h": 617,
+       "h": 365,
        "region": {
         "page": 12,
         "x0": 36.0,
-        "y0": 95.5,
+        "y0": 216,
         "x1": 560.0,
         "y1": 391
        }
@@ -266,10 +279,7 @@
      }
     }
    ],
-   "check": "pending",
-   "risks": [
-    "2(a): no mark-scheme rows (scheme has ['2(b)'])"
-   ]
+   "check": "machine"
   },
   {
    "id": "WME03_2026_06_A_q3",

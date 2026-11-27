@@ -575,20 +575,6 @@
      "kindGuessed": "calc"
     }
    ],
-   "msNotes": [
-    {
-     "src": "maths/WFM02_2023_01/q4_notes.webp",
-     "w": 1165,
-     "h": 494,
-     "region": {
-      "page": 14,
-      "x0": 18.4,
-      "y0": 68.5,
-      "x1": 577.1,
-      "y1": 305.0
-     }
-    }
-   ],
    "check": "machine"
   },
   {
@@ -622,13 +608,25 @@
      ],
      "ms": [
       {
-       "src": "maths/WFM02_2023_01/q5_ms.webp",
+       "src": "maths/WFM02_2023_01/q5_ms_1.webp",
        "w": 1165,
-       "h": 1358,
+       "h": 492,
+       "region": {
+        "page": 14,
+        "x0": 18.4,
+        "y0": 69.5,
+        "x1": 577.1,
+        "y1": 305.0
+       }
+      },
+      {
+       "src": "maths/WFM02_2023_01/q5_ms_2.webp",
+       "w": 1165,
+       "h": 1354,
        "region": {
         "page": 15,
         "x0": 18.4,
-        "y0": 101.2,
+        "y0": 103.1,
         "x1": 577.1,
         "y1": 752.5
        }
@@ -763,13 +761,13 @@
       {
        "src": "maths/WFM02_2023_01/q6_b_ms_3.webp",
        "w": 1165,
-       "h": 937,
+       "h": 936,
        "region": {
         "page": 19,
         "x0": 18.4,
         "y0": 174.5,
         "x1": 577.1,
-        "y1": 623.9
+        "y1": 623.2
        }
       },
       {
@@ -1001,13 +999,13 @@
       {
        "src": "maths/WFM02_2023_01/q8_b_ms_2.webp",
        "w": 1165,
-       "h": 292,
+       "h": 220,
        "region": {
         "page": 24,
         "x0": 18.4,
         "y0": 68.0,
         "x1": 577.1,
-        "y1": 207.5
+        "y1": 173
        }
       },
       {
@@ -1025,6 +1023,20 @@
      ],
      "text": "The finite region R, shown shaded in Figure 1, is bounded by π • the line with equation θ = 2 • the tangent to C at P • part of the curve C • the initial line (b) Use algebraic integration to show that the area of R is ( ) 1 aπ b c + 3 + 32 where a, b and c are integers to be determined. (6)",
      "kindGuessed": "calc"
+    }
+   ],
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2023_01/q8_notes.webp",
+     "w": 1165,
+     "h": 73,
+     "region": {
+      "page": 24,
+      "x0": 18.4,
+      "y0": 173,
+      "x1": 577.1,
+      "y1": 207.5
+     }
     }
    ],
    "check": "machine"
