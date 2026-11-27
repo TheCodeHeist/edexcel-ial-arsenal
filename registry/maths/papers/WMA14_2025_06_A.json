@@ -298,6 +298,20 @@
      "kindGuessed": "calc"
     }
    ],
+   "msNotes": [
+    {
+     "src": "maths/WMA14_2025_06_A/q3_notes.webp",
+     "w": 1142,
+     "h": 772,
+     "region": {
+      "page": 12,
+      "x0": 25.4,
+      "y0": 243.0,
+      "x1": 572.7,
+      "y1": 613.3
+     }
+    }
+   ],
    "check": "machine"
   },
   {
@@ -474,10 +488,7 @@
      }
     }
    ],
-   "check": "flagged",
-   "risks": [
-    "MS 4(e): matches no part of the paper"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2025_06_A_q5",

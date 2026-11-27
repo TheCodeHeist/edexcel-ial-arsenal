@@ -1383,6 +1383,32 @@
      "kindGuessed": "calc"
     }
    ],
+   "msNotes": [
+    {
+     "src": "maths/WMA13_2022_06/q8_notes_1.webp",
+     "w": 1114,
+     "h": 427,
+     "region": {
+      "page": 22,
+      "x0": 36.0,
+      "y0": 568.8,
+      "x1": 570.7,
+      "y1": 772.8
+     }
+    },
+    {
+     "src": "maths/WMA13_2022_06/q8_notes_2.webp",
+     "w": 1114,
+     "h": 1175,
+     "region": {
+      "page": 23,
+      "x0": 36.0,
+      "y0": 67.4,
+      "x1": 570.7,
+      "y1": 630.8
+     }
+    }
+   ],
    "check": "machine"
   },
   {
@@ -1535,10 +1561,7 @@
      }
     }
    ],
-   "check": "flagged",
-   "risks": [
-    "MS 9(e): matches no part of the paper"
-   ]
+   "check": "machine"
   }
  ]
 }

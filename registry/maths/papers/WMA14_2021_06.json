@@ -539,13 +539,13 @@
     {
      "src": "maths/WMA14_2021_06/q6_stem.webp",
      "w": 1016,
-     "h": 715,
+     "h": 694,
      "region": {
       "page": 18,
       "x0": 36,
       "y0": 57.5,
       "x1": 523.2,
-      "y1": 399.9
+      "y1": 389.9
      }
     }
    ],
@@ -563,11 +563,11 @@
       {
        "src": "maths/WMA14_2021_06/q6_a.webp",
        "w": 1016,
-       "h": 184,
+       "h": 205,
        "region": {
         "page": 18,
         "x0": 36,
-        "y0": 399.9,
+        "y0": 389.9,
         "x1": 523.2,
         "y1": 487.7
        }
@@ -599,7 +599,7 @@
        }
       }
      ],
-     "text": "∫ 4 (a) (i) Show, making your working clear, that the area of R = t t t 32sin cos d 2 0 (ii) Hence find, by algebraic integration, the exact value of the area of R. (6)",
+     "text": "π ∫ 4 (a) (i) Show, making your working clear, that the area of R = t t t 32sin cos d 2 0 (ii) Hence find, by algebraic integration, the exact value of the area of R. (6)",
      "kindGuessed": "calc"
     },
     {
@@ -696,11 +696,7 @@
      }
     }
    ],
-   "check": "flagged",
-   "risks": [
-    "6(a): text cut by a crop edge",
-    "stem: text cut by a crop edge"
-   ]
+   "check": "machine"
   },
   {
    "id": "WMA14_2021_06_q7",

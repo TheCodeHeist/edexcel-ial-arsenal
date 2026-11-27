@@ -566,6 +566,18 @@ def fix_columns(columns, lines):
     return out
 
 
+def titled_table(l, plines):
+    """A label under a table header that has its own title above it ('A typical response with an expanded
+    denominator:' P3 Jan 2024 7; '8. Scheme – Misread in (a) and/or (b)' P1 Jun 2023 8): a worked example or a
+    misread scheme, kept whole in the notes, not an alternative cut into the parts."""
+    hdr = [o for o in plines if HDR_WORD.fullmatch(o.text.strip()) and 0 < l.y0 - o.y0 < 45]
+    if not hdr:
+        return False
+    top = min(o.y0 for o in hdr)
+    return any(top - 40 < o.y1 <= top + 1 and not HDR_WORD.fullmatch(o.text.strip()) and len(o.text.split()) >= 3
+               and not FOOTER.match(o.text) for o in plines)
+
+
 def label_x(lines):
     """Where this mark scheme prints its labels, from the labels themselves: the commonest left edge of lines
     that are nothing but a question label ('3(a)', '1a', '(b)'). For tables drawn without vertical rules."""
@@ -811,7 +823,11 @@ def ms_split(ms_doc, questions):
             continue
         ltext = l.text.replace("©", "(c)")
         if (closed and cur_q is not None and l.page in columns
-                and (am := POST_ALT.match(ltext))):
+                and ((am := POST_ALT.match(ltext))
+                     # or the question's own part label opening a marked table after its total: an alternative
+                     # for that part ('9(a)' at a page foot, then 'Example Alt' over the page: P3 Oct 2022 9)
+                     or ((am := re.fullmatch(rf"{cur_q}\s*\(\s*([a-h])\s*\)()", ltext))
+                         and am[1] in part_labels.get(cur_q, ()) and not titled_table(l, plines)))):
             after = [o for o in plines if o.y0 > l.y0 - 2]
             # (the next question's number sits inside the label column: '4 + I² − 4I cos120° = 9' just right of a
             # narrow one is the scheme's maths, M2 Oct 2023 3 alt)
@@ -821,7 +837,9 @@ def ms_split(ms_doc, questions):
                  # 8's Way 2 'If 1: f(k+1) ...' with its M1)
                  and not any(m is not o and m.x0 > col[1] + 120 and MARK_CODES.match(m.text)
                              and abs(m.mid - o.mid) < 9 for m in after))
-                or (o.x0 < col[1] - 2 and re.match(rf"^{expected}(?:\s*\.|\s*\(?[a-h]\)?|\s|$)", o.text)))),
+                or (o.x0 < col[1] - 2 and re.match(rf"^{expected}(?:\s*\.|\s*\(?[a-h]\)?|\s|$)", o.text))
+                # a centred 'Notes' heading row ends the alternative too (P3 Oct 2023 10)
+                or re.fullmatch(r"Notes?\s*:?", o.text.strip(), re.I))),
                 default=1e9)
             has_marks = any(o.y0 < prose_y and o.x0 > col[1] + 120 and MARK_CODES.match(o.text) for o in after)
             has_rule = any(l.y0 < ry <= prose_y + 5 for ry in rule_ys(ms_doc, l.page))
@@ -901,7 +919,10 @@ def ms_split(ms_doc, questions):
             num, labs = lead[1], re.findall(r"\(\s*([a-z]{1,4})\s*\)", lead[2])
         elif blead:
             num, labs = blead[1], [blead[2]]
-        elif b := MS_LABEL_BARE.match(ltext):
+        elif (b := MS_LABEL_BARE.match(ltext)) and not (
+                part_labels.get(int(b[1])) and b[2] not in part_labels[int(b[1])]
+                and not b[3] and re.fullmatch(r"\d{1,2}\s*[a-h]", ltext)):
+            # not maths in a note: '9e' (9e^(-t/10), P3 Jun 2022 9; P4 Jun 2025 4) when the paper has no 9(e)
             num, labs = b[1], [b[2], *(re.findall(r"\(\s*([a-z]{1,4})\s*\)", b[3]) if "(" in (b[3] or "")
                                        else [b[3]] if b[3] else [])]
         elif (m := MS_LABEL.match(ltext)) and (m[1] or m[2]):
@@ -1307,7 +1328,7 @@ def ms_split(ms_doc, questions):
         notes[qn] = (start, end)
     for qn, (ga, gb) in gaps.items():
         # the notes between the total and the reopened alternative; any notes after the alternative too
-        if not any(ga < (o.page, o.y0) and (o.page, o.y1) < gb and not FOOTER.match(o.text)
+        if not any(ga < (o.page, o.mid) < gb and not FOOTER.match(o.text)
                    and not HDR_WORD.fullmatch(o.text) and not re.fullmatch(r"\d{1,3}", o.text) for o in lines):
             continue                                # nothing between: the notes are after the alternative
         if qn in notes and notes[qn][1] > notes[qn][0]:
@@ -1362,7 +1383,30 @@ def ms_split(ms_doc, questions):
             if rp is not None:
                 r.end = max(r.start, (rp - 1, ms_doc[rp - 1].rect.height - 6))
     clear_ms_edges(ms_doc, rows, notes, lines)
+    scan = SCANNED_MS.get(Path(ms_doc.name or "").name)
+    if scan:
+        for qn, spec in scan.items():
+            rows[:] = [r for r in rows if r.q != qn]
+            pos = next((i for i, r in enumerate(rows) if r.q > qn), len(rows))
+            rows[pos:pos] = [MsRow(qn, tuple(path), (pg, y0), (pg, y1)) for path, pg, y0, y1 in spec["rows"]]
+            pg0 = min(pg for _, pg, _, _ in spec["rows"])
+            for k, (ns, ne) in list(notes.items()):     # nobody else's notes run over the scanned page
+                if k != qn and ne[0] >= pg0 and ns[0] <= pg0:
+                    notes[k] = (ns, max(ns, (pg0 - 1, ms_doc[pg0 - 1].rect.height - 6)))
+            if spec.get("notes"):
+                pg, y0, y1 = spec["notes"]
+                notes[qn] = ((pg, y0), (pg, y1))
+            problems[:] = [p for p in problems if not re.search(rf"\bQ{qn}\b", p)]
     return rows, notes, problems, all_lines, all_items
+
+
+# Mark-scheme pages printed as a scanned picture, with no text to read: their rows, cut by the table's drawn rules
+# (pages 0-based). M2 Oct 2022 p22 is Q8's whole scheme; without this Q8 had none and Q7's notes ran over it.
+SCANNED_MS = {
+    "WME02_2022_10_ms.pdf": {8: {"rows": [("a", 21, 61.0, 190.5), ("b", 21, 190.5, 295.5), ("c", 21, 295.5, 364.8),
+                                          ("d", 21, 364.8, 503.5)],
+                                 "notes": (21, 503.5, 561.0)}},
+}
 
 
 def reprint_page(ms_doc, pg, lines_by_page):
@@ -1757,6 +1801,13 @@ def ms_bands(start, end, items, lines, doc=None):
                 bottom = min(bottom, fy - 4)
         inside = [it for it in items if it.page == page and top <= (it.y0 + it.y1) / 2 <= bottom
                   and not (it.kind == "drawing" and it.y1 - it.y0 > 300)]   # table's long column rules
+        # a scanned page: one picture of the whole table spans every row band cut from it (M2 Oct 2022 p22)
+        if not inside and doc is not None and not any(l.page == page for l in lines):
+            inside = [it for it in items if it.page == page and it.kind == "image" and it.y0 <= top + 1
+                      and it.y1 >= bottom - 1]
+            if inside:
+                bands.append((page, top, bottom))
+                continue
         has_content = any(it.kind == "text" or (it.kind == "image" and it.y1 - it.y0 > 20) for it in inside)
         if has_content:
             bands.append((page, max(top, min(it.y0 for it in inside) - PAD),
@@ -1972,7 +2023,7 @@ def mark_bottom(doc, pno, y):
     return None
 
 
-def gap_cut(doc, pno, y, lab):
+def gap_cut(doc, pno, y, lab, lines=()):
     """Where a part's crop should start, given the line carrying its label ('(a) ...') and a current edge y:
     the middle of the widest blank strip between the last full-width row of text above the label and the
     label's own ink. A denominator under the line above (1 − t of y = 2t/(1 − t): P2 Jan 2020 13) stays above
@@ -1999,13 +2050,25 @@ def gap_cut(doc, pno, y, lab):
     r_edge = int(y * k)
     # up from the label to the last wide row of text, or 20 pt above the edge
     lo = max(0, min(r_edge, ltop) - int(20 * k))
-    for r in range(ltop - 1, lo, -1):
+    # (from above the label's line: its own text, wider than the label, can ink a row before the label does)
+    for r in range(min(ltop, int(lab.y0 * k)) - 1, lo, -1):
         if spread(r) > 0.4:
             lo = r
             break
     best, run, start = (0, None), 0, None
+    # a text line's middle is ink even where a thin glyph renders too pale to count (the pi of a limit over
+    # the integral sign on the label's line: P4 Jun 2021 6(a))
+    def core(l):
+        return range(int((l.y0 + (l.y1 - l.y0) * 0.3) * k), int((l.y1 - (l.y1 - l.y0) * 0.3) * k) + 1)
+
+    def unseen(l):                      # no dark pixel anywhere in its box's middle
+        a, b = int(l.x0 * k), int(l.x1 * k) + 1
+        return not any(v < 140 for r in core(l) if 0 <= r < h for v in s[r * stride + a: r * stride + b])
+    texty = {r for l in lines if l.page == pno and re.search(r"[^\W_]", l.text) and l.x1 > COL_X0 and l.x0 < MARKS_X
+             and unseen(l) for r in core(l)}
+
     def blank(r):
-        return not any(v < 140 for v in s[r * stride + x0: r * stride + xm])
+        return r not in texty and not any(v < 140 for v in s[r * stride + x0: r * stride + xm])
 
     for r in range(lo + 1, ltop):
         if blank(r):
@@ -2053,7 +2116,7 @@ def clear_edges(doc, questions, lines=()):
             lab = next((l for l in lines if l.page == pb and LABEL.match(l.text) and y0b - 8 < l.y0 < y0b + 25), None)
             if lab is None:
                 continue
-            g = gap_cut(doc, pb, (y1a + y0b) / 2, lab)
+            g = gap_cut(doc, pb, (y1a + y0b) / 2, lab, lines)
             if g is not None and y0a + 5 < g < y1b - 5 and abs(g - (y1a + y0b) / 2) < 20:
                 na.bands[ia] = (pa, y0a, g)
                 nb.bands[ib] = (pb, g, y1b)

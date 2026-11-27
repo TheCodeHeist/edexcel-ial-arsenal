@@ -224,13 +224,13 @@
       {
        "src": "maths/WFM02_2025_06_A/q2_b_ms_1.webp",
        "w": 1112,
-       "h": 424,
+       "h": 415,
        "region": {
         "page": 8,
         "x0": 32.9,
         "y0": 174.5,
         "x1": 566.1,
-        "y1": 377.6
+        "y1": 373
        }
       },
       {
@@ -250,7 +250,21 @@
      "kindGuessed": "calc"
     }
    ],
-   "check": "flagged"
+   "msNotes": [
+    {
+     "src": "maths/WFM02_2025_06_A/q2_notes.webp",
+     "w": 1112,
+     "h": 58,
+     "region": {
+      "page": 8,
+      "x0": 32.9,
+      "y0": 373,
+      "x1": 566.1,
+      "y1": 400.5
+     }
+    }
+   ],
+   "check": "machine"
   },
   {
    "id": "WFM02_2025_06_A_q3",
