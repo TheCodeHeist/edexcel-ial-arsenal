@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields' | 'graph' | 'network';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields' | 'graph' | 'network' | 'stats';
 
 export interface Tool {
   slug: string;
@@ -175,6 +175,18 @@ export const TOOLS: Tool[] = [
     topics: ['Curve sketching', 'Transformations', 'Parametric & polar', 'Implicit curves', 'Integration', '3D vectors & planes'],
     art: 'graph',
     href: '/maths/graph-lab/',
+    added: '2026-11-27',
+  },
+  {
+    slug: 'stats-lab',
+    subject: 'maths',
+    title: 'Stats Lab',
+    blurb: 'Every S1–S3 idea, visualised with Pearson Issue 2 tables: Normal, Binomial, Poisson and Uniform shading, S2 approximations with ±0.5 continuity corrections, hypothesis test critical regions and actual significance, χ² goodness-of-fit (with < 5 pooling) and contingency tables, draggable PMCC/regression/Spearman, box plots with outlier fences, Venn & Bayes trees, and the Central Limit Theorem.',
+    kind: 'Simulation',
+    units: ['WST01', 'WST02', 'WST03'],
+    topics: ['Normal distribution', 'Binomial & Poisson', 'S2 approximations', 'Hypothesis testing', 'Critical regions', 'PMCC & regression', 'Spearman’s rank', 'Box plots & outliers', 'Venn & Bayes trees', 'χ² tests', 'Central Limit Theorem'],
+    art: 'stats',
+    href: '/maths/stats-lab/',
     added: '2026-11-27',
   },
 ];

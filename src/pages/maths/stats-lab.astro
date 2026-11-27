@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/stats/App.svelte';
+import '../../sims/stats/stats.css';
+---
+<Sim title="Stats Lab" description="Interactive Edexcel IAL Statistics S1–S3 lab: Normal, Binomial & Poisson distributions with S2 continuity-corrected approximations, hypothesis tests (critical regions, actual significance, χ² goodness-of-fit & contingency), draggable PMCC/regression/Spearman, box plots & outliers, Venn & Bayes probability trees, and the Central Limit Theorem.">
+  <App client:only="svelte" />
+</Sim>

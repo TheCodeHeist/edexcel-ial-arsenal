@@ -149,6 +149,15 @@
       <circle cx={x} cy={y} r="6.5" fill="var(--solid)" stroke="var(--ink)" stroke-opacity=".8" stroke-width="2.2" />
     {/each}
     <circle cx="4" cy="4" r="6.5" fill="var(--amph)" stroke="var(--ink)" stroke-opacity=".8" stroke-width="2.2" />
+  {:else if name === 'stats'}
+    <!-- histogram bars under a normal bell curve with a shaded critical right tail -->
+    {#each [[-44, 14, 12], [-28, 30, 12], [-12, 46, 12], [4, 42, 12], [20, 22, 12]] as [x, h, w]}
+      <rect x={x} y={34 - h} width={w} height={h} rx="1.5" fill="color-mix(in srgb, var(--accent) 22%, var(--surf))" stroke="var(--accent)" stroke-width="1.6" />
+    {/each}
+    <path d="M18 34 L18 -4 C24 8 30 22 48 34 Z" fill="color-mix(in srgb, var(--redox) 42%, transparent)" stroke="none" />
+    <path d="M-50 34 C-32 34 -18 -34 0 -34 C18 -34 32 34 50 34" stroke="var(--cond)" stroke-width="2.8" />
+    <path d="M0 -38 V34" stroke="var(--amph)" stroke-width="1.8" stroke-dasharray="3 4" />
+    <path d="M-52 34 H52" stroke="var(--ink)" stroke-opacity=".55" stroke-width="2" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

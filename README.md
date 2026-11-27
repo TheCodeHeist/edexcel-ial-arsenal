@@ -70,6 +70,7 @@ Everything runs in your browser. No sign-ups, no ads, no paywalls, no "unlock pr
 |---|---|---|
 | 🕸️ | **[Decision Lab](https://ial-arsenal.thecodeheist.is-a.dev/maths/decision-lab/)** | Every D1 algorithm, stepped through the way the mark scheme wants it written: sorts and binary search, bin packing, Kruskal and Prim, Dijkstra on the exam's boxes, route inspection, TSP bounds, critical path with cascade charts, and linear programming. Turn on *Quiz me* to predict each step. *(WDM11)* |
 | 📈 | **[Graph Lab](https://ial-arsenal.thecodeheist.is-a.dev/maths/graph-lab/)** | 2D and 3D graphing powered by GeoGebra with Edexcel P1–P4 & FP1–FP3 presets, exact roots/turning-point/asymptote inspection, an exact "Test my equation" checker, and Kernel AI photo-to-graph plotting. *(WMA11–14, WFM01–03)* |
+| 📊 | **[Stats Lab](https://ial-arsenal.thecodeheist.is-a.dev/maths/stats-lab/)** | Normal, Binomial & Poisson distributions with S2 continuity-corrected approximations, hypothesis tests (critical regions, actual significance, χ² goodness-of-fit with `< 5` pooling & contingency), draggable regression/PMCC/Spearman, box plots & outliers, Venn & Bayes trees, and the Central Limit Theorem. *(WST01–03)* |
 
 Maths is a full subject here: its own page and unit map (P1–P4, FP1–FP3, M1–M3, S1–S3, D1), thousands of past-paper questions, and the formula book in the booklet. More tools will follow.
 
