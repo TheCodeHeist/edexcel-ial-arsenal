@@ -5,7 +5,7 @@ import type { SubjectId } from './subjects';
    href: a tool lives at src/pages/<subject>/<slug>.astro and is served at '/<subject>/<slug>/'. */
 
 export type ToolKind = 'Simulation' | 'Drill' | 'Reference' | 'Calculator';
-export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields' | 'graph' | 'network' | 'stats';
+export type ToolArt = 'tube' | 'sigil' | 'wave' | 'helix' | 'hex' | 'circuit' | 'projectile' | 'star' | 'atom' | 'ripple' | 'kinetics' | 'atoms' | 'energetics' | 'fields' | 'graph' | 'network' | 'stats' | 'acidbase';
 
 export interface Tool {
   slug: string;
@@ -80,6 +80,18 @@ export const TOOLS: Tool[] = [
     art: 'energetics',
     href: '/chemistry/energetics-lab/',
     added: '2026-11-24',
+  },
+  {
+    slug: 'acid-base-lab',
+    subject: 'chemistry',
+    title: 'Acid–Base Lab',
+    blurb: 'Acid–base equilibria and titrations in 3D: strong vs weak dissociation, Ka and Kw(T) pH calculations, all four titration curves with half-neutralisation pKa and indicator choice, a 3D burette bench on a white tile, live ethanoate and blood buffers, and conjugate pairs & salt hydrolysis.',
+    kind: 'Simulation',
+    units: ['WCH13', 'WCH14'],
+    topics: ['Strong & weak acids', 'Ka & pKa', 'Kw & temperature', 'Titration curves', 'Indicators', 'Burette & concordant titres', 'Buffers & blood pH', 'Salt hydrolysis'],
+    art: 'acidbase',
+    href: '/chemistry/acid-base-lab/',
+    added: '2026-11-28',
   },
   {
     slug: 'circuit-builder',

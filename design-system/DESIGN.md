@@ -218,6 +218,13 @@ Every colour is a CSS variable (`var(--accent)`, `var(--panel)` …). Never hard
 - **Vector colour conventions**: positive charge / North pole = red, negative charge / South pole / B-field = blue, current / velocity = amber, magnetic / centripetal force = green.
 - **Exam conventions**: data-sheet constants ($k = 8.99 \times 10^9\text{ N m}^2\text{ C}^{-2}$, $G = 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$, $e = 1.60 \times 10^{-19}\text{ C}$, $m_e = 9.11 \times 10^{-31}\text{ kg}$, $m_p = 1.67 \times 10^{-27}\text{ kg}$), SI units throughout (`V m⁻¹`, `N C⁻¹`, `N kg⁻¹`, `Wb`).
 
+## 9k · Chemistry rules (Acid–Base Lab)
+
+- **Same 3D engine & global perf integration.** Every 3D view (`strength3d.ts`, `burette3d.ts`, `buffers3d.ts`) extends `Stage3D` inside `View3D.svelte`, inheriting lazy bloom, resolution scaling, FPS cap and `FpsMeter`. All tab rules are scoped under `.ac-*` in `acidbase.css` and score progress is registered in `src/lib/progress.ts`.
+- **Every Topic 14 (WCH14) acid–base statement has a home**, plus WCH13 burette skills: Strong vs weak dissociation, $K_a$ and $K_w(T)$ (`#strength`), all four titration curves with half-neutralisation $\text{pH} = \text{p}K_a$ and indicator overlay bands (`#titration`), 3D burette bench on a white tile with concordant-titre table (`#burette`), live ethanoate and blood buffers (`#buffers`), Brønsted–Lowry conjugate pairs & salt hydrolysis (`#salts`), and Practice (`#practice`).
+- **White tile stays bright** under the 3D conical flask so phenolphthalein's faint pale pink and methyl orange's peach-orange end-points read clearly.
+- **Exam conventions**: $K_w = 1.00 \times 10^{-14}\text{ mol}^2\text{ dm}^{-6}$ at 298 K, pH reported to 2 decimal places, burette readings to 0.05 cm³, and weak-acid approximation shown beside the exact quadratic value.
+
 ## 10 · Voice
 
 Plain, exam-accurate and short. Status hints are one line, verbs first (“Drag or tap a compound and a reagent into the circle.”). Explanations say *why* in one sentence (“Reflux keeps the aldehyde in the flask until it is fully oxidised.”). Spellings follow the Edexcel specification: sulfur, aluminium, colourless, ethanoic acid. No emoji in the UI.

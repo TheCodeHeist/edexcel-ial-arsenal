@@ -1,0 +1,8 @@
+---
+import Sim from '../../layouts/Sim.astro';
+import App from '../../sims/acidbase/App.svelte';
+import '../../sims/acidbase/acidbase.css';
+---
+<Sim title="Acid–Base Lab" description="Strong vs weak acid dissociation in 3D, Ka and Kw(T) pH calculations, titration curves with half-neutralisation pKa and indicator choice, a 3D burette bench on a white tile, live ethanoate and blood buffers, and Brønsted–Lowry conjugate pairs and salt hydrolysis, for Edexcel IAL Chemistry Units 3 and 4.">
+  <App client:only="svelte" />
+</Sim>

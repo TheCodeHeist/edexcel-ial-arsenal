@@ -158,6 +158,15 @@
     <path d="M-50 34 C-32 34 -18 -34 0 -34 C18 -34 32 34 50 34" stroke="var(--cond)" stroke-width="2.8" />
     <path d="M0 -38 V34" stroke="var(--amph)" stroke-width="1.8" stroke-dasharray="3 4" />
     <path d="M-52 34 H52" stroke="var(--ink)" stroke-opacity=".55" stroke-width="2" />
+  {:else if name === 'acidbase'}
+    <!-- titration curve with equivalence dot, indicator band and a burette dripping into a flask -->
+    <rect x="-48" y="-20" width="56" height="12" rx="2" fill="color-mix(in srgb, var(--cond) 22%, transparent)" stroke="none" />
+    <path d="M-48 34 H8 M-48 -36 V34" stroke="var(--ink)" stroke-opacity=".45" stroke-width="1.8" />
+    <path d="M-46 24 Q-32 20 -22 14 L-18 -22 Q-8 -28 6 -30" stroke="var(--accent)" stroke-width="2.6" />
+    <circle cx="-20" cy="-4" r="3.4" fill="var(--redox)" />
+    <path d="M28 -44 V-12 M36 -44 V-12 M26 -20 H38" stroke="var(--ink)" stroke-opacity=".65" stroke-width="2" />
+    <circle cx="32" cy="-2" r="2.2" fill="var(--accent)" />
+    <path d="M26 8 L16 36 H48 L38 8 Z" stroke="var(--ink)" stroke-opacity=".7" stroke-width="2.2" fill="color-mix(in srgb, var(--cond) 38%, var(--surf))" />
   {:else}
     <!-- benzene hexagon -->
     <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" stroke="var(--ligand)" stroke-width="3" />

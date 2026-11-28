@@ -1,0 +1,67 @@
+/* Acid–Base Lab. Shared 3D frame, HUD chips, readings and layout come from Particle Lab (particles.css).
+   All tab-specific rules below are scoped under .ac-* classes and respect global flat-UI / text-scale tokens. */
+@import '../particles/particles.css';
+
+/* ===== shared SVG & equation box ===== */
+.ac-svg{width:100%;height:auto;display:block;font-family:var(--f-mono);overflow:visible}
+.ac-svg .ax{stroke:var(--ink);stroke-width:1.4}
+.ac-svg .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:3 4}
+.ac-svg .axlbl{font-size:11px;fill:var(--muted)}
+.ac-svg .sym{font-size:11px;font-weight:700;fill:var(--ink)}
+.ac-eq{margin:0 14px 12px;padding:10px 12px;border-radius:var(--r-sm);background:var(--raised);border:1px solid var(--rim);
+  font:600 13.5px/1.45 var(--f-mono);color:var(--ink);-webkit-user-select:text;user-select:text;overflow-wrap:anywhere}
+
+/* ===== Burette table ===== */
+.ac-bur .ac-tblwrap{overflow-x:auto;padding:0 14px 10px}
+.ac-bur .ac-tbl{width:100%;border-collapse:collapse;font:500 13px/1.35 var(--f-mono)}
+.ac-bur .ac-tbl th,.ac-bur .ac-tbl td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.ac-bur .ac-tbl th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+
+/* ===== Salts & conjugate pairs ===== */
+.ac-salts .ac-pairs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 14px 10px}
+.ac-salts .ac-pair{padding:10px 12px;border-radius:var(--r-sm);background:var(--raised);border:1px solid var(--rim);display:flex;flex-direction:column;gap:6px}
+.ac-salts .ac-badge{align-self:flex-start;font:700 10px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.08em;padding:4px 8px;border-radius:999px}
+.ac-salts .ac-badge.acid{background:color-mix(in srgb,var(--redox) 18%,transparent);color:var(--redox)}
+.ac-salts .ac-badge.base{background:color-mix(in srgb,var(--accent) 18%,transparent);color:var(--accent)}
+.ac-salts .ac-pline{font-size:14px;line-height:1.4}
+.ac-salts .ac-div{height:1px;background:var(--line);margin:14px 14px 4px}
+
+/* ===== Practice (3-column layout matching other labs) ===== */
+.ac-practice .qprompt{white-space:pre-line}
+.acfig{width:100%;max-width:320px;height:auto;font-family:var(--f-mono);overflow:visible}
+.acfig .ax{stroke:var(--ink);stroke-width:1.4}
+.acfig .curve{fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round}
+.acfig .ft{font-size:10px;fill:var(--muted)}
+.acfig .ft.mid{text-anchor:middle}
+.ac-practice .fig-q{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.ac-practice .fig-q small{color:var(--muted);font-size:12px}
+.ac-practice .big-glyph{font:700 54px var(--f-display);color:var(--accent)}
+.layout.practice.ac-practice{grid-template-columns:minmax(220px,260px) minmax(0,1fr) minmax(260px,340px)}
+.ac-practice .topics{padding-bottom:8px;position:sticky;top:12px}
+.ac-practice .tlist{list-style:none;margin:0;padding:2px 8px 4px;display:flex;flex-direction:column;gap:2px}
+.ac-practice .titem{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;border:0;background:none;
+  color:var(--ink);padding:9px 10px;border-radius:var(--r-sm);cursor:pointer;font:600 14px/1.25 var(--f-body)}
+.ac-practice .titem:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.ac-practice .titem[aria-pressed="true"]{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--ink);box-shadow:inset 3px 0 0 var(--accent)}
+.ac-practice .titem:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.ac-practice .tm{display:flex;justify-content:space-between;width:100%;gap:8px;font:600 10.5px/1.2 var(--f-mono);color:var(--muted);letter-spacing:.03em}
+.ac-practice .tm b{color:var(--accent);font-weight:700}
+.ac-practice .topicsel{display:none;padding:0 14px 12px}
+.ac-practice .topicsel .sel{width:100%}
+.ac-practice .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+@media (max-width:1180px){
+  .layout.practice.ac-practice{grid-template-columns:minmax(200px,230px) minmax(0,1fr)}
+  .ac-practice .topics{grid-row:span 2}
+  .ac-practice .figure{grid-column:2}
+}
+@media (max-width:900px){
+  .layout.practice.ac-practice{grid-template-columns:minmax(0,1fr)}
+  .ac-practice .figure{grid-column:auto}
+  .ac-practice .topics{position:static;grid-row:auto}
+  .ac-practice .tlist{display:none}
+  .ac-practice .topicsel{display:block}
+}
+@media (max-width:560px){
+  .ac-salts .ac-pairs{grid-template-columns:minmax(0,1fr)}
+}

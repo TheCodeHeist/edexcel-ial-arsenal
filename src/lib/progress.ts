@@ -29,6 +29,7 @@ const KEY_FOR: Record<string, string> = {
   'kinetics-lab': 'kinetics-score',
   'atoms-bonding-lab': 'atoms-score',
   'energetics-lab': 'energetics-score',
+  'acid-base-lab': 'acidbase-score',
   'circuit-builder': 'circuit-score',
   'projectile-lab': 'projectile-score',
   'star-lab': 'stars-score',
